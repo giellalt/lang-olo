@@ -1,0 +1,27 @@
+!!!!!!!!!!!!!!!!
+!! ADJECTIVES !!
+!!!!!!!!!!!!!!!!
+
+LEXICON Adj-Tag
++A: # ;
+
+!!!!!!!!!!!
+!! NOUNS !!
+!!!!!!!!!!!
+
+LEXICON N-Tag
++N: # ;
+
+LEXICON N-päivy
++N: # ;
+
+!!!!!!!!!!!!!!!!!!
+!! PROPER NOUNS !!
+!!!!!!!!!!!!!!!!!!
+
+LEXICON Prop-Tag
++Prop: N-Tag ;
+
+LEXICON Prop-oraskuu
++Prop: N-Tag ;
+
