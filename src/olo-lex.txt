@@ -23,9 +23,11 @@ Multichar_Symbols
 ! Number
 +Sg +Pl
 ! Case
-+Nom +Acc +Gen +Abl +Dat +Loc +Pros +Tra +Abe +Adc +Ins +Apr +Ine +Ill +Ela +Egr
-+Prl +Ter1 +Ter2 +Ter3 +Add1 +Add2
-+Apr1 +Apr2
++Nom +Acc +Gen +Abl +Dat +Loc +Pros +Tra +Abe +Adc +Instr +Apr +Ine +Ill +Ela +Egr
++Par ! Partitive
++Prl +Ter
+! +Ter2 +Ter3 +Add1 +Add2
+!+Apr1 +Apr2
 +EssInst
 +Ord
 +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
