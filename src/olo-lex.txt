@@ -43,7 +43,8 @@ Multichar_Symbols
 +PstI
 +PstII
 
-+Clt
++Clt/gi
++Clt/hAi
 !! Derivations
 +Der/Ta
 +Der/Te
@@ -54,9 +55,11 @@ Multichar_Symbols
 %>
 ! Protoletters for xfst
 %^DEVOICE
+%^WEAK ! weak grade
 QAQ1 QAO1 EH1 QEQ1 INE1 ZD1 ZS1 V1
-AO1 EI1 ZS1 ZD1  ! These are for developing underlying morphology rules
-D1 E1 U1 
+AO1 EI1 ZS1 ZD1 
+A1 ! These are for developing underlying morphology rules
+D1 E1 U1 O1
 
 ! Key lexicon
 
@@ -107,8 +110,9 @@ LEXICON ORDINAL
 
 
 LEXICON K
-+Clt:%>gi # "also" ;
-+Qst:а # ;
++Clt/gi:%>gi # "also / -kin" ;
++Clt/hAi:%>hA1i # " / -hAn" ;
++Qst:%>go # ;
 # ; 
 
 
