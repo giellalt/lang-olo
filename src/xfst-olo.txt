@@ -28,14 +28,23 @@ define Cns [ b | c | č | d | f | g | h | j | k | l
            | m | n | p | r | s | š | t | v | z | ž
            | M | N | P | R | S | Š | T | V | Z | Ž ] ;
 
-define Vws [ a | e | i | o | u | ü | ä | ö 
-           | A | E | I | O | U | Ü | Ä | Ö ] ;
+define FrontVws [ü | ä | ö | Ü | Ä | Ö ] ;
+
+define BackVws [a | o | u | A | O | U ] ;
+
+define NeutralVws [ e | i | E | I ] ;
+
+define Vws [ NeutralVws | FrontVws | BackVws ] ;
+
+define BackContext [ Cns | BackVws | NeutralVws ] ;
+
+define FrontContext [ Cns | FrontVws | NeutralVws ] ;
 
 define Softie [ ’ ] ; ! soft sign
 
 define Lts [ Cns | Vws | Softie ] ; !
 
-define Dummy %> ; 
+define Dummy [ %> | %^WEAK ] ; 
 
 
 
@@ -53,10 +62,24 @@ define VowelCorrelation [ V1 -> а || [ QAO1 ]  %> h _ ,,
 define StemFinalVowelLoss [ QAO1 -> 0 , QEQ -> 0 || _ .#. ] ;
  !€ ты>хА1на:тэхэна
 
+define WEAK [ n d -> n n || _ Vws %^WEAK ] ;
+
+define FrontHarmony [ U1 -> ü , O1 -> ö , A1 -> ä || FrontVws FrontContext* ( %^WEAK ) %> FrontContext* _ ] ;
+
+define BackHarmony [ U1 -> u , O1 -> o , A1 -> a || BackVws BackContext* ( %^WEAK ) %> BackContext* _ ] ;
+
 define QAO [ QAO1 -> a || _ %> [ n | d | t a | k s | l | h V1 | n n o | d m e | s ] ,,
             QAO1 -> o || _ %> i ] ;
 
-define S2SH     [ s -> š || i %> _ ] ;
+define a2o [ a -> o || [ .#. | Cns ] [ a ( u | i ) | e | i ] Cns+ _ ( %^WEAK ) %> i ] ;
+
+define a2Zero [ a -> 0 || _ ( %^WEAK ) %> e ] ;
+
+define e2Zero [ e -> 0 || _ ( %^WEAK ) %> i ] ;
+
+!define VowelHarmony [ A1 -> a || BackVws [ BackVws | Cns ]+ [BackVws | Cns | NeutralVws ]* %> [ t (t) ] _  ,,
+!                  A1 -> ä || FrontVws [ FrontVws | Cns ]+ [FrontVws | Cns | NeutralVws ]* %> [ t (t) ] _   ] ;
+
 
 define VOICING     [ t -> d , k -> g || [ Vws | n | l | r ] %> _ [ Vws ] ,,
                      z -> s || Vws _ %> [ t | k ] ] ; ! in verb stems
@@ -73,8 +96,14 @@ read regex [
 
     VowelCorrelation
 .o. StemFinalVowelLoss
+.o. WEAK
+.o. FrontHarmony
+.o. BackHarmony
 .o. QAO
-.o. S2SH
+.o. a2o
+.o. a2Zero
+.o. e2Zero
+!.o. VowelHarmony
 .o. VOICING
 .o. DEVOICE
 .o. DummyDeletion
