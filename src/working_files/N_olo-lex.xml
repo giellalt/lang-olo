@@ -4,9 +4,31 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lg>
+         <l>kieli</l>
+         <stg>
+            <st oloContlex="N-kieli">kiel</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>language</t>
+            </tg>
+            <tg lang="fin">
+               <t>kieli</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>päivy</l>
          <stg>
-            <st oloContlex="N-päivy">päivy</st>
+            <st oloContlex="N-päivy">päiv</st>
          </stg>
       </lg>
       <pos>N</pos>
