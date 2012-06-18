@@ -27,55 +27,38 @@ LEXICON N-Tag
 +N: SGCOMSUF ;
 +N: SGPRLSUF ;
 
-LEXICON N-päivy
-+N:y SGNOMSUF ;
-+N:ä SGGENSUF ;
-+N:ä SGACCSUF ;
-+N:ä SGPARTSUF ;
-+N:ä SGESSSUF ;
-+N:ä SGTRASUF ;
-+N:ä SGINESUF ;
-+N:ä SGELASUF ;
-+N:ä SGILLSUF ;
-+N:ä SGADESUF ;
-+N:ä SGABlSUF ;
-+N:ä SGALLSUF ;
-+N:ä SGABESUF ;
-+N:ä SGCOMSUF ;
-+N:ä SGPRLSUF ;
-+N:ä SGAPRSUF ;
-
-+N:ä PLNOMSUF ;
-+N:i PLGENSUF ;
-+N:i PLACCSUF ;
-+N:i PLPARTSUF ;
-+N:i PLESSSUF ;
-+N:i PLTRASUF ;
-+N:i PLINESUF ;
-+N:i PLELASUF ;
-+N:i PLILLSUF ;
-+N:i PLADESUF ;
-+N:i PLABlSUF ;
-+N:i PLALLSUF ;
-+N:i PLABESUF ;
-+N:i PLCOMSUF ;
-+N:i PLPRLSUF ;
-+N:i PLINSTRSUF ;
-+N:i PLAPRSUF ;
-
 LEXICON N-kieli
-+N:i SGNOMSUF ;
-+N:%>dy SGPARTSUF ;
++N+Sg:i SGNOMSUF ;
++N+Sg:%>dy SGPARTSUF ;
 +N:e Noun-NB ;
-+N:e PLNOMSUF ;
-+N:ie PLGENSUF ;
-+N:ii PLPARTSUF ;
-+N:i PLINSTRSUF ;
++N+Pl:ie PLGENSUF ;
++N+Pl:ii PLPARTSUF ;
++N+Pl:i PLINSTRSUF ;
+
+LEXICON N-pada
++N+Sg: SGNOMSUF ;
++N+Sg: SGPARTSUF ;
++N: Noun-NB ;
++N+Pl:i PLGENSUF ;
++N+Pl:i PLPARTSUF ;
++N+Pl:i PLINSTRSUF ;
+
+LEXICON N-päivy
++N+Sg:y SGNOMSUF ;
++N+Sg:ä SGPARTSUF ;
++N:ä Noun-NB ;
++N+Pl:%>ie PLGENSUF ; ! the plural comitative is declined here
++N+Pl:%>i PLPARTSUF ;
++N+Pl:%>i PLINSTRSUF ;
+
 
 LEXICON Noun-NB
+! These cases are symmetrically marked for number
 +Sg: Noun-NB-01 ;
 +Pl:%>i Noun-NB-01 ;
-
+! The next two share the same stem vowel
++Sg: SGGENSUF ; ! The singular comitative is declined here
++Pl: PLNOMSUF ;
  
 !!!!!!!!!!!!!!!!!!
 !! PROPER NOUNS !!
@@ -93,41 +76,42 @@ LEXICON SGNOMSUF
 +Acc: K ;
 
 LEXICON SGPARTSUF
-+Part:%> K ;
++Par:%>A1 K ;
 
 LEXICON SGGENSUF
-+Gen:%>n K ;
-+Acc:%>n K ;
-
++Gen:%^WEAK%>n K ;
++Acc:%^WEAK%>n K ;
++Com:%^WEAK%>nke K ;
 
 LEXICON PLNOMSUF
-+Nom:%>t K ;
-+Acc:%>t K ;
++Nom:%^WEAK%>t K ;
++Acc:%^WEAK%>t K ;
 
 LEXICON PLGENSUF
 +Gen:%>n K ;
++Com:%^WEAK%>nke K ;
+
 
 LEXICON PLPARTSUF
-+Part: K ;
++Par:%>A1 K ;
 
 LEXICON PLINSTRSUF
 +Instr:%>n K ;
 
 LEXICON Noun-NB-01
-+Ess:%>nnU1 K ;
-+Tra:%>kse K ;
-+Ine:%>s K ;
-+Ela:%>s K ;
-+Ela:%>späi K ;
++Ess:%^WEAK%>nnU1 K ;
++Tra:%^WEAK%>kse K ;
++Ine:%^WEAK%>s K ;
++Ela:%^WEAK%>s K ;
++Ela:%^WEAK%>späi K ;
 +Ill:%>h K ;
-+Ade:%>l K ;
-+Abl:%>l K ;
-+Abl:%>lpäi K ;
-+All:%>le K ;
-+Abe:%>ttA1h K ;
-+Abe:%>ttA1 K ;
-+Abe:%>tA1 K ;
-+Com:%>nke K ;
++Ade:%^WEAK%>l K ;
++Abl:%^WEAK%>l K ;
++Abl:%^WEAK%>lpäi K ;
++All:%^WEAK%>le K ;
++Abe:%^WEAK%>ttA1h K ;
++Abe:%^WEAK%>ttA1 K ;
++Abe:%^WEAK%>tA1 K ;
 +Prl:%>či K ;
-+Apr:%>lluo K ;
-
++Apr:%^WEAK%>llU1O1 K ;
++Ter:%^WEAK%>ssA1h K ;
