@@ -62,11 +62,19 @@ define VowelCorrelation [ V1 -> а || [ QAO1 ]  %> h _ ,,
 define StemFinalVowelLoss [ QAO1 -> 0 , QEQ -> 0 || _ .#. ] ;
  !€ ты>хА1на:тэхэна
 
-define WEAK [ n d -> n n || _ Vws %^WEAK ] ;
+define WEAK [ n d -> n n || _ Vws %^WEAK ,,
+              d -> 0 || Vws _ Vws %^WEAK ] ;
 
-define FrontHarmony [ U1 -> ü , O1 -> ö , A1 -> ä || FrontVws FrontContext* ( %^WEAK ) %> FrontContext* _ ] ;
+define FrontHarmony [ U1 -> ü , O1 -> ö , A1 -> ä || FrontVws [ FrontContext*  (%> i ) ( %^WEAK ) %> FrontContext* Cns+ |  FrontContext* Cns+  (%> i ) ( %^WEAK ) %> FrontContext* ] _ ,,
+            O1 -> ö || FrontVws [ FrontContext*  (%> i ) ( %^WEAK ) %> FrontContext* Cns+ |  FrontContext* Cns+  (%> i ) ( %^WEAK ) %> FrontContext* ] U1 _ ,,
+            A1 -> ä || ä %> _ ,,
+            A1 -> e || e %> _ ,,
+            A1 -> i || FrontVws  FrontContext* ( %^WEAK ) %>  i %> _ ] ;
 
-define BackHarmony [ U1 -> u , O1 -> o , A1 -> a || BackVws BackContext* ( %^WEAK ) %> BackContext* _ ] ;
+define BackHarmony [ U1 -> u , O1 -> o , A1 -> a || BackVws [ BackContext* ( %^WEAK ) (%> i ) %> BackContext* Cns+ |  BackContext* Cns+ ( %^WEAK ) (%> i ) %> BackContext* ] _ ,,
+            O1 -> o || BackVws [ BackContext*  (%> i ) ( %^WEAK ) %> BackContext* Cns+ |  BackContext* Cns+  (%> i ) ( %^WEAK ) %> BackContext* ] U1 _ ,,
+ A1 -> a || a %> _ ,,
+ A1 -> o || o %> _ ] ;
 
 define QAO [ QAO1 -> a || _ %> [ n | d | t a | k s | l | h V1 | n n o | d m e | s ] ,,
             QAO1 -> o || _ %> i ] ;
@@ -75,7 +83,7 @@ define a2o [ a -> o || [ .#. | Cns ] [ a ( u | i ) | e | i ] Cns+ _ ( %^WEAK ) %
 
 define a2Zero [ a -> 0 || _ ( %^WEAK ) %> e ] ;
 
-define e2Zero [ e -> 0 || _ ( %^WEAK ) %> i ] ;
+define e2Zero [ e -> 0 , ä -> 0 || _ ( %^WEAK ) %> i ] ;
 
 !define VowelHarmony [ A1 -> a || BackVws [ BackVws | Cns ]+ [BackVws | Cns | NeutralVws ]* %> [ t (t) ] _  ,,
 !                  A1 -> ä || FrontVws [ FrontVws | Cns ]+ [FrontVws | Cns | NeutralVws ]* %> [ t (t) ] _   ] ;
@@ -87,6 +95,14 @@ define VOICING     [ t -> d , k -> g || [ Vws | n | l | r ] %> _ [ Vws ] ,,
  !€ vali^DEVOICE>ta:valita
 
 define DEVOICE [ %^DEVOICE -> 0 ||  _ ] ;
+
+define o2u [ o -> u || _ ( %^WEAK ) %> o ,,
+             e -> i || _ ( %^WEAK ) %> e ] ;
+
+define SecondaryDiphthongsa2u [ a -> u ||  _ [ a  ( %^WEAK ) | %> a]  ,,
+             ä -> i ||  _  [ ä ( %^WEAK ) | %> ä ]  ,,
+             ä -> i ||  i %> _  ,,
+             e -> i || _ [ e ] ( %^WEAK ) | %> ä  ] ;
 
 define DummyDeletion Dummy -> 0 ;
 
@@ -106,6 +122,8 @@ read regex [
 !.o. VowelHarmony
 .o. VOICING
 .o. DEVOICE
+.o. o2u
+.o. SecondaryDiphthongsa2u
 .o. DummyDeletion
 ] ;
 
