@@ -15,55 +15,68 @@ LEXICON N-Tag
 +N: SGGENSUF ;
 +N: SGACCSUF ;
 +N: SGPARTSUF ;
++N: SGESSSUF ;
 +N: SGTRASUF ;
-+N: SGABESUF ;
-+N: SGCOMSUF ;
 +N: SGINESUF ;
-+N: SGILLSUF ;
 +N: SGELASUF ;
++N: SGILLSUF ;
 +N: SGADESUF ;
 +N: SGABlSUF ;
 +N: SGALLSUF ;
-+N: SGESSSUF ;
++N: SGABESUF ;
++N: SGCOMSUF ;
 +N: SGPRLSUF ;
-+N: SGAPR1SUF ;
-+N: SGAPR2SUF ;
-+N: SGEGRSUF ;
-+N: SGTER1SUF ;
-+N: SGTER2SUF ;
-+N: SGTER3SUF ;
-+N: SGADD1SUF ;
-+N: SGADD2SUF ;
 
 LEXICON N-päivy
 +N:y SGNOMSUF ;
 +N:ä SGGENSUF ;
 +N:ä SGACCSUF ;
 +N:ä SGPARTSUF ;
++N:ä SGESSSUF ;
 +N:ä SGTRASUF ;
-+N:ä SGABESUF ;
-+N:ä SGCOMSUF ;
 +N:ä SGINESUF ;
-+N:ä SGILLSUF ;
 +N:ä SGELASUF ;
++N:ä SGILLSUF ;
 +N:ä SGADESUF ;
 +N:ä SGABlSUF ;
 +N:ä SGALLSUF ;
++N:ä SGABESUF ;
++N:ä SGCOMSUF ;
++N:ä SGPRLSUF ;
++N:ä SGAPRSUF ;
 
 +N:ä PLNOMSUF ;
 +N:i PLGENSUF ;
 +N:i PLACCSUF ;
 +N:i PLPARTSUF ;
++N:i PLESSSUF ;
 +N:i PLTRASUF ;
-+N:i PLABESUF ;
-+N:i PLCOMSUF ;
 +N:i PLINESUF ;
-+N:i PLILLSUF ;
 +N:i PLELASUF ;
++N:i PLILLSUF ;
 +N:i PLADESUF ;
 +N:i PLABlSUF ;
 +N:i PLALLSUF ;
++N:i PLABESUF ;
++N:i PLCOMSUF ;
++N:i PLPRLSUF ;
++N:i PLINSTRSUF ;
++N:i PLAPRSUF ;
 
+LEXICON N-kieli
++N:i SGNOMSUF ;
++N:%>dy SGPARTSUF ;
++N:e Noun-NB ;
++N:e PLNOMSUF ;
++N:ie PLGENSUF ;
++N:ii PLPARTSUF ;
++N:i PLINSTRSUF ;
+
+LEXICON Noun-NB
++Sg: Noun-NB-01 ;
++Pl:%>i Noun-NB-01 ;
+
+ 
 !!!!!!!!!!!!!!!!!!
 !! PROPER NOUNS !!
 !!!!!!!!!!!!!!!!!!
@@ -76,80 +89,45 @@ LEXICON Prop-oraskuu
 
 
 LEXICON SGNOMSUF
-+Sg+Nom: K ;
++Nom: K ;
++Acc: K ;
+
+LEXICON SGPARTSUF
++Part:%> K ;
 
 LEXICON SGGENSUF
-+Sg+Gen:%>n K ;
-
-LEXICON SGACCSUF
-+Sg: K ;
-LEXICON SGPARTSUF
-+Sg: K ;
-
-LEXICON SGTRASUF
-+Sg+Tra:%>kse K ;
-
-LEXICON SGABESUF
-+Sg: K ;
-LEXICON SGCOMSUF
-+Sg: K ;
-LEXICON SGINESUF
-+Sg+Ine:%>s K ;
-
-LEXICON SGILLSUF
-+SgIll:%>h K ;
-
-LEXICON SGELASUF
-+Sg+Ela:%>späi K ;
-
-LEXICON SGADESUF
-+Sg+Ade:%>l K ;
-LEXICON SGABlSUF
-+Sg+Abl:%>lpäi K ;
-
-LEXICON SGALLSUF
-+Sg+All:%>le K ;
-
-LEXICON SGESSSUF
-+Sg+Ess:%>nny K ;
-
-LEXICON SGPRLSUF
-+Sg: K ;
-
-LEXICON SGEGRSUF
-+Sg: K ;
-LEXICON SGTERSUF
-+Sg: K ;
-
++Gen:%>n K ;
++Acc:%>n K ;
 
 
 LEXICON PLNOMSUF
-+Pl+Nom:%>t K ;
++Nom:%>t K ;
++Acc:%>t K ;
 
 LEXICON PLGENSUF
-+Pl+Gen:%>en K ;
-LEXICON PLACCSUF
-+Pl: K ;
++Gen:%>n K ;
+
 LEXICON PLPARTSUF
-+Pl+Part:%>ä K ;
-LEXICON PLTRASUF
-+Pl: K ;
-LEXICON PLABESUF
-+Pl: K ;
-LEXICON PLCOMSUF
-+Pl: K ;
-LEXICON PLINESUF
-+Pl+Ine:%>s K ;
-LEXICON PLILLSUF
-+Pl+Ill:%>h K ;
-LEXICON PLELASUF
-+Pl: K ;
-LEXICON PLADESUF
-+Pl+Ade:%>l K ;
-LEXICON PLABlSUF
-+Pl: K ;
-LEXICON PLALLSUF
-+Pl+All:%>le K ;
-LEXICON PLESSSUF
-+Pl+Ess:%>nny K ;
++Part: K ;
+
+LEXICON PLINSTRSUF
++Instr:%>n K ;
+
+LEXICON Noun-NB-01
++Ess:%>nnU1 K ;
++Tra:%>kse K ;
++Ine:%>s K ;
++Ela:%>s K ;
++Ela:%>späi K ;
++Ill:%>h K ;
++Ade:%>l K ;
++Abl:%>l K ;
++Abl:%>lpäi K ;
++All:%>le K ;
++Abe:%>ttA1h K ;
++Abe:%>ttA1 K ;
++Abe:%>tA1 K ;
++Com:%>nke K ;
++Prl:%>či K ;
++Apr:%>lluo K ;
 
