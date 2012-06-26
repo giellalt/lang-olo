@@ -28,7 +28,7 @@ define Cns [ b | c | č | d | f | g | h | j | k | l
            | m | n | p | r | s | š | t | v | z | ž
            | M | N | P | R | S | Š | T | V | Z | Ž ] ;
 
-define FrontVws [ü | ä | ö | Ü | Ä | Ö ] ;
+define FrontVws [ü | y | ä | ö | Ü | Y | Ä | Ö ] ;
 
 define BackVws [a | o | u | A | O | U ] ;
 
@@ -62,10 +62,23 @@ define VowelCorrelation [ V1 -> а || [ QAO1 ]  %> h _ ,,
 define StemFinalVowelLoss [ QAO1 -> 0 , QEQ -> 0 || _ .#. ] ;
  !€ ты>хА1на:тэхэна
 
-define WEAK [ n d -> n n || _ Vws %^WEAK ,,
+define WEAK [ n d -> n n , l d -> l l || _ Vws %^WEAK ,,
               d -> 0 || Vws _ Vws %^WEAK ] ;
 
-define FrontHarmony [ U1 -> ü , O1 -> ö , A1 -> ä || FrontVws [ FrontContext*  (%> i ) ( %^WEAK ) %> FrontContext* Cns+ |  FrontContext* Cns+  (%> i ) ( %^WEAK ) %> FrontContext* ] _ ,,
+define D2nlr [ d -> n || n %> _ ,,
+               d -> l || l %> _ ,,
+               d -> r || r %> _ ] ;
+! d might be substituted by D1
+
+define N2lr [ n -> l || l %> _ ,,
+              n -> r || r %> _ ] ;
+! n might be substituted by N1
+
+define FrontHarmonyInStem [ U1 -> y , O1 -> ö , A1 -> ä || [ .#. \[ BackVws ]* | FrontVws ] FrontContext*  Cns+ _ ] ;
+
+define BackHarmonyInStem [ U1 -> u , O1 -> o , A1 -> a || [ .#. \[ FrontVws ]* | BackVws ] BackContext*  Cns+ _ ] ;
+
+define FrontHarmony [ U1 -> y , O1 -> ö , A1 -> ä || [ .#. \[ BackVws ]* | FrontVws ] [ FrontContext*  (%> i ) ( %^WEAK ) %> FrontContext* Cns+ |  FrontContext* Cns+  (%> i ) ( %^WEAK ) %> FrontContext* ] _ ,,
             O1 -> ö || FrontVws [ FrontContext*  (%> i ) ( %^WEAK ) %> FrontContext* Cns+ |  FrontContext* Cns+  (%> i ) ( %^WEAK ) %> FrontContext* ] U1 _ ,,
             A1 -> ä || ä %> _ ,,
             A1 -> e || e %> _ ,,
@@ -104,6 +117,9 @@ define SecondaryDiphthongsa2u [ a -> u ||  _ [ a  ( %^WEAK ) | %> a]  ,,
              ä -> i ||  i %> _  ,,
              e -> i || _ [ e ] ( %^WEAK ) | %> ä  ] ;
 
+define Gradation [ k k -> 0 k , t t -> 0 t || _ Vws %^WEAK ] ;
+
+
 define DummyDeletion Dummy -> 0 ;
 
 
@@ -113,6 +129,10 @@ read regex [
     VowelCorrelation
 .o. StemFinalVowelLoss
 .o. WEAK
+.o. D2nlr
+.o. N2lr
+.o. FrontHarmonyInStem
+.o. BackHarmonyInStem
 .o. FrontHarmony
 .o. BackHarmony
 .o. QAO
@@ -124,6 +144,7 @@ read regex [
 .o. DEVOICE
 .o. o2u
 .o. SecondaryDiphthongsa2u
+.o. Gradation
 .o. DummyDeletion
 ] ;
 
