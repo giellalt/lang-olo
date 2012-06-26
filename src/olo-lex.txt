@@ -2,19 +2,21 @@ Multichar_Symbols
 
 ! POS
 +N +V +A 
-+Adv +CC +CS +Interj +ProN +Num
++Adv +CC +CS +Interj +ProN +Num +Po +Prep +Qnt
+
++Prop
 
 ! Verbal MSP
 +Prs +Fut +Prt +Prf +PrfIpf +HstPrf +PluPrf +HstPluPrf
 +Ind +Imp +Cond +Opt
-! Subject indices
-+Sx1Sg +Sx2Sg +Sx3Sg 
-+Sx1Du +Sx2Du +Sx3Du 
-+Sx1Pl +Sx2Pl +Sx3Pl 
-! Object indices
-+Ox1Sg +Ox2Sg +Ox3Sg 
-+Ox1Du +Ox2Du +Ox3Du 
-+Ox1Pl +Ox2Pl +Ox3Pl 
+! Subject conjugation
++ScSg1 +ScSg2 +ScSg3 
++ScDu1 +ScDu2 +ScDu3 
++ScPl1 +ScPl2 +ScPl3
+! Object conjugation
++Oc1Sg +Oc2Sg +Oc3Sg 
++Oc1Du +Oc2Du +Oc3Du 
++Oc1Pl +Oc2Pl +Oc3Pl 
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 +Inf
 +Pos +Neg
@@ -22,6 +24,7 @@ Multichar_Symbols
 ! Nominal MSP
 ! Number
 +Sg +Pl
+
 ! Case
 +Nom +Acc +Gen +Abl +Dat +Loc +Pros +Tra +Abe +Adc +Instr +Apr +Ine +Ill +Ela +Egr
 +Par ! Partitive
@@ -62,24 +65,28 @@ QAQ1 QAO1 EH1 QEQ1 INE1 ZD1 ZS1 V1
 AO1 EI1 ZS1 ZD1 
 A1 ! These are for developing underlying morphology rules
 D1 E1 U1 O1
+N1
 
 ! Key lexicon
 
 LEXICON Root
-A ; 	! ../../tmp
+A ; 	! ../../tmpout/A_olo-lex.xml
 Abbreviation ;                          ! abbr-olo-lex.txt
 !ABBR ;                                 ! ../../tmp/out/ABBR_olo-lex.xml           !2012-03-14
 Acronym ;                               ! acro-olo-lex.txt
 !ACRON ;                                ! ../../tmp/out/ACRON_olo-lex.xml          !2012-03-14
-ADV ;
+ADV ; ! ../../tmpout/ADV_olo-lex.xml
 N ;
 NUM ;
 V ;
 CONJ ;		! ../../tmp/out/CONJ_olo-lex.xml  
-SUBJUNCTION ;
-INTERJECTION ;
-NUMERAL ;
-PronRoot ;
+!!SUBJUNCTION ;
+INTERJ ;   ! ../../tmp/out/INTERJ_olo-lex.xml
+NUM ;  ! ../../tmp/out/NUM_olo-lex.xml
+PERS ;         ! ../../tmp/out/PERS_olo-lex.xml
+PREP ;         ! ../../tmp/out/PREP_olo-lex.xml
+PRON ;  ! ../../tmp/out/PRON_olo-lex.xml
+PROP ;  ! ../../tmp/out/PROP_olo-lex.xml
 POSTP ;         ! ../../tmp/out/POSTP_olo-lex.xml
 PUNCTUATION ;
 
@@ -88,6 +95,9 @@ PUNCTUATION ;
 ! I INCLUDE SOME SMALL LEXICA HERE
 ! WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
+LEXICON CONJ-Tag
+# ;
+
 LEXICON CcTag
 +Cc: # ;
  
@@ -95,7 +105,7 @@ LEXICON CsTag
 +Cs: # ;
  
 
-LEXICON INTERJECTION 
+LEXICON InterjTag
 +Interj: # ;
 
 LEXICON NUMERAL
@@ -123,6 +133,9 @@ LEXICON PUNCTUATION
 LEXICON PoTag
 +Po: # ; 
 
+LEXICON PrepTag
++Prep: # ; 
+
  
 LEXICON AdvTag
 +Adv: # ; 
@@ -138,9 +151,9 @@ LEXICON TempTag
 
 LEXICON CASESUF
 #; 
-LEXICON PRON
-#; 
+
 LEXICON DEM
 #; 
-LEXICON PERS
-#; 
+
+LEXICON ACRONDELIMITER
+# ;
