@@ -1,0 +1,16 @@
+!! Quantifier inflection
+!! ---------------
+!! Livvi quantifiers inflect for case.
+
+LEXICON NumTag
++Num: # ;
+
+LEXICON Num-kolme
++Num+Card: # ;
+
+LEXICON QntTag
++Qnt: # ;
+
+
+! vim: set ft=xfst-lexc:
+

@@ -3,14 +3,16 @@
 !! The UNDEFINED language proper nouns inflect in the same cases as regular
 !! nouns, but with a colon (':') as separator.
 
-LEXICON ProperNounCases
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-        -    Nouns  ;
+
+LEXICON Prop-Tag
++Prop: N-Tag ;
+
+LEXICON Prop-karjal
++Prop: N-karjal ;
+
+LEXICON Prop-kuu
++Prop: N-kuu ;
+
 
 ! vim: set ft=xfst-lexc:
 

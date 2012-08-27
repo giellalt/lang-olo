@@ -1,0 +1,17 @@
+!! Pronoun inflection
+!! ---------------
+!! Livvi pronouns inflect for case.
+
+LEXICON PersTag
++Pron+Pers: # ;
+
+
+LEXICON Pers-minä
++Pron+Pers: # ;
+
+LEXICON PronTag
++Pron: # ;
+
+
+! vim: set ft=xfst-lexc:
+
