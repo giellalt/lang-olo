@@ -1,0 +1,151 @@
+! This file is a script for the Xerox xfst interface.
+! It gives the morphophonological rules for Veps.
+
+
+! In this file, testcases are marked as follows:
+
+! space exclmark euro space upper:lower
+! Please add tests for eventual new rules or problems
+
+! To test: in kt/vep/src, do:
+! xfst -e "source xfst-vep.txt"
+! invert net
+! save s
+! quit
+! cat xfst-vep.txt | grep €|cut -d" " -f3|cut -d":" -f1|lookup s
+
+
+clear stack
+
+
+! Definition section !
+! ================== !
+
+echo << THE DEFININTIONS >>
+
+define Cns [ b | c | č | d | f | g | h | j | k | l 
+           | B | C | Č | D | F | G | H | J | K | L 
+           | m | n | p | r | s | š | t | v | z | ž
+           | M | N | P | R | S | Š | T | V | Z | Ž ] ;
+
+define FrontVws [ü | y | ä | ö | Ü | Y | Ä | Ö ] ;
+
+define BackVws [a | o | u | A | O | U ] ;
+
+define NeutralVws [ e | i | E | I ] ;
+
+define Vws [ NeutralVws | FrontVws | BackVws ] ;
+
+define BackContext [ Cns | BackVws | NeutralVws ] ;
+
+define FrontContext [ Cns | FrontVws | NeutralVws ] ;
+
+define Softie [ ’ ] ; ! soft sign
+
+define Lts [ Cns | Vws | Softie ] ; !
+
+define Dummy [ %> | %^WEAK ] ; 
+
+
+
+! Rule section !
+! ============ !
+
+echo << THE RULES >>
+
+
+define VowelCorrelation [ V1 -> а || [ QAO1 ]  %> h _ ,,
+                          V1 -> e || [ i ] %> h _ ,,
+                          V1 -> e || [ QEQ ]  %> h _  ,,
+                          V1 -> o || o %> h _   ] ; ! Vowel harmony
+
+define StemFinalVowelLoss [ QAO1 -> 0 , QEQ -> 0 || _ .#. ] ;
+ !€ ты>хА1на:тэхэна
+
+define WEAK [ n d -> n n , l d -> l l || _ Vws %^WEAK ,,
+              d -> 0 || Vws _ Vws %^WEAK ] ;
+
+define D2nlr [ d -> n || n %> _ ,,
+               d -> l || l %> _ ,,
+               d -> r || r %> _ ] ;
+! d might be substituted by D1
+
+define N2lr [ n -> l || l %> _ ,,
+              n -> r || r %> _ ] ;
+! n might be substituted by N1
+
+define FrontHarmonyInStem [ U1 -> y , O1 -> ö , A1 -> ä || [ .#. \[ BackVws ]* | FrontVws ] FrontContext*  Cns+ _ ] ;
+
+define BackHarmonyInStem [ U1 -> u , O1 -> o , A1 -> a || [ .#. \[ FrontVws ]* | BackVws ] BackContext*  Cns+ _ ] ;
+
+define FrontHarmony [ U1 -> y , O1 -> ö , A1 -> ä || [ .#. \[ BackVws ]* | FrontVws ] [ FrontContext*  (%> i ) ( %^WEAK ) %> FrontContext* Cns+ |  FrontContext* Cns+  (%> i ) ( %^WEAK ) %> FrontContext* ] _ ,,
+            O1 -> ö || FrontVws [ FrontContext*  (%> i ) ( %^WEAK ) %> FrontContext* Cns+ |  FrontContext* Cns+  (%> i ) ( %^WEAK ) %> FrontContext* ] U1 _ ,,
+            A1 -> ä || ä %> _ ,,
+            A1 -> e || e %> _ ,,
+            A1 -> i || FrontVws  FrontContext* ( %^WEAK ) %>  i %> _ ] ;
+
+define BackHarmony [ U1 -> u , O1 -> o , A1 -> a || BackVws [ BackContext* ( %^WEAK ) (%> i ) %> BackContext* Cns+ |  BackContext* Cns+ ( %^WEAK ) (%> i ) %> BackContext* ] _ ,,
+            O1 -> o || BackVws [ BackContext*  (%> i ) ( %^WEAK ) %> BackContext* Cns+ |  BackContext* Cns+  (%> i ) ( %^WEAK ) %> BackContext* ] U1 _ ,,
+ A1 -> a || a %> _ ,,
+ A1 -> o || o %> _ ] ;
+
+define QAO [ QAO1 -> a || _ %> [ n | d | t a | k s | l | h V1 | n n o | d m e | s ] ,,
+            QAO1 -> o || _ %> i ] ;
+
+define a2o [ a -> o || [ .#. | Cns ] [ a ( u | i ) | e | i ] Cns+ _ ( %^WEAK ) %> i ] ;
+
+define a2Zero [ a -> 0 || _ ( %^WEAK ) %> e ] ;
+
+define e2Zero [ e -> 0 , ä -> 0 || _ ( %^WEAK ) %> i ] ;
+
+!define VowelHarmony [ A1 -> a || BackVws [ BackVws | Cns ]+ [BackVws | Cns | NeutralVws ]* %> [ t (t) ] _  ,,
+!                  A1 -> ä || FrontVws [ FrontVws | Cns ]+ [FrontVws | Cns | NeutralVws ]* %> [ t (t) ] _   ] ;
+
+
+define VOICING     [ t -> d , k -> g || [ Vws | n | l | r ] %> _ [ Vws ] ,,
+                     z -> s || Vws _ %> [ t | k ] ] ; ! in verb stems
+ !€ sugi>ta:sugida
+ !€ vali^DEVOICE>ta:valita
+
+define DEVOICE [ %^DEVOICE -> 0 ||  _ ] ;
+
+define o2u [ o -> u || _ ( %^WEAK ) %> o ,,
+             e -> i || _ ( %^WEAK ) %> e ] ;
+
+define SecondaryDiphthongsa2u [ a -> u ||  _ [ a  ( %^WEAK ) | %> a]  ,,
+             ä -> i ||  _  [ ä ( %^WEAK ) | %> ä ]  ,,
+             ä -> i ||  i %> _  ,,
+             e -> i || _ [ e ] ( %^WEAK ) | %> ä  ] ;
+
+define Gradation [ k k -> 0 k , t t -> 0 t || _ Vws %^WEAK ] ;
+
+
+define DummyDeletion Dummy -> 0 ;
+
+
+
+read regex [
+
+    VowelCorrelation
+.o. StemFinalVowelLoss
+.o. WEAK
+.o. D2nlr
+.o. N2lr
+.o. FrontHarmonyInStem
+.o. BackHarmonyInStem
+.o. FrontHarmony
+.o. BackHarmony
+.o. QAO
+.o. a2o
+.o. a2Zero
+.o. e2Zero
+!.o. VowelHarmony
+.o. VOICING
+.o. DEVOICE
+.o. o2u
+.o. SecondaryDiphthongsa2u
+.o. Gradation
+.o. DummyDeletion
+] ;
+
+
