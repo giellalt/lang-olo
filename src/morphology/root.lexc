@@ -36,19 +36,25 @@ Multichar_Symbols
  +Use/-Spell 
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
+ +Sg +Pl
++Nom +Acc +Gen +Abl +Dat +Loc +Pros +Tra +Abe +Adc +Instr +Apr +Ine +Ill +Ela +Egr
++Par ! Partitive
++Prl +Ter
+
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
- +Comp +Superl
++Pos +Comp +Superl
 !! Numerals are classified under:
  +Attr +Card
  +Ord 
 !! Verb moods are:
  +Ind +Prs +Prt +Pot +Cond +Imprt
 !! Verb personal forms are:
+! Subject conjugation
++ScSg1 +ScSg2 +ScSg3 
++ScPl1 +ScPl2 +ScPl3
  +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
@@ -66,6 +72,8 @@ Multichar_Symbols
 
 !! Question and Focus particles:
  +Qst +Foc
++Clt/gi
++Clt/hAi
 
 
 !! Semantics are classified with
@@ -92,6 +100,11 @@ Multichar_Symbols
 !! source and target part-of-speech.
  +V→N +V→V +V→A
  +Der/xxx
++Der/Ta
++Der/Te
++Der/ma
++Der/Tu
++Der/IA
 
 
 !! Morphophonology
@@ -102,6 +115,14 @@ Multichar_Symbols
 
 !! And following triggers to control variation
  {front} {back}
+%>
+%^DEVOICE
+%^WEAK ! weak grade
+QAQ1 QAO1 EH1 QEQ1 INE1 ZD1 ZS1 V1
+AO1 EI1 ZS1 ZD1 
+A1 ! These are for developing underlying morphology rules
+D1 E1 U1 O1
+N1
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
@@ -119,6 +140,73 @@ LEXICON Root
 0   verbs   ;
 Abbreviation ;	! stems/abbr.lexc
 Acronym ;    	! stems/acro.lexc
+PUNCTUATION ;
+
+! I INCLUDE SOME SMALL LEXICA HERE
+! WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
+
+LEXICON CONJ-Tag
+# ;
+
+LEXICON CcTag
++Cc: # ;
+ 
+LEXICON CsTag
++Cs: # ;
+ 
+
+LEXICON InterjTag
++Interj: # ;
+
+LEXICON NUMERAL
++Num: # ;
+
+LEXICON NUMBERSUF
++Num: K;
++Num:%> CASESUF ;
++Num:%> ORDINAL ;
+
+LEXICON ORDINAL
++Ord:этӥ K;
+
+
+
+LEXICON K
++Clt/gi:%>gi # "also / -kin" ;
++Clt/hAi:%>hA1i # " / -hAn" ;
++Qst:%>go # ;
+# ; 
+
+
+LEXICON PUNCTUATION
+#; 
+LEXICON PoTag
++Po: # ; 
+
+LEXICON PrepTag
++Prep: # ; 
+
+ 
+LEXICON AdvTag
++Adv: # ; 
+
+LEXICON MannerTag
++Adv+Manner: K ;
+
+LEXICON SpatTag
++Adv+Spat: K ;
+
+LEXICON TempTag
++Adv+Temp: K ;
+
+LEXICON CASESUF
+#; 
+
+LEXICON DEM
+#; 
+
+LEXICON ACRONDELIMITER
+# ;
 
 
 ! vim: set ft=xfst-lexc:
