@@ -140,7 +140,8 @@ LEXICON Root
 0   verbs   ;
 Abbreviation ;	! stems/abbr.lexc
 Acronym ;    	! stems/acro.lexc
-PUNCTUATION ;
+Punctuation ;
+wordToNumeral ;
 
 ! I INCLUDE SOME SMALL LEXICA HERE
 ! WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
@@ -158,8 +159,8 @@ LEXICON CsTag
 LEXICON InterjTag
 +Interj: # ;
 
-LEXICON NUMERAL
-+Num: # ;
+!LEXICON NUMERAL
+!+Num: # ;
 
 LEXICON NUMBERSUF
 +Num: K;
@@ -178,8 +179,6 @@ LEXICON K
 # ; 
 
 
-LEXICON PUNCTUATION
-#; 
 LEXICON PoTag
 +Po: # ; 
 
