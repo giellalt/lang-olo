@@ -39,6 +39,7 @@ GENERATED_LEXC_SRCS=\
 			stems/interjections.lexc \
 			stems/nouns.lexc         \
 			stems/postpositions.lexc \
+			stems/prepositions.lexc \
 			stems/pronouns.lexc      \
 			stems/propernouns.lexc   \
 			stems/quantifiers.lexc   \
@@ -52,6 +53,7 @@ GT_XML_SRCS=\
 			stems/interjections.xml \
 			stems/nouns.xml         \
 			stems/postpositions.xml \
+			stems/prepositions.xml \
 			stems/pronouns.xml      \
 			stems/propernouns.xml   \
 			stems/quantifiers.xml   \
