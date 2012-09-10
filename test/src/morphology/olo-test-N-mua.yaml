@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../bin/olo-gen.hfstol
+    Morph: ../bin/olo.hfstol
+  xerox:
+    Gen: ../bin/iolo.fst
+    Morph: ../bin/olo.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - mua: # Noun 'land / maa' - full paradigm
+     mua+N+Sg+Nom: mua
+     mua+N+Sg+Gen: muan
+     mua+N+Sg+Acc: [mua, muan]
+     mua+N+Sg+Par: muadu
+     mua+N+Sg+Tra: muakse
+     mua+N+Sg+Abe: [muatta, muata, muattah]
+     mua+N+Sg+Com: muanke
+     mua+N+Sg+Ine: muas
+     mua+N+Sg+Ela: [muaspäi, muas]
+     mua+N+Sg+Ill: muah
+     mua+N+Sg+Ade: mual
+     mua+N+Sg+Abl: [mualpäi, mual]
+     mua+N+Sg+All: muale
+     mua+N+Sg+Ess: muannu
+     mua+N+Sg+Ter: muassah
+     mua+N+Sg+Apr: mualluo
+     mua+N+Pl+Nom: muat
+     mua+N+Pl+Gen: mualoin
+     mua+N+Pl+Acc: muat
+     mua+N+Pl+Par: mualoi
+     mua+N+Pl+Tra: mualoikse
+     mua+N+Pl+Abe: [mualoitta, mualoita, mualoittah]
+     mua+N+Pl+Com: mualoinke
+     mua+N+Pl+Ine: mualois
+     mua+N+Pl+Ela: [mualoispäi, mualois]
+     mua+N+Pl+Ill: mualoihe
+     mua+N+Pl+Ade: mualoil
+     mua+N+Pl+Abl: [mualoilpäi, mualoil]
+     mua+N+Pl+All: mualoile
+     mua+N+Pl+Ess: mualoinnu
+     mua+N+Pl+Inst: mualoin
+     mua+N+Pl+Apr: mualoilluo
+     mua+N+Sg+Nom+Clt/gi: muagi
+     mua+N+Sg+Gen+Clt/gi: muangi
+     mua+N+Sg+Acc+Clt/gi: [muagi, muangi]
+     mua+N+Sg+Par+Clt/gi: muadugi
+     mua+N+Sg+Tra+Clt/gi: muaksegi
+     mua+N+Sg+Abe+Clt/gi: [muattagi, muatagi, muattahgi]
+     mua+N+Sg+Com+Clt/gi: muankegi
+     mua+N+Sg+Ine+Clt/gi: muasgi
+     mua+N+Sg+Ela+Clt/gi: [muaspäigi, muasgi]
+     mua+N+Sg+Ill+Clt/gi: muahgi
+     mua+N+Sg+Ade+Clt/gi: mualgi
+     mua+N+Sg+Abl+Clt/gi: [mualpäigi, mualgi]
+     mua+N+Sg+All+Clt/gi: mualegi
+     mua+N+Sg+Ess+Clt/gi: muannugi
+     mua+N+Sg+Ter+Clt/gi: muassahgi
+     mua+N+Sg+Apr+Clt/gi: mualluogi
+     mua+N+Pl+Nom+Clt/gi: muatgi
+     mua+N+Pl+Gen+Clt/gi: mualoingi
+     mua+N+Pl+Acc+Clt/gi: muatgi
+     mua+N+Pl+Par+Clt/gi: mualoigi
+     mua+N+Pl+Tra+Clt/gi: mualoiksegi
+     mua+N+Pl+Abe+Clt/gi: [mualoittagi, mualoitagi, mualoittahgi]
+     mua+N+Pl+Com+Clt/gi: mualoinkegi
+     mua+N+Pl+Ine+Clt/gi: mualoisgi
+     mua+N+Pl+Ela+Clt/gi: [mualoispäigi, mualoisgi]
+     mua+N+Pl+Ill+Clt/gi: mualoihegi
+     mua+N+Pl+Ade+Clt/gi: mualoilgi
+     mua+N+Pl+Abl+Clt/gi: [mualoilpäigi, mualoilgi]
+     mua+N+Pl+All+Clt/gi: mualoilegi
+     mua+N+Pl+Ess+Clt/gi: mualoinnugi
+     mua+N+Pl+Inst+Clt/gi: mualoingi
+     mua+N+Pl+Apr+Clt/gi: mualoilluogi
