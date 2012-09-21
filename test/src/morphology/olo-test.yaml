@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../bin/olo-gen.hfstol
-    Morph: ../bin/olo.hfstol
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
   xerox:
-    Gen: ../bin/iolo.fst
-    Morph: ../bin/olo.fst
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
     App: lookup
 
 Tests:
