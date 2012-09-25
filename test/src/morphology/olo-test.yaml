@@ -1,0 +1,111 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
+  xerox:
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - päivy: # Noun 'day / päivä' - full paradigm
+     nado+N+Sg+Nom: nado
+     nado+N+Sg+Gen: nadon
+     nado+N+Sg+Acc: [nado, nadon]
+     nado+N+Sg+Part: nadod
+     nado+N+Sg+Tra: nadoks
+     nado+N+Sg+Abe: nadota
+     nado+N+Sg+Com: nadonke
+     nado+N+Sg+Ine: nados
+     nado+N+Sg+Ela: nadospäi
+     nado+N+Sg+Ill: nadoho
+     nado+N+Sg+Ade: nadol
+     nado+N+Sg+Abl: nadolpäi
+     nado+N+Sg+All: nadole
+     nado+N+Sg+EssInst: nadon
+     nado+N+Sg+Prl: nadodme
+     nado+N+Sg+Apr1: nadonno
+     nado+N+Sg+Apr2: nadonnoks
+     nado+N+Sg+Egr: nadonnopäi
+     nado+N+Sg+Ter1: nadohosai
+     nado+N+Sg+Ter2: nadolesai
+     nado+N+Sg+Ter3: nadossai
+     nado+N+Sg+Add1: nadohopäi
+     nado+N+Sg+Add2: nadolepäi
+
+     nado+N+Pl+Nom: nadod
+     nado+N+Pl+Gen: [nadoid'en, nadoiden]
+     nado+N+Pl+Acc: nadod
+     nado+N+Pl+Part: nadoid
+     nado+N+Pl+Tra: nadoikš
+     nado+N+Pl+Abe: nadoita
+     nado+N+Pl+Com: nadoidenke
+     nado+N+Pl+Ine: nadoiš
+     nado+N+Pl+Ela: nadoišpäi
+     nado+N+Pl+Ill: nadoihe
+     nado+N+Pl+Ade: nadoil
+     nado+N+Pl+Abl: nadoilpäi
+     nado+N+Pl+All: nadoile
+     nado+N+Pl+EssInst: nadoin
+     nado+N+Pl+Prl: nadoidme
+     nado+N+Pl+Apr1: nadoidenno
+     nado+N+Pl+Apr2: nadoidennoks
+     nado+N+Pl+Egr: nadoidennopäi
+     nado+N+Pl+Ter1: nadoihesai
+     nado+N+Pl+Ter2: nadoilesai
+     nado+N+Pl+Add1: nadoihepäi
+     nado+N+Pl+Add2: nadoilepäi
+
+     nado+N+Sg+Nom+Clt: nadoki
+     nado+N+Sg+Gen+Clt: nadonki
+     nado+N+Sg+Acc+Clt: [nadoki, nadonki]
+     nado+N+Sg+Part+Clt: nadodki
+     nado+N+Sg+Tra+Clt: nadokski
+     nado+N+Sg+Abe+Clt: nadotaki
+     nado+N+Sg+Com+Clt: nadonkeki
+     nado+N+Sg+Ine+Clt: nadoski
+     nado+N+Sg+Ela+Clt: nadospäiki
+     nado+N+Sg+Ill+Clt: nadohoki
+     nado+N+Sg+Ade+Clt: nadolki
+     nado+N+Sg+Abl+Clt: nadolpäiki
+     nado+N+Sg+All+Clt: nadoleki
+     nado+N+Sg+EssInst+Clt: nadonki
+     nado+N+Sg+Prl+Clt: nadodmeki
+     nado+N+Sg+Apr1+Clt: nadonnoki
+     nado+N+Sg+Apr2+Clt: nadonnokski
+     nado+N+Sg+Egr+Clt: nadonnopäiki
+     nado+N+Sg+Ter1+Clt: nadohosaiki
+     nado+N+Sg+Ter2+Clt: nadolesaiki
+     nado+N+Sg+Ter3+Clt: nadossaiki
+     nado+N+Sg+Add1+Clt: nadohopäiki
+     nado+N+Sg+Add2+Clt: nadolepäiki
+
+     nado+N+Pl+Nom+Clt: nadodki
+     nado+N+Pl+Gen+Clt: [nadoid'enki, nadoidenki]
+     nado+N+Pl+Acc+Clt: nadodki
+     nado+N+Pl+Part+Clt: nadoidki
+     nado+N+Pl+Tra+Clt: nadoikški
+     nado+N+Pl+Abe+Clt: nadoitaki
+     nado+N+Pl+Com+Clt: nadoidenkeki
+     nado+N+Pl+Ine+Clt: nadoiški
+     nado+N+Pl+Ela+Clt: nadoišpäiki
+     nado+N+Pl+Ill+Clt: nadoiheki
+     nado+N+Pl+Ade+Clt: nadoilki
+     nado+N+Pl+Abl+Clt: nadoilpäiki
+     nado+N+Pl+All+Clt: nadoileki
+     nado+N+Pl+EssInst+Clt: nadoinki
+     nado+N+Pl+Prl+Clt: nadoidmeki
+     nado+N+Pl+Apr1+Clt: nadoidennoki
+     nado+N+Pl+Apr2+Clt: nadoidennokski
+     nado+N+Pl+Egr+Clt: nadoidennopäiki
+     nado+N+Pl+Ter1+Clt: nadoihesaiki
+     nado+N+Pl+Ter2+Clt: nadoilesaiki
+     nado+N+Pl+Add1+Clt: nadoihepäiki
+     nado+N+Pl+Add2+Clt: nadoilepäiki
+  

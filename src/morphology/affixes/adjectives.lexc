@@ -1,0 +1,81 @@
+!! Adjective inflection
+!! --------------------
+!! Livvi adjectives compare.
+
+!! LEXICON Comparisons
+!! +A+pos:0        Cases   ;
+!! +A+cmp:er       Cases   ;
+!! +A+sup:est      Cases   ;
+
+LEXICON A-Tag
++A: # ;
+
+LEXICON A-huoletoi
++A+Sg:oi SGNOMSUF ;
++A+Sg:toma SGPARTSUF-A1 ; 
++A+Pl:tomie PLGENSUF ; 
++A+Pl:tomi PLPARTSUF ; 
++A+Der/MWN: N-huoletoi ; 
++N:toma A-NB ;
+
+LEXICON A-karjalaine
++A+Sg:ine SGNOMSUF ;
++A+Sg:s SGPARTSUF-dU1 ;
++A+Pl:zie PLGENSUF ;
++A+Pl:zii PLPARTSUF ;
++A+Pl:zi PLINSTRSUF ;
++A:ze A-NB-i ;
+
+LEXICON A-kieline
++A+Sg:ne SGNOMSUF ;
++A+Sg:s SGPARTSUF-dU1 ;
++A+Pl:zie PLGENSUF ;
++A+Pl:zii PLPARTSUF ;
++A+Pl:zi PLINSTRSUF ;
++A:ze Noun-NB-i ;
+
+LEXICON A-parembi
++A+Sg:i SGNOMSUF ;
++A+Sg:A1 SGPARTSUF-A1 ;
++A+Pl:ie PLGENSUF ;
++A+Pl:i PLPARTSUF ;
++A+Der/MWN: N-parembi ;
++N:A1 A-NB ;
+
+
+LEXICON A-NB-i
+! These cases are symmetrically marked for number
++Sg: A-NB-01 ;
++Pl:%>i A-NB-01 ;
+! The next two share the same stem vowel
++Sg: SGGENSUF ; ! The singular comitative is declined here
++Pl: PLNOMSUF ;
+
+LEXICON A-NB-loi
+! These cases are symmetrically marked for number
++Sg: A-NB-01 ;
++Pl:%>loi A-NB-01 ;
+! The next two share the same stem vowel
++Sg: SGGENSUF ; ! The singular comitative is declined here
++Pl: PLNOMSUF ;
+
+LEXICON A-NB-01
++Ess:%^WEAK%>nnU1 K ;
++Tra:%^WEAK%>kse K ;
++Ine:%^WEAK%>s K ;
++Ela:%^WEAK%>s K ;
++Ill:%>h K ;
++Ade:%^WEAK%>l K ;
++Abl:%^WEAK%>l K ;
++All:%^WEAK%>le K ;
++Abe:%^WEAK%>ttA1h K ;
++Use/Sub+Abe:%^WEAK%>ttA1 K ;
++Use/Sub+Abe:%^WEAK%>tA1 K ;
++Prl:%>či K ;
++Apr:%^WEAK%>llU1O1 K ;
++Ter:%^WEAK%>ssA1h K ;
+
+
+
+! vim: set ft=xfst-lexc:
+
