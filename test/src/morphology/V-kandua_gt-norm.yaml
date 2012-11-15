@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../bin/olo-gen.hfstol
+    Morph: ../bin/olo.hfstol
+  xerox:
+    Gen: ../bin/iolo.fst
+    Morph: ../bin/olo.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kandua: # Verb 'to carry / kantaa' - full paradigm
+     kandua+V+Ind+Prs+Sg1: kannan
+     kandua+V+Ind+Prs+Sg2: kannat
+     kandua+V+Ind+Prs+Sg3: kandau
+     kandua+V+Ind+Prs+Pl1: kannammo
+     kandua+V+Ind+Prs+Pl2: kannatto
+     kandua+V+Ind+Prs+Pl3: kannetah
+     kandua+V+Ind+Prs+ConNeg: kanna
+
+     kandua+V+Ind+Prt+Sg1: kannoin
+     kandua+V+Ind+Prt+Sg2: kannoit
+     kandua+V+Ind+Prt+Sg3: kandoi
+     kandua+V+Ind+Prt+Pl1: kannoimmo
+     kandua+V+Ind+Prt+Pl2: kannoitto
+     kandua+V+Ind+Prt+Pl3: kannettih
+     kandua+V+Ind+Prt+ConNeg: kandanuh
+     kandua+V+Ind+Prt+ConNeg+Pl3: kannettu
+
