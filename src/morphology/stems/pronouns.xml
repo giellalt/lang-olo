@@ -1,153 +1,2671 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-<entry><lg><l>buitekui</l><stg><st Contlex="PronTag">buitekui</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>muga</l><stg><st Contlex="PronTag">muga</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>ei</l><stg><st Contlex="PronTag">ei</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>ei ole</l><stg><st Contlex="PronTag">ei ole</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>eiga</l><stg><st Contlex="PronTag">eiga</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>eulo kunne</l><stg><st Contlex="PronTag">eulo kunne</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>eulo kus</l><stg><st Contlex="PronTag">eulo kus</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>ga</l><stg><st Contlex="PronTag">ga</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>gu</l><stg><st Contlex="PronTag">gu</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>gu</l><stg><st Contlex="PronTag">gu</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>vot</l><stg><st Contlex="PronTag">vot</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>hyö</l><stg><st Contlex="PronTag">hyö</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>häi</l><stg><st Contlex="PronTag">häi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>iče</l><stg><st Contlex="PronTag">iče</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>jalles</l><stg><st Contlex="PronTag">jalles</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sid</l><stg><st Contlex="PronTag">sid</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>toiči</l><stg><st Contlex="PronTag">toiči</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>jöngöi</l><stg><st Contlex="PronTag">jöngöi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>kallehestigo?</l><stg><st Contlex="PronTag">kallehestigo?</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>kel</l><stg><st Contlex="PronTag">kel</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>ken-ollou</l><stg><st Contlex="PronTag">ken-ollou</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>ken-tahto</l><stg><st Contlex="PronTag">ken-tahto</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>ken</l><stg><st Contlex="PronTag">ken</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>mi</l><stg><st Contlex="PronTag">mi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>kenen</l><stg><st Contlex="PronTag">kenen</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>keral</l><stg><st Contlex="PronTag">keral</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>keralle</l><stg><st Contlex="PronTag">keralle</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>kui</l><stg><st Contlex="PronTag">kui</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>midä</l><stg><st Contlex="PronTag">midä</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>mil</l><stg><st Contlex="PronTag">mil</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>kunne-ollou</l><stg><st Contlex="PronTag">kunne-ollou</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>kunne-tahto</l><stg><st Contlex="PronTag">kunne-tahto</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>kunnepäi</l><stg><st Contlex="PronTag">kunnepäi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>kunnie</l><stg><st Contlex="PronTag">kunnie</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>libo</l><stg><st Contlex="PronTag">libo</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>meile</l><stg><st Contlex="PronTag">meile</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>mi</l><stg><st Contlex="PronTag">mi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>midä-tahto</l><stg><st Contlex="PronTag">midä-tahto</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>mie</l><stg><st Contlex="PronTag">mie</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>migäli</l><stg><st Contlex="PronTag">migäli</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>mikse</l><stg><st Contlex="PronTag">mikse</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>mikse</l><stg><st Contlex="PronTag">mikse</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>mindäh</l><stg><st Contlex="PronTag">mindäh</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>milleh </l><stg><st Contlex="PronTag">milleh </st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>minulle</l><stg><st Contlex="PronTag">minulle</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>minun</l><stg><st Contlex="PronTag">minun</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>minuu</l><stg><st Contlex="PronTag">minuu</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <e>
+      <lg>
+         <l>buitekui</l>
+         <stg>
+            <st Contlex="PronTag">buitekui</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>muga</l>
+         <stg>
+            <st Contlex="PronTag">muga</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ei</l>
+         <stg>
+            <st Contlex="PronTag">ei</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ei ole</l>
+         <stg>
+            <st Contlex="PronTag">ei ole</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>eiga</l>
+         <stg>
+            <st Contlex="PronTag">eiga</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>eulo kunne</l>
+         <stg>
+            <st Contlex="PronTag">eulo kunne</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>eulo kus</l>
+         <stg>
+            <st Contlex="PronTag">eulo kus</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ga</l>
+         <stg>
+            <st Contlex="PronTag">ga</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>gu</l>
+         <stg>
+            <st Contlex="PronTag">gu</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>gu</l>
+         <stg>
+            <st Contlex="PronTag">gu</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vot</l>
+         <stg>
+            <st Contlex="PronTag">vot</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>hyö</l>
+         <stg>
+            <st Contlex="PronTag">hyö</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>häi</l>
+         <stg>
+            <st Contlex="PronTag">häi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>iče</l>
+         <stg>
+            <st Contlex="PronTag">iče</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jalles</l>
+         <stg>
+            <st Contlex="PronTag">jalles</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sid</l>
+         <stg>
+            <st Contlex="PronTag">sid</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>toiči</l>
+         <stg>
+            <st Contlex="PronTag">toiči</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jöngöi</l>
+         <stg>
+            <st Contlex="PronTag">jöngöi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kallehestigo?</l>
+         <stg>
+            <st Contlex="PronTag">kallehestigo?</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kel</l>
+         <stg>
+            <st Contlex="PronTag">kel</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ken-ollou</l>
+         <stg>
+            <st Contlex="PronTag">ken-ollou</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ken-tahto</l>
+         <stg>
+            <st Contlex="PronTag">ken-tahto</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ken</l>
+         <stg>
+            <st Contlex="PronTag">ken</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mi</l>
+         <stg>
+            <st Contlex="PronTag">mi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kenen</l>
+         <stg>
+            <st Contlex="PronTag">kenen</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>keral</l>
+         <stg>
+            <st Contlex="PronTag">keral</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>keralle</l>
+         <stg>
+            <st Contlex="PronTag">keralle</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kui</l>
+         <stg>
+            <st Contlex="PronTag">kui</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>midä</l>
+         <stg>
+            <st Contlex="PronTag">midä</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mil</l>
+         <stg>
+            <st Contlex="PronTag">mil</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kunne-ollou</l>
+         <stg>
+            <st Contlex="PronTag">kunne-ollou</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kunne-tahto</l>
+         <stg>
+            <st Contlex="PronTag">kunne-tahto</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kunnepäi</l>
+         <stg>
+            <st Contlex="PronTag">kunnepäi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kunnie</l>
+         <stg>
+            <st Contlex="PronTag">kunnie</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>libo</l>
+         <stg>
+            <st Contlex="PronTag">libo</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>meile</l>
+         <stg>
+            <st Contlex="PronTag">meile</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mi</l>
+         <stg>
+            <st Contlex="PronTag">mi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>midä-tahto</l>
+         <stg>
+            <st Contlex="PronTag">midä-tahto</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mie</l>
+         <stg>
+            <st Contlex="PronTag">mie</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>migäli</l>
+         <stg>
+            <st Contlex="PronTag">migäli</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mikse</l>
+         <stg>
+            <st Contlex="PronTag">mikse</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mikse</l>
+         <stg>
+            <st Contlex="PronTag">mikse</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mindäh</l>
+         <stg>
+            <st Contlex="PronTag">mindäh</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>milleh </l>
+         <stg>
+            <st Contlex="PronTag">milleh</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>minulle</l>
+         <stg>
+            <st Contlex="PronTag">minulle</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>minun</l>
+         <stg>
+            <st Contlex="PronTag">minun</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>minuu</l>
+         <stg>
+            <st Contlex="PronTag">minuu</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
       <lg>
          <l>minä</l>
          <stg>
             <st Contlex="Pers-minä">min</st>
          </stg>
       </lg>
-      <pos>PERS</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>I</t>
-            </tg>
-            <tg lang="fin">
-               <t>minä</t>
-            </tg>
-         </mg>
-      </e>
-   </entry>
-<entry><lg><l>mistöi</l><stg><st Contlex="PronTag">mistöi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>molembat</l><stg><st Contlex="PronTag">molembat</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>mollei</l><stg><st Contlex="PronTag">mollei</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>myö</l><stg><st Contlex="PronTag">myö</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>nenne</l><stg><st Contlex="PronTag">nenne</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>net</l><stg><st Contlex="PronTag">net</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>netai</l><stg><st Contlex="PronTag">netai</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>neče</l><stg><st Contlex="PronTag">neče</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>netualleh</l><stg><st Contlex="PronTag">netualleh</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>netuane</l><stg><st Contlex="PronTag">netuane</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>netuas</l><stg><st Contlex="PronTag">netuas</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>netäs</l><stg><st Contlex="PronTag">netäs</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>nečiz</l><stg><st Contlex="PronTag">nečiz</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>nečie</l><stg><st Contlex="PronTag">nečie</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sih</l><stg><st Contlex="PronTag">sih</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>tuo</l><stg><st Contlex="PronTag">tuo</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>nečilleh</l><stg><st Contlex="PronTag">nečilleh</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>nečine</l><stg><st Contlex="PronTag">nečine</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sih</l><stg><st Contlex="PronTag">sih</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sinne</l><stg><st Contlex="PronTag">sinne</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>ni mi</l><stg><st Contlex="PronTag">ni mi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>ni mistöi</l><stg><st Contlex="PronTag">ni mistöi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>nikudai</l><stg><st Contlex="PronTag">nikudai</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>nikus</l><stg><st Contlex="PronTag">nikus</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>nikuspäi</l><stg><st Contlex="PronTag">nikuspäi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>nimidä</l><stg><st Contlex="PronTag">nimidä</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>nämmä</l><stg><st Contlex="PronTag">nämmä</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>peräs</l><stg><st Contlex="PronTag">peräs</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>piäl</l><stg><st Contlex="PronTag">piäl</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>puuttuu (ken p.)</l><stg><st Contlex="PronTag">puuttuu (ken p.)</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>puuttuu (kui p.)</l><stg><st Contlex="PronTag">puuttuu (kui p.)</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>puuttuu (kus p.)</l><stg><st Contlex="PronTag">puuttuu (kus p.)</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>samanmoine</l><stg><st Contlex="PronTag">samanmoine</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>se</l><stg><st Contlex="PronTag">se</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>tämä</l><stg><st Contlex="PronTag">tämä</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>tuo</l><stg><st Contlex="PronTag">tuo</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sego</l><stg><st Contlex="PronTag">sego</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>semmoine</l><stg><st Contlex="PronTag">semmoine</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>semmoine</l><stg><st Contlex="PronTag">semmoine</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>tämänmoine</l><stg><st Contlex="PronTag">tämänmoine</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sendäh</l><stg><st Contlex="PronTag">sendäh</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>senäi</l><stg><st Contlex="PronTag">senäi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sežo</l><stg><st Contlex="PronTag">sežo</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sidä</l><stg><st Contlex="PronTag">sidä</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sie</l><stg><st Contlex="PronTag">sie</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sinä</l><stg><st Contlex="PronTag">sinä</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sigäli</l><stg><st Contlex="PronTag">sigäli</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sih</l><stg><st Contlex="PronTag">sih</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sillo</l><stg><st Contlex="PronTag">sillo</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sinule</l><stg><st Contlex="PronTag">sinule</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sinnembä</l><stg><st Contlex="PronTag">sinnembä</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sinnembäine</l><stg><st Contlex="PronTag">sinnembäine</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sinun</l><stg><st Contlex="PronTag">sinun</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sinuu</l><stg><st Contlex="PronTag">sinuu</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sinäpäin</l><stg><st Contlex="PronTag">sinäpäin</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>tagah</l><stg><st Contlex="PronTag">tagah</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>tagah</l><stg><st Contlex="PronTag">tagah</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>taganpäi</l><stg><st Contlex="PronTag">taganpäi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>tagači</l><stg><st Contlex="PronTag">tagači</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>tuakse</l><stg><st Contlex="PronTag">tuakse</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>tyveh</l><stg><st Contlex="PronTag">tyveh</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>työ</l><stg><st Contlex="PronTag">työ</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>tänne</l><stg><st Contlex="PronTag">tänne</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>tännepäi</l><stg><st Contlex="PronTag">tännepäi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>uaže</l><stg><st Contlex="PronTag">uaže</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>vaiku</l><stg><st Contlex="PronTag">vaiku</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>valdua</l><stg><st Contlex="PronTag">valdua</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>vaste-vai</l><stg><st Contlex="PronTag">vaste-vai</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>viereh</l><stg><st Contlex="PronTag">viereh</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>viereh</l><stg><st Contlex="PronTag">viereh</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>vieres</l><stg><st Contlex="PronTag">vieres</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>vikse</l><stg><st Contlex="PronTag">vikse</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>vuoh</l><stg><st Contlex="PronTag">vuoh</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>vähilleh</l><stg><st Contlex="PronTag">vähilleh</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>yli</l><stg><st Contlex="PronTag">yli</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>ynnä</l><stg><st Contlex="PronTag">ynnä</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>äski</l><stg><st Contlex="PronTag">äski</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>mi</l><stg><st Contlex="PronTag">mi</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>midä</l><stg><st Contlex="PronTag">midä</st></stg></lg><pos>PRON</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
+      <pos>PRON-PERS</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>I</t>
+         </tg>
+         <tg lang="fin">
+            <t>minä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mistöi</l>
+         <stg>
+            <st Contlex="PronTag">mistöi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>molembat</l>
+         <stg>
+            <st Contlex="PronTag">molembat</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mollei</l>
+         <stg>
+            <st Contlex="PronTag">mollei</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>myö</l>
+         <stg>
+            <st Contlex="PronTag">myö</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>nenne</l>
+         <stg>
+            <st Contlex="PronTag">nenne</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>net</l>
+         <stg>
+            <st Contlex="PronTag">net</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>netai</l>
+         <stg>
+            <st Contlex="PronTag">netai</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>neče</l>
+         <stg>
+            <st Contlex="PronTag">neče</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>netualleh</l>
+         <stg>
+            <st Contlex="PronTag">netualleh</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>netuane</l>
+         <stg>
+            <st Contlex="PronTag">netuane</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>netuas</l>
+         <stg>
+            <st Contlex="PronTag">netuas</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>netäs</l>
+         <stg>
+            <st Contlex="PronTag">netäs</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>nečiz</l>
+         <stg>
+            <st Contlex="PronTag">nečiz</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>nečie</l>
+         <stg>
+            <st Contlex="PronTag">nečie</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sih</l>
+         <stg>
+            <st Contlex="PronTag">sih</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tuo</l>
+         <stg>
+            <st Contlex="PronTag">tuo</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>nečilleh</l>
+         <stg>
+            <st Contlex="PronTag">nečilleh</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>nečine</l>
+         <stg>
+            <st Contlex="PronTag">nečine</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sih</l>
+         <stg>
+            <st Contlex="PronTag">sih</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sinne</l>
+         <stg>
+            <st Contlex="PronTag">sinne</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ni mi</l>
+         <stg>
+            <st Contlex="PronTag">ni mi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ni mistöi</l>
+         <stg>
+            <st Contlex="PronTag">ni mistöi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>nikudai</l>
+         <stg>
+            <st Contlex="PronTag">nikudai</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>nikus</l>
+         <stg>
+            <st Contlex="PronTag">nikus</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>nikuspäi</l>
+         <stg>
+            <st Contlex="PronTag">nikuspäi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>nimidä</l>
+         <stg>
+            <st Contlex="PronTag">nimidä</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>nämmä</l>
+         <stg>
+            <st Contlex="PronTag">nämmä</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>peräs</l>
+         <stg>
+            <st Contlex="PronTag">peräs</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>piäl</l>
+         <stg>
+            <st Contlex="PronTag">piäl</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>puuttuu (ken p.)</l>
+         <stg>
+            <st Contlex="PronTag">puuttuu (ken p.)</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>puuttuu (kui p.)</l>
+         <stg>
+            <st Contlex="PronTag">puuttuu (kui p.)</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>puuttuu (kus p.)</l>
+         <stg>
+            <st Contlex="PronTag">puuttuu (kus p.)</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>samanmoine</l>
+         <stg>
+            <st Contlex="PronTag">samanmoine</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>se</l>
+         <stg>
+            <st Contlex="PronTag">se</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tämä</l>
+         <stg>
+            <st Contlex="PronTag">tämä</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tuo</l>
+         <stg>
+            <st Contlex="PronTag">tuo</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sego</l>
+         <stg>
+            <st Contlex="PronTag">sego</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>semmoine</l>
+         <stg>
+            <st Contlex="PronTag">semmoine</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>semmoine</l>
+         <stg>
+            <st Contlex="PronTag">semmoine</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tämänmoine</l>
+         <stg>
+            <st Contlex="PronTag">tämänmoine</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sendäh</l>
+         <stg>
+            <st Contlex="PronTag">sendäh</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>senäi</l>
+         <stg>
+            <st Contlex="PronTag">senäi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sežo</l>
+         <stg>
+            <st Contlex="PronTag">sežo</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sidä</l>
+         <stg>
+            <st Contlex="PronTag">sidä</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sie</l>
+         <stg>
+            <st Contlex="PronTag">sie</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sinä</l>
+         <stg>
+            <st Contlex="PronTag">sinä</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sigäli</l>
+         <stg>
+            <st Contlex="PronTag">sigäli</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sih</l>
+         <stg>
+            <st Contlex="PronTag">sih</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sillo</l>
+         <stg>
+            <st Contlex="PronTag">sillo</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sinule</l>
+         <stg>
+            <st Contlex="PronTag">sinule</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sinnembä</l>
+         <stg>
+            <st Contlex="PronTag">sinnembä</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sinnembäine</l>
+         <stg>
+            <st Contlex="PronTag">sinnembäine</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sinun</l>
+         <stg>
+            <st Contlex="PronTag">sinun</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sinuu</l>
+         <stg>
+            <st Contlex="PronTag">sinuu</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sinäpäin</l>
+         <stg>
+            <st Contlex="PronTag">sinäpäin</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tagah</l>
+         <stg>
+            <st Contlex="PronTag">tagah</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tagah</l>
+         <stg>
+            <st Contlex="PronTag">tagah</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>taganpäi</l>
+         <stg>
+            <st Contlex="PronTag">taganpäi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tagači</l>
+         <stg>
+            <st Contlex="PronTag">tagači</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tuakse</l>
+         <stg>
+            <st Contlex="PronTag">tuakse</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tyveh</l>
+         <stg>
+            <st Contlex="PronTag">tyveh</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>työ</l>
+         <stg>
+            <st Contlex="PronTag">työ</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tänne</l>
+         <stg>
+            <st Contlex="PronTag">tänne</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tännepäi</l>
+         <stg>
+            <st Contlex="PronTag">tännepäi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>uaže</l>
+         <stg>
+            <st Contlex="PronTag">uaže</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vaiku</l>
+         <stg>
+            <st Contlex="PronTag">vaiku</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>valdua</l>
+         <stg>
+            <st Contlex="PronTag">valdua</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vaste-vai</l>
+         <stg>
+            <st Contlex="PronTag">vaste-vai</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>viereh</l>
+         <stg>
+            <st Contlex="PronTag">viereh</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>viereh</l>
+         <stg>
+            <st Contlex="PronTag">viereh</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vieres</l>
+         <stg>
+            <st Contlex="PronTag">vieres</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vikse</l>
+         <stg>
+            <st Contlex="PronTag">vikse</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vuoh</l>
+         <stg>
+            <st Contlex="PronTag">vuoh</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vähilleh</l>
+         <stg>
+            <st Contlex="PronTag">vähilleh</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>yli</l>
+         <stg>
+            <st Contlex="PronTag">yli</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ynnä</l>
+         <stg>
+            <st Contlex="PronTag">ynnä</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>äski</l>
+         <stg>
+            <st Contlex="PronTag">äski</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mi</l>
+         <stg>
+            <st Contlex="PronTag">mi</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>midä</l>
+         <stg>
+            <st Contlex="PronTag">midä</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
 </r>

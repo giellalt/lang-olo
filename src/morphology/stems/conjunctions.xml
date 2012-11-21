@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <entry>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <e>
       <lg>
          <l>da</l>
          <stg>
@@ -10,24 +10,142 @@
          </stg>
       </lg>
       <pos>CC</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>and</t>
-            </tg>
-            <tg lang="fin">
-               <t>ja</t>
-            </tg>
-         </mg>
-      </e>
-   </entry>
-<entry><lg><l>kui</l><stg><st Contlex="CsTag">kui</st></stg></lg><pos>CONJ</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>sendäh</l><stg><st Contlex="CONJ-Tag">sendäh</st></stg></lg><pos>CONJ</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>muga že</l><stg><st Contlex="CONJ-Tag">muga že</st></stg></lg><pos>CONJ</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>vie</l><stg><st Contlex="CONJ-Tag">vie</st></stg></lg><pos>CONJ</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>što</l><stg><st Contlex="CsTag">što</st></stg></lg><pos>CS</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
-<entry><lg><l>štobi</l><stg><st Contlex="CsTag">štobi</st></stg></lg><pos>CS</pos><e><mg><m><head></head><defNative></defNative></m><tg lang="eng"><t></t></tg><tg lang="fin"><t></t></tg></mg></e></entry>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>and</t>
+         </tg>
+         <tg lang="fin">
+            <t>ja</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kui</l>
+         <stg>
+            <st Contlex="CsTag">kui</st>
+         </stg>
+      </lg>
+      <pos>CONJ</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sendäh</l>
+         <stg>
+            <st Contlex="CONJ-Tag">sendäh</st>
+         </stg>
+      </lg>
+      <pos>CONJ</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>muga že</l>
+         <stg>
+            <st Contlex="CONJ-Tag">muga že</st>
+         </stg>
+      </lg>
+      <pos>CONJ</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vie</l>
+         <stg>
+            <st Contlex="CONJ-Tag">vie</st>
+         </stg>
+      </lg>
+      <pos>CONJ</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>što</l>
+         <stg>
+            <st Contlex="CsTag">što</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>štobi</l>
+         <stg>
+            <st Contlex="CsTag">štobi</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
 </r>
