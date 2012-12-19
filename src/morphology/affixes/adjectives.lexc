@@ -7,26 +7,26 @@
 !! +A+cmp:er       Cases   ;
 !! +A+sup:est      Cases   ;
 
-LEXICON A-Tag
+LEXICON AdjTag
 +A: # ;
 
-LEXICON A-huoletoi
+LEXICON Adj-huoletoi
 +A+Sg:oi SGNOMSUF ;
 +A+Sg:toma SGPARTSUF-A1 ; 
 +A+Pl:tomie PLGENSUF ; 
 +A+Pl:tomi PLPARTSUF ; 
 +A+Der/MWN: N-huoletoi ; 
-+N:toma A-NB-i ; !2012-09-27 unknown -loi vs -i
++N:toma Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
-LEXICON A-karjalaine
+LEXICON Adj-karjalaine
 +A+Sg:ine SGNOMSUF ;
 +A+Sg:s SGPARTSUF-dU1 ;
 +A+Pl:zie PLGENSUF ;
 +A+Pl:zii PLPARTSUF ;
 +A+Pl:zi PLINSTRSUF ;
-+A:ze A-NB-i ;
++A:ze Adj-NB-i ;
 
-LEXICON A-kieline
+LEXICON Adj-kieline
 +A+Sg:ne SGNOMSUF ;
 +A+Sg:s SGPARTSUF-dU1 ;
 +A+Pl:zie PLGENSUF ;
@@ -34,32 +34,32 @@ LEXICON A-kieline
 +A+Pl:zi PLINSTRSUF ;
 +A:ze Noun-NB-i ;
 
-LEXICON A-parembi
+LEXICON Adj-parembi
 +A+Sg:i SGNOMSUF ;
 +A+Sg:A1 SGPARTSUF-A1 ;
 +A+Pl:ie PLGENSUF ;
 +A+Pl:i PLPARTSUF ;
 +A+Der/MWN: N-parembi ;
-+N:A1 A-NB-i ; !2012-09-27 unknown -loi vs -i
++N:A1 Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
 
-LEXICON A-NB-i
+LEXICON Adj-NB-i
 ! These cases are symmetrically marked for number
-+Sg: A-NB-01 ;
-+Pl:%>i A-NB-01 ;
++Sg: Adj-NB-01 ;
++Pl:%>i Adj-NB-01 ;
 ! The next two share the same stem vowel
 +Sg: SGGENSUF ; ! The singular comitative is declined here
 +Pl: PLNOMSUF ;
 
-LEXICON A-NB-loi
+LEXICON Adj-NB-loi
 ! These cases are symmetrically marked for number
-+Sg: A-NB-01 ;
-+Pl:%>loi A-NB-01 ;
++Sg: Adj-NB-01 ;
++Pl:%>loi Adj-NB-01 ;
 ! The next two share the same stem vowel
 +Sg: SGGENSUF ; ! The singular comitative is declined here
 +Pl: PLNOMSUF ;
 
-LEXICON A-NB-01
+LEXICON Adj-NB-01
 +Ess:%^WEAK%>nnU1 K ;
 +Tra:%^WEAK%>kse K ;
 +Ine:%^WEAK%>s K ;
