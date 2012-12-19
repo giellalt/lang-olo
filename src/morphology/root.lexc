@@ -28,6 +28,8 @@ Multichar_Symbols
  +N +A +Adv +V
  +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num 
 
+! Depricate This CONJ
++Conj
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
 
@@ -151,14 +153,14 @@ Punctuation ;
 ! I INCLUDE SOME SMALL LEXICA HERE
 ! WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
-LEXICON CONJ-Tag
-# ;
+LEXICON ConjTag
++Conj: # ;
 
 LEXICON CcTag
-+Cc: # ;
++CC: # ;
  
 LEXICON CsTag
-+Cs: # ;
++CS: # ;
  
 
 LEXICON InterjTag
