@@ -1,0 +1,20 @@
+Config:
+  hfst:
+    Gen: ../bin/olo-gen.hfstol
+    Morph: ../bin/olo.hfstol
+  xerox:
+    Gen: ../bin/iolo.fst
+    Morph: ../bin/olo.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - tulla: # Verb 'to come / tulla' - full paradigm
+     tull+V+Ind+Prs+Sg1: tulen
+
+
