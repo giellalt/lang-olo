@@ -51,28 +51,7 @@
             <st Contlex="PronTag">ei</st>
          </stg>
       </lg>
-      <pos>PRON</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>ei ole</l>
-         <stg>
-            <st Contlex="PronTag">ei ole</st>
-         </stg>
-      </lg>
-      <pos>PRON</pos>
+      <pos>V-NEG</pos>
       <mg>
          <m>
             <head/>
@@ -93,7 +72,7 @@
             <st Contlex="PronTag">eiga</st>
          </stg>
       </lg>
-      <pos>PRON</pos>
+      <pos>V-NEG</pos>
       <mg>
          <m>
             <head/>
@@ -237,7 +216,7 @@
       <lg>
          <l>hyö</l>
          <stg>
-            <st Contlex="PronTag">hyö</st>
+            <st Contlex="PersTag">hyö</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -258,7 +237,7 @@
       <lg>
          <l>häi</l>
          <stg>
-            <st Contlex="PronTag">häi</st>
+            <st Contlex="PersTag">häi</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -382,12 +361,12 @@
    </e>
    <e>
       <lg>
-         <l>kallehestigo?</l>
+         <l>kallehesti</l>
          <stg>
-            <st Contlex="PronTag">kallehestigo?</st>
+            <st Contlex="AdvTag">kallehesti</st>
          </stg>
       </lg>
-      <pos>PRON</pos>
+      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -720,10 +699,10 @@
       <lg>
          <l>libo</l>
          <stg>
-            <st Contlex="PronTag">libo</st>
+            <st Contlex="CcTag">libo</st>
          </stg>
       </lg>
-      <pos>PRON</pos>
+      <pos>CC</pos>
       <mg>
          <m>
             <head/>
@@ -804,7 +783,7 @@
       <lg>
          <l>mie</l>
          <stg>
-            <st Contlex="PronTag">mie</st>
+            <st Contlex="PersTag">mie</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -930,7 +909,7 @@
       <lg>
          <l>minulle</l>
          <stg>
-            <st Contlex="PronTag">minulle</st>
+            <st Contlex="PersTag">minulle</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -951,7 +930,7 @@
       <lg>
          <l>minun</l>
          <stg>
-            <st Contlex="PronTag">minun</st>
+            <st Contlex="PersTag">minun</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -972,7 +951,7 @@
       <lg>
          <l>minuu</l>
          <stg>
-            <st Contlex="PronTag">minuu</st>
+            <st Contlex="PersTag">minuu</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -1076,7 +1055,7 @@
       <lg>
          <l>myö</l>
          <stg>
-            <st Contlex="PronTag">myö</st>
+            <st Contlex="PersTag">myö</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -1620,69 +1599,6 @@
    </e>
    <e>
       <lg>
-         <l>puuttuu (ken p.)</l>
-         <stg>
-            <st Contlex="PronTag">puuttuu (ken p.)</st>
-         </stg>
-      </lg>
-      <pos>PRON</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>puuttuu (kui p.)</l>
-         <stg>
-            <st Contlex="PronTag">puuttuu (kui p.)</st>
-         </stg>
-      </lg>
-      <pos>PRON</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>puuttuu (kus p.)</l>
-         <stg>
-            <st Contlex="PronTag">puuttuu (kus p.)</st>
-         </stg>
-      </lg>
-      <pos>PRON</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
          <l>samanmoine</l>
          <stg>
             <st Contlex="PronTag">samanmoine</st>
@@ -1937,7 +1853,7 @@
       <lg>
          <l>sie</l>
          <stg>
-            <st Contlex="PronTag">sie</st>
+            <st Contlex="PersTag">sie</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -1958,7 +1874,7 @@
       <lg>
          <l>sinä</l>
          <stg>
-            <st Contlex="PronTag">sinä</st>
+            <st Contlex="PersTag">sinä</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -2042,7 +1958,7 @@
       <lg>
          <l>sinule</l>
          <stg>
-            <st Contlex="PronTag">sinule</st>
+            <st Contlex="PersTag">sinule</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -2105,7 +2021,7 @@
       <lg>
          <l>sinun</l>
          <stg>
-            <st Contlex="PronTag">sinun</st>
+            <st Contlex="PersTag">sinun</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -2126,7 +2042,7 @@
       <lg>
          <l>sinuu</l>
          <stg>
-            <st Contlex="PronTag">sinuu</st>
+            <st Contlex="PersTag">sinuu</st>
          </stg>
       </lg>
       <pos>PRON</pos>
@@ -2294,7 +2210,7 @@
       <lg>
          <l>työ</l>
          <stg>
-            <st Contlex="PronTag">työ</st>
+            <st Contlex="PersTag">työ</st>
          </stg>
       </lg>
       <pos>PRON</pos>
