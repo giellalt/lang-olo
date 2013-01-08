@@ -25,18 +25,31 @@ LEXICON V-olla
 +V+Ind+Prt+ConNeg:l%>nU1h K ;
 +V+Ind+Prt+ConNeg+Pl3:l%>tU1 K ;
 
-!tulla:tul
-LEXICON V-tulla
-+V+Ind+Prs+Sg1:e%^WEAK%>n K ;
-+V+Ind+Prs+Sg2:e%^WEAK%>t K ;
-+V+Ind+Prs+Sg3:eu K ;
-+V+Ind+Prs+Pl1:e%^WEAK%>mmO1 K ;
-+V+Ind+Prs+Pl2:e%^WEAK%>ttO1 K ;
-+V+Ind+Prs+Pl3:%>dA1h K ;
-+V+Ind+Prs+ConNeg:e%^WEAK K ;
-
+!Verbs of the Finnish type 1
+!V1a
 !kandua:kanda
 LEXICON V-kandua
++V: V-VV_01 ;
+
+!V1o
+!punuo:puno
+LEXICON V-punuo
++V: V-VV_01 ;
+
+!V1u
+!valuo:valuo
+LEXICON V-valuo
++V: V-VV_01 ;
+
+
+!V1i
+!potkie:potki
+LEXICON POTKIE
++V: K ;
+
+! V1
+! This verb type has two final vowels in the first infinitive
+LEXICON V-VV_01
 +V+Ind+Prs+Sg1:%^WEAK%>n K ;
 +V+Ind+Prs+Sg2:%^WEAK%>t K ;
 +V+Ind+Prs+Sg3:%>U1 K ;
@@ -54,9 +67,17 @@ LEXICON V-kandua
 +V+Ind+Prt+ConNeg:%>nU1h K ;
 +V+Ind+Prt+ConNeg+Pl3:%^WEAK%>ettU1 K ;
 
-!
-LEXICON POTKIE
-+V: K ;
+
+!Verbs of the Finnish type 3
+!tulla:tul
+LEXICON V-tulla
++V+Ind+Prs+Sg1:e%^WEAK%>n K ;
++V+Ind+Prs+Sg2:e%^WEAK%>t K ;
++V+Ind+Prs+Sg3:eu K ;
++V+Ind+Prs+Pl1:e%^WEAK%>mmO1 K ;
++V+Ind+Prs+Pl2:e%^WEAK%>ttO1 K ;
++V+Ind+Prs+Pl3:%>dA1h K ;
++V+Ind+Prs+ConNeg:e%^WEAK K ;
 
 ! vim: set ft=xfst-lexc:
 
