@@ -10,35 +10,49 @@
 LEXICON AdjTag
 +A: # ;
 
+! huoletoi:huolet
 LEXICON Adj-huoletoi
-+A+Sg:oi SGNOMSUF ;
-+A+Sg:toma SGPARTSUF-A1 ; 
-+A+Pl:tomie PLGENSUF ; 
-+A+Pl:tomi PLPARTSUF ; 
++A:oi SGNOMSUF ;
++A:toma SGPARTSUF-A1 ; 
++A:tomie PLGENSUF ; 
++A:tomi PLPARTSUF ; 
 +A+Der/MWN: N-huoletoi ; 
 +N:toma Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
+! karjalaine:karjala
 LEXICON Adj-karjalaine
-+A+Sg:ine SGNOMSUF ;
-+A+Sg:s SGPARTSUF-dU1 ;
-+A+Pl:zie PLGENSUF ;
-+A+Pl:zii PLPARTSUF ;
-+A+Pl:zi PLINSTRSUF ;
++A:ine SGNOMSUF ;
++A:s SGPARTSUF-dU1 ;
++A:zie PLGENSUF ;
++A:zii PLPARTSUF ;
++A:zi PLINSTRSUF ;
 +A:ze Adj-NB-i ;
 
+! kieline:kieli
 LEXICON Adj-kieline
-+A+Sg:ne SGNOMSUF ;
-+A+Sg:s SGPARTSUF-dU1 ;
-+A+Pl:zie PLGENSUF ;
-+A+Pl:zii PLPARTSUF ;
-+A+Pl:zi PLINSTRSUF ;
++A:ne SGNOMSUF ;
++A:s SGPARTSUF-dU1 ;
++A:zie PLGENSUF ;
++A:zii PLPARTSUF ;
++A:zi PLINSTRSUF ;
 +A:ze Noun-NB-i ;
 
+! armas:arma
+LEXICON Adj-armas
++A:%^WEAK%>s SGNOMSUF ;
++A:%^WEAK%>s SGPARTSUF-dU1 ;
++A:hie PLGENSUF ;
++A:hii PLPARTSUF ;
++A:hi PLINSTRSUF ;
++A:ha Noun-NB-i ;
+
+
+! parembi:paremb
 LEXICON Adj-parembi
-+A+Sg:i SGNOMSUF ;
-+A+Sg:A1 SGPARTSUF-A1 ;
-+A+Pl:ie PLGENSUF ;
-+A+Pl:i PLPARTSUF ;
++A:i SGNOMSUF ;
++A:A1 SGPARTSUF-A1 ;
++A:ie PLGENSUF ;
++A:i PLPARTSUF ;
 +A+Der/MWN: N-parembi ;
 +N:A1 Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
