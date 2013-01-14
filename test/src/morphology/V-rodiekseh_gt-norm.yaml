@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../bin/olo-gen.hfstol
+    Morph: ../bin/olo.hfstol
+  xerox:
+    Gen: ../bin/iolo.fst
+    Morph: ../bin/olo.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - rodiekseh: # Verb 'syntyä, ilmaantua' - full paradigm
+     rodiekseh+V+Ind+Prs+RcSg1: roimmos
+     rodiekseh+V+Ind+Prs+RcSg2: roittos
+     rodiekseh+V+Ind+Prs+RcSg3: roih
+     rodiekseh+V+Ind+Prs+RcPl1: roimmokseh
+     rodiekseh+V+Ind+Prs+RcPl2: roittokseh
+     rodiekseh+V+Ind+Prs+RcPl3: roijah
+     rodiekseh+V+Ind+Prs+Rc+ConNeg: roi
+      roija
+
+     rodiekseh+V+Ind+Prt+RcSg1: rodimmos
+     rodiekseh+V+Ind+Prt+RcSg2: rodittos
+     rodiekseh+V+Ind+Prt+RcSg3: rodih
+     rodiekseh+V+Ind+Prt+RcPl1: rodimmokseh
+     rodiekseh+V+Ind+Prt+RcPl2: rodittokseh
+     rodiekseh+V+Ind+Prt+RcPl3: rodittih
+     rodiekseh+V+Ind+Prt+RcSg+ConNeg: rodinuh
+     rodiekseh+V+Ind+Prt+RcPl1+ConNeg: rodinuh
+     rodiekseh+V+Ind+Prt+RcPl2+ConNeg: rodinuh
+     rodiekseh+V+Ind+Prt+RcPl3+ConNeg: rodittu
+
+
