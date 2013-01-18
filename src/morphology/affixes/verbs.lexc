@@ -53,22 +53,22 @@ LEXICON V-potkie
 LEXICON V-VV_01
 ! V1
 ! This verb type has two final vowels in the first infinitive
-+V+Ind+Prs+Sg1:%^WEAK%>n K ;
-+V+Ind+Prs+Sg2:%^WEAK%>t K ;
-+V+Ind+Prs+Sg3:%>U1 K ;
-+V+Ind+Prs+Pl1:%^WEAK%>mmO1 K ;
-+V+Ind+Prs+Pl2:%^WEAK%>ttO1 K ;
-+V+Ind+Prs+Pl3:%^WEAK%>etA1h K ;
-+V+Ind+Prs+ConNeg:%^WEAK K ;
++Ind+Prs+Sg1:%^WEAK%>n K ;
++Ind+Prs+Sg2:%^WEAK%>t K ;
++Ind+Prs+Sg3:%>U1 K ;
++Ind+Prs+Pl1:%^WEAK%>mmO1 K ;
++Ind+Prs+Pl2:%^WEAK%>ttO1 K ;
++Ind+Prs+Pl3:%^WEAK%^E1%>tA1h K ;
++Ind+Prs+ConNeg:%^WEAK K ;
 
-+V+Ind+Prt+Sg1:%^WEAK%>in K ;
-+V+Ind+Prt+Sg2:%^WEAK%>it K ;
-+V+Ind+Prt+Sg3:%>i K ;
-+V+Ind+Prt+Pl1:%^WEAK%>immO1 K ;
-+V+Ind+Prt+Pl2:%^WEAK%>ittO1 K ;
-+V+Ind+Prt+Pl3:%^WEAK%>ettih K ;
-+V+Ind+Prt+ConNeg:%>nU1h K ;
-+V+Ind+Prt+ConNeg+Pl3:%^WEAK%>ettU1 K ;
++Ind+Prt+Sg1:%^WEAK%>in K ;
++Ind+Prt+Sg2:%^WEAK%>it K ;
++Ind+Prt+Sg3:%>i K ;
++Ind+Prt+Pl1:%^WEAK%>immO1 K ;
++Ind+Prt+Pl2:%^WEAK%>ittO1 K ;
++Ind+Prt+Pl3:%^WEAK%^E1%>ttih K ;
++Ind+Prt+ConNeg:%>nU1h K ;
++Ind+Prt+ConNeg+Pl3:%^WEAK%^E1%>ttU1 K ;
 
 
 !Verbs of the Finnish type 3
