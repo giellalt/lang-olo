@@ -23,10 +23,23 @@ Multichar_Symbols
 !! The morphological analyses of wordforms of UNDEFINED language are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
++WORK ! Forms with this tag have not yet been extended to paradigmatic tagging.
 
 !! The parts-of-speech are:
- +N +A +Adv +V
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num 
+ +A ! adjective
+ +Adp ! adposition
+ +Adv ! adverb
+ +CS ! subordinating conjunction
+ +CC ! coordinating conjunction
+ +Interj ! interjection 
+ +N ! noun
+ +Pcle ! particle
+ +Po ! postposition
+ +Pr ! preposition
+ +Pron ! pronoun
+ +Qnt ! quantifier
+ +V ! verb
+ +Num ! numeral 
 
 ! Depricate This CONJ
 +Conj
@@ -38,10 +51,31 @@ Multichar_Symbols
  +Use/-Spell 
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Pl
-+Nom +Acc +Gen +Abl +Dat +Loc +Pros +Tra +Abe +Adc +Instr +Apr +Ine +Ill +Ela +Egr
-+Par ! Partitive
-+Prl +Ter
+! number
+ +Sg ! singular
+ +Pl ! plural
+! case
+ +Abe ! abessive
+ +Abl ! ablative case
+ +Acc ! accusative
+ +Com ! comitative
+ +Dat ! dative case
+ +Ela ! elative
+ +Ess ! elative
+ +Gen ! genitive case
+ +Ill ! illative
+ +Ine ! inessive
+ +Ins ! instrumental
+ +Loc ! Locative 
+ +Nom ! nominative case
+ +Par ! partitive
+ +Prl ! prolative 
+ +Tra ! translative
+
+
+
+ +Pros +Adc +Apr +Egr
+ +Ter
 
 
 !! The possession is marked as such:
@@ -114,16 +148,18 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
-
+ A1 ! 
+ O1 !
+ U1 !
 !! And following triggers to control variation
  {front} {back}
 %>
 %^DEVOICE
-%^WEAK ! weak grade
+ %^WEAK ! weak grade
 QAQ1 QAO1 EH1 QEQ1 INE1 ZD1 ZS1 V1
 AO1 EI1 ZS1 ZD1 
-A1 ! These are for developing underlying morphology rules
-D1 E1 U1 O1
+! These are for developing underlying morphology rules
+D1 E1
 N1
 
 !! We have manually optimised the structure of our lexicon using following
