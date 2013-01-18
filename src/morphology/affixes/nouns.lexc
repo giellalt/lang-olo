@@ -3,94 +3,94 @@
 !! Livvi nouns inflect in cases.
 
 LEXICON N-Tag
-+N: # ;
++N+Sg+Nom+WORK: # ;
 
 
 
 LEXICON N-huoletoi
 +N:oi SGNOMSUF ;
-+N:toma SGPARTSUF-A1 ;
++N:toma SGPARSUF-A1 ;
 +N:tomie PLGENSUF ;
-+N:tomi PLPARTSUF ;
-+N:tomi PLINSTRSUF ;
++N:tomi PLPARSUF ;
++N:tomi PLINSSUF ;
 +N:toma Noun-NB-i ;
 
 LEXICON N-kandai
 +N: SGNOMSUF ;
-+N:A1 SGPARTSUF-A1 ;
++N:A1 SGPARSUF-A1 ;
 +N:ie PLGENSUF ;
-+N:i PLPARTSUF ;
-+N:i PLINSTRSUF ;
++N:i PLPARSUF ;
++N:i PLINSSUF ;
 +N:A1 Noun-NB-i ;
 
 LEXICON N-karjal
 +N: SGNOMSUF ;
-+N:a SGPARTSUF-dU1 ;
++N:a SGPARSUF-dU1 ;
 +N:a%>i PLGENSUF ;
-+N:i PLPARTSUF ;
-+N:oi PLINSTRSUF ;
++N:i PLPARSUF ;
++N:oi PLINSSUF ;
 +N:A1 Noun-NB-i ;
 
-!karjalaine:karjala
 LEXICON N-karjalaine
+!karjalaine:karjala
 +N:ine SGNOMSUF ;
-+N:s SGPARTSUF-dU1 ;
++N:s SGPARSUF-dU1 ;
 +N:zie PLGENSUF ;
-+N:zii PLPARTSUF ;
-+N:zi PLINSTRSUF ;
++N:zii PLPARSUF ;
++N:zi PLINSSUF ;
 +N:ze Noun-NB-i ;
 
-!kieli:kiel
 LEXICON N-kieli
+!kieli:kiel
 +N:i SGNOMSUF ;
-+N: SGPARTSUF-dU1 ;
++N: SGPARSUF-dU1 ;
 +N:ie PLGENSUF ;
-+N:ii PLPARTSUF ;
-+N:i PLINSTRSUF ;
++N:ii PLPARSUF ;
++N:i PLINSSUF ;
 +N:e Noun-NB-i ;
 
-!kuu:kuu
 LEXICON N-kuu
+!kuu:kuu
 +N: SGNOMSUF ;
-+N: SGPARTSUF-dU1 ;
++N: SGPARSUF-dU1 ;
 +N:loi PLGENSUF ;
-+N:loi PLPARTSUF ;
-+N:loi PLINSTRSUF ;
++N:loi PLPARSUF-Zero ;
++N:loi PLINSSUF ;
 +N: Noun-NB-loi ;
 
-!muarju:muarj
 LEXICON N-muarju
+!muarju:muarj
 +N:U1 SGNOMSUF ;
-+N:A1 SGPARTSUF-A1 ;
++N:A1 SGPARSUF-A1 ;
 +N:%>oi PLGENSUF ; ! the plural comitative is declined here
-+N:%>oi PLPARTSUF ;
-+N:%>oi PLINSTRSUF ;
++N:%>oi PLPARSUF ;
++N:%>oi PLINSSUF ;
 +N:A1 Noun-NB-i ;
 
 LEXICON N-pada
 +N: SGNOMSUF ;
-+N: SGPARTSUF-A1 ;
++N: SGPARSUF-A1 ;
 +N:i PLGENSUF ;
-+N:i PLPARTSUF ;
-+N:i PLINSTRSUF ;
++N:i PLPARSUF ;
++N:i PLINSSUF ;
 +N: Noun-NB-i ;
 
-!armas:arma
 LEXICON N-armas
+!armas:arma
 +N:%^WEAK%>s SGNOMSUF ;
-+N:%^WEAK%>s SGPARTSUF-dU1 ;
++N:%^WEAK%>s SGPARSUF-dU1 ;
 +N:hie PLGENSUF ;
-+N:hii PLPARTSUF ;
-+N:hi PLINSTRSUF ;
++N:hii PLPARSUF ;
++N:hi PLINSSUF ;
 +N:ha Noun-NB-i ;
 
-!parembi:paremb
 LEXICON N-parembi
+!parembi:paremb
 +N:i SGNOMSUF ;
-+N:A1 SGPARTSUF-A1 ;
++N:A1 SGPARSUF-A1 ;
 +N:ie PLGENSUF ;
-+N:i PLPARTSUF ;
-+N:i PLINSTRSUF ;
++N:i PLPARSUF ;
++N:i PLINSSUF ;
 +N:A1 Noun-NB-i ;
 
 LEXICON N-koiru
@@ -98,30 +98,31 @@ LEXICON N-koiru
 
 LEXICON N-nimi
 +N:i SGNOMSUF ;
-+N:e SGPARTSUF-A1 ;
++N:e SGPARSUF-A1 ;
 +N:%>ie PLGENSUF ; ! the plural comitative is declined here
-+N:%>i PLPARTSUF ;
-+N:%>i PLINSTRSUF ;
++N:%>i PLPARSUF ;
++N:%>i PLINSSUF ;
 +N:e Noun-NB-i ;
 +N:iloi PLGENSUF ;
-+N:iloi PLPARTSUF-Zero ;
-+N:iloi PLINSTRSUF ;
++N:iloi PLPARSUF-Zero ;
++N:iloi PLINSSUF ;
 +N:i Noun-NB-loi ;
 
 LEXICON N-päivy
+!päivy:päiv
 +N:U1 SGNOMSUF ;
-+N:A1 SGPARTSUF-A1 ;
++N:A1 SGPARSUF-A1 ;
 +N:%>ie PLGENSUF ; ! the plural comitative is declined here
-+N:%>i PLPARTSUF ;
-+N:%>i PLINSTRSUF ;
++N:%>i PLPARSUF ;
++N:%>i PLINSSUF ;
 +N:A1 Noun-NB-i ;
 
 LEXICON N-runo
 +N: SGNOMSUF ;
-+N: SGPARTSUF-A1 ;
++N: SGPARSUF-A1 ;
 +N:loi PLGENSUF ;
-+N:loi PLPARTSUF-Zero ;
-+N:loi PLINSTRSUF ;
++N:loi PLPARSUF-Zero ;
++N:loi PLINSSUF ;
 +N: Noun-NB-loi ;
 
 
@@ -130,13 +131,14 @@ LEXICON Noun-NB-i
 +Sg: Noun-NB-01 ;
 +Pl:%>i Noun-NB-01 ;
 ! The next two share the same stem vowel
-+Sg: SGGENSUF ; ! The singular comitative is declined here
-+Pl: PLNOMSUF ;
+ SGGENSUF ; ! The singular comitative is declined here
+ PLNOMSUF ;
  
 LEXICON Noun-NB-loi
 ! These cases are symmetrically marked for number
 +Sg: Noun-NB-01 ;
 +Pl:%>loi Noun-NB-01 ;
++Pl:%>loi ILLSUF-he ;
 ! The next two share the same stem vowel
  SGGENSUF ; ! The singular comitative is declined here
  PLNOMSUF ;
@@ -146,11 +148,11 @@ LEXICON SGNOMSUF
 +Sg+Nom: K ;
 +Sg+Acc: K ;
 
-LEXICON SGPARTSUF-dU1
-+Sg+Par:%>tU1 K ;
+LEXICON SGPARSUF-dU1
++Sg+Par:%>dU1 K ;
 
 
-LEXICON SGPARTSUF-A1
+LEXICON SGPARSUF-A1
 +Sg+Par:%>A1 K ;
 
 LEXICON SGGENSUF
@@ -166,14 +168,17 @@ LEXICON PLGENSUF
 +Pl+Gen:%>n K ;
 +Pl+Com:%^WEAK%>nke K ;
 
-LEXICON PLPARTSUF-Zero
+LEXICON ILLSUF-he
++Ill:%>he K ;
+
+LEXICON PLINSSUF
++Pl+Ins:%>n K ;
+
+LEXICON PLPARSUF-Zero
 +Pl+Par: K ;
 
-LEXICON PLPARTSUF
+LEXICON PLPARSUF
 +Pl+Par:%>A1 K ;
-
-LEXICON PLINSTRSUF
-+Pl+Instr:%>n K ;
 
 LEXICON Noun-NB-01
 +Ess:%^WEAK%>nnU1 K ;
