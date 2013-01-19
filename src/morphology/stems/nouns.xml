@@ -447,7 +447,19 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="N">sakka, kuona, puristusjätteet, (kahvin)porot</t>
+        <t pos="N">sakka</t>
+
+        <t pos="N">kuona</t>
+
+        <t pos="N">puristusjätteet</t>
+
+        <t pos="N">kahvinporot</t>
+
+        <tCtn>
+          <t pos="N">porot</t>
+
+          <re>kahvin</re>
+        </tCtn>
       </tg>
     </mg>
   </e>
@@ -643,7 +655,17 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="N">ahvenvita, murt. ahvenheinä, Potamogeton perfoliata</t>
+        <t pos="N">ahvenvita</t>
+
+        <tCtn>
+          <t pos="N">ahvenheinä</t>
+
+          <re>murt.</re>
+        </tCtn>
+      </tg>
+
+      <tg lang="lat">
+        <t pos="N">Potamogeton perfoliata</t>
       </tg>
     </mg>
   </e>
