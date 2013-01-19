@@ -1,1432 +1,1908 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>kolme</l>
-         <stg>
-            <st Contlex="Num-kolme">kolm</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>three</t>
-         </tg>
-         <tg lang="fin">
-            <t>kolme</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>enžimäne</l>
-         <stg>
-            <st Contlex="NumTag">enžimäne</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kaheksaskymmen</l>
-         <stg>
-            <st Contlex="NumTag">kaheksaskymmen</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kahekšaš</l>
-         <stg>
-            <st Contlex="NumTag">kahekšaš</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kahtei</l>
-         <stg>
-            <st Contlex="NumTag">kahtei</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kakkoine</l>
-         <stg>
-            <st Contlex="NumTag">kakkoine</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kaksi</l>
-         <stg>
-            <st Contlex="NumTag">kaksi</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kaksikymmene</l>
-         <stg>
-            <st Contlex="NumTag">kaksikymmene</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kaksisada</l>
-         <stg>
-            <st Contlex="NumTag">kaksisada</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kaksitostu</l>
-         <stg>
-            <st Contlex="NumTag">kaksitostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kolmaš</l>
-         <stg>
-            <st Contlex="NumTag">kolmaš</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kolme</l>
-         <stg>
-            <st Contlex="NumTag">kolme</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kolmei</l>
-         <stg>
-            <st Contlex="NumTag">kolmei</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kolmekymmen</l>
-         <stg>
-            <st Contlex="NumTag">kolmekymmen</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kolmesada</l>
-         <stg>
-            <st Contlex="NumTag">kolmesada</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kolmetostu</l>
-         <stg>
-            <st Contlex="NumTag">kolmetostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kuuveš</l>
-         <stg>
-            <st Contlex="NumTag">kuuveš</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kuuzi</l>
-         <stg>
-            <st Contlex="NumTag">kuuzi</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kuuzikymmen</l>
-         <stg>
-            <st Contlex="NumTag">kuuzikymmen</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kuuzisada</l>
-         <stg>
-            <st Contlex="NumTag">kuuzisada</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kuuzitostu</l>
-         <stg>
-            <st Contlex="NumTag">kuuzitostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kuvvei</l>
-         <stg>
-            <st Contlex="NumTag">kuvvei</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kuvvestostu</l>
-         <stg>
-            <st Contlex="NumTag">kuvvestostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kymmene</l>
-         <stg>
-            <st Contlex="NumTag">kymmene</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kymmenes</l>
-         <stg>
-            <st Contlex="NumTag">kymmenes</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kaheksa</l>
-         <stg>
-            <st Contlex="NumTag">kaheksa</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kaheksakymmendä</l>
-         <stg>
-            <st Contlex="NumTag">kaheksakymmendä</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kaheksatostu</l>
-         <stg>
-            <st Contlex="NumTag">kaheksatostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>nelli</l>
-         <stg>
-            <st Contlex="NumTag">nelli</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>nellikymmen</l>
-         <stg>
-            <st Contlex="NumTag">nellikymmen</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>nellisada</l>
-         <stg>
-            <st Contlex="NumTag">nellisada</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>nellitostu</l>
-         <stg>
-            <st Contlex="NumTag">nellitostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>nellästostu</l>
-         <stg>
-            <st Contlex="NumTag">nellästostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>nelläš</l>
-         <stg>
-            <st Contlex="NumTag">nelläš</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>puolikymmen</l>
-         <stg>
-            <st Contlex="NumTag">puolikymmen</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>sada</l>
-         <stg>
-            <st Contlex="NumTag">sada</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>seiče</l>
-         <stg>
-            <st Contlex="NumTag">seiče</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>seičekymmendy</l>
-         <stg>
-            <st Contlex="NumTag">seičekymmendy</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>seičesada</l>
-         <stg>
-            <st Contlex="NumTag">seičesada</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>seičetostu</l>
-         <stg>
-            <st Contlex="NumTag">seičetostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>toine</l>
-         <stg>
-            <st Contlex="NumTag">toine</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>viidestostu</l>
-         <stg>
-            <st Contlex="NumTag">viidestostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>viizi</l>
-         <stg>
-            <st Contlex="NumTag">viizi</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>viizikymmen</l>
-         <stg>
-            <st Contlex="NumTag">viizikymmen</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>viizisada</l>
-         <stg>
-            <st Contlex="NumTag">viizisada</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>viizitostu</l>
-         <stg>
-            <st Contlex="NumTag">viizitostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>yheksä</l>
-         <stg>
-            <st Contlex="NumTag">yheksä</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>yheksäkymmen</l>
-         <stg>
-            <st Contlex="NumTag">yheksäkymmen</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>yheksäsadua</l>
-         <stg>
-            <st Contlex="NumTag">yheksäsadua</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>yheksätostu</l>
-         <stg>
-            <st Contlex="NumTag">yheksätostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>yhekšaš</l>
-         <stg>
-            <st Contlex="NumTag">yhekšaš</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>yksi</l>
-         <stg>
-            <st Contlex="NumTag">yksi</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>yksitostu</l>
-         <stg>
-            <st Contlex="NumTag">yksitostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>viides</l>
-         <stg>
-            <st Contlex="NumTag">viides</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>viidoine</l>
-         <stg>
-            <st Contlex="NumTag">viidoine</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>viiei</l>
-         <stg>
-            <st Contlex="NumTag">viiei</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>viizikymmen</l>
-         <stg>
-            <st Contlex="NumTag">viizikymmen</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>tuhat</l>
-         <stg>
-            <st Contlex="NumTag">tuhat</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>seičikko</l>
-         <stg>
-            <st Contlex="N-Tag">seičikko</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>seiččemäs</l>
-         <stg>
-            <st Contlex="NumTag">seiččemäs</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>seiččiei</l>
-         <stg>
-            <st Contlex="QntTag">seiččiei</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>sadas</l>
-         <stg>
-            <st Contlex="NumTag">sadas</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>puolitostusadua</l>
-         <stg>
-            <st Contlex="NumTag">puolitostusadua</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>puolitostu</l>
-         <stg>
-            <st Contlex="NumTag">puolitostu</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>nelläskymmen</l>
-         <stg>
-            <st Contlex="NumTag">nelläskymmen</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>nellästi</l>
-         <stg>
-            <st Contlex="NumTag">nellästi</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kaksikymmenviizi</l>
-         <stg>
-            <st Contlex="NumTag">kaksikymmenviizi</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>ezmäine</l>
-         <stg>
-            <st Contlex="NumTag">ezmäine</st>
-         </stg>
-      </lg>
-      <pos>NUM</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>enžimäne</l>
+
+      <stg>
+        <st Contlex="NumTag">enžimäne</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ezmäine</l>
+
+      <stg>
+        <st Contlex="NumTag">ezmäine</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kaheksa</l>
+
+      <stg>
+        <st Contlex="NumTag">kaheksa</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kaheksakymmendä</l>
+
+      <stg>
+        <st Contlex="NumTag">kaheksakymmendä</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kaheksaskymmen</l>
+
+      <stg>
+        <st Contlex="NumTag">kaheksaskymmen</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kaheksatostu</l>
+
+      <stg>
+        <st Contlex="NumTag">kaheksatostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kahekšaš</l>
+
+      <stg>
+        <st Contlex="NumTag">kahekšaš</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kahtei</l>
+
+      <stg>
+        <st Contlex="NumTag">kahtei</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kakkoine</l>
+
+      <stg>
+        <st Contlex="NumTag">kakkoine</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kaksi</l>
+
+      <stg>
+        <st Contlex="NumTag">kaksi</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kaksikymmene</l>
+
+      <stg>
+        <st Contlex="NumTag">kaksikymmene</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kaksikymmenviizi</l>
+
+      <stg>
+        <st Contlex="NumTag">kaksikymmenviizi</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kaksisada</l>
+
+      <stg>
+        <st Contlex="NumTag">kaksisada</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kaksitostu</l>
+
+      <stg>
+        <st Contlex="NumTag">kaksitostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kolmaš</l>
+
+      <stg>
+        <st Contlex="NumTag">kolmaš</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kolme</l>
+
+      <stg>
+        <st Contlex="Num-kolme">kolm</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t>three</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>kolme</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kolme</l>
+
+      <stg>
+        <st Contlex="NumTag">kolme</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kolmei</l>
+
+      <stg>
+        <st Contlex="NumTag">kolmei</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kolmekymmen</l>
+
+      <stg>
+        <st Contlex="NumTag">kolmekymmen</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kolmesada</l>
+
+      <stg>
+        <st Contlex="NumTag">kolmesada</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kolmetostu</l>
+
+      <stg>
+        <st Contlex="NumTag">kolmetostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuuveš</l>
+
+      <stg>
+        <st Contlex="NumTag">kuuveš</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuuzi</l>
+
+      <stg>
+        <st Contlex="NumTag">kuuzi</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuuzikymmen</l>
+
+      <stg>
+        <st Contlex="NumTag">kuuzikymmen</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuuzisada</l>
+
+      <stg>
+        <st Contlex="NumTag">kuuzisada</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuuzitostu</l>
+
+      <stg>
+        <st Contlex="NumTag">kuuzitostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuvvei</l>
+
+      <stg>
+        <st Contlex="NumTag">kuvvei</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuvvestostu</l>
+
+      <stg>
+        <st Contlex="NumTag">kuvvestostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kymmene</l>
+
+      <stg>
+        <st Contlex="NumTag">kymmene</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kymmenes</l>
+
+      <stg>
+        <st Contlex="NumTag">kymmenes</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nelli</l>
+
+      <stg>
+        <st Contlex="NumTag">nelli</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nellikymmen</l>
+
+      <stg>
+        <st Contlex="NumTag">nellikymmen</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nellisada</l>
+
+      <stg>
+        <st Contlex="NumTag">nellisada</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nellitostu</l>
+
+      <stg>
+        <st Contlex="NumTag">nellitostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nelläskymmen</l>
+
+      <stg>
+        <st Contlex="NumTag">nelläskymmen</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nellästi</l>
+
+      <stg>
+        <st Contlex="NumTag">nellästi</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nellästostu</l>
+
+      <stg>
+        <st Contlex="NumTag">nellästostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nelläš</l>
+
+      <stg>
+        <st Contlex="NumTag">nelläš</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>puolikymmen</l>
+
+      <stg>
+        <st Contlex="NumTag">puolikymmen</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>puolitostu</l>
+
+      <stg>
+        <st Contlex="NumTag">puolitostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>puolitostusadua</l>
+
+      <stg>
+        <st Contlex="NumTag">puolitostusadua</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>sada</l>
+
+      <stg>
+        <st Contlex="NumTag">sada</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>sadas</l>
+
+      <stg>
+        <st Contlex="NumTag">sadas</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seiče</l>
+
+      <stg>
+        <st Contlex="NumTag">seiče</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seičekymmendy</l>
+
+      <stg>
+        <st Contlex="NumTag">seičekymmendy</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seičesada</l>
+
+      <stg>
+        <st Contlex="NumTag">seičesada</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seičetostu</l>
+
+      <stg>
+        <st Contlex="NumTag">seičetostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seičikko</l>
+
+      <stg>
+        <st Contlex="N-Tag">seičikko</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seiččemäs</l>
+
+      <stg>
+        <st Contlex="NumTag">seiččemäs</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seiččiei</l>
+
+      <stg>
+        <st Contlex="QntTag">seiččiei</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>toine</l>
+
+      <stg>
+        <st Contlex="NumTag">toine</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tuhat</l>
+
+      <stg>
+        <st Contlex="NumTag">tuhat</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>viides</l>
+
+      <stg>
+        <st Contlex="NumTag">viides</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>viidestostu</l>
+
+      <stg>
+        <st Contlex="NumTag">viidestostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>viidoine</l>
+
+      <stg>
+        <st Contlex="NumTag">viidoine</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>viiei</l>
+
+      <stg>
+        <st Contlex="NumTag">viiei</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>viizi</l>
+
+      <stg>
+        <st Contlex="NumTag">viizi</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>viizikymmen</l>
+
+      <stg>
+        <st Contlex="NumTag">viizikymmen</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>viizikymmen</l>
+
+      <stg>
+        <st Contlex="NumTag">viizikymmen</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>viizisada</l>
+
+      <stg>
+        <st Contlex="NumTag">viizisada</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>viizitostu</l>
+
+      <stg>
+        <st Contlex="NumTag">viizitostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>yheksä</l>
+
+      <stg>
+        <st Contlex="NumTag">yheksä</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>yheksäkymmen</l>
+
+      <stg>
+        <st Contlex="NumTag">yheksäkymmen</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>yheksäsadua</l>
+
+      <stg>
+        <st Contlex="NumTag">yheksäsadua</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>yheksätostu</l>
+
+      <stg>
+        <st Contlex="NumTag">yheksätostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>yhekšaš</l>
+
+      <stg>
+        <st Contlex="NumTag">yhekšaš</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>yksi</l>
+
+      <stg>
+        <st Contlex="NumTag">yksi</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>yksitostu</l>
+
+      <stg>
+        <st Contlex="NumTag">yksitostu</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
 </r>
