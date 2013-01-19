@@ -1,266 +1,346 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>elokuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">elokuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>August</t>
-         </tg>
-         <tg lang="fin">
-            <t>elokuu</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>heinykuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">heinykuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>July</t>
-         </tg>
-         <tg lang="fin">
-            <t>heinäkuu</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>Karjal</l>
-         <stg>
-            <st Contlex="Prop-karjal">Karjal</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>Karelia</t>
-         </tg>
-         <tg lang="fin">
-            <t>Karjala</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kevätkuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">kevätkuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kezäkuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">kezäkuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>June</t>
-         </tg>
-         <tg lang="fin">
-            <t>kesäkuu</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kylmykuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">kylmykuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>ligakuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">ligakuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>October</t>
-         </tg>
-         <tg lang="fin">
-            <t>lokakuu</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>oraskuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">oraskuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>May</t>
-         </tg>
-         <tg lang="fin">
-            <t>toukokuu</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>pakkaskuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">pakkaskuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>sulakuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">sulakuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>syvyskuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">syvyskuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>talvikuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">talvikuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>tuhukuu</l>
-         <stg>
-            <st Contlex="Prop-kuu">tuhukuu</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>Karjal</l>
+
+      <stg>
+        <st Contlex="Prop-karjal">Karjal</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>Karelia</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>Karjala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>elokuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">elokuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t>August</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>elokuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>heinykuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">heinykuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t>July</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>heinäkuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kevätkuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">kevätkuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kezäkuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">kezäkuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t>June</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>kesäkuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kylmykuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">kylmykuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ligakuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">ligakuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t>October</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>lokakuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>oraskuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">oraskuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t>May</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>toukokuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>pakkaskuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">pakkaskuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>sulakuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">sulakuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>syvyskuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">syvyskuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>talvikuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">talvikuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tuhukuu</l>
+
+      <stg>
+        <st Contlex="Prop-kuu">tuhukuu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
 </r>
