@@ -53,13 +53,13 @@ LEXICON V-potkie
 LEXICON V-VV_01
 ! V1
 ! This verb type has two final vowels in the first infinitive
-+Ind+Prs+Sg1:%^WEAK%>n K ;
-+Ind+Prs+Sg2:%^WEAK%>t K ;
-+Ind+Prs+Sg3:%>U1 K ;
-+Ind+Prs+Pl1:%^WEAK%>mmO1 K ;
-+Ind+Prs+Pl2:%^WEAK%>ttO1 K ;
-+Ind+Prs+Pl3:%^WEAK%^E1%>tA1h K ;
-+Ind+Prs+ConNeg:%^WEAK K ;
++V: INDPRSSG1 ;
++V: INDPRSSG2 ;
++V: INDPRSSG3 ;
++V: INDPRSPL1 ;
++V: INDPRSPL2 ;
++V:%> INDPRSPL3_tAh ;
++V: INDCONNEG ;
 
 +Ind+Prt+Sg1:%^WEAK%>in K ;
 +Ind+Prt+Sg2:%^WEAK%>it K ;
@@ -74,13 +74,47 @@ LEXICON V-VV_01
 LEXICON V-tulla
 !Verbs of the Finnish type 3
 !tulla:tul
-+V+Ind+Prs+Sg1:e%^WEAK%>n K ;
-+V+Ind+Prs+Sg2:e%^WEAK%>t K ;
-+V+Ind+Prs+Sg3:eu K ;
-+V+Ind+Prs+Pl1:e%^WEAK%>mmO1 K ;
-+V+Ind+Prs+Pl2:e%^WEAK%>ttO1 K ;
-+V+Ind+Prs+Pl3:%>dA1h K ;
-+V+Ind+Prs+ConNeg:e%^WEAK K ;
++V:e INDPRSSG1 ;
++V:e INDPRSSG2 ;
++V:e INDPRSSG3 ;
++V:e INDPRSPL1 ;
++V:e INDPRSPL2 ;
++V:%> INDPRSPL3_dAh ;
++V:e INDCONNEG ;
+
+LEXICON V-suuvaija
+!Verbs of the Finnish type 5
+! suuvaija:suuvai
++V:čče INDPRSSG1 ;
++V:čče INDPRSSG2 ;
++V:čče INDPRSSG3 ;
++V:čče INDPRSPL1 ;
++V:čče INDPRSPL2 ;
++V:%> INDPRSPL3_jAh ;
++V:čče INDCONNEG ;
+
+
+!! Nonfinites
+
+!! Finites
+LEXICON INDPRSSG1
++Ind+Prs+Sg1:%^WEAK%>n K ;
+LEXICON INDPRSSG2
++Ind+Prs+Sg2:%^WEAK%>t K ;
+LEXICON INDPRSSG3
++Ind+Prs+Sg3:%>U1 K ;
+LEXICON INDPRSPL1
++Ind+Prs+Pl1:%^WEAK%>mmO1 K ;
+LEXICON INDPRSPL2
++Ind+Prs+Pl2:%^WEAK%>ttO1 K ;
+LEXICON INDPRSPL3_jAh
++Ind+Prs+Pl3:%>jA1h K ;
+LEXICON INDPRSPL3_dAh
++Ind+Prs+Pl3:%>dA1h K ;
+LEXICON INDPRSPL3_tAh
++Ind+Prs+Pl3:%^WEAK%^E1%>tA1h K ;
+LEXICON INDCONNEG
++Ind+Prs+ConNeg:%^WEAK K ;
 
 ! vim: set ft=xfst-lexc:
 
