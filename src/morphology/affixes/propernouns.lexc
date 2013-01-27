@@ -7,11 +7,11 @@
 LEXICON PropTag
 +Prop: NTag ;
 
-LEXICON Prop-karjal
-+Prop: N-karjal ;
+LEXICON PROP_KARJAL
++Prop: N_KARJAL ;
 
-LEXICON Prop-kuu
-+Prop: N-kuu ;
+LEXICON PROP_KUU
++Prop: N_KUU ;
 
 
 ! vim: set ft=xfst-lexc:

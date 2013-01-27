@@ -10,17 +10,20 @@
 LEXICON AdjTag
 +A: # ;
 
+LEXICON A_JIÄTÖI
+! jiätöi:jiät
+ A_HUOLETOI ;
+LEXICON A_HUOLETOI
 ! huoletoi:huolet
-LEXICON Adj-huoletoi
 +A:oi SGNOMSUF ;
 +A:toma SGPARSUF-A1 ; 
 +A:tomie PLGENSUF ; 
 +A:tomi PLPARSUF ; 
-+A+Der/MWN: N-huoletoi ; 
++A+Der/MWN: N_HUOLETOI ; 
 +N:toma Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
+LEXICON A_KARJALAINE
 ! karjalaine:karjala
-LEXICON Adj-karjalaine
 +A:ine SGNOMSUF ;
 +A:s SGPARSUF-dU1 ;
 +A:zie PLGENSUF ;
@@ -28,8 +31,8 @@ LEXICON Adj-karjalaine
 +A:zi PLINSSUF ;
 +A:ze Adj-NB-i ;
 
+LEXICON A_KIELINE
 ! kieline:kieli
-LEXICON Adj-kieline
 +A:ne SGNOMSUF ;
 +A:s SGPARSUF-dU1 ;
 +A:zie PLGENSUF ;
@@ -37,8 +40,8 @@ LEXICON Adj-kieline
 +A:zi PLINSSUF ;
 +A:ze Noun-NB-i ;
 
+LEXICON A_ARMAS
 ! armas:arma
-LEXICON Adj-armas
 +A:%^WEAK%>s SGNOMSUF ;
 +A:%^WEAK%>s SGPARSUF-dU1 ;
 +A:hie PLGENSUF ;
@@ -47,13 +50,13 @@ LEXICON Adj-armas
 +A:ha Noun-NB-i ;
 
 
+LEXICON A_PAREMBI
 ! parembi:paremb
-LEXICON Adj-parembi
 +A:i SGNOMSUF ;
 +A:A1 SGPARSUF-A1 ;
 +A:ie PLGENSUF ;
 +A:i PLPARSUF ;
-+A+Der/MWN: N-parembi ;
++A+Der/MWN: N_PAREMBI ;
 +N:A1 Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
 
