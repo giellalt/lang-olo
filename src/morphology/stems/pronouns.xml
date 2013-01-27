@@ -37,7 +37,7 @@
       <l>ei</l>
 
       <stg>
-        <st Contlex="PronTag">ei</st>
+        <st Contlex="V-NEG">e</st>
       </stg>
     </lg>
 
@@ -60,12 +60,12 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>eiga</l>
 
       <stg>
-        <st Contlex="PronTag">eiga</st>
+        <st Contlex="V-NEG">eiga</st>
       </stg>
     </lg>
 
@@ -233,7 +233,7 @@
       <l>hyö</l>
 
       <stg>
-        <st Contlex="PersTag">hyö</st>
+        <st Contlex="PERS-PL3">hyö</st>
       </stg>
     </lg>
 
@@ -261,7 +261,7 @@
       <l>häi</l>
 
       <stg>
-        <st Contlex="PersTag">häi</st>
+        <st Contlex="PERS-SG3">hä</st>
       </stg>
     </lg>
 
@@ -1241,7 +1241,7 @@
       <l>minä</l>
 
       <stg>
-        <st Contlex="Pers-minä">min</st>
+        <st Contlex="PERS-SG1">min</st>
       </stg>
     </lg>
 
@@ -1379,7 +1379,7 @@
       <l>myö</l>
 
       <stg>
-        <st Contlex="PersTag">myö</st>
+        <st Contlex="PERS-PL1">myö</st>
       </stg>
     </lg>
 
@@ -2611,7 +2611,7 @@
       <l>sinä</l>
 
       <stg>
-        <st Contlex="PersTag">sinä</st>
+        <st Contlex="PERS-SG2">sin</st>
       </stg>
     </lg>
 
@@ -2919,7 +2919,7 @@
       <l>työ</l>
 
       <stg>
-        <st Contlex="PersTag">työ</st>
+        <st Contlex="PERS-PL2">työ</st>
       </stg>
     </lg>
 

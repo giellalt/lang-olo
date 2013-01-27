@@ -6,6 +6,10 @@
 LEXICON VTag
 +V: K ;
 
+LEXICON V-NEG
+!ei:e
++V+Neg+Sg3:i # ;
+
 LEXICON V-olla
 !olla:o
 +V+Ind+Prs+Sg1:le%^WEAK%>n K ;
@@ -82,9 +86,9 @@ LEXICON V-tulla
 +V:%> INDPRSPL3_dAh ;
 +V:e INDCONNEG ;
 
-LEXICON V-suuvaija
+LEXICON V-suvaija
 !Verbs of the Finnish type 5
-! suuvaija:suuvai
+! suvaija:suvai
 +V:čče INDPRSSG1 ;
 +V:čče INDPRSSG2 ;
 +V:čče INDPRSSG3 ;
