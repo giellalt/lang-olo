@@ -6,8 +6,31 @@ LEXICON PersTag
 +Pron+Pers: # ;
 
 
-LEXICON Pers-minä
-+Pron+Pers: # ;
+LEXICON PERS-SG1
+! minä:min
++Pron+Pers+Sg1+Nom:ä # ;
+
+LEXICON PERS-SG2
+! sinä:sin
++Pron+Pers+Sg2+Nom:ä # ;
+
+LEXICON PERS-SG3
+! häi:hä
++Pron+Pers+Sg3+Nom:i # ;
+
+LEXICON PERS-PL1
+! myö:myö
++Pron+Pers+Pl1+Nom:ä # ;
+
+LEXICON PERS-PL2
+! työ:työ
++Pron+Pers+Pl2+Nom:ä # ;
+
+LEXICON PERS-PL3
+! hyö:hyö
++Pron+Pers+Pl3+Nom:i # ;
+
+
 
 LEXICON PronTag
 +Pron: # ;
