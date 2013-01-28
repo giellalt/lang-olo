@@ -199,7 +199,8 @@ Rules
 ! mato : mattooa
 ! Vowel harmony suffixes Back
 "A1:a"
- A1:a <=> BT _   ( %>:  %^WEAK:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:  %^LCns:0 ( %^LVws:0 ) ) [ ( %>: ) [ Cns | %^WEAK:0 %>: [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | A1: | %^StretchSyll2:0 | i | %>: ( %^WEAK:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
+ A1:a <=> BT _ \[  ( %>: %^LCns:0 ) %>: i %>: ] ;
+! BT _   ( %>:  %^WEAK:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:  %^LCns:0 ( %^LVws:0 ) ) [ ( %>: ) [ Cns | %^WEAK:0 %>: [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | A1: | %^StretchSyll2:0 | i | %>: ( %^WEAK:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
 
 !!
 !! Vowel harmony suffixes Front
@@ -394,6 +395,10 @@ p:0 <=> [ #: Cns* Vws ( m ) p | #: Cns* Vws Vws p | Cns* Vws+ Cns+ Vws+ p ] _ [ 
            Vx: _ %>: v v A1: %^RVws:0 ;
           where Vx in (o ö)
                 Vy in (u y) matched ;
+
+!! Consonant loss
+"d:0"
+d:0 <=> Vws _ Vws: %^WEAK:0 %>: ;
 
 !!
 !"Disallow WLoss after non-v"
