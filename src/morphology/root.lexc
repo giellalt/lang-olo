@@ -91,7 +91,14 @@ Multichar_Symbols
 ! Subject conjugation
 +ScSg1 +ScSg2 +ScSg3 
 +ScPl1 +ScPl2 +ScPl3
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
++Sc
+! Reflexive conjugation
++RcSg1 +RcSg2 +RcSg3 
++RcPl1 +RcPl2 +RcPl3
++Rc
++RcSg
++RcPl
+ +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
 
