@@ -60,7 +60,7 @@ LEXICON V-VV_01
 +V: INDPRSPL1 ;
 +V: INDPRSPL2 ;
 +V:%> INDPRSPL3_tAh ;
-+V: INDCONNEG ;
++V: INDPRSCONNEG ;
 
 +Ind+Prt+ScSg1:%^WEAK%>in K ;
 +Ind+Prt+ScSg2:%^WEAK%>it K ;
@@ -77,26 +77,46 @@ LEXICON V_TULLA
 !tulla:tul
 +V:e INDPRSSG1 ;
 +V:e INDPRSSG2 ;
-+V:e INDPRSSG3 ;
++V:O1 INDPRSSG3 ;
 +V:e INDPRSPL1 ;
 +V:e INDPRSPL2 ;
-+V:%> INDPRSPL3_dAh ;
-+V:e INDCONNEG ;
++V: INDPRSPL3_dAh ;
+!+V+Ind+PrfPrc:dA1%^WEAKh K ;
++V:e INDPRSCONNEG ;
++V: INDPRTSG1     ;
++V: INDPRTSG2     ;
++V: INDPRTSG3     ;
++V: INDPRTPL1     ;
++V: INDPRTPL2     ;
++V: INDPRTPL3_dih     ;
++V+Ind+PrfPrc:dU1%^WEAKh K ;
++V+Ind+PrfPrcPl3:dU1 K ;
++V: CONDPRS ;
++V:%>d CONDPRSPL3 ;
++V:dU1%^WEAK CONDPRT ;
++V:%>dA1 CONDPRTPL3 ;
 
 LEXICON V_SUVAIJA
 !Verbs of the Finnish type 5
 ! suvaija:suvai
 +V:čče INDPRSSG1 ;
 +V:čče INDPRSSG2 ;
-+V:čče INDPRSSG3 ;
++V:ččO1 INDPRSSG3 ;
 +V:čče INDPRSPL1 ;
 +V:čče INDPRSPL2 ;
 +V:%> INDPRSPL3_jAh ;
-+V:čče INDCONNEG ;
++V:čče INDPRSCONNEG ;
 
-LEXICON V_RODIEKSEH
+LEXICON VR_AMBUOKSEH
+! ambuokseh:ambu
+LEXICON	VR_ ;
+
+LEXICON VR_RODIEKSEH
 ! Reflexive verbs
 !rodiekseh:rodi
+LEXICON VR_ ;
+
+LEXICON VR_
 +V+Ind+Prs+RcSg1:%^WEAK%>mmO1s	K	;
 +V+Ind+Prs+RcSg2:%^WEAK%>ttO1s	K	;
 +V+Ind+Prs+RcSg3:%^WEAK%>h	K	;
@@ -125,6 +145,7 @@ LEXICON V_RODIEKSEH
 !! Nonfinites
 
 !! Finites
+!! Indicative
 LEXICON INDPRSSG1
 +Ind+Prs+ScSg1:%^WEAK%>n K ;
 LEXICON INDPRSSG2
@@ -138,11 +159,54 @@ LEXICON INDPRSPL2
 LEXICON INDPRSPL3_jAh
 +Ind+Prs+ScPl3:%>jA1h K ;
 LEXICON INDPRSPL3_dAh
-+Ind+Prs+ScPl3:%>dA1h K ;
++Ind+Prs+ScPl3:dA1%^WEAKh K ;
 LEXICON INDPRSPL3_tAh
 +Ind+Prs+ScPl3:%^WEAK%^E1%>tA1h K ;
-LEXICON INDCONNEG
+LEXICON INDPRSCONNEG
 +Ind+Prs+ConNeg:%^WEAK K ;
+
+LEXICON INDPRTSG1
++Ind+Prt+ScSg1:%^WEAK%>in K ;
+LEXICON INDPRTSG2
++Ind+Prt+ScSg2:%^WEAK%>it K ;
+LEXICON INDPRTSG3
++Ind+Prt+ScSg3:%>i K ;
+LEXICON INDPRTPL1
++Ind+Prt+ScPl1:%^WEAK%>immO1 K ;
+LEXICON INDPRTPL2
++Ind+Prt+ScPl2:%^WEAK%>ittO1 K ;
+LEXICON INDPRTPL3_dih
++Ind+Prt+ScPl3:%>dih K ;
+LEXICON INDPRTPL3_tih
++Ind+Prt+ScPl3:%^WEAK%^E1%>tih K ;
+LEXICON INDPRTPL3_ttih
++Ind+Prt+ScPl3:%^WEAK%^E1%>ttih K ;
+LEXICON INDPRTSGCONNEG
++Ind+Prt+Sg+ConNeg:%^WEAK K ;
+
+
+!! Conditional
+LEXICON CONDPRS
++Cond+Prs+ScSg1:%>izin K ;
++Cond+Prs+ScSg2:%>izit K ;
++Cond+Prs+ScSg3:%>iz K ;
++Cond+Prs+ScPl1:%>izimmO1 K ;
++Cond+Prs+ScPl2:%>izittO1 K ;
+
+LEXICON CONDPRSPL3
++Cond+Prs+ScPl3:A1is K ;
+
+
+LEXICON CONDPRT
++Cond+Prt+ScSg1:%>zin K ;
++Cond+Prt+ScSg2:%>zit K ;
++Cond+Prt+ScSg3:%>z K ;
++Cond+Prt+ScPl1:%>zimmO1 K ;
++Cond+Prt+ScPl2:%>zittO1 K ;
+
+LEXICON CONDPRTPL3
++Cond+Prt+ScPl3:%>nU1s K ;
+
 
 ! vim: set ft=xfst-lexc:
 
