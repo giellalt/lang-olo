@@ -9,7 +9,7 @@
       <l>abeija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">abeija</st>
+        <st Contlex="V_SUVAIJA">abei</st>
       </stg>
     </lg>
 
@@ -94,7 +94,7 @@
       <l>ahavoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">ahavoija</st>
+        <st Contlex="V_SUVAIJA">ahavoi</st>
       </stg>
     </lg>
 
@@ -150,7 +150,7 @@
       <l>ahkeroija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">ahkeroija</st>
+        <st Contlex="V_SUVAIJA">ahkeroi</st>
       </stg>
     </lg>
 
@@ -623,7 +623,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajella muoaloi myö</l>
 
@@ -651,7 +651,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajella vagoloil</l>
 
@@ -765,7 +765,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua boiko</l>
 
@@ -793,7 +793,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua eri puoleh</l>
 
@@ -821,7 +821,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua hoputtua</l>
 
@@ -849,7 +849,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua iäres</l>
 
@@ -877,7 +877,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua jalles</l>
 
@@ -905,7 +905,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua kunne-tahto</l>
 
@@ -933,7 +933,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua lähembi</l>
 
@@ -961,7 +961,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua madalale</l>
 
@@ -989,7 +989,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua niškas</l>
 
@@ -1017,7 +1017,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua peräh</l>
 
@@ -1045,7 +1045,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua piäliči</l>
 
@@ -1073,7 +1073,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua pois</l>
 
@@ -1101,7 +1101,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua ravieh</l>
 
@@ -1129,7 +1129,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua siiriči</l>
 
@@ -1157,35 +1157,7 @@
     </mg>
   </e>
 
-  <e>
-    <lg>
-      <l>ajua siiričči</l>
-
-      <stg>
-        <st Contlex="VTag">ajua siiričči</st>
-      </stg>
-    </lg>
-
-    <pos>V</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg lang="eng">
-        <t pos="V"/>
-      </tg>
-
-      <tg lang="fin">
-        <t pos="V">ajaa ohi, ohittaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ajua vagoloi</l>
 
@@ -1275,7 +1247,7 @@
       <l>akkiloija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">akkiloija</st>
+        <st Contlex="V_SUVAIJA">akkiloi</st>
       </stg>
     </lg>
 
@@ -1441,14 +1413,14 @@
 
   <e>
     <lg>
-      <l>alevumižeh (olla a.)</l>
+      <l>alevumižeh</l>
 
       <stg>
-        <st Contlex="VTag">alevumižeh (olla a.)</st>
+        <st Contlex="AdvTag">alevumižeh</st>
       </stg>
     </lg>
 
-    <pos>V</pos>
+    <pos>ADV</pos>
 
     <mg>
       <m>
@@ -1458,13 +1430,19 @@
       </m>
 
       <tg lang="eng">
-        <t pos="V"/>
+        <t pos="ADV"/>
       </tg>
 
       <tg lang="fin">
-        <t pos="V">olla lopuillaan, loppumaisillaan, laantua, lauhtua,
-        tyyntyä</t>
+        <t pos="ADV">lopuillaan</t>
       </tg>
+
+      <xg>
+        <x>olla alevumižeh</x>
+
+        <xt lang="fin">olla lopuillaan, loppumaisillaan, laantua, lauhtua,
+        tyyntyä</xt>
+      </xg>
     </mg>
   </e>
 
@@ -1580,7 +1558,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>alištua vallan alle</l>
 
@@ -1692,12 +1670,12 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
-      <l>ambua kuollekse</l>
+      <l>ambuo kuollekse</l>
 
       <stg>
-        <st Contlex="VTag">ambua kuollekse</st>
+        <st Contlex="VTag">ambuo kuollekse</st>
       </stg>
     </lg>
 
@@ -1720,12 +1698,12 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
-      <l>ambua kuolliekse</l>
+      <l>ambuo kuolliekse</l>
 
       <stg>
-        <st Contlex="VTag">ambua kuolliekse</st>
+        <st Contlex="VTag">ambuo kuolliekse</st>
       </stg>
     </lg>
 
@@ -1781,7 +1759,7 @@
       <l>ambuokseh</l>
 
       <stg>
-        <st Contlex="VTag">ambuokseh</st>
+        <st Contlex="VR_AMBUOKSEH">ambu</st>
       </stg>
     </lg>
 
@@ -2819,7 +2797,7 @@
       <l>astoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">astoija</st>
+        <st Contlex="V_SUVAIJA">astoi</st>
       </stg>
     </lg>
 
@@ -2903,7 +2881,7 @@
       <l>atkaloija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">atkaloija</st>
+        <st Contlex="V_SUVAIJA">atkaloi</st>
       </stg>
     </lg>
 
@@ -3441,7 +3419,7 @@
       <l>baluija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">baluija</st>
+        <st Contlex="V_SUVAIJA">balui</st>
       </stg>
     </lg>
 
@@ -3599,7 +3577,8 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V">paukuttaa, paukutella; soittaa kovaa ja kehnosti, vonguttaa</t>
+        <t pos="V">paukuttaa, paukutella; soittaa kovaa ja kehnosti,
+        vonguttaa</t>
       </tg>
     </mg>
   </e>
@@ -3609,7 +3588,7 @@
       <l>berogoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">berogoija</st>
+        <st Contlex="V_SUVAIJA">berogoi</st>
       </stg>
     </lg>
 
@@ -3637,7 +3616,7 @@
       <l>beseduija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">beseduija</st>
+        <st Contlex="V_SUVAIJA">besedui</st>
       </stg>
     </lg>
 
@@ -3711,7 +3690,9 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V">piiskata, läimiä; nopeasta keveästä liikkumisesta; sipsuttaa, piipertää, vipeltää; sopottaa, mumista; surista, pöristä; ommella rauhallisesti pistellen</t>
+        <t pos="V">piiskata, läimiä; nopeasta keveästä liikkumisesta;
+        sipsuttaa, piipertää, vipeltää; sopottaa, mumista; surista, pöristä;
+        ommella rauhallisesti pistellen</t>
       </tg>
     </mg>
   </e>
@@ -4225,7 +4206,7 @@
       <l>borčuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">borčuija</st>
+        <st Contlex="V_SUVAIJA">borčui</st>
       </stg>
     </lg>
 
@@ -4337,7 +4318,7 @@
       <l>brezguija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">brezguija</st>
+        <st Contlex="V_SUVAIJA">brezgui</st>
       </stg>
     </lg>
 
@@ -4365,7 +4346,7 @@
       <l>briezguija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">briezguija</st>
+        <st Contlex="V_SUVAIJA">briezgui</st>
       </stg>
     </lg>
 
@@ -6063,7 +6044,8 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V">1. ja 2. persoonan imperatiivissa; huudahdussanana, siitä vaan; osoittaa toiminnan intensiivisen jatkumista</t>
+        <t pos="V">1. ja 2. persoonan imperatiivissa; huudahdussanana, siitä
+        vaan; osoittaa toiminnan intensiivisen jatkumista</t>
       </tg>
     </mg>
   </e>
@@ -6129,7 +6111,7 @@
       <l>diesvuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">diesvuija</st>
+        <st Contlex="V_SUVAIJA">diesvui</st>
       </stg>
     </lg>
 
@@ -6409,7 +6391,7 @@
       <l>dubinoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">dubinoija</st>
+        <st Contlex="V_SUVAIJA">dubinoi</st>
       </stg>
     </lg>
 
@@ -6465,7 +6447,7 @@
       <l>duumaija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">duumaija</st>
+        <st Contlex="V_SUVAIJA">duumai</st>
       </stg>
     </lg>
 
@@ -6847,7 +6829,8 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V">siirtää loitommas; lykätä myöhemmäksi; nyrjäyttää; säästää; edistää, hyödyttää</t>
+        <t pos="V">siirtää loitommas; lykätä myöhemmäksi; nyrjäyttää; säästää;
+        edistää, hyödyttää</t>
       </tg>
     </mg>
   </e>
@@ -7351,7 +7334,8 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V">elpyä; vaurastua, päästä jaloilleen; asettua asumaan jhk</t>
+        <t pos="V">elpyä; vaurastua, päästä jaloilleen; asettua asumaan
+        jhk</t>
       </tg>
     </mg>
   </e>
@@ -7995,7 +7979,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V">>pahoittaa mielensä, tulla alakuloiseksi</t>
+        <t pos="V">&gt;pahoittaa mielensä, tulla alakuloiseksi</t>
       </tg>
     </mg>
   </e>
@@ -8005,7 +7989,7 @@
       <l>goruija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">goruija</st>
+        <st Contlex="V_SUVAIJA">gorui</st>
       </stg>
     </lg>
 
@@ -8331,7 +8315,8 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V">mennä nopeasti, aika haipakkaa; hukata aikaa, haihatella</t>
+        <t pos="V">mennä nopeasti, aika haipakkaa; hukata aikaa,
+        haihatella</t>
       </tg>
     </mg>
   </e>
@@ -8733,7 +8718,7 @@
       <l>haldivoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">haldivoija</st>
+        <st Contlex="V_SUVAIJA">haldivoi</st>
       </stg>
     </lg>
 
@@ -9125,7 +9110,7 @@
       <l>haravoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">haravoija</st>
+        <st Contlex="V_SUVAIJA">haravoi</st>
       </stg>
     </lg>
 
@@ -11309,7 +11294,7 @@
       <l>hiitruija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">hiitruija</st>
+        <st Contlex="V_SUVAIJA">hiitrui</st>
       </stg>
     </lg>
 
@@ -11449,7 +11434,7 @@
       <l>himaloija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">himaloija</st>
+        <st Contlex="V_SUVAIJA">himaloi</st>
       </stg>
     </lg>
 
@@ -15005,7 +14990,7 @@
       <l>härpikoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">härpikoija</st>
+        <st Contlex="V_SUVAIJA">härpikoi</st>
       </stg>
     </lg>
 
@@ -15593,7 +15578,7 @@
       <l>idaroija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">idaroija</st>
+        <st Contlex="V_SUVAIJA">idaroi</st>
       </stg>
     </lg>
 
@@ -15789,7 +15774,7 @@
       <l>igäveija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">igäveija</st>
+        <st Contlex="V_SUVAIJA">igävei</st>
       </stg>
     </lg>
 
@@ -17301,7 +17286,7 @@
       <l>ižändöija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">ižändöija</st>
+        <st Contlex="V_SUVAIJA">ižändöi</st>
       </stg>
     </lg>
 
@@ -19933,7 +19918,7 @@
       <l>kabaloija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">kabaloija</st>
+        <st Contlex="V_SUVAIJA">kabaloi</st>
       </stg>
     </lg>
 
@@ -20129,7 +20114,7 @@
       <l>kadajoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">kadajoija</st>
+        <st Contlex="V_SUVAIJA">kadajoi</st>
       </stg>
     </lg>
 
@@ -23123,7 +23108,7 @@
       <l>kazakoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">kazakoija</st>
+        <st Contlex="V_SUVAIJA">kazakoi</st>
       </stg>
     </lg>
 
@@ -25083,7 +25068,7 @@
       <l>kiduija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">kiduija</st>
+        <st Contlex="V_SUVAIJA">kidui</st>
       </stg>
     </lg>
 
@@ -27939,7 +27924,7 @@
       <l>kobeloija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">kobeloija</st>
+        <st Contlex="V_SUVAIJA">kobeloi</st>
       </stg>
     </lg>
 
@@ -28023,7 +28008,7 @@
       <l>kodiniekuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">kodiniekuija</st>
+        <st Contlex="V_SUVAIJA">kodiniekui</st>
       </stg>
     </lg>
 
@@ -31299,7 +31284,7 @@
       <l>kunnivoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">kunnivoija</st>
+        <st Contlex="V_SUVAIJA">kunnivoi</st>
       </stg>
     </lg>
 
@@ -34715,7 +34700,7 @@
       <l>laihinoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">laihinoija</st>
+        <st Contlex="V_SUVAIJA">laihinoi</st>
       </stg>
     </lg>
 
@@ -41211,7 +41196,7 @@
       <l>luogovoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">luogovoija</st>
+        <st Contlex="V_SUVAIJA">luogovoi</st>
       </stg>
     </lg>
 
@@ -46475,7 +46460,7 @@
       <l>murginoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">murginoija</st>
+        <st Contlex="V_SUVAIJA">murginoi</st>
       </stg>
     </lg>
 
@@ -52859,7 +52844,7 @@
       <l>obšivoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">obšivoija</st>
+        <st Contlex="V_SUVAIJA">obšivoi</st>
       </stg>
     </lg>
 
@@ -57813,7 +57798,7 @@
       <l>palmikoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">palmikoija</st>
+        <st Contlex="V_SUVAIJA">palmikoi</st>
       </stg>
     </lg>
 
@@ -59493,7 +59478,7 @@
       <l>passiboija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">passiboija</st>
+        <st Contlex="V_SUVAIJA">passiboi</st>
       </stg>
     </lg>
 
@@ -62321,7 +62306,7 @@
       <l>piruija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">piruija</st>
+        <st Contlex="V_SUVAIJA">pirui</st>
       </stg>
     </lg>
 
@@ -63553,7 +63538,7 @@
       <l>pluastaija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">pluastaija</st>
+        <st Contlex="V_SUVAIJA">pluastai</st>
       </stg>
     </lg>
 
@@ -64029,7 +64014,7 @@
       <l>potakoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">potakoija</st>
+        <st Contlex="V_SUVAIJA">potakoi</st>
       </stg>
     </lg>
 
@@ -64141,7 +64126,7 @@
       <l>potčuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">potčuija</st>
+        <st Contlex="V_SUVAIJA">potčui</st>
       </stg>
     </lg>
 
@@ -64477,7 +64462,7 @@
       <l>prozevaija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">prozevaija</st>
+        <st Contlex="V_SUVAIJA">prozevai</st>
       </stg>
     </lg>
 
@@ -64561,7 +64546,7 @@
       <l>pruaznuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">pruaznuija</st>
+        <st Contlex="V_SUVAIJA">pruaznui</st>
       </stg>
     </lg>
 
@@ -67641,7 +67626,7 @@
       <l>radeija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">radeija</st>
+        <st Contlex="V_SUVAIJA">radei</st>
       </stg>
     </lg>
 
@@ -67753,7 +67738,7 @@
       <l>ragaija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">ragaija</st>
+        <st Contlex="V_SUVAIJA">ragai</st>
       </stg>
     </lg>
 
@@ -69125,7 +69110,7 @@
       <l>resuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">resuija</st>
+        <st Contlex="V_SUVAIJA">resui</st>
       </stg>
     </lg>
 
@@ -70581,7 +70566,7 @@
       <l>risuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">risuija</st>
+        <st Contlex="V_SUVAIJA">risui</st>
       </stg>
     </lg>
 
@@ -70917,7 +70902,7 @@
       <l>rodiekseh</l>
 
       <stg>
-        <st Contlex="V_RODIEKSEH">rodi</st>
+        <st Contlex="VR_RODIEKSEH">rodi</st>
       </stg>
     </lg>
 
@@ -71024,7 +71009,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roija atkalah</l>
 
@@ -71052,7 +71037,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roija kuurniekse</l>
 
@@ -71080,7 +71065,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roija läžiäkse</l>
 
@@ -71108,7 +71093,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roija pahah mieleh</l>
 
@@ -71192,7 +71177,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roijakseh kuupaidažes</l>
 
@@ -71332,7 +71317,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita armoittomakse</l>
 
@@ -71360,7 +71345,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita hruabroikse</l>
 
@@ -71388,7 +71373,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita hölmökse</l>
 
@@ -71416,7 +71401,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita kibiekse</l>
 
@@ -71444,7 +71429,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita kielettömäkse</l>
 
@@ -71472,7 +71457,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita madal</l>
 
@@ -71500,7 +71485,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita mielen kel</l>
 
@@ -71528,7 +71513,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita mielettomäkse</l>
 
@@ -71556,7 +71541,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita mielivembi</l>
 
@@ -71584,7 +71569,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita märgy</l>
 
@@ -71612,7 +71597,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita märräkse</l>
 
@@ -71640,7 +71625,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita tähkäle</l>
 
@@ -71668,7 +71653,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita vessely</l>
 
@@ -71696,7 +71681,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita vesseläkse</l>
 
@@ -71724,7 +71709,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita vihandu</l>
 
@@ -71752,7 +71737,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita viärinekakse</l>
 
@@ -71780,7 +71765,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>roita väittömäkse</l>
 
@@ -71864,7 +71849,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>rojakseh tervehekse</l>
 
@@ -72118,14 +72103,14 @@
 
   <e>
     <lg>
-      <l>ruadi (olla r.)</l>
+      <l>ruadi</l>
 
       <stg>
-        <st Contlex="VTag">ruadi (olla r.)</st>
+        <st Contlex="AdvTag">ruadi</st>
       </stg>
     </lg>
 
-    <pos>V</pos>
+    <pos>ADV</pos>
 
     <mg>
       <m>
@@ -72135,12 +72120,18 @@
       </m>
 
       <tg lang="eng">
-        <t pos="V"/>
+        <t pos="ADV"/>
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="ADV"/>
       </tg>
+
+      <xg>
+        <x>olla ruadi</x>
+
+        <xt lang="fin"/>
+      </xg>
     </mg>
   </e>
 
@@ -72172,7 +72163,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ruadua kiištah</l>
 
@@ -76209,7 +76200,7 @@
       <l>sarstvuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">sarstvuija</st>
+        <st Contlex="V_SUVAIJA">sarstvui</st>
       </stg>
     </lg>
 
@@ -78393,7 +78384,7 @@
       <l>snimaija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">snimaija</st>
+        <st Contlex="V_SUVAIJA">snimai</st>
       </stg>
     </lg>
 
@@ -80409,7 +80400,7 @@
       <l>suuvaija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">suuvaija</st>
+        <st Contlex="V_SUVAIJA">suuvai</st>
       </stg>
     </lg>
 
@@ -80661,7 +80652,7 @@
       <l>svuataija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">svuataija</st>
+        <st Contlex="V_SUVAIJA">svuatai</st>
       </stg>
     </lg>
 
@@ -81697,7 +81688,7 @@
       <l>tabakoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">tabakoija</st>
+        <st Contlex="V_SUVAIJA">tabakoi</st>
       </stg>
     </lg>
 
@@ -82453,7 +82444,7 @@
       <l>tanssuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">tanssuija</st>
+        <st Contlex="V_SUVAIJA">tanssui</st>
       </stg>
     </lg>
 
@@ -83769,7 +83760,7 @@
       <l>tiedoniekuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">tiedoniekuija</st>
+        <st Contlex="V_SUVAIJA">tiedoniekui</st>
       </stg>
     </lg>
 
@@ -83797,7 +83788,7 @@
       <l>tiedovoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">tiedovoija</st>
+        <st Contlex="V_SUVAIJA">tiedovoi</st>
       </stg>
     </lg>
 
@@ -84777,7 +84768,7 @@
       <l>tolkuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">tolkuija</st>
+        <st Contlex="V_SUVAIJA">tolkui</st>
       </stg>
     </lg>
 
@@ -85141,7 +85132,7 @@
       <l>torguija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">torguija</st>
+        <st Contlex="V_SUVAIJA">torgui</st>
       </stg>
     </lg>
 
@@ -86793,7 +86784,7 @@
       <l>tumakoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">tumakoija</st>
+        <st Contlex="V_SUVAIJA">tumakoi</st>
       </stg>
     </lg>
 
@@ -91049,7 +91040,7 @@
       <l>uvvessah čotaija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">uvvessah čotaija</st>
+        <st Contlex="V_SUVAIJA">uvvessah čotai</st>
       </stg>
     </lg>
 
@@ -93065,7 +93056,7 @@
       <l>vardeija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">vardeija</st>
+        <st Contlex="V_SUVAIJA">vardei</st>
       </stg>
     </lg>
 
@@ -93121,7 +93112,7 @@
       <l>vardoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">vardoija</st>
+        <st Contlex="V_SUVAIJA">vardoi</st>
       </stg>
     </lg>
 
@@ -95221,7 +95212,7 @@
       <l>vihandoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">vihandoija</st>
+        <st Contlex="V_SUVAIJA">vihandoi</st>
       </stg>
     </lg>
 
@@ -97629,7 +97620,7 @@
       <l>vojuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">vojuija</st>
+        <st Contlex="V_SUVAIJA">vojui</st>
       </stg>
     </lg>
 
@@ -102501,7 +102492,7 @@
       <l>šiivileija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">šiivileija</st>
+        <st Contlex="V_SUVAIJA">šiivilei</st>
       </stg>
     </lg>
 
@@ -104125,7 +104116,7 @@
       <l>žiitoija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">žiitoija</st>
+        <st Contlex="V_SUVAIJA">žiitoi</st>
       </stg>
     </lg>
 
