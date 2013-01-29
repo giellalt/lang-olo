@@ -109,12 +109,13 @@ LEXICON V_SUVAIJA
 
 LEXICON VR_AMBUOKSEH
 ! ambuokseh:ambu
-LEXICON	VR_ ;
+	VR_ ;
 
 LEXICON VR_RODIEKSEH
 ! Reflexive verbs
 !rodiekseh:rodi
-LEXICON VR_ ;
+ VR_ ;
+
 
 LEXICON VR_
 +V+Ind+Prs+RcSg1:%^WEAK%>mmO1s	K	;
