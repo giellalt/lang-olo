@@ -11322,11 +11322,11 @@
       <l>hirnundu</l>
 
       <stg>
-        <st Contlex="VTag">hirnundu</st>
+        <st Contlex="NTag">hirnundu</st>
       </stg>
     </lg>
 
-    <pos>V</pos>
+    <pos>N</pos>
 
     <mg>
       <m>
@@ -11336,11 +11336,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="V"/>
+        <t pos="N"/>
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="N">tirskunta, aivastelu; (hevosen) hirnunta</t>
       </tg>
     </mg>
   </e>
@@ -11368,7 +11368,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">aivastaa, aivastella</t>
       </tg>
     </mg>
   </e>
@@ -11396,7 +11396,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">nyrjähtää, niukahtaa, venähtää, hiveltyä</t>
       </tg>
     </mg>
   </e>
@@ -11424,7 +11424,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hioa, terottaa</t>
       </tg>
     </mg>
   </e>
@@ -11452,7 +11452,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">livahtaa</t>
       </tg>
     </mg>
   </e>
@@ -11480,7 +11480,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">pitää vähäistä ääntä, kahista, sihistä;  liikkua t. työskennellä hitaasti, hiissuttaa</t>
       </tg>
     </mg>
   </e>
@@ -11508,7 +11508,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">kutistua, kyyristyä, piiloutua</t>
       </tg>
     </mg>
   </e>
@@ -11536,7 +11536,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hangata, sipsua; tylsyttää; hinkata, kitkuttaa (poikki9</t>
       </tg>
     </mg>
   </e>
@@ -11564,7 +11564,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hohottaa; huhuilla (huuhkaja ym.); kohista (tulipalo, tuuli)</t>
       </tg>
     </mg>
   </e>
@@ -11592,7 +11592,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hoitaa</t>
       </tg>
     </mg>
   </e>
@@ -11620,7 +11620,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huutaa hoi, huhuilla</t>
       </tg>
     </mg>
   </e>
@@ -11648,7 +11648,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hoilata; parkua, ulista</t>
       </tg>
     </mg>
   </e>
@@ -11676,7 +11676,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">ajaa karjaa huutamalla hoino</t>
       </tg>
     </mg>
   </e>
@@ -11704,7 +11704,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">helpottaa, keventää, vähentää, lieventää, huojentaa</t>
       </tg>
     </mg>
   </e>
@@ -11732,7 +11732,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">helpota, vähetä, lievetä, hiljetä</t>
       </tg>
     </mg>
   </e>
@@ -11760,7 +11760,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">lepo, rauha, helpotus;  helppo, kepeä, vähäinen, lievä; kulu, tekele; rähjä; kaakki</t>
       </tg>
     </mg>
   </e>
@@ -11788,7 +11788,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huutaa, kutsua, hoilottaa</t>
       </tg>
     </mg>
   </e>
@@ -11802,7 +11802,7 @@
       </stg>
     </lg>
 
-    <pos>V</pos>
+    <pos>V<!--vain kielt.--></pos>
 
     <mg>
       <m>
@@ -11816,7 +11816,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">lotkauttaa korvaansa, hätääntyä (vain kielt.)</t>
       </tg>
     </mg>
   </e>
@@ -11844,17 +11844,17 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">homehtua</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>homehutta</l>
+      <l>homehtuttua</l>
 
       <stg>
-        <st Contlex="VTag">homehutta</st>
+        <st Contlex="VTag">homehtuttua</st>
       </stg>
     </lg>
 
@@ -11872,7 +11872,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">homehduttaa</t>
       </tg>
     </mg>
   </e>
@@ -11900,7 +11900,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hankkia; hommata, hommailla</t>
       </tg>
     </mg>
   </e>
@@ -11928,7 +11928,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">homma</t>
       </tg>
     </mg>
   </e>
@@ -11956,7 +11956,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">lampsia, lompsia; ahmia</t>
       </tg>
     </mg>
   </e>
@@ -11984,7 +11984,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">riidellä, kiistellä</t>
       </tg>
     </mg>
   </e>
@@ -12012,7 +12012,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">riitaantua</t>
       </tg>
     </mg>
   </e>
@@ -12040,7 +12040,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hohottaa; hirnua</t>
       </tg>
     </mg>
   </e>
@@ -12068,7 +12068,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">tunkkaaantua, ummehtua (heinä, vilja, vaatteet, jauhot)</t>
       </tg>
     </mg>
   </e>
@@ -12096,7 +12096,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">tulla hölmöksi t. hulluksi</t>
       </tg>
     </mg>
   </e>
@@ -12124,7 +12124,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huohottaa</t>
       </tg>
     </mg>
   </e>
@@ -12152,7 +12152,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">sarastaa, hämärtää, koittaa (aamu t. ilta)</t>
       </tg>
     </mg>
   </e>
@@ -12180,7 +12180,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">kysellä, tivata; lörpötellä</t>
       </tg>
     </mg>
   </e>
@@ -12208,7 +12208,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">töllistellä</t>
       </tg>
     </mg>
   </e>
@@ -12236,7 +12236,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">mennä haralleen, harilleen, hajalleen; hajota, hajaantua, aueta, erota, haljeta, mennä kahtia, revetä, rikkoutua</t>
       </tg>
     </mg>
   </e>
@@ -12264,7 +12264,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">levittää, harittaa, haaroittaa, erottaa (toisistaan), ottaa erilleen, avata, hajottaa, saattaa hajalle; olla apposen auki, sepposen selällään; seisoa t. kulkea jalat harallaan; pitää jstk</t>
       </tg>
     </mg>
   </e>
@@ -12292,7 +12292,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">>haistaa, haistella; hönkäistä saastaiseksi (uskom.)</t>
       </tg>
     </mg>
   </e>
@@ -12320,7 +12320,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">tehdä aihioita, luonnostella; yrittää, yritellä, aikoa; alkaa, ruveta; suunnitella, tehdä summittaisesti; aavistaa; säätää</t>
       </tg>
     </mg>
   </e>
@@ -12348,7 +12348,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">aikoa, yritellä</t>
       </tg>
     </mg>
   </e>
@@ -12376,7 +12376,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">heiketä, kulua</t>
       </tg>
     </mg>
   </e>
@@ -12404,7 +12404,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huuhtoa</t>
       </tg>
     </mg>
   </e>
@@ -12432,7 +12432,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huikata, huutaa; möläyttää; suikata (vaihtaa näkemättä)</t>
       </tg>
     </mg>
   </e>
@@ -12460,7 +12460,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">halvata</t>
       </tg>
     </mg>
   </e>
@@ -12488,7 +12488,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">humaltua</t>
       </tg>
     </mg>
   </e>
@@ -12516,7 +12516,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">humaltua</t>
       </tg>
     </mg>
   </e>
@@ -12544,7 +12544,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">humista</t>
       </tg>
     </mg>
   </e>
@@ -12572,7 +12572,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">lepuuttaa</t>
       </tg>
     </mg>
   </e>
@@ -12600,7 +12600,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">levätä</t>
       </tg>
     </mg>
   </e>
@@ -12656,7 +12656,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huolehtia</t>
       </tg>
     </mg>
   </e>
@@ -12684,7 +12684,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huolestua jstk</t>
       </tg>
     </mg>
   </e>
@@ -12712,7 +12712,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">jouduttaa, kiirehtiä; tehdä huolellisesti, huolitella</t>
       </tg>
     </mg>
   </e>
@@ -12740,7 +12740,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huomata</t>
       </tg>
     </mg>
   </e>
@@ -12768,7 +12768,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">aamulla syötävöksi</t>
       </tg>
     </mg>
   </e>
@@ -12796,7 +12796,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huonota, heiketä</t>
       </tg>
     </mg>
   </e>
@@ -12824,7 +12824,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">töllistellä</t>
       </tg>
     </mg>
   </e>
@@ -12880,7 +12880,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">halventaa</t>
       </tg>
     </mg>
   </e>
@@ -12908,7 +12908,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">halveta</t>
       </tg>
     </mg>
   </e>
@@ -12936,7 +12936,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hurauttaa, ajaa h.</t>
       </tg>
     </mg>
   </e>
@@ -12964,7 +12964,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hurauttaa</t>
       </tg>
     </mg>
   </e>
@@ -12992,7 +12992,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hurista; liristä</t>
       </tg>
     </mg>
   </e>
@@ -13020,7 +13020,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">nakata, paiskata</t>
       </tg>
     </mg>
   </e>
@@ -13048,7 +13048,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">puutua</t>
       </tg>
     </mg>
   </e>
@@ -13076,7 +13076,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huuhtaista; ahmia kattilasta</t>
       </tg>
     </mg>
   </e>
@@ -13104,7 +13104,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huuhtoa</t>
       </tg>
     </mg>
   </e>
@@ -13132,7 +13132,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huuhtoa</t>
       </tg>
     </mg>
   </e>
@@ -13160,7 +13160,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">pienentää, vähentää</t>
       </tg>
     </mg>
   </e>
@@ -13188,7 +13188,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huveta, pienetä, vähetä, kulua</t>
       </tg>
     </mg>
   </e>
@@ -13216,7 +13216,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huiskata, heiluttaa, heittää</t>
       </tg>
     </mg>
   </e>
@@ -13244,7 +13244,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">huiskuttaa, heiluttaa, keinuttaa</t>
       </tg>
     </mg>
   </e>
@@ -13272,7 +13272,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">keikkua, liikkua ylös-alas, hyllyä</t>
       </tg>
     </mg>
   </e>
@@ -13300,7 +13300,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">/>
       </tg>
     </mg>
   </e>
@@ -13356,7 +13356,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">nyyhkyttää; jokeltaa</t>
       </tg>
     </mg>
   </e>
@@ -13384,7 +13384,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">murehtia, pelätä</t>
       </tg>
     </mg>
   </e>
@@ -13412,7 +13412,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hylätä</t>
       </tg>
     </mg>
   </e>
@@ -13440,7 +13440,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">juosta hyntätä</t>
       </tg>
     </mg>
   </e>
@@ -13468,7 +13468,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hyräillä</t>
       </tg>
     </mg>
   </e>
@@ -13496,7 +13496,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hyppiä</t>
       </tg>
     </mg>
   </e>
@@ -13524,7 +13524,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hypähtää</t>
       </tg>
     </mg>
   </e>
@@ -13552,7 +13552,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hypätä</t>
       </tg>
     </mg>
   </e>
@@ -13580,7 +13580,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hypätä alas</t>
       </tg>
     </mg>
   </e>
@@ -13608,7 +13608,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hypätä pois</t>
       </tg>
     </mg>
   </e>
@@ -13636,7 +13636,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hypätä päälle</t>
       </tg>
     </mg>
   </e>
@@ -13664,7 +13664,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hypätä yli(tse)</t>
       </tg>
     </mg>
   </e>
@@ -13692,7 +13692,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V"hypätä taaksepäin</t>
       </tg>
     </mg>
   </e>
@@ -13720,7 +13720,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hyrrätä (kissasta, rukista)</t>
       </tg>
     </mg>
   </e>
@@ -13748,7 +13748,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hyräillä</t>
       </tg>
     </mg>
   </e>
@@ -13776,7 +13776,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hytkyä, notkua, hyllyä</t>
       </tg>
     </mg>
   </e>
@@ -13804,7 +13804,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">kiitellä</t>
       </tg>
     </mg>
   </e>
@@ -13832,7 +13832,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">kelvollinen</t>
       </tg>
     </mg>
   </e>
@@ -13860,7 +13860,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">tehdä jtk jnk hyväksi; onnitella; : kehua; hyvitellä, suosia</t>
       </tg>
     </mg>
   </e>
@@ -13888,7 +13888,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">kehuskella</t>
       </tg>
     </mg>
   </e>
@@ -13916,7 +13916,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">onnittelu; hyvittely; auttaminen</t>
       </tg>
     </mg>
   </e>
@@ -13944,7 +13944,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hyvitellä, lohdutella; kehua, ylistää</t>
       </tg>
     </mg>
   </e>
@@ -13972,7 +13972,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">koitua hyväksi; keikaroida; ylpeillä</t>
       </tg>
     </mg>
   </e>
@@ -14000,7 +14000,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hyväksyä</t>
       </tg>
     </mg>
   </e>
@@ -14028,7 +14028,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hyväksyä</t>
       </tg>
     </mg>
   </e>
@@ -14056,7 +14056,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hyytyä</t>
       </tg>
     </mg>
   </e>
@@ -14084,7 +14084,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">rikastua, hyötyä; kasvaa hyvin, hyötyä (tav. puista)</t>
       </tg>
     </mg>
   </e>
@@ -14112,7 +14112,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">käpertyä, asettua; kyhjöttää</t>
       </tg>
     </mg>
   </e>
@@ -14140,7 +14140,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">painua kasaan, hatistua, köyristyä</t>
       </tg>
     </mg>
   </e>
@@ -14168,7 +14168,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hölkyttää, lönkyttää</t>
       </tg>
     </mg>
   </e>
@@ -14196,7 +14196,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">ällistyä; hävetä</t>
       </tg>
     </mg>
   </e>
@@ -14224,7 +14224,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">puuhailla, kupsehtia</t>
       </tg>
     </mg>
   </e>
@@ -14252,7 +14252,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hätäillä; haluta jtk</t>
       </tg>
     </mg>
   </e>
@@ -14280,7 +14280,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">joutua hätään, puutteeseen t. pulaan; turvautua jkhun, pyytää jklta; hätääntyä; alkaa synnyttää</t>
       </tg>
     </mg>
   </e>
@@ -14308,7 +14308,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V"joutua hätään t. puutteeseen; hätääntyä; synnyttää, poikia</t>
       </tg>
     </mg>
   </e>
@@ -14336,7 +14336,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V"puhua epäselvästi, sammaltaa; hutiloida</t>
       </tg>
     </mg>
   </e>
@@ -14364,7 +14364,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">härmä, kuura, huurre; sumu, usva; häkä, haiku, löyhkähäkä, haiku, löyhkä; hämy; kiima</t>
       </tg>
     </mg>
   </e>
@@ -14392,7 +14392,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">heiluttaa, keinuttaa</t>
       </tg>
     </mg>
   </e>
@@ -14420,7 +14420,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">heilua, keinua</t>
       </tg>
     </mg>
   </e>
@@ -14448,7 +14448,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">/>
       </tg>
     </mg>
   </e>
@@ -14476,7 +14476,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V"/t>
       </tg>
     </mg>
   </e>
@@ -14504,7 +14504,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hälistä; telmiä; tehdä taloustöitä</t>
       </tg>
     </mg>
   </e>
@@ -14532,7 +14532,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="V"/>
+        <t pos="V">hämmentää</t>
       </tg>
     </mg>
   </e>
