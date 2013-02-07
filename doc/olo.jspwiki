@@ -1,23 +1,23 @@
-!!!Free and Open source Finnish analyser gtsvn-fi
+!!!Free and Open source Livvi (Olontets) analyser gtsvn-olo
 
-;Authors: Divvun and Giellatekno teams, community members
+;Authors: Timo Rantakaulio and Jack Rueter in cooperation with the Divvun and Giellatekno teams
 ;Software version: 2012
 ;Documentation license: GNU GFDL
 ;SVN Revision: $Revision: 68217 $
 ;SVN Date: $Date: 2013-01-16 11:31:33 +0200 (Wed, 16 Jan 2013) $
 
-!!!GTSVN-sma
+!!!GTSVN-olo
 
-This is free and open source South Sámi morphology.
+This is free and open source Livvi (Olonets) morphology.
 
 Morphology
 ----------
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LIVVI LANGUAGE.
 
 
 Analysis symbols
 ----------------
-The morphological analyses of wordforms of UNDEFINED language are presented
+The morphological analyses of wordforms of LIVVI language are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
@@ -64,7 +64,7 @@ And following triggers to control variation
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
 
-The word forms in UNDEFINED language start from the lexeme roots of basic
+The word forms in LIVVI language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
 
