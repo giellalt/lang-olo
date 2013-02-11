@@ -16,14 +16,13 @@
 !! ----------
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
 
-
 Multichar_Symbols
 !! Analysis symbols
 !! ----------------
 !! The morphological analyses of wordforms of UNDEFINED language are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
-+WORK ! Forms with this tag have not yet been extended to paradigmatic tagging.
++TYÄ ! This alerts workers of work to be done
 
 !! The parts-of-speech are:
  +A ! adjective
@@ -200,17 +199,17 @@ LEXICON Root
 ! I INCLUDE SOME SMALL LEXICA HERE
 ! WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
-LEXICON ConjTag
+LEXICON CONJ_
 +Conj: # ;
 
-LEXICON CcTag
+LEXICON CC_
 +CC: # ;
  
-LEXICON CsTag
+LEXICON CS_
 +CS: # ;
  
 
-LEXICON InterjTag
+LEXICON INTERJ_
 +Interj: # ;
 
 !LEXICON NUMERAL
@@ -224,7 +223,8 @@ LEXICON NUMBERSUF
 LEXICON ORDINAL
 +Ord:этӥ K;
 
-
+LEXICON PCLE_
++Pcle: #;
 
 LEXICON K
 +Clt/gi:%>gi # "also / -kin" ;
@@ -240,7 +240,7 @@ LEXICON PrepTag
 +Prep: # ; 
 
  
-LEXICON AdvTag
+LEXICON ADV_
 +Adv: # ; 
 
 LEXICON MannerTag
