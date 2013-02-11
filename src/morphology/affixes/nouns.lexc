@@ -2,12 +2,12 @@
 !! ---------------
 !! Livvi nouns inflect in cases.
 
-LEXICON NTag
-+N+Sg+Nom+WORK: # ;
+LEXICON N_
++N+Sg+Nom+TYÄ: # ;
 
 
 
-LEXICON N_HUOLETOI
+LEXICON N_HUOLETOI !!= @CODE@ huoletoi:huolet
 +N:oi SGNOMSUF ;
 +N:toma SGPARSUF-A1 ;
 +N:tomie PLGENSUF ;
@@ -15,7 +15,7 @@ LEXICON N_HUOLETOI
 +N:tomi PLINSSUF ;
 +N:toma Noun-NB-i ;
 
-LEXICON N_KANDAI
+LEXICON N_KANDAI !!= @CODE@ kandai:kandai
 +N: SGNOMSUF ;
 +N:A1 SGPARSUF-A1 ;
 +N:ie PLGENSUF ;
@@ -23,7 +23,7 @@ LEXICON N_KANDAI
 +N:i PLINSSUF ;
 +N:A1 Noun-NB-i ;
 
-LEXICON N_KARJAL
+LEXICON N_KARJAL !!= @CODE@ karjal:karjal
 +N: SGNOMSUF ;
 +N:a SGPARSUF-dU1 ;
 +N:a%>i PLGENSUF ;
@@ -31,8 +31,7 @@ LEXICON N_KARJAL
 +N:oi PLINSSUF ;
 +N:A1 Noun-NB-i ;
 
-LEXICON N_KARJALAINE
-!karjalaine:karjala
+LEXICON N_KARJALAINE !!= @CODE@ karjalaine:karjala
 +N:ine SGNOMSUF ;
 +N:s SGPARSUF-dU1 ;
 +N:zie PLGENSUF ;
@@ -40,8 +39,7 @@ LEXICON N_KARJALAINE
 +N:zi PLINSSUF ;
 +N:ze Noun-NB-i ;
 
-LEXICON N_KIELI
-!kieli:kiel
+LEXICON N_KIELI !!= @CODE@ kieli:kiel
 +N:i SGNOMSUF ;
 +N: SGPARSUF-dU1 ;
 +N:ie PLGENSUF ;
@@ -49,8 +47,7 @@ LEXICON N_KIELI
 +N:i PLINSSUF ;
 +N:e Noun-NB-i ;
 
-LEXICON N_KUU
-!kuu:kuu
+LEXICON N_KUU !!= @CODE@ kuu:kuu
 +N: SGNOMSUF ;
 +N: SGPARSUF-dU1 ;
 +N:loi PLGENSUF ;
@@ -58,8 +55,7 @@ LEXICON N_KUU
 +N:loi PLINSSUF ;
 +N: Noun-NB-loi ;
 
-LEXICON N_MUARJU
-!muarju:muarj
+LEXICON N_MUARJU !!= @CODE@ muarju:muarj
 +N:U1 SGNOMSUF ;
 +N:A1 SGPARSUF-A1 ;
 +N:%>oi PLGENSUF ; ! the plural comitative is declined here
@@ -67,7 +63,7 @@ LEXICON N_MUARJU
 +N:%>oi PLINSSUF ;
 +N:A1 Noun-NB-i ;
 
-LEXICON N_PADA
+LEXICON N_PADA !!= @CODE@ 
 +N: SGNOMSUF ;
 +N: SGPARSUF-A1 ;
 +N:i PLGENSUF ;
@@ -75,8 +71,7 @@ LEXICON N_PADA
 +N:i PLINSSUF ;
 +N: Noun-NB-i ;
 
-LEXICON N_ARMAS
-!armas:arma
+LEXICON N_ARMAS !!= @CODE@ armas:arma
 +N:%^WEAK%>s SGNOMSUF ;
 +N:%^WEAK%>s SGPARSUF-dU1 ;
 +N:hie PLGENSUF ;
@@ -84,8 +79,7 @@ LEXICON N_ARMAS
 +N:hi PLINSSUF ;
 +N:ha Noun-NB-i ;
 
-LEXICON N_PAREMBI
-!parembi:paremb
+LEXICON N_PAREMBI !!= @CODE@ parembi:paremb
 +N:i SGNOMSUF ;
 +N:A1 SGPARSUF-A1 ;
 +N:ie PLGENSUF ;
@@ -96,7 +90,7 @@ LEXICON N_PAREMBI
 LEXICON N_KOIRU
  N_PÄIVY ;
 
-LEXICON N_NIMI
+LEXICON N_NIMI !!= @CODE@ 
 +N:i SGNOMSUF ;
 +N:e SGPARSUF-A1 ;
 +N:%>ie PLGENSUF ; ! the plural comitative is declined here
@@ -108,8 +102,7 @@ LEXICON N_NIMI
 +N:iloi PLINSSUF ;
 +N:i Noun-NB-loi ;
 
-LEXICON N_PÄIVY
-!päivy:päiv
+LEXICON N_PÄIVY !!= @CODE@ päivy:päiv
 +N:U1 SGNOMSUF ;
 +N:A1 SGPARSUF-A1 ;
 +N:%>ie PLGENSUF ; ! the plural comitative is declined here
@@ -117,7 +110,7 @@ LEXICON N_PÄIVY
 +N:%>i PLINSSUF ;
 +N:A1 Noun-NB-i ;
 
-LEXICON N_RUNO
+LEXICON N_RUNO !!= @CODE@ runo:runo
 +N: SGNOMSUF ;
 +N: SGPARSUF-A1 ;
 +N:loi PLGENSUF ;

@@ -2,14 +2,14 @@
 !! ---------------
 !! Livvi quantifiers inflect for case.
 
-LEXICON NumTag
-+Num: # ;
+LEXICON NUM_
++TYÄ+Num: # ;
 
 LEXICON Num-kolme
 +Num+Card: # ;
 
-LEXICON QntTag
-+Qnt: # ;
+LEXICON QNT_
++TYÄ+Qnt: # ;
 
 
 ! vim: set ft=xfst-lexc:

@@ -5,149 +5,224 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
-      <lg>
-         <l>da</l>
-         <stg>
-            <st Contlex="CcTag">da</st>
-         </stg>
-      </lg>
-      <pos>CC</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>and</t>
-         </tg>
-         <tg lang="fin">
-            <t>ja</t>
-         </tg>
-      </mg>
-   </e>
+    <lg>
+      <l>da</l>
+
+      <stg>
+        <st Contlex="CC_">da</st>
+      </stg>
+    </lg>
+
+    <pos>CC</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t>and</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>ja</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
-      <lg>
-         <l>kui</l>
-         <stg>
-            <st Contlex="CsTag">kui</st>
-         </stg>
-      </lg>
-      <pos>CONJ</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
+    <lg>
+      <l>kui</l>
+
+      <stg>
+        <st Contlex="CS_">kui</st>
+      </stg>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
   <e>
-      <lg>
-         <l>muga že</l>
-         <stg>
-            <st Contlex="ConjTag">muga že</st>
-         </stg>
-      </lg>
-      <pos>CONJ</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
+    <lg>
+      <l>libo</l>
+
+      <stg>
+        <st Contlex="CC_">libo</st>
+      </stg>
+    </lg>
+
+    <pos>CC</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
   <e>
-      <lg>
-         <l>sendäh</l>
-         <stg>
-            <st Contlex="ConjTag">sendäh</st>
-         </stg>
-      </lg>
-      <pos>CONJ</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
+    <lg>
+      <l>muga že</l>
+
+      <stg>
+        <st Contlex="CONJ_">muga že</st>
+      </stg>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
   <e>
-      <lg>
-         <l>vie</l>
-         <stg>
-            <st Contlex="ConjTag">vie</st>
-         </stg>
-      </lg>
-      <pos>CONJ</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
+    <lg>
+      <l>sendäh</l>
+
+      <stg>
+        <st Contlex="CONJ_">sendäh</st>
+      </stg>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
   <e>
-      <lg>
-         <l>što</l>
-         <stg>
-            <st Contlex="CsTag">što</st>
-         </stg>
-      </lg>
-      <pos>CS</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
+    <lg>
+      <l>vie</l>
+
+      <stg>
+        <st Contlex="CONJ_">vie</st>
+      </stg>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
   <e>
-      <lg>
-         <l>štobi</l>
-         <stg>
-            <st Contlex="CsTag">štobi</st>
-         </stg>
-      </lg>
-      <pos>CS</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
+    <lg>
+      <l>što</l>
+
+      <stg>
+        <st Contlex="CS_">što</st>
+      </stg>
+    </lg>
+
+    <pos>CS</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>štobi</l>
+
+      <stg>
+        <st Contlex="CS_">štobi</st>
+      </stg>
+    </lg>
+
+    <pos>CS</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
 </r>
