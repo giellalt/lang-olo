@@ -6,7 +6,7 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
-      <l>Karjal</l>
+      <l pos="PROP">Karjal</l>
 
       <stg>
         <st Contlex="PROP_KARJAL">Karjal</st>
@@ -22,11 +22,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>Karelia</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>Karjala</t>
       </tg>
     </mg>
@@ -34,7 +34,7 @@
 
   <e>
     <lg>
-      <l>elokuu</l>
+      <l pos="PROP">elokuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">elokuu</st>
@@ -48,11 +48,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>August</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>elokuu</t>
       </tg>
     </mg>
@@ -60,7 +60,7 @@
 
   <e>
     <lg>
-      <l>heinykuu</l>
+      <l pos="PROP">heinykuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">heinykuu</st>
@@ -74,11 +74,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>July</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>heinäkuu</t>
       </tg>
     </mg>
@@ -86,7 +86,7 @@
 
   <e>
     <lg>
-      <l>kevätkuu</l>
+      <l pos="PROP">kevätkuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">kevätkuu</st>
@@ -100,11 +100,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t/>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t/>
       </tg>
     </mg>
@@ -112,7 +112,7 @@
 
   <e>
     <lg>
-      <l>kezäkuu</l>
+      <l pos="PROP">kezäkuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">kezäkuu</st>
@@ -126,11 +126,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>June</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>kesäkuu</t>
       </tg>
     </mg>
@@ -138,7 +138,7 @@
 
   <e>
     <lg>
-      <l>kylmykuu</l>
+      <l pos="PROP">kylmykuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">kylmykuu</st>
@@ -152,11 +152,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t/>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t/>
       </tg>
     </mg>
@@ -164,7 +164,7 @@
 
   <e>
     <lg>
-      <l>ligakuu</l>
+      <l pos="PROP">ligakuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">ligakuu</st>
@@ -178,11 +178,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>October</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>lokakuu</t>
       </tg>
     </mg>
@@ -190,7 +190,7 @@
 
   <e>
     <lg>
-      <l>oraskuu</l>
+      <l pos="PROP">oraskuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">oraskuu</st>
@@ -204,11 +204,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>May</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>toukokuu</t>
       </tg>
     </mg>
@@ -216,7 +216,7 @@
 
   <e>
     <lg>
-      <l>pakkaskuu</l>
+      <l pos="PROP">pakkaskuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">pakkaskuu</st>
@@ -230,11 +230,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t/>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t/>
       </tg>
     </mg>
@@ -242,7 +242,7 @@
 
   <e>
     <lg>
-      <l>sulakuu</l>
+      <l pos="PROP">sulakuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">sulakuu</st>
@@ -256,11 +256,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t/>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t/>
       </tg>
     </mg>
@@ -268,7 +268,7 @@
 
   <e>
     <lg>
-      <l>syvyskuu</l>
+      <l pos="PROP">syvyskuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">syvyskuu</st>
@@ -282,11 +282,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t/>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t/>
       </tg>
     </mg>
@@ -294,7 +294,7 @@
 
   <e>
     <lg>
-      <l>talvikuu</l>
+      <l pos="PROP">talvikuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">talvikuu</st>
@@ -308,11 +308,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t/>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t/>
       </tg>
     </mg>
@@ -320,7 +320,7 @@
 
   <e>
     <lg>
-      <l>tuhukuu</l>
+      <l pos="PROP">tuhukuu</l>
 
       <stg>
         <st Contlex="PROP_KUU">tuhukuu</st>
@@ -334,11 +334,11 @@
         <head/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t/>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t/>
       </tg>
     </mg>
