@@ -32,12 +32,7 @@ LEXICON N_KARJAL !!= @CODE@ karjal:karjal
 +N:A1 Noun-NB-i ;
 
 LEXICON N_KARJALAINE !!= @CODE@ karjalaine:karjala
-+N:ine SGNOMSUF ;
-+N:s SGPARSUF-dU1 ;
-+N:zie PLGENSUF ;
-+N:zii PLPARSUF ;
-+N:zi PLINSSUF ;
-+N:ze Noun-NB-i ;
++N:    NMN_KARJALAINE	 ;
 
 LEXICON N_KIELI !!= @CODE@ kieli:kiel
 +N:i SGNOMSUF ;
@@ -117,6 +112,15 @@ LEXICON N_RUNO !!= @CODE@ runo:runo
 +N:loi PLPARSUF-Zero ;
 +N:loi PLINSSUF ;
 +N: Noun-NB-loi ;
+
+!! NMN
+LEXICON NMN_KARJALAINE
+:ine SGNOMSUF ;
+:s SGPARSUF-dU1 ;
+:zie PLGENSUF ;
+:zii PLPARSUF ;
+:zi PLINSSUF ;
+:ze Noun-NB-i ;
 
 
 LEXICON Noun-NB-i
