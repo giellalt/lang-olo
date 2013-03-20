@@ -35,6 +35,10 @@ LEXICON PERS-PL3
 LEXICON PRON_
 +Pron: # ;
 
+LEXICON PRON_KARJALAINE
++Pron+Interr: NMN_KARJALAINE ;
+
+
 
 ! vim: set ft=xfst-lexc:
 
