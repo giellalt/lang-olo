@@ -9374,7 +9374,7 @@
       </stg>
     </lg>
 
-    <pos>ADV</pos>
+    <pos>Adv</pos>
 
     <mg>
       <m>
@@ -9384,11 +9384,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="ADV"/>
+        <t pos="Adv"/>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="ADV">ehkä; edes, vaikkapa; ainakin, ainakaan; jotta</t>
+        <t pos="Adv">ehkä; edes, vaikkapa; ainakin, ainakaan; jotta</t>
       </tg>
     </mg>
   </e>
@@ -10896,7 +10896,7 @@
       </stg>
     </lg>
 
-    <pos>ADV</pos>
+    <pos>Adv</pos>
 
     <mg>
       <m>
@@ -10906,11 +10906,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="ADV"/>
+        <t pos="Adv"/>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="ADV">ennen; ensin, ensiksi</t>
+        <t pos="Adv">ennen; ensin, ensiksi</t>
       </tg>
     </mg>
   </e>
@@ -17135,11 +17135,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="ADV"/>
+        <t pos="Adv"/>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="ADV">ylihuomenna</t>
+        <t pos="Adv">ylihuomenna</t>
       </tg>
     </mg>
   </e>
@@ -17866,11 +17866,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="ADV"/>
+        <t pos="Adv"/>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="ADV">hyvin</t>
+        <t pos="Adv">hyvin</t>
       </tg>
     </mg>
   </e>
@@ -19752,11 +19752,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="ADV"/>
+        <t pos="Adv"/>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="ADV">ilman; muutenkin; muutoin; ilmaiseksi</t>
+        <t pos="Adv">ilman; muutenkin; muutoin; ilmaiseksi</t>
       </tg>
     </mg>
   </e>
@@ -19876,14 +19876,14 @@
 
   <e>
     <lg>
-      <l pos="N">ilokse</l>
+      <l pos="Adv">ilokse</l>
 
       <stg>
         <st Contlex="ADV_">ilokse</st>
       </stg>
     </lg>
 
-    <pos>N</pos>
+    <pos>Adv</pos>
 
     <mg>
       <m>
@@ -19893,11 +19893,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="ADV"/>
+        <t pos="Adv"/>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="ADV">leikillä(än)</t>
+        <t pos="Adv">leikillä(än)</t>
       </tg>
     </mg>
   </e>
@@ -25058,14 +25058,14 @@
 
   <e>
     <lg>
-      <l pos="N">kai</l>
+      <l pos="Pron">kai</l>
 
       <stg>
         <st Contlex="PRON_">kai</st>
       </stg>
     </lg>
 
-    <pos>N</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -25075,11 +25075,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON"/>
+        <t pos="Pron"/>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">kaikki; koko</t>
+        <t pos="Pron">kaikki; koko</t>
       </tg>
     </mg>
   </e>
@@ -44363,7 +44363,8 @@
         <t pos="N">nihkeä, kostea</t>
       </tg>
     </mg>
-  </e>lastu; lasta sekä kankaankudonnassa että ruuanlaitossa; luotin atrassa eli hankoaurassa
+  </e>
+<!--lastu; lasta sekä kankaankudonnassa että ruuanlaitossa; luotin atrassa eli hankoaurassa -->
   <e>
     <lg>
       <l pos="N">nieglaine</l>
