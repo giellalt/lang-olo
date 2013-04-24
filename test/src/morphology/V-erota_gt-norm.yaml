@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../bin/olo-gen.hfstol
+    Morph: ../bin/olo.hfstol
+  xerox:
+    Gen: ../bin/iolo.fst
+    Morph: ../bin/olo.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - erota: # Verb 'to differ / erota' - full paradigm
+     erota+V+Ind+Prs+Sg1: eruon
+     erota+V+Ind+Prs+Sg2: eruot
+     erota+V+Ind+Prs+Sg3: eruou
+     erota+V+Ind+Prs+Pl1: eruommo
+     erota+V+Ind+Prs+Pl2: eruotto
+     erota+V+Ind+Prs+Pl3: erotah
+     erota+V+Ind+Prs+ConNeg: eruo
+                      
+     erota+V+Ind+Prt+Sg1: eroin
+     erota+V+Ind+Prt+Sg2: eroit
+     erota+V+Ind+Prt+Sg3: eroi
+     erota+V+Ind+Prt+Pl1: eroimmo
+     erota+V+Ind+Prt+Pl2: eroitto
+     erota+V+Ind+Prt+Pl3: erottih
+     erota+V+Ind+Prt+ConNeg: eronnuh
+     erota+V+Ind+Prt+ConNeg+Pl3: erottu
+
