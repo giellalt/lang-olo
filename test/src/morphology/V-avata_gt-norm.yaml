@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../bin/olo-gen.hfstol
+    Morph: ../bin/olo.hfstol
+  xerox:
+    Gen: ../bin/iolo.fst
+    Morph: ../bin/olo.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - avata: # Verb 'to open / avata' - full paradigm
+     avata+V+Ind+Prs+Sg1: avuan
+     avata+V+Ind+Prs+Sg2: avuat
+     avata+V+Ind+Prs+Sg3: avuau
+     avata+V+Ind+Prs+Pl1: avuammo
+     avata+V+Ind+Prs+Pl2: avuatto
+     avata+V+Ind+Prs+Pl3: avatah
+     avata+V+Ind+Prs+ConNeg: avua
+    
+     avata+V+Ind+Prt+Sg1: avain
+     avata+V+Ind+Prt+Sg2: avait
+     avata+V+Ind+Prt+Sg3: avai
+     avata+V+Ind+Prt+Pl1: avaimmo
+     avata+V+Ind+Prt+Pl2: avaitto
+     avata+V+Ind+Prt+Pl3: avattih
+     avata+V+Ind+Prt+ConNeg: avannuh
+     avata+V+Ind+Prt+ConNeg+Pl3: avattu
+
