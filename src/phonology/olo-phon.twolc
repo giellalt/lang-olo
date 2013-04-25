@@ -109,7 +109,7 @@ FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] [ %> | VwsFront: | 
 
 
 ! Back Trigger 
-BT =    #: Cns* ( [ VwsNeutral | i: ] \[ #: | VwsFront: | :VwsFront ]* )  [ VwsBack: | :VwsBack ]  \[ #: | VwsFront: | :VwsFront ]* ;
+BT =    #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | VwsBack: | :VwsBack | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | VwsNeutral | i: | VwsBack: | :VwsBack | :Cns ]* ;
 
 ! Gradation strong to weak
 !GS2W = [ p:v | m p:m | t:0 | l t:l | r t:r | n t:n | s t:s | k:0 | l k:0 | r k:0 | n k:g | s k:0 ] ;
@@ -198,8 +198,8 @@ Rules
 
 ! mato : mattooa
 ! Vowel harmony suffixes Back
-!2013-02-27!"A1:a"
-!2013-02-27! A1:a <=> BT _ \[  ( %>: %^LCns:0 ) %>: i %>: ] ;
+"A1:a"
+ A1:a <=> BT %> [ d: | j | t ] _ [ ( %^WEAK:0 ) h | i | %> n U1: | # ] ;
 ! BT _   ( %>:  %^WEAK:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:  %^LCns:0 ( %^LVws:0 ) ) [ ( %>: ) [ Cns | %^WEAK:0 %>: [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | A1: | %^StretchSyll2:0 | i | %>: ( %^WEAK:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
 
 !!
@@ -347,7 +347,7 @@ t:s <=> Vws+ s _ ( %^TS:0 ) GRC ;
 d:r <=>  Vws r _ GRC ;
 
 "ld:ll weakening"
-d:l <=>  Vws l _ GRC ;
+d:l <=>  Vws l %> _ GRC ;
 
 "nd:nn weakening"
 d:n <=>  Vws ( %^WEAK:0 %>: ) n _ GRC ;
