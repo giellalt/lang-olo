@@ -89,7 +89,7 @@ LEXICON V_TULLA
 +V: INDPRTPL1     ;
 +V: INDPRTPL2     ;
 +V: INDPRTPL3_dih     ;
-+V+Ind+PrfPrc:%>dU1%^WEAKh K ;
++V+Ind+PrfPrc:%>nU1%^WEAKh K ;
 +V+Ind+PrfPrcPl3:%>dU1 K ;
 +V: CONDPRS ;
 +V:%>d CONDPRSPL3 ;
@@ -98,6 +98,31 @@ LEXICON V_TULLA
 
 LEXICON V_TYPÄTÄ !!= @CODE@ typätä:typpä
 +V: #;
+
+LEXICON V_AVATA !!= @CODE@ typätä:typpä
+!Verbs of the Finnish type 4
++V:%>A1 INDPRSSG1 ;
++V:%>A1 INDPRSSG2 ;
++V:%>A1 INDPRSSG3 ;
++V:%>A1 INDPRSPL1 ;
++V:%>A1 INDPRSPL2 ;
++V: INDPRSPL3_tAh ;
++V:%>A1 INDPRSCONNEG ;
++V: INDPRTSG1     ;
++V: INDPRTSG2     ;
++V: INDPRTSG3     ;
++V: INDPRTPL1     ;
++V: INDPRTPL2     ;
++V: INDPRTPL3_ttih     ; 
++V+Ind+PrfPrc:%^WEAK%>nnU1h K ;
++V+Ind+PrfPrcPl3:%^WEAK%>ttU1 K ;
++V: INDPRTCONNEG_nnuh ; !!
++V: INDPRTCONNEGPL3_ttu ;
++V: CONDPRS ;
++V:%>d CONDPRSPL3 ;
++V:%>dU1%^WEAK CONDPRT ;
++V:%>dA1 CONDPRTPL3 ;
+
 
 LEXICON V_SUVAIJA
 !Verbs of the Finnish type 5
@@ -110,6 +135,12 @@ LEXICON V_SUVAIJA
 +V: INDPRSPL3_jAh ;
 +V:čče INDPRSCONNEG ;
 
+LEXICON V_ALETA !!= @CODE@ aleta:ala (alanov)
++V: #;
+
+LEXICON V_SUATA !!= @CODE@ suata:suva (suvaiččov)
++V: #;
+
 LEXICON VR_AMBUOKSEH
 ! ambuokseh:ambu
 	VR_ ;
@@ -119,6 +150,9 @@ LEXICON VR_RODIEKSEH
 !rodiekseh:rodi
  VR_ ;
 
+LEXICON VR_AVATA !!= @CODE@ typätä:typpä
+! avatakseh:ava
+ VR_ ;
 
 LEXICON VR_
 +V+Ind+Prs+RcSg1:%^WEAK%>mmO1s	K	;
@@ -170,15 +204,15 @@ LEXICON INDPRSCONNEG
 +Ind+Prs+ConNeg:%^WEAK K ;
 
 LEXICON INDPRTSG1
-+Ind+Prt+ScSg1:%^WEAK%>in K ;
++Ind+Prt+ScSg1:%>i%^WEAK%>n K ;
 LEXICON INDPRTSG2
-+Ind+Prt+ScSg2:%^WEAK%>it K ;
++Ind+Prt+ScSg2:%>i%^WEAK%>t K ;
 LEXICON INDPRTSG3
 +Ind+Prt+ScSg3:%>i K ;
 LEXICON INDPRTPL1
-+Ind+Prt+ScPl1:%^WEAK%>immO1 K ;
++Ind+Prt+ScPl1:%>i%^WEAK%>mmO1 K ;
 LEXICON INDPRTPL2
-+Ind+Prt+ScPl2:%^WEAK%>ittO1 K ;
++Ind+Prt+ScPl2:%>i%^WEAK%>ttO1 K ;
 LEXICON INDPRTPL3_dih
 +Ind+Prt+ScPl3:%>dih K ;
 LEXICON INDPRTPL3_tih
@@ -187,6 +221,10 @@ LEXICON INDPRTPL3_ttih
 +Ind+Prt+ScPl3:%^WEAK%^E1%>ttih K ;
 LEXICON INDPRTSGCONNEG
 +Ind+Prt+Sg+ConNeg:%^WEAK K ;
+LEXICON INDPRTCONNEG_nnuh
++Ind+Prt+ConNeg:%^WEAK%>nnU1h K ;
+LEXICON INDPRTCONNEGPL3_ttu
++Ind+Prt+ConNeg+ScPl3:%^WEAK%>ttU1 K ;
 
 
 !! Conditional
