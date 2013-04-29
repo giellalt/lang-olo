@@ -54,22 +54,22 @@ LEXICON V_POTKIE
 LEXICON V-VV_01
 ! V1
 ! This verb type has two final vowels in the first infinitive
-+V: INDPRSSG1 ;
-+V: INDPRSSG2 ;
-+V: INDPRSSG3 ;
-+V: INDPRSPL1 ;
-+V: INDPRSPL2 ;
-+V: INDPRSPL3_tAh ;
-+V: INDPRSCONNEG ;
+ INDPRSSG1 ;
+ INDPRSSG2 ;
+ INDPRSSG3 ;
+ INDPRSPL1 ;
+ INDPRSPL2 ;
+ INDPRSPL3_EtAh ;
+ INDPRSCONNEG ;
 
-+Ind+Prt+ScSg1:%^WEAK%>in K ;
-+Ind+Prt+ScSg2:%^WEAK%>it K ;
-+Ind+Prt+ScSg3:%>i K ;
-+Ind+Prt+ScPl1:%^WEAK%>immO1 K ;
-+Ind+Prt+ScPl2:%^WEAK%>ittO1 K ;
-+Ind+Prt+ScPl3:%^WEAK%^E1%>ttih K ;
+ INDPRTSG1 ;
+ INDPRTSG2 ;
+ INDPRTSG3 ;
+ INDPRTPL1 ;
+ INDPRTPL2 ;
+ INDPRTPL3_Ettih ;
 +Ind+Prt+ConNeg:%>nU1h K ;
-+Ind+Prt+ConNeg+ScPl3:%^WEAK%^E1%>ttU1 K ;
+ INDPRTCONNEGPL3_Ettu ;
 
 
 LEXICON V_TULLA
@@ -101,18 +101,18 @@ LEXICON V_TYPÄTÄ !!= @CODE@ typätä:typpä
 
 LEXICON V_AVATA !!= @CODE@ typätä:typpä
 !Verbs of the Finnish type 4
-+V:%>A1 INDPRSSG1 ;
-+V:%>A1 INDPRSSG2 ;
-+V:%>A1 INDPRSSG3 ;
-+V:%>A1 INDPRSPL1 ;
-+V:%>A1 INDPRSPL2 ;
++V:%>A2 INDPRSSG1 ;
++V:%>A2 INDPRSSG2 ;
++V:%>A2 INDPRSSG3 ;
++V:%>A2 INDPRSPL1 ;
++V:%>A2 INDPRSPL2 ;
 +V: INDPRSPL3_tAh ;
-+V:%>A1 INDPRSCONNEG ;
-+V: INDPRTSG1     ;
-+V: INDPRTSG2     ;
-+V: INDPRTSG3     ;
-+V: INDPRTPL1     ;
-+V: INDPRTPL2     ;
++V:%>A2 INDPRSCONNEG ;
++V:%^SyllBound INDPRTSG1     ;
++V:%^SyllBound INDPRTSG2     ;
++V:%^SyllBound INDPRTSG3     ;
++V:%^SyllBound INDPRTPL1     ;
++V:%^SyllBound INDPRTPL2     ;
 +V: INDPRTPL3_ttih     ; 
 +V+Ind+PrfPrc:%^WEAK%>nnU1h K ;
 +V+Ind+PrfPrcPl3:%^WEAK%>ttU1 K ;
@@ -136,7 +136,28 @@ LEXICON V_SUVAIJA
 +V:čče INDPRSCONNEG ;
 
 LEXICON V_ALETA !!= @CODE@ aleta:ala (alanov)
-+V: #;
+!! aleta:ale
++V:ne INDPRSSG1 ;
++V:ne INDPRSSG2 ;
++V:nO1 INDPRSSG3 ;
++V:ne INDPRSPL1 ;
++V:ne INDPRSPL2 ;
++V: INDPRSPL3_tAh ;
++V:ne INDPRSCONNEG ;
++V:n INDPRTSG1     ;
++V:n INDPRTSG2     ;
++V:n INDPRTSG3     ;
++V:n INDPRTPL1     ;
++V:n INDPRTPL2     ;
++V: INDPRTPL3_ttih     ;
++V+Ind+PrfPrc:%>nnU1h K ;
++V+Ind+PrfPrcPl3:%>ttU1 K ;
++V: INDPRTCONNEG_nnuh ; !!
++V: INDPRTCONNEGPL3_ttu ;
++V:n CONDPRS ;
+!+V:%>d CONDPRSPL3 ;
+!+V:%>dU1%^WEAK CONDPRT ;
+!+V:%>dA1 CONDPRTPL3 ;
 
 LEXICON V_SUATA !!= @CODE@ suata:suva (suvaiččov)
 +V: #;
@@ -199,6 +220,8 @@ LEXICON INDPRSPL3_jAh
 LEXICON INDPRSPL3_dAh
 +Ind+Prs+ScPl3:%>dA1%^WEAKh K ;
 LEXICON INDPRSPL3_tAh
++Ind+Prs+ScPl3:%^WEAK%>tA1h K ;
+LEXICON INDPRSPL3_EtAh
 +Ind+Prs+ScPl3:%^WEAK%^E1%>tA1h K ;
 LEXICON INDPRSCONNEG
 +Ind+Prs+ConNeg:%^WEAK K ;
@@ -216,8 +239,12 @@ LEXICON INDPRTPL2
 LEXICON INDPRTPL3_dih
 +Ind+Prt+ScPl3:%>dih K ;
 LEXICON INDPRTPL3_tih
++Ind+Prt+ScPl3:%^WEAK%>tih K ;
+LEXICON INDPRTPL3_Etih
 +Ind+Prt+ScPl3:%^WEAK%^E1%>tih K ;
 LEXICON INDPRTPL3_ttih
++Ind+Prt+ScPl3:%^WEAK%>ttih K ;
+LEXICON INDPRTPL3_Ettih
 +Ind+Prt+ScPl3:%^WEAK%^E1%>ttih K ;
 LEXICON INDPRTSGCONNEG
 +Ind+Prt+Sg+ConNeg:%^WEAK K ;
@@ -225,6 +252,8 @@ LEXICON INDPRTCONNEG_nnuh
 +Ind+Prt+ConNeg:%^WEAK%>nnU1h K ;
 LEXICON INDPRTCONNEGPL3_ttu
 +Ind+Prt+ConNeg+ScPl3:%^WEAK%>ttU1 K ;
+LEXICON INDPRTCONNEGPL3_Ettu
++Ind+Prt+ConNeg+ScPl3:%^WEAK%^E1%>ttU1 K ;
 
 
 !! Conditional

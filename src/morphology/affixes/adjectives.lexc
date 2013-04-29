@@ -16,36 +16,36 @@ LEXICON A_JIÄTÖI
 LEXICON A_HUOLETOI
 ! huoletoi:huolet
 +A:oi SGNOMSUF ;
-+A:toma SGPARSUF-A1 ; 
++A:toma SGPARSUF_A1 ; 
 +A:tomie PLGENSUF ; 
-+A:tomi PLPARSUF ; 
++A:tomi PLPARSUF_i ; 
 +A+Der/MWN: N_HUOLETOI ; 
 +N:toma Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
 LEXICON A_KARJALAINE
 ! karjalaine:karjala
 +A:ine SGNOMSUF ;
-+A:s SGPARSUF-dU1 ;
++A:s SGPARSUF_dU1 ;
 +A:zie PLGENSUF ;
-+A:zii PLPARSUF ;
++A:zi PLPARSUF_i ;
 +A:zi PLINSSUF ;
 +A:ze Adj-NB-i ;
 
 LEXICON A_KIELINE
 ! kieline:kieli
 +A:ne SGNOMSUF ;
-+A:s SGPARSUF-dU1 ;
++A:s SGPARSUF_dU1 ;
 +A:zie PLGENSUF ;
-+A:zii PLPARSUF ;
++A:zi PLPARSUF_i ;
 +A:zi PLINSSUF ;
 +A:ze Noun-NB-i ;
 
 LEXICON A_ARMAS
 ! armas:arma
 +A:%^WEAK%>s SGNOMSUF ;
-+A:%^WEAK%>s SGPARSUF-dU1 ;
++A:%^WEAK%>s SGPARSUF_dU1 ;
 +A:hie PLGENSUF ;
-+A:hii PLPARSUF ;
++A:hi PLPARSUF_i ;
 +A:hi PLINSSUF ;
 +A:ha Noun-NB-i ;
 
@@ -53,9 +53,9 @@ LEXICON A_ARMAS
 LEXICON A_PAREMBI
 ! parembi:paremb
 +A:i SGNOMSUF ;
-+A:A1 SGPARSUF-A1 ;
++A:A1 SGPARSUF_A1 ;
 +A:ie PLGENSUF ;
-+A:i PLPARSUF ;
++A:i PLPARSUF_i ;
 +A+Der/MWN: N_PAREMBI ;
 +N:A1 Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
