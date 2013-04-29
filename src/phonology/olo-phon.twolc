@@ -23,6 +23,12 @@ O1:ö
 !U1:u
 U1:y
 
+! in verb type V_AVATA
+!A2:a
+A2:ä
+!A2:o
+!A2:ö
+
 ! this appears in the illative
 V1:a
 V1:e
@@ -53,6 +59,9 @@ V3:y
 V3:ä
 V3:ö
 V3:0
+
+! syllable boundary for V_AVATA
+%^SyllBound:0
 
 ! this k is not effected by gradation
 K1:k
@@ -109,7 +118,7 @@ FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] [ %> | VwsFront: | 
 
 
 ! Back Trigger 
-BT =    #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | VwsBack: | :VwsBack | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^E1:0 | VwsNeutral | i: | VwsBack: | :VwsBack | :Cns ]* ;
+BT =    #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^E1:0 | %^SyllBound:0 | VwsNeutral | i: | VwsBack: | :VwsBack | Cns: | :Cns ]* ;
 
 ! Gradation strong to weak
 !GS2W = [ p:v | m p:m | t:0 | l t:l | r t:r | n t:n | s t:s | k:0 | l k:0 | r k:0 | n k:g | s k:0 ] ;
@@ -123,7 +132,7 @@ SV = [ [ #: | Cns+ ] :Vws ] ;
 IL = [ #: Cns* Vws : Cns:+ | Cns* Vws+ Cns:+  Vws:+ Cns:+  ] ;
 
 !! Right context for gradation
-GRC =  [ [ ( %>: ) A1: | O1: | U1: | Vws: | :Vws ]  |  %>:  i ] %^WEAK:0  ;
+GRC =  [ [ ( %>: ) A1: | O1: | U1: | Vws: | :Vws ] ( %>:  i )  |  %>:  i ] %^WEAK:0  ;
 
 ! oma:ommaa, 
 ! Subsequent Long Vowel
@@ -134,14 +143,22 @@ Rules
 ! Vowel harmony suffixes Back
 "A1:a"
  A1:a <=> BT %> [ d: | j | t ] _ [ ( %^WEAK:0 ) h | i | %> n U1: | # ] ;
-    a: %> _ ;
+!    a: %> _ ;
 ! BT _   ( %>:  %^WEAK:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:  %^LCns:0 ( %^LVws:0 ) ) [ ( %>: ) [ Cns | %^WEAK:0 %>: [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | A1: | %^StretchSyll2:0 | i | %>: ( %^WEAK:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
+
+"A2:a"
+A2:a <=> [ a: | u ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | U1: | m m O1: | t t O1: ]];
+
+"A2:o"
+A2:o <=> o: %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | U1: | m m O1: | t t O1: ]];
 
 !! Diphthong a+a => ua
 "a:u before subsequent a"
-a:u <=> Cns _ %> A1:a ; !!
+a:u <=> Cns _ %> [ A1:a | A2:a ] ; !!
 
-
+!! Diphthong o+o => uo erota:eruou
+"o:u before subsequent o"
+o:u <=> Cns _ %> [ A2:o ] ; !!
 
 !2013-04-29!! Stem vowel loss before plural "i"
 !2013-04-29!"StemVowLoss"
@@ -188,14 +205,14 @@ a:u <=> Cns _ %> A1:a ; !!
 !2013-04-29!!veitte%>%^WCnsttUY1%>%^LCns%>i%>AÄ1
 !2013-04-29!!€ em0o0i%>%^LCnsAÄ1
 !2013-04-29!!€ emmooj00a
-!2013-04-29!
-!2013-04-29!!"a:o in the plural and preterite"
-!2013-04-29!!a:o <=> _ ( %^WEAK:0 ) %>: i  ;
-!2013-04-29!
-!2013-04-29!! a to e in comparatives
-!2013-04-29!"a:e"
-!2013-04-29! a:e <=> _ %^WEAK:0 %^E1:0 ;
-!2013-04-29!
+
+"a:o in the plural and preterite"
+a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
+
+! a to e in comparatives and passives
+"a:e"
+ a:e <=> _ %^WEAK:0 %^E1:0 ;
+
 !2013-04-29!! ä to e in comparatives
 !2013-04-29!"ä:e"
 !2013-04-29! ä:e <=> _ %^WEAK:0 %^E1:0 ;
