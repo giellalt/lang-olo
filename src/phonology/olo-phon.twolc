@@ -146,6 +146,9 @@ Rules
 !    a: %> _ ;
 ! BT _   ( %>:  %^WEAK:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:  %^LCns:0 ( %^LVws:0 ) ) [ ( %>: ) [ Cns | %^WEAK:0 %>: [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | A1: | %^StretchSyll2:0 | i | %>: ( %^WEAK:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
 
+"A1:i"
+A1:i <=> _ %> A1:ä ;
+
 "A2:a"
 A2:a <=> [ a: | u ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | U1: | m m O1: | t t O1: ]];
 
@@ -154,7 +157,7 @@ A2:o <=> o: %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | U1: | m m O1: | t t O1: ]];
 
 !! Diphthong a+a => ua
 "a:u before subsequent a"
-a:u <=> Cns _ %> [ A1:a | A2:a ] ; !!
+a:u <=> Cns _ [ a | %> [ A1:a | A2:a ] ]; !!
 
 !! Diphthong o+o => uo erota:eruou
 "o:u before subsequent o"
