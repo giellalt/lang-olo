@@ -58,6 +58,7 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+
 And following triggers to control variation
 
 We have manually optimised the structure of our lexicon using following
@@ -145,6 +146,7 @@ NMN
 
 
 
+
 Verb inflection
 ---------------
 Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and persons.
@@ -165,9 +167,18 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON V_TYPÄTÄ  typätä:typpä
 
+ LEXICON V_AVATA  typätä:typpä
 
 
 
+ LEXICON V_ALETA  aleta:ala (alanov)
+aleta:ale
+
+ LEXICON V_SUATA  suata:suva (suvaiččov)
+
+
+
+ LEXICON VR_AVATA  typätä:typpä
 
 
 
