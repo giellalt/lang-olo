@@ -8,11 +8,16 @@ LEXICON PropTag
 +TYÄ+Prop: N_ ;
 
 LEXICON PROP_KARJAL
-+Prop: N_KARJAL ;
++N+Prop: NMN_KARJAL ;
 
 LEXICON PROP_KUU
-+Prop: N_KUU ;
++N+Prop: NMN_KUU ;
 
+LEXICON PROP_KALA
++N+Prop: NMN_KALA ;
+
+LEXICON PROP_ARTELI
++N+P: NMN_ARTELI ;
 
 ! vim: set ft=xfst-lexc:
 

@@ -34,10 +34,38 @@
 
   <e>
     <lg>
+      <l pos="Prop">Venʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA">Venʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>Russia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>Venäjä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">elokuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">elokuu</st>
+        <st Contlex="PROP_KUU">elo#kuu</st>
       </stg>
     </lg>
 
@@ -63,7 +91,7 @@
       <l pos="Prop">heinykuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">heinykuu</st>
+        <st Contlex="PROP_KUU">heiny#kuu</st>
       </stg>
     </lg>
 
@@ -89,7 +117,7 @@
       <l pos="Prop">kevätkuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">kevätkuu</st>
+        <st Contlex="PROP_KUU">kevät#kuu</st>
       </stg>
     </lg>
 
@@ -115,7 +143,7 @@
       <l pos="Prop">kezäkuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">kezäkuu</st>
+        <st Contlex="PROP_KUU">kezä#kuu</st>
       </stg>
     </lg>
 
@@ -141,7 +169,7 @@
       <l pos="Prop">kylmykuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">kylmykuu</st>
+        <st Contlex="PROP_KUU">kylmy#kuu</st>
       </stg>
     </lg>
 
@@ -167,7 +195,7 @@
       <l pos="Prop">ligakuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">ligakuu</st>
+        <st Contlex="PROP_KUU">liga#kuu</st>
       </stg>
     </lg>
 
@@ -193,7 +221,7 @@
       <l pos="Prop">oraskuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">oraskuu</st>
+        <st Contlex="PROP_KUU">oras#kuu</st>
       </stg>
     </lg>
 
@@ -219,7 +247,33 @@
       <l pos="Prop">pakkaskuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">pakkaskuu</st>
+        <st Contlex="PROP_KUU">pakkas#kuu</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Petroskoi</l>
+
+      <stg>
+        <st Contlex="PROP_ARTELI">Petroskoi</st>
       </stg>
     </lg>
 
@@ -245,7 +299,7 @@
       <l pos="Prop">sulakuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">sulakuu</st>
+        <st Contlex="PROP_KUU">sula#kuu</st>
       </stg>
     </lg>
 
@@ -271,7 +325,7 @@
       <l pos="Prop">syvyskuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">syvyskuu</st>
+        <st Contlex="PROP_KUU">syvys#kuu</st>
       </stg>
     </lg>
 
@@ -297,7 +351,7 @@
       <l pos="Prop">talvikuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">talvikuu</st>
+        <st Contlex="PROP_KUU">talvi#kuu</st>
       </stg>
     </lg>
 
@@ -323,7 +377,7 @@
       <l pos="Prop">tuhukuu</l>
 
       <stg>
-        <st Contlex="PROP_KUU">tuhukuu</st>
+        <st Contlex="PROP_KUU">tuhu#kuu</st>
       </stg>
     </lg>
 
