@@ -17,7 +17,7 @@ LEXICON V_OLLA
 +V+Ind+Prs+ScSg3:n K ;
 +V+Ind+Prs+ScPl1:le%^WEAK%>mmO1 K ;
 +V+Ind+Prs+ScPl2:le%^WEAK%>ttO1 K ;
-+V+Ind+Prs+ScPl3:l%>dA1h K ;
++V:l INDPRSPL3_dAh ;
 +V+Ind+Prs+ConNeg:le%^WEAK K ;
 
 +V+Ind+Prt+ScSg1:l%^WEAK%>in K ;
@@ -25,7 +25,7 @@ LEXICON V_OLLA
 +V+Ind+Prt+ScSg3:l%>i K ;
 +V+Ind+Prt+ScPl1:l%^WEAK%>immO1 K ;
 +V+Ind+Prt+ScPl2:l%^WEAK%>ittO1 K ;
-+V+Ind+Prt+ScPl3:l%>tih K ;
++V:l INDPRTPL3_dih     ;
 +V+Ind+Prt+ConNeg:l%>nU1h K ;
 +V+Ind+Prt+ConNeg+ScPl3:l%>tU1 K ;
 
@@ -50,6 +50,11 @@ LEXICON V_VALUO
 LEXICON V_POTKIE
 !potkie:potki
 +V: K ;
+
+LEXICON  V_PITIÄ
+! pitiä:pitä
++V: V-VV_01 ;
+
 
 LEXICON V-VV_01
 ! V1
