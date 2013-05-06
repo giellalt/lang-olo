@@ -98,6 +98,16 @@ LEXICON N_NIMI !!= @CODE@
 +N:iloi PLINSSUF ;
 +N:i Noun-NB-loi ;
 
+LEXICON N_VUOZI !!= @CODE@ 
++N:%^T2Z%>i SGNOMSUF ;
++N:e SGGENSUF ;
++N: SGPARSUF_dU1 ;
++N:%^T2Z%>ie PLGENSUF ; ! the plural comitative is declined here
++N:%^T2Z%>i PLPARSUF_i ;
++N:%^T2Z%>i PLINSSUF ;
++N:e Noun-NB-01 ;
++N:%^T2Z%>i Noun-NB-01 ;
+
 LEXICON N_PÄIVY !!= @CODE@ päivy:päiv
 +N:U1 SGNOMSUF ;
 +N:A1 SGGENSUF ;
