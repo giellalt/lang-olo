@@ -161,7 +161,6 @@ Multichar_Symbols
  O1 !
  U1 !
  A2 ! used with verb types V_AVATA 
-
 !! And following triggers to control variation
  {front} {back}
 %>
@@ -169,6 +168,8 @@ Multichar_Symbols
  %^WEAK ! weak grade
  %^E1 ! causes a:e in kandua : kannettu
  %^SyllBound ! syllable boundary
+ %^T2Z ! Triggers ti=>zi
+
 QAQ1 QAO1 EH1 QEQ1 INE1 ZD1 ZS1 V1
 AO1 EI1 ZS1 ZD1 
 ! These are for developing underlying morphology rules
