@@ -70,8 +70,8 @@ K1:k
 ! this weakens the stem _ompel_ to _ommel_
 %^WGStem:0
 
-! The ti => si
-%^TS:0
+! The ti => zi
+%^T2Z:0
 
 ! Vowel raising
 %^RVws:0
@@ -340,7 +340,15 @@ a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 !2013-04-29!         [ #: ][ Cns* Vws | Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ] v _  ( :Vws | A1: ) [ 0:Vws %>: %^LCns: | %>: %^LCns: :0* :Vws ] ; ! arvattava:arvattavvaa
 !2013-04-29!        #: Cns* Vws v _ Vws [ Vws 0: Cns ( Cns:0 ) :Vws | Vws %^SyllBr:0 e ] %^StretchSyll2:0 ; ! kevät:kevväen, tavvaara
 !2013-04-29!
-!2013-04-29!
+
+! vuozi:vuot
+"t:z"
+t:z <=> _ %^T2Z:0 %> i ;
+
+! vuozi:vuot+dU1, armas:armas+dU1
+"d:t in partitive"
+d:t <=> [ t | s ] %> _ ;
+
 !2013-04-29!
 !2013-04-29!
 !2013-04-29!! viis: viijes
