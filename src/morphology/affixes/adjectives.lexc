@@ -16,7 +16,7 @@ LEXICON A_JIÄTÖI
 LEXICON A_HUOLETOI
 ! huoletoi:huolet
 +A:oi SGNOMSUF ;
-+A:toma SGPARSUF_A1 ; 
++A:toma SGPARSUF_A2 ; 
 +A:tomie PLGENSUF ; 
 +A:tomi PLPARSUF_i ; 
 +A+Der/MWN: N_HUOLETOI ; 
@@ -33,12 +33,10 @@ LEXICON A_KARJALAINE
 
 LEXICON A_KIELINE
 ! kieline:kieli
-+A:ne SGNOMSUF ;
-+A:s SGPARSUF_dU1 ;
-+A:zie PLGENSUF ;
-+A:zi PLPARSUF_i ;
-+A:zi PLINSSUF ;
-+A:ze Noun-NB-i ;
++A: NMN_KIELINE ;
+
+LEXICON A_OZA !! oza:oza
++A: NMN_OZA ;
 
 LEXICON A_ARMAS
 ! armas:arma
@@ -53,7 +51,7 @@ LEXICON A_ARMAS
 LEXICON A_PAREMBI
 ! parembi:paremb
 +A:i SGNOMSUF ;
-+A:A1 SGPARSUF_A1 ;
++A:A1 SGPARSUF_A2 ;
 +A:ie PLGENSUF ;
 +A:i PLPARSUF_i ;
 +A+Der/MWN: N_PAREMBI ;
