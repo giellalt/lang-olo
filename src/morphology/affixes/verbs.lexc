@@ -26,34 +26,57 @@ LEXICON V_OLLA
 +V+Ind+Prt+ScPl1:l%^WEAK%>immO1 K ;
 +V+Ind+Prt+ScPl2:l%^WEAK%>ittO1 K ;
 +V:l INDPRTPL3_dih     ;
-+V+Ind+Prt+ConNeg:l%>nU1h K ;
++V+Ind+Prt+ConNeg:l%>nU1%^WEAKh K ;
 +V+Ind+Prt+ConNeg+ScPl3:l%>tU1 K ;
++V:l CONDPRS  ;
++V+Der/mine:%>mi N_KIELINE ; 
++V+Der/mA+Inf+Ill:%>mA2h K ; 
 
 LEXICON V_KANDUA
 !Verbs of the Finnish type 1
 !V1a
 !kandua:kanda
 +V: V-VV_01 ;
++V+Inf:%>A2 K ;
++V+Der/mine:%>mi N_KIELINE ; 
++V+Der/mA+Inf+Ill:%>mA2h K ; 
+
 
 LEXICON V_PUNUO
 !V1o
 !punuo:puno
 +V: V-VV_01 ;
++V+Inf:%>A2 K ;
++V+Der/mine:%>mi N_KIELINE ; 
++V+Der/mA+Inf+Ill:%>mA2h K ; 
+
 
 LEXICON V_VALUO
 !V1u
 !valuo:valu
 +V: V-VV_01 ;
++V+Inf:%>A2 K ;
++V+Der/mine:%>mi N_KIELINE ; 
++V+Der/mA+Inf+Ill:%>mA2h K ; 
+
 
 
 !V1i
 LEXICON V_POTKIE
 !potkie:potki
 +V: K ;
++V+Inf:%>A2 K ;
++V+Der/mine:%>mi N_KIELINE ; 
++V+Der/mA+Inf+Ill:%>mA2h K ; 
+
 
 LEXICON  V_PITIÄ
 ! pitiä:pitä
 +V: V-VV_01 ;
++V+Inf:%>A2 K ;
++V+Der/mine:%>mi N_KIELINE ; 
++V+Der/mA+Inf+Ill:%>mA2h K ; 
+
 
 
 LEXICON V-VV_01
@@ -76,6 +99,31 @@ LEXICON V-VV_01
 +Ind+Prt+ConNeg:%>nU1h K ;
  INDPRTCONNEGPL3_Ettu ;
 
+LEXICON V_SUAJA
+!Verbs of the Finnish type 2
+! suaja:saa
++V: INDPRSSG1 ;
++V: INDPRSSG2 ;
++V: INDPRSSG3 ;
++V: INDPRSPL1 ;
++V: INDPRSPL2 ;
++V: INDPRSPL3_jAh ;
++V: INDPRSCONNEG ;
++V: INDPRTSG1     ;
++V: INDPRTSG2     ;
++V: INDPRTSG3     ;
++V: INDPRTPL1     ;
++V: INDPRTPL2     ;
++V: INDPRTPL3_dih     ;
++V+Ind+PrfPrc:%>nU1%^WEAKh K ;
++V+Ind+PrfPrcPl3:%>dU1 K ;
++V: CONDPRS ;
++V:%>d CONDPRSPL3 ;
++V:%>dU1%^WEAK CONDPRT ;
++V:%>dA1 CONDPRTPL3 ;
++V+Der/mine:%>mi N_KIELINE ; 
++V+Der/mA+Inf+Ill:%>mA2h K ; 
++V+Inf:%>jA2 K ;
 
 LEXICON V_TULLA
 !Verbs of the Finnish type 3
@@ -100,6 +148,9 @@ LEXICON V_TULLA
 +V:%>d CONDPRSPL3 ;
 +V:%>dU1%^WEAK CONDPRT ;
 +V:%>dA1 CONDPRTPL3 ;
++V+Der/mine:%>mi N_KIELINE ; 
++V+Der/mA+Inf+Ill:%>mA2h K ; 
+
 
 LEXICON V_TYPÄTÄ !!= @CODE@ typätä:typpä
 +V: #;
@@ -127,6 +178,9 @@ LEXICON V_AVATA !!= @CODE@ typätä:typpä
 +V:%>d CONDPRSPL3 ;
 +V:%>dU1%^WEAK CONDPRT ;
 +V:%>dA1 CONDPRTPL3 ;
++V+Der/mine:%>A2%>mi N_KIELINE ; 
++V+Der/mA+Inf+Ill:%>A2%>mA2h K ; 
+
 
 
 LEXICON V_SUVAIJA
@@ -167,9 +221,13 @@ LEXICON V_ALETA !!= @CODE@ aleta:ala (alanov)
 LEXICON V_SUATA !!= @CODE@ suata:suva (suvaiččov)
 +V: #;
 
-LEXICON VR_AMBUOKSEH
+LEXICON VR_AMBUO
 ! ambuokseh:ambu
 	VR_ ;
+
+LEXICON VR_KANDUA
+! kanduakseh:kanda
+  VR_ ;
 
 LEXICON VR_RODIEKSEH
 ! Reflexive verbs
