@@ -13,6 +13,19 @@ The parts-of-speech are:
 
 The parts of speech are further split up into:
 
+!!Pronouns
+ ;+Dem	: demonstrative
+ ;+Indef: indefinite
+ ;+Dep 	: dependent word requiring the presence of another, e.g. __мень__
+ ;+Interr: interrogative
+ ;+Pers 	: personal
+ ;+Recipr: reciprocal
+ ;+Refl 	: reflexive
+ ;+Rel 	: relative
+
+
+
+
 The Usage extents are marked using following tags:
 
 The nominals are inflected in the following Case and Number
@@ -47,7 +60,6 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
-
 And following triggers to control variation
 
 We have manually optimised the structure of our lexicon using following

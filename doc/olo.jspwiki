@@ -24,6 +24,19 @@ The parts-of-speech are:
 
 The parts of speech are further split up into:
 
+!!Pronouns
+ ;+Dem	: demonstrative
+ ;+Indef: indefinite
+ ;+Dep 	: dependent word requiring the presence of another, e.g. __мень__
+ ;+Interr: interrogative
+ ;+Pers 	: personal
+ ;+Recipr: reciprocal
+ ;+Refl 	: reflexive
+ ;+Rel 	: relative
+
+
+
+
 The Usage extents are marked using following tags:
 
 The nominals are inflected in the following Case and Number
@@ -58,7 +71,6 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
-
 And following triggers to control variation
 
 We have manually optimised the structure of our lexicon using following
@@ -103,7 +115,14 @@ Livvi nouns inflect in cases.
 
  LEXICON N_KANDAI  kandai:kandai
 
+ LEXICON N_PAGIZII  pagizii:pagizii
+
+ LEXICON N_ANUS  aigomus:aigomuks
+
+ LEXICON N_ANUS-PL  aigomus:aigomuks
+
  LEXICON N_KARJAL  karjal:karjal
+
 
  LEXICON N_KARJALAINE  karjalaine:karjala
 
@@ -111,22 +130,48 @@ Livvi nouns inflect in cases.
 
  LEXICON N_KUU  kuu:kuu
 
- LEXICON N_MUARJU  muarju:muarj
+ LEXICON N_MUARJU  muarju:muarja
 
- LEXICON N_PADA  
+ LEXICON N_KALA  kala:kala
+
+ LEXICON N_OZA  oza:oza
 
  LEXICON N_ARMAS  armas:arma
 
  LEXICON N_PAREMBI  parembi:paremb
 
+ LEXICON N_KOIRU  koiru:koira
 
  LEXICON N_NIMI  
 
- LEXICON N_PÄIVY  päivy:päiv
+ LEXICON N_LAPSI  lapsi:laps
+
+ LEXICON N_VUOZI  vuozi:vuot
+
+ LEXICON N_PÄIVY  päivy:päivä
+
+ LEXICON N_KOIVU  koivu:koivu
+
+ LEXICON N_KIELINE  kieline:kieli
 
  LEXICON N_RUNO  runo:runo
 
 NMN
+ LEXICON NMN_ANUS  Anus:Anuks
+
+
+
+
+ LEXICON NMN_KALA  
+
+ LEXICON NMN_KARJAL  karjal:karjal
+
+
+ LEXICON NMN_ARTELI  arteli:arteli
+
+ LEXICON NMN_OZA  oza:oza
+
+
 
 
 
@@ -165,9 +210,18 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
 
+
+
+
+
+
+
+
+
  LEXICON V_TYPÄTÄ  typätä:typpä
 
  LEXICON V_AVATA  typätä:typpä
+
 
 
 
@@ -175,6 +229,7 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 aleta:ale
 
  LEXICON V_SUATA  suata:suva (suvaiččov)
+
 
 
 
