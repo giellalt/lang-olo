@@ -70,8 +70,8 @@ LEXICON V_POTKIE
 +V+Der/mA+Inf+Ill:%>mA2h K ; 
 
 
-LEXICON  V_PITIÄ
-! pitiä:pitä
+LEXICON  V_PIDIÄ
+! pidiä:pidä
 +V: V-VV_01 ;
 +V+Inf:%>A2 K ;
 +V+Der/mine:%>mi N_KIELINE ; 
@@ -323,6 +323,7 @@ LEXICON INDPRTCONNEGPL3_Ettu
 LEXICON CONDPRS
 +Cond+Prs+ScSg1:%>izin K ;
 +Cond+Prs+ScSg2:%>izit K ;
++Cond+Prs+ScSg3:%>is K ;
 +Cond+Prs+ScSg3:%>iz K ;
 +Cond+Prs+ScPl1:%>izimmO1 K ;
 +Cond+Prs+ScPl2:%>izittO1 K ;

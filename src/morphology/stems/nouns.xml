@@ -759,7 +759,7 @@
       <l pos="N">aigomus</l>
 
       <stg>
-        <st Contlex="N_">aigomus</st>
+        <st Contlex="N_ANUS">aigomuks</st>
       </stg>
     </lg>
 
@@ -871,7 +871,7 @@
       <l pos="N">ailastus</l>
 
       <stg>
-        <st Contlex="N_">ailastus</st>
+        <st Contlex="N_ANUS">ailastuks</st>
       </stg>
     </lg>
 
@@ -1235,7 +1235,7 @@
       <l pos="N">ajatus</l>
 
       <stg>
-        <st Contlex="N_">ajatus</st>
+        <st Contlex="N_ANUS">ajatuks</st>
       </stg>
     </lg>
 
@@ -2076,7 +2076,7 @@
       <l pos="N">alus</l>
 
       <stg>
-        <st Contlex="N_">alus</st>
+        <st Contlex="N_ANUS">aluks</st>
       </stg>
     </lg>
 
@@ -2216,7 +2216,7 @@
       <l pos="N">ambui</l>
 
       <stg>
-        <st Contlex="N_">ambui</st>
+        <st Contlex="N_KANDAI">ambui</st>
       </stg>
     </lg>
 
@@ -4037,7 +4037,7 @@
       <l pos="N">azetus</l>
 
       <stg>
-        <st Contlex="N_">azetus</st>
+        <st Contlex="N_ANUS">azetuks</st>
       </stg>
     </lg>
 
@@ -9368,7 +9368,7 @@
 
   <e>
     <lg>
-      <l pos="N">ehki</l>
+      <l pos="Adv">ehki</l>
 
       <stg>
         <st Contlex="ADV_">ehki</st>
@@ -9794,7 +9794,7 @@
       <l pos="N">ellendys</l>
 
       <stg>
-        <st Contlex="N_">ellendys</st>
+        <st Contlex="N_ANUS">ellendyks</st>
       </stg>
     </lg>
 
@@ -9988,6 +9988,34 @@
 
   <e>
     <lg>
+      <l pos="N">elos</l>
+
+      <stg>
+        <st Contlex="N_ANUS">eloks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">elosija</l>
 
       <stg>
@@ -10047,7 +10075,7 @@
       <l pos="N">elostus</l>
 
       <stg>
-        <st Contlex="N_">elostus</st>
+        <st Contlex="N_ANUS">elostuks</st>
       </stg>
     </lg>
 
@@ -10316,7 +10344,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N"/>
+        <t pos="N">mercury</t>
+
+        <t pos="N"> quick silver</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -12326,7 +12356,7 @@
       <l pos="N">haikostus</l>
 
       <stg>
-        <st Contlex="N_">haikostus</st>
+        <st Contlex="N_ANUS">haikostuks</st>
       </stg>
     </lg>
 
@@ -12354,7 +12384,7 @@
       <l pos="N">hairahtus</l>
 
       <stg>
-        <st Contlex="N_">hairahtus</st>
+        <st Contlex="N_ANUS">hairahtuks</st>
       </stg>
     </lg>
 
@@ -12625,6 +12655,34 @@
 
       <tg xml:lang="fin">
         <t pos="N">särö, rako, halkeama</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">halličus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">halličuks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
       </tg>
     </mg>
   </e>
@@ -13418,7 +13476,7 @@
       <l pos="N">harjus</l>
 
       <stg>
-        <st Contlex="N_">harjus</st>
+        <st Contlex="N_ANUS">harjuks</st>
       </stg>
     </lg>
 
@@ -14567,7 +14625,7 @@
       <l pos="N">hengenahtistus</l>
 
       <stg>
-        <st Contlex="N_">hengenahtistus</st>
+        <st Contlex="N_ANUS">hengenahtistuks</st>
       </stg>
     </lg>
 
@@ -15777,7 +15835,7 @@
       <l pos="N">hivus</l>
 
       <stg>
-        <st Contlex="N_">hivus</st>
+        <st Contlex="N_ANUS">hivuks</st>
       </stg>
     </lg>
 
@@ -17151,7 +17209,7 @@
       <l pos="N">huondes</l>
 
       <stg>
-        <st Contlex="N_">huondes</st>
+        <st Contlex="N_ANUS">huondeks</st>
       </stg>
     </lg>
 
@@ -17319,7 +17377,7 @@
       <l pos="N">huonus</l>
 
       <stg>
-        <st Contlex="N_">huonus</st>
+        <st Contlex="N_ANUS">huonuks</st>
       </stg>
     </lg>
 
@@ -17882,7 +17940,7 @@
       <l pos="N">hyvin juoksii</l>
 
       <stg>
-        <st Contlex="N_">hyvin juoksii</st>
+        <st Contlex="N_PAGIZII">hyvin juoksii</st>
       </stg>
     </lg>
 
@@ -19316,7 +19374,7 @@
       <l pos="N">ihastus</l>
 
       <stg>
-        <st Contlex="N_">ihastus</st>
+        <st Contlex="N_ANUS">ihastuks</st>
       </stg>
     </lg>
 
@@ -21478,7 +21536,7 @@
       <l pos="N">jällenpolgii</l>
 
       <stg>
-        <st Contlex="N_">jällenpolgii</st>
+        <st Contlex="N_PAGIZII">jällen#polgii</st>
       </stg>
     </lg>
 
@@ -23494,7 +23552,7 @@
       <l pos="N">juoksii</l>
 
       <stg>
-        <st Contlex="N_">juoksii</st>
+        <st Contlex="N_PAGIZII">juoksii</st>
       </stg>
     </lg>
 
@@ -25368,6 +25426,34 @@
 
   <e>
     <lg>
+      <l pos="N">kaivaus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">kaivauks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">kaivo</l>
 
       <stg>
@@ -25483,7 +25569,7 @@
       <l pos="N">kajahtus</l>
 
       <stg>
-        <st Contlex="N_">kajahtus</st>
+        <st Contlex="N_ANUS">kajahtuks</st>
       </stg>
     </lg>
 
@@ -25932,7 +26018,7 @@
       <l pos="N">kalastus</l>
 
       <stg>
-        <st Contlex="N_">kalastus</st>
+        <st Contlex="N_ANUS">kalastuks</st>
       </stg>
     </lg>
 
@@ -26998,7 +27084,7 @@
       <l pos="N">kannatus</l>
 
       <stg>
-        <st Contlex="N_">kannatus</st>
+        <st Contlex="N_ANUS">kannatuks</st>
       </stg>
     </lg>
 
@@ -28909,7 +28995,7 @@
       <l pos="N">karkoitus</l>
 
       <stg>
-        <st Contlex="N_">karkoitus</st>
+        <st Contlex="N_ANUS">karkoituks</st>
       </stg>
     </lg>
 
@@ -29554,7 +29640,7 @@
       <l pos="N">katkelmus</l>
 
       <stg>
-        <st Contlex="N_">katkelmus</st>
+        <st Contlex="N_ANUS">katkelmuks</st>
       </stg>
     </lg>
 
@@ -29807,7 +29893,7 @@
       <l pos="N">kaunistus</l>
 
       <stg>
-        <st Contlex="N_">kaunistus</st>
+        <st Contlex="N_ANUS">kaunistuks</st>
       </stg>
     </lg>
 
@@ -30591,6 +30677,34 @@
 
   <e>
     <lg>
+      <l pos="N">kehitys</l>
+
+      <stg>
+        <st Contlex="N_ANUS">kehityks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">kehitändy</l>
 
       <stg>
@@ -31184,7 +31298,7 @@
       <l pos="N">kengänombelii</l>
 
       <stg>
-        <st Contlex="N_">kengänombelii</st>
+        <st Contlex="N_PAGIZII">kengän#ombelii</st>
       </stg>
     </lg>
 
@@ -31296,7 +31410,7 @@
       <l pos="N">kerdomus</l>
 
       <stg>
-        <st Contlex="N_">kerdomus</st>
+        <st Contlex="N_ANUS">kerdomuks</st>
       </stg>
     </lg>
 
@@ -31492,7 +31606,7 @@
       <l pos="N">kerros</l>
 
       <stg>
-        <st Contlex="N_">kerros</st>
+        <st Contlex="N_ANUS">kerroks</st>
       </stg>
     </lg>
 
@@ -31772,7 +31886,7 @@
       <l pos="N">keskus</l>
 
       <stg>
-        <st Contlex="N_">keskus</st>
+        <st Contlex="N_ANUS">keskuks</st>
       </stg>
     </lg>
 
@@ -31791,6 +31905,62 @@
 
       <tg xml:lang="fin">
         <t pos="N">keskus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">viizukeskus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">viizu#keskuks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">tiedokeskus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">tiedo#keskuks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">tietokeskus</t>
       </tg>
     </mg>
   </e>
@@ -32556,7 +32726,7 @@
       <l pos="N">kielastelii</l>
 
       <stg>
-        <st Contlex="N_">kielastelii</st>
+        <st Contlex="N_PAGIZII">kielastelii</st>
       </stg>
     </lg>
 
@@ -32584,7 +32754,7 @@
       <l pos="N">kielastus</l>
 
       <stg>
-        <st Contlex="N_">kielastus</st>
+        <st Contlex="N_ANUS">kielastuks</st>
       </stg>
     </lg>
 
@@ -33228,7 +33398,7 @@
       <l pos="N">kiittelii</l>
 
       <stg>
-        <st Contlex="N_">kiittelii</st>
+        <st Contlex="N_PAGIZII">kiittelii</st>
       </stg>
     </lg>
 
@@ -33900,7 +34070,7 @@
       <l pos="N">kirjutus</l>
 
       <stg>
-        <st Contlex="N_">kirjutus</st>
+        <st Contlex="N_ANUS">kirjutuks</st>
       </stg>
     </lg>
 
@@ -34544,7 +34714,7 @@
       <l pos="N">kiänös</l>
 
       <stg>
-        <st Contlex="N_">kiänös</st>
+        <st Contlex="N_ANUS">kiänöks</st>
       </stg>
     </lg>
 
@@ -35077,7 +35247,7 @@
       <l pos="N">kodikondii</l>
 
       <stg>
-        <st Contlex="N_">kodikondii</st>
+        <st Contlex="N_">kodi#kondii</st>
       </stg>
     </lg>
 
@@ -35469,7 +35639,7 @@
       <l pos="N">kogomus</l>
 
       <stg>
-        <st Contlex="N_">kogomus</st>
+        <st Contlex="N_ANUS">kogomuks</st>
       </stg>
     </lg>
 
@@ -35553,7 +35723,7 @@
       <l pos="N">kohendus</l>
 
       <stg>
-        <st Contlex="N_">kohendus</st>
+        <st Contlex="N_ANUS">kohenduks</st>
       </stg>
     </lg>
 
@@ -37241,7 +37411,7 @@
       <l pos="N">kosketus</l>
 
       <stg>
-        <st Contlex="N_">kosketus</st>
+        <st Contlex="N_ANUS">kosketuks</st>
       </stg>
     </lg>
 
@@ -39376,7 +39546,7 @@
       <l pos="N">kumardus</l>
 
       <stg>
-        <st Contlex="N_">kumardus</st>
+        <st Contlex="N_ANUS">kumarduks</st>
       </stg>
     </lg>
 
@@ -39395,34 +39565,6 @@
 
       <tg xml:lang="fin">
         <t pos="N">kumarrus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">kumei</l>
-
-      <stg>
-        <st Contlex="N_">kumei</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N"/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">soinniton, kumea (soinniton konsonantti)</t>
       </tg>
     </mg>
   </e>
@@ -41654,7 +41796,7 @@
       <l pos="N">kyzymys</l>
 
       <stg>
-        <st Contlex="N_">kyzymys</st>
+        <st Contlex="N_ANUS">kyzymyks</st>
       </stg>
     </lg>
 
@@ -42075,7 +42217,7 @@
       <l pos="N">käilkirjutus</l>
 
       <stg>
-        <st Contlex="N_">käilkirjutus</st>
+        <st Contlex="N_ANUS">käil#kirjutuks</st>
       </stg>
     </lg>
 
@@ -42719,7 +42861,7 @@
       <l pos="N">käziastii</l>
 
       <stg>
-        <st Contlex="N_">käziastii</st>
+        <st Contlex="N_">käzi#astii</st>
       </stg>
     </lg>
 
@@ -43028,7 +43170,7 @@
       <l pos="N">käzästii</l>
 
       <stg>
-        <st Contlex="N_">käzästii</st>
+        <st Contlex="N_PAGIZII">käzästii</st>
       </stg>
     </lg>
 
@@ -44011,7 +44153,7 @@
       <l pos="N">laitos</l>
 
       <stg>
-        <st Contlex="N_">laitos</st>
+        <st Contlex="N_ANUS">laitoks</st>
       </stg>
     </lg>
 
@@ -45273,6 +45415,34 @@
 
   <e>
     <lg>
+      <l pos="N">media-keskus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">media-keskuks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">mua</l>
 
       <stg>
@@ -45295,6 +45465,62 @@
 
       <tg xml:lang="fin">
         <t pos="N">maa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">muutos</l>
+
+      <stg>
+        <st Contlex="N_ANUS">muutoks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">muzei</l>
+
+      <stg>
+        <st Contlex="N_KOIVU">muzei</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">museo</t>
       </tg>
     </mg>
   </e>
@@ -45870,7 +46096,7 @@
       <l pos="N">niistii</l>
 
       <stg>
-        <st Contlex="N_">niistii</st>
+        <st Contlex="N_PAGIZII">niistii</st>
       </stg>
     </lg>
 
@@ -48586,7 +48812,7 @@
       <l pos="N">oigevus</l>
 
       <stg>
-        <st Contlex="N_">oigevus</st>
+        <st Contlex="N_ANUS">oigevuks</st>
       </stg>
     </lg>
 
@@ -48754,7 +48980,7 @@
       <l pos="N">oksendus</l>
 
       <stg>
-        <st Contlex="N_">oksendus</st>
+        <st Contlex="N_ANUS">oksenduks</st>
       </stg>
     </lg>
 
@@ -49146,7 +49372,7 @@
       <l pos="N">olii</l>
 
       <stg>
-        <st Contlex="N_">olii</st>
+        <st Contlex="N_PAGIZII">olii</st>
       </stg>
     </lg>
 
@@ -49510,7 +49736,7 @@
       <l pos="N">ombelus</l>
 
       <stg>
-        <st Contlex="N_">ombelus</st>
+        <st Contlex="N_ANUS">ombeluks</st>
       </stg>
     </lg>
 
@@ -49815,10 +50041,10 @@
 
   <e>
     <lg>
-      <l pos="N">opastuj</l>
+      <l pos="N">opastui</l>
 
       <stg>
-        <st Contlex="N_">opastuj</st>
+        <st Contlex="N_KANDAI">opastui</st>
       </stg>
     </lg>
 
@@ -49902,7 +50128,7 @@
       <l pos="N">opastus</l>
 
       <stg>
-        <st Contlex="N_">opastus</st>
+        <st Contlex="N_ANUS">opastuks</st>
       </stg>
     </lg>
 
@@ -50991,6 +51217,34 @@
 
   <e>
     <lg>
+      <l pos="N">ozutus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">ozutuks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">očkat</l>
 
       <stg>
@@ -51412,7 +51666,35 @@
       <l pos="N">paginluadu</l>
 
       <stg>
-        <st Contlex="N_">paginluadu</st>
+        <st Contlex="N_">pagin#luadu</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">pagizii</l>
+
+      <stg>
+        <st Contlex="N_PAGIZII">pagizii</st>
       </stg>
     </lg>
 
@@ -51860,7 +52142,7 @@
       <l pos="N">pahendus</l>
 
       <stg>
-        <st Contlex="N_">pahendus</st>
+        <st Contlex="N_ANUS">pahenduks</st>
       </stg>
     </lg>
 
@@ -53484,7 +53766,7 @@
       <l pos="N">panos</l>
 
       <stg>
-        <st Contlex="N_">panos</st>
+        <st Contlex="N_ANUS">panoks</st>
       </stg>
     </lg>
 
@@ -58515,6 +58797,34 @@
 
       <tg xml:lang="fin">
         <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">piätös</l>
+
+      <stg>
+        <st Contlex="N_ANUS">piätöks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">päätös</t>
       </tg>
     </mg>
   </e>
@@ -71094,7 +71404,7 @@
       <l pos="N">sanelii</l>
 
       <stg>
-        <st Contlex="N_">sanelii</st>
+        <st Contlex="N_PAGIZII">sanelii</st>
       </stg>
     </lg>
 
@@ -73250,7 +73560,7 @@
       <l pos="N">silminnägii</l>
 
       <stg>
-        <st Contlex="N_">silminnägii</st>
+        <st Contlex="N_PAGIZII">silmin#nägii</st>
       </stg>
     </lg>
 
@@ -73642,7 +73952,7 @@
       <l pos="N">siriččiproidii</l>
 
       <stg>
-        <st Contlex="N_">siriččiproidii</st>
+        <st Contlex="N_PAGIZII">siriččiproidii</st>
       </stg>
     </lg>
 
@@ -74221,6 +74531,34 @@
 
       <tg xml:lang="fin">
         <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">sobimus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">sobimuks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
       </tg>
     </mg>
   </e>
@@ -74986,7 +75324,7 @@
       <l pos="N">sovanombelii</l>
 
       <stg>
-        <st Contlex="N_">sovanombelii</st>
+        <st Contlex="N_PAGIZII">sovan#ombelii</st>
       </stg>
     </lg>
 
@@ -75854,7 +76192,7 @@
       <l pos="N">suappanombelii</l>
 
       <stg>
-        <st Contlex="N_">suappanombelii</st>
+        <st Contlex="N_PAGIZII">suappan#ombelii</st>
       </stg>
     </lg>
 
@@ -78253,6 +78591,34 @@
 
       <tg xml:lang="fin">
         <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">suvaičus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">suvaičuks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
       </tg>
     </mg>
   </e>
@@ -81255,6 +81621,62 @@
 
   <e>
     <lg>
+      <l pos="N">tarkoitus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">tarkoituks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">piätarkoitus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">piä#tarkoituks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">tarmo</l>
 
       <stg>
@@ -81787,6 +82209,34 @@
 
   <e>
     <lg>
+      <l pos="N">teatru</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">teatra</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">tekstu</l>
 
       <stg>
@@ -81902,7 +82352,7 @@
       <l pos="N">tervanlaskii</l>
 
       <stg>
-        <st Contlex="N_">tervanlaskii</st>
+        <st Contlex="N_PAGIZII">tervan#laskii</st>
       </stg>
     </lg>
 
@@ -82154,7 +82604,7 @@
       <l pos="N">tevos</l>
 
       <stg>
-        <st Contlex="N_">tevos</st>
+        <st Contlex="N_ANUS">tevoks</st>
       </stg>
     </lg>
 
@@ -83159,6 +83609,34 @@
 
   <e>
     <lg>
+      <l pos="N">toimitus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">toimituks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">toinargi</l>
 
       <stg>
@@ -83722,7 +84200,7 @@
       <l pos="N">torguiččii</l>
 
       <stg>
-        <st Contlex="N_">torguiččii</st>
+        <st Contlex="N_PAGIZII">torguiččii</st>
       </stg>
     </lg>
 
@@ -85122,7 +85600,7 @@
       <l pos="N">tulos</l>
 
       <stg>
-        <st Contlex="N_">tulos</st>
+        <st Contlex="N_ANUS">tuloks</st>
       </stg>
     </lg>
 
@@ -85931,6 +86409,34 @@
 
   <e>
     <lg>
+      <l pos="N">tutkimus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">tutkimuks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">tutkimus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">tuttavu</l>
 
       <stg>
@@ -86382,7 +86888,7 @@
       <l pos="N">tyhjänpagižii</l>
 
       <stg>
-        <st Contlex="N_">tyhjänpagižii</st>
+        <st Contlex="N_PAGIZII">tyhjän#pagižii</st>
       </stg>
     </lg>
 
@@ -90750,7 +91256,7 @@
       <l pos="N">valiččii</l>
 
       <stg>
-        <st Contlex="N_">valiččii</st>
+        <st Contlex="N_PAGIZII">valiččii</st>
       </stg>
     </lg>
 
@@ -90834,7 +91340,7 @@
       <l pos="N">vallankumovus</l>
 
       <stg>
-        <st Contlex="N_">vallankumovus</st>
+        <st Contlex="N_ANUS">vallan#kumovuks</st>
       </stg>
     </lg>
 
@@ -91021,6 +91527,34 @@
 
       <tg xml:lang="fin">
         <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">valličus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">valličuks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
       </tg>
     </mg>
   </e>
@@ -91562,7 +92096,7 @@
       <l pos="N">vardoiččii</l>
 
       <stg>
-        <st Contlex="N_">vardoiččii</st>
+        <st Contlex="N_PAGIZII">vardoiččii</st>
       </stg>
     </lg>
 
@@ -92038,7 +92572,7 @@
       <l pos="N">vastavus</l>
 
       <stg>
-        <st Contlex="N_">vastavus</st>
+        <st Contlex="N_ANUS">vastavuks</st>
       </stg>
     </lg>
 
@@ -92931,6 +93465,34 @@
 
   <e>
     <lg>
+      <l pos="N">vellekset</l>
+
+      <stg>
+        <st Contlex="N_ANUS-PL">velleks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">vellen</l>
 
       <stg>
@@ -93513,6 +94075,62 @@
 
       <tg xml:lang="fin">
         <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">vestos</l>
+
+      <stg>
+        <st Contlex="N_ANUS">vestoks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">bronzuvestos</l>
+
+      <stg>
+        <st Contlex="N_ANUS">bronzu#vestoks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
       </tg>
     </mg>
   </e>
@@ -97691,6 +98309,34 @@
 
   <e>
     <lg>
+      <l pos="N">vuottamus</l>
+
+      <stg>
+        <st Contlex="N_ANUS">vuottamuks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">vuozi</l>
 
       <stg>
@@ -99066,7 +99712,7 @@
       <l pos="N">yhtevys</l>
 
       <stg>
-        <st Contlex="N_">yhtevys</st>
+        <st Contlex="N_ANUS">yhtevyks</st>
       </stg>
     </lg>
 
@@ -99318,7 +99964,7 @@
       <l pos="N">yllyttelii</l>
 
       <stg>
-        <st Contlex="N_">yllyttelii</st>
+        <st Contlex="N_PAGIZII">yllyttelii</st>
       </stg>
     </lg>
 

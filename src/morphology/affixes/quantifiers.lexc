@@ -5,12 +5,17 @@
 LEXICON NUM_
 +TYÄ+Num: # ;
 
-LEXICON Num-kolme
+LEXICON Num-kolme !!= @CODE@ 
 +Num+Card: # ;
 
 LEXICON QNT_
 +TYÄ+Qnt: # ;
 
+LEXICON ORD_KIELINE !!= @CODE@ toine:toi
++Qnt+Ord: NMN_KIELINE ;
+
+LEXICON ORD_KARJALAINE !!= @CODE@ enzimäine:ensimä
++Qnt+Ord: NMN_KARJALAINE ;
 
 ! vim: set ft=xfst-lexc:
 
