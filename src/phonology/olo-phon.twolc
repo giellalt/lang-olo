@@ -63,6 +63,9 @@ V3:0
 ! syllable boundary for V_AVATA
 %^SyllBound:0
 
+! Used with ks:s, ps:s
+%^KS2S:0
+
 ! no change
 %^NONE:0 ! This will break vowel change, e.g. sa%^NONEamelaine
 
@@ -126,7 +129,7 @@ FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] [ %> | VwsFront: | 
 
 
 ! Back Trigger 
-BT =    #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^E1:0 | %^SyllBound:0 | VwsNeutral | i: | VwsBack: | :VwsBack | Cns: | :Cns ]* ;
+BT =    #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | %^KS2S:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^KS2S:0 | %^E1:0 | %^SyllBound:0 | VwsNeutral | i: | VwsBack: | :VwsBack | Cns: | :Cns ]* ;
 
 ! Gradation strong to weak
 !GS2W = [ p:v | m p:m | t:0 | l t:l | r t:r | n t:n | s t:s | k:0 | l k:0 | r k:0 | n k:g | s k:0 ] ;
@@ -200,7 +203,10 @@ o:u <=> Cns _ %> [ A2:o ] ; !!
 !2013-04-29!"StemAÄLoss"
 !2013-04-29! A1:0 <=> [ A1: | Cns: | :Cns ] _ ( %>: %^LCns:0 ) %>: i %>: ;
 !2013-04-29!
-!2013-04-29!
+! Vowel shortening before subsequent "i"
+"a:0 in suaja:sai"
+a:0 <=> a _ %> i ;
+
 !2013-04-29!! U loss [u:0 | y:0]
 !2013-04-29!"StemULoss"
 !2013-04-29! X:Y <=> X _ %>:  i  %>: ;
@@ -216,10 +222,10 @@ o:u <=> Cns _ %> [ A2:o ] ; !!
 !2013-04-29!! Stem vowel "i" loss before plural "i"
 !2013-04-29!"i:Zero"
 !2013-04-29! i:0 <=> i _ %>: i  %>: ;
-!2013-04-29!
-!2013-04-29!! iToj between vowels
-!2013-04-29!"i:j"
-!2013-04-29! i:j <=> :Vws ( %>:  %^LCns:0 ) %>: _ %>: :Vws ;
+
+! iToj between vowels
+"i:j"
+ i:j <=> :Vws ( %>:  %^LCns:0 ) %>: _ %>: :Vws ;
 !2013-04-29!         Vws _ Cns:0 Vws: ;
 !2013-04-29!!veitte%>%^WCnsttUY1%>%^LCns%>i%>AÄ1
 !2013-04-29!!€ em0o0i%>%^LCnsAÄ1
@@ -232,11 +238,12 @@ a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 "a:e"
  a:e <=> _ %^WEAK:0 %^E1:0 ;
 
-!pitiä
+!pidiä
 "ä:e piettih and in comparatives"
-ä:e <=> i t: _ %^WEAK:0 %^E1:0 ;
+ä:e <=> i d: _ %^WEAK:0 %^E1:0 ;
 
-
+"ä:0 pidiä:pidi"
+ä:0 <=> _ %> i ;
 
 
 ! Vowel harmony suffixes Back
@@ -368,7 +375,7 @@ t:z <=> _ %^T2Z:0 %> i ;
 
 ! vuozi:vuot+dU1, armas:armas+dU1
 "d:t in partitive"
-d:t <=> [ t | s ] %> _ ;
+d:t <=> [ t | s ] ( %^KS2S:0 ) %> _ ;
 
 !2013-04-29!
 !2013-04-29!
@@ -406,14 +413,16 @@ n:l <=> l %> _ U1: %^WEAK: h ;
 !2013-04-29!
 !2013-04-29!"nk:ng weakening"
 !2013-04-29!k:g <=> [ #: ] Cns* Vws n _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
-!2013-04-29!
-!2013-04-29!
-!2013-04-29!! aika: ajan
-!2013-04-29!"kToZero"
-!2013-04-29!k:0 <=> [  #:  Cns* Vws (( r | i | VwsNonHigh ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
+
+
+! aika: ajan
+"kToZero"
+k:0 <=> _ s %^KS2S:0 ;
+
+!2013-04-29! [  #:  Cns* Vws (( r | i | VwsNonHigh ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 !2013-04-29!![ [ #: ] Cns* Vws (( r | i ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ Vws: | :Vws | ( Vws ) %>: i ] ( %>: i: | %^StretchSyll2:0 ) %^WEAK:0 %>: ;
 !2013-04-29!        [ #: ] Cns* VwsBack i: _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
-!2013-04-29!
+
 !2013-04-29!! liika:liijan, reikä:reijän
 !2013-04-29!"kToj"
 !2013-04-29! k:j <=> [ #: ] Cns* [ VwsFront | VwsNeutral ] i: _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
@@ -425,9 +434,6 @@ n:l <=> l %> _ U1: %^WEAK: h ;
 !2013-04-29!        [ #: Cns*  Vws+ [ h | (r) t ] | Vws ( %^WEAK:0 %>: ) t | Cns* Vws+ Cns+ Vws+ ( n ) t | Vws t ] _  [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 !2013-04-29!        t _ Vws l %^WGStem:0 ; ! ottel- to otel-
 
-"t:0 pitiä"
-t:0 <=> i _ ä: %^WEAK:0 %^E1:0 ;
-
 ! luba : luvan
 "b:v"
 b:v <=> [ #: ] Cns* Vws ( r | l | Vws ) _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
@@ -435,7 +441,7 @@ b:v <=> [ #: ] Cns* Vws ( r | l | Vws ) _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 !2013-04-29!"double pp to p"
 !2013-04-29!p:0 <=> [ #: Cns* Vws ( m ) p | #: Cns* Vws Vws p | Cns* Vws+ Cns+ Vws+ p ] _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 "p:0 in lapsi"
-p:0 <=> Vws _ s %> d: U1: ;
+p:0 <=> Vws _ s  %^KS2S:0  ;
 
 !2013-04-29!!! Vowel raising
 !2013-04-29!"o:u ö:y in Inf"
@@ -445,8 +451,9 @@ p:0 <=> Vws _ s %> d: U1: ;
 !2013-04-29!                Vy in (u y) matched ;
 
 !! Consonant loss
-"d:0"
-d:0 <=> Vws _ Vws: %^WEAK:0 %>: ;
+"d:0" !! pidiä:piän
+d:0 <=> Vws _ Vws: %^WEAK:0  ;
+
 
 !"Disallow V3 after two consecutive realized vowels"
 ! V3: /<= :Vws :0* :Vws :0* _ ;

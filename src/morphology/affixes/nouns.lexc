@@ -21,7 +21,24 @@ LEXICON N_KANDAI !!= @CODE@ kandai:kandai
 +N:ie PLGENSUF ;
 +N:i PLPARSUF_i ;
 +N:i PLINSSUF ;
-+N:A1 Noun-NB-i ;
++N+Sg:A1 Noun-NB-01 ;
++N+Pl:i Noun-NB-01 ;
+
+LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizii
++N: SGNOMSUF ;
++N:A2 SGGENSUF ;
++N:A2 SGPARSUF_A2 ;
++N:%>O1i PLGENSUF ;
++N:%>O1i PLPARSUF_i ;
++N:%>O1i PLINSSUF ;
++N:A2 Noun-NB-01 ;
++N:%>O1 Noun-NB-01 ;
+
+LEXICON N_ANUS !!= @CODE@ aigomus:aigomuks
++N: NMN_ANUS ;
+
+LEXICON N_ANUS-PL !!= @CODE@ aigomus:aigomuks
++N: NMN_ANUS-PL ;
 
 LEXICON N_KARJAL !!= @CODE@ karjal:karjal
 +N: SGNOMSUF ;
@@ -97,7 +114,7 @@ LEXICON N_NIMI !!= @CODE@
 LEXICON N_LAPSI !!= @CODE@ lapsi:laps
 +N:i SGNOMSUF ;
 +N:e SGGENSUF ;
-+N: SGPARSUF_dU1 ;
++N:%^KS2S SGPARSUF_dU1 ;
 +N:e PLNOMSUF ;
 +N:%>ie PLGENSUF ; ! the plural comitative is declined here
 +N:%>i PLPARSUF_i ;
@@ -149,6 +166,23 @@ LEXICON N_RUNO !!= @CODE@ runo:runo
 +N: Noun-NB-loi ;
 
 !! NMN
+LEXICON NMN_ANUS !!= @CODE@ Anus:Anuks
+	NMN_ANUS-SG ;
+	NMN_ANUS-PL ;
+
+LEXICON NMN_ANUS-SG
++N:%^KS2S SGNOMSUF ;
++N:e SGGENSUF ;
++N:%^KS2S SGPARSUF_dU1 ;
++N+Sg:e Noun-NB-01 ;
+
+LEXICON NMN_ANUS-PL
++N:e PLNOMSUF ;
++N:%>ie PLGENSUF ; ! the plural comitative is declined here
++N:%>i PLPARSUF_i ;
++N:%>i PLINSSUF ;
++N+Pl:i Noun-NB-01 ;
+
 LEXICON NMN_KUU
  SGNOMSUF ;
  SGPARSUF_dU1 ;
