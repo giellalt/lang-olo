@@ -254,23 +254,23 @@ LEXICON K
 # ; 
 
 
-LEXICON PoTag
+LEXICON PO_
 +Po: # ; 
 
-LEXICON PrepTag
+LEXICON PREP_
 +Prep: # ; 
 
  
 LEXICON ADV_
 +Adv: # ; 
 
-LEXICON MannerTag
+LEXICON MANNER_
 +Adv+Manner: K ;
 
-LEXICON SpatTag
+LEXICON SPAT_
 +Adv+Spat: K ;
 
-LEXICON TempTag
+LEXICON TEMP_
 +Adv+Temp: K ;
 
 LEXICON CASESUF
