@@ -56,22 +56,27 @@ LEXICON N_KARJALAINE !!= @CODE@ karjalaine:karjala
 
 LEXICON N_KIELI !!= @CODE@ kieli:kiel
 +N:i SGNOMSUF ;
++N:e SGGENSUF ;
 +N: SGPARSUF_dU1 ;
++N+Sg:e Noun-NB-01 ;
++N:e PLNOMSUF ;
 +N:ie PLGENSUF ;
 +N:i PLPARSUF_i ;
 +N:i PLINSSUF ;
-+N:e Noun-NB-i ;
++N+Pl:i Noun-NB-01 ;
 
 LEXICON N_KUU !!= @CODE@ kuu:kuu
 +N: NMN_KUU ;
 
 LEXICON N_MUARJU !!= @CODE@ muarju:muarja
 +N:%^A2U SGNOMSUF ;
++N: SGGENSUF ;
 +N: SGPARSUF_A2 ;
++N+Sg: Noun-NB-01 ;
++N: PLNOMSUF ;
 +N:%>oi PLGENSUF ; ! the plural comitative is declined here
 +N:%>oi PLPARSUF_a ;
 +N:%>oi PLINSSUF ;
-+N+Sg: Noun-NB-01 ;
 +N+Pl:%>oi Noun-NB-01 ;
 
 LEXICON N_KALA !!= @CODE@ kala:kala
