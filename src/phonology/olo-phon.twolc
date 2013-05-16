@@ -112,13 +112,15 @@ K1:k
 
 Sets
 
-VwsBack = a o u ;
-VwsFront = ä ö y ü ;
-VwsNeutral = e i ; 
-VwsNonHigh = a o ä ö e ;
-Vws = a o u ä ö y ü e i ;
+VwsBack = a o u A O U ;
+VwsFront = ä ö y ü Ä Ö Y Ü ;
+VwsNeutral = e i E I ; 
+VwsNonHigh = a o ä ö e A O Ä Ö E ;
+Vws = a o u ä ö y ü e i 
+      A O U Ä Ö Y Ü E I ;
 
-Cns = b c č d f g h j k l m n p r s ş š t v z ƶ ž ;
+Cns = b c č d f g h j k l m n p r s ş š t v z ƶ ž 
+      B C Č D F G H J K L M N P R S Ş Š T V Z Ƶ Ž ;
 
 Letters = Vws Cns ;
 
