@@ -1,1434 +1,1074 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-  <e exclude="fst">
-    <lg>
-      <l pos="Pcle">-bo</l>
-
-      <stg>
-        <st Contlex="PCLE_">-bo</st>
-      </stg>
-    </lg>
-
-    <pos>Pcle</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Pcle">-go</l>
-
-      <stg>
-        <st Contlex="PCLE_">-go</st>
-      </stg>
-    </lg>
-
-    <pos>Pcle</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Pcle">-häi</l>
-
-      <stg>
-        <st Contlex="PCLE_">-häi</st>
-      </stg>
-    </lg>
-
-    <pos>Pcle</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">aku</l>
-
-      <stg>
-        <st Contlex="INTERJ_">aku</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">al</l>
-
-      <stg>
-        <st Contlex="INTERJ_">al</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ali</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ali</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">däh</l>
-
-      <stg>
-        <st Contlex="INTERJ_">däh</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ei</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ei</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ga</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ga</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">gai</l>
-
-      <stg>
-        <st Contlex="INTERJ_">gai</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">hoi</l>
-
-      <stg>
-        <st Contlex="INTERJ_">hoi</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">hoš</l>
-
-      <stg>
-        <st Contlex="INTERJ_">hoš</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">jo</l>
-
-      <stg>
-        <st Contlex="INTERJ_">jo</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">joi</l>
-
-      <stg>
-        <st Contlex="INTERJ_">joi</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ka</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ka</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ka</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ka</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">kei</l>
-
-      <stg>
-        <st Contlex="INTERJ_">kei</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">konah</l>
-
-      <stg>
-        <st Contlex="INTERJ_">konah</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">konzu</l>
-
-      <stg>
-        <st Contlex="INTERJ_">konzu</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">konzu-tahto</l>
-
-      <stg>
-        <st Contlex="INTERJ_">konzu-tahto</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">korvah</l>
-
-      <stg>
-        <st Contlex="INTERJ_">korvah</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">kouzollou</l>
-
-      <stg>
-        <st Contlex="INTERJ_">kouzollou</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ku</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ku</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">kuda-ken</l>
-
-      <stg>
-        <st Contlex="INTERJ_">kuda-ken</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">kuda-kui</l>
-
-      <stg>
-        <st Contlex="INTERJ_">kuda-kui</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">kuda-midä</l>
-
-      <stg>
-        <st Contlex="INTERJ_">kuda-midä</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">kuda-mis</l>
-
-      <stg>
-        <st Contlex="INTERJ_">kuda-mis</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">kulleh</l>
-
-      <stg>
-        <st Contlex="INTERJ_">kulleh</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">kulmas</l>
-
-      <stg>
-        <st Contlex="INTERJ_">kulmas</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">kus</l>
-
-      <stg>
-        <st Contlex="INTERJ_">kus</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">la</l>
-
-      <stg>
-        <st Contlex="INTERJ_">la</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">libo</l>
-
-      <stg>
-        <st Contlex="INTERJ_">libo</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">migu</l>
-
-      <stg>
-        <st Contlex="INTERJ_">migu</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">mindäh</l>
-
-      <stg>
-        <st Contlex="INTERJ_">mindäh</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">mis</l>
-
-      <stg>
-        <st Contlex="INTERJ_">mis</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">myö</l>
-
-      <stg>
-        <st Contlex="INTERJ_">myö</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">no</l>
-
-      <stg>
-        <st Contlex="INTERJ_">no</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">nolja</l>
-
-      <stg>
-        <st Contlex="INTERJ_">nolja</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">näi</l>
-
-      <stg>
-        <st Contlex="INTERJ_">näi</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">piäh</l>
-
-      <stg>
-        <st Contlex="INTERJ_">piäh</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">piäle</l>
-
-      <stg>
-        <st Contlex="INTERJ_">piäle</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">piäs</l>
-
-      <stg>
-        <st Contlex="INTERJ_">piäs</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">päin (istuo p.)</l>
-
-      <stg>
-        <st Contlex="INTERJ_">päin (istuo p.)</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">se</l>
-
-      <stg>
-        <st Contlex="INTERJ_">se</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">se</l>
-
-      <stg>
-        <st Contlex="INTERJ_">se</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">tai</l>
-
-      <stg>
-        <st Contlex="INTERJ_">tai</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">tuan</l>
-
-      <stg>
-        <st Contlex="INTERJ_">tuan</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">täs kai</l>
-
-      <stg>
-        <st Contlex="INTERJ_">täs kai</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">vaigu</l>
-
-      <stg>
-        <st Contlex="INTERJ_">vaigu</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">vie</l>
-
-      <stg>
-        <st Contlex="INTERJ_">vie</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">voit olla</l>
-
-      <stg>
-        <st Contlex="INTERJ_">voit olla</st>
-      </stg>
-    </lg>
-
-    <pos>Interj</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <e exclude="fst">
+      <lg>
+         <l pos="Pcle">-bo</l>
+         <stg>
+            <st Contlex="PCLE_">-bo</st>
+         </stg>
+      </lg>
+      <pos>Pcle</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e exclude="fst">
+      <lg>
+         <l pos="Pcle">-go</l>
+         <stg>
+            <st Contlex="PCLE_">-go</st>
+         </stg>
+      </lg>
+      <pos>Pcle</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e exclude="fst">
+      <lg>
+         <l pos="Pcle">-häi</l>
+         <stg>
+            <st Contlex="PCLE_">-häi</st>
+         </stg>
+      </lg>
+      <pos>Pcle</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">aku</l>
+         <stg>
+            <st Contlex="INTERJ_">aku</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">al</l>
+         <stg>
+            <st Contlex="INTERJ_">al</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">ali</l>
+         <stg>
+            <st Contlex="INTERJ_">ali</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">däh</l>
+         <stg>
+            <st Contlex="INTERJ_">däh</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">ei</l>
+         <stg>
+            <st Contlex="INTERJ_">ei</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">ga</l>
+         <stg>
+            <st Contlex="INTERJ_">ga</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">gai</l>
+         <stg>
+            <st Contlex="INTERJ_">gai</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">hoi</l>
+         <stg>
+            <st Contlex="INTERJ_">hoi</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">hoš</l>
+         <stg>
+            <st Contlex="INTERJ_">hoš</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">jo</l>
+         <stg>
+            <st Contlex="INTERJ_">jo</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">joi</l>
+         <stg>
+            <st Contlex="INTERJ_">joi</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">ka</l>
+         <stg>
+            <st Contlex="INTERJ_">ka</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">karavuu</l>
+         <stg>
+            <st Contlex="INTERJ_">karavuu</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="fin">
+            <t pos="Interj">Apua!</t>
+            <t pos="Interj">Auttakaa!</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">kei</l>
+         <stg>
+            <st Contlex="INTERJ_">kei</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">konah</l>
+         <stg>
+            <st Contlex="INTERJ_">konah</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">konzu</l>
+         <stg>
+            <st Contlex="INTERJ_">konzu</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">konzu-tahto</l>
+         <stg>
+            <st Contlex="INTERJ_">konzu-tahto</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">korvah</l>
+         <stg>
+            <st Contlex="INTERJ_">korvah</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">kouzollou</l>
+         <stg>
+            <st Contlex="INTERJ_">kouzollou</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">ku</l>
+         <stg>
+            <st Contlex="INTERJ_">ku</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">kuda-ken</l>
+         <stg>
+            <st Contlex="INTERJ_">kuda-ken</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">kuda-kui</l>
+         <stg>
+            <st Contlex="INTERJ_">kuda-kui</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">kuda-midä</l>
+         <stg>
+            <st Contlex="INTERJ_">kuda-midä</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">kuda-mis</l>
+         <stg>
+            <st Contlex="INTERJ_">kuda-mis</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">kulleh</l>
+         <stg>
+            <st Contlex="INTERJ_">kulleh</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">kulmas</l>
+         <stg>
+            <st Contlex="INTERJ_">kulmas</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">kus</l>
+         <stg>
+            <st Contlex="INTERJ_">kus</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">la</l>
+         <stg>
+            <st Contlex="INTERJ_">la</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">libo</l>
+         <stg>
+            <st Contlex="INTERJ_">libo</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">migu</l>
+         <stg>
+            <st Contlex="INTERJ_">migu</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">mindäh</l>
+         <stg>
+            <st Contlex="INTERJ_">mindäh</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">mis</l>
+         <stg>
+            <st Contlex="INTERJ_">mis</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">myö</l>
+         <stg>
+            <st Contlex="INTERJ_">myö</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">no</l>
+         <stg>
+            <st Contlex="INTERJ_">no</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">nolja</l>
+         <stg>
+            <st Contlex="INTERJ_">nolja</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">näi</l>
+         <stg>
+            <st Contlex="INTERJ_">näi</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">piäh</l>
+         <stg>
+            <st Contlex="INTERJ_">piäh</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">piäle</l>
+         <stg>
+            <st Contlex="INTERJ_">piäle</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">piäs</l>
+         <stg>
+            <st Contlex="INTERJ_">piäs</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">päin (istuo p.)</l>
+         <stg>
+            <st Contlex="INTERJ_">päin (istuo p.)</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">se</l>
+         <stg>
+            <st Contlex="INTERJ_">se</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">se</l>
+         <stg>
+            <st Contlex="INTERJ_">se</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">tai</l>
+         <stg>
+            <st Contlex="INTERJ_">tai</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">tuan</l>
+         <stg>
+            <st Contlex="INTERJ_">tuan</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">täs kai</l>
+         <stg>
+            <st Contlex="INTERJ_">täs kai</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">vaigu</l>
+         <stg>
+            <st Contlex="INTERJ_">vaigu</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">vie</l>
+         <stg>
+            <st Contlex="INTERJ_">vie</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Interj">voit olla</l>
+         <stg>
+            <st Contlex="INTERJ_">voit olla</st>
+         </stg>
+      </lg>
+      <pos>Interj</pos>
+      <mg>
+         <m>
+            <head/>
+            <defNative/>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
 </r>
