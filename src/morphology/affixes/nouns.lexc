@@ -8,31 +8,31 @@ LEXICON N_
 
 
 LEXICON N_HUOLETOI !!= @CODE@ huoletoi: huolet
-+N:oi SGNOMSUF ;
-+N:toma SGPARSUF_A2 ;
-+N:tomie PLGENSUF ;
-+N:tomi PLPARSUF_i ;
-+N:tomi PLINSSUF ;
-+N:toma Noun-NB-i ;
++N:%{oö%}i SGNOMSUF ;
++N:t%{oö%}ma SGPARSUF_A2 ;
++N:t%{oö%}mie PLGENSUF ;
++N:t%{oö%}mi PLPARSUF_i ;
++N:t%{oö%}mi PLINSSUF ;
++N:t%{oö%}ma Noun-NB-i ;
 
 LEXICON N_KANDAI !!= @CODE@ kandai:kandai
 +N: SGNOMSUF ;
-+N:A1 SGPARSUF_A2 ;
++N:%{aä%} SGPARSUF_A2 ;
 +N:ie PLGENSUF ;
 +N:i PLPARSUF_i ;
 +N:i PLINSSUF ;
-+N+Sg:A1 Noun-NB-01 ;
++N+Sg:%{aä%} Noun-NB-01 ;
 +N+Pl:i Noun-NB-01 ;
 
 LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizii
 +N: SGNOMSUF ;
 +N:A2 SGGENSUF ;
 +N:A2 SGPARSUF_A2 ;
-+N:%>O1i PLGENSUF ;
-+N:%>O1i PLPARSUF_i ;
-+N:%>O1i PLINSSUF ;
++N:%>%{oö%}i PLGENSUF ;
++N:%>%{oö%}i PLPARSUF_i ;
++N:%>%{oö%}i PLINSSUF ;
 +N:A2 Noun-NB-01 ;
-+N:%>O1 Noun-NB-01 ;
++N:%>%{oö%} Noun-NB-01 ;
 
 LEXICON N_ANUS !!= @CODE@ aigomus:aigomuks
 +N: NMN_ANUS ;
@@ -42,13 +42,24 @@ LEXICON N_ANUS-PL !!= @CODE@ aigomus:aigomuks
 
 LEXICON N_KARJAL !!= @CODE@ karjal:karjal
 +N: SGNOMSUF ;
-+N:a SGPARSUF_dU1 ;
++N:a SGGENSUF ;
++N:a SGPARSUF_A2 ;
 +N:a%>i PLGENSUF ;
 +N:i PLPARSUF_i ;
-+N:oi PLINSSUF ;
-+N:A1 Noun-NB-i ;
++N:%{oö%}i PLINSSUF ;
++N:%{aä%} Noun-NB-i ;
 
-LEXICON N_ARTELI
+LEXICON N_PEREH !!= @CODE@ pereh:pereh
++N: SGNOMSUF ;
++N:e SGGENSUF ;
++N: SGPARSUF_dU ;
++N+Sg:e Noun-NB-01 ;
++N:ie PLGENSUF ;
++N:i PLPARSUF_i ;
++N:i PLINSSUF ;
++N+Pl:i Noun-NB-01 ;
+
+LEXICON N_ARTELI !!= @CODE@ arteli:arteli
 +N: NMN_ARTELI ;
 
 LEXICON N_KARJALAINE !!= @CODE@ karjalaine:karjala
@@ -57,7 +68,7 @@ LEXICON N_KARJALAINE !!= @CODE@ karjalaine:karjala
 LEXICON N_KIELI !!= @CODE@ kieli:kiel
 +N:i SGNOMSUF ;
 +N:e SGGENSUF ;
-+N: SGPARSUF_dU1 ;
++N: SGPARSUF_dU ;
 +N+Sg:e Noun-NB-01 ;
 +N:e PLNOMSUF ;
 +N:ie PLGENSUF ;
@@ -87,7 +98,7 @@ LEXICON N_OZA !!= @CODE@ oza:oza
 
 LEXICON N_ARMAS !!= @CODE@ armas:arma
 +N:%^WEAK%>s SGNOMSUF ;
-+N:%^WEAK%>s SGPARSUF_dU1 ;
++N:%^WEAK%>s SGPARSUF_dU ;
 +N:hie PLGENSUF ;
 +N:hi PLPARSUF_i ;
 +N:hi PLINSSUF ;
@@ -95,31 +106,31 @@ LEXICON N_ARMAS !!= @CODE@ armas:arma
 
 LEXICON N_PAREMBI !!= @CODE@ parembi:paremb
 +N:i SGNOMSUF ;
-+N:A1 SGPARSUF_A2 ;
++N:%{aä%} SGPARSUF_A2 ;
 +N:ie PLGENSUF ;
 +N:i PLPARSUF_i ;
 +N:i PLINSSUF ;
-+N:A1 Noun-NB-i ;
++N:%{aä%} Noun-NB-i ;
 
 LEXICON N_KOIRU !!= @CODE@ koiru:koira
  N_PÄIVY ;
 
-LEXICON N_NIMI !!= @CODE@ 
+LEXICON N_NIMI !!= @CODE@ nimi:nim
 +N:i SGNOMSUF ;
 +N:e SGPARSUF_A2 ;
 +N:%>ie PLGENSUF ; ! the plural comitative is declined here
 +N:%>i PLPARSUF_i ;
 +N:%>i PLINSSUF ;
 +N:e Noun-NB-i ;
-+N:iloi PLGENSUF ;
-+N:iloi PLPARSUF_Zero ;
-+N:iloi PLINSSUF ;
++N:il%{oö%}i PLGENSUF ;
++N:il%{oö%}i PLPARSUF_Zero ;
++N:il%{oö%}i PLINSSUF ;
 +N:i Noun-NB-loi ;
 
-LEXICON N_LAPSI !!= @CODE@ lapsi:laps
+LEXICON N_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
 +N:i SGNOMSUF ;
 +N:e SGGENSUF ;
-+N:%^KS2S SGPARSUF_dU1 ;
++N:%^KS2S SGPARSUF_dU ;
 +N:e PLNOMSUF ;
 +N:%>ie PLGENSUF ; ! the plural comitative is declined here
 +N:%>i PLPARSUF_i ;
@@ -130,7 +141,7 @@ LEXICON N_LAPSI !!= @CODE@ lapsi:laps
 LEXICON N_VUOZI !!= @CODE@ vuozi:vuot
 +N:%^T2Z%>i SGNOMSUF ;
 +N:e SGGENSUF ;
-+N: SGPARSUF_dU1 ;
++N: SGPARSUF_dU ;
 +N:%^T2Z%>ie PLGENSUF ; ! the plural comitative is declined here
 +N:%^T2Z%>i PLPARSUF_i ;
 +N:%^T2Z%>i PLINSSUF ;
@@ -153,9 +164,9 @@ LEXICON N_KOIVU !!= @CODE@ koivu:koivu
 +N: SGGENSUF ;
 +N: SGPARSUF_A2 ;
 +N: PLNOMSUF ;
-+N:%>lO1i PLGENSUF ; ! the plural comitative is declined here
-+N:%>lO1i PLPARSUF_Zero ;
-+N:%>lO1i PLINSSUF ;
++N:%>l%{oö%}i PLGENSUF ; ! the plural comitative is declined here
++N:%>l%{oö%}i PLPARSUF_Zero ;
++N:%>l%{oö%}i PLINSSUF ;
 +N+Sg: Noun-NB-01 ;
 +N+Pl:%>lO1i Noun-NB-01 ;
 
@@ -165,9 +176,9 @@ LEXICON N_KIELINE !!= @CODE@ kieline:kieli
 LEXICON N_RUNO !!= @CODE@ runo:runo
 +N: SGNOMSUF ;
 +N: SGPARSUF_A2 ;
-+N:loi PLGENSUF ;
-+N:loi PLPARSUF_Zero ;
-+N:loi PLINSSUF ;
++N:l%{oö%}i PLGENSUF ;
++N:l%{oö%}i PLPARSUF_Zero ;
++N:l%{oö%}i PLINSSUF ;
 +N: Noun-NB-loi ;
 
 !! NMN
@@ -178,7 +189,7 @@ LEXICON NMN_ANUS !!= @CODE@ Anus:Anuks
 LEXICON NMN_ANUS-SG
 +N:%^KS2S SGNOMSUF ;
 +N:e SGGENSUF ;
-+N:%^KS2S SGPARSUF_dU1 ;
++N:%^KS2S SGPARSUF_dU ;
 +N+Sg:e Noun-NB-01 ;
 
 LEXICON NMN_ANUS-PL
@@ -190,10 +201,10 @@ LEXICON NMN_ANUS-PL
 
 LEXICON NMN_KUU
  SGNOMSUF ;
- SGPARSUF_dU1 ;
-:%>lO1i PLGENSUF ;
-:%>lO1i PLPARSUF_Zero ;
-:%>lO1i PLINSSUF ;
+ SGPARSUF_dU ;
+:%>l%{oö%}i PLGENSUF ;
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
 +Sg: Noun-NB-01 ;
 : Noun-NB-loi ;
 
@@ -211,11 +222,11 @@ LEXICON NMN_KARJAL !!= @CODE@ karjal:karjal
  SGNOMSUF ;
 :A2 SGGENSUF ;
 :A2 SGPARSUF_A2 ;
-:%>O1i PLGENSUF ;
-:%>O1i PLPARSUF_Zero ;
-:%>O1i PLINSSUF ;
+:%>%{oö%}i PLGENSUF ;
+:%>%{oö%}i PLPARSUF_Zero ;
+:%>%{oö%}i PLINSSUF ;
 +Sg:A2 Noun-NB-01 ;
-+Pl:%>O1i Noun-NB-01 ;
++Pl:%>%{oö%}i Noun-NB-01 ;
 
 
 LEXICON NMN_ARTELI !!= @CODE@ arteli:arteli
@@ -223,10 +234,10 @@ LEXICON NMN_ARTELI !!= @CODE@ arteli:arteli
  SGGENSUF ;
  SGPARSUF_A2 ;
 :i PLGENSUF ;
-:%>lO1i PLPARSUF_Zero ;
-:%>lO1i PLINSSUF ;
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
 +Sg: Noun-NB-01 ;
-+Pl:%>lO1i Noun-NB-01 ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_OZA !!= @CODE@ oza:oza
  SGNOMSUF ;
@@ -241,7 +252,7 @@ LEXICON NMN_OZA !!= @CODE@ oza:oza
 LEXICON NMN_KIELINE
 :ne SGNOMSUF ;
 :ze SGGENSUF ;
-:s SGPARSUF_dU1 ;
+:s SGPARSUF_dU ;
 :zie PLGENSUF ;
 :zi PLPARSUF_i ;
 :zi PLINSSUF ;
@@ -251,7 +262,7 @@ LEXICON NMN_KIELINE
 LEXICON NMN_KARJALAINE
 :ine SGNOMSUF ;
 :ze SGGENSUF ;
-:s SGPARSUF_dU1 ;
+:s SGPARSUF_dU ;
 :ze PLNOMSUF ;
 :zie PLGENSUF ;
 :zi PLPARSUF_i ;
@@ -271,7 +282,7 @@ LEXICON Noun-NB-i
 LEXICON Noun-NB-loi
 ! These cases are symmetrically marked for number
 +Sg: Noun-NB-01 ;
-+Pl:%>loi Noun-NB-01 ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
 +Pl:%>loi ILLSUF_he ;
 ! The next two share the same stem vowel
  SGGENSUF ; ! The singular comitative is declined here
@@ -282,8 +293,8 @@ LEXICON SGNOMSUF
 +Sg+Nom: K ;
 +Sg+Acc: K ;
 
-LEXICON SGPARSUF_dU1
-+Sg+Par:%>dU1 K ;
+LEXICON SGPARSUF_dU
++Sg+Par:%>d%{uy%} K ;
 
 
 LEXICON SGPARSUF_A2
@@ -312,13 +323,13 @@ LEXICON PLPARSUF_Zero
 +Pl+Par: K ;
 
 LEXICON PLPARSUF_a
-+Pl+Par:%>A1 K ;
++Pl+Par:%>%{aä%} K ;
 
 LEXICON PLPARSUF_i
 +Pl+Par:%>i K ;
 
 LEXICON Noun-NB-01
-+Ess:%^WEAK%>nnU1 K ;
++Ess:%^WEAK%>nn%{uy%} K ;
 +Tra:%^WEAK%>kse K ;
 +Ine:%^WEAK%>s K ;
 +Ela:%^WEAK%>s K ;
@@ -328,12 +339,12 @@ LEXICON Noun-NB-01
 +Abl:%^WEAK%>l K ;
 +Abl:%^WEAK%>lpäi K ;
 +All:%^WEAK%>le K ;
-+Abe:%^WEAK%>ttA1h K ;
-+Abe:%^WEAK%>ttA1 K ;
-+Abe:%^WEAK%>tA1 K ;
++Abe:%^WEAK%>tt%{aä%}h K ;
++Abe:%^WEAK%>tt%{aä%} K ;
++Abe:%^WEAK%>t%{aä%} K ;
 +Prl:%>či K ;
-+Apr:%^WEAK%>llU1O1 K ;
-+Ter:%^WEAK%>ssA1h K ;
++Apr:%^WEAK%>ll%{uy%}%{oö%} K ;
++Ter:%^WEAK%>ss%{aä%}h K ;
 
 
 ! vim: set ft=xfst-lexc:

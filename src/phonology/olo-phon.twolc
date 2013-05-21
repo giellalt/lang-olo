@@ -12,17 +12,17 @@ Y
 ʼ
 
 ! Vowel harmony with "(t)a/ä"
-!A1:a
-A1:ä
-!A1:0
+!%{aä%}:a
+%{aä%}:ä
+!%{aä%}:0
 
 ! Vowel harmony with "loi/löi" also kalatOÖ1in
-!O1:o
-O1:ö
+!%{oö%}:o
+%{oö%}:ö
 
 ! Vowel harmony with "ttu/tty"
-!U1:u
-U1:y
+!%{uy%}:u
+%{uy%}:y
 
 ! in verb type V_AVATA
 !A2:a
@@ -128,7 +128,7 @@ Letters = Vws Cns ;
 Definitions
 
 ! Front Trigger
-FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] [ %> | VwsFront: | Cns | A1: | O1: | U1: ]*  ;
+FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] [ %> | VwsFront: | Cns | %{aä%}: | %{oö%}: | %{uy%}: ]*  ;
 
 
 ! Back Trigger 
@@ -146,35 +146,35 @@ SV = [ [ #: | Cns+ ] :Vws ] ;
 IL = [ #: Cns* Vws : Cns:+ | Cns* Vws+ Cns:+  Vws:+ Cns:+  ] ;
 
 !! Right context for gradation
-GRC =  [ [ ( %>: ) A1: | O1: | U1: | Vws: | :Vws ] ( %>:  i )  |  %>:  i ] %^WEAK:0  ;
+GRC =  [ [ ( %>: ) %{aä%}: | %{oö%}: | %{uy%}: | Vws: | :Vws ] ( %>:  i )  |  %>:  i ] %^WEAK:0  ;
 
 ! oma:ommaa, 
 ! Subsequent Long Vowel
 ! preceeded by "Cns _"
-! 2012-10-11 SLV =  [ :Vws [ ( %>: %^LCns:0 %^LVws:0 | %>: %^LCns:0 | %>: i %>: | %>: ) [ V1:Vws | A1: ] |  0:Vws %>: ( %^LCns:0 | %^WEAK: ) %^LVws: | %>: %^LCns:0  ] ] ;
+! 2012-10-11 SLV =  [ :Vws [ ( %>: %^LCns:0 %^LVws:0 | %>: %^LCns:0 | %>: i %>: | %>: ) [ V1:Vws | %{aä%}: ] |  0:Vws %>: ( %^LCns:0 | %^WEAK: ) %^LVws: | %>: %^LCns:0  ] ] ;
 
 Rules
 ! Vowel harmony suffixes Back
-"A1:a"
- A1:a <=> BT %> ( d: | j | t ) _ [ ( %^WEAK:0 ) h | i | %> n U1: | # ] ;
+"%{aä%}:a"
+ %{aä%}:a <=> BT %> ( d: | j | t ) _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | # ] ;
 !    a: %> _ ;
-! BT _   ( %>:  %^WEAK:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:  %^LCns:0 ( %^LVws:0 ) ) [ ( %>: ) [ Cns | %^WEAK:0 %>: [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | A1: | %^StretchSyll2:0 | i | %>: ( %^WEAK:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
+! BT _   ( %>:  %^WEAK:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:  %^LCns:0 ( %^LVws:0 ) ) [ ( %>: ) [ Cns | %^WEAK:0 %>: [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | %{aä%}: | %^StretchSyll2:0 | i | %>: ( %^WEAK:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
 
-"A1:i"
-A1:i <=> _ %> A1:ä ;
+"%{aä%}:i"
+%{aä%}:i <=> _ %> %{aä%}:ä ;
 
 "A2:a"
-A2:a <=> [ a: ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | U1: | m m O1: | t t O1: ]];
+A2:a <=> [ a: ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
 
 
 
 "A2:o"
-A2:o <=> o: %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | U1: | m m O1: | t t O1: ]];
+A2:o <=> o: %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
          [ o: | u ] %> _ # ;
 
 !! Diphthong a+a => ua
 "a:u before subsequent a"
-a:u <=> Cns _ [ a | %> [ A1:a | A2:a ] ]; !!
+a:u <=> Cns _ [ a | %> [ %{aä%}:a | A2:a ] ]; !!
         _ %^A2U:0 ;
 
 !! Diphthong o+o => uo erota:eruou
@@ -204,7 +204,7 @@ o:u <=> Cns _ %> [ A2:o ] ; !!
 !2013-04-29!!%>%^LCnsi%>V1
 !2013-04-29!! AÄ1 loss
 !2013-04-29!"StemAÄLoss"
-!2013-04-29! A1:0 <=> [ A1: | Cns: | :Cns ] _ ( %>: %^LCns:0 ) %>: i %>: ;
+!2013-04-29! %{aä%}:0 <=> [ %{aä%}: | Cns: | :Cns ] _ ( %>: %^LCns:0 ) %>: i %>: ;
 !2013-04-29!
 ! Vowel shortening before subsequent "i"
 "a:0 in suaja:sai"
@@ -250,12 +250,12 @@ a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 
 
 ! Vowel harmony suffixes Back
-"O1:o"
- O1:o <=>  BT ( %> ) _ ;
+"%{oö%}:o"
+ %{oö%}:o <=>  BT ( %> ) _ ;
 
 ! Vowel harmony suffixes Back
-"U1:u"
- U1:u <=>  [ BT | :VwsBack ] ( %> ) _ ;
+"%{uy%}:u"
+ %{uy%}:u <=>  [ BT | :VwsBack ] ( %> ) _ ;
 
 !2013-04-29!! Vws %>: %^LCns: V1:
 !2013-04-29!! Vowel agreement in illative 
@@ -368,7 +368,7 @@ t:v <=> u o: _ e %^WEAK:0 ;
 "o:v Lengthening with Ut:vv weakening"
 o:v <=> u _ t: e %^WEAK:0 ;
 ![ #: ] Cns* Vws [ u: | y: ] [ t: | k: ]  _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
-!2013-04-29!         [ #: ][ Cns* Vws | Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ] v _  ( :Vws | A1: ) [ 0:Vws %>: %^LCns: | %>: %^LCns: :0* :Vws ] ; ! arvattava:arvattavvaa
+!2013-04-29!         [ #: ][ Cns* Vws | Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ] v _  ( :Vws | %{aä%}: ) [ 0:Vws %>: %^LCns: | %>: %^LCns: :0* :Vws ] ; ! arvattava:arvattavvaa
 !2013-04-29!        #: Cns* Vws v _ Vws [ Vws 0: Cns ( Cns:0 ) :Vws | Vws %^SyllBr:0 e ] %^StretchSyll2:0 ; ! kevät:kevväen, tavvaara
 !2013-04-29!
 
@@ -376,7 +376,7 @@ o:v <=> u _ t: e %^WEAK:0 ;
 "t:z"
 t:z <=> _ %^T2Z:0 %> i ;
 
-! vuozi:vuot+dU1, armas:armas+dU1
+! vuozi:vuot+d%{uy%}, armas:armas+d%{uy%}
 "d:t in partitive"
 d:t <=> [ t | s ] ( %^KS2S:0 ) %> _ ;
 
@@ -403,12 +403,12 @@ d:l <=>  Vws l %> _ GRC ;
 d:n <=>  Vws ( %^WEAK:0 %>: ) n %> _ GRC ;
 
 "ln:ll in prtprc"
-n:l <=> l %> _ U1: %^WEAK: h ;
+n:l <=> l %> _ %{uy%}: %^WEAK: h ;
 
 !2013-04-29!!! p
 !2013-04-29!
 !2013-04-29!"mp:mm weakening"
-!2013-04-29!p:m <=> [ :Vws ( %^WEAK:0 %>: ) | [ a: | ä: ] %^WEAK:0 %>: %^E1:0 | A1: | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | A1: %^WEAK:0 %>: ( V3: ) Cns | %^TS:0 i %^WEAK:0 %>: ] ;
+!2013-04-29!p:m <=> [ :Vws ( %^WEAK:0 %>: ) | [ a: | ä: ] %^WEAK:0 %>: %^E1:0 | %{aä%}: | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | %{aä%}: %^WEAK:0 %>: ( V3: ) Cns | %^TS:0 i %^WEAK:0 %>: ] ;
 !2013-04-29!        m _ Vws l %^WGStem:0 ; ! ompel- to ommel-
 !2013-04-29!! [ ( %>: ) :Vws ( 0: ) %^WEAK:0 %>: | Vws:0 %>: i: %^WEAK:0 %>: | Vws:0 %>:  %^WEAK:0 %>: i: %>: ] ;
 !2013-04-29!!%> %^WCns %^E1: mp
@@ -448,8 +448,8 @@ p:0 <=> Vws _ s  %^KS2S:0  ;
 
 !2013-04-29!!! Vowel raising
 !2013-04-29!"o:u ö:y in Inf"
-!2013-04-29! Vx:Vy <=> _ Vx: %>: v v A1: %^RVws:0 ;
-!2013-04-29!           Vx: _ %>: v v A1: %^RVws:0 ;
+!2013-04-29! Vx:Vy <=> _ Vx: %>: v v %{aä%}: %^RVws:0 ;
+!2013-04-29!           Vx: _ %>: v v %{aä%}: %^RVws:0 ;
 !2013-04-29!          where Vx in (o ö)
 !2013-04-29!                Vy in (u y) matched ;
 
