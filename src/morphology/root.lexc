@@ -170,8 +170,7 @@ Multichar_Symbols
 !! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- {aä} {oö} {uü}
- A1 ! 
+ %{aä%} ! 
  %{oö%} !
  %{uy%} !
  A2 ! used with verb types V_AVATA 
@@ -249,7 +248,7 @@ LEXICON PCLE_
 
 LEXICON K
 +Clt/gi:%>gi # "also / -kin" ;
-+Clt/hAi:%>hA1i # " / -hAn" ;
++Clt/hAi:%>h%{aä%}i # " / -hAn" ;
 +Qst:%>go # ;
 # ; 
 
