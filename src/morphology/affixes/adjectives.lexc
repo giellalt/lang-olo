@@ -10,52 +10,46 @@
 LEXICON A_
 +A: # ;
 
-LEXICON A_JIÄTÖI
-! jiätöi:jiät
+LEXICON A_JIÄTÖI !!= @CODE@ jiätöi:jiät
  A_HUOLETOI ;
-LEXICON A_HUOLETOI
-! huoletoi:huolet
-+A:oi SGNOMSUF ;
-+A:toma SGPARSUF_A2 ; 
-+A:tomie PLGENSUF ; 
-+A:tomi PLPARSUF_i ; 
+LEXICON A_HUOLETOI !!= @CODE@ huoletoi:huolet
++A:%{oö%}i SGNOMSUF ;
++A:t%{oö%}ma SGPARSUF_A2 ; 
++A:t%{oö%}mie PLGENSUF ; 
++A:t%{oö%}mi PLPARSUF_i ; 
 +A+Der/MWN: N_HUOLETOI ; 
-+N:toma Adj-NB-i ; !2012-09-27 unknown -loi vs -i
++N:t%{oö%}ma Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
-LEXICON A_KARJALAINE
-! karjalaine:karjala
+LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
 +A:ine SGNOMSUF ;
-+A:s SGPARSUF_dU1 ;
++A:s SGPARSUF_dU ;
 +A:zie PLGENSUF ;
 +A:zi PLPARSUF_i ;
 +A:zi PLINSSUF ;
 +A:ze Adj-NB-i ;
 
-LEXICON A_KIELINE
-! kieline:kieli
+LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 +A: NMN_KIELINE ;
 
-LEXICON A_OZA !! oza:oza
+LEXICON A_OZA !!= @CODE@ oza:oza
 +A: NMN_OZA ;
 
-LEXICON A_ARMAS
-! armas:arma
+LEXICON A_ARMAS !!= @CODE@ armas:arma
 +A:%^WEAK%>s SGNOMSUF ;
-+A:%^WEAK%>s SGPARSUF_dU1 ;
++A:%^WEAK%>s SGPARSUF_dU ;
 +A:hie PLGENSUF ;
 +A:hi PLPARSUF_i ;
 +A:hi PLINSSUF ;
 +A:ha Noun-NB-i ;
 
 
-LEXICON A_PAREMBI
-! parembi:paremb
+LEXICON A_PAREMBI !!= @CODE@ parembi:paremb
 +A:i SGNOMSUF ;
-+A:A1 SGPARSUF_A2 ;
++A:%{aä%} SGPARSUF_A2 ;
 +A:ie PLGENSUF ;
 +A:i PLPARSUF_i ;
 +A+Der/MWN: N_PAREMBI ;
-+N:A1 Adj-NB-i ; !2012-09-27 unknown -loi vs -i
++N:%{aä%} Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
 
 LEXICON Adj-NB-i
@@ -75,7 +69,7 @@ LEXICON Adj-NB-loi
 +Pl: PLNOMSUF ;
 
 LEXICON Adj-NB-01
-+Ess:%^WEAK%>nnU1 K ;
++Ess:%^WEAK%>nn%{uy%} K ;
 +Tra:%^WEAK%>kse K ;
 +Ine:%^WEAK%>s K ;
 +Ela:%^WEAK%>s K ;
@@ -83,12 +77,12 @@ LEXICON Adj-NB-01
 +Ade:%^WEAK%>l K ;
 +Abl:%^WEAK%>l K ;
 +All:%^WEAK%>le K ;
-+Abe:%^WEAK%>ttA1h K ;
-+Use/Sub+Abe:%^WEAK%>ttA1 K ;
-+Use/Sub+Abe:%^WEAK%>tA1 K ;
++Abe:%^WEAK%>tt%{aä%}h K ;
++Use/Sub+Abe:%^WEAK%>tt%{aä%} K ;
++Use/Sub+Abe:%^WEAK%>t%{aä%} K ;
 +Prl:%>či K ;
-+Apr:%^WEAK%>llU1O1 K ;
-+Ter:%^WEAK%>ssA1h K ;
++Apr:%^WEAK%>ll%{uy%}%{oö%} K ;
++Ter:%^WEAK%>ss%{aä%}h K ;
 
 
 
