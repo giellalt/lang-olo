@@ -134,6 +134,9 @@ FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] [ %> | VwsFront: | 
 ! Back Trigger 
 BT =    #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | %^KS2S:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^KS2S:0 | %^E1:0 | %^SyllBound:0 | VwsNeutral | i: | VwsBack: | :VwsBack | Cns: | :Cns ]* ;
 
+!Back Trigger with consonant
+BTCons =   #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | %^KS2S:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^KS2S:0 | %^E1:0 | %^SyllBound:0 | VwsNeutral | i: | VwsBack: | :VwsBack | Cns: | :Cns ]* [ Cns:  ] ;
+
 ! Gradation strong to weak
 !GS2W = [ p:v | m p:m | t:0 | l t:l | r t:r | n t:n | s t:s | k:0 | l k:0 | r k:0 | n k:g | s k:0 ] ;
 
@@ -154,11 +157,20 @@ GRC =  [ [ ( %>: ) %{aä%}: | %{oö%}: | %{uy%}: | Vws: | :Vws ] ( %>:  i )  |  
 ! 2012-10-11 SLV =  [ :Vws [ ( %>: %^LCns:0 %^LVws:0 | %>: %^LCns:0 | %>: i %>: | %>: ) [ V1:Vws | %{aä%}: ] |  0:Vws %>: ( %^LCns:0 | %^WEAK: ) %^LVws: | %>: %^LCns:0  ] ] ;
 
 Rules
+
+"%{aä%}:o"
+%{aä%}:o <=> o: %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+         [ o: | u ] %> _ # ;
+
 ! Vowel harmony suffixes Back
 "%{aä%}:a"
- %{aä%}:a <=> BT %> ( d: | j | t ) _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | # ] ;
+ %{aä%}:a <=> [ BTCons %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | # ] ;
+! [ a: ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
 !    a: %> _ ;
 ! BT _   ( %>:  %^WEAK:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:  %^LCns:0 ( %^LVws:0 ) ) [ ( %>: ) [ Cns | %^WEAK:0 %>: [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | %{aä%}: | %^StretchSyll2:0 | i | %>: ( %^WEAK:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
+
+"%{aä%}:e"
+%{aä%}:e <=> i %> _ # ;
 
 "%{aä%}:i"
 %{aä%}:i <=> _ %> %{aä%}:ä ;
@@ -168,10 +180,6 @@ A2:a <=> [ a: ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t
 
 
 
-"A2:o"
-A2:o <=> o: %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
-         [ o: | u ] %> _ # ;
-
 !! Diphthong a+a => ua
 "a:u before subsequent a"
 a:u <=> Cns _ [ a | %> [ %{aä%}:a | A2:a ] ]; !!
@@ -179,7 +187,7 @@ a:u <=> Cns _ [ a | %> [ %{aä%}:a | A2:a ] ]; !!
 
 !! Diphthong o+o => uo erota:eruou
 "o:u before subsequent o"
-o:u <=> Cns _ %> [ A2:o ] ; !!
+o:u <=> Cns _ %> [ %{aä%}:o ] ; !!
 
 ! Word final u, y
 "ä:y word final"
