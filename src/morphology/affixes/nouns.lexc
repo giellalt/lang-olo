@@ -7,13 +7,14 @@ LEXICON N_
 
 
 
-LEXICON N_HUOLETOI !!= @CODE@ huoletoi: huolet
-+N:%{oö%}i SGNOMSUF ;
-+N:t%{oö%}ma SGPARSUF_A2 ;
-+N:t%{oö%}mie PLGENSUF ;
-+N:t%{oö%}mi PLPARSUF_i ;
-+N:t%{oö%}mi PLINSSUF ;
-+N:t%{oö%}ma Noun-NB-i ;
+LEXICON N_KARJAL !!= @CODE@ karjal:karjal
++N: SGNOMSUF ;
++N:a SGGENSUF ;
++N:a SGPARSUF_A2 ;
++N:a%>i PLGENSUF ;
++N:i PLPARSUF_i ;
++N:%{oö%}i PLINSSUF ;
++N:%{aä%} Noun-NB-i ;
 
 LEXICON N_KANDAI !!= @CODE@ kandai:kandai
 +N: SGNOMSUF ;
@@ -34,20 +35,23 @@ LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizii
 +N:A2 Noun-NB-01 ;
 +N:%>%{oö%} Noun-NB-01 ;
 
-LEXICON N_ANUS !!= @CODE@ aigomus:aigomuks
-+N: NMN_ANUS ;
+LEXICON N_HUOLETOI !!= @CODE@ huoletoi: huolet
++N:%{oö%}i SGNOMSUF ;
++N:t%{oö%}ma SGPARSUF_A2 ;
++N:t%{oö%}mie PLGENSUF ;
++N:t%{oö%}mi PLPARSUF_i ;
++N:t%{oö%}mi PLINSSUF ;
++N:t%{oö%}ma Noun-NB-i ;
 
-LEXICON N_ANUS-PL !!= @CODE@ aigomus:aigomuks
-+N: NMN_ANUS-PL ;
+LEXICON N_KARJALAINE !!= @CODE@ karjalaine:karjala
+ N_KARJALAINE-SG     ;
+ N_KARJALAINE-PL     ;
 
-LEXICON N_KARJAL !!= @CODE@ karjal:karjal
-+N: SGNOMSUF ;
-+N:a SGGENSUF ;
-+N:a SGPARSUF_A2 ;
-+N:a%>i PLGENSUF ;
-+N:i PLPARSUF_i ;
-+N:%{oö%}i PLINSSUF ;
-+N:%{aä%} Noun-NB-i ;
+LEXICON N_KARJALAINE-SG
++N:    NMN_KARJALAINE-SG	 ;
+
+LEXICON N_KARJALAINE-PL
++N:    NMN_KARJALAINE-PL	 ;
 
 LEXICON N_PEREH !!= @CODE@ pereh:pereh
 +N: SGNOMSUF ;
@@ -62,9 +66,6 @@ LEXICON N_PEREH !!= @CODE@ pereh:pereh
 LEXICON N_ARTELI !!= @CODE@ arteli:arteli
 +N: NMN_ARTELI ;
 
-LEXICON N_KARJALAINE !!= @CODE@ karjalaine:karjala
-+N:    NMN_KARJALAINE	 ;
-
 LEXICON N_KIELI !!= @CODE@ kieli:kiel
 +N:i SGNOMSUF ;
 +N:e SGGENSUF ;
@@ -76,19 +77,38 @@ LEXICON N_KIELI !!= @CODE@ kieli:kiel
 +N:i PLINSSUF ;
 +N+Pl:i Noun-NB-01 ;
 
+LEXICON N_ANUS !!= @CODE@ aigomus:aigomuks
++N: NMN_ANUS ;
+
+LEXICON N_ANUS-PL !!= @CODE@ aigomus:aigomuks
++N: NMN_ANUS-PL ;
+
+LEXICON N_OLUT !!= @CODE@ olut:olu
++N:t SGNOMSUF ;
++N:e SGGENSUF ;
++N:t SGPARSUF_dU ;
++N+Sg:e Noun-NB-01 ;
++N:je PLGENSUF ;
++N:i PLPARSUF_dU ;
++N:i PLINSSUF ;
++N+Pl:i Noun-NB-01 ;
+
 LEXICON N_KUU !!= @CODE@ kuu:kuu
 +N: NMN_KUU ;
 
 LEXICON N_MUARJU !!= @CODE@ muarju:muarja
-+N:%^A2U SGNOMSUF ;
-+N: SGGENSUF ;
-+N: SGPARSUF_A2 ;
-+N+Sg: Noun-NB-01 ;
-+N: PLNOMSUF ;
-+N:%>oi PLGENSUF ; ! the plural comitative is declined here
-+N:%>oi PLPARSUF_a ;
-+N:%>oi PLINSSUF ;
-+N+Pl:%>oi Noun-NB-01 ;
++N: NMN_MUARJU ;
+
+LEXICON NMN_MUARJU
+:%^A2U SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+ PLNOMSUF ;
+:%>oi PLGENSUF ; ! the plural comitative is declined here
+:%>oi PLPARSUF_a ;
+:%>oi PLINSSUF ;
++Pl:%>oi Noun-NB-01 ;
 
 LEXICON N_KALA !!= @CODE@ kala:kala
 +N: NMN_KALA ;
@@ -116,16 +136,14 @@ LEXICON N_KOIRU !!= @CODE@ koiru:koira
  N_PÄIVY ;
 
 LEXICON N_NIMI !!= @CODE@ nimi:nim
-+N:i SGNOMSUF ;
-+N:e SGPARSUF_A2 ;
-+N:%>ie PLGENSUF ; ! the plural comitative is declined here
-+N:%>i PLPARSUF_i ;
-+N:%>i PLINSSUF ;
-+N:e Noun-NB-i ;
-+N:il%{oö%}i PLGENSUF ;
-+N:il%{oö%}i PLPARSUF_Zero ;
-+N:il%{oö%}i PLINSSUF ;
-+N:i Noun-NB-loi ;
+	N_NIMI-SG  ;
+	N_NIMI-PL  ;
+
+LEXICON N_NIMI-SG
++N: NMN_NIMI-SG ;
+
+LEXICON N_NIMI-PL
++N: NMN_NIMI-PL ;
 
 LEXICON N_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
 +N:i SGNOMSUF ;
@@ -142,11 +160,11 @@ LEXICON N_VUOZI !!= @CODE@ vuozi:vuot
 +N:%^T2Z%>i SGNOMSUF ;
 +N:e SGGENSUF ;
 +N: SGPARSUF_dU ;
++N+Sg:e Noun-NB-01 ;
 +N:%^T2Z%>ie PLGENSUF ; ! the plural comitative is declined here
 +N:%^T2Z%>i PLPARSUF_i ;
 +N:%^T2Z%>i PLINSSUF ;
-+N:e Noun-NB-01 ;
-+N:%^T2Z%>i Noun-NB-01 ;
++N+Pl:%^T2Z%>i Noun-NB-01 ;
 
 LEXICON N_PÄIVY !!= @CODE@ päivy:päivä
 +N:%^A2U SGNOMSUF ;
@@ -182,6 +200,24 @@ LEXICON N_RUNO !!= @CODE@ runo:runo
 +N: Noun-NB-loi ;
 
 !! NMN
+LEXICON NMN_NIMI
+	NMN_NIMI-SG	;
+	NMN_NIMI-PL	;
+
+LEXICON NMN_NIMI-SG
+:i SGNOMSUF ;
+:e SGPARSUF_A2 ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_NIMI-PL
+:%>ie PLGENSUF ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
+:il%{oö%}i PLGENSUF ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
+:i Noun-NB-loi ;
+
+
 LEXICON NMN_ANUS !!= @CODE@ Anus:Anuks
 	NMN_ANUS-SG ;
 	NMN_ANUS-PL ;
@@ -260,14 +296,20 @@ LEXICON NMN_KIELINE
 +Pl:zi Noun-NB-01 ;
 
 LEXICON NMN_KARJALAINE
+	NMN_KARJALAINE-SG ;
+	NMN_KARJALAINE-PL ;
+
+LEXICON NMN_KARJALAINE-SG
 :ine SGNOMSUF ;
 :ze SGGENSUF ;
 :s SGPARSUF_dU ;
++Sg:ze Noun-NB-01 ;
+
+LEXICON NMN_KARJALAINE-PL
 :ze PLNOMSUF ;
 :zie PLGENSUF ;
 :zi PLPARSUF_i ;
 :zi PLINSSUF ;
-+Sg:ze Noun-NB-01 ;
 +Pl:zi Noun-NB-01 ;
 
 
@@ -327,6 +369,9 @@ LEXICON PLPARSUF_a
 
 LEXICON PLPARSUF_i
 +Pl+Par:%>i K ;
+
+LEXICON PLPARSUF_dU
++Pl+Par:%>d%{uy%} K ;
 
 LEXICON Noun-NB-01
 +Ess:%^WEAK%>nn%{uy%} K ;
