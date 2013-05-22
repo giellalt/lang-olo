@@ -167,14 +167,26 @@ LEXICON N_VUOZI !!= @CODE@ vuozi:vuot
 +N+Pl:%^T2Z%>i Noun-NB-01 ;
 
 LEXICON N_PÄIVY !!= @CODE@ päivy:päivä
+	N_PÄIVY-SG ;
+	N_PÄIVY-PL ;
+
+LEXICON N_PÄIVY-SG
++N: NMN_PÄIVY-SG	;
+
+LEXICON N_PÄIVY-PL
++N: NMN_PÄIVY-PL	;
+
+LEXICON NMN_PÄIVY-SG
 +N:%^A2U SGNOMSUF ;
 +N: SGGENSUF ;
 +N: SGPARSUF_A2 ;
++N+Sg: Noun-NB-01 ;
+
+LEXICON NMN_PÄIVY-PL
 +N: PLNOMSUF ;
 +N:%>ie PLGENSUF ; ! the plural comitative is declined here
 +N:%>i PLPARSUF_i ;
 +N:%>i PLINSSUF ;
-+N+Sg: Noun-NB-01 ;
 +N+Pl:%>i Noun-NB-01 ;
 
 LEXICON N_KOIVU !!= @CODE@ koivu:koivu
