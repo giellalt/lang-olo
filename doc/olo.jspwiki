@@ -110,26 +110,34 @@ Livvi nouns inflect in cases.
 
 
 
- LEXICON N_HUOLETOI  huoletoi: huolet
+ LEXICON N_KARJAL  karjal:karjal
 
  LEXICON N_KANDAI  kandai:kandai
 
  LEXICON N_PAGIZII  pagizii:pagizii
 
+ LEXICON N_HUOLETOI  huoletoi: huolet
+
+ LEXICON N_KARJALAINE  karjalaine:karjala
+
+
+
+ LEXICON N_PEREH  pereh:pereh
+
+ LEXICON N_ARTELI  arteli:arteli
+
+ LEXICON N_KIELI  kieli:kiel
+
  LEXICON N_ANUS  aigomus:aigomuks
 
  LEXICON N_ANUS-PL  aigomus:aigomuks
 
- LEXICON N_KARJAL  karjal:karjal
-
-
- LEXICON N_KARJALAINE  karjalaine:karjala
-
- LEXICON N_KIELI  kieli:kiel
+ LEXICON N_OLUT  olut:olu
 
  LEXICON N_KUU  kuu:kuu
 
  LEXICON N_MUARJU  muarju:muarja
+
 
  LEXICON N_KALA  kala:kala
 
@@ -141,13 +149,19 @@ Livvi nouns inflect in cases.
 
  LEXICON N_KOIRU  koiru:koira
 
- LEXICON N_NIMI  
+ LEXICON N_NIMI  nimi:nim
 
- LEXICON N_LAPSI  lapsi:laps
+
+
+ LEXICON N_LAPSI  lapsi:laps lapsi:laps
 
  LEXICON N_VUOZI  vuozi:vuot
 
  LEXICON N_PÄIVY  päivy:päivä
+
+
+
+
 
  LEXICON N_KOIVU  koivu:koivu
 
@@ -156,6 +170,9 @@ Livvi nouns inflect in cases.
  LEXICON N_RUNO  runo:runo
 
 NMN
+
+
+
  LEXICON NMN_ANUS  Anus:Anuks
 
 
@@ -191,31 +208,43 @@ NMN
 
 
 
+
+
+
 Verb inflection
 ---------------
 Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and persons.
 
 
 
+ LEXICON V-NEG  ei:e
+
+ LEXICON V_OLLA  olla:o
+
+
+ LEXICON V_KANDUA  kandua:kanda
+
+ LEXICON V_OTTUA  ottua:otta
+
+ LEXICON V_PUNUO  punuo:puno
+
+
+ LEXICON V_VALUO  valuo:valu
+
+
+
+ LEXICON V_POTKIE  potkie:potki
+
+
+ LEXICON  V_PIDIÄ  pidiä:pidä
 
 
 
 
 
+ LEXICON V_SUAJA  suaja:saa
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ LEXICON V_TULLA  tulla:tul
 
  LEXICON V_TYPÄTÄ  typätä:typpä
 
@@ -223,16 +252,19 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
 
+ LEXICON V_SUVAIJA  suvaija:suvai
 
- LEXICON V_ALETA  aleta:ala (alanov)
-aleta:ale
+ LEXICON V_ALETA  aleta:ale (alenov)
 
  LEXICON V_SUATA  suata:suva (suvaiččov)
 
+ LEXICON VR_AMBUO  ambuokseh:ambu
 
+ LEXICON VR_KANDUA  kanduakseh:kanda
 
+ LEXICON VR_RODIEKSEH  rodiekseh:rodi
 
- LEXICON VR_AVATA  typätä:typpä
+ LEXICON VR_AVATA  avatakseh:ava (typätäkseh:typpä)
 
 
 
