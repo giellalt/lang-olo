@@ -5,26 +5,34 @@ Livvi nouns inflect in cases.
 
 
 
- LEXICON N_HUOLETOI  huoletoi: huolet
+ LEXICON N_KARJAL  karjal:karjal
 
  LEXICON N_KANDAI  kandai:kandai
 
  LEXICON N_PAGIZII  pagizii:pagizii
 
+ LEXICON N_HUOLETOI  huoletoi: huolet
+
+ LEXICON N_KARJALAINE  karjalaine:karjala
+
+
+
+ LEXICON N_PEREH  pereh:pereh
+
+ LEXICON N_ARTELI  arteli:arteli
+
+ LEXICON N_KIELI  kieli:kiel
+
  LEXICON N_ANUS  aigomus:aigomuks
 
  LEXICON N_ANUS-PL  aigomus:aigomuks
 
- LEXICON N_KARJAL  karjal:karjal
-
-
- LEXICON N_KARJALAINE  karjalaine:karjala
-
- LEXICON N_KIELI  kieli:kiel
+ LEXICON N_OLUT  olut:olu
 
  LEXICON N_KUU  kuu:kuu
 
  LEXICON N_MUARJU  muarju:muarja
+
 
  LEXICON N_KALA  kala:kala
 
@@ -36,13 +44,19 @@ Livvi nouns inflect in cases.
 
  LEXICON N_KOIRU  koiru:koira
 
- LEXICON N_NIMI  
+ LEXICON N_NIMI  nimi:nim
 
- LEXICON N_LAPSI  lapsi:laps
+
+
+ LEXICON N_LAPSI  lapsi:laps lapsi:laps
 
  LEXICON N_VUOZI  vuozi:vuot
 
  LEXICON N_PÄIVY  päivy:päivä
+
+
+
+
 
  LEXICON N_KOIVU  koivu:koivu
 
@@ -51,6 +65,9 @@ Livvi nouns inflect in cases.
  LEXICON N_RUNO  runo:runo
 
 NMN
+
+
+
  LEXICON NMN_ANUS  Anus:Anuks
 
 
@@ -64,6 +81,9 @@ NMN
  LEXICON NMN_ARTELI  arteli:arteli
 
  LEXICON NMN_OZA  oza:oza
+
+
+
 
 
 
