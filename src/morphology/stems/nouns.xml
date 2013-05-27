@@ -4,31 +4,109 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<e><lg><l pos="N">ogurču</l><stg><st Contlex="N_MUARJU">ogurča</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">kurkku (kasvi)</t></tg></mg></e>
+<e><lg><l pos="N">olendo</l><stg><st Contlex="N_RUNO">olendo</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">olento</t></tg></mg></e>
+<e><lg><l pos="N">onnelmus</l><stg><st Contlex="N_ALUS">onnelmus</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">onkalo ontelo</t></tg></mg></e>
+<e><lg><l pos="N">ozaanottai</l><stg><st Contlex="N_KANDAI">ozaan#ottai</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">osanottaja</t></tg></mg></e>
+<e><lg><l pos="N">ozavus</l><stg><st Contlex="N_ALUS">ozavus</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">noidannuoli, iskias</t></tg></mg></e>
+<e><lg><l pos="N">ozutandu</l><stg><st Contlex="N_MUARJU">ozutandu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">esittäminen</t></tg></mg></e>
+<e><lg><l pos="N">ozutus</l><stg><st Contlex="N_ALUS">ozutuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">esitys</t></tg></mg></e>
+<e><lg><l pos="N">paholaine</l><stg><st Contlex="N_KARJALAINE">pahola</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">paholainen</t></tg></mg></e>
+<e><lg><l pos="N">palaine</l><stg><st Contlex="N_KARJALAINE">pala</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">palanen, kappale</t></tg></mg></e>
+<e><lg><l pos="N">palannuh</l><stg><st Contlex="N_">palannuh</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">palanut</t></tg></mg></e>
+<e><lg><l pos="N">palat</l><stg><st Contlex="N_KALA-PL">pala</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">kappaleet, palat</t></tg></mg></e>
+<e><lg><l pos="N">pallero</l><stg><st Contlex="N_RUNO">pallero</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pallero</t></tg></mg></e>
+<e><lg><l pos="N">paltie</l><stg><st Contlex="N_">paltie</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">rinne</t></tg></mg></e>
+<e><lg><l pos="N">pamahtus</l><stg><st Contlex="N_ALUS">pamahtus</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pamaus</t></tg></mg></e>
+<e><lg><l pos="N">pangu</l><stg><st Contlex="N_MUARJU">panga</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">sanka, panka</t></tg></mg></e>
+<e><lg><l pos="N">panos</l><stg><st Contlex="N_ALUS">panoks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">panos, osuus; panos (kortti- ym. pelissä)</t></tg></mg></e>
+<e><lg><l pos="N">pappi</l><stg><st Contlex="N_ARTELI">pappi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pappi</t></tg></mg></e>
+<e><lg><l pos="ADV">parahillah</l><stg><st Contlex="ADV_">parahillah</st></stg></lg><pos>ADV</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="ADV">parhaillaan</t></tg></mg></e>
+<e><lg><l pos="ADV">parahite</l><stg><st Contlex="ADV_">parahite</st></stg></lg><pos>ADV</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="ADV">parhaiten</t></tg></mg></e>
+<e><lg><l pos="N">parandai</l><stg><st Contlex="N_KANDAI">parandai</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">parantaja</t></tg></mg></e>
+<e><lg><l pos="N">parandamine</l><stg><st Contlex="N_KIELINE">parandami</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">parantaminen</t></tg></mg></e>
+<e><lg><l pos="N">parandumine</l><stg><st Contlex="N_KIELINE">parandumi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">parantuminen</t></tg></mg></e>
+<e><lg><l pos="N">paranemine</l><stg><st Contlex="N_KIELINE">paranemi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">paraneminen</t></tg></mg></e>
+<e><lg><l pos="N">pardiene</l><stg><st Contlex="N_KARJALAINE">pardiene</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">riihenparsi, parsi</t></tg></mg></e>
+<e><lg><l pos="N">pardu</l><stg><st Contlex="N_PÄIVY">pardu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">parta</t></tg></mg></e>
+<e><lg><l pos="N">pari</l><stg><st Contlex="N_ARTELI">pari</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pari, ks.puara,; vanh. kaksiosainen puku, jakkupuku, miesten puku</t></tg></mg></e>
+<e><lg><l pos="N">parki</l><stg><st Contlex="N_ARTELI">parki</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">parkki, pajunkuori</t></tg></mg></e>
+<e><lg><l pos="N">parras</l><stg><st Contlex="N_ARMAS">parta</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">parras</t></tg></mg></e>
+<e><lg><l pos="N">parvi</l><stg><st Contlex="N_KIELI">parvi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">parvi</t></tg></mg></e>
+<e><lg><l pos="N">parzi</l><stg><st Contlex="N_KIELI">parzi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">hirsi</t></tg></mg></e>
+<e><lg><l pos="N">pasku</l><stg><st Contlex="N_MUARJU">pasku</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ripuli, vetelä uloste</t></tg></mg></e>
+<e><lg><l pos="N">passibo</l><stg><st Contlex="N_RUNO">passibo</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">kiitos</t></tg></mg></e>
+<e><lg><l pos="N">pastos</l><stg><st Contlex="N_ALUS">pastos</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">paistos</t></tg></mg></e>
+<e><lg><l pos="N">paugu</l><stg><st Contlex="N_KOIVU">paugu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">isku</t></tg></mg></e>
+<e><lg><l pos="N">pavaričču</l><stg><st Contlex="N_MUARJU">pavaričča</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">kauha</t></tg></mg></e>
+<e><lg><l pos="N">pavveh</l><stg><st Contlex="N_PEREH">pavveh</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pauke</t></tg></mg></e>
+<e><lg><l pos="N">pačas</l><stg><st Contlex="N_ARMAS">pačča</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">patsas, tolppa</t></tg></mg></e>
+<e><lg><l pos="N">pačkeh</l><stg><st Contlex="N_PEREH">pačkeh</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">melu, meteli</t></tg></mg></e>
+<e><lg><l pos="N">pačku</l><stg><st Contlex="N_KOIVU">pačku</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">isku</t></tg></mg></e>
+<e><lg><l pos="N">pačoi</l><stg><st Contlex="N_REBOI">pačoi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">naurishaudikas, lanttuhaudikas, naurispaistikas, lanttupaistikas</t></tg></mg></e>
+<e><lg><l pos="N">pedri</l><stg><st Contlex="N_ARTELI">pedri</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pietarinpäivä</t></tg></mg></e>
+<e><lg><l pos="N">pedäi</l><stg><st Contlex="N_KANDAI">pedäi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">mänty, petäjä</t></tg></mg></e>
+<e><lg><l pos="N">pedäjikkö</l><stg><st Contlex="N_RUNO">pedäjikkö</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">männikkö, petäjikkö</t></tg></mg></e>
+<e><lg><l pos="N">pehko</l><stg><st Contlex="N_RUNO">pehko</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pensas; pökkelö, laho kanto; pehkut, pahnat</t></tg></mg></e>
+<e><lg><l pos="A">pehko</l><stg><st Contlex="A_RUNO">pehko</st></stg></lg><pos>A</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="A">laho, mädäntynyt</t></tg></mg></e>
+<e><lg><l pos="N">pehmendysmerkki</l><stg><st Contlex="N_ARTELI">pehmendysmerkki</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">liudennusmerkki</t></tg></mg></e>
+<e><lg><l pos="N">pehmevys</l><stg><st Contlex="N_ALUS">pehmevys</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pehmeys; kuivikkeet, alukset</t></tg></mg></e>
+<e><lg><l pos="N">peiboi</l><stg><st Contlex="N_REBOI">peiboi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">peippo</t></tg></mg></e>
+<e><lg><l pos="N">peigalo</l><stg><st Contlex="N_RUNO">peigalo</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">peukalo</t></tg></mg></e>
+<e><lg><l pos="N">peitoisija</l><stg><st Contlex="N_KALA">peitoisija</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">piilopaikka</t></tg></mg></e>
+<e><lg><l pos="N">peitto</l><stg><st Contlex="N_RUNO">peitto</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">piilo</t></tg></mg></e>
+<e><lg><l pos="N">peittosija</l><stg><st Contlex="N_KALA">peittosija</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">piilopaikka</t></tg></mg></e>
+<e><lg><l pos="N">peitändy</l><stg><st Contlex="N_MUARJU">peitändy</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">piilottaminen, piilotus, kätkeminen</t></tg></mg></e>
+<e><lg><l pos="N">pelastundu</l><stg><st Contlex="N_MUARJU">pelastundu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pelastuminen</t></tg></mg></e>
+<e><lg><l pos="N">peldo</l><stg><st Contlex="N_RUNO">peldo</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pelto</t></tg></mg></e>
+<e><lg><l pos="N">peldovaroi</l><stg><st Contlex="N_REBOI">peldovaroi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">varis</t></tg></mg></e>
+<e><lg><l pos="N">pöllästys</l><stg><st Contlex="N_ALUS">pellästys</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pelästys</t></tg></mg></e>
+<e><lg><l pos="N">pöllätys</l><stg><st Contlex="N_ALUS">pellätys</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pelotus</t></tg></mg></e>
+<e><lg><l pos="N">pelvas</l><stg><st Contlex="N_ARMAS">pelvas</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pellava</t></tg></mg></e>
+<e><lg><l pos="N">pendu</l><stg><st Contlex="N_KOIVU">pendu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pentu</t></tg></mg></e>
+<e><lg><l pos="N">penger</l><stg><st Contlex="N_PENGER">penger</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">penger, penkka, penkere, äyräs</t></tg></mg></e>
+<e><lg><l pos="N">penzie</l><stg><st Contlex="N_ARTELI">penzie</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">eläke</t></tg></mg></e>
+<e><lg><l pos="N">pereh</l><stg><st Contlex="N_PEREH">pereh</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">perhe</t></tg></mg></e>
+<e><lg><l pos="N">perehys</l><stg><st Contlex="N_ALUS">perehys</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">perhekunta, perhe</t></tg></mg></e>
+<e><lg><l pos="N">pereluadu</l><stg><st Contlex="N_KOIVU">pereluadu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">perhe, suku</t></tg></mg></e>
+<e><lg><l pos="N">perindö</l><stg><st Contlex="N_RUNO">perindö</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">perintö; perinne</t></tg></mg></e>
+<e><lg><l pos="N">perindötiedo</l><stg><st Contlex="N_RUNO">perindötiedo</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">perimätieto</t></tg></mg></e>
+<e><lg><l pos="N">perinät</l><stg><st Contlex="N_KALA">perinät</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">höyhenpatja(t)</t></tg></mg></e>
+<e><lg><l pos="N">pero</l><stg><st Contlex="N_RUNO">pero</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">mustekynä; evä</t></tg></mg></e>
+<e><lg><l pos="N">perrändy</l><stg><st Contlex="N_MUARJU">perrändy</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pieksentä, ruoskiminen</t></tg></mg></e>
+<e><lg><l pos="N">perti</l><stg><st Contlex="N_ARTELI">perti</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pirtti, tupa, olohuone</t></tg></mg></e>
+<e><lg><l pos="N">pertine</l><stg><st Contlex="N_KARJALAINE">pertine</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pirtti, tupa; huone</t></tg></mg></e>
+<e><lg><l pos="N">perusteh</l><stg><st Contlex="N_PEREH">perusteh</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">peruste</t></tg></mg></e>
+<e><lg><l pos="N">perze</l><stg><st Contlex="N_">perze</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">perse</t></tg></mg></e>
+<e><lg><l pos="N">perä</l><stg><st Contlex="N_OZA">perä</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">perä</t></tg></mg></e>
+<e><lg><l pos="N">petlu</l><stg><st Contlex="N_">petlu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">silmukka, lenkki</t></tg></mg></e>
+<e><lg><l pos="N">pezovezi</l><stg><st Contlex="N_VEZI">pezovezi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pesuvesi</t></tg></mg></e>
+<e><lg><l pos="N">pezä</l><stg><st Contlex="N_OZA">pezä</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pesä</t></tg></mg></e>
 <e><lg><l pos="N">obrazu</l><stg><st Contlex="N_MUARJU">obraza</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ikoni, pyhäinkuva</t></tg></mg></e>
 <e><lg><l pos="N">oddualu</l><stg><st Contlex="N_MUARJU">odduala</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">peite; vällyt, nahkaset, kaattua; lattiamatto</t></tg></mg></e>
 <e><lg><l pos="N">ogahakas</l><stg><st Contlex="N_ARMAS">ogahakka</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">piikki</t></tg></mg></e>
 <e><lg><l pos="N">ogal</l><stg><st Contlex="N_KARJAL">ogal</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">lovi, uurre, pykälä esineen pinnassa tai reunassa; korvamerkki (lampaan korvaan omistajamerkiksi leikattu lovi)</t></tg></mg></e>
 <e><lg><l pos="N">ogorodu</l><stg><st Contlex="N_MUARJU">ogoroda</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">kasvimaa; puutarha</t></tg></mg></e>
 <e><lg><l pos="N">ohimo</l><stg><st Contlex="N_RUNO">ohimo</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ohimo</t></tg></mg></e>
-<e><lg><l pos="N">ohjakset</l><stg><st Contlex="N_ANUS-PL">ohjaks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ohjakset</t></tg></mg></e>
+<e><lg><l pos="N">ohjakset</l><stg><st Contlex="N_ALUS-PL">ohjaks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ohjakset</t></tg></mg></e>
 <e><lg><l pos="N">ohjuaju</l><stg><st Contlex="N_MUARJU">ohjuaja</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ohjaaja</t></tg></mg></e>
 <e><lg><l pos="N">ohkeh</l><stg><st Contlex="N_PEREH">ohkeh</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">huokailu, voihke</t></tg></mg></e>
 <e><lg><l pos="N">ohottu</l><stg><st Contlex="N_MUARJU">ohotta</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">metsästys</t></tg></mg></e>
 <e><lg><l pos="N">ohtahaine</l><stg><st Contlex="N_KARJALAINE">ohtaha</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ohdake</t></tg></mg></e>
 <e><lg><l pos="N">ohtoi</l><stg><st Contlex="N_RUNO">ohtoi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ohdake</t></tg></mg></e>
 <e><lg><l pos="N">ohtoižikko</l><stg><st Contlex="N_RUNO">ohtoižik</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ohdakkeinen paikka</t></tg></mg></e>
-<e><lg><l pos="N">oigevus</l><stg><st Contlex="N_ANUS">oigevuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">oikeus</t></tg></mg></e>
-<e><lg><l pos="N">oijelmus</l><stg><st Contlex="N_ANUS">oijelmuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">oikaisu, tien o.</t></tg></mg></e>
+<e><lg><l pos="N">oigevus</l><stg><st Contlex="N_ALUS">oigevuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">oikeus</t></tg></mg></e>
+<e><lg><l pos="N">oijelmus</l><stg><st Contlex="N_ALUS">oijelmuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">oikaisu, tien o.</t></tg></mg></e>
 <e><lg><l pos="N">oja</l><stg><st Contlex="N_OZA">oja</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">oja; luonnonoja, puro</t></tg></mg></e>
 <e><lg><l pos="N">ojaine</l><stg><st Contlex="N_KARJALAINE">oja</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">(luonnon)oja, puro</t></tg></mg></e>
 <e><lg><l pos="N">ojandeh</l><stg><st Contlex="N_PEREH">ojan</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">puronvarsi, puronotko, ojanotko</t></tg></mg></e>
 <e><lg><l pos="N">oksaine</l><stg><st Contlex="N_KARJALAINE">oksa</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pikku oksa</t></tg></mg></e>
-<e><lg><l pos="N">oksendus</l><stg><st Contlex="N_ANUS">oksenduks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">oksennus</t></tg></mg></e>
+<e><lg><l pos="N">oksendus</l><stg><st Contlex="N_ALUS">oksenduks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">oksennus</t></tg></mg></e>
 <e><lg><l pos="N">oksu</l><stg><st Contlex="N_PÄIVY">oksa</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">oksa</t></tg></mg></e>
 <e><lg><l pos="N">olannu</l><stg><st Contlex="N_MUARJU">olanna</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">blini</t></tg></mg></e>
-<e><lg><l pos="N">olemattomus</l><stg><st Contlex="N_ANUS">olemattomuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">olemattomuus</t></tg></mg></e>
+<e><lg><l pos="N">olemattomus</l><stg><st Contlex="N_ALUS">olemattomuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">olemattomuus</t></tg></mg></e>
 <e><lg><l pos="N">olemine</l><stg><st Contlex="N_KIELINE">olemi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">oleminen, olo</t></tg></mg></e>
-<e><lg><l pos="N">olemus</l><stg><st Contlex="N_ANUS">olemuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">olemus</t></tg></mg></e>
+<e><lg><l pos="N">olemus</l><stg><st Contlex="N_ALUS">olemuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">olemus</t></tg></mg></e>
 <e><lg><l pos="N">olendu</l><stg><st Contlex="N_MUARJU">olenda</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">oleminen</t></tg></mg></e>
 <e><lg><l pos="N">olendukohtu</l><stg><st Contlex="N_PÄIVY">olendu#koht</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">olinpaikka</t></tg></mg></e>
 <e><lg><l pos="N">olendusija</l><stg><st Contlex="N_KALA">olendu#sija</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">olinpaikka</t></tg></mg></e>
@@ -45,7 +123,7 @@
 <e><lg><l pos="N">ombelendu</l><stg><st Contlex="N_MUARJU">ombelenda</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ompelu</t></tg></mg></e>
 <e><lg><l pos="N">ombelii</l><stg><st Contlex="N_PAGIZII">ombelii</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ompelija</t></tg></mg></e>
 <e><lg><l pos="N">ombelijnaine</l><stg><st Contlex="N_KIELINE">ombelij#nai</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ompelijatar</t></tg></mg></e>
-<e><lg><l pos="N">ombelus</l><stg><st Contlex="N_ANUS">ombeluks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ompelus; sauma</t></tg></mg></e>
+<e><lg><l pos="N">ombelus</l><stg><st Contlex="N_ALUS">ombeluks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ompelus; sauma</t></tg></mg></e>
 <e><lg><l pos="N">ongi</l><stg><st Contlex="N_NIMI">ong</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">onki</t></tg></mg></e>
 <e><lg><l pos="N">onginiekku</l><stg><st Contlex="N_MUARJU">onginiekka</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">onkija, onkimies</t></tg></mg></e>
 <e><lg><l pos="N">ongiruagu</l><stg><st Contlex="N_MUARJU">ongiruaga</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ongenvapa</t></tg></mg></e>
@@ -53,12 +131,12 @@
 <e><lg><l pos="N">ongittai</l><stg><st Contlex="N_KANDAI">ongittai</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">onkija</t></tg></mg></e>
 <e><lg><l pos="N">ongivičču</l><stg><st Contlex="N_MUARJU">ongivičča</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ongenvapa</t></tg></mg></e>
 <e><lg><l pos="N">onni</l><stg><st Contlex="N_NIMI">onni</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">onni</t></tg></mg></e>
-<e><lg><l pos="N">onnus</l><stg><st Contlex="N_ANUS">onnus</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ontto puu; ontelo, kolo puussa; kaari, holvi, ('jallan pohjan onnus' - jalkaholvi)</t></tg></mg></e>
+<e><lg><l pos="N">onnus</l><stg><st Contlex="N_ALUS">onnus</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ontto puu; ontelo, kolo puussa; kaari, holvi, ('jallan pohjan onnus' - jalkaholvi)</t></tg></mg></e>
 <e><lg><l pos="N">opastai</l><stg><st Contlex="N_KANDAI">opastai</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">opettaja</t></tg></mg></e>
 <e><lg><l pos="N">opastui</l><stg><st Contlex="N_KANDAI">opastui</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">opiskelija</t></tg></mg></e>
 <e><lg><l pos="N">opastumatoi</l><stg><st Contlex="N_HUOLETOI">opastumatoi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">oppimaton</t></tg></mg></e>
 <e><lg><l pos="N">opastundu</l><stg><st Contlex="N_MUARJU">opastundu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">opiskelu</t></tg></mg></e>
-<e><lg><l pos="N">opastus</l><stg><st Contlex="N_ANUS">opastuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">opetus</t></tg></mg></e>
+<e><lg><l pos="N">opastus</l><stg><st Contlex="N_ALUS">opastuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">opetus</t></tg></mg></e>
 <e><lg><l pos="N">opindu</l><stg><st Contlex="N_MUARJU">opindu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">yritys</t></tg></mg></e>
 <e><lg><l pos="N">optiekku</l><stg><st Contlex="N_MUARJU">optiekku</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">optiikka</t></tg></mg></e>
 <e><lg><l pos="N">ora</l><stg><st Contlex="N_OZA">ora</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">naskali, piikki</t></tg></mg></e>
@@ -77,17 +155,17 @@
 <e><lg><l pos="N">ossu</l><stg><st Contlex="N_">ossu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">akseli</t></tg></mg></e>
 <e><lg><l pos="N">ostai</l><stg><st Contlex="N_KANDAI">ostai</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ostaja</t></tg></mg></e>
 <e><lg><l pos="N">ostandu</l><stg><st Contlex="N_MUARJU">ostanda</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">osto, ostaminen</t></tg></mg></e>
-<e><lg><l pos="N">ostos</l><stg><st Contlex="N_ANUS">ostoks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ostos</t></tg></mg></e>
+<e><lg><l pos="N">ostos</l><stg><st Contlex="N_ALUS">ostoks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ostos</t></tg></mg></e>
 <e><lg><l pos="N">otandu</l><stg><st Contlex="N_MUARJU">otanda</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">otto, ottaminen; otanta</t></tg></mg></e>
 <e><lg><l pos="N">ottolapsi</l><stg><st Contlex="N_LAPSI">otto#laps</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ottolapsi</t></tg></mg></e>
 <e><lg><l pos="N">ottopoigu</l><stg><st Contlex="N_MUARJU">otto#poiga</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ottopoika</t></tg></mg></e>
 <e><lg><l pos="N">ottotytär</l><stg><st Contlex="N_">ottotytär</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ottotytär</t></tg></mg></e>
-<e><lg><l pos="N">ounahus</l><stg><st Contlex="N_ANUS">ounahuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">viekkaus, oveluus</t></tg></mg></e>
+<e><lg><l pos="N">ounahus</l><stg><st Contlex="N_ALUS">ounahuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">viekkaus, oveluus</t></tg></mg></e>
 <e><lg><l pos="N">ounas</l><stg><st Contlex="N_ARMAS">ouna</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">viekas, ovela</t></tg></mg></e>
 <e><lg><l pos="N">ovas</l><stg><st Contlex="N_ARMAS">ova</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">rakas, armas</t></tg></mg></e>
 <e><lg><l pos="N">ovi</l><stg><st Contlex="N_NIMI">ov</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ovi, ks. uksi, veräi</t></tg></mg></e>
 <e><lg><l pos="N">oza</l><stg><st Contlex="N_OZA">oza</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">onni; kohtalo</t></tg></mg></e>
-<e><lg><l pos="N">ozattomus</l><stg><st Contlex="N_ANUS">ozattomuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">onnettomuus</t></tg></mg></e>
+<e><lg><l pos="N">ozattomus</l><stg><st Contlex="N_ALUS">ozattomuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">onnettomuus</t></tg></mg></e>
 <e><lg><l pos="N">ozru</l><stg><st Contlex="N_MUARJU">ozra</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">ohra</t></tg></mg></e>
 <e><lg><l pos="N">ozutelmu</l><stg><st Contlex="N_">ozutelmu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">esitys</t></tg></mg></e>
 <e><lg><l pos="N">očkat</l><stg><st Contlex="N_">očkat</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">silmälasit</t></tg></mg></e>
@@ -116,7 +194,7 @@
 <e><lg><l pos="N">mieli</l><stg><st Contlex="N_KIELI">miel</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">mieli</t></tg></mg></e>
 <e><lg><l pos="N">pahanruadai</l><stg><st Contlex="N_KANDAI">pahanruadai</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pahantekijä</t></tg></mg></e>
 <e><lg><l pos="N">pahačču</l><stg><st Contlex="N_">pahačču</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">käärme</t></tg></mg></e>
-<e><lg><l pos="N">pahendus</l><stg><st Contlex="N_ANUS">pahenduks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">huononnus, heikennys, pilaantuminen</t></tg></mg></e>
+<e><lg><l pos="N">pahendus</l><stg><st Contlex="N_ALUS">pahenduks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">huononnus, heikennys, pilaantuminen</t></tg></mg></e>
 <e><lg><l pos="N">pahku</l><stg><st Contlex="N_">pahku</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pahka</t></tg></mg></e>
 <e><lg><l pos="N">pahnu</l><stg><st Contlex="N_">pahnu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">(eläimen) pesä. sikopahna, sikolätti, sikala; karhunpesä</t></tg></mg></e>
 <e><lg><l pos="N">pahoinvoindu</l><stg><st Contlex="N_">pahoinvoindu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">pahoinvointi</t></tg></mg></e>
@@ -164,13 +242,13 @@
 <e><lg><l pos="N">paltin</l><stg><st Contlex="N_">paltin</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">palttina</t></tg></mg></e>
 <e><lg><l pos="N">palvondu</l><stg><st Contlex="N_">palvondu</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">palvonta, usko Jumalaan; hemmottelu, lepyttely; valvonta, vartiointi, kyttäys;</t></tg></mg></e>
 <e><lg><l pos="N">palčokset</l><stg><st Contlex="N_">palčokset</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">rohtimet</t></tg></mg></e>
-<e><lg><l pos="N">piätös</l><stg><st Contlex="N_ANUS">piätöks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">päätös</t></tg></mg></e>
+<e><lg><l pos="N">piätös</l><stg><st Contlex="N_ALUS">piätöks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">päätös</t></tg></mg></e>
 <e><lg><l pos="N">prezentatsie</l><stg><st Contlex="N_RUNO">prezentatsie</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">esitelmä</t></tg></mg></e>
 <e><lg><l pos="N">päivy</l><stg><st Contlex="N_PÄIVY">päivä</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">päivä</t></tg></mg></e>
 <e><lg><l pos="N">päivykodi</l><stg><st Contlex="N_RUNO">päivykodi</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">päiväkoti</t></tg></mg></e>
 <e><lg><l pos="N">segakieli</l><stg><st Contlex="N_KIELI">segakiel</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">sekakieli</t></tg></mg></e>
 <e><lg><l pos="N">sugukieli</l><stg><st Contlex="N_KIELI">sugukiel</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">sukukieli</t></tg></mg></e>
-<e><lg><l pos="N">tutkimus</l><stg><st Contlex="N_ANUS">tutkimuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">tutkimus</t></tg></mg></e>
+<e><lg><l pos="N">tutkimus</l><stg><st Contlex="N_ALUS">tutkimuks</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">tutkimus</t></tg></mg></e>
 <e><lg><l pos="N">ualdo</l><stg><st Contlex="N_RUNO">ualdo</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">aalto, laine</t></tg></mg></e>
 <e><lg><l pos="N">ualdolemijne</l><stg><st Contlex="N_">ualdolemijne</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">aaltoilu, aaltoileminen</t></tg></mg></e>
 <e><lg><l pos="N">vähembistökieli</l><stg><st Contlex="N_KIELI">vähembistökiel</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">vähemmistökieli</t></tg></mg></e>
@@ -929,7 +1007,7 @@
       <l pos="N">aigomus</l>
 
       <stg>
-        <st Contlex="N_ANUS">aigomuks</st>
+        <st Contlex="N_ALUS">aigomuks</st>
       </stg>
     </lg>
 
@@ -1041,7 +1119,7 @@
       <l pos="N">ailastus</l>
 
       <stg>
-        <st Contlex="N_ANUS">ailastuks</st>
+        <st Contlex="N_ALUS">ailastuks</st>
       </stg>
     </lg>
 
@@ -1405,7 +1483,7 @@
       <l pos="N">ajatus</l>
 
       <stg>
-        <st Contlex="N_ANUS">ajatuks</st>
+        <st Contlex="N_ALUS">ajatuks</st>
       </stg>
     </lg>
 
@@ -2246,7 +2324,7 @@
       <l pos="N">alus</l>
 
       <stg>
-        <st Contlex="N_ANUS">aluks</st>
+        <st Contlex="N_ALUS">aluks</st>
       </stg>
     </lg>
 
@@ -4207,7 +4285,7 @@
       <l pos="N">azetus</l>
 
       <stg>
-        <st Contlex="N_ANUS">azetuks</st>
+        <st Contlex="N_ALUS">azetuks</st>
       </stg>
     </lg>
 
@@ -9936,7 +10014,7 @@
       <l pos="N">ellendys</l>
 
       <stg>
-        <st Contlex="N_ANUS">ellendyks</st>
+        <st Contlex="N_ALUS">ellendyks</st>
       </stg>
     </lg>
 
@@ -10133,7 +10211,7 @@
       <l pos="N">elos</l>
 
       <stg>
-        <st Contlex="N_ANUS">eloks</st>
+        <st Contlex="N_ALUS">eloks</st>
       </stg>
     </lg>
 
@@ -10217,7 +10295,7 @@
       <l pos="N">elostus</l>
 
       <stg>
-        <st Contlex="N_ANUS">elostuks</st>
+        <st Contlex="N_ALUS">elostuks</st>
       </stg>
     </lg>
 
@@ -12467,7 +12545,7 @@
       <l pos="N">haikostus</l>
 
       <stg>
-        <st Contlex="N_ANUS">haikostuks</st>
+        <st Contlex="N_ALUS">haikostuks</st>
       </stg>
     </lg>
 
@@ -12495,7 +12573,7 @@
       <l pos="N">hairahtus</l>
 
       <stg>
-        <st Contlex="N_ANUS">hairahtuks</st>
+        <st Contlex="N_ALUS">hairahtuks</st>
       </stg>
     </lg>
 
@@ -12775,7 +12853,7 @@
       <l pos="N">halličus</l>
 
       <stg>
-        <st Contlex="N_ANUS">halličuks</st>
+        <st Contlex="N_ALUS">halličuks</st>
       </stg>
     </lg>
 
@@ -13587,7 +13665,7 @@
       <l pos="N">harjus</l>
 
       <stg>
-        <st Contlex="N_ANUS">harjuks</st>
+        <st Contlex="N_ALUS">harjuks</st>
       </stg>
     </lg>
 
@@ -14736,7 +14814,7 @@
       <l pos="N">hengenahtistus</l>
 
       <stg>
-        <st Contlex="N_ANUS">hengenahtistuks</st>
+        <st Contlex="N_ALUS">hengenahtistuks</st>
       </stg>
     </lg>
 
@@ -15946,7 +16024,7 @@
       <l pos="N">hivus</l>
 
       <stg>
-        <st Contlex="N_ANUS">hivuks</st>
+        <st Contlex="N_ALUS">hivuks</st>
       </stg>
     </lg>
 
@@ -17317,7 +17395,7 @@
       <l pos="N">huondes</l>
 
       <stg>
-        <st Contlex="N_ANUS">huondeks</st>
+        <st Contlex="N_ALUS">huondeks</st>
       </stg>
     </lg>
 
@@ -17485,7 +17563,7 @@
       <l pos="N">huonus</l>
 
       <stg>
-        <st Contlex="N_ANUS">huonuks</st>
+        <st Contlex="N_ALUS">huonuks</st>
       </stg>
     </lg>
 
@@ -19479,7 +19557,7 @@
       <l pos="N">ihastus</l>
 
       <stg>
-        <st Contlex="N_ANUS">ihastuks</st>
+        <st Contlex="N_ALUS">ihastuks</st>
       </stg>
     </lg>
 
@@ -25528,7 +25606,7 @@
       <l pos="N">kaivaus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kaivauks</st>
+        <st Contlex="N_ALUS">kaivauks</st>
       </stg>
     </lg>
 
@@ -25668,7 +25746,7 @@
       <l pos="N">kajahtus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kajahtuks</st>
+        <st Contlex="N_ALUS">kajahtuks</st>
       </stg>
     </lg>
 
@@ -26117,7 +26195,7 @@
       <l pos="N">kalastus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kalastuks</st>
+        <st Contlex="N_ALUS">kalastuks</st>
       </stg>
     </lg>
 
@@ -27183,7 +27261,7 @@
       <l pos="N">kannatus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kannatuks</st>
+        <st Contlex="N_ALUS">kannatuks</st>
       </stg>
     </lg>
 
@@ -29094,7 +29172,7 @@
       <l pos="N">karkoitus</l>
 
       <stg>
-        <st Contlex="N_ANUS">karkoituks</st>
+        <st Contlex="N_ALUS">karkoituks</st>
       </stg>
     </lg>
 
@@ -29739,7 +29817,7 @@
       <l pos="N">katkelmus</l>
 
       <stg>
-        <st Contlex="N_ANUS">katkelmuks</st>
+        <st Contlex="N_ALUS">katkelmuks</st>
       </stg>
     </lg>
 
@@ -29992,7 +30070,7 @@
       <l pos="N">kaunistus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kaunistuks</st>
+        <st Contlex="N_ALUS">kaunistuks</st>
       </stg>
     </lg>
 
@@ -30779,7 +30857,7 @@
       <l pos="N">kehitys</l>
 
       <stg>
-        <st Contlex="N_ANUS">kehityks</st>
+        <st Contlex="N_ALUS">kehityks</st>
       </stg>
     </lg>
 
@@ -31509,7 +31587,7 @@
       <l pos="N">kerdomus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kerdomuks</st>
+        <st Contlex="N_ALUS">kerdomuks</st>
       </stg>
     </lg>
 
@@ -31705,7 +31783,7 @@
       <l pos="N">kerros</l>
 
       <stg>
-        <st Contlex="N_ANUS">kerroks</st>
+        <st Contlex="N_ALUS">kerroks</st>
       </stg>
     </lg>
 
@@ -31985,7 +32063,7 @@
       <l pos="N">keskus</l>
 
       <stg>
-        <st Contlex="N_ANUS">keskuks</st>
+        <st Contlex="N_ALUS">keskuks</st>
       </stg>
     </lg>
 
@@ -32013,7 +32091,7 @@
       <l pos="N">viizukeskus</l>
 
       <stg>
-        <st Contlex="N_ANUS">viizu#keskuks</st>
+        <st Contlex="N_ALUS">viizu#keskuks</st>
       </stg>
     </lg>
 
@@ -32041,7 +32119,7 @@
       <l pos="N">tiedokeskus</l>
 
       <stg>
-        <st Contlex="N_ANUS">tiedo#keskuks</st>
+        <st Contlex="N_ALUS">tiedo#keskuks</st>
       </stg>
     </lg>
 
@@ -32853,7 +32931,7 @@
       <l pos="N">kielastus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kielastuks</st>
+        <st Contlex="N_ALUS">kielastuks</st>
       </stg>
     </lg>
 
@@ -34169,7 +34247,7 @@
       <l pos="N">kirjutus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kirjutuks</st>
+        <st Contlex="N_ALUS">kirjutuks</st>
       </stg>
     </lg>
 
@@ -34813,7 +34891,7 @@
       <l pos="N">kiänös</l>
 
       <stg>
-        <st Contlex="N_ANUS">kiänöks</st>
+        <st Contlex="N_ALUS">kiänöks</st>
       </stg>
     </lg>
 
@@ -35735,7 +35813,7 @@
       <l pos="N">kogomus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kogomuks</st>
+        <st Contlex="N_ALUS">kogomuks</st>
       </stg>
     </lg>
 
@@ -35819,7 +35897,7 @@
       <l pos="N">kohendus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kohenduks</st>
+        <st Contlex="N_ALUS">kohenduks</st>
       </stg>
     </lg>
 
@@ -37507,7 +37585,7 @@
       <l pos="N">kosketus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kosketuks</st>
+        <st Contlex="N_ALUS">kosketuks</st>
       </stg>
     </lg>
 
@@ -39642,7 +39720,7 @@
       <l pos="N">kumardus</l>
 
       <stg>
-        <st Contlex="N_ANUS">kumarduks</st>
+        <st Contlex="N_ALUS">kumarduks</st>
       </stg>
     </lg>
 
@@ -41886,7 +41964,7 @@
       <l pos="N">kyzymys</l>
 
       <stg>
-        <st Contlex="N_ANUS">kyzymyks</st>
+        <st Contlex="N_ALUS">kyzymyks</st>
       </stg>
     </lg>
 
@@ -42307,7 +42385,7 @@
       <l pos="N">käilkirjutus</l>
 
       <stg>
-        <st Contlex="N_ANUS">käil#kirjutuks</st>
+        <st Contlex="N_ALUS">käil#kirjutuks</st>
       </stg>
     </lg>
 
@@ -44243,7 +44321,7 @@
       <l pos="N">laitos</l>
 
       <stg>
-        <st Contlex="N_ANUS">laitoks</st>
+        <st Contlex="N_ALUS">laitoks</st>
       </stg>
     </lg>
 
@@ -45505,7 +45583,7 @@
       <l pos="N">media-keskus</l>
 
       <stg>
-        <st Contlex="N_ANUS">media-keskuks</st>
+        <st Contlex="N_ALUS">media-keskuks</st>
       </stg>
     </lg>
 
@@ -45561,7 +45639,7 @@
       <l pos="N">muutos</l>
 
       <stg>
-        <st Contlex="N_ANUS">muutoks</st>
+        <st Contlex="N_ALUS">muutoks</st>
       </stg>
     </lg>
 

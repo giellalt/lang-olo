@@ -54,17 +54,38 @@ LEXICON N_KARJALAINE-PL
 +N:    NMN_KARJALAINE-PL	 ;
 
 LEXICON N_PEREH !!= @CODE@ pereh:pereh
-+N: SGNOMSUF ;
-+N:e SGGENSUF ;
-+N: SGPARSUF_dU ;
-+N+Sg:e Noun-NB-01 ;
-+N:ie PLGENSUF ;
-+N:i PLPARSUF_i ;
-+N:i PLINSSUF ;
-+N+Pl:i Noun-NB-01 ;
+	N_PEREH-SG	;
+	N_PEREH-PL	;
+LEXICON N_PEREH-SG
++N:	NMN_PEREH-SG	;
+
+LEXICON N_PEREH-PL
++N:	NMN_PEREH-PL	;
+
+LEXICON N_PENGER !!= @CODE@ penger:penger
+	N_PENGER-SG	;
+	N_PENGER-PL	;
+LEXICON N_PENGER-SG
++N:	NMN_PENGER-SG	;
+
+LEXICON N_PENGER-PL
++N:	NMN_PENGER-PL	;
 
 LEXICON N_ARTELI !!= @CODE@ arteli:arteli
-+N: NMN_ARTELI ;
+	N_ARTELI-SG ;
+	N_ARTELI-PL ;
+LEXICON N_ARTELI-SG
++N: NMN_ARTELI-SG ;
+LEXICON N_ARTELI-PL
++N: NMN_ARTELI-PL ;
+
+LEXICON N_REBOI !!= @CODE@ reboi:reboi
+        N_REBOI-SG ;
+        N_REBOI-PL ;
+LEXICON N_REBOI-SG
++N: NMN_REBOI-SG ;
+LEXICON N_REBOI-PL
++N: NMN_REBOI-PL ;
 
 LEXICON N_KIELI !!= @CODE@ kieli:kiel
 +N:i SGNOMSUF ;
@@ -77,11 +98,11 @@ LEXICON N_KIELI !!= @CODE@ kieli:kiel
 +N:i PLINSSUF ;
 +N+Pl:i Noun-NB-01 ;
 
-LEXICON N_ANUS !!= @CODE@ aigomus:aigomuks
-+N: NMN_ANUS ;
+LEXICON N_ALUS !!= @CODE@ aigomus:aigomuks
++N: NMN_ALUS ;
 
-LEXICON N_ANUS-PL !!= @CODE@ aigomus:aigomuks
-+N: NMN_ANUS-PL ;
+LEXICON N_ALUS-PL !!= @CODE@ aigomus:aigomuks
++N: NMN_ALUS-PL ;
 
 LEXICON N_OLUT !!= @CODE@ olut:olu
 +N:t SGNOMSUF ;
@@ -111,7 +132,12 @@ LEXICON NMN_MUARJU
 +Pl:%>oi Noun-NB-01 ;
 
 LEXICON N_KALA !!= @CODE@ kala:kala
+	N_KALA-SG  ;
+	N_KALA-PL  ;
+LEXICON N_KALA-SG
 +N: NMN_KALA ;
+LEXICON N_KALA-PL
++N: NMN_KALA-PL ;
 
 LEXICON N_OZA !!= @CODE@ oza:oza
 +N: NMN_OZA ;
@@ -155,6 +181,16 @@ LEXICON N_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
 +N:%>i PLINSSUF ;
 +N+Sg:e Noun-NB-01 ;
 +N+Pl:i Noun-NB-01 ;
+
+LEXICON N_VEZI !!= @CODE@ vezi:vet
++N:%^T2Z%>i SGNOMSUF ;
++N:e SGGENSUF ;
++N: SGPARSUF_dU ;
++N+Sg:e Noun-NB-01 ;
++N:%^T2Z%>ie PLGENSUF ; ! the plural comitative is declined here
++N:%^T2Z%>i PLPARSUF_i ;
++N:%^T2Z%>i PLINSSUF ;
++N+Pl:%^T2Z%>i Noun-NB-01 ;
 
 LEXICON N_VUOZI !!= @CODE@ vuozi:vuot
 +N:%^T2Z%>i SGNOMSUF ;
@@ -204,12 +240,15 @@ LEXICON N_KIELINE !!= @CODE@ kieline:kieli
 +N: NMN_KIELINE ;
 
 LEXICON N_RUNO !!= @CODE@ runo:runo
-+N: SGNOMSUF ;
-+N: SGPARSUF_A2 ;
-+N:l%{oö%}i PLGENSUF ;
-+N:l%{oö%}i PLPARSUF_Zero ;
-+N:l%{oö%}i PLINSSUF ;
-+N: Noun-NB-loi ;
++N: NMN_RUNO   ;
+
+LEXICON NMN_RUNO !!= @CODE@ runo:runo
+	SGNOMSUF ;
+ 	SGPARSUF_A2 ;
+:l%{oö%}i PLGENSUF ;
+:l%{oö%}i PLPARSUF_Zero ;
+:l%{oö%}i PLINSSUF ;
+ 	  Noun-NB-loi ;
 
 !! NMN
 LEXICON NMN_NIMI
@@ -230,17 +269,17 @@ LEXICON NMN_NIMI-PL
 :i Noun-NB-loi ;
 
 
-LEXICON NMN_ANUS !!= @CODE@ Anus:Anuks
-	NMN_ANUS-SG ;
-	NMN_ANUS-PL ;
+LEXICON NMN_ALUS !!= @CODE@ Anus:Anuks
+	NMN_ALUS-SG ;
+	NMN_ALUS-PL ;
 
-LEXICON NMN_ANUS-SG
+LEXICON NMN_ALUS-SG
 +N:%^KS2S SGNOMSUF ;
 +N:e SGGENSUF ;
 +N:%^KS2S SGPARSUF_dU ;
 +N+Sg:e Noun-NB-01 ;
 
-LEXICON NMN_ANUS-PL
+LEXICON NMN_ALUS-PL
 +N:e PLNOMSUF ;
 +N:%>ie PLGENSUF ; ! the plural comitative is declined here
 +N:%>i PLPARSUF_i ;
@@ -256,15 +295,21 @@ LEXICON NMN_KUU
 +Sg: Noun-NB-01 ;
 : Noun-NB-loi ;
 
-LEXICON NMN_KALA !!= @CODE@ 
+LEXICON NMN_KALA !!= @CODE@
+	NMN_KALA-SG  ; 
+	NMN_KALA-PL  ;
+LEXICON NMN_KALA-SG
  SGNOMSUF ;
  SGGENSUF ;
  SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_KALA-PL
  PLNOMSUF ;
 :i PLGENSUF ;
 :i PLPARSUF_a ;
 :i PLINSSUF ;
-: Noun-NB-i ;
++Pl:%>i Noun-NB-01 ;
 
 LEXICON NMN_KARJAL !!= @CODE@ karjal:karjal
  SGNOMSUF ;
@@ -277,14 +322,60 @@ LEXICON NMN_KARJAL !!= @CODE@ karjal:karjal
 +Pl:%>%{oö%}i Noun-NB-01 ;
 
 
+LEXICON NMN_PEREH !!= @CODE@ pereh:pereh
+	NMN_PEREH-SG	;
+	NMN_PEREH-PL	;
+LEXICON NMN_PEREH-SG
+ SGNOMSUF ;
+:e SGGENSUF ;
+ SGPARSUF_dU ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_PEREH-PL
+:ie PLGENSUF ;
+:i PLPARSUF_i ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
+
+LEXICON NMN_PENGER !!= @CODE@ penger:penger
+	NMN_PENGER-SG	;
+	NMN_PENGER-PL	;
+LEXICON NMN_PENGER-SG
+ SGNOMSUF ;
+:e SGGENSUF ;
+ SGPARSUF_dU ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_PENGER-PL
+:ie PLGENSUF ;
+:i PLPARSUF_i ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
+
 LEXICON NMN_ARTELI !!= @CODE@ arteli:arteli
+	NMN_ARTELI-SG ;
+	NMN_ARTELI-PL ;
+LEXICON NMN_ARTELI-SG
  SGNOMSUF ;
  SGGENSUF ;
  SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+LEXICON NMN_ARTELI-PL
 :i PLGENSUF ;
 :%>l%{oö%}i PLPARSUF_Zero ;
 :%>l%{oö%}i PLINSSUF ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
+
+LEXICON NMN_REBOI !!= @CODE@ reboi:reboi
+        NMN_REBOI-SG ;
+        NMN_REBOI-PL ;
+LEXICON NMN_REBOI-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
 +Sg: Noun-NB-01 ;
+LEXICON NMN_REBOI-PL
+:i PLGENSUF ;
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_OZA !!= @CODE@ oza:oza
