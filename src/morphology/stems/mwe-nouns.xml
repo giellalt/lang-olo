@@ -1,73 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l pos="N">oma randu</l>
-         <stg>
-            <st Contlex="N_MUARJU">oma randa</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="fin">
-            <t>kotiseutu</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="N">paha lykky</l>
-         <stg>
-            <st Contlex="N_">paha lykky</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="fin">
-            <t>huono onni</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="N">pahan ruadai</l>
-         <stg>
-            <st Contlex="N_KANDAI">pahan ruadai</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="fin">
-            <t>pahatekijä</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="N">pahan ruado</l>
-         <stg>
-            <st Contlex="N_RUNO">pahan ruado</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="fin">
-            <t>pahanteko</t>
-         </tg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e exclude="fst">
+    <lg>
+      <l pos="N">paimendandu kohta</l>
+
+      <stg>
+        <st Contlex="N_PÄIVY">paimendandu kohta</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>paimentaminen, paimennus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">peittožile kiža</l>
+
+      <stg>
+        <st Contlex="N_KALA">peittožile kiža</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>leikkiä kuurupiiloa, olla piilosilla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">peräh ando</l>
+
+      <stg>
+        <st Contlex="N_RUNO">peräh ando</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>periksianto, höltyminen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">perän ajo</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">perän ajo</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>tukinuitto</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">oma randu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">oma randa</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>kotiseutu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">paha lykky</l>
+
+      <stg>
+        <st Contlex="N_">paha lykky</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>huono onni</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">pahan ruadai</l>
+
+      <stg>
+        <st Contlex="N_KANDAI">pahan ruadai</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>pahatekijä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">pahan ruado</l>
+
+      <stg>
+        <st Contlex="N_RUNO">pahan ruado</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>pahanteko</t>
+      </tg>
+    </mg>
+  </e>
 </r>
