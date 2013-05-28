@@ -240,15 +240,13 @@ LEXICON N_KIELINE !!= @CODE@ kieline:kieli
 +N: NMN_KIELINE ;
 
 LEXICON N_RUNO !!= @CODE@ runo:runo
-+N: NMN_RUNO   ;
+	 N_RUNO-SG ;
+	 N_RUNO-PL ;
 
-LEXICON NMN_RUNO !!= @CODE@ runo:runo
-	SGNOMSUF ;
- 	SGPARSUF_A2 ;
-:l%{oö%}i PLGENSUF ;
-:l%{oö%}i PLPARSUF_Zero ;
-:l%{oö%}i PLINSSUF ;
- 	  Noun-NB-loi ;
+LEXICON N_RUNO-SG
++N: NMN_RUNO-SG   ;
+LEXICON N_RUNO-PL
++N: NMN_RUNO-PL   ;
 
 !! NMN
 LEXICON NMN_NIMI
@@ -268,6 +266,21 @@ LEXICON NMN_NIMI-PL
 :il%{oö%}i PLINSSUF ;
 :i Noun-NB-loi ;
 
+
+LEXICON NMN_RUNO !!= @CODE@ runo:runo
+	NMN_RUNO-SG ;
+	NMN_RUNO-PL ;
+
+LEXICON NMN_RUNO-SG
+	SGNOMSUF ;
+ 	SGPARSUF_A2 ;
+	SGGENSUF ;
++Sg: 	Noun-NB-01 ;
+LEXICON NMN_RUNO-PL
+:l%{oö%}i PLGENSUF ;
+:l%{oö%}i PLPARSUF_Zero ;
+:l%{oö%}i PLINSSUF ;
+ 	  Noun-NB-loi ;
 
 LEXICON NMN_ALUS !!= @CODE@ Anus:Anuks
 	NMN_ALUS-SG ;
