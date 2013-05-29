@@ -230,23 +230,38 @@ LEXICON VR_RODIEKSEH !!= @CODE@ rodiekseh:rodi
 LEXICON VR_AVATA !!= @CODE@ avatakseh:ava (typätäkseh:typpä)
  VR_ ;
 
+LEXICON VR_SUVAIJAKSEH !!= @CODE@ emändöijäkseh:emändöi
+!Verbs of the Finnish type 5
+:čče VR-LONGSTEM_ ;
+ VR-SHORTSTEM_ ;
+
+
+
 LEXICON VR_
+	VR-LONGSTEM_ ;
+	VR-SHORTSTEM_ ;
+LEXICON VR-LONGSTEM_
 +V+Ind+Prs+RcSg1:%^WEAK%>mm%{oö%}s	K	;
 +V+Ind+Prs+RcSg2:%^WEAK%>tt%{oö%}s	K	;
 +V+Ind+Prs+RcSg3:%^WEAK%>h	K	;
 +V+Ind+Prs+RcPl1:%^WEAK%>mm%{oö%}kseh	K	;
 +V+Ind+Prs+RcPl2:%^WEAK%>tt%{oö%}kseh	K	;
-+V+Ind+Prs+RcPl3:%^WEAK%>j%{aä%}h	K	;
-+V+Ind+Prs+RcSg+ConNeg:%^WEAK%>	K	;
-+V+Ind+Prs+RcPl1+ConNeg:%^WEAK%>	K	;
-+V+Ind+Prs+RcPl2+ConNeg:%^WEAK%>	K	;
-+V+Ind+Prs+RcPl3+ConNeg:%^WEAK%>j%{aä%}	K	;
 
 +V+Ind+Prt+RcSg1:%>mm%{oö%}s	K	;
 +V+Ind+Prt+RcSg2:%>tt%{oö%}s	K	;
 +V+Ind+Prt+RcSg3:%>h	K	;
 +V+Ind+Prt+RcPl1:%>mm%{oö%}kseh	K	;
 +V+Ind+Prt+RcPl2:%>tt%{oö%}kseh	K	;
+
+LEXICON VR-SHORTSTEM_
++V+Ind+Prs+RcPl3:%^WEAK%>j%{aä%}h	K	;
++V+Ind+Prs+RcSg+ConNeg:%^WEAK%>	K	;
++V+Ind+Prs+RcPl1+ConNeg:%^WEAK%>	K	;
++V+Ind+Prs+RcPl2+ConNeg:%^WEAK%>	K	;
+
++V+Ind+Prs+RcPl3+ConNeg:%^WEAK%>j%{aä%}	K	;
+
+
 +V+Ind+Prt+RcPl3:%>ttih	K	;
 +V+Ind+Prt+RcSg+ConNeg:%>n%{uy%}h	K	;
 +V+Ind+Prt+RcPl1+ConNeg:%>n%{uy%}h	K	;
