@@ -34,6 +34,34 @@
 
   <e>
     <lg>
+      <l pos="Prop">Suomi</l>
+
+      <stg>
+        <st Contlex="PROP_NIMI">Suom</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>Finland</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>Suomi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Anus</l>
 
       <stg>

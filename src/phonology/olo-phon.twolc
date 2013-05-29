@@ -185,6 +185,10 @@ A2:a <=> [ a: ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t
 a:u <=> Cns _ [ a | %> [ %{aä%}:a | A2:a ] ]; !!
         _ %^A2U:0 ;
 
+!! Diphthong ä+ä => iä
+"ä:i before subsequent A2"
+ä:i <=> Cns _ [ ä | %> [ %{aä%}:ä | A2:ä ] ]; !!
+
 !! Diphthong o+o => uo erota:eruou
 "o:u before subsequent o"
 o:u <=> Cns _ %> [ %{aä%}:o ] ; !!
