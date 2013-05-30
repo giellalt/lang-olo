@@ -34,6 +34,9 @@ LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 LEXICON A_OZA !!= @CODE@ oza:oza
 +A: NMN_OZA ;
 
+LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
++A: NMN_PÄIVY ;
+
 LEXICON A_ARMAS !!= @CODE@ armas:arma
 +A:%^WEAK%>s SGNOMSUF ;
 +A:%^WEAK%>s SGPARSUF_dU ;
