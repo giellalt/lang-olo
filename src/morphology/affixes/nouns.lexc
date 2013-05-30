@@ -229,15 +229,24 @@ LEXICON N_PÄIVY-PL
 +N: NMN_PÄIVY-PL	;
 
 LEXICON N_KOIVU !!= @CODE@ koivu:koivu
-+N: SGNOMSUF ;
-+N: SGGENSUF ;
-+N: SGPARSUF_A2 ;
-+N: PLNOMSUF ;
-+N:%>l%{oö%}i PLGENSUF ; ! the plural comitative is declined here
-+N:%>l%{oö%}i PLPARSUF_Zero ;
-+N:%>l%{oö%}i PLINSSUF ;
-+N+Sg: Noun-NB-01 ;
-+N+Pl:%>lO1i Noun-NB-01 ;
+        N_KOIVU-SG ;
+        N_KOIVU-PL ;
+
+LEXICON N_KOIVU-SG
++N: NMN_KOIVU-SG        ;
+
+LEXICON N_KOIVU-PL
++N: NMN_KOIVU-PL        ;
+
+LEXICON N_VALGEI !!= @CODE@ valgei:valge
+        N_VALGEI-SG ;
+        N_VALGEI-PL ;
+
+LEXICON N_VALGEI-SG
++N: NMN_VALGEI-SG        ;
+
+LEXICON N_VALGEI-PL
++N: NMN_VALGEI-PL        ;
 
 LEXICON N_KIELINE !!= @CODE@ kieline:kieli
 +N: NMN_KIELINE ;
@@ -304,6 +313,44 @@ LEXICON NMN_PÄIVY-PL
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
 +Pl:%>i Noun-NB-01 ;
+
+LEXICON NMN_KOIVU !!= @CODE@ koivu:koivu
+        NMN_KOIVU-SG ;
+        NMN_KOIVU-PL ;
+
+LEXICON NMN_KOIVU-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_KOIVU-PL
+ PLNOMSUF ;
+:%>l%{oö%}i PLGENSUF ; ! the plural comitative is declined here
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
++Pl:%>lO1i Noun-NB-01 ;
+
+
+LEXICON NMN_VALGEI
+	NMN_VALGEI-SG	;
+	NMN_VALGEI-PL	;
+
+LEXICON NMN_VALGEI-SG
+:i SGNOMSUF ;
+:e SGPARSUF_A2 ;
+:e SGGENSUF ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_VALGEI-PL
+:e PLNOMSUF	;
+:%>ie PLGENSUF ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
+:il%{oö%}i PLGENSUF ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
+:i Noun-NB-loi ;
+
 
 LEXICON NMN_PIENAR
 	NMN_PIENAR-SG	;
