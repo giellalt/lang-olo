@@ -182,6 +182,17 @@ LEXICON N_NIMI-SG
 LEXICON N_NIMI-PL
 +N: NMN_NIMI-PL ;
 
+LEXICON N_PIENAR !!= @CODE@ pienar:piendar
+        N_PIENAR-SG  ;
+        N_PIENAR-PL  ;
+
+LEXICON N_PIENAR-SG
++N: NMN_PIENAR-SG ;
+
+LEXICON N_PIENAR-PL
++N: NMN_PIENAR-PL ;
+
+
 LEXICON N_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
 +N:i SGNOMSUF ;
 +N:e SGGENSUF ;
@@ -251,6 +262,7 @@ LEXICON NMN_NIMI-SG
 :e SGGENSUF ;
 +Sg:e Noun-NB-01 ;
 LEXICON NMN_NIMI-PL
+:e PLNOMSUF	;
 :%>ie PLGENSUF ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
@@ -276,6 +288,10 @@ LEXICON NMN_VUOZI-PL
 :%^T2Z%>i PLINSSUF ;
 +Pl:%^T2Z%>i Noun-NB-01 ;
 
+LEXICON NMN_PÄIVY
+ NMN_PÄIVY-SG ;
+ NMN_PÄIVY-PL ;
+
 LEXICON NMN_PÄIVY-SG
 :%^A2U SGNOMSUF ;
  SGGENSUF ;
@@ -288,6 +304,25 @@ LEXICON NMN_PÄIVY-PL
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
 +Pl:%>i Noun-NB-01 ;
+
+LEXICON NMN_PIENAR
+	NMN_PIENAR-SG	;
+	NMN_PIENAR-PL	;
+
+LEXICON NMN_PIENAR-SG
+:%^WEAK SGNOMSUF ;
+:%^WEAK SGPARSUF_dU ;
+:e SGGENSUF ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_PIENAR-PL
+:e PLNOMSUF	;
+:%>ie PLGENSUF ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
+:il%{oö%}i PLGENSUF ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
+:i Noun-NB-loi ;
 
 LEXICON NMN_RUNO !!= @CODE@ runo:runo
 	NMN_RUNO-SG ;
