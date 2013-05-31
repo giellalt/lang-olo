@@ -124,13 +124,19 @@ Livvi nouns inflect in cases.
 
  LEXICON N_PEREH  pereh:pereh
 
+
+ LEXICON N_PENGER  penger:penger
+
+
  LEXICON N_ARTELI  arteli:arteli
+
+ LEXICON N_REBOI  reboi:reboi
 
  LEXICON N_KIELI  kieli:kiel
 
- LEXICON N_ANUS  aigomus:aigomuks
+ LEXICON N_ALUS  aigomus:aigomuks
 
- LEXICON N_ANUS-PL  aigomus:aigomuks
+ LEXICON N_ALUS-PL  aigomus:aigomuks
 
  LEXICON N_OLUT  olut:olu
 
@@ -143,7 +149,11 @@ Livvi nouns inflect in cases.
 
  LEXICON N_OZA  oza:oza
 
+
+
  LEXICON N_ARMAS  armas:arma
+
+ LEXICON NMN_ARMAS  armas:arma
 
  LEXICON N_PAREMBI  parembi:paremb
 
@@ -153,7 +163,14 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON N_PIENAR  pienar:piendar
+
+
+
+
  LEXICON N_LAPSI  lapsi:laps lapsi:laps
+
+ LEXICON N_VEZI  vezi:vet
 
  LEXICON N_VUOZI  vuozi:vuot
 
@@ -161,31 +178,68 @@ Livvi nouns inflect in cases.
 
 
 
-
-
  LEXICON N_KOIVU  koivu:koivu
+
+
+
+ LEXICON N_VALGEI  valgei:valge
+
+
 
  LEXICON N_KIELINE  kieline:kieli
 
  LEXICON N_RUNO  runo:runo
 
+
 NMN
 
 
 
- LEXICON NMN_ANUS  Anus:Anuks
 
 
 
 
- LEXICON NMN_KALA  
+
+
+ LEXICON NMN_KOIVU  koivu:koivu
+
+
+
+
+
+
+
+
+
+ LEXICON NMN_RUNO  runo:runo
+
+
+ LEXICON NMN_ALUS  Anus:Anuks
+
+
+
+
+ LEXICON NMN_KUU  kuu:kuu
+
+
+
+ LEXICON NMN_KALA 
+
 
  LEXICON NMN_KARJAL  karjal:karjal
 
 
+ LEXICON NMN_PEREH  pereh:pereh
+
+ LEXICON NMN_PENGER  penger:penger
+
  LEXICON NMN_ARTELI  arteli:arteli
 
+ LEXICON NMN_REBOI  reboi:reboi
+
  LEXICON NMN_OZA  oza:oza
+
+
 
 
 
@@ -265,6 +319,14 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
  LEXICON VR_RODIEKSEH  rodiekseh:rodi
 
  LEXICON VR_AVATA  avatakseh:ava (typätäkseh:typpä)
+
+ LEXICON VR_SUVAIJAKSEH  emändöijäkseh:emändöi
+
+
+
+
+
+
 
 
 
