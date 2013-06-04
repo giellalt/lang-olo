@@ -53,6 +53,15 @@ LEXICON N_KARJALAINE-SG
 LEXICON N_KARJALAINE-PL
 +N:    NMN_KARJALAINE-PL	 ;
 
+LEXICON N_RAIŠ !!= @CODE@ raiš:ra
+	N_RAIŠ-SG	;
+	N_RAIŠ-PL	;
+LEXICON N_RAIŠ-SG
++N:	NMN_RAIŠ-SG	;
+
+LEXICON N_RAIŠ-PL
++N:	NMN_RAIŠ-PL	;
+
 LEXICON N_PEREH !!= @CODE@ pereh:pereh
 	N_PEREH-SG	;
 	N_PEREH-PL	;
@@ -71,13 +80,15 @@ LEXICON N_PENGER-SG
 LEXICON N_PENGER-PL
 +N:	NMN_PENGER-PL	;
 
-LEXICON N_ARTELI !!= @CODE@ arteli:arteli
-	N_ARTELI-SG ;
-	N_ARTELI-PL ;
-LEXICON N_ARTELI-SG
-+N: NMN_ARTELI-SG ;
-LEXICON N_ARTELI-PL
-+N: NMN_ARTELI-PL ;
+LEXICON N_ARTELI
+ N_PAPPI ;
+LEXICON N_PAPPI !!= @CODE@ arteli:arteli
+	N_PAPPI-SG ;
+	N_PAPPI-PL ;
+LEXICON N_PAPPI-SG
++N: NMN_PAPPI-SG ;
+LEXICON N_PAPPI-PL
++N: NMN_PAPPI-PL ;
 
 LEXICON N_REBOI !!= @CODE@ reboi:reboi
         N_REBOI-SG ;
@@ -97,6 +108,9 @@ LEXICON N_KIELI !!= @CODE@ kieli:kiel
 +N:i PLPARSUF_i ;
 +N:i PLINSSUF ;
 +N+Pl:i Noun-NB-01 ;
+
+LEXICON N_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
++N: NMN_PUHTAHUS ;
 
 LEXICON N_ALUS !!= @CODE@ aigomus:aigomuks
 +N: NMN_ALUS ;
@@ -130,6 +144,9 @@ LEXICON NMN_MUARJU
 :%>oi PLPARSUF_a ;
 :%>oi PLINSSUF ;
 +Pl:%>oi Noun-NB-01 ;
+
+LEXICON N-HUM_KALA
++N+Hum: NMN_KALA ;
 
 LEXICON N_KALA !!= @CODE@ kala:kala
 	N_KALA-SG  ;
@@ -386,7 +403,26 @@ LEXICON NMN_RUNO-PL
 :l%{oö%}i PLINSSUF ;
  	  Noun-NB-loi ;
 
-LEXICON NMN_ALUS !!= @CODE@ Anus:Anuks
+
+LEXICON NMN_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
+	NMN_PUHTAHUS-SG ;
+	NMN_PUHTAHUS-PL ;
+
+LEXICON NMN_PUHTAHUS-SG
++N:s SGNOMSUF ;
++N:%{oö%} SGGENSUF ;
++N:t SGPARSUF_dU ;
++N+Sg:%{oö%} Noun-NB-01 ;
+
+LEXICON NMN_PUHTAHUS-PL
++N:%{oö%} PLNOMSUF ;
++N:z%>ie PLGENSUF ; ! the plural comitative is declined here
++N:z%>i PLPARSUF_i ;
++N:z%>i PLINSSUF ;
++N+Pl:zi Noun-NB-01 ;
+
+
+LEXICON NMN_ALUS !!= @CODE@ alus:aluks
 	NMN_ALUS-SG ;
 	NMN_ALUS-PL ;
 
@@ -458,6 +494,22 @@ LEXICON NMN_KARJAL !!= @CODE@ karjal:karjal
 +Pl:%>%{oö%}i Noun-NB-01 ;
 
 
+LEXICON NMN_RAIŠ !!= @CODE@ raiš:ra
+	NMN_RAIŠ-SG	;
+	NMN_RAIŠ-PL	;
+LEXICON NMN_RAIŠ-SG
+:iš SGNOMSUF ;
+:gehe SGGENSUF ;
+:iš SGPARSUF_dU ;
++Sg:gehe Noun-NB-01 ;
+LEXICON NMN_RAIŠ-PL
+:gehe PLNOMSUF ;
+:gehie PLGENSUF ;
+:gehi PLPARSUF_i ;
+:gehi PLINSSUF ;
++Pl:gehi Noun-NB-01 ;
+
+
 LEXICON NMN_PEREH !!= @CODE@ pereh:pereh
 	NMN_PEREH-SG	;
 	NMN_PEREH-PL	;
@@ -486,15 +538,18 @@ LEXICON NMN_PENGER-PL
 :i PLINSSUF ;
 +Pl:i Noun-NB-01 ;
 
-LEXICON NMN_ARTELI !!= @CODE@ arteli:arteli
-	NMN_ARTELI-SG ;
-	NMN_ARTELI-PL ;
-LEXICON NMN_ARTELI-SG
+LEXICON NMN_ARTELI
+	NMN_PAPPI ;
+
+LEXICON NMN_PAPPI !!= @CODE@ arteli:arteli
+	NMN_PAPPI-SG ;
+	NMN_PAPPI-PL ;
+LEXICON NMN_PAPPI-SG
  SGNOMSUF ;
  SGGENSUF ;
  SGPARSUF_A2 ;
 +Sg: Noun-NB-01 ;
-LEXICON NMN_ARTELI-PL
+LEXICON NMN_PAPPI-PL
 :i PLGENSUF ;
 :%>l%{oö%}i PLPARSUF_Zero ;
 :%>l%{oö%}i PLINSSUF ;
