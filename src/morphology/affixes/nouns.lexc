@@ -36,12 +36,56 @@ LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizii
 +N:%>%{oö%} Noun-NB-01 ;
 
 LEXICON N_HUOLETOI !!= @CODE@ huoletoi: huolet
-+N:%{oö%}i SGNOMSUF ;
-+N:t%{oö%}ma SGPARSUF_A2 ;
-+N:t%{oö%}mie PLGENSUF ;
-+N:t%{oö%}mi PLPARSUF_i ;
-+N:t%{oö%}mi PLINSSUF ;
-+N:t%{oö%}ma Noun-NB-i ;
+ N_HUOLETOI-SG ;
+ N_HUOLETOI-PL ;
+
+LEXICON N_HUOLETOI-SG
++N: NMN_HUOLETOI-SG ;
+
+LEXICON N_HUOLETOI-PL
++N: NMN_HUOLETOI-PL ;
+
+LEXICON NMN_HUOLETOI !!= @CODE@ huoletoi: huolet
+ NMN_HUOLETOI-SG ;
+ NMN_HUOLETOI-PL ;
+
+LEXICON NMN_HUOLETOI-SG	
+:%{oö%}i SGNOMSUF ;
+:t%{oö%}ma SGGENSUF ;
+:t%{oö%}ma SGPARSUF_A2 ;
++Sg:t%{oö%}ma Noun-NB-01 ;
+LEXICON NMN_HUOLETOI-PL	
+:t%{oö%}m%{aä%} PLNOMSUF ;
+:t%{oö%}mie PLGENSUF ;
+:t%{oö%}mi PLPARSUF_i ;
+:t%{oö%}mi PLINSSUF ;
++Pl:t%{oö%}mi Noun-NB-01 ;
+
+LEXICON N_VANUIN !!= @CODE@ vanuin:vanui
+ N_VANUIN-SG ;
+ N_VANUIN-PL ;
+
+LEXICON N_VANUIN-SG
++N: NMN_VANUIN-SG ;
+
+LEXICON N_VANUIN-PL
++N: NMN_VANUIN-PL ;
+
+LEXICON NMN_VANUIN !!= @CODE@ vanuin:vanui
+ NMN_VANUIN-SG ;
+ NMN_VANUIN-PL ;
+
+LEXICON NMN_VANUIN-SG	
+:n SGNOMSUF ;
+:me SGGENSUF ;
+:n SGPARSUF_A2 ;
++Sg:me Noun-NB-01 ;
+LEXICON NMN_VANUIN-PL	
+:me PLNOMSUF ;
+:mie PLGENSUF ;
+:mi PLPARSUF_i ;
+:mi PLINSSUF ;
++Pl:mi Noun-NB-01 ;
 
 LEXICON N_KARJALAINE !!= @CODE@ karjalaine:karjala
  N_KARJALAINE-SG     ;
@@ -132,13 +176,24 @@ LEXICON N_KUU !!= @CODE@ kuu:kuu
 +N: NMN_KUU ;
 
 LEXICON N_MUARJU !!= @CODE@ muarju:muarja
-+N: NMN_MUARJU ;
+ N_MUARJU-SG ;
+ N_MUARJU-PL ;
 
-LEXICON NMN_MUARJU
+LEXICON N_MUARJU-SG
++N: NMN_MUARJU-SG ;
+LEXICON N_MUARJU-PL
++N: NMN_MUARJU-PL ;
+
+LEXICON NMN_MUARJU !!= @CODE@ muarju:muarja
+ NMN_MUARJU-SG ;
+ NMN_MUARJU-PL ;
+
+LEXICON NMN_MUARJU-SG
 :%^A2U SGNOMSUF ;
  SGGENSUF ;
  SGPARSUF_A2 ;
 +Sg: Noun-NB-01 ;
+LEXICON NMN_MUARJU-PL
  PLNOMSUF ;
 :%>oi PLGENSUF ; ! the plural comitative is declined here
 :%>oi PLPARSUF_a ;
@@ -179,12 +234,30 @@ LEXICON NMN_ARMAS !!= @CODE@ armas:arma
  NMN_ARMAS-PL        ;
 
 LEXICON N_PAREMBI !!= @CODE@ parembi:paremb
-+N:i SGNOMSUF ;
-+N:%{aä%} SGPARSUF_A2 ;
-+N:ie PLGENSUF ;
-+N:i PLPARSUF_i ;
-+N:i PLINSSUF ;
-+N:%{aä%} Noun-NB-i ;
+ N_PAREMBI-SG	  ;
+ N_PAREMBI-PL	  ;
+
+LEXICON N_PAREMBI-SG
++N: NMN_PAREMBI-SG   ;
+LEXICON N_PAREMBI-PL
++N: NMN_PAREMBI-PL   ;
+
+LEXICON NMN_PAREMBI !!= @CODE@ parembi:paremb
+ NMN_PAREMBI-SG	  ;
+ NMN_PAREMBI-PL	  ;
+
+LEXICON NMN_PAREMBI-SG
+:i SGNOMSUF ;
+:%{aä%} SGGENSUF ;
+:%{aä%} SGPARSUF_A2 ;
++Sg:%{aä%} Noun-NB-01 ;
+
+LEXICON NMN_PAREMBI-PL
+:%{aä%} PLNOMSUF ;
+:ie PLGENSUF ;
+:i PLPARSUF_i ;
+:i PLINSSUF ;
++Pl: Noun-NB-01 ;
 
 LEXICON N_KOIRU !!= @CODE@ koiru:koira
  N_PÄIVY ;
