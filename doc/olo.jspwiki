@@ -118,8 +118,23 @@ Livvi nouns inflect in cases.
 
  LEXICON N_HUOLETOI  huoletoi: huolet
 
+
+
+ LEXICON NMN_HUOLETOI  huoletoi: huolet
+
+
+ LEXICON N_VANUIN  vanuin:vanui
+
+
+
+ LEXICON NMN_VANUIN  vanuin:vanui
+
+
  LEXICON N_KARJALAINE  karjalaine:karjala
 
+
+
+ LEXICON N_RAIŠ  raiš:ra
 
 
  LEXICON N_PEREH  pereh:pereh
@@ -128,11 +143,13 @@ Livvi nouns inflect in cases.
  LEXICON N_PENGER  penger:penger
 
 
- LEXICON N_ARTELI  arteli:arteli
+ LEXICON N_PAPPI  arteli:arteli
 
  LEXICON N_REBOI  reboi:reboi
 
  LEXICON N_KIELI  kieli:kiel
+
+ LEXICON N_PUHTAHUS  puhtahus:puhtahu
 
  LEXICON N_ALUS  aigomus:aigomuks
 
@@ -143,6 +160,10 @@ Livvi nouns inflect in cases.
  LEXICON N_KUU  kuu:kuu
 
  LEXICON N_MUARJU  muarju:muarja
+
+
+ LEXICON NMN_MUARJU  muarju:muarja
+
 
 
  LEXICON N_KALA  kala:kala
@@ -156,6 +177,11 @@ Livvi nouns inflect in cases.
  LEXICON NMN_ARMAS  armas:arma
 
  LEXICON N_PAREMBI  parembi:paremb
+
+
+ LEXICON NMN_PAREMBI  parembi:paremb
+
+
 
  LEXICON N_KOIRU  koiru:koira
 
@@ -214,7 +240,13 @@ NMN
  LEXICON NMN_RUNO  runo:runo
 
 
- LEXICON NMN_ALUS  Anus:Anuks
+
+ LEXICON NMN_PUHTAHUS  puhtahus:puhtahu
+
+
+
+
+ LEXICON NMN_ALUS  alus:aluks
 
 
 
@@ -229,11 +261,15 @@ NMN
  LEXICON NMN_KARJAL  karjal:karjal
 
 
+ LEXICON NMN_RAIŠ  raiš:ra
+
+
  LEXICON NMN_PEREH  pereh:pereh
 
  LEXICON NMN_PENGER  penger:penger
 
- LEXICON NMN_ARTELI  arteli:arteli
+
+ LEXICON NMN_PAPPI  arteli:arteli
 
  LEXICON NMN_REBOI  reboi:reboi
 
