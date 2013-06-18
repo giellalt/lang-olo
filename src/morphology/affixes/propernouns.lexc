@@ -22,6 +22,9 @@ LEXICON PROP_ARTELI !!= @CODE@
 LEXICON PROP_NIMI !!= @CODE@ nimi:nim
 +N+P: NMN_NIMI ;
 
+LEXICON PROP_PÄIVY !!= @CODE@ päivy:päivä
++N+P: NMN_PÄIVY ;
+
 LEXICON PROP_ALUS !!= @CODE@ Alus:Aluks
 +N+Prop: NMN_ALUS ;
 
