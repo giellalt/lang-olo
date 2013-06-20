@@ -16,8 +16,33 @@ LEXICON N_KARJAL !!= @CODE@ karjal:karjal
 +N:%{oö%}i PLINSSUF ;
 +N:%{aä%} Noun-NB-i ;
 
-LEXICON N_PIIRAI !!= @CODE@ piirai:piirua CHECK THIS
- N_KANDAI ;
+LEXICON N_PIIRAI !!= @CODE@ piirai:piira CHECK THIS
+        N_PIIRAI-SG ;
+        N_PIIRAI-PL ;
+
+LEXICON N_PIIRAI-SG
++N: NMN_PIIRAI-SG ;
+
+LEXICON N_PIIRAI-PL
++N: NMN_PIIRAI-PL ;
+
+LEXICON NMN_PIIRAI !!= @CODE@ piirai:piira
+	NMN_PIIRAI-SG ;
+	NMN_PIIRAI-PL ;
+
+LEXICON NMN_PIIRAI-SG
+:i SGNOMSUF ;
+:a SGGENSUF ;
+:a SGPARSUF_dU ;
++Sg:%{aä%} Noun-NB-01 ;
+
+LEXICON NMN_PIIRAI-PL
+:a PLNOMSUF ;
++N:al%{oö%}i PLGENSUF ;
++N:al%{oö%}i PLPARSUF_Zero ;
++N:al%{oö%}i PLINSSUF ;
++Pl:al%{oö%}i Noun-NB-01 ;
+
 
 LEXICON N_KANDAI !!= @CODE@ kandai:kandai
 +N: SGNOMSUF ;
