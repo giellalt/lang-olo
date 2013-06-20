@@ -16,6 +16,9 @@ LEXICON N_KARJAL !!= @CODE@ karjal:karjal
 +N:%{oö%}i PLINSSUF ;
 +N:%{aä%} Noun-NB-i ;
 
+LEXICON N_PIIRAI !!= @CODE@ piirai:piirua CHECK THIS
+ N_KANDAI ;
+
 LEXICON N_KANDAI !!= @CODE@ kandai:kandai
 +N: SGNOMSUF ;
 +N:%{aä%} SGPARSUF_A2 ;
