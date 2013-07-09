@@ -1,6 +1,6 @@
-!! ================================================================ !
-!! The Livvi (Olonets) Karelian morphophonological/twolc rules file !
-!! ================================================================ !
+
+!! !!!The Livvi (Olonets) Karelian morphophonological/twolc rules file 
+
 
 
 Alphabet
@@ -159,87 +159,98 @@ GRC =  [ [ ( %>: ) %{aä%}: | %{oö%}: | %{uy%}: | Vws: | :Vws ] ( %>:  i )  |  
 Rules
 
 "%{aä%}:o"
+!! __@RULENAME@__
 %{aä%}:o <=> o: %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
          [ o: | u ] %> _ # ;
 
 ! Vowel harmony suffixes Back
 "%{aä%}:a"
+!! __@RULENAME@__
  %{aä%}:a <=> [ BTCons %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | # ] ;
 ! [ a: ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
 !    a: %> _ ;
 ! BT _   ( %>:  %^WEAK:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:  %^LCns:0 ( %^LVws:0 ) ) [ ( %>: ) [ Cns | %^WEAK:0 %>: [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | %{aä%}: | %^StretchSyll2:0 | i | %>: ( %^WEAK:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
 
 "%{aä%}:e"
+!! __@RULENAME@__
 %{aä%}:e <=> i %> _ # ;
 
 "%{aä%}:i"
+!! __@RULENAME@__
 %{aä%}:i <=> _ %> %{aä%}:ä ;
 
 "A2:a"
+!! __@RULENAME@__
 A2:a <=> [ a: ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
 
 
 
 !! Diphthong a+a => ua
 "a:u before subsequent a"
+!! __@RULENAME@__
 a:u <=> Cns _ [ a | %> [ %{aä%}:a | A2:a ] ]; !!
         _ %^A2U:0 ;
 
 !! Diphthong ä+ä => iä
 "ä:i before subsequent A2"
+!! __@RULENAME@__
 ä:i <=> Cns _ [ ä | %> [ %{aä%}:ä | A2:ä ] ]; !!
 
 !! Diphthong o+o => uo erota:eruou
 "o:u before subsequent o"
+!! __@RULENAME@__
 o:u <=> Cns _ %> [ %{aä%}:o ] ; !!
 
 ! Word final u, y
 "ä:y word final"
+!! __@RULENAME@__
 ä:y <=> _ %^A2U:0 ;
 
-!2013-04-29!! Stem vowel loss before plural "i"
+!2013-04-29! Stem vowel loss before plural "i"
 !2013-04-29!"StemVowLoss"
 !2013-04-29! X:Y <=> X _  %>: i  %>: ;
-!2013-04-29!!( %>:  %^WEAK:0 |  %>:  %^LCns:0 ) %>: [ i | i:j ] ;
+!2013-04-29!( %>:  %^WEAK:0 |  %>:  %^LCns:0 ) %>: [ i | i:j ] ;
 !2013-04-29!          where X in (e o ö)
 !2013-04-29!                Y in (0 0 0) matched ;
 !2013-04-29!
-!2013-04-29!! A loss
+!2013-04-29! A loss
 !2013-04-29!"StemALoss"
 !2013-04-29! X:Y <=>  _   ( %>: %^LCns:0 ) %>: i: %>: ;
 !2013-04-29!          where X in (a ä)
 !2013-04-29!                Y in (0 0) matched ;
 !2013-04-29!
-!2013-04-29!!€ osa%>^WCns%>i%>st
-!2013-04-29!!€ os0000i0st
+!2013-04-29!€ osa%>^WCns%>i%>st
+!2013-04-29!€ os0000i0st
 !2013-04-29!
-!2013-04-29!!%>%^LCnsi%>V1
-!2013-04-29!! AÄ1 loss
+!2013-04-29!%>%^LCnsi%>V1
+!2013-04-29! AÄ1 loss
 !2013-04-29!"StemAÄLoss"
 !2013-04-29! %{aä%}:0 <=> [ %{aä%}: | Cns: | :Cns ] _ ( %>: %^LCns:0 ) %>: i %>: ;
 !2013-04-29!
 ! Vowel shortening before subsequent "i"
 "a:0 in suaja:sai"
+!! __@RULENAME@__
 a:0 <=> a _ %> i ;
 
-!2013-04-29!! U loss [u:0 | y:0]
+!2013-04-29! U loss [u:0 | y:0]
 !2013-04-29!"StemULoss"
 !2013-04-29! X:Y <=> X _ %>:  i  %>: ;
-!2013-04-29!! ( %>:  %^WEAK:0 |  %>:  %^LCns:0 ) %>: i %>: ;
+!2013-04-29! ( %>:  %^WEAK:0 |  %>:  %^LCns:0 ) %>: i %>: ;
 !2013-04-29!         [ e | ä | a | o | ö ] _  [ t: | k: ] 0:v ;
 !2013-04-29!          where X in (u y ü)
 !2013-04-29!                Y in (0 0 0) matched ;
-!2013-04-29!!Vws:0 %>:  %^WEAK:0 %>: i: %>: 
+!2013-04-29! Vws:0 %>:  %^WEAK:0 %>: i: %>: 
 !2013-04-29!
-!2013-04-29!!€ maa%>i%>n
-!2013-04-29!!€ ma00i0n
+!2013-04-29!€ maa%>i%>n
+!2013-04-29!€ ma00i0n
 !2013-04-29!
-!2013-04-29!! Stem vowel "i" loss before plural "i"
+!2013-04-29! Stem vowel "i" loss before plural "i"
 !2013-04-29!"i:Zero"
 !2013-04-29! i:0 <=> i _ %>: i  %>: ;
 
 ! iToj between vowels
 "i:j"
+!! __@RULENAME@__
  i:j <=> :Vws ( %>:  %^LCns:0 ) %>: _ %>: :Vws ;
 !2013-04-29!         Vws _ Cns:0 Vws: ;
 !2013-04-29!!veitte%>%^WCnsttUY1%>%^LCns%>i%>AÄ1
@@ -247,26 +258,32 @@ a:0 <=> a _ %> i ;
 !2013-04-29!!€ emmooj00a
 
 "a:o in the plural and preterite"
+!! __@RULENAME@__
 a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 
 ! a to e in comparatives and passives
 "a:e"
+!! __@RULENAME@__
  a:e <=> _ %^WEAK:0 %^E1:0 ;
 
 !pidiä
 "ä:e piettih and in comparatives"
+!! __@RULENAME@__
 ä:e <=> i d: _ %^WEAK:0 %^E1:0 ;
 
 "ä:0 pidiä:pidi"
+!! __@RULENAME@__
 ä:0 <=> _ %> i ;
 
 
 ! Vowel harmony suffixes Back
 "%{oö%}:o"
+!! __@RULENAME@__
  %{oö%}:o <=>  BT ( %> ) _ ;
 
 ! Vowel harmony suffixes Back
 "%{uy%}:u"
+!! __@RULENAME@__
  %{uy%}:u <=>  [ BT | :VwsBack ] ( %> ) _ ;
 
 !2013-04-29!! Vws %>: %^LCns: V1:
@@ -375,9 +392,11 @@ a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 
 ! vuozi:vuvven
 "t:v"
+!! __@RULENAME@__  
 t:v <=> u o: _ e %^WEAK:0 ;
 
 "o:v Lengthening with Ut:vv weakening"
+!! __@RULENAME@__  
 o:v <=> u _ t: e %^WEAK:0 ;
 ![ #: ] Cns* Vws [ u: | y: ] [ t: | k: ]  _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 !2013-04-29!         [ #: ][ Cns* Vws | Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ] v _  ( :Vws | %{aä%}: ) [ 0:Vws %>: %^LCns: | %>: %^LCns: :0* :Vws ] ; ! arvattava:arvattavvaa
@@ -386,10 +405,12 @@ o:v <=> u _ t: e %^WEAK:0 ;
 
 ! vuozi:vuot
 "t:z"
+!! __@RULENAME@__  
 t:z <=> _ %^T2Z:0 %> i ;
 
 ! vuozi:vuot+d%{uy%}, armas:armas+d%{uy%}
 "d:t in partitive"
+!! __@RULENAME@__  
 d:t <=> [ t | s ] ( %^KS2S:0 ) %> _ ;
 
 !2013-04-29!
@@ -406,25 +427,29 @@ d:t <=> [ t | s ] ( %^KS2S:0 ) %> _ ;
 !2013-04-29!
 
 "rd:rr weakening"
+!! __@RULENAME@__  
 d:r <=>  Vws r %> _ GRC ;
 
 "ld:ll weakening"
+!! __@RULENAME@__  
 d:l <=>  Vws l %> _ GRC ;
 
 "nd:nn weakening"
+!! __@RULENAME@__  
 d:n <=>  Vws ( %^WEAK:0 %>: ) n %> _ GRC ;
 
 "ln:ll in prtprc"
+!! __@RULENAME@__  
 n:l <=> l %> _ %{uy%}: %^WEAK: h ;
 
-!2013-04-29!!! p
+!2013-04-29! p
 !2013-04-29!
 !2013-04-29!"mp:mm weakening"
 !2013-04-29!p:m <=> [ :Vws ( %^WEAK:0 %>: ) | [ a: | ä: ] %^WEAK:0 %>: %^E1:0 | %{aä%}: | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | %{aä%}: %^WEAK:0 %>: ( V3: ) Cns | %^TS:0 i %^WEAK:0 %>: ] ;
 !2013-04-29!        m _ Vws l %^WGStem:0 ; ! ompel- to ommel-
 !2013-04-29!! [ ( %>: ) :Vws ( 0: ) %^WEAK:0 %>: | Vws:0 %>: i: %^WEAK:0 %>: | Vws:0 %>:  %^WEAK:0 %>: i: %>: ] ;
-!2013-04-29!!%> %^WCns %^E1: mp
-!2013-04-29!!!
+!2013-04-29!%> %^WCns %^E1: mp
+!2013-04-29!
 !2013-04-29!
 !2013-04-29!"nk:ng weakening"
 !2013-04-29!k:g <=> [ #: ] Cns* Vws n _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
@@ -432,6 +457,7 @@ n:l <=> l %> _ %{uy%}: %^WEAK: h ;
 
 ! aika: ajan
 "kToZero"
+!! __@RULENAME@__  
 k:0 <=> _ s %^KS2S:0 ;
 
 !2013-04-29! [  #:  Cns* Vws (( r | i | VwsNonHigh ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
@@ -451,11 +477,13 @@ k:0 <=> _ s %^KS2S:0 ;
 
 ! luba : luvan
 "b:v"
+!! __@RULENAME@__  
 b:v <=> [ #: ] Cns* Vws ( r | l | Vws ) _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 
 !2013-04-29!"double pp to p"
 !2013-04-29!p:0 <=> [ #: Cns* Vws ( m ) p | #: Cns* Vws Vws p | Cns* Vws+ Cns+ Vws+ p ] _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 "p:0 in lapsi"
+!! __@RULENAME@__  
 p:0 <=> Vws _ s  %^KS2S:0  ;
 
 !2013-04-29!!! Vowel raising
@@ -466,7 +494,8 @@ p:0 <=> Vws _ s  %^KS2S:0  ;
 !2013-04-29!                Vy in (u y) matched ;
 
 !! Consonant loss
-"d:0" !! pidiä:piän
+"d:0" "
+!! __@RULENAME@__   pidiä:piän
 d:0 <=> Vws _ Vws: %^WEAK:0  ;
 
 
