@@ -185,21 +185,21 @@ A2:a <=> [ a: ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t
 
 
 
-!! Diphthong a+a => ua
+
 "a:u before subsequent a"
-!! __@RULENAME@__
-a:u <=> Cns _ [ a | %> [ %{aä%}:a | A2:a ] ]; !!
+!! __@RULENAME@__  Diphthong a+a => ua
+a:u <=> Cns _ [ a | %> [ %{aä%}:a | A2:a ] ]; 
         _ %^A2U:0 ;
 
-!! Diphthong ä+ä => iä
-"ä:i before subsequent A2"
-!! __@RULENAME@__
-ä:i <=> Cns _ [ ä | %> [ %{aä%}:ä | A2:ä ] ]; !!
 
-!! Diphthong o+o => uo erota:eruou
+"ä:i before subsequent A2"
+!! __@RULENAME@__  Diphthong ä+ä => iä
+ä:i <=> Cns _ [ ä | %> [ %{aä%}:ä | A2:ä ] ]; 
+
+ 
 "o:u before subsequent o"
-!! __@RULENAME@__
-o:u <=> Cns _ %> [ %{aä%}:o ] ; !!
+!! __@RULENAME@__ Diphthong o+o => uo erota:eruou
+o:u <=> Cns _ %> [ %{aä%}:o ] ; 
 
 ! Word final u, y
 "ä:y word final"
@@ -253,22 +253,22 @@ a:0 <=> a _ %> i ;
 !! __@RULENAME@__
  i:j <=> :Vws ( %>:  %^LCns:0 ) %>: _ %>: :Vws ;
 !2013-04-29!         Vws _ Cns:0 Vws: ;
-!2013-04-29!!veitte%>%^WCnsttUY1%>%^LCns%>i%>AÄ1
-!2013-04-29!!€ em0o0i%>%^LCnsAÄ1
-!2013-04-29!!€ emmooj00a
+!2013-04-29!veitte%>%^WCnsttUY1%>%^LCns%>i%>AÄ1
+!2013-04-29!€ em0o0i%>%^LCnsAÄ1
+!2013-04-29!€ emmooj00a
 
 "a:o in the plural and preterite"
 !! __@RULENAME@__
 a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 
-! a to e in comparatives and passives
+
 "a:e"
-!! __@RULENAME@__
+!! __@RULENAME@__  pidiä
  a:e <=> _ %^WEAK:0 %^E1:0 ;
 
-!pidiä
+
 "ä:e piettih and in comparatives"
-!! __@RULENAME@__
+!! __@RULENAME@__  pidiä
 ä:e <=> i d: _ %^WEAK:0 %^E1:0 ;
 
 "ä:0 pidiä:pidi"
@@ -276,14 +276,14 @@ a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 ä:0 <=> _ %> i ;
 
 
-! Vowel harmony suffixes Back
+
 "%{oö%}:o"
-!! __@RULENAME@__
+!! __@RULENAME@__ Vowel harmony suffixes Back
  %{oö%}:o <=>  BT ( %> ) _ ;
 
-! Vowel harmony suffixes Back
+
 "%{uy%}:u"
-!! __@RULENAME@__
+!! __@RULENAME@__ Vowel harmony suffixes Back
  %{uy%}:u <=>  [ BT | :VwsBack ] ( %> ) _ ;
 
 !2013-04-29!! Vws %>: %^LCns: V1:
@@ -297,12 +297,12 @@ a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 !2013-04-29! V1:e <=> [ e | i ] %>:  h  _ ;
 !2013-04-29!          e ( %>: %^LCns: ) %>:  _ ;
 !2013-04-29!
-!2013-04-29!! Illative i with no intermittent _h_
+!2013-04-29! Illative i with no intermittent _h_
 !2013-04-29!"V1:i"
 !2013-04-29! V1:i <=> i ( %>: %^LCns: ) %>: _ ;
 !2013-04-29!
-!2013-04-29!!  _mato:maool_ not allowed
-!2013-04-29!! Used with patsas type nominals
+!2013-04-29!  _mato:maool_ not allowed
+!2013-04-29! Used with patsas type nominals
 !2013-04-29!"V2:aeiouüäö"
 !2013-04-29! V2:Vx <=>  Vx ( h ( :h ) ) %>:  ( %^LCns:0 )  _ [ V2: | ( %>: ([ %^WEAK:0 | %^LCns:0 ] ( V3: ) ) )  Cns ] ;
 !2013-04-29!            Vx ( h ( :h ) ) %>:  ( %^LCns:0 | %^WEAK:0 ) V2: _ [ ( %>: )  Cns ]  ;
@@ -312,11 +312,11 @@ a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 !2013-04-29!"V2:Zero"
 !2013-04-29! V2:0 <=> Vws %>: _ %>: i: %>: ;
 !2013-04-29!
-!2013-04-29!!!!FROM HERE
+!2013-04-29!FROM HERE
 !2013-04-29!
-!2013-04-29!! Vowel lengthening for the inesive and adessive with V3
-!2013-04-29!!! This deals with secondary or perhaps pertary vowel lengthening
-!2013-04-29!! e.g. gen plural, ine, ade
+!2013-04-29! Vowel lengthening for the inesive and adessive with V3
+!2013-04-29! This deals with secondary or perhaps pertary vowel lengthening
+!2013-04-29! e.g. gen plural, ine, ade
 !2013-04-29!"V3:a"
 !2013-04-29! V3:a <=> :Cns :0* :a :0* _ ;
 !2013-04-29!
@@ -344,26 +344,26 @@ a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 !2013-04-29!"V3:Zero"
 !2013-04-29! V3:0 <=> :Vws :0* :Vws :0* _ ;
 !2013-04-29!
-!2013-04-29!! ! Vowel Lengthening
-!2013-04-29!! mato : mattoon,
+!2013-04-29! Vowel Lengthening
+!2013-04-29! mato : mattoon,
 !2013-04-29! "Zero:Vx"
 !2013-04-29! 0:Vx <=> ( Vws+ :Cns+ ) Vx _ %>: ( %^LCns: | %^WEAK:0 ) %^LVws: ;
 !2013-04-29!          #: Cns* Vws [ Cns 0: | 0:i j ] Vx _ Cns ( Cns:0 ) :Vws %^StretchSyll2:0 ; ! ommeena<omena
-!2013-04-29!! 
+!2013-04-29! 
 !2013-04-29!         [ #: ] Cns* Vws Cns 0: Vx _ Cns :0 Vws [ Cns | [ #: ] ] ;
 !2013-04-29!       where Vx in (a o u ä ö y e) ; 
 !2013-04-29!
 !2013-04-29!
-!2013-04-29!! Secondary Consonant lengthening
-!2013-04-29!! mato : mattoo, näytettävä : näytettävvää
-!2013-04-29!!"even-syllable" This should be secondary
+!2013-04-29! Secondary Consonant lengthening
+!2013-04-29! mato : mattoo, näytettävä : näytettävvää
+!2013-04-29!"even-syllable" This should be secondary
 !2013-04-29!"consonant lengthening"
 !2013-04-29! 0:Cx <=> 
 !2013-04-29!         [ #: Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ( %>: %^LCns:0 ) | #: Cns*  Vws | %^OddSyll:0 ] Cx _ ( [ Vws: | :Vws ] ( :Vws ) ) %>: %^LCns:0 ; !
 !2013-04-29!         #: Cns* Vws Cx _ [ Vws 0: Cns ( Cns:0 ) :Vws | Vws %^SyllBr:0 e ] %^StretchSyll2:0 ; ! ommeena<omena ; venät:vennäen
 !2013-04-29!           where Cx in (m p t s n r l k g h) ;
-!2013-04-29!!
-!2013-04-29!! oja: oija
+!2013-04-29!
+!2013-04-29! oja: oija
 !2013-04-29!"j lengthening"
 !2013-04-29!0:i <=> [ #: ] Cns* Vws _ j Vws ( 0: ) %>: %^LCns:0  ;
 !2013-04-29!          [ [ :Cns | :Cns Vws:0 ] ( %>: ) | Cns: ] i _ %>: ( %^LCns: | %^WEAK:0 ) %^LVws: ;
@@ -371,17 +371,17 @@ a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 !2013-04-29!         #: Cns* Vws _ j [ Vws 0: Cns ( Cns:0 ) :Vws | Vws %^SyllBr:0 e ] %^StretchSyll2:0 ; ! ommeena<omena ; venät:vennäen, kaijaava
 !2013-04-29!
 !2013-04-29!
-!2013-04-29!!!!TO HERE
-!2013-04-29!!!!!!!!!!!!!!!!!!!!!!!!!!
-!2013-04-29!!! Consonant weakening !!
-!2013-04-29!!!!!!!!!!!!!!!!!!!!!!!!!!
-!2013-04-29!! t:0, k:0 (suku:suun), p:v, ht:h, hk:h, lt:ll, rt:rr
-!2013-04-29!! mb:mm, nd:nn, 
-!2013-04-29!! it:ij, lk:l, rk:r, nk:ng, sk:s, tk:t, 
-!2013-04-29!! kk:k, tt:t, pp:p
-!2013-04-29!! ut:vv, yt:vv (uut:uuvv), uk:vv
-!2013-04-29!! aika:ajan, poika:pojan, reikä:reijän, liika:liijan
-!2013-04-29!! lp:lv, rp:rv
+!2013-04-29!TO HERE
+!2013-04-29!
+!2013-04-29! Consonant weakening 
+!2013-04-29!
+!2013-04-29! t:0, k:0 (suku:suun), p:v, ht:h, hk:h, lt:ll, rt:rr
+!2013-04-29! mb:mm, nd:nn, 
+!2013-04-29! it:ij, lk:l, rk:r, nk:ng, sk:s, tk:t, 
+!2013-04-29! kk:k, tt:t, pp:p
+!2013-04-29! ut:vv, yt:vv (uut:uuvv), uk:vv
+!2013-04-29! aika:ajan, poika:pojan, reikä:reijän, liika:liijan
+!2013-04-29! lp:lv, rp:rv
 !2013-04-29!
 !2013-04-29!
 !2013-04-29!
@@ -415,14 +415,14 @@ d:t <=> [ t | s ] ( %^KS2S:0 ) %> _ ;
 
 !2013-04-29!
 !2013-04-29!
-!2013-04-29!! viis: viijes
+!2013-04-29! viis: viijes
 !2013-04-29!"it:j"
 !2013-04-29! t:j <=> [ i | o ] i _ [ e | o ] %^WEAK:0 %>: ;
 !2013-04-29!
 !2013-04-29!"st:ss weakening"
 !2013-04-29!t:s <=> Vws+ s _ ( %^TS:0 ) GRC ;
-!2013-04-29!! last-minute verbs
-!2013-04-29!! "ti:si in verbs"
+!2013-04-29! last-minute verbs
+!2013-04-29! "ti:si in verbs"
 !2013-04-29!   [ n | l | r | Vws Vws ] _ %^TS:0 ; !  pittää: piti 
 !2013-04-29!
 
@@ -447,29 +447,28 @@ n:l <=> l %> _ %{uy%}: %^WEAK: h ;
 !2013-04-29!"mp:mm weakening"
 !2013-04-29!p:m <=> [ :Vws ( %^WEAK:0 %>: ) | [ a: | ä: ] %^WEAK:0 %>: %^E1:0 | %{aä%}: | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | %{aä%}: %^WEAK:0 %>: ( V3: ) Cns | %^TS:0 i %^WEAK:0 %>: ] ;
 !2013-04-29!        m _ Vws l %^WGStem:0 ; ! ompel- to ommel-
-!2013-04-29!! [ ( %>: ) :Vws ( 0: ) %^WEAK:0 %>: | Vws:0 %>: i: %^WEAK:0 %>: | Vws:0 %>:  %^WEAK:0 %>: i: %>: ] ;
+!2013-04-29! [ ( %>: ) :Vws ( 0: ) %^WEAK:0 %>: | Vws:0 %>: i: %^WEAK:0 %>: | Vws:0 %>:  %^WEAK:0 %>: i: %>: ] ;
 !2013-04-29!%> %^WCns %^E1: mp
 !2013-04-29!
 !2013-04-29!
 !2013-04-29!"nk:ng weakening"
 !2013-04-29!k:g <=> [ #: ] Cns* Vws n _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 
-
-! aika: ajan
+ 
 "kToZero"
-!! __@RULENAME@__  
+!! __@RULENAME@__  aika: ajan
 k:0 <=> _ s %^KS2S:0 ;
 
 !2013-04-29! [  #:  Cns* Vws (( r | i | VwsNonHigh ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
-!2013-04-29!![ [ #: ] Cns* Vws (( r | i ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ Vws: | :Vws | ( Vws ) %>: i ] ( %>: i: | %^StretchSyll2:0 ) %^WEAK:0 %>: ;
+!2013-04-29![ [ #: ] Cns* Vws (( r | i ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ Vws: | :Vws | ( Vws ) %>: i ] ( %>: i: | %^StretchSyll2:0 ) %^WEAK:0 %>: ;
 !2013-04-29!        [ #: ] Cns* VwsBack i: _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 
-!2013-04-29!! liika:liijan, reikä:reijän
+!2013-04-29! liika:liijan, reikä:reijän
 !2013-04-29!"kToj"
 !2013-04-29! k:j <=> [ #: ] Cns* [ VwsFront | VwsNeutral ] i: _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 !2013-04-29!
-!2013-04-29!! mato : maot, ! mato : maool
-!2013-04-29!! tToZero in weak
+!2013-04-29! mato : maot, ! mato : maool
+!2013-04-29! tToZero in weak
 !2013-04-29!"Double stop:weakens tToZero"
 !2013-04-29!t:0 <=> [ #: Cns* Vws | #: Cns* Vws [ Vws - [ i | u | y ] ] | Vws h [ y | u ] ] _  GRC ;
 !2013-04-29!        [ #: Cns*  Vws+ [ h | (r) t ] | Vws ( %^WEAK:0 %>: ) t | Cns* Vws+ Cns+ Vws+ ( n ) t | Vws t ] _  [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
@@ -486,7 +485,7 @@ b:v <=> [ #: ] Cns* Vws ( r | l | Vws ) _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 !! __@RULENAME@__  
 p:0 <=> Vws _ s  %^KS2S:0  ;
 
-!2013-04-29!!! Vowel raising
+!2013-04-29! Vowel raising
 !2013-04-29!"o:u ö:y in Inf"
 !2013-04-29! Vx:Vy <=> _ Vx: %>: v v %{aä%}: %^RVws:0 ;
 !2013-04-29!           Vx: _ %>: v v %{aä%}: %^RVws:0 ;
