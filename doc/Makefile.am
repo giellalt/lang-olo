@@ -10,10 +10,9 @@
 if CAN_DOCC
 
 JSP_PAGES=root-morphology.jspwiki  \
-		  olo-phon-phonology.jspwiki \
-	nouns-affixes.jspwiki     \
-	verbs-affixes.jspwiki
-
+		  nouns-affixes.jspwiki     \
+		  verbs-affixes.jspwiki \
+		  olo-phon-phonology.jspwiki 
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
@@ -37,7 +36,6 @@ JSP_PAGES=root-morphology.jspwiki  \
 # adjectives-oahpa-affixes.jspwiki \
 # adjectives-affixes.jspwiki       \
 # propernouns-affixes.jspwiki      
-
 ALLINONE_JSP_PAGE=$(GTLANG).jspwiki
 
 LINKS=Links.jspwiki
