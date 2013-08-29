@@ -1,0 +1,82 @@
+Config:
+  hfst:
+    Gen: ../bin/olo-gen.hfstol
+    Morph: ../bin/olo.hfstol
+  xerox:
+    Gen: ../bin/iolo.fst
+    Morph: ../bin/olo.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - sulgu: # Noun 'feather / sulka' - full paradigm
+     sulgu+N+Sg+Nom: sulgu
+     sulgu+N+Sg+Gen: sullan
+     sulgu+N+Sg+Acc: [sulgu, sullan]
+     sulgu+N+Sg+Par: sulgua
+     sulgu+N+Sg+Tra: sullakse
+     sulgu+N+Sg+Abe: [sullatta, sullata, sullattah]
+     sulgu+N+Sg+Com: sullanke
+     sulgu+N+Sg+Ine: sullas
+     sulgu+N+Sg+Ela: [sullaspäi, sullas]
+     sulgu+N+Sg+Ill: sulgah
+     sulgu+N+Sg+Ade: sullal
+     sulgu+N+Sg+Abl: [sullalpäi, sullal]
+     sulgu+N+Sg+All: sullale
+     sulgu+N+Sg+Ess: sullannu
+     sulgu+N+Sg+Ter: sullassah
+     sulgu+N+Sg+Apr: sullalluo
+     sulgu+N+Pl+Nom: sullat
+     sulgu+N+Pl+Gen: sulgien
+     sulgu+N+Pl+Acc: sullat
+     sulgu+N+Pl+Par: sulgii
+     sulgu+N+Pl+Tra: sullikse
+     sulgu+N+Pl+Abe: [sullitta, sulgita, sullittah]
+     sulgu+N+Pl+Com: sulgienke
+     sulgu+N+Pl+Ine: sullis
+     sulgu+N+Pl+Ela: [sullispäi, sulliis]
+     sulgu+N+Pl+Ill: sulgih
+     sulgu+N+Pl+Ade: sullil
+     sulgu+N+Pl+Abl: [sullilpäi, sullil]
+     sulgu+N+Pl+All: sullile
+     sulgu+N+Pl+Ess: sullinny
+     sulgu+N+Pl+Ins: sullin
+     sulgu+N+Pl+Apr: sullilluo
+     sulgu+N+Sg+Nom+Clt/gi: sulgugi
+     sulgu+N+Sg+Gen+Clt/gi: sullangi
+     sulgu+N+Sg+Acc+Clt/gi: [sulgugi, sullangi]
+     sulgu+N+Sg+Par+Clt/gi: sulguagi
+     sulgu+N+Sg+Tra+Clt/gi: sullaksegi
+     sulgu+N+Sg+Abe+Clt/gi: [sullattagi, sullatagi, sullattahgi]
+     sulgu+N+Sg+Com+Clt/gi: sullankegi
+     sulgu+N+Sg+Ine+Clt/gi: sullasgi
+     sulgu+N+Sg+Ela+Clt/gi: [sullaspäigi, sullasgi]
+     sulgu+N+Sg+Ill+Clt/gi: sullahgi
+     sulgu+N+Sg+Ade+Clt/gi: sullalgi
+     sulgu+N+Sg+Abl+Clt/gi: [sullalpäigi, sullalgi]
+     sulgu+N+Sg+All+Clt/gi: sullalegi
+     sulgu+N+Sg+Ess+Clt/gi: sullannygi
+     sulgu+N+Sg+Ter+Clt/gi: sullassahgi
+     sulgu+N+Sg+Apr+Clt/gi: sullallyögi
+     sulgu+N+Pl+Nom+Clt/gi: sullatgi
+     sulgu+N+Pl+Gen+Clt/gi: päiviengi
+     sulgu+N+Pl+Acc+Clt/gi: sullatgi
+     sulgu+N+Pl+Par+Clt/gi: sulgiiigi
+     sulgu+N+Pl+Tra+Clt/gi: sulliksegi
+     sulgu+N+Pl+Abe+Clt/gi: [sullitagi, sullittagi, sullittahgi]
+     sulgu+N+Pl+Com+Clt/gi: sulgienkegi
+     sulgu+N+Pl+Ine+Clt/gi: sullisgi
+     sulgu+N+Pl+Ela+Clt/gi: [sullispäigi, sullisgi]
+     sulgu+N+Pl+Ill+Clt/gi: sulgiihgi
+     sulgu+N+Pl+Ade+Clt/gi: sullilgi
+     sulgu+N+Pl+Abl+Clt/gi: [sullilpäigi, sullilgi]
+     sulgu+N+Pl+All+Clt/gi: sullilegi
+     sulgu+N+Pl+Ess+Clt/gi: sullinnugi
+     sulgu+N+Pl+Ins+Clt/gi: sullingi
+     sulgu+N+Pl+Apr+Clt/gi: sulgielluogi
+
