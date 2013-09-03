@@ -170,11 +170,20 @@ LEXICON N_REBOI-SG
 LEXICON N_REBOI-PL
 +N: NMN_REBOI-PL ;
 
+LEXICON N_JÄLKI
+ N_KIELI ;
+
 LEXICON N_KIELI !!= @CODE@ kieli:kiel
+ N_KIELI-SG ;
+ N_KIELI-PL ;
+
+LEXICON N_KIELI-SG
 +N:i SGNOMSUF ;
 +N:e SGGENSUF ;
 +N: SGPARSUF_dU ;
 +N+Sg:e Noun-NB-01 ;
+
+LEXICON N_KIELI-PL
 +N:e PLNOMSUF ;
 +N:ie PLGENSUF ;
 +N:i PLPARSUF_i ;
@@ -184,6 +193,8 @@ LEXICON N_KIELI !!= @CODE@ kieli:kiel
 LEXICON N_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 +N: NMN_PUHTAHUS ;
 
+LEXICON N_AIGOMUS
+ N_ALUS ;
 LEXICON N_ALUS !!= @CODE@ aigomus:aigomuks
 +N: NMN_ALUS ;
 
@@ -288,7 +299,8 @@ LEXICON NMN_PAREMBI-PL
 +Pl: Noun-NB-01 ;
 
 LEXICON N_KOIRU !!= @CODE@ koiru:koira
- N_PÄIVY ;
+ N_PÄIVY-SG ;
+ N_PÄIVY-PL ;
 
 LEXICON N_NIMI !!= @CODE@ nimi:nim
 	N_NIMI-SG  ;
