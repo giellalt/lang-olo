@@ -65,6 +65,12 @@ LEXICON A_MUARJU
 LEXICON A_RUNO
 +A:	NMN_RUNO ;
 
+LEXICON A_KOIRU
+ A_PÄIVY ;
+
+LEXICON A_PÄIVY
++A: NMN_PÄIVY ;
+
 LEXICON Adj-NB-i
 ! These cases are symmetrically marked for number
 +Sg: Adj-NB-01 ;
