@@ -46,6 +46,16 @@ LEXICON A_ARMAS !!= @CODE@ armas:arma
 +A:ha Noun-NB-i ;
 
 
+LEXICON A_VALGEI !!= @CODE@ valgei:valge
+        A_VALGEI-SG ;
+        A_VALGEI-PL ;
+
+LEXICON A_VALGEI-SG
++A: NMN_VALGEI-SG        ;
+
+LEXICON A_VALGEI-PL
++A: NMN_VALGEI-PL        ;
+
 LEXICON A_PAREMBI !!= @CODE@ parembi:paremb
 +A:i SGNOMSUF ;
 +A:%{aä%} SGPARSUF_A2 ;
@@ -54,6 +64,8 @@ LEXICON A_PAREMBI !!= @CODE@ parembi:paremb
 +A+Der/MWN: N_PAREMBI ;
 +N:%{aä%} Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
+LEXICON A_SUURIM !!= @CODE@ suurim:suurim
++A:	NMN_SUURIM ;
 
 LEXICON A_VUOZI
 +A:	NMN_VUOZI ;

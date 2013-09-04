@@ -134,6 +134,15 @@ LEXICON N_RAIŠ-SG
 LEXICON N_RAIŠ-PL
 +N:	NMN_RAIŠ-PL	;
 
+LEXICON N_SIVE !!= @CODE@ sive:sive
+	N_SIVE-SG	;
+	N_SIVE-PL	;
+LEXICON N_SIVE-SG
++N:	NMN_SIVE-SG	;
+
+LEXICON N_SIVE-PL
++N:	NMN_SIVE-PL	;
+
 LEXICON N_PEREH !!= @CODE@ pereh:pereh
 	N_PEREH-SG	;
 	N_PEREH-PL	;
@@ -195,11 +204,26 @@ LEXICON N_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 
 LEXICON N_AIGOMUS
  N_ALUS ;
+
 LEXICON N_ALUS !!= @CODE@ aigomus:aigomuks
-+N: NMN_ALUS ;
+ N_ALUS-SG ;
+ N_ALUS-PL ;
+
+LEXICON N_ALUS-SG !!= @CODE@ aigomus:aigomuks
++N: NMN_ALUS-SG ;
 
 LEXICON N_ALUS-PL !!= @CODE@ aigomus:aigomuks
 +N: NMN_ALUS-PL ;
+
+LEXICON N_SUALIŠ !!= @CODE@ suališ:suali
+ N_SUALIŠ-SG ;
+ N_SUALIŠ-PL ;
+
+LEXICON N_SUALIŠ-SG !!= @CODE@ suališ:suali
++N: NMN_SUALIŠ-SG ;
+
+LEXICON N_SUALIŠ-PL !!= @CODE@ suališ:suali
++N: NMN_SUALIŠ-PL ;
 
 LEXICON N_OLUT !!= @CODE@ olut:olu
 +N:t SGNOMSUF ;
@@ -260,6 +284,16 @@ LEXICON N_OZA-SG
 LEXICON N_OZA-PL
 +N: NMN_OZA-PL ;
 
+LEXICON N_SÄYNÄ !!= @CODE@ säynä:säynä
+	N_SÄYNÄ-SG  ;
+	N_SÄYNÄ-PL  ;
+
+LEXICON N_SÄYNÄ-SG
++N: NMN_SÄYNÄ-SG ;
+
+LEXICON N_SÄYNÄ-PL
++N: NMN_SÄYNÄ-PL ;
+
 LEXICON N_ARMAS !!= @CODE@ armas:arma
     N_ARMAS-SG        ;
     N_ARMAS-PL        ;
@@ -299,7 +333,13 @@ LEXICON NMN_PAREMBI-PL
 +Pl: Noun-NB-01 ;
 
 LEXICON N_KOIRU !!= @CODE@ koiru:koira
+ N_KOIRU-SG ;
+ N_KOIRU-PL ;
+
+LEXICON N_KOIRU-SG
  N_PÄIVY-SG ;
+
+LEXICON N_KOIRU-PL
  N_PÄIVY-PL ;
 
 LEXICON N_NIMI !!= @CODE@ nimi:nim
@@ -311,6 +351,39 @@ LEXICON N_NIMI-SG
 
 LEXICON N_NIMI-PL
 +N: NMN_NIMI-PL ;
+
+LEXICON N_SUURIM !!= @CODE@ suurim:suurim
+        N_SUURIM-SG  ;
+        N_SUURIM-PL  ;
+
+LEXICON N_SUURIM-SG
++N: NMN_SUURIM-SG ;
+
+LEXICON N_SUURIM-PL
++N:     NMN_SUURIM ;
+
+LEXICON N_SIEMEN !!= @CODE@ siemen:siemen
+ N_PAIMEN ;
+
+LEXICON N_PAIMEN !!= @CODE@ paimen:paimen
+        N_PAIMEN-SG  ;
+        N_PAIMEN-PL  ;
+
+LEXICON N_PAIMEN-SG
++N: NMN_PIENAR-SG ;
+
+LEXICON N_PAIMEN-PL
++N: NMN_PIENAR-PL ;
+
+LEXICON N_SALBOIN !!= @CODE@ salboin:salboi
+        N_SALBOIN-SG  ;
+        N_SALBOIN-PL  ;
+
+LEXICON N_SALBOIN-SG
++N: NMN_SALBOIN-SG ;
+
+LEXICON N_SALBOIN-PL
++N: NMN_SALBOIN-PL ;
 
 LEXICON N_PIENAR !!= @CODE@ pienar:piendar
         N_PIENAR-SG  ;
@@ -335,14 +408,56 @@ LEXICON N_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
 +N+Pl:i Noun-NB-01 ;
 
 LEXICON N_VEZI !!= @CODE@ vezi:vet
+ N_VEZI-SG ;
+ N_VEZI-PL ;
+
+LEXICON N_VEZI-SG
++N: NMN_VEZI-SG ;
+
+LEXICON N_VEZI-PL
++N: NMN_VEZI-PL ;
+
+LEXICON NMN_VEZI !!= @CODE@ vezi:vet
+ NMN_VEZI-SG ;
+ NMN_VEZI-PL ;
+
+LEXICON NMN_VEZI-SG
 +N:%^T2Z%>i SGNOMSUF ;
 +N:e SGGENSUF ;
 +N: SGPARSUF_dU ;
 +N+Sg:e Noun-NB-01 ;
+
+LEXICON NMN_VEZI-PL
 +N:%^T2Z%>ie PLGENSUF ; ! the plural comitative is declined here
 +N:%^T2Z%>i PLPARSUF_i ;
 +N:%^T2Z%>i PLINSSUF ;
 +N+Pl:%^T2Z%>i Noun-NB-01 ;
+
+LEXICON N_SUZI !!= @CODE@ suzi:su
+ N_SUZI-SG ;
+ N_SUZI-PL ;
+
+LEXICON N_SUZI-SG
++N: NMN_SUZI-SG ;
+
+LEXICON N_SUZI-PL
++N: NMN_SUZI-PL ;
+
+LEXICON NMN_SUZI !!= @CODE@ suzi:su
+ NMN_SUZI-SG ;
+ NMN_SUZI-PL ;
+
+LEXICON NMN_SUZI-SG
++N:z%>i SGNOMSUF ;
++N:ze SGGENSUF ;
++N:t SGPARSUF_dU ;
++N+Sg:ze Noun-NB-01 ;
+
+LEXICON NMN_SUZI-PL
++N:z%>ie PLGENSUF ; ! the plural comitative is declined here
++N:z%>i PLPARSUF_i ;
++N:z%>i PLINSSUF ;
++N+Pl:z%>i Noun-NB-01 ;
 
 LEXICON N_VUOZI !!= @CODE@ vuozi:vuot
 +N: NMN_VUOZI-SG	;
@@ -357,6 +472,16 @@ LEXICON N_PÄIVY-SG
 
 LEXICON N_PÄIVY-PL
 +N: NMN_PÄIVY-PL	;
+
+LEXICON N_SYGYZY !!= @CODE@ sygyzy:sygyzy
+        N_SYGYZY-SG ;
+        N_SYGYZY-PL ;
+
+LEXICON N_SYGYZY-SG
++N: NMN_SYGYZY-SG        ;
+
+LEXICON N_SYGYZY-PL
++N: NMN_SYGYZY-PL        ;
 
 LEXICON N_KOIVU !!= @CODE@ koivu:koivu
         N_KOIVU-SG ;
@@ -461,6 +586,23 @@ LEXICON NMN_KOIVU-PL
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>lO1i Noun-NB-01 ;
 
+LEXICON NMN_SYGYZY !!= @CODE@ sygyzy:sygyzy
+        NMN_SYGYZY-SG ;
+        NMN_SYGYZY-PL ;
+
+LEXICON NMN_SYGYZY-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_SYGYZY-PL
+ PLNOMSUF ;
+:%>l%{oö%}i PLGENSUF ; ! the plural comitative is declined here
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
++Pl:%>lO1i Noun-NB-01 ;
+
 
 LEXICON NMN_VALGEI
 	NMN_VALGEI-SG	;
@@ -481,6 +623,18 @@ LEXICON NMN_VALGEI-PL
 :il%{oö%}i PLINSSUF ;
 :i Noun-NB-loi ;
 
+LEXICON NMN_SUURIM
+        NMN_SUURIM-SG   ;
+        NMN_SUURIM-PL   ;
+
+LEXICON NMN_SUURIM-SG
+ SGNOMSUF ;
+:%{aä%} SGPARSUF_A2 ;
+
+LEXICON NMN_SUURIM-PL
+:ie PLGENSUF ;
+:i PLPARSUF_i ;
+
 
 LEXICON NMN_PIENAR
 	NMN_PIENAR-SG	;
@@ -500,6 +654,25 @@ LEXICON NMN_PIENAR-PL
 :il%{oö%}i PLPARSUF_Zero ;
 :il%{oö%}i PLINSSUF ;
 :i Noun-NB-loi ;
+
+LEXICON NMN_SALBOIN
+	NMN_SALBOIN-SG	;
+	NMN_SALBOIN-PL	;
+
+LEXICON NMN_SALBOIN-SG
+:n SGNOMSUF ;
+:n SGPARSUF_dU ;
+:me SGGENSUF ;
++Sg:me Noun-NB-01 ;
+LEXICON NMN_SALBOIN-PL
+:me PLNOMSUF	;
+:%>mie PLGENSUF ; ! the plural comitative is declined here
+:%>mi PLPARSUF_i ;
+:%>mi PLINSSUF ;
+!:il%{oö%}i PLGENSUF ;
+!:il%{oö%}i PLPARSUF_Zero ;
+!:il%{oö%}i PLINSSUF ;
+!:i Noun-NB-loi ;
 
 LEXICON NMN_RUNO !!= @CODE@ runo:runo
 	NMN_RUNO-SG ;
@@ -552,6 +725,23 @@ LEXICON NMN_ALUS-PL
 +N:%>i PLINSSUF ;
 +N+Pl:i Noun-NB-01 ;
 
+LEXICON NMN_SUALIŠ !!= @CODE@ suališ:suali
+	NMN_SUALIŠ-SG ;
+	NMN_SUALIŠ-PL ;
+
+LEXICON NMN_SUALIŠ-SG
++N:s SGNOMSUF ;
++N:i SGGENSUF ;
++N:s SGPARSUF_dU ;
++N+Sg:i Noun-NB-01 ;
+
+LEXICON NMN_SUALIŠ-PL
++N:i PLNOMSUF ;
+!+N:%>ie PLGENSUF ; ! the plural comitative is declined here
+!+N:%>i PLPARSUF_i ;
+!+N:%>i PLINSSUF ;
+!+N+Pl:i Noun-NB-01 ;
+
 LEXICON NMN_ARMAS-SG
 :%^WEAK%>s SGNOMSUF ;
 :%^WEAK%>s SGPARSUF_dU ;
@@ -562,6 +752,8 @@ LEXICON NMN_ARMAS-PL
 :hi PLPARSUF_i ;
 :hi PLINSSUF ;
 :hi Noun-NB-01 ;
+
+
 
 LEXICON NMN_KUU !!= @CODE@ kuu:kuu
 	NMN_KUU-SG	;
@@ -637,6 +829,20 @@ LEXICON NMN_PEREH-PL
 :i PLINSSUF ;
 +Pl:i Noun-NB-01 ;
 
+LEXICON NMN_SIVE !!= @CODE@ sive:sive
+	NMN_SIVE-SG	;
+	NMN_SIVE-PL	;
+LEXICON NMN_SIVE-SG
+ SGNOMSUF ;
+:e SGGENSUF ;
+ SGPARSUF_dU ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_SIVE-PL
+:ie PLGENSUF ;
+:i PLPARSUF_i ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
+
 LEXICON NMN_PENGER !!= @CODE@ penger:penger
 	NMN_PENGER-SG	;
 	NMN_PENGER-PL	;
@@ -693,6 +899,22 @@ LEXICON NMN_OZA-SG
 +Sg: Noun-NB-01 ;
 
 LEXICON NMN_OZA-PL
+:%>i PLGENSUF ;
+:%>i PLPARSUF_a ;
+:%>i PLINSSUF ;
++Pl:%>i Noun-NB-01 ;
+
+LEXICON NMN_SÄYNÄ !!= @CODE@ säynä:säynä
+	NMN_SÄYNÄ-SG  ;
+	NMN_SÄYNÄ-PL  ;
+
+LEXICON NMN_SÄYNÄ-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_SÄYNÄ-PL
 :%>i PLGENSUF ;
 :%>i PLPARSUF_a ;
 :%>i PLINSSUF ;
