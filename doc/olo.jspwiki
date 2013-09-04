@@ -103,6 +103,370 @@ word classes, or optionally from prefixes:
 
 
 
+Noun inflection
+---------------
+Livvi nouns inflect in cases.
+
+
+
+
+ LEXICON N_KARJAL  karjal:karjal
+
+ LEXICON N_PIIRAI  piirai:piira CHECK THIS
+
+
+
+ LEXICON NMN_PIIRAI  piirai:piira
+
+
+
+
+ LEXICON N_KANDAI  kandai:kandai
+
+ LEXICON N_PAGIZII  pagizii:pagizii
+
+ LEXICON N_HUOLETOI  huoletoi: huolet
+
+
+
+ LEXICON NMN_HUOLETOI  huoletoi: huolet
+
+
+ LEXICON N_VANUIN  vanuin:vanui
+
+
+
+ LEXICON NMN_VANUIN  vanuin:vanui
+
+
+ LEXICON N_KARJALAINE  karjalaine:karjala
+
+
+
+ LEXICON N_RAIŠ  raiš:ra
+
+
+ LEXICON N_SIVE  sive:sive
+
+
+ LEXICON N_PEREH  pereh:pereh
+
+
+ LEXICON N_PENGER  penger:penger
+
+
+ LEXICON N_PAPPI  arteli:arteli
+
+ LEXICON N_REBOI  reboi:reboi
+
+
+ LEXICON N_KIELI  kieli:kiel
+
+
+
+ LEXICON N_PUHTAHUS  puhtahus:puhtahu
+
+
+ LEXICON N_ALUS  aigomus:aigomuks
+
+ LEXICON N_ALUS-SG  aigomus:aigomuks
+
+ LEXICON N_ALUS-PL  aigomus:aigomuks
+
+ LEXICON N_SUALIŠ  suališ:suali
+
+ LEXICON N_SUALIŠ-SG  suališ:suali
+
+ LEXICON N_SUALIŠ-PL  suališ:suali
+
+ LEXICON N_OLUT  olut:olu
+
+ LEXICON N_KUU  kuu:kuu
+
+ LEXICON N_MUARJU  muarju:muarja
+
+
+ LEXICON NMN_MUARJU  muarju:muarja
+
+
+
+ LEXICON N_KALA  kala:kala
+
+ LEXICON N_OZA  oza:oza
+
+
+
+ LEXICON N_SÄYNÄ  säynä:säynä
+
+
+
+ LEXICON N_ARMAS  armas:arma
+
+ LEXICON NMN_ARMAS  armas:arma
+
+ LEXICON N_PAREMBI  parembi:paremb
+
+
+ LEXICON NMN_PAREMBI  parembi:paremb
+
+
+
+ LEXICON N_KOIRU  koiru:koira
+
+
+
+ LEXICON N_NIMI  nimi:nim
+
+
+
+ LEXICON N_SUURIM  suurim:suurim
+
+
+
+ LEXICON N_SIEMEN  siemen:siemen
+
+ LEXICON N_PAIMEN  paimen:paimen
+
+
+
+ LEXICON N_SALBOIN  salboin:salboi
+
+
+
+ LEXICON N_PIENAR  pienar:piendar
+
+
+
+
+ LEXICON N_LAPSI  lapsi:laps lapsi:laps
+
+ LEXICON N_VEZI  vezi:vet
+
+
+
+ LEXICON NMN_VEZI  vezi:vet
+
+
+
+ LEXICON N_SUZI  suzi:su
+
+
+
+ LEXICON NMN_SUZI  suzi:su
+
+
+
+ LEXICON N_VUOZI  vuozi:vuot
+
+ LEXICON N_PÄIVY  päivy:päivä
+
+
+
+ LEXICON N_SYGYZY  sygyzy:sygyzy
+
+
+
+ LEXICON N_KOIVU  koivu:koivu
+
+
+
+ LEXICON N_VALGEI  valgei:valge
+
+
+
+ LEXICON N_KIELINE  kieline:kieli
+
+ LEXICON N_RUNO  runo:runo
+
+
+NMN
+
+
+
+
+
+
+
+
+
+ LEXICON NMN_KOIVU  koivu:koivu
+
+
+
+ LEXICON NMN_SYGYZY  sygyzy:sygyzy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON NMN_RUNO  runo:runo
+
+
+
+ LEXICON NMN_PUHTAHUS  puhtahus:puhtahu
+
+
+
+
+ LEXICON NMN_ALUS  alus:aluks
+
+
+
+ LEXICON NMN_SUALIŠ  suališ:suali
+
+
+
+
+
+
+ LEXICON NMN_KUU  kuu:kuu
+
+
+
+ LEXICON NMN_KALA 
+
+
+ LEXICON NMN_KARJAL  karjal:karjal
+
+
+ LEXICON NMN_RAIŠ  raiš:ra
+
+
+ LEXICON NMN_PEREH  pereh:pereh
+
+ LEXICON NMN_SIVE  sive:sive
+
+ LEXICON NMN_PENGER  penger:penger
+
+
+ LEXICON NMN_PAPPI  arteli:arteli
+
+ LEXICON NMN_REBOI  reboi:reboi
+
+ LEXICON NMN_OZA  oza:oza
+
+
+
+ LEXICON NMN_SÄYNÄ  säynä:säynä
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verb inflection
+---------------
+Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and persons.
+
+
+
+ LEXICON V-NEG  ei:e
+
+ LEXICON V_OLLA  olla:o
+
+
+ LEXICON V_KANDUA  kandua:kanda
+
+ LEXICON V_OTTUA  ottua:otta
+
+ LEXICON V_PUNUO  punuo:puno
+
+
+ LEXICON V_VALUO  valuo:valu
+
+
+
+ LEXICON V_POTKIE  potkie:potki
+
+
+ LEXICON  V_PIDIÄ  pidiä:pidä
+
+
+
+
+
+ LEXICON V_SUAJA  suaja:saa
+
+ LEXICON V_TULLA  tulla:tul
+
+ LEXICON V_TYPÄTÄ  typätä:typpä
+
+ LEXICON V_AVATA  typätä:typpä
+
+
+
+ LEXICON V_SUVAIJA  suvaija:suvai
+
+ LEXICON V_ALETA  aleta:ale (alenov)
+
+ LEXICON V_SUATA  suata:suva (suvaiččov)
+
+ LEXICON VR_AMBUO  ambuokseh:ambu
+
+ LEXICON VR_KANDUA  kanduakseh:kanda
+
+ LEXICON VR_RODIEKSEH  rodiekseh:rodi
+
+ LEXICON VR_AVATA  avatakseh:ava (typätäkseh:typpä)
+
+ LEXICON VR_SUVAIJAKSEH  emändöijäkseh:emändöi
+
+
+
+
+
+
+
+
+
+
+
+
+Nonfinites
+
+Finites
+Indicative
+
+
+
+Conditional
+
+
+
+
+
+
+
 
 !!!The Livvi (Olonets) Karelian morphophonological/twolc rules file 
 
@@ -227,296 +591,6 @@ __p:0 in lapsi__
 
 
 Consonant loss
-__d:0 __   pidiä:piän
-
-
-Noun inflection
----------------
-Livvi nouns inflect in cases.
-
-
-
-
- LEXICON N_KARJAL  karjal:karjal
-
- LEXICON N_PIIRAI  piirai:piira CHECK THIS
-
-
-
- LEXICON NMN_PIIRAI  piirai:piira
-
-
-
-
- LEXICON N_KANDAI  kandai:kandai
-
- LEXICON N_PAGIZII  pagizii:pagizii
-
- LEXICON N_HUOLETOI  huoletoi: huolet
-
-
-
- LEXICON NMN_HUOLETOI  huoletoi: huolet
-
-
- LEXICON N_VANUIN  vanuin:vanui
-
-
-
- LEXICON NMN_VANUIN  vanuin:vanui
-
-
- LEXICON N_KARJALAINE  karjalaine:karjala
-
-
-
- LEXICON N_RAIŠ  raiš:ra
-
-
- LEXICON N_PEREH  pereh:pereh
-
-
- LEXICON N_PENGER  penger:penger
-
-
- LEXICON N_PAPPI  arteli:arteli
-
- LEXICON N_REBOI  reboi:reboi
-
- LEXICON N_KIELI  kieli:kiel
-
- LEXICON N_PUHTAHUS  puhtahus:puhtahu
-
- LEXICON N_ALUS  aigomus:aigomuks
-
- LEXICON N_ALUS-PL  aigomus:aigomuks
-
- LEXICON N_OLUT  olut:olu
-
- LEXICON N_KUU  kuu:kuu
-
- LEXICON N_MUARJU  muarju:muarja
-
-
- LEXICON NMN_MUARJU  muarju:muarja
-
-
-
- LEXICON N_KALA  kala:kala
-
- LEXICON N_OZA  oza:oza
-
-
-
- LEXICON N_ARMAS  armas:arma
-
- LEXICON NMN_ARMAS  armas:arma
-
- LEXICON N_PAREMBI  parembi:paremb
-
-
- LEXICON NMN_PAREMBI  parembi:paremb
-
-
-
- LEXICON N_KOIRU  koiru:koira
-
- LEXICON N_NIMI  nimi:nim
-
-
-
- LEXICON N_PIENAR  pienar:piendar
-
-
-
-
- LEXICON N_LAPSI  lapsi:laps lapsi:laps
-
- LEXICON N_VEZI  vezi:vet
-
- LEXICON N_VUOZI  vuozi:vuot
-
- LEXICON N_PÄIVY  päivy:päivä
-
-
-
- LEXICON N_KOIVU  koivu:koivu
-
-
-
- LEXICON N_VALGEI  valgei:valge
-
-
-
- LEXICON N_KIELINE  kieline:kieli
-
- LEXICON N_RUNO  runo:runo
-
-
-NMN
-
-
-
-
-
-
-
-
-
- LEXICON NMN_KOIVU  koivu:koivu
-
-
-
-
-
-
-
-
-
- LEXICON NMN_RUNO  runo:runo
-
-
-
- LEXICON NMN_PUHTAHUS  puhtahus:puhtahu
-
-
-
-
- LEXICON NMN_ALUS  alus:aluks
-
-
-
-
- LEXICON NMN_KUU  kuu:kuu
-
-
-
- LEXICON NMN_KALA 
-
-
- LEXICON NMN_KARJAL  karjal:karjal
-
-
- LEXICON NMN_RAIŠ  raiš:ra
-
-
- LEXICON NMN_PEREH  pereh:pereh
-
- LEXICON NMN_PENGER  penger:penger
-
-
- LEXICON NMN_PAPPI  arteli:arteli
-
- LEXICON NMN_REBOI  reboi:reboi
-
- LEXICON NMN_OZA  oza:oza
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Verb inflection
----------------
-Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and persons.
-
-
-
- LEXICON V-NEG  ei:e
-
- LEXICON V_OLLA  olla:o
-
-
- LEXICON V_KANDUA  kandua:kanda
-
- LEXICON V_OTTUA  ottua:otta
-
- LEXICON V_PUNUO  punuo:puno
-
-
- LEXICON V_VALUO  valuo:valu
-
-
-
- LEXICON V_POTKIE  potkie:potki
-
-
- LEXICON  V_PIDIÄ  pidiä:pidä
-
-
-
-
-
- LEXICON V_SUAJA  suaja:saa
-
- LEXICON V_TULLA  tulla:tul
-
- LEXICON V_TYPÄTÄ  typätä:typpä
-
- LEXICON V_AVATA  typätä:typpä
-
-
-
- LEXICON V_SUVAIJA  suvaija:suvai
-
- LEXICON V_ALETA  aleta:ale (alenov)
-
- LEXICON V_SUATA  suata:suva (suvaiččov)
-
- LEXICON VR_AMBUO  ambuokseh:ambu
-
- LEXICON VR_KANDUA  kanduakseh:kanda
-
- LEXICON VR_RODIEKSEH  rodiekseh:rodi
-
- LEXICON VR_AVATA  avatakseh:ava (typätäkseh:typpä)
-
- LEXICON VR_SUVAIJAKSEH  emändöijäkseh:emändöi
-
-
-
-
-
-
-
-
-
-
-
-
-Nonfinites
-
-Finites
-Indicative
-
-
-
-Conditional
-
-
-
-
-
+__d:0__   pidiä:piän
 
 
