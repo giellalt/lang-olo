@@ -45,6 +45,17 @@ LEXICON A_ARMAS !!= @CODE@ armas:arma
 +A:hi PLINSSUF ;
 +A:ha Noun-NB-i ;
 
+LEXICON A_KOIVU !!= @CODE@ koivu:koivu
+        A_KOIVU-SG ;
+        A_KOIVU-PL ;
+
+LEXICON A_KOIVU-SG
++A: NMN_KOIVU-SG        ;
+
+LEXICON A_KOIVU-PL
++A: NMN_KOIVU-PL        ;
+
+
 
 LEXICON A_VALGEI !!= @CODE@ valgei:valge
         A_VALGEI-SG ;
