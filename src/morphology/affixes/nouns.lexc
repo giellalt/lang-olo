@@ -115,6 +115,32 @@ LEXICON NMN_VANUIN-PL
 :mi PLINSSUF ;
 +Pl:mi Noun-NB-01 ;
 
+LEXICON N_TAIGIN !!= @CODE@ taigin:taigin
+ N_TAIGIN-SG ;
+ N_TAIGIN-PL ;
+
+LEXICON N_TAIGIN-SG
++N: NMN_TAIGIN-SG ;
+
+LEXICON N_TAIGIN-PL
++N: NMN_TAIGIN-PL ;
+
+LEXICON NMN_TAIGIN !!= @CODE@ taigin:taigin
+ NMN_TAIGIN-SG ;
+ NMN_TAIGIN-PL ;
+
+LEXICON NMN_TAIGIN-SG	
+: SGNOMSUF ;
+:a SGGENSUF ;
+:a SGPARSUF_A2 ;
++Sg:a Noun-NB-01 ;
+LEXICON NMN_TAIGIN-PL	
+:a PLNOMSUF ;
+:oi PLGENSUF ;
+:oi PLPARSUF_i ;
+:oi PLINSSUF ;
++Pl:oi Noun-NB-01 ;
+
 LEXICON N_KARJALAINE !!= @CODE@ karjalaine:karjala
  N_KARJALAINE-SG     ;
  N_KARJALAINE-PL     ;
@@ -226,10 +252,26 @@ LEXICON N_SUALIŠ-PL !!= @CODE@ suališ:suali
 +N: NMN_SUALIŠ-PL ;
 
 LEXICON N_OLUT !!= @CODE@ olut:olu
+ N_OLUT-SG ;
+ N_OLUT-PL ;
+
+LEXICON N_OLUT-SG
++N: NMN_OLUT-SG ;
+
+LEXICON N_OLUT-PL
++N: NMN_OLUT-PL ;
+
+LEXICON NMN_OLUT !!= @CODE@ olut:olu
+ NMN_OLUT-SG ;
+ NMN_OLUT-PL ;
+
+LEXICON NMN_OLUT-SG
 +N:t SGNOMSUF ;
 +N:e SGGENSUF ;
 +N:t SGPARSUF_dU ;
 +N+Sg:e Noun-NB-01 ;
+
+LEXICON NMN_OLUT-PL
 +N:je PLGENSUF ;
 +N:i PLPARSUF_dU ;
 +N:i PLINSSUF ;
@@ -332,6 +374,9 @@ LEXICON NMN_PAREMBI-PL
 :i PLINSSUF ;
 +Pl: Noun-NB-01 ;
 
+LEXICON N_SULGU !!= @CODE@ sulgu:sulga
+ N_KOIRU ;
+
 LEXICON N_KOIRU !!= @CODE@ koiru:koira
  N_KOIRU-SG ;
  N_KOIRU-PL ;
@@ -363,7 +408,13 @@ LEXICON N_SUURIM-PL
 +N:     NMN_SUURIM ;
 
 LEXICON N_SIEMEN !!= @CODE@ siemen:siemen
- N_PAIMEN ;
+        N_SIEMEN-SG  ;
+        N_SIEMEN-PL  ;
+
+LEXICON N_SIEMEN-SG
+        N_PAIMEN-SG  ;
+LEXICON N_SIEMEN-PL
+        N_PAIMEN-PL  ;
 
 LEXICON N_PAIMEN !!= @CODE@ paimen:paimen
         N_PAIMEN-SG  ;
@@ -384,6 +435,16 @@ LEXICON N_SALBOIN-SG
 
 LEXICON N_SALBOIN-PL
 +N: NMN_SALBOIN-PL ;
+
+LEXICON N_UDAR !!= @CODE@ udar:piendar
+        N_UDAR-SG  ;
+        N_UDAR-PL  ;
+
+LEXICON N_UDAR-SG
++N: NMN_UDAR-SG ;
+
+LEXICON N_UDAR-PL
++N: NMN_UDAR-PL ;
 
 LEXICON N_PIENAR !!= @CODE@ pienar:piendar
         N_PIENAR-SG  ;
@@ -646,6 +707,25 @@ LEXICON NMN_PIENAR-SG
 :e SGGENSUF ;
 +Sg:e Noun-NB-01 ;
 LEXICON NMN_PIENAR-PL
+:e PLNOMSUF	;
+:%>ie PLGENSUF ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
+:il%{oö%}i PLGENSUF ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
+:i Noun-NB-loi ;
+
+LEXICON NMN_UDAR
+	NMN_UDAR-SG	;
+	NMN_UDAR-PL	;
+
+LEXICON NMN_UDAR-SG
+:%^WEAK SGNOMSUF ;
+:%^WEAK SGPARSUF_dU ;
+:e SGGENSUF ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_UDAR-PL
 :e PLNOMSUF	;
 :%>ie PLGENSUF ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
