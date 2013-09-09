@@ -34,6 +34,13 @@ Livvi nouns inflect in cases.
  LEXICON NMN_VANUIN  vanuin:vanui
 
 
+ LEXICON N_TAIGIN  taigin:taigin
+
+
+
+ LEXICON NMN_TAIGIN  taigin:taigin
+
+
  LEXICON N_KARJALAINE  karjalaine:karjala
 
 
@@ -51,6 +58,8 @@ Livvi nouns inflect in cases.
 
 
  LEXICON N_PAPPI  arteli:arteli
+
+ LEXICON N_UKSI  uksi:uks
 
  LEXICON N_REBOI  reboi:reboi
 
@@ -76,7 +85,15 @@ Livvi nouns inflect in cases.
 
  LEXICON N_OLUT  olut:olu
 
+
+
+ LEXICON NMN_OLUT  olut:olu
+
+
+
  LEXICON N_KUU  kuu:kuu
+
+ LEXICON N_MUA  mua:maa
 
  LEXICON N_MUARJU  muarju:muarja
 
@@ -106,6 +123,8 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON N_SULGU  sulgu:sulga
+
  LEXICON N_KOIRU  koiru:koira
 
 
@@ -118,13 +137,26 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON N_TUATINDAM  tuatindam:tuatindam
+
+
+
+ LEXICON N_TUATANDIM  tuatandim:tuatandim
+
+
+
  LEXICON N_SIEMEN  siemen:siemen
+
 
  LEXICON N_PAIMEN  paimen:paimen
 
 
 
  LEXICON N_SALBOIN  salboin:salboi
+
+
+
+ LEXICON N_UDAR  udar:piendar
 
 
 
@@ -165,6 +197,10 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON N_VASKIČČU  vaskičču:vaskičča
+
+
+
  LEXICON N_VALGEI  valgei:valge
 
 
@@ -172,6 +208,9 @@ Livvi nouns inflect in cases.
  LEXICON N_KIELINE  kieline:kieli
 
  LEXICON N_RUNO  runo:runo
+
+
+ LEXICON N_KYNDÖ  kyndö:kyndö
 
 
 NMN
@@ -185,6 +224,10 @@ NMN
 
 
  LEXICON NMN_KOIVU  koivu:koivu
+
+
+
+ LEXICON NMN_VASKIČČU  vaskičču:vaskičč
 
 
 
@@ -203,7 +246,19 @@ NMN
 
 
 
+
+
+
+
+
+
+
+
+
  LEXICON NMN_RUNO  runo:runo
+
+
+ LEXICON NMN_KYNDÖ  kyndö:kyndö
 
 
 
@@ -227,6 +282,11 @@ NMN
 
 
 
+
+ LEXICON NMN_MUA  mua:maa
+
+
+
  LEXICON NMN_KALA 
 
 
@@ -244,6 +304,9 @@ NMN
 
 
  LEXICON NMN_PAPPI  arteli:arteli
+
+ LEXICON NMN_UKSI  uksi:uks
+
 
  LEXICON NMN_REBOI  reboi:reboi
 

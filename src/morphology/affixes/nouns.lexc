@@ -197,6 +197,14 @@ LEXICON N_PAPPI-SG
 LEXICON N_PAPPI-PL
 +N: NMN_PAPPI-PL ;
 
+LEXICON N_UKSI !!= @CODE@ uksi:uks
+	N_UKSI-SG ;
+	N_UKSI-PL ;
+LEXICON N_UKSI-SG
++N: NMN_UKSI-SG ;
+LEXICON N_UKSI-PL
++N: NMN_UKSI-PL ;
+
 LEXICON N_REBOI !!= @CODE@ reboi:reboi
         N_REBOI-SG ;
         N_REBOI-PL ;
@@ -279,6 +287,9 @@ LEXICON NMN_OLUT-PL
 
 LEXICON N_KUU !!= @CODE@ kuu:kuu
 +N: NMN_KUU ;
+
+LEXICON N_MUA !!= @CODE@ mua:maa
++N: NMN_MUA ;
 
 LEXICON N_MUARJU !!= @CODE@ muarju:muarja
  N_MUARJU-SG ;
@@ -406,6 +417,26 @@ LEXICON N_SUURIM-SG
 
 LEXICON N_SUURIM-PL
 +N:     NMN_SUURIM ;
+
+LEXICON N_TUATINDAM !!= @CODE@ tuatindam:tuatindam
+        N_TUATINDAM-SG  ;
+        N_TUATINDAM-PL  ;
+
+LEXICON N_TUATINDAM-SG
++N: NMN_TUATINDAM-SG ;
+
+LEXICON N_TUATINDAM-PL
++N:     NMN_TUATINDAM ;
+
+LEXICON N_TUATANDIM !!= @CODE@ tuatandim:tuatandim
+        N_TUATANDIM-SG  ;
+        N_TUATANDIM-PL  ;
+
+LEXICON N_TUATANDIM-SG
++N: NMN_TUATANDIM-SG ;
+
+LEXICON N_TUATANDIM-PL
++N:     NMN_TUATANDIM ;
 
 LEXICON N_SIEMEN !!= @CODE@ siemen:siemen
         N_SIEMEN-SG  ;
@@ -554,6 +585,16 @@ LEXICON N_KOIVU-SG
 LEXICON N_KOIVU-PL
 +N: NMN_KOIVU-PL        ;
 
+LEXICON N_VASKIČČU !!= @CODE@ vaskičču:vaskičča
+        N_VASKIČČU-SG ;
+        N_VASKIČČU-PL ;
+
+LEXICON N_VASKIČČU-SG
++N: NMN_VASKIČČU-SG        ;
+
+LEXICON N_VASKIČČU-PL
++N: NMN_VASKIČČU-PL        ;
+
 LEXICON N_VALGEI !!= @CODE@ valgei:valge
         N_VALGEI-SG ;
         N_VALGEI-PL ;
@@ -575,6 +616,15 @@ LEXICON N_RUNO-SG
 +N: NMN_RUNO-SG   ;
 LEXICON N_RUNO-PL
 +N: NMN_RUNO-PL   ;
+
+LEXICON N_KYNDÖ !!= @CODE@ kyndö:kyndö
+	 N_KYNDÖ-SG ;
+	 N_KYNDÖ-PL ;
+
+LEXICON N_KYNDÖ-SG
++N: NMN_KYNDÖ-SG   ;
+LEXICON N_KYNDÖ-PL
++N: NMN_KYNDÖ-PL   ;
 
 !! NMN
 LEXICON NMN_NIMI
@@ -647,6 +697,23 @@ LEXICON NMN_KOIVU-PL
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>lO1i Noun-NB-01 ;
 
+LEXICON NMN_VASKIČČU !!= @CODE@ vaskičču:vaskičč
+        NMN_VASKIČČU-SG ;
+        NMN_VASKIČČU-PL ;
+
+LEXICON NMN_VASKIČČU-SG
+:u SGNOMSUF ;
+:a SGGENSUF ;
+:a SGPARSUF_A2 ;
++Sg:a Noun-NB-01 ;
+
+LEXICON NMN_VASKIČČU-PL
+:a PLNOMSUF ;
+:u%>l%{oö%}i PLGENSUF ; ! the plural comitative is declined here
+:u%>l%{oö%}i PLPARSUF_Zero ;
+:u%>l%{oö%}i PLINSSUF ;
++Pl:u%>lO1i Noun-NB-01 ;
+
 LEXICON NMN_SYGYZY !!= @CODE@ sygyzy:sygyzy
         NMN_SYGYZY-SG ;
         NMN_SYGYZY-PL ;
@@ -695,6 +762,31 @@ LEXICON NMN_SUURIM-SG
 LEXICON NMN_SUURIM-PL
 :ie PLGENSUF ;
 :i PLPARSUF_i ;
+
+LEXICON NMN_TUATANDIM
+        NMN_TUATANDIM-SG   ;
+        NMN_TUATANDIM-PL   ;
+
+LEXICON NMN_TUATANDIM-SG
+ SGNOMSUF ;
+:%{aä%} SGPARSUF_A2 ;
+
+LEXICON NMN_TUATANDIM-PL
+:ie PLGENSUF ;
+:i PLPARSUF_i ;
+
+LEXICON NMN_TUATINDAM
+        NMN_TUATINDAM-SG   ;
+        NMN_TUATINDAM-PL   ;
+
+LEXICON NMN_TUATINDAM-SG
+ SGNOMSUF ;
+:%{aä%} SGPARSUF_A2 ;
+
+LEXICON NMN_TUATINDAM-PL
+:ie PLGENSUF ;
+:i PLPARSUF_i ;
+
 
 
 LEXICON NMN_PIENAR
@@ -764,6 +856,21 @@ LEXICON NMN_RUNO-SG
 	SGGENSUF ;
 +Sg: 	Noun-NB-01 ;
 LEXICON NMN_RUNO-PL
+:l%{oö%}i PLGENSUF ;
+:l%{oö%}i PLPARSUF_Zero ;
+:l%{oö%}i PLINSSUF ;
+ 	  Noun-NB-loi ;
+
+LEXICON NMN_KYNDÖ !!= @CODE@ kyndö:kyndö
+	NMN_KYNDÖ-SG ;
+	NMN_KYNDÖ-PL ;
+
+LEXICON NMN_KYNDÖ-SG
+	SGNOMSUF ;
+ 	SGPARSUF_A2 ;
+	SGGENSUF ;
++Sg: 	Noun-NB-01 ;
+LEXICON NMN_KYNDÖ-PL
 :l%{oö%}i PLGENSUF ;
 :l%{oö%}i PLPARSUF_Zero ;
 :l%{oö%}i PLINSSUF ;
@@ -846,6 +953,24 @@ LEXICON NMN_KUU-SG
 +Sg: Noun-NB-01 ;
 
 LEXICON NMN_KUU-PL
+ PLNOMSUF ;
+:%>l%{oö%}i PLGENSUF ;
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
+: Noun-NB-loi ;
+
+
+LEXICON NMN_MUA !!= @CODE@ mua:maa
+	NMN_MUA-SG	;
+	NMN_MUA-PL	;
+
+LEXICON NMN_MUA-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_dU ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_MUA-PL
  PLNOMSUF ;
 :%>l%{oö%}i PLGENSUF ;
 :%>l%{oö%}i PLPARSUF_Zero ;
@@ -953,6 +1078,22 @@ LEXICON NMN_PAPPI-PL
 :%>l%{oö%}i PLPARSUF_Zero ;
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>l%{oö%}i Noun-NB-01 ;
+
+LEXICON NMN_UKSI !!= @CODE@ uksi:uks
+	NMN_UKSI-SG ;
+	NMN_UKSI-PL ;
+
+LEXICON NMN_UKSI-SG
+:i SGNOMSUF ;
+:e SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_UKSI-PL
+:e SGNOMSUF ;
+:i PLGENSUF ;
+:i PLPARSUF_Zero ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
 
 LEXICON NMN_REBOI !!= @CODE@ reboi:reboi
         NMN_REBOI-SG ;
