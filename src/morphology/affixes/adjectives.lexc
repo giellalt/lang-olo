@@ -37,6 +37,15 @@ LEXICON A_OZA !!= @CODE@ oza:oza
 LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
 +A: NMN_PÄIVY ;
 
+LEXICON A_PEREH !!= @CODE@ pereh:pereh
+	A_PEREH-SG	;
+	A_PEREH-PL	;
+LEXICON A_PEREH-SG
++A:	NMN_PEREH-SG	;
+
+LEXICON A_PEREH-PL
++A:	NMN_PEREH-PL	;
+
 LEXICON A_ARMAS !!= @CODE@ armas:arma
 +A:%^WEAK%>s SGNOMSUF ;
 +A:%^WEAK%>s SGPARSUF_dU ;
