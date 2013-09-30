@@ -213,8 +213,8 @@ LEXICON N_REBOI-SG
 LEXICON N_REBOI-PL
 +N: NMN_REBOI-PL ;
 
-LEXICON N_JÄLKI
- N_KIELI ;
+LEXICON N_JÄLGI  !!= @CODE@ jälgi:jälg
+ N_NIMI ;
 
 LEXICON N_KIELI !!= @CODE@ kieli:kiel
  N_KIELI-SG ;
@@ -239,15 +239,25 @@ LEXICON N_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 LEXICON N_AIGOMUS
  N_ALUS ;
 
-LEXICON N_ALUS !!= @CODE@ aigomus:aigomuks
+LEXICON N_ALUS !!= @CODE@ alus:aluks
  N_ALUS-SG ;
  N_ALUS-PL ;
 
-LEXICON N_ALUS-SG !!= @CODE@ aigomus:aigomuks
+LEXICON N_ALUS-SG !!= @CODE@ alus:aluks
 +N: NMN_ALUS-SG ;
 
-LEXICON N_ALUS-PL !!= @CODE@ aigomus:aigomuks
+LEXICON N_ALUS-PL !!= @CODE@ alus:aluks
 +N: NMN_ALUS-PL ;
+
+LEXICON N_MIES !!= @CODE@ mies:mie
+ N_MIES-SG ;
+ N_MIES-PL ;
+
+LEXICON N_MIES-SG !!= @CODE@ mies:mie
++N: NMN_MIES-SG ;
+
+LEXICON N_MIES-PL !!= @CODE@ mies:mie
++N: NMN_MIES-PL ;
 
 LEXICON N_SUALIŠ !!= @CODE@ suališ:suali
  N_SUALIŠ-SG ;
@@ -285,6 +295,9 @@ LEXICON NMN_OLUT-PL
 +N:i PLINSSUF ;
 +N+Pl:i Noun-NB-01 ;
 
+LEXICON N_SUO !!= @CODE@ suo:suo
++N: NMN_KUU ;
+
 LEXICON N_KUU !!= @CODE@ kuu:kuu
 +N: NMN_KUU ;
 
@@ -316,6 +329,8 @@ LEXICON NMN_MUARJU-PL
 :%>oi PLINSSUF ;
 +Pl:%>oi Noun-NB-01 ;
 
+LEXICON N_VIGA !!= @CODE@ viga:viga
+ N_KALA ;
 LEXICON N-HUM_KALA
 +N+Hum: NMN_KALA ;
 
@@ -911,6 +926,23 @@ LEXICON NMN_ALUS-PL
 +N:%>i PLPARSUF_i ;
 +N:%>i PLINSSUF ;
 +N+Pl:i Noun-NB-01 ;
+
+LEXICON NMN_MIES !!= @CODE@ mies:mie
+	NMN_MIES-SG ;
+	NMN_MIES-PL ;
+
+LEXICON NMN_MIES-SG
++N:s SGNOMSUF ;
++N:he SGGENSUF ;
++N:s SGPARSUF_dU ;
++N+Sg:he Noun-NB-01 ;
+
+LEXICON NMN_MIES-PL
++N:he PLNOMSUF ;
++N:%>hie PLGENSUF ; ! the plural comitative is declined here
++N:%>hi PLPARSUF_i ;
++N:%>hi PLINSSUF ;
++N+Pl:hi Noun-NB-01 ;
 
 LEXICON NMN_SUALIŠ !!= @CODE@ suališ:suali
 	NMN_SUALIŠ-SG ;
