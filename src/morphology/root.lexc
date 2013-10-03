@@ -185,7 +185,9 @@ Multichar_Symbols
  %^A2O ! before plural "i"
  %^A2U ! +Nom+Sg
  %^NONE ! no regular change
- %^KS2S ! "Anuksen" is "Anus" in the nominative singular 
+ %^KS2S ! "aluksen" is "alus" in the nominative singular 
+ %^ILoss  !!= @CODE@ ! the i => 0 _reboi_ _reboloi_
+
 QAQ1 QAO1 EH1 QEQ1 INE1 ZD1 ZS1 V1
 AO1 EI1 ZS1 ZD1 
 ! These are for developing underlying morphology rules

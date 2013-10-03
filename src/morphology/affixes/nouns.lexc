@@ -710,7 +710,7 @@ LEXICON NMN_KOIVU-PL
 :%>l%{oö%}i PLGENSUF ; ! the plural comitative is declined here
 :%>l%{oö%}i PLPARSUF_Zero ;
 :%>l%{oö%}i PLINSSUF ;
-+Pl:%>lO1i Noun-NB-01 ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_VASKIČČU !!= @CODE@ vaskičču:vaskičč
         NMN_VASKIČČU-SG ;
@@ -727,7 +727,7 @@ LEXICON NMN_VASKIČČU-PL
 :u%>l%{oö%}i PLGENSUF ; ! the plural comitative is declined here
 :u%>l%{oö%}i PLPARSUF_Zero ;
 :u%>l%{oö%}i PLINSSUF ;
-+Pl:u%>lO1i Noun-NB-01 ;
++Pl:u%>l%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_SYGYZY !!= @CODE@ sygyzy:sygyzy
         NMN_SYGYZY-SG ;
@@ -744,7 +744,7 @@ LEXICON NMN_SYGYZY-PL
 :%>l%{oö%}i PLGENSUF ; ! the plural comitative is declined here
 :%>l%{oö%}i PLPARSUF_Zero ;
 :%>l%{oö%}i PLINSSUF ;
-+Pl:%>lO1i Noun-NB-01 ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
 
 
 LEXICON NMN_VALGEI
@@ -1133,13 +1133,14 @@ LEXICON NMN_REBOI !!= @CODE@ reboi:reboi
 LEXICON NMN_REBOI-SG
  SGNOMSUF ;
  SGGENSUF ;
- SGPARSUF_A2 ;
+ SGPARSUF_dU ;
 +Sg: Noun-NB-01 ;
 LEXICON NMN_REBOI-PL
-:i PLGENSUF ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:	PLNOMSUF ;
+:%^ILoss%>l%{oö%}i PLGENSUF ;
+:%^ILoss%>l%{oö%}i PLPARSUF_Zero ;
+:%^ILoss%>l%{oö%}i PLINSSUF ;
++Pl:%^ILoss%>l%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_OZA !!= @CODE@ oza:oza
 	NMN_OZA-SG  ;
@@ -1262,12 +1263,6 @@ LEXICON PLPARSUF_dU
 +Pl+Par:%>d%{uy%} K ;
 
 LEXICON Noun-NB-01
-+Ess:%^WEAK%>nn%{uy%} K ;
-+Tra:%^WEAK%>kse K ;
-+Ine:%^WEAK%>s K ;
-+Ela:%^WEAK%>s K ;
-+Ela:%^WEAK%>späi K ;
-+Ill:%>h K ;
 +Ade:%^WEAK%>l K ;
 +Abl:%^WEAK%>l K ;
 +Abl:%^WEAK%>lpäi K ;
@@ -1275,7 +1270,13 @@ LEXICON Noun-NB-01
 +Abe:%^WEAK%>tt%{aä%}h K ;
 +Abe:%^WEAK%>tt%{aä%} K ;
 +Abe:%^WEAK%>t%{aä%} K ;
-+Prl:%>či K ;
++Ela:%^WEAK%>s K ;
++Ela:%^WEAK%>späi K ;
++Ess:%^WEAK%>nn%{uy%} K ;
++Ine:%^WEAK%>s K ;
++Ill:%>h K ;
++Tra:%^WEAK%>kse K ;
++Prl:%^WEAK%>či K ;
 +Apr:%^WEAK%>ll%{uy%}%{oö%} K ;
 +Ter:%^WEAK%>ss%{aä%}h K ;
 
