@@ -1,0 +1,85 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - kylä: # Noun (N_OZA) 'village / koira' - full paradigm
+     kylä+N+Sg+Nom: kylä
+     kylä+N+Sg+Gen: kylän
+     kylä+N+Sg+Acc: [kylä, kylän]
+     kylä+N+Sg+Par: kyliä
+     kylä+N+Sg+Tra: kyläkse
+     kylä+N+Sg+Abe: [kylättä, kylätä, kylättäh]
+     kylä+N+Sg+Com: kylänke
+     kylä+N+Sg+Ine: kyläs
+     kylä+N+Sg+Ela: [kyläspäi, kyläs]
+     kylä+N+Sg+Ill: kyläh
+     kylä+N+Sg+Ade: kyläl
+     kylä+N+Sg+Abl: [kylälpäi, kyläl]
+     kylä+N+Sg+All: kyläle
+     kylä+N+Sg+Ess: kylänny
+     kylä+N+Sg+Ter: kylässäh
+     kylä+N+Sg+Apr: kylällyö
+     kylä+N+Sg+Prl: kyläči
+     kylä+N+Pl+Nom: kylät
+     kylä+N+Pl+Gen: kylien
+     kylä+N+Pl+Acc: kylät
+     kylä+N+Pl+Par: kylii
+     kylä+N+Pl+Tra: kylikse
+     kylä+N+Pl+Abe: [kylittä, kylitä, kylittäh]
+     kylä+N+Pl+Com: kylienke
+     kylä+N+Pl+Ine: kylis
+     kylä+N+Pl+Ela: [kylispäi, kylis]
+     kylä+N+Pl+Ill: kylih
+     kylä+N+Pl+Ade: kylil
+     kylä+N+Pl+Abl: [kylilpäi, kylil]
+     kylä+N+Pl+All: kylile
+     kylä+N+Pl+Ess: kylinny
+     kylä+N+Pl+Ins: kylin
+     kylä+N+Pl+Prl: kyliči
+     kylä+N+Pl+Apr: kylillyö
+     kylä+N+Sg+Nom+Clt/gi: kylägi
+     kylä+N+Sg+Gen+Clt/gi: kylängi
+     kylä+N+Sg+Acc+Clt/gi: [kylägi, kylängi]
+     kylä+N+Sg+Par+Clt/gi: kyliägi
+     kylä+N+Sg+Tra+Clt/gi: kyläksegi
+     kylä+N+Sg+Abe+Clt/gi: [kylättägi, kylätägi, kylättähgi]
+     kylä+N+Sg+Com+Clt/gi: kylänkegi
+     kylä+N+Sg+Ine+Clt/gi: kyläsgi
+     kylä+N+Sg+Ela+Clt/gi: [kyläspäigi, kyläsgi]
+     kylä+N+Sg+Ill+Clt/gi: kylähgi
+     kylä+N+Sg+Ade+Clt/gi: kylälgi
+     kylä+N+Sg+Abl+Clt/gi: [kylälpäigi, kylälgi]
+     kylä+N+Sg+All+Clt/gi: kylälegi
+     kylä+N+Sg+Ess+Clt/gi: kylännygi
+     kylä+N+Sg+Ter+Clt/gi: kylässähgi
+     kylä+N+Sg+Apr+Clt/gi: kylällyögi
+     kylä+N+Sg+Prl+Clt/gi: kyläčigi
+     kylä+N+Pl+Nom+Clt/gi: kylätgi
+     kylä+N+Pl+Gen+Clt/gi: kyliengi
+     kylä+N+Pl+Acc+Clt/gi: kylätgi
+     kylä+N+Pl+Par+Clt/gi: kyliigi
+     kylä+N+Pl+Tra+Clt/gi: kyliksegi
+     kylä+N+Pl+Abe+Clt/gi: [kylittägi, kylitägi, kylittähgi]
+     kylä+N+Pl+Com+Clt/gi: kylienkegi
+     kylä+N+Pl+Ine+Clt/gi: kylisgi
+     kylä+N+Pl+Ela+Clt/gi: [kylispäigi, kylisgi]
+     kylä+N+Pl+Ill+Clt/gi: kylihgi
+     kylä+N+Pl+Ade+Clt/gi: kylilgi
+     kylä+N+Pl+Abl+Clt/gi: [kylilpäigi, kylilgi]
+     kylä+N+Pl+All+Clt/gi: kylilegi
+     kylä+N+Pl+Ess+Clt/gi: kylinnygi
+     kylä+N+Pl+Ins+Clt/gi: kylingi
+     kylä+N+Pl+Prl+Clt/gi: kyličigi
+     kylä+N+Pl+Apr+Clt/gi: kylillyögi
