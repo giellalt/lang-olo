@@ -1,0 +1,48 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+
+# Comments after each adjective:
+# ok = checked against Marit/Maja
+# ? = not checked
+# c = Comp or Superl attested in corpus
+
+Tests:
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Pronoun - kaheksa: # pronouns '(eng) you [Sg.] / (fin) sinä' 
+    sinä+Pron+Pers+Sg2+Nom: sinä
+    sinä+Pron+Pers+Sg2+Gen: sinun
+    sinä+Pron+Pers+Sg2+Ade: sinul
+    sinä+Pron+Pers+Sg2+All: sinule
+    sinä+Pron+Pers+Sg2+Abl: [sinul, sinulpäi]
+    sinä+Pron+Pers+Sg2+Com: sinunke
+    sinä+Pron+Pers+Sg2+Ill: sinuh
+    sinä+Pron+Pers+Sg2+Ine: sinus
+    sinä+Pron+Pers+Sg2+Abe: sinuttah
+    sinä+Pron+Pers+Sg2+Par: sinuu
+
+    häi+Pron+Pers+Sg3+Nom: häi
+    häi+Pron+Pers+Sg3+Gen: hänen
+    häi+Pron+Pers+Sg3+Ade: hänel
+    häi+Pron+Pers+Sg3+All: hänele
+    häi+Pron+Pers+Sg3+Abl: [hänel, hänelpäi]
+    häi+Pron+Pers+Sg3+Com: hänenke
+    häi+Pron+Pers+Sg3+Ill: häneh
+    häi+Pron+Pers+Sg3+Ine: hänes
+    häi+Pron+Pers+Sg3+Abe: hänettah
+    häi+Pron+Pers+Sg3+Par: händy
+
+
+
+

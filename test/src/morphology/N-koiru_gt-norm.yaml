@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - koiru: # Noun 'dog / koira' - full paradigm
+     koiru+N+Sg+Nom: koiru
+     koiru+N+Sg+Gen: koiran
+     koiru+N+Sg+Acc: [koiru, koiran]
+     koiru+N+Sg+Par: koirua
+     koiru+N+Sg+Tra: koirakse
+     koiru+N+Sg+Abe: [koiratta, koirata, koirattah]
+     koiru+N+Sg+Com: koiranke
+     koiru+N+Sg+Ine: koiras
+     koiru+N+Sg+Ela: [koiraspäi, koiras]
+     koiru+N+Sg+Ill: koirah
+     koiru+N+Sg+Ade: koiral
+     koiru+N+Sg+Abl: [koiralpäi, koiral]
+     koiru+N+Sg+All: koirale
+     koiru+N+Sg+Ess: koirannu
+     koiru+N+Sg+Ter: koirassah
+     koiru+N+Sg+Apr: koiralluo
+     koiru+N+Pl+Nom: koirat
+     koiru+N+Pl+Gen: koirien
+     koiru+N+Pl+Acc: koirat
+     koiru+N+Pl+Par: koirii
+     koiru+N+Pl+Tra: koirikse
+     koiru+N+Pl+Abe: [koiritta, koirita, koirittah]
+     koiru+N+Pl+Com: koirienke
+     koiru+N+Pl+Ine: koiris
+     koiru+N+Pl+Ela: [koirispäi, koiris]
+     koiru+N+Pl+Ill: koirihe
+     koiru+N+Pl+Ade: koiril
+     koiru+N+Pl+Abl: [koirilpäi, koiril]
+     koiru+N+Pl+All: koirile
+     koiru+N+Pl+Ess: koirinnu
+     koiru+N+Pl+Ins: koirin
+     koiru+N+Pl+Apr: koirilluo
+     koiru+N+Sg+Nom+Clt/gi: koirugi
+     koiru+N+Sg+Gen+Clt/gi: koirangi
+     koiru+N+Sg+Acc+Clt/gi: [koirugi, koirangi]
+     koiru+N+Sg+Par+Clt/gi: koiruagi
+     koiru+N+Sg+Tra+Clt/gi: koiraksegi
+     koiru+N+Sg+Abe+Clt/gi: [koirattagi, koiratagi, koirattahgi]
+     koiru+N+Sg+Com+Clt/gi: koirankegi
+     koiru+N+Sg+Ine+Clt/gi: koirasgi
+     koiru+N+Sg+Ela+Clt/gi: [koiraspäigi, koirasgi]
+     koiru+N+Sg+Ill+Clt/gi: koirahgi
+     koiru+N+Sg+Ade+Clt/gi: koiralgi
+     koiru+N+Sg+Abl+Clt/gi: [koiralpäigi, koiralgi]
+     koiru+N+Sg+All+Clt/gi: koiralegi
+     koiru+N+Sg+Ess+Clt/gi: koirannugi
+     koiru+N+Sg+Ter+Clt/gi: koirassahgi
+     koiru+N+Sg+Apr+Clt/gi: koiralluogi
+     koiru+N+Pl+Nom+Clt/gi: koiratgi
+     koiru+N+Pl+Gen+Clt/gi: koiriengi
+     koiru+N+Pl+Acc+Clt/gi: koiratgi
+     koiru+N+Pl+Par+Clt/gi: koiriigi
+     koiru+N+Pl+Tra+Clt/gi: koiriksegi
+     koiru+N+Pl+Abe+Clt/gi: [koirittagi, koiritagi, koirittahgi]
+     koiru+N+Pl+Com+Clt/gi: koirienkegi
+     koiru+N+Pl+Ine+Clt/gi: koirisgi
+     koiru+N+Pl+Ela+Clt/gi: [koirispäigi, koirisgi]
+     koiru+N+Pl+Ill+Clt/gi: koirihegi
+     koiru+N+Pl+Ade+Clt/gi: koirilgi
+     koiru+N+Pl+Abl+Clt/gi: [koirilpäigi, koirilgi]
+     koiru+N+Pl+All+Clt/gi: koirilegi
+     koiru+N+Pl+Ess+Clt/gi: koirinnugi
+     koiru+N+Pl+Ins+Clt/gi: koiringi
+     koiru+N+Pl+Apr+Clt/gi: koirilluogi

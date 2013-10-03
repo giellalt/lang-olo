@@ -1,0 +1,62 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+
+# Comments after each adjective:
+# ok = checked against Marit/Maja
+# ? = not checked
+# c = Comp or Superl attested in corpus
+
+Tests:
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Numeral - kaheksa: # quantifiers '(eng) eight / (fin) kahdeksan' 
+    kaheksa+Num+Sg+Nom: kaheksa
+    kaheksa+Num+Sg+Gen: kaheksan
+    kaheksa+Num+Sg+Ill: kaheksah
+    kaheksa+Num+Sg+Ine: kaheksas
+    kaheksa+Num+Sg+Abe: kaheksattah
+    kaheksa+Num+Sg+Par: kaheksua
+    kaheksa+Num+Pl+Nom: kaheksat
+    kaheksa+Num+Pl+Gen: kaheksien
+    kaheksa+Num+Pl+Ill: kaheksih
+    kaheksa+Num+Pl+Ine: kaheksis
+    kaheksa+Num+Pl+Abe: kaheksittah
+    kaheksa+Num+Pl+Par: kaheksii
+
+    yheksä+Num+Sg+Nom: yheksä
+    yheksä+Num+Sg+Gen: yheksän
+    yheksä+Num+Sg+Ill: yheksäh
+    yheksä+Num+Sg+Ine: yheksäs
+    yheksä+Num+Sg+Par: yheksiä
+    yheksä+Num+Pl+Nom: yheksät
+    yheksä+Num+Pl+Gen: yheksien
+    yheksä+Num+Pl+Ill: yheksih
+    yheksä+Num+Pl+Ine: yheksis
+    yheksä+Num+Pl+Par: yheksii
+
+    nelli+Num+Sg+Nom: nelli
+    nelli+Num+Sg+Gen: nellän
+    nelli+Num+Sg+Ill: nelläh
+    nelli+Num+Sg+Ine: nelläs
+    nelli+Num+Sg+Par: nelliä
+
+    tuhat+Num+Sg+Nom: tuhat
+    tuhat+Num+Sg+Gen: tuhanden
+    tuhat+Num+Sg+Ill: tuhandeh
+    tuhat+Num+Sg+Ine: tuhandes
+    tuhat+Num+Sg+Par: tuhattu
+
+
+
+

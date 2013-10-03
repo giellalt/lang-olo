@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjective - suuri: # adjectives 'big / suuri' - full paradigm
+     suuri+A+Sg+Nom: suuri
+     suuri+A+Sg+Gen: suuren
+     suuri+A+Sg+Acc: [suuri, suuren]
+     suuri+A+Sg+Par: suurdu
+     suuri+A+Sg+Tra: suurekse
+     suuri+A+Sg+Abe: [suuretta, suureta, suurettah]
+     suuri+A+Sg+Com: suurenke
+     suuri+A+Sg+Ine: suures
+     suuri+A+Sg+Ela: [suurespäi, suures]
+     suuri+A+Sg+Ill: suureh
+     suuri+A+Sg+Ade: suurel
+     suuri+A+Sg+Abl: [suurelpäi, suurel]
+     suuri+A+Sg+All: suurele
+     suuri+A+Sg+Ess: suurennu
+     suuri+A+Sg+Ter: suuressah
+     suuri+A+Sg+Apr: suurelluo
+     suuri+A+Pl+Nom: suuret
+     suuri+A+Pl+Gen: [suurien, suuriloin]
+     suuri+A+Pl+Acc: suuret
+     suuri+A+Pl+Par: [suurii, suuriloi]
+     suuri+A+Pl+Tra: [suurikse, suuriloikse]
+     suuri+A+Pl+Abe: [suuritta, suurita, suurittah, suuriloitta, suuriloita, suuriloittah]
+     suuri+A+Pl+Com: [suurienke, suuriloinke]
+     suuri+A+Pl+Ine: [suuris, suurilois]
+     suuri+A+Pl+Ela: [suurispäi, suuris, suuriloispäi, suurilois]
+     suuri+A+Pl+Ill: [suurihe, suuriloihe]
+     suuri+A+Pl+Ade: [suuril, suuriloil]
+     suuri+A+Pl+Abl: [suurilpäi, suuril, suuriloilpäi, suuriloil]
+     suuri+A+Pl+All: [suurile, suuriloile]
+     suuri+A+Pl+Ess: [suurinnu, suuriloinnu]
+     suuri+A+Pl+Ins: [suurin, suuriloin]
+     suuri+A+Pl+Apr: [suurilluo, suuriloilluo]
+     suuri+A+Sg+Nom+Clt/gi: suurigi
+     suuri+A+Sg+Gen+Clt/gi: suurengi
+     suuri+A+Sg+Acc+Clt/gi: [suurigi, suurengi]
+     suuri+A+Sg+Par+Clt/gi: suurdugi
+     suuri+A+Sg+Tra+Clt/gi: suureksegi
+     suuri+A+Sg+Abe+Clt/gi: [suurettagi, suuretagi, suurettahgi]
+     suuri+A+Sg+Com+Clt/gi: suurenkegi
+     suuri+A+Sg+Ine+Clt/gi: suuresgi
+     suuri+A+Sg+Ela+Clt/gi: [suurespäigi, suuresgi]
+     suuri+A+Sg+Ill+Clt/gi: suurehgi
+     suuri+A+Sg+Ade+Clt/gi: suurelgi
+     suuri+A+Sg+Abl+Clt/gi: [suurelpäigi, suurelgi]
+     suuri+A+Sg+All+Clt/gi: suurelegi
+     suuri+A+Sg+Ess+Clt/gi: suurennugi
+     suuri+A+Sg+Ter+Clt/gi: suuressahgi
+     suuri+A+Sg+Apr+Clt/gi: suurelluogi
+     suuri+A+Pl+Nom+Clt/gi: suuretgi
+     suuri+A+Pl+Gen+Clt/gi: [suuriengi, suuriloingi]
+     suuri+A+Pl+Acc+Clt/gi: suuretgi
+     suuri+A+Pl+Par+Clt/gi: [suuriigi, suuriloigi]
+     suuri+A+Pl+Tra+Clt/gi: [suuriksegi, suuriloiksegi]
+     suuri+A+Pl+Abe+Clt/gi: [suurittagi, suuritagi, suurittahgi, suuriloittagi, suuriloitagi, suuriloittahgi]
+     suuri+A+Pl+Com+Clt/gi: [suurienkegi, suuriloinkegi]
+     suuri+A+Pl+Ine+Clt/gi: [suurisgi, suuriloisgi]
+     suuri+A+Pl+Ela+Clt/gi: [suurispäigi, suurisgi, suuriloispäigi, suuriloisgi]
+     suuri+A+Pl+Ill+Clt/gi: [suurihegi, suuriloihegi]
+     suuri+A+Pl+Ade+Clt/gi: [suurilgi, suuriloilgi]
+     suuri+A+Pl+Abl+Clt/gi: [[suurilpäigi, suurilgi, suuriloilpäigi, suuriloilgi]
+     suuri+A+Pl+All+Clt/gi: [suurilegi, suuriloilegi]
+     suuri+A+Pl+Ess+Clt/gi: [suurinnugi, suuriloinnugi]
+     suuri+A+Pl+Ins+Clt/gi: [suuringi, suuriloingi]
+     suuri+A+Pl+Apr+Clt/gi: [suurilluogi, suuriloilluogi]

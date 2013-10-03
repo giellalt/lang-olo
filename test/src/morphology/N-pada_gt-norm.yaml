@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - pada: # Noun 'pot / pata' - full paradigm
+     pada+N+Sg+Nom: pada
+     pada+N+Sg+Gen: puan
+     pada+N+Sg+Acc: [pada, puan]
+     pada+N+Sg+Par: padua
+     pada+N+Sg+Tra: puakse
+     pada+N+Sg+Abe: [puatta, puata, puattah]
+     pada+N+Sg+Com: puanke
+     pada+N+Sg+Ine: puas
+     pada+N+Sg+Ela: [puaspäi, puas]
+     pada+N+Sg+Ill: padah
+     pada+N+Sg+Ade: pual
+     pada+N+Sg+Abl: [pualpäi, pual]
+     pada+N+Sg+All: puale
+     pada+N+Sg+Ess: puannu
+     pada+N+Sg+Ter: puassah
+     pada+N+Sg+Apr: pualluo
+     pada+N+Pl+Nom: puat
+     pada+N+Pl+Gen: padojen
+     pada+N+Pl+Acc: puat
+     pada+N+Pl+Par: padoi
+     pada+N+Pl+Tra: padoikse
+     pada+N+Pl+Abe: [padoitta, padoita, padoittah]
+     pada+N+Pl+Com: padojenke
+     pada+N+Pl+Ine: padois
+     pada+N+Pl+Ela: [padoispäi, padois]
+     pada+N+Pl+Ill: padoihe
+     pada+N+Pl+Ade: padoil
+     pada+N+Pl+Abl: [padoilpäi, padoil]
+     pada+N+Pl+All: padoile
+     pada+N+Pl+Ess: padoinnu
+     pada+N+Pl+Ins: padoin
+     pada+N+Pl+Apr: padoilluo
+     pada+N+Sg+Nom+Clt/gi: padagi
+     pada+N+Sg+Gen+Clt/gi: puangi
+     pada+N+Sg+Acc+Clt/gi: [padagi, puangi]
+     pada+N+Sg+Par+Clt/gi: padaagi
+     pada+N+Sg+Tra+Clt/gi: puaksegi
+     pada+N+Sg+Abe+Clt/gi: [puattagi, puatagi, puattahgi]
+     pada+N+Sg+Com+Clt/gi: puankegi
+     pada+N+Sg+Ine+Clt/gi: puasgi
+     pada+N+Sg+Ela+Clt/gi: [puaspäigi, puasgi]
+     pada+N+Sg+Ill+Clt/gi: puahgi
+     pada+N+Sg+Ade+Clt/gi: pualgi
+     pada+N+Sg+Abl+Clt/gi: [pualpäigi, pualgi]
+     pada+N+Sg+All+Clt/gi: pualegi
+     pada+N+Sg+Ess+Clt/gi: puannugi
+     pada+N+Sg+Ter+Clt/gi: puassahgi
+     pada+N+Sg+Apr+Clt/gi: pualluogi
+     pada+N+Pl+Nom+Clt/gi: puatgi
+     pada+N+Pl+Gen+Clt/gi: padojengi
+     pada+N+Pl+Acc+Clt/gi: puatgi
+     pada+N+Pl+Par+Clt/gi: padoigi
+     pada+N+Pl+Tra+Clt/gi: padoiksegi
+     pada+N+Pl+Abe+Clt/gi: [padoittagi, padoitagi, padoittahgi]
+     pada+N+Pl+Com+Clt/gi: padojenkegi
+     pada+N+Pl+Ine+Clt/gi: padoisgi
+     pada+N+Pl+Ela+Clt/gi: [padoispäigi, padoisgi]
+     pada+N+Pl+Ill+Clt/gi: padoihegi
+     pada+N+Pl+Ade+Clt/gi: padoilgi
+     pada+N+Pl+Abl+Clt/gi: [padoilpäigi, padoilgi]
+     pada+N+Pl+All+Clt/gi: padoilegi
+     pada+N+Pl+Ess+Clt/gi: padoinnugi
+     pada+N+Pl+Ins+Clt/gi: padoingi
+     pada+N+Pl+Apr+Clt/gi: padoilluogi

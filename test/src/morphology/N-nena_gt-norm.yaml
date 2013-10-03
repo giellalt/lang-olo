@@ -1,0 +1,125 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+
+# Comments after each adjective:
+# ok = checked against Marit/Maja
+# ? = not checked
+# c = Comp or Superl attested in corpus
+
+Tests:
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Noun - nenä: # nouns '(eng) nose / (fin) nenä' 
+    nenä+N+Sg+Nom: nenä
+    nenä+N+Sg+Gen: nenän
+    nenä+N+Sg+Ill: nenäh
+    nenä+N+Sg+Ine: nenäs
+    nenä+N+Sg+Par: neniä
+
+    sana+N+Sg+Nom: sana
+    sana+N+Sg+Gen: sanan
+    sana+N+Sg+Ill: sanah
+    sana+N+Sg+Ine: sanas
+    sana+N+Sg+Par: sanua
+
+    sorzu+N+Sg+Nom: sorzu
+    sorzu+N+Sg+Gen: sorzan
+    sorzu+N+Sg+Ill: sorzah
+    sorzu+N+Sg+Ine: sorzas
+    sorzu+N+Sg+Par: sorzua
+
+    ladu+N+Sg+Nom: ladu
+    ladu+N+Sg+Gen: lavun
+    ladu+N+Sg+Ill: laduh
+    ladu+N+Sg+Ine: lavus
+    ladu+N+Sg+Par: laduu
+
+    kyly+N+Sg+Nom: kyly
+    kyly+N+Sg+Gen: kylyn
+    kyly+N+Sg+Ill: kylyh
+    kyly+N+Sg+Ine: kylys
+    kyly+N+Sg+Par: kylyy
+
+    heiny+N+Sg+Nom: heiny
+    heiny+N+Sg+Gen: heinän
+    heiny+N+Sg+Ill: heinäh
+    heiny+N+Sg+Ine: heinäs
+    heiny+N+Sg+Par: heiniä
+
+    kello+N+Sg+Nom: kello
+    kello+N+Sg+Gen: kellon
+    kello+N+Sg+Ill: kelloh
+    kello+N+Sg+Ine: kellos
+    kello+N+Sg+Par: kellua
+
+    pöllö+N+Sg+Nom: pöllö
+    pöllö+N+Sg+Gen: pöllön
+    pöllö+N+Sg+Ill: pöllöh
+    pöllö+N+Sg+Ine: pöllös
+    pöllö+N+Sg+Par: pöllyö
+
+    lehti+N+Sg+Nom: lehti
+    lehti+N+Sg+Gen: lehten
+    lehti+N+Sg+Ill: lehteh
+    lehti+N+Sg+Ine: lehtes
+    lehti+N+Sg+Par: lehtie
+
+    kukki+N+Sg+Nom: kukki
+    kukki+N+Sg+Gen: kukin
+    kukki+N+Sg+Ill: kukkih
+    kukki+N+Sg+Ine: kukis
+    kukki+N+Sg+Par: kukkii
+
+    čoma+A+Sg+Nom: čoma
+    čoma+A+Sg+Gen: čoman
+    čoma+A+Sg+Ill: čomah
+    čoma+A+Sg+Ine: čomas
+    čoma+A+Sg+Par: čomua
+
+    hyvä+A+Sg+Nom: hyvä
+    hyvä+A+Sg+Gen: hyvän
+    hyvä+A+Sg+Ill: hyväh
+    hyvä+A+Sg+Ine: hyväs
+    hyvä+A+Sg+Par: hyviä
+
+    kylmy+A+Sg+Nom: kylmy
+    kylmy+A+Sg+Gen: kylmän
+    kylmy+A+Sg+Ill: kylmäh
+    kylmy+A+Sg+Ine: kylmäs
+    kylmy+A+Sg+Par: kylmiä
+
+    vilu+A+Sg+Nom: vilu
+    vilu+A+Sg+Gen: vilun
+    vilu+A+Sg+Ill: viluh
+    vilu+A+Sg+Ine: vilus
+    vilu+A+Sg+Par: viluu
+
+    ondo+A+Sg+Nom: ondo
+    ondo+A+Sg+Gen: onnon
+    ondo+A+Sg+Ill: ondoh
+    ondo+A+Sg+Ine: onnos
+    ondo+A+Sg+Par: onduo
+
+    töhlö+A+Sg+Nom: töhlö
+    töhlö+A+Sg+Gen: töhlön
+    töhlö+A+Sg+Ill: töhlöh
+    töhlö+A+Sg+Ine: töhlös
+    töhlö+A+Sg+Par: töhlyö
+
+
+
+
+
+
+

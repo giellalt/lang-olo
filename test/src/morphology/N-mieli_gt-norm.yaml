@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjective - mieli: # adjectives 'big / mieli' - full paradigm
+     mieli+N+Sg+Nom: mieli
+     mieli+N+Sg+Gen: mielen
+     mieli+N+Sg+Acc: [mieli, mielen]
+     mieli+N+Sg+Par: mieldy
+     mieli+N+Sg+Tra: mielekse
+     mieli+N+Sg+Abe: [mielettä, mieletä, mielettäh]
+     mieli+N+Sg+Com: mielenke
+     mieli+N+Sg+Ine: mieles
+     mieli+N+Sg+Ela: [mielespäi, mieles]
+     mieli+N+Sg+Ill: mieleh
+     mieli+N+Sg+Ade: mielel
+     mieli+N+Sg+Abl: [mielelpäi, mielel]
+     mieli+N+Sg+All: mielele
+     mieli+N+Sg+Ess: mielenny
+     mieli+N+Sg+Ter: mielessah
+     mieli+N+Sg+Apr: mielellyö
+     mieli+N+Pl+Nom: mielet
+     mieli+N+Pl+Gen: [mielien, mielilöin]
+     mieli+N+Pl+Acc: mielet
+     mieli+N+Pl+Par: [mielii, mielilöi]
+     mieli+N+Pl+Tra: [mielikse, mielilöikse]
+     mieli+N+Pl+Abe: [mielittä, mielitä, mielittäh, mielilöittä, mielilöitä, mielilöittäh]
+     mieli+N+Pl+Com: [mielienke, mielilöinke]
+     mieli+N+Pl+Ine: [mielis, mielilöis]
+     mieli+N+Pl+Ela: [mielispäi, mielis, mielilöispäi, mielilöis]
+     mieli+N+Pl+Ill: [mielihe, mielilöihe]
+     mieli+N+Pl+Ade: [mielil, mielilöil]
+     mieli+N+Pl+Abl: [mielilpäi, mielil, mielilöilpäi, mielilöil]
+     mieli+N+Pl+All: [mielile, mielilöile]
+     mieli+N+Pl+Ess: [mielinny, mielilöinny]
+     mieli+N+Pl+Ins: [mielin, mielilöin]
+     mieli+N+Pl+Apr: [mielillyö, mielilöillyö]
+     mieli+N+Sg+Nom+Clt/gi: mieligi
+     mieli+N+Sg+Gen+Clt/gi: mielengi
+     mieli+N+Sg+Acc+Clt/gi: [mieligi, mielengi]
+     mieli+N+Sg+Par+Clt/gi: mieldygi
+     mieli+N+Sg+Tra+Clt/gi: mieleksegi
+     mieli+N+Sg+Abe+Clt/gi: [mielettägi, mieletägi, mielettähgi]
+     mieli+N+Sg+Com+Clt/gi: mielenkegi
+     mieli+N+Sg+Ine+Clt/gi: mielesgi
+     mieli+N+Sg+Ela+Clt/gi: [mielespäigi, mielesgi]
+     mieli+N+Sg+Ill+Clt/gi: mielehgi
+     mieli+N+Sg+Ade+Clt/gi: mielelgi
+     mieli+N+Sg+Abl+Clt/gi: [mielelpäigi, mielelgi]
+     mieli+N+Sg+All+Clt/gi: mielelegi
+     mieli+N+Sg+Ess+Clt/gi: mielennygi
+     mieli+N+Sg+Ter+Clt/gi: mielessahgi
+     mieli+N+Sg+Apr+Clt/gi: mielellyögi
+     mieli+N+Pl+Nom+Clt/gi: mieletgi
+     mieli+N+Pl+Gen+Clt/gi: [mieliengi, mielilöingi]
+     mieli+N+Pl+Acc+Clt/gi: mieletgi
+     mieli+N+Pl+Par+Clt/gi: [mieliigi, mielilöigi]
+     mieli+N+Pl+Tra+Clt/gi: [mieliksegi, mielilöiksegi]
+     mieli+N+Pl+Abe+Clt/gi: [mielittägi, mielitägi, mielittähgi, mielilöittägi, mielilöitägi, mielilöittähgi]
+     mieli+N+Pl+Com+Clt/gi: [mielienkegi, mielilöinkegi]
+     mieli+N+Pl+Ine+Clt/gi: [mielisgi, mielilöisgi]
+     mieli+N+Pl+Ela+Clt/gi: [mielispäigi, mielisgi, mielilöispäigi, mielilöisgi]
+     mieli+N+Pl+Ill+Clt/gi: [mielihegi, mielilöihegi]
+     mieli+N+Pl+Ade+Clt/gi: [mielilgi, mielilöilgi]
+     mieli+N+Pl+Abl+Clt/gi: [[mielilpäigi, mielilgi, mielilöilpäigi, mielilöilgi]
+     mieli+N+Pl+All+Clt/gi: [mielilegi, mielilöilegi]
+     mieli+N+Pl+Ess+Clt/gi: [mielinnygi, mielilöinnygi]
+     mieli+N+Pl+Ins+Clt/gi: [mielingi, mielilöingi]
+     mieli+N+Pl+Apr+Clt/gi: [mielillyögi, mielilöillyögi]
