@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjective - karjalaine: # adjectives 'Karelian / karjalainen' - full paradigm
+     karjalaine+A+Sg+Nom: karjalaine
+     karjalaine+A+Sg+Gen: karjalazen
+     karjalaine+A+Sg+Acc: [karjalaine, karjalazen]
+     karjalaine+A+Sg+Par: karjalastu
+     karjalaine+A+Sg+Tra: karjalazekse
+     karjalaine+A+Sg+Abe: [karjalazetta, karjalazeta, karjalazettah]
+     karjalaine+A+Sg+Com: karjalazen
+     karjalaine+A+Sg+Ine: karjalazes
+     karjalaine+A+Sg+Ela: karjalazes
+     karjalaine+A+Sg+Ill: karjalazeh
+     karjalaine+A+Sg+Ade: karjalazel
+     karjalaine+A+Sg+Abl: karjalazel
+     karjalaine+A+Sg+All: karjalazele
+     karjalaine+A+Sg+Ess: karjalazennu
+     karjalaine+A+Sg+Ter: karjalazessah
+     karjalaine+A+Sg+Apr: karjalazelluo
+     karjalaine+A+Pl+Nom: karjalazet
+     karjalaine+A+Pl+Gen: karjalazien
+     karjalaine+A+Pl+Acc: karjalazet
+     karjalaine+A+Pl+Par: karjalazii
+     karjalaine+A+Pl+Tra: karjalazikse
+     karjalaine+A+Pl+Abe: [karjalazitta, karjalazita, karjalazittah]
+     karjalaine+A+Pl+Com: karjalazien
+     karjalaine+A+Pl+Ine: karjalazis
+     karjalaine+A+Pl+Ela: karjalazis
+     karjalaine+A+Pl+Ill: karjalazih
+     karjalaine+A+Pl+Ade: karjalazil
+     karjalaine+A+Pl+Abl: karjalazil
+     karjalaine+A+Pl+All: karjalazile
+     karjalaine+A+Pl+Ess: karjalazinnu
+     karjalaine+A+Pl+Ins: karjalazin
+     karjalaine+A+Pl+Apr: karjalazilluo
+     karjalaine+A+Sg+Nom+Clt/gi: karjalainegi
+     karjalaine+A+Sg+Gen+Clt/gi: karjalazengi
+     karjalaine+A+Sg+Acc+Clt/gi: [karjalainegi, karjalazengi]
+     karjalaine+A+Sg+Par+Clt/gi: karjalastugi
+     karjalaine+A+Sg+Tra+Clt/gi: karjalazeksegi
+     karjalaine+A+Sg+Abe+Clt/gi: [karjalazettagi, karjalazetagi, karjalazettahgi]
+     karjalaine+A+Sg+Com+Clt/gi: karjalazengi
+     karjalaine+A+Sg+Ine+Clt/gi: karjalazesgi
+     karjalaine+A+Sg+Ela+Clt/gi: karjalazes
+     karjalaine+A+Sg+Ill+Clt/gi: karjalazehgi
+     karjalaine+A+Sg+Ade+Clt/gi: karjalazelgi
+     karjalaine+A+Sg+Abl+Clt/gi: karjalazel
+     karjalaine+A+Sg+All+Clt/gi: karjalazelegi
+     karjalaine+A+Sg+Ess+Clt/gi: karjalazennugi
+     karjalaine+A+Sg+Ter+Clt/gi: karjalazessahgi
+     karjalaine+A+Sg+Apr+Clt/gi: karjalazelluogi
+     karjalaine+A+Pl+Nom+Clt/gi: karjalazetgi
+     karjalaine+A+Pl+Gen+Clt/gi: karjalaziengi
+     karjalaine+A+Pl+Acc+Clt/gi: karjalazetgi
+     karjalaine+A+Pl+Par+Clt/gi: karjalaziigi
+     karjalaine+A+Pl+Tra+Clt/gi: karjalaziksegi
+     karjalaine+A+Pl+Abe+Clt/gi: [karjalazittagi, karjalazitagi, karjalazittahgi]
+     karjalaine+A+Pl+Com+Clt/gi: karjalazien
+     karjalaine+A+Pl+Ine+Clt/gi: karjalazisgi
+     karjalaine+A+Pl+Ela+Clt/gi: karjalazis
+     karjalaine+A+Pl+Ill+Clt/gi: karjalazihgi
+     karjalaine+A+Pl+Ade+Clt/gi: karjalazilgi
+     karjalaine+A+Pl+Abl+Clt/gi: karjalazil
+     karjalaine+A+Pl+All+Clt/gi: karjalazilegi
+     karjalaine+A+Pl+Ess+Clt/gi: karjalazinnugi
+     karjalaine+A+Pl+Ins+Clt/gi: karjalazingi
+     karjalaine+A+Pl+Apr+Clt/gi: karjalazilluogi

@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - koivu: # Noun 'birch / koivu' - full paradigm
+     koivu+N+Sg+Nom: koivu
+     koivu+N+Sg+Gen: koivun
+     koivu+N+Sg+Acc: [koivu, koivun]
+     koivu+N+Sg+Par: koivuu
+     koivu+N+Sg+Tra: koivukse
+     koivu+N+Sg+Abe: [koivutta, koivuta, koivuttah]
+     koivu+N+Sg+Com: koivunke
+     koivu+N+Sg+Ine: koivus
+     koivu+N+Sg+Ela: [koivuspäi, koivus]
+     koivu+N+Sg+Ill: koivuh
+     koivu+N+Sg+Ade: koivul
+     koivu+N+Sg+Abl: [koivulpäi, koivul]
+     koivu+N+Sg+All: koivule
+     koivu+N+Sg+Ess: koivunnu
+     koivu+N+Sg+Ter: koivussah
+     koivu+N+Sg+Apr: koivulluo
+     koivu+N+Pl+Nom: koivut
+     koivu+N+Pl+Gen: koivuloin
+     koivu+N+Pl+Acc: koivut
+     koivu+N+Pl+Par: koivuloi
+     koivu+N+Pl+Tra: koivuloikse
+     koivu+N+Pl+Abe: [koivuloitta, koivuloita, koivuloittah]
+     koivu+N+Pl+Com: koivuloinke
+     koivu+N+Pl+Ine: koivulois
+     koivu+N+Pl+Ela: [koivuloispäi, koivulois]
+     koivu+N+Pl+Ill: koivuloih
+     koivu+N+Pl+Ade: koivuloil
+     koivu+N+Pl+Abl: [koivuloilpäi, koivuloil]
+     koivu+N+Pl+All: koivuloile
+     koivu+N+Pl+Ess: koivuloinnu
+     koivu+N+Pl+Ins: koivuloin
+     koivu+N+Pl+Apr: koivuloilluo
+     koivu+N+Sg+Nom+Clt/gi: koivugi
+     koivu+N+Sg+Gen+Clt/gi: koivungi
+     koivu+N+Sg+Acc+Clt/gi: [koivugi, koivungi]
+     koivu+N+Sg+Par+Clt/gi: koivuugi
+     koivu+N+Sg+Tra+Clt/gi: koivuksegi
+     koivu+N+Sg+Abe+Clt/gi: [koivuttagi, koivutagi, koivuttahgi]
+     koivu+N+Sg+Com+Clt/gi: koivunkegi
+     koivu+N+Sg+Ine+Clt/gi: koivusgi
+     koivu+N+Sg+Ela+Clt/gi: [koivuspäigi, koivusgi]
+     koivu+N+Sg+Ill+Clt/gi: koivuhgi
+     koivu+N+Sg+Ade+Clt/gi: koivulgi
+     koivu+N+Sg+Abl+Clt/gi: [koivulpäigi, koivulgi]
+     koivu+N+Sg+All+Clt/gi: koivulegi
+     koivu+N+Sg+Ess+Clt/gi: koivunnugi
+     koivu+N+Sg+Ter+Clt/gi: koivussahgi
+     koivu+N+Sg+Apr+Clt/gi: koivulluogi
+     koivu+N+Pl+Nom+Clt/gi: koivutgi
+     koivu+N+Pl+Gen+Clt/gi: koivuloingi
+     koivu+N+Pl+Acc+Clt/gi: koivutgi
+     koivu+N+Pl+Par+Clt/gi: koivuloigi
+     koivu+N+Pl+Tra+Clt/gi: koivuloiksegi
+     koivu+N+Pl+Abe+Clt/gi: [koivuloittagi, koivuloitagi, koivuloittahgi]
+     koivu+N+Pl+Com+Clt/gi: koivuloinkegi
+     koivu+N+Pl+Ine+Clt/gi: koivuloisgi
+     koivu+N+Pl+Ela+Clt/gi: [koivuloispäigi, koivuloisgi]
+     koivu+N+Pl+Ill+Clt/gi: koivuloihgi
+     koivu+N+Pl+Ade+Clt/gi: koivuloilgi
+     koivu+N+Pl+Abl+Clt/gi: [koivuloilpäigi, koivuloilgi]
+     koivu+N+Pl+All+Clt/gi: koivuloilegi
+     koivu+N+Pl+Ess+Clt/gi: koivuloinnugi
+     koivu+N+Pl+Ins+Clt/gi: koivuloingi
+     koivu+N+Pl+Apr+Clt/gi: koivuloilluogi
