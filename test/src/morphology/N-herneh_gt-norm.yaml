@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - herneh: # Noun 'pea / herne' - full paradigm
+     herneh+N+Sg+Nom: herneh
+     herneh+N+Sg+Gen: hernehen
+     herneh+N+Sg+Acc: [herneh, hernehen]
+     herneh+N+Sg+Par: hernehty
+     herneh+N+Sg+Tra: hernehekse
+     herneh+N+Sg+Abe: [hernehetta, herneheta, hernehettah]
+     herneh+N+Sg+Com: hernehenke
+     herneh+N+Sg+Ine: hernehes
+     herneh+N+Sg+Ela: [hernehespäi, hernehes]
+     herneh+N+Sg+Ill: herneheh
+     herneh+N+Sg+Ade: hernehel
+     herneh+N+Sg+Abl: [hernehelpäi, hernehel]
+     herneh+N+Sg+All: hernehele
+     herneh+N+Sg+Ess: hernehennu
+     herneh+N+Sg+Ter: hernehessah
+     herneh+N+Sg+Apr: hernehelluo
+     herneh+N+Pl+Nom: hernehet
+     herneh+N+Pl+Gen: hernehien
+     herneh+N+Pl+Acc: hernehet
+     herneh+N+Pl+Par: hernehii
+     herneh+N+Pl+Tra: hernehikse
+     herneh+N+Pl+Abe: [hernehitta, hernehita, hernehittah]
+     herneh+N+Pl+Com: hernehienke
+     herneh+N+Pl+Ine: hernehis
+     herneh+N+Pl+Ela: [hernehispäi, hernehis]
+     herneh+N+Pl+Ill: hernehihe
+     herneh+N+Pl+Ade: hernehil
+     herneh+N+Pl+Abl: [hernehilpäi, hernehil]
+     herneh+N+Pl+All: hernehile
+     herneh+N+Pl+Ess: hernehinnu
+     herneh+N+Pl+Ins: hernehin
+     herneh+N+Pl+Apr: hernehilluo
+     herneh+N+Sg+Nom+Clt/gi: hernehgi
+     herneh+N+Sg+Gen+Clt/gi: hernehengi
+     herneh+N+Sg+Acc+Clt/gi: [hernehgi, hernehengi]
+     herneh+N+Sg+Par+Clt/gi: hernehtygi
+     herneh+N+Sg+Tra+Clt/gi: herneheksegi
+     herneh+N+Sg+Abe+Clt/gi: [hernehettagi, hernehetagi, hernehettahgi]
+     herneh+N+Sg+Com+Clt/gi: hernehenkegi
+     herneh+N+Sg+Ine+Clt/gi: hernehesgi
+     herneh+N+Sg+Ela+Clt/gi: [hernehespäigi, hernehesgi]
+     herneh+N+Sg+Ill+Clt/gi: hernehehgi
+     herneh+N+Sg+Ade+Clt/gi: hernehelgi
+     herneh+N+Sg+Abl+Clt/gi: [hernehelpäigi, hernehelgi]
+     herneh+N+Sg+All+Clt/gi: hernehelegi
+     herneh+N+Sg+Ess+Clt/gi: hernehennugi
+     herneh+N+Sg+Ter+Clt/gi: hernehessahgi
+     herneh+N+Sg+Apr+Clt/gi: hernehelluogi
+     herneh+N+Pl+Nom+Clt/gi: hernehetgi
+     herneh+N+Pl+Gen+Clt/gi: hernehiengi
+     herneh+N+Pl+Acc+Clt/gi: hernehetgi
+     herneh+N+Pl+Par+Clt/gi: hernehiigi
+     herneh+N+Pl+Tra+Clt/gi: hernehiksegi
+     herneh+N+Pl+Abe+Clt/gi: [hernehittagi, hernehitagi, hernehittahgi]
+     herneh+N+Pl+Com+Clt/gi: hernehienkegi
+     herneh+N+Pl+Ine+Clt/gi: hernehisgi
+     herneh+N+Pl+Ela+Clt/gi: [hernehispäigi, hernehisgi]
+     herneh+N+Pl+Ill+Clt/gi: hernehihegi
+     herneh+N+Pl+Ade+Clt/gi: hernehilgi
+     herneh+N+Pl+Abl+Clt/gi: [hernehilpäigi, hernehilgi]
+     herneh+N+Pl+All+Clt/gi: hernehilegi
+     herneh+N+Pl+Ess+Clt/gi: hernehinnugi
+     herneh+N+Pl+Ins+Clt/gi: hernehingi
+     herneh+N+Pl+Apr+Clt/gi: hernehilluogi

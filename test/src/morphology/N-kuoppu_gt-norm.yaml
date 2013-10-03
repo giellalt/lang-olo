@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - kuoppu: # Noun 'pit / kuoppa' - full paradigm
+     kuoppu+N+Sg+Nom: kuoppu
+     kuoppu+N+Sg+Gen: kuopan
+     kuoppu+N+Sg+Acc: [kuoppu, kuopan]
+     kuoppu+N+Sg+Par: kuoppua
+     kuoppu+N+Sg+Tra: kuopakse
+     kuoppu+N+Sg+Abe: [kuopatta, kuopata, kuopattah]
+     kuoppu+N+Sg+Com: kuopanke
+     kuoppu+N+Sg+Ine: kuopas
+     kuoppu+N+Sg+Ela: [kuopaspäi, kuopas]
+     kuoppu+N+Sg+Ill: kuoppah
+     kuoppu+N+Sg+Ade: kuopal
+     kuoppu+N+Sg+Abl: [kuopalpäi, kuopal]
+     kuoppu+N+Sg+All: kuopale
+     kuoppu+N+Sg+Ess: kuopannu
+     kuoppu+N+Sg+Ter: kuopassah
+     kuoppu+N+Sg+Apr: kuopalluo
+     kuoppu+N+Pl+Nom: kuopat
+     kuoppu+N+Pl+Gen: kuoppien
+     kuoppu+N+Pl+Acc: kuopat
+     kuoppu+N+Pl+Par: kuoppii
+     kuoppu+N+Pl+Tra: kuopikse
+     kuoppu+N+Pl+Abe: [kuopitta, kuopita, kuopittah]
+     kuoppu+N+Pl+Com: kuoppienke
+     kuoppu+N+Pl+Ine: kuopis
+     kuoppu+N+Pl+Ela: [kuopispäi, kuopis]
+     kuoppu+N+Pl+Ill: kuoppihe
+     kuoppu+N+Pl+Ade: kuopil
+     kuoppu+N+Pl+Abl: [kuopilpäi, kuopil]
+     kuoppu+N+Pl+All: kuopile
+     kuoppu+N+Pl+Ess: kuopinnu
+     kuoppu+N+Pl+Ins: kuopin
+     kuoppu+N+Pl+Apr: kuopilluo
+     kuoppu+N+Sg+Nom+Clt/gi: kuoppugi
+     kuoppu+N+Sg+Gen+Clt/gi: kuopangi
+     kuoppu+N+Sg+Acc+Clt/gi: [kuoppugi, kuopangi]
+     kuoppu+N+Sg+Par+Clt/gi: kuoppuagi
+     kuoppu+N+Sg+Tra+Clt/gi: kuopaksegi
+     kuoppu+N+Sg+Abe+Clt/gi: [kuopattagi, kuopatagi, kuopattahgi]
+     kuoppu+N+Sg+Com+Clt/gi: kuopankegi
+     kuoppu+N+Sg+Ine+Clt/gi: kuopasgi
+     kuoppu+N+Sg+Ela+Clt/gi: [kuopaspäigi, kuopasgi]
+     kuoppu+N+Sg+Ill+Clt/gi: kuoppahgi
+     kuoppu+N+Sg+Ade+Clt/gi: kuopalgi
+     kuoppu+N+Sg+Abl+Clt/gi: [kuopalpäigi, kuopalgi]
+     kuoppu+N+Sg+All+Clt/gi: kuopalegi
+     kuoppu+N+Sg+Ess+Clt/gi: kuopannugi
+     kuoppu+N+Sg+Ter+Clt/gi: kuopassahgi
+     kuoppu+N+Sg+Apr+Clt/gi: kuopalluogi
+     kuoppu+N+Pl+Nom+Clt/gi: kuopatgi
+     kuoppu+N+Pl+Gen+Clt/gi: kuoppiengi
+     kuoppu+N+Pl+Acc+Clt/gi: kuopatgi
+     kuoppu+N+Pl+Par+Clt/gi: kuoppiigi
+     kuoppu+N+Pl+Tra+Clt/gi: kuopiksegi
+     kuoppu+N+Pl+Abe+Clt/gi: [kuopittagi, kuopitagi, kuopittahgi]
+     kuoppu+N+Pl+Com+Clt/gi: kuoppienkegi
+     kuoppu+N+Pl+Ine+Clt/gi: kuopisgi
+     kuoppu+N+Pl+Ela+Clt/gi: [kuopispäigi, kuopisgi]
+     kuoppu+N+Pl+Ill+Clt/gi: kuoppihegi
+     kuoppu+N+Pl+Ade+Clt/gi: kuopilgi
+     kuoppu+N+Pl+Abl+Clt/gi: [kuopilpäigi, kuopilgi]
+     kuoppu+N+Pl+All+Clt/gi: kuopilegi
+     kuoppu+N+Pl+Ess+Clt/gi: kuopinnugi
+     kuoppu+N+Pl+Ins+Clt/gi: kuopingi
+     kuoppu+N+Pl+Apr+Clt/gi: kuopilluogi
