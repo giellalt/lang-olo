@@ -21,12 +21,7 @@ LEXICON A_HUOLETOI !!= @CODE@ huoletoi:huolet
 +N:t%{oö%}ma Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
 LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
-+A:ine SGNOMSUF ;
-+A:s SGPARSUF_dU ;
-+A:zie PLGENSUF ;
-+A:zi PLPARSUF_i ;
-+A:zi PLINSSUF ;
-+A:ze Adj-NB-i ;
++A:	NMN_KARJALAINE	 ;
 
 LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 +A: NMN_KIELINE ;
