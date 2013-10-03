@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - reboi: # Noun 'fox / kettu' - full paradigm
+     reboi+N+Sg+Nom: reboi
+     reboi+N+Sg+Gen: reboin
+     reboi+N+Sg+Acc: [reboi, reboin]
+     reboi+N+Sg+Par: reboidu
+     reboi+N+Sg+Tra: reboikse
+     reboi+N+Sg+Abe: [reboitta, reboita, reboittah]
+     reboi+N+Sg+Com: reboinke
+     reboi+N+Sg+Ine: rebois
+     reboi+N+Sg+Ela: [reboispäi, rebois]
+     reboi+N+Sg+Ill: reboih
+     reboi+N+Sg+Ade: reboil
+     reboi+N+Sg+Abl: [reboilpäi, reboil]
+     reboi+N+Sg+All: reboile
+     reboi+N+Sg+Ess: reboinnu
+     reboi+N+Sg+Ter: reboissah
+     reboi+N+Sg+Apr: reboilluo
+     reboi+N+Pl+Nom: reboit
+     reboi+N+Pl+Gen: reboloin
+     reboi+N+Pl+Acc: reboit
+     reboi+N+Pl+Par: reboloi
+     reboi+N+Pl+Tra: reboloikse
+     reboi+N+Pl+Abe: [reboloitta, reboloita, reboloittah]
+     reboi+N+Pl+Com: reboloinke
+     reboi+N+Pl+Ine: rebolois
+     reboi+N+Pl+Ela: [reboloispäi, rebolois]
+     reboi+N+Pl+Ill: reboloihe
+     reboi+N+Pl+Ade: reboloil
+     reboi+N+Pl+Abl: [reboloilpäi, reboloil]
+     reboi+N+Pl+All: reboloile
+     reboi+N+Pl+Ess: reboloinnu
+     reboi+N+Pl+Ins: reboloin
+     reboi+N+Pl+Apr: reboloilluo
+     reboi+N+Sg+Nom+Clt/gi: reboigi
+     reboi+N+Sg+Gen+Clt/gi: reboingi
+     reboi+N+Sg+Acc+Clt/gi: [reboigi, reboingi]
+     reboi+N+Sg+Par+Clt/gi: reboidugi
+     reboi+N+Sg+Tra+Clt/gi: reboiksegi
+     reboi+N+Sg+Abe+Clt/gi: [reboittagi, reboitagi, reboittahgi]
+     reboi+N+Sg+Com+Clt/gi: reboinkegi
+     reboi+N+Sg+Ine+Clt/gi: reboisgi
+     reboi+N+Sg+Ela+Clt/gi: [reboispäigi, reboisgi]
+     reboi+N+Sg+Ill+Clt/gi: reboihgi
+     reboi+N+Sg+Ade+Clt/gi: reboilgi
+     reboi+N+Sg+Abl+Clt/gi: [reboilpäigi, reboilgi]
+     reboi+N+Sg+All+Clt/gi: reboilegi
+     reboi+N+Sg+Ess+Clt/gi: reboinnugi
+     reboi+N+Sg+Ter+Clt/gi: reboissahgi
+     reboi+N+Sg+Apr+Clt/gi: reboilluogi
+     reboi+N+Pl+Nom+Clt/gi: reboitgi
+     reboi+N+Pl+Gen+Clt/gi: reboloingi
+     reboi+N+Pl+Acc+Clt/gi: reboitgi
+     reboi+N+Pl+Par+Clt/gi: reboloigi
+     reboi+N+Pl+Tra+Clt/gi: reboloiksegi
+     reboi+N+Pl+Abe+Clt/gi: [reboloittagi, reboloitagi, reboloittahgi]
+     reboi+N+Pl+Com+Clt/gi: reboloinkegi
+     reboi+N+Pl+Ine+Clt/gi: reboloisgi
+     reboi+N+Pl+Ela+Clt/gi: [reboloispäigi, reboloisgi]
+     reboi+N+Pl+Ill+Clt/gi: reboloihegi
+     reboi+N+Pl+Ade+Clt/gi: reboloilgi
+     reboi+N+Pl+Abl+Clt/gi: [reboloilpäigi, reboloilgi]
+     reboi+N+Pl+All+Clt/gi: reboloilegi
+     reboi+N+Pl+Ess+Clt/gi: reboloinnugi
+     reboi+N+Pl+Ins+Clt/gi: reboloingi
+     reboi+N+Pl+Apr+Clt/gi: reboloilluogi
