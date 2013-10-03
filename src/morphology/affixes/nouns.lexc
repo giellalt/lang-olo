@@ -1153,8 +1153,9 @@ LEXICON NMN_OZA-SG
 +Sg: Noun-NB-01 ;
 
 LEXICON NMN_OZA-PL
-:%>i PLGENSUF ;
-:%>i PLPARSUF_a ;
+: PLNOMSUF ;
+:%>ie PLGENSUF ;
+:%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
 +Pl:%>i Noun-NB-01 ;
 
