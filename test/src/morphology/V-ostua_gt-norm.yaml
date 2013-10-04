@@ -1,0 +1,100 @@
+Config:
+  hfst:
+    Gen: ../bin/olo-gen.hfstol
+    Morph: ../bin/olo.hfstol
+  xerox:
+    Gen: ../bin/iolo.fst
+    Morph: ../bin/olo.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - ostua: # Verb 'to buy / ostaa' - full paradigm
+     ostua+V+Ind+Prs+ScSg1: ostan
+     ostua+V+Ind+Prs+ScSg2: ostat
+     ostua+V+Ind+Prs+ScSg3: ostau
+     ostua+V+Ind+Prs+ScPl1: ostammo
+     ostua+V+Ind+Prs+ScPl2: ostatto
+     ostua+V+Ind+Prs+ScPl3: ostetah
+     ostua+V+Ind+Prs+ConNeg: osta
+
+     ostua+V+Ind+Prt+ScSg1: ostin
+     ostua+V+Ind+Prt+ScSg2: ostit
+     ostua+V+Ind+Prt+ScSg3: osti
+     ostua+V+Ind+Prt+ScPl1: ostimmo
+     ostua+V+Ind+Prt+ScPl2: ostitto
+     ostua+V+Ind+Prt+ScPl3: ostettih
+     ostua+V+Ind+Prt+ConNeg: ostanuh
+     ostua+V+Ind+Prt+ConNeg+ScPl3: ostettu
+
+     ostua+V+PssPrcPrs+Sg+Nom: ostettavu
+     ostua+V+PssPrcPrs+Sg+Gen: ostettavan
+     ostua+V+PssPrcPrs+Sg+Acc: [ostettavu, ostettavan]
+     ostua+V+PssPrcPrs+Sg+Par: ostettavua
+     ostua+V+PssPrcPrs+Sg+Ess: ostettavannu
+     ostua+V+PssPrcPrs+Sg+Trl: ostettavakse
+     ostua+V+PssPrcPrs+Sg+Ine: ostettavas
+     ostua+V+PssPrcPrs+Sg+Ela: [ostettavaspäi, ostettavas]
+     ostua+V+PssPrcPrs+Sg+Ill: ostettavah
+     ostua+V+PssPrcPrs+Sg+Ade: ostettaval
+     ostua+V+PssPrcPrs+Sg+Abl: [ostettavalpäi, ostettaval]
+     ostua+V+PssPrcPrs+Sg+All: ostettavale
+     ostua+V+PssPrcPrs+Sg+Abe: [ostettavattah, ostettavata, ostettavatta]
+     ostua+V+PssPrcPrs+Sg+Com: ostettavanke
+     ostua+V+PssPrcPrs+Sg+Prl: ostettavači
+
+     ostua+V+PssPrcPrs+Pl+Nom: ostettavat
+     ostua+V+PssPrcPrs+Pl+Gen: ostettavien
+     ostua+V+PssPrcPrs+Pl+Acc: ostettavat
+     ostua+V+PssPrcPrs+Pl+Par: ostettavii
+     ostua+V+PssPrcPrs+Pl+Ess: ostettavinnu
+     ostua+V+PssPrcPrs+Pl+Trl: ostettavikse
+     ostua+V+PssPrcPrs+Pl+Ine: ostettavis
+     ostua+V+PssPrcPrs+Pl+Ela: [ostettavispäi, ostettavis]
+     ostua+V+PssPrcPrs+Pl+Ill: ostettavih
+     ostua+V+PssPrcPrs+Pl+Ade: ostettavil
+     ostua+V+PssPrcPrs+Pl+Abl: [ostettavilpäi, ostettavil]
+     ostua+V+PssPrcPrs+Pl+All: ostettavile
+     ostua+V+PssPrcPrs+Pl+Abe: [ostettavittah, ostettavita, ostettavitta]
+     ostua+V+PssPrcPrs+Pl+Com: ostettavienke
+     ostua+V+PssPrcPrs+Pl+Prl: ostettaviči
+     ostua+V+PssPrcPrs+Pl+Ins: ostettavin
+
+     ostua+V+ActPrcPrt+Sg+Nom: ostanuh
+     ostua+V+ActPrcPrt+Sg+Gen: ostanuon
+     ostua+V+ActPrcPrt+Sg+Acc: [ostanuh, ostanuon]
+     ostua+V+ActPrcPrt+Sg+Par: ostanuttu
+     ostua+V+ActPrcPrt+Sg+Ess: ostanuonnu
+     ostua+V+ActPrcPrt+Sg+Trl: ostanuokse
+     ostua+V+ActPrcPrt+Sg+Ine: ostanuos
+     ostua+V+ActPrcPrt+Sg+Ela: [ostanuospäi, ostanuos]
+     ostua+V+ActPrcPrt+Sg+Ill: ostanuoh
+     ostua+V+ActPrcPrt+Sg+Ade: ostanuol
+     ostua+V+ActPrcPrt+Sg+Abl: [ostanuolpäi, ostanuol]
+     ostua+V+ActPrcPrt+Sg+All: ostanuole
+     ostua+V+ActPrcPrt+Sg+Abe: [ostanuottah, ostanuota, ostanuotta]
+     ostua+V+ActPrcPrt+Sg+Com: ostanuonke
+     ostua+V+ActPrcPrt+Sg+Prl: ostanuoči
+
+     ostua+V+ActPrcPrt+Pl+Nom: ostanuot
+     ostua+V+ActPrcPrt+Pl+Gen: ostanuzien
+     ostua+V+ActPrcPrt+Pl+Acc: ostanuot
+     ostua+V+ActPrcPrt+Pl+Par: ostanuzii
+     ostua+V+ActPrcPrt+Pl+Ess: ostanuzinnu
+     ostua+V+ActPrcPrt+Pl+Trl: ostanuzikse
+     ostua+V+ActPrcPrt+Pl+Ine: ostanuzis
+     ostua+V+ActPrcPrt+Pl+Ela: [ostanuzispäi, ostanuzis]
+     ostua+V+ActPrcPrt+Pl+Ill: ostanuzih
+     ostua+V+ActPrcPrt+Pl+Ade: ostanuzil
+     ostua+V+ActPrcPrt+Pl+Abl: [ostanuzilpäi, ostanuzil]
+     ostua+V+ActPrcPrt+Pl+All: ostanuzile
+     ostua+V+ActPrcPrt+Pl+Abe: [ostanuzittah, ostanuzita, ostanuzitta]
+     ostua+V+ActPrcPrt+Pl+Com: ostanuzienke
+     ostua+V+ActPrcPrt+Pl+Prl: ostanuziči
+
+
