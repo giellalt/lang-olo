@@ -313,19 +313,19 @@ d:t <=> [ t | s ] ( %^KS2S:0 ) %> _ ;
 "rd:rr weakening"
 !! __@RULENAME@__  
 d:r <=>
-     Vws: r _ Vws: %^WEAK:0 %> ;
+     Vws: r _ Vws: %^WEAK:0 [%> | # ] ;
 !   Vws r %> _ GRC ;
 
 "ld:ll weakening"
 !! __@RULENAME@__  
 d:l <=>
-     Vws: l _ Vws: %^WEAK:0 %> ;
+     Vws: l _ Vws: %^WEAK:0 [ %> | # ] ;
 !  Vws l %> _ GRC ;
 
 "nd:nn weakening"
 !! __@RULENAME@__  
 d:n <=>
-     Vws: n _ Vws: %^WEAK:0 %> ;
+     Vws: n _ Vws: %^WEAK:0 [ %> | # ] ;
 !  Vws ( %^WEAK:0 %>: ) n %> _ GRC ;
 
 "ln:ll in prtprc"

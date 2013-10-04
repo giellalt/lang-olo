@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../bin/olo-gen.hfstol
-    Morph: ../bin/olo.hfstol
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
   xerox:
-    Gen: ../bin/iolo.fst
-    Morph: ../bin/olo.fst
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
     App: lookup
 
 Tests:
@@ -15,20 +15,21 @@ Tests:
 
 
   Verb - kandua: # Verb 'to carry / kantaa' - full paradigm
-     kandua+V+Ind+Prs+ScSg1: kannan
-     kandua+V+Ind+Prs+ScSg2: kannat
-     kandua+V+Ind+Prs+ScSg3: kandau
-     kandua+V+Ind+Prs+ScPl1: kannammo
-     kandua+V+Ind+Prs+ScPl2: kannatto
-     kandua+V+Ind+Prs+ScPl3: kannetah
-     kandua+V+Ind+Prs+ConNeg: kanna
-
-     kandua+V+Ind+Prt+ScSg1: kannoin
-     kandua+V+Ind+Prt+ScSg2: kannoit
-     kandua+V+Ind+Prt+ScSg3: kandoi
-     kandua+V+Ind+Prt+ScPl1: kannoimmo
-     kandua+V+Ind+Prt+ScPl2: kannoitto
-     kandua+V+Ind+Prt+ScPl3: kannettih
-     kandua+V+Ind+Prt+ConNeg: kandanuh
-     kandua+V+Ind+Prt+ConNeg+ScPl3: kannettu
-
+      kandua+V+Ind+Prs+ScSg1: kannan
+      kandua+V+Ind+Prs+ScSg2: kannat
+      kandua+V+Ind+Prs+ScSg3: kandau
+      kandua+V+Ind+Prs+ScPl1: kannammo
+      kandua+V+Ind+Prs+ScPl2: kannatto
+      kandua+V+Ind+Prs+ScPl3: kannetah
+      kandua+V+Ind+Prs+ConNeg: kanna
+ 
+      kandua+V+Ind+Prt+ScSg1: kannoin
+      kandua+V+Ind+Prt+ScSg2: kannoit
+      kandua+V+Ind+Prt+ScSg3: kandoi
+      kandua+V+Ind+Prt+ScPl1: kannoimmo
+      kandua+V+Ind+Prt+ScPl2: kannoitto
+      kandua+V+Ind+Prt+ScPl3: kannettih
+      kandua+V+Ind+Prt+ConNeg: kandanuh
+      kandua+V+Ind+Prt+ConNeg+ScPl3: kannettu
+ 
+ 
