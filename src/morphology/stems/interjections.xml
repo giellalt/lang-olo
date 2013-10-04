@@ -4,6 +4,50 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l pos="Interj">čukki</l>
+
+      <stg>
+        <st Contlex="INTERJ_">čukki</st>
+      </stg>
+    </lg>
+
+    <pos>Interj</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">siankutsu, kos-kos yms.</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pcle">vet</l>
+
+      <stg>
+        <st Contlex="PCLE_">vet</st>
+      </stg>
+    </lg>
+
+    <pos>Pcle</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Pcle">-han, -hän, näet</t>
+      </tg>
+    </mg>
+  </e>
+
   <e exclude="fst">
     <lg>
       <l pos="Pcle">-bo</l>
@@ -1111,7 +1155,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="INTERJ">ole hyvä</t>
+        <t pos="Interj">ole hyvä</t>
       </tg>
     </mg>
   </e>
