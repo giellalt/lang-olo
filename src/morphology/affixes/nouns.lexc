@@ -1230,7 +1230,7 @@ LEXICON SGPARSUF_dU
 
 
 LEXICON SGPARSUF_A2
-+Sg+Par:%>A2 K ;
++Sg+Par:%>%{aä%} K ;
 
 LEXICON SGGENSUF
 +Sg+Gen:%^WEAK%>n K ;
@@ -1243,7 +1243,7 @@ LEXICON PLNOMSUF
 
 LEXICON PLGENSUF
 +Pl+Gen:%>n K ;
-+Pl+Com:%^WEAK%>nke K ;
++Pl+Com:%>nke K ;
 
 LEXICON ILLSUF_he
 +Ill:%>he K ;
@@ -1275,6 +1275,7 @@ LEXICON Noun-NB-01
 +Ela:%^WEAK%>späi K ;
 +Ess:%^WEAK%>nn%{uy%} K ;
 +Ine:%^WEAK%>s K ;
++Ins:%^WEAK%>n K ;
 +Ill:%>h K ;
 +Tra:%^WEAK%>kse K ;
 +Prl:%^WEAK%>či K ;

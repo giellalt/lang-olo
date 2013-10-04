@@ -168,7 +168,7 @@ Rules
 ! Vowel harmony suffixes Back
 "%{aä%}:a"
 !! __@RULENAME@__
- %{aä%}:a <=> [ BTCons %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | # ] ;
+ %{aä%}:a <=> [ BTCons %> | a: %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
    [ BTCons %> | BT ( %^WEAK:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
 ! [ a: ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
 !    a: %> _ ;
@@ -199,7 +199,7 @@ A2:y <=> [ y: ] %> _ ( %^WEAK:0 ) [ # | %>  ];
 
 "a:u before subsequent a"
 !! __@RULENAME@__  Diphthong a+a => ua
-a:u <=> Cns _ [ a | %> [ %{aä%}:a | A2:a ] ]; 
+a:u <=> Cns:+ _ [ a | %> [ %{aä%}:a | A2:a ] ]; 
         _ %^A2U:0 ;
 
 
@@ -217,47 +217,13 @@ o:u <=> Cns _ %> [ %{aä%}:o ] ;
 !! __@RULENAME@__
 ä:y <=> _ %^A2U:0 ;
 
-!2013-04-29! Stem vowel loss before plural "i"
-!2013-04-29!"StemVowLoss"
-!2013-04-29! X:Y <=> X _  %>: i  %>: ;
-!2013-04-29!( %>:  %^WEAK:0 |  %>:  %^LCns:0 ) %>: [ i | i:j ] ;
-!2013-04-29!          where X in (e o ö)
-!2013-04-29!                Y in (0 0 0) matched ;
-!2013-04-29!
-!2013-04-29! A loss
-!2013-04-29!"StemALoss"
-!2013-04-29! X:Y <=>  _   ( %>: %^LCns:0 ) %>: i: %>: ;
-!2013-04-29!          where X in (a ä)
-!2013-04-29!                Y in (0 0) matched ;
-!2013-04-29!
-!2013-04-29!€ osa%>^WCns%>i%>st
-!2013-04-29!€ os0000i0st
-!2013-04-29!
-!2013-04-29!%>%^LCnsi%>V1
-!2013-04-29! AÄ1 loss
-!2013-04-29!"StemAÄLoss"
-!2013-04-29! %{aä%}:0 <=> [ %{aä%}: | Cns: | :Cns ] _ ( %>: %^LCns:0 ) %>: i %>: ;
-!2013-04-29!
-! Vowel shortening before subsequent "i"
+
 "a:0 in suaja:sai"
 !! __@RULENAME@__
-a:0 <=> a _ %> i ;
+a:0 <=>
+ a _ %> i ; !!= * @CODE@ ! Vowel shortening before subsequent "i"
+[ # | Cns:* ] [ u | o ] [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ; !!= * @CODE@ ! sulgu:sulgih  
 
-!2013-04-29! U loss [u:0 | y:0]
-!2013-04-29!"StemULoss"
-!2013-04-29! X:Y <=> X _ %>:  i  %>: ;
-!2013-04-29! ( %>:  %^WEAK:0 |  %>:  %^LCns:0 ) %>: i %>: ;
-!2013-04-29!         [ e | ä | a | o | ö ] _  [ t: | k: ] 0:v ;
-!2013-04-29!          where X in (u y ü)
-!2013-04-29!                Y in (0 0 0) matched ;
-!2013-04-29! Vws:0 %>:  %^WEAK:0 %>: i: %>: 
-!2013-04-29!
-!2013-04-29!€ maa%>i%>n
-!2013-04-29!€ ma00i0n
-!2013-04-29!
-!2013-04-29! Stem vowel "i" loss before plural "i"
-!2013-04-29!"i:Zero"
-!2013-04-29! i:0 <=> i _ %>: i  %>: ;
 
 ! iToj between vowels
 "i:j"
@@ -301,109 +267,12 @@ i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
 !! __@RULENAME@__ Vowel harmony suffixes Back
  %{uy%}:u <=>  [ BT | :VwsBack ] ( %> ) _ ;
 
-!2013-04-29!! Vws %>: %^LCns: V1:
-!2013-04-29!! Vowel agreement in illative 
-!2013-04-29!"V1:aeouüäö"
-!2013-04-29! V1:Vx <=> :Vx %>: [ h | ( %^LCns: %>: ) ] _ ;
-!2013-04-29!        where Vx in (a o u ä ö ü y) ;
-!2013-04-29!
-!2013-04-29!! Vowel agreement in illative e
-!2013-04-29!"V1:e"
-!2013-04-29! V1:e <=> [ e | i ] %>:  h  _ ;
-!2013-04-29!          e ( %>: %^LCns: ) %>:  _ ;
-!2013-04-29!
-!2013-04-29! Illative i with no intermittent _h_
-!2013-04-29!"V1:i"
-!2013-04-29! V1:i <=> i ( %>: %^LCns: ) %>: _ ;
-!2013-04-29!
-!2013-04-29!  _mato:maool_ not allowed
-!2013-04-29! Used with patsas type nominals
-!2013-04-29!"V2:aeiouüäö"
-!2013-04-29! V2:Vx <=>  Vx ( h ( :h ) ) %>:  ( %^LCns:0 )  _ [ V2: | ( %>: ([ %^WEAK:0 | %^LCns:0 ] ( V3: ) ) )  Cns ] ;
-!2013-04-29!            Vx ( h ( :h ) ) %>:  ( %^LCns:0 | %^WEAK:0 ) V2: _ [ ( %>: )  Cns ]  ;
-!2013-04-29!        where Vx in (a o u ä ö ü e i y) ;
-!2013-04-29!
-!2013-04-29!
-!2013-04-29!"V2:Zero"
-!2013-04-29! V2:0 <=> Vws %>: _ %>: i: %>: ;
-!2013-04-29!
-!2013-04-29!FROM HERE
-!2013-04-29!
-!2013-04-29! Vowel lengthening for the inesive and adessive with V3
-!2013-04-29! This deals with secondary or perhaps pertary vowel lengthening
-!2013-04-29! e.g. gen plural, ine, ade
-!2013-04-29!"V3:a"
-!2013-04-29! V3:a <=> :Cns :0* :a :0* _ ;
-!2013-04-29!
-!2013-04-29!"V3:e"
-!2013-04-29! V3:e <=> :Cns :0* :e :0* _ ;
-!2013-04-29!
-!2013-04-29!"V3:i"
-!2013-04-29! V3:i <=> :Cns :0* :i :0* _ ;
-!2013-04-29!
-!2013-04-29!"V3:o"
-!2013-04-29! V3:o <=> :Cns :0* :o :0* _ ;
-!2013-04-29!
-!2013-04-29!"V3:u"
-!2013-04-29! V3:u <=> :Cns :0* :u :0* _ ;
-!2013-04-29!
-!2013-04-29!"V3:ä"
-!2013-04-29! V3:ä <=> :Cns :0* :ä :0* _ ;
-!2013-04-29!
-!2013-04-29!"V3:ö"
-!2013-04-29! V3:ö <=> :Cns :0* :ö :0* _ ;
-!2013-04-29!
-!2013-04-29!"V3:y"
-!2013-04-29! V3:y <=> :Cns :0* :y :0* _ ;
-!2013-04-29!
-!2013-04-29!"V3:Zero"
-!2013-04-29! V3:0 <=> :Vws :0* :Vws :0* _ ;
-!2013-04-29!
-!2013-04-29! Vowel Lengthening
-!2013-04-29! mato : mattoon,
-!2013-04-29! "Zero:Vx"
-!2013-04-29! 0:Vx <=> ( Vws+ :Cns+ ) Vx _ %>: ( %^LCns: | %^WEAK:0 ) %^LVws: ;
-!2013-04-29!          #: Cns* Vws [ Cns 0: | 0:i j ] Vx _ Cns ( Cns:0 ) :Vws %^StretchSyll2:0 ; ! ommeena<omena
-!2013-04-29! 
-!2013-04-29!         [ #: ] Cns* Vws Cns 0: Vx _ Cns :0 Vws [ Cns | [ #: ] ] ;
-!2013-04-29!       where Vx in (a o u ä ö y e) ; 
-!2013-04-29!
-!2013-04-29!
-!2013-04-29! Secondary Consonant lengthening
-!2013-04-29! mato : mattoo, näytettävä : näytettävvää
-!2013-04-29!"even-syllable" This should be secondary
-!2013-04-29!"consonant lengthening"
-!2013-04-29! 0:Cx <=> 
-!2013-04-29!         [ #: Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ( %>: %^LCns:0 ) | #: Cns*  Vws | %^OddSyll:0 ] Cx _ ( [ Vws: | :Vws ] ( :Vws ) ) %>: %^LCns:0 ; !
-!2013-04-29!         #: Cns* Vws Cx _ [ Vws 0: Cns ( Cns:0 ) :Vws | Vws %^SyllBr:0 e ] %^StretchSyll2:0 ; ! ommeena<omena ; venät:vennäen
-!2013-04-29!           where Cx in (m p t s n r l k g h) ;
-!2013-04-29!
-!2013-04-29! oja: oija
-!2013-04-29!"j lengthening"
-!2013-04-29!0:i <=> [ #: ] Cns* Vws _ j Vws ( 0: ) %>: %^LCns:0  ;
-!2013-04-29!          [ [ :Cns | :Cns Vws:0 ] ( %>: ) | Cns: ] i _ %>: ( %^LCns: | %^WEAK:0 ) %^LVws: ;
-!2013-04-29!         [ #: ] Cns* Vws Cns 0: i _ Cns :0 Vws [ Cns | [ #: ] ] ;
-!2013-04-29!         #: Cns* Vws _ j [ Vws 0: Cns ( Cns:0 ) :Vws | Vws %^SyllBr:0 e ] %^StretchSyll2:0 ; ! ommeena<omena ; venät:vennäen, kaijaava
-!2013-04-29!
-!2013-04-29!
-!2013-04-29!TO HERE
-!2013-04-29!
-!2013-04-29! Consonant weakening 
-!2013-04-29!
-!2013-04-29! t:0, k:0 (suku:suun), p:v, ht:h, hk:h, lt:ll, rt:rr
-!2013-04-29! mb:mm, nd:nn, 
-!2013-04-29! it:ij, lk:l, rk:r, nk:ng, sk:s, tk:t, 
-!2013-04-29! kk:k, tt:t, pp:p
-!2013-04-29! ut:vv, yt:vv (uut:uuvv), uk:vv
-!2013-04-29! aika:ajan, poika:pojan, reikä:reijän, liika:liijan
-!2013-04-29! lp:lv, rp:rv
-!2013-04-29!
-!2013-04-29!
-!2013-04-29!
-!2013-04-29!"Ut:vv Uk:vv weakening"
-!2013-04-29! Cx:Cy <=> [ #: ] Cns* Vws [ u: | y: ] _ 0:v [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
-!2013-04-29!              where Cx in (k t)
-!2013-04-29!                    Cy in (v v) matched ;
+!! ! Consonant change
+
+! sulgu:sullan
+"g:l"
+!! __@RULENAME@__  
+g:l <=> l _ [ a: ] ( %> i ) %^WEAK:0 ;
 
 ! vuozi:vuvven
 "t:v"
