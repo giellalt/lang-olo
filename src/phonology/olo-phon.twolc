@@ -107,7 +107,7 @@ K1:k
 %^E1:0
 
 
-%^WEAK:0
+%^WEAK:0 !!= * @CODE@ !
 
 ;
 
@@ -312,15 +312,21 @@ d:t <=> [ t | s ] ( %^KS2S:0 ) %> _ ;
 
 "rd:rr weakening"
 !! __@RULENAME@__  
-d:r <=>  Vws r %> _ GRC ;
+d:r <=>
+     Vws: r _ Vws: %^WEAK:0 %> ;
+!   Vws r %> _ GRC ;
 
 "ld:ll weakening"
 !! __@RULENAME@__  
-d:l <=>  Vws l %> _ GRC ;
+d:l <=>
+     Vws: l _ Vws: %^WEAK:0 %> ;
+!  Vws l %> _ GRC ;
 
 "nd:nn weakening"
 !! __@RULENAME@__  
-d:n <=>  Vws ( %^WEAK:0 %>: ) n %> _ GRC ;
+d:n <=>
+     Vws: n _ Vws: %^WEAK:0 %> ;
+!  Vws ( %^WEAK:0 %>: ) n %> _ GRC ;
 
 "ln:ll in prtprc"
 !! __@RULENAME@__  

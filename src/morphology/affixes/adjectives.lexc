@@ -42,12 +42,12 @@ LEXICON A_PEREH-PL
 +A:	NMN_PEREH-PL	;
 
 LEXICON A_ARMAS !!= @CODE@ armas:arma
-+A:%^WEAK%>s SGNOMSUF ;
-+A:%^WEAK%>s SGPARSUF_dU ;
-+A:hie PLGENSUF ;
-+A:hi PLPARSUF_i ;
-+A:hi PLINSSUF ;
-+A:ha Noun-NB-i ;
+    A_ARMAS-SG        ;
+    A_ARMAS-PL        ;
+LEXICON A_ARMAS-SG
++A: NMN_ARMAS-SG        ;
+LEXICON A_ARMAS-PL
++A: NMN_ARMAS-PL        ;
 
 LEXICON A_KOIVU !!= @CODE@ koivu:koivu
         A_KOIVU-SG ;
