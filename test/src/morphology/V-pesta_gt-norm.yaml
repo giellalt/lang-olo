@@ -1,0 +1,100 @@
+Config:
+  hfst:
+    Gen: ../bin/olo-gen.hfstol
+    Morph: ../bin/olo.hfstol
+  xerox:
+    Gen: ../bin/iolo.fst
+    Morph: ../bin/olo.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - pestä: # Verb 'to wash / pestä' - full paradigm
+     pestä+V+Ind+Prs+ScSg1: pezen
+     pestä+V+Ind+Prs+ScSg2: pezet
+     pestä+V+Ind+Prs+ScSg3: pezey
+     pestä+V+Ind+Prs+ScPl1: pezemmö
+     pestä+V+Ind+Prs+ScPl2: pezettö
+     pestä+V+Ind+Prs+ScPl3: pestäh
+     pestä+V+Ind+Prs+ConNeg: peze
+
+     pestä+V+Ind+Prt+ScSg1: pezin
+     pestä+V+Ind+Prt+ScSg2: pezit
+     pestä+V+Ind+Prt+ScSg3: pezi
+     pestä+V+Ind+Prt+ScPl1: pezimmö
+     pestä+V+Ind+Prt+ScPl2: pezittö
+     pestä+V+Ind+Prt+ScPl3: pestih
+     pestä+V+Ind+Prt+ConNeg: pestyh
+     pestä+V+Ind+Prt+ConNeg+ScPl3: pesty
+
+     pestä+V+PssPrcPrs+Sg+Nom: pestävy
+     pestä+V+PssPrcPrs+Sg+Gen: pestävän
+     pestä+V+PssPrcPrs+Sg+Acc: [pestävu, pestävän]
+     pestä+V+PssPrcPrs+Sg+Par: pestäviä
+     pestä+V+PssPrcPrs+Sg+Ess: pestävänny
+     pestä+V+PssPrcPrs+Sg+Trl: pestäväkse
+     pestä+V+PssPrcPrs+Sg+Ine: pestäväs
+     pestä+V+PssPrcPrs+Sg+Ela: [pestäväspäi, pestäväs]
+     pestä+V+PssPrcPrs+Sg+Ill: pestäväh
+     pestä+V+PssPrcPrs+Sg+Ade: pestäväl
+     pestä+V+PssPrcPrs+Sg+Abl: [pestävälpäi, pestäväl]
+     pestä+V+PssPrcPrs+Sg+All: pestäväle
+     pestä+V+PssPrcPrs+Sg+Abe: [pestävättäh, pestävätä, pestävättä]
+     pestä+V+PssPrcPrs+Sg+Com: pestävänke
+     pestä+V+PssPrcPrs+Sg+Prl: pestäväči
+
+     pestä+V+PssPrcPrs+Pl+Nom: pestävät
+     pestä+V+PssPrcPrs+Pl+Gen: pestävien
+     pestä+V+PssPrcPrs+Pl+Acc: pestävät
+     pestä+V+PssPrcPrs+Pl+Par: pestävii
+     pestä+V+PssPrcPrs+Pl+Ess: pestävinnu
+     pestä+V+PssPrcPrs+Pl+Trl: pestävikse
+     pestä+V+PssPrcPrs+Pl+Ine: pestävis
+     pestä+V+PssPrcPrs+Pl+Ela: [pestävispäi, pestävis]
+     pestä+V+PssPrcPrs+Pl+Ill: pestävih
+     pestä+V+PssPrcPrs+Pl+Ade: pestävil
+     pestä+V+PssPrcPrs+Pl+Abl: [pestävilpäi, pestävil]
+     pestä+V+PssPrcPrs+Pl+All: pestävile
+     pestä+V+PssPrcPrs+Pl+Abe: [pestävittäh, pestävitä, pestävittä]
+     pestä+V+PssPrcPrs+Pl+Com: pestävienke
+     pestä+V+PssPrcPrs+Pl+Prl: pestäviči
+     pestä+V+PssPrcPrs+Pl+Ins: pestävin
+
+     pestä+V+ActPrcPrt+Sg+Nom: pessyh
+     pestä+V+ActPrcPrt+Sg+Gen: pessyön
+     pestä+V+ActPrcPrt+Sg+Acc: [pessyh, pessyön]
+     pestä+V+ActPrcPrt+Sg+Par: pesty
+     pestä+V+ActPrcPrt+Sg+Ess: pessyönny
+     pestä+V+ActPrcPrt+Sg+Trl: pessyökse
+     pestä+V+ActPrcPrt+Sg+Ine: pessyös
+     pestä+V+ActPrcPrt+Sg+Ela: [pessyöspäi, pessyös]
+     pestä+V+ActPrcPrt+Sg+Ill: pessyöh
+     pestä+V+ActPrcPrt+Sg+Ade: pessyöl
+     pestä+V+ActPrcPrt+Sg+Abl: [pessyölpäi, pessyöl]
+     pestä+V+ActPrcPrt+Sg+All: pessyöle
+     pestä+V+ActPrcPrt+Sg+Abe: [pessyöttäh, pessyötä, pessyöttä]
+     pestä+V+ActPrcPrt+Sg+Com: pessyönke
+     pestä+V+ActPrcPrt+Sg+Prl: pessyöči
+
+     pestä+V+ActPrcPrt+Pl+Nom: pessyöt
+     pestä+V+ActPrcPrt+Pl+Gen: pessyzien
+     pestä+V+ActPrcPrt+Pl+Acc: pessyöt
+     pestä+V+ActPrcPrt+Pl+Par: pessyzii
+     pestä+V+ActPrcPrt+Pl+Ess: pessyzinny
+     pestä+V+ActPrcPrt+Pl+Trl: pessyzikse
+     pestä+V+ActPrcPrt+Pl+Ine: pessyzis
+     pestä+V+ActPrcPrt+Pl+Ela: [pessyzispäi, pessyzis]
+     pestä+V+ActPrcPrt+Pl+Ill: pessyzih
+     pestä+V+ActPrcPrt+Pl+Ade: pessyzil
+     pestä+V+ActPrcPrt+Pl+Abl: [pessyzilpäi, pessyzil]
+     pestä+V+ActPrcPrt+Pl+All: pessyzile
+     pestä+V+ActPrcPrt+Pl+Abe: [pessyzittäh, pessyzitä, pessyzittä]
+     pestä+V+ActPrcPrt+Pl+Com: pessyzienke
+     pestä+V+ActPrcPrt+Pl+Prl: pessyziči
+
+
