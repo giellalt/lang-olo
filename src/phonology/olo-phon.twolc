@@ -222,7 +222,7 @@ o:u <=> Cns _ %> [ %{aä%}:o ] ;
 !! __@RULENAME@__
 a:0 <=>
  a _ %> i ; !!= * @CODE@ ! Vowel shortening before subsequent "i"
-[ # | Cns:* ] [ u | o ] [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ; !!= * @CODE@ ! sulgu:sulgih  
+[ # | Cns:* ] [ u | o ] (i) [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ; !!= * @CODE@ ! sulgu:sulgih  
 
 
 ! iToj between vowels
@@ -295,7 +295,7 @@ t:z <=> _ %^T2Z:0 %> i ;
 ! vuozi:vuot+d%{uy%}, armas:armas+d%{uy%}
 "d:t in partitive"
 !! __@RULENAME@__  
-d:t <=> [ t | s ] ( %^KS2S:0 ) %> _ ;
+d:t <=> [ h | t | s ] ( %^KS2S:0 ) %> _ ;
 
 !2013-04-29!
 !2013-04-29!
