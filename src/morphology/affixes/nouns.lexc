@@ -370,9 +370,6 @@ LEXICON N_ARMAS-SG
 LEXICON N_ARMAS-PL
 +N: NMN_ARMAS-PL	;
 
-LEXICON NMN_ARMAS !!= @CODE@ armas:arma
- NMN_ARMAS-SG        ;
- NMN_ARMAS-PL        ;
 
 LEXICON N_PAREMBI !!= @CODE@ parembi:paremb
  N_PAREMBI-SG	  ;
@@ -961,16 +958,21 @@ LEXICON NMN_SUALIŠ-PL
 !+N:%>i PLINSSUF ;
 !+N+Pl:i Noun-NB-01 ;
 
+LEXICON NMN_ARMAS !!= @CODE@ armas:arma
+ NMN_ARMAS-SG        ;
+ NMN_ARMAS-PL        ;
+
 LEXICON NMN_ARMAS-SG
 :%^WEAK%>s SGNOMSUF ;
 :%^WEAK%>s SGPARSUF_dU ;
 :ha SGGENSUF ;
-:ha Noun-NB-01 ;
++Sg:ha Noun-NB-01 ;
 LEXICON NMN_ARMAS-PL
+:ha PLNOMSUF ;
 :hie PLGENSUF ;
 :hi PLPARSUF_i ;
 :hi PLINSSUF ;
-:hi Noun-NB-01 ;
++Pl:hi Noun-NB-01 ;
 
 
 
