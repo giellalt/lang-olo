@@ -168,7 +168,7 @@ Rules
 ! Vowel harmony suffixes Back
 "%{aä%}:a"
 !! __@RULENAME@__
- %{aä%}:a <=> [ BTCons %> | a: %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
+ %{aä%}:a <=> [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
    [ BTCons %> | BT ( %^WEAK:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
 ! [ a: ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
 !    a: %> _ ;
@@ -374,6 +374,7 @@ b:v <=> [ #: ] Cns* Vws ( r | l | Vws ) _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 "p:0 in lapsi"
 !! __@RULENAME@__  
 p:0 <=> Vws _ s  %^KS2S:0  ;
+ Vws: _ p Vws: %^WEAK:0  ;
 
 !2013-04-29! Vowel raising
 !2013-04-29!"o:u ö:y in Inf"
