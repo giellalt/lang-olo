@@ -221,17 +221,9 @@ LEXICON N_KIELI !!= @CODE@ kieli:kiel
  N_KIELI-PL ;
 
 LEXICON N_KIELI-SG
-+N:i SGNOMSUF ;
-+N:e SGGENSUF ;
-+N: SGPARSUF_dU ;
-+N+Sg:e Noun-NB-01 ;
-
++N: 	NMN_KIELI-SG ;
 LEXICON N_KIELI-PL
-+N:e PLNOMSUF ;
-+N:ie PLGENSUF ;
-+N:i PLPARSUF_i ;
-+N:i PLINSSUF ;
-+N+Pl:i Noun-NB-01 ;
++N: 	NMN_KIELI-PL ;
 
 LEXICON N_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 +N: NMN_PUHTAHUS ;
@@ -657,6 +649,26 @@ LEXICON NMN_NIMI-PL
 :il%{oö%}i PLPARSUF_Zero ;
 :il%{oö%}i PLINSSUF ;
 :i Noun-NB-loi ;
+
+LEXICON NMN_KIELI
+	NMN_KIELI-SG ;
+	NMN_KIELI-PL ;
+LEXICON NMN_KIELI-SG
+:i SGNOMSUF ;
+:e SGGENSUF ;
+: SGPARSUF_dU ;
++Sg:e Noun-NB-01 ;
+
+LEXICON NMN_KIELI-PL
+:e PLNOMSUF ;
+:ie PLGENSUF ;
+:i PLPARSUF_i ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
+:il%{oö%}i PLGENSUF ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
++Pl:il%{oö%}i Noun-NB-01 ;
 
 
 LEXICON NMN_VUOZI
