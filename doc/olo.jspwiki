@@ -72,6 +72,8 @@ Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 And following triggers to control variation
+  %^ILoss   ! the i => 0 _reboi_ _reboloi_
+
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
@@ -168,19 +170,25 @@ Livvi nouns inflect in cases.
 
  LEXICON N_REBOI  reboi:reboi
 
+ LEXICON N_JÄLGI   jälgi:jälg
 
  LEXICON N_KIELI  kieli:kiel
-
 
 
  LEXICON N_PUHTAHUS  puhtahus:puhtahu
 
 
- LEXICON N_ALUS  aigomus:aigomuks
+ LEXICON N_ALUS  alus:aluks
 
- LEXICON N_ALUS-SG  aigomus:aigomuks
+ LEXICON N_ALUS-SG  alus:aluks
 
- LEXICON N_ALUS-PL  aigomus:aigomuks
+ LEXICON N_ALUS-PL  alus:aluks
+
+ LEXICON N_MIES  mies:mie
+
+ LEXICON N_MIES-SG  mies:mie
+
+ LEXICON N_MIES-PL  mies:mie
 
  LEXICON N_SUALIŠ  suališ:suali
 
@@ -196,6 +204,8 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON N_SUO  suo:suo
+
  LEXICON N_KUU  kuu:kuu
 
  LEXICON N_MUA  mua:maa
@@ -206,6 +216,7 @@ Livvi nouns inflect in cases.
  LEXICON NMN_MUARJU  muarju:muarja
 
 
+ LEXICON N_VIGA  viga:viga
 
  LEXICON N_KALA  kala:kala
 
@@ -219,7 +230,6 @@ Livvi nouns inflect in cases.
 
  LEXICON N_ARMAS  armas:arma
 
- LEXICON NMN_ARMAS  armas:arma
 
  LEXICON N_PAREMBI  parembi:paremb
 
@@ -328,6 +338,8 @@ NMN
 
 
 
+
+
  LEXICON NMN_KOIVU  koivu:koivu
 
 
@@ -376,9 +388,15 @@ NMN
 
 
 
+ LEXICON NMN_MIES  mies:mie
+
+
+
  LEXICON NMN_SUALIŠ  suališ:suali
 
 
+
+ LEXICON NMN_ARMAS  armas:arma
 
 
 
@@ -482,6 +500,8 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON V_TULLA  tulla:tul
 
+ LEXICON V_PESTÄ  pestä:pes
+
  LEXICON V_TYPÄTÄ  typätä:typpä
 
  LEXICON V_AVATA  typätä:typpä
@@ -551,11 +571,14 @@ Conditional
 
 
 
+ %^ILoss:0   ! the i => 0 _reboi_ _reboloi_
 
 
 
 
 
+
+ * %^WEAK:0  !
 
 
 
@@ -586,6 +609,10 @@ __%{aä%}:i__
 
 __A2:a__
 
+__A2:u__
+
+__A2:y__
+
 
 
 
@@ -599,7 +626,10 @@ __o:u before subsequent o__ Diphthong o+o => uo erota:eruou
 
 __ä:y word final__
 
+
 __a:0 in suaja:sai__
+ *  a _ %> i ;  ! Vowel shortening before subsequent "i"
+ * [ # | Cns:* ] [ u | o ] (i) [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ;  ! sulgu:sulgih  
 
 
 __i:j__
@@ -614,6 +644,8 @@ __ä:e piettih and in comparatives__  pidiä
 
 __ä:0 pidiä:pidi__
 
+__i:0 reboi:reboloi__
+
 
 
 __%{oö%}:o__ Vowel harmony suffixes Back
@@ -621,9 +653,9 @@ __%{oö%}:o__ Vowel harmony suffixes Back
 
 __%{uy%}:u__ Vowel harmony suffixes Back
 
-Vws %>: %^LCns: V1:
-Vowel agreement in illative 
-Vowel agreement in illative e
+! Consonant change
+
+__g:l__  
 
 __t:v__  
 
