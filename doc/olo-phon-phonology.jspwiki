@@ -19,11 +19,14 @@
 
 
 
+ %^ILoss:0   ! the i => 0 _reboi_ _reboloi_
 
 
 
 
 
+
+ * %^WEAK:0  !
 
 
 
@@ -54,6 +57,10 @@ __%{aä%}:i__
 
 __A2:a__
 
+__A2:u__
+
+__A2:y__
+
 
 
 
@@ -67,7 +74,10 @@ __o:u before subsequent o__ Diphthong o+o => uo erota:eruou
 
 __ä:y word final__
 
+
 __a:0 in suaja:sai__
+ *  a _ %> i ;  ! Vowel shortening before subsequent "i"
+ * [ # | Cns:* ] [ u | o ] (i) [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ;  ! sulgu:sulgih  
 
 
 __i:j__
@@ -82,6 +92,8 @@ __ä:e piettih and in comparatives__  pidiä
 
 __ä:0 pidiä:pidi__
 
+__i:0 reboi:reboloi__
+
 
 
 __%{oö%}:o__ Vowel harmony suffixes Back
@@ -89,9 +101,9 @@ __%{oö%}:o__ Vowel harmony suffixes Back
 
 __%{uy%}:u__ Vowel harmony suffixes Back
 
-Vws %>: %^LCns: V1:
-Vowel agreement in illative 
-Vowel agreement in illative e
+! Consonant change
+
+__g:l__  
 
 __t:v__  
 

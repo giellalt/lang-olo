@@ -63,19 +63,25 @@ Livvi nouns inflect in cases.
 
  LEXICON N_REBOI  reboi:reboi
 
+ LEXICON N_JÄLGI   jälgi:jälg
 
  LEXICON N_KIELI  kieli:kiel
-
 
 
  LEXICON N_PUHTAHUS  puhtahus:puhtahu
 
 
- LEXICON N_ALUS  aigomus:aigomuks
+ LEXICON N_ALUS  alus:aluks
 
- LEXICON N_ALUS-SG  aigomus:aigomuks
+ LEXICON N_ALUS-SG  alus:aluks
 
- LEXICON N_ALUS-PL  aigomus:aigomuks
+ LEXICON N_ALUS-PL  alus:aluks
+
+ LEXICON N_MIES  mies:mie
+
+ LEXICON N_MIES-SG  mies:mie
+
+ LEXICON N_MIES-PL  mies:mie
 
  LEXICON N_SUALIŠ  suališ:suali
 
@@ -91,6 +97,8 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON N_SUO  suo:suo
+
  LEXICON N_KUU  kuu:kuu
 
  LEXICON N_MUA  mua:maa
@@ -101,6 +109,7 @@ Livvi nouns inflect in cases.
  LEXICON NMN_MUARJU  muarju:muarja
 
 
+ LEXICON N_VIGA  viga:viga
 
  LEXICON N_KALA  kala:kala
 
@@ -114,7 +123,6 @@ Livvi nouns inflect in cases.
 
  LEXICON N_ARMAS  armas:arma
 
- LEXICON NMN_ARMAS  armas:arma
 
  LEXICON N_PAREMBI  parembi:paremb
 
@@ -223,6 +231,8 @@ NMN
 
 
 
+
+
  LEXICON NMN_KOIVU  koivu:koivu
 
 
@@ -271,9 +281,15 @@ NMN
 
 
 
+ LEXICON NMN_MIES  mies:mie
+
+
+
  LEXICON NMN_SUALIŠ  suališ:suali
 
 
+
+ LEXICON NMN_ARMAS  armas:arma
 
 
 
