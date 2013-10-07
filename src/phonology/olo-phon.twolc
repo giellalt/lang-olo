@@ -217,7 +217,7 @@ A2:y <=> [ y: ] %> _ ( %^WEAK:0 ) [ # | %>  ];
 
 "a:u before subsequent a"
 !! __@RULENAME@__  Diphthong a+a => ua
-a:u <=> Cns:+ _ [ a | %> [ %{aä%}:a | %{aäInf%}:a | A2:a ] ]; 
+a:u <=> Cns:+ _ [ (d:0) a | %> [ %{aä%}:a | %{aäInf%}:a | A2:a ] ]; 
         _ %^A2U:0 ;
 
 
@@ -254,7 +254,7 @@ a:0 <=>
 
 "a:o in the plural and preterite"
 !! __@RULENAME@__
-a:o <=> # Cns* [ a | i | e ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
+a:o <=> # Cns* [ a | i | e ] Cns:+ _ %>: i: ( %^WEAK:0 )  ;
 
 
 "a:e"
@@ -404,7 +404,7 @@ p:0 <=> Vws _ s  %^KS2S:0  ;
 !! Consonant loss
 "d:0"
 !! __@RULENAME@__   pidiä:piän
-d:0 <=> Vws _ Vws: %^WEAK:0  ;
+d:0 <=> Vws: _ Vws: %^WEAK:0  ;
 
 
 !"Disallow V3 after two consecutive realized vowels"
