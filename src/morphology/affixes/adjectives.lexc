@@ -13,10 +13,7 @@ LEXICON A_
 LEXICON A_JIÄTÖI !!= @CODE@ jiätöi:jiät
  A_HUOLETOI ;
 LEXICON A_HUOLETOI !!= @CODE@ huoletoi:huolet
-+A:%{oö%}i SGNOMSUF ;
-+A:t%{oö%}ma SGPARSUF_A2 ; 
-+A:t%{oö%}mie PLGENSUF ; 
-+A:t%{oö%}mi PLPARSUF_i ; 
++A:	NMN_HUOLETOI   ;
 +A+Der/MWN: N_HUOLETOI ; 
 +N:t%{oö%}ma Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
@@ -77,10 +74,7 @@ LEXICON A_VALGEI-PL
 +A: NMN_VALGEI-PL        ;
 
 LEXICON A_PAREMBI !!= @CODE@ parembi:paremb
-+A:i SGNOMSUF ;
-+A:%{aä%} SGPARSUF_A2 ;
-+A:ie PLGENSUF ;
-+A:i PLPARSUF_i ;
++A: NMN_PAREMBI	  ;
 +A+Der/MWN: N_PAREMBI ;
 +N:%{aä%} Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
