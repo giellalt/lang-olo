@@ -26,6 +26,11 @@ LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
 LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 +A: NMN_KIELINE ;
 
+LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
+!! the comparatives and superlatives are supletive
++A: NMN_OZA ;
+
+
 LEXICON A_OZA !!= @CODE@ oza:oza
 +A: NMN_OZA ;
 

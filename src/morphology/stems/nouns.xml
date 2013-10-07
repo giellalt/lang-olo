@@ -525,7 +525,7 @@
       <l pos="N">ahvenheiny</l>
 
       <stg>
-        <st Contlex="N_">ahvenheiny</st>
+        <st Contlex="N_PÄIVY">ahven#heinä</st>
       </stg>
     </lg>
 
@@ -4794,7 +4794,7 @@
       <l pos="N">bohorouditsanheiny</l>
 
       <stg>
-        <st Contlex="N_">bohorouditsanheiny</st>
+        <st Contlex="N_PÄIVY">bohorouditsan#heinä</st>
       </stg>
     </lg>
 
@@ -7324,7 +7324,7 @@
       <l pos="N">dorogulehti</l>
 
       <stg>
-        <st Contlex="N_">dorogulehti</st>
+        <st Contlex="N_NIMI">dorogu#leht</st>
       </stg>
     </lg>
 
@@ -12270,7 +12270,7 @@
       <l pos="N">heiny</l>
 
       <stg>
-        <st Contlex="N_">heiny</st>
+        <st Contlex="N_PÄIVY">heinä</st>
       </stg>
     </lg>
 
@@ -12294,7 +12294,7 @@
       <l pos="N">heinykuu</l>
 
       <stg>
-        <st Contlex="N_">heinykuu</st>
+        <st Contlex="N_">heiny#kuu</st>
       </stg>
     </lg>
 
@@ -13284,7 +13284,7 @@
       <l pos="N">hiirenheiny</l>
 
       <stg>
-        <st Contlex="N_">hiirenheiny</st>
+        <st Contlex="N_PÄIVY">hiiren#heinä</st>
       </stg>
     </lg>
 
@@ -14342,7 +14342,7 @@
       <l pos="N">hukanlehti</l>
 
       <stg>
-        <st Contlex="N_">hukanlehti</st>
+        <st Contlex="N_NIMI">hukan#leht</st>
       </stg>
     </lg>
 
@@ -19282,7 +19282,7 @@
       <l pos="N">jouhiheiny</l>
 
       <stg>
-        <st Contlex="N_">jouhiheiny</st>
+        <st Contlex="N_PÄIVY">jouhi#heinä</st>
       </stg>
     </lg>
 
@@ -24254,7 +24254,7 @@
       <l pos="N">kasteheiny</l>
 
       <stg>
-        <st Contlex="N_">kasteheiny</st>
+        <st Contlex="N_PÄIVY">kaste#heinä</st>
       </stg>
     </lg>
 
@@ -30933,7 +30933,7 @@
       <l pos="N">korvulehti</l>
 
       <stg>
-        <st Contlex="N_">korvulehti</st>
+        <st Contlex="N_NIMI">korvu#leht</st>
       </stg>
     </lg>
 
@@ -32562,6 +32562,30 @@
 
       <tg xml:lang="fin">
         <t pos="N">kukkaro</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">kukki</l>
+
+      <stg>
+        <st Contlex="N_">kukki</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N"></t>
       </tg>
     </mg>
   </e>
@@ -34337,7 +34361,7 @@
       <l pos="N">kyly</l>
 
       <stg>
-        <st Contlex="N_">kyly</st>
+        <st Contlex="N_KOIVU">kyly</st>
       </stg>
     </lg>
 
@@ -36334,7 +36358,7 @@
       <l pos="N">ladu</l>
 
       <stg>
-        <st Contlex="N_">ladu</st>
+        <st Contlex="N_KOIVU">ladu</st>
       </stg>
     </lg>
 
@@ -37939,6 +37963,30 @@
 
       <tg xml:lang="fin">
         <t pos="N">penkki, kiintonainen seinänvieruspenkki, lavitsa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">lehti</l>
+
+      <stg>
+        <st Contlex="N_NIMI">leht</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">lehti</t>
       </tg>
     </mg>
   </e>
@@ -42337,7 +42385,7 @@
       <l pos="N">oravanheiny</l>
 
       <stg>
-        <st Contlex="N_PÄIVY">oravanheinä</st>
+        <st Contlex="N_PÄIVY">oravan#heinä</st>
       </stg>
     </lg>
 
@@ -49992,7 +50040,7 @@
       <l pos="N">počinheiny</l>
 
       <stg>
-        <st Contlex="N_">počinheinä</st>
+        <st Contlex="N_PÄIVY">počinheinä</st>
       </stg>
     </lg>
 
@@ -58760,32 +58808,10 @@
 
   <e>
     <lg>
-      <l pos="N">saviheiny</l>
-
-      <stg>
-        <st Contlex="N_PÄIVY">saviheinä</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="N">saviheinä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">savimua</l>
 
       <stg>
-        <st Contlex="N_KUU">savimua</st>
+        <st Contlex="N_KUU">savi#mua</st>
       </stg>
     </lg>
 
