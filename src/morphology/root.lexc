@@ -97,8 +97,17 @@ Multichar_Symbols
 !! Numerals are classified under:
  +Attr +Card
  +Ord 
+!! !Verb tenses are:
+  +Prs     !!≈ | @CODE@ | Present, non-past Tense
+  +Prt     !!≈ | @CODE@ | Preterite Tense
+
+
 !! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
+  +Ind   !!≈ ; @CODE@ : Indicative
+  +Imprt !!≈ ; @CODE@ : Imperative
+  +Cond  !!≈ ; @CODE@ : Conditional
+  +Pot   !!≈ ; @CODE@ : Potential
+
 !! Verb personal forms are:
 ! Subject conjugation
 +ScSg1 +ScSg2 +ScSg3 
@@ -112,8 +121,14 @@ Multichar_Symbols
 +RcPl
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc
- +PrfPrc
+  +Inf    !!≈ ; @CODE@ : Infinitive 
+  +ActPrfPrc !!≈ ; @CODE@ : active past participle
+  +ActPrsPrc !!≈ ; @CODE@ : active present participle
+  +PssPrfPrc !!≈ ; @CODE@ : passive past participle
+  +PssPrsPrc !!≈ ; @CODE@ : passive present participle
+  +Ger            !!≈ ; @CODE@ : Gerund
+
+ +ConNeg +ConNegII +Neg +ImprtII
  +PrfPrcPl3
  +Sup +VGen +VAbess
 

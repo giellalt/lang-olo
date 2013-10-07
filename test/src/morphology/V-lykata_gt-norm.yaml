@@ -1,0 +1,77 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - lykätä: # Verb 'to throw / heittää, viskata, paiskata' - full paradigm
+      lykätä+V+Ind+Prs+ScSg1:  lykkiän
+      lykätä+V+Ind+Prs+ScSg2:  lykkiät
+      lykätä+V+Ind+Prs+ScSg3:  lykkiäu
+      lykätä+V+Ind+Prs+ScPl1:  lykkiämmö
+      lykätä+V+Ind+Prs+ScPl2:  lykkiättö
+      lykätä+V+Ind+Prs+ScPl3:  lykätäh
+      lykätä+V+Ind+Prs+ConNeg: lykkiä
+      lykätä+V+Ind+Prs+ConNeg+ScPl3:  lykätä
+
+      lykätä+V+Ind+Prt+ScSg1:  lykkäin
+      lykätä+V+Ind+Prt+ScSg2:  lykkäit
+      lykätä+V+Ind+Prt+ScSg3:  lykkäi
+      lykätä+V+Ind+Prt+ScPl1:  lykkäimmo
+      lykätä+V+Ind+Prt+ScPl2:  lykkäitto
+      lykätä+V+Ind+Prt+ScPl3:  lykättih
+      lykätä+V+Ind+Prt+ConNeg: lykännyh
+      lykätä+V+Ind+Prt+ConNeg+ScPl3: lykätty
+
+      lykätä+V+Cond+Prs+ScSg1:  lykkiäzin
+      lykätä+V+Cond+Prs+ScSg2:  lykkiäzit
+      lykätä+V+Cond+Prs+ScSg3:  lykkiäs
+      lykätä+V+Cond+Prs+ScPl1:  lykkiäzimmö
+      lykätä+V+Cond+Prs+ScPl2:  lykkiäzittö
+      lykätä+V+Cond+Prs+ScPl3:  lykättäs
+      lykätä+V+Cond+Prs+ConNeg: lykkiäs
+      lykätä+V+Cond+Prs+ConNeg+ScPl3:  lykättäs
+
+      lykätä+V+Cond+Prt+ScSg1:  lykännyzin
+      lykätä+V+Cond+Prt+ScSg2:  lykännyzit
+      lykätä+V+Cond+Prt+ScSg3:  lykännys
+      lykätä+V+Cond+Prt+ScPl1:  lykännyzimmö
+      lykätä+V+Cond+Prt+ScPl2:  lykännyzittö
+      lykätä+V+Cond+Prt+ScPl3:  lykätännys
+      lykätä+V+Cond+Prt+ConNeg: lykännys
+      lykätä+V+Cond+Prt+ConNeg+ScPl3:  lykättännys
+
+      lykätä+V+Pot+ScSg1:  lykännen
+      lykätä+V+Pot+ScSg2:  lykännet
+      lykätä+V+Pot+ScSg3:  lykännöy
+      lykätä+V+Pot+ScPl1:  lykännemmö
+      lykätä+V+Pot+ScPl2:  lykännettö
+      lykätä+V+Pot+ScPl3:  lykätänne
+      lykätä+V+Pot+ConNeg: lykänne
+      lykätä+V+Pot+ConNeg+ScPl3:  lykätänne
+
+      lykätä+V+Imprt+ScSg2:  lykkiä
+      lykätä+V+Imprt+ScSg3:  lykäkkäh
+      lykätä+V+Imprt+ScPl1:  lykäkkiämmö
+      lykätä+V+Imprt+ScPl2:  [lykäkkiä, lykäkkiättö]
+      lykätä+V+Imprt+ScPl3:  lykättähes
+      lykätä+V+Imprt+ConNeg+ScSg2: lykkiä
+      lykätä+V+Imprt+ConNeg+ScSg3: lykäkkäh
+      lykätä+V+Imprt+ConNeg+ScPl1: lykäkkiämmö
+      lykätä+V+Imprt+ConNeg+ScPl2: lykäkkiä
+      lykätä+V+Imprt+ConNeg+ScPl3:  lykättähes
+
+
+      lykätä+V+Inf: lykätä
+ 
+ 

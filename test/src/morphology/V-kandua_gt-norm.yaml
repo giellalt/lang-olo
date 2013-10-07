@@ -22,6 +22,7 @@ Tests:
       kandua+V+Ind+Prs+ScPl2: kannatto
       kandua+V+Ind+Prs+ScPl3: kannetah
       kandua+V+Ind+Prs+ConNeg: kanna
+      kandua+V+Ind+Prs+ConNeg+ScPl3: kanneta
  
       kandua+V+Ind+Prt+ScSg1: kannoin
       kandua+V+Ind+Prt+ScSg2: kannoit
@@ -31,6 +32,49 @@ Tests:
       kandua+V+Ind+Prt+ScPl3: kannettih
       kandua+V+Ind+Prt+ConNeg: kandanuh
       kandua+V+Ind+Prt+ConNeg+ScPl3: kannettu
+      
+      kandua+V+Cond+Prs+ScSg1:  kandazin
+      kandua+V+Cond+Prs+ScSg2:  kandazit
+      kandua+V+Cond+Prs+ScSg3:  kandas
+      kandua+V+Cond+Prs+ScPl1:  kandazimmo
+      kandua+V+Cond+Prs+ScPl2:  kandazitto
+      kandua+V+Cond+Prs+ScPl3:  kannettas
+      kandua+V+Cond+Prs+ConNeg: kandas
+      kandua+V+Cond+Prs+ConNeg+ScPl3:  kannettas
+
+      kandua+V+Cond+Prt+ScSg1:  kandanuzin
+      kandua+V+Cond+Prt+ScSg2:  kandanuzit
+      kandua+V+Cond+Prt+ScSg3:  kandanus
+      kandua+V+Cond+Prt+ScPl1:  kandanuzimmo
+      kandua+V+Cond+Prt+ScPl2:  kandanuzitto
+      kandua+V+Cond+Prt+ScPl3:  kannetannus
+      kandua+V+Cond+Prt+ConNeg: kandanus
+      kandua+V+Cond+Prt+ConNeg+ScPl3:  kannetannus
+
+      kandua+V+Pot+ScSg1:  kandanen
+      kandua+V+Pot+ScSg2:  kandanet
+      kandua+V+Pot+ScSg3:  kandanou
+      kandua+V+Pot+ScPl1:  kandanemmo
+      kandua+V+Pot+ScPl2:  kandanetto
+      kandua+V+Pot+ScPl3:  kannetanneh
+      kandua+V+Pot+ConNeg: kandane
+      kandua+V+Pot+ConNeg+ScPl3:  kannetanne
+
+      kandua+V+Imprt+ScSg2:  kanna
+      kandua+V+Imprt+ScSg3:  kandakkah
+      kandua+V+Imprt+ScPl1:  kandakkuammo
+      kandua+V+Imprt+ScPl2: [kandakkua, kandakkuatto]
+      kandua+V+Imprt+ScPl3:  kannettahes
+      kandua+V+Imprt+ConNeg+ScSg2: kanna
+      kandua+V+Imprt+ConNeg+ScSg3: kandakkah
+      kandua+V+Imprt+ConNeg+ScPl1: kandakkuammo
+      kandua+V+Imprt+ConNeg+ScPl2: kandakkua
+      kandua+V+Imprt+ConNeg+ScPl3: kannettahes
+
+      kandua+V+ActPrsPrc: kandavu
+      kandua+V+ActPrfPrc: kandanuh
+      kandua+V+PssPrsPrc: kannetavu
+      kandua+V+PssPrfPrc: kannettu
       kandua+V+Inf: kandua
  
  
