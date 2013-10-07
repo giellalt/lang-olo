@@ -13,8 +13,11 @@ Y
 
 ! Vowel harmony with "(t)a/ä"
 !%{aä%}:a
-%{aä%}:ä
+%{aä%}:ä	!!= @CODE@ ! This is for the partitive and other vowel harmony not including AA infinitive
 !%{aä%}:0
+
+
+ %{aäInf%}:ä !!= @CODE@ ! This is for the infinitive marker after i and u stems
 
 ! Vowel harmony with "loi/löi" also kalatOÖ1in
 !%{oö%}:o
@@ -160,19 +163,34 @@ GRC =  [ [ ( %>: ) %{aä%}: | %{oö%}: | %{uy%}: | Vws: | :Vws ] ( %>:  i )  |  
 
 Rules
 
+"%{aäInf%}:o"
+!! __@RULENAME@__
+%{aäInf%}:o <=> o: %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+         [ o: | u] %> _ # ;
+
+! Vowel harmony suffixes Back
+"%{aäInf%}:a"
+!! __@RULENAME@__
+ %{aäInf%}:a <=> [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
+   [ BTCons %> | BT ( %^WEAK:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
+
+
 "%{aä%}:o"
 !! __@RULENAME@__
 %{aä%}:o <=> o: %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
-         [ o: | u ] %> _ # ;
+         [ o: ] %> _ # ;
+
+"%{aä%}:u"
+!! __@RULENAME@__
+%{aä%}:u <=> u: %> _ ( %^WEAK:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+         [ u ] %> _ # ;
 
 ! Vowel harmony suffixes Back
 "%{aä%}:a"
 !! __@RULENAME@__
  %{aä%}:a <=> [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
    [ BTCons %> | BT ( %^WEAK:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
-! [ a: ] %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
-!    a: %> _ ;
-! BT _   ( %>:  %^WEAK:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:  %^LCns:0 ( %^LVws:0 ) ) [ ( %>: ) [ Cns | %^WEAK:0 %>: [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | %{aä%}: | %^StretchSyll2:0 | i | %>: ( %^WEAK:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
+
 
 "%{aä%}:e"
 !! __@RULENAME@__
@@ -199,7 +217,7 @@ A2:y <=> [ y: ] %> _ ( %^WEAK:0 ) [ # | %>  ];
 
 "a:u before subsequent a"
 !! __@RULENAME@__  Diphthong a+a => ua
-a:u <=> Cns:+ _ [ a | %> [ %{aä%}:a | A2:a ] ]; 
+a:u <=> Cns:+ _ [ a | %> [ %{aä%}:a | %{aäInf%}:a | A2:a ] ]; 
         _ %^A2U:0 ;
 
 
@@ -236,7 +254,7 @@ a:0 <=>
 
 "a:o in the plural and preterite"
 !! __@RULENAME@__
-a:o <=> # Cns* [ a ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
+a:o <=> # Cns* [ a | i | e ] Cns:+ _ %>: i ( %^WEAK:0 )  ;
 
 
 "a:e"
@@ -313,19 +331,19 @@ d:t <=> [ h | t | s ] ( %^KS2S:0 ) %> _ ;
 "rd:rr weakening"
 !! __@RULENAME@__  
 d:r <=>
-     Vws: r _ Vws: %^WEAK:0 [%> | # ] ;
+     Vws: r _ Vws: (%> i) %^WEAK:0 [ (%^E1:) %> | # ] ;
 !   Vws r %> _ GRC ;
 
 "ld:ll weakening"
 !! __@RULENAME@__  
 d:l <=>
-     Vws: l _ Vws: %^WEAK:0 [ %> | # ] ;
+     Vws: l _ Vws: (%> i) %^WEAK:0 [ (%^E1:) %> | # ] ;
 !  Vws l %> _ GRC ;
 
 "nd:nn weakening"
 !! __@RULENAME@__  
 d:n <=>
-     Vws: n _ Vws: %^WEAK:0 [ %> | # ] ;
+     Vws: n _ Vws: (%> i) %^WEAK:0 [ (%^E1:) %> | # ] ;
 !  Vws ( %^WEAK:0 %>: ) n %> _ GRC ;
 
 "ln:ll in prtprc"
