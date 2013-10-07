@@ -34,7 +34,7 @@ LEXICON V_KANDUA !!= @CODE@ kandua:kanda
 !Verbs of the Finnish type 1
 !V1a
 +V: V-VV_01 ;
-+V+Inf:%>%{aä%} K ;
++V+Inf:%>%{aäInf%} K ;
 +V+Der/mine:%>mi N_KIELINE ; 
 +V+Der/mA+Inf+Ill:%>m%{aä%}h K ; 
 
@@ -42,14 +42,14 @@ LEXICON V_OTTUA !!= @CODE@ ottua:otta
 !Verbs of the Finnish type 1
 !V1a
 +V: V-VV_01 ;
-+V+Inf:%>%{aä%} K ;
++V+Inf:%>%{aäInf%} K ;
 +V+Der/mine:%>mi N_KIELINE ;
 +V+Der/mA+Inf+Ill:%>m%{aä%}h K ;
 
 LEXICON V_PUNUO !!= @CODE@ punuo:puno
 !V1o
 +V: V-VV_01 ;
-+V+Inf:%>%{aä%} K ;
++V+Inf:%>%{aäInf%} K ;
 +V+Der/mine:%>mi N_KIELINE ; 
 +V+Der/mA+Inf+Ill:%>m%{aä%}h K ; 
 
@@ -57,7 +57,7 @@ LEXICON V_PUNUO !!= @CODE@ punuo:puno
 LEXICON V_VALUO !!= @CODE@ valuo:valu
 !V1u
 +V: V-VV_01 ;
-+V+Inf:%>%{aä%} K ;
++V+Inf:%>%{aäInf%} K ;
 +V+Der/mine:%>mi N_KIELINE ; 
 +V+Der/mA+Inf+Ill:%>m%{aä%}h K ; 
 
@@ -66,14 +66,14 @@ LEXICON V_VALUO !!= @CODE@ valuo:valu
 !V1i
 LEXICON V_POTKIE !!= @CODE@ potkie:potki
 +V: K ;
-+V+Inf:%>%{aä%} K ;
++V+Inf:%>%{aäInf%} K ;
 +V+Der/mine:%>mi N_KIELINE ; 
 +V+Der/mA+Inf+Ill:%>m%{aä%}h K ; 
 
 
 LEXICON  V_PIDIÄ !!= @CODE@ pidiä:pidä
 +V: V-VV_01 ;
-+V+Inf:%>%{aä%} K ;
++V+Inf:%>%{aäInf%} K ;
 +V+Der/mine:%>mi N_KIELINE ; 
 +V+Der/mA+Inf+Ill:%>m%{aä%}h K ; 
 
@@ -122,7 +122,7 @@ LEXICON V_SUAJA !!= @CODE@ suaja:saa
 +V:%>d%{aä%} CONDPRTPL3 ;
 +V+Der/mine:%>mi N_KIELINE ; 
 +V+Der/mA+Inf+Ill:%>m%{aä%}h K ; 
-+V+Inf:%>j%{aä%} K ;
++V+Inf:%>j%{aäInf%} K ;
 
 LEXICON V_TULLA !!= @CODE@ tulla:tul
 !Verbs of the Finnish type 3
@@ -148,7 +148,7 @@ LEXICON V_TULLA !!= @CODE@ tulla:tul
 +V:%>d%{aä%} CONDPRTPL3 ;
 +V+Der/mine:%>mi N_KIELINE ; 
 +V+Der/mA+Inf+Ill:e%>m%{aä%}h K ; 
-+V+Inf:%>d%{aä%}%^WEAK K ;
++V+Inf:%>d%{aäInf%}%^WEAK K ;
 
 LEXICON V_PESTÄ !!= @CODE@ pestä:pes
  V_TULLA ;
