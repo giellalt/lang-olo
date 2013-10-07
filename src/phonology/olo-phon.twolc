@@ -222,7 +222,7 @@ o:u <=> Cns _ %> [ %{aä%}:o ] ;
 !! __@RULENAME@__
 a:0 <=>
  a _ %> i ; !!= * @CODE@ ! Vowel shortening before subsequent "i"
-[ # | Cns:* ] [ u | o ] (i) [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ; !!= * @CODE@ ! sulgu:sulgih  
+[ # | Cns:* ] [[ u | o ] (i)| u o ] [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ; !!= * @CODE@ ! sulgu:sulgih; kuoppu:
 
 
 ! iToj between vowels
@@ -374,7 +374,7 @@ b:v <=> [ #: ] Cns* Vws ( r | l | Vws ) _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 "p:0 in lapsi"
 !! __@RULENAME@__  
 p:0 <=> Vws _ s  %^KS2S:0  ;
- Vws: _ p Vws: %^WEAK:0  ;
+ Vws: _ p Vws: (%> i) %^WEAK:0  ;
 
 !2013-04-29! Vowel raising
 !2013-04-29!"o:u ö:y in Inf"
