@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - suaja: # Verb 'to receive / saada' - full paradigm
+      suaja+V+Ind+Prs+ScSg1: suan
+      suaja+V+Ind+Prs+ScSg2: suat
+      suaja+V+Ind+Prs+ScSg3: suau
+      suaja+V+Ind+Prs+ScPl1: suammo
+      suaja+V+Ind+Prs+ScPl2: suatto
+      suaja+V+Ind+Prs+ScPl3: suajah
+      suaja+V+Ind+Prs+ConNeg: sua
+      suaja+V+Ind+Prs+ConNeg+ScPl3: suaja
+ 
+      suaja+V+Ind+Prt+ScSg1: sain
+      suaja+V+Ind+Prt+ScSg2: sait
+      suaja+V+Ind+Prt+ScSg3: saii
+      suaja+V+Ind+Prt+ScPl1: saimmo
+      suaja+V+Ind+Prt+ScPl2: saitto
+      suaja+V+Ind+Prt+ScPl3: suadih
+      suaja+V+Ind+Prt+ConNeg: suannuh
+      suaja+V+Ind+Prt+ConNeg+ScPl3: suadu
+      
+      suaja+V+Cond+Prs+ScSg1:  suazin
+      suaja+V+Cond+Prs+ScSg2:  suazit
+      suaja+V+Cond+Prs+ScSg3:  suas
+      suaja+V+Cond+Prs+ScPl1:  suazimmo
+      suaja+V+Cond+Prs+ScPl2:  suazitto
+      suaja+V+Cond+Prs+ScPl3:  suadas
+      suaja+V+Cond+Prs+ConNeg: suas
+      suaja+V+Cond+Prs+ConNeg+ScPl3:  suadas
+
+      suaja+V+Cond+Prt+ScSg1:  suannuzin
+      suaja+V+Cond+Prt+ScSg2:  suannuzit
+      suaja+V+Cond+Prt+ScSg3:  suannus
+      suaja+V+Cond+Prt+ScPl1:  suannuzimmo
+      suaja+V+Cond+Prt+ScPl2:  suannuzitto
+      suaja+V+Cond+Prt+ScPl3:  suadanus
+      suaja+V+Cond+Prt+ConNeg: suannus
+      suaja+V+Cond+Prt+ConNeg+ScPl3:  suadanus
+
+      suaja+V+Pot+ScSg1:  suannen
+      suaja+V+Pot+ScSg2:  suannet
+      suaja+V+Pot+ScSg3:  suannou
+      suaja+V+Pot+ScPl1:  suannemmo
+      suaja+V+Pot+ScPl2:  suannetto
+      suaja+V+Pot+ScPl3:  suadaneh
+      suaja+V+Pot+ConNeg: suanne
+      suaja+V+Pot+ConNeg+ScPl3:  suadane
+
+      suaja+V+Imprt+ScSg2:  sua
+      suaja+V+Imprt+ScSg3:  suagah
+      suaja+V+Imprt+ScPl1:  suaguammo
+      suaja+V+Imprt+ScPl2: [suagua, suaguatto]
+      suaja+V+Imprt+ScPl3:  suadahes
+      suaja+V+Imprt+ConNeg+ScSg2: sua
+      suaja+V+Imprt+ConNeg+ScSg3: suagah
+      suaja+V+Imprt+ConNeg+ScPl1: suaguammo
+      suaja+V+Imprt+ConNeg+ScPl2: suagua
+      suaja+V+Imprt+ConNeg+ScPl3: suadahes
+
+      suaja+V+ActPrsPrc: suavu
+      suaja+V+ActPrfPrc: suanuh
+      suaja+V+PssPrsPrc: suadavu
+      suaja+V+PssPrfPrc: suadu
+
+      suaja+V+Inf: suaja
+ 
+ 

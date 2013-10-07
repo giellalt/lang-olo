@@ -71,6 +71,14 @@ LEXICON V_POTKIE !!= @CODE@ potkie:potki
 +V+Der/mA+Inf+Ill:%>m%{aä%}h K ; 
 
 
+!V1i
+LEXICON V_IMIE !!= @CODE@ imie:ime
++V: K ;
++V+Inf:%>%{aäInf%} K ;
++V+Der/mine:%>mi N_KIELINE ; 
++V+Der/mA+Inf+Ill:%>m%{aä%}h K ; 
+
+
 LEXICON  V_PIDIÄ !!= @CODE@ pidiä:pidä
 +V: V-VV_01 ;
 +V+Inf:%>%{aäInf%} K ;
@@ -89,6 +97,8 @@ LEXICON V-VV_01
  INDPRSPL2 ;
  INDPRSPL3_EtAh ;
  INDPRSCONNEG ;
+ ACTPRSPRC_vU ;
+ PSSPRSPRC_EtAvU ;
 
  INDPRTSG1 ;
  INDPRTSG2 ;
@@ -97,7 +107,9 @@ LEXICON V-VV_01
  INDPRTPL2 ;
  INDPRTPL3_Ettih ;
 +Ind+Prt+ConNeg:%>n%{uy%}h K ;
- INDPRTCONNEGPL3_Ettu ;
+ INDPRTCONNEGPL3_EttU ;
+ ACTPRFPRC_nUh ;
+ PSSPRFPRC_EttU ;
 
 LEXICON V_SUAJA !!= @CODE@ suaja:saa
 !Verbs of the Finnish type 2
@@ -173,8 +185,8 @@ LEXICON V_AVATA !!= @CODE@ typätä:typpä
 +V: INDPRTPL3_ttih     ; 
 +V+Ind+PrfPrc:%^WEAK%>nn%{uy%}h K ;
 +V+Ind+PrfPrcPl3:%^WEAK%>tt%{uy%} K ;
-+V: INDPRTCONNEG_nnuh ; !!
-+V: INDPRTCONNEGPL3_ttu ;
++V: INDPRTCONNEG_nnUh ; !!
++V: INDPRTCONNEGPL3_ttU ;
 +V: CONDPRS ;
 +V:%>d CONDPRSPL3 ;
 +V:%>d%{uy%}%^WEAK CONDPRT ;
@@ -210,8 +222,8 @@ LEXICON V_ALETA !!= @CODE@ aleta:ale (alenov)
 +V: INDPRTPL3_ttih     ;
 +V+Ind+PrfPrc:%>nn%{uy%}h K ;
 +V+Ind+PrfPrcPl3:%>tt%{uy%} K ;
-+V: INDPRTCONNEG_nnuh ; !!
-+V: INDPRTCONNEGPL3_ttu ;
++V: INDPRTCONNEG_nnUh ; !!
++V: INDPRTCONNEGPL3_ttU ;
 +V:n CONDPRS ;
 !+V:%>d CONDPRSPL3 ;
 !+V:%>d%{uy%}%^WEAK CONDPRT ;
@@ -321,11 +333,11 @@ LEXICON INDPRTPL3_Ettih
 +Ind+Prt+ScPl3:%^WEAK%^E1%>ttih K ;
 LEXICON INDPRTSGCONNEG
 +Ind+Prt+Sg+ConNeg:%^WEAK K ;
-LEXICON INDPRTCONNEG_nnuh
+LEXICON INDPRTCONNEG_nnUh
 +Ind+Prt+ConNeg:%^WEAK%>nn%{uy%}h K ;
-LEXICON INDPRTCONNEGPL3_ttu
+LEXICON INDPRTCONNEGPL3_ttU
 +Ind+Prt+ConNeg+ScPl3:%^WEAK%>tt%{uy%} K ;
-LEXICON INDPRTCONNEGPL3_Ettu
+LEXICON INDPRTCONNEGPL3_EttU
 +Ind+Prt+ConNeg+ScPl3:%^WEAK%^E1%>tt%{uy%} K ;
 
 
@@ -351,6 +363,26 @@ LEXICON CONDPRT
 
 LEXICON CONDPRTPL3
 +Cond+Prt+ScPl3:%>n%{uy%}s K ;
+
+!!
+LEXICON  ACTPRSPRC_vU
++ActPrsPrc:%>v%{uy%} K ;
++ActPrsPrc+Der/A:%>v%{aä%} NMN_PÄIVY ;
+
+LEXICON  PSSPRSPRC_EtAvU
++PssPrsPrc:%^WEAK%^E1%>t%{aä%}v%{uy%} K ;
++PssPrsPrc+Der/A:%^WEAK%^E1%>t%{aä%}v%{aä%} NMN_PÄIVY        ;
+
+LEXICON  PSSPRSPRC_EttAvU
++PssPrsPrc:%^WEAK%^E1%>tt%{aä%}v%{uy%} K	;
++PssPrsPrc+Der/A:%^WEAK%^E1%>tt%{aä%}v%{aä%} NMN_PÄIVY	;
+
+LEXICON ACTPRFPRC_nUh
++ActPrfPrc:%>n%{uy%}h K ;
+
+LEXICON  PSSPRFPRC_EttU
++PssPrfPrc:%^WEAK%^E1%>tt%{uy%} K ;
+
 
 
 ! vim: set ft=xfst-lexc:
