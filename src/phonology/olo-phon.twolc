@@ -64,6 +64,9 @@ V3:ä
 V3:ö
 V3:0
 
+%^DEVOICE:0   !!= @CODE@ !
+%^VOICE:0   !!= @CODE@ ! pestä : pezen
+
 ! syllable boundary for V_AVATA
 %^SyllBound:0
 
@@ -315,6 +318,11 @@ t:z <=> _ %^T2Z:0 %> i ;
 !! __@RULENAME@__  
 d:t <=> [ h | t | s ] ( %^KS2S:0 ) %> _ ;
 
+"s:z"
+!! __@RULENAME@__
+s:z <=> _ %^VOICE:0 ; !!= * @CODE@ ! pestä: pezen
+
+
 !2013-04-29!
 !2013-04-29!
 !2013-04-29! viis: viijes
@@ -346,9 +354,17 @@ d:n <=>
      Vws: n _ Vws: (%> i) %^WEAK:0 [ (%^E1:) %> | # ] ;
   Vws ( %^WEAK:0 %>: ) n %> _ GRC ; !!= @CODE@ mennä+Ind+Prs+ScPl3: mennäh
 
+"rn:rr in prtprc"
+!! __@RULENAME@__  
+n:r <=> r %> _ (%{uy%}:) %^WEAK:  ;
+
 "ln:ll in prtprc"
 !! __@RULENAME@__  
-n:l <=> l %> _ %{uy%}: %^WEAK: h ;
+n:l <=> l %> _ (%{uy%}:) %^WEAK:  ;
+
+"sn:ss in prtprc"
+!! __@RULENAME@__  
+n:s <=> s %> _ (%{uy%}:) %^WEAK:  ;
 
 !2013-04-29! p
 !2013-04-29!

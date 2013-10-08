@@ -137,7 +137,7 @@ LEXICON V_SUAJA !!= @CODE@ suaja:saa
 +V+Inf:%>j%{aäInf%} K ;
 
 LEXICON V_TULLA !!= @CODE@ tulla:tul
-!Verbs of the Finnish type 3
+!! !Verbs of the Finnish type 3
 +V:e INDPRSSG1 ;
 +V:e INDPRSSG2 ;
 +V:%{oö%} INDPRSSG3 ;
@@ -152,18 +152,47 @@ LEXICON V_TULLA !!= @CODE@ tulla:tul
 +V: INDPRTPL1     ;
 +V: INDPRTPL2     ;
 +V: INDPRTPL3_dih     ;
++V+Ind+Prt+ConNeg:%>n%{uy%}%^WEAKh K ;
 +V+Ind+PrfPrc:%>n%{uy%}%^WEAKh K ;
 +V+Ind+PrfPrcPl3:%>d%{uy%} K ;
 +V: CONDPRS ;
 +V:%>d CONDPRSPL3 ;
-+V:%>d%{uy%}%^WEAK CONDPRT ;
++V:%>n%{uy%}%^WEAK CONDPRT ;
 +V:%>d%{aä%} CONDPRTPL3 ;
 +V+Der/mine:%>mi N_KIELINE ; 
 +V+Der/mA+Inf+Ill:e%>m%{aä%}h K ; 
 +V+Inf:%>d%{aäInf%}%^WEAK K ;
 
 LEXICON V_PESTÄ !!= @CODE@ pestä:pes
- V_TULLA ;
+!! !Verbs of the Finnish type 3
++V:%^VOICEe INDPRSSG1 ;
++V:%^VOICEe INDPRSSG2 ;
++V:%^VOICE%{oö%} INDPRSSG3 ;
++V:%^VOICEe INDPRSPL1 ;
++V:%^VOICEe INDPRSPL2 ;
++V: INDPRSPL3_dAh ;
+!+V+Ind+PrfPrc:d%{aä%}%^WEAKh K ;
++V:%^VOICEe INDPRSCONNEG ;
++V:%^VOICE INDPRTSG1     ;
++V:%^VOICE INDPRTSG2     ;
++V:%^VOICE INDPRTSG3     ;
++V:%^VOICE INDPRTPL1     ;
++V:%^VOICE INDPRTPL2     ;
++V: INDPRTPL3_dih     ;
++V+Ind+Prt+ConNeg:%>n%{uy%}%^WEAKh K ;
++V+Ind+Prt+ConNeg+ScPl3:%>d%{uy%} K ;
++V+Ind+PrfPrc:%>n%{uy%}%^WEAKh K ;
++V+Ind+PrfPrcPl3:%>d%{uy%} K ;
++V:%^VOICE CONDPRS ;
++V:%>d CONDPRSPL3 ;
++V: POT_N ;
++V: POTPL3_DAnnUs ;
++V: CONDPRT_nU ;
++V: CONDPRTPL3_DAnnUs ;
++V+Der/mine:%>mi N_KIELINE ; 
++V+Der/mA+Inf+Ill:e%>m%{aä%}h K ; 
++V+Inf:%>d%{aäInf%}%^WEAK K ;
+
 
 LEXICON V_TYPÄTÄ !!= @CODE@ typätä:typpä
 +V: #;
@@ -349,20 +378,44 @@ LEXICON CONDPRS
 +Cond+Prs+ScSg3:%>iz K ;
 +Cond+Prs+ScPl1:%>izimm%{oö%} K ;
 +Cond+Prs+ScPl2:%>izitt%{oö%} K ;
++Cond+Prs+ConNeg:%>is K ;
 
 LEXICON CONDPRSPL3
-+Cond+Prs+ScPl3:%{aä%}is K ;
++Cond+Prs+ScPl3:%{aä%}s K ;
++Cond+Prs+ConNeg+ScPl3:%{aä%}s K ;
 
 
 LEXICON CONDPRT
 +Cond+Prt+ScSg1:%>zin K ;
 +Cond+Prt+ScSg2:%>zit K ;
-+Cond+Prt+ScSg3:%>z K ;
++Cond+Prt+ScSg3:%>s K ;
 +Cond+Prt+ScPl1:%>zimm%{oö%} K ;
 +Cond+Prt+ScPl2:%>zitt%{oö%} K ;
 
+LEXICON CONDPRT_nU
++Cond+Prt+ScSg1:%>n%{uy%}%^WEAK%>zin K ;
++Cond+Prt+ScSg2:%>n%{uy%}%^WEAK%>zit K ;
++Cond+Prt+ScSg3:%>n%{uy%}%^WEAK%>s K ;
++Cond+Prt+ScPl1:%>n%{uy%}%^WEAK%>zimm%{oö%} K ;
++Cond+Prt+ScPl2:%>n%{uy%}%^WEAK%>zitt%{oö%} K ;
+
 LEXICON CONDPRTPL3
 +Cond+Prt+ScPl3:%>n%{uy%}s K ;
+
+LEXICON CONDPRTPL3_DAnnUs
++Cond+Prt+ScPl3:%>d%{aä%}nn%{uy%}s K ;
+
+LEXICON POT_N
++Pot+ScSg1:%>n%^WEAKen K ;
++Pot+ScSg2:%>n%^WEAKet K ;
++Pot+ScSg3:%>n%^WEAK%{oö%}%{uy%} K ;
++Pot+ScPl1:%>n%^WEAKemm%{oö%} K ;
++Pot+ScPl2:%>n%^WEAKett%{oö%} K ;
++Pot+ConNeg:%>n%^WEAKe K ;
+
+LEXICON POTPL3_DAnnUs
++Pot+ScPl3:%>d%{aä%}%>nneh K ;
++Pot+ConNeg+ScPl3:%>d%{aä%}%>nne K ;
 
 !!
 LEXICON  ACTPRSPRC_vU

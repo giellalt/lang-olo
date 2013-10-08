@@ -193,7 +193,8 @@ Multichar_Symbols
 !! And following triggers to control variation
  {front} {back}
  %>
- %^DEVOICE
+ %^DEVOICE  !!= @CODE@ !
+ %^VOICE  !!= @CODE@ ! pestä: pezen
  %^WEAK ! weak grade
  %^E1 ! causes a:e in kandua : kannettu
  %^SyllBound ! syllable boundary
