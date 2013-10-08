@@ -19,6 +19,8 @@ Y
 
  %{aäInf%}:ä !!= @CODE@ ! This is for the infinitive marker after i and u stems
 
+ %{ui%}:i !!= @CODE@ ! in imperative before %{aä%}:
+
 ! Vowel harmony with "loi/löi" also kalatOÖ1in
 !%{oö%}:o
 %{oö%}:ö
@@ -321,6 +323,10 @@ d:t <=> [ h | t | s ] ( %^KS2S:0 ) %> _ ;
 "s:z"
 !! __@RULENAME@__
 s:z <=> _ %^VOICE:0 ; !!= * @CODE@ ! pestä: pezen
+
+"k:g"
+!! __@RULENAME@__
+k:g <=> [ n | l |r ] %> _ (%{ui%}:) %{aä%}: ; !!= * @CODE@ ! pestä: peskäh
 
 
 !2013-04-29!
