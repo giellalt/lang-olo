@@ -332,19 +332,19 @@ d:t <=> [ h | t | s ] ( %^KS2S:0 ) %> _ ;
 !! __@RULENAME@__  
 d:r <=>
      Vws: r _ Vws: (%> i) %^WEAK:0 [ (%^E1:) %> | # ] ;
-!   Vws r %> _ GRC ;
+   Vws r %> _ GRC ; !!= @CODE@ purra+Ind+Prs+ScPl3: purrah
 
 "ld:ll weakening"
 !! __@RULENAME@__  
 d:l <=>
-     Vws: l _ Vws: (%> i) %^WEAK:0 [ (%^E1:) %> | # ] ;
-!  Vws l %> _ GRC ;
+  Vws: l _ Vws: (%> i) %^WEAK:0 [ (%^E1:) %> | # ] ;
+  Vws l %> _ GRC ; !!= @CODE@ tulla+Ind+Prs+ScPl3: tullah
 
 "nd:nn weakening"
 !! __@RULENAME@__  
 d:n <=>
      Vws: n _ Vws: (%> i) %^WEAK:0 [ (%^E1:) %> | # ] ;
-!  Vws ( %^WEAK:0 %>: ) n %> _ GRC ;
+  Vws ( %^WEAK:0 %>: ) n %> _ GRC ; !!= @CODE@ mennä+Ind+Prs+ScPl3: mennäh
 
 "ln:ll in prtprc"
 !! __@RULENAME@__  
