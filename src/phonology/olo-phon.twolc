@@ -142,7 +142,7 @@ FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] [ %> | VwsFront: | 
 
 
 ! Back Trigger 
-BT =    #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | %^KS2S:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^KS2S:0 | (%^WEAK:0) %^E1:0 | %^SyllBound:0 | VwsNeutral | i: (%^ILoss:) | VwsBack: | :VwsBack | Cns: | :Cns ]* ;
+BT =    #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | %^KS2S:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ] [ %> | %^WEAK:0  | %^VOICE:0 | %^KS2S:0 | (%^WEAK:0) %^E1:0 | %^SyllBound:0 | VwsNeutral | i: (%^ILoss:) | VwsBack: | :VwsBack | Cns: | :Cns ]* ;
 
 !Back Trigger with consonant
 BTCons =   #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | %^KS2S:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^KS2S:0 | %^E1:0 | %^SyllBound:0 | VwsNeutral | i: | VwsBack: | :VwsBack | Cns: | :Cns ]* [ Cns:  ] ;
@@ -302,7 +302,7 @@ i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
 
 "%{oö%}:o"
 !! __@RULENAME@__ Vowel harmony suffixes Back
- %{oö%}:o <=>  BT ( %> ) _ ;
+ %{oö%}:o <=>  BT (  %> ) _ ;
 
 
 "%{uy%}:u"

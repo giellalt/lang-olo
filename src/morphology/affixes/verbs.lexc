@@ -89,42 +89,6 @@ LEXICON  V_PIDIÄ !!= @CODE@ pidiä:pidä
 +V+Der/mA+Inf+Ill:%>m%{aä%}h K ; 
 
 
-
-LEXICON V-VV_01
-! V1
-! This verb type has two final vowels in the first infinitive
- INDPRSSG1 ;
- INDPRSSG2 ;
- INDPRSSG3 ;
- INDPRSPL1 ;
- INDPRSPL2 ;
- INDPRSPL3_EtAh ;
- INDPRSCONNEG ;
- ACTPRSPRC_vU ;
- PSSPRSPRC_EttAvU ;
-
- INDPRTSG1 ;
- INDPRTSG2 ;
- INDPRTSG3 ;
- INDPRTPL1 ;
- INDPRTPL2 ;
- INDPRTPL3_Ettih ;
-+Ind+Prt+ConNeg:%>n%{uy%}h K ;
- INDPRTCONNEGPL3_EttU ;
- ACTPRFPRC_nUH ;
- PSSPRFPRC_EttU ;
-
- CONDPRS_S  ;
- CONDPRSPL3_EttAs ;
- CONDPRT_nU ;
- CONDPRTPL3_EtAnnUs ;
-
- POT_N ;
- POTPL3_EtAnneh ;
-
- IMPRT_kkA ;
- IMPRTPL3_EttAhes ;
-
 LEXICON V_SUAJA !!= @CODE@ suaja:saa
 !Verbs of the Finnish type 2
 +V: INDPRSSG1 ;
@@ -152,66 +116,22 @@ LEXICON V_SUAJA !!= @CODE@ suaja:saa
 
 LEXICON V_TULLA !!= @CODE@ tulla:tul
 !! !Verbs of the Finnish type 3
-+V:e INDPRSSG1 ;
-+V:e INDPRSSG2 ;
-+V:%{oö%} INDPRSSG3 ;
-+V:e INDPRSPL1 ;
-+V:e INDPRSPL2 ;
-+V: INDPRSPL3_dAh ;
-!+V+Ind+PrfPrc:d%{aä%}%^WEAKh K ;
-+V:e INDPRSCONNEG ;
-+V: INDPRTSG1     ;
-+V: INDPRTSG2     ;
-+V: INDPRTSG3     ;
-+V: INDPRTPL1     ;
-+V: INDPRTPL2     ;
-+V: INDPRTPL3_dih     ;
-+V+Ind+Prt+ConNeg:%>n%{uy%}%^WEAKh K ;
-+V+Ind+PrfPrc:%>n%{uy%}%^WEAKh K ;
-+V+Ind+PrfPrcPl3:%>d%{uy%} K ;
-+V: CONDPRS_IS ;
-+V:%>d CONDPRSPL3 ;
-+V:%>n%{uy%}%^WEAK CONDPRT ;
-+V:%>d%{aä%} CONDPRTPL3 ;
-+V+Der/mine:%>mi N_KIELINE ; 
-+V+Der/mA+Inf+Ill:e%>m%{aä%}h K ; 
-+V+Inf:%>d%{aäInf%}%^WEAK K ;
++V: V-VV_03 ;
+
+!+V:e INDPRSCONNEG ;
+!+V+Ind+Prt+ConNeg:%>n%{uy%}%^WEAKh K ;
+!+V+Ind+PrfPrc:%>n%{uy%}%^WEAKh K ;
+!+V+Ind+PrfPrcPl3:%>d%{uy%} K ;
+!+V:%>d CONDPRSPL3 ;
+!+V:%>n%{uy%}%^WEAK CONDPRT ;
+!+V:%>d%{aä%} CONDPRTPL3 ;
+!+V+Der/mine:%>mi N_KIELINE ; 
+!+V+Der/mA+Inf+Ill:e%>m%{aä%}h K ; 
+!+V+Inf:%>d%{aäInf%}%^WEAK K ;
 
 LEXICON V_PESTÄ !!= @CODE@ pestä:pes
 !! !Verbs of the Finnish type 3
-+V:%^VOICEe INDPRSSG1 ;
-+V:%^VOICEe INDPRSSG2 ;
-+V:%^VOICE%{oö%} INDPRSSG3 ;
-+V:%^VOICEe INDPRSPL1 ;
-+V:%^VOICEe INDPRSPL2 ;
-+V: INDPRSPL3_dAh ;
-!+V+Ind+PrfPrc:d%{aä%}%^WEAKh K ;
-+V:%^VOICEe INDPRSCONNEG ;
-+V:%^VOICE INDPRTSG1     ;
-+V:%^VOICE INDPRTSG2     ;
-+V:%^VOICE INDPRTSG3     ;
-+V:%^VOICE INDPRTPL1     ;
-+V:%^VOICE INDPRTPL2     ;
-+V: INDPRTPL3_dih     ;
-+V+Ind+Prt+ConNeg:%>n%{uy%}%^WEAKh K ;
-+V+Ind+Prt+ConNeg+ScPl3:%>d%{uy%} K ;
-+V+Ind+PrfPrc:%>n%{uy%}%^WEAKh K ;
-+V+Ind+PrfPrcPl3:%>d%{uy%} K ;
-+V:%^VOICE CONDPRS_IS ;
-+V:%>d CONDPRSPL3 ;
-+V: CONDPRT_nU ;
-+V: CONDPRTPL3_DAnnUs ;
-+V: POT_N ;
-+V: POTPL3_DAnneh ;
-+V: IMPRT_KA ;
-+V: IMPRTPL3_DAhes ;
-+V:%^VOICEe ACTPRSPRC_vU ;
-+V: ACTPRFPRC_nUH ;
-+V: PSSPRSPRC_DAvU ;
-+V: PSSPRFPRC_DU ;
-+V+Der/mine:%>mi N_KIELINE ; 
-+V+Der/mA+Inf+Ill:e%>m%{aä%}h K ; 
-+V+Inf:%>d%{aäInf%}%^WEAK K ;
++V: V-VV_03 ;
 
 
 LEXICON V_TYPÄTÄ !!= @CODE@ typätä:typpä
@@ -333,6 +253,73 @@ LEXICON VR-SHORTSTEM_
 +V+Ind+Prt+RcPl3+ConNeg:%>tt%{uy%}	K	;
 
 
+LEXICON V-VV_01
+! V1
+! This verb type has two final vowels in the first infinitive
+ INDPRSSG1 ;
+ INDPRSSG2 ;
+ INDPRSSG3 ;
+ INDPRSPL1 ;
+ INDPRSPL2 ;
+ INDPRSPL3_EtAh ;
+ INDPRSCONNEG ;
+ ACTPRSPRC_vU ;
+ PSSPRSPRC_EttAvU ;
+
+ INDPRTSG1 ;
+ INDPRTSG2 ;
+ INDPRTSG3 ;
+ INDPRTPL1 ;
+ INDPRTPL2 ;
+ INDPRTPL3_Ettih ;
++Ind+Prt+ConNeg:%>n%{uy%}h K ;
+ INDPRTCONNEGPL3_EttU ;
+ ACTPRFPRC_nUH ;
+ PSSPRFPRC_EttU ;
+
+ CONDPRS_S  ;
+ CONDPRSPL3_EttAs ;
+ CONDPRT_nU ;
+ CONDPRTPL3_EtAnnUs ;
+
+ POT_N ;
+ POTPL3_EtAnneh ;
+
+ IMPRT_kkA ;
+ IMPRTPL3_EttAhes ;
+
+LEXICON V-VV_03
+:%^VOICEe INDPRSSG1 ;
+:%^VOICEe INDPRSSG2 ;
+:%^VOICE%{oö%} INDPRSSG3 ;
+:%^VOICEe INDPRSPL1 ;
+:%^VOICEe INDPRSPL2 ;
+: INDPRSPL3_dAh ;
+:%^VOICEe INDPRSCONNEG ;
+:%^VOICE INDPRTSG1     ;
+:%^VOICE INDPRTSG2     ;
+:%^VOICE INDPRTSG3     ;
+:%^VOICE INDPRTPL1     ;
+:%^VOICE INDPRTPL2     ;
+: INDPRTPL3_dih     ;
+ INDPRTCONNEG_nUh ;
+ INDPRTCONNEGPL3_DU ;
+:%^VOICE CONDPRS_IS ;
+: CONDPRSPL3_DAs ;
+: CONDPRT_nU ;
+: CONDPRTPL3_DAnnUs ;
+: POT_N ;
+: POTPL3_DAnneh ;
+: IMPRT_KA ;
+: IMPRTPL3_DAhes ;
+:%^VOICEe ACTPRSPRC_vU ;
+: ACTPRFPRC_nUH ;
+: PSSPRSPRC_DAvU ;
+: PSSPRFPRC_DU ;
++Der/mine:%>emi N_KIELINE ; 
++Der/mA+Inf+Ill:e%>m%{aä%}h K ; 
++Inf:%>d%{aä%}%^WEAK K ;
+
 
 
 !! Nonfinites
@@ -388,8 +375,12 @@ LEXICON INDPRTPL3_Ettih
 +Ind+Prt+ScPl3:%^WEAK%^E1%>ttih K ;
 LEXICON INDPRTSGCONNEG
 +Ind+Prt+Sg+ConNeg:%^WEAK K ;
+LEXICON INDPRTCONNEG_nUh
++Ind+Prt+ConNeg:%>n%{uy%}h K ;
 LEXICON INDPRTCONNEG_nnUh
 +Ind+Prt+ConNeg:%^WEAK%>nn%{uy%}h K ;
+LEXICON INDPRTCONNEGPL3_DU
++Ind+Prt+ConNeg+ScPl3:%>d%{uy%} K ;
 LEXICON INDPRTCONNEGPL3_ttU
 +Ind+Prt+ConNeg+ScPl3:%^WEAK%>tt%{uy%} K ;
 LEXICON INDPRTCONNEGPL3_EttU
@@ -419,6 +410,10 @@ LEXICON CONDPRSPL3
 +Cond+Prs+ScPl3:%{aä%}s K ;
 +Cond+Prs+ConNeg+ScPl3:%{aä%}s K ;
 
+LEXICON CONDPRSPL3_DAs
++Cond+Prs+ScPl3:%>d%{aä%}s K ;
++Cond+Prs+ConNeg+ScPl3:%>d%{aä%}s K ;
+
 LEXICON CONDPRSPL3_EttAs
 +Cond+Prs+ScPl3:%^WEAK%^E1%>tt%{aä%}s K ;
 +Cond+Prs+ConNeg+ScPl3:%^WEAK%^E1%>tt%{aä%}s K ;
@@ -427,6 +422,7 @@ LEXICON CONDPRT
 +Cond+Prt+ScSg1:%>zin K ;
 +Cond+Prt+ScSg2:%>zit K ;
 +Cond+Prt+ScSg3:%>s K ;
++Cond+Prt+ScSg3:%>z K ;
 +Cond+Prt+ScPl1:%>zimm%{oö%} K ;
 +Cond+Prt+ScPl2:%>zitt%{oö%} K ;
 
