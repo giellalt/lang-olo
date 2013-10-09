@@ -48,9 +48,26 @@ The nominals are inflected in the following Case and Number
 The possession is marked as such:
 The comparative forms are:
 Numerals are classified under:
+!Verb tenses are:
+ | +Prs | Present, non-past Tense
+ | +Prt | Preterite Tense
+
+
 Verb moods are:
+ ; +Ind : Indicative
+ ; +Imprt : Imperative
+ ; +Cond : Conditional
+ ; +Pot : Potential
+
 Verb personal forms are:
 Other verb forms are
+ ; +Inf : Infinitive 
+ ; +ActPrfPrc : active past participle
+ ; +ActPrsPrc : active present participle
+ ; +PssPrfPrc : passive past participle
+ ; +PssPrsPrc : passive present participle
+ ; +Ger : Gerund
+
 
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
@@ -71,8 +88,12 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+  %{aäInf%}  ! This is for the infinitive marker after i and u stems
+  %{ui%}  ! in imperative before %{aä%}:
 And following triggers to control variation
-  %^ILoss   ! the i => 0 _reboi_ _reboloi_
+  %^DEVOICE   !
+  %^VOICE   ! pestä: pezen
+  %^ILoss   ! the i => 0 __reboi__ __reboloi__
 
 
 We have manually optimised the structure of our lexicon using following
@@ -337,6 +358,12 @@ NMN
 
 
 
+ LEXICON NMN_PAREMBI  parembi:paremb
+
+
+
+
+ LEXICON NMN_PÄIVY  päivy:päivä
 
 
 
@@ -354,6 +381,11 @@ NMN
 
 
 
+
+ LEXICON NMN_PESSYH  pessyh
+
+
+* LEXICON NMN_PESSYH  the +Pl+Com comes here
 
 
 
@@ -410,7 +442,8 @@ NMN
 
 
 
- LEXICON NMN_KALA 
+ LEXICON NMN_KALA  kala:kala
+**Yaml: __pada__
 
 
  LEXICON NMN_KARJAL  karjal:karjal
@@ -448,11 +481,12 @@ NMN
 
 
 
+!Singular suffixes
 
 
 
 
-
+!Plural suffixes
 
 
 
@@ -490,17 +524,21 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
  LEXICON V_POTKIE  potkie:potki
 
 
+ LEXICON V_IMIE  imie:ime
+
+
  LEXICON  V_PIDIÄ  pidiä:pidä
-
-
-
 
 
  LEXICON V_SUAJA  suaja:saa
 
  LEXICON V_TULLA  tulla:tul
+!Verbs of the Finnish type 3
+
 
  LEXICON V_PESTÄ  pestä:pes
+!Verbs of the Finnish type 3
+
 
  LEXICON V_TYPÄTÄ  typätä:typpä
 
@@ -535,6 +573,12 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
 
+
+
+
+
+
+
 Nonfinites
 
 Finites
@@ -551,11 +595,49 @@ Conditional
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 !!!The Livvi (Olonets) Karelian morphophonological/twolc rules file 
 
 
 
 
+ %{aä%}:ä	  This is for the partitive and other vowel harmony not including AA infinitive
+
+
+  %{aäInf%}:ä   This is for the infinitive marker after i and u stems
+
+  %{ui%}:i   in imperative before %{aä%}:
+
+
+
+
+
+
+
+ %^DEVOICE:0    
+ %^VOICE:0     pestä : pezen
 
 
 
@@ -565,20 +647,14 @@ Conditional
 
 
 
+ %^ILoss:0    the i => 0 __reboi reboloi__
 
 
 
 
 
 
- %^ILoss:0   ! the i => 0 _reboi_ _reboloi_
-
-
-
-
-
-
- * %^WEAK:0  !
+ * %^WEAK:0  
 
 
 
@@ -598,14 +674,35 @@ Conditional
 Right context for gradation
 
 
+!!!Rules
+
+__%{aäInf%}:o__
+
+__%{aäInf%}:a__
+
 
 __%{aä%}:o__
 
+__%{aä%}:u__
+
 __%{aä%}:a__
+
 
 __%{aä%}:e__
 
 __%{aä%}:i__
+
+__%{aä%}:y__
+
+__%{aä%}:u__
+
+__%{aä%}:0__
+
+
+
+__%{ui%}:u__
+* %^WEAK:0  ! imperative forms
+
 
 __A2:a__
 
@@ -628,8 +725,7 @@ __ä:y word final__
 
 
 __a:0 in suaja:sai__
- *  a _ %> i ;  ! Vowel shortening before subsequent "i"
- * [ # | Cns:* ] [ u | o ] (i) [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ;  ! sulgu:sulgih  
+ *  a _ %> i ;  Vowel shortening before subsequent "i"
 
 
 __i:j__
@@ -653,7 +749,7 @@ __%{oö%}:o__ Vowel harmony suffixes Back
 
 __%{uy%}:u__ Vowel harmony suffixes Back
 
-! Consonant change
+!!Consonant change
 
 __g:l__  
 
@@ -665,14 +761,27 @@ __t:z__
 
 __d:t in partitive__  
 
+__s:z__
+ * s:z <=> _ %^VOICE:0 ;  pestä: pezen
+
+__k:g__ pestä: peskäh
+
+
 
 __rd:rr weakening__  
+    Vws r %> _ GRC ;  purra+Ind+Prs+ScPl3: purrah
 
 __ld:ll weakening__  
+   Vws l %> _ GRC ;  tulla+Ind+Prs+ScPl3: tullah
 
 __nd:nn weakening__  
+   Vws ( %^WEAK:0 %>: ) n %> _ GRC ;  mennä+Ind+Prs+ScPl3: mennäh
+
+__rn:rr in prtprc__  
 
 __ln:ll in prtprc__  
+
+__sn:ss in prtprc__  
 
 
 
@@ -685,7 +794,7 @@ __b:v__
 __p:0 in lapsi__  
 
 
-Consonant loss
+!!Consonant loss
 __d:0__   pidiä:piän
 
 
