@@ -193,7 +193,7 @@ Rules
 ! Vowel harmony suffixes Back
 "%{aä%}:a"
 !! __@RULENAME@__
- %{aä%}:a <=> [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
+ %{aä%}:a <=> [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | %^WEAK:0 [ %> | # ] | s | i | (n) n | %> n %{uy%}: | %> g i | # ] ;
    [ BTCons %> | [ BT ] ( %^WEAK:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) | (t) t | s s ]] _ [  h | s | ( n ) n | t t | m m | v | %> g | # ] ;
 
 
