@@ -4,6 +4,21 @@
 
 
 
+ %{aä%}:ä	  This is for the partitive and other vowel harmony not including AA infinitive
+
+
+  %{aäInf%}:ä   This is for the infinitive marker after i and u stems
+
+  %{ui%}:i   in imperative before %{aä%}:
+
+
+
+
+
+
+
+ %^DEVOICE:0    
+ %^VOICE:0     pestä : pezen
 
 
 
@@ -13,20 +28,14 @@
 
 
 
+ %^ILoss:0    the i => 0 __reboi reboloi__
 
 
 
 
 
 
- %^ILoss:0   ! the i => 0 _reboi_ _reboloi_
-
-
-
-
-
-
- * %^WEAK:0  !
+ * %^WEAK:0  
 
 
 
@@ -46,14 +55,35 @@
 Right context for gradation
 
 
+!!!Rules
+
+__%{aäInf%}:o__
+
+__%{aäInf%}:a__
+
 
 __%{aä%}:o__
 
+__%{aä%}:u__
+
 __%{aä%}:a__
+
 
 __%{aä%}:e__
 
 __%{aä%}:i__
+
+__%{aä%}:y__
+
+__%{aä%}:u__
+
+__%{aä%}:0__
+
+
+
+__%{ui%}:u__
+* %^WEAK:0  ! imperative forms
+
 
 __A2:a__
 
@@ -76,8 +106,7 @@ __ä:y word final__
 
 
 __a:0 in suaja:sai__
- *  a _ %> i ;  ! Vowel shortening before subsequent "i"
- * [ # | Cns:* ] [ u | o ] (i) [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ;  ! sulgu:sulgih  
+ *  a _ %> i ;  Vowel shortening before subsequent "i"
 
 
 __i:j__
@@ -101,7 +130,7 @@ __%{oö%}:o__ Vowel harmony suffixes Back
 
 __%{uy%}:u__ Vowel harmony suffixes Back
 
-! Consonant change
+!!Consonant change
 
 __g:l__  
 
@@ -113,14 +142,27 @@ __t:z__
 
 __d:t in partitive__  
 
+__s:z__
+ * s:z <=> _ %^VOICE:0 ;  pestä: pezen
+
+__k:g__ pestä: peskäh
+
+
 
 __rd:rr weakening__  
+    Vws r %> _ GRC ;  purra+Ind+Prs+ScPl3: purrah
 
 __ld:ll weakening__  
+   Vws l %> _ GRC ;  tulla+Ind+Prs+ScPl3: tullah
 
 __nd:nn weakening__  
+   Vws ( %^WEAK:0 %>: ) n %> _ GRC ;  mennä+Ind+Prs+ScPl3: mennäh
+
+__rn:rr in prtprc__  
 
 __ln:ll in prtprc__  
+
+__sn:ss in prtprc__  
 
 
 
@@ -133,7 +175,7 @@ __b:v__
 __p:0 in lapsi__  
 
 
-Consonant loss
+!!Consonant loss
 __d:0__   pidiä:piän
 
 
