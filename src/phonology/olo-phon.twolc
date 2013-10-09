@@ -13,13 +13,13 @@ Y
 
 ! Vowel harmony with "(t)a/ä"
 !%{aä%}:a
-%{aä%}:ä	!!= @CODE@ ! This is for the partitive and other vowel harmony not including AA infinitive
+%{aä%}:ä	!!= @CODE@  This is for the partitive and other vowel harmony not including AA infinitive
 !%{aä%}:0
 
 
- %{aäInf%}:ä !!= @CODE@ ! This is for the infinitive marker after i and u stems
+ %{aäInf%}:ä !!= @CODE@  This is for the infinitive marker after i and u stems
 
- %{ui%}:i !!= @CODE@ ! in imperative before %{aä%}:
+ %{ui%}:i !!= @CODE@  in imperative before %{aä%}:
 
 ! Vowel harmony with "loi/löi" also kalatOÖ1in
 !%{oö%}:o
@@ -66,8 +66,8 @@ V3:ä
 V3:ö
 V3:0
 
-%^DEVOICE:0   !!= @CODE@ !
-%^VOICE:0   !!= @CODE@ ! pestä : pezen
+%^DEVOICE:0   !!= @CODE@ 
+%^VOICE:0   !!= @CODE@  pestä : pezen
 
 ! syllable boundary for V_AVATA
 %^SyllBound:0
@@ -94,7 +94,7 @@ K1:k
 ! the a => u, ä => y
 %^A2U:0
 
-%^ILoss:0  !!= @CODE@ ! the i => 0 _reboi_ _reboloi_
+%^ILoss:0  !!= @CODE@  the i => 0 __reboi reboloi__
 
 ! Vowel raising
 %^RVws:0
@@ -115,7 +115,7 @@ K1:k
 %^E1:0
 
 
-%^WEAK:0 !!= * @CODE@ !
+%^WEAK:0 !!= * @CODE@ 
 
 ;
 
@@ -166,6 +166,7 @@ GRC =  [ [ ( %>: ) %{aä%}: | %{oö%}: | %{uy%}: | Vws: | :Vws ] ( %>:  i )  |  
 ! preceeded by "Cns _"
 ! 2012-10-11 SLV =  [ :Vws [ ( %>: %^LCns:0 %^LVws:0 | %>: %^LCns:0 | %>: i %>: | %>: ) [ V1:Vws | %{aä%}: ] |  0:Vws %>: ( %^LCns:0 | %^WEAK: ) %^LVws: | %>: %^LCns:0  ] ] ;
 
+!! !!!Rules
 Rules
 
 "%{aäInf%}:o"
@@ -263,8 +264,8 @@ o:u <=> Cns _ %> [ %{aä%}:o ] ;
 "a:0 in suaja:sai"
 !! __@RULENAME@__
 a:0 <=>
- a _ %> i ; !!= * @CODE@ ! Vowel shortening before subsequent "i"
-[ # | Cns:* ] [[ u | o ] (i)| u o ] [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ; !!= * @CODE@ ! sulgu:sulgih; kuoppu:
+ a _ %> i ; !!= * @CODE@ Vowel shortening before subsequent "i"
+[ # | Cns:* ] [[ u | o ] (i)| u o ] [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ;
 
 
 ! iToj between vowels
@@ -309,7 +310,7 @@ i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
 !! __@RULENAME@__ Vowel harmony suffixes Back
  %{uy%}:u <=>  [ BT | :VwsBack Cns:* ] ( %> ) _ ;
 
-!! ! Consonant change
+!! !!Consonant change
 
 ! sulgu:sullan
 "g:l"
@@ -341,11 +342,11 @@ d:t <=> [ h | t | s ] ( %^KS2S:0 ) %> _ ;
 
 "s:z"
 !! __@RULENAME@__
-s:z <=> _ %^VOICE:0 ; !!= * @CODE@ ! pestä: pezen
+s:z <=> _ %^VOICE:0 ; !!= * @CODE@ pestä: pezen
 
 "k:g"
-!! __@RULENAME@__
-k:g <=> [ n | l |r ] %> _ (%{ui%}:) %{aä%}: ; !!= * @CODE@ ! pestä: peskäh
+!! __@RULENAME@__ pestä: peskäh
+k:g <=> [ n | l |r ] %> _ (%{ui%}:) %{aä%}: ; 
 
 
 !2013-04-29!
@@ -442,7 +443,7 @@ p:0 <=> Vws _ s  %^KS2S:0  ;
 !2013-04-29!          where Vx in (o ö)
 !2013-04-29!                Vy in (u y) matched ;
 
-!! Consonant loss
+!! !!Consonant loss
 "d:0"
 !! __@RULENAME@__   pidiä:piän
 d:0 <=> Vws: _ Vws: %^WEAK:0  ;
