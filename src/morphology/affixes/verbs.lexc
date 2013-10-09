@@ -111,7 +111,7 @@ LEXICON V-VV_01
  INDPRTPL3_Ettih ;
 +Ind+Prt+ConNeg:%>n%{uy%}h K ;
  INDPRTCONNEGPL3_EttU ;
- ACTPRFPRC_nUh ;
+ ACTPRFPRC_nUH ;
  PSSPRFPRC_EttU ;
 
  CONDPRS_S  ;
@@ -202,9 +202,13 @@ LEXICON V_PESTÄ !!= @CODE@ pestä:pes
 +V: CONDPRT_nU ;
 +V: CONDPRTPL3_DAnnUs ;
 +V: POT_N ;
-+V: POTPL3_DAnnUs ;
++V: POTPL3_DAnneh ;
 +V: IMPRT_KA ;
 +V: IMPRTPL3_DAhes ;
++V:%^VOICEe ACTPRSPRC_vU ;
++V: ACTPRFPRC_nUH ;
++V: PSSPRSPRC_DAvU ;
++V: PSSPRFPRC_DU ;
 +V+Der/mine:%>mi N_KIELINE ; 
 +V+Der/mA+Inf+Ill:e%>m%{aä%}h K ; 
 +V+Inf:%>d%{aäInf%}%^WEAK K ;
@@ -496,18 +500,26 @@ LEXICON IMPRTPL3_EttAhes
 !!
 LEXICON  ACTPRSPRC_vU
 +ActPrsPrc:%>v%{uy%} K ;
-+ActPrsPrc+Der/A:%>v%{aä%} NMN_PÄIVY ;
++ActPrsPrc:%>v%{aä%} NMN_PÄIVY ;
+
+LEXICON  PSSPRSPRC_DAvU
++PssPrsPrc:%>d%{aä%}v%{uy%} K ;
++PssPrsPrc:%>d%{aä%}v%{aä%} NMN_PÄIVY        ;
 
 LEXICON  PSSPRSPRC_EtAvU
 +PssPrsPrc:%^WEAK%^E1%>t%{aä%}v%{uy%} K ;
-+PssPrsPrc+Der/A:%^WEAK%^E1%>t%{aä%}v%{aä%} NMN_PÄIVY        ;
++PssPrsPrc:%^WEAK%^E1%>t%{aä%}v%{aä%} NMN_PÄIVY        ;
 
 LEXICON  PSSPRSPRC_EttAvU
 +PssPrsPrc:%^WEAK%^E1%>tt%{aä%}v%{uy%} K	;
-+PssPrsPrc+Der/A:%^WEAK%^E1%>tt%{aä%}v%{aä%} NMN_PÄIVY	;
++PssPrsPrc:%^WEAK%^E1%>tt%{aä%}v%{aä%} NMN_PÄIVY	;
 
-LEXICON ACTPRFPRC_nUh
+LEXICON ACTPRFPRC_nUH
 +ActPrfPrc:%>n%{uy%}h K ;
++ActPrfPrc:%>n%{uy%} NMN_PESSYH ;
+
+LEXICON  PSSPRFPRC_DU
++PssPrfPrc:%>d%{uy%} K ;
 
 LEXICON  PSSPRFPRC_EttU
 +PssPrfPrc:%^WEAK%^E1%>tt%{uy%} K ;
