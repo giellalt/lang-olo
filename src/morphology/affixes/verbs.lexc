@@ -204,6 +204,7 @@ LEXICON V_PESTÄ !!= @CODE@ pestä:pes
 +V: POT_N ;
 +V: POTPL3_DAnnUs ;
 +V: IMPRT_KA ;
++V: IMPRTPL3_DAhes ;
 +V+Der/mine:%>mi N_KIELINE ; 
 +V+Der/mA+Inf+Ill:e%>m%{aä%}h K ; 
 +V+Inf:%>d%{aäInf%}%^WEAK K ;
@@ -483,6 +484,10 @@ LEXICON IMPRT_kkA
 +Imprt+ConNeg+ScPl1:%>kk%{ui%}%{aä%}mm%{oö%} K ;
 +Imprt+ConNeg+ScPl2:%>kk%{ui%}%{aä%} K ;
 +Imprt+ConNeg+ScPl2:%>kk%{ui%}%{aä%}tt%{oö%} K ;
+
+LEXICON IMPRTPL3_DAhes
++Imprt+ScPl3:%>d%{aä%}hes K ;
++Imprt+ConNeg+ScPl3:%>d%{aä%}hes K ;
 
 LEXICON IMPRTPL3_EttAhes
 +Imprt+ScPl3:%^WEAK%^E1%>tt%{aä%}hes K ;
