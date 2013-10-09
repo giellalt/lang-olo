@@ -37,9 +37,26 @@ The nominals are inflected in the following Case and Number
 The possession is marked as such:
 The comparative forms are:
 Numerals are classified under:
+!Verb tenses are:
+ | +Prs | Present, non-past Tense
+ | +Prt | Preterite Tense
+
+
 Verb moods are:
+ ; +Ind : Indicative
+ ; +Imprt : Imperative
+ ; +Cond : Conditional
+ ; +Pot : Potential
+
 Verb personal forms are:
 Other verb forms are
+ ; +Inf : Infinitive 
+ ; +ActPrfPrc : active past participle
+ ; +ActPrsPrc : active present participle
+ ; +PssPrfPrc : passive past participle
+ ; +PssPrsPrc : passive present participle
+ ; +Ger : Gerund
+
 
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
@@ -60,8 +77,12 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+  %{aäInf%}  ! This is for the infinitive marker after i and u stems
+  %{ui%}  ! in imperative before %{aä%}:
 And following triggers to control variation
-  %^ILoss   ! the i => 0 _reboi_ _reboloi_
+  %^DEVOICE   !
+  %^VOICE   ! pestä: pezen
+  %^ILoss   ! the i => 0 __reboi__ __reboloi__
 
 
 We have manually optimised the structure of our lexicon using following
