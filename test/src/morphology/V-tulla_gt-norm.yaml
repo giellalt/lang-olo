@@ -21,6 +21,8 @@ Tests:
      tulla+V+Ind+Prs+ScPl1: tulemmo
      tulla+V+Ind+Prs+ScPl2: tuletto
      tulla+V+Ind+Prs+ScPl3: tullah
+     tulla+V+Ind+Prs+ConNeg: tule
+     tulla+V+Ind+Prs+ConNeg+ScPl3: tulla
 
      tulla+V+Ind+Prt+ScSg1: tulin
      tulla+V+Ind+Prt+ScSg2: tulit
@@ -28,24 +30,26 @@ Tests:
      tulla+V+Ind+Prt+ScPl1: tulimmo
      tulla+V+Ind+Prt+ScPl2: tulitto
      tulla+V+Ind+Prt+ScPl3: tuldih
+     tulla+V+Ind+Prt+ConNeg: tulluh
+     tulla+V+Ind+Prt+ConNeg+ScPl3: tuldih
      
-     tulla+V+Ind+PrfPrc: tulluh
-     tulla+V+Ind+PrfPrcPl3: tuldu
-          
      tulla+V+Cond+Prs+ScSg1: tulizin
      tulla+V+Cond+Prs+ScSg2: tulizit
-     tulla+V+Cond+Prs+ScSg3: tuliz
+     tulla+V+Cond+Prs+ScSg3: [tulis, tuliz]
      tulla+V+Cond+Prs+ScPl1: tulizimmo
      tulla+V+Cond+Prs+ScPl2: tulizitto
-     tulla+V+Cond+Prs+ScPl3: tuldais
+     tulla+V+Cond+Prs+ScPl3: tuldas
 
      tulla+V+Cond+Prt+ScSg1: tulluzin
      tulla+V+Cond+Prt+ScSg2: tulluzit
-     tulla+V+Cond+Prt+ScSg3: tulluz
+     tulla+V+Cond+Prt+ScSg3: [tullus, tulluz]
      tulla+V+Cond+Prt+ScPl1: tulluzimmo
      tulla+V+Cond+Prt+ScPl2: tulluzitto
-     tulla+V+Cond+Prt+ScPl3: tuldanus
+     tulla+V+Cond+Prt+ScPl3: tuldannus
 
+     tulla+V+Ind+ActPrfPrc: tulluh
+     tulla+V+Ind+PssPrfPrc: tuldu
+          
 
 
 
