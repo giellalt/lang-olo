@@ -142,7 +142,7 @@ FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] [ %> | VwsFront: | 
 
 
 ! Back Trigger 
-BT =    #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | %^KS2S:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^KS2S:0 | %^E1:0 | %^SyllBound:0 | VwsNeutral | i: (%^ILoss:) | VwsBack: | :VwsBack | Cns: | :Cns ]* ;
+BT =    #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | %^KS2S:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^KS2S:0 | (%^WEAK:0) %^E1:0 | %^SyllBound:0 | VwsNeutral | i: (%^ILoss:) | VwsBack: | :VwsBack | Cns: | :Cns ]* ;
 
 !Back Trigger with consonant
 BTCons =   #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | %^KS2S:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^KS2S:0 | %^E1:0 | %^SyllBound:0 | VwsNeutral | i: | VwsBack: | :VwsBack | Cns: | :Cns ]* [ Cns:  ] ;
@@ -194,7 +194,7 @@ Rules
 "%{aä%}:a"
 !! __@RULENAME@__
  %{aä%}:a <=> [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
-   [ BTCons %> | BT ( %^WEAK:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
+   [ BTCons %> | [ BT ] ( %^WEAK:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) | (t) t | s s ]] _ [  h | s | ( n ) n | t t | m m | v | %> g | # ] ;
 
 
 "%{aä%}:e"
@@ -204,6 +204,11 @@ Rules
 "%{aä%}:i"
 !! __@RULENAME@__
 %{aä%}:i <=> _ %> %{aä%}:ä ;
+
+"%{ui%}:u"
+!! __@RULENAME@__
+%{ui%}:u <=> BT %> (k) k _  %{aä%}: ; !! * @CODE@ ! imperative forms
+
 
 "A2:a"
 !! __@RULENAME@__
@@ -288,7 +293,7 @@ i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
 
 "%{uy%}:u"
 !! __@RULENAME@__ Vowel harmony suffixes Back
- %{uy%}:u <=>  [ BT | :VwsBack ] ( %> ) _ ;
+ %{uy%}:u <=>  [ BT | :VwsBack Cns:* ] ( %> ) _ ;
 
 !! ! Consonant change
 
