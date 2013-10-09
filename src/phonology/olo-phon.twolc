@@ -138,7 +138,7 @@ Letters = Vws Cns ;
 Definitions
 
 ! Front Trigger
-FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] [ %> | VwsFront: | Cns | %{aä%}: | %{oö%}: | %{uy%}: ]*  ;
+FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] [ %> | VwsFront: | Cns: | %{aä%}:ä | %{oö%}:ö | %{uy%}:y ]*  ;
 
 
 ! Back Trigger 
@@ -204,6 +204,20 @@ Rules
 "%{aä%}:i"
 !! __@RULENAME@__
 %{aä%}:i <=> _ %> %{aä%}:ä ;
+
+"%{aä%}:y"
+!! __@RULENAME@__
+%{aä%}:y <=> FT _ %^A2U:0 [ # | %> g i ] ;
+
+"%{aä%}:u"
+!! __@RULENAME@__
+%{aä%}:u <=> BT _ %^A2U:0 [ # | %> g i ] ;
+
+"%{aä%}:0"
+!! __@RULENAME@__
+%{aä%}:0 <=> _ %> i  ;
+
+
 
 "%{ui%}:u"
 !! __@RULENAME@__
@@ -367,15 +381,15 @@ d:n <=>
 
 "rn:rr in prtprc"
 !! __@RULENAME@__  
-n:r <=> r %> _ (%{uy%}:) %^WEAK:  ;
+n:r <=> r %> _ (%{uy%}:) (%^WEAK:)  ;
 
 "ln:ll in prtprc"
 !! __@RULENAME@__  
-n:l <=> l %> _ (%{uy%}:) %^WEAK:  ;
+n:l <=> l %> _ (%{uy%}:) (%^WEAK:)  ;
 
 "sn:ss in prtprc"
 !! __@RULENAME@__  
-n:s <=> s %> _ (%{uy%}:) %^WEAK:  ;
+n:s <=> s %> _ (%{uy%}:) (%^WEAK:)  ;
 
 !2013-04-29! p
 !2013-04-29!

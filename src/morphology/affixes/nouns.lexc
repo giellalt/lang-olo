@@ -790,6 +790,23 @@ LEXICON NMN_VALGEI-PL
 :il%{oö%}i PLINSSUF ;
 :i Noun-NB-loi ;
 
+LEXICON NMN_PESSYH !!= @CODE@ pessyh:pesn%{uy%}
+        NMN_PESSYH-SG ;
+        NMN_PESSYH-PL ;
+
+LEXICON NMN_PESSYH-SG
+:h SGNOMSUF ;
+:%{oö%} SGGENSUF ;
+:t SGPARSUF_dU ;
++Sg:%{oö%} Noun-NB-01 ;
+
+LEXICON NMN_PESSYH-PL
+:%{oö%} PLNOMSUF ;
+:zi PLGENSUF_EN ; !! * @CODE@ the +Pl+Com comes here
+:zi PLPARSUF_i ;
+:zi PLINSSUF ;
++Pl:zi Noun-NB-01 ;
+
 LEXICON NMN_SUURIM
         NMN_SUURIM-SG   ;
         NMN_SUURIM-PL   ;
