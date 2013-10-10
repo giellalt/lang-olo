@@ -320,10 +320,10 @@ LEXICON V-VV_04
 
  POT_nnE ;
  POTPL3_tAnneh ;
- IMPRT_kkA ;
+ IMPRT_WEAK-kkA ;
  IMPRTPL3_ttAhes ;
 !:%>%{aä%} ACTPRSPRC_vU ;
-:%>%{aä%} ACTPRSPRC_IU ;
+ ACTPRSPRC_OSTAI ;
  PSSPRSPRC_ttAvU ;
  ACTPRFPRC_nnUH ;
  PSSPRFPRC_ttU ;
@@ -516,6 +516,17 @@ LEXICON IMPRT_KA
 +Imprt+ConNeg+ScPl2:%>k%{ui%}%{aä%}tt%{oö%} K ;
 
 LEXICON IMPRT_kkA
++Imprt+ScSg3:%>kk%{aä%}h K ;
++Imprt+ScPl1:%>kk%{ui%}%{aä%}mm%{oö%} K ;
++Imprt+ScPl2:%>kk%{ui%}%{aä%} K ;
++Imprt+ScPl2:%>kk%{ui%}%{aä%}tt%{oö%} K ;
+
++Imprt+ConNeg+ScSg3:%>kk%{aä%}h K ;
++Imprt+ConNeg+ScPl1:%>kk%{ui%}%{aä%}mm%{oö%} K ;
++Imprt+ConNeg+ScPl2:%>kk%{ui%}%{aä%} K ;
++Imprt+ConNeg+ScPl2:%>kk%{ui%}%{aä%}tt%{oö%} K ;
+
+LEXICON IMPRT_WEAK-kkA
 +Imprt+ScSg3:%^WEAK%>kk%{aä%}h K ;
 +Imprt+ScPl1:%^WEAK%>kk%{ui%}%{aä%}mm%{oö%} K ;
 +Imprt+ScPl2:%^WEAK%>kk%{ui%}%{aä%} K ;
