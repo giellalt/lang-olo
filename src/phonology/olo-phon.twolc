@@ -217,7 +217,11 @@ Rules
 "%{aä%}:0"
 !! __@RULENAME@__
 %{aä%}:0 <=> _ %> i  ;
+!            [ a | ä | i ] i _ %^A2U: ; 
 
+!"%{aä%}:0 right"
+!!! __@RULENAME@__
+!%{aä%}:0 <=> _ %> i  ;
 
 
 "%{ui%}:u"
@@ -248,7 +252,7 @@ a:u <=> Cns:+ _ [ (d:0) a | %> [ %{aä%}: | %{aäInf%}: | A2:a ] ];
 
 "ä:i before subsequent A2"
 !! __@RULENAME@__  Diphthong ä+ä => iä
-ä:i <=> Cns _ [ ä | %> [ %{aä%}:ä | A2:ä ] ]; 
+ä:i <=> Cns: _ [ ä | %> [ %{aä%}:ä | A2:ä ] ]; 
 
  
 "o:u before subsequent o"
@@ -408,6 +412,8 @@ n:s <=> s %> _ (%{uy%}:) (%^WEAK:)  ;
 "kToZero"
 !! __@RULENAME@__  aika: ajan
 k:0 <=> _ s %^KS2S:0 ;
+        _ k Vws %^WEAK:0 ; !! * @CODE@ lʼykätä:lʼykkä
+
 
 !2013-04-29! [  #:  Cns* Vws (( r | i | VwsNonHigh ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
 !2013-04-29![ [ #: ] Cns* Vws (( r | i ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ Vws: | :Vws | ( Vws ) %>: i ] ( %>: i: | %^StretchSyll2:0 ) %^WEAK:0 %>: ;

@@ -790,6 +790,41 @@ LEXICON NMN_VALGEI-PL
 :il%{oö%}i PLINSSUF ;
 :i Noun-NB-loi ;
 
+LEXICON NMN_OSTAI !!= @CODE@ ostua:osta%>i
+ NMN_OSTAI-SG ;
+ NMN_OSTAI-PL ;
+
+LEXICON NMN_OSTAI-SG
+:%{aä%}%^A2U SGNOMSUF ;
+ SGNOMSUF ;
+:%>%{aä%} SGGENSUF ;
+:%>%{aä%} SGPARSUF_A2 ;
++Sg:%>%{aä%} Noun-NB-01 ;
+
+LEXICON NMN_OSTAI-PL
+:%>%{aä%} PLNOMSUF ;
+:%>%{aä%}%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:%>%{aä%}%>i PLPARSUF_i ;
+:%>%{aä%}%>i PLINSSUF ;
++Pl:%>%{aä%}%>i Noun-NB-01 ;
+
+LEXICON NMN_PEZII !!= @CODE@ ostua:osta%>i
+ NMN_PEZII-SG ;
+ NMN_PEZII-PL ;
+
+LEXICON NMN_PEZII-SG
+ SGNOMSUF ;
+:%>%{aä%} SGGENSUF ;
+:%>%{aä%} SGPARSUF_A2 ;
++Sg:%>%{aä%} Noun-NB-01 ;
+
+LEXICON NMN_PEZII-PL
+:%>%{aä%} PLNOMSUF ;
+:%>%{oö%}%>i PLGENSUF_N ; ! the plural comitative is declined here
+:%>%{oö%}%>i PLPARSUF_Zero ;
+:%>%{oö%}%>i PLINSSUF ;
++Pl:%>%{oö%}%>i Noun-NB-01 ;
+
 LEXICON NMN_PESSYH !!= @CODE@ pessyh
         NMN_PESSYH-SG ;
         NMN_PESSYH-PL ;
