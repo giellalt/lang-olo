@@ -134,6 +134,8 @@ Cns = b c č d f g h j k l m n p r s ş š t v z ƶ ž
 
 Letters = Vws Cns ;
 
+Dummy = %^ILoss %^KS2S %^WEAK %^E1 %^SyllBound  %^VOICE %> ;
+
 
 Definitions
 
@@ -142,10 +144,11 @@ FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] [ %> | VwsFront: | 
 
 
 ! Back Trigger 
-BT =    #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | %^KS2S:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ] [ %> | %^WEAK:0  | %^VOICE:0 | %^KS2S:0 | (%^WEAK:0) %^E1:0 | %^SyllBound:0 | VwsNeutral | i: (%^ILoss:) | VwsBack: | :VwsBack | Cns: | :Cns ]* ;
+BT =    #: Cns* ( [ VwsNeutral | i: ] [ Dummy: | %> | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ] [ Dummy: | %> | VwsNeutral | i: | %{aä%}:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* ;
 
 !Back Trigger with consonant
-BTCons =   #: Cns* ( [ VwsNeutral | i: ] [ %> | %^WEAK:0 | %^E1:0 | %^SyllBound:0 | %^KS2S:0 | VwsBack: | :VwsBack | Cns: | :Cns ]* )  [ VwsBack: | :VwsBack ]  [ %> | %^WEAK:0  | %^KS2S:0 | %^E1:0 | %^SyllBound:0 | VwsNeutral | i: | VwsBack: | :VwsBack | Cns: | :Cns ]* [ Cns:  ] ;
+BTCons = BT [ Cns:  ] ;
+
 
 ! Gradation strong to weak
 !GS2W = [ p:v | m p:m | t:0 | l t:l | r t:r | n t:n | s t:s | k:0 | l k:0 | r k:0 | n k:g | s k:0 ] ;
@@ -159,12 +162,12 @@ SV = [ [ #: | Cns+ ] :Vws ] ;
 IL = [ #: Cns* Vws : Cns:+ | Cns* Vws+ Cns:+  Vws:+ Cns:+  ] ;
 
 !! Right context for gradation
-GRC =  [ [ ( %>: ) %{aä%}: | %{oö%}: | %{uy%}: | Vws: | :Vws ] ( %>:  i )  |  %>:  i ] %^WEAK:0  ;
+GRC =  [ [ ( %> ) %{aä%}: | %{oö%}: | %{uy%}: | Vws: | :Vws ] ( %>  i )  |  %>  i ] %^WEAK:0  ;
 
 ! oma:ommaa, 
 ! Subsequent Long Vowel
 ! preceeded by "Cns _"
-! 2012-10-11 SLV =  [ :Vws [ ( %>: %^LCns:0 %^LVws:0 | %>: %^LCns:0 | %>: i %>: | %>: ) [ V1:Vws | %{aä%}: ] |  0:Vws %>: ( %^LCns:0 | %^WEAK: ) %^LVws: | %>: %^LCns:0  ] ] ;
+! 2012-10-11 SLV =  [ :Vws [ ( %> %^LCns:0 %^LVws:0 | %> %^LCns:0 | %> i %> | %> ) [ V1:Vws | %{aä%}: ] |  0:Vws %> ( %^LCns:0 | %^WEAK: ) %^LVws: | %> %^LCns:0  ] ] ;
 
 !! !!!Rules
 Rules
@@ -195,8 +198,10 @@ Rules
 ! Vowel harmony suffixes Back
 "%{aä%}:a"
 !! __@RULENAME@__
- %{aä%}:a <=> [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | %^WEAK:0 [ %> | # ] | s | i | (n) n | %> [(n) %{uy%}: | g i | h ] | # ] ;
-   [ BTCons %> | [ BT ] ( %^WEAK:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) | (t) t | s s ]] _ [  h | s | ( n ) n | t t | m m | v | %> g | # ] ;
+ %{aä%}:a <=>
+  [ BTCons ( %> ) | [ %{ui%}:u | %{aä%}:u ] ( %> ) ] _ [ # | ( ( %^WEAK:0 ) %> )  Cns: ] ;
+! [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | %^WEAK:0 [ %> | # ] | s | i | (n) n | %> [(n) %{uy%}: | g i | h ] | # ] ;
+!   [ BTCons %> | [ BT ] ( %^WEAK:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) | (t) t | s s ]] _ [  h | s | ( n ) n | t t | m m | v | %> g | # ] ;
 
 
 "%{aä%}:e"
@@ -223,8 +228,7 @@ Rules
 
 "%{ui%}:u"
 !! __@RULENAME@__
-%{ui%}:u <=> BT %> Cns:+ _  %{aä%}: ; !! * @CODE@ ! imperative forms
-
+%{ui%}:u <=> BTCons ( %> ) _ ( %> ) %{aä%}: ; !! * @CODE@ ! imperative forms
 
 "A2:a"
 !! __@RULENAME@__
@@ -272,18 +276,18 @@ a:0 <=>
 !! !iToj between vowels
 "i:j"
 !! __@RULENAME@__
- i:j <=> :Vws ( %>:  %^LCns:0 ) %>: _ %>: :Vws ;
+ i:j <=> :Vws ( %>  %^LCns:0 ) %> _ %> :Vws ;
 
 "j:i"
 !! __@RULENAME@__ !! * @CODE@ +ActPrsPrc
- j:i <=> :Vws %>: _ [ # | %>: [ g i | b o | h %{aä%}: i | g o ] ] ;
+ j:i <=> :Vws %> _ [ # | %> [ g i | b o | h %{aä%}: i | g o ] ] ;
 
 
 
 
 "a:o in the plural and preterite"
 !! __@RULENAME@__
-a:o <=> # Cns* [ a | i | e ] Cns:+ _ %>: i: ( %^WEAK:0 )  ;
+a:o <=> # Cns* [ a | i | e ] Cns:+ _ %> i: ( %^WEAK:0 )  ;
 
 
 "a:e"
@@ -329,8 +333,8 @@ t:v <=> u o: _ e %^WEAK:0 ;
 "o:v Lengthening with Ut:vv weakening"
 !! __@RULENAME@__  
 o:v <=> u _ t: e %^WEAK:0 ;
-![ #: ] Cns* Vws [ u: | y: ] [ t: | k: ]  _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
-!2013-04-29!         [ #: ][ Cns* Vws | Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ] v _  ( :Vws | %{aä%}: ) [ 0:Vws %>: %^LCns: | %>: %^LCns: :0* :Vws ] ; ! arvattava:arvattavvaa
+![ #: ] Cns* Vws [ u: | y: ] [ t: | k: ]  _ [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
+!2013-04-29!         [ #: ][ Cns* Vws | Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ] v _  ( :Vws | %{aä%}: ) [ 0:Vws %> %^LCns: | %> %^LCns: :0* :Vws ] ; ! arvattava:arvattavvaa
 !2013-04-29!        #: Cns* Vws v _ Vws [ Vws 0: Cns ( Cns:0 ) :Vws | Vws %^SyllBr:0 e ] %^StretchSyll2:0 ; ! kevät:kevväen, tavvaara
 !2013-04-29!
 
@@ -357,7 +361,7 @@ k:g <=> [ n | l |r ] %> _ (%{ui%}:) %{aä%}: ;
 !2013-04-29!
 !2013-04-29! viis: viijes
 !2013-04-29!"it:j"
-!2013-04-29! t:j <=> [ i | o ] i _ [ e | o ] %^WEAK:0 %>: ;
+!2013-04-29! t:j <=> [ i | o ] i _ [ e | o ] %^WEAK:0 %> ;
 !2013-04-29!
 !2013-04-29!"st:ss weakening"
 !2013-04-29!t:s <=> Vws+ s _ ( %^TS:0 ) GRC ;
@@ -382,7 +386,7 @@ d:l <=>
 !! __@RULENAME@__  
 d:n <=>
      Vws: n _ Vws: (%> i) %^WEAK:0 [ (%^E1:) %> | # ] ;
-  Vws ( %^WEAK:0 %>: ) n %> _ GRC ; !!= @CODE@ mennä+Ind+Prs+ScPl3: mennäh
+  Vws ( %^WEAK:0 %> ) n %> _ GRC ; !!= @CODE@ mennä+Ind+Prs+ScPl3: mennäh
 
 "rn:rr in prtprc"
 !! __@RULENAME@__  
@@ -399,14 +403,14 @@ n:s <=> s %> _ (%{uy%}:) (%^WEAK:)  ;
 !2013-04-29! p
 !2013-04-29!
 !2013-04-29!"mp:mm weakening"
-!2013-04-29!p:m <=> [ :Vws ( %^WEAK:0 %>: ) | [ a: | ä: ] %^WEAK:0 %>: %^E1:0 | %{aä%}: | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | %{aä%}: %^WEAK:0 %>: ( V3: ) Cns | %^TS:0 i %^WEAK:0 %>: ] ;
+!2013-04-29!p:m <=> [ :Vws ( %^WEAK:0 %> ) | [ a: | ä: ] %^WEAK:0 %> %^E1:0 | %{aä%}: | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | %{aä%}: %^WEAK:0 %> ( V3: ) Cns | %^TS:0 i %^WEAK:0 %> ] ;
 !2013-04-29!        m _ Vws l %^WGStem:0 ; ! ompel- to ommel-
-!2013-04-29! [ ( %>: ) :Vws ( 0: ) %^WEAK:0 %>: | Vws:0 %>: i: %^WEAK:0 %>: | Vws:0 %>:  %^WEAK:0 %>: i: %>: ] ;
+!2013-04-29! [ ( %> ) :Vws ( 0: ) %^WEAK:0 %> | Vws:0 %> i: %^WEAK:0 %> | Vws:0 %>  %^WEAK:0 %> i: %> ] ;
 !2013-04-29!%> %^WCns %^E1: mp
 !2013-04-29!
 !2013-04-29!
 !2013-04-29!"nk:ng weakening"
-!2013-04-29!k:g <=> [ #: ] Cns* Vws n _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
+!2013-04-29!k:g <=> [ #: ] Cns* Vws n _ [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
 
  
 "kToZero"
@@ -415,28 +419,28 @@ k:0 <=> _ s %^KS2S:0 ;
         _ k Vws %^WEAK:0 ; !! * @CODE@ lʼykätä:lʼykkä
 
 
-!2013-04-29! [  #:  Cns* Vws (( r | i | VwsNonHigh ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
-!2013-04-29![ [ #: ] Cns* Vws (( r | i ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ Vws: | :Vws | ( Vws ) %>: i ] ( %>: i: | %^StretchSyll2:0 ) %^WEAK:0 %>: ;
-!2013-04-29!        [ #: ] Cns* VwsBack i: _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
+!2013-04-29! [  #:  Cns* Vws (( r | i | VwsNonHigh ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
+!2013-04-29![ [ #: ] Cns* Vws (( r | i ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ Vws: | :Vws | ( Vws ) %> i ] ( %> i: | %^StretchSyll2:0 ) %^WEAK:0 %> ;
+!2013-04-29!        [ #: ] Cns* VwsBack i: _ [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
 
 !2013-04-29! liika:liijan, reikä:reijän
 !2013-04-29!"kToj"
-!2013-04-29! k:j <=> [ #: ] Cns* [ VwsFront | VwsNeutral ] i: _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
+!2013-04-29! k:j <=> [ #: ] Cns* [ VwsFront | VwsNeutral ] i: _ [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
 !2013-04-29!
 !2013-04-29! mato : maot, ! mato : maool
 !2013-04-29! tToZero in weak
 !2013-04-29!"Double stop:weakens tToZero"
 !2013-04-29!t:0 <=> [ #: Cns* Vws | #: Cns* Vws [ Vws - [ i | u | y ] ] | Vws h [ y | u ] ] _  GRC ;
-!2013-04-29!        [ #: Cns*  Vws+ [ h | (r) t ] | Vws ( %^WEAK:0 %>: ) t | Cns* Vws+ Cns+ Vws+ ( n ) t | Vws t ] _  [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
+!2013-04-29!        [ #: Cns*  Vws+ [ h | (r) t ] | Vws ( %^WEAK:0 %> ) t | Cns* Vws+ Cns+ Vws+ ( n ) t | Vws t ] _  [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
 !2013-04-29!        t _ Vws l %^WGStem:0 ; ! ottel- to otel-
 
 ! luba : luvan
 "b:v"
 !! __@RULENAME@__  
-b:v <=> [ #: ] Cns* Vws ( r | l | Vws ) _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
+b:v <=> [ #: ] Cns* Vws ( r | l | Vws ) _ [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
 
 !2013-04-29!"double pp to p"
-!2013-04-29!p:0 <=> [ #: Cns* Vws ( m ) p | #: Cns* Vws Vws p | Cns* Vws+ Cns+ Vws+ p ] _ [ GRC | %^TS:0 i %^WEAK:0 %>: ] ;
+!2013-04-29!p:0 <=> [ #: Cns* Vws ( m ) p | #: Cns* Vws Vws p | Cns* Vws+ Cns+ Vws+ p ] _ [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
 "p:0 in lapsi"
 !! __@RULENAME@__  
 p:0 <=> Vws _ s  %^KS2S:0  ;
@@ -444,8 +448,8 @@ p:0 <=> Vws _ s  %^KS2S:0  ;
 
 !2013-04-29! Vowel raising
 !2013-04-29!"o:u ö:y in Inf"
-!2013-04-29! Vx:Vy <=> _ Vx: %>: v v %{aä%}: %^RVws:0 ;
-!2013-04-29!           Vx: _ %>: v v %{aä%}: %^RVws:0 ;
+!2013-04-29! Vx:Vy <=> _ Vx: %> v v %{aä%}: %^RVws:0 ;
+!2013-04-29!           Vx: _ %> v v %{aä%}: %^RVws:0 ;
 !2013-04-29!          where Vx in (o ö)
 !2013-04-29!                Vy in (u y) matched ;
 
