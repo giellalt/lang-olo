@@ -10,7 +10,7 @@ LEXICON N_
 LEXICON N_KARJAL !!= @CODE@ karjal:karjal
 +N: SGNOMSUF ;
 +N:a SGGENSUF ;
-+N:a SGPARSUF_A2 ;
++N:%{ui%} SGPARSUF_A2 ;
 +N:a%>i PLGENSUF_EN ;
 +N:i PLPARSUF_i ;
 +N:%{oö%}i PLINSSUF ;
@@ -46,7 +46,7 @@ LEXICON NMN_PIIRAI-PL
 
 LEXICON N_KANDAI !!= @CODE@ kandai:kandai
 +N: SGNOMSUF ;
-+N:%{aä%} SGPARSUF_A2 ;
++N:%{ui%} SGPARSUF_A2 ;
 +N:ie PLGENSUF_N ;
 +N:i PLPARSUF_i ;
 +N:i PLINSSUF ;
@@ -55,8 +55,8 @@ LEXICON N_KANDAI !!= @CODE@ kandai:kandai
 
 LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizii
 +N: SGNOMSUF ;
-+N:A2 SGGENSUF ;
-+N:A2 SGPARSUF_A2 ;
++N:%{aä%} SGGENSUF ;
++N:%{ui%} SGPARSUF_A2 ;
 +N:%>%{oö%}i PLGENSUF_N ;
 +N:%>%{oö%}i PLPARSUF_i ;
 +N:%>%{oö%}i PLINSSUF ;
@@ -79,9 +79,9 @@ LEXICON NMN_HUOLETOI !!= @CODE@ huoletoi: huolet
 
 LEXICON NMN_HUOLETOI-SG	
 :%{oö%}i SGNOMSUF ;
-:t%{oö%}ma SGGENSUF ;
-:t%{oö%}ma SGPARSUF_A2 ;
-+Sg:t%{oö%}ma Noun-NB-01 ;
+:t%{oö%}m%{aä%} SGGENSUF ;
+:t%{oö%}m%{ui%} SGPARSUF_A2 ;
++Sg:t%{oö%}m%{aä%} Noun-NB-01 ;
 LEXICON NMN_HUOLETOI-PL	
 :t%{oö%}m%{aä%} PLNOMSUF ;
 :t%{oö%}mie PLGENSUF_N ;
@@ -132,7 +132,7 @@ LEXICON NMN_TAIGIN !!= @CODE@ taigin:taigin
 LEXICON NMN_TAIGIN-SG	
 : SGNOMSUF ;
 :a SGGENSUF ;
-:a SGPARSUF_A2 ;
+:%{ui%} SGPARSUF_A2 ;
 +Sg:a Noun-NB-01 ;
 LEXICON NMN_TAIGIN-PL	
 :a PLNOMSUF ;
@@ -379,7 +379,7 @@ LEXICON NMN_PAREMBI !!= @CODE@ parembi:paremb
 LEXICON NMN_PAREMBI-SG
 :i SGNOMSUF ;
 :%{aä%} SGGENSUF ;
-:%{aä%} SGPARSUF_A2 ;
+:%{ui%} SGPARSUF_A2 ;
 +Sg:%{aä%} Noun-NB-01 ;
 
 LEXICON NMN_PAREMBI-PL
@@ -694,7 +694,7 @@ LEXICON NMN_PAREMBI
 
 LEXICON NMN_PAREMBI-SG
 :i SGNOMSUF ;
-:%{aä%} SGPARSUF_A2 ;
+:%{ui%} SGPARSUF_A2 ;
 
 LEXICON NMN_PAREMBI-PL
 :%{aä%} PLNOMSUF ;
@@ -743,7 +743,7 @@ LEXICON NMN_VASKIČČU !!= @CODE@ vaskičču:vaskičč
 LEXICON NMN_VASKIČČU-SG
 :u SGNOMSUF ;
 :a SGGENSUF ;
-:a SGPARSUF_A2 ;
+:%{ui%} SGPARSUF_A2 ;
 +Sg:a Noun-NB-01 ;
 
 LEXICON NMN_VASKIČČU-PL
@@ -798,7 +798,7 @@ LEXICON NMN_OSTAI-SG
 :%{aä%}%^A2U SGNOMSUF ;
  SGNOMSUF ;
 :%>%{aä%} SGGENSUF ;
-:%>%{aä%} SGPARSUF_A2 ;
+:%>%{ui%} SGPARSUF_A2 ;
 +Sg:%>%{aä%} Noun-NB-01 ;
 
 LEXICON NMN_OSTAI-PL
@@ -850,7 +850,7 @@ LEXICON NMN_SUURIM
 
 LEXICON NMN_SUURIM-SG
  SGNOMSUF ;
-:%{aä%} SGPARSUF_A2 ;
+:%{ui%} SGPARSUF_A2 ;
 
 LEXICON NMN_SUURIM-PL
 :ie PLGENSUF_N ;
@@ -874,7 +874,7 @@ LEXICON NMN_TUATINDAM
 
 LEXICON NMN_TUATINDAM-SG
  SGNOMSUF ;
-:%{aä%} SGPARSUF_A2 ;
+:%{ui%} SGPARSUF_A2 ;
 
 LEXICON NMN_TUATINDAM-PL
 :ie PLGENSUF_N ;
@@ -1114,7 +1114,7 @@ LEXICON NMN_KALA-PL
 LEXICON NMN_KARJAL !!= @CODE@ karjal:karjal
  SGNOMSUF ;
 :A2 SGGENSUF ;
-:A2 SGPARSUF_A2 ;
+:%{ui%} SGPARSUF_A2 ;
 :%>%{oö%}i PLGENSUF_N ;
 :%>%{oö%}i PLPARSUF_Zero ;
 :%>%{oö%}i PLINSSUF ;
@@ -1299,7 +1299,7 @@ LEXICON NMN_ABRAMOV !! * @CODE@ Abramov:Abramov
 LEXICON NMN_ABRAMOV-SG
  SGNOMSUF ;
 :%>%{aä%} SGGENSUF ;
-:%>%{aä%} SGPARSUF_A2 ;
+:%>%{ui%} SGPARSUF_A2 ;
 +Sg:%>%{aä%} Noun-NB-01 ;
 
 LEXICON NMN_ABRAMOV-PL
