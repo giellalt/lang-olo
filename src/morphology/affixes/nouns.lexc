@@ -630,7 +630,7 @@ LEXICON N_KYNDÖ-SG
 LEXICON N_KYNDÖ-PL
 +N: NMN_KYNDÖ-PL   ;
 
-!! NMN
+!! !NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
 LEXICON NMN_NIMI
 	NMN_NIMI-SG	;
 	NMN_NIMI-PL	;
@@ -829,6 +829,7 @@ LEXICON NMN_PESSYH !!= @CODE@ pessyh
         NMN_PESSYH-SG ;
         NMN_PESSYH-PL ;
 
+!! ! Nominative singular in "h"
 LEXICON NMN_PESSYH-SG
 :h SGNOMSUF ;
 :%{oö%} SGGENSUF ;
@@ -842,6 +843,7 @@ LEXICON NMN_PESSYH-PL
 :zi PLINSSUF ;
 +Pl:zi Noun-NB-01 ;
 
+!! ! Nominative singular in "m"
 LEXICON NMN_SUURIM
         NMN_SUURIM-SG   ;
         NMN_SUURIM-PL   ;
@@ -878,46 +880,7 @@ LEXICON NMN_TUATINDAM-PL
 :ie PLGENSUF_N ;
 :i PLPARSUF_i ;
 
-
-
-LEXICON NMN_PIENAR
-	NMN_PIENAR-SG	;
-	NMN_PIENAR-PL	;
-
-LEXICON NMN_PIENAR-SG
-:%^WEAK SGNOMSUF ;
-:%^WEAK SGPARSUF_dU ;
-:e SGGENSUF ;
-+Sg:e Noun-NB-01 ;
-LEXICON NMN_PIENAR-PL
-:e PLNOMSUF	;
-:%>ie PLGENSUF_N ; ! the plural comitative is declined here
-:%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-:i Noun-NB-loi ;
-
-LEXICON NMN_UDAR
-	NMN_UDAR-SG	;
-	NMN_UDAR-PL	;
-
-LEXICON NMN_UDAR-SG
-:%^WEAK SGNOMSUF ;
-:%^WEAK SGPARSUF_dU ;
-:e SGGENSUF ;
-+Sg:e Noun-NB-01 ;
-LEXICON NMN_UDAR-PL
-:e PLNOMSUF	;
-:%>ie PLGENSUF_N ; ! the plural comitative is declined here
-:%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-:i Noun-NB-loi ;
-
+!! ! Nominative singular in "n"
 LEXICON NMN_SALBOIN
 	NMN_SALBOIN-SG	;
 	NMN_SALBOIN-PL	;
@@ -968,6 +931,47 @@ LEXICON NMN_KYNDÖ-PL
  	  Noun-NB-loi ;
 
 
+
+!! ! Nominative singular in "r"
+LEXICON NMN_PIENAR
+	NMN_PIENAR-SG	;
+	NMN_PIENAR-PL	;
+
+LEXICON NMN_PIENAR-SG
+:%^WEAK SGNOMSUF ;
+:%^WEAK SGPARSUF_dU ;
+:e SGGENSUF ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_PIENAR-PL
+:e PLNOMSUF	;
+:%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
+:il%{oö%}i PLGENSUF_N ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
+:i Noun-NB-loi ;
+
+LEXICON NMN_UDAR
+	NMN_UDAR-SG	;
+	NMN_UDAR-PL	;
+
+LEXICON NMN_UDAR-SG
+:%^WEAK SGNOMSUF ;
+:%^WEAK SGPARSUF_dU ;
+:e SGGENSUF ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_UDAR-PL
+:e PLNOMSUF	;
+:%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
+:il%{oö%}i PLGENSUF_N ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
+:i Noun-NB-loi ;
+
+!! ! Nominative singular in "s"
 LEXICON NMN_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 	NMN_PUHTAHUS-SG ;
 	NMN_PUHTAHUS-PL ;
@@ -1054,7 +1058,6 @@ LEXICON NMN_ARMAS-PL
 +Pl:hi Noun-NB-01 ;
 
 
-
 LEXICON NMN_KUU !!= @CODE@ kuu:kuu
 	NMN_KUU-SG	;
 	NMN_KUU-PL	;
@@ -1107,6 +1110,7 @@ LEXICON NMN_KALA-PL
 :%>i PLINSSUF ;
 +Pl:%>i Noun-NB-01 ;
 
+!! ! Nominative singular in "l"
 LEXICON NMN_KARJAL !!= @CODE@ karjal:karjal
  SGNOMSUF ;
 :A2 SGGENSUF ;
@@ -1285,6 +1289,26 @@ LEXICON NMN_KARJALAINE-PL
 :zi PLPARSUF_i ;
 :zi PLINSSUF ;
 +Pl:zi Noun-NB-01 ;
+
+
+!! ! Nominative singular in "v"
+LEXICON NMN_ABRAMOV !! * @CODE@ Abramov:Abramov
+	NMN_ABRAMOV-SG ;
+	NMN_ABRAMOV-PL ;
+
+LEXICON NMN_ABRAMOV-SG
+ SGNOMSUF ;
+:%>%{aä%} SGGENSUF ;
+:%>%{aä%} SGPARSUF_A2 ;
++Sg:%>%{aä%} Noun-NB-01 ;
+
+LEXICON NMN_ABRAMOV-PL
+:%>%{aä%} PLNOMSUF ;
+:ie PLGENSUF_N ;
+:i PLPARSUF_i ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
+
 
 
 LEXICON Noun-NB-i

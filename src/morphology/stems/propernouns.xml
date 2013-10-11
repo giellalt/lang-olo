@@ -4,13 +4,12 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-<e><lg><l pos="Prop">Anuksenlinnu</l><stg><st Contlex="PROP_PÄIVY">Anuksenlinna</st></stg></lg><pos>Prop</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="Prop">Aunuksenkapunki, Aunuksenlinna</t></tg></mg></e>
   <e>
     <lg>
-      <l pos="Prop">Priäžä</l>
+      <l pos="Prop">Abramov</l>
 
       <stg>
-        <st Contlex="PROP_">Priäžä</st>
+        <st Contlex="PROP_RUS-V_SUR">Abramov</st>
       </stg>
     </lg>
 
@@ -22,17 +21,16 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Prääsä</t>
+        <t pos="Prop"/>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
-      <l pos="Prop">Suomi</l>
+      <l pos="Prop">Afanasjev</l>
 
       <stg>
-        <st Contlex="PROP_">Suom</st>
+        <st Contlex="PROP_RUS-VIČ_PATR">Afanasjev</st>
       </stg>
     </lg>
 
@@ -44,17 +42,16 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Suomi</t>
+        <t pos="Prop"/>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
-      <l pos="Prop">Vieljärvi</l>
+      <l pos="Prop">Afanasjev</l>
 
       <stg>
-        <st Contlex="PROP_">Vieljärv</st>
+        <st Contlex="PROP_RUS-V_SUR">Afanasjev</st>
       </stg>
     </lg>
 
@@ -66,17 +63,16 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Vieljärvi</t>
+        <t pos="Prop"/>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
-      <l pos="Prop">Karjal</l>
+      <l pos="Prop">Agafja</l>
 
       <stg>
-        <st Contlex="PROP_KARJAL">Karjal</st>
+        <st Contlex="PROP_KALA_FEM">Agafja</st>
       </stg>
     </lg>
 
@@ -85,26 +81,19 @@
     <mg>
       <m>
         <head/>
-
-        <defNative/>
       </m>
 
-      <tg xml:lang="eng">
-        <t>Karelia</t>
-      </tg>
-
       <tg xml:lang="fin">
-        <t>Karjala</t>
+        <t pos="Prop"/>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
-      <l pos="Prop">Suomi</l>
+      <l pos="Prop">Agafonov</l>
 
       <stg>
-        <st Contlex="PROP_NIMI">Suom</st>
+        <st Contlex="PROP_RUS-V_SUR">Agafonov</st>
       </stg>
     </lg>
 
@@ -113,20 +102,622 @@
     <mg>
       <m>
         <head/>
-
-        <defNative/>
       </m>
 
-      <tg xml:lang="eng">
-        <t>Finland</t>
-      </tg>
-
       <tg xml:lang="fin">
-        <t>Suomi</t>
+        <t pos="Prop"/>
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="Prop">Agaša</l>
 
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Agaša</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ahtia</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Ahtia</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Akimov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Akimov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Akimov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Akimov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Akulišnin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Akulišnin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Aleksandrov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Aleksandrov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Aleksejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Aleksejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Aleksejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Aleksejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Alevtin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Alevtin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Alina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Alina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Alisa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Alisa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Alla</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Alla</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Alʼbina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Alʼbina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Alʼfin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Alʼfin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Alʼona</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Alʼona</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Anastasija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Anastasija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Anatoljev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Anatoljev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Andrejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Andrejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Andrejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Andrejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Anekov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Anekov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Anhimov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Anhimov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Anikin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Anikin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Anita</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Anita</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Anna-Kaisa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Anna-Kaisa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Annika</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Annika</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Antonina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Antonina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Antonov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Antonov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Antropov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Antropov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Anuksenlinnu</l>
+
+      <stg>
+        <st Contlex="PROP_PÄIVY">Anuksenlinna</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Aunuksenkapunki, Aunuksenlinna</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="Prop">Anus</l>
@@ -154,7 +745,10296 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="Prop">Anʼa</l>
 
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Anʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Arhipov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Arhipov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Arhippa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Arhippa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Arja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Arja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Artemjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Artemjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Asma</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Asma</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Avgustov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Avgustov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Baburov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Baburov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Baranov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Baranov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Barbašin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Barbašin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Barhatov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Barhatov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Barmin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Barmin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Basov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Basov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Belʼakov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Belʼakov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Berezin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Berezin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Birʼukov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Birʼukov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Bobin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Bobin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Bogdanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Bogdanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Boikov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Boikov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Bondarev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Bondarev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Borisov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Borisov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Borisov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Borisov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Bukašev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Bukašev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Bukin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Bukin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Buravov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Buravov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Carelia</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Carelia</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Cikin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Cikin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Cuburov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Cuburov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Darina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Darina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Darja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Darja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Davidov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Davidov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Demjanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Demjanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Denisov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Denisov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Digujev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Digujev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Dima</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Dima</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Dmitrijev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Dmitrijev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Domantov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Domantov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Dorofejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Dorofejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Dubinin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Dubinin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Dunʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Dunʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Džuljetta</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Džuljetta</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Eeva-Kaisa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Eeva-Kaisa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Eila</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Eila</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Elina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Elina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ella</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Ella</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Elʼmitjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Elʼmitjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Elʼsa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Elʼsa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Elʼvira</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Elʼvira</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Emilija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Emilija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Emma</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Emma</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Esa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Esa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Estonia</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Estonia</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fedolov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Fedolov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fedosja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Fedosja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fedosov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Fedosov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fedotov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Fedotov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fedulov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Fedulov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fedʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Fedʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Filippov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Filippov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fodorov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Fodorov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fokin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Fokin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fomin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Fomin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fukusima</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Fukusima</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fʼodorov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Fʼodorov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fʼodorov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Fʼodorov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fʼokla</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Fʼokla</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Fʼoudorov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Fʼoudorov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gagarin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Gagarin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Galaničev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Galaničev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Galina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Galina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Galʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Galʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gavrilov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Gavrilov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gdaljev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Gdaljev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Genrihov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Genrihov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gerasimov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Gerasimov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gilojev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Gilojev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ginijatullin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Ginijatullin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gokkojev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Gokkojev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gončarov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Gončarov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gorohov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Gorohov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gorškov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Gorškov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Grafov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Grafov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gračov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Gračov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Grigorjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Grigorjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Grigorjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Grigorjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Griša</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Griša</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Grišin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Grišin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gromov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Gromov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gubarev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Gubarev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gukkin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Gukkin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Gurilov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Gurilov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Haritonov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Haritonov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Hattula</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Hattula</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Heikkijev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Heikkijev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Hilma</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Hilma</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Hotejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Hotejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Hrebtov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Hrebtov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Hudʼajev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Hudʼajev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Hvatov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Hvatov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ignatjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Ignatjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ignatjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Ignatjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Igumnov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Igumnov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ilja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Ilja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ilona</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Ilona</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ilʼjin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Ilʼjin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ilʼjukov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Ilʼjukov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Inessa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Inessa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Inka</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Inka</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Inna</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Inna</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ipatov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Ipatov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Irina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Irina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Irinja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Irinja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Irma</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Irma</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Isajev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Isajev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Isakov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Isakov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ivana</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Ivana</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ivanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Ivanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ivanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Ivanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jakovlev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Jakovlev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jakovlev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Jakovlev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jana</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Jana</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jastrebov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Jastrebov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jaškov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Jaškov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jefimov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Jefimov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jegorov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Jegorov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jegorov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Jegorov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jegov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Jegov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jekaterina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Jekaterina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jelagin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Jelagin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jelizaveta</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Jelizaveta</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jermolajev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Jermolajev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jeršov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Jeršov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jevdokija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Jevdokija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jevgenija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Jevgenija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jevgenjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Jevgenjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jevsejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Jevsejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jevstratov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Jevstratov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jolina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Jolina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Joškar-Ola</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Joškar-Ola</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Judin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Judin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jukka</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Jukka</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Julija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Julija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Julʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Julʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jurjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Jurjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jyskyjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Jyskyjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Jänisjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Jänisjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kaidʼärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Kaidʼärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kaisa-Jozefiina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Kaisa-Jozefiina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kallijev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kallijev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kalmikov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kalmikov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Karakin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Karakin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Karelia</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Karelia</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Karelija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Karelija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Karina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Karina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Karjal</l>
+
+      <stg>
+        <st Contlex="PROP_KARJAL">Karjal</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>Karelia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>Karjala</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Karkavin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Karkavin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Karlov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Karlov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Karlov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Karlov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Karolina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Karolina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Karpov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Karpov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Katerina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Katerina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Katʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Katʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kačalkin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Kačalkin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kendʼärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Kendʼärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kentjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Kentjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Keskoijärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Keskoijärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kevätjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Kevätjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kiitehenjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Kiitehenjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kimov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Kimov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kiprušov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kiprušov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kirjakov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kirjakov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kirsanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kirsanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kirvesjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Kirvesjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kivijärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Kivijärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Klara</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Klara</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Klavdija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Klavdija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Klejerov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Klejerov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Klementjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Klementjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Knʼazev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Knʼazev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kodratjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kodratjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kokorin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Kokorin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kokovurov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kokovurov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kolʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Kolʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kondartjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kondartjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kondrajev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kondrajev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kondratjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kondratjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kondratʼjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kondratʼjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kononihin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Kononihin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kononov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kononov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Konovalov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Konovalov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Konstantinov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Konstantinov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kopanev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kopanev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kopanʼov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kopanʼov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kordʼukov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kordʼukov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Korela</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Korela</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kornilov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kornilov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Korobočkin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Korobočkin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kosintsev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kosintsev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kotkatjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Kotkatjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kovalʼov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kovalʼov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Košelev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Košelev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Koškin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Koškin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kožuškov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kožuškov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Krasavtsev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Krasavtsev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Krilov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Krilov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kristina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Kristina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ksenija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Ksenija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kudelʼnikov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kudelʼnikov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kudrʼašov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kudrʼašov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kudžijev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kudžijev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kulakov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kulakov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kuprijanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kuprijanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kuujärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Kuujärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kuvšinov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kuvšinov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kuznetsov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Kuznetsov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Kuzʼmin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Kuzʼmin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ladvujärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Ladvujärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lagotskaja-Mahajev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Lagotskaja-Mahajev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lapin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Lapin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Larionov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Larionov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Larisa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Larisa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Latišev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Latišev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Latvajärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Latvajärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lebedev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Lebedev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Leila</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Leila</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lemijärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Lemijärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lena</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Lena</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lenin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Lenin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Leonidov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Leonidov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Leontjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Leontjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lettijev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Lettijev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Libertsov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Libertsov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lidija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Lidija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lihačov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Lihačov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Liisa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Liisa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lilija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Lilija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lilikjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Lilikjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lilʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Lilʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Linna</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Linna</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Liza</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Liza</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lizlov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Lizlov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ližmjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Ližmjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Loginov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Loginov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lohijärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Lohijärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Loimojev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Loimojev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lopuhin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Lopuhin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lukerja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Lukerja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lukin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Lukin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lukomorja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Lukomorja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lʼovkin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Lʼovkin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lʼoša</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Lʼoša</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Lʼudmila</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Lʼudmila</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Makarov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Makarov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Makejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Makejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Malikov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Malikov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mamontov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Mamontov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Margarita</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Margarita</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Maria</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Maria</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Marija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Marija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Marina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Marina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Marja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Marja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Marjana</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Marjana</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Marjatta</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Marjatta</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Marjukka</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Marjukka</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Markianov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Markianov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Markov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Markov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Maslov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Maslov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Matrosov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Matrosov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Matrʼona</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Matrʼona</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Matvejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Matvejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Matvejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Matvejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Matvejev-Terentjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Matvejev-Terentjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Matʼušev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Matʼušev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Maša</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Maša</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Medvedev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Medvedev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Melentjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Melentjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Merja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Merja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Merkojev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Merkojev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Migunov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Migunov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mihailov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Mihailov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mihailov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Mihailov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mihejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Mihejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mihnev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Mihnev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mimmijev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Mimmijev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mirja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Mirja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mirka</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Mirka</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mironov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Mironov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mistalʼov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Mistalʼov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mišin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Mišin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mokejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Mokejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Morozov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Morozov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Moskvičov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Moskvičov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mošnikov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Mošnikov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mrikin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Mrikin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Muašjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Muašjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Muhorov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Muhorov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Muhortikov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Muhortikov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mujehjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Mujehjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Mullijev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Mullijev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Munjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Munjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Muraškin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Muraškin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nadʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Nadʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nastʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Nastʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Natalia</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Natalia</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Natalija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Natalija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nefʼodov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Nefʼodov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nesterov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Nesterov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nifantjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Nifantjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Niina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Niina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nikita</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Nikita</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nikitin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Nikitin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nikolajev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Nikolajev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nikolajev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Nikolajev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nikonov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Nikonov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Nina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nosirev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Nosirev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nurmijärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Nurmijärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Nʼura</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Nʼura</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ognev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Ognev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ohapkin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Ohapkin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Oksa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Oksa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Oksana</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Oksana</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Olonija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Olonija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Olʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Olʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Olʼkin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Olʼkin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ondojärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Ondojärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Onegin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Onegin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Onojev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Onojev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Osipov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Osipov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ostretsov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Ostretsov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pahomov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Pahomov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pankratjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Pankratjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Paraskev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Paraskev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pasʼukov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Pasʼukov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Paula</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Paula</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pavlov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Pavlov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pavlov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Pavlov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Paškov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Paškov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pekka</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Pekka</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Petroskoi</l>
+
+      <stg>
+        <st Contlex="PROP_ARTELI">Petroskoi</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Petrov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Petrov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Petrov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Petrov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Petrunin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Petrunin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Petuškov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Petuškov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Petʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Petʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pistojärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Pistojärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Piäjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Piäjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pohjola</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Pohjola</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Polikarpov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Polikarpov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Polina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Polina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Poluzanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Poluzanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Polʼakov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Polʼakov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ponomarʼov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Ponomarʼov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Popov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Popov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Porajärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Porajärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Porojev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Porojev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Portretov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Portretov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Potahin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Potahin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Potamošnev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Potamošnev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Potapov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Potapov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Povarʼov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Povarʼov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pozdnʼakov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Pozdnʼakov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pozdʼakov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Pozdʼakov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Poštu-Anʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Poštu-Anʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Priäžä</l>
+
+      <stg>
+        <st Contlex="PROP_">Priäžä</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Prääsä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Prohorov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Prohorov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Prokofjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Prokofjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Prokopenkov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Prokopenkov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Prokopjev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Prokopjev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Puanajärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Puanajärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Puanʼärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Puanʼärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Puhtasjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Puhtasjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Puškin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Puškin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pyhäjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Pyhäjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Pyhärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Pyhärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Radʼkov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Radʼkov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ragujev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Ragujev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Raija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Raija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Raisa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Raisa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Redkin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Redkin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Redʼkin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Redʼkin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Remšujev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Remšujev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Repolʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Repolʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ribakov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Ribakov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Riikka</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Riikka</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Rikkijev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Rikkijev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Rita</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Rita</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ritva</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Ritva</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Rodionov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Rodionov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Romanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Romanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Rossija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Rossija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Roza</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Roza</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Rudov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Rudov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Rugačev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Rugačev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Rukajärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Rukajärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Räppijev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Räppijev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Saburov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Saburov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Saha-Jakutija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Saha-Jakutija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sampsa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Sampsa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Samsonov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Samsonov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sandra</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Sandra</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sanna</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Sanna</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sanna-Riikka</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Sanna-Riikka</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Santra</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Santra</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Saveljev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Saveljev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Savinov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Savinov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Saša</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Saša</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sažin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Sažin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Seesjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Seesjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Selʼma</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Selʼma</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Semakov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Semakov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Semʼonov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Semʼonov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Semʼonov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Semʼonov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Serafima</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Serafima</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Serafin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Serafin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Serebrʼannikov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Serebrʼannikov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sergejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Sergejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sergejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Sergejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sidorov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Sidorov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sinikka</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Sinikka</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sirkin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Sirkin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sirkka</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Sirkka</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Siämärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Siämärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Skomorošin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Skomorošin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Smolin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Smolin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Smotrov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Smotrov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Snežana</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Snežana</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sofia</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Sofia</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sofija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Sofija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sofja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Sofja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Solovjov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Solovjov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sonkajärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Sonkajärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Sonʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Sonʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Spitsin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Spitsin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Stafejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Stafejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Stanislavov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Stanislavov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Stankev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Stankev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Staršov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Staršov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Stepanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Stepanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Stepanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Stepanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Strogalʼščikov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Strogalʼščikov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Stroganov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Stroganov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Suigärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Suigärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Suojärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Suojärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Suomi</l>
+
+      <stg>
+        <st Contlex="PROP_">Suom</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Suomi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Suomi</l>
+
+      <stg>
+        <st Contlex="PROP_NIMI">Suom</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>Finland</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>Suomi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Svetlana</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Svetlana</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tabunov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Tabunov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tamara</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Tamara</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tanʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Tanʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tarasov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Tarasov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tarja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Tarja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Taskajev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Taskajev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tatjana</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Tatjana</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Testov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Testov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tetčijev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Tetčijev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tihonov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Tihonov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tiina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Tiina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tiirin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Tiirin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tikkujev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Tikkujev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Timofejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Timofejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Timofejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Timofejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Titov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Titov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tohmajärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Tohmajärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tolmačov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Tolmačov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tolʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Tolʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tomilov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Tomilov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Topparev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Topparev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Trifanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Trifanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tuksa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_PLC">Tuksa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tulemjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Tulemjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tulemujärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Tulemujärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tulomjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Tulomjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tuttujev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Tuttujev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tutturev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Tutturev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tyränjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Tyränjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Tʼurin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Tʼurin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Uksjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Uksjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ulina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Ulina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Uljana</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Uljana</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ulla</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Ulla</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Unelma</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Unelma</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Urbanov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Urbanov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Urojärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Urojärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Usatov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Usatov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Utkin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Utkin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vahjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Vahjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Valenina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Valenina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Valentina</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Valentina</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Valerija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Valerija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Valʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Valʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vanʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Vanʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vasilisa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Vasilisa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vasiljev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Vasiljev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vasiljev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Vasiljev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vasʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Vasʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vavilov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Vavilov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Veledejev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Veledejev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="Prop">Venʼa</l>
@@ -182,7 +11062,578 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vera</l>
 
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Vera</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Veronika</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Veronika</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Veršinin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Veršinin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vieljärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Vieljärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vieljärvi</l>
+
+      <stg>
+        <st Contlex="PROP_">Vieljärv</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Vieljärvi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Viglijev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Viglijev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vikkel-Natalja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Vikkel-Natalja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Viktorija</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Viktorija</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Viktorov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Viktorov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Viola</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Viola</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Violetta</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Violetta</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vitaljev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Vitaljev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vitʼa</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_MAL">Vitʼa</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vladimirov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Vladimirov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vlasov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-VIČ_PATR">Vlasov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vlasov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Vlasov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vodlajärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Vodlajärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Volhonov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Volhonov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Voronov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Voronov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vuažjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Vuažjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Vuohtjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Vuohtjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Zaharov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Zaharov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Zaikov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Zaikov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Zaitsev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Zaitsev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Zarinov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Zarinov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Zoja</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Zoja</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Zorin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Zorin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Zvezdin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Zvezdin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="Prop">elokuu</l>
@@ -208,7 +11659,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="Prop">heinykuu</l>
@@ -234,7 +11684,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="Prop">kevätkuu</l>
@@ -260,7 +11709,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="Prop">kezäkuu</l>
@@ -286,7 +11734,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="Prop">kylmykuu</l>
@@ -312,7 +11759,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="Prop">ligakuu</l>
@@ -338,7 +11784,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="Prop">oraskuu</l>
@@ -364,7 +11809,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="Prop">pakkaskuu</l>
@@ -390,33 +11834,6 @@
       </tg>
     </mg>
   </e>
-
-  <e>
-    <lg>
-      <l pos="Prop">Petroskoi</l>
-
-      <stg>
-        <st Contlex="PROP_ARTELI">Petroskoi</st>
-      </stg>
-    </lg>
-
-    <pos>Prop</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
   <e>
     <lg>
       <l pos="Prop">sulakuu</l>
@@ -442,7 +11859,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="Prop">syvyskuu</l>
@@ -468,7 +11884,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="Prop">talvikuu</l>
@@ -494,7 +11909,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="Prop">tuhukuu</l>
@@ -517,6 +11931,347 @@
 
       <tg xml:lang="fin">
         <t/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Černʼakov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Černʼakov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Četčujev</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Četčujev</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Čirikov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Čirikov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Čuburov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Čuburov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Čuprov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Čuprov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Čupukov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Čupukov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Šaikin</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-IN_SUR">Šaikin</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Šoltjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Šoltjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Šotjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Šotjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Šoutjärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Šoutjärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Šukkajärvi</l>
+      <stg>
+        <st Contlex="PROP_NIMI">Šukkajärv</st>
+      </stg>
+    </lg>
+    <pos>Prop</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Šura</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Šura</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Ščerbakov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Ščerbakov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Žanna</l>
+
+      <stg>
+        <st Contlex="PROP_KALA_FEM">Žanna</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Žarinov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Žarinov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Žerebtsov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Žerebtsov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Prop">Žukov</l>
+
+      <stg>
+        <st Contlex="PROP_RUS-V_SUR">Žukov</st>
+      </stg>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop"/>
       </tg>
     </mg>
   </e>
