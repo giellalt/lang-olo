@@ -199,7 +199,7 @@ Rules
 "%{aä%}:a"
 !! __@RULENAME@__
  %{aä%}:a <=>
-  [ BTCons ( %> ) | [ %{ui%}:u | %{aä%}:u ] ( %> ) ] _ [ # | ( ( %^WEAK:0 ) %> )  Cns: ] ;
+  [ BTCons ( %> ) | [ %{ui%}:u | %{aä%}:u | a:u ] ( %> ) ] _ [ # | ( ( %^WEAK:0 ) %> )  [ Cns: | %{uy%}:u ] | %^WEAK:0 ] ;
 ! [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | %^WEAK:0 [ %> | # ] | s | i | (n) n | %> [(n) %{uy%}: | g i | h ] | # ] ;
 !   [ BTCons %> | [ BT ] ( %^WEAK:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) | (t) t | s s ]] _ [  h | s | ( n ) n | t t | m m | v | %> g | # ] ;
 
