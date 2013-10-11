@@ -790,7 +790,7 @@ LEXICON NMN_VALGEI-PL
 :il%{oö%}i PLINSSUF ;
 :i Noun-NB-loi ;
 
-LEXICON NMN_OSTAI !!= @CODE@ ostua:osta%>i
+LEXICON NMN_OSTAI !!= @CODE@ ostua:osta%>j
  NMN_OSTAI-SG ;
  NMN_OSTAI-PL ;
 
@@ -803,12 +803,12 @@ LEXICON NMN_OSTAI-SG
 
 LEXICON NMN_OSTAI-PL
 :%>%{aä%} PLNOMSUF ;
-:%>%{aä%}%>ie PLGENSUF_N ; ! the plural comitative is declined here
-:%>%{aä%}%>i PLPARSUF_i ;
-:%>%{aä%}%>i PLINSSUF ;
-+Pl:%>%{aä%}%>i Noun-NB-01 ;
+:%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
++Pl:%>i Noun-NB-01 ;
 
-LEXICON NMN_PEZII !!= @CODE@ ostua:osta%>i
+LEXICON NMN_PEZII !!= @CODE@ pestä:pezi%>j
  NMN_PEZII-SG ;
  NMN_PEZII-PL ;
 
