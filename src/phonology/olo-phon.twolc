@@ -126,6 +126,9 @@ VwsBack = a o u A O U ;
 VwsFront = ä ö y ü Ä Ö Y Ü ;
 VwsNeutral = e i E I ; 
 VwsNonHigh = a o ä ö e A O Ä Ö E ;
+VwsNotHiLab = a o ä ö e i 
+              A O Ä Ö E I ;
+
 Vws = a o u ä ö y ü e i 
       A O U Ä Ö Y Ü E I ;
 
@@ -325,6 +328,22 @@ i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
 !! __@RULENAME@__  
 g:l <=> l _ [ a: ] ( %> i ) %^WEAK:0 ;
 
+! lʼöydiä:lʼövvä
+"d:v"
+!! __@RULENAME@__  
+d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WEAK:0 ;
+
+! lʼöydiä:lʼövvä
+"y:v"
+!! __@RULENAME@__
+y:v <=>  ö _ d: ä %^WEAK:0 ;
+
+! soudua:sovva
+"u:v"
+!! __@RULENAME@__
+u:v <=>  o _ d: a %^WEAK:0 ;
+
+
 ! vuozi:vuvven
 "t:v"
 !! __@RULENAME@__  
@@ -456,7 +475,7 @@ p:0 <=> Vws _ s  %^KS2S:0  ;
 !! !!Consonant loss
 "d:0"
 !! __@RULENAME@__   pidiä:piän
-d:0 <=> Vws: _ Vws: %^WEAK:0  ;
+d:0 <=>  VwsNotHiLab: _ Vws: %^WEAK:0  ;
 
 
 !"Disallow V3 after two consecutive realized vowels"
