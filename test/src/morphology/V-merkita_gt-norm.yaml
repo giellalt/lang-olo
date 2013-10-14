@@ -1,0 +1,172 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - merkitä: # Verb 'to mean, / merkitä' - full paradigm
+     merkitä+V+Ind+Prs+ScSg1: merkičen
+     merkitä+V+Ind+Prs+ScSg2: merkičet
+     merkitä+V+Ind+Prs+ScSg3: merkiččöy
+     merkitä+V+Ind+Prs+ScPl1: merkičemmö
+     merkitä+V+Ind+Prs+ScPl2: merkičettö
+     merkitä+V+Ind+Prs+ScPl3: merkitäh
+     merkitä+V+Ind+Prs+ConNeg: merkiče
+
+     merkitä+V+Ind+Prt+ScSg1: merkičin
+     merkitä+V+Ind+Prt+ScSg2: merkičit
+     merkitä+V+Ind+Prt+ScSg3: merkičči
+     merkitä+V+Ind+Prt+ScPl1: merkičimmö
+     merkitä+V+Ind+Prt+ScPl2: merkičittö
+     merkitä+V+Ind+Prt+ScPl3: merkittih
+     merkitä+V+Ind+Prt+ConNeg: merkinnyh
+     merkitä+V+Ind+Prt+ConNeg+ScPl3: merkitty
+
+     merkitä+V+Cond+Prs+ScSg1:  merkiččizin
+     merkitä+V+Cond+Prs+ScSg2:  merkiččizit
+     merkitä+V+Cond+Prs+ScSg3:  merkiččis
+     merkitä+V+Cond+Prs+ScPl1:  merkiččizimmö
+     merkitä+V+Cond+Prs+ScPl2:  merkiččizittö
+     merkitä+V+Cond+Prs+ScPl3:  merkittäs
+     merkitä+V+Cond+Prs+ConNeg: merkiččis
+     merkitä+V+Cond+Prs+ConNeg+ScPl3:  merkittäs
+
+     merkitä+V+Cond+Prt+ScSg1:  merkinnyzin
+     merkitä+V+Cond+Prt+ScSg2:  merkinnyzit
+     merkitä+V+Cond+Prt+ScSg3:  merkinnys
+     merkitä+V+Cond+Prt+ScPl1:  merkinnyzimmö
+     merkitä+V+Cond+Prt+ScPl2:  merkinnyzittö
+     merkitä+V+Cond+Prt+ScPl3:  merkitännys
+     merkitä+V+Cond+Prt+ConNeg: merkinnys
+     merkitä+V+Cond+Prt+ConNeg+ScPl3:  merkitännys
+
+     merkitä+V+Pot+ScSg1:  merkinnen
+     merkitä+V+Pot+ScSg2:  merkinnet
+     merkitä+V+Pot+ScSg3:  merkinnöy
+     merkitä+V+Pot+ScPl1:  merkinnemmö
+     merkitä+V+Pot+ScPl2:  merkinnettö
+     merkitä+V+Pot+ScPl3:  merkitänneh
+     merkitä+V+Pot+ConNeg: merkinne
+     merkitä+V+Pot+ConNeg+ScPl3:  merkitänne
+
+     merkitä+V+Imprt+ScSg2:  merkiče
+     merkitä+V+Imprt+ScSg3:  merkikkäh
+     merkitä+V+Imprt+ScPl1:  merkikkiämmö
+     merkitä+V+Imprt+ScPl2: [merkikkiä, merkikkiättö]
+     merkitä+V+Imprt+ScPl3:  merkittähes
+     merkitä+V+Imprt+ConNeg+ScSg2: merkiče
+     merkitä+V+Imprt+ConNeg+ScSg3: merkikkäh
+     merkitä+V+Imprt+ConNeg+ScPl1: merkikkiämmö
+     merkitä+V+Imprt+ConNeg+ScPl2: merkikkiä
+     merkitä+V+Imprt+ConNeg+ScPl3: merkittähes
+
+
+     merkitä+V+ActPrsPrc+Sg+Nom: merkiččii
+     merkitä+V+ActPrsPrc+Sg+Gen: merkiččijan
+     merkitä+V+ActPrsPrc+Sg+Acc: [merkiččii, merkiččijan]
+     merkitä+V+ActPrsPrc+Sg+Par: merkiččijiä
+     merkitä+V+ActPrsPrc+Sg+Ess: merkiččijanny
+     merkitä+V+ActPrsPrc+Sg+Tra: merkiččijakse
+     merkitä+V+ActPrsPrc+Sg+Ine: merkiččijas
+     merkitä+V+ActPrsPrc+Sg+Ela: [merkiččijaspäi, merkiččijas]
+     merkitä+V+ActPrsPrc+Sg+Ill: merkiččijah
+     merkitä+V+ActPrsPrc+Sg+Ade: merkiččijal
+     merkitä+V+ActPrsPrc+Sg+Abl: [merkiččijalpäi, merkiččijal]
+     merkitä+V+ActPrsPrc+Sg+All: merkiččijale
+     merkitä+V+ActPrsPrc+Sg+Abe: merkiččijattäh
+     merkitä+V+ActPrsPrc+Sg+Com: merkiččijanke
+     merkitä+V+ActPrsPrc+Sg+Prl: merkiččijači
+     merkitä+V+ActPrsPrc+Pl+Nom: merkiččijat
+     merkitä+V+ActPrsPrc+Pl+Gen: merkiččijoin
+     merkitä+V+ActPrsPrc+Pl+Acc: merkiččijat
+     merkitä+V+ActPrsPrc+Pl+Par: merkiččijoi
+     merkitä+V+ActPrsPrc+Pl+Ess: merkiččijoinny
+     merkitä+V+ActPrsPrc+Pl+Tra: merkiččijoikse
+     merkitä+V+ActPrsPrc+Pl+Ine: merkiččijois
+     merkitä+V+ActPrsPrc+Pl+Ela: [merkiččijoispäi, merkiččijois]
+     merkitä+V+ActPrsPrc+Pl+Ill: merkiččijoih
+     merkitä+V+ActPrsPrc+Pl+Ade: merkiččijoil
+     merkitä+V+ActPrsPrc+Pl+Abl: [merkiččijoilpäi, merkiččijoil]
+     merkitä+V+ActPrsPrc+Pl+All: merkiččijoile
+     merkitä+V+ActPrsPrc+Pl+Abe: merkiččijoittäh
+     merkitä+V+ActPrsPrc+Pl+Com: merkiččijoinke
+     merkitä+V+ActPrsPrc+Pl+Prl: merkiččijoiči
+     merkitä+V+ActPrsPrc+Pl+Ins: merkiččijoin
+
+
+     merkitä+V+PssPrsPrc+Sg+Nom: merkittävy
+     merkitä+V+PssPrsPrc+Sg+Gen: merkittävän
+     merkitä+V+PssPrsPrc+Sg+Acc: [merkittävy, merkittävän]
+     merkitä+V+PssPrsPrc+Sg+Par: merkittäviä
+     merkitä+V+PssPrsPrc+Sg+Ess: merkittävänny
+     merkitä+V+PssPrsPrc+Sg+Tra: merkittäväkse
+     merkitä+V+PssPrsPrc+Sg+Ine: merkittäväs
+     merkitä+V+PssPrsPrc+Sg+Ela: [merkittäväspäi, merkittäväs]
+     merkitä+V+PssPrsPrc+Sg+Ill: merkittäväh
+     merkitä+V+PssPrsPrc+Sg+Ade: merkittäväl
+     merkitä+V+PssPrsPrc+Sg+Abl: [merkittävälpäi, merkittäväl]
+     merkitä+V+PssPrsPrc+Sg+All: merkittäväle
+     merkitä+V+PssPrsPrc+Sg+Abe: merkittävättäh
+     merkitä+V+PssPrsPrc+Sg+Com: merkittävänke
+     merkitä+V+PssPrsPrc+Sg+Prl: merkittäväči
+
+     merkitä+V+PssPrsPrc+Pl+Nom: merkittävät
+     merkitä+V+PssPrsPrc+Pl+Gen: merkittävien
+     merkitä+V+PssPrsPrc+Pl+Acc: merkittävät
+     merkitä+V+PssPrsPrc+Pl+Par: merkittävii
+     merkitä+V+PssPrsPrc+Pl+Ess: merkittävinny
+     merkitä+V+PssPrsPrc+Pl+Tra: merkittävikse
+     merkitä+V+PssPrsPrc+Pl+Ine: merkittävis
+     merkitä+V+PssPrsPrc+Pl+Ela: [merkittävispäi, merkittävis]
+     merkitä+V+PssPrsPrc+Pl+Ill: merkittävih
+     merkitä+V+PssPrsPrc+Pl+Ade: merkittävil
+     merkitä+V+PssPrsPrc+Pl+Abl: [merkittävilpäi, merkittävil]
+     merkitä+V+PssPrsPrc+Pl+All: merkittävile
+     merkitä+V+PssPrsPrc+Pl+Abe: merkittävittäh
+     merkitä+V+PssPrsPrc+Pl+Com: merkittävienke
+     merkitä+V+PssPrsPrc+Pl+Prl: merkittäviči
+     merkitä+V+PssPrsPrc+Pl+Ins: merkittävin
+
+     merkitä+V+ActPrfPrc+Sg+Nom: merkinnyh
+     merkitä+V+ActPrfPrc+Sg+Gen: merkinnyön
+     merkitä+V+ActPrfPrc+Sg+Acc: [merkinnyh, merkinnyön]
+     merkitä+V+ActPrfPrc+Sg+Par: merkinnytty
+     merkitä+V+ActPrfPrc+Sg+Ess: merkinnyönny
+     merkitä+V+ActPrfPrc+Sg+Tra: merkinnyökse
+     merkitä+V+ActPrfPrc+Sg+Ine: merkinnyös
+     merkitä+V+ActPrfPrc+Sg+Ela: [merkinnyöspäi, merkinnyös]
+     merkitä+V+ActPrfPrc+Sg+Ill: merkinnyöh
+     merkitä+V+ActPrfPrc+Sg+Ade: merkinnyöl
+     merkitä+V+ActPrfPrc+Sg+Abl: [merkinnyölpäi, merkinnyöl]
+     merkitä+V+ActPrfPrc+Sg+All: merkinnyöle
+     merkitä+V+ActPrfPrc+Sg+Abe: merkinnyöttäh
+     merkitä+V+ActPrfPrc+Sg+Com: merkinnyönke
+     merkitä+V+ActPrfPrc+Sg+Prl: merkinnyöči
+
+     merkitä+V+ActPrfPrc+Pl+Nom: merkinnyöt
+     merkitä+V+ActPrfPrc+Pl+Gen: merkinnyzien
+     merkitä+V+ActPrfPrc+Pl+Acc: merkinnyöt
+     merkitä+V+ActPrfPrc+Pl+Par: merkinnyzii
+     merkitä+V+ActPrfPrc+Pl+Ess: merkinnyzinny
+     merkitä+V+ActPrfPrc+Pl+Tra: merkinnyzikse
+     merkitä+V+ActPrfPrc+Pl+Ine: merkinnyzis
+     merkitä+V+ActPrfPrc+Pl+Ela: [merkinnyzispäi, merkinnyzis]
+     merkitä+V+ActPrfPrc+Pl+Ill: merkinnyzih
+     merkitä+V+ActPrfPrc+Pl+Ade: merkinnyzil
+     merkitä+V+ActPrfPrc+Pl+Abl: [merkinnyzilpäi, merkinnyzil]
+     merkitä+V+ActPrfPrc+Pl+All: merkinnyzile
+     merkitä+V+ActPrfPrc+Pl+Abe: merkinnyzittäh
+     merkitä+V+ActPrfPrc+Pl+Com: merkinnyzienke
+     merkitä+V+ActPrfPrc+Pl+Prl: merkinnyziči
+
+

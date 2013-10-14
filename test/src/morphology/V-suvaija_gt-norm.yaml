@@ -1,0 +1,172 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - suvaija: # Verb 'to love / rakastaa' - full paradigm
+     suvaija+V+Ind+Prs+ScSg1: suvaičen
+     suvaija+V+Ind+Prs+ScSg2: suvaičet
+     suvaija+V+Ind+Prs+ScSg3: suvaiččou
+     suvaija+V+Ind+Prs+ScPl1: suvaičemmo
+     suvaija+V+Ind+Prs+ScPl2: suvaičetto
+     suvaija+V+Ind+Prs+ScPl3: suvaijah
+     suvaija+V+Ind+Prs+ConNeg: suvaiče
+
+     suvaija+V+Ind+Prt+ScSg1: suvaičin
+     suvaija+V+Ind+Prt+ScSg2: suvaičit
+     suvaija+V+Ind+Prt+ScSg3: suvaičči
+     suvaija+V+Ind+Prt+ScPl1: suvaičimmo
+     suvaija+V+Ind+Prt+ScPl2: suvaičitto
+     suvaija+V+Ind+Prt+ScPl3: suvaittih
+     suvaija+V+Ind+Prt+ConNeg: suvainnuh
+     suvaija+V+Ind+Prt+ConNeg+ScPl3: suvaittu
+
+     suvaija+V+Cond+Prs+ScSg1:  suvaiččizin
+     suvaija+V+Cond+Prs+ScSg2:  suvaiččizit
+     suvaija+V+Cond+Prs+ScSg3:  suvaiččis
+     suvaija+V+Cond+Prs+ScPl1:  suvaiččizimmo
+     suvaija+V+Cond+Prs+ScPl2:  suvaiččizitto
+     suvaija+V+Cond+Prs+ScPl3:  suvaittas
+     suvaija+V+Cond+Prs+ConNeg: suvaiččis
+     suvaija+V+Cond+Prs+ConNeg+ScPl3:  suvaittas
+
+     suvaija+V+Cond+Prt+ScSg1:  suvainnuzin
+     suvaija+V+Cond+Prt+ScSg2:  suvainnuzit
+     suvaija+V+Cond+Prt+ScSg3:  suvainnus
+     suvaija+V+Cond+Prt+ScPl1:  suvainnuzimmo
+     suvaija+V+Cond+Prt+ScPl2:  suvainnuzitto
+     suvaija+V+Cond+Prt+ScPl3:  suvaitannus
+     suvaija+V+Cond+Prt+ConNeg: suvainnus
+     suvaija+V+Cond+Prt+ConNeg+ScPl3:  suvaitannus
+
+     suvaija+V+Pot+ScSg1:  suvainnen
+     suvaija+V+Pot+ScSg2:  suvainnet
+     suvaija+V+Pot+ScSg3:  suvainnou
+     suvaija+V+Pot+ScPl1:  suvainnemmo
+     suvaija+V+Pot+ScPl2:  suvainnetto
+     suvaija+V+Pot+ScPl3:  suvaitanneh
+     suvaija+V+Pot+ConNeg: suvainne
+     suvaija+V+Pot+ConNeg+ScPl3:  suvaitanne
+
+     suvaija+V+Imprt+ScSg2:  suvaiče
+     suvaija+V+Imprt+ScSg3:  suvaikkah
+     suvaija+V+Imprt+ScPl1:  suvaikkuammo
+     suvaija+V+Imprt+ScPl2: [suvaikkua, suvaikkuatto]
+     suvaija+V+Imprt+ScPl3:  suvaittahes
+     suvaija+V+Imprt+ConNeg+ScSg2: suvaiče
+     suvaija+V+Imprt+ConNeg+ScSg3: suvaikkah
+     suvaija+V+Imprt+ConNeg+ScPl1: suvaikkuammo
+     suvaija+V+Imprt+ConNeg+ScPl2: suvaikkua
+     suvaija+V+Imprt+ConNeg+ScPl3: suvaittahes
+
+
+     suvaija+V+ActPrsPrc+Sg+Nom: suvaiččii
+     suvaija+V+ActPrsPrc+Sg+Gen: suvaiččijan
+     suvaija+V+ActPrsPrc+Sg+Acc: [suvaiččii, suvaiččijan]
+     suvaija+V+ActPrsPrc+Sg+Par: suvaiččijua
+     suvaija+V+ActPrsPrc+Sg+Ess: suvaiččijannu
+     suvaija+V+ActPrsPrc+Sg+Tra: suvaiččijakse
+     suvaija+V+ActPrsPrc+Sg+Ine: suvaiččijas
+     suvaija+V+ActPrsPrc+Sg+Ela: [suvaiččijaspäi, suvaiččijas]
+     suvaija+V+ActPrsPrc+Sg+Ill: suvaiččijah
+     suvaija+V+ActPrsPrc+Sg+Ade: suvaiččijal
+     suvaija+V+ActPrsPrc+Sg+Abl: [suvaiččijalpäi, suvaiččijal]
+     suvaija+V+ActPrsPrc+Sg+All: suvaiččijale
+     suvaija+V+ActPrsPrc+Sg+Abe: suvaiččijattah
+     suvaija+V+ActPrsPrc+Sg+Com: suvaiččijanke
+     suvaija+V+ActPrsPrc+Sg+Prl: suvaiččijači
+     suvaija+V+ActPrsPrc+Pl+Nom: suvaiččijat
+     suvaija+V+ActPrsPrc+Pl+Gen: suvaiččijoin
+     suvaija+V+ActPrsPrc+Pl+Acc: suvaiččijat
+     suvaija+V+ActPrsPrc+Pl+Par: suvaiččijoi
+     suvaija+V+ActPrsPrc+Pl+Ess: suvaiččijoinnu
+     suvaija+V+ActPrsPrc+Pl+Tra: suvaiččijoikse
+     suvaija+V+ActPrsPrc+Pl+Ine: suvaiččijois
+     suvaija+V+ActPrsPrc+Pl+Ela: [suvaiččijoispäi, suvaiččijois]
+     suvaija+V+ActPrsPrc+Pl+Ill: suvaiččijoih
+     suvaija+V+ActPrsPrc+Pl+Ade: suvaiččijoil
+     suvaija+V+ActPrsPrc+Pl+Abl: [suvaiččijoilpäi, suvaiččijoil]
+     suvaija+V+ActPrsPrc+Pl+All: suvaiččijoile
+     suvaija+V+ActPrsPrc+Pl+Abe: suvaiččijoittah
+     suvaija+V+ActPrsPrc+Pl+Com: suvaiččijoinke
+     suvaija+V+ActPrsPrc+Pl+Prl: suvaiččijoiči
+     suvaija+V+ActPrsPrc+Pl+Ins: suvaiččijoin
+
+
+     suvaija+V+PssPrsPrc+Sg+Nom: suvaittavu
+     suvaija+V+PssPrsPrc+Sg+Gen: suvaittavan
+     suvaija+V+PssPrsPrc+Sg+Acc: [suvaittavu, suvaittavan]
+     suvaija+V+PssPrsPrc+Sg+Par: suvaittavua
+     suvaija+V+PssPrsPrc+Sg+Ess: suvaittavannu
+     suvaija+V+PssPrsPrc+Sg+Tra: suvaittavakse
+     suvaija+V+PssPrsPrc+Sg+Ine: suvaittavas
+     suvaija+V+PssPrsPrc+Sg+Ela: [suvaittavaspäi, suvaittavas]
+     suvaija+V+PssPrsPrc+Sg+Ill: suvaittavah
+     suvaija+V+PssPrsPrc+Sg+Ade: suvaittaval
+     suvaija+V+PssPrsPrc+Sg+Abl: [suvaittavalpäi, suvaittaval]
+     suvaija+V+PssPrsPrc+Sg+All: suvaittavale
+     suvaija+V+PssPrsPrc+Sg+Abe: suvaittavattah
+     suvaija+V+PssPrsPrc+Sg+Com: suvaittavanke
+     suvaija+V+PssPrsPrc+Sg+Prl: suvaittavači
+
+     suvaija+V+PssPrsPrc+Pl+Nom: suvaittavat
+     suvaija+V+PssPrsPrc+Pl+Gen: suvaittavien
+     suvaija+V+PssPrsPrc+Pl+Acc: suvaittavat
+     suvaija+V+PssPrsPrc+Pl+Par: suvaittavii
+     suvaija+V+PssPrsPrc+Pl+Ess: suvaittavinnu
+     suvaija+V+PssPrsPrc+Pl+Tra: suvaittavikse
+     suvaija+V+PssPrsPrc+Pl+Ine: suvaittavis
+     suvaija+V+PssPrsPrc+Pl+Ela: [suvaittavispäi, suvaittavis]
+     suvaija+V+PssPrsPrc+Pl+Ill: suvaittavih
+     suvaija+V+PssPrsPrc+Pl+Ade: suvaittavil
+     suvaija+V+PssPrsPrc+Pl+Abl: [suvaittavilpäi, suvaittavil]
+     suvaija+V+PssPrsPrc+Pl+All: suvaittavile
+     suvaija+V+PssPrsPrc+Pl+Abe: suvaittavittah
+     suvaija+V+PssPrsPrc+Pl+Com: suvaittavienke
+     suvaija+V+PssPrsPrc+Pl+Prl: suvaittaviči
+     suvaija+V+PssPrsPrc+Pl+Ins: suvaittavin
+
+     suvaija+V+ActPrfPrc+Sg+Nom: suvainnuh
+     suvaija+V+ActPrfPrc+Sg+Gen: suvainnuon
+     suvaija+V+ActPrfPrc+Sg+Acc: [suvainnuh, suvainnuon]
+     suvaija+V+ActPrfPrc+Sg+Par: suvainnuttu
+     suvaija+V+ActPrfPrc+Sg+Ess: suvainnuonnu
+     suvaija+V+ActPrfPrc+Sg+Tra: suvainnuokse
+     suvaija+V+ActPrfPrc+Sg+Ine: suvainnuos
+     suvaija+V+ActPrfPrc+Sg+Ela: [suvainnuospäi, suvainnuos]
+     suvaija+V+ActPrfPrc+Sg+Ill: suvainnuoh
+     suvaija+V+ActPrfPrc+Sg+Ade: suvainnuol
+     suvaija+V+ActPrfPrc+Sg+Abl: [suvainnuolpäi, suvainnuol]
+     suvaija+V+ActPrfPrc+Sg+All: suvainnuole
+     suvaija+V+ActPrfPrc+Sg+Abe: suvainnuottah
+     suvaija+V+ActPrfPrc+Sg+Com: suvainnuonke
+     suvaija+V+ActPrfPrc+Sg+Prl: suvainnuoči
+
+     suvaija+V+ActPrfPrc+Pl+Nom: suvainnuot
+     suvaija+V+ActPrfPrc+Pl+Gen: suvainnuzien
+     suvaija+V+ActPrfPrc+Pl+Acc: suvainnuot
+     suvaija+V+ActPrfPrc+Pl+Par: suvainnuzii
+     suvaija+V+ActPrfPrc+Pl+Ess: suvainnuzinnu
+     suvaija+V+ActPrfPrc+Pl+Tra: suvainnuzikse
+     suvaija+V+ActPrfPrc+Pl+Ine: suvainnuzis
+     suvaija+V+ActPrfPrc+Pl+Ela: [suvainnuzispäi, suvainnuzis]
+     suvaija+V+ActPrfPrc+Pl+Ill: suvainnuzih
+     suvaija+V+ActPrfPrc+Pl+Ade: suvainnuzil
+     suvaija+V+ActPrfPrc+Pl+Abl: [suvainnuzilpäi, suvainnuzil]
+     suvaija+V+ActPrfPrc+Pl+All: suvainnuzile
+     suvaija+V+ActPrfPrc+Pl+Abe: suvainnuzittah
+     suvaija+V+ActPrfPrc+Pl+Com: suvainnuzienke
+     suvaija+V+ActPrfPrc+Pl+Prl: suvainnuziči
+
+

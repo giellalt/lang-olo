@@ -94,15 +94,14 @@ LEXICON V_AVATA !!= @CODE@ typätä:typpä
 
 LEXICON V_SUVAIJA !!= @CODE@ suvaija:suvai
 !Verbs of the Finnish type 5
-+V:čče INDPRSSG1 ;
-+V:čče INDPRSSG2 ;
-+V:čč%{oö%} INDPRSSG3 ;
-+V:čče INDPRSPL1 ;
-+V:čče INDPRSPL2 ;
-+V: INDPRSPL3_jAh ;
-+V:čče INDPRSCONNEG ;
++V: V-VV_05_SUVAIJA ;
+
+LEXICON V_MERKITÄ !!= @CODE@ merkitä:merki
+!Verbs of the Finnish type 5
++V: V-VV_05_MERKITÄ ;
 
 LEXICON V_ALETA !!= @CODE@ aleta:ale (alenov)
++V: V-VV_06 ;
 +V:ne INDPRSSG1 ;
 +V:ne INDPRSSG2 ;
 +V:n%{oö%} INDPRSSG3 ;
@@ -322,6 +321,107 @@ LEXICON V-VV_04
  PSSPRFPRC_ttU ;
 +Inf:%^WEAK%>t%{aä%} K ;
 :%>%{aä%} M-INF ; 
+
+LEXICON V-VV_05_SUVAIJA !! * @CODE@ suvaija:suvai
+:čče INDPRSSG1 ;
+:čče INDPRSSG2 ;
+:čč%{oö%} INDPRSSG3 ;
+:čče INDPRSPL1 ;
+:čče INDPRSPL2 ;
+ INDPRSPL3_jAh ;
+:čče INDPRSCONNEG_WEAK ;
+:čč INDPRTSG1     ;
+:čč INDPRTSG2     ;
+:čč INDPRTSG3     ;
+:čč INDPRTPL1     ;
+:čč INDPRTPL2     ;
+ INDPRTPL3_ttih     ;
+ INDPRTCONNEG_nnUh	   ;
+ INDPRTCONNEGPL3_ttU	   ;
+:čč CONDPRS_IS ;
+ CONDPRSPL3_ttAs ;
+ CONDPRT_nnUs ;
+ CONDPRTPL3_tAnnUs ;
+ POT_nnE ;
+ POTPL3_tAnneh ;
+ IMPRT_kkA ;
+ IMPRTPL3_ttAhes ;
+
+:čči ACTPRSPRC_PEZII ;
+ ACTPRFPRC_nnUH ;
+ PSSPRSPRC_ttAvU ;
+ PSSPRFPRC_ttU ;
+
+:čče M-INF	      ;
++Inf:%>j%{aäInf%} K ;
+
+
+LEXICON V-VV_05_MERKITÄ !! * @CODE@ merkitä:merki
+:čče INDPRSSG1 ;
+:čče INDPRSSG2 ;
+:čč%{oö%} INDPRSSG3 ;
+:čče INDPRSPL1 ;
+:čče INDPRSPL2 ;
+ INDPRSPL3_tAh ;
+:čče INDPRSCONNEG_WEAK ;
+:čč INDPRTSG1     ;
+:čč INDPRTSG2     ;
+:čč INDPRTSG3     ;
+:čč INDPRTPL1     ;
+:čč INDPRTPL2     ;
+ INDPRTPL3_ttih     ;
+ INDPRTCONNEG_nnUh	   ;
+ INDPRTCONNEGPL3_ttU	   ;
+:čč CONDPRS_IS ;
+ CONDPRSPL3_ttAs ;
+ CONDPRT_nnUs ;
+ CONDPRTPL3_tAnnUs ;
+ POT_nnE ;
+ POTPL3_tAnneh ;
+ IMPRT_kkA ;
+ IMPRTPL3_ttAhes ;
+
+:čči ACTPRSPRC_AVUAJU ;
+ ACTPRFPRC_nnUH ;
+ PSSPRSPRC_ttAvU ;
+ PSSPRFPRC_ttU ;
+
+:čče M-INF	      ;
++Inf:%>t%{aäInf%} K ;
+
+
+LEXICON V-VV_06
+:ne INDPRSSG1 ;
+:ne INDPRSSG2 ;
+:n%{oö%} INDPRSSG3 ;
+:ne INDPRSPL1 ;
+:ne INDPRSPL2 ;
+ INDPRSPL3_jAh ;
+:ne INDPRSCONNEG ;
+:n INDPRTSG1     ;
+:n INDPRTSG2     ;
+:n INDPRTSG3     ;
+:n INDPRTPL1     ;
+:n INDPRTPL2     ;
+ INDPRTPL3_tih     ;
+ INDPRTCONNEG_nnUh	   ;
+ INDPRTCONNEGPL3_ttU	   ;
+:n CONDPRS_IS ;
+ CONDPRSPL3_ttAs ;
+ CONDPRT_nnUs ;
+ CONDPRTPL3_tAnnUs ;
+ POT_nnE ;
+ POTPL3_tAnneh ;
+ IMPRT_kkA ;
+ IMPRTPL3_ttAhes ;
+
+ ACTPRSPRC_AVUAJU ;
+ ACTPRFPRC_nnUH ;
+ PSSPRSPRC_ttAvU ;
+ PSSPRFPRC_ttU ;
+
+:ne M-INF	      ;
++Inf:%>t%{aäInf%} K ;
 
 
 
