@@ -161,6 +161,28 @@
 
   <e>
     <lg>
+      <l pos="V">ajattua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">ajatta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">ajattaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V">ajella</l>
 
       <stg>
@@ -385,28 +407,6 @@
 
   <e>
     <lg>
-      <l pos="VR">anduakseh</l>
-
-      <stg>
-        <st Contlex="VR_KANDUA">anda</st>
-      </stg>
-    </lg>
-
-    <pos>VR</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="VR">sopia, soveltua, luontua, käydä laatuun; alistua</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="V">andua</l>
 
       <stg>
@@ -445,6 +445,50 @@
 
       <tg xml:lang="fin">
         <t pos="V">antaa selkiintyä, selvitä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">andua% keräle</l>
+
+      <stg>
+        <st Contlex="V_KANDUA">andua% keräle</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">antaa mukaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">anduakseh</l>
+
+      <stg>
+        <st Contlex="VR_KANDUA">anda</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">sopia, soveltua, luontua, käydä laatuun; alistua</t>
       </tg>
     </mg>
   </e>
@@ -555,6 +599,28 @@
 
       <tg xml:lang="fin">
         <t pos="V">arvata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">arvota</l>
+
+      <stg>
+        <st Contlex="V_AVATA">arvo</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">arvata, huomata, arvella, aavistaa; arvioida</t>
       </tg>
     </mg>
   </e>
@@ -686,6 +752,28 @@
       </m>
 
       <tg xml:lang="fin">
+        <t pos="V">aueta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">avavuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">avavu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
         <t pos="V">avautua</t>
       </tg>
     </mg>
@@ -777,10 +865,54 @@
       </m>
 
       <tg xml:lang="fin">
+        <t pos="V">tehdä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">azuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">azu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
         <t pos="V">tehdä, valmistaa, laatia, rakentaa; tervehtimisestä;
         saattaa, aiheuttaa; panna t. maksaa veroa; antaa apua; saada
         (mielitietty, tuttava); laulaa (itkuvirttä), sepittää, kirjoittaa;
         synnyttää; luoda silmänsä jhk</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">balovuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">balovu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lellitellä</t>
       </tg>
     </mg>
   </e>
@@ -2816,6 +2948,28 @@
 
   <e>
     <lg>
+      <l pos="V">huijata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">hyija</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">häpäistä, solvata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V">huikata</l>
 
       <stg>
@@ -2942,6 +3096,28 @@
 
       <tg xml:lang="fin">
         <t pos="V">huomata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">huovata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">huoba</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">huovata</t>
       </tg>
     </mg>
   </e>
@@ -3251,28 +3427,6 @@
 
       <tg xml:lang="fin">
         <t pos="V">puhua epäselvästi, sammaltaa; hutiloida</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">typätä</l>
-
-      <stg>
-        <st Contlex="V_TYPÄTÄ">typpä</st>
-      </stg>
-    </lg>
-
-    <pos>V</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="V">tilkitä; vaientaa; lahjoa; rikastua</t>
       </tg>
     </mg>
   </e>
@@ -4962,28 +5116,6 @@
 
   <e>
     <lg>
-      <l pos="V">kielastella</l>
-
-      <stg>
-        <st Contlex="V_TULLA">kielastel</st>
-      </stg>
-    </lg>
-
-    <pos>V</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="V">valehdella</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="V">kiduija</l>
 
       <stg>
@@ -5022,6 +5154,28 @@
 
       <tg xml:lang="fin">
         <t pos="V">kiehua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kielastella</l>
+
+      <stg>
+        <st Contlex="V_TULLA">kielastel</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">valehdella</t>
       </tg>
     </mg>
   </e>
@@ -5109,6 +5263,28 @@
       </m>
 
       <tg xml:lang="fin">
+        <t pos="V">kielitella, juoruilla, kaipailla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kielitellä</l>
+
+      <stg>
+        <st Contlex="V_TULLA">kielittel</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
         <t pos="V">kannella, kaivata jst, kieliä, juoruilla, kielitellä</t>
       </tg>
     </mg>
@@ -5138,28 +5314,6 @@
 
   <e>
     <lg>
-      <l pos="V">kierrellä</l>
-
-      <stg>
-        <st Contlex="V_TULLA">kierrellä</st>
-      </stg>
-    </lg>
-
-    <pos>V</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="V">kierrellä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="V">kierrata</l>
 
       <stg>
@@ -5176,6 +5330,28 @@
 
       <tg xml:lang="fin">
         <t pos="V">kerrata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kierrellä</l>
+
+      <stg>
+        <st Contlex="V_TULLA">kierrellä</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kierrellä</t>
       </tg>
     </mg>
   </e>
@@ -5396,6 +5572,29 @@
 
       <tg xml:lang="fin">
         <t pos="V">kiskoa; ryöstää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kižata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">kiža</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kisata, leikkiä, kilpailla; soittaa; tanssia; viettää t.
+        pitää häitä</t>
       </tg>
     </mg>
   </e>
@@ -5803,6 +6002,2050 @@
 
   <e>
     <lg>
+      <l pos="V">koukištuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">koukištu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">koukistua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuaduo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kuadu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kaatua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuduo</l>
+
+      <stg>
+        <st Contlex="V_PUNUO">kudo</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kutoa (kangasta, verkkoa, koria, tuohikonttia, virsuja);
+        tehdä kivistä rakennetta (kiuasta, kiviaitaa); muurata; kutea</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuduo% verkuo</l>
+
+      <stg>
+        <st Contlex="V_PUNUO">kuduo% verko</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kutoa verkkoa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kudvata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">kudva</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">liikauttaa, liikuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuihtuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kuihtu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kuihtua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuivata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">kuiva</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kuivata, kuivattaa, kuivaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuivuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kuivu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kuivua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kukkuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kukku</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kukkua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kullata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">kulda</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kullata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kullevuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kullevu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kovettua, kuivua kovaksi; tylstyä; pinttyä (Mäkriä)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuluo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kulu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kulua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kumata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">kuma</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kumota, kaataa, kääntää kumolleen; kumota valta t. päätös;
+        kumista</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kumavuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kumavu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">mennä kumoon, kaatua; raueta, kumoutua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kunehtuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kunehtu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">vedestä: vähetä, laskea, kuivua, kiehua kuiviin; kuivaa,
+        kuivahtaa; kutistua, pienetä, laihtua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kunnivoija</l>
+
+      <stg>
+        <st Contlex="V_SUVAIJA">kunnivoi</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kunnioittaa; kohdella hyvin; kestitä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuobevuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kuobevu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">hankautua, kulua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuohuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kuohu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kuohua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuolta</l>
+
+      <stg>
+        <st Contlex="V_TULLA">kuol</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kuolla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuorzata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">kuorza</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kuorsata, tav, kuorzuo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuotella</l>
+
+      <stg>
+        <st Contlex="V_TULLA">kuotella</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">koetella, tunnustella (vars.karjala); koettaa, yrittää
+        (vars.karjala)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuulla</l>
+
+      <stg>
+        <st Contlex="V_TULLA">kuul</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kuulla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuuluo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kuulu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kuulua; tuntua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuunella</l>
+
+      <stg>
+        <st Contlex="V_TULLA">kuunella</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kuunnella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuvailla</l>
+
+      <stg>
+        <st Contlex="V_TULLA">kuvail</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kuvailla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuvata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">kuva</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">tehdä, valmistaa, tehdä aihioita, tehdä kuvalleen, kaavata,
+        panna kokoon (ei valmiiksi asti)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kučerduo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kučerdu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">käpertyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kučištuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kučištu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kutistua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kuččuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">kučču</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kutsua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kylmätä</l>
+
+      <stg>
+        <st Contlex="V_AVATA">kylmä</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kylmettää, palelluttaa; jäädyttää, routaantua; jättää
+        kylmilleen; palelluttaa torakoita (jättämällä talo kylmilleen);</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kyndžätä</l>
+
+      <stg>
+        <st Contlex="V_AVATA">kyndžä</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kynsäistä, raapaista</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kyvellä</l>
+
+      <stg>
+        <st Contlex="V_TULLA">kyvel</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kyteä vähän</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kyzellä</l>
+
+      <stg>
+        <st Contlex="V_TULLA">kyzel</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kysellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kählätä</l>
+
+      <stg>
+        <st Contlex="V_AVATA">kählä</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kyhätä tekaista</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">kävellä</l>
+
+      <stg>
+        <st Contlex="V_TULLA">kävel</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kävellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lad'd'ata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">ladda</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">pinota, latoa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lagevuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">lagevu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">muuttua lakeaksi, avartua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lagovuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">lagovu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">mennä lakoon, lakoontua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lahota</l>
+
+      <stg>
+        <st Contlex="V_AVATA">laho</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lahota</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">laihinoija</l>
+
+      <stg>
+        <st Contlex="V_SUVAIJA">laihinoi</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lainata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">laihtuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">laihtu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">laihtua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">laikata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">laikka</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">nielaista (kuuluvasti), kulauttaa, lainota; siemaista</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lainota</l>
+
+      <stg>
+        <st Contlex="V_AVATA">lain</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">niellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lapsevuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">lapsevu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">saada lapsia, hankkia lapsia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">laputtua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">laputta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">taputtaa; laputtaa, lähteä pois</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">laskettua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">lasketta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">riisua valjaista, riisua hevonen; siivilöidä; povauttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">laskettuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">laskettu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">päästä irti, päästä valjaista; ratketa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lauhtuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">lauhtu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lauhtua; kostua; leppyä, tyyntyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lauhtuttua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">lauhtutta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kostuttaa; lepyttää; lohduttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lačendua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">lačenda</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">tasoittaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">laškotella</l>
+
+      <stg>
+        <st Contlex="V_TULLA">laškottel</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">laiskotella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">leikata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">leikka</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">leikata; hakata t. sahata t. tehdä aukko, ikkuna yms.</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">leikkavuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">leikkavu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">leikkautua; tulla leikatuksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">leikkuo</l>
+
+      <stg>
+        <st Contlex="V_PUNUO">leikko</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">leikata, leikkoa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lekahuttua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">lekahutta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">liikauttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lekkuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">lekku</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">heilua, keikkua; läikkyä; liikuskella, maleksia;
+        puuhailla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lekuttua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">lekutta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">heiluttaa, keikuttaa; pudistaa (päätään).</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lemmitellä</l>
+
+      <stg>
+        <st Contlex="V_TULLA">lemmittel</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lohduttaa, lepyttää, hyvitellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lendellä</l>
+
+      <stg>
+        <st Contlex="V_TULLA">lendellä</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lennellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">levvata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">levga</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kirota, haukkua, moittia; puhua, juoruta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">levätä</l>
+
+      <stg>
+        <st Contlex="V_AVATA">levä</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">levätä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">libuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">libu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">alkaa, ryhtyä (hitaasti t. vastahakoisesti); päästä alkuun,
+        vauhtiin, lähtemään; ottaa vauhtia; innostua, intoutua, yltyä,
+        riehaantua; kääntyä, taipua, muuttua; mennä hiljalleen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">liedžuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">liedžu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">keinua, kiikkua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">liedžuttua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">liedžutta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">keinuttaa, kiikuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">liegata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">liega</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">panna liekaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">liehuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">liehu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">liehua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">ligavuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">ligavu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">likaantua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">ligavuttua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">ligavutta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">liata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lihota</l>
+
+      <stg>
+        <st Contlex="V_AVATA">liho</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lihoa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">liiellä</l>
+
+      <stg>
+        <st Contlex="V_TULLA">liiellä</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">liidellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">liijellä</l>
+
+      <stg>
+        <st Contlex="V_TULLA">liide</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">liidellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">liikkuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">liikku</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">liikkua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">liikuttua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">liikutta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">liikuttaa, siirtää paikaltaan; tuudittaa, keinuttaa;
+        hämmentää; pöyhiä; koskettaa, liikuttaa; loukata, satuttaa; kyntää,
+        muokata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lijata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">liga</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">liata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lipata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">lippa</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">heittää, viskata, lennättää, roiskuttaa, tuiskuttaa,
+        kinostaa; kääntää; luoda; kietaista; iskeä silmää; vinkata sormella;
+        harppoa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lipsata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">lipsa</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lipoa (kielellään), pistellä (poskeensa)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">liruttua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">lirutta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">soittaa huilua, lurittaa, liruttaa; kusta, pissata,
+        lirittää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">livahtua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">livahta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">livahtaa (vars.karjala)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">livata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">liva</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">selata, käännellä; kääntää auki, avata; taittaa kokoon,
+        kääriä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">livottua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">livotta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">liottaa; kastella läpimäräksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">livuttua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">livutta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">panna alulle; antaa t. panna vauhtia; kiihdyttää; yllyttää,
+        innostaa, saada innostumaan; edistää; piristää; liioitella,
+        suurennella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">ličata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">ličča</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">painaa, puristaa, pusertaa; likistää; tunkea, ahtaa;
+        mättää; tupata, tyrkyttää; ahmia; pakottaa, teettää väkisin; ahdistaa,
+        kivistää; inttää, väittää; puoltaa (sahasta); puristaa, ollaa ahtaat
+        (jalkineista)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">liččavuo</l>
+
+      <stg>
+        <st Contlex="V_VALUO">liččavu</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">painua, puristua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">ližäillä</l>
+
+      <stg>
+        <st Contlex="V_TULLA">ližäil</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lisäillä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">ližätä</l>
+
+      <stg>
+        <st Contlex="V_AVATA">ližä</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lisätä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lodaittua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">lodaitta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kolisuttaa, kolistella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lodrata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">lodra</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kailottaa, hölöttää; juoruta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lohkata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">lohka</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lohkaista</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">lohkuo</l>
+
+      <stg>
+        <st Contlex="V_PUNUO">lohko</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">lohkoa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">loikottua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">loikotta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">loimottaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">loiskua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">loiska</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">loiskia, loiskata (vars.karjala)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">loitondua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">loitonda</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">siirtää kauemmaksi, loitontaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V">olla</l>
 
       <stg>
@@ -5819,6 +8062,204 @@
 
       <tg xml:lang="fin">
         <t pos="V">olla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">ostua</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">osta</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">ostaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">ostua% kai</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">osta% kai</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">ostaa kaikki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">ostua% kylläl</l>
+
+      <stg>
+        <st Contlex="V_OTTUA">ostua% kylläl</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">ostaa tarpeeksi, o. kylliksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">pestä</l>
+
+      <stg>
+        <st Contlex="V_PESTÄ">pes</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">pestä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">pestä% kai</l>
+
+      <stg>
+        <st Contlex="V_PESTÄ">pestä% kai</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">pestä kaikki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">pestä% uvvessah</l>
+
+      <stg>
+        <st Contlex="V_PESTÄ">pestä% uvvessah</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">pestä uudestaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">salvata</l>
+
+      <stg>
+        <st Contlex="V_AVATA">salba</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">salvata, teljetä, panna umpeen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">tulla</l>
+
+      <stg>
+        <st Contlex="V_TULLA">tul</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">tulla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V">typätä</l>
+
+      <stg>
+        <st Contlex="V_TYPÄTÄ">typpä</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">tilkitä; vaientaa; lahjoa; rikastua</t>
       </tg>
     </mg>
   </e>
