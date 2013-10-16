@@ -349,7 +349,7 @@ Livvi nouns inflect in cases.
  LEXICON N_KYNDÖ  kyndö:kyndö
 
 
-NMN
+!NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
 
 
 
@@ -382,11 +382,21 @@ NMN
 
 
 
+ LEXICON NMN_OSTAI  ostua:osta%>j
+
+
+
+ LEXICON NMN_PEZII  pestä:pezi%>j
+
+
+
  LEXICON NMN_PESSYH  pessyh
 
+! Nominative singular in "h"
 
 * LEXICON NMN_PESSYH  the +Pl+Com comes here
 
+! Nominative singular in "m"
 
 
 
@@ -396,12 +406,7 @@ NMN
 
 
 
-
-
-
-
-
-
+! Nominative singular in "n"
 
 
  LEXICON NMN_RUNO  runo:runo
@@ -411,6 +416,13 @@ NMN
 
 
 
+
+! Nominative singular in "r"
+
+
+
+
+! Nominative singular in "s"
  LEXICON NMN_PUHTAHUS  puhtahus:puhtahu
 
 
@@ -432,7 +444,6 @@ NMN
 
 
 
-
  LEXICON NMN_KUU  kuu:kuu
 
 
@@ -446,6 +457,7 @@ NMN
 **Yaml: __pada__
 
 
+! Nominative singular in "l"
  LEXICON NMN_KARJAL  karjal:karjal
 
 
@@ -474,6 +486,13 @@ NMN
 
 
 
+
+
+
+
+
+! Nominative singular in "v"
+* LEXICON NMN_SÄYNÄ  Abramov:Abramov
 
 
 
@@ -545,7 +564,6 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
  LEXICON V_AVATA  typätä:typpä
 
 
-
  LEXICON V_SUVAIJA  suvaija:suvai
 
  LEXICON V_ALETA  aleta:ale (alenov)
@@ -579,14 +597,38 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
 
+
+
+
+
+
+
+
+
 Nonfinites
 
 Finites
 Indicative
+* LEXICON VR_SUVAIJAKSEH  type 04
 
 
 
 Conditional
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -671,6 +713,8 @@ Conditional
 
 
 
+
+
 Right context for gradation
 
 
@@ -694,15 +738,13 @@ __%{aä%}:i__
 
 __%{aä%}:y__
 
-__%{aä%}:u__
+__%{aä%}:0__
 
 __%{aä%}:0__
 
 
-
 __%{ui%}:u__
 * %^WEAK:0  ! imperative forms
-
 
 __A2:a__
 
@@ -728,7 +770,13 @@ __a:0 in suaja:sai__
  *  a _ %> i ;  Vowel shortening before subsequent "i"
 
 
+!iToj between vowels
 __i:j__
+
+*  a _ %> i ;  +ActPrsPrc
+
+
+
 
 __a:o in the plural and preterite__
 
@@ -775,7 +823,7 @@ __ld:ll weakening__
    Vws l %> _ GRC ;  tulla+Ind+Prs+ScPl3: tullah
 
 __nd:nn weakening__  
-   Vws ( %^WEAK:0 %>: ) n %> _ GRC ;  mennä+Ind+Prs+ScPl3: mennäh
+   Vws ( %^WEAK:0 %> ) n %> _ GRC ;  mennä+Ind+Prs+ScPl3: mennäh
 
 __rn:rr in prtprc__  
 
@@ -786,6 +834,8 @@ __sn:ss in prtprc__
 
 
 __kToZero__  aika: ajan
+*   Vws ( %^WEAK:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
+
 
 
 
