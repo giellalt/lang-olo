@@ -52,6 +52,8 @@
 
 
 
+
+
 Right context for gradation
 
 
@@ -75,15 +77,13 @@ __%{aä%}:i__
 
 __%{aä%}:y__
 
-__%{aä%}:u__
+__%{aä%}:0__
 
 __%{aä%}:0__
 
 
-
 __%{ui%}:u__
 * %^WEAK:0  ! imperative forms
-
 
 __A2:a__
 
@@ -109,7 +109,13 @@ __a:0 in suaja:sai__
  *  a _ %> i ;  Vowel shortening before subsequent "i"
 
 
+!iToj between vowels
 __i:j__
+
+*  a _ %> i ;  +ActPrsPrc
+
+
+
 
 __a:o in the plural and preterite__
 
@@ -156,7 +162,7 @@ __ld:ll weakening__
    Vws l %> _ GRC ;  tulla+Ind+Prs+ScPl3: tullah
 
 __nd:nn weakening__  
-   Vws ( %^WEAK:0 %>: ) n %> _ GRC ;  mennä+Ind+Prs+ScPl3: mennäh
+   Vws ( %^WEAK:0 %> ) n %> _ GRC ;  mennä+Ind+Prs+ScPl3: mennäh
 
 __rn:rr in prtprc__  
 
@@ -167,6 +173,8 @@ __sn:ss in prtprc__
 
 
 __kToZero__  aika: ajan
+*   Vws ( %^WEAK:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
+
 
 
 
