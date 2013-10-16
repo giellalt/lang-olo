@@ -221,7 +221,7 @@ Livvi nouns inflect in cases.
  LEXICON N_KYNDÖ  kyndö:kyndö
 
 
-NMN
+!NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
 
 
 
@@ -254,11 +254,21 @@ NMN
 
 
 
+ LEXICON NMN_OSTAI  ostua:osta%>j
+
+
+
+ LEXICON NMN_PEZII  pestä:pezi%>j
+
+
+
  LEXICON NMN_PESSYH  pessyh
 
+! Nominative singular in "h"
 
 * LEXICON NMN_PESSYH  the +Pl+Com comes here
 
+! Nominative singular in "m"
 
 
 
@@ -268,12 +278,7 @@ NMN
 
 
 
-
-
-
-
-
-
+! Nominative singular in "n"
 
 
  LEXICON NMN_RUNO  runo:runo
@@ -283,6 +288,13 @@ NMN
 
 
 
+
+! Nominative singular in "r"
+
+
+
+
+! Nominative singular in "s"
  LEXICON NMN_PUHTAHUS  puhtahus:puhtahu
 
 
@@ -304,7 +316,6 @@ NMN
 
 
 
-
  LEXICON NMN_KUU  kuu:kuu
 
 
@@ -318,6 +329,7 @@ NMN
 **Yaml: __pada__
 
 
+! Nominative singular in "l"
  LEXICON NMN_KARJAL  karjal:karjal
 
 
@@ -346,6 +358,13 @@ NMN
 
 
 
+
+
+
+
+
+! Nominative singular in "v"
+* LEXICON NMN_SÄYNÄ  Abramov:Abramov
 
 
 
