@@ -54,6 +54,7 @@
 
 
 
+
 Right context for gradation
 
 
@@ -109,7 +110,7 @@ __a:0 in suaja:sai__
  *  a _ %> i ;  Vowel shortening before subsequent "i"
 
 
-!iToj between vowels
+!!iToj between vowels
 __i:j__
 
 *  a _ %> i ;  +ActPrsPrc
@@ -139,6 +140,13 @@ __%{uy%}:u__ Vowel harmony suffixes Back
 !!Consonant change
 
 __g:l__  
+
+__d:v__  
+
+__y:v__
+
+__u:v__
+
 
 __t:v__  
 
@@ -171,6 +179,9 @@ __ln:ll in prtprc__
 __sn:ss in prtprc__  
 
 
+
+__čToZero__  
+*   Vws ( %^WEAK:0 %> ) n %> _ GRC ;  suvaija:suvaičen
 
 __kToZero__  aika: ajan
 *   Vws ( %^WEAK:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
