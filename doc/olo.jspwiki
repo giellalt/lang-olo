@@ -255,10 +255,6 @@ Livvi nouns inflect in cases.
  LEXICON N_PAREMBI  parembi:paremb
 
 
- LEXICON NMN_PAREMBI  parembi:paremb
-
-
-
  LEXICON N_SULGU  sulgu:sulga
 
  LEXICON N_KOIRU  koiru:koira
@@ -535,7 +531,6 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON V_PUNUO  punuo:puno
 
-
  LEXICON V_VALUO  valuo:valu
 
 
@@ -547,7 +542,6 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
  LEXICON  V_PIDIÄ  pidiä:pidä
-
 
  LEXICON V_SUAJA  suaja:saa
 
@@ -565,6 +559,8 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
  LEXICON V_SUVAIJA  suvaija:suvai
+
+ LEXICON V_MERKITÄ  merkitä:merki
 
  LEXICON V_ALETA  aleta:ale (alenov)
 
@@ -605,6 +601,24 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
 
+
+
+
+* LEXICON VR_SUVAIJAKSEH  suvaija:suvai
+
+
+
+
+* LEXICON VR_SUVAIJAKSEH  merkitä:merki
+
+
+
+
+
+
+
+
+
 Nonfinites
 
 Finites
@@ -614,6 +628,9 @@ Indicative
 
 
 Conditional
+
+
+
 
 
 
@@ -715,6 +732,7 @@ Conditional
 
 
 
+
 Right context for gradation
 
 
@@ -770,7 +788,7 @@ __a:0 in suaja:sai__
  *  a _ %> i ;  Vowel shortening before subsequent "i"
 
 
-!iToj between vowels
+!!iToj between vowels
 __i:j__
 
 *  a _ %> i ;  +ActPrsPrc
@@ -800,6 +818,13 @@ __%{uy%}:u__ Vowel harmony suffixes Back
 !!Consonant change
 
 __g:l__  
+
+__d:v__  
+
+__y:v__
+
+__u:v__
+
 
 __t:v__  
 
@@ -832,6 +857,9 @@ __ln:ll in prtprc__
 __sn:ss in prtprc__  
 
 
+
+__čToZero__  
+*   Vws ( %^WEAK:0 %> ) n %> _ GRC ;  suvaija:suvaičen
 
 __kToZero__  aika: ajan
 *   Vws ( %^WEAK:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
