@@ -291,7 +291,7 @@ o:u <=> Cns _ %> [ %{aä%}:o ] ;
 !! __@RULENAME@__
 a:0 <=>
  a _ %> i ; !!= * @CODE@ Vowel shortening before subsequent "i"
-[ # | Cns:* ] [[ u | o ] (i)| u o ] [ Cns:+ |:Cns+] _ %> i (%^WEAK:) [ # | (e) %> ] ;
+[ # Cns:*  [[ u | o ] (i)| u o ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ %> i (%^WEAK:) [ # | (e) %> ] ;
 
 
 !! !!iToj between vowels
@@ -498,7 +498,7 @@ p:0 <=> Vow _ s  %^KS2S:0  ;
 !! !!Consonant loss
 "d:0"
 !! __@RULENAME@__   pidiä:piän
-d:0 <=>  i _ Vow: %^WEAK:0  ;
+d:0 <=>  [ i | a: ] _ [ ä: | a: ] %^WEAK:0  ;
 
 
 !"Disallow V3 after two consecutive realized vowels"
