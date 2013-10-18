@@ -5,6 +5,17 @@
 LEXICON NUM_
 +TYÄ+Num: # ;
 
+LEXICON NUM_OZA
++Num+Card: NMN_OZA ;
+
+LEXICON NUM_SÄYNÄ
++Num+Card: NMN_SÄYNÄ ;
+
+LEXICON NUM_TUHAT
++Num+Card: NMN_TUHAT ;
+
+
+
 LEXICON Num-kolme !!= @CODE@ 
 +Num+Card: # ;
 

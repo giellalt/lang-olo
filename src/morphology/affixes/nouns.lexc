@@ -271,22 +271,6 @@ LEXICON N_OLUT-SG
 LEXICON N_OLUT-PL
 +N: NMN_OLUT-PL ;
 
-LEXICON NMN_OLUT !!= @CODE@ olut:olu
- NMN_OLUT-SG ;
- NMN_OLUT-PL ;
-
-LEXICON NMN_OLUT-SG
-+N:t SGNOMSUF ;
-+N:e SGGENSUF ;
-+N:t SGPARSUF_dU ;
-+N+Sg:e Noun-NB-01 ;
-
-LEXICON NMN_OLUT-PL
-+N:je PLGENSUF_N ;
-+N:i PLPARSUF_dU ;
-+N:i PLINSSUF ;
-+N+Pl:i Noun-NB-01 ;
-
 LEXICON N_SUO !!= @CODE@ suo:suo
 +N: NMN_KUU ;
 
@@ -811,6 +795,89 @@ LEXICON NMN_PEZII-PL
 :%>%{oö%}%>i PLINSSUF ;
 +Pl:%>%{oö%}%>i Noun-NB-01 ;
 
+LEXICON NMN_RUNO !!= @CODE@ runo:runo
+	NMN_RUNO-SG ;
+	NMN_RUNO-PL ;
+
+LEXICON NMN_RUNO-SG
+	SGNOMSUF ;
+ 	SGPARSUF_A2 ;
+	SGGENSUF ;
++Sg: 	Noun-NB-01 ;
+LEXICON NMN_RUNO-PL
+:l%{oö%}i PLGENSUF_N ;
+:l%{oö%}i PLPARSUF_Zero ;
+:l%{oö%}i PLINSSUF ;
+ 	  Noun-NB-loi ;
+
+LEXICON NMN_KYNDÖ !!= @CODE@ kyndö:kyndö
+	NMN_KYNDÖ-SG ;
+	NMN_KYNDÖ-PL ;
+
+LEXICON NMN_KYNDÖ-SG
+	SGNOMSUF ;
+ 	SGPARSUF_A2 ;
+	SGGENSUF ;
++Sg: 	Noun-NB-01 ;
+LEXICON NMN_KYNDÖ-PL
+:l%{oö%}i PLGENSUF_N ;
+:l%{oö%}i PLPARSUF_Zero ;
+:l%{oö%}i PLINSSUF ;
+ 	  Noun-NB-loi ;
+
+
+LEXICON NMN_KUU !!= @CODE@ kuu:kuu
+	NMN_KUU-SG	;
+	NMN_KUU-PL	;
+
+LEXICON NMN_KUU-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_dU ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_KUU-PL
+ PLNOMSUF ;
+:%>l%{oö%}i PLGENSUF_N ;
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
+: Noun-NB-loi ;
+
+
+LEXICON NMN_MUA !!= @CODE@ mua:maa
+	NMN_MUA-SG	;
+	NMN_MUA-PL	;
+
+LEXICON NMN_MUA-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_dU ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_MUA-PL
+ PLNOMSUF ;
+:%>l%{oö%}i PLGENSUF_N ;
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
+: Noun-NB-loi ;
+
+LEXICON NMN_KALA !!= @CODE@ kala:kala
+!! **Yaml: __pada__
+	NMN_KALA-SG  ; 
+	NMN_KALA-PL  ;
+LEXICON NMN_KALA-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_KALA-PL
+ PLNOMSUF ;
+:%>i PLGENSUF_EN ;
+:%>i PLPARSUF_Zero ;
+:%>i PLINSSUF ;
++Pl:%>i Noun-NB-01 ;
+
 LEXICON NMN_PESSYH !!= @CODE@ pessyh
         NMN_PESSYH-SG ;
         NMN_PESSYH-PL ;
@@ -885,36 +952,6 @@ LEXICON NMN_SALBOIN-PL
 !:il%{oö%}i PLPARSUF_Zero ;
 !:il%{oö%}i PLINSSUF ;
 !:i Noun-NB-loi ;
-
-LEXICON NMN_RUNO !!= @CODE@ runo:runo
-	NMN_RUNO-SG ;
-	NMN_RUNO-PL ;
-
-LEXICON NMN_RUNO-SG
-	SGNOMSUF ;
- 	SGPARSUF_A2 ;
-	SGGENSUF ;
-+Sg: 	Noun-NB-01 ;
-LEXICON NMN_RUNO-PL
-:l%{oö%}i PLGENSUF_N ;
-:l%{oö%}i PLPARSUF_Zero ;
-:l%{oö%}i PLINSSUF ;
- 	  Noun-NB-loi ;
-
-LEXICON NMN_KYNDÖ !!= @CODE@ kyndö:kyndö
-	NMN_KYNDÖ-SG ;
-	NMN_KYNDÖ-PL ;
-
-LEXICON NMN_KYNDÖ-SG
-	SGNOMSUF ;
- 	SGPARSUF_A2 ;
-	SGGENSUF ;
-+Sg: 	Noun-NB-01 ;
-LEXICON NMN_KYNDÖ-PL
-:l%{oö%}i PLGENSUF_N ;
-:l%{oö%}i PLPARSUF_Zero ;
-:l%{oö%}i PLINSSUF ;
- 	  Noun-NB-loi ;
 
 
 
@@ -1010,23 +1047,6 @@ LEXICON NMN_MIES-PL
 +N:%>hi PLINSSUF ;
 +N+Pl:hi Noun-NB-01 ;
 
-LEXICON NMN_SUALIŠ !!= @CODE@ suališ:suali
-	NMN_SUALIŠ-SG ;
-	NMN_SUALIŠ-PL ;
-
-LEXICON NMN_SUALIŠ-SG
-+N:s SGNOMSUF ;
-+N:i SGGENSUF ;
-+N:s SGPARSUF_dU ;
-+N+Sg:i Noun-NB-01 ;
-
-LEXICON NMN_SUALIŠ-PL
-+N:i PLNOMSUF ;
-!+N:%>ie PLGENSUF_N ; ! the plural comitative is declined here
-!+N:%>i PLPARSUF_i ;
-!+N:%>i PLINSSUF ;
-!+N+Pl:i Noun-NB-01 ;
-
 LEXICON NMN_ARMAS !!= @CODE@ armas:arma
  NMN_ARMAS-SG        ;
  NMN_ARMAS-PL        ;
@@ -1043,58 +1063,22 @@ LEXICON NMN_ARMAS-PL
 :hi PLINSSUF ;
 +Pl:hi Noun-NB-01 ;
 
+LEXICON NMN_SUALIŠ !!= @CODE@ suališ:suali
+	NMN_SUALIŠ-SG ;
+	NMN_SUALIŠ-PL ;
 
-LEXICON NMN_KUU !!= @CODE@ kuu:kuu
-	NMN_KUU-SG	;
-	NMN_KUU-PL	;
+LEXICON NMN_SUALIŠ-SG
++N:s SGNOMSUF ;
++N:i SGGENSUF ;
++N:s SGPARSUF_dU ;
++N+Sg:i Noun-NB-01 ;
 
-LEXICON NMN_KUU-SG
- SGNOMSUF ;
- SGGENSUF ;
- SGPARSUF_dU ;
-+Sg: Noun-NB-01 ;
-
-LEXICON NMN_KUU-PL
- PLNOMSUF ;
-:%>l%{oö%}i PLGENSUF_N ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-: Noun-NB-loi ;
-
-
-LEXICON NMN_MUA !!= @CODE@ mua:maa
-	NMN_MUA-SG	;
-	NMN_MUA-PL	;
-
-LEXICON NMN_MUA-SG
- SGNOMSUF ;
- SGGENSUF ;
- SGPARSUF_dU ;
-+Sg: Noun-NB-01 ;
-
-LEXICON NMN_MUA-PL
- PLNOMSUF ;
-:%>l%{oö%}i PLGENSUF_N ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-: Noun-NB-loi ;
-
-LEXICON NMN_KALA !!= @CODE@ kala:kala
-!! **Yaml: __pada__
-	NMN_KALA-SG  ; 
-	NMN_KALA-PL  ;
-LEXICON NMN_KALA-SG
- SGNOMSUF ;
- SGGENSUF ;
- SGPARSUF_A2 ;
-+Sg: Noun-NB-01 ;
-
-LEXICON NMN_KALA-PL
- PLNOMSUF ;
-:%>i PLGENSUF_EN ;
-:%>i PLPARSUF_Zero ;
-:%>i PLINSSUF ;
-+Pl:%>i Noun-NB-01 ;
+LEXICON NMN_SUALIŠ-PL
++N:i PLNOMSUF ;
+!+N:%>ie PLGENSUF_N ; ! the plural comitative is declined here
+!+N:%>i PLPARSUF_i ;
+!+N:%>i PLINSSUF ;
+!+N+Pl:i Noun-NB-01 ;
 
 !! ! Nominative singular in "l"
 LEXICON NMN_KARJAL !!= @CODE@ karjal:karjal
@@ -1122,6 +1106,39 @@ LEXICON NMN_RAIŠ-PL
 :gehi PLPARSUF_i ;
 :gehi PLINSSUF ;
 +Pl:gehi Noun-NB-01 ;
+
+LEXICON NMN_OLUT !!= * @CODE@ olut:olu
+ NMN_OLUT-SG ;
+ NMN_OLUT-PL ;
+
+LEXICON NMN_OLUT-SG
++N:t SGNOMSUF ;
++N:e SGGENSUF ;
++N:t SGPARSUF_dU ;
++N+Sg:e Noun-NB-01 ;
+
+LEXICON NMN_OLUT-PL
++N:je PLGENSUF_N ;
++N:i PLPARSUF_dU ;
++N:i PLINSSUF ;
++N+Pl:i Noun-NB-01 ;
+
+LEXICON NMN_TUHAT !!= * @CODE@ tuhat:tuha
+ NMN_TUHAT-SG ;
+ NMN_TUHAT-PL ;
+
+LEXICON NMN_TUHAT-SG
+:t SGNOMSUF ;
+:nde SGGENSUF ;
+:t SGPARSUF_dU ;
++Sg:nde Noun-NB-01 ;
+
+LEXICON NMN_TUHAT-PL
+:nde PLNOMSUF ;
+!:ie PLGENSUF_N ;
+!:i PLPARSUF_i ;
+!:i PLINSSUF ;
+!+Pl:i Noun-NB-01 ;
 
 
 LEXICON NMN_PEREH !!= @CODE@ pereh:pereh
@@ -1244,8 +1261,9 @@ LEXICON NMN_SÄYNÄ-SG
 +Sg: Noun-NB-01 ;
 
 LEXICON NMN_SÄYNÄ-PL
+ PLNOMSUF ;
 :%>i PLGENSUF_EN ;
-:%>i PLPARSUF_a ;
+:%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
 +Pl:%>i Noun-NB-01 ;
 
