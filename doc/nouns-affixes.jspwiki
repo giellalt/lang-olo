@@ -93,10 +93,6 @@ Livvi nouns inflect in cases.
 
 
 
- LEXICON NMN_OLUT  olut:olu
-
-
-
  LEXICON N_SUO  suo:suo
 
  LEXICON N_KUU  kuu:kuu
@@ -258,6 +254,26 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON NMN_RUNO  runo:runo
+
+
+ LEXICON NMN_KYNDÖ  kyndö:kyndö
+
+
+
+ LEXICON NMN_KUU  kuu:kuu
+
+
+
+
+ LEXICON NMN_MUA  mua:maa
+
+
+
+ LEXICON NMN_KALA  kala:kala
+**Yaml: __pada__
+
+
  LEXICON NMN_PESSYH  pessyh
 
 ! Nominative singular in "h"
@@ -275,12 +291,6 @@ Livvi nouns inflect in cases.
 
 
 ! Nominative singular in "n"
-
-
- LEXICON NMN_RUNO  runo:runo
-
-
- LEXICON NMN_KYNDÖ  kyndö:kyndö
 
 
 
@@ -304,25 +314,11 @@ Livvi nouns inflect in cases.
 
 
 
- LEXICON NMN_SUALIŠ  suališ:suali
-
-
-
  LEXICON NMN_ARMAS  armas:arma
 
 
+ LEXICON NMN_SUALIŠ  suališ:suali
 
- LEXICON NMN_KUU  kuu:kuu
-
-
-
-
- LEXICON NMN_MUA  mua:maa
-
-
-
- LEXICON NMN_KALA  kala:kala
-**Yaml: __pada__
 
 
 ! Nominative singular in "l"
@@ -330,6 +326,14 @@ Livvi nouns inflect in cases.
 
 
  LEXICON NMN_RAIŠ  raiš:ra
+
+ * LEXICON NMN_OLUT  olut:olu
+
+
+
+ * LEXICON NMN_TUHAT  tuhat:tuha
+
+
 
 
  LEXICON NMN_PEREH  pereh:pereh
