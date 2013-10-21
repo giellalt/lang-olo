@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+
+<e exclude="fst"><lg><l pos="V">ei olla</l><stg><st Contlex="V_">ei olla</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ei olla</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ei ozuttua</l><stg><st Contlex="V_KANDUA">ei ozutta</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ei näyttää</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ielpäi miäritä</l><stg><st Contlex="V_">ielpäi miäritä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">jaičas lähtie</l><stg><st Contlex="V_">jaičas lähtie</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kahviekseh yläh</l><stg><st Contlex="V_">kahviekseh yläh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kiändiä bokkah</l><stg><st Contlex="V_">kiändiä bokkah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">astuo kokšattua</l><stg><st Contlex="V_">astuo kokšattua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">koveta kivekse</l><stg><st Contlex="V_">koveta kivekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kivettyä, jähmettyä kiveksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kridžaittua hambahii</l><stg><st Contlex="V_">kridžaittua hambahii</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">narskuttaa hampaitaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kruačkuttua keroidu</l><stg><st Contlex="V_">kruačkuttua keroidu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">rykiä, selvittää kurkkuaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuadua iäres</l><stg><st Contlex="V_">kuadua iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kaataa pois</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuadua piäle</l><stg><st Contlex="V_">kuadua piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kaataa päälle</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuadua toižeh astieh</l><stg><st Contlex="V_">kuadua toižeh astieh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kaataa toiseen astiaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuivua liigua</l><stg><st Contlex="V_">kuivua liigua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kuivaa t. kuivua liikaa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuluttua loppuh</l><stg><st Contlex="V_">kuluttua loppuh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kuluttaa loppuun</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuobie (lundu)</l><stg><st Contlex="V_">kuobie (lundu)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kuopia lunta</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuolemizilleh (olla k.)</l><stg><st Contlex="V_">kuolemizilleh (olla k.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla kuolemaisillaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuulla pahoin</l><stg><st Contlex="V_">kuulla pahoin</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kuulla huonosti</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuuluo kunne-tahto</l><stg><st Contlex="V_">kuuluo kunne-tahto</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kuulua jonnekin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuuluvil (olla k.)</l><stg><st Contlex="V_">kuuluvil (olla k.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla kuuluvilla</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuunella peitoči</l><stg><st Contlex="V_">kuunella peitoči</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kuunnella salaa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuvata saves</l><stg><st Contlex="V_">kuvata saves</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">muovata savesta t. saveen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuččua iäres</l><stg><st Contlex="V_">kuččua iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kutsua pois</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kuččua ičellyö</l><stg><st Contlex="V_">kuččua ičellyö</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kutsua luokseen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kyzellä kai</l><stg><st Contlex="V_">kyzellä kai</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kysellä kaikkea</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kyzyä uvvessah</l><stg><st Contlex="V_">kyzyä uvvessah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kysyä uudestaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kävellä ielleh järilleh</l><stg><st Contlex="V_">kävellä ielleh järilleh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kävellä edestakaisin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kävellä kaikkiel</l><stg><st Contlex="V_">kävellä kaikkiel</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kävellä kaikkialla</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kävellä sevoksis</l><stg><st Contlex="V_">kävellä sevoksis</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">kävvä haravaižeh</l><stg><st Contlex="V_">kävvä haravaižeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">käydä harvoin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">käzii taputtua</l><stg><st Contlex="V_">käzii taputtua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">taputtaa käsiään</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">käzin (tulla k.)</l><stg><st Contlex="V_">käzin (tulla k.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">käydä käsiksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">käzis (olla k.)</l><stg><st Contlex="V_">käzis (olla k.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla käsillä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">langeta pitkälleh</l><stg><st Contlex="V_">langeta pitkälleh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kaatua</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">laskie kartih</l><stg><st Contlex="V_">laskie kartih</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">iskeä korttia</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">laskie kuačku</l><stg><st Contlex="V_">laskie kuačku</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">laskea nukkaa, jstk irtoaa nukkaa; tuulettaa käry</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">laskie mähändy</l><stg><st Contlex="V_">laskie mähändy</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kutea, laskea mätiä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">laskie pajuo</l><stg><st Contlex="V_">laskie pajuo</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">laskie savvu</l><stg><st Contlex="V_">laskie savvu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">laskea savu</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">leikata iäres</l><stg><st Contlex="V_">leikata iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">leikata pois</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">leikata keskel</l><stg><st Contlex="V_">leikata keskel</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">leikata poikki</l><stg><st Contlex="V_">leikata poikki</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">leikata poikki</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">leikata tukat</l><stg><st Contlex="V_">leikata tukat</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">leikata hiukset</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">leikellä palažikse</l><stg><st Contlex="V_">leikellä palažikse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">leikellä palasiksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">leikkua palažikse</l><stg><st Contlex="V_">leikkua palažikse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">leikkuo palažikse</l><stg><st Contlex="V_">leikkuo palažikse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">leikkoa palasiksi, leikata kappaleiksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lendiä iäres</l><stg><st Contlex="V_">lendiä iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lentää pois</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lendiä piäle</l><stg><st Contlex="V_">lendiä piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lentää päälle</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lendiä piäliči</l><stg><st Contlex="V_">lendiä piäliči</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lentää yli(tse)</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lendiä siiriči</l><stg><st Contlex="V_">lendiä siiriči</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lentää ohi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lendiä ymbäri</l><stg><st Contlex="V_">lendiä ymbäri</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lentää ympäri</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lennellä ilmas</l><stg><st Contlex="V_">lennellä ilmas</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">levittiä siivet</l><stg><st Contlex="V_">levittiä siivet</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">levittää siipensä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">liehuo tuules</l><stg><st Contlex="V_">liehuo tuules</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">liehua tuulessa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">liestyttiä kierdua</l><stg><st Contlex="V_OTTUA">liestyttiä kierda</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lietä mykäkši</l><stg><st Contlex="V_">lietä mykäkši</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">liigua kiittiä</l><stg><st Contlex="V_">liigua kiittiä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">liigua paišta</l><stg><st Contlex="V_">liigua paišta</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">puhua liikaa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">liikkuo alas</l><stg><st Contlex="V_">liikkuo alas</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">liikutta kätkys</l><stg><st Contlex="V_">liikutta kätkys</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">liikuttua syväin</l><stg><st Contlex="V_">liikuttua syväin</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">koskettaa sydäntä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">liikuttua mieli</l><stg><st Contlex="V_">liikuttua mieli</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">liikuttaa mieltä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">liuguo juoksemah</l><stg><st Contlex="V_">liuguo juoksemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ližätä menuo</l><stg><st Contlex="V_">ližätä menuo</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lisätä vauhtia</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">longahtuakseh muata</l><stg><st Contlex="V_">longahtuakseh muata</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">loškata salbah</l><stg><st Contlex="V_">loškata salbah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lyödä salpa kiinni, panna t. laittaa salpaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">loškuttua hambahii</l><stg><st Contlex="V_">loškuttua hambahii</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kalistella hampaitaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie alustua</l><stg><st Contlex="V_">luadie alustua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie bohatakse</l><stg><st Contlex="V_">luadie bohatakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä rikkaaksi, vaurastuttaa, rikastuttaa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie kaksinkerdaižeksi</l><stg><st Contlex="V_">luadie kaksinkerdaižeksi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä kaksinkertaiseksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie kirjavakse</l><stg><st Contlex="V_">luadie kirjavakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä kirjavaksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie lekkumah</l><stg><st Contlex="V_">luadie lekkumah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">saada heilumaan, lonksumaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie loppu</l><stg><st Contlex="V_">luadie loppu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä loppu</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie menemäh</l><stg><st Contlex="V_">luadie menemäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie märräkse</l><stg><st Contlex="V_">luadie märräkse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä märäksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie niistiekse</l><stg><st Contlex="V_">luadie niistiekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä vammaiseksi t, vaivaiseksi, vamauttaa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie nägymäh</l><stg><st Contlex="V_">luadie nägymäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä näkyväksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie ozavakse</l><stg><st Contlex="V_">luadie ozavakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä onnelliseksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie parahikse</l><stg><st Contlex="V_">luadie parahikse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä parahiksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie pezä</l><stg><st Contlex="V_">luadie pezä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä pesä(nsä) t. pesää(nsä)</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie puhtahakse</l><stg><st Contlex="V_">luadie puhtahakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä puhtaaksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie selgiekse</l><stg><st Contlex="V_">luadie selgiekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä selväksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie siliekse</l><stg><st Contlex="V_">luadie siliekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä sileäksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie teriämbäh</l><stg><st Contlex="V_">luadie teriämbäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä nopeammin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie tervehys</l><stg><st Contlex="V_">luadie tervehys</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tervehtiä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie tervehyt</l><stg><st Contlex="V_">luadie tervehyt</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tervehtiä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie toine kerdu</l><stg><st Contlex="V_">luadie toine kerdu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä toisen kerran</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie toputta</l><stg><st Contlex="V_">luadie toputta</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie tuuli</l><stg><st Contlex="V_">luadie tuuli</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">alkaa tuulla</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie yhtenkorgevukse</l><stg><st Contlex="V_">luadie yhtenkorgevukse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä samankorkuisiksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie yhtenpitkevykse</l><stg><st Contlex="V_">luadie yhtenpitkevykse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä samanpituisiksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie yhtensurukse</l><stg><st Contlex="V_">luadie yhtensurukse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä samansuuruisiksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie česti</l><stg><st Contlex="V_">luadie česti</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä kunniaa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lugie yhteh</l><stg><st Contlex="V_">lugie yhteh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">laskea yhteen, lukea yhteen (määrä)</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luadie lämmäkse</l><stg><st Contlex="V_">luadie lämmäkse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä lämpimäksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luvva pois</l><stg><st Contlex="V_">luvva pois</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">luoda pois, lapioida t. hangota t. mättää pois yms.</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">luvva suabru</l><stg><st Contlex="V_">luvva suabru</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tehdä pieles t. heinäkeko t. suova</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lykkie kaikkiele</l><stg><st Contlex="V_">lykkie kaikkiele</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">viskellä ympäriinsä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lykkie kedä kunne</l><stg><st Contlex="V_">lykkie kedä kunne</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">viskellä ketä minnekin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lykkie levälleh</l><stg><st Contlex="V_">lykkie levälleh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">heitellä levälleen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lykkie piäle</l><stg><st Contlex="V_">lykkie piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lykkiä iäres</l><stg><st Contlex="V_">lykkiä iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">heitellä pois</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lykätä alahakse</l><stg><st Contlex="V_">lykätä alahakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">heittää alas</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lykätä iäres</l><stg><st Contlex="V_">lykätä iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">heittää pois</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lykätä piäle</l><stg><st Contlex="V_">lykätä piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">heittää päälle</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lykätä piäliči</l><stg><st Contlex="V_">lykätä piäliči</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">heittää yli</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lyvvä pahapäiväžekse</l><stg><st Contlex="V_">lyvvä pahapäiväžekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">hakata pahanpäiväisesti</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">läbi nägyö</l><stg><st Contlex="V_">läbi nägyö</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">näkyä läpi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie ajamah</l><stg><st Contlex="V_">lähtie ajamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lähteä ajmaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie boiko</l><stg><st Contlex="V_">lähtie boiko</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lähteä nopeasti</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie eri puoleh</l><stg><st Contlex="V_">lähtie eri puoleh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lähteä eri tahoille</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie eri puolih</l><stg><st Contlex="V_">lähtie eri puolih</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lähteä eri tahoille</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie höyrynny</l><stg><st Contlex="V_">lähtie höyrynny</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie ilmah</l><stg><st Contlex="V_">lähtie ilmah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">haihtua ilmaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie iäres</l><stg><st Contlex="V_">lähtie iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lähteä pois</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie juoksemah</l><stg><st Contlex="V_">lähtie juoksemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lähteä juoksemaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie kazvamah</l><stg><st Contlex="V_">lähtie kazvamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lähteä kasvuun t. kasvamaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie kodvažekse</l><stg><st Contlex="V_">lähtie kodvažekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">lähteä hetkiseksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie lennoh</l><stg><st Contlex="V_">lähtie lennoh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">lähtie nahkal</l><stg><st Contlex="V_">lähtie nahkal</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">laskie läbi žiitas</l><stg><st Contlex="V_">laskie läbi žiitas</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">siivilöidä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">löydiä jälgii myö</l><stg><st Contlex="V_">löydiä jälgii myö</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">jäljittää</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">maguamizilleh (olla m.)</l><stg><st Contlex="V_">maguamizilleh (olla m.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla nukkumaan menossa, olla nukahtamaisillaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">menää piäliči</l><stg><st Contlex="V_">menää piäliči</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">mennä yli(tse)</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mennä jälles</l><stg><st Contlex="V_">mennä jälles</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">mennä perästä t. jäljessä t. jäljestä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mennä peräh</l><stg><st Contlex="V_">mennä peräh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">mennä jäljestä, perään</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mennä rahtokse</l><stg><st Contlex="V_">mennä rahtokse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">muuttua rahkaksi, käydä kokoon; juoksettua</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mennä siiriči</l><stg><st Contlex="V_">mennä siiriči</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">mennä ohi(tse)</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mennä sydämeh</l><stg><st Contlex="V_">mennä sydämeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">mennä sydmeen, käydä sydämeen, osua sydämeen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mennä taguh</l><stg><st Contlex="V_">mennä taguh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mennä tuhoh</l><stg><st Contlex="V_">mennä tuhoh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">(mennä) hukkaan, pilalle, myttyyn; saada surmansa, tuhoutua</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mennä umbeh</l><stg><st Contlex="V_">mennä umbeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">mennä umbeh</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mennä yhteh</l><stg><st Contlex="V_">mennä yhteh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">mennä yhteen, mennä naimisiin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">miehele (mennä m.)</l><stg><st Contlex="V_">miehele (mennä m.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">mennä naimisiin, mennä miehelle</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mieleh (olla m.)</l><stg><st Contlex="V_">mieleh (olla m.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla mieleen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mielel paista</l><stg><st Contlex="V_">mielel paista</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">arvella, päätellä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mieles šahnie</l><stg><st Contlex="V_">mieles šahnie</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">tulla hulluksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mieles pidiä</l><stg><st Contlex="V_">mieles pidiä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">pitää mielessä(än)</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">miälii kiändiä</l><stg><st Contlex="V_">miälii kiändiä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">moittie pahapäiväžekse</l><stg><st Contlex="V_">moittie pahapäiväžekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">muah panna</l><stg><st Contlex="V_">muah panna</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">haudata</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">muah peittiä</l><stg><st Contlex="V_">muah peittiä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">haudata</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">muata kylläl</l><stg><st Contlex="V_">muata kylläl</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">maata tarpeekseen, nukkua tarpeekseen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">muata liigua</l><stg><st Contlex="V_">muata liigua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">nukkua liikaa, maata liikaa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">muata yö</l><stg><st Contlex="V_">muata yö</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">nukkua yö(nsä), maata yö(nsä)</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">murendua palažikse</l><stg><st Contlex="V_">murendua palažikse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">murskata, rikko t. murtaa kappaleiksi t. palasiksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mureta palažikse</l><stg><st Contlex="V_">mureta palažikse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">särkyä t. murentua tai mureta kappaleiksi t. palasiksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">muuttua mieldy</l><stg><st Contlex="V_">muuttua mieldy</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">muuttaa mieltään</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">muuttua nimi</l><stg><st Contlex="V_">muuttua nimi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">vaihtaa nimeä(än)</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">muuttuo toižeh kohtah</l><stg><st Contlex="V_">muuttuo toižeh kohtah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">muuttaa t. siirtyä toiseen paikkaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">muuttuo toižeh sijah</l><stg><st Contlex="V_">muuttuo toižeh sijah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">muuttaa toiseen paikkaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">myvvä kai</l><stg><st Contlex="V_">myvvä kai</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">myydä kaikki</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">märrälleh (olla m.)</l><stg><st Contlex="V_">märrälleh (olla m.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">märkänä t. märkinä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">mököttiä paišta</l><stg><st Contlex="V_">mököttiä paišta</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">solkata, mölistä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">möllištiä silmät</l><stg><st Contlex="V_">möllištiä silmät</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">muljottaa, toljottaa, mulkoilla; möllöttää</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nakata tukkuh</l><stg><st Contlex="V_">nakata tukkuh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">heittää kasaan t. läjään</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nevvuo hyväh</l><stg><st Contlex="V_">nevvuo hyväh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">neuvoa hyvin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">niistiä nenä</l><stg><st Contlex="V_">niistiä nenä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">niistää nenänsä t. kynttilä, t. lampunsydän t. päre</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nippizil (olla n.)</l><stg><st Contlex="V_">nippizil (olla n.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">leikkiä hippaa, juosta hippaa t. tippaa, olla hippasilla</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nirpištyö itkemäh</l><stg><st Contlex="V_">nirpištyö itkemäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ruveta itkemään</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nosta jalloileh</l><stg><st Contlex="V_">nosta jalloileh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">nousta seisomaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nosta lendoh</l><stg><st Contlex="V_">nosta lendoh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">nousta lentoon</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nosta piäliči</l><stg><st Contlex="V_">nosta piäliči</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">nousta yli</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nosta randah</l><stg><st Contlex="V_">nosta randah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">nousta maihin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nosta ruottoh</l><stg><st Contlex="V_">nosta ruottoh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nosta tuulel</l><stg><st Contlex="V_">nosta tuulel</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nosta vastah</l><stg><st Contlex="V_">nosta vastah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kääntyä vastaan, ruveta vastustamaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nostua sugahat</l><stg><st Contlex="V_">nostua sugahat</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">nostaa niskakarvansa pystyyn</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nostua ylös</l><stg><st Contlex="V_">nostua ylös</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">nostaa ylös</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">noudua jälgii</l><stg><st Contlex="V_">noudua jälgii</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">seurata jälkiä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nägeväzil (olla n.)</l><stg><st Contlex="V_">nägeväzil (olla n.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla näkyvillä t. näkysällä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nägövih (panna n.)</l><stg><st Contlex="V_">nägövih (panna n.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna t. asettaa näkyville t. näkyviin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nägövis (olla n.)</l><stg><st Contlex="V_">nägövis (olla n.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla näkyvillä t. näkyvissä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nähtä undu</l><stg><st Contlex="V_">nähtä undu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">nähdä unta</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">nähtä unis</l><stg><st Contlex="V_">nähtä unis</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">nähdä unessa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">oijeta loitokse</l><stg><st Contlex="V_">oijeta loitokse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">rientää t. painua kauas</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla advolois</l><stg><st Contlex="V_">olla advolois</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla sukulaisissa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla ahtas</l><stg><st Contlex="V_">olla ahtas</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla ahdas; olla ahdasta</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla arvos</l><stg><st Contlex="V_">olla arvos</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla arvossa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla atkalas</l><stg><st Contlex="V_">olla atkalas</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla surullinen, olla ikävissään</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla gostis</l><stg><st Contlex="V_">olla gostis</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla kylässä t. vieraisilla</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla huoles</l><stg><st Contlex="V_">olla huoles</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla huolissaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla hädäs</l><stg><st Contlex="V_">olla hädäs</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla hädässä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla ihastukses</l><stg><st Contlex="V_">olla ihastukses</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla ihastuksissaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla iänettä</l><stg><st Contlex="V_">olla iänettä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla ääneti</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla joukos</l><stg><st Contlex="V_">olla joukos</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla joukossa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla kargei</l><stg><st Contlex="V_">olla kargei</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla katkera, väkevä, karvas, kitkerä; olla tyly, loukkaava</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla kiinitykses</l><stg><st Contlex="V_">olla kiinitykses</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla kiinnitettynä t. kiinnityksessä t. kiinni</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla kus-tahto</l><stg><st Contlex="V_">olla kus-tahto</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla jossakin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla kylläl</l><stg><st Contlex="V_">olla kylläl</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla kylläinen; olla tarpeeksi; olla raskasta</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla luvus</l><stg><st Contlex="V_">olla luvus</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla luvussa; olla arvossa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla mainiččematta</l><stg><st Contlex="V_">olla mainiččematta</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla mainitsematta</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla matkan piäs</l><stg><st Contlex="V_">olla matkan piäs</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ollan matkan päässä, olla kaukana</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla nellinkondumažin</l><stg><st Contlex="V_">olla nellinkondumažin</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla nelinkotin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla nägöine</l><stg><st Contlex="V_">olla nägöine</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla näköinen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla nälläs</l><stg><st Contlex="V_">olla nälläs</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla nälässä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla olemas</l><stg><st Contlex="V_">olla olemas</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla olemassa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla pahas mieles</l><stg><st Contlex="V_">olla pahas mieles</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla pahalla mielellä t. pahoilla mielin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla pahembi</l><stg><st Contlex="V_">olla pahembi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla huonompi, pahempi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla peitos</l><stg><st Contlex="V_">olla peitos</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla piilossa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla pienil aldoloil</l><stg><st Contlex="V_">olla pienil aldoloil</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">karehtia, liplatella</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla puustannu</l><stg><st Contlex="V_">olla puustannu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla autiona, olla asumattomana</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla pystyi</l><stg><st Contlex="V_">olla pystyi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla pystyssä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla rajannu</l><stg><st Contlex="V_">olla rajannu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla rajana</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla rodužin</l><stg><st Contlex="V_">olla rodužin</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla syntyisin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla siännyksissä</l><stg><st Contlex="V_">olla siännyksissä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla suutuksissaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla službas</l><stg><st Contlex="V_">olla službas</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla palveluksessa; olla virassa; olla sotapalveluksessa t. armeijassa t. sotaväessä; olla jumalanpalveluksessa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla spesivänä</l><stg><st Contlex="V_">olla spesivänä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla suutuksis</l><stg><st Contlex="V_">olla suutuksis</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla suutuksissa(an)</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla talvi</l><stg><st Contlex="V_">olla talvi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla talvi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla tervehennu</l><stg><st Contlex="V_">olla tervehennu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla terveenä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla tuli</l><stg><st Contlex="V_">olla tuli</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla tuli</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla tyhjänny</l><stg><st Contlex="V_">olla tyhjänny</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla tyhjänä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla vaikkani</l><stg><st Contlex="V_">olla vaikkani</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla hiljaa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla vajai</l><stg><st Contlex="V_">olla vajai</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla vajaa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla vajavus</l><stg><st Contlex="V_">olla vajavus</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla vajavuus</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla valgei</l><stg><st Contlex="V_">olla valgei</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla valkoinen t. valkea</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla varal</l><stg><st Contlex="V_">olla varal</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla varalla</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla vastah</l><stg><st Contlex="V_">olla vastah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla vastaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla veselänny</l><stg><st Contlex="V_">olla veselänny</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla iloinen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla vihaine</l><stg><st Contlex="V_">olla vihaine</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla vihainen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla voimattannu</l><stg><st Contlex="V_">olla voimattannu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla voimattomannu</l><stg><st Contlex="V_">olla voimattomannu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla sairaana</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla vuitis</l><stg><st Contlex="V_">olla vuitis</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla osakkaana t. osallisena</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla vällilližennu</l><stg><st Contlex="V_">olla vällilližennu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla vapaana t. valloillaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla yhtenmoine</l><stg><st Contlex="V_">olla yhtenmoine</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla samanlainen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla yhtis</l><stg><st Contlex="V_">olla yhtis</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">olla yödy</l><stg><st Contlex="V_">olla yödy</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla yötä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ombella kaijembakse</l><stg><st Contlex="V_">ombella kaijembakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kaventaa, ommella kapeammaksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ombella yhteh</l><stg><st Contlex="V_">ombella yhteh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ommella yhteen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ommella sydämeh</l><stg><st Contlex="V_">ommella sydämeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ommella yhteh</l><stg><st Contlex="V_">ommella yhteh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ommella yhteen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">omua tiediä</l><stg><st Contlex="V_">omua tiediä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">osobi (olla o.)</l><stg><st Contlex="V_">osobi (olla o.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla erikseen, olla erossa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ostella kaikkie</l><stg><st Contlex="V_">ostella kaikkie</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ostella kaikkea</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua iäres</l><stg><st Contlex="V_">ottua iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ottaa pois</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua ičele</l><stg><st Contlex="V_">ottua ičele</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ottaa itselleen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua keräle</l><stg><st Contlex="V_">ottua keräle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ottaa mukaansa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua kiini</l><stg><st Contlex="V_">ottua kiini</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ottaa kiinni</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua laihinah</l><stg><st Contlex="V_">ottua laihinah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ottaa lainaksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua miery</l><stg><st Contlex="V_">ottua miery</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua nagroh</l><stg><st Contlex="V_">ottua nagroh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua nyblät</l><stg><st Contlex="V_">ottua nyblät</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua plenah</l><stg><st Contlex="V_">ottua plenah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ottaa vangiksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua poijakse</l><stg><st Contlex="V_">ottua poijakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ottaa pojakseen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua propku</l><stg><st Contlex="V_">ottua propku</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua ridžuu</l><stg><st Contlex="V_">ottua ridžuu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua turvah</l><stg><st Contlex="V_">ottua turvah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua tyttärekse</l><stg><st Contlex="V_">ottua tyttärekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ottaa tyttärekseen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua tävvel käil</l><stg><st Contlex="V_">ottua tävvel käil</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua varrasten</l><stg><st Contlex="V_">ottua varrasten</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua vastah</l><stg><st Contlex="V_">ottua vastah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ottaa vastaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua velgah</l><stg><st Contlex="V_">ottua velgah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua vellakse</l><stg><st Contlex="V_">ottua vellakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ottaa velaksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ottua väil</l><stg><st Contlex="V_">ottua väil</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">ottaa väkisin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ozuttua tuldu</l><stg><st Contlex="V_">ozuttua tuldu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">näyttää tulta, näyttää valoa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pahimilleh (olla p.)</l><stg><st Contlex="V_">pahimilleh (olla p.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">olla pahimmillaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pahoi kuulla</l><stg><st Contlex="V_TULLA">pahoi kuul</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kuulla huonosti</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">painua alahakse</l><stg><st Contlex="V_">painua alahakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">painaa alas</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">painuldua yhteh bokkah</l><stg><st Contlex="V_">painuldua yhteh bokkah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">paišta keskenäh</l><stg><st Contlex="V_">paišta keskenäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">puhua keskenään</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">paišta puaksuh</l><stg><st Contlex="V_">paišta puaksuh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">paišta šäblästi</l><stg><st Contlex="V_">paišta šäblästi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pakita proššenjua</l><stg><st Contlex="V_">pakita proššenjua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">pyytää anteeksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">palua lopussah</l><stg><st Contlex="V_">palua lopussah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">palaa loppuun</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">palua pohjas</l><stg><st Contlex="V_">palua pohjas</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">palua tuhkakse</l><stg><st Contlex="V_">palua tuhkakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">palaa tuhkaksi</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">palua vahäizel räkittyö</l><stg><st Contlex="V_">palua vahäizel räkittyö</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna aidu</l><stg><st Contlex="V_">panna aidu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna aitaa, tehdä aitaa</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna alus</l><stg><st Contlex="V_">panna alus</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna bokkah</l><stg><st Contlex="V_">panna bokkah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna syrjään</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna ehto</l><stg><st Contlex="V_">panna ehto</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna ehto</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna elämäh</l><stg><st Contlex="V_">panna elämäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna haudomaheze</l><stg><st Contlex="V_">panna haudomaheze</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna hautomaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna heboine puttah</l><stg><st Contlex="V_">panna heboine puttah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna hindu</l><stg><st Contlex="V_">panna hindu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna, laittaa hinta</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna kazvamah</l><stg><st Contlex="V_">panna kazvamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna kasvamaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna kiini</l><stg><st Contlex="V_">panna kiini</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna kiinni</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna käymäh</l><stg><st Contlex="V_">panna käymäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna käymään</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna ližiä</l><stg><st Contlex="V_">panna ližiä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna lisää</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna mattii</l><stg><st Contlex="V_">panna mattii</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">kiroilla</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna nojalleh</l><stg><st Contlex="V_">panna nojalleh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna nojalleen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna nyblät</l><stg><st Contlex="V_">panna nyblät</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna nägyville</l><stg><st Contlex="V_">panna nägyville</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna näkyville</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna peitoh</l><stg><st Contlex="V_">panna peitoh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna piiloon</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna piäle</l><stg><st Contlex="V_">panna piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna päälle</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna piälei</l><stg><st Contlex="V_">panna piälei</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna piälekkäi</l><stg><st Contlex="V_">panna piälekkäi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna päällekkäin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna porjadkah</l><stg><st Contlex="V_">panna porjadkah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna järjestykseen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna rippumah</l><stg><st Contlex="V_">panna rippumah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna riippumaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna ruadamah</l><stg><st Contlex="V_">panna ruadamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna töihin</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna salbah</l><stg><st Contlex="V_">panna salbah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna salpaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna sijoilleh</l><stg><st Contlex="V_">panna sijoilleh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna paikoilleen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna stolale</l><stg><st Contlex="V_">panna stolale</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna pöydälle</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna sydämeh</l><stg><st Contlex="V_">panna sydämeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna sydämeensä</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna tauhta</l><stg><st Contlex="V_">panna tauhta</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna tačoi tavvekse</l><stg><st Contlex="V_">panna tačoi tavvekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna toižeh kohtah</l><stg><st Contlex="V_">panna toižeh kohtah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna toiseen paikkaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna tukkuh</l><stg><st Contlex="V_">panna tukkuh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna kokoon</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna tävvekse</l><stg><st Contlex="V_">panna tävvekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna valkakse</l><stg><st Contlex="V_">panna valkakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna vastah</l><stg><st Contlex="V_">panna vastah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna vastaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna vastuamah</l><stg><st Contlex="V_">panna vastuamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna vastaamaan</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">panna yhteh</l><stg><st Contlex="V_">panna yhteh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V">panna yhteen</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pastua päiväžel</l><stg><st Contlex="V_">pastua päiväžel</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">peittiä lumel</l><stg><st Contlex="V_">peittiä lumel</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">peittyö tumanah</l><stg><st Contlex="V_">peittyö tumanah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">peli (puutuo pelih)</l><stg><st Contlex="V_">peli (puutuo pelih)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pergua (nuaglu)</l><stg><st Contlex="V_">pergua (nuaglu)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">perguo (peldo)</l><stg><st Contlex="V_">perguo (peldo)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">peril (olla p.)</l><stg><st Contlex="V_">peril (olla p.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">perile (piästä p.)</l><stg><st Contlex="V_">perile (piästä p.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pidie huoldu</l><stg><st Contlex="V_">pidie huoldu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pidiä arvos</l><stg><st Contlex="V_">pidiä arvos</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pidiä hinnas</l><stg><st Contlex="V_">pidiä hinnas</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pidiä huoldu</l><stg><st Contlex="V_">pidiä huoldu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pidiä ičen ke</l><stg><st Contlex="V_">pidiä ičen ke</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pidiä kai</l><stg><st Contlex="V_">pidiä kai</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pidiä kodvaine</l><stg><st Contlex="V_">pidiä kodvaine</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pidiä peitos</l><stg><st Contlex="V_">pidiä peitos</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pidiä peziä</l><stg><st Contlex="V_">pidiä peziä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pidiä silmäl</l><stg><st Contlex="V_">pidiä silmäl</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piirdiä valmehekse</l><stg><st Contlex="V_">piirdiä valmehekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pilata iäres</l><stg><st Contlex="V_">pilata iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pilata poikki</l><stg><st Contlex="V_">pilata poikki</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pilata pois</l><stg><st Contlex="V_">pilata pois</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piäliči lykkiä</l><stg><st Contlex="V_">piäliči lykkiä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästiä higi</l><stg><st Contlex="V_">piästiä higi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästiä iäres</l><stg><st Contlex="V_">piästiä iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästiä kuores</l><stg><st Contlex="V_">piästiä kuores</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästiä menemäh</l><stg><st Contlex="V_">piästiä menemäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästiä vällälle</l><stg><st Contlex="V_">piästiä vällälle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästä agjah</l><stg><st Contlex="V_">piästä agjah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästä läbi</l><stg><st Contlex="V_">piästä läbi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästä pahas</l><stg><st Contlex="V_">piästä pahas</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästä perile</l><stg><st Contlex="V_">piästä perile</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästä piäle</l><stg><st Contlex="V_">piästä piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästä piäliči</l><stg><st Contlex="V_">piästä piäliči</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästä siiričči</l><stg><st Contlex="V_">piästä siiričči</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästä sydämeh</l><stg><st Contlex="V_">piästä sydämeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">piästä vällälle</l><stg><st Contlex="V_">piästä vällälle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">puhaldua iäres</l><stg><st Contlex="V_">puhaldua iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">puhketa halvažele</l><stg><st Contlex="V_">puhketa halvažele</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">puhketa kukkah</l><stg><st Contlex="V_">puhketa kukkah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pummpata iäres</l><stg><st Contlex="V_">pummpata iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">punovuksis (olla p.)</l><stg><st Contlex="V_">punovuksis (olla p.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">purra kieli</l><stg><st Contlex="V_">purra kieli</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">purra poikki</l><stg><st Contlex="V_">purra poikki</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">puuttuo käzih</l><stg><st Contlex="V_">puuttuo käzih</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">puuttuo ongeh</l><stg><st Contlex="V_">puuttuo ongeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">puuttuo vastah</l><stg><st Contlex="V_">puuttuo vastah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pyhkie iäres</l><stg><st Contlex="V_">pyhkie iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pystiä läbi</l><stg><st Contlex="V_">pystiä läbi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pyöryö ymbäri</l><stg><st Contlex="V_">pyöryö ymbäri</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">päivis (olla p.)</l><stg><st Contlex="V_">päivis (olla p.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pöllättiä äijäl</l><stg><st Contlex="V_">pöllättiä äijäl</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">pörähtiäkseh lendoh</l><stg><st Contlex="V_">pörähtiäkseh lendoh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ravolleh (olla r.)</l><stg><st Contlex="V_">ravolleh (olla r.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">riehalleh (olla r.)</l><stg><st Contlex="V_">riehalleh (olla r.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">rippehil (olla r.)</l><stg><st Contlex="V_">rippehil (olla r.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">rippieh (panna r.)</l><stg><st Contlex="V_">rippieh (panna r.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">riputtua nägyville</l><stg><st Contlex="V_">riputtua nägyville</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ristie silmät</l><stg><st Contlex="V_">ristie silmät</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">riähkätä uksi</l><stg><st Contlex="V_">riähkätä uksi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruadua muadu</l><stg><st Contlex="V_">ruadua muadu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruokkoh (panna r.)</l><stg><st Contlex="V_">ruokkoh (panna r.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">rupištua kulmat</l><stg><st Contlex="V_">rupištua kulmat</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta ajelemah</l><stg><st Contlex="V_">ruveta ajelemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta atkaloimah</l><stg><st Contlex="V_">ruveta atkaloimah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta baluijamah</l><stg><st Contlex="V_">ruveta baluijamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta elämäh</l><stg><st Contlex="V_">ruveta elämäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta halvaštamah</l><stg><st Contlex="V_">ruveta halvaštamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta himoittamah</l><stg><st Contlex="V_">ruveta himoittamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta huškuttamah</l><stg><st Contlex="V_">ruveta huškuttamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta häilymäh</l><stg><st Contlex="V_">ruveta häilymäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta häližemah</l><stg><st Contlex="V_">ruveta häližemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta itkemäh</l><stg><st Contlex="V_">ruveta itkemäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta itkemäh äijäl</l><stg><st Contlex="V_">ruveta itkemäh äijäl</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta iändämah</l><stg><st Contlex="V_">ruveta iändämah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta jurižemäh</l><stg><st Contlex="V_">ruveta jurižemäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta kirgumah</l><stg><st Contlex="V_">ruveta kirgumah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta kižuamah</l><stg><st Contlex="V_">ruveta kižuamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta kridžižemäh</l><stg><st Contlex="V_">ruveta kridžižemäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta kukkimah</l><stg><st Contlex="V_">ruveta kukkimah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta kuoriččemah</l><stg><st Contlex="V_">ruveta kuoriččemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta lekkumah</l><stg><st Contlex="V_">ruveta lekkumah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta nagramah</l><stg><st Contlex="V_">ruveta nagramah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta nagramah äijäl</l><stg><st Contlex="V_">ruveta nagramah äijäl</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta pagižemah</l><stg><st Contlex="V_">ruveta pagižemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta palamah</l><stg><st Contlex="V_">ruveta palamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta pyörimäheze</l><stg><st Contlex="V_">ruveta pyörimäheze</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta pyörittämäh</l><stg><st Contlex="V_">ruveta pyörittämäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta radžižemah</l><stg><st Contlex="V_">ruveta radžižemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta ravižemah</l><stg><st Contlex="V_">ruveta ravižemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta rengymäh</l><stg><st Contlex="V_">ruveta rengymäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta sobuh</l><stg><st Contlex="V_">ruveta sobuh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta suvaimah</l><stg><st Contlex="V_">ruveta suvaimah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta särižemäh</l><stg><st Contlex="V_">ruveta särižemäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta tuulemah</l><stg><st Contlex="V_">ruveta tuulemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta uidamah</l><stg><st Contlex="V_">ruveta uidamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta ulvomah</l><stg><st Contlex="V_">ruveta ulvomah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta vabižemah</l><stg><st Contlex="V_">ruveta vabižemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta valgenemah</l><stg><st Contlex="V_">ruveta valgenemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta vingumah</l><stg><st Contlex="V_">ruveta vingumah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta voivottamah</l><stg><st Contlex="V_">ruveta voivottamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta čakkuamah</l><stg><st Contlex="V_">ruveta čakkuamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ruveta čuhkuttamah</l><stg><st Contlex="V_">ruveta čuhkuttamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">rygie lovan kel</l><stg><st Contlex="V_">rygie lovan kel</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ryydiä eri puolille</l><stg><st Contlex="V_">ryydiä eri puolille</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">röngyen röngyö</l><stg><st Contlex="V_">röngyen röngyö</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">salvas (olla s.)</l><stg><st Contlex="V_">salvas (olla s.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sanuo pahoi</l><stg><st Contlex="V_">sanuo pahoi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sanuo pahoin</l><stg><st Contlex="V_">sanuo pahoin</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sanuo passibo</l><stg><st Contlex="V_">sanuo passibo</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sanuo riähkät</l><stg><st Contlex="V_">sanuo riähkät</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">satattua sanal</l><stg><st Contlex="V_">satattua sanal</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">segah (mennä s.)</l><stg><st Contlex="V_">segah (mennä s.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">segovuksis (olla s.)</l><stg><st Contlex="V_">segovuksis (olla s.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">seižuo kodvu</l><stg><st Contlex="V_">seižuo kodvu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">selittä parembi</l><stg><st Contlex="V_">selittä parembi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">selittä toižeh sovih</l><stg><st Contlex="V_">selittä toižeh sovih</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">selittä čomasti</l><stg><st Contlex="V_">selittä čomasti</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sevoittua iänet</l><stg><st Contlex="V_">sevoittua iänet</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sevoittua taigin</l><stg><st Contlex="V_">sevoittua taigin</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sidua kiini</l><stg><st Contlex="V_">sidua kiini</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sieglan pieližet</l><stg><st Contlex="V_">sieglan pieližet</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">siirdyö bokkah</l><stg><st Contlex="V_">siirdyö bokkah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">siirdyö kylgeh</l><stg><st Contlex="V_">siirdyö kylgeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sijoittua eriže</l><stg><st Contlex="V_">sijoittua eriže</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">silleh (jiäjä s.)</l><stg><st Contlex="V_">silleh (jiäjä s.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">silmii lipettiä</l><stg><st Contlex="V_">silmii lipettiä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">silmyö miäriä</l><stg><st Contlex="V_">silmyö miäriä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sivoksih (panna s.)</l><stg><st Contlex="V_">sivoksih (panna s.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sivoksis (olla s.)</l><stg><st Contlex="V_">sivoksis (olla s.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">siä kohenou</l><stg><st Contlex="V_">siä kohenou</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sobie keskemäh</l><stg><st Contlex="V_">sobie keskemäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sobie keskenäh</l><stg><st Contlex="V_">sobie keskenäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">soittua kodvaine</l><stg><st Contlex="V_">soittua kodvaine</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sordua jalloil</l><stg><st Contlex="V_">sordua jalloil</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sovitua yhteh</l><stg><st Contlex="V_">sovitua yhteh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">suaja jengua</l><stg><st Contlex="V_KANDUA">suaja jenga</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">suattua iäres</l><stg><st Contlex="V_">suattua iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">suattua jallille</l><stg><st Contlex="V_">suattua jallille</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">sulattua raudua</l><stg><st Contlex="V_KANDUA">sulattua rauda</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">suudu availla</l><stg><st Contlex="V_TULLA">suudu avail</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">suvva hengi</l><stg><st Contlex="V_">suvva hengi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">suvva igävytty</l><stg><st Contlex="V_">suvva igävytty</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">suvva ičelle</l><stg><st Contlex="V_">suvva ičelle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">suvva lapsi</l><stg><st Contlex="V_">suvva lapsi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">suvva omalle puolelle</l><stg><st Contlex="V_">suvva omalle puolelle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">suvva pahah mieleh</l><stg><st Contlex="V_">suvva pahah mieleh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">syttyö tuleh</l><stg><st Contlex="V_">syttyö tuleh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">syvvä kuori</l><stg><st Contlex="V_">syvvä kuori</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">syvvä palaine</l><stg><st Contlex="V_">syvvä palaine</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">syväin tykkäy</l><stg><st Contlex="V_">syväin tykkäy</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">säräittiä vilul</l><stg><st Contlex="V_">säräittiä vilul</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tabailuzil (olla t.)</l><stg><st Contlex="V_">tabailuzil (olla t.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tahtuo juvvä</l><stg><st Contlex="V_">tahtuo juvvä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">taikottua yhty sidä že</l><stg><st Contlex="V_">taikottua yhty sidä že</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tappua hengettömäkse</l><stg><st Contlex="V_">tappua hengettömäkse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tappua veičel</l><stg><st Contlex="V_">tappua veičel</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">taputtua kämmenii</l><stg><st Contlex="V_">taputtua kämmenii</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tartuo kiini</l><stg><st Contlex="V_">tartuo kiini</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tartuttua hädä</l><stg><st Contlex="V_">tartuttua hädä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tartuttua piäle</l><stg><st Contlex="V_">tartuttua piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tazoih (piästiä t.)</l><stg><st Contlex="V_">tazoih (piästiä t.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tiel (olla t.)</l><stg><st Contlex="V_">tiel (olla t.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tiele (mennä t.)</l><stg><st Contlex="V_">tiele (mennä t.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ties (olla t.)</l><stg><st Contlex="V_">ties (olla t.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tiijustua hyväžesti</l><stg><st Contlex="V_">tiijustua hyväžesti</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tirpua gorjua</l><stg><st Contlex="V_KANDUA">tirpua gorja</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tirpua kylläl</l><stg><st Contlex="V_">tirpua kylläl</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tiähtel (olla t.)</l><stg><st Contlex="V_">tiähtel (olla t.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tiähtele (panna t.)</l><stg><st Contlex="V_">tiähtele (panna t.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">toppua luadie</l><stg><st Contlex="V_">toppua luadie</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">torata keskenäh</l><stg><st Contlex="V_">torata keskenäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">toštu i taitattua</l><stg><st Contlex="V_">toštu i taitattua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tručmalleh (olla t.)</l><stg><st Contlex="V_">tručmalleh (olla t.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tuakse (panna t.)</l><stg><st Contlex="V_">tuakse (panna t.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulemizilleh (olla t.)</l><stg><st Contlex="V_">tulemizilleh (olla t.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla agjassah</l><stg><st Contlex="V_">tulla agjassah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla ajal</l><stg><st Contlex="V_">tulla ajal</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla boikožesti</l><stg><st Contlex="V_">tulla boikožesti</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla duuhule</l><stg><st Contlex="V_">tulla duuhule</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla iäres</l><stg><st Contlex="V_">tulla iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla jallel</l><stg><st Contlex="V_">tulla jallel</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla jalles</l><stg><st Contlex="V_">tulla jalles</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla jarilleh</l><stg><st Contlex="V_">tulla jarilleh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla kodvaizekse</l><stg><st Contlex="V_">tulla kodvaizekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla kyynelil</l><stg><st Contlex="V_">tulla kyynelil</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla käymäh</l><stg><st Contlex="V_">tulla käymäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla lendäen</l><stg><st Contlex="V_">tulla lendäen</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla lähembäkse</l><stg><st Contlex="V_">tulla lähembäkse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla muah</l><stg><st Contlex="V_">tulla muah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla ongeh</l><stg><st Contlex="V_">tulla ongeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla piäle</l><stg><st Contlex="V_">tulla piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla tiedämättäh</l><stg><st Contlex="V_">tulla tiedämättäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla tiedämäätäh</l><stg><st Contlex="V_">tulla tiedämäätäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla verel</l><stg><st Contlex="V_">tulla verel</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla vetty myö</l><stg><st Contlex="V_">tulla vetty myö</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla vien piäle</l><stg><st Contlex="V_">tulla vien piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla vägeheze</l><stg><st Contlex="V_">tulla vägeheze</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla yhteh</l><stg><st Contlex="V_">tulla yhteh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tulla äijäl</l><stg><st Contlex="V_">tulla äijäl</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tungiekseh piäle</l><stg><st Contlex="V_">tungiekseh piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tuulla läbi</l><stg><st Contlex="V_">tuulla läbi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tuvva edeh</l><stg><st Contlex="V_">tuvva edeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tuvva jarilleh</l><stg><st Contlex="V_">tuvva jarilleh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tuvva vägeh</l><stg><st Contlex="V_">tuvva vägeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">työndiä eri puolile</l><stg><st Contlex="V_">työndiä eri puolile</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">tävvyttiä agjat vastakkai</l><stg><st Contlex="V_">tävvyttiä agjat vastakkai</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">törälleh (olla t.)</l><stg><st Contlex="V_">törälleh (olla t.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">uinota kodvažekse</l><stg><st Contlex="V_">uinota kodvažekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">umbičukkelih (mennä u.)</l><stg><st Contlex="V_">umbičukkelih (mennä u.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ummes (olla u.)</l><stg><st Contlex="V_">ummes (olla u.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">unohtuksis (olla u.)</l><stg><st Contlex="V_">unohtuksis (olla u.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">uskaldua ajua</l><stg><st Contlex="V_">uskaldua ajua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">uvvessah luadie</l><stg><st Contlex="V_">uvvessah luadie</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">uvvessah sanelu</l><stg><st Contlex="V_">uvvessah sanelu</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">uvvessah čotaija</l><stg><st Contlex="V_SUVAIJA">uvvessah čotai</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vallita mavun mugah</l><stg><st Contlex="V_">vallita mavun mugah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">valua palaval viel</l><stg><st Contlex="V_">valua palaval viel</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">varata vähäižel</l><stg><st Contlex="V_">varata vähäižel</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">varrastella vähäžin</l><stg><st Contlex="V_">varrastella vähäžin</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vaššata liepaššunda</l><stg><st Contlex="V_">vaššata liepaššunda</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vediä alahakse</l><stg><st Contlex="V_">vediä alahakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vediä iäres</l><stg><st Contlex="V_">vediä iäres</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vediä iččeh</l><stg><st Contlex="V_">vediä iččeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vediä iččie</l><stg><st Contlex="V_">vediä iččie</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vediä lennättiä</l><stg><st Contlex="V_">vediä lennättiä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vediä omah puoleh</l><stg><st Contlex="V_">vediä omah puoleh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vediä piäle</l><stg><st Contlex="V_">vediä piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vediä poikki</l><stg><st Contlex="V_">vediä poikki</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vediä ymbäri</l><stg><st Contlex="V_">vediä ymbäri</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vieetiä aigua</l><stg><st Contlex="V_">vieetiä aigua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vieldiä sydämeh</l><stg><st Contlex="V_">vieldiä sydämeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vierrä kodvažekse</l><stg><st Contlex="V_">vierrä kodvažekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vierrä sinne tänne</l><stg><st Contlex="V_">vierrä sinne tänne</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">viertä alah</l><stg><st Contlex="V_">viertä alah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">viettiä aigua</l><stg><st Contlex="V_">viettiä aigua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">viettiä talvi</l><stg><st Contlex="V_">viettiä talvi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vihmuta hienožeh</l><stg><st Contlex="V_">vihmuta hienožeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vilčoittua (kaččuo v.)</l><stg><st Contlex="V_">vilčoittua (kaččuo v.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vinoh (mennä v.)</l><stg><st Contlex="V_">vinoh (mennä v.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">virittiä ravvat</l><stg><st Contlex="V_">virittiä ravvat</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">virittä palamah</l><stg><st Contlex="V_">virittä palamah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">virundoilleh (olla v.)</l><stg><st Contlex="V_">virundoilleh (olla v.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">voi olla</l><stg><st Contlex="V_">voi olla</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">voidua terval</l><stg><st Contlex="V_">voidua terval</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">voija pahoi</l><stg><st Contlex="V_">voija pahoi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">voit olla</l><stg><st Contlex="V_">voit olla</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vuottua aigua</l><stg><st Contlex="V_">vuottua aigua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vuottua kodvaine</l><stg><st Contlex="V_">vuottua kodvaine</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">väistiä išku</l><stg><st Contlex="V_">väistiä išku</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">väistyö ies</l><stg><st Contlex="V_">väistyö ies</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vältiäkseh vastavuskses</l><stg><st Contlex="V_">vältiäkseh vastavuskses</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">vältyö kylgeh</l><stg><st Contlex="V_">vältyö kylgeh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">väzyksis (olla v.)</l><stg><st Contlex="V_">väzyksis (olla v.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">yldyö menemäh</l><stg><st Contlex="V_">yldyö menemäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">yldyö tölmämäh</l><stg><st Contlex="V_">yldyö tölmämäh</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">yllittiä toižen piäle</l><stg><st Contlex="V_">yllittiä toižen piäle</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">zavodie uližemah</l><stg><st Contlex="V_">zavodie uližemah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">ähkie bokkah</l><stg><st Contlex="V_">ähkie bokkah</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">äiju paišta</l><stg><st Contlex="V_">äiju paišta</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">äijäl hengittiä</l><stg><st Contlex="V_">äijäl hengittiä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">äijäl kulutua</l><stg><st Contlex="V_">äijäl kulutua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">čakata pahapäiväžekse</l><stg><st Contlex="V_">čakata pahapäiväžekse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">čakata äijäl</l><stg><st Contlex="V_">čakata äijäl</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">šokkij pestä</l><stg><st Contlex="V_">šokkij pestä</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">šolahtuakseh alahakse</l><stg><st Contlex="V_">šolahtuakseh alahakse</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">šuorivuksis (olla s.)</l><stg><st Contlex="V_">šuorivuksis (olla s.)</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">šuuda mučottua</l><stg><st Contlex="V_">šuuda mučottua</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="V">šynnyttiä lapsi</l><stg><st Contlex="V_">šynnyttiä lapsi</st></stg></lg><pos>V</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="V"></t></tg></mg></e>
+
+</r>
