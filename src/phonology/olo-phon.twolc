@@ -152,8 +152,10 @@ BT =     #: Cns* ( [ VowNeutral | i: ] [ Dummy: | %> | VowBack: | :VowBack | Cns
 !    #: Cns* ( [ VowNeutral | i: ] [ Dummy: | %> | VowBack: | :VowBack | Cns: | :Cns ]* )  [ VowBack: | :VowBack ] [ Dummy: | %> | VowNeutral | i: | %{aä%}:0 | VowBack: | :VowBack | Cns: | :Cns ]* ;
 
 !Back Trigger with consonant
-BTCons = BT [ Cns:  ] ;
+BTCons = BT [ Cns: (ʼ:) ] ;
 
+! Cns or Cns with palatal
+ConsPalOrNot = [Cns: (ʼ:)]+ ;
 
 ! Gradation strong to weak
 !GS2W = [ p:v | m p:m | t:0 | l t:l | r t:r | n t:n | s t:s | k:0 | l k:0 | r k:0 | n k:g | s k:0 ] ;
@@ -181,6 +183,10 @@ Rules
 !! __@RULENAME@__
 %{aäInf%}:o <=> o: %> _ ( %^WEAK:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
          [ o: | u] %> _ # ;
+
+"%{aäInf%}:e"
+!! __@RULENAME@__
+ %{aäInf%}:e <=> i %> _ # ;
 
 ! Vowel harmony suffixes Back
 "%{aäInf%}:a"
@@ -259,18 +265,18 @@ A2:y <=> [ y: ] %> _ ( %^WEAK:0 ) [ # | %>  ];
 
 "a:u before subsequent a"
 !! __@RULENAME@__  Diphthong a+a => ua
-a:u <=> Cns:+ _ [ (d:0) a | %> [ %{aä%}: | %{aäInf%}: | A2:a ] ]; 
+a:u <=> ConsPalOrNot _ [ (d:0) a | %> [ %{aä%}: | %{aäInf%}: | A2:a ] ]; 
         _ %^A2U:0 ;
 
 
 "ä:i before subsequent A2"
 !! __@RULENAME@__  Diphthong ä+ä => iä
-ä:i <=> Cns: _ [ ä | %> [ %{aä%}:ä | A2:ä ] ]; 
+ä:i <=> Cns: _ [ ä | %> [ %{aä%}:ä | %{aäInf%}:ä| A2:ä ] ]; 
 
  
 "o:u before subsequent o"
 !! __@RULENAME@__ Diphthong o+o => uo erota:eruou
-o:u <=> Cns _ %> [ %{aä%}:o ] ; 
+o:u <=> Cns _ %> [ %{aä%}:o | %{aäInf%}: ] ; 
 
 "ö:y before subsequent ö"
 !! __@RULENAME@__ Diphthong ö+ö, ö+%{aä%}:ö => yö
@@ -318,7 +324,7 @@ a:o <=> # Cns* [ a | i | e ] Cns:+ _ %> i: ( %^WEAK:0 )  ;
 
 "ä:e piettih and in comparatives"
 !! __@RULENAME@__  pidiä
-ä:e <=> i d: _ %^WEAK:0 %^E1:0 ;
+ä:e <=> # Cns* [ i | e ] Cns: _ %^WEAK:0 %^E1:0 ;
 
 "ä:0 pidiä:pidi"
 !! __@RULENAME@__
@@ -351,6 +357,12 @@ g:l <=> l _ [ a: ] ( %> i ) %^WEAK:0 ;
 !! __@RULENAME@__  
 d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WEAK:0 ;
  [  a ] _ [  u ] %^WEAK:0 ;
+
+! luadie:luajitah
+"d:j"
+!! __@RULENAME@__  
+d:j <=> [ u a ] _ [ i ] %^WEAK:0 ;
+
 
 ! lʼöydiä:lʼövvä
 "y:v"
@@ -453,7 +465,7 @@ n:s <=> s %> _ (%{uy%}:) (%^WEAK:)  ;
  
 "čToZero"
 !! __@RULENAME@__  
-č:0 <=> _ č (%>) Vow %^WEAK:0 ; !! * @CODE@ suvaija:suvaičen
+č:0 <=> _ č [ (%>) Vow | Vow: %> i ] %^WEAK:0 ; !! * @CODE@ suvaija:suvaičen
 
 "kToZero"
 !! __@RULENAME@__  aika: ajan
@@ -471,8 +483,10 @@ k:0 <=> _ s %^KS2S:0 ;
 !2013-04-29!
 !2013-04-29! mato : maot, ! mato : maool
 !2013-04-29! tToZero in weak
-!2013-04-29!"Double stop:weakens tToZero"
-!2013-04-29!t:0 <=> [ #: Cns* Vow | #: Cns* Vow [ Vow - [ i | u | y ] ] | Vow h [ y | u ] ] _  GRC ;
+"tToZero in weak geminate"
+ t:0 <=>
+ Vow: _ t Vow: (%> i) %^WEAK:0  ;
+! [ # Cns* Vow | # Cns* Vow [ Vow - [ i | u | y ] ] | Vow h [ y | u ] ] _  GRC ;
 !2013-04-29!        [ #: Cns*  Vow+ [ h | (r) t ] | Vow ( %^WEAK:0 %> ) t | Cns* Vow+ Cns+ Vow+ ( n ) t | Vow t ] _  [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
 !2013-04-29!        t _ Vow l %^WGStem:0 ; ! ottel- to otel-
 
@@ -498,7 +512,7 @@ p:0 <=> Vow _ s  %^KS2S:0  ;
 !! !!Consonant loss
 "d:0"
 !! __@RULENAME@__   pidiä:piän
-d:0 <=>  [ i | a: ] _ [ ä: | a: ] %^WEAK:0  ;
+d:0 <=>  # Cns* [ i | a: | o ] _ [ ä: | a: | i ] %^WEAK:0  ;
 
 
 !"Disallow V3 after two consecutive realized vowels"
