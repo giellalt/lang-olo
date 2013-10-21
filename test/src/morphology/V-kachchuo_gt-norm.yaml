@@ -1,0 +1,80 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kaččuo: # Verb 'to watch / katsoa' - full paradigm
+      kaččuo+V+Ind+Prs+ScSg1: kačon
+      kaččuo+V+Ind+Prs+ScSg2: kačot
+      kaččuo+V+Ind+Prs+ScSg3: kaččou
+      kaččuo+V+Ind+Prs+ScPl1: kačommo
+      kaččuo+V+Ind+Prs+ScPl2: kačotto
+      kaččuo+V+Ind+Prs+ScPl3: kačotah
+      kaččuo+V+Ind+Prs+ConNeg: kačo
+      kaččuo+V+Ind+Prs+ConNeg+ScPl3: kačota
+ 
+      kaččuo+V+Ind+Prt+ScSg1: kačoin
+      kaččuo+V+Ind+Prt+ScSg2: kačoit
+      kaččuo+V+Ind+Prt+ScSg3: kaččoi
+      kaččuo+V+Ind+Prt+ScPl1: kačoimmo
+      kaččuo+V+Ind+Prt+ScPl2: kačoitto
+      kaččuo+V+Ind+Prt+ScPl3: kačottih
+      kaččuo+V+Ind+Prt+ConNeg: kaččonuh
+      kaččuo+V+Ind+Prt+ConNeg+ScPl3: kačottu
+      
+      kaččuo+V+Cond+Prs+ScSg1:  kaččozin
+      kaččuo+V+Cond+Prs+ScSg2:  kaččozit
+      kaččuo+V+Cond+Prs+ScSg3:  kaččos
+      kaččuo+V+Cond+Prs+ScPl1:  kaččozimmo
+      kaččuo+V+Cond+Prs+ScPl2:  kaččozitto
+      kaččuo+V+Cond+Prs+ScPl3:  kačottas
+      kaččuo+V+Cond+Prs+ConNeg: kaččos
+      kaččuo+V+Cond+Prs+ConNeg+ScPl3:  kačottas
+
+      kaččuo+V+Cond+Prt+ScSg1:  kaččonuzin
+      kaččuo+V+Cond+Prt+ScSg2:  kaččonuzit
+      kaččuo+V+Cond+Prt+ScSg3:  kaččonus
+      kaččuo+V+Cond+Prt+ScPl1:  kaččonuzimmo
+      kaččuo+V+Cond+Prt+ScPl2:  kaččonuzitto
+      kaččuo+V+Cond+Prt+ScPl3:  kačotannus
+      kaččuo+V+Cond+Prt+ConNeg: kaččonus
+      kaččuo+V+Cond+Prt+ConNeg+ScPl3:  kačotannus
+
+      kaččuo+V+Pot+ScSg1:  kaččonen
+      kaččuo+V+Pot+ScSg2:  kaččonet
+      kaččuo+V+Pot+ScSg3:  kaččonou
+      kaččuo+V+Pot+ScPl1:  kaččonemmo
+      kaččuo+V+Pot+ScPl2:  kaččonetto
+      kaččuo+V+Pot+ScPl3:  kačotanneh
+      kaččuo+V+Pot+ConNeg: kaččone
+      kaččuo+V+Pot+ConNeg+ScPl3:  kačotanne
+
+      kaččuo+V+Imprt+ScSg2:  kačo
+      kaččuo+V+Imprt+ScSg3:  kaččokkah
+      kaččuo+V+Imprt+ScPl1:  kaččokkuammo
+      kaččuo+V+Imprt+ScPl2: [kaččokkua, kaččokkuatto]
+      kaččuo+V+Imprt+ScPl3:  kačottahes
+      kaččuo+V+Imprt+ConNeg+ScSg2: kačo
+      kaččuo+V+Imprt+ConNeg+ScSg3: kaččokkah
+      kaččuo+V+Imprt+ConNeg+ScPl1: kaččokkuammo
+      kaččuo+V+Imprt+ConNeg+ScPl2: kaččokkua
+      kaččuo+V+Imprt+ConNeg+ScPl3: kačottahes
+
+      kaččuo+V+ActPrsPrc+Sg+Nom: kaččoi
+      kaččuo+V+ActPrfPrc: kaččonuh
+      kaččuo+V+PssPrsPrc: kačottavu
+      kaččuo+V+PssPrfPrc: kačottu
+      kaččuo+V+Inf: kaččuo
+ 
+ 
