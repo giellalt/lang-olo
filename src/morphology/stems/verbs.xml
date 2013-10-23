@@ -265,7 +265,7 @@
       <l pos="V">alendella</l>
 
       <stg>
-        <st Contlex="V_TULLA">alendella</st>
+        <st Contlex="V_TULLA">alendel</st>
       </stg>
     </lg>
 
@@ -1529,10 +1529,31 @@
   </e>
   <e>
     <lg>
+      <l pos="V">ei</l>
+
+      <stg>
+        <st Contlex="V-NEG">e</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">ällöttää, etoa, oksettaa, kuvottaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
       <l pos="V">elgätä</l>
 
       <stg>
-        <st Contlex="V_AVATA">elgätä</st>
+        <st Contlex="V_AVATA">elgä</st>
       </stg>
     </lg>
 

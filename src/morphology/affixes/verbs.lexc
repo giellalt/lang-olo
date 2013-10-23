@@ -7,7 +7,12 @@ LEXICON V_
 +TYÄ+V: K ;
 
 LEXICON V-NEG !!= @CODE@ ei:e
-+V+Neg+ScSg3:i # ;
++V+Neg+ScSg1:n K ;
++V+Neg+ScSg2:t K ;
++V+Neg+ScSg3:i K ;
++V+Neg+ScPl1:mmo K ;
++V+Neg+ScPl2:tto K ;
+!+V+Neg+ScPl3:i K ;
 
 LEXICON V_OLLA !!= @CODE@ olla:o
 +V+Ind+Prs+ScSg1:le%^WEAK%>n K ;

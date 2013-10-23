@@ -216,7 +216,7 @@ Rules
 
 "%{aä%}:e"
 !! __@RULENAME@__
-%{aä%}:e <=> [ e:i  ] %> _ # ;
+%{aä%}:e <=> [ e:i  ] %> _ [ # | %> %{uy%}: ] ;
 
 "%{aä%}:i"
 !! __@RULENAME@__
@@ -493,7 +493,7 @@ k:0 <=> _ s %^KS2S:0 ;
 ! luba : luvan
 "b:v"
 !! __@RULENAME@__  
-b:v <=> [ #: ] Cns* Vow ( r | l | Vow ) _ [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
+b:v <=> [ #: ] Cns* Vow ( r | l | Vow ) _  [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
 
 !2013-04-29!"double pp to p"
 !2013-04-29!p:0 <=> [ #: Cns* Vow ( m ) p | #: Cns* Vow Vow p | Cns* Vow+ Cns+ Vow+ p ] _ [ GRC | %^TS:0 i %^WEAK:0 %> ] ;
