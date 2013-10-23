@@ -130,12 +130,24 @@ LEXICON V_SUATA !!= @CODE@ suata:suva (suvaiččov)
 LEXICON VR_AMBUO !!= @CODE@ ambuokseh:ambu
 	VR_ ;
 
+LEXICON VR_VALUO !!= @CODE@ valuokseh:valu
+	VR_ ;
+
+LEXICON VR_PUNUO !!= @CODE@ punuokseh:puno
+	VR_ ;
+
+LEXICON VR_IMIE !!= @CODE@ imiekseh:ime
+	VR_ ;
+
 LEXICON VR_KANDUA !!= @CODE@ kanduakseh:kanda
   VR_ ;
 
 LEXICON VR_RODIEKSEH !!= @CODE@ rodiekseh:rodi
 ! Reflexive verbs
  VR_ ;
+
+LEXICON VR_TULLA !!= @CODE@ tuliekseh:tul !this will need work 2013-10-23
+	VR_ ;
 
 LEXICON VR_AVATA !!= @CODE@ avatakseh:ava (typätäkseh:typpä)
  VR_ ;
