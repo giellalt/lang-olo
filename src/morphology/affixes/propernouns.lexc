@@ -10,6 +10,9 @@ LEXICON PROP_ !!= @CODE@
 LEXICON PROP_KARJAL !!= @CODE@ 
 +N+Prop: NMN_KARJAL ;
 
+LEXICON PROP_KARJAL_MAL !!= @CODE@ 
++N+Prop+Mal: NMN_KARJAL ;
+
 LEXICON PROP_KUU !!= @CODE@ 
 +N+Prop: NMN_KUU ;
 
@@ -47,13 +50,16 @@ LEXICON PROP_KALA !!= @CODE@
 +N+Prop: NMN_KALA ;
 
 LEXICON PROP_ARTELI !!= @CODE@ 
-+N+P: NMN_ARTELI ;
++N+Prop: NMN_ARTELI ;
 
 LEXICON PROP_NIMI !!= @CODE@ nimi:nim
 +N+P: NMN_NIMI ;
 
+LEXICON PROP_PÄIVY_MAL !!= @CODE@ päivy:päivä
++N+Prop: NMN_PÄIVY ;
+
 LEXICON PROP_PÄIVY !!= @CODE@ päivy:päivä
-+N+P: NMN_PÄIVY ;
++N+Prop: NMN_PÄIVY ;
 
 LEXICON PROP_ALUS !!= @CODE@ Alus:Aluks
 +N+Prop: NMN_ALUS ;
