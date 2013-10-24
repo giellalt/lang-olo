@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - pestäkseh: # Verb 'syntyä, ilmaantua' - full paradigm
+     pestäkseh+V+Ind+Prs+RcSg1: pezemmos
+     pestäkseh+V+Ind+Prs+RcSg2: pezettos
+     pestäkseh+V+Ind+Prs+RcSg3: [pezeh, pezehes]
+     pestäkseh+V+Ind+Prs+RcPl1: pezemmökseh
+     pestäkseh+V+Ind+Prs+RcPl2: pezettökseh
+     pestäkseh+V+Ind+Prs+RcPl3: pestähes
+     pestäkseh+V+Ind+Prs+RcSg+ConNeg: pezei
+     pestäkseh+V+Ind+Prs+RcPl1+ConNeg: pezei
+     pestäkseh+V+Ind+Prs+RcPl2+ConNeg: pezei
+     pestäkseh+V+Ind+Prs+RcPl3+ConNeg: pestähes
+
+     pestäkseh+V+Ind+Prt+RcSg1: pezimmös
+     pestäkseh+V+Ind+Prt+RcSg2: pezittös
+     pestäkseh+V+Ind+Prt+RcSg3: [pezih, pezihes]
+     pestäkseh+V+Ind+Prt+RcPl1: pezimmökseh
+     pestäkseh+V+Ind+Prt+RcPl2: pezittökseh
+     pestäkseh+V+Ind+Prt+RcPl3: pestihes
+     pestäkseh+V+Ind+Prt+RcSg+ConNeg: pessyhes
+     pestäkseh+V+Ind+Prt+RcPl1+ConNeg: pessyhes
+     pestäkseh+V+Ind+Prt+RcPl2+ConNeg: pessyhes
+     pestäkseh+V+Ind+Prt+RcPl3+ConNeg: pestyhes
+
+     pestäkseh+V+Cond+Prs+RcSg1: pezizimmös
+     pestäkseh+V+Cond+Prs+RcSg2: pezizittös
+     pestäkseh+V+Cond+Prs+RcSg3: pezizihes
+     pestäkseh+V+Cond+Prs+RcPl1: pezizimmökseh
+     pestäkseh+V+Cond+Prs+RcPl2: pezizittökseh
+     pestäkseh+V+Cond+Prs+RcPl3: pestäzihes
+     pestäkseh+V+Cond+Prs+RcSg+ConNeg: pezizihes
+     pestäkseh+V+Cond+Prs+RcPl1+ConNeg: pezizihes
+     pestäkseh+V+Cond+Prs+RcPl2+ConNeg: pezizihes
+     pestäkseh+V+Cond+Prs+RcPl3+ConNeg: pestäzihes
+
+     pestäkseh+V+Cond+Prt+RcSg1: pessyzimmös
+     pestäkseh+V+Cond+Prt+RcSg2: pessyzittös
+     pestäkseh+V+Cond+Prt+RcSg3: pessyzihes
+     pestäkseh+V+Cond+Prt+RcPl1: pessyzimmökseh
+     pestäkseh+V+Cond+Prt+RcPl2: pessyzittökseh
+     pestäkseh+V+Cond+Prt+RcPl3: pestähyzihes
+     pestäkseh+V+Cond+Prt+RcSg+ConNeg: pessyzihes
+     pestäkseh+V+Cond+Prt+RcPl1+ConNeg: pessyzihes
+     pestäkseh+V+Cond+Prt+RcPl2+ConNeg: pessyzihes
+     pestäkseh+V+Cond+Prt+RcPl3+ConNeg: pestähyzihes
+
+     pestäkseh+V+Pot+RcSg1: pessemmös
+     pestäkseh+V+Pot+RcSg2: pessettös
+     pestäkseh+V+Pot+RcSg3: pessehes
+     pestäkseh+V+Pot+RcPl1: pessemmökseh
+     pestäkseh+V+Pot+RcPl2: pessettökseh
+     pestäkseh+V+Pot+RcPl3: pestähes
+     pestäkseh+V+Pot+RcSg+ConNeg: pessyzihes
+     pestäkseh+V+Pot+RcPl1+ConNeg: pessyzihes
+     pestäkseh+V+Pot+RcPl2+ConNeg: pessyzihes
+     pestäkseh+V+Pot+RcPl3+ConNeg: pestähes
+
+
+     pestäkseh+V+Imprt+RcSg2: pezei
+     pestäkseh+V+Imprt+RcSg3: peskähes
+     pestäkseh+V+Imprt+RcPl1: peskiämmökseh
+     pestäkseh+V+Imprt+RcPl2: peskiättökseh
+     pestäkseh+V+Imprt+RcPl3: pestähes
+## There must be some Conneg forms as well
+
+     pestäkseh+V+RcPrfPrc: pessyhes
