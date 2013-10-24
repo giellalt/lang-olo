@@ -191,6 +191,7 @@ LEXICON N_KIELI-SG
 LEXICON N_KIELI-PL
 +N: 	NMN_KIELI-PL ;
 
+
 LEXICON N_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 +N: NMN_PUHTAHUS ;
 
@@ -266,10 +267,10 @@ LEXICON NMN_MUARJU-SG
 +Sg: Noun-NB-01 ;
 LEXICON NMN_MUARJU-PL
  PLNOMSUF ;
-:%>oi PLGENSUF_N ; ! the plural comitative is declined here
-:%>oi PLPARSUF_a ;
-:%>oi PLINSSUF ;
-+Pl:%>oi Noun-NB-01 ;
+:%>i PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLPARSUF_a ;
+:%>i PLINSSUF ;
++Pl:%>i Noun-NB-01 ;
 
 LEXICON N_VIGA !!= @CODE@ viga:viga
  N_KALA ;
@@ -603,6 +604,22 @@ LEXICON NMN_KIELI-PL
 :il%{oö%}i PLINSSUF ;
 +Pl:il%{oö%}i Noun-NB-01 ;
 
+LEXICON NMN_YKSI  !!= @CODE@ yksi:y
+	NMN_YKSI-SG ;
+	NMN_YKSI-PL ;
+
+LEXICON NMN_YKSI-SG
+:ksi SGNOMSUF ;
+:hte SGGENSUF ;
+:h SGPARSUF_dU ;
++Sg:hte Noun-NB-01 ;
+
+LEXICON NMN_YKSI-PL
+:ksie PLGENSUF_N ; ! the plural comitative is declined here
+:ksi PLPARSUF_i ;
+:ksi PLINSSUF ;
++Pl:ksi Noun-NB-01 ;
+
 
 LEXICON NMN_VUOZI
 	NMN_VUOZI-SG ;
@@ -636,6 +653,23 @@ LEXICON NMN_PAREMBI-PL
 :i PLPARSUF_i ;
 :i PLINSSUF ;
 +Pl: Noun-NB-01 ;
+
+LEXICON	NMN_KUDAI !!= @CODE@ kudai:kuda
+ NMN_KUDAI-SG ;
+ NMN_KUDAI-PL ;
+LEXICON NMN_KUDAI-SG
+:i SGNOMSUF ;
+:m%>%{aä%} SGGENSUF ;
+:m%>%{ui%} SGPARSUF_A2 ;
++Sg:m%>%{aä%} Noun-NB-01 ;
+
+LEXICON NMN_KUDAI-PL
+:m%>%{aä%} PLNOMSUF ;
+:mie PLGENSUF_N ;
+:mi PLPARSUF_i ;
+:mi PLINSSUF ;
++Pl:mi Noun-NB-01 ;
+
 
 
 LEXICON NMN_PIIRAI !!= @CODE@ piirai:piira
@@ -901,11 +935,11 @@ LEXICON NMN_KARJAL !!= @CODE@ karjal:karjal
 
 LEXICON NMN_KARJAL-SG !!= @CODE@ karjal:karjal
  SGNOMSUF ;
-:%{aä%} SGGENSUF ;
-:%{ui%} SGPARSUF_A2 ;
-+Sg:%{aä%} Noun-NB-01 ;
+:%>%{aä%} SGGENSUF ;
+:%>%{ui%} SGPARSUF_A2 ;
++Sg:%>%{aä%} Noun-NB-01 ;
 LEXICON NMN_KARJAL-PL !!= @CODE@ karjal:karjal
-:a PLNOMSUF ;
+:%>%{aä%} PLNOMSUF ;
 :%>%{oö%}i PLGENSUF_N ;
 :%>%{oö%}i PLPARSUF_Zero ;
 :%{oö%}i PLINSSUF ;
@@ -1033,17 +1067,17 @@ LEXICON NMN_ALUS !!= @CODE@ alus:aluks
 	NMN_ALUS-PL ;
 
 LEXICON NMN_ALUS-SG
-+N:%^KS2S SGNOMSUF ;
-+N:e SGGENSUF ;
-+N:%^KS2S SGPARSUF_dU ;
-+N+Sg:e Noun-NB-01 ;
+:%^KS2S SGNOMSUF ;
+:e SGGENSUF ;
+:%^KS2S SGPARSUF_dU ;
++Sg:e Noun-NB-01 ;
 
 LEXICON NMN_ALUS-PL
-+N:e PLNOMSUF ;
-+N:%>ie PLGENSUF_N ; ! the plural comitative is declined here
-+N:%>i PLPARSUF_i ;
-+N:%>i PLINSSUF ;
-+N+Pl:i Noun-NB-01 ;
+:e PLNOMSUF ;
+:%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
++Pl:i Noun-NB-01 ;
 
 LEXICON NMN_MIES !!= @CODE@ mies:mie
 	NMN_MIES-SG ;
