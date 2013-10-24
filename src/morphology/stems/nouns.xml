@@ -6,6 +6,28 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="N">kniigu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">kniiga</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">kirja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">abai</l>
 
       <stg>
@@ -21298,7 +21320,7 @@
       <l pos="N">kadovuozi</l>
 
       <stg>
-        <st Contlex="N_VUOZI">kado#vuot</st>
+        <st Contlex="N_VUOZI">kado#vuod</st>
       </stg>
     </lg>
 
@@ -23638,7 +23660,7 @@
       <l pos="N">kargavusvuozi</l>
 
       <stg>
-        <st Contlex="N_VUOZI">kargavus#vuot</st>
+        <st Contlex="N_VUOZI">kargavus#vuod</st>
       </stg>
     </lg>
 
@@ -44110,7 +44132,7 @@
       <l pos="N">pajokniigu</l>
 
       <stg>
-        <st Contlex="N_">pajukniigu</st>
+        <st Contlex="N_MUARJU">paju#kniiga</st>
       </stg>
     </lg>
 
@@ -48854,7 +48876,7 @@
       <l pos="N">plettivarzi</l>
 
       <stg>
-        <st Contlex="N_VUOZI">plettivart</st>
+        <st Contlex="N_VUOZI">pletti#vard</st>
       </stg>
     </lg>
 
@@ -58309,54 +58331,10 @@
 
   <e>
     <lg>
-      <l pos="N">sanakniigu</l>
-
-      <stg>
-        <st Contlex="N_MUARJU">sanakniiga</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="N">sanakirja</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">sananpolvi</l>
 
       <stg>
-        <st Contlex="N_KIELI">sanan#polv</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="N">sananparsi, sananlasku</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">sananpolvi</l>
-
-      <stg>
-        <st Contlex="N_KIELI">sananpolv</st>
+        <st Contlex="N_NIMI">sanan#polv</st>
       </stg>
     </lg>
 
@@ -69005,7 +68983,7 @@
       <l pos="N">tinakynzi</l>
 
       <stg>
-        <st Contlex="N_VUOZI">tina#kynt</st>
+        <st Contlex="N_VUOZI">tina#kynd</st>
       </stg>
     </lg>
 
@@ -82405,7 +82383,7 @@
       <l pos="N">vuozi</l>
 
       <stg>
-        <st Contlex="N_VUOZI">vuot</st>
+        <st Contlex="N_VUOZI">vuod</st>
       </stg>
     </lg>
 

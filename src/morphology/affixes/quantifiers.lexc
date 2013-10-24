@@ -14,6 +14,9 @@ LEXICON NUM_SÄYNÄ
 LEXICON NUM_TUHAT
 +Num+Card: NMN_TUHAT ;
 
+LEXICON NUM_YKSI  !!= @CODE@ yksi:y
++Num+Card: NMN_YKSI ;
+
 
 
 LEXICON Num-kolme !!= @CODE@ 

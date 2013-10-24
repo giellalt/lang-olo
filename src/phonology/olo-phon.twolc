@@ -85,8 +85,8 @@ K1:k
 ! this weakens the stem _ompel_ to _ommel_
 %^WGStem:0
 
-! The ti => zi
-%^T2Z:0
+
+%^D2Z:0	 !!= @CODE@ ! The ti => zi
 
 ! the a => o
 %^A2O:0
@@ -213,6 +213,13 @@ Rules
 ! [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WEAK:0 ) h | %^WEAK:0 [ %> | # ] | s | i | (n) n | %> [(n) %{uy%}: | g i | h ] | # ] ;
 !   [ BTCons %> | [ BT ] ( %^WEAK:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) | (t) t | s s ]] _ [  h | s | ( n ) n | t t | m m | v | %> g | # ] ;
 
+! Vowel harmony suffixes Front
+"%{aä%}:ä"
+!! __@RULENAME@__
+ %{aä%}:ä <=>
+  [ FTCons ( %> ) | [ %{ui%}:i | %{aä%}:i | ä:i ] ( %> ) ] _ [ # | ( ( %^WEAK:0 ) %> )  [ Cns: | %{uy%}:y ] | %^WEAK:0 ] ;
+
+
 
 "%{aä%}:e"
 !! __@RULENAME@__
@@ -314,7 +321,7 @@ a:0 <=>
 
 "a:o in the plural and preterite"
 !! __@RULENAME@__
-a:o <=> # Cns* [ a | i | e ] Cns:+ _ %> i: ( %^WEAK:0 )  ;
+a:o <=> # Cns* [ a | i | e ] (u|i) Cns:+ _ %> i: ( %^WEAK:0 )  ;
 
 
 "a:e"
@@ -357,6 +364,8 @@ g:l <=> l _ [ a: ] ( %> i ) %^WEAK:0 ;
 !! __@RULENAME@__  
 d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WEAK:0 ;
  [  a ] _ [  u ] %^WEAK:0 ;
+  [ u o: | u: ] _ e %^WEAK:0 ; !!= @CODE@ vuozi:vuvven
+
 
 ! luadie:luajitah
 "d:j"
@@ -372,13 +381,8 @@ y:v <=>  ö _ d: ä %^WEAK:0 ;
 ! soudua:sovva
 "u:v"
 !! __@RULENAME@__
-u:v <=>  o _ d: a %^WEAK:0 ;
+u:v <=> [ o | u ] _ d: [ a | e ] %^WEAK:0 ;
 
-
-! vuozi:vuvven
-"t:v"
-!! __@RULENAME@__  
-t:v <=> u o: _ e %^WEAK:0 ;
 
 "o:v Lengthening with Ut:vv weakening"
 !! __@RULENAME@__  
@@ -388,16 +392,16 @@ o:v <=> u _ t: e %^WEAK:0 ;
 !2013-04-29!        #: Cns* Vow v _ Vow [ Vow 0: Cns ( Cns:0 ) :Vow | Vow %^SyllBr:0 e ] %^StretchSyll2:0 ; ! kevät:kevväen, tavvaara
 !2013-04-29!
 
-! vuozi:vuot
-"t:z"
+! vuozi:vuod
+"d:z"
 !! __@RULENAME@__  
-t:z <=> _ %^T2Z:0 %> i ;
+d:z <=> [Vow | r | n ] _ %^D2Z:0 %> i ;
 
 ! vuozi:vuot+d%{uy%}, armas:armas+d%{uy%}
 "d:t in partitive"
 !! __@RULENAME@__  
-d:t <=> [ h | t | s ] ( %^KS2S:0 ) %> _ ;
-
+d:t <=> [ h | :t | s ] ( %^KS2S:0 ) %> _ ;
+         [Vow | r | n ] _ %> d: %{uy%}: ;
 "s:z"
 !! __@RULENAME@__
 s:z <=> _ %^VOICE:0 ; !!= * @CODE@ pestä: pezen
