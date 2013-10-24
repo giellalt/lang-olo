@@ -15,8 +15,8 @@ Tests:
 
 
   Verb - pestäkseh: # Verb 'syntyä, ilmaantua' - full paradigm
-     pestäkseh+V+Ind+Prs+RcSg1: pezemmos
-     pestäkseh+V+Ind+Prs+RcSg2: pezettos
+     pestäkseh+V+Ind+Prs+RcSg1: pezemmös
+     pestäkseh+V+Ind+Prs+RcSg2: pezettös
      pestäkseh+V+Ind+Prs+RcSg3: [pezeh, pezehes]
      pestäkseh+V+Ind+Prs+RcPl1: pezemmökseh
      pestäkseh+V+Ind+Prs+RcPl2: pezettökseh
@@ -65,10 +65,11 @@ Tests:
      pestäkseh+V+Pot+RcPl1: pessemmökseh
      pestäkseh+V+Pot+RcPl2: pessettökseh
      pestäkseh+V+Pot+RcPl3: pestähes
-     pestäkseh+V+Pot+RcSg+ConNeg: pessyzihes
-     pestäkseh+V+Pot+RcPl1+ConNeg: pessyzihes
-     pestäkseh+V+Pot+RcPl2+ConNeg: pessyzihes
-     pestäkseh+V+Pot+RcPl3+ConNeg: pestähes
+## This looks like it ought to be _pestänehes_
+     pestäkseh+V+Pot+RcSg+ConNeg: pessehes
+     pestäkseh+V+Pot+RcPl1+ConNeg: pessehes
+     pestäkseh+V+Pot+RcPl2+ConNeg: pessehes
+     pestäkseh+V+Pot+RcPl3+ConNeg: pestänehes
 
 
      pestäkseh+V+Imprt+RcSg2: pezei

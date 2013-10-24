@@ -151,6 +151,9 @@ FT =  [ #: Cns* [ VowFront | VowNeutral | i: ] | :VowFront ] \[ # | VowBack: | :
 BT =     #: Cns* ( [ VowNeutral | i: ] [ Dummy: | %> | VowBack: | :VowBack | Cns: | :Cns ]* )  [ VowBack: | :VowBack ] \[ # | VowFront: | :VowFront ]* ;
 !    #: Cns* ( [ VowNeutral | i: ] [ Dummy: | %> | VowBack: | :VowBack | Cns: | :Cns ]* )  [ VowBack: | :VowBack ] [ Dummy: | %> | VowNeutral | i: | %{aä%}:0 | VowBack: | :VowBack | Cns: | :Cns ]* ;
 
+!Front Trigger with consonant
+FTCons = FT [ Cns: (ʼ:) ] ;
+
 !Back Trigger with consonant
 BTCons = BT [ Cns: (ʼ:) ] ;
 
@@ -250,6 +253,9 @@ Rules
 !!! __@RULENAME@__
 !%{aä%}:0 <=> _ %> i  ;
 
+"e:0"
+!! __@RULENAME@__
+ e:0 <=> Cns: (%^VOICE:)  _ %> i  ;
 
 "%{ui%}:u"
 !! __@RULENAME@__
