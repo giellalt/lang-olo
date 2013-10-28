@@ -148,7 +148,7 @@ FT =  [ #: Cns* [ VowFront | VowNeutral | i: ] | :VowFront ] \[ # | VowBack: | :
 
 
 ! Back Trigger 
-BT =     #: Cns* ( [ VowNeutral | i: ] [ Dummy: | %> | VowBack: | :VowBack | Cns: | :Cns ]* )  [ VowBack: | :VowBack ] \[ # | VowFront: | :VowFront ]* ;
+BT =     #: Cns* ( [ VowNeutral | i: ] [ Dummy: | %> | VowNeutral | VowBack: | :VowBack | Cns: | :Cns ]* )  [ VowBack: | :VowBack ] \[ # | VowFront: | :VowFront ]* ;
 !    #: Cns* ( [ VowNeutral | i: ] [ Dummy: | %> | VowBack: | :VowBack | Cns: | :Cns ]* )  [ VowBack: | :VowBack ] [ Dummy: | %> | VowNeutral | i: | %{aä%}:0 | VowBack: | :VowBack | Cns: | :Cns ]* ;
 
 !Front Trigger with consonant
@@ -359,6 +359,13 @@ i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
  %{uy%}:u <=>  [ BT | :VowBack Cns:* ] ( %> ) _ ;
 
 !! !!Consonant change
+
+!
+"g:j"
+!! __@RULENAME@__
+g:j <=> i _ [ a: ] ( %> i ) %^WEAK:0 ;
+!€ poiga%^WEAK>n
+!€ poija00n
 
 ! sulgu:sullan
 "g:l"

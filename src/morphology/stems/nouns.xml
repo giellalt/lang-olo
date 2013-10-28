@@ -14460,7 +14460,7 @@
       <l pos="N">hukanpoigu</l>
 
       <stg>
-        <st Contlex="N_">hukanpoigu</st>
+        <st Contlex="N_KOIRU">hukan#poiga</st>
       </stg>
     </lg>
 
@@ -22962,7 +22962,7 @@
       <l pos="N">kananpoigu</l>
 
       <stg>
-        <st Contlex="N_">kananpoigu</st>
+        <st Contlex="N_KOIRU">kanan#poiga</st>
       </stg>
     </lg>
 
@@ -25215,7 +25215,7 @@
       <l pos="N">kažinpoigu</l>
 
       <stg>
-        <st Contlex="N_">kažinpoigu</st>
+        <st Contlex="N_KOIRU">kažin#poiga</st>
       </stg>
     </lg>
 
@@ -30494,7 +30494,7 @@
       <l pos="N">kondiepoigu</l>
 
       <stg>
-        <st Contlex="N_KOIRU">kondie#poigu</st>
+        <st Contlex="N_KOIRU">kondie#poiga</st>
       </stg>
     </lg>
 
@@ -42833,7 +42833,7 @@
       <l pos="N">ottopoigu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">otto#poiga</st>
+        <st Contlex="N_KOIRU">otto#poiga</st>
       </stg>
     </lg>
 
@@ -49299,7 +49299,7 @@
       <l pos="N">poigu</l>
 
       <stg>
-        <st Contlex="N_PÄIVY">poigu</st>
+        <st Contlex="N_KOIRU">poiga</st>
       </stg>
     </lg>
 
@@ -55655,7 +55655,7 @@
       <l pos="N">ristinpoigu</l>
 
       <stg>
-        <st Contlex="N_">ristinpoiga</st>
+        <st Contlex="N_KOIRU">ristin#poiga</st>
       </stg>
     </lg>
 
@@ -61754,28 +61754,6 @@
 
   <e>
     <lg>
-      <l pos="N">sorzanpoigu</l>
-
-      <stg>
-        <st Contlex="N_KOIRU">sorzanpoiga</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="N">sorsanpoikanen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">sorzu</l>
 
       <stg>
@@ -62845,28 +62823,6 @@
 
       <stg>
         <st Contlex="N_KOIRU">suarin#poiga</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="N">tsaarin poika</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">suarinpoigu</l>
-
-      <stg>
-        <st Contlex="N_KOIRU">suarinpoiga</st>
       </stg>
     </lg>
 
