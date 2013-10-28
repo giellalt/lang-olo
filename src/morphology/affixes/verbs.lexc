@@ -71,6 +71,10 @@ LEXICON V_SUAJA !!= @CODE@ suaja:saa
 !Verbs of the Finnish type 2
 +V: V-VV_02 ;
 
+LEXICON V_NÄHTÄ !!= @CODE@ nähtä:nä
++TYÄ+V:	V-VV_02	 ;
+
+
 LEXICON V_TULLA !!= @CODE@ tulla:tul
 !! !Verbs of the Finnish type 3
 +V: V-VV_03 ;
@@ -85,6 +89,10 @@ LEXICON V_TULLA !!= @CODE@ tulla:tul
 !+V+Inf:%>d%{aäInf%}%^WEAK K ;
 
 LEXICON V_PESTÄ !!= @CODE@ pestä:pes
+!! !Verbs of the Finnish type 3
++V: V-VV_03 ;
+
+LEXICON V_NOSTA !!= @CODE@ nosta:no
 !! !Verbs of the Finnish type 3
 +V: V-VV_03 ;
 
@@ -133,23 +141,32 @@ LEXICON V_SUATA !!= @CODE@ suata:suva (suvaiččov)
 +V: #;
 
 LEXICON VR_AMBUO !!= @CODE@ ambuokseh:ambu
-	VR_ ;
+	VR_01 ;
 
 LEXICON VR_VALUO !!= @CODE@ valuokseh:valu
-	VR_ ;
+	VR_01 ;
 
 LEXICON VR_PUNUO !!= @CODE@ punuokseh:puno
-	VR_ ;
+	VR_01 ;
 
 LEXICON VR_IMIE !!= @CODE@ imiekseh:ime
-	VR_ ;
+	VR_01 ;
+
+LEXICON VR_POTKIE !!= @CODE@ potkiekseh:potki
+	VR_01 ;
 
 LEXICON VR_KANDUA !!= @CODE@ kanduakseh:kanda
-  VR_ ;
+  VR_01 ;
+
+LEXICON VR_OTTUA !!= @CODE@ ottuakseh:otta
+	VR_01 ;
 
 LEXICON VR_RODIEKSEH !!= @CODE@ rodiekseh:rodi
 ! Reflexive verbs
  VR_01 ;
+
+LEXICON VR_NÄHTÄ !!= @CODE@ nähtä:nä
+	VR_	 ;
 
 LEXICON VR_TULLA !!= @CODE@ tuliekseh:tul !this will need work 2013-10-23
 	VR_03 ;
@@ -160,7 +177,7 @@ LEXICON VR_PESTÄ !!= @CODE@ tuliekseh:tul !this will need work 2013-10-23
 LEXICON VR_AVATA !!= @CODE@ avatakseh:ava (typätäkseh:typpä)
  VR_ ;
 
-LEXICON VR_SUVAIJAKSEH !!= @CODE@ emändöijäkseh:emändöi
+LEXICON VR_SUVAIJA !!= @CODE@ emändöijäkseh:emändöi
 !Verbs of the Finnish type 5
 :čče VR-LONGSTEM_ ;
  VR-SHORTSTEM_ ;
