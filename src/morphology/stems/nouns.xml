@@ -6,6 +6,138 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="N">sukkulaine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">sukkula</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">sukkula</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">liygiläine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">liygilä</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">livvikkö, liygiläinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">pahaččaine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">pahačča</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">huono, kehno</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">mečikkö</l>
+
+      <stg>
+        <st Contlex="N_RUNO">mečikkö</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">metsikkö; nuori metsä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">muanihus</l>
+
+      <stg>
+        <st Contlex="N_ALUS">muanihuks</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">pettymys</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">kukindu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">kukinda</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">kukinta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">kniigu</l>
 
       <stg>
@@ -25715,7 +25847,7 @@
 
   <e>
     <lg>
-      <l>kelirikko</l>
+      <l pos="N">kelirikko</l>
 
       <stg>
         <st Contlex="N_RUNO">kelirikko</st>
@@ -26699,7 +26831,7 @@
 
   <e>
     <lg>
-      <l>kezriäjy</l>
+      <l pos="N">kezriäjy</l>
 
       <stg>
         <st Contlex="N_">kezriäjy</st>
