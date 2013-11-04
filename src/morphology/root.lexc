@@ -198,7 +198,7 @@ Multichar_Symbols
  %>
  %^DEVOICE  !!= @CODE@ !
  %^VOICE  !!= @CODE@ ! pestä: pezen
- %^WEAK ! weak grade
+ %^WGStem !!= @CODE@  weak grade
  %^E1 ! causes a:e in kandua : kannettu
  %^SyllBound ! syllable boundary
  %^D2Z ! Triggers ti=>zi
