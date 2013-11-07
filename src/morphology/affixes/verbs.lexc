@@ -34,6 +34,8 @@ LEXICON V_OLLA !!= @CODE@ olla:o
 +V:l CONDPRS_IS  ;
 +V:le M-INF ;
 
+
+
 LEXICON V_KANDUA !!= @CODE@ kandua:kanda
 !Verbs of the Finnish type 1
 !V1a
@@ -99,6 +101,9 @@ LEXICON V_NOSTA !!= @CODE@ nosta:no
 
 LEXICON V_TYPÄTÄ !!= @CODE@ typätä:typpä
 +V: #;
+
+LEXICON V_KÄITÄ !!= @CODE@ käitä:käge
++V: V-VV_04 ;
 
 LEXICON V_AVATA !!= @CODE@ typätä:typpä
 !Verbs of the Finnish type 4
