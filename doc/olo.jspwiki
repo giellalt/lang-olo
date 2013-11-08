@@ -66,6 +66,7 @@ Other verb forms are
  ; +ActPrsPrc : active present participle
  ; +PssPrfPrc : passive past participle
  ; +PssPrsPrc : passive present participle
+ ; +RcPrfPrc : reflexive past participle
  ; +Ger : Gerund
 
 
@@ -93,6 +94,7 @@ symbols in the lexicon files:
 And following triggers to control variation
   %^DEVOICE   !
   %^VOICE   ! pestä: pezen
+  %^WGStem   weak grade
   %^ILoss   ! the i => 0 __reboi__ __reboloi__
 
 
@@ -121,11 +123,6 @@ word classes, or optionally from prefixes:
 
 
 
-
-
-
-
-
 Noun inflection
 ---------------
 Livvi nouns inflect in cases.
@@ -134,12 +131,10 @@ Livvi nouns inflect in cases.
 
 
  LEXICON N_KARJAL  karjal:karjal
+ LEXICON N_KARJAL-SG  karjal:karjal
+ LEXICON N_KARJAL-PL  karjal:karjal
 
  LEXICON N_PIIRAI  piirai:piira CHECK THIS
-
-
-
- LEXICON NMN_PIIRAI  piirai:piira
 
 
 
@@ -150,9 +145,6 @@ Livvi nouns inflect in cases.
 
  LEXICON N_HUOLETOI  huoletoi: huolet
 
-
-
- LEXICON NMN_HUOLETOI  huoletoi: huolet
 
 
  LEXICON N_VANUIN  vanuin:vanui
@@ -194,6 +186,7 @@ Livvi nouns inflect in cases.
  LEXICON N_JÄLGI   jälgi:jälg
 
  LEXICON N_KIELI  kieli:kiel
+
 
 
  LEXICON N_PUHTAHUS  puhtahus:puhtahu
@@ -346,6 +339,10 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON NMN_YKSI   yksi:y
+
+
+
 
 
 
@@ -353,6 +350,17 @@ Livvi nouns inflect in cases.
  LEXICON NMN_PAREMBI  parembi:paremb
 
 
+
+ LEXICON	NMN_KUDAI  kudai:kuda
+
+
+
+
+ LEXICON NMN_PIIRAI  piirai:piira
+
+
+
+ LEXICON NMN_HUOLETOI  huoletoi: huolet
 
 
  LEXICON NMN_PÄIVY  päivy:päivä
@@ -408,6 +416,11 @@ Livvi nouns inflect in cases.
 
 * LEXICON NMN_PESSYH  the +Pl+Com comes here
 
+ LEXICON NMN_KARJAL  karjal:karjal
+
+ LEXICON NMN_KARJAL-SG  karjal:karjal
+ LEXICON NMN_KARJAL-PL  karjal:karjal
+
 ! Nominative singular in "m"
 
 
@@ -448,9 +461,6 @@ Livvi nouns inflect in cases.
  LEXICON NMN_SUALIŠ  suališ:suali
 
 
-
-! Nominative singular in "l"
- LEXICON NMN_KARJAL  karjal:karjal
 
 
  LEXICON NMN_RAIŠ  raiš:ra
@@ -549,11 +559,17 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON V_SUAJA  suaja:saa
 
+ LEXICON V_NÄHTÄ  nähtä:nä
+
+
  LEXICON V_TULLA  tulla:tul
 !Verbs of the Finnish type 3
 
 
  LEXICON V_PESTÄ  pestä:pes
+!Verbs of the Finnish type 3
+
+ LEXICON V_NOSTA  nosta:no
 !Verbs of the Finnish type 3
 
 
@@ -572,13 +588,29 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON VR_AMBUO  ambuokseh:ambu
 
+ LEXICON VR_VALUO  valuokseh:valu
+
+ LEXICON VR_PUNUO  punuokseh:puno
+
+ LEXICON VR_IMIE  imiekseh:ime
+
+ LEXICON VR_POTKIE  potkiekseh:potki
+
  LEXICON VR_KANDUA  kanduakseh:kanda
+
+ LEXICON VR_OTTUA  ottuakseh:otta
 
  LEXICON VR_RODIEKSEH  rodiekseh:rodi
 
+ LEXICON VR_NÄHTÄ  nähtä:nä
+
+ LEXICON VR_TULLA  tuliekseh:tul !this will need work 2013-10-23
+
+ LEXICON VR_PESTÄ  tuliekseh:tul !this will need work 2013-10-23
+
  LEXICON VR_AVATA  avatakseh:ava (typätäkseh:typpä)
 
- LEXICON VR_SUVAIJAKSEH  emändöijäkseh:emändöi
+ LEXICON VR_SUVAIJA  emändöijäkseh:emändöi
 
 
 
@@ -608,12 +640,33 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
 
-* LEXICON VR_SUVAIJAKSEH  suvaija:suvai
+* LEXICON VR_SUVAIJA  suvaija:suvai
 
 
 
 
-* LEXICON VR_SUVAIJAKSEH  merkitä:merki
+* LEXICON VR_SUVAIJA  merkitä:merki
+
+
+
+
+
+
+
+
+!REFLEXIVE CONJUGATION
+
+
+
+
+
+
+
+
+HOW WILL THESE WORK
+
+
+
 
 
 
@@ -626,9 +679,17 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 Nonfinites
 
 Finites
-Indicative
-* LEXICON VR_SUVAIJAKSEH  type 04
+!INDICATIVE PRESENT
+* LEXICON VR_SUVAIJA  type 04
 
+!INDICATIVE PRESENT REFLEXIVE
+
+
+* LEXICON VR_SUVAIJA  
+
+!INDICATIVE PRETERITE
+
+!INDICATIVE PRETERITE REFLEXIVE
 
 
 Conditional
@@ -641,10 +702,42 @@ Conditional
 
 
 
+!CONDITIONAL PRETERITE
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ !+Pot+RcPl3:%>d%{aä%}%>nehes K ;  Shouldn't THIS be the right form
+
+
+!IMPERATIVE
+
+
+
+
+
+
+
+
+
+
+
+!IMPERATIVE REFLEXIVE
 
 
 
@@ -708,6 +801,8 @@ Conditional
 
 
 
+ %^D2Z:0	  ! The ti => zi
+
 
 
  %^ILoss:0    the i => 0 __reboi reboloi__
@@ -717,7 +812,7 @@ Conditional
 
 
 
- * %^WEAK:0  
+
 
 
 
@@ -755,6 +850,9 @@ __%{aä%}:ö__
 
 __%{aä%}:a__
 
+__%{aä%}:ä__
+
+
 
 __%{aä%}:e__
 
@@ -768,9 +866,10 @@ __%{aä%}:0__
 
 __%{aä%}:0__
 
+__e:0__
 
 __%{ui%}:u__
-* %^WEAK:0  ! imperative forms
+* %^ILoss:0   ! imperative forms
 
 __A2:a__
 
@@ -830,9 +929,13 @@ __%{uy%}:u__ Vowel harmony suffixes Back
 
 !!Consonant change
 
+__g:j__
+
 __g:l__  
 
 __d:v__  
+   [ u o: | u: ] _ e %^WGStem:0 ;  vuozi:vuvven
+
 
 __d:j__  
 
@@ -842,14 +945,11 @@ __y:v__
 __u:v__
 
 
-__t:v__  
-
 __o:v Lengthening with Ut:vv weakening__  
 
-__t:z__  
+__d:z__  
 
 __d:t in partitive__  
-
 __s:z__
  * s:z <=> _ %^VOICE:0 ;  pestä: pezen
 
@@ -864,7 +964,7 @@ __ld:ll weakening__
    Vow l %> _ GRC ;  tulla+Ind+Prs+ScPl3: tullah
 
 __nd:nn weakening__  
-   Vow ( %^WEAK:0 %> ) n %> _ GRC ;  mennä+Ind+Prs+ScPl3: mennäh
+   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  mennä+Ind+Prs+ScPl3: mennäh
 
 __rn:rr in prtprc__  
 
@@ -875,10 +975,10 @@ __sn:ss in prtprc__
 
 
 __čToZero__  
-*   Vow ( %^WEAK:0 %> ) n %> _ GRC ;  suvaija:suvaičen
+*   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  suvaija:suvaičen
 
 __kToZero__  aika: ajan
-*   Vow ( %^WEAK:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
+*   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
 
 
 
