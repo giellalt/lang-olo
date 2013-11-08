@@ -6,12 +6,10 @@ Livvi nouns inflect in cases.
 
 
  LEXICON N_KARJAL  karjal:karjal
+ LEXICON N_KARJAL-SG  karjal:karjal
+ LEXICON N_KARJAL-PL  karjal:karjal
 
  LEXICON N_PIIRAI  piirai:piira CHECK THIS
-
-
-
- LEXICON NMN_PIIRAI  piirai:piira
 
 
 
@@ -22,9 +20,6 @@ Livvi nouns inflect in cases.
 
  LEXICON N_HUOLETOI  huoletoi: huolet
 
-
-
- LEXICON NMN_HUOLETOI  huoletoi: huolet
 
 
  LEXICON N_VANUIN  vanuin:vanui
@@ -66,6 +61,7 @@ Livvi nouns inflect in cases.
  LEXICON N_JÄLGI   jälgi:jälg
 
  LEXICON N_KIELI  kieli:kiel
+
 
 
  LEXICON N_PUHTAHUS  puhtahus:puhtahu
@@ -218,6 +214,10 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON NMN_YKSI   yksi:y
+
+
+
 
 
 
@@ -225,6 +225,17 @@ Livvi nouns inflect in cases.
  LEXICON NMN_PAREMBI  parembi:paremb
 
 
+
+ LEXICON	NMN_KUDAI  kudai:kuda
+
+
+
+
+ LEXICON NMN_PIIRAI  piirai:piira
+
+
+
+ LEXICON NMN_HUOLETOI  huoletoi: huolet
 
 
  LEXICON NMN_PÄIVY  päivy:päivä
@@ -280,6 +291,11 @@ Livvi nouns inflect in cases.
 
 * LEXICON NMN_PESSYH  the +Pl+Com comes here
 
+ LEXICON NMN_KARJAL  karjal:karjal
+
+ LEXICON NMN_KARJAL-SG  karjal:karjal
+ LEXICON NMN_KARJAL-PL  karjal:karjal
+
 ! Nominative singular in "m"
 
 
@@ -320,9 +336,6 @@ Livvi nouns inflect in cases.
  LEXICON NMN_SUALIŠ  suališ:suali
 
 
-
-! Nominative singular in "l"
- LEXICON NMN_KARJAL  karjal:karjal
 
 
  LEXICON NMN_RAIŠ  raiš:ra

@@ -29,11 +29,17 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON V_SUAJA  suaja:saa
 
+ LEXICON V_NÄHTÄ  nähtä:nä
+
+
  LEXICON V_TULLA  tulla:tul
 !Verbs of the Finnish type 3
 
 
  LEXICON V_PESTÄ  pestä:pes
+!Verbs of the Finnish type 3
+
+ LEXICON V_NOSTA  nosta:no
 !Verbs of the Finnish type 3
 
 
@@ -52,13 +58,29 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON VR_AMBUO  ambuokseh:ambu
 
+ LEXICON VR_VALUO  valuokseh:valu
+
+ LEXICON VR_PUNUO  punuokseh:puno
+
+ LEXICON VR_IMIE  imiekseh:ime
+
+ LEXICON VR_POTKIE  potkiekseh:potki
+
  LEXICON VR_KANDUA  kanduakseh:kanda
+
+ LEXICON VR_OTTUA  ottuakseh:otta
 
  LEXICON VR_RODIEKSEH  rodiekseh:rodi
 
+ LEXICON VR_NÄHTÄ  nähtä:nä
+
+ LEXICON VR_TULLA  tuliekseh:tul !this will need work 2013-10-23
+
+ LEXICON VR_PESTÄ  tuliekseh:tul !this will need work 2013-10-23
+
  LEXICON VR_AVATA  avatakseh:ava (typätäkseh:typpä)
 
- LEXICON VR_SUVAIJAKSEH  emändöijäkseh:emändöi
+ LEXICON VR_SUVAIJA  emändöijäkseh:emändöi
 
 
 
@@ -88,12 +110,33 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
 
-* LEXICON VR_SUVAIJAKSEH  suvaija:suvai
+* LEXICON VR_SUVAIJA  suvaija:suvai
 
 
 
 
-* LEXICON VR_SUVAIJAKSEH  merkitä:merki
+* LEXICON VR_SUVAIJA  merkitä:merki
+
+
+
+
+
+
+
+
+!REFLEXIVE CONJUGATION
+
+
+
+
+
+
+
+
+HOW WILL THESE WORK
+
+
+
 
 
 
@@ -106,9 +149,17 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 Nonfinites
 
 Finites
-Indicative
-* LEXICON VR_SUVAIJAKSEH  type 04
+!INDICATIVE PRESENT
+* LEXICON VR_SUVAIJA  type 04
 
+!INDICATIVE PRESENT REFLEXIVE
+
+
+* LEXICON VR_SUVAIJA  
+
+!INDICATIVE PRETERITE
+
+!INDICATIVE PRETERITE REFLEXIVE
 
 
 Conditional
@@ -121,10 +172,42 @@ Conditional
 
 
 
+!CONDITIONAL PRETERITE
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ !+Pot+RcPl3:%>d%{aä%}%>nehes K ;  Shouldn't THIS be the right form
+
+
+!IMPERATIVE
+
+
+
+
+
+
+
+
+
+
+
+!IMPERATIVE REFLEXIVE
 
 
 
