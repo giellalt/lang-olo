@@ -258,7 +258,9 @@ Rules
 
 "%{ui%}:u"
 !! __@RULENAME@__
+!!{{{
 %{ui%}:u <=> BTCons ( %> ) _ ( %> ) %{aä%}: ; !! * @CODE@ ! imperative forms
+!!}}}
 
 "A2:a"
 !! __@RULENAME@__
@@ -307,10 +309,11 @@ o:u <=> Cns _ %> [ %{aä%}:o | %{aäInf%}: ] ;
 
 "a:0 in suaja:sai"
 !! __@RULENAME@__
+!!{{{
 a:0 <=>
  a _ %> i ; !!= * @CODE@ Vowel shortening before subsequent "i"
 [ # Cns:*  [[ u | o ] (i)| u o ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ %> i (%^WGStem:) [ # | (e) %> ] ;
-
+!!}}}
 
 !! !!iToj between vowels
 "i:j"
@@ -374,10 +377,11 @@ g:l <=> l _ [ a: ] ( %> i ) %^WGStem:0 ;
 ! lʼöydiä:lʼövvä
 "d:v"
 !! __@RULENAME@__  
+!!{{{
 d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ;
  [  a ] _ [  u ] %^WGStem:0 ;
   [ u o: | u: ] _ e %^WGStem:0 ; !!= @CODE@ vuozi:vuvven
-
+!!}}}
 
 ! luadie:luajitah
 "d:j"
@@ -416,43 +420,38 @@ d:t <=> [ h | :t | s ] ( %^KS2S:0 ) %> _ ;
          [Vow | r | n ] _ %> d: %{uy%}: ;
 "s:z"
 !! __@RULENAME@__
+!!{{{
 s:z <=> _ %^VOICE:0 ; !!= * @CODE@ pestä: pezen
+!!}}}
 
 "k:g"
 !! __@RULENAME@__ pestä: peskäh
 k:g <=> [ n | l |r ] %> _ (%{ui%}:) %{aä%}: ; 
 
 
-!2013-04-29!
-!2013-04-29!
-!2013-04-29! viis: viijes
-!2013-04-29!"it:j"
-!2013-04-29! t:j <=> [ i | o ] i _ [ e | o ] %^WGStem:0 %> ;
-!2013-04-29!
-!2013-04-29!"st:ss weakening"
-!2013-04-29!t:s <=> Vow+ s _ ( %^TS:0 ) GRC ;
-!2013-04-29! last-minute verbs
-!2013-04-29! "ti:si in verbs"
-!2013-04-29!   [ n | l | r | Vow Vow ] _ %^TS:0 ; !  pittää: piti 
-!2013-04-29!
-
 "rd:rr weakening"
 !! __@RULENAME@__  
+!!{{{
 d:r <=>
      Vow: r _ Vow: (%> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
    Vow r %> _ GRC ; !!= @CODE@ purra+Ind+Prs+ScPl3: purrah
+!!}}}
 
 "ld:ll weakening"
 !! __@RULENAME@__  
+!!{{{
 d:l <=>
   Vow: l _ Vow: (%> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
   Vow l %> _ GRC ; !!= @CODE@ tulla+Ind+Prs+ScPl3: tullah
+!!}}}
 
 "nd:nn weakening"
 !! __@RULENAME@__  
+!!{{{
 d:n <=>
      Vow: n _ Vow: (%> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
   Vow ( %^WGStem:0 %> ) n %> _ GRC ; !!= @CODE@ mennä+Ind+Prs+ScPl3: mennäh
+!!}}}
 
 "rn:rr in prtprc"
 !! __@RULENAME@__  
@@ -466,38 +465,30 @@ n:l <=> l %> _ (%{uy%}:) (%^WGStem:)  ;
 !! __@RULENAME@__  
 n:s <=> s %> _ (%{uy%}:) (%^WGStem:)  ;
 
-!2013-04-29! p
-!2013-04-29!
-!2013-04-29!"mp:mm weakening"
-!2013-04-29!p:m <=> [ :Vow ( %^WGStem:0 %> ) | [ a: | ä: ] %^WGStem:0 %> %^E1:0 | %{aä%}: | Vow+ :Cns+ Vow  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | %{aä%}: %^WGStem:0 %> ( V3: ) Cns | %^TS:0 i %^WGStem:0 %> ] ;
-!2013-04-29!        m _ Vow l %^WGStem:0 ; ! ompel- to ommel-
-!2013-04-29! [ ( %> ) :Vow ( 0: ) %^WGStem:0 %> | Vow:0 %> i: %^WGStem:0 %> | Vow:0 %>  %^WGStem:0 %> i: %> ] ;
-!2013-04-29!%> %^WCns %^E1: mp
-!2013-04-29!
-!2013-04-29!
-!2013-04-29!"nk:ng weakening"
-!2013-04-29!k:g <=> [ #: ] Cns* Vow n _ [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
 
+!! !CONSONANT LOSS
  
 "čToZero"
 !! __@RULENAME@__  
+!!{{{
 č:0 <=> _ č [ (%>) Vow | Vow: %> i ] %^WGStem:0 ; !! * @CODE@ suvaija:suvaičen
+!!}}}
 
 "kToZero"
 !! __@RULENAME@__  aika: ajan
+!!{{{
 k:0 <=> _ s %^KS2S:0 ;
         _ k Vow %^WGStem:0 ; !! * @CODE@ lʼykätä:lʼykkä
+!!}}}
+
+"gToZero"
+!! __@RULENAME@__  aika: ajan
+!!{{{
+g:0 <=>
+        Vow _ i s %> d: %{aä%}: %^WGStem:0 ; !! * @CODE@ lʼykätä:lʼykkä
+!!}}}
 
 
-!2013-04-29! [  #:  Cns* Vow (( r | i | VowNonHigh ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
-!2013-04-29![ [ #: ] Cns* Vow (( r | i ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ Vow: | :Vow | ( Vow ) %> i ] ( %> i: | %^StretchSyll2:0 ) %^WGStem:0 %> ;
-!2013-04-29!        [ #: ] Cns* VowBack i: _ [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
-
-!2013-04-29! liika:liijan, reikä:reijän
-!2013-04-29!"kToj"
-!2013-04-29! k:j <=> [ #: ] Cns* [ VowFront | VowNeutral ] i: _ [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
-!2013-04-29!
-!2013-04-29! mato : maot, ! mato : maool
 !2013-04-29! tToZero in weak
 "tToZero in weak geminate"
  t:0 <=>

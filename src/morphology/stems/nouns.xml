@@ -703,7 +703,7 @@
       <l pos="N">airomies</l>
 
       <stg>
-        <st Contlex="N_">airomies</st>
+        <st Contlex="N_MIES">airo#mie</st>
       </stg>
     </lg>
 
@@ -6681,7 +6681,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="N">bestman, puhemies</t>
+        <t pos="N">sulhasrenki, bestman, puhemies</t>
       </tg>
     </mg>
   </e>
@@ -16152,7 +16152,7 @@
       <l pos="N">jalgumies</l>
 
       <stg>
-        <st Contlex="N_">jalgumies</st>
+        <st Contlex="N_MIES">jalgu#mie</st>
       </stg>
     </lg>
 
@@ -16714,7 +16714,7 @@
       </tg>
     </mg>
   </e>
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="N">joga mies</l>
 
@@ -30341,7 +30341,7 @@
       <l pos="N">kyndäimies</l>
 
       <stg>
-        <st Contlex="N_">kyndäimies</st>
+        <st Contlex="N_MIES">kyndäi#mie</st>
       </stg>
     </lg>
 
@@ -33642,6 +33642,27 @@
   </e>
   <e>
     <lg>
+      <l pos="N">mies</l>
+
+      <stg>
+        <st Contlex="N_MIES">mie</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">mies</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
       <l pos="N">moskovalaine</l>
 
       <stg>
@@ -33803,6 +33824,25 @@
 
       <tg xml:lang="fin">
         <t>palkinto</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">naine</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">nai</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">nainen</t>
       </tg>
     </mg>
   </e>
@@ -42383,7 +42423,7 @@
       <l pos="N">piällismies</l>
 
       <stg>
-        <st Contlex="N_">piällismies</st>
+        <st Contlex="N_MIES">piällis#mie</st>
       </stg>
     </lg>
 
@@ -69853,7 +69893,7 @@
       <l pos="N">vihamies</l>
 
       <stg>
-        <st Contlex="N_MIES">viha#mies</st>
+        <st Contlex="N_MIES">viha#mie</st>
       </stg>
     </lg>
 
