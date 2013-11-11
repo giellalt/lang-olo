@@ -73,6 +73,10 @@ LEXICON V_SUAJA !!= @CODE@ suaja:saa
 !Verbs of the Finnish type 2
 +V: V-VV_02 ;
 
+LEXICON V_JUVVA !!= @CODE@ juvva:juo
+!Verbs of the Finnish type 2
++V: V-VV_02 ;
+
 LEXICON V_NÄHTÄ !!= @CODE@ nähtä:nä
 +TYÄ+V:	V-VV_02	 ;
 
@@ -105,9 +109,13 @@ LEXICON V_TYPÄTÄ !!= @CODE@ typätä:typpä
 LEXICON V_KÄITÄ !!= @CODE@ käitä:käge
 +V: V-VV_04 ;
 
-LEXICON V_AVATA !!= @CODE@ typätä:typpä
+LEXICON V_SUVATA !!= @CODE@ suvata:suva
++V: V-VV_04 ;
+
+LEXICON V_AVATA !!= @CODE@ avata:ava
 !Verbs of the Finnish type 4
 +V: V-VV_04 ;
+
 
 
 LEXICON V_SUVAIJA !!= @CODE@ suvaija:suvai
