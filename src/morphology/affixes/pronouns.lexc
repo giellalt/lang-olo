@@ -114,6 +114,7 @@ LEXICON PERS-PL3
 LEXICON PRON_
 +Pron: # ;
 
+!! !DEMONSTRATIVE PRONOUNS
 LEXICON PRON_SE
 +Pron+Dem+Sg+Nom:e K ;
 +Pron+Dem+Sg+Gen:en K ;
@@ -123,6 +124,18 @@ LEXICON PRON_SE
 +Pron+Dem+Sg+All:ille K ;
 +Pron+Dem+Sg+Abl:ildy K ;
 +Pron+Dem+Sg+Ill:ih K ;
+
+LEXICON PRON_TÄMÄ !!= @CODE@ tämä:tä
++Pron+Dem+Sg+Abl:l K ;
++Pron+Dem+Sg+Abl:lpäi K ;
++Pron+Dem+Sg+Ade:l K ;
++Pron+Dem+Sg+All:lle K ;
++Pron+Dem+Sg+Ess:nä K ;
++Pron+Dem+Sg+Gen:män K ;
++Pron+Dem+Sg+Ill:h K ;
++Pron+Dem+Sg+Nom:mä K ;
++Pron+Dem+Sg+Par:dä K ;
++Pron+Dem+Sg+Tra:kse K ;
 
 LEXICON PRON_NET
 +Pron+Dem+Pl+Nom:et K ;

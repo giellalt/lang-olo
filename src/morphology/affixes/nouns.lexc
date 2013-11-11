@@ -1010,8 +1010,8 @@ LEXICON NMN_PIENAR
 	NMN_PIENAR-PL	;
 
 LEXICON NMN_PIENAR-SG
-:%^WEAK SGNOMSUF ;
-:%^WEAK SGPARSUF_dU ;
+:%^WGStem SGNOMSUF ;
+:%^WGStem SGPARSUF_dU ;
 :e SGGENSUF ;
 +Sg:e Noun-NB-01 ;
 LEXICON NMN_PIENAR-PL
@@ -1029,8 +1029,8 @@ LEXICON NMN_UDAR
 	NMN_UDAR-PL	;
 
 LEXICON NMN_UDAR-SG
-:%^WEAK SGNOMSUF ;
-:%^WEAK SGPARSUF_dU ;
+:%^WGStem SGNOMSUF ;
+:%^WGStem SGPARSUF_dU ;
 :e SGGENSUF ;
 +Sg:e Noun-NB-01 ;
 LEXICON NMN_UDAR-PL
@@ -1101,8 +1101,8 @@ LEXICON NMN_ARMAS !!= @CODE@ armas:arma
  NMN_ARMAS-PL        ;
 
 LEXICON NMN_ARMAS-SG
-:%^WEAK%>s SGNOMSUF ;
-:%^WEAK%>s SGPARSUF_dU ;
+:%^WGStem%>s SGNOMSUF ;
+:%^WGStem%>s SGPARSUF_dU ;
 :ha SGGENSUF ;
 +Sg:ha Noun-NB-01 ;
 LEXICON NMN_ARMAS-PL
@@ -1372,9 +1372,9 @@ LEXICON Noun-NB-loi
  
 !! !Singular suffixes
 LEXICON SGGENSUF
-+Sg+Gen:%^WEAK%>n K ;
-+Sg+Acc:%^WEAK%>n K ;
-+Sg+Com:%^WEAK%>nke K ;
++Sg+Gen:%^WGStem%>n K ;
++Sg+Acc:%^WGStem%>n K ;
++Sg+Com:%^WGStem%>nke K ;
 
 LEXICON SGNOMSUF
 +Sg+Nom: K ;
@@ -1399,8 +1399,8 @@ LEXICON PLINSSUF
 +Pl+Ins:%>n K ;
 
 LEXICON PLNOMSUF
-+Pl+Nom:%^WEAK%>t K ;
-+Pl+Acc:%^WEAK%>t K ;
++Pl+Nom:%^WGStem%>t K ;
++Pl+Acc:%^WGStem%>t K ;
 
 LEXICON PLPARSUF_Zero
 +Pl+Par: K ;
@@ -1418,23 +1418,23 @@ LEXICON ILLSUF_he
 +Ill:%>he K ;
 
 LEXICON Noun-NB-01
-+Ade:%^WEAK%>l K ;
-+Abl:%^WEAK%>l K ;
-+Abl:%^WEAK%>lpäi K ;
-+All:%^WEAK%>le K ;
-+Abe:%^WEAK%>tt%{aä%}h K ;
-+Abe:%^WEAK%>tt%{aä%} K ;
-+Abe:%^WEAK%>t%{aä%} K ;
-+Ela:%^WEAK%>s K ;
-+Ela:%^WEAK%>späi K ;
-+Ess:%^WEAK%>nn%{uy%} K ;
-+Ine:%^WEAK%>s K ;
-+Ins:%^WEAK%>n K ;
++Ade:%^WGStem%>l K ;
++Abl:%^WGStem%>l K ;
++Abl:%^WGStem%>lpäi K ;
++All:%^WGStem%>le K ;
++Abe:%^WGStem%>tt%{aä%}h K ;
++Abe:%^WGStem%>tt%{aä%} K ;
++Abe:%^WGStem%>t%{aä%} K ;
++Ela:%^WGStem%>s K ;
++Ela:%^WGStem%>späi K ;
++Ess:%^WGStem%>nn%{uy%} K ;
++Ine:%^WGStem%>s K ;
++Ins:%^WGStem%>n K ;
 +Ill:%>h K ;
-+Tra:%^WEAK%>kse K ;
-+Prl:%^WEAK%>či K ;
-+Apr:%^WEAK%>ll%{uy%}%{oö%} K ;
-+Ter:%^WEAK%>ss%{aä%}h K ;
++Tra:%^WGStem%>kse K ;
++Prl:%^WGStem%>či K ;
++Apr:%^WGStem%>ll%{uy%}%{oö%} K ;
++Ter:%^WGStem%>ss%{aä%}h K ;
 
 
 ! vim: set ft=xfst-lexc:

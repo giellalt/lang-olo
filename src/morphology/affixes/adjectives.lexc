@@ -121,20 +121,20 @@ LEXICON Adj-NB-loi
 +Pl: PLNOMSUF ;
 
 LEXICON Adj-NB-01
-+Ess:%^WEAK%>nn%{uy%} K ;
-+Tra:%^WEAK%>kse K ;
-+Ine:%^WEAK%>s K ;
-+Ela:%^WEAK%>s K ;
++Ess:%^WGStem%>nn%{uy%} K ;
++Tra:%^WGStem%>kse K ;
++Ine:%^WGStem%>s K ;
++Ela:%^WGStem%>s K ;
 +Ill:%>h K ;
-+Ade:%^WEAK%>l K ;
-+Abl:%^WEAK%>l K ;
-+All:%^WEAK%>le K ;
-+Abe:%^WEAK%>tt%{aä%}h K ;
-+Use/Sub+Abe:%^WEAK%>tt%{aä%} K ;
-+Use/Sub+Abe:%^WEAK%>t%{aä%} K ;
++Ade:%^WGStem%>l K ;
++Abl:%^WGStem%>l K ;
++All:%^WGStem%>le K ;
++Abe:%^WGStem%>tt%{aä%}h K ;
++Use/Sub+Abe:%^WGStem%>tt%{aä%} K ;
++Use/Sub+Abe:%^WGStem%>t%{aä%} K ;
 +Prl:%>či K ;
-+Apr:%^WEAK%>ll%{uy%}%{oö%} K ;
-+Ter:%^WEAK%>ss%{aä%}h K ;
++Apr:%^WGStem%>ll%{uy%}%{oö%} K ;
++Ter:%^WGStem%>ss%{aä%}h K ;
 
 
 
