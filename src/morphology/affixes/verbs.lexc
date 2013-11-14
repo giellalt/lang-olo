@@ -80,6 +80,11 @@ LEXICON V_JUVVA !!= @CODE@ juvva:juo
 LEXICON V_NÄHTÄ !!= @CODE@ nähtä:nä
 +TYÄ+V:	V-VV_02	 ;
 
+LEXICON V_KUULTA !!= @CODE@ kuulta:kuul
+!! !Verbs of the Finnish type 3 except for the infinitive that makes no sense
+!! I should be kuulda perhaps 2013-11-14
++V: V-VV_03 ;
+
 
 LEXICON V_TULLA !!= @CODE@ tulla:tul
 !! !Verbs of the Finnish type 3
