@@ -10,18 +10,8 @@
 LEXICON A_
 +A: # ;
 
-LEXICON A_JIÄTÖI !!= @CODE@ jiätöi:jiät
- A_HUOLETOI ;
-LEXICON A_HUOLETOI !!= @CODE@ huoletoi:huolet
-+A:	NMN_HUOLETOI   ;
-+A+Der/MWN: N_HUOLETOI ; 
-+N:t%{oö%}ma Adj-NB-i ; !2012-09-27 unknown -loi vs -i
-
-LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
-+A:	NMN_KARJALAINE	 ;
-
-LEXICON A_KIELINE !!= @CODE@ kieline:kieli
-+A: NMN_KIELINE ;
+LEXICON A_KUU !!= @CODE@
++A: NMN_KUU ;
 
 LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
 !! the comparatives and superlatives are supletive
@@ -33,23 +23,6 @@ LEXICON A_OZA !!= @CODE@ oza:oza
 
 LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
 +A: NMN_PÄIVY ;
-
-LEXICON A_PEREH !!= @CODE@ pereh:pereh
-	A_PEREH-SG	;
-	A_PEREH-PL	;
-LEXICON A_PEREH-SG
-+A:	NMN_PEREH-SG	;
-
-LEXICON A_PEREH-PL
-+A:	NMN_PEREH-PL	;
-
-LEXICON A_ARMAS !!= @CODE@ armas:arma
-    A_ARMAS-SG        ;
-    A_ARMAS-PL        ;
-LEXICON A_ARMAS-SG
-+A: NMN_ARMAS-SG        ;
-LEXICON A_ARMAS-PL
-+A: NMN_ARMAS-PL        ;
 
 LEXICON A_KOIVU !!= @CODE@ koivu:koivu
         A_KOIVU-SG ;
@@ -77,6 +50,36 @@ LEXICON A_PAREMBI !!= @CODE@ parembi:paremb
 +A: NMN_PAREMBI	  ;
 +A+Der/MWN: N_PAREMBI ;
 +N:%{aä%} Adj-NB-i ; !2012-09-27 unknown -loi vs -i
+
+LEXICON A_JIÄTÖI !!= @CODE@ jiätöi:jiät
+ A_HUOLETOI ;
+LEXICON A_HUOLETOI !!= @CODE@ huoletoi:huolet
++A:	NMN_HUOLETOI   ;
++A+Der/MWN: N_HUOLETOI ; 
++N:t%{oö%}ma Adj-NB-i ; !2012-09-27 unknown -loi vs -i
+
+LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
++A:	NMN_KARJALAINE	 ;
+
+LEXICON A_KIELINE !!= @CODE@ kieline:kieli
++A: NMN_KIELINE ;
+
+LEXICON A_PEREH !!= @CODE@ pereh:pereh
+	A_PEREH-SG	;
+	A_PEREH-PL	;
+LEXICON A_PEREH-SG
++A:	NMN_PEREH-SG	;
+
+LEXICON A_PEREH-PL
++A:	NMN_PEREH-PL	;
+
+LEXICON A_ARMAS !!= @CODE@ armas:arma
+    A_ARMAS-SG        ;
+    A_ARMAS-PL        ;
+LEXICON A_ARMAS-SG
++A: NMN_ARMAS-SG        ;
+LEXICON A_ARMAS-PL
++A: NMN_ARMAS-PL        ;
 
 LEXICON A_SUURIM !!= @CODE@ suurim:suurim
 +A:	NMN_SUURIM ;

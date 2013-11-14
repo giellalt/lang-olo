@@ -3,30 +3,15 @@
 !! The UNDEFINED language proper nouns inflect in the same cases as regular
 !! nouns, but with a colon (':') as separator.
 
-
 LEXICON PROP_ !!= @CODE@ 
 +TYÄ+Prop: N_ ;
 
-LEXICON PROP_KARJAL !!= @CODE@ 
-+N+Prop: NMN_KARJAL ;
-
-LEXICON PROP_KARJAL_MAL !!= @CODE@ 
-+N+Prop+Mal: NMN_KARJAL ;
 
 LEXICON PROP_KUU !!= @CODE@ 
 +N+Prop: NMN_KUU ;
 
-LEXICON PROP_RUS-IN_SUR
-:a PROP_KALA_SURFEM     ;
-+N+Prop+Sur+Mal:   NMN_TAIGIN  ;
-
-LEXICON PROP_RUS-VIČ_PATR !! * @CODE@ Pavlovič:Pavlov
-:na PROP_KALA_PATRFEM	;
-+N+Prop+Patr+Mal:ič   NMN_TAIGIN	;
-
-LEXICON PROP_RUS-V_SUR
-:a PROP_KALA_SURFEM	;
-+N+Prop+Sur+Mal:   NMN_ABRAMOV	;
+LEXICON PROP_OZA !!= @CODE@
++N+Prop: NMN_OZA ;
 
 LEXICON PROP_KALA_FEM !!= @CODE@ 
 +N+Prop+Fem: NMN_KALA ;
@@ -53,13 +38,39 @@ LEXICON PROP_ARTELI !!= @CODE@
 +N+Prop: NMN_ARTELI ;
 
 LEXICON PROP_NIMI !!= @CODE@ nimi:nim
-+N+P: NMN_NIMI ;
++N+Prop: NMN_NIMI ;
+
+LEXICON PROP_UKSI !!= @CODE@ nimi:nim
+ PROP_UKSI-SG ;
+ PROP_UKSI-PL ;
+LEXICON PROP_UKSI-SG !!= @CODE@
++N+Prop: NMN_UKSI-SG ;
+LEXICON PROP_UKSI-PL !!= @CODE@
++N+Prop: NMN_UKSI-PL ;
 
 LEXICON PROP_PÄIVY_MAL !!= @CODE@ päivy:päivä
 +N+Prop: NMN_PÄIVY ;
 
 LEXICON PROP_PÄIVY !!= @CODE@ päivy:päivä
 +N+Prop: NMN_PÄIVY ;
+
+LEXICON PROP_KARJAL !!= @CODE@ 
++N+Prop: NMN_KARJAL ;
+
+LEXICON PROP_KARJAL_MAL !!= @CODE@ 
++N+Prop+Mal: NMN_KARJAL ;
+
+LEXICON PROP_RUS-IN_SUR
+:a PROP_KALA_SURFEM     ;
++N+Prop+Sur+Mal:   NMN_TAIGIN  ;
+
+LEXICON PROP_RUS-VIČ_PATR !! * @CODE@ Pavlovič:Pavlov
+:na PROP_KALA_PATRFEM	;
++N+Prop+Patr+Mal:ič   NMN_TAIGIN	;
+
+LEXICON PROP_RUS-V_SUR
+:a PROP_KALA_SURFEM	;
++N+Prop+Sur+Mal:   NMN_ABRAMOV	;
 
 LEXICON PROP_ALUS !!= @CODE@ Alus:Aluks
 +N+Prop: NMN_ALUS ;
