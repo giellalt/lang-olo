@@ -17,6 +17,9 @@ LEXICON NUM_TUHAT
 LEXICON NUM_YKSI  !!= @CODE@ yksi:y
 +Num+Card: NMN_YKSI ;
 
+LEXICON NUM_KARJALAINE !!= @CODE@ 
++Qnt+Num: NMN_KARJALAINE ;
+
 
 
 LEXICON Num-kolme !!= @CODE@ 

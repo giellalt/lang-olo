@@ -2,6 +2,9 @@
 !! ---------------
 !! Livvi nouns inflect in cases.
 
+LEXICON N_MAURJU
++TYÄ: # ;
+
 LEXICON N_
 +N+Sg+Nom+TYÄ: # ;
 
@@ -36,14 +39,12 @@ LEXICON N_KANDAI !!= @CODE@ kandai:kandai
 +N+Pl:i Noun-NB-01 ;
 
 LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizii
-+N: SGNOMSUF ;
-+N:%{aä%} SGGENSUF ;
-+N:%{ui%} SGPARSUF_A2 ;
-+N:%>%{oö%}i PLGENSUF_N ;
-+N:%>%{oö%}i PLPARSUF_i ;
-+N:%>%{oö%}i PLINSSUF ;
-+N:A2 Noun-NB-01 ;
-+N:%>%{oö%} Noun-NB-01 ;
+ N_PAGIZII-SG ;
+ N_PAGIZII-PL ;
+LEXICON N_PAGIZII-SG !!= @CODE@ 
++N: NMN_PAGIZII-SG ;
+LEXICON N_PAGIZII-PL !!= @CODE@ 
++N: NMN_PAGIZII-PL ;
 
 LEXICON N_HUOLETOI !!= @CODE@ huoletoi: huolet
  N_HUOLETOI-SG ;
@@ -165,8 +166,15 @@ LEXICON N_PENGER-SG
 LEXICON N_PENGER-PL
 +N:	NMN_PENGER-PL	;
 
-LEXICON N_ARTELI
- N_PAPPI ;
+LEXICON N_ARTELI !!= @CODE@ arteli:arteli
+	N_ARTELI-SG ;
+	N_ARTELI-PL ;
+LEXICON N_ARTELI-SG
++N: NMN_ARTELI-SG ;
+LEXICON N_ARTELI-PL
++N: NMN_ARTELI-PL ;
+
+
 LEXICON N_PAPPI !!= @CODE@ arteli:arteli
 	N_PAPPI-SG ;
 	N_PAPPI-PL ;
@@ -697,6 +705,24 @@ LEXICON NMN_PIIRAI-PL
 +N:al%{oö%}i PLPARSUF_Zero ;
 +N:al%{oö%}i PLINSSUF ;
 +Pl:al%{oö%}i Noun-NB-01 ;
+
+
+LEXICON NMN_PAGIZII
+ NMN_PAGIZII-SG ;
+ NMN_PAGIZII-PL ;
+
+LEXICON NMN_PAGIZII-SG !!= @CODE@ 
+ SGNOMSUF ;
+:%{aä%} SGGENSUF ;
+:%{ui%} SGPARSUF_A2 ;
+
+LEXICON NMN_PAGIZII-PL !!= @CODE@ 
+:%{aä%} PLNOMSUF ;
+:%>%{oö%}i PLGENSUF_N ;
+:%>%{oö%}i PLPARSUF_i ;
+:%>%{oö%}i PLINSSUF ;
+:A2 Noun-NB-01 ;
+:%>%{oö%} Noun-NB-01 ;
 
 LEXICON NMN_HUOLETOI !!= @CODE@ huoletoi: huolet
  NMN_HUOLETOI-SG ;
@@ -1232,7 +1258,21 @@ LEXICON NMN_PENGER-PL
 +Pl:i Noun-NB-01 ;
 
 LEXICON NMN_ARTELI
-	NMN_PAPPI ;
+ !!= @CODE@ arteli:arteli
+	NMN_ARTELI-SG ;
+	NMN_ARTELI-PL ;
+LEXICON NMN_ARTELI-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+LEXICON NMN_ARTELI-PL
+: PLNOMSUF ;
+: PLGENSUF_EN ;
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
+
 
 LEXICON NMN_PAPPI !!= @CODE@ arteli:arteli
 	NMN_PAPPI-SG ;
@@ -1258,6 +1298,7 @@ LEXICON NMN_UKSI-SG
 :e SGGENSUF ;
  SGPARSUF_A2 ;
 +Sg:e Noun-NB-01 ;
+
 LEXICON NMN_UKSI-PL
 :e SGNOMSUF ;
 :i PLGENSUF_EN ;
