@@ -6,6 +6,163 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="Adv">myöte</l>
+
+      <stg>
+        <st Contlex="ADV_">myöte</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">myöten</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">mugai</l>
+
+      <stg>
+        <st Contlex="ADV_">mugai</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">niin, siten</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">järilleh</l>
+
+      <stg>
+        <st Contlex="ADV_">järilleh</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">takaisin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">jälles</l>
+
+      <stg>
+        <st Contlex="ADV_">jälles</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">jäljessä, perässä; jäljestä, perästä; jälkeenpäin,
+        myöhemmi\ n; perässä, persätä, perään; takana, takaa, taakse</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">hantuzis</l>
+
+      <stg>
+        <st Contlex="ADV_">hantuzis</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">under control</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">hallussa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ainos</l>
+
+      <stg>
+        <st Contlex="ADV_">ainos</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">aina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">abei</l>
 
       <stg>
@@ -21,11 +178,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Adv"/>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Adv"/>
       </tg>
     </mg>
   </e>

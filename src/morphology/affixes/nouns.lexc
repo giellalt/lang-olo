@@ -128,6 +128,16 @@ LEXICON N_KIELINE-SG
 LEXICON N_KIELINE-PL
 +N:    NMN_KIELINE-PL         ;
 
+LEXICON N_TOINE !!= @CODE@ toine:to
+ N_TOINE-SG     ;
+ N_TOINE-PL     ;
+
+LEXICON N_TOINE-SG
++N:    NMN_TOINE-SG         ;
+
+LEXICON N_TOINE-PL
++N:    NMN_TOINE-PL         ;
+
 
 
 LEXICON N_RAIŠ !!= @CODE@ raiš:ra
@@ -1388,6 +1398,23 @@ LEXICON NMN_KIELINE-PL
 :zi PLPARSUF_i ;
 :zi PLINSSUF ;
 +Pl:zi Noun-NB-01 ;
+
+LEXICON NMN_TOINE
+	NMN_TOINE-SG ;
+	NMN_TOINE-PL ;
+
+LEXICON NMN_TOINE-SG
+:ine SGNOMSUF ;
+:ize SGGENSUF ;
+:s SGPARSUF_dU ;
++Sg:ize Noun-NB-01 ;
+
+LEXICON NMN_TOINE-PL
+:ize PLNOMSUF ;
+:izie PLGENSUF_N ;
+:izi PLPARSUF_i ;
+:izi PLINSSUF ;
++Pl:izi Noun-NB-01 ;
 
 
 !! ! Nominative singular in "v"

@@ -11,11 +11,14 @@ LEXICON NUM_OZA
 LEXICON NUM_SÄYNÄ
 +Num+Card: NMN_SÄYNÄ ;
 
-LEXICON NUM_TUHAT
-+Num+Card: NMN_TUHAT ;
-
 LEXICON NUM_YKSI  !!= @CODE@ yksi:y
 +Num+Card: NMN_YKSI ;
+
+LEXICON NUM_SEIČČIE  !!= @CODE@ seiččie:seičče
++Num+Card+TYÄ: # ;
+
+LEXICON NUM_TUHAT
++Num+Card: NMN_TUHAT ;
 
 LEXICON NUM_KARJALAINE !!= @CODE@ 
 +Qnt+Num: NMN_KARJALAINE ;
@@ -28,8 +31,8 @@ LEXICON Num-kolme !!= @CODE@
 LEXICON QNT_
 +TYÄ+Qnt: # ;
 
-LEXICON ORD_KIELINE !!= @CODE@ toine:toi
-+Qnt+Ord: NMN_KIELINE ;
+LEXICON ORD_TOINE !!= @CODE@ toine:to
++Qnt+Ord: NMN_TOINE ;
 
 LEXICON ORD_KARJALAINE !!= @CODE@ enzimäine:ensimä
 +Qnt+Ord: NMN_KARJALAINE ;
