@@ -9,7 +9,6 @@
             <st Contlex="PRON_">buitekui</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -72,7 +71,6 @@
             <st Contlex="PRON_">eulo kunne</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -93,7 +91,6 @@
             <st Contlex="PRON_">eulo kus</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -114,7 +111,6 @@
             <st Contlex="PRON_">ga</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -135,7 +131,6 @@
             <st Contlex="PRON_">gu</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -156,7 +151,6 @@
             <st Contlex="PRON_">gu</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -177,7 +171,6 @@
             <st Contlex="PERS-PL3">h</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -198,7 +191,6 @@
             <st Contlex="PERS-SG3">hä</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -219,7 +211,6 @@
             <st Contlex="PRON_">iče</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -240,7 +231,6 @@
             <st Contlex="PRON_">jalles</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -261,7 +251,6 @@
             <st Contlex="PRON_">jöngöi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -282,7 +271,6 @@
             <st Contlex="PRON_">kel</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -303,7 +291,6 @@
             <st Contlex="PRON_">ken</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -324,7 +311,6 @@
             <st Contlex="PRON_">ken-ollou</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -345,7 +331,6 @@
             <st Contlex="PRON_">ken-tahto</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -366,7 +351,6 @@
             <st Contlex="PRON_">kenen</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -387,7 +371,6 @@
             <st Contlex="PRON_">keral</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -408,7 +391,6 @@
             <st Contlex="PRON_">keralle</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -429,7 +411,6 @@
             <st Contlex="PRON-REL_KUDAI">kuda</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -443,6 +424,28 @@
          </tg>
       </mg>
    </e>
+  <e>
+    <lg>
+      <l pos="Pron">kugalaine</l>
+
+      <stg>
+        <st Contlex="PRON-INTERR_KARJALAINE">kugala</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">mistä kotoisin oleva, minkä paikkalainen</t>
+      </tg>
+    </mg>
+  </e>
+
    <e>
       <lg>
          <l pos="Pron">kui</l>
@@ -450,7 +453,6 @@
             <st Contlex="PRON_">kui</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -471,7 +473,6 @@
             <st Contlex="PRON_">kunne-ollou</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -492,7 +493,6 @@
             <st Contlex="PRON_">kunne-tahto</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -513,7 +513,6 @@
             <st Contlex="PRON_">kunnepäi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -534,7 +533,6 @@
             <st Contlex="PRON_">kunnie</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -555,7 +553,6 @@
             <st Contlex="PRON_">meile</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -576,7 +573,6 @@
             <st Contlex="PRON_">mi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -597,7 +593,6 @@
             <st Contlex="PRON_">mi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -618,7 +613,6 @@
             <st Contlex="PRON_">mi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -639,7 +633,6 @@
             <st Contlex="PRON_">midä</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -660,7 +653,6 @@
             <st Contlex="PRON_">midä</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -681,7 +673,6 @@
             <st Contlex="PRON_">midä-tahto</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -702,7 +693,6 @@
             <st Contlex="PERS_">mie</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -723,7 +713,6 @@
             <st Contlex="PRON_">migäli</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -744,7 +733,6 @@
             <st Contlex="PRON_">mikse</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -765,7 +753,6 @@
             <st Contlex="PRON_">mikse</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -786,7 +773,6 @@
             <st Contlex="PRON_">mil</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -807,7 +793,6 @@
             <st Contlex="PRON_">milleh</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -828,7 +813,6 @@
             <st Contlex="PRON_">mindäh</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -849,7 +833,6 @@
             <st Contlex="PERS_">minulle</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -870,7 +853,6 @@
             <st Contlex="PERS_">minun</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -891,7 +873,6 @@
             <st Contlex="PERS_">minuu</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -912,7 +893,6 @@
             <st Contlex="PERS-SG1">min</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -932,7 +912,6 @@
             <st Contlex="PRON_">mistöi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -953,7 +932,6 @@
             <st Contlex="PRON_">molembat</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -974,7 +952,6 @@
             <st Contlex="PRON_">mollei</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -995,7 +972,6 @@
             <st Contlex="PRON_">muga</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1016,7 +992,6 @@
             <st Contlex="PERS-PL1">m</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1037,7 +1012,6 @@
             <st Contlex="PRON_">nenne</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1058,7 +1032,6 @@
             <st Contlex="PRON_NET">n</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1079,7 +1052,6 @@
             <st Contlex="PRON_">netai</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1100,7 +1072,6 @@
             <st Contlex="PRON_">netualleh</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1121,7 +1092,6 @@
             <st Contlex="PRON_">netuane</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1142,7 +1112,6 @@
             <st Contlex="PRON_">netuas</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1163,7 +1132,6 @@
             <st Contlex="PRON_">netäs</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1184,7 +1152,6 @@
             <st Contlex="PRON_">neče</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1205,7 +1172,6 @@
             <st Contlex="PRON_">nečie</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1226,7 +1192,6 @@
             <st Contlex="PRON_">nečilleh</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1247,7 +1212,6 @@
             <st Contlex="PRON_">nečine</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1268,7 +1232,6 @@
             <st Contlex="PRON_">nečiz</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1289,7 +1252,6 @@
             <st Contlex="PRON_">ni mi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1310,7 +1272,6 @@
             <st Contlex="PRON_">ni mistöi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1331,7 +1292,6 @@
             <st Contlex="PRON_">nikudai</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1352,7 +1312,6 @@
             <st Contlex="PRON_">nikus</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1373,7 +1332,6 @@
             <st Contlex="PRON_">nikuspäi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1394,7 +1352,6 @@
             <st Contlex="PRON_">nimidä</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1415,7 +1372,6 @@
             <st Contlex="PRON_">nämmä</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1436,7 +1392,6 @@
             <st Contlex="PRON_">peräs</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1457,7 +1412,6 @@
             <st Contlex="PRON_">piäl</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1478,7 +1432,6 @@
             <st Contlex="PRON_">samanmoine</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1499,7 +1452,6 @@
             <st Contlex="PRON_SE">s</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1520,7 +1472,6 @@
             <st Contlex="PRON_">sego</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1541,7 +1492,6 @@
             <st Contlex="PRON_">semmoine</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1562,7 +1512,6 @@
             <st Contlex="PRON_">semmoine</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1583,7 +1532,6 @@
             <st Contlex="PRON_">sendäh</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1604,7 +1552,6 @@
             <st Contlex="PRON_">senäi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1625,7 +1572,6 @@
             <st Contlex="PRON_">sežo</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1646,7 +1592,6 @@
             <st Contlex="PRON_">sid</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1667,7 +1612,6 @@
             <st Contlex="PRON_">sidä</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1688,7 +1632,6 @@
             <st Contlex="PERS_">sie</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1709,7 +1652,6 @@
             <st Contlex="PRON_">sigäli</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1730,7 +1672,6 @@
             <st Contlex="PRON_">sih</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1751,7 +1692,6 @@
             <st Contlex="PRON_">sih</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1772,7 +1712,6 @@
             <st Contlex="PRON_">sih</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1793,7 +1732,6 @@
             <st Contlex="PRON_">sillo</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1814,7 +1752,6 @@
             <st Contlex="PRON_">sinne</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1835,7 +1772,6 @@
             <st Contlex="PRON_">sinnembä</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1856,7 +1792,6 @@
             <st Contlex="PRON_">sinnembäine</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1877,7 +1812,6 @@
             <st Contlex="PERS_">sinule</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1898,7 +1832,6 @@
             <st Contlex="PERS_">sinun</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1919,7 +1852,6 @@
             <st Contlex="PERS_">sinuu</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1940,7 +1872,6 @@
             <st Contlex="PERS-SG2">sin</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1961,7 +1892,6 @@
             <st Contlex="PRON_">sinäpäin</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -1982,7 +1912,6 @@
             <st Contlex="PRON_">tagah</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2003,7 +1932,6 @@
             <st Contlex="PRON_">tagah</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2024,7 +1952,6 @@
             <st Contlex="PRON_">taganpäi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2045,7 +1972,6 @@
             <st Contlex="PRON_">tagači</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2066,7 +1992,6 @@
             <st Contlex="PRON_">toiči</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2087,7 +2012,6 @@
             <st Contlex="PRON_">tuakse</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2108,7 +2032,6 @@
             <st Contlex="PRON_">tuo</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2129,7 +2052,6 @@
             <st Contlex="PRON_">tuo</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2150,7 +2072,6 @@
             <st Contlex="PRON_">tyveh</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2171,7 +2092,6 @@
             <st Contlex="PERS-PL2">t</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2192,7 +2112,6 @@
             <st Contlex="PRON_TÄMÄ">tä</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2213,7 +2132,6 @@
             <st Contlex="PRON_">tämänmoine</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2234,7 +2152,6 @@
             <st Contlex="PRON_">tänne</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2255,7 +2172,6 @@
             <st Contlex="PRON_">tännepäi</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2276,7 +2192,6 @@
             <st Contlex="PRON_">uaže</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2297,7 +2212,6 @@
             <st Contlex="PRON_">vaiku</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2318,7 +2232,6 @@
             <st Contlex="PRON_">valdua</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2339,7 +2252,6 @@
             <st Contlex="PRON_">vaste-vai</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2360,7 +2272,6 @@
             <st Contlex="PRON_">viereh</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2381,7 +2292,6 @@
             <st Contlex="PRON_">viereh</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2402,7 +2312,6 @@
             <st Contlex="PRON_">vieres</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2423,7 +2332,6 @@
             <st Contlex="PRON_">vikse</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2444,7 +2352,6 @@
             <st Contlex="PRON_">vot</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2465,7 +2372,6 @@
             <st Contlex="PRON_">vuoh</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2486,7 +2392,6 @@
             <st Contlex="PRON_">vähilleh</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2507,7 +2412,6 @@
             <st Contlex="PRON_">yli</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2528,7 +2432,6 @@
             <st Contlex="PRON_">ynnä</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
@@ -2549,7 +2452,6 @@
             <st Contlex="PRON_">äski</st>
          </stg>
       </lg>
-      <pos>Pron</pos>
       <mg>
          <m>
             <head/>

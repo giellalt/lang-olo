@@ -156,11 +156,31 @@ LEXICON PRON_NET
 +Pron+Dem+Dep+Pl+Ine:iis K ;
 +Pron+Dem+Dep+Pl+Ill:iih K ;
 
+!! !INTERROGATIVE
+LEXICON PRON-INTERR_ !!= @CODE@ Still requires work
++Pron+Interr: K ;
+
+LEXICON PRON-INTERR_KEN !!= @CODE@ ken:ke
++Pron+Interr+Hum: PRON-INTERR_KEN-01 ;
+LEXICON PRON-INTERR_KEN-01
++Sg+Nom:n K ;
++Sg+Par:%>d%{AÄ%} K ;
+
+LEXICON PRON-INTERR_KARJALAINE
++Pron+Interr: NMN_KARJALAINE ;
+
+!! !RELATIVE
 LEXICON PRON-REL_KUDAI !!= @CODE@ kudai:kuda
 +Pron+Rel: NMN_KUDAI ;
 
-LEXICON PRON_KARJALAINE
-+Pron+Interr: NMN_KARJALAINE ;
+LEXICON PRON_KIELINE
++Pron: NMN_KIELINE ;
+
+LEXICON PRON_TOINE !!= @CODE@ toine:to
++Pron: NMN_TOINE ;
+
+LEXICON PRON_KAI !!= @CODE@ requires developing
++Pron+Pl+Nom: K ;
 
 
 
