@@ -6,6 +6,162 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="A">yhteiskunnalline</l>
+
+      <stg>
+        <st Contlex="A_KIELINE">yhteiskunnalli</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">yhteiskunnallinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">kanzalline</l>
+
+      <stg>
+        <st Contlex="A_KIELINE">kanzalli</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">kansallinen</t>
+
+        <t pos="A">valtiollinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">tärgei</l>
+
+      <stg>
+        <st Contlex="A_VALGEI">tärgei</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">tärkeä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">moine</l>
+
+      <stg>
+        <st Contlex="A_TOINE">mo</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">semmoinen, sellainen, moinen (moine: mostu: moizii)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">muu</l>
+
+      <stg>
+        <st Contlex="A_KUU">muu</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">muu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">enzi</l>
+
+      <stg>
+        <st Contlex="A_UNDECL">enzi</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">ensi (taipumaton)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ainavo</l>
+
+      <stg>
+        <st Contlex="A_RUNO">ainavo</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">ainoa (ainavon: ainavuo: ainavoloi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">riähkiine</l>
 
       <stg>

@@ -10,7 +10,10 @@
 LEXICON A_
 +A: # ;
 
-LEXICON A_KUU !!= @CODE@
+LEXICON A_UNDECL  !!= @CODE@ undeclinable
++A: # ;
+
+LEXICON A_KUU !!= @CODE@ kuu:kuu
 +A: NMN_KUU ;
 
 LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
@@ -63,6 +66,9 @@ LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
 
 LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 +A: NMN_KIELINE ;
+
+LEXICON A_TOINE !!= @CODE@ toine:to
++A: NMN_TOINE ;
 
 LEXICON A_PEREH !!= @CODE@ pereh:pereh
 	A_PEREH-SG	;

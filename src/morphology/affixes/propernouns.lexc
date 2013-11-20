@@ -10,6 +10,9 @@ LEXICON PROP_ !!= @CODE@
 LEXICON PROP_KUU !!= @CODE@ 
 +N+Prop: NMN_KUU ;
 
+LEXICON PROP_OZA_FEM !!= @CODE@
++N+Prop+Fem: NMN_OZA ;
+
 LEXICON PROP_OZA !!= @CODE@
 +N+Prop: NMN_OZA ;
 
@@ -68,6 +71,9 @@ LEXICON PROP_PÄIVY !!= @CODE@ päivy:päivä
 LEXICON PROP_MUARJU !!= @CODE@ muarju:muarja
 +N+Prop: NMN_MUARJU ;
 
+LEXICON PROP_KOIVU_MAL !!= @CODE@ koivu:koivu
++N+Prop+Mal: NMN_KOIVU ;
+
 LEXICON PROP_KOIVU !!= @CODE@ koivu:koivu
 +N+Prop: NMN_KOIVU ;
 
@@ -76,6 +82,9 @@ LEXICON PROP_KARJAL !!= @CODE@
 
 LEXICON PROP_KARJAL_MAL !!= @CODE@ 
 +N+Prop+Mal: NMN_KARJAL ;
+
+LEXICON PROP_TAIGIN_MAL
++N+Prop+Mal:   NMN_TAIGIN  ;
 
 LEXICON PROP_RUS-IN_SUR
 :a PROP_KALA_SURFEM     ;
