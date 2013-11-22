@@ -130,6 +130,7 @@ Livvi nouns inflect in cases.
 
 
 
+
  LEXICON N_KARJAL  karjal:karjal
  LEXICON N_KARJAL-SG  karjal:karjal
  LEXICON N_KARJAL-PL  karjal:karjal
@@ -142,6 +143,8 @@ Livvi nouns inflect in cases.
  LEXICON N_KANDAI  kandai:kandai
 
  LEXICON N_PAGIZII  pagizii:pagizii
+ LEXICON N_PAGIZII-SG  
+ LEXICON N_PAGIZII-PL  
 
  LEXICON N_HUOLETOI  huoletoi: huolet
 
@@ -165,6 +168,16 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON N_KIELINE  kieline:kieli
+
+
+
+ LEXICON N_TOINE  toine:to
+
+
+
+
+
  LEXICON N_RAIŠ  raiš:ra
 
 
@@ -175,6 +188,9 @@ Livvi nouns inflect in cases.
 
 
  LEXICON N_PENGER  penger:penger
+
+
+ LEXICON N_ARTELI  arteli:arteli
 
 
  LEXICON N_PAPPI  arteli:arteli
@@ -277,7 +293,7 @@ Livvi nouns inflect in cases.
 
 
 
- LEXICON N_UDAR  udar:piendar
+ LEXICON N_UDAR  udar:udar
 
 
 
@@ -326,8 +342,6 @@ Livvi nouns inflect in cases.
 
 
 
- LEXICON N_KIELINE  kieline:kieli
-
  LEXICON N_RUNO  runo:runo
 
 
@@ -359,6 +373,12 @@ Livvi nouns inflect in cases.
  LEXICON NMN_PIIRAI  piirai:piira
 
 
+
+
+
+ LEXICON NMN_PAGIZII-SG  
+
+ LEXICON NMN_PAGIZII-PL  
 
  LEXICON NMN_HUOLETOI  huoletoi: huolet
 
@@ -480,10 +500,13 @@ Livvi nouns inflect in cases.
 
  LEXICON NMN_PENGER  penger:penger
 
+   arteli:arteli
+
 
  LEXICON NMN_PAPPI  arteli:arteli
 
  LEXICON NMN_UKSI  uksi:uks
+
 
 
  LEXICON NMN_REBOI  reboi:reboi
@@ -493,6 +516,11 @@ Livvi nouns inflect in cases.
 
 
  LEXICON NMN_SÄYNÄ  säynä:säynä
+
+
+
+
+
 
 
 
@@ -561,7 +589,13 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON V_SUAJA  suaja:saa
 
+ LEXICON V_JUVVA  juvva:juo
+
  LEXICON V_NÄHTÄ  nähtä:nä
+
+ LEXICON V_KUULTA  kuulta:kuul
+!Verbs of the Finnish type 3 except for the infinitive that makes no sense
+I should be kuulda perhaps 2013-11-14
 
 
  LEXICON V_TULLA  tulla:tul
@@ -579,7 +613,10 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON V_KÄITÄ  käitä:käge
 
- LEXICON V_AVATA  typätä:typpä
+ LEXICON V_SUVATA  suvata:suva
+
+ LEXICON V_AVATA  avata:ava
+
 
 
  LEXICON V_SUVAIJA  suvaija:suvai
@@ -616,6 +653,7 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON VR_SUVAIJA  emändöijäkseh:emändöi
 
+ LEXICON VR_MERKITÄ  
 
 
 
@@ -644,12 +682,13 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
 
-* LEXICON VR_SUVAIJA  suvaija:suvai
+
+* LEXICON VR_MERKITÄ  suvaija:suvai
 
 
 
 
-* LEXICON VR_SUVAIJA  merkitä:merki
+* LEXICON VR_MERKITÄ  merkitä:merki
 
 
 
@@ -684,12 +723,12 @@ Nonfinites
 
 Finites
 !INDICATIVE PRESENT
-* LEXICON VR_SUVAIJA  type 04
+* LEXICON VR_MERKITÄ  type 04
 
 !INDICATIVE PRESENT REFLEXIVE
 
 
-* LEXICON VR_SUVAIJA  
+* LEXICON VR_MERKITÄ  
 
 !INDICATIVE PRETERITE
 
@@ -903,12 +942,11 @@ __ä:y word final__
 __a:0 in suaja:sai__
  *  a _ %> i ;  Vowel shortening before subsequent "i"
 
-
 !!iToj between vowels
 __i:j__
 
+__j:i__ 
 *  a _ %> i ;  +ActPrsPrc
-
 
 
 
@@ -940,7 +978,6 @@ __g:l__
 __d:v__  
    [ u o: | u: ] _ e %^WGStem:0 ;  vuozi:vuvven
 
-
 __d:j__  
 
 
@@ -960,7 +997,6 @@ __s:z__
 __k:g__ pestä: peskäh
 
 
-
 __rd:rr weakening__  
     Vow r %> _ GRC ;  purra+Ind+Prs+ScPl3: purrah
 
@@ -977,6 +1013,7 @@ __ln:ll in prtprc__
 __sn:ss in prtprc__  
 
 
+!CONSONANT LOSS
 
 __čToZero__  
 *   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  suvaija:suvaičen
@@ -984,6 +1021,8 @@ __čToZero__
 __kToZero__  aika: ajan
 *   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
 
+__gToZero__  aika: ajan
+*   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
 
 
 

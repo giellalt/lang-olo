@@ -124,12 +124,11 @@ __ä:y word final__
 __a:0 in suaja:sai__
  *  a _ %> i ;  Vowel shortening before subsequent "i"
 
-
 !!iToj between vowels
 __i:j__
 
+__j:i__ 
 *  a _ %> i ;  +ActPrsPrc
-
 
 
 
@@ -161,7 +160,6 @@ __g:l__
 __d:v__  
    [ u o: | u: ] _ e %^WGStem:0 ;  vuozi:vuvven
 
-
 __d:j__  
 
 
@@ -181,7 +179,6 @@ __s:z__
 __k:g__ pestä: peskäh
 
 
-
 __rd:rr weakening__  
     Vow r %> _ GRC ;  purra+Ind+Prs+ScPl3: purrah
 
@@ -198,6 +195,7 @@ __ln:ll in prtprc__
 __sn:ss in prtprc__  
 
 
+!CONSONANT LOSS
 
 __čToZero__  
 *   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  suvaija:suvaičen
@@ -205,6 +203,8 @@ __čToZero__
 __kToZero__  aika: ajan
 *   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
 
+__gToZero__  aika: ajan
+*   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
 
 
 
