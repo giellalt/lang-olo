@@ -268,7 +268,7 @@ A2:a <=> [ a: ] %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: |
 
 "A2:u"
 !! __@RULENAME@__
-A2:u <=> [ u: ] %> _ ( %^WGStem:0 ) [ # | %>  ];
+A2:u <=>  u: %> _ ( %^WGStem:0 ) [ # | %>  ];
 
 "A2:y"
 !! __@RULENAME@__
@@ -321,9 +321,11 @@ a:0 <=>
  i:j <=> :Vow ( %>  %^LCns:0 ) %> _ %> :Vow ;
 
 "j:i"
-!! __@RULENAME@__ !! * @CODE@ +ActPrsPrc
+!! __@RULENAME@__ 
+!!{{{
+!! * @CODE@ +ActPrsPrc
  j:i <=> :Vow %> _ [ # | %> [ g i | b o | h %{aä%}: i | g o ] ] ;
-
+!!}}}
 
 
 
@@ -402,11 +404,9 @@ u:v <=> [ o | u ] _ d: [ a | e ] %^WGStem:0 ;
 
 "o:v Lengthening with Ut:vv weakening"
 !! __@RULENAME@__  
+!!{{{
 o:v <=> u _ t: e %^WGStem:0 ;
-![ #: ] Cns* Vow [ u: | y: ] [ t: | k: ]  _ [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
-!2013-04-29!         [ #: ][ Cns* Vow | Cns* Vow+ Cns:+ Vow+ :0* Cns+ :Vow ] v _  ( :Vow | %{aä%}: ) [ 0:Vow %> %^LCns: | %> %^LCns: :0* :Vow ] ; ! arvattava:arvattavvaa
-!2013-04-29!        #: Cns* Vow v _ Vow [ Vow 0: Cns ( Cns:0 ) :Vow | Vow %^SyllBr:0 e ] %^StretchSyll2:0 ; ! kevät:kevväen, tavvaara
-!2013-04-29!
+!!}}}
 
 ! vuozi:vuod
 "d:z"

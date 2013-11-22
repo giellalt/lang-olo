@@ -5,6 +5,7 @@ Livvi nouns inflect in cases.
 
 
 
+
  LEXICON N_KARJAL  karjal:karjal
  LEXICON N_KARJAL-SG  karjal:karjal
  LEXICON N_KARJAL-PL  karjal:karjal
@@ -17,6 +18,8 @@ Livvi nouns inflect in cases.
  LEXICON N_KANDAI  kandai:kandai
 
  LEXICON N_PAGIZII  pagizii:pagizii
+ LEXICON N_PAGIZII-SG  
+ LEXICON N_PAGIZII-PL  
 
  LEXICON N_HUOLETOI  huoletoi: huolet
 
@@ -40,6 +43,16 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON N_KIELINE  kieline:kieli
+
+
+
+ LEXICON N_TOINE  toine:to
+
+
+
+
+
  LEXICON N_RAIŠ  raiš:ra
 
 
@@ -50,6 +63,9 @@ Livvi nouns inflect in cases.
 
 
  LEXICON N_PENGER  penger:penger
+
+
+ LEXICON N_ARTELI  arteli:arteli
 
 
  LEXICON N_PAPPI  arteli:arteli
@@ -152,7 +168,7 @@ Livvi nouns inflect in cases.
 
 
 
- LEXICON N_UDAR  udar:piendar
+ LEXICON N_UDAR  udar:udar
 
 
 
@@ -201,8 +217,6 @@ Livvi nouns inflect in cases.
 
 
 
- LEXICON N_KIELINE  kieline:kieli
-
  LEXICON N_RUNO  runo:runo
 
 
@@ -234,6 +248,12 @@ Livvi nouns inflect in cases.
  LEXICON NMN_PIIRAI  piirai:piira
 
 
+
+
+
+ LEXICON NMN_PAGIZII-SG  
+
+ LEXICON NMN_PAGIZII-PL  
 
  LEXICON NMN_HUOLETOI  huoletoi: huolet
 
@@ -355,10 +375,13 @@ Livvi nouns inflect in cases.
 
  LEXICON NMN_PENGER  penger:penger
 
+   arteli:arteli
+
 
  LEXICON NMN_PAPPI  arteli:arteli
 
  LEXICON NMN_UKSI  uksi:uks
+
 
 
  LEXICON NMN_REBOI  reboi:reboi
@@ -368,6 +391,11 @@ Livvi nouns inflect in cases.
 
 
  LEXICON NMN_SÄYNÄ  säynä:säynä
+
+
+
+
+
 
 
 
