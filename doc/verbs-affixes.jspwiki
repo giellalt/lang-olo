@@ -31,7 +31,13 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON V_SUAJA  suaja:saa
 
+ LEXICON V_JUVVA  juvva:juo
+
  LEXICON V_NÄHTÄ  nähtä:nä
+
+ LEXICON V_KUULTA  kuulta:kuul
+!Verbs of the Finnish type 3 except for the infinitive that makes no sense
+I should be kuulda perhaps 2013-11-14
 
 
  LEXICON V_TULLA  tulla:tul
@@ -49,7 +55,10 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON V_KÄITÄ  käitä:käge
 
- LEXICON V_AVATA  typätä:typpä
+ LEXICON V_SUVATA  suvata:suva
+
+ LEXICON V_AVATA  avata:ava
+
 
 
  LEXICON V_SUVAIJA  suvaija:suvai
@@ -86,6 +95,7 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON VR_SUVAIJA  emändöijäkseh:emändöi
 
+ LEXICON VR_MERKITÄ  
 
 
 
@@ -114,12 +124,13 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
 
-* LEXICON VR_SUVAIJA  suvaija:suvai
+
+* LEXICON VR_MERKITÄ  suvaija:suvai
 
 
 
 
-* LEXICON VR_SUVAIJA  merkitä:merki
+* LEXICON VR_MERKITÄ  merkitä:merki
 
 
 
@@ -154,12 +165,12 @@ Nonfinites
 
 Finites
 !INDICATIVE PRESENT
-* LEXICON VR_SUVAIJA  type 04
+* LEXICON VR_MERKITÄ  type 04
 
 !INDICATIVE PRESENT REFLEXIVE
 
 
-* LEXICON VR_SUVAIJA  
+* LEXICON VR_MERKITÄ  
 
 !INDICATIVE PRETERITE
 
