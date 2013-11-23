@@ -193,7 +193,7 @@ Livvi nouns inflect in cases.
  LEXICON N_ARTELI  arteli:arteli
 
 
- LEXICON N_PAPPI  arteli:arteli
+ LEXICON N_PAPPI  pappi:pappi
 
  LEXICON N_UKSI  uksi:uks
 
@@ -503,7 +503,7 @@ Livvi nouns inflect in cases.
    arteli:arteli
 
 
- LEXICON NMN_PAPPI  arteli:arteli
+ LEXICON NMN_PAPPI  pappi:pappi
 
  LEXICON NMN_UKSI  uksi:uks
 
@@ -587,6 +587,10 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON  V_PIDIÄ  pidiä:pidä
 
+!VERBS OF FINNISH TYPE 2 in dA
+
+ LEXICON V_ROIJA  roija:roi
+
  LEXICON V_SUAJA  suaja:saa
 
  LEXICON V_JUVVA  juvva:juo
@@ -642,6 +646,10 @@ I should be kuulda perhaps 2013-11-14
  LEXICON VR_OTTUA  ottuakseh:otta
 
  LEXICON VR_RODIEKSEH  rodiekseh:rodi
+
+ LEXICON VR_ROIJA  roijakseh:roi
+
+ LEXICON VR_ROITA  roita:roi 
 
  LEXICON VR_NÄHTÄ  nähtä:nä
 
