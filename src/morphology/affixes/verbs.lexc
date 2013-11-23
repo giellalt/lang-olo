@@ -69,6 +69,12 @@ LEXICON V_IMIE !!= @CODE@ imie:ime
 LEXICON  V_PIDIÄ !!= @CODE@ pidiä:pidä
 +V: V-VV_01 ;
 
+!! !VERBS OF FINNISH TYPE 2 in dA
+
+LEXICON V_ROIJA !!= @CODE@ roija:roi
+!Verbs of the Finnish type 2
++V: V-VV_02 ;
+
 LEXICON V_SUAJA !!= @CODE@ suaja:saa
 !Verbs of the Finnish type 2
 +V: V-VV_02 ;
@@ -182,6 +188,14 @@ LEXICON VR_OTTUA !!= @CODE@ ottuakseh:otta
 LEXICON VR_RODIEKSEH !!= @CODE@ rodiekseh:rodi
 ! Reflexive verbs
  VR_01 ;
+
+LEXICON VR_ROIJA !!= @CODE@ roijakseh:roi
+!
+        VR_ ;
+
+LEXICON VR_ROITA !!= @CODE@ roita:roi 
+!
+        VR_ ;
 
 LEXICON VR_NÄHTÄ !!= @CODE@ nähtä:nä
 	VR_	 ;
