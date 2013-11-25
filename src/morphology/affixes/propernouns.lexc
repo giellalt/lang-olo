@@ -13,6 +13,9 @@ LEXICON PROP_KUU !!= @CODE@
 LEXICON PROP_OZA_FEM !!= @CODE@
 +N+Prop+Fem: NMN_OZA ;
 
+LEXICON PROP_OZA_PLC !!= @CODE@
++N+Prop+Plc: NMN_OZA ;
+
 LEXICON PROP_OZA !!= @CODE@
 +N+Prop: NMN_OZA ;
 
@@ -37,6 +40,9 @@ LEXICON PROP_KALA_SURMAL !!= @CODE@
 LEXICON PROP_KALA !!= @CODE@ 
 +N+Prop: NMN_KALA ;
 
+LEXICON PROP_PAPPI_PLC !!= @CODE@ 
++N+Prop+Plc: NMN_PAPPI ;
+
 LEXICON PROP_PAPPI !!= @CODE@ 
   PROP_PAPPI-SG ;
   PROP_PAPPI-PL ;
@@ -59,6 +65,9 @@ LEXICON PROP_UKSI-SG !!= @CODE@
 LEXICON PROP_UKSI-PL !!= @CODE@
 +N+Prop: NMN_UKSI-PL ;
 
+LEXICON PROP_REBOI_MAL !!= @CODE@ reboi:reboi
++N+Prop+Mal: NMN_REBOI ;
+
 LEXICON PROP_REBOI !!= @CODE@ reboi:reboi
 +N+Prop: NMN_REBOI ;
 
@@ -67,6 +76,9 @@ LEXICON PROP_PÄIVY_MAL !!= @CODE@ päivy:päivä
 
 LEXICON PROP_PÄIVY !!= @CODE@ päivy:päivä
 +N+Prop: NMN_PÄIVY ;
+
+LEXICON PROP_MUARJU_PLC !!= @CODE@ muarju:muarja
++N+Prop+Plc: NMN_MUARJU ;
 
 LEXICON PROP_MUARJU !!= @CODE@ muarju:muarja
 +N+Prop: NMN_MUARJU ;
@@ -97,6 +109,9 @@ LEXICON PROP_RUS-VIČ_PATR !! * @CODE@ Pavlovič:Pavlov
 LEXICON PROP_RUS-V_SUR
 :a PROP_KALA_SURFEM	;
 +N+Prop+Sur+Mal:   NMN_ABRAMOV	;
+
+LEXICON PROP_ALUS_PLC !!= @CODE@ Alus:Aluks
++N+Prop+Plc: NMN_ALUS ;
 
 LEXICON PROP_ALUS !!= @CODE@ Alus:Aluks
 +N+Prop: NMN_ALUS ;
