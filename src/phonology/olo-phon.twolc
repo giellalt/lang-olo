@@ -1,4 +1,3 @@
-
 !! !!!The Livvi (Olonets) Karelian morphophonological/twolc rules file 
 
 
@@ -379,11 +378,13 @@ g:l <=> l _ [ a: ] ( %> i ) %^WGStem:0 ;
 ! lʼöydiä:lʼövvä
 "d:v"
 !! __@RULENAME@__  
-!!{{{
-d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ;
- [  a ] _ [  u ] %^WGStem:0 ;
-  [ u o: | u: ] _ e %^WGStem:0 ; !!= @CODE@ vuozi:vuvven
-!!}}}
+!! {{{
+d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ; !!= @CODE@
+          a             _   u       %^WGStem:0 ; !!= @CODE@
+        [ u o: | u: ]   _   e       %^WGStem:0 ; !!= @CODE@ 
+        !€vuoze%^WGStem>n
+        !€vuvve00n
+!! }}}
 
 ! luadie:luajitah
 "d:j"
@@ -404,9 +405,9 @@ u:v <=> [ o | u ] _ d: [ a | e ] %^WGStem:0 ;
 
 "o:v Lengthening with Ut:vv weakening"
 !! __@RULENAME@__  
-!!{{{
+!! {{{
 o:v <=> u _ t: e %^WGStem:0 ;
-!!}}}
+!! }}}
 
 ! vuozi:vuod
 "d:z"
@@ -420,9 +421,9 @@ d:t <=> [ h | :t | s ] ( %^KS2S:0 ) %> _ ;
          [Vow | r | n ] _ %> d: %{uy%}: ;
 "s:z"
 !! __@RULENAME@__
-!!{{{
+!! {{{
 s:z <=> _ %^VOICE:0 ; !!= * @CODE@ pestä: pezen
-!!}}}
+!! }}}
 
 "k:g"
 !! __@RULENAME@__ pestä: peskäh
@@ -431,27 +432,27 @@ k:g <=> [ n | l |r ] %> _ (%{ui%}:) %{aä%}: ;
 
 "rd:rr weakening"
 !! __@RULENAME@__  
-!!{{{
+!! {{{
 d:r <=>
      Vow: r _ Vow: (%> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
    Vow r %> _ GRC ; !!= @CODE@ purra+Ind+Prs+ScPl3: purrah
-!!}}}
+!! }}}
 
 "ld:ll weakening"
 !! __@RULENAME@__  
-!!{{{
+!! {{{
 d:l <=>
   Vow: l _ Vow: (%> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
   Vow l %> _ GRC ; !!= @CODE@ tulla+Ind+Prs+ScPl3: tullah
-!!}}}
+!! }}}
 
 "nd:nn weakening"
 !! __@RULENAME@__  
-!!{{{
+!! {{{
 d:n <=>
      Vow: n _ Vow: (%> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
   Vow ( %^WGStem:0 %> ) n %> _ GRC ; !!= @CODE@ mennä+Ind+Prs+ScPl3: mennäh
-!!}}}
+!! }}}
 
 "rn:rr in prtprc"
 !! __@RULENAME@__  
@@ -470,23 +471,23 @@ n:s <=> s %> _ (%{uy%}:) (%^WGStem:)  ;
  
 "čToZero"
 !! __@RULENAME@__  
-!!{{{
+!! {{{
 č:0 <=> _ č [ (%>) Vow | Vow: %> i ] %^WGStem:0 ; !! * @CODE@ suvaija:suvaičen
-!!}}}
+!! }}}
 
 "kToZero"
 !! __@RULENAME@__  aika: ajan
-!!{{{
+!! {{{
 k:0 <=> _ s %^KS2S:0 ;
         _ k Vow %^WGStem:0 ; !! * @CODE@ lʼykätä:lʼykkä
-!!}}}
+!! }}}
 
 "gToZero"
 !! __@RULENAME@__  aika: ajan
-!!{{{
+!! {{{
 g:0 <=>
         Vow _ i s %> d: %{aä%}: %^WGStem:0 ; !! * @CODE@ lʼykätä:lʼykkä
-!!}}}
+!! }}}
 
 
 !2013-04-29! tToZero in weak
