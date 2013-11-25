@@ -8,14 +8,21 @@ LEXICON ADV_
 LEXICON ADV-IS-ELA-WITH-PXSG3 !!= @CODE@ e.g. levälleh
 +Adv: # ; 
 
-LEXICON MANNER_
+LEXICON ADV-MANNER
 +Adv+Manner: K ;
 
-LEXICON SPAT_
+LEXICON ADV-SPAT
 +Adv+Spat: K ;
 
-LEXICON TEMP_
+LEXICON ADV-SPAT-IS-ABL
++Adv+Spat+Abl: K ;
+
+LEXICON ADV-TEMP
 +Adv+Temp: K ;
+
+LEXICON QNT-ITER
++Qnt+Iter: K ;
+
 
 
 
