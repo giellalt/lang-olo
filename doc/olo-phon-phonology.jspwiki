@@ -1,4 +1,3 @@
-
 !!!The Livvi (Olonets) Karelian morphophonological/twolc rules file 
 
 
@@ -158,7 +157,11 @@ __g:j__
 __g:l__  
 
 __d:v__  
-   [ u o: | u: ] _ e %^WGStem:0 ;  vuozi:vuvven
+{{{
+ d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ; 
+           a             _   u       %^WGStem:0 ; 
+         [ u o: | u: ]   _   e       %^WGStem:0 ;  
+}}}
 
 __d:j__  
 
@@ -169,24 +172,34 @@ __u:v__
 
 
 __o:v Lengthening with Ut:vv weakening__  
+{{{
+}}}
 
 __d:z__  
 
 __d:t in partitive__  
 __s:z__
+{{{
  * s:z <=> _ %^VOICE:0 ;  pestä: pezen
+}}}
 
 __k:g__ pestä: peskäh
 
 
 __rd:rr weakening__  
+{{{
     Vow r %> _ GRC ;  purra+Ind+Prs+ScPl3: purrah
+}}}
 
 __ld:ll weakening__  
+{{{
    Vow l %> _ GRC ;  tulla+Ind+Prs+ScPl3: tullah
+}}}
 
 __nd:nn weakening__  
+{{{
    Vow ( %^WGStem:0 %> ) n %> _ GRC ;  mennä+Ind+Prs+ScPl3: mennäh
+}}}
 
 __rn:rr in prtprc__  
 
@@ -198,13 +211,19 @@ __sn:ss in prtprc__
 !CONSONANT LOSS
 
 __čToZero__  
+{{{
 *   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  suvaija:suvaičen
+}}}
 
 __kToZero__  aika: ajan
+{{{
 *   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
+}}}
 
 __gToZero__  aika: ajan
+{{{
 *   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
+}}}
 
 
 
