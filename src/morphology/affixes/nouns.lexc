@@ -432,6 +432,16 @@ LEXICON N_SALBOIN-SG
 LEXICON N_SALBOIN-PL
 +N: NMN_SALBOIN-PL ;
 
+LEXICON N_ENIN !!= @CODE@ enin:eni
+        N_ENIN-SG  ;
+        N_ENIN-PL  ;
+
+LEXICON N_ENIN-SG
++N: NMN_ENIN-SG ;
+
+LEXICON N_ENIN-PL
++N: NMN_ENIN-PL ;
+
 LEXICON N_UDAR !!= @CODE@ udar:udar
         N_UDAR-SG  ;
         N_UDAR-PL  ;
@@ -1043,6 +1053,21 @@ LEXICON NMN_SALBOIN-PL
 !:il%{oö%}i PLPARSUF_Zero ;
 !:il%{oö%}i PLINSSUF ;
 !:i Noun-NB-loi ;
+
+LEXICON NMN_ENIN !!= @CODE@ enin:eni
+	NMN_ENIN-SG	;
+	NMN_ENIN-PL	;
+
+LEXICON NMN_ENIN-SG
+:n SGNOMSUF ;
+:n SGPARSUF_dU ;
+:m%>%{AÄ%} SGGENSUF ;
++Sg:m%>%{AÄ%} Noun-NB-01 ;
+LEXICON NMN_ENIN-PL
+:m%>%{AÄ%} PLNOMSUF	;
+:mie PLGENSUF_N ; ! the plural comitative is declined here
+:mi PLPARSUF_i ;
+:mi PLINSSUF ;
 
 
 
