@@ -16639,7 +16639,7 @@
       <l pos="V">olla</l>
 
       <stg>
-        <st Contlex="V_OLLA">ole</st>
+        <st Contlex="V_OLLA">o</st>
       </stg>
     </lg>
 
@@ -16657,7 +16657,7 @@
       <l pos="V">olla</l>
 
       <stg>
-        <st Contlex="V_OLLA">o</st>
+        <st Contlex="V_OLLA">ole</st>
       </stg>
     </lg>
 
@@ -21668,24 +21668,6 @@
   </e>
   <e>
     <lg>
-      <l pos="VR">pörhištyö</l>
-
-      <stg>
-        <st Contlex="VR_VALUO">pörhišty</st>
-      </stg>
-    </lg>
-
-    <mg>
-
-        <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="VR">pörhistyä; rehevöityä; pulskistua; piristyä; suutahtaa</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
       <l pos="V">pörhištyö</l>
 
       <stg>
@@ -21699,6 +21681,24 @@
 
       <tg xml:lang="fin">
         <t pos="V">pörhistyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">pörhištyö</l>
+
+      <stg>
+        <st Contlex="VR_VALUO">pörhišty</st>
+      </stg>
+    </lg>
+
+    <mg>
+
+        <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="VR">pörhistyä; rehevöityä; pulskistua; piristyä; suutahtaa</t>
       </tg>
     </mg>
   </e>
@@ -23081,7 +23081,7 @@
       <l pos="V">riijellä</l>
 
       <stg>
-        <st Contlex="V_TULLA">riidele</st>
+        <st Contlex="V_TULLA">riidel</st>
       </stg>
     </lg>
 
@@ -23099,7 +23099,7 @@
       <l pos="V">riijellä</l>
 
       <stg>
-        <st Contlex="V_TULLA">riidel</st>
+        <st Contlex="V_TULLA">riidele</st>
       </stg>
     </lg>
 
@@ -30202,6 +30202,20 @@
   </e>
   <e>
     <lg>
+      <l pos="V">tuikuttua</l>
+      <stg>
+        <st Contlex="V_KANDUA">tuikutta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kolkuttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
       <l pos="V">tukehtuo</l>
 
       <stg>
@@ -31715,6 +31729,20 @@
       <defNative/>
       <tg xml:lang="fin">
         <t pos="V">lannoittaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">udžista</l>
+      <stg>
+        <st Contlex="V_PESTÄ">udžis</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">voihkia</t>
       </tg>
     </mg>
   </e>
@@ -33932,17 +33960,15 @@
   </e>
   <e>
     <lg>
-      <l pos="V">viertä</l>
+      <l pos="V">vierrä</l>
       <stg>
-        <st Contlex="V_PESTÄ">viertä</st>
+        <st Contlex="V_TULLA">vier</st>
       </stg>
     </lg>
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
       <tg xml:lang="fin">
-        <t pos="V">käydä makuulleen, käydä pitkäkseen, mennä pitkäkseen, mennä maate; vieriä, kieriä alas, pyöriä alas; vyöryä; purkaantua, purkeentua</t>
+        <t pos="V">vieriä; käydä makuulleen, kellahtaa, myös: viertä</t>
       </tg>
     </mg>
   </e>
@@ -33959,6 +33985,22 @@
       </m>
       <tg xml:lang="fin">
         <t pos="V">vieriä; käydä pitkälleen, ruveta maata; kierähtää, kellahtaa;  vaatteesta, kankaasta: haalistua, kauhtua, kulua; ihosta: kalveta, kesiä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">viertä</l>
+      <stg>
+        <st Contlex="V_PESTÄ">viertä</st>
+      </stg>
+    </lg>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="V">käydä makuulleen, käydä pitkäkseen, mennä pitkäkseen, mennä maate; vieriä, kieriä alas, pyöriä alas; vyöryä; purkaantua, purkeentua</t>
       </tg>
     </mg>
   </e>
@@ -35276,6 +35318,580 @@
   </e>
   <e>
     <lg>
+      <l pos="V">vožlata</l>
+      <stg>
+        <st Contlex="V_AVATA">vožla</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">lörpötellä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuahtata</l>
+      <stg>
+        <st Contlex="V_AVATA">vuahta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vaahdottaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuahtota</l>
+      <stg>
+        <st Contlex="V_AVATA">vuahto</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vaahdota; vaahdottaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuardua</l>
+      <stg>
+        <st Contlex="V_KANDUA">vuarda</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">olla vinossa, mennä vinoon, puoltaa; pettää, sortaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuigodie</l>
+      <stg>
+        <st Contlex="V_POTKIE">vuigodi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">hyötyä, voittaa, saada hyötyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuodua</l>
+      <stg>
+        <st Contlex="V_KANDUA">vuoda</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vuotaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuograta</l>
+      <stg>
+        <st Contlex="V_AVATA">vuogra</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vuokrata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuogravuo</l>
+      <stg>
+        <st Contlex="V_VALUO">vuogravu</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">olla vuokrattavana, joutua vuokralle, mennä vuokrattavaksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuolla</l>
+      <stg>
+        <st Contlex="V_TULLA">vuol</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vuolla; harv. veistää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuolta</l>
+      <stg>
+        <st Contlex="V_PESTÄ">vuolta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vuolla; harv. veistää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuorotella</l>
+      <stg>
+        <st Contlex="V_TULLA">vuorottel</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vuorotella</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuotella</l>
+      <stg>
+        <st Contlex="V_TULLA">vuottel</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">odotella</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuottua</l>
+      <stg>
+        <st Contlex="V_KANDUA">vuotta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">odottaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">vuottuakseh</l>
+      <stg>
+        <st Contlex="VR_OTTUA">vuotta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="VR">odottaa johonkin asti, odottaa tarpeekseen</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vuvvattua</l>
+      <stg>
+        <st Contlex="V_KANDUA">vuvvatta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vuodattaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vyöttiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">vyöttä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vyöttää, sitoa vyö, panna vyö, laittaa vyö</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vädžittiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">vädžittä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kitisyttää, natisuttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vädžištä</l>
+      <stg>
+        <st Contlex="V_PESTÄ">vädžiš</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kitistä, natista; vikistä, vinkua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">väheksie</l>
+      <stg>
+        <st Contlex="V_POTKIE">väheksi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">väheksyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vähendellä</l>
+      <stg>
+        <st Contlex="V_TULLA">vähendel</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vähennellä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vähendiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">vähendä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vähentää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vähetä</l>
+      <stg>
+        <st Contlex="V_ALETA">vähetä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">vähetä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">väistiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">väistä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kyetä, olla voimia johonkin</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">väistyö</l>
+      <stg>
+        <st Contlex="V_VALUO">väisty</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">väistyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">väittiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">väittä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">jaksaa; voittaa; lannoittaa; väkevöittää; väittää, inttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">väittyö</l>
+      <stg>
+        <st Contlex="V_VALUO">väitty</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">väkevöityä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vällendiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">vällendä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">löysätä, hällentää, väljentää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">välletä</l>
+      <stg>
+        <st Contlex="V_ALETA">välle</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">väljetä, löystyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vältiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">vältä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">välttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vältyö</l>
+      <stg>
+        <st Contlex="V_VALUO">välty</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">välttyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">vändžistelläkseh</l>
+      <stg>
+        <st Contlex="VR_TULLA">vändžistel</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="VR">vikuroida, jupittaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vängyö</l>
+      <stg>
+        <st Contlex="V_VALUO">vängy</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ärjyä; vonkua, vinkua; valittaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">värišta</l>
+      <stg>
+        <st Contlex="V_PESTÄ">väriš</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">marista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">väzyttiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">väzyttä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">väsyttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">väzyö</l>
+      <stg>
+        <st Contlex="V_VALUO">väzy</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">väsyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">väčkiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">väčkä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">puhua joutavia, virnuilla, jankuttaa, inttää; hangoitella</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vönyttiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">vönyttä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">venyttää, viruttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">vönyö</l>
+      <stg>
+        <st Contlex="V_VALUO">vöny</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">venyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">yhkiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">yhkä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ähkää, puhkaa, voihkia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">yhtistiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">yhtistä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">yhdistää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">yhtyö</l>
+      <stg>
+        <st Contlex="V_VALUO">yhty</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">yhtyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
       <l pos="V">yhtyö</l>
 
       <stg>
@@ -35294,6 +35910,76 @@
   </e>
   <e>
     <lg>
+      <l pos="V">yhyttiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">yhyttä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">myönnellä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ykkiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">ykkä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">nyyhkiä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ylbeillä</l>
+      <stg>
+        <st Contlex="V_TULLA">ylbeil</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ylpeillä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ylbevyö</l>
+      <stg>
+        <st Contlex="V_VALUO">ylbevy</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ylpistyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">yldyö</l>
+      <stg>
+        <st Contlex="V_VALUO">yldy</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">yltyä; tulvia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
       <l pos="V">yldyö</l>
 
       <stg>
@@ -35307,6 +35993,1952 @@
 
       <tg xml:lang="fin">
         <t pos="V">yltyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ylendiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">ylendä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ylentää; kasvattaa (lapsia); (hampaista:) kipeytyä, vihloa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">yletä</l>
+      <stg>
+        <st Contlex="V_ALETA">yle</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">nousta ylös, nousta pystyyn; kohota, nousta, turvota; koheta; kasvaa; (säästä:) seestyä, kirkastua; (hampaista:) kipeytyä, vihloa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ylittiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">ylittä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ylittää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">yllyttiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">yllyttä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">yllyttää; nostaa tulva, nostaa vesi jnnek</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ymbäröijä</l>
+      <stg>
+        <st Contlex="V_SUVAIJA">ymbäröi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ympäröidä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ymmärdiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">ymmärdä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kiertää, ohittaa; huijata; palvella, passata; totella, noudattaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ymähyttiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">ymähyttä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">pamauttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">yrištä</l>
+      <stg>
+        <st Contlex="V_PESTÄ">yriš</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">murista, äristä; ynistä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">yrrästelläkseh</l>
+      <stg>
+        <st Contlex="VR_TULLA">yrrästel</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="VR">ryhtyä, innostua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">yödyö</l>
+      <stg>
+        <st Contlex="V_VALUO">yödy</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">yöpyä; eksyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">yöksyö</l>
+      <stg>
+        <st Contlex="V_VALUO">yöksy</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">eksyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">zaidie</l>
+      <stg>
+        <st Contlex="V_POTKIE">zaidi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">poiketa, käydä jssk, mennä jnnek</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">zaimie</l>
+      <stg>
+        <st Contlex="V_POTKIE">zaimi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ottaa, varata, vallata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">zastuavie</l>
+      <stg>
+        <st Contlex="V_POTKIE">zastuavi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">pakottaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">zavarie</l>
+      <stg>
+        <st Contlex="V_POTKIE">zavari</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">hauduttaa, keittää hauduttamalla</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">zavodie</l>
+      <stg>
+        <st Contlex="V_POTKIE">zavodi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">aloittaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">zavodikseh</l>
+      <stg>
+        <st Contlex="V_POTKIE">zavodi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">alkaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">zdaija</l>
+      <stg>
+        <st Contlex="V_SUVAIJA">zdai</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">luovuttaa, antaa, lähettää, laittaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">zobotie</l>
+      <stg>
+        <st Contlex="V_POTKIE">zoboti</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">huolehtia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">zvonie</l>
+      <stg>
+        <st Contlex="V_POTKIE">zvoni</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">soittaa (kelloja); (kelloista:) soida; soittaa (puhelimella); (korvasta:) soida</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">äblištelläkseh</l>
+      <stg>
+        <st Contlex="V_TULLA">äblištel</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">hölmöillä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">äblištyö</l>
+      <stg>
+        <st Contlex="V_VALUO">äblišty</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ällistyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">äbäžeijä</l>
+      <stg>
+        <st Contlex="V_SUVAIJA">äbäžei</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">lelliä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ädvätä</l>
+      <stg>
+        <st Contlex="V_AVATA">ädvä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kadottaa, pistää, tökätä; tuhlata, mällätä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">äglästiäkseh</l>
+      <stg>
+        <st Contlex="VR_OTTUA">äglästä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="VR">putkahtaa, pätkähtää, ilmestyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">äglätä</l>
+      <stg>
+        <st Contlex="V_AVATA">äglä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">tuhlata, mällätä; saattaa turmioon</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ähkie</l>
+      <stg>
+        <st Contlex="V_POTKIE">ähki</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">tyrkkiä, töniä, sysiä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ähkiekseh</l>
+      <stg>
+        <st Contlex="V_POTKIE">ähke</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">töniä; toinen toisiaan</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ähkätä</l>
+      <stg>
+        <st Contlex="V_AVATA">ähkä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">tyrkätä, työntää, tönäistä; lyödä, iskeä, jysäyttää; heittää, viskata, paiskata; tuikata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">äinästiäkseh</l>
+      <stg>
+        <st Contlex="VR_OTTUA">äinästä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="VR">syöksähtää, tupsahtaa, pöllähtää; tuppautua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">äkettiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">äkettä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">änkyttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">älistä</l>
+      <stg>
+        <st Contlex="V_PESTÄ">älis</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">älistä, hälistä, mölistä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ämmättiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">ämmättä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">hemmotella, lelliä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">änkyttiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">änkyttä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">änkyttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">äretä</l>
+      <stg>
+        <st Contlex="V_ALETA">äre</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">tulla vihaiseksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">äristä</l>
+      <stg>
+        <st Contlex="V_PESTÄ">äris</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">äristä, murista, rähjätä; ulvoa, vonkua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ärzyttiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">ärzyttä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ärsyttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">ögištä</l>
+      <stg>
+        <st Contlex="V_PESTÄ">ögiš</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">öristä, ynistä; röhkiä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">öglästiäkseh</l>
+      <stg>
+        <st Contlex="VR_OTTUA">öglästä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="VR">oksentaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">öhkiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">öhkä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ähistä, ähkiä (vatsa täynnä); röhkiä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">öllätä</l>
+      <stg>
+        <st Contlex="V_AVATA">öllätä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">ällöttää, äklöttää (ölgiäy, ölgäi)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">öntie</l>
+      <stg>
+        <st Contlex="V_POTKIE">önti</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">köntystää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">öntästyö</l>
+      <stg>
+        <st Contlex="V_VALUO">öntästy</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kompastua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čakata</l>
+      <stg>
+        <st Contlex="V_AVATA">čakka</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">nuhdella, torua, moittia, soimata, haukkua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">čakatakseh</l>
+      <stg>
+        <st Contlex="VR_AVATA">čakka</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="VR">nuhdella, torua, moittia, soimata, haukkua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čestie</l>
+      <stg>
+        <st Contlex="V_POTKIE">česti</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kestitä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čeznie</l>
+      <stg>
+        <st Contlex="V_POTKIE">čezni</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">eläimestä t. halv. ihmisestä: kuolla; kärsiä, kitua; hitaasta tekemisestä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čihkua</l>
+      <stg>
+        <st Contlex="V_KANDUA">čihka</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">sihistä, suhista, sähistä; pärskiä, tirskua, nyyhkiä tms.; heikosta, kituliaasta palamisesta; kituuttaa, tuhrustaa, nyhertää, nyhjätä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čihvata</l>
+      <stg>
+        <st Contlex="V_AVATA">čihva</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">laskea katkua, laskea kitkua, laskea häkää; palaa huonosti; hitaasta tekemisestä; kituuttaen elämisestä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čiihoittua</l>
+      <stg>
+        <st Contlex="V_KANDUA">čiihoitta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">levittää, hajottaa; harottaa, olla harallaan; liihottaa; panna levälleen, panna haralleen; kovasta t. liioittelevasta tekemisestä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čiimoittua</l>
+      <stg>
+        <st Contlex="V_KANDUA">čiimoitta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">panna levälleen, panna haralleen; levittää; liihottaa; (jalat) harallaan, rumassa asennossa olemisesta</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čiiroita</l>
+      <stg>
+        <st Contlex="V_AVATA">čiiruo</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">mennä säröille, mennä viiruille, haljeta, särähtää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čiistie</l>
+      <stg>
+        <st Contlex="V_POTKIE">čiisti</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">siistiä, puhdistaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čilaittua</l>
+      <stg>
+        <st Contlex="V_KANDUA">čilaitta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">helisyttää, kilisyttää, helskyttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čilbie</l>
+      <stg>
+        <st Contlex="V_POTKIE">čilbi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">(Tver) silpiä; riipiä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čilkata</l>
+      <stg>
+        <st Contlex="V_AVATA">čilka</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kilauttaa, kilistää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čipettiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">čipettä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V"> ripottaa, ripeksiä, tihuttaa; tipsuttaa, sipsuttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čirettiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">čirettä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">helottaa, porottaa; kimmeltää; kuumottaa; tiristä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čirištä</l>
+      <stg>
+        <st Contlex="V_PESTÄ">čiriš</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">siristä, sirittää, visertää; mäkättää; kimittää, kirkua; tiristä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čirnie</l>
+      <stg>
+        <st Contlex="V_POTKIE">čirni</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">raapaista; pyyhkäistä pois; lirittää;  auringosta: paistaa kuumasti, paahtaa; päivettää, kuivatta</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čiyčettiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">čiyčettä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">visertää, sirkuttaa, piipittää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čomendella</l>
+      <stg>
+        <st Contlex="V_TULLA">čomendella</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">koristella; kaunistella, teeskennnellä, puolustella; imarrella</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">čomendellakseh</l>
+      <stg>
+        <st Contlex="VR_TULLA">čomendel</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="VR">ihailla itseään; teeskennellä, puolustautua; rehennellä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čomendua</l>
+      <stg>
+        <st Contlex="V_KANDUA">čomenda</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kaunistaa, koristaa; pukea kauniiksi; teeskennellä, puolustella, kaunistella; imarrella</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čometa</l>
+      <stg>
+        <st Contlex="V_ALETA">čome</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kaunistua, koheta</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čongie</l>
+      <stg>
+        <st Contlex="V_POTKIE">čongi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">tonkia; halv. hitaasta t. pikkutarkasta tekemisestä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čuhkailla</l>
+      <stg>
+        <st Contlex="V_TULLA">čuhkail</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">tuhautella, suhautella; kuiskailla</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čuhkata</l>
+      <stg>
+        <st Contlex="V_AVATA">čuhka</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">tuhauttaa, suhauttaa; kuiskata, supista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čuhkuttua</l>
+      <stg>
+        <st Contlex="V_OTTUA">čuhkutta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">puhkuttaa, puhista; kuiskuttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čukeldella</l>
+      <stg>
+        <st Contlex="V_TULLA">čukeldella</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">sukellella</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čukeldua</l>
+      <stg>
+        <st Contlex="V_OTTUA">čukelda</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">sukeltaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čurata</l>
+      <stg>
+        <st Contlex="V_AVATA">čura</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">luistaa, liukua, livetä; ajella; laskea mäkeä; solista, liristä; varista, rapista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čurčettua</l>
+      <stg>
+        <st Contlex="V_KANDUA">čurčetta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">solista, lorista, liristä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čällätä</l>
+      <stg>
+        <st Contlex="V_AVATA">čällätä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">tehdä huonosti, tökerösti; turmella, mällätä; puhua epäselvästi, mongertaa; haukkua, morkata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">čökätä</l>
+      <stg>
+        <st Contlex="V_AVATA">čökätä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">pistää, tuikata, tökätä, sysätä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šaglata</l>
+      <stg>
+        <st Contlex="V_AVATA">šagla</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">solkata; hotkia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šarahuttua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šarahutta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">tehdä nopeasti</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šarkuttua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šarkutta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">sipsua, hankautua vastakkain</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šarnie</l>
+      <stg>
+        <st Contlex="V_POTKIE">šarni</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">viiltää, haavoittaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šaugua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šauga</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">nopeasta liikkumisesta t. tekemisestä; heilua, huiskia, viuhua; hyöriä, pyöriä, viuhtoa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šauhkua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šauhka</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">nopeasta liikkumisesta; viuhkaa, suihkaa, suihkia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">šavahtellakseh</l>
+      <stg>
+        <st Contlex="VR_TULLA">šavahtel</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="VR">rehennellä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šavvata</l>
+      <stg>
+        <st Contlex="V_AVATA">šavva</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">tehdä jotakin nopeasti</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šeimie</l>
+      <stg>
+        <st Contlex="V_POTKIE">šeimi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">hankkia, hommata, toimittaa, järjestää, varustaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šelovuo</l>
+      <stg>
+        <st Contlex="V_VALUO">šelovu</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">hämmentyä, mennä sekaisin, sekaantua;  sotkeutua, sekaantua; riitaantua; touhuta, puuhata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šeluo</l>
+      <stg>
+        <st Contlex="V_PUNUO">šelo</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V"> hämmentää, sekoittaa, penkoa; pöyhiä; huitoa; roiskia; sotkea (asiat), panna sekaisin; puhumisesta; soittaa suutaan; touhuta, puuhailla; huolettomasta (rahan) käyttelemisestä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šemavuttua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šemavutta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">sameta, sumeeta; sotkeentua, sekaantua; rikkoontua; pyörryttää, pyörtyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šihištä</l>
+      <stg>
+        <st Contlex="V_PESTÄ">šihiš</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">sihistä, suhista, tuhista, sähistä, kähistä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šiivilöijä</l>
+      <stg>
+        <st Contlex="V_SUVAIJA">šiivilöi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">siivilöidä (vars.karjala)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šiiškata</l>
+      <stg>
+        <st Contlex="V_AVATA">šiiška</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">sekoittaa, sotkea</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šinguo</l>
+      <stg>
+        <st Contlex="V_PUNUO">šingo</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">viskoa, penkoa; kohdella tylysti</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šiändyö</l>
+      <stg>
+        <st Contlex="V_VALUO">šiändy</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">suuttua, vihastua, sydämistyä; myt. eril. taudinaiheuttajien vihastumisesta</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šiännyttiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">šiännyttä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">suututtaa, vihastuttaa, saada suuttumaan</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šišettiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">šišettä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">kuiskailla, supattaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">škellata</l>
+      <stg>
+        <st Contlex="V_AVATA">škella</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">moittia, haukkua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">školie</l>
+      <stg>
+        <st Contlex="V_POTKIE">školi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">opettaa, neuvoa, rangaista, kouluttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šlibahtua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šlibahta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">horjahtaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šliehkua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šliehka</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">liehua; heilua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šliäčätä</l>
+      <stg>
+        <st Contlex="V_AVATA">šliäčätä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">sataa ränrää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šlobaittua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šlobaitta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">sotkea vettä, porskuttaa; tuhlata vettä; juoda paljon vettä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šlobista</l>
+      <stg>
+        <st Contlex="V_PESTÄ">šlobis</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">porskia, polskia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šloimua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šloima</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">maleksia, köntystää; heilua, keikkua; lonksua, lenksua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šloimuttua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šloimutta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">heiluttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šlottie</l>
+      <stg>
+        <st Contlex="V_POTKIE">šlotti</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">valehdella</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šläbištä</l>
+      <stg>
+        <st Contlex="V_PESTÄ">šläbiš</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">huojua, lonksua; läikkyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šläbäittiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">šläbäittä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">läikyttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šläimiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">šläimä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">hoippua, horjua, huojua; heilua, huojua, keikkua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šläimyttiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">šläimyttä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">veltosta, vetelästä, laiskasta t. väsyneestä tekemisestä, keikuttaa, lompsia; möläytellä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šlängiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">šlängä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">heilua, keikkua, huojua; olla löysällä, vinossa t. väärässä; lonksua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šlötätä</l>
+      <stg>
+        <st Contlex="V_AVATA">šlötätä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">räkiä, sylkeä, loata; puhua epäselvästi; sataa räntää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šmutkuttua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šmutkutta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">keikuttaa, pyörittää, nyökyttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šnaugua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šnauga</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">viuhahtavan, viheltävän, vingahtavan, suhahtavan t. kalkattavan äänen aiheuttamisesta; nopeasta liikkumisesta; hyöriä, hääriä (ääntyy: šńaugua)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šnavvata</l>
+      <stg>
+        <st Contlex="V_AVATA">šnauga</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">viuhahtavan, viheltävän, läjähtävän, läiskähtävän äänen aiheuttavasta tekemisestä; verbipareissa nopeasta tekemisestä; ajattelemattomasta puhumisesta, möläyttää (ääntyy šń-)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šoglata</l>
+      <stg>
+        <st Contlex="V_AVATA">šogla</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">papattaa, sössöttää, solkata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šoglettua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šogletta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">solista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šohišta</l>
+      <stg>
+        <st Contlex="V_PESTÄ">šohiš</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">havista, suhista, kahista, sihistä; supista; riidellä, kahista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šoijata</l>
+      <stg>
+        <st Contlex="V_AVATA">šoiga</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">sivaltaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šolahtoa</l>
+      <stg>
+        <st Contlex="V_OTTUA">šolahta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">laskeutua, valahtaa, luiskahtaa, livahtaa, pujahtaa, sujahtaa,solahtaa (viena, vars.karjala, Tver)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šolišta</l>
+      <stg>
+        <st Contlex="V_PESTÄ">šoliš</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">solista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šolkuttua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šolkutta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">napsuttaa, kolisuttaa, kopisuttaa, paukuttaa; reippaasta, keveästä liikkumisesta; äänekkäästä puhumisesta</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šotkata</l>
+      <stg>
+        <st Contlex="V_AVATA">šotka</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">harjata, puhdistaa harjalla (esim. vaatteita)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šuhista</l>
+      <stg>
+        <st Contlex="V_PESTÄ">šuhis</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">surista, suhista, sihistä; kuiskutella, supista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šuhišta</l>
+      <stg>
+        <st Contlex="V_PESTÄ">šuhiš</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">surista, suhista, sihistä; kuiskutella, supista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šuorittua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šuoritta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">varustaa matkaan; valjastaa hevonen; pukea; valmistaa, muokata; tasoittaa; silittää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šupettua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šupetta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">supattaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šuuttie</l>
+      <stg>
+        <st Contlex="V_POTKIE">šuutti</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">pilailla; taikoa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šuuvella</l>
+      <stg>
+        <st Contlex="V_TULLA">šuuvel</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">myt. pilata vars. kehumalla, kiittämällä; katsoa pahalla silmällä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šuuštuo</l>
+      <stg>
+        <st Contlex="V_VALUO">šuuštu</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">väsyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šuštuo</l>
+      <stg>
+        <st Contlex="V_VALUO">šuštu</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">väsyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šuštuttua</l>
+      <stg>
+        <st Contlex="V_KANDUA">šuštutta</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">väsyttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šyndyö</l>
+      <stg>
+        <st Contlex="V_VALUO">šyndy</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">muodostua; syntyä: mahtua, sopia; olla soveliasta, sopia, kelvata; sopeutua, tulla toimeen (tav. syndyö)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šyyhyttiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">šyyhyttä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">raaputtaa; syyhytä (tav. syyhytä)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šälmiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">šälmä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">hälistä, meluta, mekastaa; käydä vieraissa, huorata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šäyšettiä</l>
+      <stg>
+        <st Contlex="V_OTTUA">šäyšettä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">harhauttaa, eksyttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">šöžlätä</l>
+      <stg>
+        <st Contlex="V_AVATA">šöžlä</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">höpistä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">žiitoija</l>
+      <stg>
+        <st Contlex="V_SUVAIJA">žiitoi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">seuloa, sihdata jauhoja, siivilöidä jauhoja</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">žiälöijä</l>
+      <stg>
+        <st Contlex="V_SUVAIJA">žiälöi</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">sääliä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">žuardua</l>
+      <stg>
+        <st Contlex="V_KANDUA">žuarda</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">polttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="V">žuarie</l>
+      <stg>
+        <st Contlex="V_POTKIE">žuari</st>
+      </stg>
+    </lg>
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">paistaa pannulla, käristää, paahtaa; (auringosta:) paistaa, paahtaa, helottaa</t>
       </tg>
     </mg>
   </e>
