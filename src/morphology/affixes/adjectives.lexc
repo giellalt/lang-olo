@@ -16,10 +16,10 @@ LEXICON A_UNDECL  !!= @CODE@ undeclinable
 LEXICON A_KUU !!= @CODE@ kuu:kuu
 +A: NMN_KUU ;
 
+!! !TWO-SYLLABLE STEMS
 LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
 !! the comparatives and superlatives are supletive
 +A: NMN_OZA ;
-
 
 LEXICON A_OZA !!= @CODE@ oza:oza
 +A: NMN_OZA ;
@@ -112,6 +112,10 @@ LEXICON A_RUNO
 LEXICON A_KOIRU
  A_PÄIVY ;
 
+!! !TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
+LEXICON A_ENIN !!= @CODE@ enin:eni
++A: NMN_ENIN-SG ;
++A: NMN_ENIN-PL ;
 
 LEXICON Adj-NB-i
 ! These cases are symmetrically marked for number
