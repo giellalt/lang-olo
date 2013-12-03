@@ -4,10 +4,10 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-<e exclude="fst"><lg><l pos="N">paha heiny</l><stg><st Contlex="N_">paha heinä</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
-<e exclude="fst"><lg><l pos="N">pahat heinät</l><stg><st Contlex="N_PÄIVY-PL">paha heinä</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
-<e exclude="fst"><lg><l pos="N">ruskei sveta</l><stg><st Contlex="N_MUARJU">ruskei sveta</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
-<e exclude="fst"><lg><l pos="N">vuolažu kohtu</l><stg><st Contlex="N_PÄIVY">vuolažu kohta</st></stg></lg><pos>N</pos><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">vuolas kohta</t></tg></mg></e>
+<e exclude="fst"><lg><l pos="N">paha heiny</l><stg><st Contlex="N_">paha heinä</st></stg></lg><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="N">pahat heinät</l><stg><st Contlex="N_PÄIVY-PL">paha heinä</st></stg></lg><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="N">ruskei sveta</l><stg><st Contlex="N_MUARJU">ruskei sveta</st></stg></lg><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
+<e exclude="fst"><lg><l pos="N">vuolažu kohtu</l><stg><st Contlex="N_PÄIVY">vuolažu kohta</st></stg></lg><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">vuolas kohta</t></tg></mg></e>
   <e exclude="fst">
     <lg>
       <l pos="N">paimendandu kohta</l>
@@ -16,9 +16,6 @@
         <st Contlex="N_PÄIVY">paimendandu kohta</st>
       </stg>
     </lg>
-
-    <pos>N</pos>
-
     <mg>
       <m>
         <head/>
@@ -38,9 +35,6 @@
         <st Contlex="N_KALA">peittožile kiža</st>
       </stg>
     </lg>
-
-    <pos>N</pos>
-
     <mg>
       <m>
         <head/>
@@ -60,9 +54,6 @@
         <st Contlex="N_RUNO">peräh ando</st>
       </stg>
     </lg>
-
-    <pos>N</pos>
-
     <mg>
       <m>
         <head/>
@@ -82,9 +73,6 @@
         <st Contlex="N_MUARJU">perän ajo</st>
       </stg>
     </lg>
-
-    <pos>N</pos>
-
     <mg>
       <m>
         <head/>
@@ -104,9 +92,6 @@
         <st Contlex="N_MUARJU">oma randa</st>
       </stg>
     </lg>
-
-    <pos>N</pos>
-
     <mg>
       <m>
         <head/>
@@ -126,9 +111,6 @@
         <st Contlex="N_">paha lykky</st>
       </stg>
     </lg>
-
-    <pos>N</pos>
-
     <mg>
       <m>
         <head/>
@@ -148,9 +130,6 @@
         <st Contlex="N_KANDAI">pahan ruadai</st>
       </stg>
     </lg>
-
-    <pos>N</pos>
-
     <mg>
       <m>
         <head/>
@@ -170,9 +149,6 @@
         <st Contlex="N_RUNO">pahan ruado</st>
       </stg>
     </lg>
-
-    <pos>N</pos>
-
     <mg>
       <m>
         <head/>
