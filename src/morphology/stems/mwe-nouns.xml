@@ -35,7 +35,15 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">läheinen, likeinen; tyhmänpuoleinen</t>
+        <t pos="A">läheinen, likeinen</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">tyhmänpuoleinen</t>
       </tg>
     </mg>
   </e>
@@ -76,10 +84,86 @@
     </mg>
   </e>
 
-<e exclude="fst"><lg><l pos="N">paha heiny</l><stg><st Contlex="N_">paha heinä</st></stg></lg><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
-<e exclude="fst"><lg><l pos="N">pahat heinät</l><stg><st Contlex="N_PÄIVY-PL">paha heinä</st></stg></lg><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
-<e exclude="fst"><lg><l pos="N">ruskei sveta</l><stg><st Contlex="N_MUARJU">ruskei sveta</st></stg></lg><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
-<e exclude="fst"><lg><l pos="N">vuolažu kohtu</l><stg><st Contlex="N_PÄIVY">vuolažu kohta</st></stg></lg><mg><m><head></head></m><tg xml:lang="fin"><t pos="N">vuolas kohta</t></tg></mg></e>
+  <e exclude="fst">
+    <lg>
+      <l pos="N">paha heiny</l>
+
+      <stg>
+        <st Contlex="N_">paha heinä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">pahat heinät</l>
+
+      <stg>
+        <st Contlex="N_PÄIVY-PL">paha heinä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">ruskei sveta</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">ruskei sveta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">vuolažu kohtu</l>
+
+      <stg>
+        <st Contlex="N_PÄIVY">vuolažu kohta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">vuolas kohta</t>
+      </tg>
+    </mg>
+  </e>
+
   <e exclude="fst">
     <lg>
       <l pos="N">paimendandu kohta</l>
@@ -88,6 +172,7 @@
         <st Contlex="N_PÄIVY">paimendandu kohta</st>
       </stg>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -107,6 +192,7 @@
         <st Contlex="N_KALA">peittožile kiža</st>
       </stg>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -126,6 +212,7 @@
         <st Contlex="N_RUNO">peräh ando</st>
       </stg>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -145,6 +232,7 @@
         <st Contlex="N_MUARJU">perän ajo</st>
       </stg>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -164,6 +252,7 @@
         <st Contlex="N_MUARJU">oma randa</st>
       </stg>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -183,6 +272,7 @@
         <st Contlex="N_">paha lykky</st>
       </stg>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -202,6 +292,7 @@
         <st Contlex="N_KANDAI">pahan ruadai</st>
       </stg>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -221,6 +312,7 @@
         <st Contlex="N_RUNO">pahan ruado</st>
       </stg>
     </lg>
+
     <mg>
       <m>
         <head/>
