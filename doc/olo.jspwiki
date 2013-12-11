@@ -131,8 +131,99 @@ Noun inflection
 Livvi nouns inflect in cases.
 
 
+!ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
+ LEXICON N_SUO  suo:suo
+
+ LEXICON N_KUU  kuu:kuu
+
+ LEXICON N_MUA  mua:maa
+
+!TWO-SYLLABLE VOWEL-FINAL STEMS
+ LEXICON N_PAPPI  pappi:pappi
+
+ LEXICON N_VIGA  viga:viga
+
+ LEXICON N_KALA  kala:kala
+
+ LEXICON N_OZA  oza:oza
 
 
+
+ LEXICON N_SÄYNÄ  säynä:säynä
+
+
+
+ LEXICON N_KOIVU  koivu:koivu
+
+
+
+ LEXICON N_RUNO  runo:runo
+
+
+ LEXICON N_KYNDÖ  kyndö:kyndö
+
+
+!TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
+
+ LEXICON N_JÄLGI   jälgi:jälg
+
+ LEXICON N_MUARJU  muarju:muarja
+
+
+ LEXICON N_SULGU  sulgu:sulga
+
+ LEXICON N_KOIRU  koiru:koira
+
+
+
+ LEXICON N_NIMI  nimi:nim
+
+
+
+ LEXICON N_PÄIVY  päivy:päivä
+
+
+
+  LEXICON N_SIVE  sive:sive
+
+
+ LEXICON N_REBOI  reboi:reboi
+
+ LEXICON N_VALGEI  valgei:valge
+
+
+
+!TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
+ LEXICON N_UKSI  uksi:uks
+
+ LEXICON N_KIELI  kieli:kiel
+
+
+ LEXICON N_LAPSI  lapsi:laps lapsi:laps
+
+
+
+ LEXICON N_VEZI  vezi:vet
+
+
+
+ LEXICON N_SUZI  suzi:su
+
+
+
+ LEXICON N_VUOZI  vuozi:vuot
+
+
+!THREE-SYLLABLE VOWEL-FINAL STEMS
+ LEXICON N_SYGYZY  sygyzy:sygyzy
+
+
+
+ LEXICON N_VASKIČČU  vaskičču:vaskičča
+
+
+
+!THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
  LEXICON N_KARJAL  karjal:karjal
  LEXICON N_KARJAL-SG  karjal:karjal
  LEXICON N_KARJAL-PL  karjal:karjal
@@ -183,9 +274,6 @@ Livvi nouns inflect in cases.
  LEXICON N_RAIŠ  raiš:ra
 
 
- LEXICON N_SIVE  sive:sive
-
-
  LEXICON N_PEREH  pereh:pereh
 
 
@@ -193,19 +281,6 @@ Livvi nouns inflect in cases.
 
 
  LEXICON N_ARTELI  arteli:arteli
-
-
- LEXICON N_PAPPI  pappi:pappi
-
- LEXICON N_UKSI  uksi:uks
-
- LEXICON N_REBOI  reboi:reboi
-
- LEXICON N_JÄLGI   jälgi:jälg
-
- LEXICON N_KIELI  kieli:kiel
-
-
 
  LEXICON N_PUHTAHUS  puhtahus:puhtahu
 
@@ -232,44 +307,13 @@ Livvi nouns inflect in cases.
 
 
 
- LEXICON N_SUO  suo:suo
-
- LEXICON N_KUU  kuu:kuu
-
- LEXICON N_MUA  mua:maa
-
- LEXICON N_MUARJU  muarju:muarja
-
-
  LEXICON NMN_MUARJU  muarju:muarja
-
-
- LEXICON N_VIGA  viga:viga
-
- LEXICON N_KALA  kala:kala
-
- LEXICON N_OZA  oza:oza
-
-
-
- LEXICON N_SÄYNÄ  säynä:säynä
-
 
 
  LEXICON N_ARMAS  armas:arma
 
 
  LEXICON N_PAREMBI  parembi:paremb
-
-
- LEXICON N_SULGU  sulgu:sulga
-
- LEXICON N_KOIRU  koiru:koira
-
-
-
- LEXICON N_NIMI  nimi:nim
-
 
 
  LEXICON N_SUURIM  suurim:suurim
@@ -308,50 +352,15 @@ Livvi nouns inflect in cases.
 
 
 
- LEXICON N_LAPSI  lapsi:laps lapsi:laps
-
- LEXICON N_VEZI  vezi:vet
-
+ LEXICON NMN_LAPSI  lapsi:laps lapsi:laps
 
 
  LEXICON NMN_VEZI  vezi:vet
 
 
 
- LEXICON N_SUZI  suzi:su
-
-
-
  LEXICON NMN_SUZI  suzi:su
 
-
-
- LEXICON N_VUOZI  vuozi:vuot
-
- LEXICON N_PÄIVY  päivy:päivä
-
-
-
- LEXICON N_SYGYZY  sygyzy:sygyzy
-
-
-
- LEXICON N_KOIVU  koivu:koivu
-
-
-
- LEXICON N_VASKIČČU  vaskičču:vaskičča
-
-
-
- LEXICON N_VALGEI  valgei:valge
-
-
-
- LEXICON N_RUNO  runo:runo
-
-
- LEXICON N_KYNDÖ  kyndö:kyndö
 
 
 !NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
