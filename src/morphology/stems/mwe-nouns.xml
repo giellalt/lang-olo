@@ -4,6 +4,78 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e exclude="fst">
+    <lg>
+      <l pos="A">ei ammuine</l>
+
+      <stg>
+        <st Contlex="A_KARJALAINE">ei ammui</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">hiljattainen, taannoinen, tuonnoinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="A">ei loittoine</l>
+
+      <stg>
+        <st Contlex="A_KARJALAINE">ei loittoi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">läheinen, likeinen; tyhmänpuoleinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="A">ei pitkyvihaine</l>
+
+      <stg>
+        <st Contlex="A_KARJALAINE">ei pitkyvihai</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">nopeasti leppyvä, ei ole pitkävihainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="A">ei vihaine</l>
+
+      <stg>
+        <st Contlex="A_KARJALAINE">ei vihai</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">hyväluontoinen</t>
+      </tg>
+    </mg>
+  </e>
+
 <e exclude="fst"><lg><l pos="N">paha heiny</l><stg><st Contlex="N_">paha heinä</st></stg></lg><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
 <e exclude="fst"><lg><l pos="N">pahat heinät</l><stg><st Contlex="N_PÄIVY-PL">paha heinä</st></stg></lg><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
 <e exclude="fst"><lg><l pos="N">ruskei sveta</l><stg><st Contlex="N_MUARJU">ruskei sveta</st></stg></lg><mg><m><head></head></m><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
@@ -27,7 +99,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="N">peittožile kiža</l>
 
@@ -103,7 +175,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="N">paha lykky</l>
 
@@ -122,7 +194,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="N">pahan ruadai</l>
 
@@ -141,7 +213,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="N">pahan ruado</l>
 
