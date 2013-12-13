@@ -461,7 +461,7 @@ LEXICON NMN_MUARJU-SG
 LEXICON NMN_MUARJU-PL
  PLNOMSUF ;
 :%>i PLGENSUF_N ; ! the plural comitative is declined here
-:%>i PLPARSUF_a ;
+:%>i PLPARSUF_Zero ;
 :%>i PLINSSUF ;
 +Pl:%>i Noun-NB-01 ;
 
