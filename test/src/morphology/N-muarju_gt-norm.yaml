@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - muarju: # Noun 'berry / marja' - full paradigm
+     muarju+N+Sg+Nom: muarju
+     muarju+N+Sg+Gen: muarjan
+     muarju+N+Sg+Acc: [muarju, muarjan]
+     muarju+N+Sg+Par: muarjua
+     muarju+N+Sg+Tra: muarjakse
+     muarju+N+Sg+Abe: [muarjatta, muarjata, muarjattah]
+     muarju+N+Sg+Com: muarjanke
+     muarju+N+Sg+Ine: muarjas
+     muarju+N+Sg+Ela: [muarjaspäi, muarjas]
+     muarju+N+Sg+Ill: muarjuh
+     muarju+N+Sg+Ade: muarjal
+     muarju+N+Sg+Abl: [muarjalpäi, muarjal]
+     muarju+N+Sg+All: muarjale
+     muarju+N+Sg+Ess: muarjannu
+     muarju+N+Sg+Ter: muarjassah
+     muarju+N+Sg+Apr: muarjalluo
+     muarju+N+Pl+Nom: muarjat
+     muarju+N+Pl+Gen: muarjoin
+     muarju+N+Pl+Acc: muarjat
+     muarju+N+Pl+Par: muarjoi
+     muarju+N+Pl+Tra: muarjoikse
+     muarju+N+Pl+Abe: [muarjoitta, muarjoita, muarjoittah]
+     muarju+N+Pl+Com: muarjoinke
+     muarju+N+Pl+Ine: muarjois
+     muarju+N+Pl+Ela: [muarjoispäi, muarjois]
+     muarju+N+Pl+Ill: muarjoih
+     muarju+N+Pl+Ade: muarjoil
+     muarju+N+Pl+Abl: [muarjoilpäi, muarjoil]
+     muarju+N+Pl+All: muarjoile
+     muarju+N+Pl+Ess: muarjoinnu
+     muarju+N+Pl+Ins: muarjoin
+     muarju+N+Pl+Apr: muarjoilluo
+     muarju+N+Sg+Nom+Clt/gi: muarjugi
+     muarju+N+Sg+Gen+Clt/gi: muarjangi
+     muarju+N+Sg+Acc+Clt/gi: [muarjugi, muarjangi]
+     muarju+N+Sg+Par+Clt/gi: muarjuagi
+     muarju+N+Sg+Tra+Clt/gi: muarjaksegi
+     muarju+N+Sg+Abe+Clt/gi: [muarjattagi, muarjatagi, muarjattahgi]
+     muarju+N+Sg+Com+Clt/gi: muarjankegi
+     muarju+N+Sg+Ine+Clt/gi: muarjasgi
+     muarju+N+Sg+Ela+Clt/gi: [muarjaspäigi, muarjasgi]
+     muarju+N+Sg+Ill+Clt/gi: muarjahgi
+     muarju+N+Sg+Ade+Clt/gi: muarjalgi
+     muarju+N+Sg+Abl+Clt/gi: [muarjalpäigi, muarjalgi]
+     muarju+N+Sg+All+Clt/gi: muarjalegi
+     muarju+N+Sg+Ess+Clt/gi: muarjannugi
+     muarju+N+Sg+Ter+Clt/gi: muarjassahgi
+     muarju+N+Sg+Apr+Clt/gi: muarjalluogi
+     muarju+N+Pl+Nom+Clt/gi: muarjatgi
+     muarju+N+Pl+Gen+Clt/gi: muarjoingi
+     muarju+N+Pl+Acc+Clt/gi: muarjatgi
+     muarju+N+Pl+Par+Clt/gi: muarjoigi
+     muarju+N+Pl+Tra+Clt/gi: muarjoiksegi
+     muarju+N+Pl+Abe+Clt/gi: [muarjoittagi, muarjoitagi, muarjoittahgi]
+     muarju+N+Pl+Com+Clt/gi: muarjoinkegi
+     muarju+N+Pl+Ine+Clt/gi: muarjoisgi
+     muarju+N+Pl+Ela+Clt/gi: [muarjoispäigi, muarjoisgi]
+     muarju+N+Pl+Ill+Clt/gi: muarjoihgi
+     muarju+N+Pl+Ade+Clt/gi: muarjoilgi
+     muarju+N+Pl+Abl+Clt/gi: [muarjoilpäigi, muarjoilgi]
+     muarju+N+Pl+All+Clt/gi: muarjoilegi
+     muarju+N+Pl+Ess+Clt/gi: muarjoinnugi
+     muarju+N+Pl+Ins+Clt/gi: muarjoingi
+     muarju+N+Pl+Apr+Clt/gi: muarjoilluogi
