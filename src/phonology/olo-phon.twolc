@@ -330,7 +330,7 @@ a:0 <=>
 
 "a:o in the plural and preterite"
 !! __@RULENAME@__
-a:o <=> # Cns* [ a | i | e ] (u|i) Cns:+ _ %> i: ( %^WGStem:0 )  ;
+a:o <=> # Cns* [[ a | i | e ] (u|i)| u a ] Cns:+ _ %> i: ( %^WGStem:0 )  ;
 
 
 "a:e"
