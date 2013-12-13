@@ -143,7 +143,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">(hanko)aura, atra</t>
+        <t pos="N">hankoaura</t>
+
+        <t pos="N">aura</t>
+
+        <t pos="N">atra</t>
       </tg>
     </mg>
   </e>
@@ -215,7 +219,13 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">pää (jnk pitkän), loppu</t>
+        <tCtn>
+          <t pos="N">pää</t>
+
+          <re>jnk pitkän</re>
+        </tCtn>
+
+        <t pos="N">loppu</t>
       </tg>
     </mg>
   </e>
@@ -685,8 +695,18 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">aitaus, aita (olla t. pitää aidassa), tarha</t>
+        <t pos="N">aitaus</t>
+
+        <t pos="N">tarha</t>
+
+        <t pos="N">aita </t>
       </tg>
+
+      <xg>
+        <x/>
+
+        <xt>olla t. pitää aidassa</xt>
+      </xg>
     </mg>
   </e>
 
@@ -1127,7 +1147,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">lapaset, (neula)kintaat</t>
+        <t pos="N">lapaset</t>
+
+        <t pos="N">neulakintaat</t>
+
+        <t pos="N">kintaat</t>
       </tg>
     </mg>
   </e>
@@ -1460,7 +1484,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">alunen, alus(kappale t. rakenne)</t>
+        <t pos="N">alunen</t>
+
+        <t pos="N">aluskappale</t>
+
+        <t pos="N">alusrakenne</t>
       </tg>
     </mg>
   </e>
@@ -2074,7 +2102,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">(kuivatus)riuku, aarto</t>
+        <t pos="N">kuivatusriuku</t>
+
+        <t pos="N">riuku</t>
+
+        <t pos="N">aarto</t>
       </tg>
     </mg>
 
@@ -4419,10 +4451,10 @@
 
   <e>
     <lg>
-      <l pos="N">br'ukvu</l>
+      <l pos="N">brʼukvu</l>
 
       <stg>
-        <st Contlex="N_">br'ukvu</st>
+        <st Contlex="N_">brʼukvu</st>
       </stg>
     </lg>
 
@@ -9083,10 +9115,10 @@
 
   <e>
     <lg>
-      <l pos="N">gor'a-rukku</l>
+      <l pos="N">gorʼa-rukku</l>
 
       <stg>
-        <st Contlex="N_">gor'a-rukku</st>
+        <st Contlex="N_">gorʼa-rukku</st>
       </stg>
     </lg>
 
@@ -9205,10 +9237,10 @@
 
   <e>
     <lg>
-      <l pos="N">gost'u</l>
+      <l pos="N">gostʼu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">gost'</st>
+        <st Contlex="N_MUARJU">gostʼa</st>
       </stg>
     </lg>
 
@@ -9334,7 +9366,7 @@
       <l pos="N">gruamottu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">gruamott</st>
+        <st Contlex="N_MUARJU">gruamotta</st>
       </stg>
     </lg>
 
@@ -9370,7 +9402,7 @@
       <l pos="N">guikku</l>
 
       <stg>
-        <st Contlex="N_MUARJU">guikk</st>
+        <st Contlex="N_MUARJU">guikka</st>
       </stg>
     </lg>
 
@@ -9388,7 +9420,7 @@
       <l pos="N">gurbu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">gurb</st>
+        <st Contlex="N_MUARJU">gurba</st>
       </stg>
     </lg>
 
@@ -9440,7 +9472,7 @@
       <l pos="N">gŕuuhu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">gŕuuh</st>
+        <st Contlex="N_MUARJU">gŕuuha</st>
       </stg>
     </lg>
 
@@ -9597,10 +9629,10 @@
 
   <e>
     <lg>
-      <l pos="N">hal'oi</l>
+      <l pos="N">halʼoi</l>
 
       <stg>
-        <st Contlex="N_">hal'oi</st>
+        <st Contlex="N_">halʼoi</st>
       </stg>
     </lg>
 
@@ -9690,7 +9722,7 @@
       <l pos="N">halieru</l>
 
       <stg>
-        <st Contlex="N_MUARJU">halier</st>
+        <st Contlex="N_MUARJU">haliera</st>
       </stg>
     </lg>
 
@@ -9762,7 +9794,7 @@
       <l pos="N">hallonpiluaju</l>
 
       <stg>
-        <st Contlex="N_MUARJU">hallonpiluaj</st>
+        <st Contlex="N_MUARJU">hallonpiluaja</st>
       </stg>
     </lg>
 
@@ -9798,7 +9830,7 @@
       <l pos="N">hallu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">hall</st>
+        <st Contlex="N_MUARJU">halla</st>
       </stg>
     </lg>
 
@@ -10152,7 +10184,7 @@
       <l pos="N">harakku</l>
 
       <stg>
-        <st Contlex="N_MUARJU">harakk</st>
+        <st Contlex="N_MUARJU">harakka</st>
       </stg>
     </lg>
 
@@ -10170,7 +10202,7 @@
       <l pos="N">haravu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">harav</st>
+        <st Contlex="N_MUARJU">harava</st>
       </stg>
     </lg>
 
@@ -12474,10 +12506,10 @@
 
   <e>
     <lg>
-      <l pos="N">hol'otus</l>
+      <l pos="N">holʼotus</l>
 
       <stg>
-        <st Contlex="N_">hol'otus</st>
+        <st Contlex="N_">holʼotus</st>
       </stg>
     </lg>
 
@@ -19579,7 +19611,7 @@
       <l pos="N">kaimuandu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">kaimuan</st>
+        <st Contlex="N_MUARJU">kaimuana</st>
       </stg>
     </lg>
 
@@ -20822,7 +20854,7 @@
       <l pos="N">kanza</l>
 
       <stg>
-        <st Contlex="N_MUARJU">kanz</st>
+        <st Contlex="N_MUARJU">kanza</st>
       </stg>
     </lg>
 
@@ -20840,7 +20872,7 @@
       <l pos="N">kanza</l>
 
       <stg>
-        <st Contlex="N_MUARJU">kanz</st>
+        <st Contlex="N_MUARJU">kanza</st>
       </stg>
     </lg>
 
@@ -24819,7 +24851,7 @@
       <l pos="N">kilbuniekku</l>
 
       <stg>
-        <st Contlex="N_MUARJU">kilbuniekk</st>
+        <st Contlex="N_MUARJU">kilbuniekka</st>
       </stg>
     </lg>
 
@@ -27394,7 +27426,7 @@
       <l pos="N">konsertu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">konsert</st>
+        <st Contlex="N_MUARJU">konserta</st>
       </stg>
     </lg>
 
@@ -28606,10 +28638,10 @@
 
   <e>
     <lg>
-      <l pos="N">kuapl'u</l>
+      <l pos="N">kuaplʼu</l>
 
       <stg>
-        <st Contlex="N_">kuapl'u</st>
+        <st Contlex="N_">kuaplʼu</st>
       </stg>
     </lg>
 
@@ -29373,10 +29405,10 @@
 
   <e>
     <lg>
-      <l pos="N">kul'l'ukku</l>
+      <l pos="N">kulʼlʼukku</l>
 
       <stg>
-        <st Contlex="N_">kul'l'ukku</st>
+        <st Contlex="N_">kulʼlʼukku</st>
       </stg>
     </lg>
 
@@ -29868,10 +29900,10 @@
 
   <e>
     <lg>
-      <l pos="N">kuor'oi</l>
+      <l pos="N">kuorʼoi</l>
 
       <stg>
-        <st Contlex="N_">kuor'oi</st>
+        <st Contlex="N_">kuorʼoi</st>
       </stg>
     </lg>
 
@@ -30038,10 +30070,10 @@
 
   <e>
     <lg>
-      <l pos="N">kur'oi</l>
+      <l pos="N">kurʼoi</l>
 
       <stg>
-        <st Contlex="N_">kur'oi</st>
+        <st Contlex="N_">kurʼoi</st>
       </stg>
     </lg>
 
@@ -30058,10 +30090,10 @@
 
   <e>
     <lg>
-      <l pos="N">kur'oipualikku</l>
+      <l pos="N">kurʼoipualikku</l>
 
       <stg>
-        <st Contlex="N_">kur'oipualikku</st>
+        <st Contlex="N_">kurʼoipualikku</st>
       </stg>
     </lg>
 
@@ -30330,10 +30362,10 @@
 
   <e>
     <lg>
-      <l pos="N">kut'ku</l>
+      <l pos="N">kutʼku</l>
 
       <stg>
-        <st Contlex="N_">kut'ku</st>
+        <st Contlex="N_">kutʼku</st>
       </stg>
     </lg>
 
@@ -41072,7 +41104,7 @@
       <l pos="N">muarju</l>
 
       <stg>
-        <st Contlex="N_MUARJU">muarj</st>
+        <st Contlex="N_MUARJU">muarja</st>
       </stg>
     </lg>
 
@@ -46332,7 +46364,7 @@
       <l pos="N">olhottu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">olhot</st>
+        <st Contlex="N_MUARJU">olhota</st>
       </stg>
     </lg>
 
@@ -47120,7 +47152,7 @@
       <l pos="N">optiekku</l>
 
       <stg>
-        <st Contlex="N_MUARJU">optiekku</st>
+        <st Contlex="N_MUARJU">optiekka</st>
       </stg>
     </lg>
 
@@ -50366,7 +50398,7 @@
       <l pos="N">pasku</l>
 
       <stg>
-        <st Contlex="N_MUARJU">pasku</st>
+        <st Contlex="N_MUARJU">paska</st>
       </stg>
     </lg>
 
@@ -50905,7 +50937,7 @@
       <l pos="N">peitändy</l>
 
       <stg>
-        <st Contlex="N_MUARJU">peitändy</st>
+        <st Contlex="N_MUARJU">peitändä</st>
       </stg>
     </lg>
 
@@ -51313,7 +51345,7 @@
       <l pos="N">perrändy</l>
 
       <stg>
-        <st Contlex="N_MUARJU">perrändy</st>
+        <st Contlex="N_MUARJU">perrändä</st>
       </stg>
     </lg>
 
@@ -53488,7 +53520,7 @@
       <l pos="N">pitkysiimu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">pitkysiimu</st>
+        <st Contlex="N_MUARJU">pitky#siima</st>
       </stg>
     </lg>
 
@@ -61586,7 +61618,7 @@
       <l pos="N">ributiitta</l>
 
       <stg>
-        <st Contlex="N_MUARJU">ribu#tiit</st>
+        <st Contlex="N_KALA">ribu#tiitta</st>
       </stg>
     </lg>
 
@@ -66050,7 +66082,7 @@
       <l pos="N">sangiet lavvat</l>
 
       <stg>
-        <st Contlex="N_MUARJU">sangiet lavvat</st>
+        <st Contlex="N_MUARJU-PL">sangiet lavva</st>
       </stg>
     </lg>
 
@@ -70226,7 +70258,7 @@
       <l pos="N">stankat</l>
 
       <stg>
-        <st Contlex="N_MUARJU">stankat</st>
+        <st Contlex="N_MUARJU-PL">stanka</st>
       </stg>
     </lg>
 
@@ -70492,7 +70524,7 @@
       <l pos="N">stuavat</l>
 
       <stg>
-        <st Contlex="N_MUARJU">stuavat</st>
+        <st Contlex="N_MUARJU-PL">stuava</st>
       </stg>
     </lg>
 
@@ -73040,7 +73072,7 @@
       <l pos="N">suuri pallu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">suuri pallu</st>
+        <st Contlex="N_MUARJU">suuri palla</st>
       </stg>
     </lg>
 
@@ -73060,7 +73092,7 @@
       <l pos="N">suuri palʼlʼu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">suuri palʼlʼu</st>
+        <st Contlex="N_MUARJU">suuri palʼlʼa</st>
       </stg>
     </lg>
 
@@ -75672,10 +75704,10 @@
 
   <e>
     <lg>
-      <l pos="N">tally</l>
+      <l pos="N">talʼlʼu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">tally</st>
+        <st Contlex="N_MUARJU">talʼlʼa</st>
       </stg>
     </lg>
 
@@ -76522,7 +76554,7 @@
       <l pos="N">tavaru</l>
 
       <stg>
-        <st Contlex="N_MUARJU">tavaru</st>
+        <st Contlex="N_MUARJU">tavara</st>
       </stg>
     </lg>
 
@@ -77378,7 +77410,7 @@
       <l pos="N">tiedovoiččii akku</l>
 
       <stg>
-        <st Contlex="N_MUARJU">tiedovoiččii akku</st>
+        <st Contlex="N_MUARJU">tiedovoiččii akka</st>
       </stg>
     </lg>
 
@@ -82500,7 +82532,7 @@
       <l pos="N">uličču</l>
 
       <stg>
-        <st Contlex="N_MUARJU">uličču</st>
+        <st Contlex="N_MUARJU">uličča</st>
       </stg>
     </lg>
 
@@ -83342,7 +83374,7 @@
       <l pos="N">uuličču</l>
 
       <stg>
-        <st Contlex="N_MUARJU">uuličču</st>
+        <st Contlex="N_MUARJU">uuličča</st>
       </stg>
     </lg>
 
@@ -85982,7 +86014,7 @@
       <l pos="N">vastu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">vastu</st>
+        <st Contlex="N_MUARJU">vasta</st>
       </stg>
     </lg>
 
@@ -87385,7 +87417,7 @@
       <l pos="N">vezihaudu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">vezi#haudu</st>
+        <st Contlex="N_MUARJU">vezi#hauda</st>
       </stg>
     </lg>
 
@@ -90269,7 +90301,7 @@
       <l pos="N">vualenčat</l>
 
       <stg>
-        <st Contlex="N_MUARJU">vualenčat</st>
+        <st Contlex="N_MUARJU-PL">vualenča</st>
       </stg>
     </lg>
 
@@ -92753,10 +92785,10 @@
 
   <e>
     <lg>
-      <l pos="N">zakon</l>
+      <l pos="N">zakonu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">zakon</st>
+        <st Contlex="N_MUARJU">zakona</st>
       </stg>
     </lg>
 
@@ -96651,7 +96683,7 @@
       <l pos="N">štiiru</l>
 
       <stg>
-        <st Contlex="N_MUARJU">štiiru</st>
+        <st Contlex="N_MUARJU">štiira</st>
       </stg>
     </lg>
 
