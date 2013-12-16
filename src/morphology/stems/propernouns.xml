@@ -11171,4 +11171,40 @@
       </tg>
     </mg>
   </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Nevvostoliitto</l>
+
+      <stg>
+        <st Contlex="PROP_RUNO">Nevvostoliitto</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Neuvostoliitto</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Viro</l>
+
+      <stg>
+        <st Contlex="PROP_RUNO">Viro</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Viro</t>
+      </tg>
+    </mg>
+  </e>
 </r>
