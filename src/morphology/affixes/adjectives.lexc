@@ -8,11 +8,12 @@
 !! +A+sup:est      Cases   ;
 
 LEXICON A_
-+A: # ;
++TYÄ+A: # ;
 
 LEXICON A_UNDECL  !!= @CODE@ undeclinable
 +A: # ;
 
+!! !ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
 LEXICON A_KUU !!= @CODE@ kuu:kuu
 +A: NMN_KUU ;
 
@@ -57,6 +58,7 @@ LEXICON A_VALGEI-SG
 LEXICON A_VALGEI-PL
 +A: NMN_VALGEI-PL        ;
 
+!! !THREE-SYLLABLE VOWEL-FINAL STEMS
 LEXICON A_PAREMBI !!= @CODE@ parembi:paremb
 +A: NMN_PAREMBI	  ;
 +A+Der/MWN: N_PAREMBI ;
@@ -78,6 +80,15 @@ LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 LEXICON A_TOINE !!= @CODE@ toine:to
 +A: NMN_TOINE ;
 
+!! !THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
+LEXICON A_KARJAL !!= @CODE@ karjal:karjal
+        A_KARJAL-SG ;
+        A_KARJAL-PL ;
+LEXICON A_KARJAL-SG !!= @CODE@ karjal:karjal
++A:     NMN_KARJAL-SG ;
+LEXICON A_KARJAL-PL !!= @CODE@ karjal:karjal
++A:     NMN_KARJAL-PL ;
+
 LEXICON A_PEREH !!= @CODE@ pereh:pereh
 	A_PEREH-SG	;
 	A_PEREH-PL	;
@@ -86,6 +97,9 @@ LEXICON A_PEREH-SG
 
 LEXICON A_PEREH-PL
 +A:	NMN_PEREH-PL	;
+
+LEXICON A_PESSYH !!= @CODE@ pessyh:pessy
++A: NMN_PESSYH ;
 
 LEXICON A_ARMAS !!= @CODE@ armas:arma
     A_ARMAS-SG        ;
