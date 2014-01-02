@@ -21,10 +21,10 @@ Tests:
      pestäkseh+V+Ind+Prs+RcPl1: pezemmökseh
      pestäkseh+V+Ind+Prs+RcPl2: pezettökseh
      pestäkseh+V+Ind+Prs+RcPl3: pestähes
-     pestäkseh+V+Ind+Prs+RcSg+ConNeg: pezei
-     pestäkseh+V+Ind+Prs+RcPl1+ConNeg: pezei
-     pestäkseh+V+Ind+Prs+RcPl2+ConNeg: pezei
-     pestäkseh+V+Ind+Prs+RcPl3+ConNeg: pestähes
+     pestäkseh+V+Ind+Prs+ConNeg+RcSg: pezei
+     pestäkseh+V+Ind+Prs+ConNeg+RcPl1: pezei
+     pestäkseh+V+Ind+Prs+ConNeg+RcPl2: pezei
+     pestäkseh+V+Ind+Prs+ConNeg+RcPl3: pestähes
 
      pestäkseh+V+Ind+Prt+RcSg1: pezimmös
      pestäkseh+V+Ind+Prt+RcSg2: pezittös
@@ -32,10 +32,10 @@ Tests:
      pestäkseh+V+Ind+Prt+RcPl1: pezimmökseh
      pestäkseh+V+Ind+Prt+RcPl2: pezittökseh
      pestäkseh+V+Ind+Prt+RcPl3: pestihes
-     pestäkseh+V+Ind+Prt+RcSg+ConNeg: pessyhes
-     pestäkseh+V+Ind+Prt+RcPl1+ConNeg: pessyhes
-     pestäkseh+V+Ind+Prt+RcPl2+ConNeg: pessyhes
-     pestäkseh+V+Ind+Prt+RcPl3+ConNeg: pestyhes
+     pestäkseh+V+Ind+Prt+ConNeg+RcSg: pessyhes
+     pestäkseh+V+Ind+Prt+ConNeg+RcPl1: pessyhes
+     pestäkseh+V+Ind+Prt+ConNeg+RcPl2: pessyhes
+     pestäkseh+V+Ind+Prt+ConNeg+RcPl3: pestyhes
 
      pestäkseh+V+Cond+Prs+RcSg1: pezizimmös
      pestäkseh+V+Cond+Prs+RcSg2: pezizittös
@@ -43,10 +43,10 @@ Tests:
      pestäkseh+V+Cond+Prs+RcPl1: pezizimmökseh
      pestäkseh+V+Cond+Prs+RcPl2: pezizittökseh
      pestäkseh+V+Cond+Prs+RcPl3: pestäzihes
-     pestäkseh+V+Cond+Prs+RcSg+ConNeg: pezizihes
-     pestäkseh+V+Cond+Prs+RcPl1+ConNeg: pezizihes
-     pestäkseh+V+Cond+Prs+RcPl2+ConNeg: pezizihes
-     pestäkseh+V+Cond+Prs+RcPl3+ConNeg: pestäzihes
+     pestäkseh+V+Cond+Prs+ConNeg+RcSg: pezizihes
+     pestäkseh+V+Cond+Prs+ConNeg+RcPl1: pezizihes
+     pestäkseh+V+Cond+Prs+ConNeg+RcPl2: pezizihes
+     pestäkseh+V+Cond+Prs+ConNeg+RcPl3: pestäzihes
 
      pestäkseh+V+Cond+Prt+RcSg1: pessyzimmös
      pestäkseh+V+Cond+Prt+RcSg2: pessyzittös
@@ -54,10 +54,10 @@ Tests:
      pestäkseh+V+Cond+Prt+RcPl1: pessyzimmökseh
      pestäkseh+V+Cond+Prt+RcPl2: pessyzittökseh
      pestäkseh+V+Cond+Prt+RcPl3: pestähyzihes
-     pestäkseh+V+Cond+Prt+RcSg+ConNeg: pessyzihes
-     pestäkseh+V+Cond+Prt+RcPl1+ConNeg: pessyzihes
-     pestäkseh+V+Cond+Prt+RcPl2+ConNeg: pessyzihes
-     pestäkseh+V+Cond+Prt+RcPl3+ConNeg: pestähyzihes
+     pestäkseh+V+Cond+Prt+ConNeg+RcSg: pessyzihes
+     pestäkseh+V+Cond+Prt+ConNeg+RcPl1: pessyzihes
+     pestäkseh+V+Cond+Prt+ConNeg+RcPl2: pessyzihes
+     pestäkseh+V+Cond+Prt+ConNeg+RcPl3: pestähyzihes
 
      pestäkseh+V+Pot+RcSg1: pessemmös
      pestäkseh+V+Pot+RcSg2: pessettös
@@ -66,10 +66,10 @@ Tests:
      pestäkseh+V+Pot+RcPl2: pessettökseh
      pestäkseh+V+Pot+RcPl3: pestähes
 ## This looks like it ought to be _pestänehes_
-     pestäkseh+V+Pot+RcSg+ConNeg: pessehes
-     pestäkseh+V+Pot+RcPl1+ConNeg: pessehes
-     pestäkseh+V+Pot+RcPl2+ConNeg: pessehes
-     pestäkseh+V+Pot+RcPl3+ConNeg: pestänehes
+     pestäkseh+V+Pot+ConNeg+RcSg: pessehes
+     pestäkseh+V+Pot+ConNeg+RcPl1: pessehes
+     pestäkseh+V+Pot+ConNeg+RcPl2: pessehes
+     pestäkseh+V+Pot+ConNeg+RcPl3: pestänehes
 
 
      pestäkseh+V+Imprt+RcSg2: pezei
