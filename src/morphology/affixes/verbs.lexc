@@ -96,15 +96,6 @@ LEXICON V_TULLA !!= @CODE@ tulla:tul
 !! !Verbs of the Finnish type 3
 +V: V-VV_03 ;
 
-!+V:e INDPRSCONNEG ;
-!+V+Ind+Prt+ConNeg:%>n%{uy%}%^WGStemh K ;
-!+V+Ind+PrfPrc:%>n%{uy%}%^WGStemh K ;
-!+V+Ind+PrfPrcPl3:%>d%{uy%} K ;
-!+V:%>d CONDPRSPL3 ;
-!+V:%>n%{uy%}%^WGStem CONDPRT ;
-!+V:%>d%{aä%} CONDPRTPL3_DAnUs ;
-!+V+Inf:%>d%{aäInf%}%^WGStem K ;
-
 LEXICON V_PESTÄ !!= @CODE@ pestä:pes
 !! !Verbs of the Finnish type 3
 +V: V-VV_03 ;
@@ -496,7 +487,7 @@ LEXICON V-VV_05_MERKITÄ !! * @CODE@ merkitä:merki
  IMPRT_kkA ;
  IMPRTPL3_ttAhes ;
 
-:čči ACTPRSPRC_AVUAJU ;
+:čči ACTPRSPRC_PEZII ;
  ACTPRFPRC_nnUH ;
  PSSPRSPRC_ttAvU ;
  PSSPRFPRC_ttU ;
