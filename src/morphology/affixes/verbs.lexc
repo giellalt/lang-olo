@@ -113,6 +113,10 @@ LEXICON V_NOSTA !!= @CODE@ nosta:no
 !! !Verbs of the Finnish type 3
 +V: V-VV_03 ;
 
+LEXICON V_KUULLA !!= @CODE@ kuulla:kuul
+!! !Verbs of the Finnish type 3 but not identical
++V: V-VV_KUULLA ;
+
 
 LEXICON V_TYPÄTÄ !!= @CODE@ typätä:typpä
 +V: #;
@@ -332,7 +336,7 @@ LEXICON V-VV_02
 +Inf:%>j%{aäInf%} K ;
 
 
-LEXICON V-VV_03
+LEXICON V-VV_03 !!= @CODE@ tulla:tul
 :%^VOICEe INDPRSSG1 ;
 :%^VOICEe INDPRSSG2 ;
 :%^VOICE%{oö%} INDPRSSG3 ;
@@ -365,6 +369,40 @@ LEXICON V-VV_03
 : PSSPRFPRC_DU ;
 :%^VOICEe M-INF ;
 +Inf:%>d%{aä%}%^WGStem K ;
+
+LEXICON V-VV_KUULLA !!= @CODE@ kuulla:kuul
+:%^VOICEe INDPRSSG1 ;
+:%^VOICEe INDPRSSG2 ;
+:%^VOICE%{oö%} INDPRSSG3 ;
+:%^VOICEe INDPRSPL1 ;
+:%^VOICEe INDPRSPL2 ;
+ INDPRSPL3_tAh ;
+:%^VOICEe INDPRSCONNEG_WEAK ;
+
+:%^VOICE INDPRTSG1     ;
+:%^VOICE INDPRTSG2     ;
+:%^VOICE INDPRTSG3     ;
+:%^VOICE INDPRTPL1     ;
+:%^VOICE INDPRTPL2     ;
+: INDPRTPL3_tih     ;
+ INDPRTCONNEG_nUh ;
+ INDPRTCONNEGPL3_tU ;
+
+:%^VOICE CONDPRS_IS ;
+: CONDPRSPL3_tAs ;
+: CONDPRT_nUs ;
+: CONDPRTPL3_tAnnUs ;
+: POT_N ;
+: POTPL3_tAnneh ;
+: IMPRT_KA ;
+: IMPRTPL3_tAhes ;
+
+:%^VOICEi ACTPRSPRC_PEZII ;
+: ACTPRFPRC_nUH ;
+: PSSPRSPRC_tAvU ;
+: PSSPRFPRC_tU ;
+:%^VOICEe M-INF ;
++Inf:%>t%{aä%}%^WGStem K ;
 
 LEXICON V-VV_04
 :%>%{aä%} INDPRSSG1 ;
@@ -692,6 +730,8 @@ LEXICON INDPRTCONNEG_nnUh
 +Ind+Prt+ConNeg:%^WGStem%>nn%{uy%}h K ;
 LEXICON INDPRTCONNEGPL3_DU
 +Ind+Prt+ConNeg+ScPl3:%>d%{uy%} K ;
+LEXICON INDPRTCONNEGPL3_tU
++Ind+Prt+ConNeg+ScPl3:%>t%{uy%} K ;
 LEXICON INDPRTCONNEGPL3_ttU
 +Ind+Prt+ConNeg+ScPl3:%^WGStem%>tt%{uy%} K ;
 LEXICON INDPRTCONNEGPL3_EttU
@@ -761,6 +801,10 @@ LEXICON CONDPRSPL3
 LEXICON CONDPRSPL3_DAs
 +Cond+Prs+ScPl3:%>d%{aä%}s K ;
 +Cond+Prs+ConNeg+ScPl3:%>d%{aä%}s K ;
+
+LEXICON CONDPRSPL3_tAs
++Cond+Prs+ScPl3:%>t%{aä%}s K ;
++Cond+Prs+ConNeg+ScPl3:%>t%{aä%}s K ;
 
 LEXICON CONDPRSPL3_ttAs
 +Cond+Prs+ScPl3:%^WGStem%>tt%{aä%}s K ;
@@ -951,6 +995,10 @@ LEXICON IMPRTPL3_DAhes
 +Imprt+ScPl3:%>d%{aä%}hes K ;
 +Imprt+ScPl3+ConNeg:%>d%{aä%}hes K ;
 
+LEXICON IMPRTPL3_tAhes
++Imprt+ScPl3:%>t%{aä%}hes K ;
++Imprt+ScPl3+ConNeg:%>t%{aä%}hes K ;
+
 LEXICON IMPRTPL3_ttAhes
 +Imprt+ScPl3:%^WGStem%>tt%{aä%}hes K ;
 +Imprt+ScPl3+ConNeg:%^WGStem%>tt%{aä%}hes K ;
@@ -1031,6 +1079,10 @@ LEXICON  PSSPRSPRC_DAvU
 +PssPrsPrc:%>d%{aä%}v%{uy%} K ;
 +PssPrsPrc:%>d%{aä%}v%{aä%} NMN_PÄIVY        ;
 
+LEXICON  PSSPRSPRC_tAvU
++PssPrsPrc:%>t%{aä%}v%{uy%} K ;
++PssPrsPrc:%>t%{aä%}v%{aä%} NMN_PÄIVY        ;
+
 LEXICON  PSSPRSPRC_EtAvU
 +PssPrsPrc:%^WGStem%^E1%>t%{aä%}v%{uy%} K ;
 +PssPrsPrc:%^WGStem%^E1%>t%{aä%}v%{aä%} NMN_PÄIVY        ;
@@ -1053,12 +1105,19 @@ LEXICON ACTPRFPRC_nnUH
 
 LEXICON  PSSPRFPRC_DU
 +PssPrfPrc:%>d%{uy%} K ;
++PssPrfPrc:%>d%{uy%} A_KOIVU ;
+
+LEXICON  PSSPRFPRC_tU
++PssPrfPrc:%>t%{uy%} K ;
++PssPrfPrc:%>t%{uy%} A_KOIVU ;
 
 LEXICON  PSSPRFPRC_ttU
 +PssPrfPrc:%^WGStem%>tt%{uy%} K ;
++PssPrfPrc:%^WGStem%>tt%{uy%} A_KOIVU ;
 
 LEXICON  PSSPRFPRC_EttU
 +PssPrfPrc:%^WGStem%^E1%>tt%{uy%} K ;
++PssPrfPrc:%^WGStem%^E1%>tt%{uy%} A_KOIVU ;
 
 !!
 LEXICON RCPRFPRC_nUHes
