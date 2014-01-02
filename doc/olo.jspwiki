@@ -630,6 +630,9 @@ I should be kuulda perhaps 2013-11-14
  LEXICON V_NOSTA  nosta:no
 !Verbs of the Finnish type 3
 
+ LEXICON V_KUULLA  kuulla:kuul
+!Verbs of the Finnish type 3 but not identical
+
 
  LEXICON V_TYPÄTÄ  typätä:typpä
 
@@ -705,18 +708,24 @@ I should be kuulda perhaps 2013-11-14
 
 
 
+ LEXICON V-VV_03  tulla:tul
+
+
+
+
+ LEXICON V-VV_KUULLA  kuulla:kuul
 
 
 
 
 
 
-* LEXICON VR_MERKITÄ  suvaija:suvai
+* LEXICON V-VV_KUULLA  suvaija:suvai
 
 
 
 
-* LEXICON VR_MERKITÄ  merkitä:merki
+* LEXICON V-VV_KUULLA  merkitä:merki
 
 
 
@@ -751,12 +760,12 @@ Nonfinites
 
 Finites
 !INDICATIVE PRESENT
-* LEXICON VR_MERKITÄ  type 04
+* LEXICON V-VV_KUULLA  type 04
 
 !INDICATIVE PRESENT REFLEXIVE
 
 
-* LEXICON VR_MERKITÄ  
+* LEXICON V-VV_KUULLA  
 
 !INDICATIVE PRETERITE
 
@@ -764,6 +773,7 @@ Finites
 
 
 Conditional
+
 
 
 
@@ -808,7 +818,10 @@ Conditional
 
 
 
+
 !IMPERATIVE REFLEXIVE
+
+
 
 
 

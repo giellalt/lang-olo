@@ -417,7 +417,7 @@
       <l pos="V">ajella</l>
 
       <stg>
-        <st Contlex="V_TULLA">ajel</st>
+        <st Contlex="V_KUULLA">ajel</st>
       </stg>
     </lg>
 
@@ -425,7 +425,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">ajella ajokkaalla t- ajoneuvolla</t>
+        <t pos="V">ajella ajokkaalla</t><t pos="V">ajella ajoneuvolla</t>
       </tg>
     </mg>
 
@@ -1688,7 +1688,7 @@
       <l pos="V">arbailla</l>
 
       <stg>
-        <st Contlex="V_TULLA">arbail</st>
+        <st Contlex="V_KUULLA">arbail</st>
       </stg>
     </lg>
 
@@ -21607,7 +21607,7 @@
       <l pos="V">kuolla</l>
 
       <stg>
-        <st Contlex="V_TULLA">kuol</st>
+        <st Contlex="V_KUULLA">kuol</st>
       </stg>
     </lg>
 
@@ -21961,7 +21961,7 @@
       <l pos="V">kuulla</l>
 
       <stg>
-        <st Contlex="V_TULLA">kuul</st>
+        <st Contlex="V_KUULLA">kuul</st>
       </stg>
     </lg>
 
@@ -22113,7 +22113,9 @@
       <l pos="V">kuunella</l>
 
       <stg>
-        <st Contlex="V_TULLA">kuunella</st>
+        <st Contlex="V_KUULLA">kuunel</st>
+        <st Contlex="V_KUULLA">kuunnel</st>
+        <st Contlex="V_TULLA">kuunnel</st>
       </stg>
     </lg>
 
@@ -23260,24 +23262,6 @@
 
       <tg xml:lang="fin">
         <t pos="V">kysellä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">kyzellä kai</l>
-
-      <stg>
-        <st Contlex="V_">kyzellä kai</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V"/>
       </tg>
     </mg>
   </e>
@@ -33065,6 +33049,7 @@
       <l pos="V">muanitella</l>
 
       <stg>
+        <st Contlex="V_KUULLA">muanittel</st>
         <st Contlex="V_TULLA">muanittel</st>
       </stg>
     </lg>
@@ -41275,7 +41260,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">ommel</t>
+        <t pos="V">ommella</t>
       </tg>
     </mg>
   </e>
