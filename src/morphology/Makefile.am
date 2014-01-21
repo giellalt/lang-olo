@@ -36,12 +36,11 @@ GT_LEXC_SRCS=\
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
 			 stems/adjectives.lexc    \
+			 stems/adpositions.lexc \
 			 stems/adverbs.lexc       \
 			 stems/conjunctors.lexc  \
 			 stems/interjections.lexc \
 			 stems/nouns.lexc         \
-			 stems/postpositions.lexc \
-			 stems/prepositions.lexc \
 			 stems/pronouns.lexc      \
 			 stems/propernouns.lexc   \
 			 stems/quantifiers.lexc   \
@@ -50,12 +49,11 @@ GENERATED_LEXC_SRCS=\
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
 			 stems/adjectives.xml    \
+			 stems/adpositions.xml \
 			 stems/adverbs.xml       \
 			 stems/conjunctors.xml  \
 			 stems/interjections.xml \
 			 stems/nouns.xml         \
-			 stems/postpositions.xml \
-			 stems/prepositions.xml \
 			 stems/pronouns.xml      \
 			 stems/propernouns.xml   \
 			 stems/quantifiers.xml   \
