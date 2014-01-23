@@ -10,15 +10,26 @@
 LEXICON A_
 +TYÄ+A: # ;
 
+LEXICON A_EX !!= @CODE@ needs to be changed to @exclude=fst
++TYÄ+A: # ;
+
+
 LEXICON A_UNDECL  !!= @CODE@ undeclinable
 +A: # ;
 
-LEXICON A-PL-GEN_ !!= @CODE@ genitive plural attributes
+LEXICON A_IS-N-PL-GEN !!= @CODE@ genitive plural attributes
 +N+Pl+Gen+A: # ;
+
+LEXICON A_IS-N-SG-GEN !!= @CODE@ genitive plural attributes
++N+Sg+Gen+A: # ;
 
 !! !ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
 LEXICON A_KUU !!= @CODE@ kuu:kuu
 +A: NMN_KUU ;
+
+LEXICON A_MUA !!= @CODE@ mua:maa
++A: NMN_MUA ;
+
 
 !! !TWO-SYLLABLE VOWEL-FINAL STEMS
 LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
@@ -27,6 +38,9 @@ LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
 
 LEXICON A_OZA !!= @CODE@ oza:oza
 +A: NMN_OZA ;
+
+LEXICON A_KALA !!= @CODE@ kala:kala
++A: NMN_KALA ;
 
 LEXICON A_KOIVU !!= @CODE@ koivu:koivu
         A_KOIVU-SG ;
@@ -43,6 +57,15 @@ LEXICON A_RUNO
 
 LEXICON A_ARTELI !!= @CODE@ 
 +A:     NMN_ARTELI ;
+
+LEXICON A_ALUS !!= @CODE@ alus:aluks
++A: NMN_ALUS   ;
+
+LEXICON A_SUALIŠ !!= @CODE@ suališ:suali
++A:	 NMN_SUALIŠ ;
+
+LEXICON A_OLUT !!= @CODE@ olut:olu
++A:	 NMN_OLUT ;
 
 !! !TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
 LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
@@ -63,6 +86,9 @@ LEXICON A_VALGEI-SG
 
 LEXICON A_VALGEI-PL
 +A: NMN_VALGEI-PL        ;
+
+LEXICON A_HARDIE
++A: NMN_HARDIE	;
 
 LEXICON A_OSTAI
 +A:%>j NMN_OSTAI ;
@@ -100,6 +126,12 @@ LEXICON A_KARJAL-SG !!= @CODE@ karjal:karjal
 +A:     NMN_KARJAL-SG ;
 LEXICON A_KARJAL-PL !!= @CODE@ karjal:karjal
 +A:     NMN_KARJAL-PL ;
+
+LEXICON A_PIIRAI !!= @CODE@ piirai:piira 
++A:	NMN_PIIRAI   ;
+
+LEXICON A_RAIŠ !!= @CODE@ raiš:ra
++A:     NMN_RAIŠ   ;
 
 LEXICON A_PEREH !!= @CODE@ pereh:pereh
 	A_PEREH-SG	;
@@ -141,6 +173,15 @@ LEXICON A_NIMI !!= @CODE@ nimi:nim
 
 
 !! !TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
+LEXICON A_VANUIN !!= @CODE@ vanuin:vanui
++A: NMN_VANUIN	 ;
+
+LEXICON A_TAIGIN !!= @CODE@ taigin:taigin
++A:	NMN_TAIGIN   ;
+
+LEXICON A_SALBOIN !!= @CODE@ salboin:salboi
++A: NMN_SALBOIN ;
+
 LEXICON A_ENIN !!= @CODE@ enin:eni
 +A: NMN_ENIN-SG ;
 +A: NMN_ENIN-PL ;
