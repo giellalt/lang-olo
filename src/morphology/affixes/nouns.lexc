@@ -889,6 +889,25 @@ LEXICON NMN_VALGEI-PL
 :il%{oö%}i PLINSSUF ;
 :i Noun-NB-loi ;
 
+LEXICON NMN_HARDIE !!= @CODE@
+	NMN_HARDIE-SG	;
+	NMN_HARDIE-PL	;
+
+LEXICON NMN_HARDIE-SG
+:i SGNOMSUF ;
+:e SGPARSUF_A2 ;
+:e SGGENSUF ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_HARDIE-PL
+:e PLNOMSUF	;
+:%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
+:il%{oö%}i PLGENSUF_N ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
+:i Noun-NB-loi ;
+
 LEXICON NMN_OSTAI !!= @CODE@ ostua:osta%>j
  NMN_OSTAI-SG ;
  NMN_OSTAI-PL ;
