@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - hardie: # Noun 'shoulder / hartia' - full paradigm
+     hardie+N+Sg+Nom: hardie
+     hardie+N+Sg+Gen: hardien
+     hardie+N+Sg+Acc: [hardie, hardien]
+     hardie+N+Sg+Par: hardiedu
+     hardie+N+Sg+Tra: hardiekse
+     hardie+N+Sg+Abe: [hardietta, hardieta, hardiettah]
+     hardie+N+Sg+Com: hardienke
+     hardie+N+Sg+Ine: hardies
+     hardie+N+Sg+Ela: [hardiespäi, hardies]
+     hardie+N+Sg+Ill: hardieh
+     hardie+N+Sg+Ade: hardiel
+     hardie+N+Sg+Abl: [hardielpäi, hardiel]
+     hardie+N+Sg+All: hardiele
+     hardie+N+Sg+Ess: hardiennu
+     hardie+N+Sg+Ter: hardiessah
+     hardie+N+Sg+Apr: hardielluo
+     hardie+N+Pl+Nom: hardiet
+     hardie+N+Pl+Gen: hardieloin
+     hardie+N+Pl+Acc: hardiet
+     hardie+N+Pl+Par: hardieloi
+     hardie+N+Pl+Tra: hardieloikse
+     hardie+N+Pl+Abe: [hardieloitta, hardieloita, hardieloittah]
+     hardie+N+Pl+Com: hardieloinke
+     hardie+N+Pl+Ine: hardielois
+     hardie+N+Pl+Ela: [hardieloispäi, hardielois]
+     hardie+N+Pl+Ill: hardieloihe
+     hardie+N+Pl+Ade: hardieloil
+     hardie+N+Pl+Abl: [hardieloilpäi, hardieloil]
+     hardie+N+Pl+All: hardieloile
+     hardie+N+Pl+Ess: hardieloinnu
+     hardie+N+Pl+Ins: hardieloin
+     hardie+N+Pl+Apr: hardieloilluo
+     hardie+N+Sg+Nom+Clt/gi: hardiegi
+     hardie+N+Sg+Gen+Clt/gi: hardiengi
+     hardie+N+Sg+Acc+Clt/gi: [hardiegi, hardiengi]
+     hardie+N+Sg+Par+Clt/gi: hardiedugi
+     hardie+N+Sg+Tra+Clt/gi: hardieksegi
+     hardie+N+Sg+Abe+Clt/gi: [hardiettagi, hardietagi, hardiettahgi]
+     hardie+N+Sg+Com+Clt/gi: hardienkegi
+     hardie+N+Sg+Ine+Clt/gi: hardiesgi
+     hardie+N+Sg+Ela+Clt/gi: [hardiespäigi, hardiesgi]
+     hardie+N+Sg+Ill+Clt/gi: hardiehgi
+     hardie+N+Sg+Ade+Clt/gi: hardielgi
+     hardie+N+Sg+Abl+Clt/gi: [hardielpäigi, hardielgi]
+     hardie+N+Sg+All+Clt/gi: hardielegi
+     hardie+N+Sg+Ess+Clt/gi: hardiennugi
+     hardie+N+Sg+Ter+Clt/gi: hardiessahgi
+     hardie+N+Sg+Apr+Clt/gi: hardielluogi
+     hardie+N+Pl+Nom+Clt/gi: hardietgi
+     hardie+N+Pl+Gen+Clt/gi: hardieloingi
+     hardie+N+Pl+Acc+Clt/gi: hardietgi
+     hardie+N+Pl+Par+Clt/gi: hardieloigi
+     hardie+N+Pl+Tra+Clt/gi: hardieloiksegi
+     hardie+N+Pl+Abe+Clt/gi: [hardieloittagi, hardieloitagi, hardieloittahgi]
+     hardie+N+Pl+Com+Clt/gi: hardieloinkegi
+     hardie+N+Pl+Ine+Clt/gi: hardieloisgi
+     hardie+N+Pl+Ela+Clt/gi: [hardieloispäigi, hardieloisgi]
+     hardie+N+Pl+Ill+Clt/gi: hardieloihegi
+     hardie+N+Pl+Ade+Clt/gi: hardieloilgi
+     hardie+N+Pl+Abl+Clt/gi: [hardieloilpäigi, hardieloilgi]
+     hardie+N+Pl+All+Clt/gi: hardieloilegi
+     hardie+N+Pl+Ess+Clt/gi: hardieloinnugi
+     hardie+N+Pl+Ins+Clt/gi: hardieloingi
+     hardie+N+Pl+Apr+Clt/gi: hardieloilluogi
