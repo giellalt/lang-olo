@@ -13,6 +13,8 @@ LEXICON A_
 LEXICON A_EX !!= @CODE@ needs to be changed to @exclude=fst
 +TYÄ+A: # ;
 
+LEXICON A_BAHUV !!= @CODE@ 
++A+Bahuv: # ;
 
 LEXICON A_UNDECL  !!= @CODE@ undeclinable
 +A: # ;
@@ -64,6 +66,12 @@ LEXICON A_ALUS !!= @CODE@ alus:aluks
 LEXICON A_SUALIŠ !!= @CODE@ suališ:suali
 +A:	 NMN_SUALIŠ ;
 
+LEXICON A_KUURNIS !!= @CODE@ kuurnis:kuurne
++A:      NMN_KUURNIS ;
+
+LEXICON A_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
++A:	NMN_PUHTAHUS ;
+
 LEXICON A_OLUT !!= @CODE@ olut:olu
 +A:	 NMN_OLUT ;
 
@@ -78,14 +86,11 @@ LEXICON A_KOIRU
  A_PÄIVY ;
 
 LEXICON A_VALGEI !!= @CODE@ valgei:valge
-        A_VALGEI-SG ;
-        A_VALGEI-PL ;
++A: NMN_VALGEI        ;
 
-LEXICON A_VALGEI-SG
-+A: NMN_VALGEI-SG        ;
+LEXICON A_PEITOŠNOI !!= @CODE@ peitošnoi:peitošnoi
++A: NMN_PEITOŠNOI        ;
 
-LEXICON A_VALGEI-PL
-+A: NMN_VALGEI-PL        ;
 
 LEXICON A_HARDIE
 +A: NMN_HARDIE	;
@@ -95,6 +100,9 @@ LEXICON A_OSTAI
 
 LEXICON A_PEZII
 +A:%>j NMN_PEZII ;
+
+LEXICON A_KESTÄY !!= @CODE@ kestäy:kestä
++A: NMN_KESTÄY ;
 
 !! !THREE-SYLLABLE VOWEL-FINAL STEMS
 LEXICON A_PAREMBI !!= @CODE@ parembi:paremb
@@ -134,13 +142,7 @@ LEXICON A_RAIŠ !!= @CODE@ raiš:ra
 +A:     NMN_RAIŠ   ;
 
 LEXICON A_PEREH !!= @CODE@ pereh:pereh
-	A_PEREH-SG	;
-	A_PEREH-PL	;
-LEXICON A_PEREH-SG
-+A:	NMN_PEREH-SG	;
-
-LEXICON A_PEREH-PL
-+A:	NMN_PEREH-PL	;
++A:	NMN_PEREH	;
 
 LEXICON A_PESSYH !!= @CODE@ pessyh:pessy
 +A: NMN_PESSYH ;
@@ -157,13 +159,7 @@ LEXICON A_SUURIM !!= @CODE@ suurim:suurim
 +A:	NMN_SUURIM ;
 
 LEXICON A_KIELI !!= @CODE@ kieli:kiel
-	A_KIELI-SG	;
-	A_KIELI-PL	;
-LEXICON A_KIELI-SG
-+A:	NMN_KIELI-SG	;
-
-LEXICON A_KIELI-PL
-+A:	NMN_KIELI-PL	;
++A:	NMN_KIELI	;
 
 LEXICON A_VUOZI
 +A:	NMN_VUOZI ;
@@ -175,6 +171,9 @@ LEXICON A_NIMI !!= @CODE@ nimi:nim
 !! !TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
 LEXICON A_VANUIN !!= @CODE@ vanuin:vanui
 +A: NMN_VANUIN	 ;
+
+LEXICON A_LÄMMIN !!= @CODE@ lämmin:lämbi
++A:	NMN_LÄMMIN   ;
 
 LEXICON A_TAIGIN !!= @CODE@ taigin:taigin
 +A:	NMN_TAIGIN   ;

@@ -341,6 +341,22 @@ LEXICON N_TAIGIN-SG
 LEXICON N_TAIGIN-PL
 +N: NMN_TAIGIN-PL ;
 
+LEXICON NMN_LÄMMIN !!= @CODE@ lämmin:lämbi
+ NMN_LÄMMIN-SG ;
+ NMN_LÄMMIN-PL ;
+
+LEXICON NMN_LÄMMIN-SG	
+:%^WGStemn SGNOMSUF ;
+:mä SGGENSUF ;
+:%^WGStemn SGPARSUF_dU ;
++Sg:mä Noun-NB-01 ;
+LEXICON NMN_LÄMMIN-PL	
+:mä PLNOMSUF ;
+:mie PLGENSUF_N ;
+:mi PLPARSUF_i ;
+:mi PLINSSUF ;
++Pl:mi Noun-NB-01 ;
+
 LEXICON NMN_TAIGIN !!= @CODE@ taigin:taigin
  NMN_TAIGIN-SG ;
  NMN_TAIGIN-PL ;
@@ -889,6 +905,25 @@ LEXICON NMN_VALGEI-PL
 :il%{oö%}i PLINSSUF ;
 :i Noun-NB-loi ;
 
+LEXICON NMN_PEITOŠNOI !!= @CODE@ peitošnoi:peitošnoi
+	NMN_PEITOŠNOI-SG	;
+	NMN_PEITOŠNOI-PL	;
+
+LEXICON NMN_PEITOŠNOI-SG
+:i SGNOMSUF ;
+:e SGPARSUF_A2 ;
+:e SGGENSUF ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_PEITOŠNOI-PL
+:e PLNOMSUF	;
+:%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
+:il%{oö%}i PLGENSUF_N ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
+:i Noun-NB-loi ;
+
 LEXICON NMN_HARDIE !!= @CODE@
 	NMN_HARDIE-SG	;
 	NMN_HARDIE-PL	;
@@ -942,6 +977,23 @@ LEXICON NMN_PEZII-PL
 :%>%{oö%}%>i PLPARSUF_Zero ;
 :%>%{oö%}%>i PLINSSUF ;
 +Pl:%>%{oö%}%>i Noun-NB-01 ;
+
+LEXICON NMN_KESTÄY !!= @CODE@ kestäy:kestä
+ NMN_KESTÄY-SG ;
+ NMN_KESTÄY-PL ;
+
+LEXICON NMN_KESTÄY-SG
+:%{uy%} SGNOMSUF ;
+:v%>%{aä%} SGGENSUF ;
+:v%>%{ui%} SGPARSUF_A2 ;
++Sg:v%>%{aä%} Noun-NB-01 ;
+
+LEXICON NMN_KESTÄY-PL
+ PLNOMSUF ;
+:v%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:v%>i PLPARSUF_i ;
+:v%>i PLINSSUF ;
++Pl:v%>i Noun-NB-01 ;
 
 LEXICON NMN_RUNO !!= @CODE@ runo:runo
 	NMN_RUNO-SG ;
@@ -1242,6 +1294,7 @@ LEXICON NMN_ARMAS-PL
 :hi PLINSSUF ;
 +Pl:hi Noun-NB-01 ;
 
+
 LEXICON NMN_SUALIŠ !!= @CODE@ suališ:suali
 	NMN_SUALIŠ-SG ;
 	NMN_SUALIŠ-PL ;
@@ -1274,6 +1327,24 @@ LEXICON NMN_RAIŠ-PL
 :gehi PLPARSUF_i ;
 :gehi PLINSSUF ;
 +Pl:gehi Noun-NB-01 ;
+
+LEXICON NMN_KUURNIS !!= @CODE@ kuurniš:kuurne
+	NMN_KUURNIS-SG ;
+	NMN_KUURNIS-PL ;
+
+LEXICON NMN_KUURNIS-SG
++N:s SGNOMSUF ;
++N:i SGGENSUF ;
++N:s SGPARSUF_dU ;
++N+Sg:i Noun-NB-01 ;
+
+LEXICON NMN_KUURNIS-PL
++N:i PLNOMSUF ;
+!+N:%>ie PLGENSUF_N ; ! the plural comitative is declined here
+!+N:%>i PLPARSUF_i ;
+!+N:%>i PLINSSUF ;
+!+N+Pl:i Noun-NB-01 ;
+
 
 LEXICON NMN_OLUT !!= * @CODE@ olut:olu
  NMN_OLUT-SG ;
