@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - tullut: # Attribute ' / tullut' - full paradigm
+     tullut+N+Sg+Nom: tullut
+     tullut+N+Sg+Gen: tulluon
+     tullut+N+Sg+Acc: [tullut, tulluon]
+     tullut+N+Sg+Par: tulluttu
+     tullut+N+Sg+Tra: tulluokse
+     tullut+N+Sg+Abe: [tulluotta, tulluota, tulluottah]
+     tullut+N+Sg+Com: tulluonke
+     tullut+N+Sg+Ine: tulluos
+     tullut+N+Sg+Ela: [tulluospäi, tulluos]
+     tullut+N+Sg+Ill: tulluoh
+     tullut+N+Sg+Ade: tulluol
+     tullut+N+Sg+Abl: [tulluolpäi, tulluol]
+     tullut+N+Sg+All: tulluole
+     tullut+N+Sg+Ess: tulluonnu
+     tullut+N+Sg+Ter: tulluossah
+     tullut+N+Sg+Apr: tulluolluo
+     tullut+N+Pl+Nom: tulluot
+     tullut+N+Pl+Gen: tulluzien
+     tullut+N+Pl+Acc: tulluot
+     tullut+N+Pl+Par: tulluzii
+     tullut+N+Pl+Tra: tulluzikse
+     tullut+N+Pl+Abe: [tulluzitta, tulluzita, tulluzittah]
+     tullut+N+Pl+Com: tulluzienke
+     tullut+N+Pl+Ine: tulluzis
+     tullut+N+Pl+Ela: [tulluzispäi, tulluzis]
+     tullut+N+Pl+Ill: tulluzih
+     tullut+N+Pl+Ade: tulluzil
+     tullut+N+Pl+Abl: [tulluzilpäi, tulluzil]
+     tullut+N+Pl+All: tulluzile
+     tullut+N+Pl+Ess: tulluzinnu
+     tullut+N+Pl+Ins: tulluzin
+     tullut+N+Pl+Apr: tulluzielluo
+     tullut+N+Sg+Nom+Clt/gi: tullutgi
+     tullut+N+Sg+Gen+Clt/gi: tulluongi
+     tullut+N+Sg+Acc+Clt/gi: [tullutgi, tulluongi]
+     tullut+N+Sg+Par+Clt/gi: tulluttugi
+     tullut+N+Sg+Tra+Clt/gi: tulluoksegi
+     tullut+N+Sg+Abe+Clt/gi: [tulluottagi, tulluotagi, tulluottahgi]
+     tullut+N+Sg+Com+Clt/gi: tulluonkegi
+     tullut+N+Sg+Ine+Clt/gi: tulluosgi
+     tullut+N+Sg+Ela+Clt/gi: [tulluospäigi, tulluosgi]
+     tullut+N+Sg+Ill+Clt/gi: tulluohgi
+     tullut+N+Sg+Ade+Clt/gi: tulluolgi
+     tullut+N+Sg+Abl+Clt/gi: [tulluolpäigi, tulluolgi]
+     tullut+N+Sg+All+Clt/gi: tulluolegi
+     tullut+N+Sg+Ess+Clt/gi: tulluonnugi
+     tullut+N+Sg+Ter+Clt/gi: tulluossahgi
+     tullut+N+Sg+Apr+Clt/gi: tulluolluogi
+     tullut+N+Pl+Nom+Clt/gi: tulluotgi
+     tullut+N+Pl+Gen+Clt/gi: tulluziengi
+     tullut+N+Pl+Acc+Clt/gi: tulluotgi
+     tullut+N+Pl+Par+Clt/gi: tulluziigi
+     tullut+N+Pl+Tra+Clt/gi: tulluziksegi
+     tullut+N+Pl+Abe+Clt/gi: [tulluzittagi, tulluzitagi, tulluzittahgi]
+     tullut+N+Pl+Com+Clt/gi: tulluzienkegi
+     tullut+N+Pl+Ine+Clt/gi: tulluzisgi
+     tullut+N+Pl+Ela+Clt/gi: [tulluzispäigi, tulluzisgi]
+     tullut+N+Pl+Ill+Clt/gi: tulluzihgi
+     tullut+N+Pl+Ade+Clt/gi: tulluzilgi
+     tullut+N+Pl+Abl+Clt/gi: [tulluzilpäigi, tulluzilgi]
+     tullut+N+Pl+All+Clt/gi: tulluzilegi
+     tullut+N+Pl+Ess+Clt/gi: tulluzinnugi
+     tullut+N+Pl+Ins+Clt/gi: tulluzingi
+     tullut+N+Pl+Apr+Clt/gi: tulluzielluogi
