@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjective - tuores: # Adjective 'fresh / tuore' - full paradigm
+     tuores+N+Sg+Nom: tuores
+     tuores+N+Sg+Gen: tuorehen
+     tuores+N+Sg+Acc: [tuores, tuorehen]
+     tuores+N+Sg+Par: tuorestu
+     tuores+N+Sg+Tra: tuorehekse
+     tuores+N+Sg+Abe: [tuoreheta, tuorehetta, tuorehettah]
+     tuores+N+Sg+Com: tuorehenke
+     tuores+N+Sg+Ine: tuorehes
+     tuores+N+Sg+Ela: [tuorehespäi, tuorehes]
+     tuores+N+Sg+Ill: tuoreheh
+     tuores+N+Sg+Ade: tuorehel
+     tuores+N+Sg+Abl: [tuorehelpäi, tuorehel]
+     tuores+N+Sg+All: tuorehele
+     tuores+N+Sg+Ess: tuorehennu
+     tuores+N+Sg+Ter: tuorehessah
+     tuores+N+Sg+Apr: tuorehelluo
+     tuores+N+Pl+Nom: tuorehet
+     tuores+N+Pl+Gen: tuorehien
+     tuores+N+Pl+Acc: tuorehet
+     tuores+N+Pl+Par: tuorehii
+     tuores+N+Pl+Tra: tuorehikse
+     tuores+N+Pl+Abe: [tuorehitta, tuorehita, tuorehittah]
+     tuores+N+Pl+Com: tuorehienke
+     tuores+N+Pl+Ine: tuorehis
+     tuores+N+Pl+Ela: [tuorehispäi, tuorehis]
+     tuores+N+Pl+Ill: tuorehih
+     tuores+N+Pl+Ade: tuorehil
+     tuores+N+Pl+Abl: [tuorehilpäi, tuorehil]
+     tuores+N+Pl+All: tuorehile
+     tuores+N+Pl+Ess: tuorehinnu
+     tuores+N+Pl+Ins: tuorehin
+     tuores+N+Pl+Apr: tuorehielluo
+     tuores+N+Sg+Nom+Clt/gi: tuoresgi
+     tuores+N+Sg+Gen+Clt/gi: tuorehengi
+     tuores+N+Sg+Acc+Clt/gi: [tuorehgi, tuorehengi]
+     tuores+N+Sg+Par+Clt/gi: tuorestugi
+     tuores+N+Sg+Tra+Clt/gi: tuoreheksegi
+     tuores+N+Sg+Abe+Clt/gi: [tuorehettagi, tuorehetagi, tuorehettahgi]
+     tuores+N+Sg+Com+Clt/gi: tuorehenkegi
+     tuores+N+Sg+Ine+Clt/gi: tuorehesgi
+     tuores+N+Sg+Ela+Clt/gi: [tuorehespäigi, tuorehesgi]
+     tuores+N+Sg+Ill+Clt/gi: tuorehehgi
+     tuores+N+Sg+Ade+Clt/gi: tuorehelgi
+     tuores+N+Sg+Abl+Clt/gi: [tuorehelpäigi, tuorehelgi]
+     tuores+N+Sg+All+Clt/gi: tuorehelegi
+     tuores+N+Sg+Ess+Clt/gi: tuorehennugi
+     tuores+N+Sg+Ter+Clt/gi: tuorehessahgi
+     tuores+N+Sg+Apr+Clt/gi: tuorehelluogi
+     tuores+N+Pl+Nom+Clt/gi: tuorehetgi
+     tuores+N+Pl+Gen+Clt/gi: tuoresloingi
+     tuores+N+Pl+Acc+Clt/gi: tuorehetgi
+     tuores+N+Pl+Par+Clt/gi: tuorehiigi
+     tuores+N+Pl+Tra+Clt/gi: tuorehiksegi
+     tuores+N+Pl+Abe+Clt/gi: [tuorehittagi, tuorehitagi, tuorehittahgi]
+     tuores+N+Pl+Com+Clt/gi: tuorehienkegi
+     tuores+N+Pl+Ine+Clt/gi: tuorehisgi
+     tuores+N+Pl+Ela+Clt/gi: [tuorehispäigi, tuorehisgi]
+     tuores+N+Pl+Ill+Clt/gi: tuorehihgi
+     tuores+N+Pl+Ade+Clt/gi: tuorehilgi
+     tuores+N+Pl+Abl+Clt/gi: [tuorehilpäigi, tuorehilgi]
+     tuores+N+Pl+All+Clt/gi: tuorehilegi
+     tuores+N+Pl+Ess+Clt/gi: tuorehinnugi
+     tuores+N+Pl+Ins+Clt/gi: tuorehingi
+     tuores+N+Pl+Apr+Clt/gi: tuorehielluogi
