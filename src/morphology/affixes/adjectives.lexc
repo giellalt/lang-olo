@@ -10,6 +10,9 @@
 LEXICON A_
 +TYÄ+A: # ;
 
+LEXICON A_TULLUT !!= @CODE@ IS THIS LIVVI?
++TYÄ+A: # ;
+
 LEXICON A_EX !!= @CODE@ needs to be changed to @exclude=fst
 +TYÄ+A: # ;
 
@@ -57,6 +60,9 @@ LEXICON A_KOIVU-PL
 LEXICON A_RUNO
 +A:	NMN_RUNO ;
 
+LEXICON A_PAPPI !!= @CODE@ pappi:pappi
++A: NMN_PAPPI ;
+
 LEXICON A_ARTELI !!= @CODE@ 
 +A:     NMN_ARTELI ;
 
@@ -88,8 +94,8 @@ LEXICON A_KOIRU
 LEXICON A_VALGEI !!= @CODE@ valgei:valge
 +A: NMN_VALGEI        ;
 
-LEXICON A_PEITOŠNOI !!= @CODE@ peitošnoi:peitošnoi
-+A: NMN_PEITOŠNOI        ;
+LEXICON A_RAHMANNOI !!= @CODE@ rahmannoi:rahmannoi
++A: NMN_RAHMANNOI        ;
 
 
 LEXICON A_HARDIE
@@ -103,6 +109,9 @@ LEXICON A_PEZII
 
 LEXICON A_KESTÄY !!= @CODE@ kestäy:kestä
 +A: NMN_KESTÄY ;
+
+!! !TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
+
 
 !! !THREE-SYLLABLE VOWEL-FINAL STEMS
 LEXICON A_PAREMBI !!= @CODE@ parembi:paremb
@@ -148,12 +157,10 @@ LEXICON A_PESSYH !!= @CODE@ pessyh:pessy
 +A: NMN_PESSYH ;
 
 LEXICON A_ARMAS !!= @CODE@ armas:arma
-    A_ARMAS-SG        ;
-    A_ARMAS-PL        ;
-LEXICON A_ARMAS-SG
-+A: NMN_ARMAS-SG        ;
-LEXICON A_ARMAS-PL
-+A: NMN_ARMAS-PL        ;
++A: NMN_ARMAS        ;
+
+LEXICON A_TUORES !!= @CODE@ tuores:tuore
++A: NMN_TUORES ;
 
 LEXICON A_SUURIM !!= @CODE@ suurim:suurim
 +A:	NMN_SUURIM ;
@@ -163,6 +170,9 @@ LEXICON A_KIELI !!= @CODE@ kieli:kiel
 
 LEXICON A_VUOZI
 +A:	NMN_VUOZI ;
+
+LEXICON A_VEZI !!= @CODE@ vezi:vet
++A:     NMN_VEZI ;
 
 LEXICON A_NIMI !!= @CODE@ nimi:nim
 +A:        NMN_NIMI  ;
