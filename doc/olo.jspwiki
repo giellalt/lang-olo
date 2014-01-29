@@ -242,6 +242,10 @@ Livvi nouns inflect in cases.
  LEXICON N_KARJAL-SG  karjal:karjal
  LEXICON N_KARJAL-PL  karjal:karjal
 
+ LEXICON N_MADAL  madal:madal
+ LEXICON N_MADAL-SG  madal:madal
+ LEXICON N_MADAL-PL  madal:madal
+
  LEXICON N_PIIRAI  piirai:piira CHECK THIS
 
 
@@ -261,11 +265,14 @@ Livvi nouns inflect in cases.
 
 
 
+ LEXICON N_TAIGIN  taigin:taigin
+
+
+
  LEXICON NMN_VANUIN  vanuin:vanui
 
 
- LEXICON N_TAIGIN  taigin:taigin
-
+ LEXICON NMN_VAŽEN  važen:važe
 
 
  LEXICON NMN_LÄMMIN  lämmin:lämbi
@@ -482,6 +489,11 @@ Livvi nouns inflect in cases.
 
  LEXICON NMN_KARJAL-SG  karjal:karjal
  LEXICON NMN_KARJAL-PL  karjal:karjal
+
+ LEXICON NMN_MADAL  madal:madal
+
+ LEXICON NMN_MADAL-SG  madal:madal
+ LEXICON NMN_MADAL-PL  madal:madal
 
 ! Nominative singular in "m"
 

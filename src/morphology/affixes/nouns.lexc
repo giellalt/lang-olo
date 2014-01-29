@@ -267,6 +267,14 @@ LEXICON N_KARJAL-SG !!= @CODE@ karjal:karjal
 LEXICON N_KARJAL-PL !!= @CODE@ karjal:karjal
 +N:	NMN_KARJAL-PL ;
 
+LEXICON N_MADAL !!= @CODE@ madal:madal
+	N_MADAL-SG ;
+	N_MADAL-PL ;
+LEXICON N_MADAL-SG !!= @CODE@ madal:madal
++N:	NMN_MADAL-SG ;
+LEXICON N_MADAL-PL !!= @CODE@ madal:madal
++N:	NMN_MADAL-PL ;
+
 LEXICON N_PIIRAI !!= @CODE@ piirai:piira CHECK THIS
         N_PIIRAI-SG ;
         N_PIIRAI-PL ;
@@ -315,6 +323,16 @@ LEXICON N_VANUIN-SG
 LEXICON N_VANUIN-PL
 +N: NMN_VANUIN-PL ;
 
+LEXICON N_TAIGIN !!= @CODE@ taigin:taigin
+ N_TAIGIN-SG ;
+ N_TAIGIN-PL ;
+
+LEXICON N_TAIGIN-SG
++N: NMN_TAIGIN-SG ;
+
+LEXICON N_TAIGIN-PL
++N: NMN_TAIGIN-PL ;
+
 LEXICON NMN_VANUIN !!= @CODE@ vanuin:vanui
  NMN_VANUIN-SG ;
  NMN_VANUIN-PL ;
@@ -331,15 +349,21 @@ LEXICON NMN_VANUIN-PL
 :mi PLINSSUF ;
 +Pl:mi Noun-NB-01 ;
 
-LEXICON N_TAIGIN !!= @CODE@ taigin:taigin
- N_TAIGIN-SG ;
- N_TAIGIN-PL ;
+LEXICON NMN_VAŽEN !!= @CODE@ važen:važe
+ NMN_VAŽEN-SG ;
+ NMN_VAŽEN-PL ;
 
-LEXICON N_TAIGIN-SG
-+N: NMN_TAIGIN-SG ;
-
-LEXICON N_TAIGIN-PL
-+N: NMN_TAIGIN-PL ;
+LEXICON NMN_VAŽEN-SG	
+:n SGNOMSUF ;
+:me SGGENSUF ;
+:n SGPARSUF_A2 ;
++Sg:me Noun-NB-01 ;
+LEXICON NMN_VAŽEN-PL	
+:me PLNOMSUF ;
+:mie PLGENSUF_N ;
+:mi PLPARSUF_i ;
+:mi PLINSSUF ;
++Pl:mi Noun-NB-01 ;
 
 LEXICON NMN_LÄMMIN !!= @CODE@ lämmin:lämbi
  NMN_LÄMMIN-SG ;
@@ -1111,6 +1135,22 @@ LEXICON NMN_KARJAL-PL !!= @CODE@ karjal:karjal
 :%>%{oö%}i PLPARSUF_Zero ;
 :%{oö%}i PLINSSUF ;
 +Pl:%{oö%}i Noun-NB-01 ;
+
+LEXICON NMN_MADAL !!= @CODE@ madal:madal
+	NMN_MADAL-SG ;
+	NMN_MADAL-PL ;
+
+LEXICON NMN_MADAL-SG !!= @CODE@ madal:madal
+ SGNOMSUF ;
+:%>%{aä%} SGGENSUF ;
+:%>%{ui%} SGPARSUF_A2 ;
++Sg:%>%{aä%} Noun-NB-01 ;
+LEXICON NMN_MADAL-PL !!= @CODE@ madal:madal
+:%>%{aä%} PLNOMSUF ;
+:%>i PLGENSUF_N ;
+:%>ii PLPARSUF_Zero ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
 
 !! ! Nominative singular in "m"
 LEXICON NMN_SUURIM
