@@ -10,8 +10,8 @@
 LEXICON A_
 +TYÄ+A: # ;
 
-LEXICON A_TULLUT !!= @CODE@ IS THIS LIVVI?
-+TYÄ+A: # ;
+LEXICON A_TULLUT !!= @CODE@ IS THIS LIVVI? tullut:tullu
++A: NMN_TULLUT ; 
 
 LEXICON A_EX !!= @CODE@ needs to be changed to @exclude=fst
 +TYÄ+A: # ;

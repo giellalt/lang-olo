@@ -367,8 +367,8 @@ i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
 "g:j"
 !! __@RULENAME@__
 g:j <=> i _ [ a: ] ( %> i ) %^WGStem:0 ;
-!€ poiga%^WGStem>n
-!€ poija00n
+!€# poiga%^WGStem>n
+!€0 poija00n
 
 ! sulgu:sullan
 "g:l"
@@ -383,8 +383,8 @@ d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ; !!= @CODE@
           u a           _   o       %^WGStem:0 ; !!= @CODE@
           a             _   u       %^WGStem:0 ; !!= @CODE@
         [ u o: | u: ]   _   e       %^WGStem:0 ; !!= @CODE@ 
-        !€vuoze%^WGStem>n
-        !€vuvve00n
+        !€# vuoze%^WGStem>n
+        !€0 vuvve00n
 !! }}}
 
 ! luadie:luajitah
