@@ -1271,17 +1271,17 @@ LEXICON NMN_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 	NMN_PUHTAHUS-PL ;
 
 LEXICON NMN_PUHTAHUS-SG
-+N:s SGNOMSUF ;
-+N:%{oö%} SGGENSUF ;
-+N:t SGPARSUF_dU ;
-+N+Sg:%{oö%} Noun-NB-01 ;
+:s SGNOMSUF ;
+:%{oö%} SGGENSUF ;
+:t SGPARSUF_dU ;
++Sg:%{oö%} Noun-NB-01 ;
 
 LEXICON NMN_PUHTAHUS-PL
-+N:%{oö%} PLNOMSUF ;
-+N:z%>ie PLGENSUF_N ; ! the plural comitative is declined here
-+N:z%>i PLPARSUF_i ;
-+N:z%>i PLINSSUF ;
-+N+Pl:zi Noun-NB-01 ;
+:%{oö%} PLNOMSUF ;
+:z%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:z%>i PLPARSUF_i ;
+:z%>i PLINSSUF ;
++Pl:zi Noun-NB-01 ;
 
 
 LEXICON NMN_ALUS !!= @CODE@ alus:aluks
@@ -1401,24 +1401,40 @@ LEXICON NMN_KUURNIS-PL
 !+N:%>i PLINSSUF ;
 !+N+Pl:i Noun-NB-01 ;
 
-LEXICON NMN_TULLUT
- NMN_OLUT ;
-
 LEXICON NMN_OLUT !!= * @CODE@ olut:olu
  NMN_OLUT-SG ;
  NMN_OLUT-PL ;
 
 LEXICON NMN_OLUT-SG
-+N:t SGNOMSUF ;
-+N:e SGGENSUF ;
-+N:t SGPARSUF_dU ;
-+N+Sg:e Noun-NB-01 ;
+:t SGNOMSUF ;
+:e SGGENSUF ;
+:t SGPARSUF_dU ;
++Sg:e Noun-NB-01 ;
 
 LEXICON NMN_OLUT-PL
-+N:je PLGENSUF_N ;
-+N:i PLPARSUF_dU ;
-+N:i PLINSSUF ;
-+N+Pl:i Noun-NB-01 ;
+:je PLGENSUF_N ;
+:i PLPARSUF_dU ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
+
+LEXICON NMN_TULLUT !!= * @CODE@ tullut:tullu
+ NMN_TULLUT-SG ;
+ NMN_TULLUT-PL ;
+
+LEXICON NMN_TULLUT-SG
+:t SGNOMSUF ;
+:%{oö%} SGGENSUF ;
+:t SGPARSUF_dU ;
++Sg:%{oö%} Noun-NB-01 ;
+
+LEXICON NMN_TULLUT-PL
+:%{oö%} PLNOMSUF ;
+:z%>ie PLGENSUF_N ;
+:z%>i PLPARSUF_i ;
+:z%>i PLINSSUF ;
++Pl:zi Noun-NB-01 ;
+
+
 
 LEXICON NMN_TUHAT !!= * @CODE@ tuhat:tuha
  NMN_TUHAT-SG ;
@@ -1673,6 +1689,7 @@ LEXICON SGGENSUF
 +Sg+Gen:%^WGStem%>n K ;
 +Sg+Acc:%^WGStem%>n K ;
 +Sg+Com:%^WGStem%>nke K ;
++Sg+Apr:%^WGStem%>ll%{uy%}%{oö%} K ;
 
 LEXICON SGNOMSUF
 +Sg+Nom: K ;
@@ -1688,10 +1705,12 @@ LEXICON SGPARSUF_A2
 LEXICON PLGENSUF_EN
 +Pl+Gen:%>en K ;
 +Pl+Com:%>enke K ;
++Pl+Apr:%^WGStem%>ell%{uy%}%{oö%} K ;
 
 LEXICON PLGENSUF_N
 +Pl+Gen:%>n K ;
 +Pl+Com:%>nke K ;
++Pl+Apr:%^WGStem%>ll%{uy%}%{oö%} K ;
 
 LEXICON PLINSSUF
 +Pl+Ins:%>n K ;
@@ -1731,7 +1750,6 @@ LEXICON Noun-NB-01
 +Ill:%>h K ;
 +Tra:%^WGStem%>kse K ;
 +Prl:%^WGStem%>či K ;
-+Apr:%^WGStem%>ll%{uy%}%{oö%} K ;
 +Ter:%^WGStem%>ss%{aä%}h K ;
 
 
