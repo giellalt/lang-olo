@@ -257,9 +257,9 @@ Rules
 
 "%{ui%}:u"
 !! __@RULENAME@__
-!!{{{
+!! {{{
 %{ui%}:u <=> BTCons ( %> ) _ ( %> ) %{aä%}: ; !! * @CODE@ ! imperative forms
-!!}}}
+!! }}}
 
 "A2:a"
 !! __@RULENAME@__
@@ -308,11 +308,11 @@ o:u <=> Cns _ %> [ %{aä%}:o | %{aäInf%}: ] ;
 
 "a:0 in suaja:sai"
 !! __@RULENAME@__
-!!{{{
+!! {{{
 a:0 <=>
  a _ %> i ; !!= * @CODE@ Vowel shortening before subsequent "i"
 [ # Cns:*  [[ u | o ] (i)| u o ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ %> i (%^WGStem:) [ # | (e) %> ] ;
-!!}}}
+!! }}}
 
 !! !!iToj between vowels
 "i:j"
@@ -321,10 +321,10 @@ a:0 <=>
 
 "j:i"
 !! __@RULENAME@__ 
-!!{{{
+!! {{{
 !! * @CODE@ +ActPrsPrc
  j:i <=> :Vow %> _ [ # | %> [ g i | b o | h %{aä%}: i | g o ] ] ;
-!!}}}
+!! }}}
 
 
 
