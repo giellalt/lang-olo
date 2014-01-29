@@ -44,6 +44,9 @@ LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
 LEXICON A_OZA !!= @CODE@ oza:oza
 +A: NMN_OZA ;
 
+LEXICON A_SÄYNÄ !!= @CODE@ säynä:säynä
++A: NMN_SÄYNÄ ;
+
 LEXICON A_KALA !!= @CODE@ kala:kala
 +A: NMN_KALA ;
 
@@ -137,12 +140,10 @@ LEXICON A_TOINE !!= @CODE@ toine:to
 
 !! !THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
 LEXICON A_KARJAL !!= @CODE@ karjal:karjal
-        A_KARJAL-SG ;
-        A_KARJAL-PL ;
-LEXICON A_KARJAL-SG !!= @CODE@ karjal:karjal
-+A:     NMN_KARJAL-SG ;
-LEXICON A_KARJAL-PL !!= @CODE@ karjal:karjal
-+A:     NMN_KARJAL-PL ;
++A:     NMN_KARJAL ;
+
+LEXICON A_MADAL !!= @CODE@ madal:madal
++A:	NMN_MADAL ;
 
 LEXICON A_PIIRAI !!= @CODE@ piirai:piira 
 +A:	NMN_PIIRAI   ;
@@ -168,7 +169,7 @@ LEXICON A_SUURIM !!= @CODE@ suurim:suurim
 LEXICON A_KIELI !!= @CODE@ kieli:kiel
 +A:	NMN_KIELI	;
 
-LEXICON A_VUOZI
+LEXICON A_VUOZI !!= @CODE@ vuozi:vuot
 +A:	NMN_VUOZI ;
 
 LEXICON A_VEZI !!= @CODE@ vezi:vet
@@ -182,6 +183,10 @@ LEXICON A_NIMI !!= @CODE@ nimi:nim
 LEXICON A_VANUIN !!= @CODE@ vanuin:vanui
 +A: NMN_VANUIN	 ;
 
+LEXICON A_VAŽEN !!= @CODE@ važen:važe
++A: NMN_VAŽEN   ;
+
+
 LEXICON A_LÄMMIN !!= @CODE@ lämmin:lämbi
 +A:	NMN_LÄMMIN   ;
 
@@ -194,6 +199,8 @@ LEXICON A_SALBOIN !!= @CODE@ salboin:salboi
 LEXICON A_ENIN !!= @CODE@ enin:eni
 +A: NMN_ENIN-SG ;
 +A: NMN_ENIN-PL ;
+
+
 
 LEXICON Adj-NB-i
 ! These cases are symmetrically marked for number
