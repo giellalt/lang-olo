@@ -1,0 +1,35 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+
+# Comments after each adjective:
+# ok = checked against Marit/Maja
+# ? = not checked
+# c = Comp or Superl attested in corpus
+
+Tests:
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Noun - vuozi: # nouns '(eng) year / (fin) vuosi' 
+    vuozi+N+Sg+Nom: vuozi
+    vuozi+N+Sg+Gen: vuvven
+#    vuozi+N+Sg+Ill: vuodeh
+    vuozi+N+Sg+Ine: vuvves
+    vuozi+N+Sg+Par: vuottu
+#    vuozi+N+Sg+Q: vuodessah
+
+    vuozi+N+Pl+Nom: vuvvet
+
+
+
+
