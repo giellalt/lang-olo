@@ -171,9 +171,9 @@ aijei:aijei ADV_  "(yougi:) aikaisin, varhain" ;
 aijei% huandeksel:aijei% huandeksel ADV_  "(yougi:) varhain aamulla" ;
 aijei% huondeksel:aijei% huondeksel ADV_  "varhain aamulla, aikaisin aamulla, varhain aamusta, aamusta varhain" ;
 aijeihkoh:aijeihkoh ADV_  "" ;
-aijem:aijem ADV_  "" ;
+aijem:aijem ADV_  "aiempi" ;
 aijembi:aijembi ADV_  "aikaisempi, aiempi" ;
-aijessah:aijessah ADV_  "" ;
+aijessah:aijessah ADV_  "(yougi:) hyvissä ajoin" ;
 aijoi:aijoi ADV_  "aikaisin, varhain" ;
 aijoinaloh:aijoinaloh ADV_  "ajastaan, ajanoloon, aikaa myöten" ;
 aijoitellen:aijoitellen ADV_  "ajoittain" ;
@@ -228,8 +228,8 @@ dokkosti:dokkosti ADV_  "(yougi:) kätevästi" ;
 dostalilleh:dostalilleh ADV_  "lopullisesti" ;
 dostalin:dostalin ADV_  "" ;
 duumis:duumis ADV_  "ajatuksissa, ajatuksissaan, ajatuksissani, ajatuksissasi" ;
-ebävoivasti:ebävoivasti ADV_  "" ;
-edeh:edeh ADV_  "" ;
+ebävoivasti:ebävoivasti ADV_  "vaivaisesti" ;
+edeh:edeh ADV_  "eteen" ;
 edehpäi:edehpäi ADV_  "eteenpäin" ;
 edähänä:edähänä ADV_  "kaukana, etäällä" ;
 edukädeh:edukädeh ADV_  "etukäteen" ;
@@ -295,7 +295,7 @@ ezmäi:ezmäi ADV_  "ensin, ensimäiseksi" ;
 ezmäižikse:ezmäižikse ADV_  "ensimäiseksi" ;
 ezmäžikse:ezmäžikse ADV_  "ensimäiseksi" ;
 goras:goras ADV_  "vastentahtoisesti (ääntyy: gorás)" ;
-gu:gu ADV_  "" ;
+gu:gu ADV_  "miloin - milloin" ;
 gurvalleh:gurvalleh ADV_  "kumarassa, köyryllään, kyyryllään; kohollaan" ;
 hairahuksis:hairahuksis ADV_  "erehdyksessä" ;
 hairovuksis:hairovuksis ADV_  "erehdyksessä" ;
@@ -303,13 +303,13 @@ hajukkahasti:hajukkahasti ADV_  "älykkäästi, järkevästi, visaasti" ;
 hajul:hajul ADV_  "(yougi:) järkevästi" ;
 
 !! Conjunctors incomplete
-kui:kui CS_  "" ;
-libo:libo CC_  "" ;
-muga% že:muga% že CONJ_  "" ;
-sendäh:sendäh CONJ_  "" ;
-vie:vie CONJ_  "" ;
-što:što CS_  "" ;
-štobi:štobi CS_  "" ;
+kui:kui CS_  "kuinka, miten, millä tavoin; kuin, niin kuin; koska, siksi, että; jos; jospa, kunpa; jotta; kun, kerran; -pa, .pä" ;
+libo:libo CC_  "vai, vai; eli" ;
+muga% že:muga% že CONJ_  "niin, näin, noin; -kin, -kaan, -kään" ;
+sendäh:sendäh CONJ_  "siksi, sen tähden; sentään, kuitenkin, kuitenkaan, siitä huolimatta" ;
+vie:vie CONJ_  " lisäksi, vielä; jopa, suorastaan; yhä edelleen, vielä" ;
+što:što CS_  "että, jotta" ;
+štobi:štobi CS_  "jotta, että" ;
 
 
 !! Proper given names female
@@ -333,14 +333,14 @@ mahto:mahto N_RUNO "" ;
 
 tartuokseh:tartu VR_  "tarttua, saada t. tavata kiinni" ;
 vazitakseh:vazita VR_  "olla varovainen, varoa, karttaa" ;
-ällistyttiä:ällistyttä V_OTTUA  "" ;
+ällistyttiä:ällistyttä V_OTTUA  "ällistyttää" ;
 čakkaillakseh:čakkail VR_  "nuhdella, torua, moittia, soimata, haukkua" ;
-čongurdua:čongurda V_KANDUA  "" ;
-čuraittua:čuraitta V_OTTUA  "" ;
-šiivileija:šiivilei V_SUVAIJA  "" ;
+čongurdua:čongurda V_KANDUA  "tonkia, kaivertaa, kovertaa" ;
+čuraittua:čuraitta V_OTTUA  "lasketella, liukua, ajaa" ;
+šiivilöijä:šiivilei V_SUVAIJA  "siivilöidä" ;
 šuoriekseh:šuore VR_  "lähteä matkaan, lähteä jnnek, aikoa jnnek, valmistautua lähtemään, varustautua lähtemään" ;
 šuorita:šuori V_  "valmistautua, varustautua, suoriutua; tehdä lähtöä; lähteä; pukeutua, sonnustautua" ;
-žiiloittua:žiiloitta V_KANDUA  "" ;
+žiiloittua:žiiloitta V_KANDUA  "(yougi:) polttaa nokkosella; (yougi:) piestä nokkosella" ;
 žualuijakseh:žualui VR_  "valittaa jllek" ;
 
 
@@ -372,109 +372,109 @@ pahua:pahua A_KALA "" ;
 uuzi:uu A_VUOZI "uusi" ;
 nähte:nähte V_NÄHTÄ "" ;
 !min:min PRON_MI "" ;
-tulduu:tulduu V_TULLA "" ;
-!tiijä:tiijä V_TIEDIÄ "" ;
-ruatah:ruatah V_KANDUA "" ;
-näit:näit V_NÄHTÄ "" ;
-kučui:kučui V_VALUO "" ;
-iččeh:iččeh Q_X "" ;
-ollou:ollou Q_X "" ;
-väil:väil N_NIMI "" ;
-rungu:rungu Q_X "" ;
-olles:olles Q_X "" ;
-niidy:niidy Q_X "" ;
-lugie:lugie Q_X "" ;
-tuodih:tuodih Q_X "" ;
-vuvves:vuvves Q_X "" ;
-käzih:käzih Q_X "" ;
-olgua:olgua Q_X "" ;
-Tuatan:Tuatan Q_X "" ;
-vuvvel:vuvvel Q_X "" ;
-puutui:puutui Q_X "" ;
-lähtie:lähtie Q_X "" ;
+!tulduu:tulduu V_TULLA "tultua" ; pass. II partis.
+!tiijä:tiijä V_TIEDIÄ "" ; akt. imperat. sg 2.pers.
+!ruatah:ruatah V_KANDUA "" ; pass.
+!näit:näit V_NÄHTÄ "" ; imperf.
+!kučui:kučui V_VALUO "" ; imperf.
+!iččeh:iččeh Q_X "" ; illat.
+!ollou:ollou Q_X "" ; pot
+!väil:väil N_NIMI "väellä, voimalla" ; adessiivi
+!rungu:rungu Q_PÄIVY "keho, vartalo" ; nom
+!olles:olles Q_X "" ; II inf iness
+!niidy:niidy Q_X "" ; partitiivi
+!lugie:lugie Q_X "" ; I infinitiivi
+!tuodih:tuodih Q_X "" ; pass imperf
+!vuvves:vuvves Q_X "" ; sg iness-elat
+!käzih:käzih Q_X "" ; mon illat
+!olgua:olgua Q_X "" ; akt mon II imperat
+!Tuatan:Tuatan Q_X "" ; yks gen
+!vuvvel:vuvvel Q_X "" ; adess-ablat.
+!puutui:puutui Q_X "" ; imperf
+!lähtie:lähtie Q_X "" ; I inf
 Kuibo:Kuibo Q_X "" ;
-velli:velli Q_X "" ;
-jälgeh:jälgeh Q_X "" ;
-leibiä:leibiä Q_X "" ;
-rodei:rodei Q_X "" ;
+!velli:velli Q_X "" ; nom
+!jälgeh:jälgeh Q_X "" ; illat
+!leibiä:leibiä Q_X "" ; partit
+rodei:rodei Q_X "" ; 
 rungan:rungan Q_X "" ;
-käis:käis Q_X "" ;
-Zakon:Zakon Q_X "" ;
-Älä:Älä Q_X "" ;
-vetty:vetty Q_X "" ;
-tietäh:tietäh Q_X "" ;
-ižändy:ižändy Q_X "" ;
-ijän:ijän Q_X "" ;
-tiijän:tiijän Q_X "" ;
-älä:älä Q_X "" ;
-suaha:suaha Q_X "" ;
-pieni:pieni Q_X "" ;
-ičes:ičes Q_X "" ;
-buite:buite Q_X "" ;
-matkah:matkah Q_X "" ;
-kedä:kedä Q_X "" ;
-pihale:pihale Q_X "" ;
-nähnyh:nähnyh Q_X "" ;
-nouzou:nouzou Q_X "" ;
-käzis:käzis Q_X "" ;
-Moisei:Moisei Q_X "" ;
+!käis:käis Q_X "" ; iness
+!Zakon:Zakon Q_X "" ; 
+!Älä:Älä Q_X "" ; yks.2.pers.imperat.
+!vetty:vetty Q_X "" ; partit
+!tietäh:tietäh Q_X "" ; pass.prees.
+!ižändy:ižändy Q_X "" ; partit
+!ijän:ijän Q_X "" ; gen
+!tiijän:tiijän Q_X "" ; akt.prees.yks. 1. pers
+!älä:älä Q_X "" ; imperat. 2.
+!suaha:suaha Q_X "" ; I inf.
+!pieni:pieni Q_X "" ; nom
+!ičes:ičes Q_X "" ; iness
+!buite:buite Q_X "" ; ADV
+!matkah:matkah Q_X "" ; illat. 
+!kedä:kedä Q_X "" ; partit
+!pihale:pihale Q_X "" ; allat.
+!nähnyh:nähnyh Q_X "" ; akt.II partis.
+!nouzou:nouzou Q_X "" ; prees. yks.3. p.
+!käzis:käzis Q_X "" ; mon illat-elat.
+!Moisei:Moisei Q_X "" ; erisnimi nom
 toi:toi Q_X "" ;
-Nämä:Nämä Q_X "" ;
+!Nämä:Nämä Q_X "" ; PRON nom, myös: nämät, nämmä
 Midäbo:Midäbo Q_X "" ;
-mih:mih Q_X "" ;
-syvvä:syvvä Q_X "" ;
-käit:käit Q_X "" ;
-nämis:nämis Q_X "" ;
-muaman:muaman Q_X "" ;
+!mih:mih Q_X "" ; illat
+!syvvä:syvvä Q_X "" ; I inf.
+!käit:käit Q_X "" ; mon.nom
+!nämis:nämis Q_X "" ; mon.iness.
+!muaman:muaman Q_X "" ; gen.
 kuibo:kuibo Q_X "" ;
 Messii:Messii Q_X "" ;
-nämii:nämii Q_X "" ;
+!nämii:nämii Q_X "" ; mon.partit.
 nikedä:nikedä Q_X "" ;
-käzil:käzil Q_X "" ;
-vuozi:vuozi Q_X "" ;
-mendyy:mendyy Q_X "" ;
-kaikel:kaikel Q_X "" ;
-tuatan:tuatan Q_X "" ;
+!käzil:käzil Q_X "" ; mon.adess.
+!vuozi:vuozi Q_X "" ; nom
+!mendyy:mendyy Q_X "" ; pass.II partis.partit
+!kaikel:kaikel Q_X "" ; adess-ablat.
+tuatan:tuatan Q_X "" ; y.gen
 oldas:oldas Q_X "" ;
-luadi:luadi Q_X "" ;
-käil:käil Q_X "" ;
-pahas:pahas Q_X "" ;
-kačoi:kačoi Q_X "" ;
-gorʼua:gorʼua Q_X "" ;
-elaigu:elaigu Q_X "" ;
-rungas:rungas Q_X "" ;
-heityi:heityi Q_X "" ;
-väit:väit Q_X "" ;
-polven:polven Q_X "" ;
-näittö:näittö Q_X "" ;
-näimmö:näimmö Q_X "" ;
-nähtyy:nähtyy Q_X "" ;
-minägi:minägi Q_X "" ;
-tuaste:tuaste Q_X "" ;
-nostih:nostih Q_X "" ;
-mondu:mondu Q_X "" ;
-kelle:kelle Q_X "" ;
-jygei:jygei Q_X "" ;
-ičegi:ičegi Q_X "" ;
-Juudu:Juudu Q_X "" ;
-Irodu:Irodu Q_X "" ;
+!luadi:luadi Q_X "" ; imperf
+!käil:käil Q_X "" ; allat-ablat.
+!pahas:pahas Q_X "" ; iness-ealt.
+!kačoi:kačoi Q_X "" ; imperf
+!gorʼua:gorʼua Q_X "" ; y. partit.
+!elaigu:elaigu Q_X "" ; nom
+!rungas:rungas Q_X "" ; iness
+!heityi:heityi Q_X "" ; imperf
+!väit:väit Q_X "" ; mon.nom., mon.akk.
+!polven:polven Q_X "" ; gen
+!näittö:näittö Q_X "" ; akt. ind.imperf. mon. II pers
+!näimmö:näimmö Q_X "" ; akt. ind. imperf.mon. II pers.
+!nähtyy:nähtyy Q_X "" ; pass. ind. II partis. partit
+!minägi:minägi Q_X "" ; PRON nom + gi
+!tuaste:tuaste Q_X "" ; ADV
+!nostih:nostih Q_X "" ; akt./pass. ind.imperf.
+!mondu:mondu Q_X "" ; partit
+!kelle:kelle Q_X "" ; allat.
+!jygei:jygei Q_X "" ; nom
+!ičegi:ičegi Q_X "" ; nom + gi
+!Juudu:Juudu Q_X "" ; PROP nom
+!Irodu:Irodu Q_X "" ; PRPO nom
 rodies:rodies Q_X "" ;
-pahat:pahat Q_X "" ;
-nägöy:nägöy Q_X "" ;
-käskyn:käskyn Q_X "" ;
-Uuzi:Uuzi Q_X "" ;
-Simon:Simon Q_X "" ;
-tyrmäh:tyrmäh Q_X "" ;
-tuou:tuou Q_X "" ;
-tiijät:tiijät Q_X "" ;
-tiezi:tiezi Q_X "" ;
-Olgua:Olgua Q_X "" ;
-työtty:työtty Q_X "" ;
-lähtöy:lähtöy Q_X "" ;
-igiä:igiä Q_X "" ;
-uuzii:uuzii Q_X "" ;
-sudre:sudre Q_X "" ;
-käsköy:käsköy Q_X "" ;
+!pahat:pahat Q_X "" ; mon nom
+!nägöy:nägöy Q_X "" ; akt prees y 3
+!käskyn:käskyn Q_X "" ; gen
+!Uuzi:Uuzi Q_X "" ; nom, PROP
+Simon:Simon Q_X "" ; 
+!tyrmäh:tyrmäh Q_X "" ; illat
+!tuou:tuou Q_X "" ; y.3.
+!tiijät:tiijät Q_X "" ; akt.ind.prees.y.2.p.
+!tiezi:tiezi Q_X "" ; imperf y.3.
+!Olgua:Olgua Q_X "" ; PROP y. partit-akk.
+!työtty:työtty Q_X "" ; pass ind imperf
+!lähtöy:lähtöy Q_X "" ; prees. y.3.
+!igiä:igiä Q_X "" ; y.partit
+!uuzii:uuzii Q_X "" ; mon. partit.
+!sudre:sudre Q_X "" ; ADV
+!käsköy:käsköy Q_X "" ; prees.y.3.
 jätti:jätti Q_X "" ;
 enimät:enimät Q_X "" ;
 Tverin:Tverin Q_X "" ;
