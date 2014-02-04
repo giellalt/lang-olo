@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xml:lang="olo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="olo">
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
       <l pos="V">abeija</l>
@@ -425,7 +425,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">ajella ajokkaalla</t><t pos="V">ajella ajoneuvolla</t>
+        <t pos="V">ajella ajokkaalla</t>
+
+        <t pos="V">ajella ajoneuvolla</t>
       </tg>
     </mg>
 
@@ -22114,7 +22116,9 @@
 
       <stg>
         <st Contlex="V_KUULLA">kuunel</st>
+
         <st Contlex="V_KUULLA">kuunnel</st>
+
         <st Contlex="V_TULLA">kuunnel</st>
       </stg>
     </lg>
@@ -33050,6 +33054,7 @@
 
       <stg>
         <st Contlex="V_KUULLA">muanittel</st>
+
         <st Contlex="V_TULLA">muanittel</st>
       </stg>
     </lg>
@@ -40156,24 +40161,6 @@
 
       <stg>
         <st Contlex="V_OLLA">o</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">olla</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">olla</l>
-
-      <stg>
-        <st Contlex="V_OLLA">ole</st>
       </stg>
     </lg>
 
@@ -54323,6 +54310,7 @@
 
       <tg xml:lang="fin">
         <tf pos="V">tehdä työtä</tf>
+
         <t pos="V">työskennellä</t>
       </tg>
     </mg>
