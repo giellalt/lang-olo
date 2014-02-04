@@ -415,10 +415,10 @@ o:v <=> u _ t: e %^WGStem:0 ;
 !! __@RULENAME@__  
 d:z <=> [Vow | r | n ] _ %^D2Z:0 %> i ;
 
-! vuozi:vuot+d%{uy%}, armas:armas+d%{uy%}
+! vuozi:vuod+d%{uy%}, armas:armas+d%{uy%}
 "d:t in partitive"
 !! __@RULENAME@__  
-d:t <=> [ h | :t | s ] ( %^KS2S:0 ) %> _ ;
+d:t <=> [ d: | h | :t | s ] ( %^KS2S:0 ) %> _ ;
          [Vow | r | n ] _ %> d: %{uy%}: ;
 "s:z"
 !! __@RULENAME@__
