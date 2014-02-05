@@ -141,6 +141,16 @@ LEXICON N_SIVE-SG
 LEXICON N_SIVE-PL
 +N:	NMN_SIVE-PL	;
 
+LEXICON N_HARDIE !!= @CODE@ hardie:hardie
+        N_HARDIE-SG ;
+        N_HARDIE-PL ;
+
+LEXICON N_HARDIE-SG
++N: NMN_HARDIE-SG        ;
+
+LEXICON N_HARDIE-PL
++N: NMN_HARDIE-PL        ;
+
 LEXICON N_REBOI !!= @CODE@ reboi:reboi
         N_REBOI-SG ;
         N_REBOI-PL ;
@@ -655,16 +665,16 @@ LEXICON NMN_VEZI !!= @CODE@ vezi:vet
  NMN_VEZI-PL ;
 
 LEXICON NMN_VEZI-SG
-+N:%^T2Z%>i SGNOMSUF ;
++N:%^D2Z%>i SGNOMSUF ;
 +N:e SGGENSUF ;
 +N: SGPARSUF_dU ;
 +N+Sg:e Noun-NB-01 ;
 
 LEXICON NMN_VEZI-PL
-+N:%^T2Z%>ie PLGENSUF_N ; ! the plural comitative is declined here
-+N:%^T2Z%>i PLPARSUF_i ;
-+N:%^T2Z%>i PLINSSUF ;
-+N+Pl:%^T2Z%>i Noun-NB-01 ;
++N:%^D2Z%>ie PLGENSUF_N ; ! the plural comitative is declined here
++N:%^D2Z%>i PLPARSUF_i ;
++N:%^D2Z%>i PLINSSUF ;
++N+Pl:%^D2Z%>i Noun-NB-01 ;
 
 LEXICON NMN_SUZI !!= @CODE@ suzi:su
  NMN_SUZI-SG ;
@@ -739,21 +749,22 @@ LEXICON NMN_YKSI-PL
 +Pl:ksi Noun-NB-01 ;
 
 
-LEXICON NMN_VUOZI
+LEXICON NMN_VUOZI !!= @CODE@ vuozi:vuod
 	NMN_VUOZI-SG ;
 	NMN_VUOZI-PL ;
 
 LEXICON NMN_VUOZI-SG
-:%^T2Z%>i SGNOMSUF ;
+:%^D2Z%>i SGNOMSUF ;
 :e SGGENSUF ;
 : SGPARSUF_dU ;
 +Sg:e Noun-NB-01 ;
 
 LEXICON NMN_VUOZI-PL
-:%^T2Z%>ie PLGENSUF_N ; ! the plural comitative is declined here
-:%^T2Z%>i PLPARSUF_i ;
-:%^T2Z%>i PLINSSUF ;
-+Pl:%^T2Z%>i Noun-NB-01 ;
+:e PLNOMSUF ;
+:%^D2Z%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:%^D2Z%>i PLPARSUF_i ;
+:%^D2Z%>i PLINSSUF ;
++Pl:%^D2Z%>i Noun-NB-01 ;
 
 LEXICON NMN_PAREMBI !!= @CODE@ parembi:paremb
  NMN_PAREMBI-SG ;
@@ -948,24 +959,21 @@ LEXICON NMN_RAHMANNOI-PL
 :il%{oö%}i PLINSSUF ;
 :i Noun-NB-loi ;
 
-LEXICON NMN_HARDIE !!= @CODE@
+LEXICON NMN_HARDIE !!= @CODE@ hardie:hardie
 	NMN_HARDIE-SG	;
 	NMN_HARDIE-PL	;
 
 LEXICON NMN_HARDIE-SG
-:i SGNOMSUF ;
-:e SGPARSUF_A2 ;
-:e SGGENSUF ;
-+Sg:e Noun-NB-01 ;
+: SGNOMSUF ;
+: SGPARSUF_dU ;
+: SGGENSUF ;
++Sg: Noun-NB-01 ;
 LEXICON NMN_HARDIE-PL
-:e PLNOMSUF	;
-:%>ie PLGENSUF_N ; ! the plural comitative is declined here
-:%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-:i Noun-NB-loi ;
+: PLNOMSUF	;
+:%>l%{oö%}i PLGENSUF_N ;
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_OSTAI !!= @CODE@ ostua:osta%>j
  NMN_OSTAI-SG ;
@@ -1335,12 +1343,13 @@ LEXICON NMN_ARMAS-PL
 +Pl:hi Noun-NB-01 ;
 
 LEXICON NMN_TUORES !!= @CODE@ tuores:tuore
+!!= * Yaml: __A-tuores__
  NMN_TUORES-SG        ;
  NMN_TUORES-PL        ;
 
 LEXICON NMN_TUORES-SG
 :%^WGStem%>s SGNOMSUF ;
-:%^WGStem%>h SGPARSUF_dU ;
+:%^WGStem%>s SGPARSUF_dU ;
 :he SGGENSUF ;
 +Sg:he Noun-NB-01 ;
 LEXICON NMN_TUORES-PL
@@ -1689,7 +1698,6 @@ LEXICON SGGENSUF
 +Sg+Gen:%^WGStem%>n K ;
 +Sg+Acc:%^WGStem%>n K ;
 +Sg+Com:%^WGStem%>nke K ;
-+Sg+Apr:%^WGStem%>ll%{uy%}%{oö%} K ;
 
 LEXICON SGNOMSUF
 +Sg+Nom: K ;
@@ -1705,12 +1713,10 @@ LEXICON SGPARSUF_A2
 LEXICON PLGENSUF_EN
 +Pl+Gen:%>en K ;
 +Pl+Com:%>enke K ;
-+Pl+Apr:%^WGStem%>ell%{uy%}%{oö%} K ;
 
 LEXICON PLGENSUF_N
 +Pl+Gen:%>n K ;
 +Pl+Com:%>nke K ;
-+Pl+Apr:%^WGStem%>ll%{uy%}%{oö%} K ;
 
 LEXICON PLINSSUF
 +Pl+Ins:%>n K ;
@@ -1742,6 +1748,7 @@ LEXICON Noun-NB-01
 +Abe:%^WGStem%>tt%{aä%}h K ;
 +Abe:%^WGStem%>tt%{aä%} K ;
 +Abe:%^WGStem%>t%{aä%} K ;
++Apr:%^WGStem%>ll%{uy%}%{oö%} K ;
 +Ela:%^WGStem%>s K ;
 +Ela:%^WGStem%>späi K ;
 +Ess:%^WGStem%>nn%{uy%} K ;
