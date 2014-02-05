@@ -520,22 +520,6 @@ LEXICON N_OLUT-SG
 LEXICON N_OLUT-PL
 +N: NMN_OLUT-PL ;
 
-LEXICON NMN_MUARJU !!= @CODE@ muarju:muarja
- NMN_MUARJU-SG ;
- NMN_MUARJU-PL ;
-
-LEXICON NMN_MUARJU-SG
-:%^A2U SGNOMSUF ;
- SGGENSUF ;
- SGPARSUF_A2 ;
-+Sg: Noun-NB-01 ;
-LEXICON NMN_MUARJU-PL
- PLNOMSUF ;
-:%>i PLGENSUF_N ; ! the plural comitative is declined here
-:%>i PLPARSUF_Zero ;
-:%>i PLINSSUF ;
-+Pl:%>i Noun-NB-01 ;
-
 LEXICON N_ARMAS !!= @CODE@ armas:arma
     N_ARMAS-SG        ;
     N_ARMAS-PL        ;
@@ -562,7 +546,7 @@ LEXICON N_SUURIM-SG
 +N: NMN_SUURIM-SG ;
 
 LEXICON N_SUURIM-PL
-+N:     NMN_SUURIM ;
++N:     NMN_SUURIM-PL ;
 
 LEXICON N_TUATINDAM !!= @CODE@ tuatindam:tuatindam
         N_TUATINDAM-SG  ;
@@ -572,7 +556,7 @@ LEXICON N_TUATINDAM-SG
 +N: NMN_TUATINDAM-SG ;
 
 LEXICON N_TUATINDAM-PL
-+N:     NMN_TUATINDAM ;
++N:     NMN_TUATINDAM-PL ;
 
 LEXICON N_TUATANDIM !!= @CODE@ tuatandim:tuatandim
         N_TUATANDIM-SG  ;
@@ -582,7 +566,7 @@ LEXICON N_TUATANDIM-SG
 +N: NMN_TUATANDIM-SG ;
 
 LEXICON N_TUATANDIM-PL
-+N:     NMN_TUATANDIM ;
++N:     NMN_TUATANDIM-PL ;
 
 LEXICON N_SIEMEN !!= @CODE@ siemen:siemen
         N_SIEMEN-SG  ;
@@ -644,6 +628,22 @@ LEXICON N_PIENAR-PL
 +N: NMN_PIENAR-PL ;
 
 
+LEXICON NMN_MUARJU !!= @CODE@ muarju:muarja
+ NMN_MUARJU-SG ;
+ NMN_MUARJU-PL ;
+
+LEXICON NMN_MUARJU-SG
+:%^A2U SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+LEXICON NMN_MUARJU-PL
+ PLNOMSUF ;
+:%>i PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLPARSUF_Zero ;
+:%>i PLINSSUF ;
++Pl:%>i Noun-NB-01 ;
+
 LEXICON NMN_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
         NMN_LAPSI-SG  ;
 	NMN_LAPSI-PL  ;
@@ -665,32 +665,32 @@ LEXICON NMN_VEZI !!= @CODE@ vezi:vet
  NMN_VEZI-PL ;
 
 LEXICON NMN_VEZI-SG
-+N:%^D2Z%>i SGNOMSUF ;
-+N:e SGGENSUF ;
-+N: SGPARSUF_dU ;
-+N+Sg:e Noun-NB-01 ;
+:%^D2Z%>i SGNOMSUF ;
+:e SGGENSUF ;
+: SGPARSUF_dU ;
++Sg:e Noun-NB-01 ;
 
 LEXICON NMN_VEZI-PL
-+N:%^D2Z%>ie PLGENSUF_N ; ! the plural comitative is declined here
-+N:%^D2Z%>i PLPARSUF_i ;
-+N:%^D2Z%>i PLINSSUF ;
-+N+Pl:%^D2Z%>i Noun-NB-01 ;
+:%^D2Z%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:%^D2Z%>i PLPARSUF_i ;
+:%^D2Z%>i PLINSSUF ;
++Pl:%^D2Z%>i Noun-NB-01 ;
 
 LEXICON NMN_SUZI !!= @CODE@ suzi:su
  NMN_SUZI-SG ;
  NMN_SUZI-PL ;
 
 LEXICON NMN_SUZI-SG
-+N:z%>i SGNOMSUF ;
-+N:ze SGGENSUF ;
-+N:t SGPARSUF_dU ;
-+N+Sg:ze Noun-NB-01 ;
+:z%>i SGNOMSUF ;
+:ze SGGENSUF ;
+:t SGPARSUF_dU ;
++Sg:ze Noun-NB-01 ;
 
 LEXICON NMN_SUZI-PL
-+N:z%>ie PLGENSUF_N ; ! the plural comitative is declined here
-+N:z%>i PLPARSUF_i ;
-+N:z%>i PLINSSUF ;
-+N+Pl:z%>i Noun-NB-01 ;
+:z%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:z%>i PLPARSUF_i ;
+:z%>i PLINSSUF ;
++Pl:z%>i Noun-NB-01 ;
 
 !! !NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
 LEXICON NMN_NIMI
@@ -813,9 +813,9 @@ LEXICON NMN_PIIRAI-SG
 
 LEXICON NMN_PIIRAI-PL
 :a PLNOMSUF ;
-+N:al%{oö%}i PLGENSUF_N ;
-+N:al%{oö%}i PLPARSUF_Zero ;
-+N:al%{oö%}i PLINSSUF ;
+:al%{oö%}i PLGENSUF_N ;
+:al%{oö%}i PLPARSUF_Zero ;
+:al%{oö%}i PLINSSUF ;
 +Pl:al%{oö%}i Noun-NB-01 ;
 
 
@@ -1314,17 +1314,17 @@ LEXICON NMN_MIES !!= @CODE@ mies:mie
 	NMN_MIES-PL ;
 
 LEXICON NMN_MIES-SG
-+N:s SGNOMSUF ;
-+N:he SGGENSUF ;
-+N:s SGPARSUF_dU ;
-+N+Sg:he Noun-NB-01 ;
+:s SGNOMSUF ;
+:he SGGENSUF ;
+:s SGPARSUF_dU ;
++Sg:he Noun-NB-01 ;
 
 LEXICON NMN_MIES-PL
-+N:he PLNOMSUF ;
-+N:%>hie PLGENSUF_N ; ! the plural comitative is declined here
-+N:%>hi PLPARSUF_i ;
-+N:%>hi PLINSSUF ;
-+N+Pl:hi Noun-NB-01 ;
+:he PLNOMSUF ;
+:%>hie PLGENSUF_N ; ! the plural comitative is declined here
+:%>hi PLPARSUF_i ;
+:%>hi PLINSSUF ;
++Pl:hi Noun-NB-01 ;
 
 LEXICON NMN_ARMAS !!= @CODE@ armas:arma
  NMN_ARMAS-SG        ;
@@ -1333,10 +1333,10 @@ LEXICON NMN_ARMAS !!= @CODE@ armas:arma
 LEXICON NMN_ARMAS-SG
 :%^WGStem%>s SGNOMSUF ;
 :%^WGStem%>s SGPARSUF_dU ;
-:ha SGGENSUF ;
-+Sg:ha Noun-NB-01 ;
+:h%>%{aä%} SGGENSUF ;
++Sg:h%>%{aä%} Noun-NB-01 ;
 LEXICON NMN_ARMAS-PL
-:ha PLNOMSUF ;
+:h%>%{aä%} PLNOMSUF ;
 :hie PLGENSUF_N ;
 :hi PLPARSUF_i ;
 :hi PLINSSUF ;
@@ -1365,17 +1365,17 @@ LEXICON NMN_SUALIŠ !!= @CODE@ suališ:suali
 	NMN_SUALIŠ-PL ;
 
 LEXICON NMN_SUALIŠ-SG
-+N:s SGNOMSUF ;
-+N:i SGGENSUF ;
-+N:s SGPARSUF_dU ;
-+N+Sg:i Noun-NB-01 ;
+:s SGNOMSUF ;
+:i SGGENSUF ;
+:s SGPARSUF_dU ;
++Sg:i Noun-NB-01 ;
 
 LEXICON NMN_SUALIŠ-PL
-+N:i PLNOMSUF ;
-!+N:%>ie PLGENSUF_N ; ! the plural comitative is declined here
-!+N:%>i PLPARSUF_i ;
-!+N:%>i PLINSSUF ;
-!+N+Pl:i Noun-NB-01 ;
+:i PLNOMSUF ;
+!:%>ie PLGENSUF_N ; ! the plural comitative is declined here
+!:%>i PLPARSUF_i ;
+!:%>i PLINSSUF ;
+!+Pl:i Noun-NB-01 ;
 
 
 LEXICON NMN_RAIŠ !!= @CODE@ raiš:ra
@@ -1398,17 +1398,17 @@ LEXICON NMN_KUURNIS !!= @CODE@ kuurniš:kuurne
 	NMN_KUURNIS-PL ;
 
 LEXICON NMN_KUURNIS-SG
-+N:s SGNOMSUF ;
-+N:i SGGENSUF ;
-+N:s SGPARSUF_dU ;
-+N+Sg:i Noun-NB-01 ;
+:s SGNOMSUF ;
+:i SGGENSUF ;
+:s SGPARSUF_dU ;
++Sg:i Noun-NB-01 ;
 
 LEXICON NMN_KUURNIS-PL
-+N:i PLNOMSUF ;
-!+N:%>ie PLGENSUF_N ; ! the plural comitative is declined here
-!+N:%>i PLPARSUF_i ;
-!+N:%>i PLINSSUF ;
-!+N+Pl:i Noun-NB-01 ;
+:i PLNOMSUF ;
+!:%>ie PLGENSUF_N ; ! the plural comitative is declined here
+!:%>i PLPARSUF_i ;
+!:%>i PLINSSUF ;
+!+Pl:i Noun-NB-01 ;
 
 LEXICON NMN_OLUT !!= * @CODE@ olut:olu
  NMN_OLUT-SG ;

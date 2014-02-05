@@ -366,14 +366,24 @@ i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
 !
 "g:j"
 !! __@RULENAME@__
+!! {{{
 g:j <=> i _ [ a: ] ( %> i ) %^WGStem:0 ;
 !€# poiga%^WGStem>n
 !€0 poija00n
+!! }}}
+
+"g:v"
+!! __@RULENAME@__
+!! {{{
+g:v <=> [ o | ä ] _ e %^WGStem:0 ;
+!€# joge%^WGStem>n
+!€0 jove00n
+!! }}}
 
 ! sulgu:sullan
 "g:l"
 !! __@RULENAME@__  
-g:l <=> l _ [ a: ] ( %> i ) %^WGStem:0 ;
+g:l <=> l _ [[ a: ] ( %> i )| e ] %^WGStem:0 ;
 
 ! lʼöydiä:lʼövvä
 "d:v"
@@ -382,7 +392,7 @@ g:l <=> l _ [ a: ] ( %> i ) %^WGStem:0 ;
 d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ; !!= @CODE@
           u a           _   o       %^WGStem:0 ; !!= @CODE@
           a             _   u       %^WGStem:0 ; !!= @CODE@
-        [ u o: | u: ]   _   e       %^WGStem:0 ; !!= @CODE@ 
+        [ u o: | u: | ä y: ]   _   e       %^WGStem:0 ; !!= @CODE@ 
         !€# vuoze%^WGStem>n
         !€0 vuvve00n
 !! }}}
@@ -390,13 +400,17 @@ d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ; !!= @CODE@
 ! luadie:luajitah
 "d:j"
 !! __@RULENAME@__  
+!! {{{
 d:j <=> [ u a ] _ [ i ] %^WGStem:0 ;
-
+        a i _ o %^WGStem:0 ;
+	!€# maido%^WGStem>n
+	!€0 maijo00n
+!! }}}
 
 ! lʼöydiä:lʼövvä
 "y:v"
 !! __@RULENAME@__
-y:v <=>  ö _ d: ä %^WGStem:0 ;
+y:v <=>  [ ö | ä ] _ d: [ ä | e] %^WGStem:0 ;
 
 ! soudua:sovva
 "u:v"
@@ -503,6 +517,12 @@ g:0 <=>
 "b:v"
 !! __@RULENAME@__  
 b:v <=> [ #: ] Cns* Vow ( r | l | Vow ) _  [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
+
+"b:v"
+!! __@RULENAME@__
+!! {{{
+b:m <=> m _  [ a | i ] %^WGStem:0 ;
+!! }}}
 
 !2013-04-29!"double pp to p"
 !2013-04-29!p:0 <=> [ #: Cns* Vow ( m ) p | #: Cns* Vow Vow p | Cns* Vow+ Cns+ Vow+ p ] _ [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
