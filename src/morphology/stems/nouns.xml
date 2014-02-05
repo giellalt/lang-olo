@@ -1662,7 +1662,7 @@
       <l pos="N">ammatti</l>
 
       <stg>
-        <st Contlex="N_">ammatti</st>
+        <st Contlex="N_PAPPI">ammatti</st>
       </stg>
     </lg>
 
@@ -1878,7 +1878,7 @@
       <l pos="N">anheli</l>
 
       <stg>
-        <st Contlex="N_">anheli</st>
+        <st Contlex="N_PAPPI">anheli</st>
       </stg>
     </lg>
 
@@ -1896,7 +1896,7 @@
       <l pos="N">ankuri</l>
 
       <stg>
-        <st Contlex="N_">ankuri</st>
+        <st Contlex="N_PAPPI">ankuri</st>
       </stg>
     </lg>
 
@@ -3238,7 +3238,7 @@
       <l pos="N">bajari</l>
 
       <stg>
-        <st Contlex="N_">bajari</st>
+        <st Contlex="N_PAPPI">bajari</st>
       </stg>
     </lg>
 
@@ -4176,7 +4176,7 @@
       <l pos="N">bohatteri</l>
 
       <stg>
-        <st Contlex="N_">bohatteri</st>
+        <st Contlex="N_PAPPI">bohatteri</st>
       </stg>
     </lg>
 
@@ -6726,7 +6726,7 @@
       <l pos="N">dorogupieli</l>
 
       <stg>
-        <st Contlex="N_KIELI">dorogupiel</st>
+        <st Contlex="N_KIELI">dorogu#piel</st>
       </stg>
     </lg>
 
@@ -7401,7 +7401,7 @@
       <l pos="N">ehtypuoli</l>
 
       <stg>
-        <st Contlex="N_KIELI">ehtypuol</st>
+        <st Contlex="N_KIELI">ehty#puol</st>
       </stg>
     </lg>
 
@@ -8107,7 +8107,7 @@
       <l pos="N">elävähobei</l>
 
       <stg>
-        <st Contlex="N_">elävähobei</st>
+        <st Contlex="N_">elävä#hobei</st>
       </stg>
     </lg>
 
@@ -8319,7 +8319,7 @@
       <l pos="N">emäkondii</l>
 
       <stg>
-        <st Contlex="N_">emäkondii</st>
+        <st Contlex="N_">emä#kondii</st>
       </stg>
     </lg>
 
@@ -8856,7 +8856,7 @@
       <l pos="N">ezi</l>
 
       <stg>
-        <st Contlex="N_">ezi</st>
+        <st Contlex="N_VEZI">ed</st>
       </stg>
     </lg>
 
@@ -8882,7 +8882,7 @@
       <l pos="N">ezimerki</l>
 
       <stg>
-        <st Contlex="N_">ezimerki</st>
+        <st Contlex="N_PAPPI">ezi#merki</st>
       </stg>
     </lg>
 
@@ -8900,7 +8900,7 @@
       <l pos="N">ezisormi</l>
 
       <stg>
-        <st Contlex="N_">ezisormi</st>
+        <st Contlex="N_NIMI">ezi#sorm</st>
       </stg>
     </lg>
 
@@ -8936,7 +8936,7 @@
       <l pos="N">ezmäineargi</l>
 
       <stg>
-        <st Contlex="N_">ezmäineargi</st>
+        <st Contlex="N_NIMI">ezmäine#arg</st>
       </stg>
     </lg>
 
@@ -10136,7 +10136,7 @@
       <l pos="N">hangi</l>
 
       <stg>
-        <st Contlex="N_">hangi</st>
+        <st Contlex="N_NIMI">hang</st>
       </stg>
     </lg>
 
@@ -10190,7 +10190,7 @@
       <l pos="N">hanhi</l>
 
       <stg>
-        <st Contlex="N_">hanhi (lat. Anser)</st>
+        <st Contlex="N_NIMI">hanh</st>
       </stg>
     </lg>
 
@@ -10199,6 +10199,9 @@
 
       <tg xml:lang="fin">
         <t pos="N">hanhi</t>
+      </tg>
+      <tg xml:lang="lat">
+        <t pos="N">Anser</t>
       </tg>
     </mg>
   </e>
@@ -10687,7 +10690,7 @@
       <l pos="N">haugi</l>
 
       <stg>
-        <st Contlex="N_">haugi</st>
+        <st Contlex="N_NIMI">haug</st>
       </stg>
     </lg>
 
@@ -11093,7 +11096,7 @@
       <l pos="N">heinargi</l>
 
       <stg>
-        <st Contlex="N_">heinargi</st>
+        <st Contlex="N_NIMI">hein#arg</st>
       </stg>
     </lg>
 
@@ -11500,10 +11503,10 @@
 
   <e>
     <lg>
-      <l pos="N">hengiristi</l>
+      <l pos="Interj">hengiristi</l>
 
       <stg>
-        <st Contlex="N_">hengiristi</st>
+        <st Contlex="INTERJ_">hengi#risti</st>
       </stg>
     </lg>
 
@@ -11511,7 +11514,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">totinen tosi, ihan totta, vannon</t>
+        <t pos="Interj">totinen tosi, ihan totta, vannon</t>
       </tg>
     </mg>
 
@@ -11519,7 +11522,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">lupaan ja vannon (kautta kiven ja kannon)</t>
+        <t pos="Interj">lupaan ja vannon (kautta kiven ja kannon)</t>
       </tg>
     </mg>
   </e>
@@ -11969,7 +11972,7 @@
       <l pos="N">higi</l>
 
       <stg>
-        <st Contlex="N_">higi</st>
+        <st Contlex="N_NIMI">hig</st>
       </stg>
     </lg>
 
@@ -12311,7 +12314,7 @@
       <l pos="N">hirvi</l>
 
       <stg>
-        <st Contlex="N_">hirvi</st>
+        <st Contlex="N_NIMI">hirv</st>
       </stg>
     </lg>
 
@@ -13425,7 +13428,7 @@
       <l pos="N">huondesvalgei</l>
 
       <stg>
-        <st Contlex="N_">huondesvalgei</st>
+        <st Contlex="N_VALGEI">huondes#valge</st>
       </stg>
     </lg>
 
@@ -16415,7 +16418,7 @@
       <l pos="N">ižännimi</l>
 
       <stg>
-        <st Contlex="N_NIMI">ižännim</st>
+        <st Contlex="N_NIMI">ižän#nim</st>
       </stg>
     </lg>
 
@@ -17229,7 +17232,7 @@
       <l pos="N">jogilohi</l>
 
       <stg>
-        <st Contlex="N_">jogilohi</st>
+        <st Contlex="N_KIELI">jogi#loh</st>
       </stg>
     </lg>
 
@@ -17247,7 +17250,7 @@
       <l pos="N">jogišara</l>
 
       <stg>
-        <st Contlex="N_">jogišara</st>
+        <st Contlex="N_KALA">jogi#šara</st>
       </stg>
     </lg>
 
@@ -20164,7 +20167,7 @@
       <l pos="N">kalmu</l>
 
       <stg>
-        <st Contlex="N_">kalmu</st>
+        <st Contlex="N_MUARJU">kalma</st>
       </stg>
     </lg>
 
@@ -27483,7 +27486,7 @@
       <l pos="N">korvu</l>
 
       <stg>
-        <st Contlex="N_KOIRU">korvu</st>
+        <st Contlex="N_KOIRU">korva</st>
       </stg>
     </lg>
 
@@ -31246,7 +31249,7 @@
       <l pos="N">käbylinduine</l>
 
       <stg>
-        <st Contlex="N_KARJALAINE">käbylindu</st>
+        <st Contlex="N_KARJALAINE">käby#lindu</st>
       </stg>
     </lg>
 
@@ -31828,7 +31831,7 @@
       <l pos="N">käzi</l>
 
       <stg>
-        <st Contlex="N_">käzi</st>
+        <st Contlex="N_VEZI">käd</st>
       </stg>
     </lg>
 
@@ -32972,7 +32975,7 @@
       <l pos="N">lammaskarju</l>
 
       <stg>
-        <st Contlex="N_">lammaskarju</st>
+        <st Contlex="N_MUARJU">lammas#karja</st>
       </stg>
     </lg>
 
@@ -33782,7 +33785,7 @@
       <l pos="N">laulu</l>
 
       <stg>
-        <st Contlex="N_">laulu</st>
+        <st Contlex="N_KOIVU">laulu</st>
       </stg>
     </lg>
 
@@ -33996,7 +33999,7 @@
       <l pos="N">lehmyhirvi</l>
 
       <stg>
-        <st Contlex="N_">lehmyhirvi</st>
+        <st Contlex="N_NIMI">lehmy#hirv</st>
       </stg>
     </lg>
 
@@ -34011,10 +34014,10 @@
 
   <e>
     <lg>
-      <l pos="N">lehmä</l>
+      <l pos="N">lehmy</l>
 
       <stg>
-        <st Contlex="N_">lehmä</st>
+        <st Contlex="N_KOIRU">lehmä</st>
       </stg>
     </lg>
 
@@ -34032,7 +34035,7 @@
       <l pos="N">lehmänliha</l>
 
       <stg>
-        <st Contlex="N_">lehmänliha</st>
+        <st Contlex="N_KALA">lehmän#liha</st>
       </stg>
     </lg>
 
@@ -34573,7 +34576,7 @@
       <l pos="N">leppylindu</l>
 
       <stg>
-        <st Contlex="N_">leppylindu</st>
+        <st Contlex="N_KOIVU">leppy#lindu</st>
       </stg>
     </lg>
 
@@ -35275,7 +35278,7 @@
       <l pos="N">liipoilinduine</l>
 
       <stg>
-        <st Contlex="N_KARJALAINE">liipoilindu</st>
+        <st Contlex="N_KARJALAINE">liipoi#lindu</st>
       </stg>
     </lg>
 
@@ -35419,7 +35422,7 @@
       <l pos="N">lindu</l>
 
       <stg>
-        <st Contlex="N_">lindu</st>
+        <st Contlex="N_KOIVU">lindu</st>
       </stg>
     </lg>
 
@@ -38350,7 +38353,7 @@
       <l pos="N">maholehmy</l>
 
       <stg>
-        <st Contlex="N_">maholehmy</st>
+        <st Contlex="N_KOIRU">maho#lehmä</st>
       </stg>
     </lg>
 
@@ -40493,6 +40496,24 @@
 
   <e>
     <lg>
+      <l pos="N">muamu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">muama</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">äiti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">muamankieli</l>
 
       <stg>
@@ -41508,7 +41529,7 @@
       <l pos="N">muuttolindu</l>
 
       <stg>
-        <st Contlex="N_">muuttolindu</st>
+        <st Contlex="N_KOIVU">muutto#lindu</st>
       </stg>
     </lg>
 
@@ -46254,7 +46275,7 @@
       <l pos="N">ombelindu</l>
 
       <stg>
-        <st Contlex="N_">ombelindu</st>
+        <st Contlex="N_">ombelinda</st>
       </stg>
     </lg>
 
@@ -49603,7 +49624,7 @@
       <l pos="N">parzi</l>
 
       <stg>
-        <st Contlex="N_KIELI">parzi</st>
+        <st Contlex="N_VUOZI">pard</st>
       </stg>
     </lg>
 
@@ -54278,7 +54299,7 @@
       <l pos="N">polvi</l>
 
       <stg>
-        <st Contlex="N_">polvi</st>
+        <st Contlex="N_NIMI">polv</st>
       </stg>
     </lg>
 
@@ -56322,7 +56343,7 @@
       <l pos="N">puukeski</l>
 
       <stg>
-        <st Contlex="N_NIMI">puukesk</st>
+        <st Contlex="N_NIMI">puu#kesk</st>
       </stg>
     </lg>
 
@@ -56721,7 +56742,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="N">pyhä keski</l>
 
@@ -60797,7 +60818,7 @@
       <l pos="N">ristivelli</l>
 
       <stg>
-        <st Contlex="N_NIMI">ristivelli</st>
+        <st Contlex="N_NIMI">risti#velli</st>
       </stg>
     </lg>
 
@@ -63035,7 +63056,7 @@
       <l pos="N">ryöstölindu</l>
 
       <stg>
-        <st Contlex="N_">ryöstölindu</st>
+        <st Contlex="N_KOIVU">ryöstö#lindu</st>
       </stg>
     </lg>
 
@@ -67158,7 +67179,7 @@
       <l pos="N">soloveilinduine</l>
 
       <stg>
-        <st Contlex="N_KARJALAINE">soloveilindu</st>
+        <st Contlex="N_KARJALAINE">solovei#lindu</st>
       </stg>
     </lg>
 
@@ -71642,7 +71663,7 @@
       <l pos="N">sängi</l>
 
       <stg>
-        <st Contlex="N_NIMI">sängi</st>
+        <st Contlex="N_NIMI">säng</st>
       </stg>
     </lg>
 
@@ -73035,24 +73056,6 @@
 
       <stg>
         <st Contlex="N_KOIVU">talvi#lindu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">talvinen riistalintu</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">talvilindu</l>
-
-      <stg>
-        <st Contlex="N_KOIVU">talvilindu</st>
       </stg>
     </lg>
 
@@ -75460,7 +75463,7 @@
       <l pos="N">torakukki</l>
 
       <stg>
-        <st Contlex="N_NIMI">torakukki</st>
+        <st Contlex="N_NIMI">tora#kukki</st>
       </stg>
     </lg>
 
@@ -82195,7 +82198,7 @@
       <l pos="N">varzi</l>
 
       <stg>
-        <st Contlex="N_LAPSI">varzi</st>
+        <st Contlex="N_VUOZI">vard</st>
       </stg>
     </lg>
 

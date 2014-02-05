@@ -335,9 +335,6 @@ Livvi nouns inflect in cases.
 
 
 
- LEXICON NMN_MUARJU  muarju:muarja
-
-
  LEXICON N_ARMAS  armas:arma
 
 
@@ -378,6 +375,9 @@ Livvi nouns inflect in cases.
  LEXICON N_PIENAR  pienar:piendar
 
 
+
+
+ LEXICON NMN_MUARJU  muarju:muarja
 
 
  LEXICON NMN_LAPSI  lapsi:laps lapsi:laps
@@ -1076,6 +1076,12 @@ __%{uy%}:u__ Vowel harmony suffixes Back
 !!Consonant change
 
 __g:j__
+{{{
+}}}
+
+__g:v__
+{{{
+}}}
 
 __g:l__  
 
@@ -1084,11 +1090,12 @@ __d:v__
  d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ; 
            u a           _   o       %^WGStem:0 ; 
            a             _   u       %^WGStem:0 ; 
-         [ u o: | u: ]   _   e       %^WGStem:0 ;  
+         [ u o: | u: | ä y: ]   _   e       %^WGStem:0 ;  
 }}}
 
 __d:j__  
-
+{{{
+}}}
 
 __y:v__
 
@@ -1152,6 +1159,10 @@ __gToZero__  aika: ajan
 
 
 __b:v__  
+
+__b:v__
+{{{
+}}}
 
 __p:0 in lapsi__  
 
