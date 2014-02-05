@@ -23,13 +23,18 @@ LEXICON NUM_TUHAT
 LEXICON NUM_KARJALAINE !!= @CODE@ 
 +Qnt+Num: NMN_KARJALAINE ;
 
+LEXICON NUM_VUOZI !!= @CODE@ kuuzi, viizi
++Num+Card: NMN_VUOZI ;
 
-
-LEXICON Num-kolme !!= @CODE@ 
-+Num+Card: # ;
+LEXICON NUM_KOLME !!= @CODE@ 
++Num+Card+Sg+Nom:e K ;
++Num+Ord+Sg+Nom:as K ;
 
 LEXICON QNT_
 +TYÄ+Qnt: # ;
+
+LEXICON ORD_
++TYÄ+Num+Ord: # ;
 
 LEXICON ORD_TOINE !!= @CODE@ toine:to
 +Qnt+Ord: NMN_TOINE ;
