@@ -87,7 +87,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>toine</t>
+        <t>toinen</t>
       </tg>
     </mg>
   </e>
@@ -119,7 +119,7 @@
       <l pos="Num">ezmäine</l>
 
       <stg>
-        <st Contlex="NUM_">ezmäine</st>
+        <st Contlex="ORD_KARJALAINE">ezmä</st>
       </stg>
     </lg>
 
@@ -160,10 +160,10 @@
 
   <e>
     <lg>
-      <l pos="Num">kaheksakymmendä</l>
+      <l pos="Num">kaheksakymmen</l>
 
       <stg>
-        <st Contlex="NUM_">kaheksakymmendä</st>
+        <st Contlex="NUM_">kaheksakymmen</st>
       </stg>
     </lg>
 
@@ -180,12 +180,12 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
-      <l pos="Num">kaheksaskymmen</l>
+      <l pos="Num" type="Ord">kaheksaskymmenes</l>
 
       <stg>
-        <st Contlex="NUM_">kaheksaskymmen</st>
+        <st Contlex="ORD_">kaheksaskymmen</st>
       </stg>
     </lg>
 
@@ -202,7 +202,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="Num">kaheksatostu</l>
 
@@ -226,10 +226,10 @@
 
   <e>
     <lg>
-      <l pos="Num">kahekšaš</l>
+      <l pos="Num">kaheksas</l>
 
       <stg>
-        <st Contlex="NUM_">kahekšaš</st>
+        <st Contlex="ORD_">kaheksa</st>
       </stg>
     </lg>
 
@@ -263,17 +263,17 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t>kahdestaan</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">kakkoine</l>
+      <l pos="N">kakkoine</l>
 
       <stg>
-        <st Contlex="NUM_">kakkoine</st>
+        <st Contlex="N_KARJALAINE">kakko</st>
       </stg>
     </lg>
 
@@ -295,7 +295,7 @@
       <l pos="Num">kaksi</l>
 
       <stg>
-        <st Contlex="NUM_">kaksi</st>
+        <st Contlex="NUM_">ka</st>
       </stg>
     </lg>
 
@@ -314,10 +314,10 @@
 
   <e>
     <lg>
-      <l pos="Num">kaksikymmene</l>
+      <l pos="Num">kaksikymmen</l>
 
       <stg>
-        <st Contlex="NUM_">kaksikymmene</st>
+        <st Contlex="NUM_">kaksikymmen</st>
       </stg>
     </lg>
 
@@ -358,7 +358,7 @@
 
   <e>
     <lg>
-      <l pos="Num">kaksisada</l>
+      <l pos="Num">kaksisadua</l>
 
       <stg>
         <st Contlex="NUM_">kaksisada</st>
@@ -400,12 +400,12 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
-      <l pos="Num">kolmaš</l>
+      <l pos="Num">kolmas</l>
 
       <stg>
-        <st Contlex="NUM_">kolmaš</st>
+        <st Contlex="NUM_">kolma</st>
       </stg>
     </lg>
 
@@ -427,7 +427,7 @@
       <l pos="Num">kolme</l>
 
       <stg>
-        <st Contlex="Num-kolme">kolm</st>
+        <st Contlex="NUM_KOLME">kolm</st>
       </stg>
     </lg>
 
@@ -448,32 +448,10 @@
 
   <e>
     <lg>
-      <l pos="Num">kolme</l>
+      <l pos="Qnt">kolmei</l>
 
       <stg>
-        <st Contlex="NUM_">kolme</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">kolmei</l>
-
-      <stg>
-        <st Contlex="NUM_">kolmei</st>
+        <st Contlex="QNT_">kolmei</st>
       </stg>
     </lg>
 
@@ -514,7 +492,7 @@
 
   <e>
     <lg>
-      <l pos="Num">kolmesada</l>
+      <l pos="Num">kolmesadua</l>
 
       <stg>
         <st Contlex="NUM_">kolmesada</st>
@@ -558,10 +536,10 @@
 
   <e>
     <lg>
-      <l pos="Num">kuuveš</l>
+      <l pos="Num" type="Ord">kuvves</l>
 
       <stg>
-        <st Contlex="NUM_">kuuveš</st>
+        <st Contlex="ORD_">kuvves</st>
       </stg>
     </lg>
 
@@ -580,10 +558,10 @@
 
   <e>
     <lg>
-      <l pos="Num">kuuzi</l>
+      <l pos="Num" type="Card">kuuzi</l>
 
       <stg>
-        <st Contlex="NUM_">kuuzi</st>
+        <st Contlex="NUM_VUOZI">kuud</st>
       </stg>
     </lg>
 
@@ -602,7 +580,7 @@
 
   <e>
     <lg>
-      <l pos="Num">kuuzikymmen</l>
+      <l pos="Num" type="Card">kuuzikymmen</l>
 
       <stg>
         <st Contlex="NUM_">kuuzikymmen</st>
@@ -624,7 +602,7 @@
 
   <e>
     <lg>
-      <l pos="Num">kuuzisada</l>
+      <l pos="Num" type="Card">kuuzisadua</l>
 
       <stg>
         <st Contlex="NUM_">kuuzisada</st>
@@ -646,7 +624,7 @@
 
   <e>
     <lg>
-      <l pos="Num">kuuzitostu</l>
+      <l pos="Num" type="Card">kuuzitostu</l>
 
       <stg>
         <st Contlex="NUM_">kuuzitostu</st>
@@ -668,10 +646,10 @@
 
   <e>
     <lg>
-      <l pos="Num">kuvvei</l>
+      <l pos="Qnt">kuvvei</l>
 
       <stg>
-        <st Contlex="NUM_">kuvvei</st>
+        <st Contlex="QNT_">kuvvei</st>
       </stg>
     </lg>
 
@@ -690,10 +668,10 @@
 
   <e>
     <lg>
-      <l pos="Num">kuvvestostu</l>
+      <l pos="Num" type="Ord">kuvvestostu</l>
 
       <stg>
-        <st Contlex="NUM_">kuvvestostu</st>
+        <st Contlex="ORD_">kuvvestostu</st>
       </stg>
     </lg>
 
@@ -712,7 +690,7 @@
 
   <e>
     <lg>
-      <l pos="Num">kymmene</l>
+      <l pos="Num" type="Card">kymmene</l>
 
       <stg>
         <st Contlex="NUM_">kymmene</st>
@@ -734,10 +712,10 @@
 
   <e>
     <lg>
-      <l pos="Num">kymmenes</l>
+      <l pos="Num" type="Ord">kymmenes</l>
 
       <stg>
-        <st Contlex="NUM_">kymmenes</st>
+        <st Contlex="ORD_">kymmenes</st>
       </stg>
     </lg>
 
@@ -756,7 +734,7 @@
 
   <e>
     <lg>
-      <l pos="Num">nelli</l>
+      <l pos="Num" type="Card">nelli</l>
 
       <stg>
         <st Contlex="NUM_">nelli</st>
@@ -778,7 +756,7 @@
 
   <e>
     <lg>
-      <l pos="Num">nellikymmen</l>
+      <l pos="Num" type="Card">nellikymmen</l>
 
       <stg>
         <st Contlex="NUM_">nellikymmen</st>
@@ -800,7 +778,7 @@
 
   <e>
     <lg>
-      <l pos="Num">nellisada</l>
+      <l pos="Num" type="Card">nellisadua</l>
 
       <stg>
         <st Contlex="NUM_">nellisada</st>
@@ -822,7 +800,7 @@
 
   <e>
     <lg>
-      <l pos="Num">nellitostu</l>
+      <l pos="Num" type="Card">nellitostu</l>
 
       <stg>
         <st Contlex="NUM_">nellitostu</st>
@@ -844,10 +822,10 @@
 
   <e>
     <lg>
-      <l pos="Num">nelläskymmen</l>
+      <l pos="Num" type="Ord">nelläskymmenes</l>
 
       <stg>
-        <st Contlex="NUM_">nelläskymmen</st>
+        <st Contlex="ORD_">nelläskymmen</st>
       </stg>
     </lg>
 
@@ -888,10 +866,10 @@
 
   <e>
     <lg>
-      <l pos="Num">nellästostu</l>
+      <l pos="Num" type="Ord">nellästostu</l>
 
       <stg>
-        <st Contlex="NUM_">nellästostu</st>
+        <st Contlex="ORD_">nellästostu</st>
       </stg>
     </lg>
 
@@ -910,10 +888,10 @@
 
   <e>
     <lg>
-      <l pos="Num">nelläš</l>
+      <l pos="Num" type="Ord">nelläs</l>
 
       <stg>
-        <st Contlex="NUM_">nelläš</st>
+        <st Contlex="ORD_">nellä</st>
       </stg>
     </lg>
 
@@ -954,10 +932,10 @@
 
   <e>
     <lg>
-      <l pos="Num">puolitostu</l>
+      <l pos="Qnt">puolitostu</l>
 
       <stg>
-        <st Contlex="NUM_">puolitostu</st>
+        <st Contlex="QNT_">puolitostu</st>
       </stg>
     </lg>
 
@@ -976,10 +954,10 @@
 
   <e>
     <lg>
-      <l pos="Num">puolitostusadua</l>
+      <l pos="Qnt">puolitostusadua</l>
 
       <stg>
-        <st Contlex="NUM_">puolitostusadua</st>
+        <st Contlex="QNT_">puolitostusadua</st>
       </stg>
     </lg>
 
@@ -998,7 +976,7 @@
 
   <e>
     <lg>
-      <l pos="Num">sada</l>
+      <l pos="Num" type="Card">sada</l>
 
       <stg>
         <st Contlex="NUM_">sada</st>
@@ -1020,10 +998,10 @@
 
   <e>
     <lg>
-      <l pos="Num">sadas</l>
+      <l pos="Num" type="Ord">sadas</l>
 
       <stg>
-        <st Contlex="NUM_">sadas</st>
+        <st Contlex="ORD_">sada</st>
       </stg>
     </lg>
 
@@ -1042,10 +1020,10 @@
 
   <e>
     <lg>
-      <l pos="Num">seiče</l>
+      <l pos="Num">seiččekymmendy</l>
 
       <stg>
-        <st Contlex="NUM_">seiče</st>
+        <st Contlex="NUM_">seiččekymmen</st>
       </stg>
     </lg>
 
@@ -1064,29 +1042,7 @@
 
   <e>
     <lg>
-      <l pos="Num">seičekymmendy</l>
-
-      <stg>
-        <st Contlex="NUM_">seičekymmendy</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">seičesada</l>
+      <l pos="Num" type="Card">seiččesadua</l>
 
       <stg>
         <st Contlex="NUM_">seičesada</st>
@@ -1108,10 +1064,10 @@
 
   <e>
     <lg>
-      <l pos="Num">seičetostu</l>
+      <l pos="Num" type="Card">seiččietostu</l>
 
       <stg>
-        <st Contlex="NUM_">seičetostu</st>
+        <st Contlex="NUM_">seiččietostu</st>
       </stg>
     </lg>
 
@@ -1130,7 +1086,7 @@
 
   <e>
     <lg>
-      <l pos="Num">seičikko</l>
+      <l pos="N">seičikko</l>
 
       <stg>
         <st Contlex="N_">seičikko</st>
@@ -1152,10 +1108,10 @@
 
   <e>
     <lg>
-      <l pos="Num">seiččemäs</l>
+      <l pos="Num" type="Ord">seiččemäs</l>
 
       <stg>
-        <st Contlex="NUM_">seiččemäs</st>
+        <st Contlex="ORD_">seiččemä</st>
       </stg>
     </lg>
 
@@ -1174,7 +1130,7 @@
 
   <e>
     <lg>
-      <l pos="Num">seiččiei</l>
+      <l pos="Qnt">seiččiei</l>
 
       <stg>
         <st Contlex="QNT_">seiččiei</st>
@@ -1196,7 +1152,7 @@
 
   <e>
     <lg>
-      <l pos="Qnt">toine</l>
+      <l pos="Num" type="Ord">toine</l>
 
       <stg>
         <st Contlex="ORD_TOINE">to</st>
@@ -1218,7 +1174,7 @@
 
   <e>
     <lg>
-      <l pos="Num">tuhat</l>
+      <l pos="Num" type="Card">tuhat</l>
 
       <stg>
         <st Contlex="NUM_TUHAT">tuha</st>
@@ -1240,10 +1196,10 @@
 
   <e>
     <lg>
-      <l pos="Num">viides</l>
+      <l pos="Num" type="Ord">viijes</l>
 
       <stg>
-        <st Contlex="NUM_">viides</st>
+        <st Contlex="ORD_">viije</st>
       </stg>
     </lg>
 
@@ -1262,10 +1218,10 @@
 
   <e>
     <lg>
-      <l pos="Num">viidestostu</l>
+      <l pos="Num" type="Ord">viijestostu</l>
 
       <stg>
-        <st Contlex="NUM_">viidestostu</st>
+        <st Contlex="NUM_">viijestostu</st>
       </stg>
     </lg>
 
@@ -1284,10 +1240,10 @@
 
   <e>
     <lg>
-      <l pos="Num">viidoine</l>
+      <l pos="N">viidoine</l>
 
       <stg>
-        <st Contlex="NUM_">viidoine</st>
+        <st Contlex="N_KARJALAINE">viido</st>
       </stg>
     </lg>
 
@@ -1306,10 +1262,10 @@
 
   <e>
     <lg>
-      <l pos="Num">viiei</l>
+      <l pos="Qnt">viiei</l>
 
       <stg>
-        <st Contlex="NUM_">viiei</st>
+        <st Contlex="QNT_">viiei</st>
       </stg>
     </lg>
 
@@ -1328,10 +1284,10 @@
 
   <e>
     <lg>
-      <l pos="Num">viizi</l>
+      <l pos="Num" type="Card">viizi</l>
 
       <stg>
-        <st Contlex="NUM_">viizi</st>
+        <st Contlex="NUM_VUOZI">viid</st>
       </stg>
     </lg>
 
@@ -1350,29 +1306,7 @@
 
   <e>
     <lg>
-      <l pos="Num">viizikymmen</l>
-
-      <stg>
-        <st Contlex="NUM_">viizikymmen</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">viizikymmen</l>
+      <l pos="Num" type="Card">viizikymmen</l>
 
       <stg>
         <st Contlex="NUM_">viizikymmen</st>
@@ -1394,7 +1328,7 @@
 
   <e>
     <lg>
-      <l pos="Num">viizisada</l>
+      <l pos="Num" type="Card">viizisadua</l>
 
       <stg>
         <st Contlex="NUM_">viizisada</st>
@@ -1416,7 +1350,7 @@
 
   <e>
     <lg>
-      <l pos="Num">viizitostu</l>
+      <l pos="Num" type="Card">viizitostu</l>
 
       <stg>
         <st Contlex="NUM_">viizitostu</st>
@@ -1438,7 +1372,7 @@
 
   <e>
     <lg>
-      <l pos="Num">yheksä</l>
+      <l pos="Num" type="Card">yheksä</l>
 
       <stg>
         <st Contlex="NUM_SÄYNÄ">yheksä</st>
@@ -1460,7 +1394,7 @@
 
   <e>
     <lg>
-      <l pos="Num">yheksäkymmen</l>
+      <l pos="Num" type="Card">yheksäkymmen</l>
 
       <stg>
         <st Contlex="NUM_">yheksäkymmen</st>
@@ -1482,10 +1416,10 @@
 
   <e>
     <lg>
-      <l pos="Num">yheksäsadua</l>
+      <l pos="Num" type="Card">yheksäsadua</l>
 
       <stg>
-        <st Contlex="NUM_">yheksäsadua</st>
+        <st Contlex="NUM_">yheksäsada</st>
       </stg>
     </lg>
 
@@ -1504,7 +1438,7 @@
 
   <e>
     <lg>
-      <l pos="Num">yheksätostu</l>
+      <l pos="Num" type="Card">yheksätostu</l>
 
       <stg>
         <st Contlex="NUM_">yheksätostu</st>
@@ -1526,10 +1460,10 @@
 
   <e>
     <lg>
-      <l pos="Num">yhekšaš</l>
+      <l pos="Num" type="Ord">yheksäs</l>
 
       <stg>
-        <st Contlex="NUM_">yhekšaš</st>
+        <st Contlex="ORD_">yheksä</st>
       </stg>
     </lg>
 
@@ -1548,7 +1482,7 @@
 
   <e>
     <lg>
-      <l pos="Num">yksi</l>
+      <l pos="Num" type="Card">yksi</l>
 
       <stg>
         <st Contlex="NUM_YKSI">y</st>
@@ -1570,7 +1504,7 @@
 
   <e>
     <lg>
-      <l pos="Num">yksitostu</l>
+      <l pos="Num" type="Card">yksitostu</l>
 
       <stg>
         <st Contlex="NUM_">yksitostu</st>
