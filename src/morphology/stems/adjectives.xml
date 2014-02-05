@@ -2044,7 +2044,7 @@
       <l pos="A">enin</l>
 
       <stg>
-        <st Contlex="A_ENIN">enin</st>
+        <st Contlex="A_ENIN">eni</st>
       </stg>
     </lg>
 
@@ -23885,6 +23885,203 @@
 
       <tg xml:lang="fin">
         <t pos="A">vanhennut; vanhentunut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ammuine</l>
+
+      <stg>
+        <st Contlex="A_KARJALAINE">ammu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">muinainen, ammoinen, entinen, vanha</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">argu</l>
+
+      <stg>
+        <st Contlex="A_MUARJU">arga</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">arka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">eriskummalline</l>
+
+      <stg>
+        <st Contlex="A_KIELINE">eriskummalli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">eriskummallinen, omituinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">hieno</l>
+
+      <stg>
+        <st Contlex="A_RUNO">hieno</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">ohut, hieno(jakoinen)</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pieni, vähäinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">hilläine</l>
+
+      <stg>
+        <st Contlex="A_KARJALAINE">hillä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">hiljainen, hidas, verkkainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">hyigei</l>
+
+      <stg>
+        <st Contlex="A_VALGEI">hyige</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">hävettävä, häpeällinen, sopimaton, ilkeä, paha, ujo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">hyigie</l>
+
+      <stg>
+        <st Contlex="A_HARDIE">hyigie</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">hävettävä, häpeällinen, sopimaton, ilkeä, paha, ujo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">imel</l>
+
+      <stg>
+        <st Contlex="A_">imel</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">äitelä, liian makea</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">kadal</l>
+
+      <stg>
+        <st Contlex="A_">kadal</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kovaosainen, onneton, huono-onninen, säälittävä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">igävy</l>
+
+      <stg>
+        <st Contlex="N_KOIRU">igävä</st>
+        <st Contlex="N_KESTÄY">igä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">surullinen</t><t pos="A">apea</t><t pos="A">vastentahtoinen</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">tylsä, pitkäveteinen</t>
       </tg>
     </mg>
   </e>
