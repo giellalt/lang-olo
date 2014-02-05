@@ -3,13 +3,12 @@
 !! Livvi clitics
 
 LEXICON K
-+Clt/gi:%>gi # "also / -kin" ;
-!+Clt/hAi:%>h%{aä%}i # " / -hAn" ;
-+Clt/hAi:%>häi # " / -hAn" ;
-+Clt/bo:%>bo # " / -pA" ;
-+Qst:%>go # " / -kO" ;
-# ; 
-
++Clt/gi:%>gi WORD-END "also / -kin" ;
+!+Clt/hAi:%>h%{aä%}i WORD-END " / -hAn" ;
++Clt/hAi:%>häi WORD-END " / -hAn" ;
++Clt/bo:%>bo WORD-END " / -pA" ;
++Qst:%>go WORD-END " / -kO" ;
+WORD-END ; 
 
 
 

@@ -6,6 +6,24 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="V">ebäillä</l>
+
+      <stg>
+        <st Contlex="V_">ebäillä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">kiellellä, estellä tekemästä jtk</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V">abeija</l>
 
       <stg>
@@ -7543,7 +7561,7 @@
       <l pos="V">hienondua</l>
 
       <stg>
-        <st Contlex="V_">hienondua</st>
+        <st Contlex="V_OTTUA">hienonda</st>
       </stg>
     </lg>
 
@@ -10091,7 +10109,7 @@
       <l pos="V">häilyö</l>
 
       <stg>
-        <st Contlex="V_">häilyö</st>
+        <st Contlex="V_VALUO">häily</st>
       </stg>
     </lg>
 
@@ -10099,7 +10117,14 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">heilua, keinua</t>
+        <t pos="V">heilua, keinua</t><t pos="V">huojua</t>
+      </tg>
+    </mg>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">kuljeskella, liikkua edestakaisin</t>
       </tg>
     </mg>
   </e>
