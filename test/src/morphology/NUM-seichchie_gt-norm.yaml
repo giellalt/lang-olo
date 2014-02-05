@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Numeral - hardie: # Noun 'seven / seitsemän' - full paradigm
+     seiččie+N+Sg+Nom: seiččie
+     seiččie+N+Sg+Gen: seiččemen
+     seiččie+N+Sg+Acc: [seiččie, seiččemen]
+     seiččie+N+Sg+Par: seičendy
+     seiččie+N+Sg+Tra: seiččemekse
+     seiččie+N+Sg+Abe: [seiččemetta, seiččemeta, seiččemettah]
+     seiččie+N+Sg+Com: seiččemenke
+     seiččie+N+Sg+Ine: seiččemes
+     seiččie+N+Sg+Ela: [seiččemespäi, seiččemes]
+     seiččie+N+Sg+Ill: seiččemeh
+     seiččie+N+Sg+Ade: seiččemel
+     seiččie+N+Sg+Abl: [seiččemelpäi, seiččemel]
+     seiččie+N+Sg+All: seiččemele
+     seiččie+N+Sg+Ess: seiččemennu
+     seiččie+N+Sg+Ter: seiččemessah
+     seiččie+N+Sg+Apr: seiččemellyö
+     seiččie+N+Pl+Nom: seiččemet
+     seiččie+N+Pl+Gen: seiččemin
+     seiččie+N+Pl+Acc: seiččemet
+     seiččie+N+Pl+Par: seiččemii
+     seiččie+N+Pl+Tra: seiččemikse
+     seiččie+N+Pl+Abe: [seiččemitta, seiččemita, seiččemittah]
+     seiččie+N+Pl+Com: seiččeminke
+     seiččie+N+Pl+Ine: seiččemis
+     seiččie+N+Pl+Ela: [seiččemispäi, seiččemis]
+     seiččie+N+Pl+Ill: seiččemihe
+     seiččie+N+Pl+Ade: seiččemil
+     seiččie+N+Pl+Abl: [seiččemilpäi, seiččemil]
+     seiččie+N+Pl+All: seiččemile
+     seiččie+N+Pl+Ess: seiččeminnu
+     seiččie+N+Pl+Ins: seiččemin
+     seiččie+N+Pl+Apr: seiččemilluo
+     seiččie+N+Sg+Nom+Clt/gi: seiččiegi
+     seiččie+N+Sg+Gen+Clt/gi: seiččemengi
+     seiččie+N+Sg+Acc+Clt/gi: [seiččiegi, seiččemengi]
+     seiččie+N+Sg+Par+Clt/gi: seiččemiigi
+     seiččie+N+Sg+Tra+Clt/gi: seiččemeksegi
+     seiččie+N+Sg+Abe+Clt/gi: [seiččemettägi, seiččemetagi, seiččemettahgi]
+     seiččie+N+Sg+Com+Clt/gi: seiččemenkegi
+     seiččie+N+Sg+Ine+Clt/gi: seiččemesgi
+     seiččie+N+Sg+Ela+Clt/gi: [seiččemespäigi, seiččemesgi]
+     seiččie+N+Sg+Ill+Clt/gi: seiččemehgi
+     seiččie+N+Sg+Ade+Clt/gi: seiččemelgi
+     seiččie+N+Sg+Abl+Clt/gi: [seiččemelpäigi, seiččemelgi]
+     seiččie+N+Sg+All+Clt/gi: seiččemelegi
+     seiččie+N+Sg+Ess+Clt/gi: seiččemennugi
+     seiččie+N+Sg+Ter+Clt/gi: seiččemessähgi
+     seiččie+N+Sg+Apr+Clt/gi: seiččemellyögi
+     seiččie+N+Pl+Nom+Clt/gi: seiččemetgi
+     seiččie+N+Pl+Gen+Clt/gi: seiččemingi
+     seiččie+N+Pl+Acc+Clt/gi: seiččemetgi
+     seiččie+N+Pl+Par+Clt/gi: seiččemigi
+     seiččie+N+Pl+Tra+Clt/gi: seiččemiksegi
+     seiččie+N+Pl+Abe+Clt/gi: [seiččemittägi, seiččemitägi, seiččemittähgi]
+     seiččie+N+Pl+Com+Clt/gi: seiččeminkegi
+     seiččie+N+Pl+Ine+Clt/gi: seiččemisgi
+     seiččie+N+Pl+Ela+Clt/gi: [seiččemispäigi, seiččemisgi]
+     seiččie+N+Pl+Ill+Clt/gi: seiččemihegi
+     seiččie+N+Pl+Ade+Clt/gi: seiččemilgi
+     seiččie+N+Pl+Abl+Clt/gi: [seiččemilpäigi, seiččemilgi]
+     seiččie+N+Pl+All+Clt/gi: seiččemilegi
+     seiččie+N+Pl+Ess+Clt/gi: seiččeminnygi
+     seiččie+N+Pl+Ins+Clt/gi: seiččemingi
+     seiččie+N+Pl+Apr+Clt/gi: seiččemillyögi
