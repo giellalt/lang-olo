@@ -77,7 +77,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">ahavainen, kylmätuulinen</t>
+        <t pos="A">ahavainen</t>
+
+        <t pos="A">kylmätuulinen</t>
       </tg>
     </mg>
   </e>
@@ -143,7 +145,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">ahtaanpuoleinen, (harv.) ahtaahko</t>
+        <t pos="A">ahtaanpuoleinen</t>
+
+        <t pos="A">ahtaahko</t>
       </tg>
     </mg>
 
@@ -151,7 +155,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">vaikeahko, tukalahko</t>
+        <t pos="A">vaikeahko</t>
+
+        <t pos="A">tukalahko</t>
       </tg>
     </mg>
   </e>
@@ -241,7 +247,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">aikainen, varhainen</t>
+        <t pos="A">aikainen</t>
+
+        <t pos="A">varhainen</t>
       </tg>
     </mg>
   </e>
@@ -251,7 +259,7 @@
       <l pos="A">aigaine</l>
 
       <stg>
-        <st Contlex="A_KARJALAINE">aigai</st>
+        <st Contlex="A_KARJALAINE">aiga</st>
       </stg>
     </lg>
 
@@ -259,7 +267,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">aikainen, varhainen</t>
+        <t pos="A">aikainen</t>
+
+        <t pos="A">varhainen</t>
       </tg>
     </mg>
   </e>
@@ -270,6 +280,8 @@
 
       <stg>
         <st Contlex="A_KIELINE">aiguhi</st>
+
+        <st Contlex="A_KARJALAINE">aigu</st>
       </stg>
     </lg>
 
@@ -277,59 +289,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">aikuinen, täysi-ikäinen</t>
-      </tg>
-    </mg>
+        <t pos="A">aikuinen</t>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">jnk aikainen, jnk aikuinen, jhk aikaan kuuluva</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">transl. saada valmiiksi, saada aikaan, saada aikaiseksi,
-        tulla valmiiksi, tulla aikaan, tulla aikaiseksi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">aiguine</l>
-
-      <stg>
-        <st Contlex="A_KARJALAINE">aigui</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">aikuinen, täysi-ikäinen</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">jnk aikainen, jnk aikuinen, jhk aikaan kuuluva</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">transl. saada valmiiksi, saada aikaan, saada aikaiseksi,
-        tulla valmiiksi, tulla aikaan, tulla aikaiseksi</t>
+        <t pos="A">täysi-ikäinen</t>
       </tg>
     </mg>
   </e>
@@ -475,7 +437,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">tuliterä, upouusi</t>
+        <t pos="A">tuliterä</t>
+
+        <t pos="A">upouusi</t>
       </tg>
     </mg>
   </e>
@@ -493,7 +457,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">täysvillainen, kokovillainen</t>
+        <t pos="A">täysvillainen</t>
+
+        <t pos="A">kokovillainen</t>
       </tg>
     </mg>
   </e>
@@ -547,7 +513,13 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">ukkomies, nainut mies, naimisissa oleva mies, akanmies</t>
+        <t pos="A">ukkomies</t>
+
+        <tf pos="A">nainut mies</tf>
+
+        <tf pos="A">naimisissa oleva mies</tf>
+
+        <t pos="A">akanmies</t>
       </tg>
     </mg>
   </e>
@@ -565,7 +537,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">poikamies, vaimoton, akaton</t>
+        <t pos="A">poikamies</t>
+
+        <t pos="A">vaimoton</t>
+
+        <t pos="A">akaton</t>
       </tg>
     </mg>
   </e>
@@ -601,7 +577,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">alhaalla oleva, alava, matala</t>
+        <t pos="A">alhaalla oleva</t>
+
+        <t pos="A">alava</t>
+
+        <t pos="A">matala</t>
       </tg>
     </mg>
 
@@ -617,7 +597,13 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">alakerrassa, alapuolella asuva t. oleva</t>
+        <t pos="A">alakerrassa asuva</t>
+
+        <t pos="A">alakerrassa oleva</t>
+
+        <t pos="A">alapuolella asuva</t>
+
+        <t pos="A">alapuolella oleva</t>
       </tg>
     </mg>
   </e>
@@ -671,7 +657,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">vakinainen, pitempiaikainen, alituinen</t>
+        <t pos="A">vakinainen</t>
+
+        <t pos="A">pitempiaikainen</t>
+
+        <t pos="A">alituinen</t>
       </tg>
     </mg>
   </e>
@@ -707,7 +697,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">alaston, myös: alastoin</t>
+        <t pos="A">alaston</t>
+
+        <t pos="A">alasti oleva</t>
+
+        <t pos="A">alasti olija</t>
       </tg>
     </mg>
   </e>
@@ -9523,7 +9517,11 @@
       <tg xml:lang="fin">
         <t pos="A">soinniton</t>
 
-        <t pos="A">kumea (soinniton konsonantti)</t>
+        <tCtn>
+          <t pos="A">kumea</t>
+
+          <re>soinniton konsonantti</re>
+        </tCtn>
       </tg>
     </mg>
   </e>
@@ -9722,7 +9720,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">koeteltu, testattu</t>
+        <t pos="A">koeteltu</t>
+
+        <t pos="A">testattu</t>
       </tg>
     </mg>
   </e>
@@ -24065,6 +24065,7 @@
 
       <stg>
         <st Contlex="N_KOIRU">igävä</st>
+
         <st Contlex="N_KESTÄY">igä</st>
       </stg>
     </lg>
@@ -24073,7 +24074,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">surullinen</t><t pos="A">apea</t><t pos="A">vastentahtoinen</t>
+        <t pos="A">surullinen</t>
+
+        <t pos="A">apea</t>
+
+        <t pos="A">vastentahtoinen</t>
       </tg>
     </mg>
 

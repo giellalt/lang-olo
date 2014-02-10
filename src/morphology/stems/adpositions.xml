@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xml:lang="olo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="olo">
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l pos="Po">aiguhine</l>
+
+      <stg>
+        <st Contlex="PO_KIELINE">aiguhi</st>
+
+        <st Contlex="PO_KARJALAINE">aigu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Po">aikainen</t>
+
+        <t pos="Po">aikuinen</t>
+
+        <t pos="Po">aikaan kuuluva</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">transl. saada valmiiksi, saada aikaan, saada aikaiseksi,
+        tulla valmiiksi, tulla aikaan, tulla aikaiseksi</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="Po">mugah</l>
@@ -27,6 +60,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Pr">alle</l>

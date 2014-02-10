@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjective, comparative form - parembi: # Attribute ' / parembi' - full paradigm
+     parembi+A+Sg+Nom: parembi
+     parembi+A+Sg+Gen: paremban
+     parembi+A+Sg+Acc: [parembi, paremban]
+     parembi+A+Sg+Par: parembua
+     parembi+A+Sg+Tra: parembakse
+     parembi+A+Sg+Abe: [parembatta, parembata, parembattah]
+     parembi+A+Sg+Com: parembanke
+     parembi+A+Sg+Ine: parembas
+     parembi+A+Sg+Ela: [parembaspäi, parembas]
+     parembi+A+Sg+Ill: parembah
+     parembi+A+Sg+Ade: parembal
+     parembi+A+Sg+Abl: [parembalpäi, parembal]
+     parembi+A+Sg+All: parembale
+     parembi+A+Sg+Ess: parembannu
+     parembi+A+Sg+Ter: parembassah
+     parembi+A+Sg+Apr: paremballuo
+     parembi+A+Pl+Nom: parembat
+     parembi+A+Pl+Gen: parembien
+     parembi+A+Pl+Acc: parembat
+     parembi+A+Pl+Par: parembii
+     parembi+A+Pl+Tra: parembikse
+     parembi+A+Pl+Abe: [parembitta, parembita, parembittah]
+     parembi+A+Pl+Com: parembienke
+     parembi+A+Pl+Ine: parembis
+     parembi+A+Pl+Ela: [parembispäi, parembis]
+     parembi+A+Pl+Ill: parembih
+     parembi+A+Pl+Ade: parembil
+     parembi+A+Pl+Abl: [parembilpäi, parembil]
+     parembi+A+Pl+All: parembile
+     parembi+A+Pl+Ess: parembinnu
+     parembi+A+Pl+Ins: parembin
+     parembi+A+Pl+Apr: parembielluo
+     parembi+A+Sg+Nom+Clt/gi: parembatgi
+     parembi+A+Sg+Gen+Clt/gi: parembangi
+     parembi+A+Sg+Acc+Clt/gi: [parembigi, parembangi]
+     parembi+A+Sg+Par+Clt/gi: parembuagi
+     parembi+A+Sg+Tra+Clt/gi: parembaksegi
+     parembi+A+Sg+Abe+Clt/gi: [parembattagi, parembatagi, parembattahgi]
+     parembi+A+Sg+Com+Clt/gi: parembankegi
+     parembi+A+Sg+Ine+Clt/gi: parembasgi
+     parembi+A+Sg+Ela+Clt/gi: [parembaspäigi, parembasgi]
+     parembi+A+Sg+Ill+Clt/gi: parembahgi
+     parembi+A+Sg+Ade+Clt/gi: parembalgi
+     parembi+A+Sg+Abl+Clt/gi: [parembalpäigi, parembalgi]
+     parembi+A+Sg+All+Clt/gi: parembalegi
+     parembi+A+Sg+Ess+Clt/gi: parembannugi
+     parembi+A+Sg+Ter+Clt/gi: parembassahgi
+     parembi+A+Sg+Apr+Clt/gi: paremballuogi
+     parembi+A+Pl+Nom+Clt/gi: parembatgi
+     parembi+A+Pl+Gen+Clt/gi: parembiengi
+     parembi+A+Pl+Acc+Clt/gi: parembatgi
+     parembi+A+Pl+Par+Clt/gi: parembiigi
+     parembi+A+Pl+Tra+Clt/gi: parembiksegi
+     parembi+A+Pl+Abe+Clt/gi: [parembittagi, parembitagi, parembittahgi]
+     parembi+A+Pl+Com+Clt/gi: parembienkegi
+     parembi+A+Pl+Ine+Clt/gi: parembisgi
+     parembi+A+Pl+Ela+Clt/gi: [parembispäigi, parembisgi]
+     parembi+A+Pl+Ill+Clt/gi: parembihgi
+     parembi+A+Pl+Ade+Clt/gi: parembilgi
+     parembi+A+Pl+Abl+Clt/gi: [parembilpäigi, parembilgi]
+     parembi+A+Pl+All+Clt/gi: parembilegi
+     parembi+A+Pl+Ess+Clt/gi: parembinnugi
+     parembi+A+Pl+Ins+Clt/gi: parembingi
+     parembi+A+Pl+Apr+Clt/gi: parembielluogi
