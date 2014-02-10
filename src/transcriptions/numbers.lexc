@@ -20,7 +20,8 @@ Multichar_Symbols
 
 LEXICON Root
 < %+String [a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|q|y|z|æ|ø|å|ä|ö|á|č|đ|ŋ|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|Æ|Ø|Å|Ä|Ö|Á|Č|Đ|Ŋ|Š|Ŧ|Ž]* > COMMA ; ! This first line is to allow all letter strings.
-+NumNum NUMBERSECTION ;
+ NUMBERSECTION ;
+!+NumNum NUMBERSECTION ;
 +NumNum COMMASECTION ;
 
 LEXICON NUMBERSECTION
@@ -34,7 +35,7 @@ sada:1 HUNDREDT ;	! 100000-100999
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
-tåvsene:1 THOUSAND ;	! 1000-1999
+tuhat:1 THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
@@ -60,30 +61,24 @@ LEXICON HUNDREDM
 :%0%0 MILJON ;
 
 LEXICON TEENSM
-luhkie:1 TEENM ;
-
-LEXICON TEENM
-yksi:1     LOHKAIM ;
-kaksi:2   LOHKAIM ;
-kolme:3    LOHKAIM ;
-nelli:4 LOHKAIM ;
-viizi:5   LOHKAIM ;
-kuuzi:6   LOHKAIM ;
-seiččie:7 LOHKAIM ;
-kaheksa:8 LOHKAIM ;
-yheksä:9   LOHKAIM ;
+yksitostu:1     LOHKAIM ;
+kaksitostu:2   LOHKAIM ;
+kolmetostu:3    LOHKAIM ;
+nellitostu:4 LOHKAIM ;
+viizistostu:5   LOHKAIM ;
+kuuzitostu:6   LOHKAIM ;
+seiččietostu:7 LOHKAIM ;
+kaheksatostu:8 LOHKAIM ;
+yheksätostu:9   LOHKAIM ;
 
 LEXICON LOHKAIM
 MILJON ;
 
 LEXICON TENSM
-luhkie:1%0 MILJON ;
+kymmene:1%0 MILJON ;
 kaksi:2   LUHKIEM ;
 kolme:3    LUHKIEM ;
 nelli:4 LUHKIEM ;
-njielje+Use/NG:4  LUHKIEM ;
-nieljie+Use/NG:4  LUHKIEM ;
- nielje+Use/NG:4  LUHKIEM ;
 viizi:5   LUHKIEM ;
 kuuzi:6   LUHKIEM ;
 seiččie:7 LUHKIEM ;
@@ -91,17 +86,14 @@ kaheksa:8 LUHKIEM ;
 yheksä:9   LUHKIEM ;
 
 LEXICON LUHKIEM
-luhkie:%0 MILJON ;
-luhkie:   ONESM ;
+kymmen:%0 MILJON ;
+kymmen:   ONESM ;
 
 LEXICON ONESM
 yksi% miljon% :1 OVERTHOUSANDS ;
 kaksi:2         MILJON ;
 kolme:3          MILJON ;
 nelli:4       MILJON ;
-njielje+Use/NG:4        MILJON ;
-nieljie+Use/NG:4        MILJON ;
- nielje+Use/NG:4        MILJON ;
 viizi:5         MILJON ;
 kuuzi:6         MILJON ;
 seiččie:7       MILJON ;
@@ -118,12 +110,10 @@ LEXICON MILJON
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
 sada:1 HUNDREDT ;	! 100.000.000
-stoereluhkie:1 HUNDREDT ;	! 100.000.000
-stoerreluhkie:1 HUNDREDT ;	! 100.000.000
 :%0 TENST ;		!  20.000.000
 :%0 TEENST ;		!  10.000.000
 :%0%0 ONEST ;		!   2.000.000
-tåvsene:%0%01 THOUSAND ;	!   1.000.000
+tuhat:%0%01 THOUSAND ;	!   1.000.000
 :%0%0%0 UNDERTHOUSAND ;	
 :%0%0%0%0 TENS ;
 :%0%0%0%0 TEENS ;
@@ -134,9 +124,6 @@ LEXICON HUNDREDST
 kaksi:2   CUODIT ;	! 200000-299999
 kolme:3    CUODIT ;	! 300000-399999
 nelli:4 CUODIT ;	! 400000-499999
-njielje+Use/NG:4  CUODIT ;
-nieljie+Use/NG:4  CUODIT ;
-nielje+Use/NG:4  CUODIT ;
 viizi:5   CUODIT ;	! 500000-599999
 kuuzi:6   CUODIT ;	! 600000-699999
 seiččie:7 CUODIT ;	! 700000-799999
@@ -210,9 +197,7 @@ UNDERTHOUSAND ;	   ! 1100-1999
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
 sada:1 HUNDRED ;
-tjuatede:1  CUODAAT ;
-stoerelåhkede+Use/NG:1  CUODAAT ;
-stoerrelåhkede+Use/NG:1  CUODAAT ;
+suas:1  CUODAAT ; ! Is this correct?
 
 LEXICON HUNDREDS
 kaksi:2   CUODI ;
@@ -276,15 +261,15 @@ kaheksa:8 COMMA ;
 yheksä:9 COMMA ;
 
 LEXICON ORDINAL
-voestes:1%.     COMMA ;
-mubpie:2%.   COMMA ;
-gåalmede:3%.   COMMA ;
-njealjede:4%. COMMA ;
-viizide:5%.   COMMA ;
-govhtede:6%.   COMMA ;
+enzimäine:1%.     COMMA ;
+toine:2%.   COMMA ;
+kolmas:3%.   COMMA ;
+nelläs:4%. COMMA ;
+viijes:5%.   COMMA ;
+kuvves:6%.   COMMA ;
 seiččemäs:7%.    COMMA ;
-gaaktsede:8%.   COMMA ;
-åktsede:9%.    COMMA ;
+haheksas:8%.   COMMA ;
+yheksäs:9%.    COMMA ;
 
 LEXICON COMMA
  ENDLEX ;
