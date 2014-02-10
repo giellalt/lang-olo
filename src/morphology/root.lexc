@@ -187,6 +187,8 @@ Multichar_Symbols
 +Der/Tu
 +Der/IA
 
++Der/A  !!= * __@CODE@__ Adjective derivation
+
 
 !! Morphophonology
 !! ---------------
@@ -275,6 +277,12 @@ LEXICON PCLE_
 
 LEXICON PO_
 +Po: # ; 
+
+LEXICON PO_KIELINE
++Po+Der/A: A_KIELINE ; 
+
+LEXICON PO_KARJALAINE
++Po+Der/A: A_KARJALAINE ; 
 
 LEXICON PREP_
 +Prep: # ; 
