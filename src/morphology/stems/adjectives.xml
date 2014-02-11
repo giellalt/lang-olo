@@ -26,6 +26,24 @@
 
   <e>
     <lg>
+      <l pos="A">parembi</l>
+
+      <stg>
+        <st Contlex="A_PAREMBI">parem%^NONEb</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">parempi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">agjatoi</l>
 
       <stg>
@@ -119,10 +137,6 @@
 
     <mg>
       <defNative/>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
 
       <tg xml:lang="fin">
         <t pos="A">ahne</t>
@@ -337,7 +351,7 @@
       <l pos="A">aijembi</l>
 
       <stg>
-        <st Contlex="A_PAREMBI">aijembi</st>
+        <st Contlex="A_PAREMBI">aijem%^NONEb</st>
       </stg>
     </lg>
 
@@ -765,7 +779,7 @@
       <l pos="A">alembi</l>
 
       <stg>
-        <st Contlex="A_PAREMBI">alembi</st>
+        <st Contlex="A_PAREMBI">alem%^NONEb</st>
       </stg>
     </lg>
 
@@ -2044,10 +2058,6 @@
 
     <mg>
       <defNative/>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
 
       <tg xml:lang="fin">
         <t pos="A">enin</t>
@@ -9002,10 +9012,6 @@
     <mg>
       <defNative/>
 
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
       <tg xml:lang="fin">
         <t pos="V">korkea</t>
       </tg>
@@ -14530,7 +14536,7 @@
       <l pos="A">nuorembi</l>
 
       <stg>
-        <st Contlex="A_PAREMBI">nuoremb</st>
+        <st Contlex="A_PAREMBI">nuorem%^NONEb</st>
       </stg>
     </lg>
 
