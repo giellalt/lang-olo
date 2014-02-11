@@ -6755,30 +6755,8 @@
 
       <tg xml:lang="fin">
         <t pos="A">kolea</t>
-      </tg>
-    </mg>
-  </e>
 
-  <e>
-    <lg>
-      <l pos="A">kalie</l>
-
-      <stg>
-        <st Contlex="A_">kalie</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="A"/>
-      </tg>
-
-      <tg xml:lang="fin">
         <t pos="A">syyskylmä</t>
-
-        <t pos="A">kolea</t>
       </tg>
     </mg>
   </e>
@@ -24034,7 +24012,7 @@
       <l pos="A">imel</l>
 
       <stg>
-        <st Contlex="A_">imel</st>
+        <st Contlex="A_KARJAL">imel</st>
       </stg>
     </lg>
 
@@ -24042,7 +24020,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">äitelä, liian makea</t>
+        <t pos="A">äitelä</t>
+
+        <t pos="A">liian makea</t>
       </tg>
     </mg>
   </e>
@@ -24052,7 +24032,7 @@
       <l pos="A">kadal</l>
 
       <stg>
-        <st Contlex="A_">kadal</st>
+        <st Contlex="A_KARJAL">kadal</st>
       </stg>
     </lg>
 
@@ -24060,7 +24040,13 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">kovaosainen, onneton, huono-onninen, säälittävä</t>
+        <t pos="A">kovaosainen</t>
+
+        <t pos="A">onneton</t>
+
+        <t pos="A">huono-onninen</t>
+
+        <t pos="A">säälittävä</t>
       </tg>
     </mg>
   </e>
@@ -24092,7 +24078,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">tylsä, pitkäveteinen</t>
+        <t pos="N">tylsä</t>
+
+        <t pos="N">pitkäveteinen</t>
       </tg>
     </mg>
   </e>
@@ -24146,7 +24134,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Pron">harva, joku</t>
+        <t pos="Pron">harva</t>
+
+        <t pos="Pron">joku</t>
       </tg>
     </mg>
   </e>
@@ -24218,7 +24208,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">vaitonainen, vaitelias</t>
+        <t pos="A">vaitonainen</t>
+
+        <t pos="A">vaitelias</t>
       </tg>
     </mg>
   </e>
@@ -24272,7 +24264,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">vaivalloinen, raskas</t>
+        <t pos="A">vaivalloinen</t>
+
+        <t pos="A">raskas</t>
       </tg>
     </mg>
   </e>
@@ -24290,7 +24284,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">vaivainen, vammainen; kovaosainen</t>
+        <t pos="A">vaivainen</t>
+
+        <t pos="A">vammainen</t>
+
+        <t pos="A">kovaosainen</t>
       </tg>
     </mg>
   </e>
@@ -24344,7 +24342,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">vajottava, upottava</t>
+        <t pos="A">vajottava</t>
+
+        <t pos="A">upottava</t>
       </tg>
     </mg>
   </e>
@@ -24362,7 +24362,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">outo, vieras; äkkinäinen</t>
+        <t pos="A">outo</t>
+
+        <t pos="A">vieras</t>
+
+        <t pos="A">äkkinäinen</t>
       </tg>
     </mg>
   </e>
@@ -24418,7 +24422,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">mitätön, turha</t>
+        <t pos="A">mitätön</t>
+
+        <t pos="A">turha</t>
       </tg>
     </mg>
   </e>
@@ -24436,7 +24442,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">valettu; valettu, kaadettu</t>
+        <t pos="A">valettu</t>
+
+        <t pos="A">valettu, kaadettu</t>
       </tg>
     </mg>
   </e>

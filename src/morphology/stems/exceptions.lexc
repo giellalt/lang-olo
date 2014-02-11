@@ -360,13 +360,13 @@ Puavil:Puavil PROP_KARJAL "" ;
 Iivan:Iivan PROP_KARJAL "" ;
 nähtä:nähtih V_NÄHTÄ "" ;
 !kaiken:kaiken Q_KAI "" ;
-älgiä:älgiä Q_X "" ;
+!älgiä:älgiä Q_X "" ; imperat
 pie:pie V_PIDIÄ "" ;
 nämä:nämä Q_X "" ;
 nousta:nouz V_PESTÄ "" ;
 näin:näin V_NÄHTÄ "" ;
 !kaikes:kaikes PRON_X "kai" ;
-Älgiä:Älgiä Q_X "" ;
+!Älgiä:Älgiä Q_X "" ; imperat
 nähte:nähte V_NÄHTÄ "" ;
 !min:min PRON_MI "" ;
 !tulduu:tulduu V_TULLA "tultua" ; pass. II partis.
@@ -387,7 +387,7 @@ nähte:nähte V_NÄHTÄ "" ;
 !Tuatan:Tuatan Q_X "" ; yks gen
 !puutui:puutui Q_X "" ; imperf
 !lähtie:lähtie Q_X "" ; I inf
-Kuibo:Kuibo Q_X "" ;
+Kuibo:Kuibo Q_X "" ; 
 !velli:velli Q_X "" ; nom
 rodei:rodei Q_X "" ; 
 rungan:rungan Q_X "" ;
@@ -408,23 +408,23 @@ rungan:rungan Q_X "" ;
 !nähnyh:nähnyh Q_X "" ; akt.II partis.
 !käzis:käzis Q_X "" ; mon illat-elat.
 !Moisei:Moisei Q_X "" ; erisnimi nom
-toi:toi Q_X "" ;
+!toi:toi Q_X "" ; imperf. y.3.p. / SäämJ. demonstr. pron
 !Nämä:Nämä Q_X "" ; PRON nom, myös: nämät, nämmä
-Midäbo:Midäbo Q_X "" ;
+!Midäbo:Midäbo Q_X "" ; adv. + -bo
 !mih:mih Q_X "" ; illat
 !syvvä:syvvä Q_X "" ; I inf.
 !käit:käit Q_X "" ; mon.nom
 !nämis:nämis Q_X "" ; mon.iness.
 !muaman:muaman Q_X "" ; gen.
-kuibo:kuibo Q_X "" ;
-Messii:Messii Q_X "" ;
+!kuibo:kuibo Q_X "" ; adv. + bo
+!Messii:Messii Q_X "" ; PROP y.nom
 !nämii:nämii Q_X "" ; mon.partit.
-nikedä:nikedä Q_X "" ;
+!nikedä:nikedä Q_X "" ; part
 !käzil:käzil Q_X "" ; mon.adess.
 !mendyy:mendyy Q_X "" ; pass.II partis.partit
 !kaikel:kaikel Q_X "" ; adess-ablat.
 !tuatan:tuatan Q_X "" ; y.gen
-oldas:oldas Q_X "" ;
+!oldas:oldas Q_X "" ; akt. kond. prees. mon.3.
 !luadi:luadi Q_X "" ; imperf
 !käil:käil Q_X "" ; allat-ablat.
 !kačoi:kačoi Q_X "" ; imperf
@@ -455,7 +455,7 @@ Simon:Simon Q_X "" ;
 !tiijät:tiijät Q_X "" ; akt.ind.prees.y.2.p.
 !tiezi:tiezi Q_X "" ; imperf y.3.
 !Olgua:Olgua Q_X "" ; PROP y. partit-akk.
-!työtty:työtty Q_X "" ; pass ind imperf
+!työtty:työtty Q_X "" ; pass II partis
 !lähtöy:lähtöy Q_X "" ; prees. y.3.
 !igiä:igiä Q_X "" ; y.partit
 !sudre:sudre Q_X "" ; ADV
@@ -469,7 +469,7 @@ Simon:Simon Q_X "" ;
 !kerdyi:kerdyi Q_X "" ; imperf. y.3.
 !kaikil:kaikil Q_X "" ; mon.all.-abl.
 !Avraam:Avraam Q_X "" ; PROP nom
-!tuvvah:tuvvah Q_X "" ; pass.prees/ akt.prees.mon.3.
+!tuvvah:tuvvah Q_X "" ;  akt.prees.mon.3.
 !suvvon:suvvon Q_X "" ; y.gen.
 ollus:ollus Q_X "" ;
 !muamah:muamah Q_X "" ; illat. / y.nom + 3.p.om.liite
@@ -504,54 +504,54 @@ olle:olle Q_X "" ;
 miku:miku Q_X "" ;
 midäbo:midäbo Q_X "" ;
 !käzin:käzin Q_X "" ; instr.
-!kävväh:kävväh Q_X "" ; pass.ind.prees / akt. ind. mon 3.p.
+!kävväh:kävväh Q_X "" ; akt. ind. mon 3.p.
 !käskyt:käskyt Q_X "" ; mon.nom.
 !kazvoi:kazvoi Q_X "" ; imperf.y,3,
-ičen:ičen Q_X "" ;
-ičel:ičel Q_X "" ;
-Seuran:Seuran Q_X "" ;
-rungua:rungua Q_X "" ;
-pimies:pimies Q_X "" ;
-muutti:muutti Q_X "" ;
-muamua:muamua Q_X "" ;
-käi:käi Q_X "" ;
-kyzyö:kyzyö Q_X "" ;
-jengua:jengua Q_X "" ;
-David:David Q_X "" ;
-Aminʼ:Aminʼ Q_X "" ;
-väin:väin Q_X "" ;
-vietäh:vietäh Q_X "" ;
-tovel:tovel Q_X "" ;
-ruan:ruan Q_X "" ;
-oldu:oldu Q_X "" ;
-nʼelli:nʼelli Q_X "" ;
-nostah:nostah Q_X "" ;
-mäile:mäile Q_X "" ;
-löydyy:löydyy Q_X "" ;
-löydi:löydi Q_X "" ;
-kummua:kummua Q_X "" ;
-tulies:tulies Q_X "" ;
-senny:senny Q_X "" ;
-rubien:rubien Q_X "" ;
-pyzyö:pyzyö Q_X "" ;
-nʼälgy:nʼälgy Q_X "" ;
-luopäi:luopäi Q_X "" ;
-laval:laval Q_X "" ;
-käskys:käskys Q_X "" ;
-kolmes:kolmes Q_X "" ;
-kazvau:kazvau Q_X "" ;
-Mari:Mari Q_X "" ;
-Kaiken:Kaiken Q_X "" ;
-Enimät:Enimät Q_X "" ;
-väis:väis Q_X "" ;
-viel:viel Q_X "" ;
-veriän:veriän Q_X "" ;
+!ičen:ičen Q_X "" ; gen / akk
+!ičel:ičel Q_X "" ; adess. / ablat.
+!Seuran:Seuran Q_X "" ; PROP, gen
+!rungua:rungua Q_X "" ; partit.
+!pimies:pimies Q_X "" ; iness./elat
+!muutti:muutti Q_X "" ; imperf. y.3.
+!muamua:muamua Q_X "" ; partit.
+!käi:käi Q_X "" ; imperf. y.3. murt., tav. kävyi
+!kyzyö:kyzyö Q_X "" ; I infinit.nom
+!jengua:jengua Q_X "" ; part
+!David:David Q_X "" ; PROP
+!Aminʼ:Aminʼ Q_X "" ; interj.
+!väin:väin Q_X "" ; gen
+!vietäh:vietäh Q_X "" ; pass.prees.lyhyt muoto
+!tovel:tovel Q_X "" ; adess
+!ruan:ruan Q_X "" ; prees y.1.p.
+!oldu:oldu Q_X "" ; pass. II partis.
+!nʼelli:nʼelli Q_X "" ; NUM
+!nostah:nostah Q_X "" ; akt. mon. 3. 
+!mäile:mäile Q_X "" ; allat.
+!löydyy:löydyy Q_X "" ; prees. y.3.
+!löydi:löydi Q_X "" ; imperf.y.3..
+!kummua:kummua Q_X "" ; partit
+tulies:tulies Q_X "" ; 
+!senny:senny Q_X "" ; ess
+!rubien:rubien Q_X "" ; prees.y.1.p.
+!pyzyö:pyzyö Q_X "" ; I inf. nom
+!nʼälgy:nʼälgy Q_X "" ; nom
+!luopäi:luopäi Q_X "" ; adv
+!laval:laval Q_X "" ; adess
+!käskys:käskys Q_X "" ; iness / elat
+!kolmes:kolmes Q_X "" ; NUM iness
+!kazvau:kazvau Q_X "" ; pree.y.3.
+!Mari:Mari Q_X "" ; PROP nom
+!Kaiken:Kaiken Q_X "" ;PRON gen
+!Enimät:Enimät Q_X "" ; mon nom
+!väis:väis Q_X "" ; y iness / elat
+!viel:viel Q_X "" ; adess / ablat
+!veriän:veriän Q_X "" ; y.gen
 tuliel:tuliel Q_X "" ;
-rouno:rouno Q_X "" ;
-oigiet:oigiet Q_X "" ;
+!rouno:rouno Q_X "" ; adv
+!oigiet:oigiet Q_X "" ;mon.nom
 nämien:nämien Q_X "" ;
-kuvat:kuvat Q_X "" ;
-kallis:kallis Q_X "" ;
+!kuvat:kuvat Q_X "" ; mon.nom
+!kallis:kallis Q_X "" ;
 hädiä:hädiä Q_X "" ;
 agjah:agjah Q_X "" ;
 Elias:Elias Q_X "" ;
