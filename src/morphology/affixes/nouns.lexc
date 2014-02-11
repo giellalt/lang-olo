@@ -187,14 +187,14 @@ LEXICON N_PEZII-SG
 +N:%>j NMN_PEZII-SG        ;
 
 LEXICON N_PEZII-PL
-+N:%> NMN_PEZII-PL        ;
++N:%>j NMN_PEZII-PL        ;
 
 LEXICON N_KESTÄY !!= @CODE@ kestäy:kestä
         N_KESTÄY-SG ;
         N_KESTÄY-PL ;
 
 LEXICON N_KESTÄY-SG
-+N:%>j NMN_KESTÄY-SG        ;
++N:%> NMN_KESTÄY-SG        ;
 
 LEXICON N_KESTÄY-PL
 +N:%> NMN_KESTÄY-PL        ;
@@ -790,7 +790,7 @@ LEXICON NMN_PAREMBI-PL
 :ie PLGENSUF_N ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
-+Pl: Noun-NB-01 ;
++Pl:i Noun-NB-01 ;
 
 LEXICON	NMN_KUDAI !!= @CODE@ kudai:kuda
  NMN_KUDAI-SG ;
@@ -873,7 +873,7 @@ LEXICON NMN_PÄIVY-SG
 
 LEXICON NMN_PÄIVY-PL
  PLNOMSUF ;
-:%>ie PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
 +Pl:%>i Noun-NB-01 ;
@@ -1707,6 +1707,7 @@ LEXICON SGGENSUF
 +Sg+Gen:%^WGStem%>n K ;
 +Sg+Acc:%^WGStem%>n K ;
 +Sg+Com:%^WGStem%>nke K ;
++Sg+Apr:%^WGStem%>ll%{uy%}%{oö%} K ;
 
 LEXICON SGNOMSUF
 +Sg+Nom: K ;
@@ -1722,10 +1723,12 @@ LEXICON SGPARSUF_A2
 LEXICON PLGENSUF_EN
 +Pl+Gen:%>en K ;
 +Pl+Com:%>enke K ;
++Pl+Apr:%>ell%{uy%}%{oö%} K ;
 
 LEXICON PLGENSUF_N
 +Pl+Gen:%>n K ;
 +Pl+Com:%>nke K ;
++Pl+Apr:%>ll%{uy%}%{oö%} K ;
 
 LEXICON PLINSSUF
 +Pl+Ins:%>n K ;
@@ -1757,7 +1760,6 @@ LEXICON Noun-NB-01
 +Abe:%^WGStem%>tt%{aä%}h K ;
 +Abe:%^WGStem%>tt%{aä%} K ;
 +Abe:%^WGStem%>t%{aä%} K ;
-+Apr:%^WGStem%>ll%{uy%}%{oö%} K ;
 +Ela:%^WGStem%>s K ;
 +Ela:%^WGStem%>späi K ;
 +Ess:%^WGStem%>nn%{uy%} K ;
