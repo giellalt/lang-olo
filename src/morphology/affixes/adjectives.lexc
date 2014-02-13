@@ -134,9 +134,11 @@ LEXICON A_HUOLETOI !!= @CODE@ huoletoi:huolet
 
 LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
 +A:	NMN_KARJALAINE	 ;
++A+Der/mbi+A:zem^NONEb NMN_PAREMBI        ;
 
 LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 +A: NMN_KIELINE ;
++A+Der/mbi+A:zem^NONEb NMN_PAREMBI        ;
 
 LEXICON A_TOINE !!= @CODE@ toine:to
 +A: NMN_TOINE ;
@@ -162,10 +164,12 @@ LEXICON A_PESSYH !!= @CODE@ pessyh:pessy
 
 LEXICON A_ARMAS !!= @CODE@ armas:arma
 +A: NMN_ARMAS        ;
++A+Der/mbi+A:h%{aä%}m^NONEb NMN_PAREMBI        ;
 
 LEXICON A_TUORES !!= @CODE@ tuores:tuore
 !!= * Yaml: __A-tuores__
 +A: NMN_TUORES ;
++A+Der/mbi+A:hem^NONEb NMN_PAREMBI        ;
 
 LEXICON A_SUURIM !!= @CODE@ suurim:suurim
 +A:	NMN_SUURIM ;
