@@ -147,6 +147,7 @@ LEXICON V_ALETA !!= @CODE@ aleta:ale (alenov)
 +V:n INDPRTPL1     ;
 +V:n INDPRTPL2     ;
 +V: INDPRTPL3_ttih     ;
++V+Ind+PrfPrc+Use/Sub:%>nn%{uy%}t K ;
 +V+Ind+PrfPrc:%>nn%{uy%}h K ;
 +V+Ind+PrfPrcPl3:%>tt%{uy%} K ;
 +V: INDPRTCONNEG_nnUh ; !!
@@ -1088,10 +1089,12 @@ LEXICON  PSSPRSPRC_EttAvU
 
 LEXICON ACTPRFPRC_nUH
 +ActPrfPrc:%>n%{uy%}h K ;
++ActPrfPrc+Use/Sub:%>n%{uy%}t K ;
 +ActPrfPrc:%>n%{uy%} NMN_PESSYH ;
 
 LEXICON ACTPRFPRC_nnUH
 +ActPrfPrc:%^WGStem%>nn%{uy%}h K ;
++ActPrfPrc+Use/Sub:%^WGStem%>nn%{uy%}h K ;
 +ActPrfPrc:%^WGStem%>nn%{uy%} NMN_PESSYH ;
 
 LEXICON  PSSPRFPRC_DU
@@ -1113,9 +1116,11 @@ LEXICON  PSSPRFPRC_EttU
 !!
 LEXICON RCPRFPRC_nUHes
 +RcPrfPrc:%>n%{uy%}hes K ;
+!+RcPrfPrc+Use/Sub:%>n%{uy%}tes K ;
 
 !LEXICON RCPRFPRC_nnUHes
 !+RcPrfPrc:%^WGStem%>nn%{uy%}hes K ;
+!+RcPrfPrc+Use/Sub:%^WGStem%>nn%{uy%}tes K ;
 
 LEXICON  RCPRFPRC_DUhes
 +RcPrfPrc+Pl3:%>d%{uy%}hes K ;
@@ -1129,7 +1134,7 @@ LEXICON  RCPRFPRC_DUhes
 LEXICON M-INF
 +Der/mine:%>mi NMN_KIELINE ;
 +Der/mA+Inf+Abe:%>m%{aä%}tt%{aä%}h K ;
-+Der/mA+Inf+Abe:%>m%{aä%}tt%{aä%} K ;
++Der/mA+Inf+Abe+Use/Sub:%>m%{aä%}tt%{aä%} K ;
 +Der/mA+Inf+Abe:%>m%{aä%}t%{aä%} K ;
 +Der/mA+Inf+Ade:%>m%{aä%}l K ;
 +Der/mA+Inf+Ela:%>m%{aä%}späi K ;
