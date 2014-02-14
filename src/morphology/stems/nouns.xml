@@ -389,7 +389,7 @@
       <l pos="N">ahven</l>
 
       <stg>
-        <st Contlex="N_">ahven</st>
+        <st Contlex="N_SIEMEN">ahven</st>
       </stg>
     </lg>
 
@@ -653,7 +653,7 @@
       <l pos="N">aironhangu</l>
 
       <stg>
-        <st Contlex="N_">airon#hanga</st>
+        <st Contlex="N_MUARJU">airon#hanga</st>
       </stg>
     </lg>
 
@@ -1051,7 +1051,7 @@
       <l pos="N">alahaine leuguluu</l>
 
       <stg>
-        <st Contlex="N_">alahaine leuguluu</st>
+        <st Contlex="N_KUU">alahaine leugu#luu</st>
       </stg>
     </lg>
 
@@ -1087,7 +1087,7 @@
       <l pos="N">alaizet</l>
 
       <stg>
-        <st Contlex="N_">alaizet</st>
+        <st Contlex="N_KARJALAINE">ala</st>
       </stg>
     </lg>
 
@@ -1147,7 +1147,7 @@
       <l pos="N">alameččy</l>
 
       <stg>
-        <st Contlex="N_">alameččy</st>
+        <st Contlex="N_PÄIVY">ala#meččä</st>
       </stg>
     </lg>
 
@@ -1237,7 +1237,7 @@
       <l pos="N">alasija</l>
 
       <stg>
-        <st Contlex="N_">ala#sija</st>
+        <st Contlex="N_KALA">ala#sija</st>
       </stg>
     </lg>
 
@@ -1252,10 +1252,10 @@
 
   <e>
     <lg>
-      <l pos="N">alastomuus</l>
+      <l pos="N">alastomus</l>
 
       <stg>
-        <st Contlex="N_">alastomuus</st>
+        <st Contlex="N_PUHTAHUS">alastomu</st>
       </stg>
     </lg>
 
@@ -1273,7 +1273,7 @@
       <l pos="N">alatila</l>
 
       <stg>
-        <st Contlex="N_">alatila</st>
+        <st Contlex="N_KALA">ala#tila</st>
       </stg>
     </lg>
 
@@ -1481,7 +1481,7 @@
       <l pos="N">alussovat</l>
 
       <stg>
-        <st Contlex="N_">alussovat</st>
+        <st Contlex="N_OZA-PL">alus#so</st>
       </stg>
     </lg>
 
@@ -88003,7 +88003,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">vara</t><t pos="N">varallisuus</t>
+        <t pos="N">vara</t>
+
+        <t pos="N">varallisuus</t>
       </tg>
     </mg>
 
@@ -92108,6 +92110,7 @@
 
       <tg xml:lang="fin">
         <t pos="N">kontti</t>
+
         <t pos="N">tuohikontti</t>
       </tg>
     </mg>
