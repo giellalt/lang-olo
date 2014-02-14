@@ -313,6 +313,23 @@ o:u <=> Cns _ %> [ %{aä%}:o | %{aäInf%}: ] ;
 !€0 vä0i00n
 !! }}}
 
+
+"e:o"
+!! __@RULENAME@__ Vowel harmony suffixes Back
+!! {{{
+ e:o <=>  BT  _ %> %{uy%}: ;
+!€# luge>%{uy%}
+!€0 lugo0u
+!! }}}
+
+"e:ö"
+!! __@RULENAME@__ Vowel harmony 
+!! {{{
+ e:ö <=>  FT  _ %> %{uy%}: ;
+!€# käske>%{uy%}
+!€0 käskö0y
+!! }}}
+
 ! Word final u, y
 "ä:y word final"
 !! __@RULENAME@__
