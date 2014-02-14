@@ -23,12 +23,14 @@ LEXICON NUM_TUHAT
 LEXICON NUM_KARJALAINE !!= @CODE@ 
 +Qnt+Num: NMN_KARJALAINE ;
 
-LEXICON NUM_VUOZI !!= @CODE@ kuuzi, viizi
+LEXICON NUM_VUOZI !!= @CODE@ kuuzi:kuud, viizi:viid
 +Num+Card: NMN_VUOZI ;
++Num:e ORD_01 ;
+
 
 LEXICON NUM_KOLME !!= @CODE@ 
 +Num+Card+Sg+Nom:e K ;
-+Num+Ord+Sg+Nom:as K ;
++Num:a ORD_01 ;
 
 LEXICON QNT_
 +TYÄ+Qnt: # ;
@@ -41,6 +43,9 @@ LEXICON ORD_TOINE !!= @CODE@ toine:to
 
 LEXICON ORD_KARJALAINE !!= @CODE@ enzimäine:ensimä
 +Qnt+Ord: NMN_KARJALAINE ;
+
+LEXICON ORD_01
++Ord+Sg+Nom:%^WGStem%>s K ;
 
 ! vim: set ft=xfst-lexc:
 
