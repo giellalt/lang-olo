@@ -643,6 +643,7 @@ LEXICON NMN_MUARJU !!= @CODE@ muarju:muarja
 
 LEXICON NMN_MUARJU-SG
 :%^A2U SGNOMSUF ;
+ SGNOM/PXSP3 ;
  SGGENSUF ;
  SGPARSUF_A2 ;
 +Sg: Noun-NB-01 ;
@@ -932,17 +933,17 @@ LEXICON NMN_SYGYZY-PL
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
 
-LEXICON NMN_VALGEI
+LEXICON NMN_VALGEI !!= * __@CODE@__ valgei:valge
 	NMN_VALGEI-SG	;
 	NMN_VALGEI-PL	;
 
 LEXICON NMN_VALGEI-SG
 :i SGNOMSUF ;
-:e SGPARSUF_A2 ;
-:e SGGENSUF ;
-+Sg:e Noun-NB-01 ;
+:%>e SGPARSUF_dU ;
+:%>e SGGENSUF ;
++Sg:%>e Noun-NB-01 ;
 LEXICON NMN_VALGEI-PL
-:e PLNOMSUF	;
+:%>e PLNOMSUF	;
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
@@ -1765,6 +1766,10 @@ LEXICON Noun-NB-01
 +Prl:%^WGStem%>či K ;
 +Ter:%^WGStem%>ss%{aä%}h K ;
 
+
+!! !SINGULAR POSSESSA
+LEXICON SGNOM/PXSP3
++Sg+Nom+PxSP3:%>h K ;
 
 ! vim: set ft=xfst-lexc:
 
