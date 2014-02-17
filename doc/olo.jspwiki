@@ -104,7 +104,10 @@ Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
   %{aäInf%}  ! This is for the infinitive marker after i and u stems
+  %{oöØ%}   Used in present participle
   %{ui%}  ! in imperative before %{aä%}:
+  %{ijPRC%}  participle
+
 And following triggers to control variation
   %^DEVOICE   !
   %^VOICE   ! pestä: pezen
@@ -945,6 +948,11 @@ Conditional
   %{ui%}:i   in imperative before %{aä%}:
 
 
+ %{oöØ%}:0   Used in present participle
+
+
+  %{ijPRC%}:j  participle
+
 
 
 
@@ -1056,6 +1064,7 @@ __ö:y before subsequent ö__ Diphthong ö+ö, ö+%{aä%}:ö => yö
 __e:i before subsequent %{aä%}:e__ Diphthong o+o => uo erota:eruou
 {{{
 
+
 }}}
 
 
@@ -1078,7 +1087,7 @@ __a:0 in suaja:sai__
 !!iToj between vowels
 __i:j__
 
-__j:i__ 
+__%{ijPRC%}:i__ 
 {{{
 *  a _ %> i ;  +ActPrsPrc
 }}}
@@ -1100,6 +1109,13 @@ __i:0 reboi:reboloi__
 
 
 __%{oö%}:o__ Vowel harmony suffixes Back
+
+__%{oöØ%}:0__ Vowel harmony suffixes Back
+
+__%{oöØ%}:o__ Vowel harmony suffixes Back
+
+__%{oöØ%}:ö__ Vowel harmony suffixes Front
+
 
 
 __%{uy%}:u__ Vowel harmony suffixes Back

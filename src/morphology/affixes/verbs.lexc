@@ -355,6 +355,7 @@ LEXICON V-VV_03 !!= @CODE@ tulla:tul
 : IMPRT_KA ;
 : IMPRTPL3_DAhes ;
 
+!:%^VOICEe ACTPRSPRC_OSTAI ;
 :%^VOICEi ACTPRSPRC_PEZII ;
 : ACTPRFPRC_nUH ;
 : PSSPRSPRC_DAvU ;
@@ -1056,16 +1057,16 @@ LEXICON VR_IMPRTPL3_EttAhes
 !+ActPrsPrc:%>v%{aä%} NMN_PÄIVY ;
 
 LEXICON  ACTPRSPRC_IU
-+ActPrsPrc:%>j NMN_OSTAI ;
++ActPrsPrc:%>%{ijPRC%} NMN_OSTAI ;
 
 LEXICON  ACTPRSPRC_OSTAI
-+ActPrsPrc:%>j NMN_OSTAI ;
++ActPrsPrc:%>%{ijPRC%} NMN_OSTAI ;
 
 LEXICON  ACTPRSPRC_PEZII
-+ActPrsPrc:%>j NMN_PEZII ;
++ActPrsPrc:%>%{ijPRC%} NMN_PEZII ;
 
 LEXICON  ACTPRSPRC_AVUAJU
-+ActPrsPrc:%>j%{aä%} NMN_PÄIVY ;
++ActPrsPrc:%>%{ijPRC%}%{aä%} NMN_PÄIVY ;
 
 LEXICON  PSSPRSPRC_DAvU
 +PssPrsPrc:%>d%{aä%}v%{uy%} K ;
