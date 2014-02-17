@@ -93,7 +93,10 @@ Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
   %{aäInf%}  ! This is for the infinitive marker after i and u stems
+  %{oöØ%}   Used in present participle
   %{ui%}  ! in imperative before %{aä%}:
+  %{ijPRC%}  participle
+
 And following triggers to control variation
   %^DEVOICE   !
   %^VOICE   ! pestä: pezen

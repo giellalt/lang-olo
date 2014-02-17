@@ -174,20 +174,20 @@ LEXICON N_OSTAI !!= @CODE@ ostai:osta
         N_OSTAI-PL ;
 
 LEXICON N_OSTAI-SG
-+N:%>j NMN_OSTAI-SG        ;
++N:%>%{ijPRC%} NMN_OSTAI-SG        ;
 
 LEXICON N_OSTAI-PL
-+N:%> NMN_OSTAI-PL        ;
++N:%>%{ijPRC%} NMN_OSTAI-PL        ;
 
 LEXICON N_PEZII !!= @CODE@ pezii:pezi
         N_PEZII-SG ;
         N_PEZII-PL ;
 
 LEXICON N_PEZII-SG
-+N:%>j NMN_PEZII-SG        ;
++N:%>%{ijPRC%} NMN_PEZII-SG        ;
 
 LEXICON N_PEZII-PL
-+N:%>j NMN_PEZII-PL        ;
++N:%>%{ijPRC%} NMN_PEZII-PL        ;
 
 LEXICON N_KESTÄY !!= @CODE@ kestäy:kestä
         N_KESTÄY-SG ;
@@ -1002,10 +1002,10 @@ LEXICON NMN_OSTAI-SG
 
 LEXICON NMN_OSTAI-PL
 :%>%{aä%} PLNOMSUF ;
-:%>i PLGENSUF_EN ; ! the plural comitative is declined here
-:%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
-+Pl:%>i Noun-NB-01 ;
+:%{oöØ%}%>i PLGENSUF_EN ; ! the plural comitative is declined here
+:%{oöØ%}%>i PLPARSUF_i ;
+:%{oöØ%}%>i PLINSSUF ;
++Pl:%{oöØ%}%>i Noun-NB-01 ;
 
 LEXICON NMN_PEZII !!= @CODE@ pestä:pezi%>j
  NMN_PEZII-SG ;

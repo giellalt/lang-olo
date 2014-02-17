@@ -24,9 +24,14 @@ Y
 !%{oö%}:o
 %{oö%}:ö
 
+%{oöØ%}:0 !!= @CODE@  Used in present participle
+
 ! Vowel harmony with "ttu/tty"
 !%{uy%}:u
 %{uy%}:y
+
+ %{ijPRC%}:j !!= @CODE@ participle
+
 
 ! in verb type V_AVATA
 !A2:a
@@ -215,7 +220,7 @@ Rules
 "%{aä%}:a"
 !! __@RULENAME@__
  %{aä%}:a <=>
-  [ BTCons ( %> ) | [ %{ui%}:u | %{aä%}:u | a:u ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:u ] | %^WGStem:0 ] ;
+  [ BTCons ( %> ) | BT %>  %{ijPRC%}:j %> | [ %{ui%}:u | %{aä%}:u | a:u ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:u ] | %^WGStem:0 ] ;
 ! [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WGStem:0 ) h | %^WGStem:0 [ %> | # ] | s | i | (n) n | %> [(n) %{uy%}: | g i | h ] | # ] ;
 !   [ BTCons %> | [ BT ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) | (t) t | s s ]] _ [  h | s | ( n ) n | t t | m m | v | %> g | # ] ;
 
@@ -223,7 +228,7 @@ Rules
 "%{aä%}:ä"
 !! __@RULENAME@__
  %{aä%}:ä <=>
-  [ FTCons ( %> ) | [ %{ui%}:i | %{aä%}:i | ä:i ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:y ] | %^WGStem:0 ] ;
+  [ FTCons ( %> ) | FT %>  %{ijPRC%}:j %> | [ %{ui%}:i | %{aä%}:i | ä:i ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:y ] | %^WGStem:0 ] ;
 
 
 
@@ -259,7 +264,8 @@ Rules
 "e:0"
 !! __@RULENAME@__
  e:0 <=> Cns: (%^VOICE:)  _ %> i  ;
-
+         [ u | a | o | ä | ö | y ] %> %{ijPRC%}:  %{oöØ%}: %> i %> _ n ;
+ 
 "%{ui%}:u"
 !! __@RULENAME@__
 !! {{{
@@ -311,6 +317,10 @@ o:u <=> Cns _ %> [ %{aä%}:o | %{aäInf%}: ] ;
          ä [ g: | d: ] _ %^WGStem:0 %> ;
 !€# väge%^WGStem>n
 !€0 vä0i00n
+         _ %> %{ijPRC%}: ;
+!€# luge>%{ijPRC%}
+!€0 lugi0j
+
 !! }}}
 
 
@@ -349,11 +359,11 @@ a:0 <=>
 !! __@RULENAME@__
  i:j <=> :Vow ( %>  %^LCns:0 ) %> _ %> :Vow ;
 
-"j:i"
+"%{ijPRC%}:i"
 !! __@RULENAME@__ 
 !! {{{
 !! * @CODE@ +ActPrsPrc
- j:i <=> :Vow %> _ [ # | %> [ g i | b o | h %{aä%}: i | g o ] ] ;
+ %{ijPRC%}:i <=> :Vow %> _ [ # | %> [ g i | b o | h %{aä%}: i | g o ] ] ;
 !! }}}
 
 
@@ -379,12 +389,28 @@ a:o <=> # Cns* [[ a | i | e ] (u|i)| u a ] Cns:+ _ %> i: ( %^WGStem:0 )  ;
 "i:0 reboi:reboloi"
 !! __@RULENAME@__
 i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
+      [ e: | i ] %> %{ijPRC%}:  %{oöØ%}: %> i %> _ [ # | %> Cns ]  ;
 
 
 
 "%{oö%}:o"
 !! __@RULENAME@__ Vowel harmony suffixes Back
  %{oö%}:o <=>  BT (  %> ) _ ;
+
+"%{oöØ%}:0"
+!! __@RULENAME@__ Vowel harmony suffixes Back
+ %{oöØ%}:0 <=> [ u | a | o | ä | ö | y ] %> %{ijPRC%}:  _  ;
+
+"%{oöØ%}:o"
+!! __@RULENAME@__ Vowel harmony suffixes Back
+ %{oöØ%}:o <=>  BT  :Cns [ e: | i ] %> %{ijPRC%}: _  ;
+!€# luge>%{ijPRC%}>%{oöØ%}>i>n
+!€0 lugi0j0o0i0s
+
+"%{oöØ%}:ö"
+!! __@RULENAME@__ Vowel harmony suffixes Front
+ %{oöØ%}:ö <=> FT :Cns [ e: | i ] %> %{ijPRC%}:  _  ;
+
 
 
 "%{uy%}:u"
