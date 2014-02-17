@@ -199,9 +199,12 @@ Multichar_Symbols
  %{aä%} ! 
  %{aäInf%} !!= @CODE@ ! This is for the infinitive marker after i and u stems
  %{oö%} !
+ %{oöØ%} !!= @CODE@  Used in present participle
  %{uy%} !
  %{ui%} !!= @CODE@ ! in imperative before %{aä%}:
  A2 ! used with verb types V_AVATA 
+ %{ijPRC%} !!= @CODE@ participle
+
 !! And following triggers to control variation
  {front} {back}
  %>
