@@ -7,6 +7,8 @@ LEXICON NUM_
 
 LEXICON NUM_OZA
 +Num+Card: NMN_OZA ;
++Num: ORD_01 ;
+
 
 LEXICON NUM_SÄYNÄ
 +Num+Card: NMN_SÄYNÄ ;
@@ -29,7 +31,11 @@ LEXICON NUM_VUOZI !!= @CODE@ kuuzi:kuud, viizi:viid
 
 
 LEXICON NUM_KOLME !!= @CODE@ 
-+Num+Card+Sg+Nom:e K ;
++Num+Card:e SGNOMSUF ;
++Num+Card:e SGGENSUF ;
++Num+Card:e SGPARSUF_A2 ;
+
++Num+Card+Sg:e Noun-NB-01 ;
 +Num:a ORD_01 ;
 
 LEXICON QNT_
@@ -46,6 +52,13 @@ LEXICON ORD_KARJALAINE !!= @CODE@ enzimäine:ensimä
 
 LEXICON ORD_01
 +Ord+Sg+Nom:%^WGStem%>s K ;
++Ord:%^WGStemt SGPARSUF_dU ;
++Ord:%^WGStemn^NONEde SGGENSUF ;
+
++Ord+Sg:%^WGStemn^NONEde Noun-NB-01 ;
+
++Ord:%^WGStemn^NONEde PLNOMSUF ;
+
 
 ! vim: set ft=xfst-lexc:
 
