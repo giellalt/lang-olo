@@ -1376,24 +1376,6 @@
 
   <e>
     <lg>
-      <l pos="N">alju</l>
-
-      <stg>
-        <st Contlex="N_">alju</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">allas</l>
 
       <stg>
@@ -1499,7 +1481,7 @@
       <l pos="N">alustu</l>
 
       <stg>
-        <st Contlex="N_">alustu</st>
+        <st Contlex="N_MUARJU">alusta</st>
       </stg>
     </lg>
 
@@ -1535,7 +1517,7 @@
       <l pos="N">alužin</l>
 
       <stg>
-        <st Contlex="N_">alužin</st>
+        <st Contlex="N_VANUIN">aluži</st>
       </stg>
     </lg>
 
@@ -1626,7 +1608,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="N">ammuine eläi</l>
 
@@ -1841,7 +1823,7 @@
       <l pos="N">anoppi</l>
 
       <stg>
-        <st Contlex="N_">anoppi</st>
+        <st Contlex="N_PAPPI">anoppi</st>
       </stg>
     </lg>
 
@@ -1897,7 +1879,7 @@
       <l pos="N">ape</l>
 
       <stg>
-        <st Contlex="N_">ape</st>
+        <st Contlex="N_SIVE">ape</st>
       </stg>
     </lg>
 
@@ -1951,7 +1933,7 @@
       <l pos="N">arbailu</l>
 
       <stg>
-        <st Contlex="N_">arbailu</st>
+        <st Contlex="N_KOIVU">arbailu</st>
       </stg>
     </lg>
 
@@ -1995,7 +1977,7 @@
       <l pos="N">arbu</l>
 
       <stg>
-        <st Contlex="N_">arbu</st>
+        <st Contlex="N_MUARJU">arba</st>
       </stg>
     </lg>
 
@@ -2061,7 +2043,7 @@
       <l pos="N">arestantu</l>
 
       <stg>
-        <st Contlex="N_">arestantu</st>
+        <st Contlex="N_MUARJU">arestanta</st>
       </stg>
     </lg>
 
@@ -2099,7 +2081,7 @@
       <l pos="N">argipäivät</l>
 
       <stg>
-        <st Contlex="N_">argipäivät</st>
+        <st Contlex="N_PÄIVY-PL">argi#päivä</st>
       </stg>
     </lg>
 
@@ -2123,7 +2105,7 @@
       <l pos="N">argivoi</l>
 
       <stg>
-        <st Contlex="N_">argivoi</st>
+        <st Contlex="N_KUU">argi#voi</st>
       </stg>
     </lg>
 
@@ -2245,7 +2227,7 @@
       <l pos="N">armotoi</l>
 
       <stg>
-        <st Contlex="N_">armotoi</st>
+        <st Contlex="N_HUOLETOI">armot</st>
       </stg>
     </lg>
 
@@ -2281,7 +2263,7 @@
       <l pos="N">arrot</l>
 
       <stg>
-        <st Contlex="N_">arrot</st>
+        <st Contlex="N_RUNO-PL">ar</st>
       </stg>
     </lg>
 
@@ -2361,7 +2343,7 @@
       <l pos="N">artugu</l>
 
       <stg>
-        <st Contlex="N_">artugu</st>
+        <st Contlex="N_MUARJU">artuga</st>
       </stg>
     </lg>
 
@@ -2397,7 +2379,7 @@
       <l pos="N">arvosana</l>
 
       <stg>
-        <st Contlex="N_">arvosana</st>
+        <st Contlex="N_KALA">arvo#sana</st>
       </stg>
     </lg>
 
@@ -2433,7 +2415,7 @@
       <l pos="N">askel</l>
 
       <stg>
-        <st Contlex="N_">askel</st>
+        <st Contlex="N_SAMMAL">askel</st>
       </stg>
     </lg>
 
