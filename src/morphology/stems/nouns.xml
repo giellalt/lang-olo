@@ -1535,7 +1535,7 @@
       <l pos="N">amboi</l>
 
       <stg>
-        <st Contlex="N_">amboi</st>
+        <st Contlex="N_REBOI">amboi</st>
       </stg>
     </lg>
 
@@ -2088,10 +2088,14 @@
     <mg>
       <defNative/>
 
-      <tg xml:lang="fin">
+      <tg xml:lang="eng">
         <t pos="N">arkipäivät</t>
 
         <t pos="N">uskonn.: paastottomat päivät</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
       </tg>
     </mg>
   </e>
@@ -2429,7 +2433,7 @@
       <l pos="N">askelluadu</l>
 
       <stg>
-        <st Contlex="N_">askelluadu</st>
+        <st Contlex="N_KOIVU">askel#luadu</st>
       </stg>
     </lg>
 
@@ -2449,7 +2453,7 @@
       <l pos="N">astal</l>
 
       <stg>
-        <st Contlex="N_">astal</st>
+        <st Contlex="N_KARJAL">astal</st>
       </stg>
     </lg>
 
@@ -2627,7 +2631,7 @@
       <l pos="N">atkal</l>
 
       <stg>
-        <st Contlex="N_">atkal</st>
+        <st Contlex="N_KARJAL">atkal</st>
       </stg>
     </lg>
 
@@ -2647,7 +2651,7 @@
       <l pos="N">atkalus</l>
 
       <stg>
-        <st Contlex="N_">atkalus</st>
+        <st Contlex="N_PUHTAHUS">atkalu</st>
       </stg>
     </lg>
 
@@ -2691,7 +2695,7 @@
       <l pos="N">aunu</l>
 
       <stg>
-        <st Contlex="N_">aunu</st>
+        <st Contlex="N_MUARJU">auna</st>
       </stg>
     </lg>
 
@@ -2747,7 +2751,7 @@
       <l pos="N">avaitus</l>
 
       <stg>
-        <st Contlex="N_">avaitus</st>
+        <st Contlex="N_ALUS">avaituks</st>
       </stg>
     </lg>
 
@@ -2851,7 +2855,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">tiirikka</t>
+        <t pos="N">etana</t>
       </tg>
     </mg>
   </e>
@@ -2879,7 +2883,7 @@
       <l pos="N">avvoisuu</l>
 
       <stg>
-        <st Contlex="N_">avvoisuu</st>
+        <st Contlex="N_KUU">avvoi#suu</st>
       </stg>
     </lg>
 
@@ -2901,7 +2905,7 @@
       <l pos="N">azemu</l>
 
       <stg>
-        <st Contlex="N_">azemu</st>
+        <st Contlex="N_KOIRU">azema</st>
       </stg>
     </lg>
 
@@ -2995,7 +2999,7 @@
       <l pos="N">babu</l>
 
       <stg>
-        <st Contlex="N_">babu</st>
+        <st Contlex="N_KOIVU">babu</st>
       </stg>
     </lg>
 
@@ -3013,7 +3017,7 @@
       <l pos="N">badju</l>
 
       <stg>
-        <st Contlex="N_">badju</st>
+        <st Contlex="N_MUARJU">badja</st>
       </stg>
     </lg>
 
@@ -3035,7 +3039,7 @@
       <l pos="N">bagru</l>
 
       <stg>
-        <st Contlex="N_">bagru</st>
+        <st Contlex="N_MUARJU">bagra</st>
       </stg>
     </lg>
 
@@ -3057,7 +3061,7 @@
       <l pos="N">bahadelnu</l>
 
       <stg>
-        <st Contlex="N_">bahadelnu</st>
+        <st Contlex="N_MUARJU">bahadelna</st>
       </stg>
     </lg>
 
@@ -3075,7 +3079,7 @@
       <l pos="N">bahvualu</l>
 
       <stg>
-        <st Contlex="N_">bahvualu</st>
+        <st Contlex="N_MUARJU">bahvuala</st>
       </stg>
     </lg>
 
@@ -3093,7 +3097,7 @@
       <l pos="N">bajan</l>
 
       <stg>
-        <st Contlex="N_">bajan</st>
+        <st Contlex="N_KARJAL">bajan</st>
       </stg>
     </lg>
 
@@ -3197,7 +3201,7 @@
       <l pos="N">balki</l>
 
       <stg>
-        <st Contlex="N_">balki</st>
+        <st Contlex="N_PAPPI">balki</st>
       </stg>
     </lg>
 
@@ -3217,7 +3221,7 @@
       <l pos="N">balmu</l>
 
       <stg>
-        <st Contlex="N_">balmu</st>
+        <st Contlex="N_MUARJU">balma</st>
       </stg>
     </lg>
 
@@ -3235,7 +3239,7 @@
       <l pos="N">balugu</l>
 
       <stg>
-        <st Contlex="N_">balugu</st>
+        <st Contlex="N_MUARJU">baluga</st>
       </stg>
     </lg>
 
@@ -3276,10 +3280,10 @@
 
   <e>
     <lg>
-      <l pos="N">baluiččij</l>
+      <l pos="N">baluiččii</l>
 
       <stg>
-        <st Contlex="N_">baluiččij</st>
+        <st Contlex="N_PAGIZII">baluičči</st>
       </stg>
     </lg>
 
@@ -3319,7 +3323,7 @@
       <l pos="N">banku</l>
 
       <stg>
-        <st Contlex="N_">banku</st>
+        <st Contlex="N_MUARJU">banka</st>
       </stg>
     </lg>
 
@@ -3345,7 +3349,7 @@
       <l pos="N">bapku</l>
 
       <stg>
-        <st Contlex="N_">bapku</st>
+        <st Contlex="N_MUARJU">bapka</st>
       </stg>
     </lg>
 
@@ -3395,7 +3399,7 @@
       <l pos="N">baraban</l>
 
       <stg>
-        <st Contlex="N_">baraban</st>
+        <st Contlex="N_KARJAL">baraban</st>
       </stg>
     </lg>
 
@@ -3410,10 +3414,10 @@
 
   <e>
     <lg>
-      <l pos="N">barbahužilleh</l>
+      <l pos="Adv">barbahužilleh</l>
 
       <stg>
-        <st Contlex="N_">barbahužilleh</st>
+        <st Contlex="ADV_">barbahužilleh</st>
       </stg>
     </lg>
 
@@ -3421,7 +3425,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">varpaillaan</t>
+        <t pos="Adv">varpaillaan</t>
       </tg>
     </mg>
   </e>
@@ -3431,7 +3435,7 @@
       <l pos="N">barbu</l>
 
       <stg>
-        <st Contlex="N_">barbu</st>
+        <st Contlex="N_MUARJU">barba</st>
       </stg>
     </lg>
 
@@ -3449,7 +3453,7 @@
       <l pos="N">barhattu</l>
 
       <stg>
-        <st Contlex="N_">barhattu</st>
+        <st Contlex="N_MUARJU">barhatta</st>
       </stg>
     </lg>
 
@@ -3467,7 +3471,7 @@
       <l pos="N">barčoi</l>
 
       <stg>
-        <st Contlex="N_">barčoi</st>
+        <st Contlex="N_REBOI">barčoi</st>
       </stg>
     </lg>
 
@@ -3485,7 +3489,7 @@
       <l pos="N">baugu</l>
 
       <stg>
-        <st Contlex="N_">baugu</st>
+        <st Contlex="N_KOIVU">baugu</st>
       </stg>
     </lg>
 
@@ -3505,7 +3509,7 @@
       <l pos="N">bauhu</l>
 
       <stg>
-        <st Contlex="N_">bauhu</st>
+        <st Contlex="N_KOIVU">bauhu</st>
       </stg>
     </lg>
 
@@ -3525,7 +3529,7 @@
       <l pos="N">bebekky</l>
 
       <stg>
-        <st Contlex="N_">bebekky</st>
+        <st Contlex="N_MUARJU">bebekkä</st>
       </stg>
     </lg>
 
@@ -3543,7 +3547,7 @@
       <l pos="N">beketti</l>
 
       <stg>
-        <st Contlex="N_">beketti</st>
+        <st Contlex="N_PAPPI">beketti</st>
       </stg>
     </lg>
 
@@ -3561,7 +3565,7 @@
       <l pos="N">bemmel</l>
 
       <stg>
-        <st Contlex="N_">bemmel</st>
+        <st Contlex="N_VEMMEL">bembel</st>
       </stg>
     </lg>
 
@@ -3589,7 +3593,7 @@
       <l pos="N">berogus</l>
 
       <stg>
-        <st Contlex="N_">berogus</st>
+        <st Contlex="N_ALUS">beroguks</st>
       </stg>
     </lg>
 
@@ -3609,7 +3613,7 @@
       <l pos="N">besiedu</l>
 
       <stg>
-        <st Contlex="N_">besiedu</st>
+        <st Contlex="N_MUARJU">besieda</st>
       </stg>
     </lg>
 
@@ -3627,7 +3631,7 @@
       <l pos="N">besotku</l>
 
       <stg>
-        <st Contlex="N_">besotku</st>
+        <st Contlex="N_MUARJU">besotka</st>
       </stg>
     </lg>
 
@@ -3644,10 +3648,10 @@
 
   <e>
     <lg>
-      <l pos="N">bezmena</l>
+      <l pos="N">bezmeni</l>
 
       <stg>
-        <st Contlex="N_">bezmena</st>
+        <st Contlex="N_PAPPI">bezmeni</st>
       </stg>
     </lg>
 
@@ -3665,7 +3669,7 @@
       <l pos="N">biblii</l>
 
       <stg>
-        <st Contlex="N_">biblii</st>
+        <st Contlex="N_PAGIZII">bibli</st>
       </stg>
     </lg>
 
@@ -3683,7 +3687,7 @@
       <l pos="N">bibu</l>
 
       <stg>
-        <st Contlex="N_">bibu</st>
+        <st Contlex="N_KOIVU">bibu</st>
       </stg>
     </lg>
 
@@ -3701,7 +3705,7 @@
       <l pos="N">biegloi</l>
 
       <stg>
-        <st Contlex="N_">biegloi</st>
+        <st Contlex="N_REBOI">biegloi</st>
       </stg>
     </lg>
 
@@ -3716,10 +3720,10 @@
 
   <e>
     <lg>
-      <l pos="N">biessa</l>
+      <l pos="N">biessu</l>
 
       <stg>
-        <st Contlex="N_">biessa</st>
+        <st Contlex="N_MUARJU">biessu</st>
       </stg>
     </lg>
 
@@ -3739,7 +3743,7 @@
       <l pos="N">biibuloi</l>
 
       <stg>
-        <st Contlex="N_">biibuloi</st>
+        <st Contlex="N_REBOI">biibuloi</st>
       </stg>
     </lg>
 
@@ -3757,7 +3761,7 @@
       <l pos="N">biletty</l>
 
       <stg>
-        <st Contlex="N_">biletty</st>
+        <st Contlex="N_MUARJU">bilettä</st>
       </stg>
     </lg>
 
@@ -3783,7 +3787,7 @@
       <l pos="N">bipku</l>
 
       <stg>
-        <st Contlex="N_">bipku</st>
+        <st Contlex="N_MUARJU">bipka</st>
       </stg>
     </lg>
 
@@ -3801,7 +3805,7 @@
       <l pos="N">birbi</l>
 
       <stg>
-        <st Contlex="N_">birbi</st>
+        <st Contlex="N_PAPPI">birbi</st>
       </stg>
     </lg>
 
@@ -3819,7 +3823,7 @@
       <l pos="N">birku</l>
 
       <stg>
-        <st Contlex="N_">birku</st>
+        <st Contlex="N_MUARJU">birka</st>
       </stg>
     </lg>
 
@@ -3839,7 +3843,7 @@
       <l pos="N">birä</l>
 
       <stg>
-        <st Contlex="N_">birä</st>
+        <st Contlex="N_KALA">birä</st>
       </stg>
     </lg>
 
@@ -3847,7 +3851,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">karitsa</t>
       </tg>
     </mg>
   </e>
@@ -3857,7 +3861,7 @@
       <l pos="N">biržu</l>
 
       <stg>
-        <st Contlex="N_">biržu</st>
+        <st Contlex="N_MUARJU">birža</st>
       </stg>
     </lg>
 
@@ -3885,7 +3889,7 @@
       <l pos="N">bleznu</l>
 
       <stg>
-        <st Contlex="N_">bleznu</st>
+        <st Contlex="N_MUARJU">blezna</st>
       </stg>
     </lg>
 
@@ -3923,7 +3927,7 @@
       <l pos="N">bliizei</l>
 
       <stg>
-        <st Contlex="N_">bliizei</st>
+        <st Contlex="N_REBOI">bliizei</st>
       </stg>
     </lg>
 
@@ -3941,7 +3945,7 @@
       <l pos="N">bloigeh</l>
 
       <stg>
-        <st Contlex="N_">bloigeh</st>
+        <st Contlex="N_PEREH-SG">bloigeh</st>
       </stg>
     </lg>
 
@@ -3963,7 +3967,7 @@
       <l pos="N">blozgu</l>
 
       <stg>
-        <st Contlex="N_">blozgu</st>
+        <st Contlex="N_MUARJU">blozga</st>
       </stg>
     </lg>
 
@@ -3981,7 +3985,7 @@
       <l pos="N">bluaznu</l>
 
       <stg>
-        <st Contlex="N_">bluaznu</st>
+        <st Contlex="N_MUARJU">bluazna</st>
       </stg>
     </lg>
 
@@ -4025,7 +4029,7 @@
       <l pos="N">bobuli</l>
 
       <stg>
-        <st Contlex="N_">bobuli</st>
+        <st Contlex="N_PAPPI">bobuli</st>
       </stg>
     </lg>
 
@@ -4069,7 +4073,7 @@
       <l pos="N">bohattu</l>
 
       <stg>
-        <st Contlex="N_">bohattu</st>
+        <st Contlex="N_MUARJU">bohatta</st>
       </stg>
     </lg>
 
@@ -4157,7 +4161,7 @@
       <l pos="N">bokkudorogu</l>
 
       <stg>
-        <st Contlex="N_">bokkudorogu</st>
+        <st Contlex="N_MUARJU">bokku#doroga</st>
       </stg>
     </lg>
 
@@ -21004,7 +21008,7 @@
       <l pos="N">kangassammal</l>
 
       <stg>
-        <st Contlex="N_SAMMAL">kangas#sammal</st>
+        <st Contlex="N_">kangassammal</st>
       </stg>
     </lg>
 
@@ -64606,7 +64610,7 @@
       <l pos="N">sammal</l>
 
       <stg>
-        <st Contlex="N_SAMMAL">sammal</st>
+        <st Contlex="N_PIENAR">sammal</st>
       </stg>
     </lg>
 
@@ -70152,6 +70156,32 @@
 
       <stg>
         <st Contlex="N_SUO">suo</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">suo</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">(suo)sammal, rahkasammal</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">suo</l>
+
+      <stg>
+        <st Contlex="N_RUNO">suo</st>
       </stg>
     </lg>
 
