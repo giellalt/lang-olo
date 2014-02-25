@@ -17,7 +17,10 @@ LEXICON NUM_YKSI  !!= @CODE@ yksi:y
 +Num+Card: NMN_YKSI ;
 
 LEXICON NUM_SEIČČIE  !!= @CODE@ seiččie:seičče
-+Num+Card+TYÄ: # ;
++Num+Card: NMN_SEIČČIE ;
+
+LEXICON NUM_NELLI
++Num+Card: NMN_NELLI ;
 
 LEXICON NUM_TUHAT
 +Num+Card: NMN_TUHAT ;
