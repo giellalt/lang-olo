@@ -1788,7 +1788,7 @@ LEXICON PLGENSUF_N
 +Pl+Apr:%>ll%{uy%}%{oö%} K ;
 
 LEXICON PLINSSUF
-+Pl+Ins:%>n K ;
++Pl+Ins:%^WGStem%>n K ;
 
 LEXICON PLNOMSUF
 +Pl+Nom:%^WGStem%>t K ;
