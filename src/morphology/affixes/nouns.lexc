@@ -701,10 +701,29 @@ LEXICON NMN_YKSI-SG
 +Sg:hte Noun-NB-01 ;
 
 LEXICON NMN_YKSI-PL
+:hte PLNOMSUF ;
 :ksi PLGENSUF_EN ; ! the plural comitative is declined here
 :ksi PLPARSUF_i ;
 :ksi PLINSSUF ;
 +Pl:ksi Noun-NB-01 ;
+
+
+LEXICON NMN_NELLI  !!= @CODE@ nelli:nell
+	NMN_NELLI-SG ;
+	NMN_NELLI-PL ;
+
+LEXICON NMN_NELLI-SG
+:i SGNOMSUF ;
+:%>%{aä%} SGGENSUF ;
+:%>%{ui%} SGPARSUF_A2 ;
++Sg:%>%{aä%} Noun-NB-01 ;
+
+LEXICON NMN_NELLI-PL
+:%>%{aä%} PLNOMSUF ;
+:i PLGENSUF_EN ; ! the plural comitative is declined here
+:i PLPARSUF_i ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
 
 
 LEXICON NMN_VUOZI !!= @CODE@ vuozi:vuod
@@ -934,6 +953,22 @@ LEXICON NMN_HARDIE-PL
 :%>l%{oö%}i PLPARSUF_Zero ;
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>l%{oö%}i Noun-NB-01 ;
+
+LEXICON NMN_SEIČČIE !!= @CODE@ seiččie:seičče
+	NMN_SEIČČIE-SG	;
+	NMN_SEIČČIE-PL	;
+
+LEXICON NMN_SEIČČIE-SG
+:%>e SGNOMSUF ;
+:%^WGStemn SGPARSUF_dU ;
+:me SGGENSUF ;
++Sg:me Noun-NB-01 ;
+LEXICON NMN_SEIČČIE-PL
+:me PLNOMSUF	;
+:mi PLGENSUF_N ;
+:mi PLPARSUF_i ;
+:mi PLINSSUF ;
++Pl:mi Noun-NB-01 ;
 
 LEXICON NMN_OSTAI !!= @CODE@ ostua:osta%>j
  NMN_OSTAI-SG ;
@@ -1414,16 +1449,16 @@ LEXICON NMN_TUHAT !!= * @CODE@ tuhat:tuha
 
 LEXICON NMN_TUHAT-SG
 :t SGNOMSUF ;
-:nde SGGENSUF ;
+:n^NONEde SGGENSUF ;
 :t SGPARSUF_dU ;
-+Sg:nde Noun-NB-01 ;
++Sg:n^NONEde Noun-NB-01 ;
 
 LEXICON NMN_TUHAT-PL
-:nde PLNOMSUF ;
-!:i PLGENSUF_EN ;
-!:i PLPARSUF_i ;
-!:i PLINSSUF ;
-!+Pl:i Noun-NB-01 ;
+:n^NONEde PLNOMSUF ;
+:nzi PLGENSUF_EN ;
+:nzi PLPARSUF_i ;
+:nzi PLINSSUF ;
++Pl:nzi Noun-NB-01 ;
 
 
 LEXICON NMN_PEREH !!= @CODE@ pereh:pereh
