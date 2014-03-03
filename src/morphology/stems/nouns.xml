@@ -2473,7 +2473,7 @@
       <l pos="N">astie</l>
 
       <stg>
-        <st Contlex="N_">astie</st>
+        <st Contlex="N_HARDIE">astie</st>
       </stg>
     </lg>
 
@@ -2539,7 +2539,7 @@
       <l pos="N">astiet</l>
 
       <stg>
-        <st Contlex="N_">astiet</st>
+        <st Contlex="N_HARDIE-PL">astie</st>
       </stg>
     </lg>
 
@@ -4115,7 +4115,7 @@
       <l pos="N">boju</l>
 
       <stg>
-        <st Contlex="N_">boju</st>
+        <st Contlex="N_KOIVU">boju</st>
       </stg>
     </lg>
 
@@ -9813,7 +9813,7 @@
       <l pos="N">haju</l>
 
       <stg>
-        <st Contlex="N_">haju</st>
+        <st Contlex="N_KOIVU">haju</st>
       </stg>
     </lg>
 
@@ -9859,7 +9859,7 @@
       <l pos="N">halʼoi</l>
 
       <stg>
-        <st Contlex="N_">halʼoi</st>
+        <st Contlex="N_REBOI">halʼoi</st>
       </stg>
     </lg>
 
@@ -9877,7 +9877,7 @@
       <l pos="N">haldii</l>
 
       <stg>
-        <st Contlex="N_">haldij</st>
+        <st Contlex="N_">haldi</st>
       </stg>
     </lg>
 
@@ -9967,7 +9967,7 @@
       <l pos="N">hallakka</l>
 
       <stg>
-        <st Contlex="N_">halʼlʼakko</st>
+        <st Contlex="N_RUNO">halʼlʼakko</st>
       </stg>
     </lg>
 
@@ -9987,7 +9987,7 @@
       <l pos="N">hallelmus</l>
 
       <stg>
-        <st Contlex="N_">hallelmus</st>
+        <st Contlex="N_ALUS">hallelmuks</st>
       </stg>
     </lg>
 
@@ -10045,7 +10045,7 @@
       <l pos="N">hallot</l>
 
       <stg>
-        <st Contlex="N_">hallot</st>
+        <st Contlex="N_RUNO">halgo</st>
       </stg>
     </lg>
 
@@ -10091,7 +10091,7 @@
       <l pos="N">halpačču</l>
 
       <stg>
-        <st Contlex="N_">halpačču</st>
+        <st Contlex="N_KOIVU">halpačču</st>
       </stg>
     </lg>
 
@@ -10153,7 +10153,7 @@
       <l pos="N">halʼoi</l>
 
       <stg>
-        <st Contlex="N_">halʼoi</st>
+        <st Contlex="N_REBOI">halʼoi</st>
       </stg>
     </lg>
 
@@ -10171,7 +10171,7 @@
       <l pos="N">hamar</l>
 
       <stg>
-        <st Contlex="N_">hamar</st>
+        <st Contlex="N_KARJAL">hamar</st>
       </stg>
     </lg>
 
@@ -10308,7 +10308,7 @@
 
   <e>
     <lg>
-      <l pos="N">hapannuh</l>
+      <l pos="A">hapannuh</l>
 
       <stg>
         <st Contlex="N_">hapannuh</st>
@@ -10319,7 +10319,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">hapannut</t>
+        <t pos="A">hapannut</t>
       </tg>
     </mg>
 
@@ -10327,7 +10327,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">lahonnut</t>
+        <t pos="A">lahonnut</t>
       </tg>
     </mg>
 
@@ -10335,7 +10335,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">pilaantunut</t>
+        <t pos="A">pilaantunut</t>
       </tg>
     </mg>
   </e>
@@ -10389,7 +10389,7 @@
       <l pos="N">harakanboba</l>
 
       <stg>
-        <st Contlex="N_">harakanboba</st>
+        <st Contlex="N_OZA">harakan#boba</st>
       </stg>
     </lg>
 
@@ -10463,7 +10463,7 @@
       <l pos="N">hardeiluu</l>
 
       <stg>
-        <st Contlex="N_">hardeiluu</st>
+        <st Contlex="N_KUU">hardei#luu</st>
       </stg>
     </lg>
 
@@ -10638,7 +10638,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="N">harmuat tukat</l>
 
@@ -10663,7 +10663,7 @@
       <l pos="N">harmus</l>
 
       <stg>
-        <st Contlex="N_">harmus</st>
+        <st Contlex="N_ALUS">harmuks</st>
       </stg>
     </lg>
 
@@ -10681,7 +10681,7 @@
       <l pos="N">harpavus</l>
 
       <stg>
-        <st Contlex="N_">harpavus</st>
+        <st Contlex="N_ALUS">harpavuks</st>
       </stg>
     </lg>
 
@@ -10701,7 +10701,7 @@
       <l pos="N">hattar</l>
 
       <stg>
-        <st Contlex="N_">hattar</st>
+        <st Contlex="N_KARJAL">hattar</st>
       </stg>
     </lg>
 
@@ -10729,7 +10729,7 @@
       <l pos="N">hattu</l>
 
       <stg>
-        <st Contlex="N_">hattu</st>
+        <st Contlex="N_KOIVU">hattu</st>
       </stg>
     </lg>
 
@@ -10819,7 +10819,7 @@
       <l pos="N">haukeh</l>
 
       <stg>
-        <st Contlex="N_">haukeh</st>
+        <st Contlex="N_PEREH">haukeh</st>
       </stg>
     </lg>
 
