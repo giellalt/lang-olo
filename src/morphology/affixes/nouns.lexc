@@ -1,6 +1,20 @@
-!! Noun inflection
-!! ---------------
+!! !!!Noun inflection
+! ---------------
 !! Livvi nouns inflect in cases.
+
+
+!! !!Auxiliary lexica -- to be fixed
+
+!! Trond added these for debugging.
+
+LEXICON N_VEMMEL !!= @CODE@ -- fix this lexicon, Trond just added.
+ N_SAMMAL ; 
+
+LEXICON N_KANDAI-PL
+# ;
+
+
+!! !!The file proper
 
 LEXICON N_
 +N+Sg+Nom+TYÄ: # ;
