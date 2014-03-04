@@ -6644,7 +6644,7 @@
       <l pos="N">dorogušuaru</l>
 
       <stg>
-        <st Contlex="N_MUARJU">dorogu"šuara</st>
+        <st Contlex="N_MUARJU">dorogu#šuara</st>
       </stg>
     </lg>
 
@@ -6653,7 +6653,6 @@
 
       <tg xml:lang="fin">
         <t pos="N">tienhaara</t>
-
         <t pos="N">T-risteys</t>
       </tg>
     </mg>
@@ -75325,7 +75324,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">tienhaara, T-risteys</t>
+        <t pos="N">tienhaara</t>
+        <t pos="N">T-risteys</t>
       </tg>
     </mg>
   </e>
@@ -93115,7 +93115,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">haara, tienhaara</t>
+        <t pos="N">haara</t>
+        <t pos="N">tienhaara</t>
       </tg>
     </mg>
 
