@@ -7,11 +7,8 @@
 
 !! Trond added these for debugging.
 
-LEXICON N_VEMMEL !!= @CODE@ -- fix this lexicon, Trond just added.
- N_SAMMAL ; 
-
-LEXICON N_KANDAI-PL
-# ;
+!LEXICON N_VEMMEL !!= @CODE@ -- fix this lexicon, Trond just added.
+! N_SAMMAL ; 
 
 
 !! !!The file proper
@@ -24,7 +21,12 @@ LEXICON N_SUO !!= @CODE@ suo:suo
 +N: NMN_KUU ;
 
 LEXICON N_KUU !!= @CODE@ kuu:kuu
-+N: NMN_KUU ;
+ N_KUU-SG ;
+ N_KUU-PL ;
+LEXICON N_KUU-SG
++N: NMN_KUU-SG ;
+LEXICON N_KUU-PL
++N: NMN_KUU-PL ;
 
 LEXICON N_MUA !!= @CODE@ mua:maa
 +N: NMN_MUA ;
@@ -164,6 +166,16 @@ LEXICON N_HARDIE-SG
 
 LEXICON N_HARDIE-PL
 +N: NMN_HARDIE-PL        ;
+
+LEXICON N_KONDII !!= @CODE@ kondii:kondi
+        N_KONDII-SG ;
+        N_KONDII-PL ;
+
+LEXICON N_KONDII-SG
++N: NMN_KONDII-SG        ;
+
+LEXICON N_KONDII-PL
++N: NMN_KONDII-PL        ;
 
 LEXICON N_REBOI !!= @CODE@ reboi:reboi
         N_REBOI-SG ;
@@ -320,13 +332,14 @@ LEXICON N_PIIRAI-PL
 
 
 LEXICON N_KANDAI !!= @CODE@ kandai:kandai
-+N: SGNOMSUF ;
-+N:%{ui%} SGPARSUF_A2 ;
-+N:i PLGENSUF_EN ;
-+N:i PLPARSUF_i ;
-+N:i PLINSSUF ;
-+N+Sg:%{aä%} Noun-NB-01 ;
-+N+Pl:i Noun-NB-01 ;
+        N_KANDAI-SG ;
+        N_KANDAI-PL ;
+
+LEXICON N_KANDAI-SG
++N: NMN_KANDAI-SG ;
+
+LEXICON N_KANDAI-PL
++N: NMN_KANDAI-PL ;
 
 LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizii
  N_PAGIZII-SG ;
@@ -506,6 +519,26 @@ LEXICON N_PAREMBI-SG
 +N: NMN_PAREMBI-SG   ;
 LEXICON N_PAREMBI-PL
 +N: NMN_PAREMBI-PL   ;
+
+LEXICON N_PESSYH !!= @CODE@ pessyh
+ N_PESSYH-SG ;
+ N_PESSYH-PL ;
+LEXICON N_PESSYH-SG
++N:        NMN_PESSYH-SG ;
+LEXICON N_PESSYH-PL
++N:        NMN_PESSYH-PL ;
+
+
+
+LEXICON N_BEMMEL !!= @CODE@ bemmel:bembel
+    N_BEMMEL-SG        ;
+    N_BEMMEL-PL        ;
+LEXICON N_BEMMEL-SG
++N: NMN_BEMMEL-SG	;
+LEXICON N_BEMMEL-PL
++N: NMN_BEMMEL-PL	;
+
+
 
 LEXICON N_SUURIM !!= @CODE@ suurim:suurim
         N_SUURIM-SG  ;
@@ -968,6 +1001,22 @@ LEXICON NMN_HARDIE-PL
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
+LEXICON NMN_KONDII !!= @CODE@ kondii:kondi
+	NMN_KONDII-SG	;
+	NMN_KONDII-PL	;
+
+LEXICON NMN_KONDII-SG
+:i SGNOMSUF ;
+:e SGPARSUF_dU ;
+:e SGGENSUF ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_KONDII-PL
+:e PLNOMSUF	;
+:e%>l%{oö%}i PLGENSUF_N ;
+:e%>l%{oö%}i PLPARSUF_Zero ;
+:e%>l%{oö%}i PLINSSUF ;
++Pl:e%>l%{oö%}i Noun-NB-01 ;
+
 LEXICON NMN_SEIČČIE !!= @CODE@ seiččie:seičče
 	NMN_SEIČČIE-SG	;
 	NMN_SEIČČIE-PL	;
@@ -1001,6 +1050,22 @@ LEXICON NMN_OSTAI-PL
 :%{oöØ%}%>i PLPARSUF_i ;
 :%{oöØ%}%>i PLINSSUF ;
 +Pl:%{oöØ%}%>i Noun-NB-01 ;
+
+LEXICON NMN_KANDAI
+ NMN_KANDAI-SG ;
+ NMN_KANDAI-PL ;
+
+LEXICON NMN_KANDAI-SG
++N: SGNOMSUF ;
+:%>%{aä%} SGGENSUF ;
++N:%{ui%} SGPARSUF_A2 ;
++N+Sg:%{aä%} Noun-NB-01 ;
+LEXICON NMN_KANDAI-PL
+:%>%{aä%} PLNOMSUF ;
++N:i PLGENSUF_EN ;
++N:i PLPARSUF_i ;
++N:i PLINSSUF ;
++N+Pl:i Noun-NB-01 ;
 
 LEXICON NMN_PEZII !!= @CODE@ pestä:pezi%>j
  NMN_PEZII-SG ;
@@ -1353,6 +1418,22 @@ LEXICON NMN_ARMAS-PL
 :hi PLPARSUF_i ;
 :hi PLINSSUF ;
 +Pl:hi Noun-NB-01 ;
+
+LEXICON NMN_BEMMEL !!= @CODE@ bemmel:bembel
+ NMN_BEMMEL-SG        ;
+ NMN_BEMMEL-PL        ;
+
+LEXICON NMN_BEMMEL-SG
+:%^WGStem SGNOMSUF ;
+:%^WGStem SGPARSUF_dU ;
+:e SGGENSUF ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_BEMMEL-PL
+:e PLNOMSUF ;
+:i PLGENSUF_EN ;
+:i PLPARSUF_i ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
 
 LEXICON NMN_TUORES !!= @CODE@ tuores:tuore
 !!= * Yaml: __A-tuores__

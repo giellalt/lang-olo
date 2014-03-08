@@ -6,8 +6,7 @@ Livvi nouns inflect in cases.
 
 Trond added these for debugging.
 
- LEXICON N_VEMMEL  -- fix this lexicon, Trond just added.
-
+ !LEXICON N_VEMMEL  -- fix this lexicon, Trond just added.
 
 
 !!The file proper
@@ -70,6 +69,10 @@ Trond added these for debugging.
 
 
  LEXICON N_HARDIE  hardie:hardie
+
+
+
+ LEXICON N_KONDII  kondii:kondi
 
 
 
@@ -136,6 +139,8 @@ Trond added these for debugging.
 
 
  LEXICON N_KANDAI  kandai:kandai
+
+
 
  LEXICON N_PAGIZII  pagizii:pagizii
  LEXICON N_PAGIZII-SG  
@@ -211,6 +216,14 @@ Trond added these for debugging.
 
 
  LEXICON N_PAREMBI  parembi:paremb
+
+
+ LEXICON N_PESSYH  pessyh
+
+
+
+ LEXICON N_BEMMEL  bemmel:bembel
+
 
 
  LEXICON N_SUURIM  suurim:suurim
@@ -331,10 +344,15 @@ Trond added these for debugging.
  LEXICON NMN_HARDIE  hardie:hardie
 
 
+ LEXICON NMN_KONDII  kondii:kondi
+
+
  LEXICON NMN_SEIČČIE  seiččie:seičče
 
 
  LEXICON NMN_OSTAI  ostua:osta%>j
+
+
 
 
 
@@ -420,6 +438,9 @@ Trond added these for debugging.
 
 
  LEXICON NMN_ARMAS  armas:arma
+
+
+ LEXICON NMN_BEMMEL  bemmel:bembel
 
 
  LEXICON NMN_TUORES  tuores:tuore
