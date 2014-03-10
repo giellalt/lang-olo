@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - kondie: # Noun 'shoulder / hartia' - full paradigm
+     kondii+N+Sg+Nom: kondii
+     kondii+N+Sg+Gen: kondien
+     kondii+N+Sg+Acc: [kondie, kondien]
+     kondii+N+Sg+Par: kondiedu
+     kondii+N+Sg+Tra: kondiekse
+     kondii+N+Sg+Abe: [kondieta, kondiettah]
+     kondii+N+Sg+Com: kondienke
+     kondii+N+Sg+Ine: kondies
+     kondii+N+Sg+Ela: [kondiespäi, kondies]
+     kondii+N+Sg+Ill: kondieh
+     kondii+N+Sg+Ade: kondiel
+     kondii+N+Sg+Abl: [kondielpäi, kondiel]
+     kondii+N+Sg+All: kondiele
+     kondii+N+Sg+Ess: kondiennu
+     kondii+N+Sg+Ter: kondiessah
+     kondii+N+Sg+Apr: kondielluo
+     kondii+N+Pl+Nom: kondiet
+     kondii+N+Pl+Gen: kondieloin
+     kondii+N+Pl+Acc: kondiet
+     kondii+N+Pl+Par: kondieloi
+     kondii+N+Pl+Tra: kondieloikse
+     kondii+N+Pl+Abe: [kondieloita, kondieloittah]
+     kondii+N+Pl+Com: kondieloinke
+     kondii+N+Pl+Ine: kondielois
+     kondii+N+Pl+Ela: [kondieloispäi, kondielois]
+     kondii+N+Pl+Ill: kondieloih
+     kondii+N+Pl+Ade: kondieloil
+     kondii+N+Pl+Abl: [kondieloilpäi, kondieloil]
+     kondii+N+Pl+All: kondieloile
+     kondii+N+Pl+Ess: kondieloinnu
+     kondii+N+Pl+Ins: kondieloin
+     kondii+N+Pl+Apr: kondieloilluo
+     kondii+N+Sg+Nom+Clt/gi: kondiigi
+     kondii+N+Sg+Gen+Clt/gi: kondiengi
+     kondii+N+Sg+Acc+Clt/gi: [kondiegi, kondiengi]
+     kondii+N+Sg+Par+Clt/gi: kondiedugi
+     kondii+N+Sg+Tra+Clt/gi: kondieksegi
+     kondii+N+Sg+Abe+Clt/gi: [kondietagi, kondiettahgi]
+     kondii+N+Sg+Com+Clt/gi: kondienkegi
+     kondii+N+Sg+Ine+Clt/gi: kondiesgi
+     kondii+N+Sg+Ela+Clt/gi: [kondiespäigi, kondiesgi]
+     kondii+N+Sg+Ill+Clt/gi: kondiehgi
+     kondii+N+Sg+Ade+Clt/gi: kondielgi
+     kondii+N+Sg+Abl+Clt/gi: [kondielpäigi, kondielgi]
+     kondii+N+Sg+All+Clt/gi: kondielegi
+     kondii+N+Sg+Ess+Clt/gi: kondiennugi
+     kondii+N+Sg+Ter+Clt/gi: kondiessahgi
+     kondii+N+Sg+Apr+Clt/gi: kondielluogi
+     kondii+N+Pl+Nom+Clt/gi: kondietgi
+     kondii+N+Pl+Gen+Clt/gi: kondieloingi
+     kondii+N+Pl+Acc+Clt/gi: kondietgi
+     kondii+N+Pl+Par+Clt/gi: kondieloigi
+     kondii+N+Pl+Tra+Clt/gi: kondieloiksegi
+     kondii+N+Pl+Abe+Clt/gi: [kondieloitagi, kondieloittahgi]
+     kondii+N+Pl+Com+Clt/gi: kondieloinkegi
+     kondii+N+Pl+Ine+Clt/gi: kondieloisgi
+     kondii+N+Pl+Ela+Clt/gi: [kondieloispäigi, kondieloisgi]
+     kondii+N+Pl+Ill+Clt/gi: kondieloihgi
+     kondii+N+Pl+Ade+Clt/gi: kondieloilgi
+     kondii+N+Pl+Abl+Clt/gi: [kondieloilpäigi, kondieloilgi]
+     kondii+N+Pl+All+Clt/gi: kondieloilegi
+     kondii+N+Pl+Ess+Clt/gi: kondieloinnugi
+     kondii+N+Pl+Ins+Clt/gi: kondieloingi
+     kondii+N+Pl+Apr+Clt/gi: kondieloilluogi
