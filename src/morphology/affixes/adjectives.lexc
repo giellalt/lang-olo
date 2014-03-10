@@ -128,15 +128,18 @@ LEXICON A_PAREMBI !!= @CODE@ parembi:paremb
 LEXICON A_JIÄTÖI !!= @CODE@ jiätöi:jiät
  A_HUOLETOI ;
 LEXICON A_HUOLETOI !!= @CODE@ huoletoi:huolet
++A+Der/Us:t%{oö%}m%{uy%} N_PUHTAHUS ;
 +A:	NMN_HUOLETOI   ;
 +A+Der/MWN: N_HUOLETOI ; 
-+N:t%{oö%}ma Adj-NB-i ; !2012-09-27 unknown -loi vs -i
++N:t%{oö%}m%{aä%} Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
 LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
++A+Der/Us:z%{uy%} N_PUHTAHUS ;
 +A:	NMN_KARJALAINE	 ;
 +A+Der/mbi+A:zem^NONEb NMN_PAREMBI        ;
 
 LEXICON A_KIELINE !!= @CODE@ kieline:kieli
++A+Der/Us:z%{uy%} N_PUHTAHUS ;
 +A: NMN_KIELINE ;
 +A+Der/mbi+A:zem^NONEb NMN_PAREMBI        ;
 
