@@ -146,7 +146,7 @@ Dummy = %^ILoss %^KS2S %^WGStem %^E1 %^SyllBound  %^VOICE %> ;
 Definitions
 
 ! Front Trigger
-FT =  [ #: Cns* [ VowFront | VowNeutral | i: ] | :VowFront ] \[ # | VowBack: | :VowBack ]* ;
+FT =  [ #: Cns* [ VowFront | VowNeutral | i: ] | :VowFront ] [ %> | VowFront: | Cns: | %{aä%}:ä | %{oö%}:ö | %{uy%}:y ]* \[ # | VowBack: | :VowBack ]* ;
 ! [ #: Cns* [ VowFront | VowNeutral | i: ] | :VowFront ] [ %> | VowFront: | Cns: | %{aä%}:ä | %{oö%}:ö | %{uy%}:y ]*  ;
 
 
@@ -424,6 +424,11 @@ i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
 "%{uy%}:u"
 !! __@RULENAME@__ Vowel harmony suffixes Back
  %{uy%}:u <=>  [ BT | :VowBack Cns:* ] ( %> ) _ ;
+
+
+"%{uy%}:y"
+!! __@RULENAME@__ Vowel harmony suffixes Front
+ %{uy%}:y <=>  [ FT | :VowFront Cns:* ] ( %> ) _ ;
 
 !! !!Consonant change
 
