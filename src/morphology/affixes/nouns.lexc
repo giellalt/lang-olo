@@ -331,7 +331,7 @@ LEXICON N_PIIRAI-PL
 +N: NMN_PIIRAI-PL ;
 
 
-LEXICON N_KANDAI !!= @CODE@ kandai:kandai
+LEXICON N_KANDAI !!= @CODE@ kandai:kanda
         N_KANDAI-SG ;
         N_KANDAI-PL ;
 
@@ -340,6 +340,10 @@ LEXICON N_KANDAI-SG
 
 LEXICON N_KANDAI-PL
 +N: NMN_KANDAI-PL ;
+
+LEXICON  N_AVUAJU !!= @CODE@ piästäjy:piästä
++N:%>%{ijPRC%}%{aä%} NMN_PÄIVY ;
+
 
 LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizii
  N_PAGIZII-SG ;
@@ -1056,16 +1060,9 @@ LEXICON NMN_KANDAI
  NMN_KANDAI-PL ;
 
 LEXICON NMN_KANDAI-SG
-+N: SGNOMSUF ;
-:%>%{aä%} SGGENSUF ;
-+N:%{ui%} SGPARSUF_A2 ;
-+N+Sg:%{aä%} Noun-NB-01 ;
+:%>%{ijPRC%} NMN_OSTAI-SG ;
 LEXICON NMN_KANDAI-PL
-:%>%{aä%} PLNOMSUF ;
-+N:i PLGENSUF_EN ;
-+N:i PLPARSUF_i ;
-+N:i PLINSSUF ;
-+N+Pl:i Noun-NB-01 ;
+:%>%{ijPRC%} NMN_OSTAI-PL ;
 
 LEXICON NMN_PEZII !!= @CODE@ pestä:pezi%>j
  NMN_PEZII-SG ;
