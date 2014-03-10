@@ -1010,7 +1010,7 @@
       <l pos="A">anglienkieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">anglienkieli</st>
+        <st Contlex="A_KIELINE">anglien#kieli</st>
       </stg>
     </lg>
 
@@ -7590,7 +7590,7 @@
       <l pos="A">kaksikieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">kaksikieli</st>
+        <st Contlex="A_KIELINE">kaksi#kieli</st>
       </stg>
     </lg>
 
@@ -7873,7 +7873,7 @@
       <l pos="A">kanzalliskieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">kanzalliskieli</st>
+        <st Contlex="A_KIELINE">kanzallis#kieli</st>
       </stg>
     </lg>
 
@@ -8063,7 +8063,7 @@
       <l pos="A">karjalankieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">karjalankieli</st>
+        <st Contlex="A_KIELINE">karjalan#kieli</st>
       </stg>
     </lg>
 
@@ -9408,6 +9408,24 @@
 
   <e>
     <lg>
+      <l pos="A">kieline</l>
+
+      <stg>
+        <st Contlex="A_KIELINE">kieli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">-kielinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">kiellonalaine</l>
 
       <stg>
@@ -10273,7 +10291,7 @@
       <l pos="A">kolmekieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">kolmekieli</st>
+        <st Contlex="A_KIELINE">kolme#kieli</st>
       </stg>
     </lg>
 
@@ -12603,7 +12621,7 @@
       <l pos="A">libeikieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">libeikieli</st>
+        <st Contlex="A_KIELINE">libei#kieli</st>
       </stg>
     </lg>
 
@@ -12966,7 +12984,7 @@
       <l pos="A">livvinkieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">livvinkieli</st>
+        <st Contlex="A_KIELINE">livvin#kieli</st>
       </stg>
     </lg>
 
@@ -13562,7 +13580,7 @@
       <l pos="A">lyydinkieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">lyydinkieli</st>
+        <st Contlex="A_KIELINE">lyydin#kieli</st>
       </stg>
     </lg>
 
@@ -14236,7 +14254,7 @@
       <l pos="A">meänkieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">meänkieli</st>
+        <st Contlex="A_KIELINE">meän#kieli</st>
       </stg>
     </lg>
 
@@ -14703,7 +14721,7 @@
       <l pos="A">monikieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">monikieli</st>
+        <st Contlex="A_KIELINE">moni#kieli</st>
       </stg>
     </lg>
 
@@ -18456,7 +18474,7 @@
       <l pos="A">pehmeikieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">pehmeikieli</st>
+        <st Contlex="A_KIELINE">pehmei#kieli</st>
       </stg>
     </lg>
 
@@ -23358,7 +23376,7 @@
       <l pos="A">sulakieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">sulakieli</st>
+        <st Contlex="A_KIELINE">sula#kieli</st>
       </stg>
     </lg>
 
@@ -23484,7 +23502,7 @@
       <l pos="A">suomenkieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">suomenkieli</st>
+        <st Contlex="A_KIELINE">suomen#kieli</st>
       </stg>
     </lg>
 
@@ -24849,7 +24867,7 @@
       <l pos="A">teräykieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">teräykieli</st>
+        <st Contlex="A_KIELINE">teräy#kieli</st>
       </stg>
     </lg>
 
@@ -25255,7 +25273,7 @@
       <l pos="A">toizinkieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">toizinkieli</st>
+        <st Contlex="A_KIELINE">toizin#kieli</st>
       </stg>
     </lg>
 
@@ -28003,7 +28021,7 @@
       <l pos="A">valdukieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">valdukieli</st>
+        <st Contlex="A_KIELINE">valdu#kieli</st>
       </stg>
     </lg>
 
@@ -28903,7 +28921,7 @@
       <l pos="A">venʼankieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">venʼankieli</st>
+        <st Contlex="A_KIELINE">venʼan#kieli</st>
       </stg>
     </lg>
 
@@ -28939,7 +28957,7 @@
       <l pos="A">vepsänkieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">vepsänkieli</st>
+        <st Contlex="A_KIELINE">vepsän#kieli</st>
       </stg>
     </lg>
 
@@ -29199,7 +29217,7 @@
       <l pos="A">vienankieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">vienankieli</st>
+        <st Contlex="A_KIELINE">vienan#kieli</st>
       </stg>
     </lg>
 
@@ -29309,7 +29327,7 @@
       <l pos="A">vieraskieline</l>
 
       <stg>
-        <st Contlex="A_KIELINE">vieraskieli</st>
+        <st Contlex="A_KIELINE">vieras#kieli</st>
       </stg>
     </lg>
 
