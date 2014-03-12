@@ -359,7 +359,7 @@ o:u <=> Cns _ %> [ %{aä%}:o | %{aäInf%}: ] ;
 !! {{{
 a:0 <=>
  a _ %> i ; !!= * @CODE@ Vowel shortening before subsequent "i"
-[ # Cns:*  [[ u | o ] (i)| u o ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ %> i (%^WGStem:) [ # | (e) %> ] ;
+[ # Cns:*  [[ u | o ] (i)| u o: ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ %> i (%^WGStem:) [ # | (e) %> ] ;
 !! }}}
 
 !! !!iToj between vowels
@@ -471,7 +471,7 @@ g:r <=> r _ [[ a: ] ( %> i )| e ] %^WGStem:0 ;
 d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ; !!= @CODE@
           u a           _   o       %^WGStem:0 ; !!= @CODE@
           a             _   u       %^WGStem:0 ; !!= @CODE@
-        [ u o: | u: | ä y: ]   _   e       %^WGStem:0 ; !!= @CODE@ 
+        [ u o: | u: | ä y: ]   _  [ e | a: ]  (%> i )    %^WGStem:0 ; !!= @CODE@ 
         !€# vuoze%^WGStem>n
         !€0 vuvve00n
 !! }}}
@@ -500,7 +500,7 @@ u:v <=> [ o | u ] _ d: [ a | e ] %^WGStem:0 ;
 "o:v Lengthening with Ut:vv weakening"
 !! __@RULENAME@__  
 !! {{{
-o:v <=> u _ d: e %^WGStem:0 ;
+o:v <=> u _ d: [ e | a: ] (%> i ) %^WGStem:0 ;
 !! }}}
 
 ! vuozi:vuod
