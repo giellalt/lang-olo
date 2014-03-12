@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjective - juodu+: # adjectives 'dish / kulho' - full paradigm
+     juodu+N+Sg+Nom: juodu
+     juodu+N+Sg+Gen: juvvan
+     juodu+N+Sg+Acc: [juodu, juvvan]
+     juodu+N+Sg+Par: juodua
+     juodu+N+Sg+Tra: juvvakse
+     juodu+N+Sg+Abe: [juvvata, juvvattah]
+     juodu+N+Sg+Com: juvvanke
+     juodu+N+Sg+Ine: juvvas
+     juodu+N+Sg+Ela: [juvvaspäi, juvvas]
+     juodu+N+Sg+Ill: juodah
+     juodu+N+Sg+Ade: juvval
+     juodu+N+Sg+Abl: [juvvalpäi, juvval]
+     juodu+N+Sg+All: juvvale
+     juodu+N+Sg+Ess: juvvannu
+     juodu+N+Sg+Ter: juodassah
+     juodu+N+Sg+Apr: juvvalluo
+     juodu+N+Pl+Nom: juvvat
+     juodu+N+Pl+Gen: juodien
+     juodu+N+Pl+Acc: juvvat
+     juodu+N+Pl+Par: juodii
+     juodu+N+Pl+Tra: juvvikse
+     juodu+N+Pl+Abe: [juvvittah, juvvita]
+     juodu+N+Pl+Com: juodienke
+     juodu+N+Pl+Ine: juvvis
+     juodu+N+Pl+Ela: [juvvaspäi, juvvis]
+     juodu+N+Pl+Ill: juodih
+     juodu+N+Pl+Ade: juvvil
+     juodu+N+Pl+Abl: [juvvilpäi, juvvil]
+     juodu+N+Pl+All: juvvile
+     juodu+N+Pl+Ess: juvvinnu
+     juodu+N+Pl+Ins: juvvin
+     juodu+N+Pl+Apr: juodielluo
+     juodu+N+Sg+Nom+Clt/gi: juodugi
+     juodu+N+Sg+Gen+Clt/gi: juvvangi
+     juodu+N+Sg+Acc+Clt/gi: [juodugi, juvvangi]
+     juodu+N+Sg+Par+Clt/gi: juoduagi
+     juodu+N+Sg+Tra+Clt/gi: juvvaksegi
+     juodu+N+Sg+Abe+Clt/gi: [juvvatagi, juvvattahgi]
+     juodu+N+Sg+Com+Clt/gi: juvvankegi
+     juodu+N+Sg+Ine+Clt/gi: juvvasgi
+     juodu+N+Sg+Ela+Clt/gi: [juvvaspäigi, juvvasgi]
+     juodu+N+Sg+Ill+Clt/gi: juodahgi
+     juodu+N+Sg+Ade+Clt/gi: juvvalgi
+     juodu+N+Sg+Abl+Clt/gi: [juvvalpäigi, juvvalgi]
+     juodu+N+Sg+All+Clt/gi: juvvalegi
+     juodu+N+Sg+Ess+Clt/gi: juvvannugi
+     juodu+N+Sg+Ter+Clt/gi: juodassahgi
+     juodu+N+Sg+Apr+Clt/gi: juvvalluogi
+     juodu+N+Pl+Nom+Clt/gi: juvvatgi
+     juodu+N+Pl+Gen+Clt/gi: juodiengi
+     juodu+N+Pl+Acc+Clt/gi: juvvatgi
+     juodu+N+Pl+Par+Clt/gi: juodiigi
+     juodu+N+Pl+Tra+Clt/gi: juvviksegi
+     juodu+N+Pl+Abe+Clt/gi: [juvvatagi, juvvattahgi]
+     juodu+N+Pl+Com+Clt/gi: juodienkegi
+     juodu+N+Pl+Ine+Clt/gi: juvvisgi
+     juodu+N+Pl+Ela+Clt/gi: [juvvispäigi, juvvisgi]
+     juodu+N+Pl+Ill+Clt/gi: juodihgi
+     juodu+N+Pl+Ade+Clt/gi: juvvilgi
+     juodu+N+Pl+Abl+Clt/gi: [juvvilpäigi, juvvilgi]
+     juodu+N+Pl+All+Clt/gi: juvvilegi
+     juodu+N+Pl+Ess+Clt/gi: juvvinnugi
+     juodu+N+Pl+Ins+Clt/gi: juvvingi
+     juodu+N+Pl+Apr+Clt/gi: juodielluogi
