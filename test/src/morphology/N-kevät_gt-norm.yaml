@@ -1,0 +1,80 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjectiviä - kevät: # adjectiviäs 'spring / kevät' - full paradigm
+     kevät+N+Sg+Nom: kevät
+     kevät+N+Sg+Gen: keviän
+     kevät+N+Sg+Acc: [kevät, keviän]
+     kevät+N+Sg+Par: kevätty
+     kevät+N+Sg+Tra: keviäkse
+     kevät+N+Sg+Abe: [keviätä, keviättäh]
+     kevät+N+Sg+Com: keviänke
+     kevät+N+Sg+Ine: keviäs
+     kevät+N+Sg+Ela: [keviäspäi, keviäs]
+     kevät+N+Sg+Ill: keviäh
+     kevät+N+Sg+Ade: keviäl
+     kevät+N+Sg+Abl: [keviälpäi, keviäl]
+     kevät+N+Sg+All: keviäle
+     kevät+N+Sg+Ess: keviänny
+     kevät+N+Sg+Ter: keviässäh
+     kevät+N+Sg+Apr: keviällyö
+     kevät+N+Pl+Nom: kevät
+     kevät+N+Pl+Gen: keviälöin
+     kevät+N+Pl+Acc: keviät
+     kevät+N+Pl+Par: keviälöi
+     kevät+N+Pl+Tra: keviälöikse
+     kevät+N+Pl+Abe: [keviälöitä, keviälöittäh]
+     kevät+N+Pl+Com: keviälöinke
+     kevät+N+Pl+Ine: [keviälöis keviälöispäi]
+     kevät+N+Pl+Ill: keviälöih,
+     kevät+N+Pl+Ade: keväilöil
+     kevät+N+Pl+Abl: [keviälöilpäi, keviälöil]
+     kevät+N+Pl+All: keviälöile
+     kevät+N+Pl+Ess: keviälöinny
+     kevät+N+Pl+Ins: keviälöin
+     kevät+N+Pl+Apr: keviälöillyö
+     kevät+N+Sg+Nom+Clt/gi: kevätgi
+     kevät+N+Sg+Gen+Clt/gi: keviängi
+     kevät+N+Sg+Acc+Clt/gi: [kevätgi, keviängi]
+     kevät+N+Sg+Par+Clt/gi: kevättyygi
+     kevät+N+Sg+Tra+Clt/gi: keviäksegi
+     kevät+N+Sg+Abe+Clt/gi: [keviätägi, keviättähgi]
+     kevät+N+Sg+Com+Clt/gi: keviänkegi
+     kevät+N+Sg+Ine+Clt/gi: keviäsgi
+     kevät+N+Sg+Ela+Clt/gi: [keviäspäigi, keviäsgi]
+     kevät+N+Sg+Ill+Clt/gi: keviähgi
+     kevät+N+Sg+Ade+Clt/gi: keviälgi
+     kevät+N+Sg+Abl+Clt/gi: [keviälpäigi, keviälgi]
+     kevät+N+Sg+All+Clt/gi: keviälegi
+     kevät+N+Sg+Ess+Clt/gi: keviännygi
+     kevät+N+Sg+Ter+Clt/gi: keviässähgi
+     kevät+N+Sg+Apr+Clt/gi: keviällyögi
+     kevät+N+Pl+Nom+Clt/gi: keviätgi
+     kevät+N+Pl+Gen+Clt/gi: keviälöingi
+     kevät+N+Pl+Acc+Clt/gi: keviätgi
+     kevät+N+Pl+Par+Clt/gi: keviälöigi
+     kevät+N+Pl+Tra+Clt/gi: keviälöiksegi
+     kevät+N+Pl+Abe+Clt/gi: [keviälöitägi, keviälöittähgi]
+     kevät+N+Pl+Com+Clt/gi: keviälöinkegi
+     kevät+N+Pl+Ine+Clt/gi: keviälöisgi
+     kevät+N+Pl+Ela+Clt/gi: [keviälöispäigi, keviälöisgi]
+     kevät+N+Pl+Ill+Clt/gi: keviälöihgi
+     kevät+N+Pl+Ade+Clt/gi: keviälöilgi
+     kevät+N+Pl+Abl+Clt/gi: [keviälöilpäigi, keviälöilgi]
+     kevät+N+Pl+All+Clt/gi: keviälöilegi
+     kevät+N+Pl+Ess+Clt/gi: keviälöinnygi
+     kevät+N+Pl+Ins+Clt/gi: keviälöingi
+     kevät+N+Pl+Apr+Clt/gi: keviälöillyögi
