@@ -2844,24 +2844,6 @@
 
   <e>
     <lg>
-      <l pos="N">avualukku</l>
-
-      <stg>
-        <st Contlex="N_">avualukku</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">etana</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">avuandu</l>
 
       <stg>
@@ -14545,7 +14527,7 @@
       <l pos="N">hämär</l>
 
       <stg>
-        <st Contlex="N_">hämär<!--lyydinkaltaista--></st>
+        <st Contlex="N_">hämär<!----></st>
       </stg>
     </lg>
 
@@ -16277,7 +16259,7 @@
       <l pos="N">itkuvirzi</l>
 
       <stg>
-        <st Contlex="N_">itkuvirzi</st>
+        <st Contlex="N_VUOZI">itku#virzi</st>
       </stg>
     </lg>
 
@@ -24452,7 +24434,7 @@
       <l pos="N">kidžerät</l>
 
       <stg>
-        <st Contlex="N_">kidžerät</st>
+        <st Contlex="N_KARJAL-PL">kidžer</st>
       </stg>
     </lg>
 
@@ -24652,7 +24634,7 @@
       <l pos="N">kielioppi</l>
 
       <stg>
-        <st Contlex="N_">kielioppi</st>
+        <st Contlex="N_PAPPI">kieli#oppi</st>
       </stg>
     </lg>
 
@@ -24690,7 +24672,7 @@
       <l pos="N">kieländy</l>
 
       <stg>
-        <st Contlex="N_">kieländy</st>
+        <st Contlex="N_MUARJU">kieländä</st>
       </stg>
     </lg>
 
@@ -24708,7 +24690,7 @@
       <l pos="N">kierdu</l>
 
       <stg>
-        <st Contlex="N_">kierdu</st>
+        <st Contlex="N_MUARJU">kierda</st>
       </stg>
     </lg>
 
@@ -24726,7 +24708,7 @@
       <l pos="N">kiere</l>
 
       <stg>
-        <st Contlex="N_">kiere</st>
+        <st Contlex="N_SIVE">kiere</st>
       </stg>
     </lg>
 
@@ -24768,7 +24750,7 @@
       <l pos="N">kierros</l>
 
       <stg>
-        <st Contlex="N_">kierros</st>
+        <st Contlex="N_ALUS">kierroks</st>
       </stg>
     </lg>
 
@@ -24804,7 +24786,7 @@
       <l pos="N">kihlat</l>
 
       <stg>
-        <st Contlex="N_">kihlat</st>
+        <st Contlex="N_MUARJU-PL">kihla</st>
       </stg>
     </lg>
 
@@ -24830,7 +24812,7 @@
       <l pos="N">kiidžin</l>
 
       <stg>
-        <st Contlex="N_">kiidžin</st>
+        <st Contlex="N_VANUIN">kiidži</st>
       </stg>
     </lg>
 
@@ -24886,7 +24868,7 @@
       <l pos="N">kiinites</l>
 
       <stg>
-        <st Contlex="N_">kiinites</st>
+        <st Contlex="N_ALUS">kiiniteks</st>
       </stg>
     </lg>
 
@@ -24924,7 +24906,7 @@
       <l pos="N">kiireh</l>
 
       <stg>
-        <st Contlex="N_">kiireh</st>
+        <st Contlex="N_PEREH">kiireh</st>
       </stg>
     </lg>
 
@@ -24942,7 +24924,7 @@
       <l pos="N">kiiriškö</l>
 
       <stg>
-        <st Contlex="N_">kiiriškö</st>
+        <st Contlex="N_RUNO">kiiriškö</st>
       </stg>
     </lg>
 
@@ -24980,7 +24962,7 @@
       <l pos="N">kiiseli</l>
 
       <stg>
-        <st Contlex="N_">kiiseli</st>
+        <st Contlex="N_PAPPI">kiiseli</st>
       </stg>
     </lg>
 
@@ -25009,10 +24991,10 @@
 
   <e>
     <lg>
-      <l pos="N">kiista</l>
+      <l pos="N">kiistu</l>
 
       <stg>
-        <st Contlex="N_">kiista</st>
+        <st Contlex="N_MUARJU">kiista</st>
       </stg>
     </lg>
 
@@ -25030,7 +25012,7 @@
       <l pos="N">kiistahkiža</l>
 
       <stg>
-        <st Contlex="N_">kiistahkiža</st>
+        <st Contlex="N_KALA">kiistah#kiža</st>
       </stg>
     </lg>
 
@@ -25048,7 +25030,7 @@
       <l pos="N">kiistit</l>
 
       <stg>
-        <st Contlex="N_">kiistit</st>
+        <st Contlex="N_PAPPI-PL">kiistit</st>
       </stg>
     </lg>
 
@@ -25056,7 +25038,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">tupsut</t>
       </tg>
     </mg>
   </e>
@@ -25066,7 +25048,7 @@
       <l pos="N">kiistu</l>
 
       <stg>
-        <st Contlex="N_">kiistu</st>
+        <st Contlex="N_MUARJU">kiista</st>
       </stg>
     </lg>
 
@@ -25084,7 +25066,7 @@
       <l pos="N">kiitos</l>
 
       <stg>
-        <st Contlex="N_">kiitos</st>
+        <st Contlex="N_ALUS">kiitos</st>
       </stg>
     </lg>
 
@@ -25092,7 +25074,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">kiitos</t>
+        <t pos="N">kiitoks</t>
       </tg>
     </mg>
   </e>
@@ -25102,7 +25084,7 @@
       <l pos="N">kiittelii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">kiittelij</st>
+        <st Contlex="N_PAGIZII">kiitteli</st>
       </stg>
     </lg>
 
@@ -25124,7 +25106,7 @@
       <l pos="N">kiitändy</l>
 
       <stg>
-        <st Contlex="N_">kiitändy</st>
+        <st Contlex="N_MUARJU">kiitändä</st>
       </stg>
     </lg>
 
@@ -25142,7 +25124,7 @@
       <l pos="N">kiiškoi</l>
 
       <stg>
-        <st Contlex="N_">kiiškoi</st>
+        <st Contlex="N_REBOI">kiiškoi</st>
       </stg>
     </lg>
 
@@ -25216,7 +25198,7 @@
       <l pos="N">kimaleh</l>
 
       <stg>
-        <st Contlex="N_">kimaleh</st>
+        <st Contlex="N_PEREH">kimaleh</st>
       </stg>
     </lg>
 
@@ -25242,7 +25224,7 @@
       <l pos="N">kimalehenpezä</l>
 
       <stg>
-        <st Contlex="N_">kimalehenpezä</st>
+        <st Contlex="N_OZA">kimalehen#pezä</st>
       </stg>
     </lg>
 
@@ -25260,7 +25242,7 @@
       <l pos="N">kimalehparvi</l>
 
       <stg>
-        <st Contlex="N_">kimalehparvi</st>
+        <st Contlex="N_NIMI">kimaleh#parvi</st>
       </stg>
     </lg>
 
@@ -25278,7 +25260,7 @@
       <l pos="N">kimpu</l>
 
       <stg>
-        <st Contlex="N_">kimpu</st>
+        <st Contlex="N_KOIVU">kimpu</st>
       </stg>
     </lg>
 
@@ -25334,7 +25316,7 @@
       <l pos="N">kinču</l>
 
       <stg>
-        <st Contlex="N_">kinču</st>
+        <st Contlex="N_KOIVU">kinču</st>
       </stg>
     </lg>
 
@@ -25356,7 +25338,7 @@
       <l pos="N">kirguandumerki</l>
 
       <stg>
-        <st Contlex="N_">kirguandu#merki</st>
+        <st Contlex="N_PAPPI">kirguandu#merki</st>
       </stg>
     </lg>
 
@@ -25374,7 +25356,7 @@
       <l pos="N">kirikkö</l>
 
       <stg>
-        <st Contlex="N_">kirikkö</st>
+        <st Contlex="N_RUNO">kirikkö</st>
       </stg>
     </lg>
 
@@ -25510,7 +25492,7 @@
       <l pos="N">kirjondeh</l>
 
       <stg>
-        <st Contlex="N_">kirjondeh</st>
+        <st Contlex="N_PEREH">kirjondeh</st>
       </stg>
     </lg>
 
@@ -25518,7 +25500,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">kirjonta</t>
       </tg>
     </mg>
   </e>
@@ -25660,7 +25642,7 @@
       <l pos="N">kirpu</l>
 
       <stg>
-        <st Contlex="N_">kirpu</st>
+        <st Contlex="N_KOIVU">kirpu</st>
       </stg>
     </lg>
 
@@ -25718,7 +25700,7 @@
       <l pos="N">kirves</l>
 
       <stg>
-        <st Contlex="N_">kirves</st>
+        <st Contlex="N_ARMAS">kirve</st>
       </stg>
     </lg>
 
@@ -25736,7 +25718,7 @@
       <l pos="N">kirzi</l>
 
       <stg>
-        <st Contlex="N_">kirzi</st>
+        <st Contlex="N_VUOZI">kir</st>
       </stg>
     </lg>
 
@@ -25756,7 +25738,7 @@
       <l pos="N">kirššoi</l>
 
       <stg>
-        <st Contlex="N_">kirššoi</st>
+        <st Contlex="N_REBOI">kirššoi</st>
       </stg>
     </lg>
 
