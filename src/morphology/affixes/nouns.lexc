@@ -106,6 +106,15 @@ LEXICON N_KYNDÖ-PL
 LEXICON N_JÄLGI  !!= @CODE@ jälgi:jälg
  N_NIMI ;
 
+LEXICON N_MUAMO !!= @CODE@ muamo:muamo
+ N_MUAMO-SG ;
+ N_MUAMO-PL ;
+
+LEXICON N_MUAMO-SG
++N: NMN_MUAMO-SG ;
+LEXICON N_MUAMO-PL
++N: NMN_MUAMO-PL ;
+
 LEXICON N_MUARJU !!= @CODE@ muarju:muarja
  N_MUARJU-SG ;
  N_MUARJU-PL ;
@@ -127,6 +136,16 @@ LEXICON N_KOIRU-SG
 
 LEXICON N_KOIRU-PL
  N_PÄIVY-PL ;
+
+LEXICON N_LUODO !!= @CODE@ luodo:luodo
+ N_LUODO-SG ;
+ N_LUODO-PL ;
+
+LEXICON N_LUODO-SG
++N: NMN_LUODO-SG ;
+
+LEXICON N_LUODO-PL
++N: NMN_LUODO-PL ;
 
 LEXICON N_NIMI !!= @CODE@ nimi:nim
 	N_NIMI-SG  ;
@@ -506,6 +525,16 @@ LEXICON N_OLUT-SG
 LEXICON N_OLUT-PL
 +N: NMN_OLUT-PL ;
 
+LEXICON N_KEVÄT !!= @CODE@ kevät:kevä
+ N_KEVÄT-SG ;
+ N_KEVÄT-PL ;
+
+LEXICON N_KEVÄT-SG
++N: NMN_KEVÄT-SG ;
+
+LEXICON N_KEVÄT-PL
++N: NMN_KEVÄT-PL ;
+
 LEXICON N_ARMAS !!= @CODE@ armas:arma
     N_ARMAS-SG        ;
     N_ARMAS-PL        ;
@@ -633,6 +662,23 @@ LEXICON N_PIENAR-SG
 LEXICON N_PIENAR-PL
 +N: NMN_PIENAR-PL ;
 
+
+LEXICON NMN_MUAMO !!= @CODE@ muamo:muama
+ NMN_MUAMO-SG ;
+ NMN_MUAMO-PL ;
+
+LEXICON NMN_MUAMO-SG
+:%^A2U SGNOMSUF ;
+ SGNOM/PXSP3 ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+LEXICON NMN_MUAMO-PL
+ PLNOMSUF ;
+:%>i PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLPARSUF_Zero ;
+:%>i PLINSSUF ;
++Pl:%>i Noun-NB-01 ;
 
 LEXICON NMN_MUARJU !!= @CODE@ muarju:muarja
  NMN_MUARJU-SG ;
@@ -908,6 +954,23 @@ LEXICON NMN_KOIVU-SG
 +Sg: Noun-NB-01 ;
 
 LEXICON NMN_KOIVU-PL
+ PLNOMSUF ;
+:%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
+
+LEXICON NMN_LUODO !!= @CODE@ luodo:luodo
+        NMN_LUODO-SG ;
+        NMN_LUODO-PL ;
+
+LEXICON NMN_LUODO-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_LUODO-PL
  PLNOMSUF ;
 :%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
 :%>l%{oö%}i PLPARSUF_Zero ;
@@ -1512,6 +1575,22 @@ LEXICON NMN_OLUT-SG
 
 LEXICON NMN_OLUT-PL
 :je PLGENSUF_N ;
+:i PLPARSUF_dU ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
+
+LEXICON NMN_KEVÄT !!= * @CODE@ kevät:kevä
+ NMN_KEVÄT-SG ;
+ NMN_KEVÄT-PL ;
+
+LEXICON NMN_KEVÄT-SG
+:t SGNOMSUF ;
+:ä SGGENSUF ;
+:t SGPARSUF_dU ;
++Sg:ä Noun-NB-01 ;
+
+LEXICON NMN_KEVÄT-PL
+:ä PLGENSUF_N ;
 :i PLPARSUF_dU ;
 :i PLINSSUF ;
 +Pl:i Noun-NB-01 ;
