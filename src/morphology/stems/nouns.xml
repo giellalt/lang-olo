@@ -44331,10 +44331,10 @@
 
   <e>
     <lg>
-      <l pos="N">nägimižih</l>
+      <l pos="Adv">nägimižih</l>
 
       <stg>
-        <st Contlex="N_">nägimižih</st>
+        <st Contlex="Adv">nägimižih</st>
       </stg>
     </lg>
 
@@ -44352,7 +44352,7 @@
       <l pos="N">nägö</l>
 
       <stg>
-        <st Contlex="N_">nägö</st>
+        <st Contlex="N_RUNO">nä</st>
       </stg>
     </lg>
 
@@ -44370,7 +44370,7 @@
       <l pos="N">nähtävy</l>
 
       <stg>
-        <st Contlex="N_">nähtävy</st>
+        <st Contlex="N_MUARJU">nähtävä</st>
       </stg>
     </lg>
 
@@ -44406,7 +44406,7 @@
       <l pos="N">nälgy</l>
 
       <stg>
-        <st Contlex="N_">nälgy</st>
+        <st Contlex="N_KOIRU">nälgä</st>
       </stg>
     </lg>
 
@@ -45190,10 +45190,10 @@
 
   <e>
     <lg>
-      <l pos="N">olannu</l>
+      <l pos="N">olanʼnʼu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">olanna</st>
+        <st Contlex="N_MUARJU">olanʼnʼna</st>
       </stg>
     </lg>
 
@@ -45202,24 +45202,6 @@
 
       <tg xml:lang="fin">
         <t pos="N">blini</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">olanny</l>
-
-      <stg>
-        <st Contlex="N_">olanny</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
       </tg>
     </mg>
   </e>
