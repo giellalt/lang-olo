@@ -610,6 +610,14 @@ LEXICON N_MIES-SG !!= @CODE@ mies:mie
 LEXICON N_MIES-PL !!= @CODE@ mies:mie
 +N: NMN_MIES-PL ;
 
+LEXICON N_KUURNIS !!= @CODE@ kuurnis:kuurne
+	N_KUURNIS-SG ;
+        N_KUURNIS-PL ;
+LEXICON N_KUURNIS-SG
++N: NMN_KUURNIS-SG ;
+LEXICON N_KUURNIS-PL
++N: NMN_KUURNIS-PL ;
+
 LEXICON N_SUALIŠ_SUB
 +Use/Sub: N_SUALIŠ ;
 LEXICON N_SUALIŠ !!= @CODE@ suališ:suali
@@ -1682,7 +1690,7 @@ LEXICON NMN_RAIŠ-PL
 :gehi PLINSSUF ;
 +Pl:gehi Noun-NB-01 ;
 
-LEXICON NMN_KUURNIS !!= @CODE@ kuurniš:kuurne
+LEXICON NMN_KUURNIS !!= @CODE@ kuurnis:kuurne
 	NMN_KUURNIS-SG ;
 	NMN_KUURNIS-PL ;
 
