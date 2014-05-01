@@ -572,23 +572,6 @@
   </e>
   <e>
     <lg>
-      <l pos="Adv">alahan</l>
-
-      <stg>
-        <st Contlex="ADV_">alahan</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">alhaalla</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
       <l pos="Adv">alahanpäi</l>
 
       <stg>
@@ -1781,32 +1764,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">ensin, ensiksi</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
-      <l pos="Adv">enne</l>
-
-      <stg>
-        <st Contlex="ADV_">enne</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">ennen</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">ensin, ensiksi</t>
+        <t pos="Adv">ensin</t><t pos="Adv">ensiksi</t>
       </tg>
     </mg>
   </e>
@@ -2403,25 +2361,6 @@
       <tg xml:lang="eng">
         <t pos="Adv">under control</t>
       </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">hallussa</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
-      <l pos="Adv">hantuzis</l>
-
-      <stg>
-        <st Contlex="ADV_">hantuzis</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
 
       <tg xml:lang="fin">
         <t pos="Adv">hallussa</t>
@@ -3658,7 +3597,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Adv">leikillä(än)</t>
+        <t pos="Adv">leikillä</t>
+        <t pos="Adv">leikillään</t>
       </tg>
     </mg>
   </e>
@@ -4477,65 +4417,12 @@
     </lg>
 
     <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">jäljessä, perässä</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">jäljestä, perästä</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">jälkeenpäin, myöhemmin</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">perässä, persätä, perään</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">takana, takaa, taakse</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
-      <l pos="Adv">jälles</l>
-
-      <stg>
-        <st Contlex="ADV_">jälles</st>
-      </stg>
-    </lg>
-
-    <mg>
       <m>
         <head/>
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Adv">jäljessä, perässä</t>
+        <t pos="Adv">jäljessä</t><t pos="Adv">perässä</t>
       </tg>
     </mg>
 
@@ -4543,7 +4430,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">jäljestä, perästä</t>
+        <t pos="Adv">jäljestä</t><t pos="Adv">perästä</t>
       </tg>
     </mg>
 
@@ -4551,7 +4438,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">jälkeenpäin, myöhemmin</t>
+        <t pos="Adv">jälkeenpäin</t><t pos="Adv">myöhemmin</t>
       </tg>
     </mg>
 
@@ -4559,7 +4446,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">perässä, persätä, perään</t>
+        <t pos="Adv">perässä</t><t pos="Adv">persätä</t><t pos="Adv">perään</t>
       </tg>
     </mg>
 
@@ -4567,7 +4454,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">takana, takaa, taakse</t>
+        <t pos="Adv">takana</t><t pos="Adv">takaa</t><t pos="Adv">taakse</t>
       </tg>
     </mg>
   </e>
@@ -4603,25 +4490,6 @@
       <tg xml:lang="eng">
         <t pos="Adv"/>
       </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">takaisin</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
-      <l pos="Adv">järilleh</l>
-
-      <stg>
-        <st Contlex="ADV_">järilleh</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
 
       <tg xml:lang="fin">
         <t pos="Adv">takaisin</t>
@@ -8319,33 +8187,12 @@
     </lg>
 
     <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">niin, siten</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
-      <l pos="Adv">mugai</l>
-
-      <stg>
-        <st Contlex="ADV_">mugai</st>
-      </stg>
-    </lg>
-
-    <mg>
       <m>
         <head/>
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Adv">niin, siten</t>
+        <t pos="Adv">niin</t><t pos="Adv">siten</t>
       </tg>
     </mg>
   </e>
@@ -8704,25 +8551,6 @@
       <tg xml:lang="eng">
         <t pos="Adv"/>
       </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">myöten</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
-      <l pos="Adv">myöte</l>
-
-      <stg>
-        <st Contlex="ADV_">myöte</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
 
       <tg xml:lang="fin">
         <t pos="Adv">myöten</t>
@@ -14664,23 +14492,6 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">tässä</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
-      <l pos="Adv">täs</l>
-
-      <stg>
-        <st Contlex="ADV_">täs</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t/>
       </tg>
     </mg>
   </e>
