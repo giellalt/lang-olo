@@ -85,6 +85,16 @@ LEXICON V_JUVVA !!= @CODE@ juvva:juo
 
 LEXICON V_NÄHTÄ !!= @CODE@ nähtä:nä
 +TYÄ+V:	V-VV_02	 ;
++V+Ind+Prs+ScSg1:in K ;
++V+Ind+Prs+ScSg3:göy K ;
++V+Ind+Prs+ScPl3:htäh K ;
+
+LEXICON V_KÄVVÄ !!= @CODE@ kävvä:käv
++TYÄ+V: V-VV_02  ;
++V+Ind+Prs+ScSg1:yn K ;
++V+Ind+Prs+ScSg3:yy K ;
++V+Ind+Prs+ScPl3:väh K	;
+
 
 LEXICON V_KUULTA !!= @CODE@ kuulta:kuul
 !! !Verbs of the Finnish type 3 except for the infinitive that makes no sense
@@ -103,6 +113,9 @@ LEXICON V_PESTÄ !!= @CODE@ pestä:pes
 LEXICON V_NOSTA !!= @CODE@ nosta:no
 !! !Verbs of the Finnish type 3
 +V: V-VV_03 ;
++V+Ind+Prs+ScSg1:uzen K ;
++V+Ind+Prs+ScSg3:uzou K ;
++V+Ind+Prs+ScPl3:stah K  ;
 
 LEXICON V_KUULLA !!= @CODE@ kuulla:kuul
 !! !Verbs of the Finnish type 3 but not identical
@@ -122,6 +135,12 @@ LEXICON V_AVATA !!= @CODE@ avata:ava
 !Verbs of the Finnish type 4
 +V: V-VV_04 ;
 
+LEXICON V_TORATA !!= @CODE@ torata:tora
+!Verbs of the Finnish type 4 ?
++TYÄ+V: V-VV_04 ;
++V+Ind+Prs+ScSg1:uan K ;
++V+Ind+Prs+ScSg3:uau K ;
++V+Ind+Prs+ScPl3:tah K ;
 
 
 LEXICON V_SUVAIJA !!= @CODE@ suvaija:suvai
