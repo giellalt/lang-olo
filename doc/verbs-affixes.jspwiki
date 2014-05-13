@@ -12,38 +12,47 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON V_KANDUA  kandua:kanda
 
- LEXICON V_OTTUA  ottua:otta
+ LEXICON V_KANDUA-SG3  kandua:kanda
+
 
  LEXICON V_PUNUO  punuo:puno
 
+ LEXICON V_PUNUO-SG3  punuo:puno
+
+
  LEXICON V_VALUO  valuo:valu
 
+ LEXICON V_VALUO-SG3  valuo:valu
 
 
  LEXICON V_POTKIE  potkie:potki
 
+ LEXICON V_POTKIE-SG3  potkie:potki
+
 
  LEXICON V_IMIE  imie:ime
+
+ LEXICON V_IMIE-SG3  imie:ime
 
 
  LEXICON  V_PIDIÄ  pidiä:pidä
 
 !VERBS OF FINNISH TYPE 2 in dA
 
- LEXICON V_ROIJA  roija:roi
+ LEXICON V_VOIJA  voija:voi
+Verbs of the Finnish type 2
 
- LEXICON V_SUAJA  suaja:saa
+ LEXICON V_ROIJA  roija:roi
+Verbs of the Finnish type 2
+
+ LEXICON V_SUAJA  suaja:saa jiäjä:jää
+Verbs of the Finnish type 2 also suaha jiäjä, jiähä
 
  LEXICON V_JUVVA  juvva:juo
 
  LEXICON V_NÄHTÄ  nähtä:nä
 
  LEXICON V_KÄVVÄ  kävvä:käv
-
-
- LEXICON V_KUULTA  kuulta:kuul
-!Verbs of the Finnish type 3 except for the infinitive that makes no sense
-I should be kuulda perhaps 2013-11-14
 
 
  LEXICON V_TULLA  tulla:tul
@@ -55,7 +64,10 @@ I should be kuulda perhaps 2013-11-14
  LEXICON V_NOSTA  nosta:no
 !Verbs of the Finnish type 3
 
- LEXICON V_KUULLA  kuulla:kuul
+ LEXICON V_KUULTA  kuulta:kuul
+!Verbs of the Finnish type 3 but not identical
+
+ LEXICON V_KUULTA-SG3  kuulta:kuul
 !Verbs of the Finnish type 3 but not identical
 
 
@@ -67,14 +79,18 @@ I should be kuulda perhaps 2013-11-14
 
  LEXICON V_AVATA  avata:ava
 
- LEXICON V_TORATA  torata:tora
-
+ LEXICON V_AVATA-SG3  avata:ava
 
  LEXICON V_SUVAIJA  suvaija:suvai
+
+ LEXICON V_SUVAIJA-SG3  suvaija:suvai
 
  LEXICON V_MERKITÄ  merkitä:merki
 
  LEXICON V_ALETA  aleta:ale (alenov)
+
+ LEXICON V_ALETA-SG3  aleta:ale (alenov)
+
 
  LEXICON V_SUATA  suata:suva (suvaiččov)
 
@@ -88,9 +104,12 @@ I should be kuulda perhaps 2013-11-14
 
  LEXICON VR_POTKIE  potkiekseh:potki
 
+ LEXICON VR_PIDIÄ  pidiäkseh:pidä
+
  LEXICON VR_KANDUA  kanduakseh:kanda
 
- LEXICON VR_OTTUA  ottuakseh:otta
+ LEXICON VR_KANDUA-SG3  kanduakseh:kanda
+
 
  LEXICON VR_RODIEKSEH  rodiekseh:rodi
 
