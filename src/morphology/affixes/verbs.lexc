@@ -41,28 +41,47 @@ LEXICON V_KANDUA !!= @CODE@ kandua:kanda
 !V1a
 +V: V-VV_01 ;
 
-LEXICON V_OTTUA !!= @CODE@ ottua:otta
+LEXICON V_KANDUA-SG3 !!= @CODE@ kandua:kanda
 !Verbs of the Finnish type 1
 !V1a
 +V: V-VV_01 ;
++V:  INDPRSSG3 ;
++V: INDPRSCONNEG_WEAK ;
++V: INDPRTSG3 ;
++V: INDPRTCONNEG_nUh ;
+
 
 LEXICON V_PUNUO !!= @CODE@ punuo:puno
 !V1o
 +V: V-VV_01 ;
 
+LEXICON V_PUNUO-SG3 !!= @CODE@ punuo:puno
+!V1o
++V: V-VV_01 ;
+
+
 LEXICON V_VALUO !!= @CODE@ valuo:valu
 !V1u
 +V: V-VV_01 ;
 
+LEXICON V_VALUO-SG3 !!= @CODE@ valuo:valu
+!V1u
++V: V-VV_01 ;
 
 
 !V1i
 LEXICON V_POTKIE !!= @CODE@ potkie:potki
 +V: V-VV_01 ;
 
+LEXICON V_POTKIE-SG3 !!= @CODE@ potkie:potki
++V: V-VV_01 ;
+
 
 !V1i
 LEXICON V_IMIE !!= @CODE@ imie:ime
++V: V-VV_01 ;
+
+LEXICON V_IMIE-SG3 !!= @CODE@ imie:ime
 +V: V-VV_01 ;
 
 
@@ -71,12 +90,19 @@ LEXICON  V_PIDIÄ !!= @CODE@ pidiä:pidä
 
 !! !VERBS OF FINNISH TYPE 2 in dA
 
+LEXICON V_VOIJA !!= @CODE@ voija:voi
+!! Verbs of the Finnish type 2
++TYÄ+V: V-VV_02 ;
++V+Ind+Prs+ScSg1:n K ;
++V+Ind+Prs+ScSg3:bi K ;
++V+Ind+Prs+ScPl3:ijah K ;
+
 LEXICON V_ROIJA !!= @CODE@ roija:roi
-!Verbs of the Finnish type 2
+!! Verbs of the Finnish type 2
 +V: V-VV_02 ;
 
-LEXICON V_SUAJA !!= @CODE@ suaja:saa
-!Verbs of the Finnish type 2
+LEXICON V_SUAJA !!= @CODE@ suaja:saa jiäjä:jää
+!! Verbs of the Finnish type 2 also suaha jiäjä, jiähä
 +V: V-VV_02 ;
 
 LEXICON V_JUVVA !!= @CODE@ juvva:juo
@@ -96,12 +122,6 @@ LEXICON V_KÄVVÄ !!= @CODE@ kävvä:käv
 +V+Ind+Prs+ScPl3:väh K	;
 
 
-LEXICON V_KUULTA !!= @CODE@ kuulta:kuul
-!! !Verbs of the Finnish type 3 except for the infinitive that makes no sense
-!! I should be kuulda perhaps 2013-11-14
-+V: V-VV_03 ;
-
-
 LEXICON V_TULLA !!= @CODE@ tulla:tul
 !! !Verbs of the Finnish type 3
 +V: V-VV_03 ;
@@ -117,7 +137,11 @@ LEXICON V_NOSTA !!= @CODE@ nosta:no
 +V+Ind+Prs+ScSg3:uzou K ;
 +V+Ind+Prs+ScPl3:stah K  ;
 
-LEXICON V_KUULLA !!= @CODE@ kuulla:kuul
+LEXICON V_KUULTA !!= @CODE@ kuulta:kuul
+!! !Verbs of the Finnish type 3 but not identical
++V: V-VV_KUULLA ;
+
+LEXICON V_KUULTA-SG3 !!= @CODE@ kuulta:kuul
 !! !Verbs of the Finnish type 3 but not identical
 +V: V-VV_KUULLA ;
 
@@ -135,15 +159,15 @@ LEXICON V_AVATA !!= @CODE@ avata:ava
 !Verbs of the Finnish type 4
 +V: V-VV_04 ;
 
-LEXICON V_TORATA !!= @CODE@ torata:tora
-!Verbs of the Finnish type 4 ?
-+TYÄ+V: V-VV_04 ;
-+V+Ind+Prs+ScSg1:uan K ;
-+V+Ind+Prs+ScSg3:uau K ;
-+V+Ind+Prs+ScPl3:tah K ;
-
+LEXICON V_AVATA-SG3 !!= @CODE@ avata:ava
+!Verbs of the Finnish type 4
++V: V-VV_04 ;
 
 LEXICON V_SUVAIJA !!= @CODE@ suvaija:suvai
+!Verbs of the Finnish type 5
++V: V-VV_05_SUVAIJA ;
+
+LEXICON V_SUVAIJA-SG3 !!= @CODE@ suvaija:suvai
 !Verbs of the Finnish type 5
 +V: V-VV_05_SUVAIJA ;
 
@@ -176,6 +200,10 @@ LEXICON V_ALETA !!= @CODE@ aleta:ale (alenov)
 !+V:%>d%{uy%}%^WGStem CONDPRT ;
 !+V:%>d%{aä%} CONDPRTPL3_DAnUs ;
 
+LEXICON V_ALETA-SG3 !!= @CODE@ aleta:ale (alenov)
++V: V-VV_06 ;
+
+
 LEXICON V_SUATA !!= @CODE@ suata:suva (suvaiččov)
 +V: #;
 
@@ -194,11 +222,15 @@ LEXICON VR_IMIE !!= @CODE@ imiekseh:ime
 LEXICON VR_POTKIE !!= @CODE@ potkiekseh:potki
 	VR_01 ;
 
+LEXICON VR_PIDIÄ !!= @CODE@ pidiäkseh:pidä
+  VR_01 ;
+
 LEXICON VR_KANDUA !!= @CODE@ kanduakseh:kanda
   VR_01 ;
 
-LEXICON VR_OTTUA !!= @CODE@ ottuakseh:otta
-	VR_01 ;
+LEXICON VR_KANDUA-SG3 !!= @CODE@ kanduakseh:kanda
+  VR_01 ;
+
 
 LEXICON VR_RODIEKSEH !!= @CODE@ rodiekseh:rodi
 ! Reflexive verbs
