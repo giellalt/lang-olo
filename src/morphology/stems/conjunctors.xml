@@ -100,6 +100,30 @@
     </mg>
   </e>
 
+  <e exclude="fst">
+    <lg>
+      <l pos="CS">eiga</l>
+
+      <stg>
+        <st Contlex="CS_">eiga</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">tai</t>
+
+        <t pos="Pron">vaikka</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="CS">ku</l>
