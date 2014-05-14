@@ -141,6 +141,32 @@
 
   <e>
     <lg>
+      <l pos="Po">eziči</l>
+
+      <stg>
+        <st Contlex="PO_">eziči</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Po">ohitse</t>
+
+        <t pos="Po">editse</t>
+
+        <t pos="Po">sijaan</t>
+
+        <t pos="Po"> asemasta</t>
+
+        <t pos="Po"> tähden</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Pr">ennen</l>
 
       <stg>
@@ -420,7 +446,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t>takia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t> tähden</t>
       </tg>
     </mg>
   </e>
@@ -446,7 +476,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t>tähden</t>
       </tg>
     </mg>
   </e>
