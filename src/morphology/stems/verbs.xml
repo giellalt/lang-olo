@@ -4,239 +4,6 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-  <e>
-    <lg>
-      <l pos="Adv">artelilleh</l>
-
-      <stg>
-        <st Contlex="ADV_">artelilleh</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">yhdessä</t>
-
-        <t pos="Adv">yhteen</t>
-
-        <t pos="Adv">joukolla</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e order="2">
-    <lg>
-      <l pos="Adv">hos</l>
-
-      <stg>
-        <st Contlex="ADV_">hos</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <tg xml:lang="rus">
-        <t pos="Adv">хоть</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e order="2">
-    <lg>
-      <l pos="Adv">hot</l>
-
-      <stg>
-        <st Contlex="ADV_">hot</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <tg xml:lang="rus">
-        <t pos="Adv">хоть</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">davai</l>
-
-      <stg>
-        <st Contlex="INTERJ_">davai</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">1. ja 2. persoonan imperatiivissa; huudahdussanana,
-        siitä vaan; osoittaa toiminnan intensiivisen jatkumista</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e order="2">
-    <lg>
-      <l pos="Interj">olgah</l>
-
-      <stg>
-        <st Contlex="INTERJ_">olgah</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <tg xml:lang="rus">
-        <t pos="Interj">пусть</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e order="2">
-    <lg>
-      <l pos="Interj">roih</l>
-
-      <stg>
-        <st Contlex="INTERJ_">roih</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <tg xml:lang="rus">
-        <t pos="Interj">хватить</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e order="2">
-    <lg>
-      <l pos="Interj">toinah</l>
-
-      <stg>
-        <st Contlex="INTERJ_">toinah</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <tg xml:lang="rus">
-        <t pos="Interj">может быть</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">hägär</l>
-
-      <stg>
-        <st Contlex="V_">hägär</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">härmä</t>
-
-        <t pos="V">kuura</t>
-
-        <t pos="V">huurre</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">sumu</t>
-
-        <t pos="V">usva</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">häkä</t>
-
-        <t pos="V">haiku</t>
-
-        <t pos="V">löyhkähäkä</t>
-
-        <t pos="V">haiku</t>
-
-        <t pos="V">löyhkä</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">hämy</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">kiima</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e order="2">
-    <lg>
-      <l pos="Pcle">anna</l>
-
-      <stg>
-        <st Contlex="PCLE_">anna</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <tg xml:lang="rus">
-        <t pos="Pcle">пусть</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e order="2">
-    <lg>
-      <l pos="Pcle">la</l>
-
-      <stg>
-        <st Contlex="PCLE_">la</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <tg xml:lang="rus">
-        <t pos="Pcle">дескать</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e order="2">
-    <lg>
-      <l pos="Po">kohti</l>
-
-      <stg>
-        <st Contlex="PO_">kohti</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <tg xml:lang="rus">
-        <t pos="Pr">честить</t>
-      </tg>
-    </mg>
-  </e>
-
   <e order="2">
     <lg>
       <l pos="V">abeija</l>
@@ -842,7 +609,7 @@
       <l pos="V">aijoidellakseh</l>
 
       <stg>
-        <st Contlex="V_">aijoidellakseh</st>
+        <st Contlex="VR_TULLA">aijoidel</st>
       </stg>
     </lg>
 
@@ -860,7 +627,7 @@
       <l pos="V">aijoindellakseh</l>
 
       <stg>
-        <st Contlex="V_">aijoindellakseh</st>
+        <st Contlex="VR_TULLA">aijoindel</st>
       </stg>
     </lg>
 
@@ -4023,7 +3790,7 @@
       <l pos="V">birbettiä</l>
 
       <stg>
-        <st Contlex="V_">birbettiä</st>
+        <st Contlex="V_KANDUA">birbettä</st>
       </stg>
     </lg>
 
@@ -4045,7 +3812,7 @@
       <l pos="V">bizbettiä</l>
 
       <stg>
-        <st Contlex="V_">bizbettiä</st>
+        <st Contlex="V_KANDUA">bizbettä</st>
       </stg>
     </lg>
 
@@ -4448,10 +4215,10 @@
 
   <e>
     <lg>
-      <l pos="V">blängyttä</l>
+      <l pos="V">blängyttiä</l>
 
       <stg>
-        <st Contlex="V_">blängyttiä</st>
+        <st Contlex="V_KANDUA">blängyttä</st>
       </stg>
     </lg>
 
@@ -4869,7 +4636,7 @@
       <l pos="V">briilahtuakseh</l>
 
       <stg>
-        <st Contlex="V_">briilahtuakseh</st>
+        <st Contlex="VR_KANDUA">briilahta</st>
       </stg>
     </lg>
 
@@ -5017,7 +4784,7 @@
       <l pos="V">bringahtuakseh</l>
 
       <stg>
-        <st Contlex="V_">bringahtuakseh</st>
+        <st Contlex="VR_KANDUA">bringahta</st>
       </stg>
     </lg>
 
@@ -5107,7 +4874,7 @@
       <l pos="V">bringua</l>
 
       <stg>
-        <st Contlex="V_">bringua</st>
+        <st Contlex="V_KANDUA">bringa</st>
       </stg>
     </lg>
 
