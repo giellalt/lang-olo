@@ -5230,7 +5230,7 @@
       <l pos="V">bröyžittiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">bröyžittiä</st>
+        <st Contlex="V_KANDUA">bröyžittiä</st>
       </stg>
     </lg>
 
@@ -6948,7 +6948,7 @@
       <l pos="V">duuhiekseh</l>
 
       <stg>
-        <st Contlex="V_POTKIEKSEH">duuhiekseh</st>
+        <st Contlex="VR_POTKIE">duuhiekseh</st>
       </stg>
     </lg>
 
@@ -7138,7 +7138,7 @@
       <l pos="V">edendiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">edendiä</st>
+        <st Contlex="V_KANDUA">edendiä</st>
       </stg>
     </lg>
 
@@ -7588,7 +7588,7 @@
       <l pos="V">elgättiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">elgättiä</st>
+        <st Contlex="V_KANDUA">elgättiä</st>
       </stg>
     </lg>
 
@@ -7922,7 +7922,7 @@
       <l pos="V">eläveittiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">eläveittiä</st>
+        <st Contlex="V_KANDUA">eläveittiä</st>
       </stg>
     </lg>
 
@@ -7960,7 +7960,7 @@
       <l pos="V">elävyttiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">elävyttiä</st>
+        <st Contlex="V_KANDUA">elävyttiä</st>
       </stg>
     </lg>
 
@@ -8084,7 +8084,7 @@
       <l pos="V">ennettiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">ennettiä</st>
+        <st Contlex="V_KANDUA">ennettiä</st>
       </stg>
     </lg>
 
@@ -8218,7 +8218,7 @@
       <l pos="V">ennättiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">ennättiä</st>
+        <st Contlex="V_KANDUA">ennättiä</st>
       </stg>
     </lg>
 
@@ -8482,7 +8482,7 @@
       <l pos="V">estiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">estiä</st>
+        <st Contlex="V_KANDUA">estiä</st>
       </stg>
     </lg>
 
@@ -8636,7 +8636,7 @@
       <l pos="V">ečittiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">ečittiä</st>
+        <st Contlex="V_KANDUA">ečittiä</st>
       </stg>
     </lg>
 
@@ -8696,7 +8696,7 @@
       <l pos="V">eččiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">eččiä</st>
+        <st Contlex="V_KANDUA">ečči</st>
       </stg>
     </lg>
 
@@ -10975,30 +10975,10 @@
 
   <e>
     <lg>
-      <l pos="V">haukkočie</l>
+      <l pos="V">haukkuo</l>
 
       <stg>
-        <st Contlex="V_">haukkočie</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">riidellä</t>
-
-        <t pos="V">haukkua</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">haukkua</l>
-
-      <stg>
-        <st Contlex="V_">haukkua</st>
+        <st Contlex="V_VALUO">haukkuo</st>
       </stg>
     </lg>
 
@@ -11173,10 +11153,10 @@
 
   <e>
     <lg>
-      <l pos="N">havvumečču</l>
+      <l pos="N">havvumeččy</l>
 
       <stg>
-        <st Contlex="V_">havvumečču</st>
+        <st Contlex="N_">havvumeččä</st>
       </stg>
     </lg>
 
@@ -11249,10 +11229,10 @@
 
   <e>
     <lg>
-      <l pos="V">heikketä</l>
+      <l pos="V">heiketä</l>
 
       <stg>
-        <st Contlex="V_">heikketä</st>
+        <st Contlex="V_ALETA">heike</st>
       </stg>
     </lg>
 
@@ -11267,10 +11247,10 @@
 
   <e>
     <lg>
-      <l pos="V">heikkiä</l>
+      <l pos="V">heikkie</l>
 
       <stg>
-        <st Contlex="V_">heikkiä</st>
+        <st Contlex="V_POTKIE">heikkie</st>
       </stg>
     </lg>
 
@@ -11468,7 +11448,7 @@
       <l pos="V">heinävyö</l>
 
       <stg>
-        <st Contlex="V_">heinävyö</st>
+        <st Contlex="V_VALUO">heinävy</st>
       </stg>
     </lg>
 
@@ -11501,10 +11481,10 @@
 
   <e>
     <lg>
-      <l pos="V">heittiekseh</l>
+      <l pos="V">heittiäkseh</l>
 
       <stg>
-        <st Contlex="V_">heittiekseh</st>
+        <st Contlex="VR_KANDUO">heittiäkseh</st>
       </stg>
     </lg>
 
@@ -11774,7 +11754,7 @@
       <l pos="V">helištä</l>
 
       <stg>
-        <st Contlex="V_">helištä</st>
+        <st Contlex="V_PESTÄ">heliš</st>
       </stg>
     </lg>
 
@@ -11794,7 +11774,7 @@
       <l pos="V">helletä</l>
 
       <stg>
-        <st Contlex="V_">helletä</st>
+        <st Contlex="V_ALETA">helle</st>
       </stg>
     </lg>
 
@@ -11848,7 +11828,7 @@
       <l pos="V">helskiä</l>
 
       <stg>
-        <st Contlex="V_">helskiä</st>
+        <st Contlex="V_KANDUA">helskä</st>
       </stg>
     </lg>
 
@@ -13338,7 +13318,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">liikkua t. työskennellä hitaasti</t>
+        <t pos="V">liikkua hitaasti </t>
+
+        <t pos="V">työskennellä hitaasti</t>
 
         <t pos="V">hiissuttaa</t>
       </tg>
@@ -13376,7 +13358,7 @@
       <l pos="V">hičistyö</l>
 
       <stg>
-        <st Contlex="V_">hičistyö</st>
+        <st Contlex="V_VALUO">hičistyö</st>
       </stg>
     </lg>
 
@@ -13544,7 +13526,7 @@
       <l pos="V">hoikkua</l>
 
       <stg>
-        <st Contlex="V_">hoikkua</st>
+        <st Contlex="V_KANDUA">hoikkua</st>
       </stg>
     </lg>
 
@@ -13677,10 +13659,10 @@
 
   <e>
     <lg>
-      <l pos="V">hoivu</l>
+      <l pos="N">hoivu</l>
 
       <stg>
-        <st Contlex="V_">hoivu</st>
+        <st Contlex="N_KOIRU">hoiva</st>
       </stg>
     </lg>
 
@@ -13688,11 +13670,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">lepo</t>
+        <t pos="N">lepo</t>
 
-        <t pos="V">rauha</t>
+        <t pos="N">rauha</t>
 
-        <t pos="V">helpotus</t>
+        <t pos="N">helpotus</t>
       </tg>
     </mg>
 
@@ -13796,7 +13778,7 @@
       <l pos="V">holnahtuakseh</l>
 
       <stg>
-        <st Contlex="V_">holnahtuakseh</st>
+        <st Contlex="VR_PIDIÄ">holnahtuakseh</st>
       </stg>
     </lg>
 
@@ -13958,7 +13940,7 @@
       <l pos="V">hommu</l>
 
       <stg>
-        <st Contlex="V_">hommu</st>
+        <st Contlex="N_KOIRU">homma</st>
       </stg>
     </lg>
 
@@ -14100,7 +14082,7 @@
       <l pos="V">houketa</l>
 
       <stg>
-        <st Contlex="V_">houketa</st>
+        <st Contlex="V_ALETA">houketa</st>
       </stg>
     </lg>
 
@@ -14236,7 +14218,7 @@
       <l pos="V">huakkua</l>
 
       <stg>
-        <st Contlex="V_">huakkua</st>
+        <st Contlex="V_KANDUA">huakkua</st>
       </stg>
     </lg>
 
@@ -15250,7 +15232,7 @@
       <l pos="V">huorištellakseh</l>
 
       <stg>
-        <st Contlex="V_">huorištellakseh</st>
+        <st Contlex="VR_TULLA">huorištellakseh</st>
       </stg>
     </lg>
 
@@ -15426,7 +15408,7 @@
       <l pos="V">hurista</l>
 
       <stg>
-        <st Contlex="V_">hurista</st>
+        <st Contlex="V_PESTÄ">hurista</st>
       </stg>
     </lg>
 
@@ -15846,7 +15828,7 @@
       <l pos="V">hyijata</l>
 
       <stg>
-        <st Contlex="V_">hyijata</st>
+        <st Contlex="V_AVATA">hyijata</st>
       </stg>
     </lg>
 
@@ -15864,7 +15846,7 @@
       <l pos="V">hyijätä</l>
 
       <stg>
-        <st Contlex="V_">hyijätä</st>
+        <st Contlex="V_AVATA">hyijätä</st>
       </stg>
     </lg>
 
@@ -16024,7 +16006,7 @@
       <l pos="V">hynhettiä</l>
 
       <stg>
-        <st Contlex="V_">hynhettiä</st>
+        <st Contlex="V_KANDUA">hynhettä</st>
       </stg>
     </lg>
 
@@ -16360,7 +16342,7 @@
       <l pos="V">hyveksie</l>
 
       <stg>
-        <st Contlex="V_">hyveksie</st>
+        <st Contlex="V_POTKIE">hyveksie</st>
       </stg>
     </lg>
 
@@ -16474,7 +16456,7 @@
       <l pos="V">hyvittely</l>
 
       <stg>
-        <st Contlex="V_">hyvittely</st>
+        <st Contlex="N_KOIVU">hyvittely</st>
       </stg>
     </lg>
 
@@ -16541,10 +16523,10 @@
 
   <e>
     <lg>
-      <l pos="V">hyväksyä</l>
+      <l pos="V">hyväksyö</l>
 
       <stg>
-        <st Contlex="V_">hyväksyä</st>
+        <st Contlex="V_VALUO">hyväksyö</st>
       </stg>
     </lg>
 
@@ -16616,7 +16598,7 @@
       <l pos="V">hyydyö</l>
 
       <stg>
-        <st Contlex="V_">hyydyö</st>
+        <st Contlex="V_VALUO">hyydyö</st>
       </stg>
     </lg>
 
@@ -16734,7 +16716,7 @@
       <l pos="V">hyčistyö</l>
 
       <stg>
-        <st Contlex="V_">hyčistyö</st>
+        <st Contlex="V_VALUO">hyčisty</st>
       </stg>
     </lg>
 
@@ -16756,7 +16738,7 @@
       <l pos="V">hyčyttiä</l>
 
       <stg>
-        <st Contlex="V_">hyčyttiä</st>
+        <st Contlex="V_KANDUA">hyčyttä</st>
       </stg>
     </lg>
 
@@ -16808,7 +16790,7 @@
       <l pos="V">häbistä</l>
 
       <stg>
-        <st Contlex="V_">häbistä</st>
+        <st Contlex="V_PESTÄ">häbis</st>
       </stg>
     </lg>
 
@@ -17157,10 +17139,10 @@
 
   <e>
     <lg>
-      <l pos="V">häiräittyä</l>
+      <l pos="V">häiräittiä</l>
 
       <stg>
-        <st Contlex="V_">häiräittyä</st>
+        <st Contlex="V_KANDUA">häiräittä</st>
       </stg>
     </lg>
 
@@ -17202,7 +17184,7 @@
       <l pos="V">hälištä</l>
 
       <stg>
-        <st Contlex="V_">hälištä</st>
+        <st Contlex="V_PESTÄ">häliš</st>
       </stg>
     </lg>
 
@@ -17238,7 +17220,7 @@
       <l pos="V">hämmendiä</l>
 
       <stg>
-        <st Contlex="V_">hämmendiä</st>
+        <st Contlex="V_KANDUA">hämmendä</st>
       </stg>
     </lg>
 
@@ -17292,7 +17274,7 @@
       <l pos="V">hämärdiä</l>
 
       <stg>
-        <st Contlex="V_">hämärdiä</st>
+        <st Contlex="V_KANDUA">hämärdä</st>
       </stg>
     </lg>
 
@@ -17360,7 +17342,7 @@
       <l pos="V">häpettiä</l>
 
       <stg>
-        <st Contlex="V_">häpettiä</st>
+        <st Contlex="V_KANDUA">häpettä</st>
       </stg>
     </lg>
 
@@ -17402,7 +17384,7 @@
       <l pos="V">härhättiä</l>
 
       <stg>
-        <st Contlex="V_">härhättiä</st>
+        <st Contlex="V_KANDUA">härhättä</st>
       </stg>
     </lg>
 
@@ -17723,7 +17705,7 @@
       <l pos="V">höblöstiä</l>
 
       <stg>
-        <st Contlex="V_">höblöstiä</st>
+        <st Contlex="V_KANDUA">höblöstä</st>
       </stg>
     </lg>
 
@@ -17759,7 +17741,7 @@
       <l pos="V">hökšähtiäkseh</l>
 
       <stg>
-        <st Contlex="V_">hökšähtiäkseh</st>
+        <st Contlex="VR_PIDIÄ">hökšähti</st>
       </stg>
     </lg>
 
@@ -17779,7 +17761,7 @@
       <l pos="V">höllättiä</l>
 
       <stg>
-        <st Contlex="V_">höllättiä</st>
+        <st Contlex="V_KANDUA">höllättä</st>
       </stg>
     </lg>
 
@@ -17815,7 +17797,7 @@
       <l pos="V">hömsiä</l>
 
       <stg>
-        <st Contlex="V_">hömsiä</st>
+        <st Contlex="V_KANDUA">hömsä</st>
       </stg>
     </lg>
 
@@ -17845,7 +17827,7 @@
       <l pos="V">höpsötä</l>
 
       <stg>
-        <st Contlex="V_">höpsötä</st>
+        <st Contlex="V_AVATA">höpsö</st>
       </stg>
     </lg>
 
@@ -17905,7 +17887,7 @@
       <l pos="V">hörköttiä</l>
 
       <stg>
-        <st Contlex="V_">hörköttiä</st>
+        <st Contlex="V_KANDUA">hörköttä</st>
       </stg>
     </lg>
 
@@ -17943,7 +17925,7 @@
       <l pos="V">hörövyö</l>
 
       <stg>
-        <st Contlex="V_">hörövyö</st>
+        <st Contlex="V_VALUO">hörövy</st>
       </stg>
     </lg>
 
@@ -49289,7 +49271,7 @@
       <l pos="V">lʼöydiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">lʼöydä</st>
+        <st Contlex="V_KANDUA">lʼöydä</st>
       </stg>
     </lg>
 
@@ -66411,7 +66393,7 @@
       <l pos="V">pidiä</l>
 
       <stg>
-        <st Contlex="V_PIDIÄ">pidä</st>
+        <st Contlex="V_KANDUA">pidä</st>
       </stg>
     </lg>
 
