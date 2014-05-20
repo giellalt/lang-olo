@@ -72,6 +72,8 @@ __%{aäInf%}:ö__
 
 __%{aäInf%}:e__
 
+__%{aäInf%}:ä__
+
 __%{aäInf%}:a__
 
 
@@ -126,8 +128,8 @@ __ä:i before subsequent A2__  Diphthong ä+ä => iä
 
 __o:u before subsequent o__ Diphthong o+o => uo erota:eruou
 
-__ö:y before subsequent ö__ Diphthong ö+ö, ö+%{aä%}:ö => yö
 
+__ö:y before subsequent ö__ Diphthong ö+ö, ö+%{aä%}:ö => yö
 
 __e:i before subsequent %{aä%}:e__ Diphthong o+o => uo erota:eruou
 {{{
