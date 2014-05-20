@@ -404,24 +404,24 @@ LEXICON V-VV_JUVVA_02
  INDPRTSG3     ;
  INDPRTPL1     ;
  INDPRTPL2     ;
- INDPRTPL3_dih     ;
- INDPRTCONNEG_nnUh	   ;
- INDPRTCONNEGPL3_DU	   ;
+:%>%{aä%} INDPRTPL3_dih     ;
+:%>%{aä%} INDPRTCONNEG_nnUh	   ;
+:%>%{aä%} INDPRTCONNEGPL3_DU	   ;
  CONDPRS_S ;
- CONDPRSPL3_DAs ;
- CONDPRT_nnUs ;
+:%>%{aä%} CONDPRSPL3_DAs ;
+:%>%{aä%} CONDPRT_nnUs ;
  CONDPRTPL3_DAnUs ;
- POT_nnE ;
+:%>%{aä%} POT_nnE ;
  POTPL3_DAneh ;
  IMPRT_GA ;
  IMPRTPL3_DAhes ;
 
  ACTPRSPRC_AVUAJU ;
- ACTPRFPRC_nnUH ;
+:%>%{aä%} ACTPRFPRC_nnUH ;
  PSSPRSPRC_DAvU ;
  PSSPRFPRC_DU ;
 
- M-INF	      ;
+:%>%{aä%} M-INF	      ;
 +Inf:%>vv%{aäInf%} K ;
 
 
@@ -524,6 +524,8 @@ LEXICON V-VV_04
  ACTPRFPRC_nnUH ;
  PSSPRFPRC_ttU ;
 +Inf:%^WGStem%>t%{aä%} K ;
+!€# kergi%^WGStem%>t%{aä%}
+!€0 kerri00tä
 :%>%{aä%} M-INF ; 
 
 LEXICON V-VV_05_SUVAIJA !! * @CODE@ suvaija:suvai
@@ -731,14 +733,14 @@ LEXICON INDPRSPL1
 LEXICON INDPRSPL2
 +Ind+Prs+ScPl2:%^WGStem%>tt%{oö%} K ;
 LEXICON INDPRSPL3_jAh
-+Ind+Prs+ScPl3:%>j%{aä%}h K ;
-+Ind+Prs+ConNeg+ScPl3:%>j%{aä%} K ;
++Ind+Prs+ScPl3:%>j%{aäInf%}h K ;
++Ind+Prs+ConNeg+ScPl3:%>j%{aäInf%} K ;
 LEXICON INDPRSPL3_vvAh
-+Ind+Prs+ScPl3:%>vv%{aä%}h K ;
-+Ind+Prs+ConNeg+ScPl3:%>j%{aä%} K ;
++Ind+Prs+ScPl3:%>vv%{aäInf%}h K ;
++Ind+Prs+ConNeg+ScPl3:%>vv%{aäInf%} K ;
 LEXICON INDPRSPL3_dAh
-+Ind+Prs+ScPl3:%>d%{aä%}%^WGStemh K ;
-+Ind+Prs+ConNeg+ScPl3:%>d%{aä%}%^WGStem K ;
++Ind+Prs+ScPl3:%>d%{aäInf%}%^WGStemh K ;
++Ind+Prs+ConNeg+ScPl3:%>d%{aäInf%}%^WGStem K ;
 LEXICON INDPRSPL3_tAh
 +Ind+Prs+ScPl3:%^WGStem%>t%{aä%}h K ;
 +Ind+Prs+ConNeg+ScPl3:%^WGStem%>t%{aä%} K ;

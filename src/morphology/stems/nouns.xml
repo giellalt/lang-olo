@@ -38243,7 +38243,7 @@
 
   <e>
     <lg>
-      <l pos="N">maaliskuu</l>
+      <l pos="N">mualiskuu</l>
 
       <stg>
         <st Contlex="N_KUU">maalis#kuu</st>
@@ -39745,6 +39745,24 @@
 
   <e>
     <lg>
+      <l pos="N">mua</l>
+
+      <stg>
+        <st Contlex="N_KUU">maa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">muanruandu</l>
 
       <stg>
@@ -39878,7 +39896,7 @@
       <l pos="N">muatalovus</l>
 
       <stg>
-        <st Contlex="N_PUHTAHUS">muatalovu</st>
+        <st Contlex="N_PUHTAHUS">mua#talovu</st>
       </stg>
     </lg>
 
