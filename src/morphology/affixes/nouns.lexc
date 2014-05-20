@@ -1734,10 +1734,10 @@ LEXICON NMN_KEVÄT-SG
 +Sg:ä Noun-NB-01 ;
 
 LEXICON NMN_KEVÄT-PL
-:ä PLGENSUF_N ;
-:i PLPARSUF_dU ;
-:i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
+:älöi PLGENSUF_N ;
+:älöi PLPARSUF_Zero ;
+:älöi PLINSSUF ;
++Pl:älöi Noun-NB-01 ;
 
 LEXICON NMN_TULLUT !!= * @CODE@ tullut:tullu
  NMN_TULLUT-SG ;
