@@ -104,7 +104,8 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
-  %{aäInf%}  ! This is for the infinitive marker after i and u stems
+  %{aäPar%}  ! no diphthongs  
+  %{aäDiph%}  ! This is for diphthongs such as the infinitive marker after i and u stems
   %{oöØ%}   Used in present participle
   %{ui%}  ! in imperative before %{aä%}:
   %{ijPRC%}  participle
@@ -122,6 +123,11 @@ flag diacritics to restrict morhpological combinatorics:
 The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
+
+NEWWORDS FILES
+ __ A_NEWWORDS ;     __ adjectives
+ __ N_NEWWORDS ;     __ nouns
+ __ V_NEWWORDS ;     __ verbs
 
 
 
@@ -1047,10 +1053,10 @@ Conditional
 
 
 
- %{aä%}:ä	  This is for the partitive and other vowel harmony not including AA infinitive
+ %{aäPar%}:ä	  This is for the partitive and other vowel harmony not including diphthong phenomena
 
 
-  %{aäInf%}:ä   This is for the infinitive marker after i and u stems
+  %{aäDiph%}:ä   This is for the infinitive marker after i and u stems
 
   %{ui%}:i   in imperative before %{aä%}:
 
@@ -1110,38 +1116,38 @@ Right context for gradation
 
 !!!Rules
 
-__%{aäInf%}:o__
+__%{aäDiph%}:o__
 
-__%{aäInf%}:ö__
+__%{aäDiph%}:ö__
 
-__%{aäInf%}:e__
+__%{aäDiph%}:e__
 
-__%{aäInf%}:ä__
+__%{aäDiph%}:ä__
 
-__%{aäInf%}:a__
-
-
-__%{aä%}:o__
-
-__%{aä%}:ö__
-
-__%{aä%}:a__
-
-__%{aä%}:ä__
+__%{aäDiph%}:a__
 
 
+__%{aäDiph%}:o__
 
-__%{aä%}:e__
+__%{aäDiph%}:ö__
 
-__%{aä%}:i__
+__%{aäPar%}:a__
 
-__%{aä%}:u__
+__%{aäPar%}:ä__
 
-__%{aä%}:y__
 
-__%{aä%}:0__
 
-__%{aä%}:0__
+__%{aäPar%}:e__
+
+__%{aäPar%}:i__
+
+__%{aäPar%}:u__
+
+__%{aäPar%}:y__
+
+__%{aäPar%}:0__
+
+__%{aäPar%}:0__
 
 __e:0__
 
@@ -1173,9 +1179,9 @@ __ä:i before subsequent A2__  Diphthong ä+ä => iä
 __o:u before subsequent o__ Diphthong o+o => uo erota:eruou
 
 
-__ö:y before subsequent ö__ Diphthong ö+ö, ö+%{aä%}:ö => yö
+__ö:y before subsequent ö__ Diphthong ö+ö, ö+%{aäPar%}:ö => yö
 
-__e:i before subsequent %{aä%}:e__ Diphthong o+o => uo erota:eruou
+__e:i before subsequent %{aäPar%}:e__ Diphthong o+o => uo erota:eruou
 {{{
 
 
