@@ -11,12 +11,12 @@ Y
 ʼ
 
 ! Vowel harmony with "(t)a/ä"
-!%{aä%}:a
-%{aä%}:ä	!!= @CODE@  This is for the partitive and other vowel harmony not including AA infinitive
+!
+%{aäPar%}:ä	!!= @CODE@  This is for the partitive and other vowel harmony not including diphthong phenomena
 !%{aä%}:0
 
 
- %{aäInf%}:ä !!= @CODE@  This is for the infinitive marker after i and u stems
+ %{aäDiph%}:ä !!= @CODE@  This is for the infinitive marker after i and u stems
 
  %{ui%}:i !!= @CODE@  in imperative before %{aä%}:
 
@@ -185,92 +185,93 @@ GRC =  [ [ ( %> ) %{aä%}: | %{oö%}: | %{uy%}: | Vow: | :Vow ] ( %>  i )  |  %>
 !! !!!Rules
 Rules
 
-"%{aäInf%}:o"
+"%{aäDiph%}:o"
 !! __@RULENAME@__
-%{aäInf%}:o <=> o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+%{aäDiph%}:o <=> o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
          [ o: | u] %> _ # ;
 
-"%{aäInf%}:ö"
+"%{aäDiph%}:ö"
 !! __@RULENAME@__
-%{aäInf%}:ö <=> ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+%{aäDiph%}:ö <=> ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
          [ ö: | y] %> _ # ;
 
-"%{aäInf%}:e"
+"%{aäDiph%}:e"
 !! __@RULENAME@__
- %{aäInf%}:e <=> [ e: | i ] %> _ # ;
+ %{aäDiph%}:e <=> [ e: | i ] %> _ # ;
 
-"%{aäInf%}:ä"
+"%{aäDiph%}:ä"
 !! __@RULENAME@__
- %{aäInf%}:ä <=> [ FTCons %> |  ä:  %> | FT %> [ d: | v v | j | t ]] _ [ ( %^WGStem:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
+ %{aäDiph%}:ä <=> [ FTCons %> |  ä:  %> | FT %> [ d: | v v | j | t ]] _ [ ( %^WGStem:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
    [ FTCons %> | FT ( %^WGStem:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
 
 ! Vowel harmony suffixes Back
-"%{aäInf%}:a"
+"%{aäDiph%}:a"
 !! __@RULENAME@__
- %{aäInf%}:a <=> [ BTCons %> |  a:  %> | BT %> [ d: | v v | j | t ]] _ [ ( %^WGStem:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
+ %{aäDiph%}:a <=> [ BTCons %> |  a:  %> | BT %> [ d: | v v | j | t ]] _ [ ( %^WGStem:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
    [ BTCons %> | BT ( %^WGStem:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
 
 
-"%{aä%}:o"
+"%{aäDiph%}:o"
 !! __@RULENAME@__
-%{aä%}:o <=> o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+%{aäDiph%}:o <=> [ o: | u ] %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
          [ o: ] %> _ # ;
 
-"%{aä%}:ö"
+"%{aäDiph%}:ö"
 !! __@RULENAME@__
-%{aä%}:ö <=> ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+%{aäDiph%}:ö <=> [ ö: | y ] %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
          Cns: [ ö: ] %> _ # ;
 
 ! Vowel harmony suffixes Back
-"%{aä%}:a"
+"%{aäPar%}:a"
 !! __@RULENAME@__
- %{aä%}:a <=>
-  [ BTCons ( %> ) | BT %>  %{ijPRC%}:j %> | [ %{ui%}:u | %{aä%}:u | a:u ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:u ] | %^WGStem:0 ] ;
+ %{aäPar%}:a <=>
+  [ BTCons ( %> ) | BT %>  %{ijPRC%}:j %> | [ %{ui%}:u | %{aäPar%}:u | a:u ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:u ] | %^WGStem:0 ] ;
    BT %>  %{ijPRC%}:j %> %{ui%}:u _ ;
 ! [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WGStem:0 ) h | %^WGStem:0 [ %> | # ] | s | i | (n) n | %> [(n) %{uy%}: | g i | h ] | # ] ;
 !   [ BTCons %> | [ BT ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) | (t) t | s s ]] _ [  h | s | ( n ) n | t t | m m | v | %> g | # ] ;
 
 ! Vowel harmony suffixes Front
-"%{aä%}:ä"
+"%{aäPar%}:ä"
 !! __@RULENAME@__
- %{aä%}:ä <=>
-  [ FTCons ( %> ) | FT %>  %{ijPRC%}:j %> | [ %{ui%}:i | %{aä%}:i | ä:i ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:y ] | %^WGStem:0 ] ;
+ %{aäPar%}:ä <=>
+  [ FTCons ( %> ) | FT %>  %{ijPRC%}:j %> | [ %{ui%}:i | %{aäPar%}:i | ä:i ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:y ] | %^WGStem:0 ] ;
 
 
 
-"%{aä%}:e"
+"%{aäPar%}:e"
 !! __@RULENAME@__
- %{aä%}:e <=> [ e: | i  ] %> _ [ # | (%^WGStem:) %> ] ;
+ %{aäPar%}:e <=> [ e: | i  ] %> _ [ # | (%^WGStem:) %> ] ;
 ![ e:i | i  ] %> _ [ # | %> %{uy%}: ] ;
-!€# hävi%>%{aä%}%>%{uy%}
+!€# hävi%>%{aäPar%}%>%{uy%}
 !€0 hävi0e0y
-!€# hävi%>%{aä%}%>n
+!€# hävi%>%{aäPar%}%>n
 !€0 hävi0e0n
 
-"%{aä%}:i"
+"%{aäPar%}:i"
 !! __@RULENAME@__
-%{aä%}:i <=> FT Cns: _ %> %{aä%}:ä ;
+%{aäPar%}:i <=> FT Cns: _ %> %{aäPar%}:ä ;
 !     Cns: i %> _ ;
 
-"%{aä%}:u"
+"%{aäPar%}:u"
 !! __@RULENAME@__
-%{aä%}:u <=> u: %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+%{aäPar%}:u <=>
+ u: %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
          [ u ] %> _ # ;
- 	 BT [ Cns: | %{ijPRC%}: ] _ [ %^A2U:0 [ # | %> g i ] | %> %{aä%}:a ] ;
+ 	 BT [ Cns: | %{ijPRC%}: ] _ [ %^A2U:0 [ # | %> g i ] | %> %{aäPar%}:a ] ;
 
-"%{aä%}:y"
+"%{aäPar%}:y"
 !! __@RULENAME@__
-%{aä%}:y <=> FT [ Cns: | %{ijPRC%}: ] _ %^A2U:0 [ # | %> g i ] ;
+%{aäPar%}:y <=> FT [ Cns: | %{ijPRC%}: ] _ %^A2U:0 [ # | %> g i ] ;
       y %> _ ;
 
-"%{aä%}:0"
+"%{aäPar%}:0"
 !! __@RULENAME@__
-%{aä%}:0 <=> Cns:  _ %> i  ;
+%{aäPar%}:0 <=> Cns:  _ %> i  ;
 !            [ a | ä | i ] i _ %^A2U: ; 
 
-!"%{aä%}:0 right"
+!"%{aäPar%}:0 right"
 !!! __@RULENAME@__
-!%{aä%}:0 <=> _ %> i  ;
+!%{aäPar%}:0 <=> _ %> i  ;
 
 "e:0"
 !! __@RULENAME@__
@@ -281,13 +282,13 @@ Rules
 "%{ui%}:u"
 !! __@RULENAME@__
 !! {{{
-%{ui%}:u <=> BT [Cns: | %{ijPRC%}: ] ( %> ) _ ( %> ) %{aä%}: ; !! * @CODE@ ! imperative forms
+%{ui%}:u <=> BT [Cns: | %{ijPRC%}: ] ( %> ) _ ( %> ) %{aäPar%}: ; !! * @CODE@ ! imperative forms
 !! }}}
 
 "%{ui%}:i"
 !! __@RULENAME@__
 !! {{{
-%{ui%}:i <=> FT [ Cns: | %{ijPRC%}: ] ( %> ) _ ( %> ) %{aä%}: ; !! * @CODE@ ! imperative forms
+%{ui%}:i <=> FT [ Cns: | %{ijPRC%}: ] ( %> ) _ ( %> ) %{aäPar%}: ; !! * @CODE@ ! imperative forms
 !! }}}
 
 "A2:a"
@@ -307,41 +308,41 @@ A2:y <=> [ y: ] %> _ ( %^WGStem:0 ) [ # | %>  ];
 
 "a:u before subsequent a"
 !! __@RULENAME@__  Diphthong a+a => ua
-a:u <=> ConsPalOrNot _ [ (d:0) a | %> [ %{aä%}: | %{aäInf%}: | A2:a ] ]; 
+a:u <=> ConsPalOrNot _ [ (d:0) a | %> [ %{aäPar%}: | %{aäDiph%}: | A2:a ] ]; 
         _ %^A2U:0 ;
 
 
 "ä:i before subsequent A2"
 !! __@RULENAME@__  Diphthong ä+ä => iä
-ä:i <=>  Cns:  _ [ ä | %> [ %{aä%}:ä | %{aäInf%}:ä| A2:ä ] ]; 
+ä:i <=>  Cns:  _ [ ä | %> [ %{aäPar%}:ä | %{aäDiph%}:ä| A2:ä ] ]; 
 
  
 "o:u before subsequent o"
 !! __@RULENAME@__ Diphthong o+o => uo erota:eruou
-o:u <=> Cns _ %> [ %{aä%}: | %{aäInf%}: ] ; 
-!€# ero%>%{aä%}%>n
+o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: ] ; 
+!€# ero%>%{aäPar%}%>n
 !€0 eru0o0n
                   _ %> v v ;
-!€# jo%>vv%{aäInf%}
+!€# jo%>vv%{aäDiph%}
 !€0 ju0vva
 
 
 "ö:y before subsequent ö"
-!! __@RULENAME@__ Diphthong ö+ö, ö+%{aä%}:ö => yö
-ö:y <=> Cns _ %> [ %{aä%}:ö ] ; 
-!€# sö%>%{aä%}%>%{uy%}
+!! __@RULENAME@__ Diphthong ö+ö, ö+%{aäPar%}:ö => yö
+ö:y <=> Cns _ %> [ %{aäDiph%}:ö ] ; 
+!€# sö%>%{aäDiph%}%>%{uy%}
 !€0 sy0ö0y
           _ %> v v ;
-!€# sö%>vv%{aäInf%}
+!€# sö%>vv%{aäDiph%}
 !€0 sy0vvä
 
-"e:i before subsequent %{aä%}:e"
+"e:i before subsequent %{aäPar%}:e"
 !! __@RULENAME@__ Diphthong o+o => uo erota:eruou
 !! {{{
- e:i <=> Cns _ %> [ %{aä%}:e | %{aäInf%}:e | e ] ;
+ e:i <=> Cns _ %> [ %{aäPar%}:e | %{aäDiph%}:e | e ] ;
 !€# valge%>e%^WGStem%>t
 !€0 valgi0e00t
-!€# hävi%>%{aä%}%>n
+!€# hävi%>%{aäPar%}%>n
 !€0 hävi0e0n
 
          ä [ g: | d: ] _ %^WGStem:0 %> ;
@@ -393,7 +394,7 @@ a:0 <=>
 !! __@RULENAME@__ 
 !! {{{
 !! * @CODE@ +ActPrsPrc
- %{ijPRC%}:i <=> :Vow %> _ [ # | %> [ g i | b o | h %{aä%}: i | g o ] ] ;
+ %{ijPRC%}:i <=> :Vow %> _ [ # | %> [ g i | b o | h %{aäPar%}: i | g o ] ] ;
 !! }}}
 
 
@@ -484,7 +485,7 @@ g:l <=> l _ [[ a: ] ( %> i )| i | e | u ] %^WGStem:0 ;
 g:r <=> r _ [[ a: ] ( %> i )| i | e ] %^WGStem:0 ;
 !€# särge%^WGStem>n
 !€0 särre00n
-!€# kergi%^WGStem%>t%{aä%}
+!€# kergi%^WGStem%>t%{aäPar%}
 !€0 kerri00tä
 !! }}}
 
@@ -545,7 +546,7 @@ s:z <=> _ %^VOICE:0 ; !!= * @CODE@ pestä: pezen
 
 "k:g"
 !! __@RULENAME@__ pestä: peskäh
-k:g <=> [ n | l |r ] %> _ (%{ui%}:) %{aä%}: ; 
+k:g <=> [ n | l |r ] %> _ (%{ui%}:) %{aäPar%}: ; 
 
 
 "rd:rr weakening"
@@ -604,7 +605,7 @@ k:0 <=> _ s %^KS2S:0 ;
 !! __@RULENAME@__  aika: ajan
 !! {{{
 g:0 <=>
-        [ Vow: - [ o | u ] ] _ i s %> d: %{aä%}: %^WGStem:0 ;
+        [ Vow: - [ o | u ] ] _ i s %> d: %{aäPar%}: %^WGStem:0 ;
         [ Vow - [ o | u ] ] _ e: %^WGStem:0 %> ;
 !€# väge%^WGStem>n
 !€# vä0i00n
@@ -639,8 +640,8 @@ p:0 <=> Vow _ s  %^KS2S:0  ;
 
 !2013-04-29! Vowel raising
 !2013-04-29!"o:u ö:y in Inf"
-!2013-04-29! Vx:Vy <=> _ Vx: %> v v %{aä%}: %^RVow:0 ;
-!2013-04-29!           Vx: _ %> v v %{aä%}: %^RVow:0 ;
+!2013-04-29! Vx:Vy <=> _ Vx: %> v v %{aäPar%}: %^RVow:0 ;
+!2013-04-29!           Vx: _ %> v v %{aäPar%}: %^RVow:0 ;
 !2013-04-29!          where Vx in (o ö)
 !2013-04-29!                Vy in (u y) matched ;
 
