@@ -197,8 +197,8 @@ Multichar_Symbols
 !! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- %{aä%} ! 
- %{aäInf%} !!= @CODE@ ! This is for the infinitive marker after i and u stems
+ %{aäPar%} !!= @CODE@ ! no diphthongs  
+ %{aäDiph%} !!= @CODE@ ! This is for diphthongs such as the infinitive marker after i and u stems
  %{oö%} !
  %{oöØ%} !!= @CODE@  Used in present participle
  %{uy%} !
