@@ -250,6 +250,11 @@ LEXICON Root
 !Punctuation ;
  Exceptions ;
 
+!! NEWWORDS FILES
+ A_NEWWORDS ;     !!= __@CODE@__ adjectives
+ N_NEWWORDS ;     !!= __@CODE@__ nouns
+ V_NEWWORDS ;     !!= __@CODE@__ verbs
+
 ! I INCLUDE SOME SMALL LEXICA HERE
 ! WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
