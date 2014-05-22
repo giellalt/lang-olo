@@ -994,7 +994,7 @@ Conditional
 
 
 
- !+Pot+RcPl3:%>d%{aä%}%>nehes K ;  Shouldn't THIS be the right form
+ !+Pot+RcPl3:%>d%{aäDiph%}%>nehes K ;  Shouldn't THIS be the right form
 
 
 !IMPERATIVE
@@ -1116,6 +1116,12 @@ Right context for gradation
 
 !!!Rules
 
+__%{aäPar%}:o__
+
+
+__%{aäPar%}:ö__
+
+
 __%{aäDiph%}:o__
 
 __%{aäDiph%}:ö__
@@ -1125,7 +1131,6 @@ __%{aäDiph%}:e__
 __%{aäDiph%}:ä__
 
 __%{aäDiph%}:a__
-
 
 __%{aäDiph%}:o__
 
@@ -1215,7 +1220,6 @@ __%{ijPRC%}:i__
 
 
 __a:o in the plural and preterite__
-
 
 __a:e__  pidiä
 

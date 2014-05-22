@@ -175,7 +175,7 @@ SV = [ [ #: | Cns+ ] :Vow ] ;
 IL = [ #: Cns* Vow : Cns:+ | Cns* Vow+ Cns:+  Vow:+ Cns:+  ] ;
 
 !! Right context for gradation
-GRC =  [ [ ( %> ) %{aä%}: | %{oö%}: | %{uy%}: | Vow: | :Vow ] ( %>  i )  |  %>  i ] %^WGStem:0  ;
+GRC =  [ [ ( %> ) [ %{aäDiph%}: | %{aäPar%}: ] | %{oö%}: | %{uy%}: | Vow: | :Vow ] ( %>  i )  |  %>  i ] %^WGStem:0  ;
 
 ! oma:ommaa, 
 ! Subsequent Long Vowel
@@ -185,41 +185,64 @@ GRC =  [ [ ( %> ) %{aä%}: | %{oö%}: | %{uy%}: | Vow: | :Vow ] ( %>  i )  |  %>
 !! !!!Rules
 Rules
 
+"%{aäPar%}:o"
+!! __@RULENAME@__
+%{aäPar%}:o <=>   o: %> _ [# | %> ] ;
+! o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+
+
+"%{aäPar%}:ö"
+!! __@RULENAME@__
+%{aäPar%}:ö <=>   ö:  %> _ [# | %> ] ;
+! ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+
+
 "%{aäDiph%}:o"
 !! __@RULENAME@__
 %{aäDiph%}:o <=> o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
-         [ o: | u] %> _ # ;
+         [ o: | u] %> _ [ # | %> ] ;
 
 "%{aäDiph%}:ö"
 !! __@RULENAME@__
 %{aäDiph%}:ö <=> ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
-         [ ö: | y] %> _ # ;
+         [ ö: | y] %> _ [ # | %> ] ;
 
 "%{aäDiph%}:e"
 !! __@RULENAME@__
- %{aäDiph%}:e <=> [ e: | i ] %> _ # ;
+ %{aäDiph%}:e <=> [ e: | i ] %> _ [ # | %> ]  ;
 
 "%{aäDiph%}:ä"
 !! __@RULENAME@__
- %{aäDiph%}:ä <=> [ FTCons %> |  ä:  %> | FT %> [ d: | v v | j | t ]] _ [ ( %^WGStem:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
+ %{aäDiph%}:ä <=> [ FTCons %> | FT %> [ d: | v v | j | t ]] _ [ ( %^WGStem:0 ) [ h | # | %> ] | i | %> n %{uy%}: | %> g i | # ] ;
    [ FTCons %> | FT ( %^WGStem:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
+               Cns:  ä:  %> _ ;
+   [ FTCons %> | [ FT ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:i) |g | m | d: | (t) t | s s ]] _ [  h |  s | ( n ) n | t t | m m | v |l | %> %{ijPRC%}: | %> g | # ] ;
+!€# lʼykkä%^WGStem%>kk%{ui%}%{aäDiph%}mm%{oö%}
+!€0 lʼyk0ä00kkiämmö
+!€# lʼykkä%>%{aäDiph%}%>m%{aäDiph%}h
+!€0 lʼykki0ä0mäh
+!€# lʼykkä%>%{aäDiph%}%>%{ijPRC%}%{aäDiph%}%^A2U
+!€0 lʼykki0ä0jy0
 
 ! Vowel harmony suffixes Back
 "%{aäDiph%}:a"
 !! __@RULENAME@__
- %{aäDiph%}:a <=> [ BTCons %> |  a:  %> | BT %> [ d: | v v | j | t ]] _ [ ( %^WGStem:0 ) h | i | %> n %{uy%}: | %> g i | # ] ;
-   [ BTCons %> | BT ( %^WGStem:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
-
+ %{aäDiph%}:a <=> [ BTCons %> | BT %> [ d: | v v | j | t ]] _ [ ( %^WGStem:0 ) [ h | # | %> ] | i | %> n %{uy%}: | %> g i | # ] ;
+   [ BTCons %> | BT ( %^WGStem:0 )  %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
+                 Cns:  a:  %> _ ;
+   [ BTCons %> | [ BT ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) |g | m | d: | (t) t | s s ]] _ [  h | s | ( n ) n | t t | m m | v | l | %> %{ijPRC%}: | %> g | # ] ;
+!€# kanda%>kk%{ui%}%{aäDiph%}mm%{oö%}
+!€0 kanda0kkuammo
 
 "%{aäDiph%}:o"
 !! __@RULENAME@__
 %{aäDiph%}:o <=> [ o: | u ] %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
-         [ o: ] %> _ # ;
+         [ o: ] %> _ [# | %> ] ;
 
 "%{aäDiph%}:ö"
 !! __@RULENAME@__
 %{aäDiph%}:ö <=> [ ö: | y ] %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
-         Cns: [ ö: ] %> _ # ;
+         Cns: [ ö: ] %> _ [# | %> ] ;
 
 ! Vowel harmony suffixes Back
 "%{aäPar%}:a"
@@ -240,7 +263,7 @@ Rules
 
 "%{aäPar%}:e"
 !! __@RULENAME@__
- %{aäPar%}:e <=> [ e: | i  ] %> _ [ # | (%^WGStem:) %> ] ;
+ %{aäPar%}:e <=>  e:  %> _ [ # | (%^WGStem:) %> ] ;
 ![ e:i | i  ] %> _ [ # | %> %{uy%}: ] ;
 !€# hävi%>%{aäPar%}%>%{uy%}
 !€0 hävi0e0y
@@ -250,13 +273,13 @@ Rules
 "%{aäPar%}:i"
 !! __@RULENAME@__
 %{aäPar%}:i <=> FT Cns: _ %> %{aäPar%}:ä ;
-!     Cns: i %> _ ;
+     Cns: i %> _ ;
 
 "%{aäPar%}:u"
 !! __@RULENAME@__
 %{aäPar%}:u <=>
  u: %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
-         [ u ] %> _ # ;
+         [ u ] %> _  ;
  	 BT [ Cns: | %{ijPRC%}: ] _ [ %^A2U:0 [ # | %> g i ] | %> %{aäPar%}:a ] ;
 
 "%{aäPar%}:y"
@@ -282,13 +305,17 @@ Rules
 "%{ui%}:u"
 !! __@RULENAME@__
 !! {{{
-%{ui%}:u <=> BT [Cns: | %{ijPRC%}: ] ( %> ) _ ( %> ) %{aäPar%}: ; !! * @CODE@ ! imperative forms
+%{ui%}:u <=> BT [Cns: | %{ijPRC%}: ] ( %> ) _ ( %> ) [ %{aäPar%}: | %{aäDiph%}: ] ; !! * @CODE@ ! imperative forms
+!€# kanda%>kk%{ui%}%{aäDiph%}mm%{oö%}
+!€0 kanda0kkuammo
 !! }}}
 
 "%{ui%}:i"
 !! __@RULENAME@__
 !! {{{
-%{ui%}:i <=> FT [ Cns: | %{ijPRC%}: ] ( %> ) _ ( %> ) %{aäPar%}: ; !! * @CODE@ ! imperative forms
+%{ui%}:i <=> FT [ Cns: | %{ijPRC%}: ] ( %> ) _ ( %> ) [ %{aäPar%}: | %{aäDiph%}: ] ; !! * @CODE@ ! imperative forms
+!€# lʼykkä%^WGStem%>kk%{ui%}%{aäDiph%}mm%{oö%}
+!€0 lʼyk0ä00kkiämmö
 !! }}}
 
 "A2:a"
@@ -320,8 +347,10 @@ a:u <=> ConsPalOrNot _ [ (d:0) a | %> [ %{aäPar%}: | %{aäDiph%}: | A2:a ] ];
 "o:u before subsequent o"
 !! __@RULENAME@__ Diphthong o+o => uo erota:eruou
 o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: ] ; 
-!€# ero%>%{aäPar%}%>n
+!€# ero%>%{aäDiph%}%>n
 !€0 eru0o0n
+!€# runo%>%{aäPar%}
+!€0 runu0o
                   _ %> v v ;
 !€# jo%>vv%{aäDiph%}
 !€0 ju0vva
@@ -329,9 +358,11 @@ o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: ] ;
 
 "ö:y before subsequent ö"
 !! __@RULENAME@__ Diphthong ö+ö, ö+%{aäPar%}:ö => yö
-ö:y <=> Cns _ %> [ %{aäDiph%}:ö ] ; 
+ö:y <=> Cns _ %> [ %{aäDiph%}:ö | %{aäPar%}:ö ] ; 
 !€# sö%>%{aäDiph%}%>%{uy%}
 !€0 sy0ö0y
+!€# pölllö%>%{aäPar%}
+!€0 pöllly0ö
           _ %> v v ;
 !€# sö%>vv%{aäDiph%}
 !€0 sy0vvä
@@ -402,11 +433,13 @@ a:0 <=>
 "a:o in the plural and preterite"
 !! __@RULENAME@__
 a:o <=> # Cns* [[ a | i | e ] (u|i)| u a ] [ Cns* (%^NONE:) Cns: ] _ %> i: ( %^WGStem:0 )  ;
-
+       _ %^A2O: ;
 
 "a:e"
 !! __@RULENAME@__  pidiä
  a:e <=> _ %^WGStem:0 %^E1:0 ;
+!€# kanda%^WGStem%^E1%>tt%{aäDiph%}s
+!€0 kanne000ttas
 
 
 "ä:e piettih and in comparatives"
@@ -563,6 +596,8 @@ d:r <=>
 d:l <=>
   Vow: l _ Vow: (%> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
   Vow l %> _ GRC ; !!= @CODE@ tulla+Ind+Prs+ScPl3: tullah
+!€# tul%>d%{aäDiph%}%^WGStem
+!€0 tul0la0
 !! }}}
 
 "nd:nn weakening"
@@ -571,6 +606,8 @@ d:l <=>
 d:n <=>
      Vow: n _ Vow: (%> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
   Vow ( %^WGStem:0 %> ) n %> _ GRC ; !!= @CODE@ mennä+Ind+Prs+ScPl3: mennäh
+!€# kanda%^WGStem%^E1%>tt%{aäDiph%}s
+!€0 kanne000ttas
 !! }}}
 
 "rn:rr in prtprc"
