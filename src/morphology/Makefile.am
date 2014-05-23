@@ -33,6 +33,7 @@ GT_LEXC_SRCS=\
 			 affixes/quantifiers.lexc \
 			 affixes/verbs.lexc	\
                          stems/adjectives_newwords.lexc \
+                         stems/adverbs_newwords.lexc \
                          stems/nouns_newwords.lexc \
                          stems/verbs_newwords.lexc 
 
