@@ -252,6 +252,7 @@ LEXICON Root
 
 !! NEWWORDS FILES
  A_NEWWORDS ;     !!= __@CODE@__ adjectives
+ ADV_NEWWORDS ;	  !!= __@CODE@__ adverbs
  N_NEWWORDS ;     !!= __@CODE@__ nouns
  V_NEWWORDS ;     !!= __@CODE@__ verbs
 
@@ -280,7 +281,7 @@ LEXICON NUMBERSUF
 +Num:%> ORDINAL ;
 
 LEXICON ORDINAL
-+Ord:этӥ K;
++Ord+TYÄ:s K;
 
 LEXICON PCLE_
 +Pcle: #;
