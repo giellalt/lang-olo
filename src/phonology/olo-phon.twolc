@@ -413,7 +413,10 @@ o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: ] ;
 !! {{{
 a:0 <=>
  a _ %> i ; !!= * @CODE@ Vowel shortening before subsequent "i"
-[ # Cns:*  [[ u | o ] (i)| u o: ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ %> i (%^WGStem:) [ # | (e) %> ] ;
+[ # Cns:*  [[ u | o ] (i)| u o: ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ %> i: (%^WGStem:) [ # |  %> [i|Cns] | %> e [n|l]] ;
+!€# koira%>i%>en
+!€0 koir00i0en
+!€$ koira0j0en
 !! }}}
 
 !! !!iToj between vowels
@@ -452,7 +455,7 @@ a:o <=> # Cns* [[ a | i | e ] (u|i)| u a ] [ Cns* (%^NONE:) Cns: ] _ %> i: ( %^W
 
 "ä:0 pidiä:pidi"
 !! __@RULENAME@__
-ä:0 <=> _ %> i ;
+ä:0 <=> _ %> i:  ;
 
 "i:0 reboi:reboloi"
 !! __@RULENAME@__
