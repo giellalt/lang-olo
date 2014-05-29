@@ -102,10 +102,10 @@
 
   <e>
     <lg>
-      <l pos="Adv">kylmil (olla k.)</l>
+      <l pos="Adv">kylmil</l>
 
       <stg>
-        <st Contlex="ADV_">kylmil (olla k.)</st>
+        <st Contlex="ADV_">kylmil</st>
       </stg>
     </lg>
 
@@ -113,8 +113,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">(olla) kylmillään</t>
+        <t pos="Adv">kylmillään</t>
       </tg>
+<xg><x>olla kylmil</x><xt>olla kylmillään</xt></xg>
     </mg>
 
     <mg>
@@ -3822,17 +3823,17 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Adv">hyvin</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Adv">hyvä</l>
+      <l pos="A">hyvä</l>
 
       <stg>
-        <st Contlex="ADV_">hyvä</st>
+        <st Contlex="A_">hyvä</st>
       </stg>
     </lg>
 
@@ -4087,24 +4088,6 @@
 
   <e>
     <lg>
-      <l pos="Adv">iellehpäi</l>
-
-      <stg>
-        <st Contlex="ADV_">iellehpäi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="Adv">iellettäväh</l>
 
       <stg>
@@ -4296,7 +4279,31 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Adv">ilman</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">muutenkin</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">muutoin</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ilmaiseksi</t>
       </tg>
     </mg>
   </e>
