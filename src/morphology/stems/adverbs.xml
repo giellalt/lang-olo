@@ -6,6 +6,24 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="Adv">levälleh</l>
+
+      <stg>
+        <st Contlex="ADV_">levälleh</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">barbahužilleh</l>
 
       <stg>
@@ -689,7 +707,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">(yougi:) aikaisin, varhain</t>
+        <t pos="Adv">(yougi:) aikaisin</t>
+
+        <t pos="Adv">varhain</t>
       </tg>
     </mg>
   </e>
@@ -767,7 +787,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">aikaisempi, aiempi</t>
+        <t pos="Adv">aikaisempi</t>
+
+        <t pos="Adv">aiempi</t>
       </tg>
     </mg>
   </e>
@@ -803,7 +825,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">aikaisin, varhain</t>
+        <t pos="Adv">aikaisin</t>
+
+        <t pos="Adv">varhain</t>
       </tg>
     </mg>
   </e>
@@ -821,7 +845,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">ajastaan, ajanoloon, aikaa myöten</t>
+        <t pos="Adv">ajastaan</t>
+
+        <t pos="Adv">ajanoloon</t>
+
+        <t pos="Adv">aikaa myöten</t>
       </tg>
     </mg>
   </e>
@@ -875,10 +903,6 @@
 
     <mg>
       <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
 
       <tg xml:lang="fin">
         <t pos="Adv">aina</t>
@@ -935,7 +959,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">aikaisin, liian aikaisin</t>
+        <t pos="Adv">aikaisin</t>
+
+        <t pos="Adv">liian aikaisin</t>
       </tg>
     </mg>
   </e>
@@ -953,17 +979,23 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">anivarhain, varhain, aikaisin aamulla, aikaisin</t>
+        <t pos="Adv">anivarhain</t>
+
+        <t pos="Adv">varhain</t>
+
+        <t pos="Adv">aikaisin aamulla</t>
+
+        <t pos="Adv">aikaisin</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Adv">ajua märgiä</l>
+      <l pos="V">ajua märgiä</l>
 
       <stg>
-        <st Contlex="ADV_">ajua märgiä</st>
+        <st Contlex="V_KANDUA">ajua märgiä</st>
       </stg>
     </lg>
 
@@ -971,7 +1003,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">märkiä, mätiä</t>
+        <t pos="V">märkiä, mätiä</t>
       </tg>
     </mg>
   </e>
@@ -1079,7 +1111,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">kumollaan, alassuin, ylösalaisin (ääntyy: n'okin)</t>
+        <t pos="Adv">kumollaan</t>
+
+        <t pos="Adv">alassuin</t>
+
+        <t pos="Adv">ylösalaisin (ääntyy: n'okin)</t>
       </tg>
     </mg>
   </e>
@@ -1115,7 +1151,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">alinomaa; alallaan, alallasi, alallanne</t>
+        <t pos="Adv">alinomaa; alallaan</t>
+
+        <t pos="Adv">alallasi</t>
+
+        <t pos="Adv">alallanne</t>
       </tg>
     </mg>
   </e>
@@ -1204,10 +1244,6 @@
     <mg>
       <defNative/>
 
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
-
       <tg xml:lang="fin">
         <t pos="Adv">lopuillaan</t>
       </tg>
@@ -1252,8 +1288,15 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">alun alkaenkaan, alkujaankaan, alusta pitäenkään; alun
-        alkaen, alkujaan, alusta pitäen</t>
+        <t pos="Adv">alun alkaenkaan</t>
+
+        <t pos="Adv">alkujaankaan</t>
+
+        <t pos="Adv">alusta pitäenkään; alun alkaen</t>
+
+        <t pos="Adv">alkujaan</t>
+
+        <t pos="Adv">alusta pitäen</t>
       </tg>
     </mg>
   </e>
@@ -1289,7 +1332,13 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">aluksi, alussa, ensin, ensiksi</t>
+        <t pos="Adv">aluksi</t>
+
+        <t pos="Adv">alussa</t>
+
+        <t pos="Adv">ensin</t>
+
+        <t pos="Adv">ensiksi</t>
       </tg>
     </mg>
   </e>
@@ -1307,7 +1356,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">kauan sitten, muinoin, ammoin</t>
+        <t pos="Adv">kauan sitten</t>
+
+        <t pos="Adv">muinoin</t>
+
+        <t pos="Adv">ammoin</t>
       </tg>
     </mg>
   </e>
@@ -1325,7 +1378,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">vanhastaan, ammoisista ajoista</t>
+        <t pos="Adv">vanhastaan</t>
+
+        <t pos="Adv">ammoisista ajoista</t>
       </tg>
     </mg>
   </e>
@@ -1343,8 +1398,13 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">muinaisista ajoista asti, muinaisista ajoista, ammoisista
-        ajoista, ammoisista ajoista asti</t>
+        <t pos="Adv">muinaisista ajoista asti</t>
+
+        <t pos="Adv">muinaisista ajoista</t>
+
+        <t pos="Adv">ammoisista ajoista</t>
+
+        <t pos="Adv">ammoisista ajoista asti</t>
       </tg>
     </mg>
   </e>
@@ -1380,7 +1440,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">juuri äsken; parahiksi; hädin tuskin, juuri ja juuri</t>
+        <t pos="Adv">juuri äsken; parahiksi; hädin tuskin</t>
+
+        <t pos="Adv">juuri ja juuri</t>
       </tg>
     </mg>
   </e>
@@ -1398,7 +1460,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">vähältä piti ettei, vähältä pitää ettei</t>
+        <t pos="Adv">vähältä piti ettei</t>
+
+        <t pos="Adv">vähältä pitää ettei</t>
       </tg>
     </mg>
   </e>
@@ -1416,7 +1480,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">olkoon, anna olla</t>
+        <t pos="Adv">olkoon</t>
+
+        <t pos="Adv">anna olla</t>
       </tg>
     </mg>
   </e>
@@ -1488,7 +1554,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">armotta, armottomasti</t>
+        <t pos="Adv">armotta</t>
+
+        <t pos="Adv">armottomasti</t>
       </tg>
     </mg>
   </e>
@@ -1506,7 +1574,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">arvattavasti, arvatenkin</t>
+        <t pos="Adv">arvattavasti</t>
+
+        <t pos="Adv">arvatenkin</t>
       </tg>
     </mg>
   </e>
@@ -1524,7 +1594,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">jalan, kävellen</t>
+        <t pos="Adv">jalan</t>
+
+        <t pos="Adv">kävellen</t>
       </tg>
     </mg>
   </e>
@@ -1542,7 +1614,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">ikävää, ikävä olla; tukalaa, tukala olla</t>
+        <t pos="Adv">ikävää</t>
+
+        <t pos="Adv">ikävä olla; tukalaa</t>
+
+        <t pos="Adv">tukala olla</t>
       </tg>
     </mg>
   </e>
@@ -1578,7 +1654,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">avoinna, avoimena, avoimina</t>
+        <t pos="Adv">avoinna</t>
+
+        <t pos="Adv">avoimena</t>
+
+        <t pos="Adv">avoimina</t>
       </tg>
     </mg>
   </e>
@@ -1614,8 +1694,21 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">mutta, vaikka, kuitenkin, sittenkin, kuitenkaan,
-        sittenkään, ei kuitenkaan, ei sittenkään</t>
+        <t pos="Adv">mutta</t>
+
+        <t pos="Adv">vaikka</t>
+
+        <t pos="Adv">kuitenkin</t>
+
+        <t pos="Adv">sittenkin</t>
+
+        <t pos="Adv">kuitenkaan</t>
+
+        <t pos="Adv">sittenkään</t>
+
+        <t pos="Adv">ei kuitenkaan</t>
+
+        <t pos="Adv">ei sittenkään</t>
       </tg>
     </mg>
   </e>
@@ -1633,7 +1726,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">nopeasti, kerkeästi</t>
+        <t pos="Adv">nopeasti</t>
+
+        <t pos="Adv">kerkeästi</t>
       </tg>
     </mg>
   </e>
@@ -1651,7 +1746,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">kyljellään; kyljelleen; syrjällään, kallellaan</t>
+        <t pos="Adv">kyljellään; kyljelleen; syrjällään</t>
+
+        <t pos="Adv">kallellaan</t>
       </tg>
     </mg>
   </e>
@@ -1669,7 +1766,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">sivusta, syrjästä</t>
+        <t pos="Adv">sivusta</t>
+
+        <t pos="Adv">syrjästä</t>
       </tg>
     </mg>
   </e>
@@ -1687,7 +1786,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">kallelleen, vinoon; kallellaan, vinossa</t>
+        <t pos="Adv">kallelleen</t>
+
+        <t pos="Adv">vinoon; kallellaan</t>
+
+        <t pos="Adv">vinossa</t>
       </tg>
     </mg>
   </e>
@@ -1705,7 +1808,13 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">sivuitse, ohitse, ohi, sivu</t>
+        <t pos="Adv">sivuitse</t>
+
+        <t pos="Adv">ohitse</t>
+
+        <t pos="Adv">ohi</t>
+
+        <t pos="Adv">sivu</t>
       </tg>
     </mg>
   </e>
@@ -1723,7 +1832,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">aivan kuin, ikään kuin; mukamas, muka</t>
+        <t pos="Adv">aivan kuin</t>
+
+        <t pos="Adv">ikään kuin; mukamas</t>
+
+        <t pos="Adv">muka</t>
       </tg>
     </mg>
   </e>
@@ -1741,7 +1854,15 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">ihmettä, ihmeellistä, kummallista, ihme, kumma</t>
+        <t pos="Adv">ihmettä</t>
+
+        <t pos="Adv">ihmeellistä</t>
+
+        <t pos="Adv">kummallista</t>
+
+        <t pos="Adv">ihme</t>
+
+        <t pos="Adv">kumma</t>
       </tg>
     </mg>
   </e>
@@ -1795,8 +1916,13 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">ajatuksissa, ajatuksissaan, ajatuksissani,
-        ajatuksissasi</t>
+        <t pos="Adv">ajatuksissa</t>
+
+        <t pos="Adv">ajatuksissaan</t>
+
+        <t pos="Adv">ajatuksissani</t>
+
+        <t pos="Adv">ajatuksissasi</t>
       </tg>
     </mg>
   </e>
@@ -1886,7 +2012,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">kauas, etäs</t>
+        <t pos="Adv">kauas</t>
+
+        <t pos="Adv">etäs</t>
       </tg>
     </mg>
   </e>
@@ -1904,7 +2032,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">kaukana, etäällä</t>
+        <t pos="Adv">kaukana</t>
+
+        <t pos="Adv">etäällä</t>
       </tg>
     </mg>
   </e>
@@ -1948,7 +2078,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">edes, vaikkapa</t>
+        <t pos="Adv">edes</t>
+
+        <t pos="Adv">vaikkapa</t>
       </tg>
     </mg>
 
@@ -1956,7 +2088,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">ainakin, ainakaan</t>
+        <t pos="Adv">ainakin</t>
+
+        <t pos="Adv">ainakaan</t>
       </tg>
     </mg>
 
@@ -2076,9 +2210,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">vakituisesti </t>
+        <t pos="Adv">vakituisesti</t>
 
-        <t pos="Adv"> pysyvästi</t>
+        <t pos="Adv">pysyvästi</t>
       </tg>
     </mg>
   </e>
@@ -2176,7 +2310,7 @@
       <tg xml:lang="fin">
         <t pos="Adv">enimmäkseen</t>
 
-        <t pos="Adv"> enimmäkseni</t>
+        <t pos="Adv">enimmäkseni</t>
 
         <t pos="Adv">enimmäksesi</t>
 
@@ -2236,7 +2370,7 @@
       <tg xml:lang="fin">
         <t pos="Adv">enimmäkseen</t>
 
-        <t pos="Adv"> enimmiten</t>
+        <t pos="Adv">enimmiten</t>
       </tg>
     </mg>
   </e>
@@ -2774,7 +2908,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">ensin, ensimäiseksi</t>
+        <t pos="Adv">ensin</t>
+
+        <t pos="Adv">ensimäiseksi</t>
       </tg>
     </mg>
   </e>
@@ -2864,7 +3000,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">kumarassa, köyryllään, kyyryllään; kohollaan</t>
+        <t pos="Adv">kumarassa</t>
+
+        <t pos="Adv">köyryllään</t>
+
+        <t pos="Adv">kyyryllään; kohollaan</t>
       </tg>
     </mg>
   </e>
@@ -2918,7 +3058,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">älykkäästi, järkevästi, visaasti</t>
+        <t pos="Adv">älykkäästi</t>
+
+        <t pos="Adv">järkevästi</t>
+
+        <t pos="Adv">visaasti</t>
       </tg>
     </mg>
   </e>
@@ -4259,10 +4403,6 @@
     <mg>
       <defNative/>
 
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
-
       <tg xml:lang="fin">
         <t pos="Adv">leikillä</t>
 
@@ -5218,10 +5358,6 @@
 
     <mg>
       <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
 
       <tg xml:lang="fin">
         <t pos="Adv">takaisin</t>
@@ -7318,7 +7454,11 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Adv">minne, mihin, kunne</t>
+        <t pos="Adv">minne</t>
+
+        <t pos="Adv">mihin</t>
+
+        <t pos="Adv">kunne</t>
       </tg>
     </mg>
   </e>
@@ -9519,10 +9659,6 @@
     <mg>
       <defNative/>
 
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
-
       <tg xml:lang="fin">
         <t pos="Adv">myöten</t>
       </tg>
@@ -9562,7 +9698,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Adv">silmistä: muljallaan, -een</t>
+        <t pos="Adv">silmistä: muljallaan</t>
+
+        <t pos="Adv">-een</t>
       </tg>
     </mg>
 
@@ -9570,7 +9708,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">takamuksesta: (takamuksesta:) pitkällään, pylkällään</t>
+        <t pos="Adv">takamuksesta: (takamuksesta:) pitkällään</t>
+
+        <t pos="Adv">pylkällään</t>
       </tg>
     </mg>
 
@@ -12152,7 +12292,11 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Adv">pystyssä, pystystä, kohtisuoraan</t>
+        <t pos="Adv">pystyssä</t>
+
+        <t pos="Adv">pystystä</t>
+
+        <t pos="Adv">kohtisuoraan</t>
       </tg>
     </mg>
   </e>
@@ -12747,10 +12891,6 @@
     <mg>
       <defNative/>
 
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
-
       <tg xml:lang="fin">
         <t pos="Adv"/>
       </tg>
@@ -13224,10 +13364,6 @@
 
     <mg>
       <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
 
       <tg xml:lang="fin">
         <t pos="Adv">sieltä</t>
@@ -15347,10 +15483,6 @@
     <mg>
       <defNative/>
 
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
-
       <tg xml:lang="fin">
         <t pos="Adv">tuolta</t>
 
@@ -15374,7 +15506,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Adv">tuolta, tuoltapäin</t>
+        <t pos="Adv">tuolta</t>
+
+        <t pos="Adv">tuoltapäin</t>
       </tg>
     </mg>
   </e>
@@ -15592,7 +15726,11 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Adv">tyttönä, tyttöiässä, ennen naimisiinmenoa</t>
+        <t pos="Adv">tyttönä</t>
+
+        <t pos="Adv">tyttöiässä</t>
+
+        <t pos="Adv">ennen naimisiinmenoa</t>
       </tg>
     </mg>
   </e>
@@ -16249,6 +16387,8 @@
     <lg>
       <l pos="Adv">uudehes</l>
 
+      <l_ref pos="Adv">uvvessah</l_ref>
+
       <stg>
         <st Contlex="ADV-TEMP">uudehes</st>
       </stg>
@@ -16257,12 +16397,8 @@
     <mg>
       <defNative/>
 
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
-
       <tg xml:lang="fin">
-        <t pos="Adv">uudestaan, myös: uvvessah</t>
+        <t pos="Adv">uudestaan</t>
       </tg>
     </mg>
   </e>
@@ -16297,30 +16433,8 @@
     <mg>
       <defNative/>
 
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
-
       <tg xml:lang="fin">
         <t pos="Adv">uudestaan</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Adv">uvvessah</l>
-
-      <stg>
-        <st Contlex="ADV_">uvvessah</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t/>
       </tg>
     </mg>
   </e>
@@ -16480,10 +16594,6 @@
 
     <mg>
       <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Adv"/>
-      </tg>
 
       <tg xml:lang="fin">
         <t pos="Adv">vaivaisesti</t>
