@@ -60842,10 +60842,10 @@
 
   <e order="2">
     <lg>
-      <l pos="V">on</l>
+      <l pos="V">olla</l>
 
       <stg>
-        <st Contlex="V_">on</st>
+        <st Contlex="V_">o</st>
       </stg>
     </lg>
 
@@ -66180,6 +66180,30 @@
 
   <e order="2">
     <lg>
+      <l pos="V">pidiä</l>
+
+      <stg>
+        <st Contlex="V_PIDIÄ-SG3">pidä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V"/>
+      </tg>
+    </mg>
+
+    <mg>
+      <tg xml:lang="rus">
+        <t pos="V">полагаеться</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e order="2">
+    <lg>
       <l pos="V">piehtaroijakseh</l>
 
       <stg>
@@ -66456,10 +66480,10 @@
 
   <e>
     <lg>
-      <l pos="V">piettiekseh</l>
+      <l pos="V">piettiäkseh</l>
 
       <stg>
-        <st Contlex="V_">piettiekseh</st>
+        <st Contlex="VR_KANDUA">pietti</st>
       </stg>
     </lg>
 
@@ -67316,10 +67340,10 @@
 
   <e>
     <lg>
-      <l pos="V">pitkendyä</l>
+      <l pos="V">pitkendiä</l>
 
       <stg>
-        <st Contlex="V_">pitkendyä</st>
+        <st Contlex="V_KANDUA">pitkendä</st>
       </stg>
     </lg>
 
@@ -67532,10 +67556,10 @@
 
   <e>
     <lg>
-      <l pos="V">piäksähteh</l>
+      <l pos="V">pieksiäkseh</l>
 
       <stg>
-        <st Contlex="V_">piäksähteh</st>
+        <st Contlex="VR_KANDUA">pieksi</st>
       </stg>
     </lg>
 
@@ -68028,10 +68052,10 @@
 
   <e>
     <lg>
-      <l pos="V">plaššie</l>
+      <l pos="V">pläššie</l>
 
       <stg>
-        <st Contlex="V_">plaššie</st>
+        <st Contlex="V_POTKIE">pläšši</st>
       </stg>
     </lg>
 
@@ -69338,10 +69362,10 @@
 
   <e>
     <lg>
-      <l pos="V">prizorzuitta</l>
+      <l pos="V">prizorzuittua</l>
 
       <stg>
-        <st Contlex="V_">prizorzuitta</st>
+        <st Contlex="V_KANDUA">prizorzuitta</st>
       </stg>
     </lg>
 
@@ -69674,10 +69698,10 @@
 
   <e>
     <lg>
-      <l pos="V">proššaikkua</l>
+      <l pos="V">proššaija</l>
 
       <stg>
-        <st Contlex="V_">proššaikkua</st>
+        <st Contlex="V_SUVAIJA">proššai</st>
       </stg>
     </lg>
 
@@ -69876,10 +69900,10 @@
 
   <e>
     <lg>
-      <l pos="V">puaksužeh</l>
+      <l pos="Adv">puaksužeh</l>
 
       <stg>
-        <st Contlex="V_">puaksužeh</st>
+        <st Contlex="ADV_">puaksužeh</st>
       </stg>
     </lg>
 
@@ -70266,10 +70290,10 @@
 
   <e>
     <lg>
-      <l pos="V">puhua</l>
+      <l pos="V">puhuo</l>
 
       <stg>
-        <st Contlex="V_">puhua</st>
+        <st Contlex="V_VALUO">puhu</st>
       </stg>
     </lg>
 
@@ -70496,10 +70520,10 @@
 
   <e>
     <lg>
-      <l pos="V">pujatuakseh</l>
+      <l pos="V">pujahtuakseh</l>
 
       <stg>
-        <st Contlex="V_">pujatuakseh</st>
+        <st Contlex="VR_KANDUA">pujahta</st>
       </stg>
     </lg>
 
@@ -70562,10 +70586,10 @@
 
   <e>
     <lg>
-      <l pos="V">pummpata</l>
+      <l pos="V">pumpata</l>
 
       <stg>
-        <st Contlex="V_">pummpata</st>
+        <st Contlex="V_AVATA">pumpa</st>
       </stg>
     </lg>
 
@@ -70602,24 +70626,6 @@
     <mg>
       <tg xml:lang="rus">
         <t pos="V">качать</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">pumppata</l>
-
-      <stg>
-        <st Contlex="V_">pumppata</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V"/>
       </tg>
     </mg>
   </e>
@@ -70702,24 +70708,6 @@
         <t pos="V">виться</t>
 
         <t pos="V">закрутиться</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">punua</l>
-
-      <stg>
-        <st Contlex="V_">punua</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V"/>
       </tg>
     </mg>
   </e>
@@ -70882,10 +70870,10 @@
 
   <e>
     <lg>
-      <l pos="V">puolez</l>
+      <l pos="Po">puolez</l>
 
       <stg>
-        <st Contlex="V_">puolez</st>
+        <st Contlex="PO_">puolez</st>
       </stg>
     </lg>
 
