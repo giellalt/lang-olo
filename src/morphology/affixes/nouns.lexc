@@ -21,7 +21,7 @@ LEXICON N_SUO !!= @CODE@ suo:suo
 +N: NMN_KUU ;
 
 LEXICON N_KUU_SUB
-+Use/Sub: N_KUU ;
++Err/Sub: N_KUU ;
 LEXICON N_KUU !!= @CODE@ kuu:kuu
  N_KUU-SG ;
  N_KUU-PL ;
@@ -31,13 +31,13 @@ LEXICON N_KUU-PL
 +N: NMN_KUU-PL ;
 
 LEXICON N_MUA_SUB
-+Use/Sub: N_MUA ;
++Err/Sub: N_MUA ;
 LEXICON N_MUA !!= @CODE@ mua:maa
 +N: NMN_MUA ;
 
 !! !TWO-SYLLABLE VOWEL-FINAL STEMS
 LEXICON N_PAPPI_SUB
-+Use/Sub: N_PAPPI ;
++Err/Sub: N_PAPPI ;
 LEXICON N_PAPPI !!= @CODE@ pappi:pappi
 	N_PAPPI-SG ;
 	N_PAPPI-PL ;
@@ -52,7 +52,7 @@ LEXICON N-HUM_KALA
 +N+Hum: NMN_KALA ;
 
 LEXICON N_KALA_SUB
-+Use/Sub: N_KALA ;
++Err/Sub: N_KALA ;
 LEXICON N_KALA !!= @CODE@ kala:kala
 	N_KALA-SG  ;
 	N_KALA-PL  ;
@@ -62,7 +62,7 @@ LEXICON N_KALA-PL
 +N: NMN_KALA-PL ;
 
 LEXICON N_OZA_SUB
-+Use/Sub: N_OZA ;
++Err/Sub: N_OZA ;
 LEXICON N_OZA !!= @CODE@ oza:oza
 	N_OZA-SG  ;
 	N_OZA-PL  ;
@@ -74,7 +74,7 @@ LEXICON N_OZA-PL
 +N: NMN_OZA-PL ;
 
 LEXICON N_SÄYNÄ_SUB
-+Use/Sub: N_SÄYNÄ ;
++Err/Sub: N_SÄYNÄ ;
 LEXICON N_SÄYNÄ !!= @CODE@ säynä:säynä
 	N_SÄYNÄ-SG  ;
 	N_SÄYNÄ-PL  ;
@@ -86,7 +86,7 @@ LEXICON N_SÄYNÄ-PL
 +N: NMN_SÄYNÄ-PL ;
 
 LEXICON N_KOIVU_SUB
-+Use/Sub: N_KOIVU ;
++Err/Sub: N_KOIVU ;
 LEXICON N_KOIVU !!= @CODE@ koivu:koivu
         N_KOIVU-SG ;
         N_KOIVU-PL ;
@@ -98,7 +98,7 @@ LEXICON N_KOIVU-PL
 +N: NMN_KOIVU-PL        ;
 
 LEXICON N_RUNO_SUB
-+Use/Sub: N_RUNO ;
++Err/Sub: N_RUNO ;
 LEXICON N_RUNO !!= @CODE@ runo:runo
 	 N_RUNO-SG ;
 	 N_RUNO-PL ;
@@ -109,7 +109,7 @@ LEXICON N_RUNO-PL
 +N: NMN_RUNO-PL   ;
 
 LEXICON N_KYNDÖ_SUB
-+Use/Sub: N_KYNDÖ ;
++Err/Sub: N_KYNDÖ ;
 LEXICON N_KYNDÖ !!= @CODE@ kyndö:kyndö
 	 N_KYNDÖ-SG ;
 	 N_KYNDÖ-PL ;
@@ -125,7 +125,7 @@ LEXICON N_JÄLGI  !!= @CODE@ jälgi:jälg
  N_NIMI ;
 
 LEXICON N_MUAMO_SUB
-+Use/Sub: N_MUAMO ;
++Err/Sub: N_MUAMO ;
 LEXICON N_MUAMO !!= @CODE@ muamo:muamo
  N_MUAMO-SG ;
  N_MUAMO-PL ;
@@ -136,7 +136,7 @@ LEXICON N_MUAMO-PL
 +N: NMN_MUAMO-PL ;
 
 LEXICON N_MUARJU_SUB
-+Use/Sub: N_MUARJU ;
++Err/Sub: N_MUARJU ;
 LEXICON N_MUARJU !!= @CODE@ muarju:muarja
  N_MUARJU-SG ;
  N_MUARJU-PL ;
@@ -150,7 +150,7 @@ LEXICON N_SULGU !!= @CODE@ sulgu:sulga
  N_KOIRU ;
 
 LEXICON N_KOIRU_SUB
-+Use/Sub: N_KOIRU ;
++Err/Sub: N_KOIRU ;
 LEXICON N_KOIRU !!= @CODE@ koiru:koira
  N_KOIRU-SG ;
  N_KOIRU-PL ;
@@ -162,7 +162,7 @@ LEXICON N_KOIRU-PL
  N_PÄIVY-PL ;
 
 LEXICON N_LUODO_SUB
-+Use/Sub: N_LUODO ;
++Err/Sub: N_LUODO ;
 LEXICON N_LUODO !!= @CODE@ luodo:luodo
  N_LUODO-SG ;
  N_LUODO-PL ;
@@ -174,7 +174,7 @@ LEXICON N_LUODO-PL
 +N: NMN_LUODO-PL ;
 
 LEXICON N_NIMI_SUB
-+Use/Sub: N_NIMI ;
++Err/Sub: N_NIMI ;
 LEXICON N_NIMI !!= @CODE@ nimi:nim
 	N_NIMI-SG  ;
 	N_NIMI-PL  ;
@@ -186,7 +186,7 @@ LEXICON N_NIMI-PL
 +N: NMN_NIMI-PL ;
 
 LEXICON N_PÄIVY_SUB
-+Use/Sub: N_PÄIVY ;
++Err/Sub: N_PÄIVY ;
 LEXICON N_PÄIVY !!= @CODE@ päivy:päivä
 	N_PÄIVY-SG ;
 	N_PÄIVY-PL ;
@@ -198,7 +198,7 @@ LEXICON N_PÄIVY-PL
 +N: NMN_PÄIVY-PL	;
 
 LEXICON N_SIVE_SUB
-+Use/Sub: N_SIVE ;
++Err/Sub: N_SIVE ;
 LEXICON N_SIVE !!= @CODE@ sive:sive
 	N_SIVE-SG	;
 	N_SIVE-PL	;
@@ -209,7 +209,7 @@ LEXICON N_SIVE-PL
 +N:	NMN_SIVE-PL	;
 
 LEXICON N_HARDIE_SUB
-+Use/Sub: N_HARDIE ;
++Err/Sub: N_HARDIE ;
 LEXICON N_HARDIE !!= @CODE@ hardie:hardie
         N_HARDIE-SG ;
         N_HARDIE-PL ;
@@ -221,7 +221,7 @@ LEXICON N_HARDIE-PL
 +N: NMN_HARDIE-PL        ;
 
 LEXICON N_KONDII_SUB
-+Use/Sub: N_KONDII ;
++Err/Sub: N_KONDII ;
 LEXICON N_KONDII !!= @CODE@ kondii:kondi
         N_KONDII-SG ;
         N_KONDII-PL ;
@@ -233,7 +233,7 @@ LEXICON N_KONDII-PL
 +N: NMN_KONDII-PL        ;
 
 LEXICON N_REBOI_SUB
-+Use/Sub: N_REBOI ;
++Err/Sub: N_REBOI ;
 LEXICON N_REBOI !!= @CODE@ reboi:reboi
         N_REBOI-SG ;
         N_REBOI-PL ;
@@ -243,7 +243,7 @@ LEXICON N_REBOI-PL
 +N: NMN_REBOI-PL ;
 
 LEXICON N_VALGEI_SUB
-+Use/Sub: N_VALGEI ;
++Err/Sub: N_VALGEI ;
 LEXICON N_VALGEI !!= @CODE@ valgei:valge
         N_VALGEI-SG ;
         N_VALGEI-PL ;
@@ -255,7 +255,7 @@ LEXICON N_VALGEI-PL
 +N: NMN_VALGEI-PL        ;
 
 LEXICON N_OSTAI_SUB
-+Use/Sub: N_OSTAI ;
++Err/Sub: N_OSTAI ;
 LEXICON N_OSTAI !!= @CODE@ ostai:osta
         N_OSTAI-SG ;
         N_OSTAI-PL ;
@@ -267,7 +267,7 @@ LEXICON N_OSTAI-PL
 +N:%>%{ijPRC%} NMN_OSTAI-PL        ;
 
 LEXICON N_PEZII_SUB
-+Use/Sub: N_PEZII ;
++Err/Sub: N_PEZII ;
 LEXICON N_PEZII !!= @CODE@ pezii:pezi
         N_PEZII-SG ;
         N_PEZII-PL ;
@@ -279,7 +279,7 @@ LEXICON N_PEZII-PL
 +N:%>%{ijPRC%} NMN_PEZII-PL        ;
 
 LEXICON N_KESTÄY_SUB
-+Use/Sub: N_KESTÄY ;
++Err/Sub: N_KESTÄY ;
 LEXICON N_KESTÄY !!= @CODE@ kestäy:kestä
         N_KESTÄY-SG ;
         N_KESTÄY-PL ;
@@ -292,7 +292,7 @@ LEXICON N_KESTÄY-PL
 
 !! !TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
 LEXICON N_UKSI_SUB
-+Use/Sub: N_UKSI ;
++Err/Sub: N_UKSI ;
 LEXICON N_UKSI !!= @CODE@ uksi:uks
 	N_UKSI-SG ;
 	N_UKSI-PL ;
@@ -302,7 +302,7 @@ LEXICON N_UKSI-PL
 +N: NMN_UKSI-PL ;
 
 LEXICON N_KIELI_SUB
-+Use/Sub: N_KIELI ;
++Err/Sub: N_KIELI ;
 LEXICON N_KIELI !!= @CODE@ kieli:kiel
  N_KIELI-SG ;
  N_KIELI-PL ;
@@ -313,7 +313,7 @@ LEXICON N_KIELI-PL
 +N: 	NMN_KIELI-PL ;
 
 LEXICON N_LAPSI_SUB
-+Use/Sub: N_LAPSI ;
++Err/Sub: N_LAPSI ;
 LEXICON N_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
         N_LAPSI-SG  ;
         N_LAPSI-PL  ;
@@ -325,7 +325,7 @@ LEXICON N_LAPSI-PL
 +N: NMN_LAPSI-PL ;
 
 LEXICON N_VEZI_SUB
-+Use/Sub: N_VEZI ;
++Err/Sub: N_VEZI ;
 LEXICON N_VEZI !!= @CODE@ vezi:ved
  N_VEZI-SG ;
  N_VEZI-PL ;
@@ -337,7 +337,7 @@ LEXICON N_VEZI-PL
 +N: NMN_VEZI-PL ;
 
 LEXICON N_SUZI_SUB
-+Use/Sub: N_SUZI ;
++Err/Sub: N_SUZI ;
 LEXICON N_SUZI !!= @CODE@ suzi:su
  N_SUZI-SG ;
  N_SUZI-PL ;
@@ -349,7 +349,7 @@ LEXICON N_SUZI-PL
 +N: NMN_SUZI-PL ;
 
 LEXICON N_VUOZI_SUB
-+Use/Sub: N_VUOZI ;
++Err/Sub: N_VUOZI ;
 LEXICON N_VUOZI !!= @CODE@ vuozi:vuod
  N_VUOZI-SG        ;
  N_VUOZI-PL        ;
@@ -361,7 +361,7 @@ LEXICON N_VUOZI-PL
 
 !! !THREE-SYLLABLE VOWEL-FINAL STEMS
 LEXICON N_SYGYZY_SUB
-+Use/Sub: N_SYGYZY ;
++Err/Sub: N_SYGYZY ;
 LEXICON N_SYGYZY !!= @CODE@ sygyzy:sygyzy
         N_SYGYZY-SG ;
         N_SYGYZY-PL ;
@@ -373,7 +373,7 @@ LEXICON N_SYGYZY-PL
 +N: NMN_SYGYZY-PL        ;
 
 LEXICON N_VASKIČČU_SUB
-+Use/Sub: N_VASKIČČU ;
++Err/Sub: N_VASKIČČU ;
 LEXICON N_VASKIČČU !!= @CODE@ vaskičču:vaskičča
         N_VASKIČČU-SG ;
         N_VASKIČČU-PL ;
@@ -386,7 +386,7 @@ LEXICON N_VASKIČČU-PL
 
 !! !THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
 LEXICON N_KARJAL_SUB
-+Use/Sub: N_KARJAL ;
++Err/Sub: N_KARJAL ;
 LEXICON N_KARJAL !!= @CODE@ karjal:karjal
 	N_KARJAL-SG ;
 	N_KARJAL-PL ;
@@ -396,7 +396,7 @@ LEXICON N_KARJAL-PL !!= @CODE@ karjal:karjal
 +N:	NMN_KARJAL-PL ;
 
 LEXICON N_MADAL_SUB
-+Use/Sub: N_MADAL ;
++Err/Sub: N_MADAL ;
 LEXICON N_MADAL !!= @CODE@ madal:madal
 	N_MADAL-SG ;
 	N_MADAL-PL ;
@@ -406,7 +406,7 @@ LEXICON N_MADAL-PL !!= @CODE@ madal:madal
 +N:	NMN_MADAL-PL ;
 
 LEXICON N_PIIRAI_SUB
-+Use/Sub: N_PIIRAI ;
++Err/Sub: N_PIIRAI ;
 LEXICON N_PIIRAI !!= @CODE@ piirai:piira CHECK THIS
         N_PIIRAI-SG ;
         N_PIIRAI-PL ;
@@ -419,7 +419,7 @@ LEXICON N_PIIRAI-PL
 
 
 LEXICON N_KANDAI_SUB
-+Use/Sub: N_KANDAI ;
++Err/Sub: N_KANDAI ;
 LEXICON N_KANDAI !!= @CODE@ kandai:kanda
         N_KANDAI-SG ;
         N_KANDAI-PL ;
@@ -435,7 +435,7 @@ LEXICON  N_AVUAJU !!= @CODE@ piästäjy:piästä
 
 
 LEXICON N_PAGIZII_SUB
-+Use/Sub: N_PAGIZII ;
++Err/Sub: N_PAGIZII ;
 LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizii
  N_PAGIZII-SG ;
  N_PAGIZII-PL ;
@@ -445,7 +445,7 @@ LEXICON N_PAGIZII-PL !!= @CODE@
 +N: NMN_PAGIZII-PL ;
 
 LEXICON N_HUOLETOI_SUB
-+Use/Sub: N_HUOLETOI ;
++Err/Sub: N_HUOLETOI ;
 LEXICON N_HUOLETOI !!= @CODE@ huoletoi: huolet
  N_HUOLETOI-SG ;
  N_HUOLETOI-PL ;
@@ -457,7 +457,7 @@ LEXICON N_HUOLETOI-PL
 +N: NMN_HUOLETOI-PL ;
 
 LEXICON N_SAMMAL_SUB
-+Use/Sub: N_SAMMAL ;
++Err/Sub: N_SAMMAL ;
 LEXICON N_SAMMAL !!= @CODE@ sammal:sammal
  N_SAMMAL-SG ;
  N_SAMMAL-PL ;
@@ -469,7 +469,7 @@ LEXICON N_SAMMAL-PL
 +N: NMN_SAMMAL-PL ;
 
 LEXICON N_VANUIN_SUB
-+Use/Sub: N_VANUIN ;
++Err/Sub: N_VANUIN ;
 LEXICON N_VANUIN !!= @CODE@ vanuin:vanui
  N_VANUIN-SG ;
  N_VANUIN-PL ;
@@ -481,7 +481,7 @@ LEXICON N_VANUIN-PL
 +N: NMN_VANUIN-PL ;
 
 LEXICON N_TAIGIN_SUB
-+Use/Sub: N_TAIGIN ;
++Err/Sub: N_TAIGIN ;
 LEXICON N_TAIGIN !!= @CODE@ taigin:taigin
  N_TAIGIN-SG ;
  N_TAIGIN-PL ;
@@ -493,7 +493,7 @@ LEXICON N_TAIGIN-PL
 +N: NMN_TAIGIN-PL ;
 
 LEXICON N_KARJALAINE_SUB
-+Use/Sub: N_KARJALAINE ;
++Err/Sub: N_KARJALAINE ;
 LEXICON N_KARJALAINE !!= @CODE@ karjalaine:karjala
  N_KARJALAINE-SG     ;
  N_KARJALAINE-PL     ;
@@ -505,7 +505,7 @@ LEXICON N_KARJALAINE-PL
 +N:    NMN_KARJALAINE-PL	 ;
 
 LEXICON N_KIELINE_SUB
-+Use/Sub: N_KIELINE ;
++Err/Sub: N_KIELINE ;
 LEXICON N_KIELINE !!= @CODE@ kieline:kieli
  N_KIELINE-SG     ;
  N_KIELINE-PL     ;
@@ -517,7 +517,7 @@ LEXICON N_KIELINE-PL
 +N:    NMN_KIELINE-PL         ;
 
 LEXICON N_TOINE_SUB
-+Use/Sub: N_TOINE ;
++Err/Sub: N_TOINE ;
 LEXICON N_TOINE !!= @CODE@ toine:to
  N_TOINE-SG     ;
  N_TOINE-PL     ;
@@ -531,7 +531,7 @@ LEXICON N_TOINE-PL
 
 
 LEXICON N_RAIŠ_SUB
-+Use/Sub: N_RAIŠ ;
++Err/Sub: N_RAIŠ ;
 LEXICON N_RAIŠ !!= @CODE@ raiš:ra
 	N_RAIŠ-SG	;
 	N_RAIŠ-PL	;
@@ -542,7 +542,7 @@ LEXICON N_RAIŠ-PL
 +N:	NMN_RAIŠ-PL	;
 
 LEXICON N_PEREH_SUB
-+Use/Sub: N_PEREH ;
++Err/Sub: N_PEREH ;
 LEXICON N_PEREH !!= @CODE@ pereh:pereh
 	N_PEREH-SG	;
 	N_PEREH-PL	;
@@ -553,7 +553,7 @@ LEXICON N_PEREH-PL
 +N:	NMN_PEREH-PL	;
 
 LEXICON N_PENGER_SUB
-+Use/Sub: N_PENGER ;
++Err/Sub: N_PENGER ;
 LEXICON N_PENGER !!= @CODE@ penger:penger
 	N_PENGER-SG	;
 	N_PENGER-PL	;
@@ -564,7 +564,7 @@ LEXICON N_PENGER-PL
 +N:	NMN_PENGER-PL	;
 
 LEXICON N_ARTELI_SUB
-+Use/Sub: N_ARTELI ;
++Err/Sub: N_ARTELI ;
 LEXICON N_ARTELI !!= @CODE@ arteli:arteli
 	N_ARTELI-SG ;
 	N_ARTELI-PL ;
@@ -574,7 +574,7 @@ LEXICON N_ARTELI-PL
 +N: NMN_ARTELI-PL ;
 
 LEXICON N_PUHTAHUS_SUB
-+Use/Sub: N_PUHTAHUS ;
++Err/Sub: N_PUHTAHUS ;
 LEXICON N_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 	N_PUHTAHUS-SG ;
         N_PUHTAHUS-PL ;
@@ -587,7 +587,7 @@ LEXICON N_AIGOMUS
  N_ALUS ;
 
 LEXICON N_ALUS_SUB
-+Use/Sub: N_ALUS ;
++Err/Sub: N_ALUS ;
 LEXICON N_ALUS !!= @CODE@ alus:aluks
  N_ALUS-SG ;
  N_ALUS-PL ;
@@ -599,7 +599,7 @@ LEXICON N_ALUS-PL !!= @CODE@ alus:aluks
 +N: NMN_ALUS-PL ;
 
 LEXICON N_MIES_SUB
-+Use/Sub: N_MIES ;
++Err/Sub: N_MIES ;
 LEXICON N_MIES !!= @CODE@ mies:mie
  N_MIES-SG ;
  N_MIES-PL ;
@@ -619,7 +619,7 @@ LEXICON N_KUURNIS-PL
 +N: NMN_KUURNIS-PL ;
 
 LEXICON N_SUALIŠ_SUB
-+Use/Sub: N_SUALIŠ ;
++Err/Sub: N_SUALIŠ ;
 LEXICON N_SUALIŠ !!= @CODE@ suališ:suali
  N_SUALIŠ-SG ;
  N_SUALIŠ-PL ;
@@ -631,7 +631,7 @@ LEXICON N_SUALIŠ-PL !!= @CODE@ suališ:suali
 +N: NMN_SUALIŠ-PL ;
 
 LEXICON N_OLUT_SUB
-+Use/Sub: N_OLUT ;
++Err/Sub: N_OLUT ;
 LEXICON N_OLUT !!= @CODE@ olut:olu
  N_OLUT-SG ;
  N_OLUT-PL ;
@@ -643,7 +643,7 @@ LEXICON N_OLUT-PL
 +N: NMN_OLUT-PL ;
 
 LEXICON N_KEVÄT_SUB
-+Use/Sub: N_KEVÄT ;
++Err/Sub: N_KEVÄT ;
 LEXICON N_KEVÄT !!= @CODE@ kevät:kevä
  N_KEVÄT-SG ;
  N_KEVÄT-PL ;
@@ -655,7 +655,7 @@ LEXICON N_KEVÄT-PL
 +N: NMN_KEVÄT-PL ;
 
 LEXICON N_ARMAS_SUB
-+Use/Sub: N_ARMAS ;
++Err/Sub: N_ARMAS ;
 LEXICON N_ARMAS !!= @CODE@ armas:arma
     N_ARMAS-SG        ;
     N_ARMAS-PL        ;
@@ -666,7 +666,7 @@ LEXICON N_ARMAS-PL
 
 
 LEXICON N_PAREMBI_SUB
-+Use/Sub: N_PAREMBI ;
++Err/Sub: N_PAREMBI ;
 LEXICON N_PAREMBI !!= @CODE@ parembi:paremb
  N_PAREMBI-SG	  ;
  N_PAREMBI-PL	  ;
@@ -677,7 +677,7 @@ LEXICON N_PAREMBI-PL
 +N: NMN_PAREMBI-PL   ;
 
 LEXICON N_PESSYH_SUB
-+Use/Sub: N_PESSYH ;
++Err/Sub: N_PESSYH ;
 LEXICON N_PESSYH !!= @CODE@ pessyh
  N_PESSYH-SG ;
  N_PESSYH-PL ;
@@ -689,7 +689,7 @@ LEXICON N_PESSYH-PL
 
 
 LEXICON N_BEMMEL_SUB
-+Use/Sub: N_BEMMEL ;
++Err/Sub: N_BEMMEL ;
 LEXICON N_BEMMEL !!= @CODE@ bemmel:bembel
     N_BEMMEL-SG        ;
     N_BEMMEL-PL        ;
@@ -701,7 +701,7 @@ LEXICON N_BEMMEL-PL
 
 
 LEXICON N_SUURIM_SUB
-+Use/Sub: N_SUURIM ;
++Err/Sub: N_SUURIM ;
 LEXICON N_SUURIM !!= @CODE@ suurim:suurim
         N_SUURIM-SG  ;
         N_SUURIM-PL  ;
@@ -713,7 +713,7 @@ LEXICON N_SUURIM-PL
 +N:     NMN_SUURIM-PL ;
 
 LEXICON N_TUATINDAM_SUB
-+Use/Sub: N_TUATINDAM ;
++Err/Sub: N_TUATINDAM ;
 LEXICON N_TUATINDAM !!= @CODE@ tuatindam:tuatindam
         N_TUATINDAM-SG  ;
         N_TUATINDAM-PL  ;
@@ -725,7 +725,7 @@ LEXICON N_TUATINDAM-PL
 +N:     NMN_TUATINDAM-PL ;
 
 LEXICON N_TUATANDIM_SUB
-+Use/Sub: N_TUATANDIM ;
++Err/Sub: N_TUATANDIM ;
 LEXICON N_TUATANDIM !!= @CODE@ tuatandim:tuatandim
         N_TUATANDIM-SG  ;
         N_TUATANDIM-PL  ;
@@ -746,7 +746,7 @@ LEXICON N_SIEMEN-PL
         N_PAIMEN-PL  ;
 
 LEXICON N_PAIMEN_SUB
-+Use/Sub: N_PAIMEN ;
++Err/Sub: N_PAIMEN ;
 LEXICON N_PAIMEN !!= @CODE@ paimen:paimen
         N_PAIMEN-SG  ;
         N_PAIMEN-PL  ;
@@ -758,7 +758,7 @@ LEXICON N_PAIMEN-PL
 +N: NMN_PIENAR-PL ;
 
 LEXICON N_SALBOIN_SUB
-+Use/Sub: N_SALBOIN ;
++Err/Sub: N_SALBOIN ;
 LEXICON N_SALBOIN !!= @CODE@ salboin:salboi
         N_SALBOIN-SG  ;
         N_SALBOIN-PL  ;
@@ -770,7 +770,7 @@ LEXICON N_SALBOIN-PL
 +N: NMN_SALBOIN-PL ;
 
 LEXICON N_ENIN_SUB
-+Use/Sub: N_ENIN ;
++Err/Sub: N_ENIN ;
 LEXICON N_ENIN !!= @CODE@ enin:eni
         N_ENIN-SG  ;
         N_ENIN-PL  ;
@@ -782,7 +782,7 @@ LEXICON N_ENIN-PL
 +N: NMN_ENIN-PL ;
 
 LEXICON N_UDAR_SUB
-+Use/Sub: N_UDAR ;
++Err/Sub: N_UDAR ;
 LEXICON N_UDAR !!= @CODE@ udar:udar
         N_UDAR-SG  ;
         N_UDAR-PL  ;
@@ -794,7 +794,7 @@ LEXICON N_UDAR-PL
 +N: NMN_UDAR-PL ;
 
 LEXICON N_PIENAR_SUB
-+Use/Sub: N_PIENAR ;
++Err/Sub: N_PIENAR ;
 LEXICON N_PIENAR !!= @CODE@ pienar:piendar
         N_PIENAR-SG  ;
         N_PIENAR-PL  ;
@@ -2131,7 +2131,7 @@ LEXICON Noun-NB-01
 +Abl:%^WGStem%>lpäi K ;
 +All:%^WGStem%>le K ;
 +Abe:%^WGStem%>tt%{aäPar%}h K ;
-+Abe+Use/Sub:%^WGStem%>tt%{aäPar%} K ;
++Abe+Err/Sub:%^WGStem%>tt%{aäPar%} K ;
 +Abe:%^WGStem%>t%{aäPar%} K ;
 +Ela:%^WGStem%>s K ;
 +Ela:%^WGStem%>späi K ;
