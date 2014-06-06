@@ -1,0 +1,86 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - emändöijäkseh: # Verb 'syntyä, ilmaantua' - full paradigm
+     emändöijäkseh+V+Ind+Prs+RcSg1: emändöimmös
+     emändöijäkseh+V+Ind+Prs+RcSg2: emändöittös
+     emändöijäkseh+V+Ind+Prs+RcSg3: [emändöih, emändöihes]
+     emändöijäkseh+V+Ind+Prs+RcPl1: emändöimmökseh
+     emändöijäkseh+V+Ind+Prs+RcPl2: emändöittökseh
+     emändöijäkseh+V+Ind+Prs+RcPl3: emändöitähes
+     emändöijäkseh+V+Ind+Prs+ConNeg+RcSg: emändöi
+     emändöijäkseh+V+Ind+Prs+ConNeg+RcPl1: emändöi
+     emändöijäkseh+V+Ind+Prs+ConNeg+RcPl2: emändöi
+     emändöijäkseh+V+Ind+Prs+ConNeg+RcPl3: emändöitähes
+
+     emändöijäkseh+V+Ind+Prt+RcSg1: emändöimmös
+     emändöijäkseh+V+Ind+Prt+RcSg2: emändöittös
+     emändöijäkseh+V+Ind+Prt+RcSg3: [emändöih, emändöihes]
+     emändöijäkseh+V+Ind+Prt+RcPl1: emändöimmökseh
+     emändöijäkseh+V+Ind+Prt+RcPl2: emändöittökseh
+     emändöijäkseh+V+Ind+Prt+RcPl3: emändöitihes
+     emändöijäkseh+V+Ind+Prt+ConNeg+RcSg: emändöinnyhes
+     emändöijäkseh+V+Ind+Prt+ConNeg+RcPl1: emändöinnyhes
+     emändöijäkseh+V+Ind+Prt+ConNeg+RcPl2: emändöinnyhes
+     emändöijäkseh+V+Ind+Prt+ConNeg+RcPl3: emändöityhes
+
+     emändöijäkseh+V+Cond+Prs+RcSg1: emändöizimmös
+     emändöijäkseh+V+Cond+Prs+RcSg2: emändöizittös
+     emändöijäkseh+V+Cond+Prs+RcSg3: emändöizihes
+     emändöijäkseh+V+Cond+Prs+RcPl1: emändöizimmökseh
+     emändöijäkseh+V+Cond+Prs+RcPl2: emändöizittökseh
+     emändöijäkseh+V+Cond+Prs+RcPl3: emändöitäzihes
+     emändöijäkseh+V+Cond+Prs+ConNeg+RcSg: emändöizihes
+     emändöijäkseh+V+Cond+Prs+ConNeg+RcPl1: emändöizihes
+     emändöijäkseh+V+Cond+Prs+ConNeg+RcPl2: emändöizihes
+     emändöijäkseh+V+Cond+Prs+ConNeg+RcPl3: emändöitäzihes
+
+     emändöijäkseh+V+Cond+Prt+RcSg1: emändöinnyzimmös
+     emändöijäkseh+V+Cond+Prt+RcSg2: emändöinnyzittös
+     emändöijäkseh+V+Cond+Prt+RcSg3: emändöinnyzihes
+     emändöijäkseh+V+Cond+Prt+RcPl1: emändöinnyzimmökseh
+     emändöijäkseh+V+Cond+Prt+RcPl2: emändöinnyzittökseh
+     emändöijäkseh+V+Cond+Prt+RcPl3: emändöitännyzihes
+     emändöijäkseh+V+Cond+Prt+ConNeg+RcSg: emändöinnyzihes
+     emändöijäkseh+V+Cond+Prt+ConNeg+RcPl1: emändöinnyzihes
+     emändöijäkseh+V+Cond+Prt+ConNeg+RcPl2: emändöinnyzihes
+     emändöijäkseh+V+Cond+Prt+ConNeg+RcPl3: emändöitännyzihes
+
+     emändöijäkseh+V+Pot+RcSg1: emändöinnemmös
+     emändöijäkseh+V+Pot+RcSg2: emändöinnettös
+     emändöijäkseh+V+Pot+RcSg3: emändöinnehes
+     emändöijäkseh+V+Pot+RcPl1: emändöinnemmökseh
+     emändöijäkseh+V+Pot+RcPl2: emändöinnettökseh
+     emändöijäkseh+V+Pot+RcPl3: emändöitännehes
+## Thit looks like it ought to be _emändöitänehes_
+     emändöijäkseh+V+Pot+ConNeg+RcSg: emändöi
+     emändöijäkseh+V+Pot+ConNeg+RcPl1: emändöi
+     emändöijäkseh+V+Pot+ConNeg+RcPl2: emändöi
+     emändöijäkseh+V+Pot+ConNeg+RcPl3: emändöitänehes
+
+
+     emändöijäkseh+V+Imprt+RcSg2: emändöi
+     emändöijäkseh+V+Imprt+RcSg3: emändöikkähes
+     emändöijäkseh+V+Imprt+RcPl1: emändöikkiämmökseh
+     emändöijäkseh+V+Imprt+RcPl2: emändöikkiättökseh
+     emändöijäkseh+V+Imprt+RcPl3: emändöitähes
+## There must be some Conneg forms as well
+     emändöijäkseh+V+Imprt+ConNeg+RcSg2: emändöi
+     emändöijäkseh+V+Imprt+ConNeg+RcSg3: emändöikkähes
+     emändöijäkseh+V+Imprt+ConNeg+RcPl2: emändöikkiättökseh
+     emändöijäkseh+V+Imprt+ConNeg+RcPl3: emändöitähes
+
+     emändöijäkseh+V+RcPrfPrc: emändöityhes
