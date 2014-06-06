@@ -72151,7 +72151,7 @@
       <l pos="A">pädemätöi</l>
 
       <stg>
-        <st Contlex="V_HUOLETOI">pädemät</st>
+        <st Contlex="A_HUOLETOI">pädemät</st>
       </stg>
     </lg>
 
@@ -75524,78 +75524,6 @@
     </mg>
   </e>
 
-  <e>
-    <lg>
-      <l pos="N">riidu</l>
-
-      <stg>
-        <st Contlex="V_MUARJU">riida</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">riiellä</l>
-
-      <stg>
-        <st Contlex="V_TULLA">riiellä</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">riijellä</l>
-
-      <stg>
-        <st Contlex="V_TULLA">riidel</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">riidellä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">riijellä</l>
-
-      <stg>
-        <st Contlex="V_TULLA">riidele</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">riidellä</t>
-      </tg>
-    </mg>
-  </e>
-
   <e order="2">
     <lg>
       <l pos="V">riijellä</l>
@@ -75606,6 +75534,10 @@
     </lg>
 
     <mg>
+      <tg xml:lang="fin">
+        <t pos="V">riidellä</t>
+      </tg>
+
       <tg xml:lang="rus">
         <t pos="V">браниться</t>
 
@@ -75720,24 +75652,6 @@
         <t pos="V">развиться</t>
 
         <t pos="V">распуститься</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">riiččečie</l>
-
-      <stg>
-        <st Contlex="V_">riiččečie</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V"/>
       </tg>
     </mg>
   </e>
@@ -87925,24 +87839,6 @@
     </mg>
   </e>
 
-  <e>
-    <lg>
-      <l pos="V">tahtoa</l>
-
-      <stg>
-        <st Contlex="V_">tahtoa</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V"/>
-      </tg>
-    </mg>
-  </e>
-
   <e order="2">
     <lg>
       <l pos="V">tahtuo</l>
@@ -88679,24 +88575,6 @@
     </mg>
   </e>
 
-  <e>
-    <lg>
-      <l pos="V">taputtia</l>
-
-      <stg>
-        <st Contlex="V_">taputtia</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V"/>
-      </tg>
-    </mg>
-  </e>
-
   <e order="2">
     <lg>
       <l pos="V">taputtua</l>
@@ -89189,10 +89067,10 @@
 
   <e>
     <lg>
-      <l pos="V">tartellekseh</l>
+      <l pos="V">tartellakseh</l>
 
       <stg>
-        <st Contlex="V_">tartellekseh</st>
+        <st Contlex="V_TULLA">tartel</st>
       </stg>
     </lg>
 
@@ -89312,7 +89190,7 @@
       <l pos="V">tartuokseh</l>
 
       <stg>
-        <st Contlex="V_">tartuokseh</st>
+        <st Contlex="VR_VALUO">tartu</st>
       </stg>
     </lg>
 
@@ -89773,10 +89651,10 @@
 
   <e>
     <lg>
-      <l pos="V">teläydyö</l>
+      <l pos="V">töläydyö</l>
 
       <stg>
-        <st Contlex="V_">teläydyö</st>
+        <st Contlex="V_VALUO">töläydy</st>
       </stg>
     </lg>
 
@@ -90705,10 +90583,10 @@
 
   <e>
     <lg>
-      <l pos="V">tipaktuakseh</l>
+      <l pos="V">tipahtuakseh</l>
 
       <stg>
-        <st Contlex="V_">tipaktuakseh</st>
+        <st Contlex="VR_KANDUA">tipahta</st>
       </stg>
     </lg>
 
@@ -91283,10 +91161,10 @@
 
   <e>
     <lg>
-      <l pos="V">toivua</l>
+      <l pos="V">toivuo</l>
 
       <stg>
-        <st Contlex="V_">toivua</st>
+        <st Contlex="V_PUNUO">toivo</st>
       </stg>
     </lg>
 
