@@ -4182,7 +4182,7 @@
       <l pos="V">blängiä</l>
 
       <stg>
-        <st Contlex="V_KANDUA">blängiä</st>
+        <st Contlex="V_KANDUA">blängä</st>
       </stg>
     </lg>
 
@@ -5186,7 +5186,7 @@
       <l pos="V">brällättiä</l>
 
       <stg>
-        <st Contlex="V_KANDUA">brällättiä</st>
+        <st Contlex="V_KANDUA">brällättä</st>
       </stg>
     </lg>
 
@@ -7102,7 +7102,7 @@
       <l pos="V">ebävyö</l>
 
       <stg>
-        <st Contlex="V_VALUO">ebävyö</st>
+        <st Contlex="V_VALUO">ebävy</st>
       </stg>
     </lg>
 
@@ -11998,7 +11998,7 @@
       <l pos="V">hengätä</l>
 
       <stg>
-        <st Contlex="V_AVATA">hengätä</st>
+        <st Contlex="V_AVATA">hengä</st>
       </stg>
     </lg>
 
@@ -13340,7 +13340,7 @@
       <l pos="V">hičistyö</l>
 
       <stg>
-        <st Contlex="V_VALUO">hičistyö</st>
+        <st Contlex="V_VALUO">hičisty</st>
       </stg>
     </lg>
 
@@ -16508,7 +16508,7 @@
       <l pos="V">hyväksyö</l>
 
       <stg>
-        <st Contlex="V_VALUO">hyväksyö</st>
+        <st Contlex="V_VALUO">hyväksy</st>
       </stg>
     </lg>
 
@@ -16580,7 +16580,7 @@
       <l pos="V">hyydyö</l>
 
       <stg>
-        <st Contlex="V_VALUO">hyydyö</st>
+        <st Contlex="V_VALUO">hyydy</st>
       </stg>
     </lg>
 
@@ -29525,7 +29525,7 @@
       <l pos="V">kimpuija</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">kimpuija</st>
+        <st Contlex="V_SUVAIJA">kimpui</st>
       </stg>
     </lg>
 
@@ -31164,10 +31164,10 @@
 
   <e>
     <lg>
-      <l pos="V">kleija</l>
+      <l pos="V">kleijä</l>
 
       <stg>
-        <st Contlex="V_SUVAIJA">kleija</st>
+        <st Contlex="V_SUVAIJA">klei</st>
       </stg>
     </lg>
 
@@ -50134,10 +50134,10 @@
 
   <e>
     <lg>
-      <l pos="V">mengyö</l>
+      <l pos="V">möngyö</l>
 
       <stg>
-        <st Contlex="V_VALUO">mengyö</st>
+        <st Contlex="V_VALUO">möngy</st>
       </stg>
     </lg>
 
@@ -60534,14 +60534,20 @@
     </lg>
 
     <mg>
-      <defNative/>
-
       <tg xml:lang="fin">
         <t pos="V">olla</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="V">есть</t>
       </tg>
     </mg>
 
     <mg>
+      <tg xml:lang="fin">
+        <t pos="V">olla</t>
+      </tg>
+
       <tg xml:lang="rus">
         <t pos="V">бывать</t>
 
@@ -60836,22 +60842,6 @@
         <t pos="V">тачать</t>
 
         <t pos="V">шить</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e order="2">
-    <lg>
-      <l pos="V">olla</l>
-
-      <stg>
-        <st Contlex="V_">o</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <tg xml:lang="rus">
-        <t pos="V">есть</t>
       </tg>
     </mg>
   </e>
@@ -65082,10 +65072,10 @@
 
   <e>
     <lg>
-      <l pos="V">peitiäkseh</l>
+      <l pos="V">peittiäkseh</l>
 
       <stg>
-        <st Contlex="VR_KANDUA">peitä</st>
+        <st Contlex="VR_KANDUA">peittä</st>
       </stg>
     </lg>
 
@@ -65211,7 +65201,7 @@
       <l pos="V">peittuo</l>
 
       <stg>
-        <st Contlex="V_VALUO">peittuo</st>
+        <st Contlex="V_VALUO">peittu</st>
       </stg>
     </lg>
 
@@ -67123,7 +67113,7 @@
       <l pos="V">pirottuo</l>
 
       <stg>
-        <st Contlex="V_VALUO">pirottuo</st>
+        <st Contlex="V_VALUO">pirottu</st>
       </stg>
     </lg>
 
@@ -68034,10 +68024,10 @@
 
   <e>
     <lg>
-      <l pos="V">plavuo</l>
+      <l pos="V">palvuo</l>
 
       <stg>
-        <st Contlex="V_VALUO">plavuo</st>
+        <st Contlex="V_PUNUO">palvo</st>
       </stg>
     </lg>
 
@@ -74234,24 +74224,6 @@
     </mg>
   </e>
 
-  <e>
-    <lg>
-      <l pos="V">razvuo</l>
-
-      <stg>
-        <st Contlex="V_VALUO">razvuo</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V"/>
-      </tg>
-    </mg>
-  </e>
-
   <e order="2">
     <lg>
       <l pos="V">račastua</l>
@@ -75155,7 +75127,7 @@
       <l pos="V">riboittuo</l>
 
       <stg>
-        <st Contlex="V_VALUO">riboittuo</st>
+        <st Contlex="V_VALUO">riboittu</st>
       </stg>
     </lg>
 
@@ -82031,10 +82003,10 @@
 
   <e>
     <lg>
-      <l pos="V">sidavuo</l>
+      <l pos="V">sidovuo</l>
 
       <stg>
-        <st Contlex="V_VALUO">sidavuo</st>
+        <st Contlex="V_VALUO">sidovu</st>
       </stg>
     </lg>
 
@@ -82718,7 +82690,7 @@
       <l pos="V">sinistyö</l>
 
       <stg>
-        <st Contlex="V_VALUO">sinistyö</st>
+        <st Contlex="V_VALUO">sinisty</st>
       </stg>
     </lg>
 
@@ -82944,7 +82916,7 @@
       <l pos="V">siästyö</l>
 
       <stg>
-        <st Contlex="V_VALUO">siästyö</st>
+        <st Contlex="V_VALUO">siästy</st>
       </stg>
     </lg>
 
@@ -85760,10 +85732,10 @@
 
   <e>
     <lg>
-      <l pos="V">suolištuo</l>
+      <l pos="V">sualištuo</l>
 
       <stg>
-        <st Contlex="V_VALUO">suolištuo</st>
+        <st Contlex="V_VALUO">sualištu</st>
       </stg>
     </lg>
 
@@ -86524,7 +86496,7 @@
       <l pos="V">syndyö</l>
 
       <stg>
-        <st Contlex="V_VALUO">syndyö</st>
+        <st Contlex="V_VALUO">syndy</st>
       </stg>
     </lg>
 
@@ -93230,7 +93202,7 @@
       <l pos="V">tuorehtuo</l>
 
       <stg>
-        <st Contlex="V_VALUO">tuorehtuo</st>
+        <st Contlex="V_VALUO">tuorehtu</st>
       </stg>
     </lg>
 
@@ -94110,7 +94082,7 @@
       <l pos="V">tuškeuduo</l>
 
       <stg>
-        <st Contlex="V_VALUO">tuškeuduo</st>
+        <st Contlex="V_VALUO">tuškeudu</st>
       </stg>
     </lg>
 
@@ -95404,7 +95376,7 @@
       <l pos="V">töllöttiä</l>
 
       <stg>
-        <st Contlex="V_">töllöttä</st>
+        <st Contlex="V_KANDUA">töllöttä</st>
       </stg>
     </lg>
 
@@ -95458,7 +95430,7 @@
       <l pos="V">töllötä</l>
 
       <stg>
-        <st Contlex="V_AVATA">töllötä</st>
+        <st Contlex="V_AVATA">töllö</st>
       </stg>
     </lg>
 
@@ -98534,10 +98506,10 @@
 
   <e>
     <lg>
-      <l pos="V">vaivuo</l>
+      <l pos="V">vaibuo</l>
 
       <stg>
-        <st Contlex="V_VALUO">vaivuo</st>
+        <st Contlex="V_VALUO">vaibu</st>
       </stg>
     </lg>
 
@@ -103423,10 +103395,10 @@
 
   <e>
     <lg>
-      <l pos="V">viivastuo</l>
+      <l pos="V">viivästyö</l>
 
       <stg>
-        <st Contlex="V_VALUO">viivastuo</st>
+        <st Contlex="V_VALUO">viivästy</st>
       </stg>
     </lg>
 
@@ -107639,7 +107611,7 @@
       <l pos="N">ylbei</l>
 
       <stg>
-        <st Contlex="V_VALGEI">ylbe</st>
+        <st Contlex="N_VALGEI">ylbe</st>
       </stg>
     </lg>
 
@@ -109884,10 +109856,10 @@
 
   <e>
     <lg>
-      <l pos="V">čiiroita</l>
+      <l pos="V">čiirota</l>
 
       <stg>
-        <st Contlex="V_AVATA">čiiruo</st>
+        <st Contlex="V_AVATA">čiiro</st>
       </stg>
     </lg>
 
@@ -113300,10 +113272,10 @@
 
   <e>
     <lg>
-      <l pos="V">šolahtuo</l>
+      <l pos="V">šolahtua</l>
 
       <stg>
-        <st Contlex="V_VALUO">šolahtuo</st>
+        <st Contlex="V_KANDUA">šolahta</st>
       </stg>
     </lg>
 
@@ -113576,24 +113548,6 @@
     <mg>
       <tg xml:lang="rus">
         <t pos="V">экипироваться</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">šuoriekseh</l>
-
-      <stg>
-        <st Contlex="VR_POTKIE">šuori</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V"/>
       </tg>
     </mg>
   </e>
