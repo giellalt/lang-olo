@@ -20,13 +20,13 @@ Tests:
      armas+A+Sg+Acc: [armas, armahan]
      armas+A+Sg+Par: armastu
      armas+A+Sg+Tra: armahakse
-     armas+A+Sg+Abe: [armahata, armahattah]
+     armas+A+Sg+Abe: [armahattah, armahata]
      armas+A+Sg+Com: armahanke
      armas+A+Sg+Ine: armahas
-     armas+A+Sg+Ela: armahas
+     armas+A+Sg+Ela: [armahaspäi, armahas]
      armas+A+Sg+Ill: armahah
      armas+A+Sg+Ade: armahal
-     armas+A+Sg+Abl: armahal
+     armas+A+Sg+Abl: [armahalpäi, armahal]
      armas+A+Sg+All: armahale
      armas+A+Sg+Ess: armahannu
      armas+A+Sg+Ter: armahassah
@@ -36,13 +36,13 @@ Tests:
      armas+A+Pl+Acc: armahat
      armas+A+Pl+Par: armahii
      armas+A+Pl+Tra: armahikse
-     armas+A+Pl+Abe: [armahita, armahittah]
+     armas+A+Pl+Abe: [armahittah, armahita]
      armas+A+Pl+Com: armahienke
      armas+A+Pl+Ine: armahis
-     armas+A+Pl+Ela: armahis
+     armas+A+Pl+Ela: [armahispäi, armahis]
      armas+A+Pl+Ill: armahih
      armas+A+Pl+Ade: armahil
-     armas+A+Pl+Abl: armahil
+     armas+A+Pl+Abl: [armahilpäi, armahil]
      armas+A+Pl+All: armahile
      armas+A+Pl+Ess: armahinnu
      armas+A+Pl+Ins: armahin
@@ -55,7 +55,7 @@ Tests:
      armas+A+Sg+Abe+Clt/gi: [armahatagi, armahattahgi]
      armas+A+Sg+Com+Clt/gi: armahankegi
      armas+A+Sg+Ine+Clt/gi: armahasgi
-     armas+A+Sg+Ela+Clt/gi: armahasgi
+     armas+A+Sg+Ela+Clt/gi: [armahaspäigi, armahasgi]
      armas+A+Sg+Ill+Clt/gi: armahahgi
      armas+A+Sg+Ade+Clt/gi: armahalgi
      armas+A+Sg+Abl+Clt/gi: [armahalpäigi, armahalgi]
