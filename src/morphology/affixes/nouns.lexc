@@ -3,13 +3,6 @@
 !! Livvi nouns inflect in cases.
 
 
-!! !!Auxiliary lexica -- to be fixed
-
-!! Trond added these for debugging.
-
-!LEXICON N_VEMMEL !!= @CODE@ -- fix this lexicon, Trond just added.
-! N_SAMMAL ; 
-
 
 !! !!The file proper
 
@@ -1372,7 +1365,7 @@ LEXICON NMN_MUA-PL
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_KALA !!= @CODE@ kala:kala
-!! **Yaml: __pada__
+!! Yaml: __pada__
 	NMN_KALA-SG  ; 
 	NMN_KALA-PL  ;
 LEXICON NMN_KALA-SG
@@ -1392,7 +1385,7 @@ LEXICON NMN_PESSYH !!= @CODE@ pessyh
         NMN_PESSYH-SG ;
         NMN_PESSYH-PL ;
 
-!! ! Nominative singular in "h"
+!! !Nominative singular in "h"
 LEXICON NMN_PESSYH-SG
 :h SGNOMSUF ;
 :%{oö%} SGGENSUF ;
@@ -1401,7 +1394,7 @@ LEXICON NMN_PESSYH-SG
 
 LEXICON NMN_PESSYH-PL
 :%{oö%} PLNOMSUF ;
-:zi PLGENSUF_EN ; !! * @CODE@ the +Pl+Com comes here
+:zi PLGENSUF_EN ; !!= * @CODE@ the +Pl+Com comes here
 :zi PLPARSUF_i ;
 :zi PLINSSUF ;
 +Pl:zi Noun-NB-01 ;
@@ -1439,7 +1432,8 @@ LEXICON NMN_MADAL-PL !!= @CODE@ madal:madal
 +Pl:i Noun-NB-01 ;
 
 !! ! Nominative singular in "m"
-LEXICON NMN_SUURIM
+
+LEXICON NMN_SUURIM !!= @CODE@ suurim
         NMN_SUURIM-SG   ;
         NMN_SUURIM-PL   ;
 
@@ -1820,8 +1814,7 @@ LEXICON NMN_PENGER-PL
 :i PLINSSUF ;
 +Pl:i Noun-NB-01 ;
 
-LEXICON NMN_ARTELI
- !!= @CODE@ arteli:arteli
+LEXICON NMN_ARTELI !!= @CODE@ arteli:arteli
 	NMN_ARTELI-SG ;
 	NMN_ARTELI-PL ;
 LEXICON NMN_ARTELI-SG
@@ -2051,7 +2044,7 @@ LEXICON NMN_TOINE-PL
 
 
 !! ! Nominative singular in "v"
-LEXICON NMN_ABRAMOV !! * @CODE@ Abramov:Abramov
+LEXICON NMN_ABRAMOV !!= * @CODE@ Abramov:Abramov
 	NMN_ABRAMOV-SG ;
 	NMN_ABRAMOV-PL ;
 
@@ -2145,7 +2138,8 @@ LEXICON Noun-NB-01
 
 
 !! !SINGULAR POSSESSA
-LEXICON SGNOM/PXSP3
+
+LEXICON SGNOM/PXSP3 !!= @CODE@ adding -h
 +Sg+Nom+PxSP3:%>h K ;
 
 ! vim: set ft=xfst-lexc:

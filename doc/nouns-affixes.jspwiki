@@ -1,0 +1,581 @@
+!!!Noun inflection
+Livvi nouns inflect in cases.
+
+
+
+!!The file proper
+
+
+!ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
+ LEXICON N_SUO  suo:suo
+
+ LEXICON N_KUU  kuu:kuu
+
+ LEXICON N_MUA  mua:maa
+
+!TWO-SYLLABLE VOWEL-FINAL STEMS
+ LEXICON N_PAPPI  pappi:pappi
+
+ LEXICON N_VIGA  viga:viga
+
+ LEXICON N_KALA  kala:kala
+
+ LEXICON N_OZA  oza:oza
+
+
+
+ LEXICON N_SÄYNÄ  säynä:säynä
+
+
+
+ LEXICON N_KOIVU  koivu:koivu
+
+
+
+ LEXICON N_RUNO  runo:runo
+
+
+ LEXICON N_KYNDÖ  kyndö:kyndö
+
+
+!TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
+
+ LEXICON N_JÄLGI   jälgi:jälg
+
+ LEXICON N_MUAMO  muamo:muamo
+
+
+ LEXICON N_MUARJU  muarju:muarja
+
+
+ LEXICON N_SULGU  sulgu:sulga
+
+ LEXICON N_KOIRU  koiru:koira
+
+
+
+ LEXICON N_LUODO  luodo:luodo
+
+
+
+ LEXICON N_NIMI  nimi:nim
+
+
+
+ LEXICON N_PÄIVY  päivy:päivä
+
+
+
+ LEXICON N_SIVE  sive:sive
+
+
+ LEXICON N_HARDIE  hardie:hardie
+
+
+
+ LEXICON N_KONDII  kondii:kondi
+
+
+
+ LEXICON N_REBOI  reboi:reboi
+
+ LEXICON N_VALGEI  valgei:valge
+
+
+
+ LEXICON N_OSTAI  ostai:osta
+
+
+
+ LEXICON N_PEZII  pezii:pezi
+
+
+
+ LEXICON N_KESTÄY  kestäy:kestä
+
+
+
+!TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
+ LEXICON N_UKSI  uksi:uks
+
+ LEXICON N_KIELI  kieli:kiel
+
+
+ LEXICON N_LAPSI  lapsi:laps lapsi:laps
+
+
+
+ LEXICON N_VEZI  vezi:ved
+
+
+
+ LEXICON N_SUZI  suzi:su
+
+
+
+ LEXICON N_VUOZI  vuozi:vuod
+
+
+!THREE-SYLLABLE VOWEL-FINAL STEMS
+ LEXICON N_SYGYZY  sygyzy:sygyzy
+
+
+
+ LEXICON N_VASKIČČU  vaskičču:vaskičča
+
+
+
+!THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
+ LEXICON N_KARJAL  karjal:karjal
+ LEXICON N_KARJAL-SG  karjal:karjal
+ LEXICON N_KARJAL-PL  karjal:karjal
+
+ LEXICON N_MADAL  madal:madal
+ LEXICON N_MADAL-SG  madal:madal
+ LEXICON N_MADAL-PL  madal:madal
+
+ LEXICON N_PIIRAI  piirai:piira CHECK THIS
+
+
+
+
+ LEXICON N_KANDAI  kandai:kanda
+
+
+
+ LEXICON  N_AVUAJU  piästäjy:piästä
+
+
+ LEXICON N_PAGIZII  pagizii:pagizii
+ LEXICON N_PAGIZII-SG  
+ LEXICON N_PAGIZII-PL  
+
+ LEXICON N_HUOLETOI  huoletoi: huolet
+
+
+
+ LEXICON N_SAMMAL  sammal:sammal
+
+
+
+ LEXICON N_VANUIN  vanuin:vanui
+
+
+
+ LEXICON N_TAIGIN  taigin:taigin
+
+
+
+ LEXICON N_KARJALAINE  karjalaine:karjala
+
+
+
+ LEXICON N_KIELINE  kieline:kieli
+
+
+
+ LEXICON N_TOINE  toine:to
+
+
+
+
+
+ LEXICON N_RAIŠ  raiš:ra
+
+
+ LEXICON N_PEREH  pereh:pereh
+
+
+ LEXICON N_PENGER  penger:penger
+
+
+ LEXICON N_ARTELI  arteli:arteli
+
+ LEXICON N_PUHTAHUS  puhtahus:puhtahu
+
+
+ LEXICON N_ALUS  alus:aluks
+
+ LEXICON N_ALUS-SG  alus:aluks
+
+ LEXICON N_ALUS-PL  alus:aluks
+
+ LEXICON N_MIES  mies:mie
+
+ LEXICON N_MIES-SG  mies:mie
+
+ LEXICON N_MIES-PL  mies:mie
+
+ LEXICON N_KUURNIS  kuurnis:kuurne
+
+ LEXICON N_SUALIŠ  suališ:suali
+
+ LEXICON N_SUALIŠ-SG  suališ:suali
+
+ LEXICON N_SUALIŠ-PL  suališ:suali
+
+ LEXICON N_OLUT  olut:olu
+
+
+
+ LEXICON N_KEVÄT  kevät:kevä
+
+
+
+ LEXICON N_ARMAS  armas:arma
+
+
+ LEXICON N_PAREMBI  parembi:paremb
+
+
+ LEXICON N_PESSYH  pessyh
+
+
+
+ LEXICON N_BEMMEL  bemmel:bembel
+
+
+
+ LEXICON N_SUURIM  suurim:suurim
+
+
+
+ LEXICON N_TUATINDAM  tuatindam:tuatindam
+
+
+
+ LEXICON N_TUATANDIM  tuatandim:tuatandim
+
+
+
+ LEXICON N_SIEMEN  siemen:siemen
+
+
+ LEXICON N_PAIMEN  paimen:paimen
+
+
+
+ LEXICON N_SALBOIN  salboin:salboi
+
+
+
+ LEXICON N_ENIN  enin:eni
+
+
+
+ LEXICON N_UDAR  udar:udar
+
+
+
+ LEXICON N_PIENAR  pienar:piendar
+
+
+
+
+
+ LEXICON NMN_MUAMO  muamo:muama
+
+
+ LEXICON NMN_MUARJU  muarju:muarja
+
+
+ LEXICON NMN_LAPSI  lapsi:laps lapsi:laps
+
+
+ LEXICON NMN_VEZI  vezi:vet
+
+
+
+ LEXICON NMN_SUZI  suzi:su
+
+
+
+!NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
+
+
+
+
+
+ LEXICON NMN_YKSI   yksi:y
+
+
+
+
+ LEXICON NMN_NELLI   nelli:nell
+
+
+
+
+ LEXICON NMN_VUOZI  vuozi:vuod
+
+
+
+ LEXICON NMN_PAREMBI  parembi:paremb
+
+
+
+ LEXICON	NMN_KUDAI  kudai:kuda
+
+
+
+
+ LEXICON NMN_PIIRAI  piirai:piira
+
+
+
+
+
+ LEXICON NMN_PAGIZII-SG  
+
+ LEXICON NMN_PAGIZII-PL  
+
+ LEXICON NMN_HUOLETOI  huoletoi: huolet
+
+
+ LEXICON NMN_PÄIVY  päivy:päivä
+
+
+
+ LEXICON NMN_KOIVU  koivu:koivu
+
+
+
+ LEXICON NMN_LUODO  luodo:luodo
+
+
+
+ LEXICON NMN_VASKIČČU  vaskičču:vaskičč
+
+
+
+ LEXICON NMN_SYGYZY  sygyzy:sygyzy
+
+
+
+
+ * __LEXICON NMN_VALGEI __ valgei:valge
+
+
+ LEXICON NMN_RAHMANNOI  rahmannoi:rahmannoi
+
+
+ LEXICON NMN_HARDIE  hardie:hardie
+
+
+ LEXICON NMN_KONDII  kondii:kondi
+
+
+ LEXICON NMN_SEIČČIE  seiččie:seičče
+
+
+ LEXICON NMN_OSTAI  ostua:osta%>j
+
+
+
+
+
+ LEXICON NMN_PEZII  pestä:pezi%>j
+
+
+
+ LEXICON NMN_KESTÄY  kestäy:kestä
+
+
+
+ LEXICON NMN_RUNO  runo:runo
+
+
+ LEXICON NMN_KYNDÖ  kyndö:kyndö
+
+
+
+ LEXICON NMN_KUU  kuu:kuu
+
+
+
+
+ LEXICON NMN_MUA  mua:maa
+
+
+
+ LEXICON NMN_KALA  kala:kala
+Yaml: __pada__
+
+
+ LEXICON NMN_PESSYH  pessyh
+
+!Nominative singular in "h"
+
+ * :zi PLGENSUF_EN ;  the +Pl+Com comes here
+
+ LEXICON NMN_KARJAL  karjal:karjal
+
+ LEXICON NMN_KARJAL-SG  karjal:karjal
+ LEXICON NMN_KARJAL-PL  karjal:karjal
+
+ LEXICON NMN_MADAL  madal:madal
+
+ LEXICON NMN_MADAL-SG  madal:madal
+ LEXICON NMN_MADAL-PL  madal:madal
+
+! Nominative singular in "m"
+
+ LEXICON NMN_SUURIM  suurim
+
+
+
+
+
+
+
+
+
+! Nominative singular in "n"
+
+
+ LEXICON NMN_ENIN  enin:eni
+
+
+
+
+! Nominative singular in "r"
+
+
+
+
+! Nominative singular in "s"
+ LEXICON NMN_PUHTAHUS  puhtahus:puhtahu
+
+
+
+
+ LEXICON NMN_ALUS  alus:aluks
+
+
+
+ LEXICON NMN_MIES  mies:mie
+
+
+
+ LEXICON NMN_ARMAS  armas:arma
+
+
+ LEXICON NMN_BEMMEL  bemmel:bembel
+
+
+ LEXICON NMN_TUORES  tuores:tuore
+  * Yaml: __A-tuores__
+
+
+
+ LEXICON NMN_SUALIŠ  suališ:suali
+
+
+
+
+ LEXICON NMN_RAIŠ  raiš:ra
+
+ LEXICON NMN_KUURNIS  kuurnis:kuurne
+
+
+
+ * LEXICON NMN_OLUT  olut:olu
+
+
+
+ * LEXICON NMN_KEVÄT  kevät:kevä
+
+
+
+ * LEXICON NMN_TULLUT  tullut:tullu
+
+
+
+
+
+ * LEXICON NMN_TUHAT  tuhat:tuha
+
+
+
+
+ LEXICON NMN_PEREH  pereh:pereh
+
+ LEXICON NMN_SIVE  sive:sive
+
+ LEXICON NMN_PENGER  penger:penger
+
+ LEXICON NMN_ARTELI  arteli:arteli
+
+
+ LEXICON NMN_PAPPI  pappi:pappi
+
+ LEXICON NMN_UKSI  uksi:uks
+
+
+
+ LEXICON NMN_REBOI  reboi:reboi
+
+ LEXICON NMN_OZA  oza:oza
+
+
+
+ LEXICON NMN_SÄYNÄ  säynä:säynä
+
+
+
+ LEXICON NMN_SAMMAL  sammal:sammal
+
+
+ LEXICON NMN_VANUIN  vanuin:vanui
+
+
+ LEXICON NMN_VAŽEN  važen:važe
+
+
+ LEXICON NMN_LÄMMIN  lämmin:lämbi
+
+
+ LEXICON NMN_TAIGIN  taigin:taigin
+
+
+
+
+
+
+
+
+
+
+
+
+! Nominative singular in "v"
+ * LEXICON NMN_ABRAMOV  Abramov:Abramov
+
+
+
+
+
+!Singular suffixes
+
+
+
+
+
+
+!Plural suffixes
+
+
+
+
+
+
+
+
+
+
+
+!SINGULAR POSSESSA
+
+ LEXICON SGNOM/PXSP3  adding -h
+
+
