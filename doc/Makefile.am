@@ -10,7 +10,7 @@
 if CAN_DOCC
 
 JSP_PAGES=root-morphology.jspwiki  \
- 		  adjectives-stems.jspwiki         \
+		  adjectives-affixes.jspwiki         \
 		  nouns-affixes.jspwiki     \
 		  verbs-affixes.jspwiki \
 		  olo-phon-phonology.jspwiki 

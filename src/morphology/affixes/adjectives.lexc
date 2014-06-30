@@ -1,22 +1,21 @@
-!! Adjective inflection
-!! --------------------
-!! Livvi adjectives compare.
+!! !!!Livvi adjective inflection
+! --------------------
 
-!! LEXICON Comparisons
-!! +A+pos:0        Cases   ;
-!! +A+cmp:er       Cases   ;
-!! +A+sup:est      Cases   ;
 
-LEXICON Q_X
+!! !!Temporary lexica
+
+LEXICON Q_X !!= * @CODE@ 
 +TYÄ: # ;
 
-LEXICON A_
+LEXICON A_ !!= * @CODE@ 
 +TYÄ+A: # ;
 
-LEXICON A_TULLUT !!= @CODE@ IS THIS LIVVI? tullut:tullu
+!! !!Somewhat open issues
+
+LEXICON A_TULLUT !!= * @CODE@ IS THIS LIVVI? tullut:tullu
 +A: NMN_TULLUT ; 
 
-LEXICON A_EX !!= @CODE@ needs to be changed to @exclude=fst
+LEXICON A_EX !!= * @CODE@ needs to be changed to @exclude=fst
 +TYÄ+A: # ;
 
 LEXICON A_BAHUV !!= @CODE@ 
@@ -38,6 +37,8 @@ LEXICON A_KUU !!= @CODE@ kuu:kuu
 LEXICON A_MUA !!= @CODE@ mua:maa
 +A: NMN_MUA ;
 
+
+!! !!Ordinary inflection
 
 !! !TWO-SYLLABLE VOWEL-FINAL STEMS
 LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä

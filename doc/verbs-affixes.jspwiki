@@ -1,8 +1,12 @@
-Verb inflection
----------------
-Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and persons.
+!!!Verb inflection
+
+!!Temporary lexica
 
 
+ LEXICON V_  is for ad-hoc incoming verbs, not in xml
+
+
+!!Auxiliary verbs
 
  LEXICON V-NEG  ei:e
 
@@ -10,17 +14,25 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
 
 
+!!Regular verbs
+
+!Verbs of the Finnish type 1
+
+V1a
+
  LEXICON V_KANDUA  kandua:kanda
 
  LEXICON V_KANDUA-SG3  kandua:kanda
 
  LEXICON V_KANDUA-3  kandua:kanda
 
+V1o
 
  LEXICON V_PUNUO  punuo:puno
 
  LEXICON V_PUNUO-SG3  punuo:puno
 
+V1u
 
  LEXICON V_VALUO  valuo:valu
 
@@ -29,10 +41,10 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
  LEXICON V_VALUO-3  valuo:valu
 
 
+V1i
  LEXICON V_POTKIE  potkie:potki
 
  LEXICON V_POTKIE-SG3  potkie:potki
-
 
  LEXICON V_IMIE  imie:ime
 
@@ -41,16 +53,20 @@ Verbs in the Livvi (Olonets) Karelian language inflect for mood, number and pers
 
  LEXICON  V_PIDIÄ  pidiä:pidä
 
+
+ LEXICON  V_PIDIÄ-SG3  pidiä:pidä
+
+
 !VERBS OF FINNISH TYPE 2 in dA
 
  LEXICON V_VOIJA  voija:voi
-Verbs of the Finnish type 2
 
  LEXICON V_ROIJA  roija:roi
-Verbs of the Finnish type 2
+
+... type 2 also suaha jiäjä, jiähä
 
  LEXICON V_SUAJA  suaja:saa jiäjä:jää
-Verbs of the Finnish type 2 also suaha jiäjä, jiähä
+
 
  LEXICON V_JUVVA  juvva:juo
 
@@ -59,20 +75,19 @@ Verbs of the Finnish type 2 also suaha jiäjä, jiähä
  LEXICON V_KÄVVÄ  kävvä:käv
 
 
- LEXICON V_TULLA  tulla:tul
 !Verbs of the Finnish type 3
+
+ LEXICON V_TULLA  tulla:tul
 
  LEXICON V_PESTÄ  pestä:pes
-!Verbs of the Finnish type 3
 
  LEXICON V_NOSTA  nosta:no
-!Verbs of the Finnish type 3
+
+Verbs of the Finnish type 3 but not identical
 
  LEXICON V_KUULTA  kuulta:kuul
-!Verbs of the Finnish type 3 but not identical
 
  LEXICON V_KUULTA-SG3  kuulta:kuul
-!Verbs of the Finnish type 3 but not identical
 
 
  LEXICON V_TYPÄTÄ  typätä:typpä
@@ -81,9 +96,15 @@ Verbs of the Finnish type 2 also suaha jiäjä, jiähä
 
  LEXICON V_SUVATA  suvata:suva
 
+
+!Verbs of the Finnish type 4
+
  LEXICON V_AVATA  avata:ava
 
  LEXICON V_AVATA-SG3  avata:ava
+
+
+!Verbs of the Finnish type 5
 
  LEXICON V_SUVAIJA  suvaija:suvai
 
@@ -116,6 +137,8 @@ Verbs of the Finnish type 2 also suaha jiäjä, jiähä
 
  LEXICON VR_KANDUA-SG3  kanduakseh:kanda
 
+
+Reflexive verbs
 
  LEXICON VR_RODIEKSEH  rodiekseh:rodi
 
@@ -212,23 +235,30 @@ HOW WILL THESE WORK
 
 
 
-Nonfinites
+!!Nonfinites
 
-Finites
+Forthcoming
+
+!!Finites
+
 !INDICATIVE PRESENT
+
 * LEXICON V-VV_KUULLA  type 04
 
 !INDICATIVE PRESENT REFLEXIVE
+
 
 
 * LEXICON V-VV_KUULLA  
 
 !INDICATIVE PRETERITE
 
+
 !INDICATIVE PRETERITE REFLEXIVE
 
 
-Conditional
+
+!!Conditional
 
 
 
@@ -262,7 +292,7 @@ Conditional
  !+Pot+RcPl3:%>d%{aäDiph%}%>nehes K ;  Shouldn't THIS be the right form
 
 
-!IMPERATIVE
+!!IMPERATIVE
 
 
 
@@ -288,6 +318,8 @@ Conditional
 
 
 
+
+... and next chapter
 
 
 
