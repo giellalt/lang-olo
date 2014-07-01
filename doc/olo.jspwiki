@@ -10,9 +10,423 @@
 
 This is free and open source Livvi (Olonets) morphology.
 
+!!!The tags and root lexica of the morphological fst of Livvi
+
+!!Multichar symbols
 
 
-There was no content!
+The morphological analyses of wordforms of Livvi are presented
+in this system in terms of following symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+
+ * +TYÄ  This alerts workers of work to be done
+
+The parts-of-speech are:
+ *  +A    adjective
+ *  +Adp    adposition
+ *  +Adv    adverb
+ *  +CS    subordinating conjunction
+ *  +CC    coordinating conjunction
+ *  +Interj    interjection 
+ *  +N       noun
+ *  +Pcle    particle
+ *  +Po      postposition
+ *  +Pr      preposition
+ *  +Pron    pronoun
+ *  +Qnt     quantifier
+ *  +V       verb
+ *  +Num     numeral 
+
+ * +AdA           Ad-adjective
+ * +Bahuv	       Bahuvrihi
+ * +Conj    
+ *  +Prop   
+
+!!Pronouns
+ *  +Dem	  demonstrative
+ *  +Indef   indefinite
+ *  +Dep 	  dependent word requiring the presence of another, e.g. __мень__
+ *  +Interr  interrogative
+ *  +Pers 	  personal
+ *  +Recipr  reciprocal
+ *  +Refl 	  reflexive
+ *  +Rel 	  relative
+
+
+
+
+!!Useage
+The Usage extents are marked using following tags:
+
+ *  +Err/Sub      
+ *  +Use/-Spell   
+
+The nominals are inflected in the following Case and Number
+ *  +Sg    singular
+ *  +Pl   plural
+ *  +Abe   abessive
+ *  +Abl   ablative case
+ *  +Acc   accusative
+ *  +Com   comitative
+ *  +Dat   dative case
+ *  +Ela   elative
+ *  +Ess   elative
+ *  +Gen   genitive case
+ *  +Ill   illative
+ *  +Ine   inessive
+ *  +Ins   instrumental
+ *  +Loc   Locative 
+ *  +Nom   nominative case
+ *  +Par   partitive
+ *  +Prl   prolative 
+ *  +Tra   translative
+ *  +Pros  
+ *  +Adc   
+ *  +Apr   
+ *  +Egr   
+ *  +Ter   
+
+
+The possession is marked as such: 
+
+ * +PxSg1	   							 
+ * +PxSg2	   							 
+ * +PxSg3	   							 
+ * +PxDu1	   							 
+ * +PxDu2	   							 
+ * +PxDu3	   							 
+ * +PxPl1	   							 
+ * +PxPl2	   							 
+ * +PxPl3	   							 
+ * +PxSP3 	   							 
+
+The comparative forms are:
+ * +Pos      
+ * +Comp     
+ * +Superl   
+
+Numerals and Quantifiers are classified under:
+ *  +Iter       Iterative form expressing number of times; myv: {{кавксть}}, kpv: {{кыкысь}}
+
+ *  +Attr    
+ *  +Card    
+ *  +Ord     
+
+Verb tenses are:
+ | +Prs | Present, non-past Tense
+
+
+Verb moods are:
+* +Prs Indicative
+* +Prs Imperative
+* +Prs Conditional
+* +Prs Potential
+
+Verb personal forms are:
+Other verb forms are
+   +Inf        : Infinitive 
+   +ActPrfPrc  : active past participle
+   +ActPrsPrc  : active present participle
+   +PssPrfPrc  : passive past participle
+   +PssPrsPrc  : passive present participle
+   +RcPrfPrc   : reflexive past participle
+   +Ger        : Gerund
+
+
+Special symbols are classified with:
+The verbs are syntactically split according to transitivity:
+Special multiword units are analysed with:
+Non-dictionary words can be recognised with:
+
+Question and Focus particles:
+ * +Qst +Foc    
+ * +Clt/gi	     
+ * +Clt/hAi     
+ * +Clt/bo	     
+
+
+Semantics are classified with
+ *  +Mal 	   
+ *  +Fem 	   
+ *  +Sur 	   
+ *  +Plc 	   
+ *  +Org	   
+ *  +Obj	   
+ *  +Ani	   
+ *  +Hum	   
+ *  +Plant	   
+ *  +Group	   
+ *  +Time 	   
+ *  +Txt	   
+ *  +Route	   
+ *  +Measr    
+ *  +Wthr	   
+ *  +Build    
+ *  +Edu	   
+ *  +Veh	   
+ *  +Clth	   
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+ *  +V→N 	     
+ *  +V→V 	     
+ *  +V→A	     
+ *  +Der/xxx    
+ *  +Der/Ta   
+ *  +Der/Te   
+ *  +Der/mA   
+ *  +Der/mine   
+ *  +Der/Tu   
+ *  +Der/IA   
+ *  +Der/mbi   comparative
+ *  +Der/Us   A>>N derivation
+ * +Der/A   Adjective derivation
+
+
+!!Morphophonology
+To represent phonologic variations in word forms we use the following
+symbols in the lexicon files:
+
+ *  %{aäPar%}   no diphthongs  
+ *  %{aäDiph%}   This is for diphthongs such as the infinitive marker after i and u stems
+ *  %{oö%}   
+ *  %{oöØ%}   Used in present participle
+ *  %{uy%}   
+  %{ui%}  in imperative before %{aä%}:
+ *  A2        used with verb types V_AVATA 
+ *  %{ijPRC%}  participle
+
+And following triggers to control variation
+
+ *  {front}       
+ *  {back}	      
+* %> 
+ *  %^DEVOICE    
+ *  %^VOICE       pestä: pezen
+ *  %^WGStem      weak grade
+ *  %^E1          causes a:e in kandua : kannettu
+ *  %^SyllBound   syllable boundary
+ *  %^D2Z        Triggers ti=>zi
+ *  %^A2O         before plural "i"
+ *  %^A2U         +Nom+Sg
+ *  %^NONE        no regular change
+ *  %^KS2S        "aluksen" is "alus" in the nominative singular 
+ *  %^ILoss       the i => 0 __reboi reboloi__
+
+ * QAQ1   
+ * QAO1   
+ * EH1	   
+ * QEQ1   
+ * INE1   
+ * ZD1	   
+ * ZS1	   
+ * V1	   
+ * AO1	   
+ * EI1	   
+ * ZS1	   
+ * ZD1	   
+
+
+These are for developing underlying morphology rules
+
+ * D1     
+ * E1    
+ * N1    
+
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics:
+
+ * @P.NeedNoun.ON@     
+ * @D.NeedNoun.ON@     
+ * @C.NeedNoun@	    
+
+
+!!!Lexicon Root
+
+
+ *    adjectives  ;      
+ *    adpositions    ;   
+ *    adverbs  ;	      
+ *    conjunctors  ;     
+ *    interjections  ;   
+ *    nouns   ;	      
+ *    pronouns    ;      
+ *    propernouns    ;   
+ *    quantifiers    ;   
+ *    verbs	  ;	      
+ *  Exceptions ;   
+
+NEWWORDS FILES
+  A_NEWWORDS ;      adjectives
+  ADV_NEWWORDS ;	   adverbs
+  N_NEWWORDS ;      nouns
+  V_NEWWORDS ;      verbs
+
+I INCLUDE SOME SMALL LEXICA HERE
+WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!!Livvi adjective inflection
+
+
+!!Temporary lexica
+
+ * LEXICON Q_X  
+
+ * LEXICON A_  
+
+!!Somewhat open issues
+
+ * LEXICON A_TULLUT  IS THIS LIVVI? tullut:tullu
+
+ * LEXICON A_EX  needs to be changed to @exclude=fst
+
+ LEXICON A_BAHUV  
+
+ LEXICON A_UNDECL   undeclinable fin: taipumaton
+
+ LEXICON A_IS-N-PL-GEN  genitive plural attributes
+
+ LEXICON A_IS-N-SG-GEN  genitive plural attributes
+
+!ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
+ LEXICON A_KUU  kuu:kuu
+
+ LEXICON A_MUA  mua:maa
+
+
+!!Ordinary inflection
+
+!TWO-SYLLABLE VOWEL-FINAL STEMS
+ LEXICON A_HYVÄ  hyvä:hyvä
+the comparatives and superlatives are supletive
+
+ LEXICON A_OZA  oza:oza
+
+ LEXICON A_SÄYNÄ  säynä:säynä
+
+ LEXICON A_KALA  kala:kala
+
+ LEXICON A_KOIVU  koivu:koivu
+
+
+
+
+ LEXICON A_PAPPI  pappi:pappi
+
+ LEXICON A_ARTELI  
+
+ LEXICON A_ALUS  alus:aluks
+
+ LEXICON A_SUALIŠ  suališ:suali
+
+ LEXICON A_KUURNIS  kuurnis:kuurne
+
+ LEXICON A_PUHTAHUS  puhtahus:puhtahu
+
+ LEXICON A_OLUT  olut:olu
+
+!TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
+ LEXICON A_PÄIVY  päivy:päivä
+
+ LEXICON A_MUARJU  muarju:muarja
+
+
+ LEXICON A_VALGEI  valgei:valge
+
+ LEXICON A_RAHMANNOI  rahmannoi:rahmannoi
+
+
+
+
+
+ LEXICON A_KESTÄY  kestäy:kestä
+
+!TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
+
+
+!THREE-SYLLABLE VOWEL-FINAL STEMS
+ LEXICON A_PAREMBI  parembi:paremb
+
+ LEXICON A_JIÄTÖI  jiätöi:jiät
+ LEXICON A_HUOLETOI  huoletoi:huolet
+
+ LEXICON A_KARJALAINE  karjalaine:karjala
+
+ LEXICON A_KIELINE  kieline:kieli
+
+ LEXICON A_TOINE  toine:to
+
+!THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
+ LEXICON A_KARJAL  karjal:karjal
+
+ LEXICON A_MADAL  madal:madal
+
+ LEXICON A_PIIRAI  piirai:piira 
+
+ LEXICON A_RAIŠ  raiš:ra
+
+ LEXICON A_PEREH  pereh:pereh
+
+ LEXICON A_PESSYH  pessyh:pessy
+
+ LEXICON A_ARMAS  armas:arma
+
+ LEXICON A_TUORES  tuores:tuore
+  * Yaml: __A-tuores__
+
+ LEXICON A_SUURIM  suurim:suurim
+
+ LEXICON A_KIELI  kieli:kiel
+
+ LEXICON A_VUOZI  vuozi:vuot
+
+ LEXICON A_VEZI  vezi:vet
+
+ LEXICON A_NIMI  nimi:nim
+
+
+!TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
+ LEXICON A_VANUIN  vanuin:vanui
+
+ LEXICON A_VAŽEN  važen:važe
+
+
+ LEXICON A_LÄMMIN  lämmin:lämbi
+
+ LEXICON A_TAIGIN  taigin:taigin
+
+ LEXICON A_SALBOIN  salboin:salboi
+
+ LEXICON A_ENIN  enin:eni
+
+
+
+
+
+
+
+
+
 !!!Noun inflection
 Livvi nouns inflect in cases.
 
