@@ -335,7 +335,7 @@ A2:y <=> [ y: ] %> _ ( %^WGStem:0 ) [ # | %>  ];
 
 "a:u before subsequent a"
 !! __@RULENAME@__  Diphthong a+a => ua
-a:u <=> ConsPalOrNot _ [ (d:0) a | %> [ %{aäPar%}: | %{aäDiph%}: | A2:a ] ]; 
+a:u <=> ConsPalOrNot _ [ ( d:0 ) a  | %> [ %{aäPar%}: | %{aäDiph%}: | A2:a ] ]; 
         _ %^A2U:0 ;
 
 
@@ -697,3 +697,6 @@ d:0 <=>  # Cns* [ i | a: | o | ä ] _ [ ä: | a: | e: | i ] %^WGStem:0  ;
 
 !"Disallow V3 after two consecutive realized vowels"
 ! V3: /<= :Vow :0* :Vow :0* _ ;
+
+"Disallow a:u before a and %> i"
+a:u /<= _ a: %> i ;
