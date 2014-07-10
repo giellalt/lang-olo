@@ -30,7 +30,7 @@ Multichar_Symbols
  +Adv  !!= * @CODE@  adverb
  +CS  !!= * @CODE@  subordinating conjunction
  +CC  !!= * @CODE@  coordinating conjunction
- +Interj  !!= * @CODE@  interjection 
+ +Interj  !!= * @CODE@  interjection
  +N     !!= * @CODE@  noun
  +Pcle  !!= * @CODE@  particle
  +Po    !!= * @CODE@  postposition
@@ -38,13 +38,13 @@ Multichar_Symbols
  +Pron  !!= * @CODE@  pronoun
  +Qnt   !!= * @CODE@  quantifier
  +V     !!= * @CODE@  verb
- +Num   !!= * @CODE@  numeral 
+ +Num   !!= * @CODE@  numeral
 
 +AdA         !!= * @CODE@  Ad-adjective
 +Bahuv	     !!= * @CODE@  Bahuvrihi
 ! Depricate This CONJ
-+Conj   !!= * @CODE@ 
- +Prop  !!= * @CODE@ 
++Conj   !!= * @CODE@
+ +Prop  !!= * @CODE@
 
 !! !!Pronouns
  +Dem	 !!= * @CODE@ demonstrative
@@ -62,8 +62,8 @@ Multichar_Symbols
 !! !!Useage
 !! The Usage extents are marked using following tags:
 
- +Err/Sub     !!= * @CODE@ 
- +Use/-Spell  !!= * @CODE@ 
+ +Err/Sub     !!= * @CODE@
+ +Use/-Spell  !!= * @CODE@
 
 !! The nominals are inflected in the following Case and Number
 ! number
@@ -81,42 +81,42 @@ Multichar_Symbols
  +Ill  !!= * @CODE@ illative
  +Ine  !!= * @CODE@ inessive
  +Ins  !!= * @CODE@ instrumental
- +Loc  !!= * @CODE@ Locative 
+ +Loc  !!= * @CODE@ Locative
  +Nom  !!= * @CODE@ nominative case
  +Par  !!= * @CODE@ partitive
- +Prl  !!= * @CODE@ prolative 
+ +Prl  !!= * @CODE@ prolative
  +Tra  !!= * @CODE@ translative
- +Pros !!= * @CODE@ 
- +Adc  !!= * @CODE@ 
- +Apr  !!= * @CODE@ 
- +Egr  !!= * @CODE@ 
- +Ter  !!= * @CODE@ 
+ +Pros !!= * @CODE@
+ +Adc  !!= * @CODE@
+ +Apr  !!= * @CODE@
+ +Egr  !!= * @CODE@
+ +Ter  !!= * @CODE@
 
 
-!! The possession is marked as such: 
-									 
-+PxSg1	  !!= * @CODE@ 							 
-+PxSg2	  !!= * @CODE@ 							 
-+PxSg3	  !!= * @CODE@ 							 
-+PxDu1	  !!= * @CODE@ 							 
-+PxDu2	  !!= * @CODE@ 							 
-+PxDu3	  !!= * @CODE@ 							 
-+PxPl1	  !!= * @CODE@ 							 
-+PxPl2	  !!= * @CODE@ 							 
-+PxPl3	  !!= * @CODE@ 							 
-+PxSP3 	  !!= * @CODE@ 							 
- 
+!! The possession is marked as such:
+
++PxSg1	  !!= * @CODE@
++PxSg2	  !!= * @CODE@
++PxSg3	  !!= * @CODE@
++PxDu1	  !!= * @CODE@
++PxDu2	  !!= * @CODE@
++PxDu3	  !!= * @CODE@
++PxPl1	  !!= * @CODE@
++PxPl2	  !!= * @CODE@
++PxPl3	  !!= * @CODE@
++PxSP3 	  !!= * @CODE@
+
 !! The comparative forms are:
-+Pos     !!= * @CODE@ 
-+Comp    !!= * @CODE@ 
-+Superl  !!= * @CODE@ 
++Pos     !!= * @CODE@
++Comp    !!= * @CODE@
++Superl  !!= * @CODE@
 
 !! Numerals and Quantifiers are classified under:
  +Iter      !!= * @CODE@ Iterative form expressing number of times; myv: {{кавксть}}, kpv: {{кыкысь}}
 
- +Attr   !!= * @CODE@ 
- +Card   !!= * @CODE@ 
- +Ord    !!= * @CODE@ 
+ +Attr   !!= * @CODE@
+ +Card   !!= * @CODE@
+ +Ord    !!= * @CODE@
 
 !! Verb tenses are:
   +Prs     !!≈ | @CODE@ | Present, non-past Tense
@@ -131,18 +131,18 @@ Multichar_Symbols
 
 !! Verb personal forms are:
 ! Subject conjugation
-+ScSg1 +ScSg2 +ScSg3 
++ScSg1 +ScSg2 +ScSg3
 +ScPl1 +ScPl2 +ScPl3
 +Sc
 ! Reflexive conjugation
-+RcSg1 +RcSg2 +RcSg3 
++RcSg1 +RcSg2 +RcSg3
 +RcPl1 +RcPl2 +RcPl3
 +Rc
 +RcSg
 +RcPl
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
-  +Inf       !!= @CODE@ : Infinitive 
+  +Inf       !!= @CODE@ : Infinitive
   +ActPrfPrc !!= @CODE@ : active past participle
   +ActPrsPrc !!= @CODE@ : active present participle
   +PssPrfPrc !!= @CODE@ : passive past participle
@@ -155,7 +155,7 @@ Multichar_Symbols
  +Sup +VGen +VAbess
 
 ! Abbreviated words are classified with:
- +ABBR +ACR 
+ +ABBR +ACR
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
@@ -166,46 +166,46 @@ Multichar_Symbols
  +Guess
 
 !! Question and Focus particles:
-+Qst +Foc   !!= * @CODE@ 
-+Clt/gi	    !!= * @CODE@ 
-+Clt/hAi    !!= * @CODE@ 
-+Clt/bo	    !!= * @CODE@ 
++Qst +Foc   !!= * @CODE@
++Clt/gi	    !!= * @CODE@
++Clt/hAi    !!= * @CODE@
++Clt/bo	    !!= * @CODE@
 
 
 !! Semantics are classified with
- +Mal 	  !!= * @CODE@ 
- +Fem 	  !!= * @CODE@ 
- +Sur 	  !!= * @CODE@ 
- +Plc 	  !!= * @CODE@ 
- +Org	  !!= * @CODE@ 
- +Obj	  !!= * @CODE@ 
- +Ani	  !!= * @CODE@ 
- +Hum	  !!= * @CODE@ 
- +Plant	  !!= * @CODE@ 
- +Group	  !!= * @CODE@ 
- +Time 	  !!= * @CODE@ 
- +Txt	  !!= * @CODE@ 
- +Route	  !!= * @CODE@ 
- +Measr   !!= * @CODE@ 
- +Wthr	  !!= * @CODE@ 
- +Build   !!= * @CODE@ 
- +Edu	  !!= * @CODE@ 
- +Veh	  !!= * @CODE@ 
- +Clth	  !!= * @CODE@ 
+ +Mal 	  !!= * @CODE@
+ +Fem 	  !!= * @CODE@
+ +Sur 	  !!= * @CODE@
+ +Plc 	  !!= * @CODE@
+ +Org	  !!= * @CODE@
+ +Obj	  !!= * @CODE@
+ +Ani	  !!= * @CODE@
+ +Hum	  !!= * @CODE@
+ +Plant	  !!= * @CODE@
+ +Group	  !!= * @CODE@
+ +Time 	  !!= * @CODE@
+ +Txt	  !!= * @CODE@
+ +Route	  !!= * @CODE@
+ +Measr   !!= * @CODE@
+ +Wthr	  !!= * @CODE@
+ +Build   !!= * @CODE@
+ +Edu	  !!= * @CODE@
+ +Veh	  !!= * @CODE@
+ +Clth	  !!= * @CODE@
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
- +V→N 	    !!= * @CODE@ 
- +V→V 	    !!= * @CODE@ 
- +V→A	    !!= * @CODE@ 
- +Der/xxx   !!= * @CODE@ 
- +Der/Ta  !!= * @CODE@ 
- +Der/Te  !!= * @CODE@ 
- +Der/mA  !!= * @CODE@ 
- +Der/mine  !!= * @CODE@ 
- +Der/Tu  !!= * @CODE@ 
- +Der/IA  !!= * @CODE@ 
+ +V→N 	    !!= * @CODE@
+ +V→V 	    !!= * @CODE@
+ +V→A	    !!= * @CODE@
+ +Der/xxx   !!= * @CODE@
+ +Der/Ta  !!= * @CODE@
+ +Der/Te  !!= * @CODE@
+ +Der/mA  !!= * @CODE@
+ +Der/mine  !!= * @CODE@
+ +Der/Tu  !!= * @CODE@
+ +Der/IA  !!= * @CODE@
  +Der/mbi  !!= * @CODE@ comparative
  +Der/Us  !!= * @CODE@ A>>N derivation
 +Der/A  !!= * @CODE@ Adjective derivation
@@ -216,21 +216,21 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
 
- %{aäPar%} !!= * @CODE@  no diphthongs  
+ %{aäPar%} !!= * @CODE@  no diphthongs
  %{aäDiph%} !!= * @CODE@  This is for diphthongs such as the infinitive marker after i and u stems
- %{oö%}  !!= * @CODE@ 
+ %{oö%}  !!= * @CODE@
  %{oöØ%} !!= * @CODE@  Used in present participle
- %{uy%}  !!= * @CODE@ 
+ %{uy%}  !!= * @CODE@
  %{ui%} !!= @CODE@ in imperative before %{aä%}:
- A2      !!= * @CODE@  used with verb types V_AVATA 
+ A2      !!= * @CODE@  used with verb types V_AVATA
  %{ijPRC%} !!= * @CODE@ participle
 
 !! And following triggers to control variation
 
- {front}     !!= * @CODE@  
- {back}	     !!= * @CODE@ 
- %>		     !! * %> 
- %^DEVOICE   !!= * @CODE@ 
+ {front}     !!= * @CODE@
+ {back}	     !!= * @CODE@
+ %>		     !! * %>
+ %^DEVOICE   !!= * @CODE@
  %^VOICE     !!= * @CODE@  pestä: pezen
  %^WGStem    !!= * @CODE@  weak grade
  %^E1        !!= * @CODE@  causes a:e in kandua : kannettu
@@ -239,55 +239,55 @@ Multichar_Symbols
  %^A2O       !!= * @CODE@  before plural "i"
  %^A2U       !!= * @CODE@  +Nom+Sg
  %^NONE      !!= * @CODE@  no regular change
- %^KS2S      !!= * @CODE@  "aluksen" is "alus" in the nominative singular 
+ %^KS2S      !!= * @CODE@  "aluksen" is "alus" in the nominative singular
  %^ILoss     !!= * @CODE@  the i => 0 __reboi reboloi__
 
-QAQ1  !!= * @CODE@ 
-QAO1  !!= * @CODE@ 
-EH1	  !!= * @CODE@ 
-QEQ1  !!= * @CODE@ 
-INE1  !!= * @CODE@ 
-ZD1	  !!= * @CODE@ 
-ZS1	  !!= * @CODE@ 
-V1	  !!= * @CODE@ 
-AO1	  !!= * @CODE@ 
-EI1	  !!= * @CODE@ 
-ZS1	  !!= * @CODE@ 
-ZD1	  !!= * @CODE@ 
+QAQ1  !!= * @CODE@
+QAO1  !!= * @CODE@
+EH1	  !!= * @CODE@
+QEQ1  !!= * @CODE@
+INE1  !!= * @CODE@
+ZD1	  !!= * @CODE@
+ZS1	  !!= * @CODE@
+V1	  !!= * @CODE@
+AO1	  !!= * @CODE@
+EI1	  !!= * @CODE@
+ZS1	  !!= * @CODE@
+ZD1	  !!= * @CODE@
 
 
 !! These are for developing underlying morphology rules
 
-D1   !!= * @CODE@  
-E1   !!= * @CODE@ 
-N1   !!= * @CODE@ 
+D1   !!= * @CODE@
+E1   !!= * @CODE@
+N1   !!= * @CODE@
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
 
-@P.NeedNoun.ON@    !!= * @CODE@ 
-@D.NeedNoun.ON@    !!= * @CODE@ 
-@C.NeedNoun@	   !!= * @CODE@ 
+@P.NeedNoun.ON@    !!= * @CODE@
+@D.NeedNoun.ON@    !!= * @CODE@
+@C.NeedNoun@	   !!= * @CODE@
 
 
 !! !!!Lexicon Root
 
 LEXICON Root
 
-   adjectives  ;     !!= * @CODE@ 
-   adpositions    ;  !!= * @CODE@ 
-   adverbs  ;	     !!= * @CODE@ 
-   conjunctors  ;    !!= * @CODE@ 
-   interjections  ;  !!= * @CODE@ 
-   nouns   ;	     !!= * @CODE@ 
-   pronouns    ;     !!= * @CODE@ 
-   propernouns    ;  !!= * @CODE@ 
-   quantifiers    ;  !!= * @CODE@ 
-   verbs	  ;	     !!= * @CODE@ 
+   adjectives  ;     !!= * @CODE@
+   adpositions    ;  !!= * @CODE@
+   adverbs  ;	     !!= * @CODE@
+   conjunctors  ;    !!= * @CODE@
+   interjections  ;  !!= * @CODE@
+   nouns   ;	     !!= * @CODE@
+   pronouns    ;     !!= * @CODE@
+   propernouns    ;  !!= * @CODE@
+   quantifiers    ;  !!= * @CODE@
+   verbs	  ;	     !!= * @CODE@
 !Abbreviation ;	! stems/abbr.lexc
 !Acronym ;    	! stems/acro.lexc
 !Punctuation ;
- Exceptions ;  !!= * @CODE@ 
+ Exceptions ;  !!= * @CODE@
 
 !! NEWWORDS FILES
  A_NEWWORDS ;     !!= @CODE@ adjectives
@@ -303,10 +303,10 @@ LEXICON CONJ_
 
 LEXICON CC_
 +CC: # ;
- 
+
 LEXICON CS_
 +CS: # ;
- 
+
 
 LEXICON INTERJ_
 +Interj: # ;
@@ -327,23 +327,23 @@ LEXICON PCLE_
 
 
 LEXICON PO_
-+Po: # ; 
++Po: # ;
 
 LEXICON PO_KIELINE
-+Po+Der/A: A_KIELINE ; 
++Po+Der/A: A_KIELINE ;
 
 LEXICON PO_KARJALAINE
-+Po+Der/A: A_KARJALAINE ; 
++Po+Der/A: A_KARJALAINE ;
 
 LEXICON PREP_
-+Prep: # ; 
++Prep: # ;
 
- 
+
 LEXICON CASESUF
-#; 
+#;
 
 LEXICON DEM
-#; 
+#;
 
 LEXICON ACRONDELIMITER
 # ;
