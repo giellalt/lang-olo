@@ -39547,24 +39547,6 @@
       <l pos="N">lagevus</l>
 
       <stg>
-        <st Contlex="N_PUHTAHUS">lagevu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">lakeus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">lagevus</l>
-
-      <stg>
         <st Contlex="N_ALUS">lagevuks</st>
       </stg>
     </lg>
@@ -39573,25 +39555,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">lagevys</l>
-
-      <stg>
-        <st Contlex="N_">lagevys</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">lakeus</t>
       </tg>
     </mg>
   </e>
@@ -39609,11 +39573,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">laki</t>
+        <t pos="N">laki (huonen katto)</t>
 
         <t pos="N">välikatto</t>
 
-        <t pos="N">katto</t>
+        <t pos="N">katto (huoneen katto)</t>
       </tg>
     </mg>
 
@@ -39943,7 +39907,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">laine; karhe</t>
       </tg>
     </mg>
   </e>
@@ -40104,24 +40068,6 @@
 
       <stg>
         <st Contlex="N_REBOI">lambahien#paimoi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">lammaspaimen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">lambahienpaimoi</l>
-
-      <stg>
-        <st Contlex="N_">lambahienpaimoi</st>
       </stg>
     </lg>
 
@@ -40346,54 +40292,10 @@
 
   <e>
     <lg>
-      <l pos="N">langiemine</l>
-
-      <stg>
-        <st Contlex="N_KIELINE">langiemi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">langu</l>
 
       <stg>
         <st Contlex="N_MUARJU">langa</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">lanka</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">rihma</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">langu</l>
-
-      <stg>
-        <st Contlex="N_">langu</st>
       </stg>
     </lg>
 
@@ -40427,7 +40329,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">lanne</t>
       </tg>
     </mg>
   </e>
@@ -40496,10 +40398,10 @@
 
   <e>
     <lg>
-      <l pos="N">lannistuo</l>
+      <l pos="V">lannistuo</l>
 
       <stg>
-        <st Contlex="N_RUNO">lannistuo</st>
+        <st Contlex="V_VALUO">lannistu</st>
       </stg>
     </lg>
 
@@ -40552,10 +40454,10 @@
 
   <e>
     <lg>
-      <l pos="N">lappie</l>
+      <l pos="Adv">lappies</l>
 
       <stg>
-        <st Contlex="N_HARDIE">lappie</st>
+        <st Contlex="ADV_">lappies</st>
       </stg>
     </lg>
 
@@ -40563,7 +40465,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">syrjässä</t>
       </tg>
     </mg>
   </e>
@@ -40622,24 +40524,6 @@
 
   <e>
     <lg>
-      <l pos="N">lapsenkazvattai</l>
-
-      <stg>
-        <st Contlex="N_KANDAI">lapsen#kazvattai</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">lastentarhanopettaja</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">lapsenkaččoi</l>
 
       <stg>
@@ -40670,24 +40554,6 @@
 
       <stg>
         <st Contlex="N_MUARJU">lapsen#suaja</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">synnyttäjä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">lapsensuaju</l>
-
-      <stg>
-        <st Contlex="N_">lapsensuaju</st>
       </stg>
     </lg>
 
@@ -40848,24 +40714,6 @@
         <t pos="N">verkonlasku</t>
 
         <t pos="N">auringonlasku</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">lapsensuaju</l>
-
-      <stg>
-        <st Contlex="N_MUARJU">lapsen#suaja</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
       </tg>
     </mg>
   </e>
@@ -41180,24 +41028,6 @@
 
   <e>
     <lg>
-      <l pos="N">lauku</l>
-
-      <stg>
-        <st Contlex="N_">lauka</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">sipuli; puoti, kauppa; laukki</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">laulai</l>
 
       <stg>
@@ -41436,24 +41266,6 @@
 
   <e>
     <lg>
-      <l pos="N">laškukondii</l>
-
-      <stg>
-        <st Contlex="N_">lašku#kondie</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">laiskuri</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">laškus</l>
 
       <stg>
@@ -41627,7 +41439,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">lehdenlähtö</t>
+        <t pos="N">lehtien putoaminen</t>
       </tg>
     </mg>
   </e>
@@ -41906,24 +41718,6 @@
 
   <e>
     <lg>
-      <l pos="N">leikkavus</l>
-
-      <stg>
-        <st Contlex="N_">leikkavus</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">haava</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">leivän syväin</l>
 
       <stg>
@@ -41954,24 +41748,6 @@
 
       <tg xml:lang="fin">
         <t pos="N">viljanviljelijä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">leivänkazvattai</l>
-
-      <stg>
-        <st Contlex="N_KANDAI">leivänkazvattai</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
       </tg>
     </mg>
   </e>
@@ -42014,24 +41790,6 @@
 
   <e>
     <lg>
-      <l pos="N">lekarsvu</l>
-
-      <stg>
-        <st Contlex="N_">lekarsvu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">lelu</l>
 
       <stg>
@@ -42043,7 +41801,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">lelu</t>
       </tg>
     </mg>
   </e>
@@ -42061,25 +41819,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">lembi</l>
-
-      <stg>
-        <st Contlex="N_">lembi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">lempi</t>
       </tg>
     </mg>
   </e>
@@ -42097,7 +41837,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">lempo, piru</t>
       </tg>
     </mg>
   </e>
@@ -42107,7 +41847,7 @@
       <l pos="N">lemi</l>
 
       <stg>
-        <st Contlex="N_PAPPI">lemi</st>
+        <st Contlex="N_NIMI">lem</st>
       </stg>
     </lg>
 
@@ -42115,7 +41855,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">suonsilmä; letto, lemi</t>
       </tg>
     </mg>
   </e>
@@ -42133,7 +41873,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">lento</t>
       </tg>
     </mg>
   </e>
@@ -42151,25 +41891,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">lendäi</l>
-
-      <stg>
-        <st Contlex="N_">lendäi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">lentäjä; lentävä</t>
       </tg>
     </mg>
   </e>
@@ -42187,7 +41909,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">läpätys</t>
       </tg>
     </mg>
   </e>
@@ -42205,7 +41927,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">havina</t>
       </tg>
     </mg>
   </e>
@@ -42233,7 +41955,7 @@
       <l pos="N">lepites</l>
 
       <stg>
-        <st Contlex="N_">lepites</st>
+        <st Contlex="N_ALUS">lepite</st>
       </stg>
     </lg>
 
@@ -42241,25 +41963,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">leppy</l>
-
-      <stg>
-        <st Contlex="N_">leppy</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">kohtalo; tarkoitus</t>
       </tg>
     </mg>
   </e>
@@ -42277,7 +41981,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">leppä</t>
       </tg>
     </mg>
   </e>
@@ -42295,7 +41999,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">leppälintu</t>
       </tg>
     </mg>
   </e>
@@ -42313,7 +42017,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">leppärousku</t>
       </tg>
     </mg>
   </e>
@@ -42323,7 +42027,7 @@
       <l pos="N">leski</l>
 
       <stg>
-        <st Contlex="N_KOIRU">lesk</st>
+        <st Contlex="N_NIMI">lesk</st>
       </stg>
     </lg>
 
@@ -42331,25 +42035,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">leski</l>
-
-      <stg>
-        <st Contlex="N_">leski</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">leski</t>
       </tg>
     </mg>
   </e>
@@ -42367,25 +42053,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">leugu</l>
-
-      <stg>
-        <st Contlex="N_">leugu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">leuka</t>
       </tg>
     </mg>
   </e>
@@ -42403,25 +42071,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">leuguluu</l>
-
-      <stg>
-        <st Contlex="N_">leuguluu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">leukaluu</t>
       </tg>
     </mg>
   </e>
@@ -42439,7 +42089,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">karhu</t>
       </tg>
     </mg>
   </e>
@@ -42449,7 +42099,7 @@
       <l pos="N">leveiočču</l>
 
       <stg>
-        <st Contlex="N_">leveiočču</st>
+        <st Contlex="N_">leveiočča</st>
       </stg>
     </lg>
 
@@ -42457,7 +42107,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">kontio</t>
       </tg>
     </mg>
   </e>
@@ -42475,17 +42125,17 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">leventäminen</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="N">leveys</l>
+      <l pos="N">levevys</l>
 
       <stg>
-        <st Contlex="N_PUHTAHUS">levey</st>
+        <st Contlex="N_PUHTAHUS">levevy</st>
       </stg>
     </lg>
 
@@ -42493,25 +42143,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">leveys</l>
-
-      <stg>
-        <st Contlex="N_">leveys</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">leveys</t>
       </tg>
     </mg>
   </e>
@@ -42529,7 +42161,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">l</t>
       </tg>
     </mg>
   </e>
