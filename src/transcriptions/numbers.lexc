@@ -20,11 +20,12 @@ Multichar_Symbols
 
 LEXICON Root
 < %+String [a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|q|y|z|æ|ø|å|ä|ö|á|č|đ|ŋ|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|Æ|Ø|Å|Ä|Ö|Á|Č|Đ|Ŋ|Š|Ŧ|Ž]* > COMMA ; ! This first line is to allow all letter strings.
- NUMBERSECTION ;
+ CARD-NUMBERSECTION ;
+ ORD-NUMBERSECTION ;
 !+NumNum NUMBERSECTION ;
-+NumNum COMMASECTION ;
+!+NumNum COMMASECTION ;
 
-LEXICON NUMBERSECTION
+LEXICON CARD-NUMBERSECTION
 HUNDREDSM ;		! 200M
 sada% :1 HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
@@ -252,7 +253,7 @@ kymmen: ONES ;
 
 LEXICON ONES
 CARDINAL ;
-ORDINAL ;
+!ORDINAL ;
 
 LEXICON CARDINAL
 yksi:1 COMMA ;
@@ -265,7 +266,231 @@ seiččie:7 COMMA ;
 kaheksa:8 COMMA ;
 yheksä:9 COMMA ;
 
-LEXICON ORDINAL
+!!
+LEXICON ORD-NUMBERSECTION
+ORD-HUNDREDSM ;		! 200M
+suas% :1 ORD-HUNDREDM ;	! 100M
+ORD-TENSM ;			! 20-99M
+ORD-TEENSM ;		! 10-19M
+ORD-ONESM ;			! 1-9M
+ORD-HUNDREDST ;		! 200000-999999
+suas% :1 ORD-HUNDREDT ;	! 100000-100999
+ORD-TENST ;			! 20000-99999,10000-10999
+ORD-TEENST ;		! 11000-19999
+ORD-ONEST ;			! 2000-9999
+tuhannes:1 ORD-THOUSAND ;	! 1000-1999
+ORD-UNDERTHOUSAND ;		! 100-999
+ORD-TENS ;			! 20-99
+ORD-TEENS ;			! 10-19
+ORD-ONES ;			! 1-9
+
+LEXICON ORD-HUNDREDSM
+kahtes:2  ORD-CUODIM ;
+kolmas:3 ORD-CUODIM ;
+nelljäs:4 ORD-CUODIM ; ! Google: 459
+viijes:5 ORD-CUODIM ;
+kuvves:6 ORD-CUODIM ;
+seiččemäs:7 ORD-CUODIM ;
+kaheksas:8 ORD-CUODIM ;
+yheksäs:9 ORD-CUODIM ;
+
+LEXICON ORD-CUODIM
+suas% : ORD-HUNDREDM ;
+
+LEXICON ORD-HUNDREDM
+      ORD-TENSM ;
+      ORD-TEENSM ;
+:%0   ORD-ONESM ;
+:%0%0 ORD-MILJON ;
+
+LEXICON ORD-TEENSM
+yhtestostu:11     ORD-LOHKAIM ;
+kahtestostu:12   ORD-LOHKAIM ;
+kolmastostu:13    ORD-LOHKAIM ;
+nelljästostu:14 ORD-LOHKAIM ;
+viijestostu:15   ORD-LOHKAIM ;
+kuvvestostu:16   ORD-LOHKAIM ;
+seiččemästostu:17 ORD-LOHKAIM ;
+kaheksastostu:18 ORD-LOHKAIM ;
+yheksästostu:19   ORD-LOHKAIM ;
+
+LEXICON ORD-LOHKAIM
+ORD-MILJON ;
+
+LEXICON ORD-TENSM
+kymmenes:1%0 ORD-MILJON ;
+kahtes:2   ORD-LUHKIEM ;
+kolmas:3    ORD-LUHKIEM ;
+nelljäs:4 ORD-LUHKIEM ;
+viijes:5   ORD-LUHKIEM ;
+kuvves:6   ORD-LUHKIEM ;
+seiččemäs:7 ORD-LUHKIEM ;
+kaheksas:8 ORD-LUHKIEM ;
+yheksäs:9   ORD-LUHKIEM ;
+
+LEXICON ORD-LUHKIEM
+kymmenes:%0 ORD-MILJON ;
+kymmenes:   ORD-ONESM ;
+
+LEXICON ORD-ONESM
+yhtes% miljonas% :1 ORD-OVERTHOUSANDS ;
+kahtes:2         ORD-MILJON ;
+kolmas:3          ORD-MILJON ;
+nelljäs:4       ORD-MILJON ;
+viijes:5         ORD-MILJON ;
+kuvves:6         ORD-MILJON ;
+seiččemäs:7       ORD-MILJON ;
+kaheksas:8       ORD-MILJON ;
+yheksäs:9         ORD-MILJON ; 
+
+LEXICON ORD-MILJON
+% miljonas% : ORD-OVERTHOUSANDS ;
+
+! =================
+! Under the million
+! =================
+
+LEXICON ORD-OVERTHOUSANDS
+ORD-HUNDREDST ;		! x00.000.000
+suas:1 ORD-HUNDREDT ;	! 100.000.000
+:%0 ORD-TENST ;		!  20.000.000
+:%0 ORD-TEENST ;		!  10.000.000
+:%0%0 ORD-ONEST ;		!   2.000.000
+tuhannes:%0%01 ORD-THOUSAND ;	!   1.000.000
+:%0%0%0 ORD-UNDERTHOUSAND ;	
+:%0%0%0%0 ORD-TENS ;
+:%0%0%0%0 ORD-TEENS ;
+:%0%0%0%0%0 ORD-ONES ;
+:%0%0%0%0%0%0%. COMMA ;	!  x000000
+
+LEXICON ORD-HUNDREDST
+kahtes:2   ORD-CUODIT ;	! 200000-299999
+kolmas:3    ORD-CUODIT ;	! 300000-399999
+nelljäs:4 ORD-CUODIT ;	! 400000-499999
+viijes:5   ORD-CUODIT ;	! 500000-599999
+kuvves:6   ORD-CUODIT ;	! 600000-699999
+seiččemäs:7 ORD-CUODIT ;	! 700000-799999
+kaheksas:8 ORD-CUODIT ;	! 800000-899999
+yheksäs:9   ORD-CUODIT ;	! 900000-999999
+
+LEXICON ORD-CUODIT
+suas% : ORD-HUNDREDT ;	! 100000-199999
+
+LEXICON ORD-HUNDREDT	! X = 1-9, Y = 0-9
+ORD-TENST ;			! X2XYYY, X10YYY
+ORD-TEENST ;		! X1XYYY
+yhtes:%01 ORD-THOUSANDS ;
+:%0 ORD-ONEST ;		! XX0YYY
+:%0%0 ORD-THOUSANDS ;	! X00YYY
+
+LEXICON ORD-TEENST
+yhtestostu:11     ORD-LOHKAIT ;
+kahtestostu:12   ORD-LOHKAIT ;
+kolmastostu:13    ORD-LOHKAIT ;
+nelljästostu:14 ORD-LOHKAIT ;
+viijestostu:15   ORD-LOHKAIT ;
+kuvvestostu:16   ORD-LOHKAIT ;
+seiččemästostu:17 ORD-LOHKAIT ;
+kaheksastostu:18 ORD-LOHKAIT ;
+yheksästostu:19   ORD-LOHKAIT ;
+
+LEXICON ORD-LOHKAIT
+ORD-THOUSANDS ;
+
+LEXICON ORD-TENST
+kymmenes:1%0 ORD-THOUSANDS ;
+kahteskymmenes:2   ORD-LUHKIET ;
+kolmaskymmenes:3    ORD-LUHKIET ;
+nelljäskymmenes:4 ORD-LUHKIET ;
+viijeskymmenes:5   ORD-LUHKIET ;
+kuvveskymmenes:6  ORD-LUHKIET ;
+seiččemäskymmenes:7 ORD-LUHKIET ;
+kaheksaskymmenes:8 ORD-LUHKIET ;
+yheksäskymmenes:9   ORD-LUHKIET ;
+
+LEXICON ORD-LUHKIET
+:%0 ORD-THOUSANDS ;
+yhtes:1 ORD-THOUSANDS ;
+ORD-ONEST ;
+
+LEXICON ORD-ONEST
+kahtes:2 ORD-THOUSANDS ;
+kolmas:3 ORD-THOUSANDS ;
+nelljäs:4 ORD-THOUSANDS ;
+viijes:5 ORD-THOUSANDS ;
+kuvves:6 ORD-THOUSANDS ;
+seiččemäs:7 ORD-THOUSANDS ;
+kaheksas:8 ORD-THOUSANDS ;
+yheksäs:9 ORD-THOUSANDS ;
+
+LEXICON ORD-THOUSANDS      ! x > 1
+tuhannes: ORD-THOUSAND ;
+
+LEXICON ORD-THOUSAND
+% : ORD-UNDERTHOUSAND ;	   ! 1100-1999
+% :%0 ORD-TENS ;	   ! 1020-1099
+% :%0 ORD-TEENS ;	   ! 1010-1019
+% :%0%0 ORD-ONES ;	   ! 1001-1009
+:%0%0%0%. COMMA ;	   ! 1000
+
+!===========================
+!Here starts the 999 numbers
+!===========================
+
+LEXICON ORD-UNDERTHOUSAND
+ORD-HUNDREDS ;
+suas:1  ORD-CUODAAT ; ! Is this correct?
+
+LEXICON ORD-HUNDREDS
+kahtes:2   ORD-CUODI ;
+kolmas:3    ORD-CUODI ;
+nelljäs:4 ORD-CUODI ;
+viijes:5   ORD-CUODI ;
+kuvves:6   ORD-CUODI ;
+seiččemäs:7 ORD-CUODI ;
+kaheksas:8 ORD-CUODI ;
+yheksäs:9   ORD-CUODI ;
+
+LEXICON ORD-CUODI
+suas:  ORD-CUODAAT ;
+
+LEXICON ORD-HUNDRED
+% :      ORD-TENS ;
+% :      ORD-TEENS ;
+% :%0   ORD-ONES ;
+:%0%0%. COMMA ;
+
+LEXICON ORD-CUODAAT
+:  ORD-HUNDRED ;
+:%0%0%.    COMMA ;
+
+LEXICON ORD-TEENS
+yhtestostu:11%. COMMA ;
+kahtestostu:12%. COMMA ;
+kolmastostu:13%. COMMA ;
+nelljästostu:14%. COMMA ;
+viijestostu:15%. COMMA ;
+kuvvestostu:16%. COMMA ;
+seiččemästostu:17%. COMMA ;
+kaheksastostu:18%. COMMA ;
+yheksästostu:19%. COMMA ;
+
+LEXICON ORD-TENS
+kymmenes:1%0%. COMMA ;
+kahtes:2 ORD-LUHKIE ;
+kolmas:3 ORD-LUHKIE ;
+nelljäs:4 ORD-LUHKIE ;
+viijes:5 ORD-LUHKIE ;
+kuvves:6 ORD-LUHKIE ;
+seiččemäs:7 ORD-LUHKIE ;
+kaheksas:8 ORD-LUHKIE ;
+yheksäs:9 ORD-LUHKIE ;
+
+LEXICON ORD-LUHKIE
+kymmenes:%0%. COMMA ;
+kymmenes: ORD-ONES ;
+!!
+LEXICON ORD-ONES
 enzimäine:1%.     COMMA ;
 toine:2%.   COMMA ;
 kolmas:3%.   COMMA ;
