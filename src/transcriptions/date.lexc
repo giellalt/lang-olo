@@ -30,8 +30,8 @@
 ! talvikuu 12
 
 ! 12.8.
-! Borgemánu 12. b.
-! Borgemánu guoktenuppelot beaivi
+! kahtestostu päivy elokuudu
+! 12. elokuudu
 
 Multichar_Symbols
 
@@ -159,6 +159,7 @@ kolmaskymmenesenzimäine% :31 B ;
 
 LEXICON B
 päivy:%. MONTH ;
+päivy:%. MONTH_SECOND ;
 
 LEXICON MONTH
 @U.MONTH.1@:1@U.MONTH.1@ X ;
@@ -173,6 +174,20 @@ LEXICON MONTH
 @U.MONTH.10@:1%0@U.MONTH.10@ X ;
 @U.MONTH.11@:11@U.MONTH.11@ X ;
 @U.MONTH.12@:12@U.MONTH.12@ X ;
+
+LEXICON MONTH_SECOND
+pakkaskuudu@U.MONTH.1@:1@U.MONTH.1@ X ;
+tuhukuudu@U.MONTH.2@:2@U.MONTH.2@ X ;
+kevätkuudu@U.MONTH.3@:3@U.MONTH.3@ X ;
+sulakuudu@U.MONTH.4@:4@U.MONTH.4@ X ;
+oraskuudu@U.MONTH.5@:5@U.MONTH.5@ X ;
+kezäkuudu@U.MONTH.6@:6@U.MONTH.6@ X ;
+heinykuudu@U.MONTH.7@:7@U.MONTH.7@ X ;
+elokuudu@U.MONTH.8@:8@U.MONTH.8@ X ;
+syvyskuudu@U.MONTH.9@:9@U.MONTH.9@ X ;
+ligakuudu@U.MONTH.10@:1%0@U.MONTH.10@ X ;
+kylmykuudu@U.MONTH.11@:11@U.MONTH.11@ X ;
+talvikuudu@U.MONTH.12@:12@U.MONTH.12@ X ;
 
 LEXICON X
 :%. # ;
