@@ -55,6 +55,10 @@ Multichar_Symbols
 
 LEXICON Root
 
+DAY-PRECEDES-MONTH ;
++Use/NG: MONTH-PRECEDES-DAY ;
+
+LEXICON MONTH-PRECEDES-DAY
 ! For each month: First the normative, then the non-normatives, then initial capital
 
 pakkaskuun% @U.MONTH.1@:@U.MONTH.1@ 31DAYS ;
@@ -106,8 +110,6 @@ ligakuun% @U.MONTH.10@:@U.MONTH.10@ 31DAYS ;
 
 Ligakuun+Use/NG% @U.MONTH.10@:@U.MONTH.10@ 31DAYS ;
 
-
-
 kylmykuun% @U.MONTH.11@:@U.MONTH.11@ 30DAYS ; ! bytt NG?
 
 Kylmykuun+Use/NG% @U.MONTH.11@:@U.MONTH.11@ 30DAYS ; ! bytt NG?
@@ -116,6 +118,32 @@ Kylmykuun+Use/NG% @U.MONTH.11@:@U.MONTH.11@ 30DAYS ; ! bytt NG?
 talvikuun% @U.MONTH.12@:@U.MONTH.12@ 31DAYS ;
 
 Talvikuun+Use/NG% @U.MONTH.12@:@U.MONTH.12@ 31DAYS ;
+
+LEXICON DAY-PRECEDES-MONTH
+
+@U.MONTH.1@:@U.MONTH.1@ 31DAYS_FIRST ;
+
+@U.MONTH.2@:@U.MONTH.2@ 29DAYS_FIRST ;
+
+@U.MONTH.3@:@U.MONTH.3@ 31DAYS_FIRST ;
+
+@U.MONTH.4@:@U.MONTH.4@ 30DAYS_FIRST ;
+
+@U.MONTH.5@:@U.MONTH.5@ 31DAYS_FIRST ;
+
+@U.MONTH.6@:@U.MONTH.6@ 30DAYS_FIRST ;
+
+@U.MONTH.7@:@U.MONTH.7@ 31DAYS_FIRST ;
+
+@U.MONTH.8@:@U.MONTH.8@ 31DAYS_FIRST ;
+
+@U.MONTH.9@:@U.MONTH.9@ 30DAYS_FIRST ;
+
+@U.MONTH.10@:@U.MONTH.10@ 31DAYS_FIRST ;
+
+@U.MONTH.11@:@U.MONTH.11@ 30DAYS_FIRST ; ! bytt NG?
+
+@U.MONTH.12@:@U.MONTH.12@ 31DAYS_FIRST ;
 
 
 LEXICON 29DAYS
@@ -159,7 +187,48 @@ kolmaskymmenesenzimäine% :31 B ;
 
 LEXICON B
 päivy:%. MONTH ;
-päivy:%. MONTH_SECOND ;
+
+LEXICON 29DAYS_FIRST
+enzimäine% :1 B_SECOND ;
+toine% :2 B_SECOND ;
+kolmas% :3 B_SECOND ;
+nelljäs% :4 B_SECOND ;
+viijes% :5 B_SECOND ;
+kuvves% :6 B_SECOND ;
+seiččemäs% :7 B_SECOND ;
+kaheksas% :8 B_SECOND ;
+yheksäs% :9 B_SECOND ;
+kymmenes% :1%0 B_SECOND ;
+yhtestostu% :11 B_SECOND ;
+kahtestostu% :12 B_SECOND ;
+kolmastostu% :13 B_SECOND ;
+nelljästostu% :14 B_SECOND ;
+viijestostu% :15 B_SECOND ;
+kuvvestostu% :16 B_SECOND ;
+seiččemästostu% :17 B_SECOND ;
+kaheksastostu% :18 B_SECOND ;
+yheksästostu% :19 B_SECOND ;
+kahteskymmenes% :20 B_SECOND ;
+kahteskymmenesenzimäine% :21 B_SECOND ;
+kahteskymmenestoine% :22 B_SECOND ;
+kahteskymmeneskolmas% :23 B_SECOND ;
+kahteskymmenesnelljäs% :24 B_SECOND ;
+kahteskymmenesviijes% :25 B_SECOND ;
+kahteskymmeneskuvves% :26 B_SECOND ;
+kahteskymmenesseiččemäs% :27 B_SECOND ;
+kahteskymmeneskaheksas% :28 B_SECOND ;
+kahteskymmenesyheksäs% :29 B_SECOND ;
+
+LEXICON 30DAYS_FIRST
+kolmaskymmenes% :3%0 B_SECOND ;
+29DAYS_FIRST ;
+
+LEXICON 31DAYS_FIRST
+kolmaskymmenesenzimäine% :31 B_SECOND ;
+30DAYS_FIRST ;
+
+LEXICON B_SECOND
+päivy% :%. MONTH_SECOND ;
 
 LEXICON MONTH
 @U.MONTH.1@:1@U.MONTH.1@ X ;
