@@ -91,12 +91,15 @@ LEXICON A_OLUT !!= @CODE@ olut:olu
 !! !TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
 LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
 +A: NMN_PÄIVY ;
++A+Der/mbi+A:%^E1%>m^NONEb NMN_PAREMBI        ;
 
 LEXICON A_MUARJU !!= @CODE@ muarju:muarja
 +A:	NMN_MUARJU ;
 
 LEXICON A_KOIRU
- A_PÄIVY ;
++A: NMN_PÄIVY ;
++A+Der/mbi+A:%^E1%>m^NONEb NMN_PAREMBI        ;
+
 
 LEXICON A_VALGEI !!= @CODE@ valgei:valge
 +A: NMN_VALGEI        ;

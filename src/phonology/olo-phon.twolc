@@ -445,10 +445,11 @@ a:o <=> # Cns* [[ a | i | e ] (u|i)| u a ] [ Cns* (%^NONE:) Cns: ] _ %> i: ( %^W
 
 "a:e"
 !! __@RULENAME@__  pidiä
- a:e <=> _ %^WGStem:0 %^E1:0 ;
+ a:e <=> _ (%^WGStem:0) %^E1:0 ;
 !€# kanda%^WGStem%^E1%>tt%{aäDiph%}s
 !€0 kanne000ttas
-
+!€# kirjava%^E1%>m^NONEb
+!€0 kirjave00m0b
 
 "ä:e piettih and in comparatives"
 !! __@RULENAME@__  pidiä
