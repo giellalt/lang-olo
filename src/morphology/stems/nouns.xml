@@ -10651,7 +10651,7 @@
       <l pos="N">hapainmaido</l>
 
       <stg>
-        <st Contlex="N_RUNO">hapainmaido</st>
+        <st Contlex="N_RUNO">hapain#maido</st>
       </stg>
     </lg>
 
@@ -10702,50 +10702,6 @@
 
   <e>
     <lg>
-      <l pos="N">happanemine</l>
-
-      <stg>
-        <st Contlex="N_KIELINE">happanemi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">happaneminen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">happanemine</l>
-
-      <stg>
-        <st Contlex="N_KIELINE">happanemi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">happaneminen</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">lahoaminen. pilaantuminen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">harakanboba</l>
 
       <stg>
@@ -10769,25 +10725,7 @@
       <l pos="N">harakannyägyt</l>
 
       <stg>
-        <st Contlex="N_">harakannyägyt</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">harakannyägyt</l>
-
-      <stg>
-        <st Contlex="N_KOIVU">harakannyägyt</st>
+        <st Contlex="N_KOIVU-PL">harakan#nyägy</st>
       </stg>
     </lg>
 
@@ -10993,7 +10931,10 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">harjus (Thymullus vulgaris)</t>
+        <t pos="N">harjus</t>
+      </tg>
+      <tg xml:lang="lat">
+        <t pos="N">Thymullus vulgaris</t>
       </tg>
     </mg>
   </e>
@@ -12185,7 +12126,7 @@
       <l pos="N">heramaido</l>
 
       <stg>
-        <st Contlex="N_RUNO">heramaido</st>
+        <st Contlex="N_RUNO">hera#maido</st>
       </stg>
     </lg>
 
@@ -63823,24 +63764,6 @@
     <lg>
       <l pos="N">perätys</l>
 
-      <stg>
-        <st Contlex="N_ALUS">perätyks</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">järjestys (Penttonen), tav. poŕadku, kundo</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">perätys</l>
-
       <l_ref pos="N">porʼadku </l_ref>
 
       <l_ref pos="N">kundo</l_ref>
@@ -63854,7 +63777,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">järjestys (Penttonen)</t>
+        <t src="Penttonen" pos="N">järjestys</t>
       </tg>
     </mg>
   </e>
