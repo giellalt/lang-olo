@@ -2823,7 +2823,7 @@
       <l pos="N">avain</l>
 
       <stg>
-        <st Contlex="N_SALBOIN">avain</st>
+        <st Contlex="N_SALBOIN">avai</st>
       </stg>
     </lg>
 
@@ -17148,7 +17148,7 @@
       <l pos="N">istuin</l>
 
       <stg>
-        <st Contlex="N_SALBOIN">istuin</st>
+        <st Contlex="N_SALBOIN">istui</st>
       </stg>
     </lg>
 
@@ -29589,7 +29589,7 @@
       <l pos="N">kirjain</l>
 
       <stg>
-        <st Contlex="N_SALBOIN">kirjain</st>
+        <st Contlex="N_SALBOIN">kirjai</st>
       </stg>
     </lg>
 
@@ -63843,7 +63843,7 @@
 
       <l_ref pos="N">porʼadku </l_ref>
 
-      <l_ref pos="N"> kundo</l_ref>
+      <l_ref pos="N">kundo</l_ref>
 
       <stg>
         <st Contlex="N_ALUS">perätyks</st>
@@ -67215,7 +67215,7 @@
       <l pos="N">piänpohju</l>
 
       <stg>
-        <st Contlex="N_KOIRU">piänpohja</st>
+        <st Contlex="N_KOIRU">piän#pohja</st>
       </stg>
     </lg>
 
@@ -71950,7 +71950,7 @@
       <l pos="N">puupiä</l>
 
       <stg>
-        <st Contlex="N_KUU">puupiä</st>
+        <st Contlex="N_KUU">puu#piä</st>
       </stg>
     </lg>
 
@@ -78858,7 +78858,7 @@
     <lg>
       <l pos="N">riugu</l>
 
-      <l_ref pos="N"> parzi, seiväs, salgo</l_ref>
+      <l_ref pos="N">parzi, seiväs, salgo</l_ref>
 
       <stg>
         <st Contlex="N_KOIVU">riugu</st>
@@ -83689,7 +83689,7 @@
       <l pos="N">sangeipiä</l>
 
       <stg>
-        <st Contlex="N_KUU">sangeipiä</st>
+        <st Contlex="N_KUU">sangei#piä</st>
       </stg>
     </lg>
 
@@ -87737,38 +87737,19 @@
     <lg>
       <l pos="N">soidin</l>
 
-      <stg>
-        <st Contlex="N_SALBOIN">soidi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">soidin, paremmin: kiimu, hykerdämine, hykerdändy, hykerdys,
-        kuherdamine, kuherdandu, kuherdus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">soidin</l>
-
       <l_ref pos="N">kiimu </l_ref>
 
-      <l_ref pos="N"> hykerdämine </l_ref>
+      <l_ref pos="N">hykerdämine </l_ref>
 
-      <l_ref pos="N"> hykerdändy </l_ref>
+      <l_ref pos="N">hykerdändy </l_ref>
 
-      <l_ref pos="N"> hykerdys </l_ref>
+      <l_ref pos="N">hykerdys </l_ref>
 
-      <l_ref pos="N"> kuherdamine </l_ref>
+      <l_ref pos="N">kuherdamine </l_ref>
 
-      <l_ref pos="N"> kuherdandu </l_ref>
+      <l_ref pos="N">kuherdandu </l_ref>
 
-      <l_ref pos="N"> kuherdus</l_ref>
+      <l_ref pos="N">kuherdus</l_ref>
 
       <stg>
         <st Contlex="N_SALBOIN">soidi</st>
@@ -94819,24 +94800,6 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">särvin, keittoruoka, lämmmin ruoka</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">särvin</l>
-
-      <stg>
-        <st Contlex="N_SALBOIN">särvi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
         <t pos="N">särvin</t>
 
         <t pos="N">keittoruoka</t>
@@ -96240,11 +96203,11 @@
 
       <l_ref pos="N">haju </l_ref>
 
-      <l_ref pos="N"> čusvii </l_ref>
+      <l_ref pos="N">čusvii </l_ref>
 
-      <l_ref pos="N"> ovvosus </l_ref>
+      <l_ref pos="N">ovvosus </l_ref>
 
-      <l_ref pos="N"> ellendys</l_ref>
+      <l_ref pos="N">ellendys</l_ref>
 
       <stg>
         <st Contlex="N_KOIVU">taju</st>
@@ -96394,9 +96357,9 @@
 
       <l_ref pos="N">ilmairuado </l_ref>
 
-      <l_ref pos="N"> ruadohommu </l_ref>
+      <l_ref pos="N">ruadohommu </l_ref>
 
-      <l_ref pos="N"> hommu</l_ref>
+      <l_ref pos="N">hommu</l_ref>
 
       <stg>
         <st Contlex="N_PEREH">talgoh</st>
@@ -99845,9 +99808,9 @@
 
       <l_ref pos="N">myöjy </l_ref>
 
-      <l_ref pos="N"> torgoušiekku </l_ref>
+      <l_ref pos="N">torgoušiekku </l_ref>
 
-      <l_ref pos="N"> torguiniekku</l_ref>
+      <l_ref pos="N">torguiniekku</l_ref>
 
       <stg>
         <st Contlex="N_PAGIZII">torguičči</st>
@@ -103244,7 +103207,7 @@
     <lg>
       <l pos="N">tädi</l>
 
-      <l_ref pos="N"> tʼouta</l_ref>
+      <l_ref pos="N">tʼouta</l_ref>
 
       <stg>
         <st Contlex="N_NIMI">tädi</st>
@@ -106405,32 +106368,6 @@
 
       <tg xml:lang="fin">
         <t pos="N">uuni</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">uurdain</l>
-
-      <stg>
-        <st Contlex="N_SALBOIN">uurdai</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">sula, uveavanto</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">railo</t>
       </tg>
     </mg>
   </e>
@@ -114130,32 +114067,6 @@
 
       <tg xml:lang="fin">
         <t pos="N"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">viškain</l>
-
-      <stg>
-        <st Contlex="N_SALBOIN">viškai</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">astia, tav. tuohirove</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">äyskäri, viskain</t>
       </tg>
     </mg>
   </e>
