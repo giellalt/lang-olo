@@ -119,7 +119,7 @@ LEXICON N_JÄLGI  !!= @CODE@ jälgi:jälg
 
 LEXICON N_MUAMO_SUB
 +Err/Sub: N_MUAMO ;
-LEXICON N_MUAMO !!= @CODE@ muamo:muamo
+LEXICON N_MUAMO !!= @CODE@ muamo:muama
  N_MUAMO-SG ;
  N_MUAMO-PL ;
 
@@ -127,6 +127,15 @@ LEXICON N_MUAMO-SG
 +N: NMN_MUAMO-SG ;
 LEXICON N_MUAMO-PL
 +N: NMN_MUAMO-PL ;
+
+LEXICON N_DIÄDÖ !!= @CODE@ diädö:diädä
+ N_DIÄDÖ-SG ;
+ N_DIÄDÖ-PL ;
+
+LEXICON N_DIÄDÖ-SG
++N: NMN_DIÄDÖ-SG ;
+LEXICON N_DIÄDÖ-PL
++N: NMN_DIÄDÖ-PL ;
 
 LEXICON N_MUARJU_SUB
 +Err/Sub: N_MUARJU ;
@@ -821,6 +830,23 @@ LEXICON NMN_MUAMO-SG
  SGPARSUF_A2 ;
 +Sg: Noun-NB-01 ;
 LEXICON NMN_MUAMO-PL
+ PLNOMSUF ;
+:%>i PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLPARSUF_Zero ;
+:%>i PLINSSUF ;
++Pl:%>i Noun-NB-01 ;
+
+LEXICON NMN_DIÄDÖ !!= @CODE@ diädö:diädä
+ NMN_DIÄDÖ-SG ;
+ NMN_DIÄDÖ-PL ;
+
+LEXICON NMN_DIÄDÖ-SG
+:%^A2O SGNOMSUF ;
+ SGNOM/PXSP3 ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+LEXICON NMN_DIÄDÖ-PL 
  PLNOMSUF ;
 :%>i PLGENSUF_N ; ! the plural comitative is declined here
 :%>i PLPARSUF_Zero ;

@@ -407,6 +407,11 @@ o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: ] ;
 !! __@RULENAME@__
 ä:y <=> _ %^A2U:0 ;
 
+! Word final ö
+"ä:ö word final"
+!! __@RULENAME@__
+ä:ö <=> _ %^A2O:0 ;
+
 
 "a:0 in suaja:sai"
 !! __@RULENAME@__
