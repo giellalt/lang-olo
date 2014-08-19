@@ -91,18 +91,20 @@ LEXICON A_OLUT !!= @CODE@ olut:olu
 !! !TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
 LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
 +A: NMN_PÄIVY ;
-+A+Der/mbi+A:%^E1%>m^NONEb NMN_PAREMBI        ;
++A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
 
 LEXICON A_MUARJU !!= @CODE@ muarju:muarja
 +A:	NMN_MUARJU ;
 
 LEXICON A_KOIRU
 +A: NMN_PÄIVY ;
-+A+Der/mbi+A:%^E1%>m^NONEb NMN_PAREMBI        ;
++A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
 
 
 LEXICON A_VALGEI !!= @CODE@ valgei:valge
 +A: NMN_VALGEI        ;
++A+Der/mbi+Comp:%>em^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:vi NMN_ENIN        ;
 
 LEXICON A_RAHMANNOI !!= @CODE@ rahmannoi:rahmannoi
 +A: NMN_RAHMANNOI        ;
@@ -136,16 +138,20 @@ LEXICON A_HUOLETOI !!= @CODE@ huoletoi:huolet
 +A:	NMN_HUOLETOI   ;
 +A+Der/MWN: N_HUOLETOI ; 
 +N:t%{oö%}m%{aä%} Adj-NB-i ; !2012-09-27 unknown -loi vs -i
++A+Der/mbi+Comp:t%{oö%}mem^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:t%{oö%}mi NMN_ENIN        ;
 
 LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
 +A+Der/Us:z%{uy%} N_PUHTAHUS ;
 +A:	NMN_KARJALAINE	 ;
-+A+Der/mbi+A:zem^NONEb NMN_PAREMBI        ;
++A+Der/mbi+Comp:zem^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:zi NMN_ENIN        ;
 
 LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 +A+Der/Us:z%{uy%} N_PUHTAHUS ;
 +A: NMN_KIELINE ;
-+A+Der/mbi+A:zem^NONEb NMN_PAREMBI        ;
++A+Der/mbi+Comp:zem^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:zi NMN_ENIN        ;
 
 LEXICON A_TOINE !!= @CODE@ toine:to
 +A: NMN_TOINE ;
@@ -153,10 +159,14 @@ LEXICON A_TOINE !!= @CODE@ toine:to
 !! !THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
 LEXICON A_KARJAL !!= @CODE@ karjal:karjal
 +A:     NMN_KARJAL ;
++A+Der/mbi+Comp:em^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:i NMN_ENIN        ;
 
 LEXICON A_MADAL !!= @CODE@ madal:madal
 +A+Der/Us:%{uy%} N_PUHTAHUS ;
 +A:	NMN_MADAL ;
++A+Der/mbi+Comp:em^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:i NMN_ENIN        ;
 
 LEXICON A_PIIRAI !!= @CODE@ piirai:piira 
 +A:	NMN_PIIRAI   ;
@@ -172,12 +182,14 @@ LEXICON A_PESSYH !!= @CODE@ pessyh:pessy
 
 LEXICON A_ARMAS !!= @CODE@ armas:arma
 +A: NMN_ARMAS        ;
-+A+Der/mbi+A:h%{aä%}m^NONEb NMN_PAREMBI        ;
++A+Der/mbi+Comp:h%{aä%}m^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:hi NMN_ENIN        ;
 
 LEXICON A_TUORES !!= @CODE@ tuores:tuore
 !!= * Yaml: __A-tuores__
 +A: NMN_TUORES ;
-+A+Der/mbi+A:hem^NONEb NMN_PAREMBI        ;
++A+Der/mbi+Comp:hem^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:hi NMN_ENIN        ;
 
 LEXICON A_SUURIM !!= @CODE@ suurim:suurim
 +A:	NMN_SUURIM ;
