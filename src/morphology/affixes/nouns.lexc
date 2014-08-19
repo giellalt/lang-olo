@@ -1016,6 +1016,9 @@ LEXICON NMN_VUOZI-PL
 +Pl:%^D2Z%>i Noun-NB-01 ;
 
 LEXICON NMN_PAREMBI !!= @CODE@ parembi:paremb
+!!€gt-norm: Adjective comparative
+!!€ tuorehembi tuores+A+Der/mbi+Comp+Sg+Nom
+!!$ tuorehembembannu tuores+A+Der/mbi+Comp+Der/mbi+Comp+Sg+Ess
  NMN_PAREMBI-SG ;
  NMN_PAREMBI-PL ;
 
@@ -1539,7 +1542,8 @@ LEXICON NMN_ENIN !!= @CODE@ enin:eni
 
 LEXICON NMN_ENIN-SG
 :n SGNOMSUF ;
-:n SGPARSUF_dU ;
+!:n SGPARSUF_dU ;
+:m%>%{aäPar%} SGPARSUF_A2 ;
 :m%>%{aäPar%} SGGENSUF ;
 +Sg:m%>%{aäPar%} Noun-NB-01 ;
 LEXICON NMN_ENIN-PL
