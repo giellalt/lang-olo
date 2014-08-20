@@ -55,17 +55,12 @@ LEXICON A_KALA !!= @CODE@ kala:kala
 +A: NMN_KALA ;
 
 LEXICON A_KOIVU !!= @CODE@ koivu:koivu
-        A_KOIVU-SG ;
-        A_KOIVU-PL ;
-
-LEXICON A_KOIVU-SG
-+A: NMN_KOIVU-SG        ;
-
-LEXICON A_KOIVU-PL
-+A: NMN_KOIVU-PL        ;
++A:        NMN_KOIVU ;
++A+Der/in+Superl:vi NMN_ENIN        ;
 
 LEXICON A_RUNO
 +A:	NMN_RUNO ;
++A+Der/in+Superl:vi NMN_ENIN        ;
 
 LEXICON A_PAPPI !!= @CODE@ pappi:pappi
 +A: NMN_PAPPI ;
@@ -78,6 +73,7 @@ LEXICON A_ALUS !!= @CODE@ alus:aluks
 
 LEXICON A_SUALIŠ !!= @CODE@ suališ:suali
 +A:	 NMN_SUALIŠ ;
++A+Der/in+Superl:vi NMN_ENIN        ;
 
 LEXICON A_KUURNIS !!= @CODE@ kuurnis:kuurne
 +A:      NMN_KUURNIS ;
@@ -155,6 +151,8 @@ LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 
 LEXICON A_TOINE !!= @CODE@ toine:to
 +A: NMN_TOINE ;
++A+Der/mbi+Comp:izem^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:izi NMN_ENIN        ;
 
 !! !THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
 LEXICON A_KARJAL !!= @CODE@ karjal:karjal
