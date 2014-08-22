@@ -35,6 +35,7 @@ GT_LEXC_SRCS=\
                          stems/adjectives_newwords.lexc \
                          stems/adverbs_newwords.lexc \
                          stems/nouns_newwords.lexc \
+                         stems/propernouns_newwords.lexc \
                          stems/verbs_newwords.lexc 
 
 # Set this to the names of all generated lexc files, if any
