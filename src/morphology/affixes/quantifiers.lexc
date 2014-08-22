@@ -54,13 +54,13 @@ LEXICON ORD_KARJALAINE !!= @CODE@ enzimäine:ensimä
 +Qnt+Ord: NMN_KARJALAINE ;
 
 LEXICON ORD_01
-+Ord+Sg+Nom:%^WGStem%>s K ;
-+Ord:%^WGStemt SGPARSUF_dU ;
-+Ord:%^WGStemn^NONEde SGGENSUF ;
++Num+Ord+Sg+Nom:%^WGStem%>s K ;
++Num+Ord:%^WGStemt SGPARSUF_dU ;
++Num+Ord:%^WGStemn^NONEde SGGENSUF ;
 
-+Ord+Sg:%^WGStemn^NONEde Noun-NB-01 ;
++Num+Ord+Sg:%^WGStemn^NONEde Noun-NB-01 ;
 
-+Ord:%^WGStemn^NONEde PLNOMSUF ;
++Num+Ord:%^WGStemn^NONEde PLNOMSUF ;
 
 
 ! vim: set ft=xfst-lexc:
