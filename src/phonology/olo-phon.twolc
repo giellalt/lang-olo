@@ -101,7 +101,8 @@ K1:k
 %^ILoss:0  !!= @CODE@  the i => 0 __reboi reboloi__
 
 ! Vowel raising
-%^RVow:0
+%^RVow:0   !!= _@CODE@_ 
+%^VowRM:0   !!= _@CODE@_ vowel removal, e.g. with superlative
 
 %- !Hyphen in  constructions 
 %>
@@ -422,6 +423,10 @@ a:0 <=>
 !€# koira%>i%>en
 !€0 koir00i0en
 !€$ koira0j0en
+ _ %^VowRM: %> i ;
+!€# vahna%^VowRM%>in
+!€0 vahn000in
+
 !! }}}
 
 !! !!iToj between vowels
@@ -699,6 +704,14 @@ p:0 <=> Vow _ s  %^KS2S:0  ;
 "d:0"
 !! __@RULENAME@__   pidiä:piän
 d:0 <=>  # Cns* [ i | a: | o | ä ] _ [ ä: | a: | e: | i ] %^WGStem:0  ;
+!€# pidä%^WGStem%>n
+!€0 pi0ä00n
+
+"s:0"
+!! __@RULENAME@__   
+ s:0 <=> # Cns* [ u ] s _ [ ä: | a: | e: | i ] %^WGStem:0  ;
+!€# bussa%^WGStem%>l
+!€# bus0a00l
 
 
 !"Disallow V3 after two consecutive realized vowels"
@@ -706,3 +719,5 @@ d:0 <=>  # Cns* [ i | a: | o | ä ] _ [ ä: | a: | e: | i ] %^WGStem:0  ;
 
 "Disallow a:u before a and %> i"
 a:u /<= _ a: %> i ;
+
+
