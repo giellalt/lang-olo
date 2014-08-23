@@ -36,6 +36,8 @@
 
  %^ILoss:0    the i => 0 __reboi reboloi__
 
+ _%^RVow:0   _ 
+ _%^VowRM:0   _ vowel removal, e.g. with superlative
 
 
 
@@ -108,12 +110,12 @@ __e:0__
 
 __%{ui%}:u__
 {{{
-* %^ILoss:0   ! imperative forms
+* %^VowRM:0    ! imperative forms
 }}}
 
 __%{ui%}:i__
 {{{
-* %^ILoss:0   ! imperative forms
+* %^VowRM:0    ! imperative forms
 }}}
 
 __A2:a__
@@ -159,6 +161,7 @@ __ä:ö word final__
 __a:0 in suaja:sai__
 {{{
  *  a _ %> i ;  Vowel shortening before subsequent "i"
+
 }}}
 
 !!iToj between vowels
@@ -299,6 +302,10 @@ __p:0 in lapsi__
 
 !!Consonant loss
 __d:0__   pidiä:piän
+
+__s:0__   
+
+
 
 
 
