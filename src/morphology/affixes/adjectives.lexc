@@ -47,19 +47,27 @@ LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
 
 LEXICON A_OZA !!= @CODE@ oza:oza
 +A: NMN_OZA ;
++A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
 
 LEXICON A_SÄYNÄ !!= @CODE@ säynä:säynä
 +A: NMN_SÄYNÄ ;
++A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
 
 LEXICON A_KALA !!= @CODE@ kala:kala
 +A: NMN_KALA ;
++A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
 
 LEXICON A_KOIVU !!= @CODE@ koivu:koivu
 +A:        NMN_KOIVU ;
++A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
 +A+Der/in+Superl:vi NMN_ENIN        ;
 
 LEXICON A_RUNO
 +A:	NMN_RUNO ;
++A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
 +A+Der/in+Superl:vi NMN_ENIN        ;
 
 LEXICON A_PAPPI !!= @CODE@ pappi:pappi
@@ -70,6 +78,8 @@ LEXICON A_ARTELI !!= @CODE@
 
 LEXICON A_ALUS !!= @CODE@ alus:aluks
 +A: NMN_ALUS   ;
++A+Der/mbi+Comp:e%>m^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:i NMN_ENIN        ;
 
 LEXICON A_SUALIŠ !!= @CODE@ suališ:suali
 +A:	 NMN_SUALIŠ ;
