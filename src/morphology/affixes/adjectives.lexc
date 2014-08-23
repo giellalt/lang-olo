@@ -88,13 +88,17 @@ LEXICON A_OLUT !!= @CODE@ olut:olu
 LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
 +A: NMN_PÄIVY ;
 +A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
 
 LEXICON A_MUARJU !!= @CODE@ muarju:muarja
 +A:	NMN_MUARJU ;
++A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
 
 LEXICON A_KOIRU
 +A: NMN_PÄIVY ;
 +A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
 
 
 LEXICON A_VALGEI !!= @CODE@ valgei:valge
