@@ -865,10 +865,10 @@ LEXICON NMN_MUARJU-SG
 +Sg: Noun-NB-01 ;
 LEXICON NMN_MUARJU-PL
  PLNOMSUF ;
-:%>i PLGENSUF_N ; ! the plural comitative is declined here
-:%>i PLPARSUF_Zero ;
-:%>i PLINSSUF ;
-+Pl:%>i Noun-NB-01 ;
+:%^A2O%>i PLGENSUF_N ; ! the plural comitative is declined here
+:%^A2O%>i PLPARSUF_Zero ;
+:%^A2O%>i PLINSSUF ;
++Pl:%^A2O%>i Noun-NB-01 ;
 
 LEXICON NMN_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
         NMN_LAPSI-SG  ;
