@@ -122,6 +122,8 @@ LEXICON PROP_ALUS_PLC !!= @CODE@ Alus:Aluks
 LEXICON PROP_ALUS !!= @CODE@ Alus:Aluks
 +N+Prop: NMN_ALUS ;
 
+LEXICON PROP_KONDII !!= @CODE@ kondii:kondi
++N+Prop: NMN_KONDII ;
 
 ! vim: set ft=xfst-lexc:
 
