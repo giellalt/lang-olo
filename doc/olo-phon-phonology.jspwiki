@@ -100,6 +100,7 @@ __%{aäPar%}:i__
 
 __%{aäPar%}:u__
 
+
 __%{aäPar%}:y__
 
 __%{aäPar%}:0__
@@ -224,7 +225,9 @@ __d:v__
  d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ; 
            u a           _   o       %^WGStem:0 ; 
            a             _   u       %^WGStem:0 ; 
-         [ u o: | u: | ä y: ]   _  [ e | a: ]  (%> i )    %^WGStem:0 ;  
+         [ u o: | u: ]   _  [ e | a: ]  (%> i )    %^WGStem:0 ;  
+         [ ä y: ]   _  [ e | y ]  (%> i )    %^WGStem:0 ;  
+
 }}}
 
 __d:j__  
