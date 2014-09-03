@@ -279,7 +279,10 @@ Rules
 "%{aäPar%}:u"
 !! __@RULENAME@__
 %{aäPar%}:u <=>
- u: %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+ [ u: | %{uy%}:u ] %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+!€# luadi%^WGStem%^E1%>tt%{uy%}%>%{aäPar%}
+!€0 luaji000ttu0u
+
          [ u ] %> _  ;
  	 BT [ Cns: | %{ijPRC%}: ] _ [ %^A2U:0 [ # | %> g i ] | %> %{aäPar%}:a ] ;
 
@@ -547,9 +550,13 @@ g:r <=> r _ [[ a: ] ( %> i )| i | e ] %^WGStem:0 ;
 d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ; !!= @CODE@
           u a           _   o       %^WGStem:0 ; !!= @CODE@
           a             _   u       %^WGStem:0 ; !!= @CODE@
-        [ u o: | u: | ä y: ]   _  [ e | a: ]  (%> i )    %^WGStem:0 ; !!= @CODE@ 
+        [ u o: | u: ]   _  [ e | a: ]  (%> i )    %^WGStem:0 ; !!= @CODE@ 
         !€# vuode%^WGStem>n
         !€0 vuvve00n
+        [ ä y: ]   _  [ e | y ]  (%> i )    %^WGStem:0 ; !!= @CODE@ 
+!€# täydy%^WGStem
+!€0 tävvy0
+
 !! }}}
 
 ! luadie:luajitah
@@ -565,12 +572,14 @@ d:j <=> [ u a ] _ [ i ] %^WGStem:0 ;
 ! lʼöydiä:lʼövvä
 "y:v"
 !! __@RULENAME@__
-y:v <=>  [ ö | ä ] _ d: [ ä | e] %^WGStem:0 ;
+y:v <=>  [ ö | ä ] _ d: [ ä | e | y ] %^WGStem:0 ;
+!€# täydy%^WGStem
+!€0 tävvy0
 
 ! soudua:sovva
 "u:v"
 !! __@RULENAME@__
-u:v <=> [ o | u ] _ d: [ a | e ] %^WGStem:0 ;
+u:v <=> [ o | u ] _ d: [ a | e | u ] %^WGStem:0 ;
 
 
 "o:v Lengthening with Ut:vv weakening"
@@ -604,7 +613,7 @@ k:g <=> [ n | l |r ] %> _ (%{ui%}:) %{aäPar%}: ;
 !! __@RULENAME@__  
 !! {{{
 d:r <=>
-     Vow: r _ Vow: (%> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
+     Vow: r _ Vow: ((%^A2O:) %> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
    Vow r %> _ GRC ; !!= @CODE@ purra+Ind+Prs+ScPl3: purrah
 !! }}}
 
@@ -612,7 +621,7 @@ d:r <=>
 !! __@RULENAME@__  
 !! {{{
 d:l <=>
-  Vow: l _ Vow: (%> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
+  Vow: l _ Vow: ((%^A2O:) %> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
   Vow l %> _ GRC ; !!= @CODE@ tulla+Ind+Prs+ScPl3: tullah
 !€# tul%>d%{aäDiph%}%^WGStem
 !€0 tul0la0
@@ -622,7 +631,7 @@ d:l <=>
 !! __@RULENAME@__  
 !! {{{
 d:n <=>
-     Vow: n _ Vow: (%> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
+     Vow: n _ Vow: ((%^A2O:) %> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
   Vow ( %^WGStem:0 %> ) n %> _ GRC ; !!= @CODE@ mennä+Ind+Prs+ScPl3: mennäh
 !€# kanda%^WGStem%^E1%>tt%{aäDiph%}s
 !€0 kanne000ttas
