@@ -208,15 +208,21 @@ LEXICON A_SUURIM !!= @CODE@ suurim:suurim
 
 LEXICON A_KIELI !!= @CODE@ kieli:kiel
 +A:	NMN_KIELI	;
++A+Der/mbi+Comp:em^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:i NMN_ENIN        ;
 
 LEXICON A_VUOZI !!= @CODE@ vuozi:vuot
 +A:	NMN_VUOZI ;
++A+Der/mbi+Comp:%^WGStem%>em^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:%^WGStem%>i NMN_ENIN        ;
 
 LEXICON A_VEZI !!= @CODE@ vezi:vet
 +A:     NMN_VEZI ;
 
 LEXICON A_NIMI !!= @CODE@ nimi:nim
 +A:        NMN_NIMI  ;
++A+Der/mbi+Comp:em^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:i NMN_ENIN        ;
 
 
 !! !TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
