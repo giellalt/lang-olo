@@ -9027,9 +9027,9 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e>
     <lg>
-      <l pos="N">este</l>
+      <l pos="Interj">este</l>
 
       <stg>
         <st Contlex="INTERJ_">este</st>
@@ -9040,9 +9040,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">lampaan kutsuhuuto</t>
+        <t pos="Interj">lampaan kutsuhuuto</t>
 
-        <t pos="N">uitti-uitti</t>
+        <t pos="Interj">uitti-uitti</t>
       </tg>
     </mg>
   </e>
@@ -17269,7 +17269,7 @@
       <l pos="N">ižändy</l>
 
       <stg>
-        <st Contlex="N_PÄIVY">ižän^NONEdä</st>
+        <st Contlex="N_PÄIVY">ižän%^NONEdä</st>
       </stg>
     </lg>
 
@@ -62691,7 +62691,7 @@
       <l pos="N">perehižändy</l>
 
       <stg>
-        <st Contlex="N_PÄIVY">pereh#ižän^NONEdä</st>
+        <st Contlex="N_PÄIVY">pereh#ižän%^NONEdä</st>
       </stg>
     </lg>
 
