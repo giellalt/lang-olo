@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjective - valgei: # Adjective 'white / valkoinen' - full paradigm
+     valgei+N+Sg+Nom: valgie
+     valgei+N+Sg+Gen: valgien
+     valgei+N+Sg+Acc: [valgei, valgien]
+     valgei+N+Sg+Par: valgeidu
+     valgei+N+Sg+Tra: valgiekse
+     valgei+N+Sg+Abe: [valgiettah, valgieta]
+     valgei+N+Sg+Com: valgienke
+     valgei+N+Sg+Ine: valgies
+     valgei+N+Sg+Ela: [valgiespäi, valgies]
+     valgei+N+Sg+Ill: valgieh
+     valgei+N+Sg+Ade: valgiel
+     valgei+N+Sg+Abl: [valgielpäi, valgiel]
+     valgei+N+Sg+All: valgiele
+     valgei+N+Sg+Ess: valgiennu
+     valgei+N+Sg+Ter: valgiessah
+     valgei+N+Sg+Apr: valgielluo
+     valgei+N+Pl+Nom: valgiet
+     valgei+N+Pl+Gen: valgieloin
+     valgei+N+Pl+Acc: valgiet
+     valgei+N+Pl+Par: valgieloi
+     valgei+N+Pl+Tra: valgieloikse
+     valgei+N+Pl+Abe: [valgieloittah, valgieloita]
+     valgei+N+Pl+Com: valgieloinke
+     valgei+N+Pl+Ine: valgielois
+     valgei+N+Pl+Ela: [valgieloispäi, valgielois]
+     valgei+N+Pl+Ill: valgieloih
+     valgei+N+Pl+Ade: valgieloil
+     valgei+N+Pl+Abl: [valgieloilpäi, valgieloil]
+     valgei+N+Pl+All: valgieloile
+     valgei+N+Pl+Ess: valgieloinnu
+     valgei+N+Pl+Ins: valgieloin
+     valgei+N+Pl+Apr: valgieloilluo
+     valgei+N+Sg+Nom+Clt/gi: valgeigi
+     valgei+N+Sg+Gen+Clt/gi: valgiengi
+     valgei+N+Sg+Acc+Clt/gi: [valgeigi, valgiengi]
+     valgei+N+Sg+Par+Clt/gi: valgeidugi
+     valgei+N+Sg+Tra+Clt/gi: valgieksegi
+     valgei+N+Sg+Abe+Clt/gi: [valgiettahgi, valgietagi]
+     valgei+N+Sg+Com+Clt/gi: valgienkegi
+     valgei+N+Sg+Ine+Clt/gi: valgiesgi
+     valgei+N+Sg+Ela+Clt/gi: [valgiespäigi, valgiesgi]
+     valgei+N+Sg+Ill+Clt/gi: valgiehgi
+     valgei+N+Sg+Ade+Clt/gi: valgielgi
+     valgei+N+Sg+Abl+Clt/gi: [valgielpäigi, valgielgi]
+     valgei+N+Sg+All+Clt/gi: valgielegi
+     valgei+N+Sg+Ess+Clt/gi: valgiennugi
+     valgei+N+Sg+Ter+Clt/gi: valgiessahgi
+     valgei+N+Sg+Apr+Clt/gi: valgielluogi
+     valgei+N+Pl+Nom+Clt/gi: valgietgi
+     valgei+N+Pl+Gen+Clt/gi: valgieloingi
+     valgei+N+Pl+Acc+Clt/gi: valgietgi
+     valgei+N+Pl+Par+Clt/gi: valgieloigi
+     valgei+N+Pl+Tra+Clt/gi: valgieloiksegi
+     valgei+N+Pl+Abe+Clt/gi: [valgieloittahgi, valgieloitagi]
+     valgei+N+Pl+Com+Clt/gi: valgieloinkegi
+     valgei+N+Pl+Ine+Clt/gi: valgieloisgi
+     valgei+N+Pl+Ela+Clt/gi: [valgieloispäigi, valgieloisgi]
+     valgei+N+Pl+Ill+Clt/gi: valgieloihgi
+     valgei+N+Pl+Ade+Clt/gi: valgieloilgi
+     valgei+N+Pl+Abl+Clt/gi: [valgieloilpäigi, valgieloilgi]
+     valgei+N+Pl+All+Clt/gi: valgieloilegi
+     valgei+N+Pl+Ess+Clt/gi: valgieloinnugi
+     valgei+N+Pl+Ins+Clt/gi: valgieloingi
+     valgei+N+Pl+Apr+Clt/gi: valgieloilluogi
