@@ -169,7 +169,21 @@ LEXICON PRON-INTERR_KEN-01
 LEXICON PRON-INTERR_KARJALAINE
 +Pron+Interr: NMN_KARJALAINE ;
 
-!! !RELATIVE
+!! !REFLEXIVE PRONOUNS
+LEXICON PRON-REFL_ !!= __@CODE@__ iče:ičče
++Pron+Refl+Abl:%^WGStem%>lpäi K ; 
++Pron+Refl+Ade:%^WGStem%>l K ; 
++Pron+Refl+All:%^WGStem%>le K ;
++Pron+Refl+All+PxSg3:%^WGStem%>lleh K ;
++Pron+Refl+All+PxSg1:%^WGStem%>lleni K ;
++Pron+Refl+All+PxSg3:%^WGStem%>lleh K ;
++Pron+Refl+Ess:%^WGStem%>nny K ;
++Pron+Refl+Nom:%^WGStem K ;
++Pron+Refl+Tra+PxSg3:%^WGStem%>kseh K ;
+!! iččiedäh, iččedäh, iččeh, ičes, iččenäh, iččiedäs, iččeni,
+
+
+!! !RELATIVE PRONOUNS
 LEXICON PRON-REL_KUDAI !!= @CODE@ kudai:kuda
 +Pron+Rel: NMN_KUDAI ;
 
