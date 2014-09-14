@@ -346,7 +346,7 @@
       <l pos="Pron">iče</l>
 
       <stg>
-        <st Contlex="PRON_">iče</st>
+        <st Contlex="PRON-REFL_">ičče</st>
       </stg>
     </lg>
 
@@ -415,7 +415,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="Pron">kel</l>
 
@@ -437,7 +437,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="Pron">ken</l>
 
