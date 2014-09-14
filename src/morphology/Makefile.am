@@ -48,6 +48,7 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/nouns.lexc         \
 			 $(srcdir)/stems/pronouns.lexc      \
 			 $(srcdir)/stems/propernouns.lexc   \
+			 $(srcdir)/stems/propernouns-toponyms.lexc   \
 			 $(srcdir)/stems/quantifiers.lexc   \
 			 $(srcdir)/stems/verbs.lexc
 
@@ -61,6 +62,7 @@ GT_XML_SRCS=\
 			 stems/nouns.xml         \
 			 stems/pronouns.xml      \
 			 stems/propernouns.xml   \
+			 stems/propernouns-toponyms.xml   \
 			 stems/quantifiers.xml   \
 			 stems/verbs.xml
 

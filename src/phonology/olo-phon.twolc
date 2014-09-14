@@ -529,9 +529,11 @@ g:v <=> [ o | u ] _ e %^WGStem:0 ;
 
 "g:l"
 !! __@RULENAME@__  
-g:l <=> l _ [[ a: ] ( %> i )| i | e | u ] %^WGStem:0 ;
+g:l <=> l _ [[ a: ] ((%^A2O:) %> i )| i | e | u ] %^WGStem:0 ;
 !€# sulga%^WGStem>n
 !€0 sulla00n
+!€# jalga%^A2O%>i%^WGStem%>s
+!€0 jallo00i00s
 
 "g:r"
 !! __@RULENAME@__  
