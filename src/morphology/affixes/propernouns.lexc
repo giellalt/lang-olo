@@ -54,6 +54,9 @@ LEXICON PROP_PAPPI-SG !!= @CODE@
 LEXICON PROP_PAPPI-PL !!= @CODE@ 
 +N+Prop: NMN_PAPPI-PL ;
 
+LEXICON PROP-PLC_NIMI !!= @CODE@ nimi:nim
++N+Prop+Plc: NMN_NIMI ;
+
 LEXICON PROP_NIMI !!= @CODE@ nimi:nim
 +N+Prop: NMN_NIMI ;
 
