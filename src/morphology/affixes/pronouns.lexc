@@ -162,9 +162,14 @@ LEXICON PRON-INTERR_ !!= @CODE@ Still requires work
 
 LEXICON PRON-INTERR_KEN !!= @CODE@ ken:ke
 +Pron+Interr+Hum: PRON-INTERR_KEN-01 ;
+
 LEXICON PRON-INTERR_KEN-01
++Sg+All:lle K ;
++Sg+Com:nenke K ;
++Sg+Gen:nen K ;
 +Sg+Nom:n K ;
 +Sg+Par:%>d%{AÄ%} K ;
++Pl+Nom:t K ;
 
 LEXICON PRON-INTERR_KARJALAINE
 +Pron+Interr: NMN_KARJALAINE ;

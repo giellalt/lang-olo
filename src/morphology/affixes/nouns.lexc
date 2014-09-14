@@ -120,6 +120,8 @@ LEXICON N_JÄLGI  !!= @CODE@ jälgi:jälg
 LEXICON N_MUAMO_SUB
 +Err/Sub: N_MUAMO ;
 LEXICON N_MUAMO !!= @CODE@ muamo:muama
+!! Back vowel
+!! No gradation
  N_MUAMO-SG ;
  N_MUAMO-PL ;
 
@@ -147,6 +149,15 @@ LEXICON N_MUARJU-SG
 +N: NMN_MUARJU-SG ;
 LEXICON N_MUARJU-PL
 +N: NMN_MUARJU-PL ;
+
+LEXICON N_AKKU !!= @CODE@ akku:akka
+ N_AKKU-SG ;
+ N_AKKU-PL ;
+
+LEXICON N_AKKU-SG
++N: NMN_AKKU-SG ;
+LEXICON N_AKKU-PL
++N: NMN_AKKU-PL ;
 
 LEXICON N_SULGU !!= @CODE@ sulgu:sulga
  N_KOIRU ;
@@ -830,6 +841,8 @@ LEXICON N_PIENAR-PL
 
 
 LEXICON NMN_MUAMO !!= @CODE@ muamo:muama
+!! Back vowel
+!! No gradation
  NMN_MUAMO-SG ;
  NMN_MUAMO-PL ;
 
@@ -864,6 +877,7 @@ LEXICON NMN_DIÄDÖ-PL
 +Pl:%>i Noun-NB-01 ;
 
 LEXICON NMN_MUARJU !!= @CODE@ muarju:muarja
+!! gradation No
  NMN_MUARJU-SG ;
  NMN_MUARJU-PL ;
 
@@ -874,6 +888,24 @@ LEXICON NMN_MUARJU-SG
  SGPARSUF_A2 ;
 +Sg: Noun-NB-01 ;
 LEXICON NMN_MUARJU-PL
+ PLNOMSUF ;
+:%^A2O%>i PLGENSUF_N ; ! the plural comitative is declined here
+:%^A2O%>i PLPARSUF_Zero ;
+:%^A2O%>i PLINSSUF ;
++Pl:%^A2O%>i Noun-NB-01 ;
+
+LEXICON NMN_AKKU !!= @CODE@ akku:akka
+!! gradation Yes
+ NMN_AKKU-SG ;
+ NMN_AKKU-PL ;
+
+LEXICON NMN_AKKU-SG
+:%^A2U SGNOMSUF ;
+ SGNOM/PXSP3 ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+LEXICON NMN_AKKU-PL
  PLNOMSUF ;
 :%^A2O%>i PLGENSUF_N ; ! the plural comitative is declined here
 :%^A2O%>i PLPARSUF_Zero ;
@@ -2140,6 +2172,7 @@ LEXICON NMN_ABRAMOV-PL
 
 
 !! !Singular suffixes
+!! 
 LEXICON SGGENSUF
 +Sg+Gen:%^WGStem%>n K ;
 +Sg+Acc:%^WGStem%>n K ;
