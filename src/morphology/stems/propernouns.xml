@@ -690,7 +690,7 @@
       <l pos="N" type="Prop">Anuksenlinnu</l>
 
       <stg>
-        <st Contlex="PROP_PÄIVY">Anuksenlinna</st>
+        <st Contlex="PROP_MUARJU">Anuksen#linna</st>
       </stg>
     </lg>
 
@@ -1177,24 +1177,6 @@
 
   <e>
     <lg>
-      <l pos="N" type="Prop">Carelia</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Carelia</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N" type="Prop">Cikin</l>
 
       <stg>
@@ -1663,24 +1645,6 @@
 
   <e>
     <lg>
-      <l pos="N" type="Prop">Estonia</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Estonia</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N" type="Prop">Fedolov</l>
 
       <stg>
@@ -1847,24 +1811,6 @@
 
       <stg>
         <st Contlex="PROP_RUS-IN_SUR">Fomin</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Fukusima</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Fukusima</st>
       </stg>
     </lg>
 
@@ -2387,24 +2333,6 @@
 
       <stg>
         <st Contlex="PROP_RUS-V_SUR">Haritonov</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Hattula</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Hattula</st>
       </stg>
     </lg>
 
@@ -3227,24 +3155,6 @@
 
   <e>
     <lg>
-      <l pos="N" type="Prop">Jessoilu</l>
-
-      <stg>
-        <st Contlex="PROP_MUARJU_PLC">Jessoila</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop">Jessoila</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N" type="Prop">Jevdokija</l>
 
       <stg>
@@ -3339,24 +3249,6 @@
 
       <stg>
         <st Contlex="PROP_KALA_FEM">Jolina</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Joškar-Ola</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Joškar-Ola</st>
       </stg>
     </lg>
 
@@ -3551,24 +3443,6 @@
 
   <e>
     <lg>
-      <l pos="N" type="Prop">Kalevala</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Kalevala</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop">Kalevala</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N" type="Prop">Kallijev</l>
 
       <stg>
@@ -3609,42 +3483,6 @@
 
       <stg>
         <st Contlex="PROP_RUS-IN_SUR">Karakin</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Karelia</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Karelia</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Karelija</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Karelija</st>
       </stg>
     </lg>
 
@@ -4387,24 +4225,6 @@
 
       <stg>
         <st Contlex="PROP_RUS-V_SUR">Kordʼukov</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Korela</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Korela</st>
       </stg>
     </lg>
 
@@ -5359,24 +5179,6 @@
 
       <stg>
         <st Contlex="PROP_RUS-IN_SUR">Lukin</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Lukomorja</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Lukomorja</st>
       </stg>
     </lg>
 
@@ -7239,24 +7041,6 @@
 
   <e>
     <lg>
-      <l pos="N" type="Prop">Pohjola</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Pohjola</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N" type="Prop">Polikarpov</l>
 
       <stg>
@@ -7539,42 +7323,6 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Priäžä</l>
-
-      <stg>
-        <st Contlex="PROP_OZA_PLC">Priäžä</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop">Prääsä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Priäžä</l>
-
-      <stg>
-        <st Contlex="PROP_">Priäžä</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop">Prääsä</t>
       </tg>
     </mg>
   </e>
@@ -7887,24 +7635,6 @@
 
   <e>
     <lg>
-      <l pos="N" type="Prop">Repolʼa</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Repolʼa</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N" type="Prop">Ribakov</l>
 
       <stg>
@@ -8031,24 +7761,6 @@
 
   <e>
     <lg>
-      <l pos="N" type="Prop">Rossija</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Rossija</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N" type="Prop">Roza</l>
 
       <stg>
@@ -8143,24 +7855,6 @@
 
       <stg>
         <st Contlex="PROP_RUS-V_SUR">Saburov</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Saha-Jakutija</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Saha-Jakutija</st>
       </stg>
     </lg>
 
@@ -9493,24 +9187,6 @@
 
   <e>
     <lg>
-      <l pos="N" type="Prop">Tuksa</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Tuksa</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N" type="Prop">Tulemjärvi</l>
 
       <stg>
@@ -9595,24 +9271,6 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Tver</l>
-
-      <stg>
-        <st Contlex="PROP_PAPPI_PLC">Tver</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop">Tver</t>
       </tg>
     </mg>
   </e>
@@ -10109,24 +9767,6 @@
 
   <e>
     <lg>
-      <l pos="N" type="Prop">Veškelys</l>
-
-      <stg>
-        <st Contlex="PROP_ALUS_PLC">Veškelyks</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop">Veskelys</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N" type="Prop">Vieljärvi</l>
 
       <stg>
@@ -10157,32 +9797,6 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop">Vieljärvi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Viena</l>
-
-      <stg>
-        <st Contlex="PROP_KALA_PLC">Viena</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop">Viena, Vienan Karjala</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop">vanh. Arkangeli eli Viena</t>
       </tg>
     </mg>
   </e>
