@@ -449,6 +449,9 @@ Livvi nouns inflect in cases.
 !TWO-SYLLABLE VOWEL-FINAL STEMS
  LEXICON N_PAPPI  pappi:pappi
 
+ LEXICON N_LEIRI  leiri:leiri
+Gradation No
+
  LEXICON N_VIGA  viga:viga
 
  LEXICON N_KALA  kala:kala
@@ -971,6 +974,9 @@ Yaml: __pada__
 
 
  LEXICON NMN_PAPPI  pappi:pappi
+
+ LEXICON NMN_LEIRI  leiri:leiri
+Gradation No
 
  LEXICON NMN_UKSI  uksi:uks
 
@@ -1689,7 +1695,7 @@ __čToZero__
 
 __kToZero__  aika: ajan
 {{{
-*   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  lʼykätä:lʼykkä
+
 }}}
 
 __gToZero__  aika: ajan
