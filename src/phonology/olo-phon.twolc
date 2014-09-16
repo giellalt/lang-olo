@@ -141,7 +141,7 @@ Cns = b c č d f g h j k l m n p r s ş š t v z ƶ ž
 
 Letters = Vow Cns ;
 
-Dummy = %^ILoss %^KS2S %^WGStem %^E1 %^SyllBound  %^VOICE %> ;
+Dummy = %^ILoss %^KS2S %^WGStem %^E1 %^SyllBound  %^VOICE %> %^NONE ;
 
 
 Definitions
@@ -456,7 +456,7 @@ a:o <=> # Cns* [[ a | i | e ] (u|i)| u a ] [ Cns* (%^NONE:) Cns: ] _ %> i: ( %^W
  a:e <=> _ (%^WGStem:0) %^E1:0 ;
 !€# kanda%^WGStem%^E1%>tt%{aäDiph%}s
 !€0 kanne000ttas
-!€# kirjava%^E1%>m^NONEb
+!€# kirjava%^E1%>m%^NONEb
 !€0 kirjave00m0b
 
 "ä:e piettih and in comparatives"
@@ -664,7 +664,12 @@ n:s <=> s %> _ (%{uy%}:) (%^WGStem:)  ;
 !! __@RULENAME@__  aika: ajan
 !! {{{
 k:0 <=> _ s %^KS2S:0 ;
-        _ k Vow %^WGStem:0 ; !! * @CODE@ lʼykätä:lʼykkä
+        _ k [ Vow | Vow: %^A2O: %> i ] %^WGStem:0 ;
+!€# lʼykkä%^WGStem%>t%{AÄ%}
+!€0 lʼy0kä00tä
+!€# abuniekka%^A2O%>i%>l
+!€0 abunie0ko00i0l
+
 !! }}}
 
 "gToZero"
@@ -720,9 +725,9 @@ d:0 <=>  # Cns* [ i | a: | o | ä ] _ [ ä: | a: | e: | i ] %^WGStem:0  ;
 
 "s:0"
 !! __@RULENAME@__   
- s:0 <=> # Cns* [ u ] s _ [ ä: | a: | e: | i ] %^WGStem:0  ;
+ s:0 <=> # Cns* [ u | u a ] _ s [ ä: | a: | e: | i ] %^WGStem:0  ;
 !€# bussa%^WGStem%>l
-!€# bus0a00l
+!€0 bu0sa00l
 
 
 !"Disallow V3 after two consecutive realized vowels"
