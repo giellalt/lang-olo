@@ -1252,14 +1252,10 @@ LEXICON NMN_VALGEI-SG
 +Sg:%>e Noun-NB-01 ;
 LEXICON NMN_VALGEI-PL
 :%>e PLNOMSUF	;
-:%>i PLGENSUF_EN ; ! the plural comitative is declined here
-:%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-+Pl:il%{oö%}i Noun-NB-01 ;
+:%>el%{oö%}i PLGENSUF_N ;
+:%>el%{oö%}i PLPARSUF_Zero ;
+:%>el%{oö%}i PLINSSUF ;
++Pl:%>el%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_RAHMANNOI !!= @CODE@ rahmannoi:rahmannoi
 	NMN_RAHMANNOI-SG	;
