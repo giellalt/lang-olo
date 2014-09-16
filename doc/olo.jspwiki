@@ -255,6 +255,7 @@ flag diacritics to restrict morhpological combinatorics:
  *    nouns   ;	     
  *    pronouns    ;     
  *    propernouns    ;  
+ *    propernouns-toponyms    ;  
  *    quantifiers    ;  
  *    verbs	  ;	     
  *  Exceptions ;  
@@ -356,6 +357,7 @@ the comparatives and superlatives are supletive
  LEXICON A_VALGEI  valgei:valge
 
  LEXICON A_RAHMANNOI  rahmannoi:rahmannoi
+
 
 
 
@@ -474,12 +476,17 @@ Livvi nouns inflect in cases.
  LEXICON N_JÄLGI   jälgi:jälg
 
  LEXICON N_MUAMO  muamo:muama
+Back vowel
+No gradation
 
 
  LEXICON N_DIÄDÖ  diädö:diädä
 
 
  LEXICON N_MUARJU  muarju:muarja
+
+
+ LEXICON N_AKKU  akku:akka
 
 
  LEXICON N_SULGU  sulgu:sulga
@@ -589,6 +596,10 @@ Livvi nouns inflect in cases.
 
 
  LEXICON N_SAMMAL  sammal:sammal
+
+
+
+ LEXICON N_TVER  tver:tver
 
 
 
@@ -712,12 +723,19 @@ Livvi nouns inflect in cases.
 
 
  LEXICON NMN_MUAMO  muamo:muama
+Back vowel
+No gradation
 
 
  LEXICON NMN_DIÄDÖ  diädö:diädä
 
 
  LEXICON NMN_MUARJU  muarju:muarja
+gradation No
+
+
+ LEXICON NMN_AKKU  akku:akka
+gradation Yes
 
 
  LEXICON NMN_LAPSI  lapsi:laps lapsi:laps
@@ -971,6 +989,9 @@ Yaml: __pada__
  LEXICON NMN_SAMMAL  sammal:sammal
 
 
+ LEXICON NMN_TVER  tver:tver
+
+
  LEXICON NMN_VANUIN  vanuin:vanui
 
 
@@ -1001,6 +1022,7 @@ Yaml: __pada__
 
 
 !Singular suffixes
+
 
 
 
