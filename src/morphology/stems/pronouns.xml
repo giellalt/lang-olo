@@ -7,6 +7,55 @@
   <e>
     <lg>
       <l pos="Pron">kai</l>
+
+      <stg>
+        <st Contlex="PRON_">kai</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Pron"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">kaikki</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">koko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">meigäläine</l>
+
+      <stg>
+        <st Contlex="PRON_KARJALAINE">meigälä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">meikäläinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">kai</l>
+
       <stg>
         <st Contlex="PRON_KAI">kai</st>
       </stg>
