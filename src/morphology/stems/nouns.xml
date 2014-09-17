@@ -1239,7 +1239,7 @@
       <l pos="N">aittu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">aitta</st>
+        <st Contlex="N_AKKU">aitta</st>
       </stg>
     </lg>
 
@@ -3295,7 +3295,7 @@
       <l pos="N">anekdottu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">anekdotta</st>
+        <st Contlex="N_AKKU">anekdotta</st>
       </stg>
     </lg>
 
@@ -3591,7 +3591,7 @@
       <l pos="N">apparuattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">apparuatta</st>
+        <st Contlex="N_AKKU">apparuatta</st>
       </stg>
     </lg>
 
@@ -5567,7 +5567,7 @@
       <l pos="N">avtomuattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">avtomuatta</st>
+        <st Contlex="N_AKKU">avtomuatta</st>
       </stg>
     </lg>
 
@@ -6021,7 +6021,7 @@
       <l pos="N">bakalavriattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">bakalavriatta</st>
+        <st Contlex="N_AKKU">bakalavriatta</st>
       </stg>
     </lg>
 
@@ -6075,7 +6075,7 @@
       <l pos="N">baliettu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">balietta</st>
+        <st Contlex="N_AKKU">balietta</st>
       </stg>
     </lg>
 
@@ -6467,7 +6467,7 @@
       <l pos="N">barhattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">barhatta</st>
+        <st Contlex="N_AKKU">barhatta</st>
       </stg>
     </lg>
 
@@ -7291,7 +7291,7 @@
       <l pos="N">bohattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">bohatta</st>
+        <st Contlex="N_AKKU">bohatta</st>
       </stg>
     </lg>
 
@@ -7299,13 +7299,30 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">rikas</t>
-
-        <t pos="N">vauras</t>
-
-        <t pos="N">varakas</t>
 
         <t pos="N">pohatta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">bohattu</l>
+
+      <stg>
+        <st Contlex="A_AKKU">bohatta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">rikas</t>
+
+        <t pos="A">vauras</t>
+
+        <t pos="A">varakas</t>
       </tg>
     </mg>
   </e>
@@ -8667,7 +8684,7 @@
       <l pos="N">bukiettu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">bukietta</st>
+        <st Contlex="N_AKKU">bukietta</st>
       </stg>
     </lg>
 
@@ -9673,7 +9690,7 @@
       <l pos="N">bʼudžettu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">bʼudžetta</st>
+        <st Contlex="N_AKKU">bʼudžetta</st>
       </stg>
     </lg>
 
@@ -9765,7 +9782,7 @@
       <l pos="N">dekriettu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">dekrietta</st>
+        <st Contlex="N_AKKU">dekrietta</st>
       </stg>
     </lg>
 
@@ -9821,7 +9838,7 @@
       <l pos="N">deleguattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">deleguatta</st>
+        <st Contlex="N_AKKU">deleguatta</st>
       </stg>
     </lg>
 
@@ -9933,7 +9950,7 @@
       <l pos="N">deputuattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">deputuatta</st>
+        <st Contlex="N_AKKU">deputuatta</st>
       </stg>
     </lg>
 
@@ -12362,7 +12379,7 @@
       <l pos="N">eksponuattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">eksponuatta</st>
+        <st Contlex="N_AKKU">eksponuatta</st>
       </stg>
     </lg>
 
@@ -15123,7 +15140,7 @@
       <l pos="N">gruamottu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">gruamotta</st>
+        <st Contlex="N_AKKU">gruamotta</st>
       </stg>
     </lg>
 
@@ -17745,7 +17762,7 @@
       <l pos="N">hienožiivattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">hieno#žiivatta</st>
+        <st Contlex="N_AKKU">hieno#žiivatta</st>
       </stg>
     </lg>
 
@@ -22309,7 +22326,7 @@
       <l pos="N">instituuttu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">instituutta</st>
+        <st Contlex="N_AKKU">instituutta</st>
       </stg>
     </lg>
 
@@ -22389,7 +22406,7 @@
       <l pos="N">internettu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">internetta</st>
+        <st Contlex="N_AKKU">internetta</st>
       </stg>
     </lg>
 
@@ -26531,7 +26548,7 @@
       <l pos="N">järjeständykomitiettu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">järjeständykomitietta</st>
+        <st Contlex="N_AKKU">järjeständykomitietta</st>
       </stg>
     </lg>
 
@@ -29117,7 +29134,7 @@
       <l pos="N">kandiduattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">kandiduatta</st>
+        <st Contlex="N_AKKU">kandiduatta</st>
       </stg>
     </lg>
 
@@ -38597,7 +38614,7 @@
       <l pos="N">komitiettu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">komitietta</st>
+        <st Contlex="N_AKKU">komitietta</st>
       </stg>
     </lg>
 
@@ -42050,7 +42067,7 @@
       <l pos="N">kulʼtuurukomitiettu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">kulʼtuuru#komitietta</st>
+        <st Contlex="N_AKKU">kulʼtuuru#komitietta</st>
       </stg>
     </lg>
 
@@ -48028,7 +48045,7 @@
       <l pos="N">lauttu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">lautta</st>
+        <st Contlex="N_AKKU">lautta</st>
       </stg>
     </lg>
 
@@ -53533,7 +53550,7 @@
       <l pos="N">malittu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">malitta</st>
+        <st Contlex="N_AKKU">malitta</st>
       </stg>
     </lg>
 
@@ -59195,7 +59212,7 @@
       <l pos="N">nahruattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">nahruatta</st>
+        <st Contlex="N_AKKU">nahruatta</st>
       </stg>
     </lg>
 
@@ -59213,7 +59230,7 @@
       <l pos="N">nahruattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">nahruatta</st>
+        <st Contlex="N_AKKU">nahruatta</st>
       </stg>
     </lg>
 
@@ -59591,7 +59608,7 @@
       <l pos="N">nekruttu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">nekrutta</st>
+        <st Contlex="N_AKKU">nekrutta</st>
       </stg>
     </lg>
 
@@ -63602,7 +63619,7 @@
       <l pos="N">ohottu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">ohotta</st>
+        <st Contlex="N_AKKU">ohotta</st>
       </stg>
     </lg>
 
@@ -64170,7 +64187,7 @@
       <l pos="N">olhottu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">olhota</st>
+        <st Contlex="N_AKKU">olhota</st>
       </stg>
     </lg>
 
@@ -71518,7 +71535,7 @@
       <l pos="N">pdf-formuattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">pdf-#formuatta</st>
+        <st Contlex="N_AKKU">pdf-#formuatta</st>
       </stg>
     </lg>
 
@@ -71576,7 +71593,7 @@
       <l pos="N">pedagouguinstituuttu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">pedagougu#instituutta</st>
+        <st Contlex="N_AKKU">pedagougu#instituutta</st>
       </stg>
     </lg>
 
@@ -71688,7 +71705,7 @@
       <l pos="N">pedinstituuttu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">pedinstituutta</st>
+        <st Contlex="N_AKKU">pedinstituutta</st>
       </stg>
     </lg>
 
@@ -74200,7 +74217,7 @@
       <l pos="N">piha-aittu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">piha-aitta</st>
+        <st Contlex="N_AKKU">piha-aitta</st>
       </stg>
     </lg>
 
@@ -77000,7 +77017,7 @@
       <l pos="N">planiettu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">planietta</st>
+        <st Contlex="N_AKKU">planietta</st>
       </stg>
     </lg>
 
@@ -87618,7 +87635,7 @@
       <l pos="N">rospuuttu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">rospuutta</st>
+        <st Contlex="N_AKKU">rospuutta</st>
       </stg>
     </lg>
 
@@ -87636,7 +87653,7 @@
       <l pos="N">rospuuttu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">rospuutta</st>
+        <st Contlex="N_AKKU">rospuutta</st>
       </stg>
     </lg>
 
@@ -91120,7 +91137,7 @@
       <l pos="N">saldattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">saldatta</st>
+        <st Contlex="N_AKKU">saldatta</st>
       </stg>
     </lg>
 
@@ -91138,7 +91155,7 @@
       <l pos="N">saldattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">saldatta</st>
+        <st Contlex="N_AKKU">saldatta</st>
       </stg>
     </lg>
 
@@ -100297,7 +100314,7 @@
       <l pos="N">suovattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">suovatta</st>
+        <st Contlex="N_AKKU">suovatta</st>
       </stg>
     </lg>
 
@@ -101609,7 +101626,7 @@
       <l pos="N">svuattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">svuatta</st>
+        <st Contlex="N_AKKU">svuatta</st>
       </stg>
     </lg>
 
@@ -105359,7 +105376,7 @@
       <l pos="N">tauttu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">tautta</st>
+        <st Contlex="N_AKKU">tautta</st>
       </stg>
     </lg>
 
@@ -112770,7 +112787,7 @@
       <l pos="N">ukontauttu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">ukon#tautta</st>
+        <st Contlex="N_AKKU">ukon#tautta</st>
       </stg>
     </lg>
 
@@ -113042,7 +113059,7 @@
       <l pos="N">ulgoaittu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">ulgo#aitta</st>
+        <st Contlex="N_AKKU">ulgo#aitta</st>
       </stg>
     </lg>
 
@@ -113060,7 +113077,7 @@
       <l pos="N">ulgoaittu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">ulgo#aitta</st>
+        <st Contlex="N_AKKU">ulgo#aitta</st>
       </stg>
     </lg>
 
@@ -123204,7 +123221,7 @@
       <l pos="N">vuattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">vuatta</st>
+        <st Contlex="N_AKKU">vuatta</st>
       </stg>
     </lg>
 
@@ -126140,7 +126157,7 @@
       <l pos="N">ziivattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">ziivatta</st>
+        <st Contlex="N_AKKU">ziivatta</st>
       </stg>
     </lg>
 
@@ -126194,7 +126211,7 @@
       <l pos="N">zobottu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">zobota</st>
+        <st Contlex="N_AKKU">zobota</st>
       </stg>
     </lg>
 
@@ -131966,7 +131983,7 @@
       <l pos="N">žiittu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">žiitta</st>
+        <st Contlex="N_AKKU">žiitta</st>
       </stg>
     </lg>
 
@@ -131984,7 +132001,7 @@
       <l pos="N">žiittu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">žiitta</st>
+        <st Contlex="N_AKKU">žiitta</st>
       </stg>
     </lg>
 
@@ -132132,43 +132149,7 @@
       <l pos="N">žiivattu</l>
 
       <stg>
-        <st Contlex="N_MUARJU">žiivatta</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">kotieläin, erit. lehmä, lammas t. hevonen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">žiivattu</l>
-
-      <stg>
-        <st Contlex="N_MUARJU">žiivatta</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">kotieläin, lehmä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">žiivattu</l>
-
-      <stg>
-        <st Contlex="N_MUARJU">žiivatta</st>
+        <st Contlex="N_AKKU">žiivatta</st>
       </stg>
     </lg>
 
