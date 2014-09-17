@@ -110,6 +110,18 @@ LEXICON N_RUNO-SG
 LEXICON N_RUNO-PL
 +N: NMN_RUNO-PL   ;
 
+LEXICON N_RUADO_SUB
++Err/Sub: N_RUADO ;
+LEXICON N_RUADO !!= @CODE@ ruado:ruado
+!! Gradation Yes
+	 N_RUADO-SG ;
+	 N_RUADO-PL ;
+
+LEXICON N_RUADO-SG
++N: NMN_RUADO-SG   ;
+LEXICON N_RUADO-PL
++N: NMN_RUADO-PL   ;
+
 LEXICON N_KYNDÖ_SUB
 +Err/Sub: N_KYNDÖ ;
 LEXICON N_KYNDÖ !!= @CODE@ kyndö:kyndö
@@ -1396,6 +1408,23 @@ LEXICON NMN_RUNO-SG
 	SGGENSUF ;
 +Sg: 	Noun-NB-01 ;
 LEXICON NMN_RUNO-PL
+ PLNOMSUF ;
+:l%{oö%}i PLGENSUF_N ;
+:l%{oö%}i PLPARSUF_Zero ;
+:l%{oö%}i PLINSSUF ;
++Pl:l%{oö%}i Noun-NB-01 ;
+
+LEXICON NMN_RUADO !!= @CODE@ ruado:ruado
+!! Gradation Yes
+	NMN_RUADO-SG ;
+	NMN_RUADO-PL ;
+
+LEXICON NMN_RUADO-SG
+	SGNOMSUF ;
+ 	SGPARSUF_A2 ;
+	SGGENSUF ;
++Sg: 	Noun-NB-01 ;
+LEXICON NMN_RUADO-PL
  PLNOMSUF ;
 :l%{oö%}i PLGENSUF_N ;
 :l%{oö%}i PLPARSUF_Zero ;
