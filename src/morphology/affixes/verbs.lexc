@@ -103,6 +103,9 @@ LEXICON  V_PIDIÄ !!= @CODE@ pidiä:pidä
 LEXICON  V_PIDIÄ-SG3 !!= @CODE@ pidiä:pidä
 +V: V-VV_01 ;
 
+LEXION V_KIRJUTTUA !!= @CODE@ kirjuttua:kirjutta
+!! 3-syllable stem
+ V-3SYLL_KIRJUTTUA ;
 
 !! !VERBS OF FINNISH TYPE 2 in dA
 
@@ -358,6 +361,48 @@ LEXICON V-VV_01
  ACTPRSPRC_OSTAI ;
  PSSPRSPRC_EttAvU ;
  ACTPRFPRC_nUH ;
+ PSSPRFPRC_EttU ;
+
+ M-INF        ;
++Inf:%>%{aäDiph%} K ;
+
+LEXICON V-3SYLL_KIRJUTTUA !!= __@CODE@__  kirjuttua:kirjutta
+! V1 3-syllable stem 
+! This verb type has two final vowels in the first infinitive
+ INDPRSSG1 ;
+ INDPRSSG2 ;
+ INDPRSSG3 ;
+ INDPRSPL1 ;
+ INDPRSPL2 ;
+ INDPRSPL3_EtAh ;
+ INDPRSCONNEG_WEAK ;
+
+ INDPRTSG1 ;
+ INDPRTSG2 ;
+ INDPRTSG3 ;
+ INDPRTPL1 ;
+ INDPRTPL2 ;
+ INDPRTPL3_Ettih ;
+!+Ind+Prt+ConNeg:%>n%{uy%}h K ;
+ INDPRTCONNEG_nUh ;
+ INDPRTCONNEG_nnUh ;
+ INDPRTCONNEGPL3_EttU ;
+
+ CONDPRS_S  ;
+ CONDPRSPL3_EttAs ;
+ CONDPRT_nUs ;
+ CONDPRTPL3_EtAnnUs ;
+
+ POT_N ;
+ POTPL3_EtAnneh ;
+
+ IMPRT_kkA ;
+ IMPRTPL3_EttAhes ;
+
+ ACTPRSPRC_OSTAI ;
+ PSSPRSPRC_EttAvU ;
+ ACTPRFPRC_nUH ;
+ ACTPRFPRC_nnUH ;
  PSSPRFPRC_EttU ;
 
  M-INF        ;
