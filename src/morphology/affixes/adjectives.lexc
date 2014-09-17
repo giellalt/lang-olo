@@ -105,6 +105,11 @@ LEXICON A_MUARJU !!= @CODE@ muarju:muarja
 +A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
 +A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
 
+LEXICON A_AKKU !!= @CODE@ akku:akka
++A:	NMN_AKKU ;
++A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
++A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
+
 LEXICON A_KOIRU
 +A: NMN_PÄIVY ;
 +A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
