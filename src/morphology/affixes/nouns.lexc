@@ -961,10 +961,10 @@ LEXICON NMN_VEZI-SG
 
 LEXICON NMN_VEZI-PL
 :e PLNOMSUF ;
-:%^D2Z%>i PLGENSUF_EN ; ! the plural comitative is declined here
-:%^D2Z%>i PLPARSUF_i ;
-:%^D2Z%>i PLINSSUF ;
-+Pl:%^D2Z%>i Noun-NB-01 ;
+:%^D2Z%>i%>l%{OÖ%}i PLGENSUF_EN ; ! the plural comitative is declined here
+:%^D2Z%>i%>l%{OÖ%}i PLPARSUF_i ;
+:%^D2Z%>i%>l%{OÖ%}i PLINSSUF ;
++Pl:%^D2Z%>i%>l%{OÖ%}i Noun-NB-01 ;
 
 LEXICON NMN_SUZI !!= @CODE@ suzi:su
  NMN_SUZI-SG ;
@@ -978,10 +978,10 @@ LEXICON NMN_SUZI-SG
 
 LEXICON NMN_SUZI-PL
 :ze PLNOMSUF ;
-:z%>i PLGENSUF_EN ; ! the plural comitative is declined here
-:z%>i PLPARSUF_i ;
-:z%>i PLINSSUF ;
-+Pl:z%>i Noun-NB-01 ;
+:z%>i%>l%{OÖ%}i PLGENSUF_EN ; ! the plural comitative is declined here
+:z%>i%>l%{OÖ%}i PLPARSUF_i ;
+:z%>i%>l%{OÖ%}i PLINSSUF ;
++Pl:z%>i%>l%{OÖ%}i Noun-NB-01 ;
 
 !! !NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
 LEXICON NMN_NIMI
