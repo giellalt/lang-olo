@@ -48,14 +48,23 @@ LEXICON N_LEIRI-SG
 LEXICON N_LEIRI-PL
 +N: NMN_LEIRI-PL ;
 
-LEXICON N_VIGA !!= @CODE@ viga:viga
- N_KALA ;
+LEXICON N_PADA !!= @CODE@ pada:pada
+!! Gradation Yes
+	N_PADA-SG  ;
+	N_PADA-PL  ;
+LEXICON N_PADA-SG
++N: NMN_PADA ;
+LEXICON N_PADA-PL
++N: NMN_PADA-PL ;
+
+
 LEXICON N-HUM_KALA
 +N+Hum: NMN_KALA ;
 
 LEXICON N_KALA_SUB
 +Err/Sub: N_KALA ;
 LEXICON N_KALA !!= @CODE@ kala:kala
+!! Gradation No
 	N_KALA-SG  ;
 	N_KALA-PL  ;
 LEXICON N_KALA-SG
@@ -1499,7 +1508,7 @@ LEXICON NMN_MUA-PL
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_KALA !!= @CODE@ kala:kala
-!! Yaml: __pada__
+!! Gradation No
 	NMN_KALA-SG  ; 
 	NMN_KALA-PL  ;
 LEXICON NMN_KALA-SG
@@ -1509,6 +1518,24 @@ LEXICON NMN_KALA-SG
 +Sg: Noun-NB-01 ;
 
 LEXICON NMN_KALA-PL
+ PLNOMSUF ;
+:%>i PLGENSUF_EN ;
+:%>i PLPARSUF_Zero ;
+:%>i PLINSSUF ;
++Pl:%>i Noun-NB-01 ;
+
+LEXICON NMN_PADA !!= @CODE@ pada:pada
+!! Yaml: __pada__
+!! Gradation Yes
+	NMN_PADA-SG  ; 
+	NMN_PADA-PL  ;
+LEXICON NMN_PADA-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_PADA-PL
  PLNOMSUF ;
 :%>i PLGENSUF_EN ;
 :%>i PLPARSUF_Zero ;
