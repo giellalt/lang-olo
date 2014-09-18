@@ -708,6 +708,18 @@ LEXICON N_KEVÄT-SG
 LEXICON N_KEVÄT-PL
 +N: NMN_KEVÄT-PL ;
 
+LEXICON N_TUHAT_SUB
++Err/Sub: N_TUHAT ;
+LEXICON N_TUHAT !!= @CODE@ tuhat:tuha
+ N_TUHAT-SG ;
+ N_TUHAT-PL ;
+
+LEXICON N_TUHAT-SG
++N: NMN_TUHAT-SG ;
+
+LEXICON N_TUHAT-PL
++N: NMN_TUHAT-PL ;
+
 LEXICON N_ARMAS_SUB
 +Err/Sub: N_ARMAS ;
 LEXICON N_ARMAS !!= @CODE@ armas:arma
@@ -925,13 +937,15 @@ LEXICON NMN_AKKU-SG
  SGNOM/PXSP3 ;
  SGGENSUF ;
  SGPARSUF_A2 ;
-+Sg: Noun-NB-01 ;
++Sg:%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Sg: Noun-NB-01-USUALLY-STRONG ;
 LEXICON NMN_AKKU-PL
  PLNOMSUF ;
 :%^A2O%>i PLGENSUF_N ; ! the plural comitative is declined here
 :%^A2O%>i PLPARSUF_Zero ;
 :%^A2O%>i PLINSSUF ;
-+Pl:%^A2O%>i Noun-NB-01 ;
++Pl:%^A2O%>i%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Pl:%^A2O%>i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
         NMN_LAPSI-SG  ;
@@ -1423,7 +1437,8 @@ LEXICON NMN_RUADO-SG
 	SGNOMSUF ;
  	SGPARSUF_A2 ;
 	SGGENSUF ;
-+Sg: 	Noun-NB-01 ;
++Sg:%^WGStem 	Noun-NB-01-USUALLY-WEAK ;
++Sg: 	Noun-NB-01-USUALLY-STRONG ;
 LEXICON NMN_RUADO-PL
  PLNOMSUF ;
 :l%{oö%}i PLGENSUF_N ;
@@ -1858,6 +1873,25 @@ LEXICON NMN_KEVÄT-PL
 :älöi PLINSSUF ;
 +Pl:älöi Noun-NB-01 ;
 
+LEXICON NMN_TUHAT !!= * @CODE@ tuhat:tuha
+!! Gradation No
+ NMN_TUHAT-SG ;
+ NMN_TUHAT-PL ;
+
+LEXICON NMN_TUHAT-SG
+:t SGNOMSUF ;
+:nde SGGENSUF ;
+:t SGPARSUF_dU ;
++Sg:nde Noun-NB-01-USUALLY-WEAK ;
++Sg:nde Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_TUHAT-PL
+:nde  PLNOMSUF ;
+:nzi PLGENSUF_EN ;
+:nzi PLPARSUF_dU ;
+:nzi PLINSSUF ;
++Pl:nzi Noun-NB-01 ;
+
 LEXICON NMN_TULLUT !!= * @CODE@ tullut:tullu
  NMN_TULLUT-SG ;
  NMN_TULLUT-PL ;
@@ -1874,25 +1908,6 @@ LEXICON NMN_TULLUT-PL
 :z%>i PLPARSUF_i ;
 :z%>i PLINSSUF ;
 +Pl:zi Noun-NB-01 ;
-
-
-
-LEXICON NMN_TUHAT !!= * @CODE@ tuhat:tuha
- NMN_TUHAT-SG ;
- NMN_TUHAT-PL ;
-
-LEXICON NMN_TUHAT-SG
-:t SGNOMSUF ;
-:n^NONEde SGGENSUF ;
-:t SGPARSUF_dU ;
-+Sg:n^NONEde Noun-NB-01 ;
-
-LEXICON NMN_TUHAT-PL
-:n^NONEde PLNOMSUF ;
-:nzi PLGENSUF_EN ;
-:nzi PLPARSUF_i ;
-:nzi PLINSSUF ;
-+Pl:nzi Noun-NB-01 ;
 
 
 LEXICON NMN_PEREH !!= @CODE@ pereh:pereh
@@ -2296,6 +2311,26 @@ LEXICON Noun-NB-01
 +Tra:%^WGStem%>kse K ;
 +Prl:%^WGStem%>či K ;
 +Ter:%>ss%{aäPar%}h K ;
+
+LEXICON Noun-NB-01-USUALLY-WEAK
++Ade:%>l K ;
++Abl:%>l K ;
++Abl:%>lpäi K ;
++All:%>le K ;
++Abe:%>tt%{aäPar%}h K ;
++Abe+Err/Sub:%>tt%{aäPar%} K ;
++Abe:%>t%{aäPar%} K ;
++Ela:%>s K ;
++Ela:%>späi K ;
++Ess:%>nn%{uy%} K ;
++Ine:%>s K ;
+!+Ins:%>n K ; 
++Tra:%>kse K ;
++Prl:%>či K ;
+LEXICON Noun-NB-01-USUALLY-STRONG
++Ill:%>h K ;
++Ter:%>ss%{aäPar%}h K ;
+
 
 
 !! !SINGULAR POSSESSA
