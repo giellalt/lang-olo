@@ -454,9 +454,13 @@ Livvi nouns inflect in cases.
  LEXICON N_LEIRI  leiri:leiri
 Gradation No
 
- LEXICON N_VIGA  viga:viga
+ LEXICON N_PADA  pada:pada
+Gradation Yes
+
+
 
  LEXICON N_KALA  kala:kala
+Gradation No
 
  LEXICON N_OZA  oza:oza
 
@@ -467,6 +471,10 @@ Gradation No
 
 
  LEXICON N_KOIVU  koivu:koivu
+
+
+
+ LEXICON N_IDY  idy:idy
 
 
 
@@ -816,6 +824,11 @@ __Adjective comparative examples:__
 
 
 
+ LEXICON NMN_IDY  idy:idy
+Gradation Yes
+
+
+
  LEXICON NMN_LUODO  luodo:luodo
 
 
@@ -879,7 +892,12 @@ Gradation Yes
 
 
  LEXICON NMN_KALA  kala:kala
+Gradation No
+
+
+ LEXICON NMN_PADA  pada:pada
 Yaml: __pada__
+Gradation Yes
 
 
  LEXICON NMN_PESSYH  pessyh
