@@ -39,6 +39,8 @@ LEXICON N_PAPPI-SG
 LEXICON N_PAPPI-PL
 +N: NMN_PAPPI-PL ;
 
+LEXICON N_LEIRI_SUB
++Err/Sub: N_LEIRI ;
 LEXICON N_LEIRI !!= @CODE@ leiri:leiri
 !! Gradation No
 	N_LEIRI-SG ;
@@ -190,6 +192,8 @@ LEXICON N_MUARJU-SG
 LEXICON N_MUARJU-PL
 +N: NMN_MUARJU-PL ;
 
+LEXICON N_AKKU_SUB
++Err/Sub: N_AKKU ;
 LEXICON N_AKKU !!= @CODE@ akku:akka
  N_AKKU-SG ;
  N_AKKU-PL ;
@@ -2040,6 +2044,7 @@ LEXICON NMN_PAPPI-PL
 :%>l%{oö%}i PLPARSUF_Zero ;
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>l%{oö%}i Noun-NB-01 ;
+
 
 LEXICON NMN_LEIRI !!= @CODE@ leiri:leiri
 !! Gradation No
