@@ -1262,13 +1262,15 @@ LEXICON NMN_HUOLETOI-SG
 :%{oö%}i SGNOMSUF ;
 :t%{oö%}m%{aäPar%} SGGENSUF ;
 :t%{oö%}m%{ui%} SGPARSUF_A2 ;
-+Sg:t%{oö%}m%{aäPar%} Noun-NB-01 ;
++Sg:t%{oö%}m%{aäPar%}  Noun-NB-01-USUALLY-WEAK ;
++Sg:t%{oö%}m%{aäPar%} Noun-NB-01-USUALLY-STRONG ;
 LEXICON NMN_HUOLETOI-PL	
 :t%{oö%}m%{aäPar%} PLNOMSUF ;
 :t%{oö%}mi PLGENSUF_EN ;
 :t%{oö%}mi PLPARSUF_i ;
 :t%{oö%}mi PLINSSUF ;
-+Pl:t%{oö%}mi Noun-NB-01 ;
++Pl:t%{oö%}mi  Noun-NB-01-USUALLY-WEAK ;
++Pl:t%{oö%}mi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_KOIRU !!= @CODE@ koiru:koira
 !! Gradation NA
@@ -1280,14 +1282,16 @@ LEXICON NMN_KOIRU-SG
 :%^A2U SGNOMSUF ;
  SGGENSUF ;
  SGPARSUF_A2 ;
-+Sg: Noun-NB-01 ;
++Sg:  Noun-NB-01-USUALLY-WEAK ;
++Sg:  Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_KOIRU-PL
  PLNOMSUF ;
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
-+Pl:%>i Noun-NB-01 ;
++Pl:%>i  Noun-NB-01-USUALLY-WEAK ;
++Pl:%>i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_PÄIVY !!= @CODE@ päivy:päivä
 !! Gradation NA
@@ -1298,14 +1302,16 @@ LEXICON NMN_PÄIVY-SG
 :%^A2U SGNOMSUF ;
  SGGENSUF ;
  SGPARSUF_A2 ;
-+Sg: Noun-NB-01 ;
++Sg:  Noun-NB-01-USUALLY-WEAK ;
++Sg: Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_PÄIVY-PL
  PLNOMSUF ;
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
-+Pl:%>i Noun-NB-01 ;
++Pl:%>i  Noun-NB-01-USUALLY-WEAK ;
++Pl:%>i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_IŽÄNDY !!= @CODE@ ižändy:ižändä
 !! Gradation No
@@ -1317,14 +1323,16 @@ LEXICON NMN_IŽÄNDY-SG
 :%^A2U SGNOMSUF ;
  SGGENSUF ;
  SGPARSUF_A2 ;
-+Sg: Noun-NB-01 ;
++Sg:  Noun-NB-01-USUALLY-WEAK ;
++Sg: Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_IŽÄNDY-PL
  PLNOMSUF ;
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
-+Pl:%>i Noun-NB-01 ;
++Pl:%>i  Noun-NB-01-USUALLY-WEAK ;
++Pl:%>i Noun-NB-01-USUALLY-STRONG ;
 
 
 LEXICON NMN_KOIVU !!= @CODE@ koivu:koivu
