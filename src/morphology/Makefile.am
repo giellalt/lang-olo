@@ -24,6 +24,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/acro.lexc  \
 			 stems/exceptions.lexc  \
 			 stems/punct.lexc  \
+			 stems/rus-Cyrl-2-Lat-propernouns.lexc 	\
 			 affixes/adjectives.lexc  \
 			 affixes/adverbs.lexc  \
 			 affixes/clitics.lexc       \
@@ -31,6 +32,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/pronouns.lexc    \
 			 affixes/propernouns.lexc \
 			 affixes/quantifiers.lexc \
+                         affixes/rus-Cyrl-2-Lat-propernouns.lexc 	\
 			 affixes/verbs.lexc	\
                          stems/adjectives_newwords.lexc \
                          stems/adverbs_newwords.lexc \
