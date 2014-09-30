@@ -32,6 +32,7 @@ LEXICON N_MUA !!= @CODE@ mua:maa
 LEXICON N_PAPPI_SUB
 +Err/Sub: N_PAPPI ;
 LEXICON N_PAPPI !!= @CODE@ pappi:pappi
+!! Gradation Yes
 	N_PAPPI-SG ;
 	N_PAPPI-PL ;
 LEXICON N_PAPPI-SG
@@ -42,7 +43,7 @@ LEXICON N_PAPPI-PL
 LEXICON N_LEIRI_SUB
 +Err/Sub: N_LEIRI ;
 LEXICON N_LEIRI !!= @CODE@ leiri:leiri
-!! Gradation No
+!! Gradation NA
 	N_LEIRI-SG ;
 	N_LEIRI-PL ;
 LEXICON N_LEIRI-SG
@@ -66,7 +67,7 @@ LEXICON N-HUM_KALA
 LEXICON N_KALA_SUB
 +Err/Sub: N_KALA ;
 LEXICON N_KALA !!= @CODE@ kala:kala
-!! Gradation No
+!! Gradation NA
 	N_KALA-SG  ;
 	N_KALA-PL  ;
 LEXICON N_KALA-SG
@@ -111,6 +112,16 @@ LEXICON N_KOIVU-SG
 
 LEXICON N_KOIVU-PL
 +N: NMN_KOIVU-PL        ;
+
+LEXICON N_PUIKKU !!= @CODE@ puikku:puikku
+        N_PUIKKU-SG ;
+        N_PUIKKU-PL ;
+
+LEXICON N_PUIKKU-SG
++N: NMN_PUIKKU-SG        ;
+
+LEXICON N_PUIKKU-PL
++N: NMN_PUIKKU-PL        ;
 
 LEXICON N_IDY !!= @CODE@ idy:idy
         N_IDY-SG ;
@@ -169,7 +180,7 @@ LEXICON N_MUAMO_SUB
 +Err/Sub: N_MUAMO ;
 LEXICON N_MUAMO !!= @CODE@ muamo:muama
 !! Back vowel
-!! No gradation
+!! gradation NA
  N_MUAMO-SG ;
  N_MUAMO-PL ;
 
@@ -211,7 +222,20 @@ LEXICON N_AKKU-SG
 LEXICON N_AKKU-PL
 +N: NMN_AKKU-PL ;
 
+LEXICON N_KNIIGU !!= @CODE@ kniigu:kniiga
+!! Gradation No
+!! VowelHarmony Back
+ N_KNIIGU-SG ;
+ N_KNIIGU-PL ;
+
+LEXICON N_KNIIGU-SG
++N: NMN_KNIIGU-SG ;
+LEXICON N_KNIIGU-PL
++N: NMN_KNIIGU-PL ;
+
 LEXICON N_SULGU !!= @CODE@ sulgu:sulga
+!! Gradation Yes
+!! VowelHarmony	Back
  N_KOIRU ;
 
 LEXICON N_KOIRU_SUB
@@ -221,10 +245,10 @@ LEXICON N_KOIRU !!= @CODE@ koiru:koira
  N_KOIRU-PL ;
 
 LEXICON N_KOIRU-SG
-+N: NMN_PÄIVY-SG ;
++N: NMN_KOIRU-SG ;
 
 LEXICON N_KOIRU-PL
-+N: NMN_PÄIVY-PL ;
++N: NMN_KOIRU-PL ;
 
 LEXICON N_LUODO_SUB
 +Err/Sub: N_LUODO ;
@@ -261,6 +285,18 @@ LEXICON N_PÄIVY-SG
 
 LEXICON N_PÄIVY-PL
 +N: NMN_PÄIVY-PL	;
+
+LEXICON N_IŽÄNDY !!= @CODE@ ižändy:ižändä
+!! Gradation No
+!! Vowel Harmony Front
+	N_IŽÄNDY-SG ;
+	N_IŽÄNDY-PL ;
+
+LEXICON N_IŽÄNDY-SG
++N: NMN_IŽÄNDY-SG	;
+
+LEXICON N_IŽÄNDY-PL
++N: NMN_IŽÄNDY-PL	;
 
 LEXICON N_SIVE_SUB
 +Err/Sub: N_SIVE ;
@@ -906,7 +942,7 @@ LEXICON N_PIENAR-PL
 
 LEXICON NMN_MUAMO !!= @CODE@ muamo:muama
 !! Back vowel
-!! No gradation
+!! gradation NA
  NMN_MUAMO-SG ;
  NMN_MUAMO-PL ;
 
@@ -941,7 +977,7 @@ LEXICON NMN_DIÄDÖ-PL
 +Pl:%>i Noun-NB-01 ;
 
 LEXICON NMN_MUARJU !!= @CODE@ muarju:muarja
-!! gradation No
+!! gradation NA
  NMN_MUARJU-SG ;
  NMN_MUARJU-PL ;
 
@@ -950,13 +986,15 @@ LEXICON NMN_MUARJU-SG
  SGNOM/PXSP3 ;
  SGGENSUF ;
  SGPARSUF_A2 ;
-+Sg: Noun-NB-01 ;
++Sg: Noun-NB-01-USUALLY-WEAK ;
++Sg: Noun-NB-01-USUALLY-STRONG ;
 LEXICON NMN_MUARJU-PL
  PLNOMSUF ;
 :%^A2O%>i PLGENSUF_N ; ! the plural comitative is declined here
 :%^A2O%>i PLPARSUF_Zero ;
 :%^A2O%>i PLINSSUF ;
-+Pl:%^A2O%>i Noun-NB-01 ;
++Pl:%^A2O%>i Noun-NB-01-USUALLY-WEAK ;
++Pl: Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_AKKU !!= @CODE@ akku:akka
 !! gradation Yes
@@ -976,6 +1014,26 @@ LEXICON NMN_AKKU-PL
 :%^A2O%>i PLPARSUF_Zero ;
 :%^A2O%>i PLINSSUF ;
 +Pl:%^A2O%>i%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Pl:%^A2O%>i Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_KNIIGU !!= @CODE@ kniigu:kniiga
+!! gradation No
+ NMN_KNIIGU-SG ;
+ NMN_KNIIGU-PL ;
+
+LEXICON NMN_KNIIGU-SG
+:%^A2U SGNOMSUF ;
+ SGNOM/PXSP3 ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01-USUALLY-WEAK ;
++Sg: Noun-NB-01-USUALLY-STRONG ;
+LEXICON NMN_KNIIGU-PL
+ PLNOMSUF ;
+:%^A2O%>i PLGENSUF_N ; ! the plural comitative is declined here
+:%^A2O%>i PLPARSUF_Zero ;
+:%^A2O%>i PLINSSUF ;
++Pl:%^A2O%>i Noun-NB-01-USUALLY-WEAK ;
 +Pl:%^A2O%>i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
@@ -1212,7 +1270,27 @@ LEXICON NMN_HUOLETOI-PL
 :t%{oö%}mi PLINSSUF ;
 +Pl:t%{oö%}mi Noun-NB-01 ;
 
+LEXICON NMN_KOIRU !!= @CODE@ koiru:koira
+!! Gradation NA
+!! Vowel Harmony Back
+ NMN_KOIRU-SG ;
+ NMN_KOIRU-PL ;
+
+LEXICON NMN_KOIRU-SG
+:%^A2U SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_KOIRU-PL
+ PLNOMSUF ;
+:%>i PLGENSUF_EN ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
++Pl:%>i Noun-NB-01 ;
+
 LEXICON NMN_PÄIVY !!= @CODE@ päivy:päivä
+!! Gradation NA
  NMN_PÄIVY-SG ;
  NMN_PÄIVY-PL ;
 
@@ -1229,8 +1307,29 @@ LEXICON NMN_PÄIVY-PL
 :%>i PLINSSUF ;
 +Pl:%>i Noun-NB-01 ;
 
+LEXICON NMN_IŽÄNDY !!= @CODE@ ižändy:ižändä
+!! Gradation No
+!! VowelHarmony Front
+ NMN_IŽÄNDY-SG ;
+ NMN_IŽÄNDY-PL ;
+
+LEXICON NMN_IŽÄNDY-SG
+:%^A2U SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_IŽÄNDY-PL
+ PLNOMSUF ;
+:%>i PLGENSUF_EN ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
++Pl:%>i Noun-NB-01 ;
+
 
 LEXICON NMN_KOIVU !!= @CODE@ koivu:koivu
+!! Gradation NA
+!! Vowel Harmony Back
         NMN_KOIVU-SG ;
         NMN_KOIVU-PL ;
 
@@ -1247,8 +1346,28 @@ LEXICON NMN_KOIVU-PL
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
+LEXICON NMN_PUIKKU !!= @CODE@ puikku:puikku
+!! Gradation Yes
+!! Vowel Harmony Back
+        NMN_PUIKKU-SG ;
+        NMN_PUIKKU-PL ;
+
+LEXICON NMN_PUIKKU-SG
+ SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_PUIKKU-PL
+ PLNOMSUF ;
+:%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
+
 LEXICON NMN_IDY !!= @CODE@ idy:idy
 !! Gradation Yes
+!! Vowel Harmony Front
         NMN_IDY-SG ;
         NMN_IDY-PL ;
 
@@ -1549,7 +1668,7 @@ LEXICON NMN_MUA-PL
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_KALA !!= @CODE@ kala:kala
-!! Gradation No
+!! Gradation NA
 	NMN_KALA-SG  ; 
 	NMN_KALA-PL  ;
 LEXICON NMN_KALA-SG
@@ -1710,7 +1829,7 @@ LEXICON NMN_ENIN-PL
 :mi PLGENSUF_EN ; ! the plural comitative is declined here
 :mi PLPARSUF_i ;
 :mi PLINSSUF ;
-
++Pl:mi Noun-NB-01 ;
 
 
 !! ! Nominative singular in "r"
@@ -1942,7 +2061,7 @@ LEXICON NMN_KEVÄT-PL
 +Pl:älöi Noun-NB-01 ;
 
 LEXICON NMN_TUHAT !!= * @CODE@ tuhat:tuha
-!! Gradation No
+!! Gradation 
  NMN_TUHAT-SG ;
  NMN_TUHAT-PL ;
 
@@ -2056,7 +2175,7 @@ LEXICON NMN_PAPPI-PL
 
 
 LEXICON NMN_LEIRI !!= @CODE@ leiri:leiri
-!! Gradation No
+!! Gradation NA
 	NMN_LEIRI-SG ;
 	NMN_LEIRI-PL ;
 LEXICON NMN_LEIRI-SG
@@ -2396,6 +2515,7 @@ LEXICON Noun-NB-01-USUALLY-WEAK
 !+Ins:%>n K ; 
 +Tra:%>kse K ;
 +Prl:%>či K ;
+
 LEXICON Noun-NB-01-USUALLY-STRONG
 +Ill:%>h K ;
 +Ter:%>ss%{aäPar%}h K ;

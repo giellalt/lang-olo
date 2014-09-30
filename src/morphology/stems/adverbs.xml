@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="olo">
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xml:lang="olo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l pos="Adv">nägimižih</l>
+
+      <stg>
+        <st Contlex="ADV_">nägimižih</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">näkemiin</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="Adv">abiesti</l>
@@ -17,6 +39,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">abovai</l>
@@ -36,6 +59,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ahnahasti</l>
@@ -53,6 +77,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ahtahasti</l>
@@ -70,6 +95,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ahtas</l>
@@ -87,6 +113,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aiga</l>
@@ -104,6 +131,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aigah</l>
@@ -121,6 +149,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aiganah</l>
@@ -138,6 +167,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aigassah</l>
@@ -157,6 +187,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aigažeh</l>
@@ -174,6 +205,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijahkoh</l>
@@ -193,6 +225,7 @@
       </tg>
     </mg>
   </e>
+
   <e exclude="fst">
     <lg>
       <l pos="Adv">aijakse (midä a.)</l>
@@ -210,6 +243,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijalleh</l>
@@ -229,6 +263,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijanaijal</l>
@@ -248,6 +283,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijei</l>
@@ -267,6 +303,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijei huandeksel</l>
@@ -284,6 +321,7 @@
       </tg>
     </mg>
   </e>
+
   <e exclude="fst">
     <lg>
       <l pos="Adv">aijei huondeksel</l>
@@ -307,6 +345,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijeihkoh</l>
@@ -324,6 +363,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijem</l>
@@ -341,6 +381,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijembi</l>
@@ -360,6 +401,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijessah</l>
@@ -377,6 +419,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijoi</l>
@@ -396,6 +439,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijoinaloh</l>
@@ -417,6 +461,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijoitellen</l>
@@ -434,6 +479,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aijoittavah</l>
@@ -453,6 +499,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ainos</l>
@@ -470,6 +517,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ainoz</l>
@@ -487,6 +535,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aivan</l>
@@ -504,6 +553,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aivoin</l>
@@ -523,6 +573,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aivokkazeh</l>
@@ -546,6 +597,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alah</l>
@@ -563,6 +615,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alahan</l>
@@ -580,6 +633,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv" src="yougi">alahanpäi</l>
@@ -597,6 +651,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alahassah</l>
@@ -614,6 +669,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alahači</l>
@@ -631,6 +687,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alahnokin</l>
@@ -652,6 +709,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alakulmis</l>
@@ -669,6 +727,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alalleh</l>
@@ -690,6 +749,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alas</l>
@@ -707,6 +767,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alastomakse</l>
@@ -724,6 +785,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alavirdah</l>
@@ -741,6 +803,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alembi</l>
@@ -758,6 +821,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alevumižeh</l>
@@ -782,6 +846,7 @@
       </xg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alguperäh</l>
@@ -799,6 +864,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alguudah</l>
@@ -824,6 +890,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">alle</l>
@@ -841,6 +908,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">allus</l>
@@ -864,6 +932,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ammui</l>
@@ -885,6 +954,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ammussah</l>
@@ -904,6 +974,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ammužes aijassah</l>
@@ -927,6 +998,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ammužis ajois</l>
@@ -944,6 +1016,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aniko</l>
@@ -963,6 +1036,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">aniko ei</l>
@@ -982,6 +1056,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">anna</l>
@@ -1001,6 +1076,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">arastellen</l>
@@ -1018,6 +1094,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">arbuamattah</l>
@@ -1035,6 +1112,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">armahasti</l>
@@ -1052,6 +1130,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">armottah</l>
@@ -1071,6 +1150,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">arvaten</l>
@@ -1090,6 +1170,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">astuen</l>
@@ -1109,6 +1190,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">atkal</l>
@@ -1130,6 +1212,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">atkalasti</l>
@@ -1147,6 +1230,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">avvoi</l>
@@ -1168,6 +1252,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">azettumattah</l>
@@ -1185,6 +1270,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ažnoga</l>
@@ -1216,6 +1302,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">barbahužilleh</l>
@@ -1233,6 +1320,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">boikoh</l>
@@ -1252,6 +1340,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">bokalleh</l>
@@ -1271,6 +1360,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">bokaspäi</l>
@@ -1290,6 +1380,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">bokattavalleh</l>
@@ -1311,6 +1402,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">bokači</l>
@@ -1334,6 +1426,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">buitekui</l>
@@ -1355,6 +1448,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">diivu</l>
@@ -1380,6 +1474,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv" src="yougi">dokkosti</l>
@@ -1397,6 +1492,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">dostalilleh</l>
@@ -1414,6 +1510,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">dostalin</l>
@@ -1431,6 +1528,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">duumis</l>
@@ -1454,6 +1552,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ebävoivasti</l>
@@ -1471,6 +1570,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">edeh</l>
@@ -1488,6 +1588,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">edehpäi</l>
@@ -1505,6 +1606,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">edukädeh</l>
@@ -1522,6 +1624,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">edähäkse</l>
@@ -1541,6 +1644,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">edähänä</l>
@@ -1560,6 +1664,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">egläi</l>
@@ -1577,6 +1682,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ehki</l>
@@ -1622,6 +1728,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ehtäl</l>
@@ -1639,6 +1746,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei ammui</l>
@@ -1656,6 +1764,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei himol</l>
@@ -1673,6 +1782,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei hätkekse</l>
@@ -1690,6 +1800,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei ilmai</l>
@@ -1719,6 +1830,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei jugei</l>
@@ -1736,6 +1848,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei juuri</l>
@@ -1753,6 +1866,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei kallehesti</l>
@@ -1770,6 +1884,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei kebjiesti</l>
@@ -1787,6 +1902,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei loiton</l>
@@ -1804,6 +1920,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei midä</l>
@@ -1821,6 +1938,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei mistöi</l>
@@ -1838,6 +1956,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei selgieh</l>
@@ -1855,6 +1974,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei sua</l>
@@ -1872,6 +1992,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei viikokši</l>
@@ -1889,6 +2010,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei voi</l>
@@ -1906,6 +2028,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ei vähäine</l>
@@ -1923,6 +2046,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">eiga</l>
@@ -1942,6 +2066,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">eläissäh</l>
@@ -1967,6 +2092,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">eländöilleh</l>
@@ -1986,6 +2112,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">elävälleh</l>
@@ -2003,6 +2130,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">elävästi</l>
@@ -2020,6 +2148,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">endiželleh</l>
@@ -2039,6 +2168,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">endižessäh</l>
@@ -2060,6 +2190,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enembälleh</l>
@@ -2083,6 +2214,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enemikseh</l>
@@ -2100,6 +2232,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enemyölleh</l>
@@ -2117,6 +2250,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enimite</l>
@@ -2136,6 +2270,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enimäl</l>
@@ -2153,6 +2288,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ennakol</l>
@@ -2170,6 +2306,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enne</l>
@@ -2197,6 +2334,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enneeglästy</l>
@@ -2214,6 +2352,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ennem</l>
@@ -2233,6 +2372,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ennem aigua</l>
@@ -2250,6 +2390,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ennempäi</l>
@@ -2273,6 +2414,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ennemullostu</l>
@@ -2290,6 +2432,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ennettäväh</l>
@@ -2309,6 +2452,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ennevanhas</l>
@@ -2326,6 +2470,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ennättämižeh</l>
@@ -2345,6 +2490,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enziagjas</l>
@@ -2364,6 +2510,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enziaskeles</l>
@@ -2381,6 +2528,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enzikerran</l>
@@ -2398,6 +2546,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enämbi</l>
@@ -2415,6 +2564,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enämbäine</l>
@@ -2432,6 +2582,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">enämbäl</l>
@@ -2449,6 +2600,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">erikseh</l>
@@ -2466,6 +2618,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">eriluaduh</l>
@@ -2483,6 +2636,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">eriže</l>
@@ -2500,6 +2654,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">eriže toižes</l>
@@ -2519,6 +2674,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">erähiči</l>
@@ -2538,6 +2694,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">erähässypiän</l>
@@ -2555,6 +2712,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">eräčihi</l>
@@ -2576,6 +2734,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">eule kummu</l>
@@ -2593,6 +2752,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">eulo kiireh</l>
@@ -2610,6 +2770,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">eulo midä</l>
@@ -2627,6 +2788,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ezimerkikse</l>
@@ -2644,6 +2806,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ezin</l>
@@ -2661,6 +2824,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">eziči</l>
@@ -2680,6 +2844,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ezmäi</l>
@@ -2699,6 +2864,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ezmäižikse</l>
@@ -2716,6 +2882,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ezmäžikse</l>
@@ -2733,6 +2900,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">goras</l>
@@ -2750,6 +2918,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">gu</l>
@@ -2767,6 +2936,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">gurvalleh</l>
@@ -2788,6 +2958,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hairahuksis</l>
@@ -2805,6 +2976,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hairovuksis</l>
@@ -2822,6 +2994,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hajukkahasti</l>
@@ -2843,6 +3016,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv" src="yougi">hajul</l>
@@ -2860,6 +3034,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hantuzis</l>
@@ -2881,6 +3056,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">harvah</l>
@@ -2898,6 +3074,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">harvažeh</l>
@@ -2915,6 +3092,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">harvembi</l>
@@ -2932,6 +3110,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">heinänsiemenyžikse</l>
@@ -2949,6 +3128,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">heittelemättäh</l>
@@ -2966,6 +3146,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">heliesti</l>
@@ -2983,6 +3164,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">helläh</l>
@@ -3000,6 +3182,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hellästi</l>
@@ -3017,6 +3200,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hembieh</l>
@@ -3034,6 +3218,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">herkäh</l>
@@ -3051,6 +3236,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hienoh</l>
@@ -3068,6 +3254,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hienombi</l>
@@ -3085,6 +3272,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hienosti</l>
@@ -3102,6 +3290,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hiilavalleh</l>
@@ -3119,6 +3308,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hiivien</l>
@@ -3136,6 +3326,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hillah</l>
@@ -3153,6 +3344,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hillakažih</l>
@@ -3170,6 +3362,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hillakkažih</l>
@@ -3187,6 +3380,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hillembi</l>
@@ -3204,6 +3398,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hilläkkäžih</l>
@@ -3221,6 +3416,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hilläžeh</l>
@@ -3238,6 +3434,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">himol</l>
@@ -3255,6 +3452,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">himottah</l>
@@ -3272,6 +3470,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hoikembi</l>
@@ -3289,6 +3488,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hoikkažesti</l>
@@ -3306,6 +3506,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hoival</l>
@@ -3323,6 +3524,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">huaralleh</l>
@@ -3340,6 +3542,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">huavah</l>
@@ -3357,6 +3560,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">huavoluguh</l>
@@ -3374,6 +3578,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">huogehesti</l>
@@ -3391,6 +3596,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">huolovaldi</l>
@@ -3408,6 +3614,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">huomei</l>
@@ -3425,6 +3632,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">huomenekse</l>
@@ -3442,6 +3650,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">huomenjälgeh</l>
@@ -3459,6 +3668,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">huondeksel</l>
@@ -3476,6 +3686,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">huonoh</l>
@@ -3493,6 +3704,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">huonosti</l>
@@ -3510,6 +3722,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hural</l>
@@ -3527,6 +3740,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hyijyttömästi</l>
@@ -3544,6 +3758,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hyppien</l>
@@ -3561,6 +3776,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hyvin</l>
@@ -3578,6 +3794,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hyvälleh</l>
@@ -3595,6 +3812,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hyväžesti</l>
@@ -3612,6 +3830,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hyväžil</l>
@@ -3629,6 +3848,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hännäkkäi</l>
@@ -3646,6 +3866,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hätkekse</l>
@@ -3663,6 +3884,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hätkembi</l>
@@ -3680,6 +3902,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hätkembän</l>
@@ -3697,6 +3920,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hätken</l>
@@ -3714,6 +3938,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">hörpälleh</l>
@@ -3731,6 +3956,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iel</l>
@@ -3748,6 +3974,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ieleglästy</l>
@@ -3765,6 +3992,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ielleh</l>
@@ -3782,6 +4010,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iellehpäi</l>
@@ -3805,6 +4034,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iellettäväh</l>
@@ -3822,6 +4052,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ielpäi</l>
@@ -3843,6 +4074,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ies</l>
@@ -3860,6 +4092,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iespäi</l>
@@ -3877,6 +4110,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">igävästi</l>
@@ -3894,6 +4128,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">igäy</l>
@@ -3911,6 +4146,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ihalmo</l>
@@ -3928,6 +4164,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ihan</l>
@@ -3945,6 +4182,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ijäkse</l>
@@ -3964,6 +4202,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">illal</l>
@@ -3981,6 +4220,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ilmai</l>
@@ -4022,6 +4262,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ilmal</l>
@@ -4039,6 +4280,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ilmi</l>
@@ -4056,6 +4298,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ilmis</l>
@@ -4073,6 +4316,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ilmižin</l>
@@ -4092,6 +4336,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ilokas</l>
@@ -4109,6 +4354,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ilokse</l>
@@ -4128,6 +4374,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ilokse</l>
@@ -4147,6 +4394,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">imel</l>
@@ -4164,6 +4412,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">immin-kummin</l>
@@ -4181,6 +4430,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iral</l>
@@ -4198,6 +4448,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iralleh</l>
@@ -4215,6 +4466,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iralpäi</l>
@@ -4232,6 +4484,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iäkse</l>
@@ -4249,6 +4502,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iäneh</l>
@@ -4266,6 +4520,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iänettäh</l>
@@ -4283,6 +4538,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iäre</l>
@@ -4300,6 +4556,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iäres</l>
@@ -4317,6 +4574,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iäs</l>
@@ -4334,6 +4592,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">iče</l>
@@ -4351,6 +4610,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jallai</l>
@@ -4368,6 +4628,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jaloh</l>
@@ -4385,6 +4646,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jalosti</l>
@@ -4402,6 +4664,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jo</l>
@@ -4425,6 +4688,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">joga aigua</l>
@@ -4442,6 +4706,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">joga minuutal</l>
@@ -4459,6 +4724,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">joga puolepäi</l>
@@ -4476,6 +4742,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">joga päiviä</l>
@@ -4493,6 +4760,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">joga sijas</l>
@@ -4510,6 +4778,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jokse</l>
@@ -4527,6 +4796,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">joukolleh</l>
@@ -4544,6 +4814,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jugei</l>
@@ -4561,6 +4832,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jugieh</l>
@@ -4578,6 +4850,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jugiesti</l>
@@ -4595,6 +4868,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">juostol</l>
@@ -4612,6 +4886,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">juovuksis</l>
@@ -4629,6 +4904,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">juuri</l>
@@ -4646,6 +4922,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">juuri</l>
@@ -4663,6 +4940,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">juuri alasti</l>
@@ -4680,6 +4958,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">juuri avvoi</l>
@@ -4697,6 +4976,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">juuri muga</l>
@@ -4714,6 +4994,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jyrkästi</l>
@@ -4731,6 +5012,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jyttyöh</l>
@@ -4748,6 +5030,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jälgeh</l>
@@ -4765,6 +5048,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jälgimäižikse</l>
@@ -4782,6 +5066,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jälgiperäh</l>
@@ -4799,6 +5084,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jälles</l>
@@ -4818,6 +5104,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jälles</l>
@@ -4883,6 +5170,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">jällespäi</l>
@@ -4900,6 +5188,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">järgieh</l>
@@ -4917,6 +5206,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">järgieh</l>
@@ -4934,6 +5224,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">järilleh</l>
@@ -4951,6 +5242,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">järilleh</l>
@@ -4968,6 +5260,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">järilleh andamattah</l>
@@ -4985,6 +5278,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaglakkah</l>
@@ -5002,6 +5296,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kahden verdo</l>
@@ -5019,6 +5314,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kahtalleh</l>
@@ -5036,6 +5332,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kahtei</l>
@@ -5053,6 +5350,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kahtei keskei</l>
@@ -5070,6 +5368,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kahtekse</l>
@@ -5087,6 +5386,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kahtekse</l>
@@ -5104,6 +5404,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kahtu kuražilleh</l>
@@ -5121,6 +5422,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kai</l>
@@ -5138,6 +5440,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaijembi</l>
@@ -5155,6 +5458,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaikin</l>
@@ -5172,6 +5476,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaikis</l>
@@ -5191,6 +5496,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaikis vähän</l>
@@ -5208,6 +5514,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaikkekse aigua</l>
@@ -5225,6 +5532,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaikkiedah</l>
@@ -5242,6 +5550,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaikkieh luaduh</l>
@@ -5259,6 +5568,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaikkiel</l>
@@ -5276,6 +5586,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaikkielpäi</l>
@@ -5293,6 +5604,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaikkineh</l>
@@ -5310,6 +5622,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaiče</l>
@@ -5329,6 +5642,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kajesti</l>
@@ -5346,6 +5660,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaksiele</l>
@@ -5363,6 +5678,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaksielepäi</l>
@@ -5380,6 +5696,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaksielpäi</l>
@@ -5397,6 +5714,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaksikahtel</l>
@@ -5414,6 +5732,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaksikerdua</l>
@@ -5431,6 +5750,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaksin kierroin</l>
@@ -5448,6 +5768,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaksitellen</l>
@@ -5465,6 +5786,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kallalleh</l>
@@ -5484,6 +5806,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kallattavalleh</l>
@@ -5501,6 +5824,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kallehembi</l>
@@ -5518,6 +5842,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kallehesti</l>
@@ -5535,6 +5860,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kallellah</l>
@@ -5552,6 +5878,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaltoh</l>
@@ -5569,6 +5896,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kaunehesti</l>
@@ -5586,6 +5914,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kauti</l>
@@ -5603,6 +5932,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kačos</l>
@@ -5620,6 +5950,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kebjembi</l>
@@ -5639,6 +5970,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kebjesti</l>
@@ -5658,6 +5990,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kebježeh</l>
@@ -5675,6 +6008,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kebjiesti</l>
@@ -5692,6 +6026,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kengättäh</l>
@@ -5709,6 +6044,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kerdah</l>
@@ -5726,6 +6062,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kerrakse</l>
@@ -5743,6 +6080,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kerral</l>
@@ -5762,6 +6100,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kerran</l>
@@ -5779,6 +6118,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kerras</l>
@@ -5798,6 +6138,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">keskeh</l>
@@ -5819,6 +6160,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">keskekkäi</l>
@@ -5836,6 +6178,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">keskel</l>
@@ -5855,6 +6198,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">keskenäh</l>
@@ -5872,6 +6216,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">keskes</l>
@@ -5891,6 +6236,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">keskiči</l>
@@ -5908,6 +6254,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">keviäl</l>
@@ -5925,6 +6272,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kibei</l>
@@ -5942,6 +6290,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kierral</l>
@@ -5961,6 +6310,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kierran</l>
@@ -5978,6 +6328,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kierras</l>
@@ -5997,6 +6348,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kiindieh</l>
@@ -6016,6 +6368,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kiindiesti</l>
@@ -6035,6 +6388,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kiini</l>
@@ -6052,6 +6406,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kiireh</l>
@@ -6069,6 +6424,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kiirehel</l>
@@ -6086,6 +6442,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kiirehes</l>
@@ -6103,6 +6460,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kiirehesti</l>
@@ -6120,6 +6478,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kiirehettä</l>
@@ -6137,6 +6496,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kiistah</l>
@@ -6154,6 +6514,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kiistah juosta</l>
@@ -6171,6 +6532,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kikalleh</l>
@@ -6204,6 +6566,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kikattavalleh</l>
@@ -6227,6 +6590,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kirkiesti</l>
@@ -6246,6 +6610,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kodimail</l>
@@ -6265,6 +6630,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kodvaine</l>
@@ -6284,6 +6650,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kodvaizekse</l>
@@ -6305,6 +6672,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kodvan piäs</l>
@@ -6324,6 +6692,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kogo</l>
@@ -6351,6 +6720,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kogonah</l>
@@ -6368,6 +6738,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kohtakkai</l>
@@ -6387,6 +6758,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kohtalleh</l>
@@ -6406,6 +6778,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kohtas</l>
@@ -6423,6 +6796,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kohti</l>
@@ -6444,6 +6818,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kohtukidua</l>
@@ -6461,6 +6836,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kohurilleh</l>
@@ -6480,6 +6856,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kolmandekse</l>
@@ -6497,6 +6874,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kolmekerdua</l>
@@ -6514,6 +6892,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kolmenkerdažesti</l>
@@ -6531,6 +6910,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kolmičči</l>
@@ -6548,6 +6928,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">komakasti</l>
@@ -6565,6 +6946,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">korgieh</l>
@@ -6582,6 +6964,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">korgiel</l>
@@ -6599,6 +6982,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">korgiele</l>
@@ -6616,6 +7000,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">korgiembi</l>
@@ -6633,6 +7018,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">korgiesti</l>
@@ -6650,6 +7036,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kossaželleh</l>
@@ -6667,6 +7054,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kougeloh</l>
@@ -6684,6 +7072,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kouhakosti</l>
@@ -6701,6 +7090,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kovah</l>
@@ -6718,6 +7108,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kovasti</l>
@@ -6735,6 +7126,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kringelilleh</l>
@@ -6754,6 +7146,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuda-konzu</l>
@@ -6771,6 +7164,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuda-kui</l>
@@ -6788,6 +7182,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kugali</l>
@@ -6807,6 +7202,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kui</l>
@@ -6826,6 +7222,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kui puuttu</l>
@@ -6843,6 +7240,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kui puuttuu</l>
@@ -6860,6 +7258,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuivakse</l>
@@ -6877,6 +7276,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuivasti</l>
@@ -6894,6 +7294,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuivačelleh</l>
@@ -6911,6 +7312,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kulmis läbi</l>
@@ -6928,6 +7330,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kummalližesti</l>
@@ -6945,6 +7348,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kummu</l>
@@ -6962,6 +7366,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuni</l>
@@ -6979,6 +7384,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kunne</l>
@@ -7002,6 +7408,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kunnessah</l>
@@ -7021,6 +7428,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuolaen</l>
@@ -7038,6 +7446,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuolliekse</l>
@@ -7055,6 +7464,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuotellen</l>
@@ -7074,20 +7484,25 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kurin-murin</l>
+
       <stg>
         <st Contlex="ADV_">kurin-murin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nurinniskoin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuspäi</l>
@@ -7105,6 +7520,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuulten</l>
@@ -7128,6 +7544,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kuuluu</l>
@@ -7145,6 +7562,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kylleštä</l>
@@ -7164,6 +7582,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kylliči</l>
@@ -7181,6 +7600,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kylläl</l>
@@ -7200,6 +7620,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kylmil</l>
@@ -7231,6 +7652,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kädövästi</l>
@@ -7248,6 +7670,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">kähiesti</l>
@@ -7265,6 +7688,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">käzikkäi</l>
@@ -7284,6 +7708,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">käzimite</l>
@@ -7303,6 +7728,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">köyhästi</l>
@@ -7320,6 +7746,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">laihinah</l>
@@ -7337,6 +7764,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">laivasti</l>
@@ -7354,6 +7782,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">langiendassah</l>
@@ -7371,6 +7800,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lappieh</l>
@@ -7390,6 +7820,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lappies</l>
@@ -7409,6 +7840,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lappies</l>
@@ -7426,6 +7858,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lappieči</l>
@@ -7447,6 +7880,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lapsessu</l>
@@ -7464,6 +7898,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lembiesti</l>
@@ -7481,6 +7916,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lendäen</l>
@@ -7498,6 +7934,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">leppiesti</l>
@@ -7515,6 +7952,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">levieh</l>
@@ -7532,6 +7970,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">leviembäh</l>
@@ -7555,6 +7994,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">levälleh</l>
@@ -7574,6 +8014,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">libiesti</l>
@@ -7591,6 +8032,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lievästi</l>
@@ -7608,6 +8050,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">liigua</l>
@@ -7625,6 +8068,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">liijakse</l>
@@ -7642,6 +8086,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">liijan</l>
@@ -7663,6 +8108,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">liijan aijei</l>
@@ -7680,6 +8126,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">livvikse</l>
@@ -7697,6 +8144,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ližäkse</l>
@@ -7714,6 +8162,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">loitombakse</l>
@@ -7735,6 +8184,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">loitombi</l>
@@ -7754,6 +8204,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">loitos</l>
@@ -7773,6 +8224,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">loitoči</l>
@@ -7792,6 +8244,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">loitton</l>
@@ -7811,6 +8264,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">loittonsah</l>
@@ -7834,6 +8288,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">loittuol</l>
@@ -7853,6 +8308,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">loppumattomasti</l>
@@ -7870,6 +8326,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">loppussah</l>
@@ -7889,6 +8346,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lopukse</l>
@@ -7906,6 +8364,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">luavulleh</l>
@@ -7923,6 +8382,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lujah</l>
@@ -7940,6 +8400,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lujal</l>
@@ -7957,6 +8418,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lujasti</l>
@@ -7974,6 +8436,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lumoizil (kižata l.)</l>
@@ -7991,6 +8454,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">luo</l>
@@ -8008,6 +8472,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lyhembi</l>
@@ -8025,6 +8490,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lyhyesti</l>
@@ -8042,6 +8508,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">läbi</l>
@@ -8059,6 +8526,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lähekkäh</l>
@@ -8076,6 +8544,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lähel</l>
@@ -8093,6 +8562,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lähembi</l>
@@ -8112,6 +8582,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lähil</l>
@@ -8131,6 +8602,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lähäl</l>
@@ -8148,6 +8620,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lähän</l>
@@ -8165,6 +8638,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lähäči</l>
@@ -8182,6 +8656,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lähäččäžel</l>
@@ -8199,6 +8674,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">läis</l>
@@ -8216,6 +8692,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">lämmästi</l>
@@ -8233,6 +8710,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">läpäkösti</l>
@@ -8254,6 +8732,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">läs</l>
@@ -8271,6 +8750,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">madalal</l>
@@ -8288,6 +8768,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">madoženke</l>
@@ -8307,6 +8788,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">magei</l>
@@ -8324,25 +8806,35 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mahalleh</l>
+
       <stg>
         <st Contlex="ADV_">mahalleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">mahalleen</t>
+
         <t pos="Adv">mahallaan</t>
+
         <t pos="Adv">mahalleni</t>
+
         <t pos="Adv">mahallesi</t>
+
         <t pos="Adv">mahallani</t>
+
         <t pos="Adv">mahallasi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mahalleh</l>
@@ -8370,6 +8862,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mail</l>
@@ -8391,6 +8884,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">maksuttah</l>
@@ -8408,6 +8902,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">maltaen</l>
@@ -8425,6 +8920,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mi-nibut</l>
@@ -8442,6 +8938,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mieldy myö</l>
@@ -8467,6 +8964,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mielel</l>
@@ -8488,6 +8986,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mielessäh</l>
@@ -8507,6 +9006,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mieleväh</l>
@@ -8524,6 +9024,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">migäli</l>
@@ -8545,6 +9046,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">millenäh</l>
@@ -8566,6 +9068,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">millo on hyigei</l>
@@ -8583,6 +9086,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">min verran</l>
@@ -8600,6 +9104,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">minuu myöte</l>
@@ -8617,6 +9122,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mispäi</l>
@@ -8634,6 +9140,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mittuine</l>
@@ -8651,6 +9158,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mittuine ollou</l>
@@ -8672,6 +9180,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">moine</l>
@@ -8695,6 +9204,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">moni</l>
@@ -8712,6 +9222,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">moničči</l>
@@ -8731,6 +9242,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muah</l>
@@ -8748,6 +9260,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muduači</l>
@@ -8767,6 +9280,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muga</l>
@@ -8784,6 +9298,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muga ielleh</l>
@@ -8803,6 +9318,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mugah</l>
@@ -8822,6 +9338,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mugai</l>
@@ -8843,6 +9360,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mugaže</l>
@@ -8860,6 +9378,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muijal</l>
@@ -8877,6 +9396,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muijale</l>
@@ -8894,6 +9414,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muijalpäi</l>
@@ -8911,6 +9432,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muinai</l>
@@ -8934,6 +9456,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muite</l>
@@ -8951,6 +9474,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muiten</l>
@@ -8970,6 +9494,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mulloi</l>
@@ -8987,6 +9512,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">murdaen</l>
@@ -9004,6 +9530,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muružikse</l>
@@ -9021,6 +9548,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">murčin-märčin</l>
@@ -9038,6 +9566,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">mustoh</l>
@@ -9061,6 +9590,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muulleh</l>
@@ -9078,6 +9608,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muupiänä</l>
@@ -9095,6 +9626,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">muurin</l>
@@ -9112,6 +9644,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">myödykarvah</l>
@@ -9129,6 +9662,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">myödypäiväh</l>
@@ -9146,122 +9680,159 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">myödäh</l>
+
       <stg>
         <st Contlex="ADV_">myödäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">mukana</t>
+
         <t pos="Adv">mukaan</t>
+
         <t pos="Adv">kanssa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">myödäi</l>
+
       <stg>
         <st Contlex="ADV_">myödäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">samaan suuntaan</t>
+
         <t pos="Adv">sopuisasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">myödäžin</l>
+
       <stg>
         <st Contlex="ADV_">myödäžin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">myönteisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">myöhembi</l>
+
       <stg>
         <st Contlex="ADV_">myöhembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">myöhemmin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">myöhäh</l>
+
       <stg>
         <st Contlex="ADV_">myöhäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">myöhään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">myös</l>
+
       <stg>
         <st Contlex="ADV_">myös</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">taas</t>
+
         <t pos="Adv">myös</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">myöstaki</l>
+
       <stg>
         <st Contlex="ADV_">myöstaki</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">taaskin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">myöstiäkseh</l>
+
       <stg>
         <st Contlex="ADV_">myöstiäkseh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">perääntyä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">myöte</l>
@@ -9279,34 +9850,43 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">märgy</l>
+
       <stg>
         <st Contlex="ADV_">märgy</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">märkää</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">möllälleh</l>
+
       <stg>
         <st Contlex="ADV_">möllälleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">silmät nurin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">möllälleh</l>
@@ -9346,91 +9926,117 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">narokko</l>
+
       <stg>
         <st Contlex="ADV_">narokko</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tahallaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">naverno</l>
+
       <stg>
         <st Contlex="ADV_">naverno</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">varmaankin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nellinkondožin</l>
+
       <stg>
         <st Contlex="ADV_">nellinkondožin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nelinkontin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nelluzin</l>
+
       <stg>
         <st Contlex="ADV_">nelluzin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ravia</t>
+
         <t pos="Adv">juoksujalkaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nellys</l>
+
       <stg>
         <st Contlex="ADV_">nellys</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">neliä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nellyten</l>
+
       <stg>
         <st Contlex="ADV_">nellyten</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">hypähdellen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nelläi</l>
@@ -9448,62 +10054,79 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nelläi keskel</l>
+
       <stg>
         <st Contlex="ADV_">nelläi keskel</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">neljästään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nemmih aigossah</l>
+
       <stg>
         <st Contlex="ADV_">nemmih aigossah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tähän asti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nemmil päivil</l>
+
       <stg>
         <st Contlex="ADV_">nemmil päivil</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">näinä päivinä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nenga</l>
+
       <stg>
         <st Contlex="ADV_">nenga</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">näin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nengo</l>
@@ -9521,274 +10144,353 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nenälleh</l>
+
       <stg>
         <st Contlex="ADV_">nenälleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nenälleen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ni</l>
+
       <stg>
         <st Contlex="ADV_">ni</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">niin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ni kuspäi</l>
+
       <stg>
         <st Contlex="ADV_">ni kuspäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ei mistään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ni mih kaččomatta</l>
+
       <stg>
         <st Contlex="ADV_">ni mih kaččomatta</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">mistään huolimatta</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ni mis</l>
+
       <stg>
         <st Contlex="ADV_">ni mis</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ei missään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ni mittuine</l>
+
       <stg>
         <st Contlex="ADV_">ni mittuine</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">minkäänlainen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ni vähästy</l>
+
       <stg>
         <st Contlex="ADV_">ni vähästy</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ei ollenkaan</t>
+
         <t pos="Adv">ei vähääkään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">niken</l>
+
       <stg>
         <st Contlex="ADV_">niken</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kukaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nikenen</l>
+
       <stg>
         <st Contlex="ADV_">nikenen</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kenenkään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nikonzu</l>
+
       <stg>
         <st Contlex="ADV_">nikonzu</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">koskaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nikui</l>
+
       <stg>
         <st Contlex="ADV_">nikui</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kuinkaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nikunne</l>
+
       <stg>
         <st Contlex="ADV_">nikunne</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">minnekään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nimekseh</l>
+
       <stg>
         <st Contlex="ADV_">nimekseh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">näöksi</t>
+
         <t pos="Adv">nimellisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nimiksennäh</l>
+
       <stg>
         <st Contlex="ADV_">nimiksennäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ei moinaankaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">notkiesti</l>
+
       <stg>
         <st Contlex="ADV_">notkiesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">notkeasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nuorembi</l>
+
       <stg>
         <st Contlex="ADV_">nuorembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nuorempana</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nygöi</l>
+
       <stg>
         <st Contlex="ADV_">nygöi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nyt</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">näbieh</l>
+
       <stg>
         <st Contlex="ADV_">näbieh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">näppärästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nägevästi</l>
+
       <stg>
         <st Contlex="ADV_">nägevästi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">havainnollisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nägimižih</l>
@@ -9806,90 +10508,115 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nägyväldi</l>
+
       <stg>
         <st Contlex="ADV_">nägyväldi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">huomattavasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nägyvästi</l>
+
       <stg>
         <st Contlex="ADV_">nägyvästi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">näkyvästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">näh</l>
+
       <stg>
         <st Contlex="ADV_">näh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nähden</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nähtävästi</l>
+
       <stg>
         <st Contlex="ADV_">nähtävästi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nähtävästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">näitgos</l>
+
       <stg>
         <st Contlex="ADV_">näitgos</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">näetkös</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">näiväkösti</l>
+
       <stg>
         <st Contlex="ADV_">näiväkösti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">niukasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">nälläs</l>
@@ -9907,479 +10634,623 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">odva</l>
+
       <stg>
         <st Contlex="ADV_">odva</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tuskin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">odvavai</l>
+
       <stg>
         <st Contlex="ADV_">odvavai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nipin-napin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ohi</l>
+
       <stg>
         <st Contlex="ADV_">ohi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ohi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">oigein</l>
+
       <stg>
         <st Contlex="ADV_">oigein</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">oikein</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">oigieh</l>
+
       <stg>
         <st Contlex="ADV_">oigieh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">suoraan</t>
+
         <t pos="Adv">oikein</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">oigiel puolel</l>
+
       <stg>
         <st Contlex="ADV_">oigiel puolel</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">oikealla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">oigiele</l>
+
       <stg>
         <st Contlex="ADV_">oigiele</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">oikealle</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">oivalleh</l>
+
       <stg>
         <st Contlex="ADV_">oivalleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">oivallisesti</t>
+
         <t pos="Adv">hyvin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">oksenduttau</l>
+
       <stg>
         <st Contlex="ADV_">oksenduttau</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">oksettava</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">olevahko</l>
+
       <stg>
         <st Contlex="ADV_">olevahko</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paljohkosti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">olevahkoh</l>
+
       <stg>
         <st Contlex="ADV_">olevahkoh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">lujanpuoleisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">olgah</l>
+
       <stg>
         <st Contlex="ADV_">olgah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vaikka</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">olla valmis</l>
+
       <stg>
         <st Contlex="ADV_">olla valmis</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">valmiina</t>
+
         <t pos="Adv">varuillaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">olla yksyžilleh</l>
+
       <stg>
         <st Contlex="ADV_">olla yksyžilleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähissä vaatteissa</t>
+
         <t pos="Adv">paitasillaan</t>
+
         <t pos="Adv">paitasillani</t>
+
         <t pos="Adv">paitasillasi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">omah luaduh</l>
+
       <stg>
         <st Contlex="ADV_">omah luaduh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">mielensä mukaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">onnuako</l>
+
       <stg>
         <st Contlex="ADV_">onnuako</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">luultavasti</t>
+
         <t pos="Adv">tuskinpa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">opitellen</l>
+
       <stg>
         <st Contlex="ADV_">opitellen</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sormituntumalla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ounahasti</l>
+
       <stg>
         <st Contlex="ADV_">ounahasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">viekkaasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ozakkahasti</l>
+
       <stg>
         <st Contlex="ADV_">ozakkahasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">onnekkaasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ozavasti</l>
+
       <stg>
         <st Contlex="ADV_">ozavasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">onnellisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ozutettavakse</l>
+
       <stg>
         <st Contlex="ADV_">ozutettavakse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">näytille</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">očalleh</l>
+
       <stg>
         <st Contlex="ADV_">očalleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kasvoilleen</t>
+
         <t pos="Adv">päistikkaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pahapäiväzekse</l>
+
       <stg>
         <st Contlex="ADV_">paha#päiväzekse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pahanpäiväisesti</t>
+
         <t pos="Adv">ankarasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pahas tavas</l>
+
       <stg>
         <st Contlex="ADV_">pahas tavas</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pikaistuksissaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pahiten</l>
+
       <stg>
         <st Contlex="ADV_">pahiten</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pahiten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pahoi</l>
+
       <stg>
         <st Contlex="ADV_">pahoi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pahoin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pahoin</l>
+
       <stg>
         <st Contlex="ADV_">pahoin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pahoin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">paikal</l>
+
       <stg>
         <st Contlex="ADV_">paikal</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kohta</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">paiči</l>
+
       <stg>
         <st Contlex="ADV_">paiči</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paitsi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">palavasti</l>
+
       <stg>
         <st Contlex="ADV_">palavasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">palavasti</t>
+
         <t pos="Adv">kiivaasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">paljahilleh</l>
+
       <stg>
         <st Contlex="ADV_">paljahilleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paljasjaloin</t>
+
         <t pos="Adv">paljain varpain</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pallahakse</l>
+
       <stg>
         <st Contlex="ADV_">pallahakse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paljaaksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pallahin jalloin</l>
+
       <stg>
         <st Contlex="ADV_">pallahin jalloin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paljasjaloin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">paloin</l>
@@ -10399,34 +11270,43 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">parahasti</l>
+
       <stg>
         <st Contlex="ADV_">parahasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">parhaiten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">parahikse</l>
+
       <stg>
         <st Contlex="ADV_">parahikse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">parahiksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">parahillah</l>
@@ -10446,22 +11326,29 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">parahite</l>
+
       <stg>
         <st Contlex="ADV_">parahite</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">juuri sopivasti</t>
+
         <t pos="Adv">parahiksi</t>
+
         <t pos="Adv">parhaiten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">parahite</l>
@@ -10481,6 +11368,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">parahtie</l>
@@ -10498,667 +11386,869 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">parembasti</l>
+
       <stg>
         <st Contlex="ADV_">parembasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paremmin</t>
+
         <t pos="Adv">paremmasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">parembi</l>
+
       <stg>
         <st Contlex="ADV_">parembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paremmin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pehmeästi</l>
+
       <stg>
         <st Contlex="ADV_">pehmeästi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pehmeästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pehmiembi</l>
+
       <stg>
         <st Contlex="ADV_">pehmiembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pehmeämmin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">peitoči</l>
+
       <stg>
         <st Contlex="ADV_">peitoči</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">salaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">perembä</l>
+
       <stg>
         <st Contlex="ADV_">perembä</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">perempänä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">perilleh</l>
+
       <stg>
         <st Contlex="ADV_">perilleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">perinpohjin</t>
+
         <t pos="Adv">kokonaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">perinpohjah</l>
+
       <stg>
         <st Contlex="ADV_">perinpohjah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">loppuun asti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">peräh</l>
+
       <stg>
         <st Contlex="ADV_">peräh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">perässä</t>
+
         <t pos="Adv">perään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">peräkkäi</l>
+
       <stg>
         <st Contlex="ADV_">peräkkäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">peräkkäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">peräs</l>
+
       <stg>
         <st Contlex="ADV_">peräs</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">perässä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">perätysti</l>
+
       <stg>
         <st Contlex="ADV_">perätysti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">perästysten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">petties</l>
+
       <stg>
         <st Contlex="ADV_">petties</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vahingossa</t>
+
         <t pos="Adv">epähuomiossa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pidužin</l>
+
       <stg>
         <st Contlex="ADV_">pidužin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">jnk mittainen</t>
+
         <t pos="Adv">pituudeltaan</t>
+
         <t pos="Adv">jtk pitkä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pidäy</l>
+
       <stg>
         <st Contlex="ADV_">pidäy</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pitää</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pielailleh</l>
+
       <stg>
         <st Contlex="ADV_">pielailleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päälaellaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pielain</l>
+
       <stg>
         <st Contlex="ADV_">pielain</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pää alaspäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pieleh</l>
+
       <stg>
         <st Contlex="ADV_">pieleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pieleen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pienembi</l>
+
       <stg>
         <st Contlex="ADV_">pienembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pienempänä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pihalpäi</l>
+
       <stg>
         <st Contlex="ADV_">pihalpäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ulkoa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pikoikodvažin</l>
+
       <stg>
         <st Contlex="ADV_">pikoikodvažin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">silloin tällöin</t>
+
         <t pos="Adv">aika ajoin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pikoivähäine</l>
+
       <stg>
         <st Contlex="ADV_">pikoivähäine</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pikkuruisen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pilvežy</l>
+
       <stg>
         <st Contlex="ADV_">pilvežy</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pilvistä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pimiedy myöte</l>
+
       <stg>
         <st Contlex="ADV_">pimiedy myöte</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pimeällä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pimiesti</l>
+
       <stg>
         <st Contlex="ADV_">pimiesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pimeästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pitkin</l>
+
       <stg>
         <st Contlex="ADV_">pitkin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pitkin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pitkähes</l>
+
       <stg>
         <st Contlex="ADV_">pitkähes</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pitkään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pitkälleh</l>
+
       <stg>
         <st Contlex="ADV_">pitkälleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pitkälleen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pitkästi</l>
+
       <stg>
         <st Contlex="ADV_">pitkästi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pitkään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">piälailleh</l>
+
       <stg>
         <st Contlex="ADV_">piälailleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päälaelleen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">piäle</l>
+
       <stg>
         <st Contlex="ADV_">piäle</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päälle</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">piäle väin</l>
+
       <stg>
         <st Contlex="ADV_">piäle väin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ylivoimaista</t>
+
         <t pos="Adv">yli voimiensa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">piälekkäi</l>
+
       <stg>
         <st Contlex="ADV_">piälekkäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päällekkäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">piälepäi</l>
+
       <stg>
         <st Contlex="ADV_">piälepäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päälle</t>
+
         <t pos="Adv">päällepäin</t>
+
         <t pos="Adv">päällimmäiseksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">piäliči</l>
+
       <stg>
         <st Contlex="ADV_">piäliči</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yli</t>
+
         <t pos="Adv">päällitse</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">piällaileh</l>
+
       <stg>
         <st Contlex="ADV_">piällaileh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päälaelleen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">piälleh</l>
+
       <stg>
         <st Contlex="ADV_">piälleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kuin suoraan jstk</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">piälpäi</l>
+
       <stg>
         <st Contlex="ADV_">piälpäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päällä</t>
+
         <t pos="Adv">päälläpäin</t>
+
         <t pos="Adv">päältä</t>
+
         <t pos="Adv">päältäpäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">piänneh</l>
+
       <stg>
         <st Contlex="ADV_">piänneh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päikseen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">piäs</l>
+
       <stg>
         <st Contlex="ADV_">piäs</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päässä</t>
+
         <t pos="Adv">päästä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">poikittain</l>
+
       <stg>
         <st Contlex="ADV_">poikittain</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">poikittain</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">poikki</l>
+
       <stg>
         <st Contlex="ADV_">poikki</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">poikki</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">polvilleh</l>
+
       <stg>
         <st Contlex="ADV_">polvilleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">polvilleen</t>
+
         <t pos="Adv">polvillaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">proijittuo</l>
+
       <stg>
         <st Contlex="ADV_">proijittuo</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kuluttua</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puaksuh</l>
+
       <stg>
         <st Contlex="ADV_">puaksuh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">usein</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puaksumbi</l>
+
       <stg>
         <st Contlex="ADV_">puaksumbi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tiheämmin</t>
+
         <t pos="Adv">taajempaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puaksužeh</l>
@@ -11178,104 +12268,133 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puarakkai</l>
+
       <stg>
         <st Contlex="ADV_">puarakkai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">parittain</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puaražin</l>
+
       <stg>
         <st Contlex="ADV_">puaražin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">parittain</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puhtahakse</l>
+
       <stg>
         <st Contlex="ADV_">puhtahakse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">puhtaaksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puhtahasti</l>
+
       <stg>
         <st Contlex="ADV_">puhtahasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">puhtaasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puolei</l>
+
       <stg>
         <st Contlex="ADV_">puolei</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">puoliksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puolekkai</l>
+
       <stg>
         <st Contlex="ADV_">puolekkai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">puoliksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puolekse</l>
+
       <stg>
         <st Contlex="ADV_">puolekse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">puoliksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puolelleh</l>
@@ -11301,92 +12420,119 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puolenpäivän jälgeh</l>
+
       <stg>
         <st Contlex="ADV_">puolenpäivän jälgeh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">iltapäivällä</t>
+
         <t pos="Adv">puolenpäivän jälkeen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">puolittain</l>
+
       <stg>
         <st Contlex="ADV_">puolittain</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">puolittain</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">putilleh</l>
+
       <stg>
         <st Contlex="ADV_">putilleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kunnolla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">putti</l>
+
       <stg>
         <st Contlex="ADV_">putti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">helppo</t>
+
         <t pos="Adv">helppoa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pystyh</l>
+
       <stg>
         <st Contlex="ADV_">pystyh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pystyyn</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pystyspäin</l>
+
       <stg>
         <st Contlex="ADV_">pystyspäin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päistikkaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pystysti</l>
@@ -11410,276 +12556,357 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">päinvastoi</l>
+
       <stg>
         <st Contlex="ADV_">päinvastoi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päinvastoin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">päiväl</l>
+
       <stg>
         <st Contlex="ADV_">päiväl</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päivällä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">päivän valgiedu</l>
+
       <stg>
         <st Contlex="ADV_">päivän valgiedu</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päiväsaikaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">päiväčelleh</l>
+
       <stg>
         <st Contlex="ADV_">päiväčelleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päivässä</t>
+
         <t pos="Adv">päiväseltään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pättävästi</l>
+
       <stg>
         <st Contlex="ADV_">pättävästi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sopivasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">pörhälleh</l>
+
       <stg>
         <st Contlex="ADV_">pörhälleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pörrölleen</t>
+
         <t pos="Adv">pörröllään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rakkahasti</l>
+
       <stg>
         <st Contlex="ADV_">rakkahasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">innokkaasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rapsakkoh</l>
+
       <stg>
         <st Contlex="ADV_">rapsakkoh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ripeästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rauhah</l>
+
       <stg>
         <st Contlex="ADV_">rauhah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">rauhallisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ravieh</l>
+
       <stg>
         <st Contlex="ADV_">ravieh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nopeasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">raviembi</l>
+
       <stg>
         <st Contlex="ADV_">raviembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nopeammin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">raččahile</l>
+
       <stg>
         <st Contlex="ADV_">raččahile</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ratsaille</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rehelližesti</l>
+
       <stg>
         <st Contlex="ADV_">rehelližesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">rehellisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">reunai</l>
+
       <stg>
         <st Contlex="ADV_">reunai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vierekkäin</t>
+
         <t pos="Adv">rinnakkain</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rigeneh</l>
+
       <stg>
         <st Contlex="ADV_">rigeneh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">usein</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rigenembi</l>
+
       <stg>
         <st Contlex="ADV_">rigenembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">useammin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rigenembäh</l>
+
       <stg>
         <st Contlex="ADV_">rigenembäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">useammin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rinnai</l>
+
       <stg>
         <st Contlex="ADV_">rinnai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">rinnan</t>
+
         <t pos="Adv">rinnakkain</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rinnakkai</l>
+
       <stg>
         <st Contlex="ADV_">rinnakkai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">rinnakkain</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rinnal</l>
@@ -11699,120 +12926,155 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rinnembi</l>
+
       <stg>
         <st Contlex="ADV_">rinnembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">lähemmin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ristahes</l>
+
       <stg>
         <st Contlex="ADV_">ristahes</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ristiin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ristai-vastai</l>
+
       <stg>
         <st Contlex="ADV_">ristai-vastai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ristiin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ristalleh</l>
+
       <stg>
         <st Contlex="ADV_">ristalleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ristikkäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">riävylleh</l>
+
       <stg>
         <st Contlex="ADV_">riävylleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">riveittäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rohkiesti</l>
+
       <stg>
         <st Contlex="ADV_">rohkiesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">rohkea</t>
+
         <t pos="Adv">runsas</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">roiheze</l>
+
       <stg>
         <st Contlex="ADV_">roiheze</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">riittää</t>
+
         <t pos="Adv">tarpeeksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rounoku</l>
+
       <stg>
         <st Contlex="ADV_">rounoku</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ikäänkuin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rounu</l>
@@ -11830,20 +13092,25 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ruadi</l>
+
       <stg>
         <st Contlex="ADV_">ruadi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tähden</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ruadi</l>
@@ -11867,368 +13134,481 @@
       </xg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">rumah</l>
+
       <stg>
         <st Contlex="ADV_">rumah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ahneesti</t>
+
         <t pos="Adv">halukkaasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ruohkalleh</l>
+
       <stg>
         <st Contlex="ADV_">ruohkalleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">raakana</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ruskenah</l>
+
       <stg>
         <st Contlex="ADV_">ruskenah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">punaisenaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ruttoh</l>
+
       <stg>
         <st Contlex="ADV_">ruttoh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nopeasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ruttožeh</l>
+
       <stg>
         <st Contlex="ADV_">ruttožeh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">heti</t>
+
         <t pos="Adv">oitis</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ryydäen</l>
+
       <stg>
         <st Contlex="ADV_">ryydäen</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ryömien</t>
+
         <t pos="Adv">ryömimällä</t>
+
         <t pos="Adv">ryömillään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">räkesti</l>
+
       <stg>
         <st Contlex="ADV_">räkesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kuumasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sagenah</l>
+
       <stg>
         <st Contlex="ADV_">sagenah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sakeanaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">samanverran</l>
+
       <stg>
         <st Contlex="ADV_">samanverran</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">samanverran</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">samoiten</l>
+
       <stg>
         <st Contlex="ADV_">samoiten</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">samoin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sangiesti</l>
+
       <stg>
         <st Contlex="ADV_">sangiesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paksusti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">segah</l>
+
       <stg>
         <st Contlex="ADV_">segah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sekaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">seižojen</l>
+
       <stg>
         <st Contlex="ADV_">seižojen</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">seisaallaan</t>
+
         <t pos="Adv">seisaaltaan</t>
+
         <t pos="Adv">seisten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">selgiesti</l>
+
       <stg>
         <st Contlex="ADV_">selgiesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">selvästi</t>
+
         <t pos="Adv">selkeästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">selgosellälleh</l>
+
       <stg>
         <st Contlex="ADV_">selgosellälleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">selkoselällään</t>
+
         <t pos="Adv">sepposen selällään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sellin</l>
+
       <stg>
         <st Contlex="ADV_">sellin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">selin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">selläkkäi</l>
+
       <stg>
         <st Contlex="ADV_">selläkkäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">seläkkäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">selväh</l>
+
       <stg>
         <st Contlex="ADV_">selväh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">selvään</t>
+
         <t pos="Adv">selvästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">selälleh</l>
+
       <stg>
         <st Contlex="ADV_">selälleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">selälleen</t>
+
         <t pos="Adv">selällään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">semmite</l>
+
       <stg>
         <st Contlex="ADV_">semmite</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">semminkin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sen ližäkse</l>
+
       <stg>
         <st Contlex="ADV_">sen ližäkse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sen lisäksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sen sijah</l>
+
       <stg>
         <st Contlex="ADV_">sen sijah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sen sijaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sen verran</l>
+
       <stg>
         <st Contlex="ADV_">sen verran</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sen verran</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sendäh</l>
+
       <stg>
         <st Contlex="ADV_">sendäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">siksi</t>
+
         <t pos="Adv">sen tähden</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sid</l>
+
       <stg>
         <st Contlex="ADV_">sid</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sitten</t>
+
         <t pos="Adv">siis</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">siel</l>
@@ -12246,6 +13626,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">siepäi</l>
@@ -12263,6 +13644,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">siepäi</l>
@@ -12282,221 +13664,287 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sigäli</l>
+
       <stg>
         <st Contlex="ADV_">sigäli</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sikäli</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sih aigah</l>
+
       <stg>
         <st Contlex="ADV_">sih aigah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">siihen aikaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">siiriči</l>
+
       <stg>
         <st Contlex="ADV_">siiriči</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ohi</t>
+
         <t pos="Adv">ohitse</t>
+
         <t pos="Adv">sivuitse</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">siiriči ajaes</l>
+
       <stg>
         <st Contlex="ADV_">siiriči ajaes</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ohi ajaessa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">siiriči mennen</l>
+
       <stg>
         <st Contlex="ADV_">siiriči mennen</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ohimennen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sijah</l>
+
       <stg>
         <st Contlex="ADV_">sijah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sijaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sijoilleh</l>
+
       <stg>
         <st Contlex="ADV_">sijoilleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paikalla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sikse</l>
+
       <stg>
         <st Contlex="ADV_">sikse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">siksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sil aigua</l>
+
       <stg>
         <st Contlex="ADV_">sil aigua</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sitävastoin</t>
+
         <t pos="Adv">sillä aikaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sil kerdua</l>
+
       <stg>
         <st Contlex="ADV_">sil kerdua</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">samalla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sil kodvua</l>
+
       <stg>
         <st Contlex="ADV_">sil kodvua</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">heti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">silkeskie</l>
+
       <stg>
         <st Contlex="ADV_">silkeskie</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">silloin</t>
+
         <t pos="Adv">sillä aikaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">silleh</l>
+
       <stg>
         <st Contlex="ADV_">silleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">silleen</t>
+
         <t pos="Adv">siten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">silloi</l>
+
       <stg>
         <st Contlex="ADV_">silloi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">silloin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">silloi-toiči</l>
+
       <stg>
         <st Contlex="ADV_">silloi-toiči</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">toisinaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">silminnähten</l>
@@ -12518,6 +13966,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">silminnähten</l>
@@ -12537,264 +13986,343 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">silmymiäriä</l>
+
       <stg>
         <st Contlex="ADV_">silmymiäriä</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">silmämääräisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">silmän räpähykses</l>
+
       <stg>
         <st Contlex="ADV_">silmän räpähykses</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">silmänräpäyksessä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">silmän tuan</l>
+
       <stg>
         <st Contlex="ADV_">silmän tuan</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv"/>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">silmänräpähyksez</l>
+
       <stg>
         <st Contlex="ADV_">silmänräpähyksez</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">silmänräpäyksessä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sinun mugah</l>
+
       <stg>
         <st Contlex="ADV_">sinun mugah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sinun mukaasi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sissäh</l>
+
       <stg>
         <st Contlex="ADV_">sissäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">siihen saakka</t>
+
         <t pos="Adv">siihen asti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sit</l>
+
       <stg>
         <st Contlex="ADV_">sit</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sitten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sitgi</l>
+
       <stg>
         <st Contlex="ADV_">sitgi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sittenkin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sitkiesti</l>
+
       <stg>
         <st Contlex="ADV_">sitkiesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sitkeästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">siästävästi</l>
+
       <stg>
         <st Contlex="ADV_">siästävästi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">säästäväisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">skuupasti</l>
+
       <stg>
         <st Contlex="ADV_">skuupasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nuukasti</t>
+
         <t pos="Adv">saidasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sobivasti</l>
+
       <stg>
         <st Contlex="ADV_">sobivasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sopivasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sobuh</l>
+
       <stg>
         <st Contlex="ADV_">sobuh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sovussa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sogevuksis</l>
+
       <stg>
         <st Contlex="ADV_">sogevuksis</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">huononköisyyttään</t>
+
         <t pos="Adv">sokeuttaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sovissah</l>
+
       <stg>
         <st Contlex="ADV_">sovissah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pukeutuneena</t>
+
         <t pos="Adv">vaatteet päällään</t>
+
         <t pos="Adv">vaatteissaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">srjuado</l>
+
       <stg>
         <st Contlex="ADV_">srjuado</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">heti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">srougo</l>
+
       <stg>
         <st Contlex="ADV_">srougo</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">jyrkästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sruasti</l>
+
       <stg>
         <st Contlex="ADV_">sruasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kauheasti</t>
+
         <t pos="Adv">hirveästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">suate</l>
@@ -12812,48 +14340,61 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">suinpäin</l>
+
       <stg>
         <st Contlex="ADV_">suinpäin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">suinpäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sukkelah</l>
+
       <stg>
         <st Contlex="ADV_">sukkelah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sukkelasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sukkelambi</l>
+
       <stg>
         <st Contlex="ADV_">sukkelambi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sukkelammin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sulavasti</l>
@@ -12871,712 +14412,929 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sumbah</l>
+
       <stg>
         <st Contlex="ADV_">sumbah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tiiviisti</t>
+
         <t pos="Adv">tiukasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">suomekse</l>
+
       <stg>
         <st Contlex="ADV_">suomekse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">suomeksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">surmale</l>
+
       <stg>
         <st Contlex="ADV_">surmale</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kuoliaaksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">suulližesti</l>
+
       <stg>
         <st Contlex="ADV_">suulližesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">suullisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">suunsanal</l>
+
       <stg>
         <st Contlex="ADV_">suunsanal</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sanallisesti</t>
+
         <t pos="Adv">suusanalla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">suurembi</l>
+
       <stg>
         <st Contlex="ADV_">suurembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">suuremmin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sydämeh</l>
+
       <stg>
         <st Contlex="ADV_">sydämeh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sisään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sydämes</l>
+
       <stg>
         <st Contlex="ADV_">sydämes</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sisässä</t>
+
         <t pos="Adv">sisällä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sydämespäi</l>
+
       <stg>
         <st Contlex="ADV_">sydämespäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sisältä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">sydämeči</l>
+
       <stg>
         <st Contlex="ADV_">sydämeči</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sisältä</t>
+
         <t pos="Adv">sisäpuolelta</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">syvembi</l>
+
       <stg>
         <st Contlex="ADV_">syvembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">syvemmin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">syväh</l>
+
       <stg>
         <st Contlex="ADV_">syväh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">syvään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">syväl</l>
+
       <stg>
         <st Contlex="ADV_">syväl</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">syvällä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">syömättäh</l>
+
       <stg>
         <st Contlex="ADV_">syömättäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">syömättä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tagakädeh</l>
+
       <stg>
         <st Contlex="ADV_">tagakädeh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">jälkikäteen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tagan</l>
+
       <stg>
         <st Contlex="ADV_">tagan</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">takana</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tagaperin</l>
+
       <stg>
         <st Contlex="ADV_">tagaperin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">takaperin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tagazin</l>
+
       <stg>
         <st Contlex="ADV_">tagazin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">takaisin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tahallah</l>
+
       <stg>
         <st Contlex="ADV_">tahallah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tahallaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tahtol</l>
+
       <stg>
         <st Contlex="ADV_">tahtol</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">mielisuosiolla</t>
+
         <t pos="Adv">mielihyvin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tahtomattah</l>
+
       <stg>
         <st Contlex="ADV_">tahtomattah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tahtomattaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tajembi</l>
+
       <stg>
         <st Contlex="ADV_">tajembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">taempana</t>
+
         <t pos="Adv">kauempana</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">taki</l>
+
       <stg>
         <st Contlex="ADV_">taki</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kumminkin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tarkah</l>
+
       <stg>
         <st Contlex="ADV_">tarkah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tarkkaan</t>
+
         <t pos="Adv">tarkasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tarkasti</l>
+
       <stg>
         <st Contlex="ADV_">tarkasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tarkasti</t>
+
         <t pos="Adv">tarkkaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tavassah</l>
+
       <stg>
         <st Contlex="ADV_">tavassah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kiivastuksissaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tazah</l>
+
       <stg>
         <st Contlex="ADV_">tazah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tasan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tazai</l>
+
       <stg>
         <st Contlex="ADV_">tazai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tasan</t>
+
         <t pos="Adv">samoin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tazažesti</l>
+
       <stg>
         <st Contlex="ADV_">tazažesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tasaisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">teriembi</l>
+
       <stg>
         <st Contlex="ADV_">teriembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nopeammin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">teriämbi</l>
+
       <stg>
         <st Contlex="ADV_">teriämbi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nopeammin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">terväh</l>
+
       <stg>
         <st Contlex="ADV_">terväh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pian</t>
+
         <t pos="Adv">kohta</t>
+
         <t pos="Adv">tuossa tuokiossa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">terväžeh</l>
+
       <stg>
         <st Contlex="ADV_">terväžeh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kiireesti</t>
+
         <t pos="Adv">kiireisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">terävästi</l>
+
       <stg>
         <st Contlex="ADV_">terävästi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">terävästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tiedämättäh</l>
+
       <stg>
         <st Contlex="ADV_">tiedämättäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tietämättä</t>
+
         <t pos="Adv">tietämättään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tieten</l>
+
       <stg>
         <st Contlex="ADV_">tieten</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tieten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tiettäväine</l>
+
       <stg>
         <st Contlex="ADV_">tiettäväine</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tiettävästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tihiesti</l>
+
       <stg>
         <st Contlex="ADV_">tihiesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tiheästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tiä</l>
+
       <stg>
         <st Contlex="ADV_">tiä</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">täällä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tiäpäi</l>
+
       <stg>
         <st Contlex="ADV_">tiäpäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">täältä</t>
+
         <t pos="Adv">täältäpäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">todižesti</l>
+
       <stg>
         <st Contlex="ADV_">todižesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">todella</t>
+
         <t pos="Adv">totisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">toinah</l>
+
       <stg>
         <st Contlex="ADV_">toinah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tosiaankin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">toizekse</l>
+
       <stg>
         <st Contlex="ADV_">toizekse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">toiseksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">toizen kerran</l>
+
       <stg>
         <st Contlex="ADV_">toizen kerran</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">toisen kerran</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">toiziel</l>
+
       <stg>
         <st Contlex="ADV_">toiziel</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">toisaalla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">toiči</l>
+
       <stg>
         <st Contlex="ADV_">toiči</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">toisinaan</t>
+
         <t pos="Adv">toiste</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">toižin</l>
+
       <stg>
         <st Contlex="ADV_">toižin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">toisin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tokko</l>
+
       <stg>
         <st Contlex="ADV_">tokko</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">jopas</t>
+
         <t pos="Adv">kylläpäs</t>
+
         <t pos="Adv">vain</t>
+
         <t pos="Adv">vaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tolkuh</l>
+
       <stg>
         <st Contlex="ADV_">tolkuh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">hyvin</t>
+
         <t pos="Adv">tolkullisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tolkuttah</l>
@@ -13596,209 +15354,273 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tolkuttomasti</l>
+
       <stg>
         <st Contlex="ADV_">tolkuttomasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tolkuttomasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tottelevasti</l>
+
       <stg>
         <st Contlex="ADV_">tottelevasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nöyrästi</t>
+
         <t pos="Adv">tottelevaisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tottu</l>
+
       <stg>
         <st Contlex="ADV_">tottu</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">totta</t>
+
         <t pos="Adv">vakavissaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tottugo</l>
+
       <stg>
         <st Contlex="ADV_">tottugo</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tosiaanko</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tovelleh</l>
+
       <stg>
         <st Contlex="ADV_">tovelleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tosissaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">toven</l>
+
       <stg>
         <st Contlex="ADV_">toven</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tosiaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tovessah</l>
+
       <stg>
         <st Contlex="ADV_">tovessah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tosissaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuaksepäi</l>
+
       <stg>
         <st Contlex="ADV_">tuaksepäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">taaksepäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuan</l>
+
       <stg>
         <st Contlex="ADV_">tuan</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">takana</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuandoi</l>
+
       <stg>
         <st Contlex="ADV_">tuandoi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">taannoin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuanpäi</l>
+
       <stg>
         <st Contlex="ADV_">tuanpäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">takanapäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuaskätty</l>
+
       <stg>
         <st Contlex="ADV_">tuaskätty</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">olan yli</t>
+
         <t pos="Adv">yli olan</t>
+
         <t pos="Adv">olkansa yli</t>
+
         <t pos="Adv">taakse</t>
+
         <t pos="Adv">taakseen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuači</l>
+
       <stg>
         <st Contlex="ADV_">tuači</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">asemesta</t>
+
         <t pos="Adv">sijasta</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuhmasti</l>
+
       <stg>
         <st Contlex="ADV_">tuhmasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">rumasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tukkuloilleh</l>
@@ -13816,6 +15638,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tukkuloilleh</l>
@@ -13835,93 +15658,121 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tukkunah</l>
+
       <stg>
         <st Contlex="ADV_">tukkunah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kokonaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tukul</l>
+
       <stg>
         <st Contlex="ADV_">tukul</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kokonaan</t>
+
         <t pos="Adv">kaikkineen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tukulleh</l>
+
       <stg>
         <st Contlex="ADV_">tukulleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tukkuna</t>
+
         <t pos="Adv">tukussa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tukumbi</l>
+
       <stg>
         <st Contlex="ADV_">tukumbi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">koossa</t>
+
         <t pos="Adv">yhdessä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tukusti</l>
+
       <stg>
         <st Contlex="ADV_">tukusti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tiiviisti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tunduu</l>
+
       <stg>
         <st Contlex="ADV_">tunduu</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kuulema</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuol</l>
@@ -13939,36 +15790,47 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuolleh</l>
+
       <stg>
         <st Contlex="ADV_">tuolleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tuolla tavalla</t>
+
         <t pos="Adv">tuolla lailla</t>
+
         <t pos="Adv">tuolleen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuolloi</l>
+
       <stg>
         <st Contlex="ADV_">tuolloi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tuolloin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuolpäi</l>
@@ -13988,6 +15850,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuolpäi</l>
@@ -14009,6 +15872,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuone</l>
@@ -14026,155 +15890,205 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuonepäi</l>
+
       <stg>
         <st Contlex="ADV_">tuonepäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tuonnepäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuos</l>
+
       <stg>
         <st Contlex="ADV_">tuos</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tuossa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">turbiesti</l>
+
       <stg>
         <st Contlex="ADV_">turbiesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tuuheasti</t>
+
         <t pos="Adv">paksusti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuskevuksis</l>
+
       <stg>
         <st Contlex="ADV_">tuskevuksis</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">suutuksissaan</t>
+
         <t pos="Adv">suutuksissa</t>
+
         <t pos="Adv">suutuksissani</t>
+
         <t pos="Adv">suutusissasi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tuskin</l>
+
       <stg>
         <st Contlex="ADV_">tuskin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tuskin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tyhjilleh</l>
+
       <stg>
         <st Contlex="ADV_">tyhjilleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tyhjilleen</t>
+
         <t pos="Adv">tyhjillään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tyhjiä</l>
+
       <stg>
         <st Contlex="ADV_">tyhjiä</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">turhaan</t>
+
         <t pos="Adv">tyhjää</t>
+
         <t pos="Adv">tyhjiä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tyhjäh</l>
+
       <stg>
         <st Contlex="ADV_">tyhjäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">hukkaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tyhjäh</l>
+
       <stg>
         <st Contlex="ADV_">tyhjäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">hukkaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tyhjäl vačal</l>
+
       <stg>
         <st Contlex="ADV_">tyhjäl vačal</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tyhjin vatsoin</t>
+
         <t pos="Adv">tyhjällä vatsalla</t>
+
         <t pos="Adv">vatsa tyhjänä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tytössy</l>
@@ -14198,6 +16112,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tyves</l>
@@ -14223,63 +16138,81 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tyynesti</l>
+
       <stg>
         <st Contlex="ADV_">tyynesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tyynesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tägäli</l>
+
       <stg>
         <st Contlex="ADV_">tägäli</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tätä kautta</t>
+
         <t pos="Adv">tätä myöten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">täl kodvua</l>
+
       <stg>
         <st Contlex="ADV_">täl kodvua</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nykyään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">täl kodvua</l>
+
       <stg>
         <st Contlex="ADV_">täl kodvua</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nyt heti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tälleh</l>
@@ -14303,78 +16236,101 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tämän verran</l>
+
       <stg>
         <st Contlex="ADV_">tämän verran</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tämän verran</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tänehtän</l>
+
       <stg>
         <st Contlex="ADV_">tänehtän</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tänä iltana</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tännembä</l>
+
       <stg>
         <st Contlex="ADV_">tännembä</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tännemmäs</t>
+
         <t pos="Adv">tännemmäksi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tänäpäi</l>
+
       <stg>
         <st Contlex="ADV_">tänäpäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tänään</t>
+
         <t pos="Adv">tänä päivänö</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tänävuon</l>
+
       <stg>
         <st Contlex="ADV_">tänävuon</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tänä vuonna</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">täs</l>
@@ -14394,297 +16350,389 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">täs lähtien</l>
+
       <stg>
         <st Contlex="ADV_">täs lähtien</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tästä lähtien</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">täspäi</l>
+
       <stg>
         <st Contlex="ADV_">täspäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tästä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tässäh</l>
+
       <stg>
         <st Contlex="ADV_">tässäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tähän</t>
+
         <t pos="Adv">tähän saakka</t>
+
         <t pos="Adv">tähän asti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tävelleh</l>
+
       <stg>
         <st Contlex="ADV_">tävelleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ylössuin</t>
+
         <t pos="Adv">pystyssä</t>
+
         <t pos="Adv">täydellisesti</t>
+
         <t pos="Adv">kuitenkin</t>
+
         <t pos="Adv">kuitenkaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">tävvelližesti</l>
+
       <stg>
         <st Contlex="ADV_">tävvelližesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">täydellisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">täydyy</l>
+
       <stg>
         <st Contlex="ADV_">täydyy</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">riittävästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">täytty nelluu</l>
+
       <stg>
         <st Contlex="ADV_">täytty nelluu</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">täyttä ravia</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">täytty vägie</l>
+
       <stg>
         <st Contlex="ADV_">täytty vägie</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kaikin voimin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">täčöi-täyzi</l>
+
       <stg>
         <st Contlex="ADV_">täčöi-täyzi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">täpötäysi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">töhläkösti</l>
+
       <stg>
         <st Contlex="ADV_">töhläkösti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">likaisesti</t>
+
         <t pos="Adv">törkyisesti</t>
+
         <t pos="Adv">kömpelösti</t>
+
         <t pos="Adv">rumasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ualdanpäi</l>
+
       <stg>
         <st Contlex="ADV_">ualdanpäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">alhaaltapäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">uhalla</l>
+
       <stg>
         <st Contlex="ADV_">uhalla</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">uhallakin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">uijen</l>
+
       <stg>
         <st Contlex="ADV_">uijen</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">uimalla</t>
+
         <t pos="Adv">uiden</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ulgoh</l>
+
       <stg>
         <st Contlex="ADV_">ulgoh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ulos</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ulgon</l>
+
       <stg>
         <st Contlex="ADV_">ulgon</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ulkona</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ulgonpäi</l>
+
       <stg>
         <st Contlex="ADV_">ulgonpäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ulkoa</t>
+
         <t pos="Adv">ulkoapäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ulos</l>
+
       <stg>
         <st Contlex="ADV_">ulos</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ulos</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">umbeh</l>
+
       <stg>
         <st Contlex="ADV_">umbeh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">umpeen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">umbimähkäh</l>
+
       <stg>
         <st Contlex="ADV_">umbimähkäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">umpimähkään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">umbimähkäh</l>
+
       <stg>
         <st Contlex="ADV_">umbimähkäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">umpimähkään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">umbipäi</l>
@@ -14704,39 +16752,53 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">unimielis</l>
+
       <stg>
         <st Contlex="ADV_">unimielis</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">unissaan</t>
+
         <t pos="Adv">unissani</t>
+
         <t pos="Adv">unissasi</t>
+
         <t pos="Adv">unissamme</t>
+
         <t pos="Adv">unissanne</t>
+
         <t pos="Adv">unissansa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">uudeh luaduh</l>
+
       <stg>
         <st Contlex="ADV_">uudeh luaduh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">uudella tavalla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">uudehes</l>
@@ -14756,20 +16818,25 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">uvvelleh</l>
+
       <stg>
         <st Contlex="ADV_">uvvelleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">uudelleen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">uvvessah</l>
@@ -14787,122 +16854,159 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vagavasti</l>
+
       <stg>
         <st Contlex="ADV_">vagavasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vakavasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vagavazeh</l>
+
       <stg>
         <st Contlex="ADV_">vagavazeh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vakaasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vahnate</l>
+
       <stg>
         <st Contlex="ADV_">vahnate</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vanhana</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vahnembaite</l>
+
       <stg>
         <st Contlex="ADV_">vahnembaite</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vanhemmiten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vahnembi</l>
+
       <stg>
         <st Contlex="ADV_">vahnembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vanhempaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vai</l>
+
       <stg>
         <st Contlex="ADV_">vai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vain</t>
+
         <t pos="Adv">sen kuin</t>
+
         <t pos="Adv">kylläpä</t>
+
         <t pos="Adv">ei suinkaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vaigiesti</l>
+
       <stg>
         <st Contlex="ADV_">vaigiesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vaikeasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vaikkani</l>
+
       <stg>
         <st Contlex="ADV_">vaikkani</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">hiljaa</t>
+
         <t pos="Adv">vaiti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vaivažesti</l>
@@ -14920,382 +17024,499 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vaivoin</l>
+
       <stg>
         <st Contlex="ADV_">vaivoin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vaivoin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vakkiessah</l>
+
       <stg>
         <st Contlex="ADV_">vakkiessah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tottumattomuuttaan</t>
+
         <t pos="Adv">oudokseltaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">valduvahnembi</l>
+
       <stg>
         <st Contlex="ADV_">valduvahnembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">aikuinen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">valehel</l>
+
       <stg>
         <st Contlex="ADV_">valehel</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">huonosti</t>
+
         <t pos="Adv">pilanpäiten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">valehite</l>
+
       <stg>
         <st Contlex="ADV_">valehite</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pilanpäiten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">valgenah</l>
+
       <stg>
         <st Contlex="ADV_">valgenah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">valkeanaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">valgieh</l>
+
       <stg>
         <st Contlex="ADV_">valgieh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kirkkaasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">valmehilleh</l>
+
       <stg>
         <st Contlex="ADV_">valmehilleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">valmiina</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">valmis</l>
+
       <stg>
         <st Contlex="ADV_">valmis</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">valmis</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varakse</l>
+
       <stg>
         <st Contlex="ADV_">varakse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">varuilta</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varaten</l>
+
       <stg>
         <st Contlex="ADV_">varaten</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">arasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varattau</l>
+
       <stg>
         <st Contlex="ADV_">varattau</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pelottava</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varattomah</l>
+
       <stg>
         <st Contlex="ADV_">varattomah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">varomattomasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varavožilleh</l>
+
       <stg>
         <st Contlex="ADV_">varavožilleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">varuillaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varavuksis</l>
+
       <stg>
         <st Contlex="ADV_">varavuksis</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">peloissaan</t>
+
         <t pos="Adv">peloissani</t>
+
         <t pos="Adv">peloissasi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varbahuzilleh</l>
+
       <stg>
         <st Contlex="ADV_">varbahuzilleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">varpaisilleen</t>
+
         <t pos="Adv">varpaisillaan</t>
+
         <t pos="Adv">varpaisilleni</t>
+
         <t pos="Adv">varpaisillani</t>
+
         <t pos="Adv">varpaisillesi</t>
+
         <t pos="Adv">varpaisillasi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vardoiten</l>
+
       <stg>
         <st Contlex="ADV_">vardoiten</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">varovasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varmah</l>
+
       <stg>
         <st Contlex="ADV_">varmah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">varmasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varovasti</l>
+
       <stg>
         <st Contlex="ADV_">varovasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">varovasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varrastaen</l>
+
       <stg>
         <st Contlex="ADV_">varrastaen</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">salavihkaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varuamattah</l>
+
       <stg>
         <st Contlex="ADV_">varuamattah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">rohkeasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">varuksis</l>
+
       <stg>
         <st Contlex="ADV_">varuksis</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">valmiina</t>
+
         <t pos="Adv">lähtökuopissaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vastah</l>
+
       <stg>
         <st Contlex="ADV_">vastah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vastaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vastai</l>
+
       <stg>
         <st Contlex="ADV_">vastai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vastakkain</t>
+
         <t pos="Adv">vuorotellen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vastalpäi</l>
+
       <stg>
         <st Contlex="ADV_">vastalpäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vastapäätä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vaste</l>
+
       <stg>
         <st Contlex="ADV_">vaste</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vasten</t>
+
         <t pos="Adv">vasta</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vaste</l>
@@ -15315,586 +17536,767 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vaste havačuttuu</l>
+
       <stg>
         <st Contlex="ADV_">vaste havačuttuu</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">unenpöpperössä</t>
+
         <t pos="Adv">juuri herättyä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vaste-vai</l>
+
       <stg>
         <st Contlex="ADV_">vaste-vai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">äsken</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vastukarai</l>
+
       <stg>
         <st Contlex="ADV_">vastukarai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">päinvastoin</t>
+
         <t pos="Adv">väärinpäin</t>
+
         <t pos="Adv">takaperin</t>
+
         <t pos="Adv">väärissä jaloissa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vastumieleh</l>
+
       <stg>
         <st Contlex="ADV_">vastumieleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">epämiellyttävästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vastutuuleh</l>
+
       <stg>
         <st Contlex="ADV_">vastutuuleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vastatuuleen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vastuyöh</l>
+
       <stg>
         <st Contlex="ADV_">vastuyöh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yötä vasten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vačalleh</l>
+
       <stg>
         <st Contlex="ADV_">vačalleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vatsalleen</t>
+
         <t pos="Adv">vatsallaan</t>
+
         <t pos="Adv">vatsalleni</t>
+
         <t pos="Adv">vatsallani</t>
+
         <t pos="Adv">vatsallesi</t>
+
         <t pos="Adv">vatsallasi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">važemah</l>
+
       <stg>
         <st Contlex="ADV_">važemah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vasempaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">važemeh</l>
+
       <stg>
         <st Contlex="ADV_">važemeh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vasempaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">važemešša</l>
+
       <stg>
         <st Contlex="ADV_">važemešša</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vasemmalla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vereksel</l>
+
       <stg>
         <st Contlex="ADV_">vereksel</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tuoreeltaan</t>
+
         <t pos="Adv">verekseltään</t>
+
         <t pos="Adv">äskettäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">verekselleh</l>
+
       <stg>
         <st Contlex="ADV_">verekselleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">verekseltään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">verraten</l>
+
       <stg>
         <st Contlex="ADV_">verraten</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">verraten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vesseläh</l>
+
       <stg>
         <st Contlex="ADV_">vesseläh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">iloisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vie enämbäl</l>
+
       <stg>
         <st Contlex="ADV_">vie enämbäl</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vielä enemmän</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vie kerran</l>
+
       <stg>
         <st Contlex="ADV_">vie kerran</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vielä kerran</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vienosti</l>
+
       <stg>
         <st Contlex="ADV_">vienosti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vienosti</t>
+
         <t pos="Adv">heikosti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">viesehki</l>
+
       <stg>
         <st Contlex="ADV_">viesehki</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">onneksi</t>
+
         <t pos="Adv">hyvä kun</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">viijei</l>
+
       <stg>
         <st Contlex="ADV_">viijei</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">viidestään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">viikon</l>
+
       <stg>
         <st Contlex="ADV_">viikon</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kauan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">viizahasti</l>
+
       <stg>
         <st Contlex="ADV_">viizahasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">viisaasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vikkeläh</l>
+
       <stg>
         <st Contlex="ADV_">vikkeläh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vikkelästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vilahtuksel</l>
+
       <stg>
         <st Contlex="ADV_">vilahtuksel</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vilauksessa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vilu</l>
+
       <stg>
         <st Contlex="ADV_">vilu</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vilu</t>
+
         <t pos="Adv">kylmä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">viluhko</l>
+
       <stg>
         <st Contlex="ADV_">viluhko</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">aika kylmä</t>
+
         <t pos="Adv">kylmähkö</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vilusti</l>
+
       <stg>
         <st Contlex="ADV_">vilusti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kylmästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vinoh</l>
+
       <stg>
         <st Contlex="ADV_">vinoh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vinoon</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">viärin</l>
+
       <stg>
         <st Contlex="ADV_">viärin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">väärin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">viäräh</l>
+
       <stg>
         <st Contlex="ADV_">viäräh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">väärin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">viäräžeh</l>
+
       <stg>
         <st Contlex="ADV_">viäräžeh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">väärin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">voittua kaikkineh</l>
+
       <stg>
         <st Contlex="ADV_">voittua kaikkineh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">voittaa kokonaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vuograten</l>
+
       <stg>
         <st Contlex="ADV_">vuograten</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vuokralle</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vuoroi</l>
+
       <stg>
         <st Contlex="ADV_">vuoroi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vuorottain</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vuorotellen</l>
+
       <stg>
         <st Contlex="ADV_">vuorotellen</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vuorotellen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vuottamattah</l>
+
       <stg>
         <st Contlex="ADV_">vuottamattah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">odottamatta</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vuoziluguh</l>
+
       <stg>
         <st Contlex="ADV_">vuoziluguh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vuosikaudet</t>
+
         <t pos="Adv">vuosikausia</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vägeh</l>
+
       <stg>
         <st Contlex="ADV_">vägeh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">väkisin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vägeheze</l>
+
       <stg>
         <st Contlex="ADV_">vägeheze</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">haluttomasti</t>
+
         <t pos="Adv">vastentahtoisesti</t>
+
         <t pos="Adv">väkisin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vägevästi</l>
+
       <stg>
         <st Contlex="ADV_">vägevästi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vahvasti</t>
+
         <t pos="Adv">väkevästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vägi</l>
+
       <stg>
         <st Contlex="ADV_">vägi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">aika</t>
+
         <t pos="Adv">melko</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vägie myöte</l>
@@ -15912,375 +18314,485 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vägitukul</l>
+
       <stg>
         <st Contlex="ADV_">vägitukul</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kunnolla</t>
+
         <t pos="Adv">perinpohjin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähembi</l>
+
       <stg>
         <st Contlex="ADV_">vähembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähemmin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähimyölleh</l>
+
       <stg>
         <st Contlex="ADV_">vähimyölleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähintään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähin</l>
+
       <stg>
         <st Contlex="ADV_">vähin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähän</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähitellen</l>
+
       <stg>
         <st Contlex="ADV_">vähitellen</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähitellen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähä</l>
+
       <stg>
         <st Contlex="ADV_">vähä</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähän</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähä aigua</l>
+
       <stg>
         <st Contlex="ADV_">vähä aigua</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähän aikaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähä ennem</l>
+
       <stg>
         <st Contlex="ADV_">vähä ennem</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähän ennen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähähkö</l>
+
       <stg>
         <st Contlex="ADV_">vähähkö</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähänlaisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähäine</l>
+
       <stg>
         <st Contlex="ADV_">vähäine</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähän</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähäizel</l>
+
       <stg>
         <st Contlex="ADV_">vähäizel</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähän</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähäižin</l>
+
       <stg>
         <st Contlex="ADV_">vähäižin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähäsen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähän</l>
+
       <stg>
         <st Contlex="ADV_">vähän</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähän</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähän verran</l>
+
       <stg>
         <st Contlex="ADV_">vähän verran</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">pikkuruisen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähättävy</l>
+
       <stg>
         <st Contlex="ADV_">vähättävy</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähänlainen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähätöigö</l>
+
       <stg>
         <st Contlex="ADV_">vähätöigö</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vähänkö</t>
+
         <t pos="Adv">kukapa</t>
+
         <t pos="Adv">kuka nyt</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vähäžin</l>
+
       <stg>
         <st Contlex="ADV_">vähäžin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">vöhän</t>
+
         <t pos="Adv">vähäsen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">välis</l>
+
       <stg>
         <st Contlex="ADV_">välis</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">välissä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">välizissä</l>
+
       <stg>
         <st Contlex="ADV_">välizissä</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">välillä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">väliäh</l>
+
       <stg>
         <st Contlex="ADV_">väliäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">nopeasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vällendämättäh</l>
+
       <stg>
         <st Contlex="ADV_">vällendämättäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">hellittämättä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">välläl</l>
+
       <stg>
         <st Contlex="ADV_">välläl</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">Lepo</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vällästi</l>
+
       <stg>
         <st Contlex="ADV_">vällästi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">löysästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vältämättäh</l>
+
       <stg>
         <st Contlex="ADV_">vältämättäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">välttämättä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">vältävälleh</l>
+
       <stg>
         <st Contlex="ADV_">vältävälleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">välttävästi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">väzyksissäh</l>
+
       <stg>
         <st Contlex="ADV_">väzyksissäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">väsyksiin</t>
+
         <t pos="Adv">väsyksiin asti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yböyksin</l>
@@ -16298,751 +18810,977 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhte</l>
+
       <stg>
         <st Contlex="ADV_">yhte</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">hukkaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhteh</l>
+
       <stg>
         <st Contlex="ADV_">yhteh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yhteen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtehpalah</l>
+
       <stg>
         <st Contlex="ADV_">yhtehpalah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">jatkuvasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtekseh</l>
+
       <stg>
         <st Contlex="ADV_">yhtekseh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yhtä mittaa</t>
+
         <t pos="Adv">keskeytyksettä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtelaigua</l>
+
       <stg>
         <st Contlex="ADV_">yhtelaigua</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yhtaikaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtelkerdua</l>
+
       <stg>
         <st Contlex="ADV_">yhtelkerdua</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kerran</t>
+
         <t pos="Adv">yhden kerran</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtelläh</l>
+
       <stg>
         <st Contlex="ADV_">yhtelläh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kuitenkin</t>
+
         <t pos="Adv">kumminkin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhteltiedy</l>
+
       <stg>
         <st Contlex="ADV_">yhteltiedy</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">samalla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhteltiel</l>
+
       <stg>
         <st Contlex="ADV_">yhteltiel</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">muuten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhten verran</l>
+
       <stg>
         <st Contlex="ADV_">yhten verran</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">saman verran</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtenjyttyöh</l>
+
       <stg>
         <st Contlex="ADV_">yhtenjyttyöh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">samalla tavoin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtenpiänal</l>
+
       <stg>
         <st Contlex="ADV_">yhtenpiänal</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yhdessä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtenvastah</l>
+
       <stg>
         <st Contlex="ADV_">yhtenvastah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">tasan</t>
+
         <t pos="Adv">saman verran</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtes</l>
+
       <stg>
         <st Contlex="ADV_">yhtes</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yhdessä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtettömäkse</l>
+
       <stg>
         <st Contlex="ADV_">yhtettömäkse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">täysin</t>
+
         <t pos="Adv">kokonaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtyhoduu</l>
+
       <stg>
         <st Contlex="ADV_">yhtyhoduu</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yhtä kyytiä</t>
+
         <t pos="Adv">pysähtymättä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtyjalgua</l>
+
       <stg>
         <st Contlex="ADV_">yhtyjalgua</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yhtäjalkaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtyoigiedu</l>
+
       <stg>
         <st Contlex="ADV_">yhtyoigiedu</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">suoraan</t>
+
         <t pos="Adv">yhtäsuoraa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtytottu</l>
+
       <stg>
         <st Contlex="ADV_">yhtytottu</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">jatkuvasti</t>
+
         <t pos="Adv">koko ajan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yhtäigua</l>
+
       <stg>
         <st Contlex="ADV_">yhtäigua</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yhtaikaa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yksielepäi</l>
+
       <stg>
         <st Contlex="ADV_">yksielepäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yhtäälle</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yksielpäi</l>
+
       <stg>
         <st Contlex="ADV_">yksielpäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yhtäältä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yksikai</l>
+
       <stg>
         <st Contlex="ADV_">yksikai</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">aivan sama</t>
+
         <t pos="Adv">se ja sama</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yksimieližesti</l>
+
       <stg>
         <st Contlex="ADV_">yksimieližesti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yksimielisesti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yksin</l>
+
       <stg>
         <st Contlex="ADV_">yksin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yksin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yksinäh</l>
+
       <stg>
         <st Contlex="ADV_">yksinäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yksinään</t>
+
         <t pos="Adv">yksinäni</t>
+
         <t pos="Adv">yksinäsi</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yksitellen</l>
+
       <stg>
         <st Contlex="ADV_">yksitellen</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yksitellen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ylembi</l>
+
       <stg>
         <st Contlex="ADV_">ylembi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ylempää</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ylen</l>
+
       <stg>
         <st Contlex="ADV_">ylen</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">hyvin</t>
+
         <t pos="Adv">kovin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ylen ammui</l>
+
       <stg>
         <st Contlex="ADV_">ylen ammui</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">muinoin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ylen terväh</l>
+
       <stg>
         <st Contlex="ADV_">ylen terväh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">hyvin nopeasti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yli</l>
+
       <stg>
         <st Contlex="ADV_">yli</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yli</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yliči</l>
+
       <stg>
         <st Contlex="ADV_">yliči</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yli</t>
+
         <t pos="Adv">ylitse</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yllässäh</l>
+
       <stg>
         <st Contlex="ADV_">yllässäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">piripintaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yläh</l>
+
       <stg>
         <st Contlex="ADV_">yläh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ylös</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ylähpäi</l>
+
       <stg>
         <st Contlex="ADV_">ylähpäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ylöspäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ylähäkse</l>
+
       <stg>
         <st Contlex="ADV_">ylähäkse</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ylös</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ylähän</l>
+
       <stg>
         <st Contlex="ADV_">ylähän</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ylhäällä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ylähänpäi</l>
+
       <stg>
         <st Contlex="ADV_">ylähänpäi</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ylhäältä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ylähäči</l>
+
       <stg>
         <st Contlex="ADV_">ylähäči</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ylhäältä</t>
+
         <t pos="Adv">yläpuolelta</t>
+
         <t pos="Adv">ylhäällä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ylämägeh</l>
+
       <stg>
         <st Contlex="ADV_">ylämägeh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ylämägeen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yläs alassah</l>
+
       <stg>
         <st Contlex="ADV_">yläs alassah</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ylhäältä alas</t>
+
         <t pos="Adv">ylhäältä alas asti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ymbäri</l>
+
       <stg>
         <st Contlex="ADV_">ymbäri</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">ympäri</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ynnäh</l>
+
       <stg>
         <st Contlex="ADV_">ynnäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">aivan</t>
+
         <t pos="Adv">ihan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">ynnälleh</l>
+
       <stg>
         <st Contlex="ADV_">ynnälleh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kokonaan</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yskittäin</l>
+
       <stg>
         <st Contlex="ADV_">yskittäin</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">sylyksittäin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yöl</l>
+
       <stg>
         <st Contlex="ADV_">yöl</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yöllä</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">yönselgäh</l>
+
       <stg>
         <st Contlex="ADV_">yönselgäh</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">yönselkään</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">äijiel</l>
+
       <stg>
         <st Contlex="ADV_">äijiel</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">moniaalla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">äijiä</l>
+
       <stg>
         <st Contlex="ADV_">äijiä</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paljoa</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">äijiä ennem</l>
+
       <stg>
         <st Contlex="ADV_">äijiä ennem</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paljon ennen</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">äijy</l>
+
       <stg>
         <st Contlex="ADV_">äijy</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">paljon</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">äijy</l>
@@ -17062,48 +19800,61 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">äijygo</l>
+
       <stg>
         <st Contlex="ADV_">äijygo</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">montako</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">äijähköl</l>
+
       <stg>
         <st Contlex="ADV_">äijähköl</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">aika lailla</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">äijäl</l>
+
       <stg>
         <st Contlex="ADV_">äijäl</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kovin</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">äijäl</l>
@@ -17127,6 +19878,7 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">äijän</l>
@@ -17144,20 +19896,25 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">čomasti</l>
+
       <stg>
         <st Contlex="ADV_">čomasti</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">kauniisti</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">čuassuluguh</l>
@@ -17175,34 +19932,43 @@
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">čudei</l>
+
       <stg>
         <st Contlex="ADV_">čudei</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">lähes</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="Adv">šuuttien</l>
+
       <stg>
         <st Contlex="ADV_">šuuttien</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Adv">leikiten</t>
       </tg>
     </mg>
   </e>
+
   <e>
     <lg>
       <l pos="V">ajua märgiä</l>

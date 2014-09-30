@@ -6,6 +6,24 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="A">perindökanzalline</l>
+
+      <stg>
+        <st Contlex="A_KIELINE">perindö#kanzalli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">perinteinen kansallinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">abei</l>
 
       <stg>
@@ -1748,7 +1766,28 @@
     </mg>
   </e>
 
-<e> <lg> <l pos="A">bohattu</l> <stg> <st Contlex="A_AKKU">bohatta</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="A">rikas</t> <t pos="A">vauras</t> <t pos="A">varakas</t> </tg> </mg> </e>
+  <e>
+    <lg>
+      <l pos="A">bohattu</l>
+
+      <stg>
+        <st Contlex="A_AKKU">bohatta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">rikas</t>
+
+        <t pos="A">vauras</t>
+
+        <t pos="A">varakas</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="A">boikoi</l>
