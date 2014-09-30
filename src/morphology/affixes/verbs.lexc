@@ -47,6 +47,7 @@ LEXICON V_OLLA !!= @CODE@ olla:o
 !! V1a
 
 LEXICON V_KANDUA !!= @CODE@ kandua:kanda
+!! Gradation Yes
 +V: V-VV_01 ;
 
 LEXICON V_KANDUA-SG3 !!= @CODE@ kandua:kanda
@@ -365,6 +366,8 @@ LEXICON V-VV_01
 
  M-INF        ;
 +Inf:%>%{aäDiph%} K ;
+ GER_jen ;
+ GER-TEMP_jes ;
 
 LEXICON V-3SYLL_KIRJUTTUA !!= __@CODE@__  kirjuttua:kirjutta
 ! V1 3-syllable stem 
@@ -1303,6 +1306,13 @@ LEXICON M-INF
 +Der/mA+Inf+Ill:%>m%{aäDiph%}h K ;
 +Der/mA+Inf+Ine:%>m%{aäDiph%}s K ;
 +Der/mA+Inf+Par:%>m%{ui%}%{aäDiph%} K ;
+
+LEXICON GER_jen
++Ger:%>jen K ;
+
+LEXICON GER-TEMP_jes
++Ger+Temp:%>jes K ;
+
 
 
 ! vim: set ft=xfst-lexc:

@@ -406,7 +406,7 @@ the comparatives and superlatives are supletive
 
  LEXICON A_KIELI  kieli:kiel
 
- LEXICON A_VUOZI  vuozi:vuot
+ LEXICON A_VUOZI  vuozi:vuod
 
  LEXICON A_VEZI  vezi:vet
 
@@ -452,9 +452,10 @@ Livvi nouns inflect in cases.
 
 !TWO-SYLLABLE VOWEL-FINAL STEMS
  LEXICON N_PAPPI  pappi:pappi
+Gradation Yes
 
  LEXICON N_LEIRI  leiri:leiri
-Gradation No
+Gradation NA
 
  LEXICON N_PADA  pada:pada
 Gradation Yes
@@ -462,7 +463,7 @@ Gradation Yes
 
 
  LEXICON N_KALA  kala:kala
-Gradation No
+Gradation NA
 
  LEXICON N_OZA  oza:oza
 
@@ -473,6 +474,10 @@ Gradation No
 
 
  LEXICON N_KOIVU  koivu:koivu
+
+
+
+ LEXICON N_PUIKKU  puikku:puikku
 
 
 
@@ -496,7 +501,7 @@ Gradation Yes
 
  LEXICON N_MUAMO  muamo:muama
 Back vowel
-No gradation
+gradation NA
 
 
  LEXICON N_DIÄDÖ  diädö:diädä
@@ -508,7 +513,14 @@ No gradation
  LEXICON N_AKKU  akku:akka
 
 
+ LEXICON N_KNIIGU  kniigu:kniiga
+Gradation No
+VowelHarmony Back
+
+
  LEXICON N_SULGU  sulgu:sulga
+Gradation Yes
+VowelHarmony	Back
 
  LEXICON N_KOIRU  koiru:koira
 
@@ -523,6 +535,12 @@ No gradation
 
 
  LEXICON N_PÄIVY  päivy:päivä
+
+
+
+ LEXICON N_IŽÄNDY  ižändy:ižändä
+Gradation No
+Vowel Harmony Front
 
 
 
@@ -747,18 +765,22 @@ No gradation
 
  LEXICON NMN_MUAMO  muamo:muama
 Back vowel
-No gradation
+gradation NA
 
 
  LEXICON NMN_DIÄDÖ  diädö:diädä
 
 
  LEXICON NMN_MUARJU  muarju:muarja
-gradation No
+gradation NA
 
 
  LEXICON NMN_AKKU  akku:akka
 gradation Yes
+
+
+ LEXICON NMN_KNIIGU  kniigu:kniiga
+gradation No
 
 
  LEXICON NMN_LAPSI  lapsi:laps lapsi:laps
@@ -818,17 +840,39 @@ __Adjective comparative examples:__
  LEXICON NMN_HUOLETOI  huoletoi: huolet
 
 
+ LEXICON NMN_KOIRU  koiru:koira
+Gradation NA
+Vowel Harmony Back
+
+
+
  LEXICON NMN_PÄIVY  päivy:päivä
+Gradation NA
+
+
+
+ LEXICON NMN_IŽÄNDY  ižändy:ižändä
+Gradation No
+VowelHarmony Front
 
 
 
 
  LEXICON NMN_KOIVU  koivu:koivu
+Gradation NA
+Vowel Harmony Back
+
+
+
+ LEXICON NMN_PUIKKU  puikku:puikku
+Gradation Yes
+Vowel Harmony Back
 
 
 
  LEXICON NMN_IDY  idy:idy
 Gradation Yes
+Vowel Harmony Front
 
 
 
@@ -895,7 +939,7 @@ Gradation Yes
 
 
  LEXICON NMN_KALA  kala:kala
-Gradation No
+Gradation NA
 
 
  LEXICON NMN_PADA  pada:pada
@@ -935,7 +979,6 @@ Gradation Yes
 
 
  LEXICON NMN_ENIN  enin:eni
-
 
 
 
@@ -989,7 +1032,7 @@ Gradation Yes
 
 
  * LEXICON NMN_TUHAT  tuhat:tuha
-Gradation No
+Gradation 
 
 
 
@@ -1011,7 +1054,7 @@ Gradation No
 
 
  LEXICON NMN_LEIRI  leiri:leiri
-Gradation No
+Gradation NA
 
  LEXICON NMN_UKSI  uksi:uks
 
@@ -1088,6 +1131,7 @@ __luaji000ttu0u examples:__
 
 
 
+
 !SINGULAR POSSESSA
 
  LEXICON SGNOM/PXSP3  adding -h
@@ -1116,6 +1160,7 @@ __luaji000ttu0u examples:__
 V1a
 
  LEXICON V_KANDUA  kandua:kanda
+Gradation Yes
 
  LEXICON V_KANDUA-SG3  kandua:kanda
 
@@ -1430,6 +1475,9 @@ Forthcoming
 
 
 ... and next chapter
+
+
+
 
 
 
