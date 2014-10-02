@@ -314,6 +314,10 @@ WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
  LEXICON A_IS-N-SG-GEN  genitive plural attributes
 
+ LEXICON A-DEM_NÄMÄ  nämä:nämä
+
+
+
 !ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
  LEXICON A_KUU  kuu:kuu
 
@@ -521,6 +525,10 @@ VowelHarmony Back
  LEXICON N_SULGU  sulgu:sulga
 Gradation Yes
 VowelHarmony	Back
+
+
+
+
 
  LEXICON N_KOIRU  koiru:koira
 
@@ -840,6 +848,12 @@ __Adjective comparative examples:__
  LEXICON NMN_HUOLETOI  huoletoi: huolet
 
 
+ LEXICON NMN_SULGU  sulgu:sulga
+Gradation Yes
+Vowel Harmony Back
+
+
+
  LEXICON NMN_KOIRU  koiru:koira
 Gradation NA
 Vowel Harmony Back
@@ -1142,14 +1156,14 @@ __luaji000ttu0u examples:__
 !!Temporary lexica
 
 
- LEXICON V_  is for ad-hoc incoming verbs, not in xml
+ * __LEXICON V_ __ is for ad-hoc incoming verbs, not in xml
 
 
 !!Auxiliary verbs
 
- LEXICON V-NEG  ei:e
+ * __LEXICON V-NEG __ ei:e
 
- LEXICON V_OLLA  olla:o
+ * __LEXICON V_OLLA __ olla:o
 
 
 
@@ -1159,155 +1173,163 @@ __luaji000ttu0u examples:__
 
 V1a
 
- LEXICON V_KANDUA  kandua:kanda
+ * __LEXICON V_KANDUA __ kandua:kanda
 Gradation Yes
 
- LEXICON V_KANDUA-SG3  kandua:kanda
+ * __LEXICON V_KANDUA-SG3 __ kandua:kanda
 
- LEXICON V_KANDUA-3  kandua:kanda
+ * __LEXICON V_KANDUA-3 __ kandua:kanda
 
 V1o
 
- LEXICON V_PUNUO  punuo:puno
+ * __LEXICON V_PUNUO __ punuo:puno
 
- LEXICON V_PUNUO-SG3  punuo:puno
+ * __LEXICON V_PUNUO-SG3 __ punuo:puno
 
 V1u
 
- LEXICON V_VALUO  valuo:valu
+ * __LEXICON V_VALUO __ valuo:valu
 
- LEXICON V_VALUO-SG3  valuo:valu
+ * __LEXICON V_VALUO-SG3 __ valuo:valu
 
- LEXICON V_VALUO-3  valuo:valu
+ * __LEXICON V_VALUO-3 __ valuo:valu
 
 
 V1i
- LEXICON V_POTKIE  potkie:potki
+ * __LEXICON V_POTKIE __ potkie:potki
 
- LEXICON V_POTKIE-SG3  potkie:potki
+ * __LEXICON V_POTKIE-SG3 __ potkie:potki
 
- LEXICON V_IMIE  imie:ime
- :%>e INDPRTPL3_ttih ;  
+ * __LEXICON V_IMIE __ imie:ime
+ * __+V:%>e INDPRTPL3_ttih ; __ 
 
 __koske%>e%^WGStem%>ttih examples:__
 
 __koski0e00ttih examples:__
+ * __+V:%>e INDPRSPL3_tAh ; __ 
 
- LEXICON V_IMIE-SG3  imie:ime
+__koske%>e%^WGStem%>t%{aäDiph%}h examples:__
+
+__koski0e00tah examples:__
+
+__koske%>e%^WGStem%>tt%{uy%} examples:__
+
+__koski0e00tah examples:__
+
+ * __LEXICON V_IMIE-SG3 __ imie:ime
 
 
- LEXICON  V_PIDIÄ  pidiä:pidä
+ * __LEXICON  V_PIDIÄ __ pidiä:pidä
 
 
- LEXICON  V_PIDIÄ-SG3  pidiä:pidä
+ * __LEXICON  V_PIDIÄ-SG3 __ pidiä:pidä
 
- LEXICON V_KIRJUTTUA  kirjuttua:kirjutta
+ * __LEXICON V_KIRJUTTUA __ kirjuttua:kirjutta
 3-syllable stem
 
 !VERBS OF FINNISH TYPE 2 in dA
 
- LEXICON V_VOIJA  voija:voi
+ * __LEXICON V_VOIJA __ voija:voi
 
- LEXICON V_ROIJA  roija:roi
-
-... type 2 also suaha jiäjä, jiähä
-
- LEXICON V_SUAJA  suaja:saa jiäjä:jää
+ * __LEXICON V_ROIJA __ roija:roi
 
 
- LEXICON V_JUVVA  juvva:juo
+ * __LEXICON V_SUAJA __ suaja:saa jiäjä:jää
+ * __+V+Inf:%>h%{aäDiph%} K ; __ type 2 also suaha jiäjä, jiähä
 
- LEXICON V_NÄHTÄ  nähtä:nä
+ * __LEXICON V_JUVVA __ juvva:juo
 
- LEXICON V_KÄVVÄ  kävvä:käv
+ * __LEXICON V_NÄHTÄ __ nähtä:nä
+
+ * __LEXICON V_KÄVVÄ __ kävvä:käv
 
 
 !Verbs of the Finnish type 3
 
- LEXICON V_TULLA  tulla:tul
+ * __LEXICON V_TULLA __ tulla:tul
 
- LEXICON V_PESTÄ  pestä:pes
+ * __LEXICON V_PESTÄ __ pestä:pes
 
- LEXICON V_NOSTA  nosta:no
+ * __LEXICON V_NOSTA __ nosta:no
 
 Verbs of the Finnish type 3 but not identical
 
- LEXICON V_KUULTA  kuulta:kuul
+ * __LEXICON V_KUULTA __ kuulta:kuul
 
- LEXICON V_KUULTA-SG3  kuulta:kuul
+ * __LEXICON V_KUULTA-SG3 __ kuulta:kuul
 
 
- LEXICON V_TYPÄTÄ  typätä:typpä
+ * __LEXICON V_TYPÄTÄ __ typätä:typpä
 
- LEXICON V_KÄITÄ  käitä:käge
+ * __LEXICON V_KÄITÄ __ käitä:käge
 
- LEXICON V_SUVATA  suvata:suva
+ * __LEXICON V_SUVATA __ suvata:suva
 
 
 !Verbs of the Finnish type 4
 
- LEXICON V_AVATA  avata:ava
+ * __LEXICON V_AVATA __ avata:ava
 
- LEXICON V_AVATA-SG3  avata:ava
+ * __LEXICON V_AVATA-SG3 __ avata:ava
 
 
 !Verbs of the Finnish type 5
 
- LEXICON V_SUVAIJA  suvaija:suvai
+ * __LEXICON V_SUVAIJA __ suvaija:suvai
 
- LEXICON V_SUVAIJA-SG3  suvaija:suvai
+ * __LEXICON V_SUVAIJA-SG3 __ suvaija:suvai
 
- LEXICON V_SUVAIJA-3  suvaija:suvai
+ * __LEXICON V_SUVAIJA-3 __ suvaija:suvai
 
- LEXICON V_MERKITÄ  merkitä:merki
+ * __LEXICON V_MERKITÄ __ merkitä:merki
 
- LEXICON V_ALETA  aleta:ale (alenov)
+ * __LEXICON V_ALETA __ aleta:ale (alenov)
 
- LEXICON V_ALETA-SG3  aleta:ale (alenov)
+ * __LEXICON V_ALETA-SG3 __ aleta:ale (alenov)
 
 
- LEXICON V_SUATA  suata:suva (suvaiččov)
+ * __LEXICON V_SUATA __ suata:suva (suvaiččov)
 
- LEXICON VR_AMBUO  ambuokseh:ambu
+ * __LEXICON VR_AMBUO __ ambuokseh:ambu
 
- LEXICON VR_VALUO  valuokseh:valu
+ * __LEXICON VR_VALUO __ valuokseh:valu
 
- LEXICON VR_PUNUO  punuokseh:puno
+ * __LEXICON VR_PUNUO __ punuokseh:puno
 
- LEXICON VR_IMIE  imiekseh:ime
+ * __LEXICON VR_IMIE __ imiekseh:ime
 
- LEXICON VR_POTKIE  potkiekseh:potki
+ * __LEXICON VR_POTKIE __ potkiekseh:potki
 
- LEXICON VR_PIDIÄ  pidiäkseh:pidä
+ * __LEXICON VR_PIDIÄ __ pidiäkseh:pidä
 
- LEXICON VR_KANDUA  kanduakseh:kanda
+ * __LEXICON VR_KANDUA __ kanduakseh:kanda
 
- LEXICON VR_KANDUA-SG3  kanduakseh:kanda
+ * __LEXICON VR_KANDUA-SG3 __ kanduakseh:kanda
 
 
 Reflexive verbs
 
- LEXICON VR_RODIEKSEH  rodiekseh:rodi
+ * __LEXICON VR_RODIEKSEH __ rodiekseh:rodi
 
- LEXICON VR_ROIJA  roijakseh:roi
+ * __LEXICON VR_ROIJA __ roijakseh:roi
 
- LEXICON VR_VOIJA  voijakseh:voi
+ * __LEXICON VR_VOIJA __ voijakseh:voi
 
- LEXICON VR_ROITA  roita:roi 
+ * __LEXICON VR_ROITA __ roita:roi 
 
- LEXICON VR_JUVVA  juvva:juo
+ * __LEXICON VR_JUVVA __ juvva:juo
 
- LEXICON VR_NÄHTÄ  nähtä:nä
+ * __LEXICON VR_NÄHTÄ __ nähtä:nä
 
- LEXICON VR_TULLA  tuliekseh:tul !this will need work 2013-10-23
+ * __LEXICON VR_TULLA __ tuliekseh:tul !this will need work 2013-10-23
 
- LEXICON VR_PESTÄ  tuliekseh:tul !this will need work 2013-10-23
+ * __LEXICON VR_PESTÄ __ tuliekseh:tul !this will need work 2013-10-23
 
- LEXICON VR_AVATA  avatakseh:ava (typätäkseh:typpä)
+ * __LEXICON VR_AVATA __ avatakseh:ava (typätäkseh:typpä)
 
- LEXICON VR_SUVAIJA  emändöijäkseh:emändöi
+ * __LEXICON VR_SUVAIJA __ emändöijäkseh:emändöi
 
- LEXICON VR_MERKITÄ  
+ * __LEXICON VR_MERKITÄ __ 
 
 
 
@@ -1342,12 +1364,12 @@ Reflexive verbs
 
 
 
- LEXICON V-VV_03  tulla:tul
+ * __LEXICON V-VV_03 __ tulla:tul
 
 
 
 
- LEXICON V-VV_KUULLA  kuulla:kuul
+ * __LEXICON V-VV_KUULLA __ kuulla:kuul
 
 
 
@@ -1444,7 +1466,7 @@ Forthcoming
 
 
 
- !+Pot+RcPl3:%>d%{aäDiph%}%>nehes K ;  Shouldn't THIS be the right form
+ * __+Pot+RcPl3:%>d%{aäDiph%}%>nehes K ; __ Shouldn't THIS be the right form
 
 
 !!IMPERATIVE
@@ -1666,7 +1688,7 @@ __ä:ö word final__
 
 __a:0 in suaja:sai__
 {{{
- *  a _ %> i ;  Vowel shortening before subsequent "i"
+ *  a _ ( %^VowRM: ) %> i ;  Vowel shortening before subsequent "i"
 
 }}}
 
@@ -1675,7 +1697,7 @@ __i:j__
 
 __%{ijPRC%}:i__ 
 {{{
-*  a _ %> i ;  +ActPrsPrc
+*  a _ ( %^VowRM: ) %> i ;  +ActPrsPrc
 }}}
 
 
