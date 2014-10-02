@@ -236,7 +236,16 @@ LEXICON N_KNIIGU-PL
 LEXICON N_SULGU !!= @CODE@ sulgu:sulga
 !! Gradation Yes
 !! VowelHarmony	Back
- N_KOIRU ;
+ N_SULGU-SG ;
+ N_SULGU-PL ;
+
+LEXICON N_SULGU-SG
++N: NMN_SULGU-SG ;
+
+LEXICON N_SULGU-PL
++N: NMN_SULGU-PL ;
+
+
 
 LEXICON N_KOIRU_SUB
 +Err/Sub: N_KOIRU ;
@@ -1271,6 +1280,27 @@ LEXICON NMN_HUOLETOI-PL
 :t%{oö%}mi PLINSSUF ;
 +Pl:t%{oö%}mi  Noun-NB-01-USUALLY-WEAK ;
 +Pl:t%{oö%}mi Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_SULGU !!= @CODE@ sulgu:sulga
+!! Gradation Yes
+!! Vowel Harmony Back
+ NMN_SULGU-SG ;
+ NMN_SULGU-PL ;
+
+LEXICON NMN_SULGU-SG
+:%^A2U SGNOMSUF ;
+ SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg:%^WGStem  Noun-NB-01-USUALLY-WEAK ;
++Sg:  Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_SULGU-PL
+ PLNOMSUF ;
+:%>i PLGENSUF_EN ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
++Pl:%>i%^WGStem  Noun-NB-01-USUALLY-WEAK ;
++Pl:%>i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_KOIRU !!= @CODE@ koiru:koira
 !! Gradation NA
@@ -2514,8 +2544,8 @@ LEXICON Noun-NB-01-USUALLY-WEAK
 +Abl:%>lpäi K ;
 +All:%>le K ;
 +Abe:%>tt%{aäPar%}h K ;
-+Abe+Err/Sub:%>tt%{aäPar%} K ;
 +Abe:%>t%{aäPar%} K ;
++Abe+Err/Sub:%>tt%{aäPar%} K ;
 +Ela:%>s K ;
 +Ela:%>späi K ;
 +Ess:%>nn%{uy%} K ;

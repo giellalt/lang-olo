@@ -4,13 +4,13 @@
 !! !!Temporary lexica
 
 
-LEXICON V_ !!= @CODE@ is for ad-hoc incoming verbs, not in xml
+LEXICON V_ !!= * __@CODE@__ is for ad-hoc incoming verbs, not in xml
 +TYÄ+V: K ;
 
 
 !! !!Auxiliary verbs
 
-LEXICON V-NEG !!= @CODE@ ei:e
+LEXICON V-NEG !!= * __@CODE@__ ei:e
 +V+Neg+ScSg1:n K ;
 +V+Neg+ScSg2:t K ;
 +V+Neg+ScSg3:i K ;
@@ -18,7 +18,7 @@ LEXICON V-NEG !!= @CODE@ ei:e
 +V+Neg+ScPl2:tto K ;
 !+V+Neg+ScPl3:i K ;
 
-LEXICON V_OLLA !!= @CODE@ olla:o
+LEXICON V_OLLA !!= * __@CODE@__ olla:o
 +V+Ind+Prs+ScSg1:le%^WGStem%>n K ;
 +V+Ind+Prs+ScSg2:le%^WGStem%>t K ;
 +V+Ind+Prs+ScSg3:n K ;
@@ -46,95 +46,100 @@ LEXICON V_OLLA !!= @CODE@ olla:o
 
 !! V1a
 
-LEXICON V_KANDUA !!= @CODE@ kandua:kanda
+LEXICON V_KANDUA !!= * __@CODE@__ kandua:kanda
 !! Gradation Yes
 +V: V-VV_01 ;
 
-LEXICON V_KANDUA-SG3 !!= @CODE@ kandua:kanda
+LEXICON V_KANDUA-SG3 !!= * __@CODE@__ kandua:kanda
 +V: V-VV_01 ;
 +V:  INDPRSSG3 ;
 +V: INDPRSCONNEG_WEAK ;
 +V: INDPRTSG3 ;
 +V: INDPRTCONNEG_nUh ;
 
-LEXICON V_KANDUA-3 !!= @CODE@ kandua:kanda
+LEXICON V_KANDUA-3 !!= * __@CODE@__ kandua:kanda
 +V: V-VV_01 ;
 
 !! V1o
 
-LEXICON V_PUNUO !!= @CODE@ punuo:puno
+LEXICON V_PUNUO !!= * __@CODE@__ punuo:puno
 +V: V-VV_01 ;
 
-LEXICON V_PUNUO-SG3 !!= @CODE@ punuo:puno
+LEXICON V_PUNUO-SG3 !!= * __@CODE@__ punuo:puno
 +V: V-VV_01 ;
 
 !! V1u
 
-LEXICON V_VALUO !!= @CODE@ valuo:valu
+LEXICON V_VALUO !!= * __@CODE@__ valuo:valu
 +V: V-VV_01 ;
 
-LEXICON V_VALUO-SG3 !!= @CODE@ valuo:valu
+LEXICON V_VALUO-SG3 !!= * __@CODE@__ valuo:valu
 +V: V-VV_01 ;
 
-LEXICON V_VALUO-3 !!= @CODE@ valuo:valu
+LEXICON V_VALUO-3 !!= * __@CODE@__ valuo:valu
 +V: V-VV_01 ;
 
 
 !! V1i
-LEXICON V_POTKIE !!= @CODE@ potkie:potki
+LEXICON V_POTKIE !!= * __@CODE@__ potkie:potki
 +V: V-VV_01 ;
 
-LEXICON V_POTKIE-SG3 !!= @CODE@ potkie:potki
+LEXICON V_POTKIE-SG3 !!= * __@CODE@__ potkie:potki
 +V: V-VV_01 ;
 
-LEXICON V_IMIE !!= @CODE@ imie:ime
+LEXICON V_IMIE !!= * __@CODE@__ imie:ime
 +V: V-VV_01 ;
-:%>e INDPRTPL3_ttih ; !!= @CODE@ 
++V:%>e INDPRTPL3_ttih ; !!= * __@CODE@__ 
 !!€# koske%>e%^WGStem%>ttih
 !!€0 koski0e00ttih
++V:%>e INDPRSPL3_tAh ; !!= * __@CODE@__ 
+!!€# koske%>e%^WGStem%>t%{aäDiph%}h
+!!€0 koski0e00tah
++V:%>e PSSPRFPRC_ttU ;
+!!€# koske%>e%^WGStem%>tt%{uy%}
+!!€0 koski0e00tah
 
-LEXICON V_IMIE-SG3 !!= @CODE@ imie:ime
+LEXICON V_IMIE-SG3 !!= * __@CODE@__ imie:ime
 +V: V-VV_01 ;
 
 
-LEXICON  V_PIDIÄ !!= @CODE@ pidiä:pidä
+LEXICON  V_PIDIÄ !!= * __@CODE@__ pidiä:pidä
 +V: V-VV_01 ;
 
 
-LEXICON  V_PIDIÄ-SG3 !!= @CODE@ pidiä:pidä
+LEXICON  V_PIDIÄ-SG3 !!= * __@CODE@__ pidiä:pidä
 +V: V-VV_01 ;
 
-LEXICON V_KIRJUTTUA !!= @CODE@ kirjuttua:kirjutta
+LEXICON V_KIRJUTTUA !!= * __@CODE@__ kirjuttua:kirjutta
 !! 3-syllable stem
  V-3SYLL_KIRJUTTUA ;
 
 !! !VERBS OF FINNISH TYPE 2 in dA
 
-LEXICON V_VOIJA !!= @CODE@ voija:voi
+LEXICON V_VOIJA !!= * __@CODE@__ voija:voi
 +TYÄ+V: V-VV_02 ;
 +V+Ind+Prs+ScSg1:n K ;
 +V+Ind+Prs+ScSg3:bi K ;
 +V+Ind+Prs+ScPl3:ijah K ;
 
-LEXICON V_ROIJA !!= @CODE@ roija:roi
+LEXICON V_ROIJA !!= * __@CODE@__ roija:roi
 +V: V-VV_02 ;
 
-!! ... type 2 also suaha jiäjä, jiähä
 
-LEXICON V_SUAJA !!= @CODE@ suaja:saa jiäjä:jää
-
+LEXICON V_SUAJA !!= * __@CODE@__ suaja:saa jiäjä:jää
 +V: V-VV_02 ;
++V+Inf:%>h%{aäDiph%} K ; !!= * __@CODE@__ type 2 also suaha jiäjä, jiähä
 
-LEXICON V_JUVVA !!= @CODE@ juvva:juo
+LEXICON V_JUVVA !!= * __@CODE@__ juvva:juo
 +V: V-VV_JUVVA_02 ;
 
-LEXICON V_NÄHTÄ !!= @CODE@ nähtä:nä
+LEXICON V_NÄHTÄ !!= * __@CODE@__ nähtä:nä
 +TYÄ+V:	V-VV_02	 ;
 +V+Ind+Prs+ScSg1:in K ;
 +V+Ind+Prs+ScSg3:göy K ;
 +V+Ind+Prs+ScPl3:htäh K ;
 
-LEXICON V_KÄVVÄ !!= @CODE@ kävvä:käv
+LEXICON V_KÄVVÄ !!= * __@CODE@__ kävvä:käv
 +TYÄ+V: V-VV_02  ;
 +V+Ind+Prs+ScSg1:yn K ;
 +V+Ind+Prs+ScSg3:yy K ;
@@ -143,13 +148,13 @@ LEXICON V_KÄVVÄ !!= @CODE@ kävvä:käv
 
 !! !Verbs of the Finnish type 3
 
-LEXICON V_TULLA !!= @CODE@ tulla:tul
+LEXICON V_TULLA !!= * __@CODE@__ tulla:tul
 +V: V-VV_03 ;
 
-LEXICON V_PESTÄ !!= @CODE@ pestä:pes
+LEXICON V_PESTÄ !!= * __@CODE@__ pestä:pes
 +V: V-VV_03 ;
 
-LEXICON V_NOSTA !!= @CODE@ nosta:no
+LEXICON V_NOSTA !!= * __@CODE@__ nosta:no
 +V: V-VV_03 ;
 +V+Ind+Prs+ScSg1:uzen K ;
 +V+Ind+Prs+ScSg3:uzou K ;
@@ -157,47 +162,47 @@ LEXICON V_NOSTA !!= @CODE@ nosta:no
 
 !! Verbs of the Finnish type 3 but not identical
 
-LEXICON V_KUULTA !!= @CODE@ kuulta:kuul
+LEXICON V_KUULTA !!= * __@CODE@__ kuulta:kuul
 +V: V-VV_KUULLA ;
 
-LEXICON V_KUULTA-SG3 !!= @CODE@ kuulta:kuul
+LEXICON V_KUULTA-SG3 !!= * __@CODE@__ kuulta:kuul
 +V: V-VV_KUULLA ;
 
 
-LEXICON V_TYPÄTÄ !!= @CODE@ typätä:typpä
+LEXICON V_TYPÄTÄ !!= * __@CODE@__ typätä:typpä
 +V: #;
 
-LEXICON V_KÄITÄ !!= @CODE@ käitä:käge
+LEXICON V_KÄITÄ !!= * __@CODE@__ käitä:käge
 +V: V-VV_04 ;
 
-LEXICON V_SUVATA !!= @CODE@ suvata:suva
+LEXICON V_SUVATA !!= * __@CODE@__ suvata:suva
 +V: V-VV_04 ;
 
 
 !! !Verbs of the Finnish type 4
 
-LEXICON V_AVATA !!= @CODE@ avata:ava
+LEXICON V_AVATA !!= * __@CODE@__ avata:ava
 +V: V-VV_04 ;
 
-LEXICON V_AVATA-SG3 !!= @CODE@ avata:ava
+LEXICON V_AVATA-SG3 !!= * __@CODE@__ avata:ava
 +V: V-VV_04 ;
 
 
 !! !Verbs of the Finnish type 5
 
-LEXICON V_SUVAIJA !!= @CODE@ suvaija:suvai
+LEXICON V_SUVAIJA !!= * __@CODE@__ suvaija:suvai
 +V: V-VV_05_SUVAIJA ;
 
-LEXICON V_SUVAIJA-SG3 !!= @CODE@ suvaija:suvai
+LEXICON V_SUVAIJA-SG3 !!= * __@CODE@__ suvaija:suvai
 +V: V-VV_05_SUVAIJA ;
 
-LEXICON V_SUVAIJA-3 !!= @CODE@ suvaija:suvai
+LEXICON V_SUVAIJA-3 !!= * __@CODE@__ suvaija:suvai
 +V: V-VV_05_SUVAIJA ;
 
-LEXICON V_MERKITÄ !!= @CODE@ merkitä:merki
+LEXICON V_MERKITÄ !!= * __@CODE@__ merkitä:merki
 +V: V-VV_05_MERKITÄ ;
 
-LEXICON V_ALETA !!= @CODE@ aleta:ale (alenov)
+LEXICON V_ALETA !!= * __@CODE@__ aleta:ale (alenov)
 +V: V-VV_06 ;
 +V:ne INDPRSSG1 ;
 +V:ne INDPRSSG2 ;
@@ -222,73 +227,74 @@ LEXICON V_ALETA !!= @CODE@ aleta:ale (alenov)
 !+V:%>d%{uy%}%^WGStem CONDPRT ;
 !+V:%>d%{aäPar%} CONDPRTPL3_DAnUs ;
 
-LEXICON V_ALETA-SG3 !!= @CODE@ aleta:ale (alenov)
+LEXICON V_ALETA-SG3 !!= * __@CODE@__ aleta:ale (alenov)
 +V: V-VV_06 ;
 
 
-LEXICON V_SUATA !!= @CODE@ suata:suva (suvaiččov)
+LEXICON V_SUATA !!= * __@CODE@__ suata:suva (suvaiččov)
 +V: #;
 
-LEXICON VR_AMBUO !!= @CODE@ ambuokseh:ambu
+LEXICON VR_AMBUO !!= * __@CODE@__ ambuokseh:ambu
 	VR_01 ;
 
-LEXICON VR_VALUO !!= @CODE@ valuokseh:valu
+LEXICON VR_VALUO !!= * __@CODE@__ valuokseh:valu
 	VR_01 ;
 
-LEXICON VR_PUNUO !!= @CODE@ punuokseh:puno
+LEXICON VR_PUNUO !!= * __@CODE@__ punuokseh:puno
 	VR_01 ;
 
-LEXICON VR_IMIE !!= @CODE@ imiekseh:ime
+LEXICON VR_IMIE !!= * __@CODE@__ imiekseh:ime
 	VR_01 ;
 
-LEXICON VR_POTKIE !!= @CODE@ potkiekseh:potki
+LEXICON VR_POTKIE !!= * __@CODE@__ potkiekseh:potki
 	VR_01 ;
 
-LEXICON VR_PIDIÄ !!= @CODE@ pidiäkseh:pidä
+LEXICON VR_PIDIÄ !!= * __@CODE@__ pidiäkseh:pidä
   VR_01 ;
 
-LEXICON VR_KANDUA !!= @CODE@ kanduakseh:kanda
+LEXICON VR_KANDUA !!= * __@CODE@__ kanduakseh:kanda
   VR_01 ;
 
-LEXICON VR_KANDUA-SG3 !!= @CODE@ kanduakseh:kanda
+LEXICON VR_KANDUA-SG3 !!= * __@CODE@__ kanduakseh:kanda
   VR_01 ;
 
 
 !! !! Reflexive verbs
 
-LEXICON VR_RODIEKSEH !!= @CODE@ rodiekseh:rodi
+LEXICON VR_RODIEKSEH !!= * __@CODE@__ rodiekseh:rodi
  VR_01 ;
++V+VR: VR_INDPRTCONNEG_nnUhes ;
 
-LEXICON VR_ROIJA !!= @CODE@ roijakseh:roi
+LEXICON VR_ROIJA !!= * __@CODE@__ roijakseh:roi
         VR_ ;
 
-LEXICON VR_VOIJA !!= @CODE@ voijakseh:voi
+LEXICON VR_VOIJA !!= * __@CODE@__ voijakseh:voi
         VR_ ;
 
-LEXICON VR_ROITA !!= @CODE@ roita:roi 
+LEXICON VR_ROITA !!= * __@CODE@__ roita:roi 
         VR_ ;
 
-LEXICON VR_JUVVA !!= @CODE@ juvva:juo
+LEXICON VR_JUVVA !!= * __@CODE@__ juvva:juo
 	VR_	 ;
 
-LEXICON VR_NÄHTÄ !!= @CODE@ nähtä:nä
+LEXICON VR_NÄHTÄ !!= * __@CODE@__ nähtä:nä
 	VR_	 ;
 
-LEXICON VR_TULLA !!= @CODE@ tuliekseh:tul !this will need work 2013-10-23
+LEXICON VR_TULLA !!= * __@CODE@__ tuliekseh:tul !this will need work 2013-10-23
 	VR_03 ;
 
-LEXICON VR_PESTÄ !!= @CODE@ tuliekseh:tul !this will need work 2013-10-23
+LEXICON VR_PESTÄ !!= * __@CODE@__ tuliekseh:tul !this will need work 2013-10-23
 	VR_03 ;
 
-LEXICON VR_AVATA !!= @CODE@ avatakseh:ava (typätäkseh:typpä)
+LEXICON VR_AVATA !!= * __@CODE@__ avatakseh:ava (typätäkseh:typpä)
  VR_ ;
 
-LEXICON VR_SUVAIJA !!= @CODE@ emändöijäkseh:emändöi
+LEXICON VR_SUVAIJA !!= * __@CODE@__ emändöijäkseh:emändöi
 !Verbs of the Finnish type 5
 :čče VR-LONGSTEM_ ;
  VR-SHORTSTEM_ ;
 
-LEXICON VR_MERKITÄ !!= @CODE@ 
+LEXICON VR_MERKITÄ !!= * __@CODE@__ 
 !Verbs of the Finnish type 5
 :čče VR-LONGSTEM_ ;
  VR-SHORTSTEM_ ;
@@ -480,7 +486,7 @@ LEXICON V-VV_JUVVA_02
 +Inf:%>vv%{aäDiph%} K ;
 
 
-LEXICON V-VV_03 !!= @CODE@ tulla:tul
+LEXICON V-VV_03 !!= * __@CODE@__ tulla:tul
 :%^VOICEe INDPRSSG1 ;
 :%^VOICEe INDPRSSG2 ;
 :%^VOICE%{oö%} INDPRSSG3 ;
@@ -514,7 +520,7 @@ LEXICON V-VV_03 !!= @CODE@ tulla:tul
 :%^VOICEe M-INF ;
 +Inf:%>d%{aäDiph%}%^WGStem K ;
 
-LEXICON V-VV_KUULLA !!= @CODE@ kuulla:kuul
+LEXICON V-VV_KUULLA !!= * __@CODE@__ kuulla:kuul
 :%^VOICEe INDPRSSG1 ;
 :%^VOICEe INDPRSSG2 ;
 :%^VOICE%{oö%} INDPRSSG3 ;
@@ -921,8 +927,8 @@ LEXICON VR_INDPRTCONNEG_nUhes
 +Ind+Prt+ConNeg+RcSg:%>n%{uy%}%^WGStemhes K ;
 +Ind+Prt+ConNeg+RcPl1:%>n%{uy%}%^WGStemhes K ;
 +Ind+Prt+ConNeg+RcPl2:%>n%{uy%}%^WGStemhes K ;
-!LEXICON VR_INDPRTCONNEG_nnUhes
-!+Ind+Prt+ConNeg:%^WGStem%>nn%{uy%}hes K ;
+LEXICON VR_INDPRTCONNEG_nnUhes
++Ind+Prt+ConNeg:%^WGStem%>nn%{uy%}hes K ;
 LEXICON VR_INDPRTCONNEGPL3_DUhes
 +Ind+Prt+ConNeg+RcPl3:%>d%{uy%}hes K ;
 !LEXICON VR_INDPRTCONNEGPL3_ttUhes
@@ -1095,7 +1101,7 @@ LEXICON VR_POT_N
 
 LEXICON VR_POTPL3_DAnehes
 +Pot+RcPl3:%>d%{aäDiph%}%>hes K ;
-!+Pot+RcPl3:%>d%{aäDiph%}%>nehes K ; !!= @CODE@ Shouldn't THIS be the right form
++Pot+RcPl3:%>d%{aäDiph%}%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
 +Pot+ConNeg+RcPl3:%>d%{aäDiph%}%>nehes K ;
 
 LEXICON VR_POTPL3_EtAnehes

@@ -137,11 +137,25 @@ LEXICON PRON_TÄMÄ !!= @CODE@ tämä:tä
 +Pron+Dem+Sg+Par:dä K ;
 +Pron+Dem+Sg+Tra:kse K ;
 
+LEXICON PRON-DEM_NÄMMÄ !!= @CODE@ nämmä:nämmä
+!+Pron+Dem+Pl+Abl:l K ;
+!+Pron+Dem+Pl+Abl:lpäi K ;
++Pron+Dem+Pl+Ade:%^VowRM%>il K ;
++Pron+Dem+Pl+All:%^VowRM%>ile K ;
++Pron+Dem+Pl+Ess:%^VowRM%>inny K ;
++Pron+Dem+Pl+Gen:%^VowRM%>ien K ;
++Pron+Dem+Pl+Ill:%^VowRM%>ih K ;
++Pron+Dem+Pl+Ine:%^VowRM%>is K ;
++Pron+Dem+Pl+Nom: K ;
++Pron+Dem+Pl+Par:%^VowRM%>ii K ;
+!+Pron+Dem+Pl+Tra:kse K ;
+
 LEXICON PRON-DEM_NET !!= @CODE@ net:n
 +Pron+Dem+Pl+Nom:et K ;
 +Pron+Dem+Pl+Gen:iilöin K ;
 +Pron+Dem+Pl+Com:iilöinke K ;
 +Pron+Dem+Pl+Par:iilöi K ;
++Pron+Dem+Pl+Par:iidy K ;
 +Pron+Dem+Pl+Abe:iilöittäh K ;
 +Pron+Dem+Pl+Abl:iilöil K ;
 +Pron+Dem+Pl+Abl:iilöilpäi K ;

@@ -421,7 +421,7 @@ o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: ] ;
 !! __@RULENAME@__
 !! {{{
 a:0 <=>
- a _ %> i ; !!= * @CODE@ Vowel shortening before subsequent "i"
+ a _ ( %^VowRM: ) %> i ; !!= * @CODE@ Vowel shortening before subsequent "i"
 [ # Cns:*  [[ u | o ] (i)| u o: ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ %> i: (%^WGStem:) [ # |  %> [i|Cns] | %> e [n|l]] ;
 !€# koira%>i%>en
 !€0 koir00i0en
