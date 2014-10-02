@@ -30,6 +30,21 @@ LEXICON A_IS-N-PL-GEN !!= @CODE@ genitive plural attributes
 LEXICON A_IS-N-SG-GEN !!= @CODE@ genitive plural attributes
 +N+Sg+Gen+A: # ;
 
+LEXICON A-DEM_NÄMÄ !!= @CODE@ nämä:nämä
+!+A+Dem+Pl+Abl:l K ;
+!+A+Dem+Pl+Abl:lpäi K ;
++A+Dem+Pl+Ade:%^VowRM%>il K ;
++A+Dem+Pl+All:%^VowRM%>ile K ;
++A+Dem+Pl+Ess:%^VowRM%>inny K ;
++A+Dem+Pl+Gen:%^VowRM%>ien K ;
++A+Dem+Pl+Ill:%^VowRM%>ih K ;
++A+Dem+Pl+Ine:%^VowRM%>is K ;
++A+Dem+Pl+Nom: K ;
++A+Dem+Pl+Par:%^VowRM%>ii K ;
+!+A+Dem+Pl+Tra:kse K ;
+
+
+
 !! !ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
 LEXICON A_KUU !!= @CODE@ kuu:kuu
 +A: NMN_KUU ;
