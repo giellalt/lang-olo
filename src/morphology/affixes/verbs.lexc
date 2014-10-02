@@ -38,6 +38,9 @@ LEXICON V_OLLA !!= * __@CODE@__ olla:o
 +V:l CONDPRS_IS  ;
 +V:le M-INF ;
 +V:li ACTPRSPRC_PEZII ;
+: POT_N ;
+: POTPL3_DAnneh ;
+
 
 
 !! !!Regular verbs
@@ -129,6 +132,7 @@ LEXICON V_ROIJA !!= * __@CODE@__ roija:roi
 LEXICON V_SUAJA !!= * __@CODE@__ suaja:saa jiäjä:jää
 +V: V-VV_02 ;
 +V+Inf:%>h%{aäDiph%} K ; !!= * __@CODE@__ type 2 also suaha jiäjä, jiähä
++V: INDPRSPL3_hAh ;
 
 LEXICON V_JUVVA !!= * __@CODE@__ juvva:juo
 +V: V-VV_JUVVA_02 ;
@@ -800,6 +804,9 @@ LEXICON INDPRSPL2
 LEXICON INDPRSPL3_jAh
 +Ind+Prs+ScPl3:%>j%{aäDiph%}h K ;
 +Ind+Prs+ConNeg+ScPl3:%>j%{aäDiph%} K ;
+LEXICON INDPRSPL3_hAh
++Ind+Prs+ScPl3:%>h%{aäDiph%}h K ;
++Ind+Prs+ConNeg+ScPl3:%>h%{aäDiph%} K ;
 LEXICON INDPRSPL3_vvAh
 +Ind+Prs+ScPl3:%>vv%{aäDiph%}h K ;
 +Ind+Prs+ConNeg+ScPl3:%>vv%{aäDiph%} K ;

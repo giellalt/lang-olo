@@ -469,7 +469,7 @@ a:o <=> # Cns* [[ a | i | e ] (u|i)| u a ] [ Cns* (%^NONE:) Cns: ] _ %> i: ( %^W
 
 "ä:0 pidiä:pidi"
 !! __@RULENAME@__
-ä:0 <=> _ %> i:  ;
+ä:0 <=> _ (%^VowRM:) %> i:  ;
 
 "i:0 reboi:reboloi"
 !! __@RULENAME@__
@@ -725,7 +725,7 @@ d:0 <=>  # Cns* [ i | a: | o | ä ] _ [ ä: | a: | e: | i ] %^WGStem:0  ;
 
 "s:0"
 !! __@RULENAME@__   
- s:0 <=> # Cns* [ u | u a ] _ s [ ä: | a: (%^A2O: %> i) | e: | i ] %^WGStem:0  ;
+ s:0 <=>  [ u | u a | e ] _ s [ ä: | a: (%^A2O: %> i) | e: | i ] %^WGStem:0  ;
 !€# bussa%^WGStem%>l
 !€0 bu0sa00l
 

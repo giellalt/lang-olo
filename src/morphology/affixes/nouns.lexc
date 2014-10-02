@@ -113,16 +113,6 @@ LEXICON N_KOIVU-SG
 LEXICON N_KOIVU-PL
 +N: NMN_KOIVU-PL        ;
 
-LEXICON N_PUIKKU !!= @CODE@ puikku:puikku
-        N_PUIKKU-SG ;
-        N_PUIKKU-PL ;
-
-LEXICON N_PUIKKU-SG
-+N: NMN_PUIKKU-SG        ;
-
-LEXICON N_PUIKKU-PL
-+N: NMN_PUIKKU-PL        ;
-
 LEXICON N_IDY !!= @CODE@ idy:idy
         N_IDY-SG ;
         N_IDY-PL ;
@@ -132,6 +122,16 @@ LEXICON N_IDY-SG
 
 LEXICON N_IDY-PL
 +N: NMN_IDY-PL        ;
+
+LEXICON N_LUGU !!= @CODE@ lugu:lugu
+        N_LUGU-SG ;
+        N_LUGU-PL ;
+
+LEXICON N_LUGU-SG
++N: NMN_LUGU-SG        ;
+
+LEXICON N_LUGU-PL
++N: NMN_LUGU-PL        ;
 
 LEXICON N_RUNO-PL_SUB
 +Err/Sub+N: NMN_RUNO-PL   ;
@@ -681,6 +681,15 @@ LEXICON N_PEREH-SG
 
 LEXICON N_PEREH-PL
 +N:	NMN_PEREH-PL	;
+
+LEXICON N_LIIKEH !!= @CODE@ liikeh:liikkeh
+	N_LIIKEH-SG	;
+	N_LIIKEH-PL	;
+LEXICON N_LIIKEH-SG
++N:	NMN_LIIKEH-SG	;
+
+LEXICON N_LIIKEH-PL
++N:	NMN_LIIKEH-PL	;
 
 LEXICON N_PENGER_SUB
 +Err/Sub: N_PENGER ;
@@ -1384,19 +1393,19 @@ LEXICON NMN_KOIVU-PL
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
-LEXICON NMN_PUIKKU !!= @CODE@ puikku:puikku
+LEXICON NMN_LUGU !!= @CODE@ lugu:lugu
 !! Gradation Yes
 !! Vowel Harmony Back
-        NMN_PUIKKU-SG ;
-        NMN_PUIKKU-PL ;
+        NMN_LUGU-SG ;
+        NMN_LUGU-PL ;
 
-LEXICON NMN_PUIKKU-SG
+LEXICON NMN_LUGU-SG
  SGNOMSUF ;
  SGGENSUF ;
  SGPARSUF_A2 ;
 +Sg: Noun-NB-01 ;
 
-LEXICON NMN_PUIKKU-PL
+LEXICON NMN_LUGU-PL
  PLNOMSUF ;
 :%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
 :%>l%{oö%}i PLPARSUF_Zero ;
@@ -2144,6 +2153,21 @@ LEXICON NMN_PEREH-SG
  SGPARSUF_dU ;
 +Sg:e Noun-NB-01 ;
 LEXICON NMN_PEREH-PL
+:e PLNOMSUF ;
+:i PLGENSUF_EN ;
+:i PLPARSUF_i ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
+
+LEXICON NMN_LIIKEH !!= @CODE@ liikeh:liikkeh
+	NMN_LIIKEH-SG	;
+	NMN_LIIKEH-PL	;
+LEXICON NMN_LIIKEH-SG
+ SGNOMSUF ;
+:e SGGENSUF ;
+ SGPARSUF_dU ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_LIIKEH-PL
 :e PLNOMSUF ;
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;

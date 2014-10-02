@@ -15678,6 +15678,7 @@
         <t pos="A">moinen</t>
 
         <t pos="A">sellainen</t>
+        <t pos="A">semmoinen</t>
       </tg>
     </mg>
 
@@ -15688,30 +15689,6 @@
         <t pos="A">kaltainen</t>
 
         <t pos="A">vertainen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">moine</l>
-
-      <stg>
-        <st Contlex="A_TOINE">mo</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="A">semmoinen</t>
-
-        <t pos="A">sellainen</t>
-
-        <t pos="A">moinen (moine: mostu: moizii)</t>
       </tg>
     </mg>
   </e>
@@ -15781,7 +15758,7 @@
       <l pos="A">monenmoizet</l>
 
       <stg>
-        <st Contlex="A_TOINE">monenmo</st>
+        <st Contlex="A_TOINE-PL">monen#mo</st>
       </stg>
     </lg>
 
@@ -15799,7 +15776,7 @@
       <l pos="A">monikerdaine</l>
 
       <stg>
-        <st Contlex="A_KARJALAINE">monikerda</st>
+        <st Contlex="A_KARJALAINE">moni#kerda</st>
       </stg>
     </lg>
 

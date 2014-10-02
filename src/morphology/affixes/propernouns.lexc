@@ -75,11 +75,17 @@ LEXICON PROP_REBOI_MAL !!= @CODE@ reboi:reboi
 LEXICON PROP_REBOI !!= @CODE@ reboi:reboi
 +N+Prop: NMN_REBOI ;
 
+LEXICON PROP-PLC_KOIRU !!= @CODE@ koiru:koira
++N+Prop+Plc: NMN_KOIRU ;
+
 LEXICON PROP_PÄIVY_MAL !!= @CODE@ päivy:päivä
 +N+Prop: NMN_PÄIVY ;
 
 LEXICON PROP_PÄIVY !!= @CODE@ päivy:päivä
 +N+Prop: NMN_PÄIVY ;
+
+LEXICON PROP-PLC_KNIIGU !!= @CODE@ kniigu:kniiga
++N+Prop+Plc: NMN_KNIIGU ;
 
 LEXICON PROP-PLC_MUARJU !!= @CODE@ muarju:muarja
 +N+Prop+Plc: NMN_MUARJU ;
