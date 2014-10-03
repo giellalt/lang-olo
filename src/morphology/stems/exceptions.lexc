@@ -31,7 +31,6 @@ ainospišttšy:ainospišttšy A_  "arkinen" ;
 arbaiteltau:arbaitelta A_  "tuntematon" ;
 eri:eri A_  "eri" ;
 harvat:harvat PRON_  "harvat" ;
-hičoi:hičoi ADA_  "hi-alkuisten adjektiivien ja adverbien vahvistussana, aivan, ihan, täysin, hipi-" ;
 joga:joga PRON_  "joka, jokainen" ;
 jumal:jumal N_KARJAL  "jumalan" ;
 kahteskymmenes:kahteskymmenes NUM_  "kahdeskymmenes" ;
@@ -51,7 +50,6 @@ leveiočču:levei#očču A_  "leveäotsainen" ;
 leveišokku:levei#šokku A_  "leveäposkinen, paksuposkinen" ;
 läbikäydäy:läbikäydävä A_  "läpikuljettava" ;
 lähäine:lähä A_KARJALAINE  "" ;
-lähän:lähän ADV_  "" ;
 madalkazvuine:madal#kazvu A_KARJALAINE  "" ;
 maguandu:maguanda N_KOIRU  "makuu" ;
 monet:monet A_  "monet" ;
@@ -69,12 +67,7 @@ pyöryžä:pyöryžä A_  "pyöreä" ;
 pädevä:pädevä A_  "pätevä; sanaliitossa pätevä päivä t. päiväine koko (pitkä, onneton) päivä; kelvollinen" ;
 roidassah:roidassah A_  "" ;
 seže:seže A_  "sama" ;
-sie:sie ADV-SPAT  "siellä" ;
-siel:siel ADV_  "" ;
-sil% aigah:sil% aigah ADV-TEMP  "sillä aikaa" ;
-silloi:silloi ADV-TEMP  "silloin" ;
 sisä-:sisä- A_  "sisä-" ;
-sit:sit ADV-TEMP  "sitten" ;
 sumbu:sumba A_  "tiivis; tiheä; ahdas, tiukka; sikeä, sikeäuninen; vähäsyömäinen, vähäruokainen; lujaluontoinen, vakavamielinen; luja, sitkeä; lihava; varakas; haalea; leuto; viileä" ;
 syvys-:syvys- A_  "syys-" ;
 syväin-:syväin- A_  "sisä-" ;
@@ -98,8 +91,6 @@ täydymätöi:täydymätöi A_JIÄTÖI  "" ;
 jygei:jyge A_VALGEI "" ;
 
 !! Adverbs incomplete
-aijeihkoh:aijeihkoh ADV_  "" ;
-dostalin:dostalin ADV_  "" ;
 ei% ammui:ei% ammui ADV_  "" ;
 ei% himol:ei% himol ADV_  "" ;
 ei% hätkekse:ei% hätkekse ADV_  "" ;
@@ -115,11 +106,13 @@ ei% suo:ei% suo ADV_  "" ;
 ei% viikokši:ei% viikokši ADV_  "" ;
 ei% voi:ei% voi ADV_  "" ;
 ei% vähäine:ei% vähäine ADV_  "" ;
-erähät:erähät PRON_  "eräät, muutamat" ;
-eräs:eräs PRON_  "eräs, muuan, muudan; jokin, joku (muu), toinen; mokoma" ;
 eule% kummu:eule% kummu ADV_  "" ;
 eulo% kiireh:eulo% kiireh ADV_  "" ;
 eulo% midä:eulo% midä ADV_  "" ;
+
+erähät:erähät PRON_  "eräät, muutamat" ;
+eräs:eräs PRON_  "eräs, muuan, muudan; jokin, joku (muu), toinen; mokoma" ;
+
 
 !! Conjunctors incomplete
 kui:kui CS_  "kuinka, miten, millä tavoin; kuin, niin kuin; koska, siksi, että; jos; jospa, kunpa; jotta; kun, kerran; -pa, .pä" ;

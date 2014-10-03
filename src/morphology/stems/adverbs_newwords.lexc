@@ -6,12 +6,21 @@
 LEXICON ADV_NEWWORDS
 test ADV_ "" ;
 !! ADD ADVERBS BELOW!
-!2014-02-14!!buite:buite Q_X "" ; ADV
-!2014-02-14!!tuaste:tuaste Q_X "" ; ADV
-!2014-02-14!!sudre:sudre Q_X "" ; ADV
+buite:buite ADV_ "" ; 
+tuaste:tuaste ADV_ "" ;
+sudre:sudre ADV_ "" ; 
+hičoi:hičoi ADA_  "hi-alkuisten adjektiivien ja adverbien vahvistussana, aivan, ihan, täysin, hipi-" ;
+lähän:lähän ADV_  "" ;
+sie:sie ADV-SPAT  "siellä" ;
+siel:siel ADV-SPAT  "" ;
+sil% aigah:sil% aigah ADV-TEMP  "sillä aikaa" ;
+silloi:silloi ADV-TEMP  "silloin" ;
+sit:sit ADV-TEMP  "sitten" ;
+aijeihkoh:aijeihkoh ADV_  "" ;
+dostalin:dostalin ADV_  "" ;
 čopakosti:čopakosti ADV_ "" ;
 bohatasti:bohatasti  ADV_ "" ;
-enziallus:enziallus ADV_ "" ;
+enziallus:enzi#allus ADV_ "" ;
 enzikse:enzikse ADV_ "" ;
 lyhyösti:lyhyösti ADV_ "" ;
 ristin-rästin:ristin-rästin ADV_ "" ;
@@ -21,7 +30,7 @@ aktiivizesti:aktiivizesti ADV_ "" ;
 alallizesti:alallizesti ADV_ "" ;
 alasti:alasti ADV_ "" ;
 aniharvah:aniharvah ADV_ "" ;
-perinpohjazesti:perinpohjazesti ADV_ "" ;
+perinpohjazesti:perin#pohjazesti ADV_ "" ;
 pessimissizesti:pessimissizesti ADV_ "" ;
 juriidizesti:juriidizesti ADV_ "" ;
 sydämellizesti:sydämellizesti ADV_ "" ;
