@@ -2,6 +2,28 @@
 
 LEXICON Exceptions
 
+!! Special verbal forms
+ruadua+V+Ind+Prs+ScPl3:ruatah K ;
+ruadua+V+Ind+Prs+ConNeg+ScPl3:ruatah K ;
+ruadua+V+Ind+Prt+ScPl3:ruattih K ;
+ruadua+V+Ind+Prt+ConNeg+ScPl3:ruattu K ;
+ruadua+V+PssPrfPrc:ruattu K ;
+ruadua+V+PssPrfPrc:ruattu A_KOIVU ;
+tietiä+V+Ind+Prs+ScPl3:tietäh K ;
+tietiä+V+Ind+Prs+ConNeg+ScPl3:tietäh K ;
+tietiä+V+Ind+Prt+ScPl3:tiettih K ;
+tietiä+V+Ind+Prt+ConNeg+ScPl3:tietty K ;
+tietiä+V+PssPrfPrc:tietty K ;
+tietiä+V+PssPrfPrc:tietty A_KOIVU ;
+
+työndiä+V+Ind+Prs+ScPl3:työtäh K ;
+työndiä+V+Ind+Prs+ConNeg+ScPl3:työtäh K ;
+työndiä+V+Ind+Prt+ScPl3:työttih K ;
+työndiä+V+Ind+Prt+ConNeg+ScPl3:työtty K ;
+työndiä+V+PssPrfPrc:työtty K ;
+työndiä+V+PssPrfPrc:työtty A_KOIVU ;
+
+
 !! ADJECTIVES 
 
 ahavoittu:ahavoittu A_  "(lihasta ja kalasta:) kuivattu, ulkona kuivattu, (kalasta:) kapa-, kälvitetty, kuivattu; (ihosta:) ahavoitunut" ;
@@ -71,7 +93,7 @@ yhtestostu:yhtestostu NUM_  "yhdestoista" ;
 čualu:čuala A_  "(hevosesta:) kimo; (hiuksista:) kellanharmaa, punaharmaa, ruskeanharmaa" ;
 čökittäjane:čökittäja A_  "(yougi:) pistävä, piikkinen" ;
 žoltoi:žoltoi A_  "keltainen" ;
-tahtaskieli:tahtaskiel N_KIELI  "kankeakielinen" ;
+tahtaskieli:tahtas#kiel N_KIELI  "kankeakielinen" ;
 täydymätöi:täydymätöi A_JIÄTÖI  "" ;
 jygei:jyge A_VALGEI "" ;
 
