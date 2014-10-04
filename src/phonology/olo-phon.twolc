@@ -214,7 +214,7 @@ Rules
 
 "%{aäDiph%}:ä"
 !! __@RULENAME@__
- %{aäDiph%}:ä <=> [ FTCons %> | FT %> [ d: | v v | j | t ]] _ [ ( %^WGStem:0 ) [ h | # | %> ] | i | %> n %{uy%}: | %> g i | # ] ;
+ %{aäDiph%}:ä <=> [ FTCons %> | FT %> [ d: | v v | j | h | t ]] _ [ ( %^WGStem:0 ) [ h | # | %> ] | i | %> n %{uy%}: | %> g i | # ] ;
    [ FTCons %> | FT ( %^WGStem:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
                Cns:  ä:  %> _ ;
    [ FTCons %> | [ FT ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:i) |g (%{ui%}:)| m | d: | (t) t | s s ]] _ [  h | z |  s | ( n ) n | t t | m m | v |l | %> %{ijPRC%}: | %> g | # ] ;
@@ -228,7 +228,7 @@ Rules
 ! Vowel harmony suffixes Back
 "%{aäDiph%}:a"
 !! __@RULENAME@__
- %{aäDiph%}:a <=> [ BTCons %> | BT %> [ d: | v v | j | t ]] _ [ ( %^WGStem:0 ) [ h | # | %> ] | i | %> n %{uy%}: | %> g i | # ] ;
+ %{aäDiph%}:a <=> [ BTCons %> | BT %> [ d: | v v | h | j | t ]] _ [ ( %^WGStem:0 ) [ h | # | %> ] | i | %> n %{uy%}: | %> g i | # ] ;
    [ BTCons %> | BT ( %^WGStem:0 )  %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
                  Cns:  a:  %> _ ;
    [ BTCons %> | [ BT ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) |g (%{ui%}:) | m | d: | (t) t | s s ]] _ [  h | z | s | ( n ) n | t t | m m | v | l | %> %{ijPRC%}: | %> g | # ] ;
