@@ -163,6 +163,7 @@ LEXICON PRON-DEM_NET !!= @CODE@ net:n
 +Pron+Dem+Pl+All:iilöile K ;
 +Pron+Dem+Pl+Ela:iilöis K ;
 +Pron+Dem+Pl+Ela:iilöispäi K ;
++Pron+Dem+Pl+Ess:iilöinny K ;
 +Pron+Dem+Pl+Ine:iilöis K ;
 +Pron+Dem+Pl+Ill:iilöih K ;
 +Pron+Dem+Dep+Pl+Ade:iil K ;
@@ -174,6 +175,16 @@ LEXICON PRON-DEM_NET !!= @CODE@ net:n
 LEXICON PRON-INTERR_ !!= @CODE@ Still requires work
 +Pron+Interr: K ;
 
+LEXICON PRON-INTERR_MI !!= @CODE@ mi:mi
++Pron+Interr+Pl+Nom:t K ;
++Pron+Interr+Sg+Ela:späi K ;
++Pron+Interr+Sg+Gen:n K ;
++Pron+Interr+Sg+Ill:h K ;
++Pron+Interr+Sg+Ine:s K ;
++Pron+Interr+Sg+Nom: K ;
++Pron+Interr+Sg+Par:dä K ;
++Pron+Interr+Sg+Tra:kse K ;
+
 LEXICON PRON-INTERR_KEN !!= @CODE@ ken:ke
 +Pron+Interr+Hum: PRON-INTERR_KEN-01 ;
 
@@ -183,7 +194,7 @@ LEXICON PRON-INTERR_KEN-01
 +Sg+Com:nenke K ;
 +Sg+Gen:nen K ;
 +Sg+Nom:n K ;
-+Sg+Par:%>d%{AÄ%} K ;
++Sg+Par:%>dä K ;
 +Pl+Nom:t K ;
 
 LEXICON PRON-INTERR_KARJALAINE
