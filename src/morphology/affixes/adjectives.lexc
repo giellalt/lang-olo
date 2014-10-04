@@ -82,7 +82,12 @@ LEXICON A_KOIVU !!= @CODE@ koivu:koivu
 
 LEXICON A_RUNO
 +A:	NMN_RUNO ;
-+A+Der/mbi+Comp:%^E1%>m^NONEb NMN_PAREMBI        ;
++A+Der/mbi+Comp:%^E1%>mb NMN_PAREMBI        ;
++A+Der/in+Superl:vi NMN_ENIN        ;
+
+LEXICON A_RUADO
++A:	NMN_RUADO ;
++A+Der/mbi+Comp:%^E1%>mb NMN_PAREMBI        ;
 +A+Der/in+Superl:vi NMN_ENIN        ;
 
 LEXICON A_PAPPI !!= @CODE@ pappi:pappi
