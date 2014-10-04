@@ -664,11 +664,13 @@ n:s <=> s %> _ (%{uy%}:) (%^WGStem:)  ;
 !! __@RULENAME@__  aika: ajan
 !! {{{
 k:0 <=> _ s %^KS2S:0 ;
-        _ k [ Vow | Vow: %^A2O: %> i ] %^WGStem:0 ;
+        _ k [ Vow | Vow: %^A2O: %> i | e h ] %^WGStem:0 ;
 !€# lʼykkä%^WGStem%>t%{AÄ%}
 !€0 lʼy0kä00tä
 !€# abuniekka%^A2O%>i%>l
 !€0 abunie0ko00i0l
+!€# liikkeh%^WGStem
+!€0 lii0keh0
 
 !! }}}
 
@@ -686,10 +688,12 @@ g:0 <=>
 !2013-04-29! tToZero in weak
 "tToZero in weak geminate"
  t:0 <=>
- Vow: _ t Vow: (%> i) %^WGStem:0  ;
+ Vow: _ t [ Vow: (%> i)| e h ] %^WGStem:0  ;
 ! [ # Cns* Vow | # Cns* Vow [ Vow - [ i | u | y ] ] | Vow h [ y | u ] ] _  GRC ;
 !2013-04-29!        [ #: Cns*  Vow+ [ h | (r) t ] | Vow ( %^WGStem:0 %> ) t | Cns* Vow+ Cns+ Vow+ ( n ) t | Vow t ] _  [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
 !2013-04-29!        t _ Vow l %^WGStem:0 ; ! ottel- to otel-
+!€# tavoitteh%^WGStem
+!€0 tavoi0teh0
 
 ! luba : luvan
 "b:v"
