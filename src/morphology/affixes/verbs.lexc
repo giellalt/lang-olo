@@ -57,6 +57,10 @@ LEXICON V_OLLA !!= * __@CODE@__ olla:o
 
 !! V1a
 
+LEXICON V_ELLENDIÄ !!= * __@CODE@__ ellendiä:ellendä
+!! Gradation No
++V: V-VV_01-NO-GRADATION ;
+
 LEXICON V_KANDUA !!= * __@CODE@__ kandua:kanda
 !! Gradation Yes
 +V: V-VV_01 ;
@@ -347,6 +351,49 @@ LEXICON VR-SHORTSTEM_
 
 LEXICON V-VV_01
 ! V1
+! This verb type has two final vowels in the first infinitive
+:%^WGStem INDPRSSG1 ;
+:%^WGStem INDPRSSG2 ;
+ INDPRSSG3 ;
+:%^WGStem INDPRSPL1 ;
+:%^WGStem INDPRSPL2 ;
+:%^WGStem INDPRSPL3_EtAh ;
+:%^WGStem INDPRSCONNEG_WEAK ;
+
+:%^WGStem INDPRTSG1 ;
+:%^WGStem INDPRTSG2 ;
+ INDPRTSG3 ;
+:%^WGStem INDPRTPL1 ;
+:%^WGStem INDPRTPL2 ;
+:%^WGStem INDPRTPL3_Ettih ;
+!+Ind+Prt+ConNeg:%>n%{uy%}h K ;
+ INDPRTCONNEG_nUh ;
+:%^WGStem INDPRTCONNEGPL3_EttU ;
+
+ CONDPRS_S  ;
+:%^WGStem CONDPRSPL3_EttAs ;
+ CONDPRT_nUs ;
+ CONDPRTPL3_EtAnnUs ;
+
+ POT_N ;
+ POTPL3_EtAnneh ;
+
+ IMPRT_kkA ;
+ IMPRTPL3_EttAhes ;
+
+ ACTPRSPRC_OSTAI ;
+ PSSPRSPRC_EttAvU ;
+ ACTPRFPRC_nUH ;
+ PSSPRFPRC_EttU ;
+
+ M-INF        ;
++Inf:%>%{aäDiph%} K ;
+ GER_jen ;
+ GER-TEMP_jes ;
+
+LEXICON V-VV_01-NO-GRADATION
+! V1 ellendiä:ellendä, ellendän
+!! No Gradation
 ! This verb type has two final vowels in the first infinitive
  INDPRSSG1 ;
  INDPRSSG2 ;
@@ -801,15 +848,19 @@ LEXICON VR_03-SHORTSTEM_
 !! !INDICATIVE PRESENT
 
 LEXICON INDPRSSG1
-+Ind+Prs+ScSg1:%^WGStem%>n K ;
++Ind+Prs+ScSg1:%>n K ;
+!+Ind+Prs+ScSg1:%^WGStem%>n K ;
 LEXICON INDPRSSG2
-+Ind+Prs+ScSg2:%^WGStem%>t K ;
++Ind+Prs+ScSg2:%>t K ;
+!+Ind+Prs+ScSg2:%^WGStem%>t K ;
 LEXICON INDPRSSG3
 +Ind+Prs+ScSg3:%>%{uy%} K ;
 LEXICON INDPRSPL1
-+Ind+Prs+ScPl1:%^WGStem%>mm%{oö%} K ;
++Ind+Prs+ScPl1:%>mm%{oö%} K ;
+!+Ind+Prs+ScPl1:%^WGStem%>mm%{oö%} K ;
 LEXICON INDPRSPL2
-+Ind+Prs+ScPl2:%^WGStem%>tt%{oö%} K ;
++Ind+Prs+ScPl2:%>tt%{oö%} K ;
+!+Ind+Prs+ScPl2:%^WGStem%>tt%{oö%} K ;
 LEXICON INDPRSPL3_jAh
 +Ind+Prs+ScPl3:%>j%{aäDiph%}h K ;
 +Ind+Prs+ConNeg+ScPl3:%>j%{aäDiph%} K ;
@@ -823,15 +874,22 @@ LEXICON INDPRSPL3_dAh
 +Ind+Prs+ScPl3:%>d%{aäDiph%}%^WGStemh K ;
 +Ind+Prs+ConNeg+ScPl3:%>d%{aäDiph%}%^WGStem K ;
 LEXICON INDPRSPL3_tAh
-+Ind+Prs+ScPl3:%^WGStem%>t%{aäDiph%}h K ;
-+Ind+Prs+ConNeg+ScPl3:%^WGStem%>t%{aäDiph%} K ;
++Ind+Prs+ScPl3:%>t%{aäDiph%}h K ;
++Ind+Prs+ConNeg+ScPl3:%>t%{aäDiph%} K ;
+!+Ind+Prs+ScPl3:%^WGStem%>t%{aäDiph%}h K ;
+!+Ind+Prs+ConNeg+ScPl3:%^WGStem%>t%{aäDiph%} K ;
 LEXICON INDPRSPL3_EtAh
-+Ind+Prs+ScPl3:%^WGStem%^E1%>t%{aäDiph%}h K ;
-+Ind+Prs+ConNeg+ScPl3:%^WGStem%^E1%>t%{aäDiph%} K ;
++Ind+Prs+ScPl3:%^E1%>t%{aäDiph%}h K ;
++Ind+Prs+ConNeg+ScPl3:%^E1%>t%{aäDiph%} K ;
+!+Ind+Prs+ScPl3:%^WGStem%^E1%>t%{aäDiph%}h K ;
+!+Ind+Prs+ConNeg+ScPl3:%^WGStem%^E1%>t%{aäDiph%} K ;
 LEXICON INDPRSCONNEG_WEAK
-+Ind+Prs+ConNeg:%^WGStem K ;
-+Imprt+ScSg2:%^WGStem K ;
-+Imprt+ConNeg+ScSg2:%^WGStem K ;
++Ind+Prs+ConNeg: K ;
++Imprt+ScSg2: K ;
++Imprt+ConNeg+ScSg2: K ;
+!+Ind+Prs+ConNeg:%^WGStem K ;
+!+Imprt+ScSg2:%^WGStem K ;
+!+Imprt+ConNeg+ScSg2:%^WGStem K ;
 LEXICON INDPRSCONNEG !! * @CODE@ type 04
 +Ind+Prs+ConNeg: K ;
 +Imprt+ScSg2: K ;
@@ -880,39 +938,49 @@ LEXICON VR_INDPRSCONNEG !! * @CODE@
 !! !INDICATIVE PRETERITE
 
 LEXICON INDPRTSG1
-+Ind+Prt+ScSg1:%>i%^WGStem%>n K ;
++Ind+Prt+ScSg1:%>i%>n K ;
+!+Ind+Prt+ScSg1:%>i%^WGStem%>n K ;
 LEXICON INDPRTSG2
-+Ind+Prt+ScSg2:%>i%^WGStem%>t K ;
++Ind+Prt+ScSg2:%>i%>t K ;
+!+Ind+Prt+ScSg2:%>i%^WGStem%>t K ;
 LEXICON INDPRTSG3
 +Ind+Prt+ScSg3:%>i K ;
 LEXICON INDPRTPL1
-+Ind+Prt+ScPl1:%>i%^WGStem%>mm%{oö%} K ;
++Ind+Prt+ScPl1:%>i%>mm%{oö%} K ;
+!+Ind+Prt+ScPl1:%>i%^WGStem%>mm%{oö%} K ;
 LEXICON INDPRTPL2
-+Ind+Prt+ScPl2:%>i%^WGStem%>tt%{oö%} K ;
++Ind+Prt+ScPl2:%>i%>tt%{oö%} K ;
+!+Ind+Prt+ScPl2:%>i%^WGStem%>tt%{oö%} K ;
 LEXICON INDPRTPL3_dih
 +Ind+Prt+ScPl3:%>dih K ;
 LEXICON INDPRTPL3_tih
-+Ind+Prt+ScPl3:%^WGStem%>tih K ;
++Ind+Prt+ScPl3:%>tih K ;
+!+Ind+Prt+ScPl3:%^WGStem%>tih K ;
 !LEXICON INDPRTPL3_Etih
 !+Ind+Prt+ScPl3:%^WGStem%^E1%>tih K ;
 LEXICON INDPRTPL3_ttih
-+Ind+Prt+ScPl3:%^WGStem%>ttih K ;
++Ind+Prt+ScPl3:%>ttih K ;
+!+Ind+Prt+ScPl3:%^WGStem%>ttih K ;
 LEXICON INDPRTPL3_Ettih
-+Ind+Prt+ScPl3:%^WGStem%^E1%>ttih K ;
++Ind+Prt+ScPl3:%^E1%>ttih K ;
+!+Ind+Prt+ScPl3:%^WGStem%^E1%>ttih K ;
 !LEXICON INDPRTSGCONNEG
 !+Ind+Prt+ConNeg+Sg:%^WGStem K ;
 LEXICON INDPRTCONNEG_nUh
 +Ind+Prt+ConNeg:%>n%{uy%}h K ;
 LEXICON INDPRTCONNEG_nnUh
-+Ind+Prt+ConNeg:%^WGStem%>nn%{uy%}h K ;
++Ind+Prt+ConNeg:%>nn%{uy%}h K ;
+!+Ind+Prt+ConNeg:%^WGStem%>nn%{uy%}h K ;
 LEXICON INDPRTCONNEGPL3_DU
 +Ind+Prt+ConNeg+ScPl3:%>d%{uy%} K ;
 LEXICON INDPRTCONNEGPL3_tU
 +Ind+Prt+ConNeg+ScPl3:%>t%{uy%} K ;
 LEXICON INDPRTCONNEGPL3_ttU
-+Ind+Prt+ConNeg+ScPl3:%^WGStem%>tt%{uy%} K ;
++Ind+Prt+ConNeg+ScPl3:%>tt%{uy%} K ;
+!+Ind+Prt+ConNeg+ScPl3:%^WGStem%>tt%{uy%} K ;
 LEXICON INDPRTCONNEGPL3_EttU
-+Ind+Prt+ConNeg+ScPl3:%^WGStem%^E1%>tt%{uy%} K ;
++Ind+Prt+ConNeg+ScPl3:%^E1%>tt%{uy%} K ;
+!+Ind+Prt+ConNeg+ScPl3:%^WGStem%^E1%>tt%{uy%} K ;
 
 !! !INDICATIVE PRETERITE REFLEXIVE
 
@@ -985,12 +1053,16 @@ LEXICON CONDPRSPL3_tAs
 +Cond+Prs+ConNeg+ScPl3:%>t%{aäDiph%}s K ;
 
 LEXICON CONDPRSPL3_ttAs
-+Cond+Prs+ScPl3:%^WGStem%>tt%{aäDiph%}s K ;
-+Cond+Prs+ConNeg+ScPl3:%^WGStem%>tt%{aäDiph%}s K ;
++Cond+Prs+ScPl3:%>tt%{aäDiph%}s K ;
++Cond+Prs+ConNeg+ScPl3:%>tt%{aäDiph%}s K ;
+!+Cond+Prs+ScPl3:%^WGStem%>tt%{aäDiph%}s K ;
+!+Cond+Prs+ConNeg+ScPl3:%^WGStem%>tt%{aäDiph%}s K ;
 
 LEXICON CONDPRSPL3_EttAs
-+Cond+Prs+ScPl3:%^WGStem%^E1%>tt%{aäDiph%}s K ;
-+Cond+Prs+ConNeg+ScPl3:%^WGStem%^E1%>tt%{aäDiph%}s K ;
++Cond+Prs+ScPl3:%^E1%>tt%{aäDiph%}s K ;
++Cond+Prs+ConNeg+ScPl3:%^E1%>tt%{aäDiph%}s K ;
+!+Cond+Prs+ScPl3:%^WGStem%^E1%>tt%{aäDiph%}s K ;
+!+Cond+Prs+ConNeg+ScPl3:%^WGStem%^E1%>tt%{aäDiph%}s K ;
 
 LEXICON VR_CONDPRS_IZ
 +Cond+Prs+RcSg1:%>i%>zimm%{oö%}s K ;
