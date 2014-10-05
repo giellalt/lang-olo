@@ -1019,6 +1019,12 @@ LEXICON NMN_TUATTO-PL
 +Pl:%>i%^WGStem Noun-NB-01-USUALLY-WEAK ;
 +Pl:%>i Noun-NB-01-USUALLY-STRONG ;
 
+:%^A2O%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
+:%^A2O%>l%{oö%}i PLPARSUF_Zero ;
+:%^A2O%>l%{oö%}i PLINSSUF ;
++Pl:%^A2O%>l%{oö%}i%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Pl:%^A2O%>l%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+
 LEXICON NMN_DIÄDÖ !!= @CODE@ diädö:diädä
  NMN_DIÄDÖ-SG ;
  NMN_DIÄDÖ-PL ;
@@ -1661,13 +1667,22 @@ LEXICON NMN_OSTAI-PL
 +Pl:%{oöØ%}%>i Noun-NB-01 ;
 
 LEXICON NMN_KANDAI
+!! Stem Vowel 0:a:0 kandai, kandajan, kandajua, kandajinnu
  NMN_KANDAI-SG ;
  NMN_KANDAI-PL ;
 
 LEXICON NMN_KANDAI-SG
-:%>%{ijPRC%} NMN_OSTAI-SG ;
+:%>%{ijPRC%}%>%{aäPar%}%^A2U SGNOMSUF ;
+:%>%{ijPRC%} SGNOMSUF ;
+:%>%{ijPRC%}%>%{aäPar%} SGGENSUF-USUALLY-WEAK ;
+:%>%{ijPRC%}%>%{ui%} SGPARSUF_A2 ;
++Sg:%>%{ijPRC%}%>%{aäPar%} Noun-NB-01 ;
 LEXICON NMN_KANDAI-PL
-:%>%{ijPRC%} NMN_OSTAI-PL ;
+:%>%{ijPRC%}%>%{aäPar%} PLNOMSUF-USUALLY-WEAK ;
+:%>%{ijPRC%}%>i PLGENSUF_EN ; ! the plural comitative is declined here
+:%>%{ijPRC%}%>i PLPARSUF_i ;
+:%>%{ijPRC%}%>i PLINSSUF ;
++Pl:%>%{ijPRC%}%>i Noun-NB-01 ;
 
 LEXICON NMN_PEZII !!= @CODE@ pestä:pezi%>j
  NMN_PEZII-SG ;
