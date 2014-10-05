@@ -99,6 +99,18 @@ LEXICON PROP_MUARJU-SG
 LEXICON PROP_MUARJU-PL
 +N+Prop: NMN_MUARJU-PL ;
 
+LEXICON PROP_AKKU !!= @CODE@ akku:akka
+!! Gradation Yes
+!! Vowel Harmony Back
+!! Stem Vowel u:a:o
+ PROP_AKKU-SG ;
+ PROP_AKKU-PL ;
+
+LEXICON PROP_AKKU-SG
++N+Prop: NMN_AKKU-SG ;
+LEXICON PROP_AKKU-PL
++N+Prop: NMN_AKKU-PL ;
+
 LEXICON PROP_KOIVU_MAL !!= @CODE@ koivu:koivu
 +N+Prop+Mal: NMN_KOIVU ;
 
