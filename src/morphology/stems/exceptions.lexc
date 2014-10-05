@@ -32,7 +32,6 @@ arbaiteltau:arbaitelta A_  "tuntematon" ;
 eri:eri A_  "eri" ;
 harvat:harvat PRON_  "harvat" ;
 joga:joga PRON_  "joka, jokainen" ;
-jumal:jumal N_KARJAL  "jumalan" ;
 kahteskymmenes:kahteskymmenes NUM_  "kahdeskymmenes" ;
 kempele:kempele A_  "(yougi:) kömpelö" ;
 kolmaskymmenes:kolma#kymmen NUM_  "kolmaskymmenes" ;
@@ -40,7 +39,6 @@ kolmassuas:kolma#sada NUM_  "kolmassadas" ;
 kudai:kuda PRON_  "kuka , mikä; joka; mikä - mikä" ;
 kumbaine:kumba PRON_KARJALAINE  "" ;
 kuulužu:kuuluža A_  "kuuluisa" ;
-kuvondu:kuvonda N_KOIRU  "kutoma-, kudonta-" ;
 kylmändyh:kylmän A_ "(yougi:) paleltunut" ;
 kaheksastostu:kaheksastos NUM_  "kahdeksastoista" ;
 kömpele:kömpele A_  "kömpelö" ;
@@ -51,7 +49,6 @@ leveišokku:levei#šokku A_  "leveäposkinen, paksuposkinen" ;
 läbikäydäy:läbikäydävä A_  "läpikuljettava" ;
 lähäine:lähä A_KARJALAINE  "" ;
 madalkazvuine:madal#kazvu A_KARJALAINE  "" ;
-maguandu:maguanda N_KOIRU  "makuu" ;
 monet:monet A_  "monet" ;
 muduas:muduande PRON_ "muuan, muudan" ;
 muduan:muduande PRON_  "muuan, muudan" ;
@@ -71,11 +68,9 @@ sisä-:sisä- A_  "sisä-" ;
 sumbu:sumba A_  "tiivis; tiheä; ahdas, tiukka; sikeä, sikeäuninen; vähäsyömäinen, vähäruokainen; lujaluontoinen, vakavamielinen; luja, sitkeä; lihava; varakas; haalea; leuto; viileä" ;
 syvys-:syvys- A_  "syys-" ;
 syväin-:syväin- A_  "sisä-" ;
-syväinyö:syväinyö N_SUO  "keskiyö, sydänyö" ;
 tuhannes:tuhanne NUM_  "tuhannes" ;
 tämä:tämä PRON_  "tämä" ;
 ulgo-:ulgo- A_  "ulko-" ;
-urʼku:urʼka N_KOIRU  "urakka" ;
 vastalolii:vastaloli A_  "(yougi:) vastakkainen" ;
 vilunvaruaju:vilun#varuaja A_  "kylmänarka" ;
 välly:vällä A_  "väljä (ääntyy: väl'l'y)" ;
@@ -86,7 +81,7 @@ yhtestostu:yhtestostu NUM_  "yhdestoista" ;
 čualu:čuala A_  "(hevosesta:) kimo; (hiuksista:) kellanharmaa, punaharmaa, ruskeanharmaa" ;
 čökittäjane:čökittäja A_  "(yougi:) pistävä, piikkinen" ;
 žoltoi:žoltoi A_  "keltainen" ;
-tahtaskieli:tahtas#kiel N_KIELI  "kankeakielinen" ;
+tahtaskieli:tahtas#kiel A_KIELI  "kankeakielinen" ;
 täydymätöi:täydymätöi A_JIÄTÖI  "" ;
 jygei:jyge A_VALGEI "" ;
 
@@ -154,6 +149,11 @@ vazitakseh:vazita VR_  "olla varovainen, varoa, karttaa" ;
 žiiloittua:žiiloitta V_KANDUA  "(yougi:) polttaa nokkosella; (yougi:) piestä nokkosella" ;
 žualuijakseh:žualui VR_  "valittaa jllek" ;
 
+!! PROPER NOUNS FROM OLONETS
+Iisussu:Iisussa PROP_AKKU "" ;
+Iivan:Iivan PROP_KARJAL "" ;
+Puavil:Puavil PROP_KARJAL "" ;
+
 
 !! Undentified Morph
 !(1) Indicate correct lemma
@@ -161,11 +161,10 @@ vazitakseh:vazita VR_  "olla varovainen, varoa, karttaa" ;
 !(3) indicate correct part-of-speech
 !(4) indicate correct pattern word
 
+
 !2014-02-14!rodih:rodih Q_X "" ;
 !2014-02-14!ket:ket PRON_ "ketkä, jotka" ;
-!2014-02-14!Puavil:Puavil PROP_KARJAL "" ;
 !2014-02-14!!roita:rode V_ROITA "" ;
-!2014-02-14!Iivan:Iivan PROP_KARJAL "" ;
 !2014-02-14!nähtä:nähtih V_NÄHTÄ "" ;
 !2014-02-14!!kaiken:kaiken Q_KAI "" ;
 !2014-02-14!!älgiä:älgiä Q_X "" ; imperat
