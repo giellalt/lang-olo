@@ -1750,7 +1750,8 @@ LEXICON NMN_RUADO-PL
 :l%{oö%}i PLGENSUF_N ;
 :l%{oö%}i PLPARSUF_Zero ;
 :l%{oö%}i PLINSSUF ;
-+Pl:l%{oö%}i Noun-NB-01 ;
++Pl:l%{oö%}i Noun-NB-01-USUALLY-WEAK ;
++Pl:l%{oö%}i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_KYNDÖ !!= @CODE@ kyndö:kyndö
 	NMN_KYNDÖ-SG ;
@@ -1945,10 +1946,11 @@ LEXICON NMN_SALBOIN-PL
 :%>mi PLGENSUF_EN ; ! the plural comitative is declined here
 :%>mi PLPARSUF_i ;
 :%>mi PLINSSUF ;
++Pl:mi Noun-NB-01-USUALLY-WEAK ;
++Pl:mi Noun-NB-01-USUALLY-STRONG ;
 !:il%{oö%}i PLGENSUF_N ;
 !:il%{oö%}i PLPARSUF_Zero ;
 !:il%{oö%}i PLINSSUF ;
-!+Pl:mi Noun-NB-01 ;
 !+Pl:mil%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_ENIN !!= @CODE@ enin:eni
