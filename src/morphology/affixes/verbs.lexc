@@ -36,10 +36,18 @@ LEXICON V_OLLA !!= * __@CODE@__ olla:o
 +V+Ind+Prt+ConNeg:l%>n%{uy%}%^WGStemh K ;
 +V+Ind+Prt+ConNeg+ScPl3:l%>t%{uy%} K ;
 +V:l CONDPRS_IS  ;
-+V:le M-INF ;
++V:l CONDPRSPL3_DAs ;
++V:l CONDPRT_nUs ;
++V:l CONDPRTPL3_DAnnUs ;
++V:l POT_N ;
++V:l POTPL3_DAnneh ;
++V:l IMPRT_KA ;
++V:l IMPRTPL3_DAhes ;
 +V:li ACTPRSPRC_PEZII ;
-: POT_N ;
-: POTPL3_DAnneh ;
++V:l ACTPRFPRC_nUH ;
++V:l PSSPRSPRC_DAvU ;
++V:l PSSPRFPRC_DU ;
++V:le M-INF ;
 
 
 
@@ -523,6 +531,7 @@ LEXICON V-VV_03 !!= * __@CODE@__ tulla:tul
 : PSSPRFPRC_DU ;
 :%^VOICEe M-INF ;
 +Inf:%>d%{aäDiph%}%^WGStem K ;
++Ger+Temp:%>de%^WGStems K ;
 
 LEXICON V-VV_KUULLA !!= * __@CODE@__ kuulla:kuul
 :%^VOICEe INDPRSSG1 ;
