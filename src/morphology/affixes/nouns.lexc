@@ -174,7 +174,16 @@ LEXICON N_KYNDÖ-PL
 LEXICON N_JÄLGI_SUB
 +Err/Sub: N_JÄLGI ;
 LEXICON N_JÄLGI  !!= @CODE@ jälgi:jälg
- N_NIMI ;
+!! front vowel
+!! gradation NA
+ N_JÄLGI-SG ;
+ N_JÄLGI-PL ;
+
+LEXICON N_JÄLGI-SG
++N: NMN_JÄLGI-SG ;
+LEXICON N_JÄLGI-PL
++N: NMN_JÄLGI-PL ;
+
 
 LEXICON N_MUAMO_SUB
 +Err/Sub: N_MUAMO ;
@@ -1182,6 +1191,32 @@ LEXICON NMN_NIMI-PL
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
 +Pl:i Noun-NB-01 ;
+:il%{oö%}i PLGENSUF_N ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
++Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
++Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_JÄLGI
+!! Front Vowel
+!! Gradation Yes
+	NMN_JÄLGI-SG	;
+	NMN_JÄLGI-PL	;
+
+LEXICON NMN_JÄLGI-SG
+:i SGNOMSUF ;
+:e SGPARSUF_A2 ;
+:e%^WGStem SGGENSUF-USUALLY-WEAK ;
++Sg:e%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Sg:e Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_JÄLGI-PL
+:e%^WGStem PLNOMSUF-USUALLY-WEAK	;
+:%>i PLGENSUF_EN ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
++Pl:i%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 :il%{oö%}i PLGENSUF_N ;
 :il%{oö%}i PLPARSUF_Zero ;
 :il%{oö%}i PLINSSUF ;

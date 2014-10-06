@@ -4,7 +4,265 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e exclude="fst">
+    <lg>
+      <l pos="N">notkei ullostus</l>
+
+      <stg>
+        <st Contlex="N_">notkei ullostus</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">vetelä uloste</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">lähtenyh nahku</l>
+
+      <stg>
+        <st Contlex="N_">lähtenyh nahku</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">makuuhaava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">luttiloin pezä</l>
+
+      <stg>
+        <st Contlex="N_">luttiloin pezä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">lutikanpesä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">ammuine eläi</l>
+
+      <stg>
+        <st Contlex="N_">ammuine eläi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">entinen asukas</t>
+
+        <t pos="N">muinainen asukas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">leviet štanat</l>
+
+      <stg>
+        <st Contlex="N_">leviet štanat</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pussihousut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">leivän syväin</l>
+
+      <stg>
+        <st Contlex="N_">leivän syväin</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">leivän sisus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">käzien taputus</l>
+
+      <stg>
+        <st Contlex="N_">käzien taputus</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kättentaputus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">kova vačču</l>
+
+      <stg>
+        <st Contlex="N_">kova vačču</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">ummetus</t>
+
+        <t pos="N">kova vatsa</t>
+
+        <t pos="N">vatsa kovalla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">korvienkel šuapku</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">korvienkel šuapka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">korvuslakki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">kondien pezä</l>
+
+      <stg>
+        <st Contlex="N_">kondien pezä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">karhunpesä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">koiran haukeh</l>
+
+      <stg>
+        <st Contlex="N_">koiran haukeh</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">koiran haukku</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
+    <lg>
+      <l pos="N">keskenäine abu</l>
+
+      <stg>
+        <st Contlex="N_">keskenäine abu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">keskinäinen apu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">karvan lykkiändy</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">karvan lykkiändä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">karvanlähtö</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">kaiken kyllys</l>
+
+      <stg>
+        <st Contlex="N_">kaiken kyllys</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">yltäkylläisyys</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
     <lg>
       <l pos="N">ižändät-emändät</l>
 
@@ -30,7 +288,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="N">haudoju kana</l>
 
