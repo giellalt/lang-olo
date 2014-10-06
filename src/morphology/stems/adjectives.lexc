@@ -1,6 +1,9 @@
 
 LEXICON adjectives
 
+julgei:julge A_VALGEI  "julkea" ;
+karie:karie N_  "karkea" ;
+paginanalaine:paginan#ala A_KARJALAINE  "puheenaihe" ;
 perindökanzalline:perindö#kanzalli A_KIELINE  "perinteinen kansallinen" ;
 abei:abe A_VALGEI  "surullinen" ;
 abstraktine:abstrakti A_KIELINE  "abstrakti" ;
@@ -26,7 +29,7 @@ aijalline:aijalli A_KIELINE  "maallinen" ;
 aijankohtaine:aijankohta A_KARJALAINE  "ajankohta" ;
 aijatoi:aijat A_HUOLETOI  "aidaton" ;
 aijembaine:aijemba A_KARJALAINE  "aikaisempi" ;
-aijembi:aijem%^NONEb A_PAREMBI  "aiempi" ;
+aijembi:aijemb A_PAREMBI  "aiempi" ;
 ainaine:aina A_KARJALAINE  "ainainen" ;
 ainavo:ainavo A_RUNO  "ainoa (ainavon: ainavuo: ainavoloi)" ;
 ainavoluaduine:ainavoluadu A_KARJALAINE  "ainutlaatuinen" ;
@@ -52,7 +55,7 @@ alalline:alalli A_KIELINE  "vakituinen" ;
 alastoi:alast A_HUOLETOI  "alaston" ;
 alavu:alava A_KOIRU  "alava" ;
 alembannuolii:alembannu#oli A_PEZII  "alempana esitetty" ;
-alembi:alem%^NONEb A_PAREMBI  "alempi" ;
+alembi:alemb A_PAREMBI  "alempi" ;
 alevumatoi:alevumat A_HUOLETOI  "herkeämätön" ;
 algavunnuh:algavunnu A_PESSYH  "alkanut" ;
 alguperäine:algu#perä A_KARJALAINE  "alkuperäinen" ;
@@ -829,7 +832,7 @@ notkiehko:notkiehko A_RUNO  "vetelähkö" ;
 nuavakas:nuavakka A_ARMAS  "naavainen" ;
 nuhiško:nuhiško A_RUNO  "nyrpeä" ;
 nuorehko:nuorehko A_RUNO  "nuorehko" ;
-nuorembi:nuorem%^NONEb A_PAREMBI  "nuorempi" ;
+nuorembi:nuoremb A_PAREMBI  "nuorempi" ;
 nuorennägöine:nuorennägö A_KARJALAINE  "nuorennäköinen" ;
 nuori:nuor A_KIELI  "nuori" ;
 nygyaigaine:nygyaiga A_KARJALAINE  "nykyaikainen" ;
@@ -920,7 +923,7 @@ paranematoi:paranemat A_HUOLETOI  "paranematon" ;
 paranii:parani A_PEZII  "toipuva" ;
 paras:para A_ARMAS  "paras" ;
 pardusuu:pardusuu A_BAHUV  "partasuu" ;
-parembi:parem%^NONEb A_PAREMBI  "parempi" ;
+parembi:paremb A_PAREMBI  "parempi" ;
 parrakas:parrakka A_ARMAS  "parrakas" ;
 passiivine:passiivi A_KIELINE  "passiivinen" ;
 pastettu:pastettu A_KOIVU  "paistettu" ;

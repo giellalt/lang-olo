@@ -6,6 +6,86 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="A">julgei</l>
+
+      <stg>
+        <st Contlex="A_VALGEI">julge</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">julkea</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">rohkea</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">ankara</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">karie</l>
+
+      <stg>
+        <st Contlex="N_">karie</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">karkea</t>
+
+        <t pos="N">järeä</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">käreä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">paginanalaine</l>
+
+      <stg>
+        <st Contlex="A_KARJALAINE">paginan#ala</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">puheenaihe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">perindökanzalline</l>
 
       <stg>
@@ -491,7 +571,7 @@
       <l pos="A">aijembi</l>
 
       <stg>
-        <st Contlex="A_PAREMBI">aijem%^NONEb</st>
+        <st Contlex="A_PAREMBI">aijemb</st>
       </stg>
     </lg>
 
@@ -1053,7 +1133,7 @@
       <l pos="A">alembi</l>
 
       <stg>
-        <st Contlex="A_PAREMBI">alem%^NONEb</st>
+        <st Contlex="A_PAREMBI">alemb</st>
       </stg>
     </lg>
 
@@ -15678,6 +15758,7 @@
         <t pos="A">moinen</t>
 
         <t pos="A">sellainen</t>
+
         <t pos="A">semmoinen</t>
       </tg>
     </mg>
@@ -17550,7 +17631,7 @@
       <l pos="A">nuorembi</l>
 
       <stg>
-        <st Contlex="A_PAREMBI">nuorem%^NONEb</st>
+        <st Contlex="A_PAREMBI">nuoremb</st>
       </stg>
     </lg>
 
@@ -17895,6 +17976,7 @@
 
       <stg>
         <st Contlex="A-DEM_NÄMÄ">nämä</st>
+
         <st Contlex="A-DEM_NÄMÄ">nämmä</st>
       </stg>
     </lg>
@@ -19432,7 +19514,7 @@
       <l pos="A">parembi</l>
 
       <stg>
-        <st Contlex="A_PAREMBI">parem%^NONEb</st>
+        <st Contlex="A_PAREMBI">paremb</st>
       </stg>
     </lg>
 
