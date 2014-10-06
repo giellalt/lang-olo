@@ -6,6 +6,24 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="Po">vaste</l>
+
+      <stg>
+        <st Contlex="PO_">vaste</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Po">vasten</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Po">aiguhine</l>
 
       <stg>
@@ -74,7 +92,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Po"></t>
+        <t pos="Po"/>
       </tg>
     </mg>
   </e>

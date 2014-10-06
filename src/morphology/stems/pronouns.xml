@@ -6,6 +6,26 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="Pron">minny</l>
+
+      <stg>
+        <st Contlex="PRON_">minny</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">minä</t>
+
+        <t pos="Pron">millaisena</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Pron">kai</l>
 
       <stg>
@@ -1660,6 +1680,7 @@
 
       <stg>
         <st Contlex="PRON-DEM_NÄMMÄ">nämmä</st>
+
         <st Contlex="PRON-DEM_NÄMMÄ">nämä</st>
       </stg>
     </lg>
