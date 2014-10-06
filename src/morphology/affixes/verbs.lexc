@@ -150,10 +150,45 @@ LEXICON V_JUVVA !!= * __@CODE@__ juvva:juo
 +V: V-VV_JUVVA_02 ;
 
 LEXICON V_NÄHTÄ !!= * __@CODE@__ nähtä:nä
-+TYÄ+V:	V-VV_02	 ;
-+V+Ind+Prs+ScSg1:in K ;
+!!	+TYÄ+V: V-VV_02	 ;
++V+Ind+Prs+ScSg1:en K ;
++V+Ind+Prs+ScSg2:et K ;
 +V+Ind+Prs+ScSg3:göy K ;
-+V+Ind+Prs+ScPl3:htäh K ;
++V+Ind+Prs+ScPl:emmö K ;
++V+Ind+Prs+ScPl2:ettö K ;
++V:h INDPRSPL3_tAh ;
+
++V+Ind+Prs+ScSg1:in K ;
++V+Ind+Prs+ScSg2:it K ;
++V+Ind+Prs+ScSg3:gi K ;
++V+Ind+Prs+ScPl:immö K ;
++V+Ind+Prs+ScPl2:ittö K ;
+
++V:h INDPRTPL3_tih ;
++V:h INDPRTCONNEG_nUh ;
++V:h INDPRTCONNEGPL3_tU ;
++V:g CONDPRS_IS  ;
++V:h CONDPRSPL3_tAs ;
++V:h CONDPRT_nUs ;
++V:h CONDPRTPL3_DAnUs ;
+
++V:h POT_N ;
++V:h POTPL3_DAneh ;
+
++V:h IMPRT_KA ;
++V:h IMPRTPL3_tAhes ;
+
++V:gi ACTPRSPRC_OSTAI ;
++V:h PSSPRSPRC_tAvU ;
++V:h ACTPRFPRC_nUH ;
++V:h PSSPRFPRC_tU ;
+
++V:ge M-INF        ;
++V+Inf:h%>%{aäDiph%} K ;
++V:h GER_ten ;
++V:h GER-TEMP_tes ;
+
+!+V+ACTPRSPRC:gevä A_PÄIVY ;
 
 LEXICON V_KÄVVÄ !!= * __@CODE@__ kävvä:käv
 +TYÄ+V: V-VV_02  ;
@@ -1169,6 +1204,10 @@ LEXICON POTPL3_DAneh
 +Pot+ScPl3:%>d%{aäDiph%}%>neh K ;
 +Pot+ConNeg+ScPl3:%>d%{aäDiph%}%>ne K ;
 
+LEXICON POTPL3_tAneh
++Pot+ScPl3:%^WGStem%>t%{aäDiph%}neh K ;
++Pot+ConNeg+ScPl3:%^WGStem%>t%{aäDiph%}ne K ;
+
 LEXICON POTPL3_tAnneh
 +Pot+ScPl3:%^WGStem%>t%{aäDiph%}nneh K ;
 +Pot+ConNeg+ScPl3:%^WGStem%>t%{aäDiph%}nne K ;
@@ -1392,9 +1431,9 @@ LEXICON  RCPRFPRC_DUhes
 
 LEXICON M-INF
 +Der/mine:%>mi NMN_KIELINE ;
-+Der/mA+Inf+Abe:%>m%{aäDiph%}tt%{aäDiph%}h K ;
-+Der/mA+Inf+Abe+Err/Sub:%>m%{aäDiph%}tt%{aäDiph%} K ;
-+Der/mA+Inf+Abe:%>m%{aäDiph%}t%{aäDiph%} K ;
++Der/mA+Inf+Abe:%>m%{aäDiph%}%>tt%{aäDiph%}h K ;
++Der/mA+Inf+Abe+Err/Sub:%>m%{aäDiph%}%>tt%{aäDiph%} K ;
++Der/mA+Inf+Abe:%>m%{aäDiph%}%>t%{aäDiph%} K ;
 +Der/mA+Inf+Ade:%>m%{aäDiph%}l K ;
 +Der/mA+Inf+Ela:%>m%{aäDiph%}späi K ;
 +Der/mA+Inf+Ill:%>m%{aäDiph%}h K ;
@@ -1403,9 +1442,13 @@ LEXICON M-INF
 
 LEXICON GER_jen
 +Ger:%>jen K ;
+LEXICON GER_ten
++Ger:%>ten K ;
 
 LEXICON GER-TEMP_jes
 +Ger+Temp:%>jes K ;
+LEXICON GER-TEMP_tes
++Ger+Temp:%>tes K ;
 
 
 
