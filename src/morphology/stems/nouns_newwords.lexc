@@ -6,38 +6,37 @@
 LEXICON N_NEWWORDS
 test N_ "" ;
 !! ADD NOUNS BELOW!
-anglii:angli N_KONDII "" ;
-keskussistiemu:keskus#sistiema N_MUARJU "" ;
+anglii:angli N_KONDII "englanti" ;
+keskussistiemu:keskus#sistiema N_MUARJU "keskusjärjestelmä" ;
 keskivaldivo:keski#valdivo N_RUNO "" ;
-annanduruado:annandu#ruado N_RUADO "" ;
-školalaine:školala  N_KARJALAINE "" ;
-riimalaine:riimala  N_KARJALAINE "" ;
-nevvostolaine:nevvostola  N_KARJALAINE "" ;
-vierasheimolaine:vierasheimola  N_KARJALAINE "" ;
-tiiralaine:tiirala  N_KARJALAINE "" ;
-taivahanalaine:taivahanala  N_KARJALAINE "" ;
-sluudielaine:sluudiela  N_KARJALAINE "" ;
-sidonalaine:sidonala  N_KARJALAINE "" ;
-pikoipalaine:pikoipala  N_KARJALAINE "" ;
-parfielaine:parfiela  N_KARJALAINE "" ;
-oldihanukselaine:oldihanuksela  N_KARJALAINE "" ;
-oigielaine:oigiela  A_KARJALAINE "" ;
-karulaine:karula  N_KARJALAINE "" ;
-aldolaine:aldola  N_KARJALAINE "" ;
-sotsiualuverkosto:sotsiualu#verkosto N_RUNO "" ;
-jiännösjoukko:jiännös#joukko N_RUADO "" ;
-nostanduruado:nostandu#ruado N_RUADO "" ;
-muanruadoyhtymys:muan#ruado#yhtymyks N_ALUS "" ;
-iänenkandai:iänenkanda N_KANDAI "" ;
-lapsienkazvattai:lapsienkazvatta N_KANDAI "" ;
-pajohistouri:pajo#histouri N_KONDII "" ;
-omatahtožus:oma#tahtožu N_PUHTAHUS "" ;
-sanankuulemattomus:sanan#kuulemattomu N_PUHTAHUS "" ;
-moniluaduzu:moni#luaduzu N_PUHTAHUS "" ;
-kovevus:kovevu N_PUHTAHUS "" ;
-julgus:julgu N_PUHTAHUS "" ;
-julgavus:julgavu N_PUHTAHUS "" ;
-hyväsanazus:hyvä#sanazu N_PUHTAHUS "" ;
+annanduruado:annandu#ruado N_RUADO "antaminen" ;
+školalaine:školala  N_KARJALAINE "koululainen" ;
+riimalaine:riimala  N_KARJALAINE "roomalainen" ;
+nevvostolaine:nevvostola  N_KARJALAINE "neuvoston jäsen" ;
+vierasheimolaine:vierasheimola  N_KARJALAINE "vierasheimoinen" ;
+tiiralaine:tiirala  N_KARJALAINE "tyyroslainen|tyroslainen" ;
+taivahanalaine:taivahanala  N_KARJALAINE "maallinen" ;
+sluudielaine:sluudiela  N_KARJALAINE "tätä ei ole olemassa, muoto on lyöntivirhe, pitää olla stuudielaine, joka on jo käännettykin" ;
+sidonalaine:sidonala  N_KARJALAINE "sidonilainen" ;
+pikoipalaine:pikoipala  N_KARJALAINE "pikkupalanen" ;
+parfielaine:parfiela  N_KARJALAINE "partialainen" ;
+oldihanukselaine:oldihanuksela  N_KARJALAINE "Tämä sana on lyöntivirhe: tekstissä lukee: oldih_anukselazet" ;
+oigielaine:oigiela  A_KARJALAINE "oikeistolainen" ;
+karulaine:karula  N_KARJALAINE "paholainen" ;
+aldolaine:aldola  N_KARJALAINE "Aldo-kuorolainen" ;
+sotsiualuverkosto:sotsiualu#verkosto N_RUNO "sosiaalinen verkosto" ;
+jiännösjoukko:jiännös#joukko N_RUADO "jäänösjoukko" ;
+nostanduruado:nostandu#ruado N_RUADO "rakennustyö" ;
+muanruadoyhtymys:muan#ruado#yhtymyks N_ALUS "maatalousyhtymä" ;
+iänenkandai:iänenkanda N_KANDAI "profeetta|(Jumalan) lähettiläs" ;
+lapsienkazvattai:lapsien#kazvatta N_KANDAI "lastenhoitaja" ;
+pajohistouri:pajo#histouri N_KONDII "lauluhistoria" ;
+omatahtožus:oma#tahtožu N_PUHTAHUS "omapäisyys" ;
+sanankuulemattomus:sanan#kuulemattomu N_PUHTAHUS "sanankuulematon" ;
+moniluaduzus:moni#luaduzu N_PUHTAHUS "moninaisuus|monenlaisuus" ;
+kovevus:kovevu N_PUHTAHUS "kovuus" ;
+julgavus:julgavu N_PUHTAHUS "julkaisu" ;
+hyväsanazus:hyvä#sanazu N_PUHTAHUS "kaunispuheinen" ;
 
 
 
