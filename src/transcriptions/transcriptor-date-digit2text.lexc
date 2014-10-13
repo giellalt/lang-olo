@@ -55,63 +55,43 @@ Multichar_Symbols
 
 LEXICON Root
 
-DAY-PRECEDES-MONTH ;
-:+Use/NG MONTH-PRECEDES-DAY ;
-
-LEXICON MONTH-PRECEDES-DAY
-! For each month: First the normative, then the non-normatives, then initial capital
-
-
-@U.MONTH.1@:pakkaskuun% @U.MONTH.1@ 31DAYS ;
+@U.MONTH.1@:pakkaskuun+Use/NG% @U.MONTH.1@ 31DAYS ;
 @U.MONTH.1@:Pakkaskuun+Use/NG% @U.MONTH.1@ 31DAYS ;
-@U.MONTH.2@:tuhukuun% @U.MONTH.2@ 29DAYS ;
+@U.MONTH.2@:tuhukuun+Use/NG% @U.MONTH.2@ 29DAYS ;
 @U.MONTH.2@:Tuhukuun+Use/NG% @U.MONTH.2@ 29DAYS ;
-@U.MONTH.3@:kevätkuun% @U.MONTH.3@ 31DAYS ;
+@U.MONTH.3@:kevätkuun+Use/NG% @U.MONTH.3@ 31DAYS ;
 @U.MONTH.3@:Kevätkuun+Use/NG% @U.MONTH.3@ 31DAYS ;
-@U.MONTH.4@:sulakuun% @U.MONTH.4@ 30DAYS ;
+@U.MONTH.4@:sulakuun+Use/NG% @U.MONTH.4@ 30DAYS ;
 @U.MONTH.4@:Sulakuun+Use/NG% @U.MONTH.4@ 30DAYS ;
-@U.MONTH.5@:oraskuun% @U.MONTH.5@ 31DAYS ;
+@U.MONTH.5@:oraskuun+Use/NG% @U.MONTH.5@ 31DAYS ;
 @U.MONTH.5@:Oraskuun+Use/NG% @U.MONTH.5@ 31DAYS ;
-@U.MONTH.6@:kezäkuun% @U.MONTH.6@ 30DAYS ;
+@U.MONTH.6@:kezäkuun+Use/NG% @U.MONTH.6@ 30DAYS ;
 @U.MONTH.6@:Kezäkuun+Use/NG% @U.MONTH.6@ 30DAYS ;
-@U.MONTH.7@:heinykuun% @U.MONTH.7@ 31DAYS ;
+@U.MONTH.7@:heinykuun+Use/NG% @U.MONTH.7@ 31DAYS ;
 @U.MONTH.7@:Heinykuun+Use/NG% @U.MONTH.7@ 31DAYS ;
-@U.MONTH.8@:elokuun% @U.MONTH.8@ 31DAYS ;
+@U.MONTH.8@:elokuun+Use/NG% @U.MONTH.8@ 31DAYS ;
 @U.MONTH.8@:Elokuun+Use/NG% @U.MONTH.8@ 31DAYS ;
-@U.MONTH.9@:syvyskuun% @U.MONTH.9@ 30DAYS ;
+@U.MONTH.9@:syvyskuun+Use/NG% @U.MONTH.9@ 30DAYS ;
 @U.MONTH.9@:Syvyskuun+Use/NG% @U.MONTH.9@ 30DAYS ;
-@U.MONTH.10@:ligakuun% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.10@:ligakuun+Use/NG% @U.MONTH.10@ 31DAYS ;
 @U.MONTH.10@:Ligakuun+Use/NG% @U.MONTH.10@ 31DAYS ;
-@U.MONTH.11@:kylmykuun% @U.MONTH.11@ 30DAYS ; ! bytt NG?
+@U.MONTH.11@:kylmykuun+Use/NG% @U.MONTH.11@ 30DAYS ; ! bytt NG?
 @U.MONTH.11@:Kylmykuun+Use/NG% @U.MONTH.11@ 30DAYS ; ! bytt NG?
-@U.MONTH.12@:talvikuun% @U.MONTH.12@ 31DAYS ;
+@U.MONTH.12@:talvikuun+Use/NG% @U.MONTH.12@ 31DAYS ;
 @U.MONTH.12@:Talvikuun+Use/NG% @U.MONTH.12@ 31DAYS ;
 
 
-LEXICON DAY-PRECEDES-MONTH
-
 @U.MONTH.1@:@U.MONTH.1@ 31DAYS_FIRST ;
-
 @U.MONTH.2@:@U.MONTH.2@ 29DAYS_FIRST ;
-
 @U.MONTH.3@:@U.MONTH.3@ 31DAYS_FIRST ;
-
 @U.MONTH.4@:@U.MONTH.4@ 30DAYS_FIRST ;
-
 @U.MONTH.5@:@U.MONTH.5@ 31DAYS_FIRST ;
-
 @U.MONTH.6@:@U.MONTH.6@ 30DAYS_FIRST ;
-
 @U.MONTH.7@:@U.MONTH.7@ 31DAYS_FIRST ;
-
 @U.MONTH.8@:@U.MONTH.8@ 31DAYS_FIRST ;
-
 @U.MONTH.9@:@U.MONTH.9@ 30DAYS_FIRST ;
-
 @U.MONTH.10@:@U.MONTH.10@ 31DAYS_FIRST ;
-
 @U.MONTH.11@:@U.MONTH.11@ 30DAYS_FIRST ; ! bytt NG?
-
 @U.MONTH.12@:@U.MONTH.12@ 31DAYS_FIRST ;
 
 
@@ -225,18 +205,18 @@ LEXICON MONTH
 
 
 LEXICON MONTH_SECOND
-@U.MONTH.1@:% pakkaskuudu@U.MONTH.1@ X ;
-@U.MONTH.2@:% tuhukuudu@U.MONTH.2@ X ;
-@U.MONTH.3@:% kevätkuudu@U.MONTH.3@ X ;
-@U.MONTH.4@:% sulakuudu@U.MONTH.4@ X ;
-@U.MONTH.5@:% oraskuudu@U.MONTH.5@ X ;
-@U.MONTH.6@:% kezäkuudu@U.MONTH.6@ X ;
-@U.MONTH.7@:% heinykuudu@U.MONTH.7@ X ;
-@U.MONTH.8@:% elokuudu@U.MONTH.8@ X ;
-@U.MONTH.9@:% syvyskuudu@U.MONTH.9@ X ;
-@U.MONTH.1%0@:% ligakuudu@U.MONTH.10@ X ;
-@U.MONTH.11@:% kylmykuudu@U.MONTH.11@ X ;
-@U.MONTH.12@:% talvikuudu@U.MONTH.12@ X ;
+1@U.MONTH.1@:pakkaskuudu@U.MONTH.1@ X ;
+2@U.MONTH.2@:tuhukuudu@U.MONTH.2@ X ;
+3@U.MONTH.3@:kevätkuudu@U.MONTH.3@ X ;
+4@U.MONTH.4@:sulakuudu@U.MONTH.4@ X ;
+5@U.MONTH.5@:oraskuudu@U.MONTH.5@ X ;
+6@U.MONTH.6@:kezäkuudu@U.MONTH.6@ X ;
+7@U.MONTH.7@:heinykuudu@U.MONTH.7@ X ;
+8@U.MONTH.8@:elokuudu@U.MONTH.8@ X ;
+9@U.MONTH.9@:syvyskuudu@U.MONTH.9@ X ;
+1%0@U.MONTH.10@:ligakuudu@U.MONTH.10@ X ;
+11@U.MONTH.11@:kylmykuudu@U.MONTH.11@ X ;
+12@U.MONTH.12@:talvikuudu@U.MONTH.12@ X ;
 
 
 LEXICON X
