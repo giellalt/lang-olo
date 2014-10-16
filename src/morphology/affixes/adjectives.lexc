@@ -254,6 +254,14 @@ LEXICON A_NIMI !!= @CODE@ nimi:nim
 +A+Der/mbi+Comp:emb NMN_PAREMBI        ;
 +A+Der/in+Superl:i NMN_ENIN        ;
 
+LEXICON A_JÄLGI  !!= @CODE@ jälgi:jälg
+!! front vowel
+!! gradation Yes
++A:        NMN_JÄLGI  ;
++A+Der/mbi+Comp:emb NMN_PAREMBI        ;
++A+Der/in+Superl:i NMN_ENIN        ;
+
+
 
 !! !TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
 LEXICON A_VANUIN !!= @CODE@ vanuin:vanui

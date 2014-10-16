@@ -234,6 +234,8 @@ Rules
    [ BTCons %> | [ BT ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) |g (%{ui%}:) | m | d: | (t) t | s s ]] _ [  h | z | s | ( n ) n | t t | m m | v | l | %> %{ijPRC%}: | %> g | # ] ;
 !€# kanda%>kk%{ui%}%{aäDiph%}mm%{oö%}
 !€0 kanda0kkuammo
+!€# pagis%>d%{aäDiph%}%^WGStemh
+!€0 pa0is0ta0h
 
 "%{aäDiph%}:o"
 !! __@RULENAME@__
@@ -253,6 +255,9 @@ Rules
    BT %>  %{ijPRC%}:j %> %{ui%}:u _ ;
 ! [ BTCons %> |  a:  %> | BT %> [ d: | j | t ]] _ [ ( %^WGStem:0 ) h | %^WGStem:0 [ %> | # ] | s | i | (n) n | %> [(n) %{uy%}: | g i | h ] | # ] ;
 !   [ BTCons %> | [ BT ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) | (t) t | s s ]] _ [  h | s | ( n ) n | t t | m m | v | %> g | # ] ;
+  BT %> d: _  ;
+!€# pagis%>d%{aäPar%}%^WGStemh
+!€0 pa0is0ta0h
 
 ! Vowel harmony suffixes Front
 "%{aäPar%}:ä"
@@ -600,6 +605,9 @@ d:z <=> [Vow | r | n ] _ %^D2Z:0 %> i ;
 !! __@RULENAME@__  
 d:t <=> [ d: | h | :t | s ] ( %^KS2S:0 ) %> _ ;
          [Vow | r | n ] _ %> d: %{uy%}: ;
+!€# pagis%>d%{aäDiph%}%^WGStemh
+!€0 pa0is0ta0h
+
 "s:z"
 !! __@RULENAME@__
 !! {{{
@@ -678,10 +686,12 @@ k:0 <=> _ s %^KS2S:0 ;
 !! __@RULENAME@__  aika: ajan
 !! {{{
 g:0 <=>
-        [ Vow: - [ o | u ] ] _ i s %> d: %{aäPar%}: %^WGStem:0 ;
+        [ Vow: - [ o | u ] ] _ i s %> d: [ %{aäPar%}: %^WGStem: | i h ] ;
         [ Vow - [ o | u ] ] _ e: %^WGStem:0 %> ;
 !€# väge%^WGStem>n
-!€# vä0i00n
+!€0 vä0i00n
+!€# pagis%>d%{aäDiph%}%^WGStemh
+!€0 pa0is0ta0h
 !! }}}
 
 
