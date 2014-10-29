@@ -384,9 +384,12 @@ o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: ] ;
 !€0 valgi0e00t
 !€# hävi%>%{aäPar%}%>n
 !€0 hävi0e0n
+        i _ d: o %^WGStem: ;
+!€# tiedo%^WGStem%>n
+!€# tiijo00n
 
          ä [ g: | d: ] _ %^WGStem:0 %> ;
-!€# väge%^WGStem>n
+!€# väge%^WGStem%>n
 !€0 vä0i00n
          _ %> %{ijPRC%}: ;
 !€# luge>%{ijPRC%}
@@ -474,7 +477,7 @@ a:o <=> # Cns* [[ a | i | e ] (u|i)| u a ] [ Cns* (%^NONE:) Cns: ] _ %> i: ( %^W
 
 "ä:0 pidiä:pidi"
 !! __@RULENAME@__
-ä:0 <=> _ (%^VowRM:) %> i:  ;
+ä:0 <=> Cns: _ (%^VowRM:|%^WGStem:) %> i:  ;
 
 "i:0 reboi:reboloi"
 !! __@RULENAME@__
@@ -519,7 +522,7 @@ i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
 !! __@RULENAME@__
 !! {{{
 g:j <=> i _ [ a: ] ( %> i ) %^WGStem:0 ;
-!€# poiga%^WGStem>n
+!€# poiga%^WGStem%>n
 !€0 poija00n
 !! }}}
 
@@ -527,7 +530,7 @@ g:j <=> i _ [ a: ] ( %> i ) %^WGStem:0 ;
 !! __@RULENAME@__
 !! {{{
 g:v <=> [ o | u ] _ e %^WGStem:0 ;
-!€# joge%^WGStem>n
+!€# joge%^WGStem%>n
 !€0 jove00n
 !! }}}
 
@@ -535,7 +538,7 @@ g:v <=> [ o | u ] _ e %^WGStem:0 ;
 "g:l"
 !! __@RULENAME@__  
 g:l <=> l _ [[ a: ] ((%^A2O:) %> i )| i | e | u ] %^WGStem:0 ;
-!€# sulga%^WGStem>n
+!€# sulga%^WGStem%>n
 !€0 sulla00n
 !€# jalga%^A2O%>i%^WGStem%>s
 !€0 jallo00i00s
@@ -544,7 +547,7 @@ g:l <=> l _ [[ a: ] ((%^A2O:) %> i )| i | e | u ] %^WGStem:0 ;
 !! __@RULENAME@__  
 !! {{{
 g:r <=> r _ [[ a: ] ( %> i )| i | e ] %^WGStem:0 ;
-!€# särge%^WGStem>n
+!€# särge%^WGStem%>n
 !€0 särre00n
 !€# kergi%^WGStem%>t%{aäPar%}
 !€0 kerri00tä
@@ -554,11 +557,11 @@ g:r <=> r _ [[ a: ] ( %> i )| i | e ] %^WGStem:0 ;
 "d:v"
 !! __@RULENAME@__  
 !! {{{
-d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ; !!= @CODE@
+d:v <=> [ ö y: | o u: ] _ [ ä: | a ] %^WGStem:0 ; !!= @CODE@
           u a           _   o       %^WGStem:0 ; !!= @CODE@
           a             _   u       %^WGStem:0 ; !!= @CODE@
         [ u o: | u: ]   _  [ e | a: ]  (%> i )    %^WGStem:0 ; !!= @CODE@ 
-        !€# vuode%^WGStem>n
+        !€# vuode%^WGStem%>n
         !€0 vuvve00n
         [ ä y: ]   _  [ e | y ]  (%> i )    %^WGStem:0 ; !!= @CODE@ 
 !€# täydy%^WGStem
@@ -569,17 +572,18 @@ d:v <=> [ ö y: | o u: ] _ [ ä | a ] %^WGStem:0 ; !!= @CODE@
 ! luadie:luajitah
 "d:j"
 !! __@RULENAME@__  
-!! {{{
 d:j <=> [ u a ] _ [ i ] %^WGStem:0 ;
-        a i _ o %^WGStem:0 ;
-	!€# maido%^WGStem>n
-	!€0 maijo00n
-!! }}}
+        [ i e: | a i ] _ o %^WGStem:0 ;
+!€# maido%^WGStem%>n
+!€0 maijo00n
+!€# tiedo%^WGStem%>n
+!€# tiijo00n
+
 
 ! lʼöydiä:lʼövvä
 "y:v"
 !! __@RULENAME@__
-y:v <=>  [ ö | ä ] _ d: [ ä | e | y ] %^WGStem:0 ;
+y:v <=>  [ ö | ä ] _ d: [ ä: | e | y ] %^WGStem:0 ;
 !€# täydy%^WGStem
 !€0 tävvy0
 
