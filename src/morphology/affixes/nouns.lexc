@@ -1499,7 +1499,8 @@ LEXICON NMN_KOIVU !!= @CODE@ koivu:koivu
 LEXICON NMN_KOIVU-SG
  SGNOMSUF ;
  SGGENSUF-USUALLY-WEAK ;
- SGPARSUF_A2 ;
+! SGPARSUF_A2 ;
+ SGPARSUF_U ;
 +Sg: Noun-NB-01 ;
 
 LEXICON NMN_KOIVU-PL
@@ -2660,6 +2661,10 @@ LEXICON SGPARSUF_A2
 +Sg+Par:%>%{aäPar%} K ;
 !!€# luadi%^WGStem%^E1%>tt%{uy%}%>%{aäPar%}
 !!€0 luaji000ttu0u
+
+LEXICON SGPARSUF_U
++Sg+Par:%>%{uy%} K ;
+
 
 !! !Plural suffixes
 LEXICON PLGENSUF_EN
