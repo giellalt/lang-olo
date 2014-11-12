@@ -284,7 +284,7 @@ Rules
 "%{aäPar%}:u"
 !! __@RULENAME@__
 %{aäPar%}:u <=>
- [ u: | %{uy%}:u ] %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+ [ u: |[ BT | :VowBack Cns:* ] ( %> ) %{uy%}: ] %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
 !€# luadi%^WGStem%^E1%>tt%{uy%}%>%{aäPar%}
 !€0 luaji000ttu0u
 
