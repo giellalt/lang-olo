@@ -6,6 +6,652 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="N">askeluine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">askelu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pikkuaskel</t>
+
+        <t pos="N">vaihe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">briha</l>
+
+      <stg>
+        <st Contlex="N_KALA">briha</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">poika</t>
+
+        <t pos="A">nuorukainen</t>
+
+        <t pos="A">teini</t>
+
+        <t pos="A">poikamies</t>
+
+        <t pos="A">rippikoulupoika</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">gurbuselgy</l>
+
+      <stg>
+        <st Contlex="N_KOIRU">gurbuselgä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kyttyräselkä</t>
+
+        <t pos="A">kyttyräselkäinen</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kumaraharteinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">hieruine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">hieru</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pieni kylä</t>
+
+        <t pos="N">pikkukylä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">hurstine</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">hursti</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">lakana</t>
+
+        <t pos="N">hursti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ilopala</l>
+
+      <stg>
+        <st Contlex="N_KALA">ilo#pala</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hupsu</t>
+
+        <t pos="A">hassu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">jiännös</l>
+
+      <stg>
+        <st Contlex="N_ALUS">jiännökse</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">jäännös</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">ylimäärä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">kidžerpiä</l>
+
+      <stg>
+        <st Contlex="N_MUA">kidžer#piä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kiharapää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">kodine</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">kodi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pikku talo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">kudu</l>
+
+      <stg>
+        <st Contlex="N_KOIVU">kudu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kutu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">kyly-</l>
+
+      <stg>
+        <st Contlex="N_KOIVU">kyly-</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">sauna-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">leikkavo</l>
+
+      <stg>
+        <st Contlex="N_RUNO">leikkavo</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">-leikkuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">lumoine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">lumo</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">lumonen</t>
+
+        <t pos="N">lumi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">muahpanijazet</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE-PL">muahpanija</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hautajaiset</t>
+
+        <t pos="N">maahanpanijaiset</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">märehtii</l>
+
+      <stg>
+        <st Contlex="N_PEZII">märehti</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">märehtijä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">nevvosto</l>
+
+      <stg>
+        <st Contlex="N_RUNO">nevvosto</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">neuvosto-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">nieglaine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">niegla</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">neulanen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">näppine</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">näppi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hyppysellinen</t>
+
+        <t pos="N">sormi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">paikkaine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">paikka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">paikka</t>
+
+        <t pos="N">pikku paikka</t>
+
+        <t pos="N">paikkanen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">pertine</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">perti</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pieni huone</t>
+
+        <t pos="N">pieni talo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">poikiskeppine</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">poikiskeppi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">poikkipuu</t>
+
+        <t pos="N">piena</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">randaine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">randa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">ranta</t>
+
+        <t pos="N">kotiseutu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ruadai</l>
+
+      <stg>
+        <st Contlex="N_OSTAI">ruada</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">työläinen</t>
+
+        <t pos="N">työmies</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ruadoine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">ruado</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">puuha</t>
+
+        <t pos="N">homma</t>
+
+        <t pos="N">työ</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">sijahine</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">sijahi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">sijainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">sijähine</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">sijähi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">sijainen, tav. sijahine</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">smuuttu</l>
+
+      <stg>
+        <st Contlex="N_KOIRU">smuutta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">nuuttipukki</t>
+
+        <t pos="N">smuutta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">talolline</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">talolli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">talollinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">uksenpieline</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">uksen#pieli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">ovenpieli</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">vagoine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">vago</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">penkki (kasvimaassa)</t>
+
+        <t pos="N">vako</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">vuittine</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">vuitti</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">osanen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">öžliägy</l>
+
+      <stg>
+        <st Contlex="N_KOIRU">öžliägä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">vätys</t>
+
+        <t pos="N">laiskuri</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">köntys</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ližäopastus</l>
 
       <stg>
