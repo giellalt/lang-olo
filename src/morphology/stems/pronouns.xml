@@ -6,6 +6,84 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="Pron">jogahine</l>
+
+      <stg>
+        <st Contlex="PRON_KIELINE">jogahi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">jokainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">iččie</l>
+
+      <stg>
+        <st Contlex="PRON-REFL_IS-SG-PAR">iččie</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">itseään</t>
+
+        <t pos="A">itsensä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">vai eräs</l>
+
+      <stg>
+        <st Contlex="PRON_ARMAS">vai erä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">harva</t>
+
+        <t pos="Pron">joku</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">äijä</l>
+
+      <stg>
+        <st Contlex="PRON_OZA">äijä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">monet</t>
+
+        <t pos="A">moni</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Pron">minny</l>
 
       <stg>
