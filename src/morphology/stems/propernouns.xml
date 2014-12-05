@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xml:lang="olo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="olo">
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
       <l pos="N" type="Prop">Abramov</l>
+
       <stg>
         <st Contlex="PROP_RUS-V_SUR">Abramov</st>
       </stg>
@@ -997,6 +998,24 @@
 
   <e>
     <lg>
+      <l pos="N" type="Prop">Biblii</l>
+
+      <stg>
+        <st Contlex="PROP_KONDII">Bibli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Raamattu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N" type="Prop">Birʼukov</l>
 
       <stg>
@@ -1639,6 +1658,24 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">FINKA-projektu</l>
+
+      <stg>
+        <st Contlex="PROP_MUARJU">FINKA-projekta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">FINKA-projekti</t>
       </tg>
     </mg>
   </e>
@@ -3155,6 +3192,24 @@
 
   <e>
     <lg>
+      <l pos="N" type="Prop">Jevangelii</l>
+
+      <stg>
+        <st Contlex="PROP_KONDII">Jevangeli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Evankeliumi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N" type="Prop">Jevdokija</l>
 
       <stg>
@@ -4617,6 +4672,24 @@
 
   <e>
     <lg>
+      <l pos="N" type="Prop">Kvirinii</l>
+
+      <stg>
+        <st Contlex="PROP_KONDII">Kvirini</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Kyrenius</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N" type="Prop">Ladvujärvi</l>
 
       <stg>
@@ -5715,6 +5788,24 @@
 
   <e>
     <lg>
+      <l pos="N" type="Prop">Messii</l>
+
+      <stg>
+        <st Contlex="PROP_KONDII">Messi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Messias</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N" type="Prop">Migunov</l>
 
       <stg>
@@ -6267,6 +6358,24 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Nevvostoliitto</l>
+
+      <stg>
+        <st Contlex="PROP_RUNO">Nevvostoliitto</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Neuvostoliitto</t>
       </tg>
     </mg>
   </e>
@@ -9893,6 +10002,24 @@
 
   <e>
     <lg>
+      <l pos="N" type="Prop">Viro</l>
+
+      <stg>
+        <st Contlex="PROP_RUNO">Viro</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Viro</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N" type="Prop">Vitaljev</l>
 
       <stg>
@@ -10067,6 +10194,24 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Wikipedii</l>
+
+      <stg>
+        <st Contlex="PROP_KONDII">Wikipedi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Wikipedia</t>
       </tg>
     </mg>
   </e>
@@ -10517,6 +10662,24 @@
 
   <e>
     <lg>
+      <l pos="N" type="Prop">Čičiliušku-tyttiteatru</l>
+
+      <stg>
+        <st Contlex="PROP_MUARJU">Čičiliušku-tyttiteatra</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Čičiliušku-nukketeatteri</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N" type="Prop">Čuburov</l>
 
       <stg>
@@ -10763,42 +10926,6 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Nevvostoliitto</l>
-
-      <stg>
-        <st Contlex="PROP_RUNO">Nevvostoliitto</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop">Neuvostoliitto</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N" type="Prop">Viro</l>
-
-      <stg>
-        <st Contlex="PROP_RUNO">Viro</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop">Viro</t>
       </tg>
     </mg>
   </e>
