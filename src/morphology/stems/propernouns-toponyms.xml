@@ -1,23 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xml:lang="olo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="olo">
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Aazii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Aazi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Aasia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Afrikku</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Afrikka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Afrikka</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="N" type="Prop">Anglii</l>
+
       <stg>
         <st Contlex="PROP-PLC_KONDII">Angli</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
+
       <tg xml:lang="fin">
         <t pos="N" type="Prop">Englanti</t>
       </tg>
     </mg>
   </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Argentiinu</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_MUARJU">Argentiina</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Argentiina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Belgii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Belgi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Belgia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Berlin</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_TAIGIN">Berlinä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Berliini</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Bolgarii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Bolgari</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Bulgaria</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Brituanii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Brituani</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Britannia</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="N" type="Prop">Carelia</l>
@@ -32,6 +162,42 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Daanii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Daani</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Tanska</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Eesti</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_PAPPI">Eesti</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Viro</t>
       </tg>
     </mg>
   </e>
@@ -53,6 +219,43 @@
       </tg>
     </mg>
   </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Estounii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Estouni</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Viro</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Frantsii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Frantsi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Ranska</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="N" type="Prop">Fukusima</l>
@@ -67,6 +270,62 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Georgii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Georgi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Georgia</t>
+
+        <t pos="N" type="Prop">Gruusia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Germuanii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Germuani</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Saksa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Gollandii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Gollandi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Hollanti</t>
       </tg>
     </mg>
   </e>
@@ -89,6 +348,149 @@
     </mg>
   </e>
 
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Helsinki</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_PAPPI">Helsinki</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Helsinki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Irak</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_TAIGIN">Iraka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Irak</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Iran</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_TAIGIN">Irana</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Iran</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Irlandii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Irlandi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Irlanti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Islandii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Islandi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Islanti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Ispaanii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Ispaani</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Espanja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Itaalii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Itaali</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Italia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Japounii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Japouni</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Japani</t>
+      </tg>
+    </mg>
+  </e>
 
   <e>
     <lg>
@@ -108,6 +510,23 @@
     </mg>
   </e>
 
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Jevroupu</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KNIIGU">Jevroupa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Eurooppa</t>
+      </tg>
+    </mg>
+  </e>
 
   <e>
     <lg>
@@ -165,6 +584,24 @@
 
   <e>
     <lg>
+      <l pos="N" type="Prop">Karelii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Kareli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Karjala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N" type="Prop">Karelija</l>
 
       <stg>
@@ -177,6 +614,24 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Kondupohju</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KOIRU">Kondu#pohja</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Kontupohja</t>
       </tg>
     </mg>
   </e>
@@ -199,6 +654,79 @@
     </mg>
   </e>
 
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Kostamus</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_ALUS">Kostamuks</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Kostamus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Latvii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Latvi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Latvia</t>
+
+        <t pos="N" type="Prop">Lätti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Leningruadu</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KNIIGU">Leningruada</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Leningrad</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Litvu</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_MUARJU">Litva</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Liettua</t>
+      </tg>
+    </mg>
+  </e>
 
   <e>
     <lg>
@@ -220,6 +748,168 @@
 
   <e>
     <lg>
+      <l pos="N" type="Prop">Madʼaarii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Madʼaari</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Unkari</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Marokko</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_RUADO">Marokko</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Marokko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Meksikku</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_AKKU">Meksikka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Meksiko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Monaako</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_RUADO">Monaako</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Monaco</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Mordouvii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Mordouvi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Mordva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Namiibii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Namiibi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Namibia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Norveegii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Norveegi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Norja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Norveegii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Norvegi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Norja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Palestiinu</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_MUARJU">Palestiina</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Palestiina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N" type="Prop">Pohjola</l>
 
       <stg>
@@ -232,6 +922,24 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Pol'šu</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_OZA">Pol'ša</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Puola</t>
       </tg>
     </mg>
   </e>
@@ -292,6 +1000,24 @@
 
   <e>
     <lg>
+      <l pos="N" type="Prop">Ruočči</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_PAPPI">Ruoči</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Ruotsi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N" type="Prop">Saha-Jakutija</l>
 
       <stg>
@@ -304,6 +1030,78 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Siirii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Siiri</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Syyria</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Skandinuavii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Skandinuavi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Skandinavia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Slovenii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Sloveni</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Slovenia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Stokgol'mu</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_OZA">Stokgol'ma</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Tukholma</t>
       </tg>
     </mg>
   </e>
@@ -340,6 +1138,116 @@
 
       <tg xml:lang="fin">
         <t pos="N" type="Prop">Tver</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Udmurtii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Udmurti</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Udmurtia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Ukrainu</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_MUARJU">Ukraina</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Ukraina</t>
+
+        <t pos="N" type="Prop">Vähä-Venäjä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Uuzi-Zielandii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Uuzi-Zielandi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Uusi-Seelanti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Valgo-Ven'a</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KALA">Valgo-Ven'a</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Valko-Venäjä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Velikobrituanii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Velikobrituani</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Iso-Britannia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Vengrii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Vengri</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Unkari</t>
       </tg>
     </mg>
   </e>
@@ -388,4 +1296,191 @@
     </mg>
   </e>
 
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Vizantii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Vizanti</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Bysantti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Voulogdu</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_MUARJU">Voulogda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Vologda</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Yhtysvallat</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_MUARJU-PL">Yhtys#valda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Yhdysvallat</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Čeehii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Čeehi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Tšekki</t>
+
+        <t pos="N" type="Prop">Tshekki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Čečeenii</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KONDII">Čečeeni</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Tšetšenia</t>
+
+        <t pos="N" type="Prop">Tshetshenia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Čičiliušku</l>
+
+      <stg>
+        <st Contlex="PROP-PLC_KOIVU">Čičiliušku</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Čičiliušku</t>
+
+        <t pos="N" type="Prop">Tšitšiliušku</t>
+
+        <t pos="N" type="Prop">Tshitshiliushku</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Izrail'u</l>
+
+      <stg>
+        <st Contlex="PROP_MUARJU">Izrail'a</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Istael</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Kanuadu</l>
+
+      <stg>
+        <st Contlex="PROP_MUARJU">Kanuada</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Kanada</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Tailandu</l>
+
+      <stg>
+        <st Contlex="PROP_MUARJU">Tailanda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Thaimaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Turki</l>
+
+      <stg>
+        <st Contlex="PROP_PAPPI">Turki</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Turkki</t>
+      </tg>
+    </mg>
+  </e>
 </r>

@@ -4,6 +4,42 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e order="1">
+    <lg>
+      <l pos="N">kukindu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">kukinda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kukinta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e order="1">
+    <lg>
+      <l pos="N">nahruattu</l>
+
+      <stg>
+        <st Contlex="N_AKKU">nahruatta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">palkinto</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="N">askeluine</l>
