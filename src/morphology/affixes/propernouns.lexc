@@ -256,6 +256,13 @@ LEXICON PROP_KARJAL_MAL !!= @CODE@
 
 LEXICON PROP_KARJALAINE !!= @CODE@ karjalaine:karjala
 +N+Prop: NMN_KARJALAINE ;
+LEXICON PROP-PLC_KARJALAINE !!= @CODE@ karjalaine:karjala
++N+Prop+Sem/Plc: NMN_KARJALAINE ;
+
+LEXICON PROP_KIELINE !!= @CODE@ kieline:kieli
++N+Prop: NMN_KIELINE ;
+LEXICON PROP-PLC_KIELINE !!= @CODE@ kieline:kieli
++N+Prop+Sem/Plc: NMN_KIELINE ;
 
 LEXICON PROP-PLC_TVER !!= __@CODE@__ Tver:Tver
 +N+Prop+Sem/Plc: NMN_TVER ;
