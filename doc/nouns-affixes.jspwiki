@@ -1,6 +1,8 @@
 !!!Noun inflection
 Livvi nouns inflect in cases.
-
+Vowel harmony involves front and back
+Gradation does not affect all consonants, therefore
+there are three values: Yes, No and NA (not applicable)
 
 
 !!The file proper
@@ -156,6 +158,9 @@ Vowel Harmony Front
  LEXICON N_UKSI  uksi:uks
 
  LEXICON N_KIELI  kieli:kiel
+
+
+ LEXICON N_SUARI  suari:suar
 
 
  LEXICON N_LAPSI  lapsi:laps lapsi:laps
@@ -393,6 +398,8 @@ gradation No
 
 Front Vowel
 Gradation Yes
+
+
 
 
 

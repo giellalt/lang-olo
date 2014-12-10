@@ -1,7 +1,7 @@
 !! Proper noun inflection
 !! ----------------------
-!! The UNDEFINED language proper nouns inflect in the same cases as regular
-!! nouns, but with a colon (':') as separator.
+!! The LIVVI-KARELIAN language proper nouns inflect in the same cases as regular
+!! nouns, but sometimes with a colon (':') as separator.
 
 LEXICON PROP_ !!= @CODE@ 
 +TYÄ+Prop: N_ ;
@@ -9,6 +9,7 @@ LEXICON PROP_ !!= @CODE@
 !! !ONE-SYLLABLE LEMMA AND STEM
 LEXICON PROP_KUU !!= @CODE@ 
 +N+Prop: NMN_KUU ;
+
 
 !! !TWO-SYLLABLE LEMMA AND STEM
 LEXICON PROP_OZA_FEM !!= @CODE@
@@ -40,11 +41,10 @@ LEXICON PROP_KALA_SURMAL !!= @CODE@
 
 LEXICON PROP_KALA !!= @CODE@ 
 +N+Prop: NMN_KALA ;
-
-LEXICON PROP-PLC_PAPPI !!= @CODE@ 
-+N+Prop+Sem/Plc: NMN_PAPPI ;
-
 LEXICON PROP_PAPPI !!= @CODE@ 
+!! Gradation Yes
+!! Back vowel
+!! Stem	 vowel i
   PROP_PAPPI-SG ;
   PROP_PAPPI-PL ;
 
@@ -54,11 +54,63 @@ LEXICON PROP_PAPPI-SG !!= @CODE@
 LEXICON PROP_PAPPI-PL !!= @CODE@ 
 +N+Prop: NMN_PAPPI-PL ;
 
+LEXICON PROP-PLC_PAPPI !!= @CODE@ 
++N+Prop+Sem/Plc: NMN_PAPPI ;
+
+LEXICON PROP_ARTELI !!= @CODE@
+!! Gradation NA
+!! Back vowel
+!! Stem  vowel i
+  PROP_ARTELI-SG ;
+  PROP_ARTELI-PL ;
+
+LEXICON PROP_ARTELI-SG !!= @CODE@
++N+Prop: NMN_ARTELI-SG ;
+
+LEXICON PROP_ARTELI-PL !!= @CODE@
++N+Prop: NMN_ARTELI-PL ;
+
+LEXICON PROP-PLC_ARTELI !!= @CODE@
++N+Prop+Sem/Plc: NMN_ARTELI ;
+
+
 LEXICON PROP-PLC_NIMI !!= @CODE@ nimi:nim
+!! Gradation NA
+!! Front vowel
+!! Stem	 vowel i/e
 +N+Prop+Sem/Plc: NMN_NIMI ;
 
 LEXICON PROP_NIMI !!= @CODE@ nimi:nim
 +N+Prop: NMN_NIMI ;
+
+LEXICON PROP-PLC_JÄLGI !!= @CODE@ jälgi:jälg
+!! Gradation Yes
+!! Front vowel
+!! Stem vowel i/e
++N+Prop+Sem/Plc: NMN_JÄLGI ;
+
+LEXICON PROP_JÄLGI !!= @CODE@ 
+  PROP_JÄLGI-SG ;
+  PROP_JÄLGI-PL ;
+
+LEXICON PROP_JÄLGI-SG !!= @CODE@ 
++N+Prop: NMN_JÄLGI-SG ;
+
+LEXICON PROP_JÄLGI-PL !!= @CODE@ 
++N+Prop: NMN_JÄLGI-PL ;
+
+LEXICON PROP-PLC_KIELI !!= @CODE@ kieli:kiel
++N+Prop+Sem/Plc: NMN_KIELI ;
+
+LEXICON PROP_KIELI !!= @CODE@ kieli:kiel
++N+Prop: NMN_KIELI ;
+
+LEXICON PROP-PLC_SUARI !!= @CODE@ suari:suar
++N+Prop+Sem/Plc: NMN_SUARI ;
+
+LEXICON PROP_SUARI !!= @CODE@ suari:suar
++N+Prop: NMN_SUARI ;
+
 
 LEXICON PROP_UKSI !!= @CODE@ uksi:uks
  PROP_UKSI-SG ;
@@ -76,15 +128,43 @@ LEXICON PROP_REBOI !!= @CODE@ reboi:reboi
 +N+Prop: NMN_REBOI ;
 
 LEXICON PROP-PLC_KOIRU !!= @CODE@ koiru:koira
+!! Gradation NA
+!! Back vowel
+!! Stem	 vowel u/a
 +N+Prop+Sem/Plc: NMN_KOIRU ;
+LEXICON PROP_KOIRU !!= @CODE@ koiru:päivä
+ PROP_KOIRU-SG ;
+ PROP_KOIRU-PL ;
+
+LEXICON PROP_KOIRU-SG
++N+Prop: NMN_KOIRU-SG ;
+LEXICON PROP_KOIRU-PL
++N+Prop: NMN_KOIRU-PL ;
+
 
 LEXICON PROP_PÄIVY_MAL !!= @CODE@ päivy:päivä
 +N+Prop: NMN_PÄIVY ;
 
+LEXICON PROP-PLC_PÄIVY !!= @CODE@ päivy:päivä
++N+Prop+Sem/Plc: NMN_PÄIVY ;
+LEXICON PROP-PLC_PÄIVY-PL
++N+Prop+Sem/Plc: NMN_PÄIVY-PL ;
+
 LEXICON PROP_PÄIVY !!= @CODE@ päivy:päivä
-+N+Prop: NMN_PÄIVY ;
+ PROP_PÄIVY-SG ;
+ PROP_PÄIVY-PL ;
+
+LEXICON PROP_PÄIVY-SG
++N+Prop: NMN_PÄIVY-SG ;
+LEXICON PROP_PÄIVY-PL
++N+Prop: NMN_PÄIVY-PL ;
+
 
 LEXICON PROP-PLC_KNIIGU !!= @CODE@ kniigu:kniiga
+!! Gradation No (looks like it should have gradation)
+!! Vowel Harmony Back
+!! Stem Vowel u:a:o
+
 +N+Prop+Sem/Plc: NMN_KNIIGU ;
 
 LEXICON PROP-PLC_MUARJU !!= @CODE@ muarju:muarja
@@ -116,30 +196,65 @@ LEXICON PROP_AKKU-SG
 LEXICON PROP_AKKU-PL
 +N+Prop: NMN_AKKU-PL ;
 
+LEXICON PROP_KOIVU !!= @CODE@ koivu:koivu
+!! Back vowel
+!! Gradation NA
+!! Stem	     vowel u
+!! Plural stem in loi
+!! Can be merged with _RUNO
++N+Prop: NMN_KOIVU ;
+
 LEXICON PROP_KOIVU_MAL !!= @CODE@ koivu:koivu
 +N+Prop+Sem/Mal: NMN_KOIVU ;
 
 LEXICON PROP-PLC_KOIVU
 +N+Prop+Sem/Plc: NMN_KOIVU ;
 
-LEXICON PROP_KOIVU !!= @CODE@ koivu:koivu
-+N+Prop: NMN_KOIVU ;
-
 LEXICON PROP_RUNO !!= @CODE@ runo:runo
+!! Back	vowel
+!! Gradation NA
+!! Stem vowel o
+!! Plural stem in loi
 +N+Prop: NMN_RUNO ;
+LEXICON PROP-PLC_RUNO !!= @CODE@ runo:runo
++N+Prop+Sem/Plc: NMN_RUNO ;
 
-LEXICON PROP-PLC_RUADO !!= @CODE@
+LEXICON PROP-PLC_RUADO !!= @CODE@ ruado:ruado
 +N+Prop+Sem/Plc: NMN_RUADO ;
+
+LEXICON PROP_VALGEI !!= @CODE@ 
+!! Back	vowel
+!! Gradation NA
+  PROP_VALGEI-SG ;
+  PROP_VALGEI-PL ;
+
+LEXICON PROP_VALGEI-SG !!= @CODE@ 
++N+Prop: NMN_VALGEI-SG ;
+
+LEXICON PROP_VALGEI-PL !!= @CODE@ 
++N+Prop: NMN_VALGEI-PL ;
+LEXICON PROP-PLC_VALGEI !!= @CODE@ valgei:valge
++N+Prop+Sem/Plc: NMN_VALGEI ;
+
+
+
 
 !! !TWO-SYLLABLE LEMMA THREE-SYLLABLE STEM
 
-LEXICON PROP_KARJAL !!= @CODE@ 
+LEXICON PROP_KARJAL !!= @CODE@ karjal:karjal
+!! Back vowel
+!! Gradation NA
+!! Singular stem vowel 0/a
+!! Plural stem vowel o
 +N+Prop: NMN_KARJAL ;
+
+LEXICON PROP-PLC_KARJAL !!= @CODE@ karjal:karjal
++N+Prop+Sem/Plc: NMN_KARJAL ;
 
 LEXICON PROP_KARJAL_MAL !!= @CODE@ 
 +N+Prop+Sem/Mal: NMN_KARJAL ;
 
-LEXICON PROP_KARJALAINE
+LEXICON PROP_KARJALAINE !!= @CODE@ karjalaine:karjala
 +N+Prop: NMN_KARJALAINE ;
 
 LEXICON PROP-PLC_TVER !!= __@CODE@__ Tver:Tver
