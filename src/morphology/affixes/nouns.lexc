@@ -326,6 +326,16 @@ LEXICON N_PÄIVY-SG
 LEXICON N_PÄIVY-PL
 +N: NMN_PÄIVY-PL	;
 
+LEXICON N_MEČČY !!= @CODE@ meččy:meččä
+ N_MEČČY-SG ;
+ N_MEČČY-PL ;
+
+LEXICON N_MEČČY-SG
++N: NMN_MEČČY-SG ;
+LEXICON N_MEČČY-PL
++N: NMN_MEČČY-PL ;
+
+
 LEXICON N_IŽÄNDY !!= @CODE@ ižändy:ižändä
 !! Gradation No
 !! Vowel Harmony Front
@@ -1517,6 +1527,27 @@ LEXICON NMN_PÄIVY-PL
 :%>i PLINSSUF ;
 +Pl:%>i  Noun-NB-01-USUALLY-WEAK ;
 +Pl:%>i Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_MEČČY !!= @CODE@ meččy:meččä
+!! gradation Yes
+ NMN_MEČČY-SG ;
+ NMN_MEČČY-PL ;
+
+LEXICON NMN_MEČČY-SG
+:%^A2U SGNOMSUF ;
+ SGNOM/PXSP3 ;
+:%^WGStem SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg:%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Sg: Noun-NB-01-USUALLY-STRONG ;
+LEXICON NMN_MEČČY-PL
+:%^WGStem PLNOMSUF-USUALLY-WEAK ;
+:%>i PLGENSUF_N ; ! the plural comitative is declined here
+:%>i PLPARSUF_Zero ;
+:%>i PLINSSUF ;
++Pl:%>i%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Pl:%>i Noun-NB-01-USUALLY-STRONG ;
+
 
 LEXICON NMN_IŽÄNDY !!= @CODE@ ižändy:ižändä
 !! Gradation No
