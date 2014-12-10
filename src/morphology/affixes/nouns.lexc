@@ -1,7 +1,9 @@
 !! !!!Noun inflection
 ! ---------------
 !! Livvi nouns inflect in cases.
-
+!! Vowel harmony involves front and back
+!! Gradation does not affect all consonants, therefore
+!! there are three values: Yes, No and NA (not applicable)
 
 
 !! !!The file proper
@@ -450,6 +452,15 @@ LEXICON N_KIELI-SG
 +N: 	NMN_KIELI-SG ;
 LEXICON N_KIELI-PL
 +N: 	NMN_KIELI-PL ;
+
+LEXICON N_SUARI !!= @CODE@ suari:suar
+ N_SUARI-SG ;
+ N_SUARI-PL ;
+
+LEXICON N_SUARI-SG
++N:     NMN_SUARI-SG ;
+LEXICON N_SUARI-PL
++N:     NMN_SUARI-PL ;
 
 LEXICON N_LAPSI_SUB
 +Err/Sub: N_LAPSI ;
@@ -1251,6 +1262,28 @@ LEXICON NMN_KIELI-SG
 +Sg:e Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_KIELI-PL
+:e PLNOMSUF-USUALLY-WEAK ;
+:i PLGENSUF_EN ;
+:i PLPARSUF_i ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01 ;
+:il%{oö%}i PLGENSUF_N ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
++Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
++Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_SUARI
+	NMN_SUARI-SG ;
+	NMN_SUARI-PL ;
+LEXICON NMN_SUARI-SG
+:i SGNOMSUF ;
+:e SGGENSUF-USUALLY-WEAK ;
+: SGPARSUF_dU ;
++Sg:e Noun-NB-01-USUALLY-WEAK ;
++Sg:e Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_SUARI-PL
 :e PLNOMSUF-USUALLY-WEAK ;
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
