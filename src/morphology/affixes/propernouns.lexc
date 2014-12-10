@@ -12,37 +12,37 @@ LEXICON PROP_KUU !!= @CODE@
 
 !! !TWO-SYLLABLE LEMMA AND STEM
 LEXICON PROP_OZA_FEM !!= @CODE@
-+N+Prop+Fem: NMN_OZA ;
++N+Prop+Sem/Fem: NMN_OZA ;
 
 LEXICON PROP-PLC_OZA !!= @CODE@
-+N+Prop+Plc: NMN_OZA ;
++N+Prop+Sem/Plc: NMN_OZA ;
 
 LEXICON PROP_OZA !!= @CODE@
 +N+Prop: NMN_OZA ;
 
 LEXICON PROP_KALA_FEM !!= @CODE@ 
-+N+Prop+Fem: NMN_KALA ;
++N+Prop+Sem/Fem: NMN_KALA ;
 
 LEXICON PROP_KALA_MAL !!= @CODE@ 
-+N+Prop+Mal: NMN_KALA ;
++N+Prop+Sem/Mal: NMN_KALA ;
 
 LEXICON PROP_KALA_PATRFEM !!= @CODE@ 
-+N+Prop+Patr+Fem: NMN_KALA ;
++N+Prop+Patr+Sem/Fem: NMN_KALA ;
 
 LEXICON PROP-PLC_KALA !!= @CODE@ 
-+N+Prop+Plc: NMN_KALA ;
++N+Prop+Sem/Plc: NMN_KALA ;
 
 LEXICON PROP_KALA_SURFEM !!= @CODE@ 
-+N+Prop+Sur+Fem: NMN_KALA ;
++N+Prop+Sem/Sur+Sem/Fem: NMN_KALA ;
 
 LEXICON PROP_KALA_SURMAL !!= @CODE@ 
-+N+Prop+Sur+Mal: NMN_KALA ;
++N+Prop+Sem/Sur+Sem/Mal: NMN_KALA ;
 
 LEXICON PROP_KALA !!= @CODE@ 
 +N+Prop: NMN_KALA ;
 
 LEXICON PROP-PLC_PAPPI !!= @CODE@ 
-+N+Prop+Plc: NMN_PAPPI ;
++N+Prop+Sem/Plc: NMN_PAPPI ;
 
 LEXICON PROP_PAPPI !!= @CODE@ 
   PROP_PAPPI-SG ;
@@ -55,7 +55,7 @@ LEXICON PROP_PAPPI-PL !!= @CODE@
 +N+Prop: NMN_PAPPI-PL ;
 
 LEXICON PROP-PLC_NIMI !!= @CODE@ nimi:nim
-+N+Prop+Plc: NMN_NIMI ;
++N+Prop+Sem/Plc: NMN_NIMI ;
 
 LEXICON PROP_NIMI !!= @CODE@ nimi:nim
 +N+Prop: NMN_NIMI ;
@@ -70,13 +70,13 @@ LEXICON PROP_UKSI-PL !!= @CODE@
 +N+Prop: NMN_UKSI-PL ;
 
 LEXICON PROP_REBOI_MAL !!= @CODE@ reboi:reboi
-+N+Prop+Mal: NMN_REBOI ;
++N+Prop+Sem/Mal: NMN_REBOI ;
 
 LEXICON PROP_REBOI !!= @CODE@ reboi:reboi
 +N+Prop: NMN_REBOI ;
 
 LEXICON PROP-PLC_KOIRU !!= @CODE@ koiru:koira
-+N+Prop+Plc: NMN_KOIRU ;
++N+Prop+Sem/Plc: NMN_KOIRU ;
 
 LEXICON PROP_PÄIVY_MAL !!= @CODE@ päivy:päivä
 +N+Prop: NMN_PÄIVY ;
@@ -85,12 +85,12 @@ LEXICON PROP_PÄIVY !!= @CODE@ päivy:päivä
 +N+Prop: NMN_PÄIVY ;
 
 LEXICON PROP-PLC_KNIIGU !!= @CODE@ kniigu:kniiga
-+N+Prop+Plc: NMN_KNIIGU ;
++N+Prop+Sem/Plc: NMN_KNIIGU ;
 
 LEXICON PROP-PLC_MUARJU !!= @CODE@ muarju:muarja
-+N+Prop+Plc: NMN_MUARJU ;
++N+Prop+Sem/Plc: NMN_MUARJU ;
 LEXICON PROP-PLC_MUARJU-PL
-+N+Prop+Plc: NMN_MUARJU-PL ;
++N+Prop+Sem/Plc: NMN_MUARJU-PL ;
 
 LEXICON PROP_MUARJU !!= @CODE@ muarju:muarja
  PROP_MUARJU-SG ;
@@ -102,7 +102,7 @@ LEXICON PROP_MUARJU-PL
 +N+Prop: NMN_MUARJU-PL ;
 
 LEXICON PROP-PLC_AKKU
-+N+Prop+Plc: NMN_AKKU ;
++N+Prop+Sem/Plc: NMN_AKKU ;
 
 LEXICON PROP_AKKU !!= @CODE@ akku:akka
 !! Gradation Yes
@@ -117,10 +117,10 @@ LEXICON PROP_AKKU-PL
 +N+Prop: NMN_AKKU-PL ;
 
 LEXICON PROP_KOIVU_MAL !!= @CODE@ koivu:koivu
-+N+Prop+Mal: NMN_KOIVU ;
++N+Prop+Sem/Mal: NMN_KOIVU ;
 
 LEXICON PROP-PLC_KOIVU
-+N+Prop+Plc: NMN_KOIVU ;
++N+Prop+Sem/Plc: NMN_KOIVU ;
 
 LEXICON PROP_KOIVU !!= @CODE@ koivu:koivu
 +N+Prop: NMN_KOIVU ;
@@ -129,7 +129,7 @@ LEXICON PROP_RUNO !!= @CODE@ runo:runo
 +N+Prop: NMN_RUNO ;
 
 LEXICON PROP-PLC_RUADO !!= @CODE@
-+N+Prop+Plc: NMN_RUADO ;
++N+Prop+Sem/Plc: NMN_RUADO ;
 
 !! !TWO-SYLLABLE LEMMA THREE-SYLLABLE STEM
 
@@ -137,40 +137,51 @@ LEXICON PROP_KARJAL !!= @CODE@
 +N+Prop: NMN_KARJAL ;
 
 LEXICON PROP_KARJAL_MAL !!= @CODE@ 
-+N+Prop+Mal: NMN_KARJAL ;
++N+Prop+Sem/Mal: NMN_KARJAL ;
 
 LEXICON PROP_KARJALAINE
 +N+Prop: NMN_KARJALAINE ;
 
 LEXICON PROP-PLC_TVER !!= __@CODE@__ Tver:Tver
-+N+Prop+Plc: NMN_TVER ;
++N+Prop+Sem/Plc: NMN_TVER ;
 
 LEXICON PROP_TAIGIN_MAL
-+N+Prop+Mal:   NMN_TAIGIN  ;
++N+Prop+Sem/Mal:   NMN_TAIGIN  ;
 
 LEXICON PROP-PLC_TAIGIN !!= __@CODE@__
-+N+Prop+Plc: NMN_TAIGIN  ;
++N+Prop+Sem/Plc: NMN_TAIGIN  ;
+
+LEXICON PROP-PLC_PEREH !!= __@CODE@__ pereh:pereh
++N+Prop+Sem/Plc: NMN_PEREH ;
+LEXICON PROP_PEREH !!= __@CODE@__ pereh:pereh
++N+Prop: NMN_PEREH ;
+
+LEXICON	 PROP-PLC_VIDEL !!= __@CODE@__ videl:videl
++N+Prop+Sem/Plc: NMN_VIDEL ;
+
+LEXICON PROP_VIDEL !!= __@CODE@__ videl:videl
++N+Prop: NMN_VIDEL ;
 
 LEXICON PROP_RUS-IN_SUR
 :a PROP_KALA_SURFEM     ;
-+N+Prop+Sur+Mal:   NMN_TAIGIN  ;
++N+Prop+Sem/Sur+Sem/Mal:   NMN_TAIGIN  ;
 
 LEXICON PROP_RUS-VIČ_PATR !! * @CODE@ Pavlovič:Pavlov
 :na PROP_KALA_PATRFEM	;
-+N+Prop+Patr+Mal:ič   NMN_TAIGIN	;
++N+Prop+Patr+Sem/Mal:ič   NMN_TAIGIN	;
 
 LEXICON PROP_RUS-V_SUR
 :a PROP_KALA_SURFEM	;
-+N+Prop+Sur+Mal:   NMN_ABRAMOV	;
++N+Prop+Sem/Sur+Sem/Mal:   NMN_ABRAMOV	;
 
 LEXICON PROP-PLC_ALUS !!= @CODE@ Alus:Aluks
-+N+Prop+Plc: NMN_ALUS ;
++N+Prop+Sem/Plc: NMN_ALUS ;
 
 LEXICON PROP_ALUS !!= @CODE@ Alus:Aluks
 +N+Prop: NMN_ALUS ;
 
 LEXICON PROP-PLC_KONDII
-+N+Prop+Plc: NMN_KONDII ;
++N+Prop+Sem/Plc: NMN_KONDII ;
 LEXICON PROP_KONDII !!= @CODE@ kondii:kondi
 +N+Prop: NMN_KONDII ;
 
