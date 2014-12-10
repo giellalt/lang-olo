@@ -51,6 +51,9 @@ Gradation NA
  LEXICON N_RUNO  runo:runo
 
 
+ LEXICON N_HÖRÖ  hörö:hörö
+
+
  LEXICON N_RUADO  ruado:ruado
 Gradation Yes
 
@@ -305,6 +308,8 @@ Vowel Harmony Front
 
  LEXICON N_BEMMEL  bemmel:bembel
 
+ LEXICON N_VIDEL  videl:bembel
+
 
 
  LEXICON N_SUURIM  suurim:suurim
@@ -520,6 +525,11 @@ Stem Vowel 0:a:0 kandai, kandajan, kandajua, kandajinnu
 
 
  LEXICON NMN_RUNO  runo:runo
+Gradation No
+
+
+ LEXICON NMN_HÖRÖ  hörö:hörö
+Gradation No
 
 
  LEXICON NMN_RUADO  ruado:ruado
@@ -609,6 +619,10 @@ Gradation Yes
 
 
  LEXICON NMN_BEMMEL  bemmel:bembel
+
+
+ LEXICON NMN_VIDEL  videl:videl
+Gradation No
 
 
  LEXICON NMN_TUORES  tuores:tuore
