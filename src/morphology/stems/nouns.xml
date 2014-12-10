@@ -708,24 +708,6 @@
 
   <e>
     <lg>
-      <l pos="N" type="Prop">Hudilainen</l>
-
-      <stg>
-        <st Contlex="PROP_KARJALAINE">Hudila</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N" type="Prop">Hudilainen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">Noid-joukko</l>
 
       <stg>
@@ -2553,7 +2535,7 @@
       <l pos="N">akkuvarvas</l>
 
       <stg>
-        <st Contlex="N_VARVAS">akkuvarpa</st>
+        <st Contlex="N_VARVAS">akku#varba</st>
       </stg>
     </lg>
 
@@ -3183,7 +3165,7 @@
       <l pos="N">alguhpanii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">alguh#pani</st>
+        <st Contlex="N_PAGIZII">alguh#panii</st>
       </stg>
     </lg>
 
@@ -3865,7 +3847,7 @@
       <l pos="N">ammattikirjuttai</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">ammattikirjutta</st>
+        <st Contlex="N_KANDAI">ammattikirjutta</st>
       </stg>
     </lg>
 
@@ -6883,7 +6865,7 @@
       <l pos="N">aziitundii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">aziitundi</st>
+        <st Contlex="N_PAGIZII">azii#tundii</st>
       </stg>
     </lg>
 
@@ -7205,7 +7187,7 @@
       <l pos="N">baliettutansii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">baliettu#tansi</st>
+        <st Contlex="N_PAGIZII">baliettu#tansii</st>
       </stg>
     </lg>
 
@@ -7373,7 +7355,7 @@
       <l pos="N">baluiččii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">baluičči</st>
+        <st Contlex="N_PAGIZII">baluiččii</st>
       </stg>
     </lg>
 
@@ -7795,7 +7777,7 @@
       <l pos="N">besʼodoiččii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">besʼodoičči</st>
+        <st Contlex="N_PAGIZII">besʼodoiččii</st>
       </stg>
     </lg>
 
@@ -7840,24 +7822,6 @@
 
       <tg xml:lang="fin">
         <t pos="N">puntari</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">biblii</l>
-
-      <stg>
-        <st Contlex="N_PAGIZII">bibli</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">raamattu</t>
       </tg>
     </mg>
   </e>
@@ -22734,7 +22698,7 @@
       <l pos="N">hyvin juoksii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">hyvin juoksij</st>
+        <st Contlex="N_PAGIZII">hyvin juoksii</st>
       </stg>
     </lg>
 
@@ -22798,7 +22762,7 @@
       <l pos="N">hyvyönluadii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">hyvyön#luadi</st>
+        <st Contlex="N_PAGIZII">hyvyön#luadii</st>
       </stg>
     </lg>
 
@@ -28186,7 +28150,7 @@
       <l pos="N">juoksii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">juoksij</st>
+        <st Contlex="N_PAGIZII">juoksii</st>
       </stg>
     </lg>
 
@@ -29100,7 +29064,7 @@
       <l pos="N">jällenpolgii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">jällen#polgij</st>
+        <st Contlex="N_PAGIZII">jällen#polgii</st>
       </stg>
     </lg>
 
@@ -31412,7 +31376,7 @@
       <l pos="N">kangas</l>
 
       <stg>
-        <st Contlex="N_VARVAS">kanka</st>
+        <st Contlex="N_VARVAS">kanga</st>
       </stg>
     </lg>
 
@@ -34717,7 +34681,7 @@
       <l pos="N">kengänombelii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">kengän#ombelij</st>
+        <st Contlex="N_PAGIZII">kengän#ombelii</st>
       </stg>
     </lg>
 
@@ -35887,7 +35851,7 @@
       <l pos="N">kielastelii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">kielastelij</st>
+        <st Contlex="N_PAGIZII">kielastelii</st>
       </stg>
     </lg>
 
@@ -35999,25 +35963,7 @@
       <l pos="N">kielentutkii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">kielentutki</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">kielentutkija</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">kielentutkii</l>
-
-      <stg>
-        <st Contlex="N_PAGIZII">kielentutkii</st>
+        <st Contlex="N_PAGIZII">kielen#tutkii</st>
       </stg>
     </lg>
 
@@ -37221,29 +37167,7 @@
       <l pos="N">kiittelii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">kiitteli</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">kiittelijä</t>
-
-        <t pos="N">kehuja</t>
-
-        <t pos="N">ylistäjä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">kiittelii</l>
-
-      <stg>
-        <st Contlex="N_PAGIZII">kiittelij</st>
+        <st Contlex="N_PAGIZII">kiittelii</st>
       </stg>
     </lg>
 
@@ -42513,7 +42437,7 @@
       <l pos="N">kruassii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">kruassi</st>
+        <st Contlex="N_PAGIZII">kruassii</st>
       </stg>
     </lg>
 
@@ -44377,7 +44301,7 @@
       <l pos="N">kulʼtuurututkii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">kulʼtuuru#tutki</st>
+        <st Contlex="N_PAGIZII">kulʼtuuru#tutkii</st>
       </stg>
     </lg>
 
@@ -47041,7 +46965,7 @@
       <l pos="N">käisvedelii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">käisvedeli</st>
+        <st Contlex="N_PAGIZII">käis#vedelii</st>
       </stg>
     </lg>
 
@@ -47868,7 +47792,7 @@
       <l pos="N">käzästii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">käzästi</st>
+        <st Contlex="N_KONDII">käzästi</st>
       </stg>
     </lg>
 
@@ -53200,7 +53124,7 @@
       <l pos="N">luadii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">luadi</st>
+        <st Contlex="N_PAGIZII">luadii</st>
       </stg>
     </lg>
 
@@ -53622,7 +53546,7 @@
       <l pos="N">lugii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">lugi</st>
+        <st Contlex="N_PAGIZII">lugii</st>
       </stg>
     </lg>
 
@@ -54856,7 +54780,7 @@
       <l pos="N">längienombelii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">längien#ombeli</st>
+        <st Contlex="N_PAGIZII">längien#ombelii</st>
       </stg>
     </lg>
 
@@ -54989,7 +54913,7 @@
       <l pos="N">läžii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">läži</st>
+        <st Contlex="N_PAGIZII">läžii</st>
       </stg>
     </lg>
 
@@ -55373,25 +55297,7 @@
       <l pos="N">magiensuvaiččii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">magien#suvaičči</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">herkkusuu</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">magiensuvaiččii</l>
-
-      <stg>
-        <st Contlex="N_PAGIZII">magien#suvaičči</st>
+        <st Contlex="N_PAGIZII">magien#suvaiččii</st>
       </stg>
     </lg>
 
@@ -62389,7 +62295,7 @@
       <l pos="N">niistii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">niistij</st>
+        <st Contlex="N_PAGIZII">niistii</st>
       </stg>
     </lg>
 
@@ -65834,7 +65740,7 @@
       <l pos="N">olii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">olij</st>
+        <st Contlex="N_PAGIZII">olii</st>
       </stg>
     </lg>
 
@@ -66098,7 +66004,7 @@
       <l pos="N">ombelii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">ombelij</st>
+        <st Contlex="N_PAGIZII">ombelii</st>
       </stg>
     </lg>
 
@@ -69260,7 +69166,7 @@
       <l pos="N">pagizii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">pagizij</st>
+        <st Contlex="N_PAGIZII">pagizii</st>
       </stg>
     </lg>
 
@@ -71926,7 +71832,7 @@
       <l pos="N">parras</l>
 
       <stg>
-        <st Contlex="N_VARVAS">parta</st>
+        <st Contlex="N_VARVAS">parda</st>
       </stg>
     </lg>
 
@@ -85941,7 +85847,7 @@
       <l pos="N">rannal olii</l>
 
       <stg>
-        <st Contlex="N_KANDAI">rannal olij</st>
+        <st Contlex="N_KANDAI">rannal olii</st>
       </stg>
     </lg>
 
@@ -87587,7 +87493,7 @@
       <l pos="N">rengas</l>
 
       <stg>
-        <st Contlex="N_VARVAS">renka</st>
+        <st Contlex="N_VARVAS">renga</st>
       </stg>
     </lg>
 
@@ -92662,7 +92568,7 @@
       <l pos="N">ryväs</l>
 
       <stg>
-        <st Contlex="N_VARVAS">rybäh</st>
+        <st Contlex="N_VARVAS">rybä</st>
       </stg>
     </lg>
 
@@ -93966,7 +93872,7 @@
       <l pos="N">sanelii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">sanelij</st>
+        <st Contlex="N_PAGIZII">sanelii</st>
       </stg>
     </lg>
 
@@ -96263,7 +96169,7 @@
       <l pos="N">silminnägii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">silmin#nägij</st>
+        <st Contlex="N_PAGIZII">silmin#nägii</st>
       </stg>
     </lg>
 
@@ -99633,7 +99539,7 @@
       <l pos="N">suappuanombelii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">suappuan#ombelij</st>
+        <st Contlex="N_PAGIZII">suappuan#ombelii</st>
       </stg>
     </lg>
 
@@ -101736,26 +101642,6 @@
 
       <tg xml:lang="fin">
         <t pos="N">suuret rakennukset</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">suuri barvas</l>
-
-      <stg>
-        <st Contlex="N_VARVAS">suuri barba</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">isovarvas</t>
-
-        <t pos="N">ukkovarvas</t>
       </tg>
     </mg>
   </e>
@@ -106199,7 +106085,7 @@
       <l pos="N">tervanlaskii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">tervan#laskij</st>
+        <st Contlex="N_PAGIZII">tervan#laskii</st>
       </stg>
     </lg>
 
@@ -108094,24 +107980,6 @@
 
   <e>
     <lg>
-      <l pos="N">torahammas</l>
-
-      <stg>
-        <st Contlex="N_VARVAS">torahamba</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">torahammas</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">torajoukko</l>
 
       <stg>
@@ -108249,7 +108117,7 @@
       <l pos="N">torguiččii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">torguiččij</st>
+        <st Contlex="N_PAGIZII">torguiččii</st>
       </stg>
     </lg>
 
@@ -110372,7 +110240,7 @@
       <l pos="N">turkiloinombelii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">turkiloin#ombelij</st>
+        <st Contlex="N_PAGIZII">turkiloin#ombelii</st>
       </stg>
     </lg>
 
@@ -111016,7 +110884,7 @@
       <l pos="N">tyhjänpagižii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">tyhjän#pagižij</st>
+        <st Contlex="N_PAGIZII">tyhjän#pagižii</st>
       </stg>
     </lg>
 
@@ -115226,7 +115094,7 @@
       <l pos="N">valiččii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">valiččij</st>
+        <st Contlex="N_PAGIZII">valiččii</st>
       </stg>
     </lg>
 
@@ -115924,7 +115792,7 @@
       <l pos="N">vardoiččii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">vardoiččij</st>
+        <st Contlex="N_PAGIZII">vardoiččii</st>
       </stg>
     </lg>
 
@@ -122389,10 +122257,10 @@
 
   <e>
     <lg>
-      <l pos="N">vällilline</l>
+      <l pos="A">vällilline</l>
 
       <stg>
-        <st Contlex="N_KIELINE">vällilline</st>
+        <st Contlex="A_KIELINE">vällilline</st>
       </stg>
     </lg>
 
@@ -123264,7 +123132,7 @@
       <l pos="N">yllyttelii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">yllyttelij</st>
+        <st Contlex="N_PAGIZII">yllyttelii</st>
       </stg>
     </lg>
 
@@ -124435,7 +124303,7 @@
       <l pos="N">äijän pagizii</l>
 
       <stg>
-        <st Contlex="N_PAGIZII">äijän pagizij</st>
+        <st Contlex="N_PAGIZII">äijän pagizii</st>
       </stg>
     </lg>
 
