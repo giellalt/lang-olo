@@ -2658,6 +2658,7 @@ LEXICON NMN_VANUIN-PL
 
 LEXICON NMN_SAMMUTIN !!= @CODE@ sammutin:sammutti
 !! Gradation Yes
+!! (Nominative and partitive singular forms are weak grade)
 !! Back	     Vowel
 !! Stem	     consonant n/m
 !! Singular stem vowel 0/0/e
@@ -2666,9 +2667,9 @@ LEXICON NMN_SAMMUTIN !!= @CODE@ sammutin:sammutti
  NMN_SAMMUTIN-PL ;
 
 LEXICON NMN_SAMMUTIN-SG	
-:n SGNOMSUF ;
+:%^WGStemn SGNOMSUF ;
 :me SGGENSUF-USUALLY-WEAK ;
-:n SGPARSUF_A2 ;
+:%^WGStemn SGPARSUF_A2 ;
 +Sg:me Noun-NB-01 ;
 LEXICON NMN_SAMMUTIN-PL	
 :me PLNOMSUF-USUALLY-WEAK ;
