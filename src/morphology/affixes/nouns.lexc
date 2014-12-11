@@ -1439,7 +1439,7 @@ LEXICON NMN_PAGIZII-SG !!= @CODE@
 :%{ui%} SGPARSUF_A2 ;
 
 LEXICON NMN_PAGIZII-PL !!= @CODE@ 
-:%{aäPar%} PLNOMSUF-USUALLY-WEAK ;
+:%>%{aäPar%} PLNOMSUF-USUALLY-WEAK ;
 :%>%{oö%}i PLGENSUF_N ;
 :%>%{oö%}i PLPARSUF_i ;
 :%>%{oö%}i PLINSSUF ;
