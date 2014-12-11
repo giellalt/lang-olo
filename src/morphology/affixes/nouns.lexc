@@ -638,9 +638,12 @@ LEXICON N_TVER-SG
 LEXICON N_TVER-PL
 +N: NMN_TVER-PL ;
 
-LEXICON N_VANUIN_SUB
-+Err/Sub: N_VANUIN ;
 LEXICON N_VANUIN !!= @CODE@ vanuin:vanui
+!! Gradation NA
+!! Back	     Vowel
+!! Stem	     consonant n/m
+!! Singular stem vowel 0/0/e
+!! Plural stem vowel i
  N_VANUIN-SG ;
  N_VANUIN-PL ;
 
@@ -649,6 +652,24 @@ LEXICON N_VANUIN-SG
 
 LEXICON N_VANUIN-PL
 +N: NMN_VANUIN-PL ;
+
+LEXICON N_VANUIN_SUB
++Err/Sub: N_VANUIN ;
+
+LEXICON N_SAMMUTIN !!= @CODE@ sammutin:sammutti
+!! Gradation Yes
+!! Back Vowel
+!! Stem consonant n/m
+!! Singular stem vowel 0/0/e
+!! Plural stem vowel i
+ N_SAMMUTIN-SG ;
+ N_SAMMUTIN-PL ;
+
+LEXICON N_SAMMUTIN-SG
++N: NMN_SAMMUTIN-SG ;
+
+LEXICON N_SAMMUTIN-PL
++N: NMN_SAMMUTIN-PL ;
 
 LEXICON N_LÄMMIN !!= @CODE@ lämmin:lämbi
  N_LÄMMIN-SG ;
@@ -2595,6 +2616,10 @@ LEXICON NMN_SAMMAL-PL
 +Pl:i Noun-NB-01 ;
 
 LEXICON NMN_TVER !!= @CODE@ tver:tver
+!! Gradation NA
+!! Front	 Vowel
+!! Singular stem vowel 0/i
+!! Plural stem vowel ilöi
  NMN_TVER-SG ;
  NMN_TVER-PL ;
 
@@ -2611,6 +2636,11 @@ LEXICON NMN_TVER-PL
 +Pl:i%>l%{OÖ%}i Noun-NB-01 ;
 
 LEXICON NMN_VANUIN !!= @CODE@ vanuin:vanui
+!! Gradation NA
+!! Back	     Vowel
+!! Stem	     consonant n/m
+!! Singular stem vowel 0/0/e
+!! Plural stem vowel i
  NMN_VANUIN-SG ;
  NMN_VANUIN-PL ;
 
@@ -2620,6 +2650,27 @@ LEXICON NMN_VANUIN-SG
 :n SGPARSUF_A2 ;
 +Sg:me Noun-NB-01 ;
 LEXICON NMN_VANUIN-PL	
+:me PLNOMSUF-USUALLY-WEAK ;
+:mi PLGENSUF_EN ;
+:mi PLPARSUF_i ;
+:mi PLINSSUF ;
++Pl:mi Noun-NB-01 ;
+
+LEXICON NMN_SAMMUTIN !!= @CODE@ sammutin:sammutti
+!! Gradation Yes
+!! Back	     Vowel
+!! Stem	     consonant n/m
+!! Singular stem vowel 0/0/e
+!! Plural stem vowel i
+ NMN_SAMMUTIN-SG ;
+ NMN_SAMMUTIN-PL ;
+
+LEXICON NMN_SAMMUTIN-SG	
+:n SGNOMSUF ;
+:me SGGENSUF-USUALLY-WEAK ;
+:n SGPARSUF_A2 ;
++Sg:me Noun-NB-01 ;
+LEXICON NMN_SAMMUTIN-PL	
 :me PLNOMSUF-USUALLY-WEAK ;
 :mi PLGENSUF_EN ;
 :mi PLPARSUF_i ;
