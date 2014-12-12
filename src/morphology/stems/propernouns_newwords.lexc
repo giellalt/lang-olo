@@ -6,7 +6,7 @@
 LEXICON PROP_NEWWORDS
 test PROP_ "" ;
 !! ADD NOUNS BELOW!
-Alavoine:Alavo PROP-PLC_KARJALAINE "" ;
+Alavoine:Alavo PROP-PLC_KARJALAINE "Alavoinen" ;
 Alango:Alango PROP-PLC_RUNO "Alango" ;
 Amerikku:Amerikka PROP-PLC_MUARJU "Amerikka" ;
 Anus:Anuks PROP-PLC_ALUS "Aunus" ;
@@ -26,11 +26,11 @@ Horvuatii:Horvuati PROP-PLC_KONDII "Kroatia" ;
 Indii:Indi PROP-PLC_KONDII "Intia" ;
 Jakutii:Jakuti PROP-PLC_KONDII "Jakutia" ;
 Jevrouppu:Jevouppa PROP-PLC_MUARJU "Eurooppa" ;
-Karhumägi:Karhumäg PROP-PLC_JÄLGI "Karhumäki" ;
+Karhumägi:Karhu#mäg PROP-PLC_JÄLGI "Karhumäki" ;
 Kesarii:Kesari PROP-PLC_KONDII "Kesarea" ;
 Kipru:Kipra PROP-PLC_MUARJU "Kypros" ;
 Kipru-suari:Kipru-suar PROP-PLC_SUARI "Kyproksen saari|Kyprossaari" ;
-Kondupohju:Kondupohja PROP-PLC_KOIRU "Kontupohja" ;
+Kondupohju:Kondu#pohja PROP-PLC_KOIRU "Kontupohja" ;
 Korei:Kore PROP-PLC_VALGEI "Korea" ;
 Kudimkar:Kudimkar PROP-PLC_KARJAL "Kudymkar" ;
 Kuuba:Kuuba PROP-PLC_OZA "Kuuba" ;
@@ -64,6 +64,6 @@ Veškelys:Veškelyks PROP-PLC_KONDII "Veskelys" ;
 Videl:Videl PROP-PLC_VIDEL "Vitele" ;
 Vieljärvi:Vieljärv PROP-PLC_NIMI "Vieljärvi" ;
 Ylä-Videl:Ylä-Videl PROP-PLC_VIDEL "Ylä-Vitele" ;
-Jyškyjärvi:Jyškyjärv PROP-PLC_NIMI "" ;
-Kuittine:Kuitti PROP-PLC_KIELINE "" ;
-Nuožarvi:Nuožarv PROP-PLC_NIMI "" ;
+Jyškyjärvi:Jyšky#järv PROP-PLC_NIMI "Jyskyjärvi" ;
+Kuittine:Kuitti PROP-PLC_KIELINE "Kuittinen" ;
+Nuožarvi:Nuožarv PROP-PLC_NIMI "Nuosjärvi|Nuožarvi" ;
