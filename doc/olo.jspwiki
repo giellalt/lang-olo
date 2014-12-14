@@ -545,27 +545,39 @@ there are three values: Yes, No and NA (not applicable)
 
 !ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
  LEXICON N_SUO  suo:suo
+Gradation: No
+Harmony: Back
 
  LEXICON N_VYÖ  vyö:vyö
+Gradation: No
+Harmony: Front
 
  LEXICON N_KUU  kuu:kuu
+Gradation: No
+Harmony: Back
 
  LEXICON N_MUA  mua:maa
+Gradation: No
+Harmony: Back
 
 !TWO-SYLLABLE VOWEL-FINAL STEMS
+
  LEXICON N_PAPPI  pappi:pappi
-Gradation Yes
+Gradation: Yes
+Harmony: Back
 
  LEXICON N_LEIRI  leiri:leiri
 Gradation NA
+Harmony: Front
 
  LEXICON N_PADA  pada:pada
 Gradation Yes
-
+Harmony: Back
 
 
  LEXICON N_KALA  kala:kala
 Gradation NA
+Harmony: Back
 
  LEXICON N_OZA  oza:oza
 
@@ -604,6 +616,11 @@ Gradation Yes
 
  LEXICON N_JÄLGI   jälgi:jälg
 front vowel
+gradation Yes
+
+
+ LEXICON N_JOGI   jogi:jog
+Back vowel
 gradation Yes
 
 
@@ -649,6 +666,10 @@ VowelHarmony	Back
 
 
  LEXICON N_NIMI  nimi:nim
+
+
+
+ LEXICON N_HANGI  hangi:hang
 
 
 
@@ -952,7 +973,18 @@ gradation No
 
 
 
+Gradation: No
+Harmony: Back
+
+
+
 Front Vowel
+Gradation Yes
+
+
+
+ LEXICON NMN_JOGI  jogi:jog
+Back Vowel
 Gradation Yes
 
 
@@ -1380,20 +1412,33 @@ Gradation No
 
  * __LEXICON V_KANDUA __ kandua:kanda
 Gradation Yes
+Back Vowel
 
  * __LEXICON V_KANDUA-SG3 __ kandua:kanda
 
  * __LEXICON V_KANDUA-3 __ kandua:kanda
 
+ * __LEXICON V_HEITTIÄ __ heittä:heittä
+Gradation Yes
+Front vowel
+
+ * __LEXICON V_HEITTIÄ-SG3 __ heittä:heittä
+
+ * __LEXICON V_HEITTIÄ-3 __ heittä:tiedä
+
 V1o
 
  * __LEXICON V_PUNUO __ punuo:puno
+Gradation No
+Back vowel
 
  * __LEXICON V_PUNUO-SG3 __ punuo:puno
 
 V1u
 
  * __LEXICON V_VALUO __ valuo:valu
+Gradation No
+Back vowel
 
  * __LEXICON V_VALUO-SG3 __ valuo:valu
 
@@ -1402,10 +1447,14 @@ V1u
 
 V1i
  * __LEXICON V_POTKIE __ potkie:potki
+Gradation No
+Back vowel
 
  * __LEXICON V_POTKIE-SG3 __ potkie:potki
 
  * __LEXICON V_IMIE __ imie:ime
+Gradation No
+Front vowel
  * __+V:%>e INDPRTPL3_ttih ; __ 
 
 __koske%>e%^WGStem%>ttih examples:__
@@ -1425,12 +1474,17 @@ __koski0e00tah examples:__
 
 
  * __LEXICON  V_PIDIÄ __ pidiä:pidä
+Gradation Yes
+Front vowel
 
 
  * __LEXICON  V_PIDIÄ-SG3 __ pidiä:pidä
 
  * __LEXICON V_KIRJUTTUA __ kirjuttua:kirjutta
 3-syllable stem
+Gradation Yes
+Back vowel
+
 
 !VERBS OF FINNISH TYPE 2 in dA
 
@@ -2008,17 +2062,15 @@ __k:g__ pestä: peskäh
 
 __rd:rr weakening__  
 {{{
-    Vow r %> _ GRC ;  purra+Ind+Prs+ScPl3: purrah
+    Vow r %> _ [ GRC | e %^WGStem: ] ;  purra+Ind+Prs+ScPl3: purrah
 }}}
 
 __ld:ll weakening__  
-{{{
-   Vow l %> _ GRC ;  tulla+Ind+Prs+ScPl3: tullah
-}}}
+   Vow l %> _ [ GRC | e %^WGStem: ] ;  tulla+Ind+Prs+ScPl3: tullah
 
 __nd:nn weakening__  
 {{{
-   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  mennä+Ind+Prs+ScPl3: mennäh
+   Vow ( %^WGStem:0 %> ) n %> _ [ GRC | e %^WGStem: ] ;  mennä+Ind+Prs+ScPl3: mennäh
 }}}
 
 __rn:rr in prtprc__  
@@ -2032,7 +2084,7 @@ __sn:ss in prtprc__
 
 __čToZero__  
 {{{
-*   Vow ( %^WGStem:0 %> ) n %> _ GRC ;  suvaija:suvaičen
+*   Vow ( %^WGStem:0 %> ) n %> _ [ GRC | e %^WGStem: ] ;  suvaija:suvaičen
 }}}
 
 __kToZero__  aika: ajan
@@ -2041,8 +2093,7 @@ __kToZero__  aika: ajan
 }}}
 
 __gToZero__  aika: ajan
-{{{
-}}}
+
 
 
 

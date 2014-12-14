@@ -10,27 +10,39 @@ there are three values: Yes, No and NA (not applicable)
 
 !ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
  LEXICON N_SUO  suo:suo
+Gradation: No
+Harmony: Back
 
  LEXICON N_VYÖ  vyö:vyö
+Gradation: No
+Harmony: Front
 
  LEXICON N_KUU  kuu:kuu
+Gradation: No
+Harmony: Back
 
  LEXICON N_MUA  mua:maa
+Gradation: No
+Harmony: Back
 
 !TWO-SYLLABLE VOWEL-FINAL STEMS
+
  LEXICON N_PAPPI  pappi:pappi
-Gradation Yes
+Gradation: Yes
+Harmony: Back
 
  LEXICON N_LEIRI  leiri:leiri
 Gradation NA
+Harmony: Front
 
  LEXICON N_PADA  pada:pada
 Gradation Yes
-
+Harmony: Back
 
 
  LEXICON N_KALA  kala:kala
 Gradation NA
+Harmony: Back
 
  LEXICON N_OZA  oza:oza
 
@@ -69,6 +81,11 @@ Gradation Yes
 
  LEXICON N_JÄLGI   jälgi:jälg
 front vowel
+gradation Yes
+
+
+ LEXICON N_JOGI   jogi:jog
+Back vowel
 gradation Yes
 
 
@@ -114,6 +131,10 @@ VowelHarmony	Back
 
 
  LEXICON N_NIMI  nimi:nim
+
+
+
+ LEXICON N_HANGI  hangi:hang
 
 
 
@@ -417,7 +438,18 @@ gradation No
 
 
 
+Gradation: No
+Harmony: Back
+
+
+
 Front Vowel
+Gradation Yes
+
+
+
+ LEXICON NMN_JOGI  jogi:jog
+Back Vowel
 Gradation Yes
 
 
