@@ -171,6 +171,114 @@ LEXICON PRON-DEM_NET !!= @CODE@ net:n
 +Pron+Dem+Dep+Pl+Ine:iis K ;
 +Pron+Dem+Dep+Pl+Ill:iih K ;
 
+!! !INDEFINITE
+LEXICON PRON-INDEF_ !!= @CODE@ Still requires work
++Pron+Indef: K ;
+
+LEXICON PRON-INDEF_KEN !!= @CODE@ kentahto:ke
++Pron+Indef+Sg+Abl:lpäi TAHTO/LIENNE ;
++Pron+Indef+Sg+Ade:l TAHTO/LIENNE ;
++Pron+Indef+Sg+All:lle TAHTO/LIENNE ;
++Pron+Indef+Sg+Com:nenke TAHTO/LIENNE ;
++Pron+Indef+Sg+Ela:nespäi TAHTO/LIENNE ;
++Pron+Indef+Sg+Gen:nen TAHTO/LIENNE ;
++Pron+Indef+Sg+Ill:neh TAHTO/LIENNE ;
++Pron+Indef+Sg+Ine:nes TAHTO/LIENNE ;
++Pron+Indef+Sg+Nom:n TAHTO/LIENNE ;
++Pron+Indef+Sg+Par:dä TAHTO/LIENNE ;
++Pron+Indef+Sg+Tra:nekse TAHTO/LIENNE ;
+
+LEXICON PRON-INDEF_KUDAI !!= @CODE@ kudaitahto:kuda
++Pron+Indef+Sg+Abl:%>malpäi TAHTO/LIENNE ;
++Pron+Indef+Sg+Ade:%>mal TAHTO/LIENNE ;
++Pron+Indef+Sg+All:%>male TAHTO/LIENNE ;
++Pron+Indef+Sg+Ela:%>maspäi TAHTO/LIENNE ;
++Pron+Indef+Sg+Gen:%>man TAHTO/LIENNE ;
++Pron+Indef+Sg+Ill:%>mah TAHTO/LIENNE ;
++Pron+Indef+Sg+Ine:%>mas TAHTO/LIENNE ;
++Pron+Indef+Sg+Nom:i TAHTO/LIENNE ;
++Pron+Indef+Sg+Par:idu TAHTO/LIENNE ;
+
+
+LEXICON PRON-INDEF_MI !!= @CODE@ mitahto:mi
++Pron+Indef+Sg+Abl:%>lpäi TAHTO/LIENNE ;
++Pron+Indef+Sg+Ade:%>l TAHTO/LIENNE ;
++Pron+Indef+Sg+Ade:%>l»tah K ;
++Pron+Indef+Sg+All:%>lle TAHTO/LIENNE ;
++Pron+Indef+Sg+All:%>lle»tah K ;
++Pron+Indef+Sg+Gen:%>n TAHTO/LIENNE ;
++Pron+Indef+Sg+Ill:%>h TAHTO/LIENNE ;
++Pron+Indef+Sg+Ill:%>h»tah K ;
++Pron+Indef+Sg+Ine:%>s TAHTO/LIENNE ;
++Pron+Indef+Sg+Nom: TAHTO/LIENNE ;
++Pron+Indef+Sg+Par:%>dä TAHTO/LIENNE ;
++Pron+Indef+Sg+Tra:%>kse TAHTO/LIENNE ;
+
+LEXICON PRON-INDEF_MITTUINE !!= @CODE@ mittuinetahto:mittu
++Pron+Indef+Sg+Abl:%>malpäi TAHTO/LIENNE ;
++Pron+Indef+Sg+Ade:%>mal TAHTO/LIENNE ;
++Pron+Indef+Sg+All:%>male TAHTO/LIENNE ;
++Pron+Indef+Sg+Ela:%>maspäi TAHTO/LIENNE ;
++Pron+Indef+Sg+Ess:%>mannu TAHTO/LIENNE ;
++Pron+Indef+Sg+Gen:%>man TAHTO/LIENNE ;
++Pron+Indef+Sg+Ill:%>mah TAHTO/LIENNE ;
++Pron+Indef+Sg+Ine:%>mas TAHTO/LIENNE ;
++Pron+Indef+Sg+Nom:ine TAHTO/LIENNE ;
++Pron+Indef+Sg+Par:%>mua TAHTO/LIENNE ;
++Pron+Indef+Sg+Tra:%>makse TAHTO/LIENNE ;
++Pron+Indef+Pl+Abl:%>milpäi TAHTO/LIENNE ;
++Pron+Indef+Pl+Ade:%>mil TAHTO/LIENNE ;
++Pron+Indef+Pl+All:%>mile TAHTO/LIENNE ;
++Pron+Indef+Pl+Ela:%>mispäi TAHTO/LIENNE ;
++Pron+Indef+Pl+Ess:%>minnu TAHTO/LIENNE ;
++Pron+Indef+Pl+Gen:%>mien TAHTO/LIENNE ;
++Pron+Indef+Pl+Ill:%>mih TAHTO/LIENNE ;
++Pron+Indef+Pl+Ine:%>mis TAHTO/LIENNE ;
++Pron+Indef+Pl+Nom:%>mat TAHTO/LIENNE ;
++Pron+Indef+Pl+Par:%>mii TAHTO/LIENNE ;
++Pron+Indef+Pl+Tra:%>mikse TAHTO/LIENNE ;
+
+LEXICON TAHTO/LIENNE
+:»lienne K ;
+:»tahto K ;
+:»tah K ;
+
+LEXICON PRON-INDEF_NIKEN !!= @CODE@ niken:ni«ke
++Pron+Indef+Neg+Sg+Abl:lpäi K ;
++Pron+Indef+Neg+Sg+Ade:l K ;
++Pron+Indef+Neg+Sg+All:lle K ;
++Pron+Indef+Neg+Sg+Com:nenke K ;
++Pron+Indef+Neg+Sg+Ela:nespäi K ;
++Pron+Indef+Neg+Sg+Gen:nen K ;
++Pron+Indef+Neg+Sg+Ill:neh K ;
++Pron+Indef+Neg+Sg+Ine:nes K ;
++Pron+Indef+Neg+Sg+Nom:n K ;
++Pron+Indef+Neg+Sg+Par:dä K ;
++Pron+Indef+Neg+Sg+Tra:nekse K ;
+
+LEXICON PRON-INDEF_NIMITTUINE !!= @CODE@ nimittuine:ni«mittu
++Pron+Indef+Neg+Sg+Abl:%>malpäi K ;
++Pron+Indef+Neg+Sg+Ade:%>mal K ;
++Pron+Indef+Neg+Sg+All:%>male K ;
++Pron+Indef+Neg+Sg+Ela:%>maspäi K ;
++Pron+Indef+Neg+Sg+Ess:%>mannu K ;
++Pron+Indef+Neg+Sg+Gen:%>man K ;
++Pron+Indef+Neg+Sg+Ill:%>mah K ;
++Pron+Indef+Neg+Sg+Ine:%>mas K ;
++Pron+Indef+Neg+Sg+Nom:ine K ;
++Pron+Indef+Neg+Sg+Par:%>mua K ;
++Pron+Indef+Neg+Pl+Abl:%>milpäi K ;
++Pron+Indef+Neg+Pl+Ade:%>mil K ;
++Pron+Indef+Neg+Pl+All:%>mile K ;
++Pron+Indef+Neg+Pl+Ela:%>mispäi K ;
++Pron+Indef+Neg+Pl+Ess:%>minnu K ;
++Pron+Indef+Neg+Pl+Gen:%>mien K ;
++Pron+Indef+Neg+Pl+Ill:%>mih K ;
++Pron+Indef+Neg+Pl+Ine:%>mis K ;
++Pron+Indef+Neg+Pl+Nom:%>mat K ;
++Pron+Indef+Neg+Pl+Par:%>mii K ;
+
+
 !! !INTERROGATIVE
 LEXICON PRON-INTERR_ !!= @CODE@ Still requires work
 +Pron+Interr: K ;
@@ -184,6 +292,28 @@ LEXICON PRON-INTERR_MI !!= @CODE@ mi:mi
 +Pron+Interr+Sg+Nom: K ;
 +Pron+Interr+Sg+Par:dä K ;
 +Pron+Interr+Sg+Tra:kse K ;
+
+LEXICON PRON-INTERR_MITTUINE !!= @CODE@ mittuine:mittu
++Pron+Interr+Sg+Abl:%>malpäi K ;
++Pron+Interr+Sg+Ade:%>mal K ;
++Pron+Interr+Sg+All:%>male K ;
++Pron+Interr+Sg+Ela:%>maspäi K ;
++Pron+Interr+Sg+Ess:%>mannu K ;
++Pron+Interr+Sg+Gen:%>man K ;
++Pron+Interr+Sg+Ill:%>mah K ;
++Pron+Interr+Sg+Ine:%>mas K ;
++Pron+Interr+Sg+Nom:ine K ;
++Pron+Interr+Sg+Par:%>mua K ;
++Pron+Interr+Pl+Abl:%>milpäi K ;
++Pron+Interr+Pl+Ade:%>mil K ;
++Pron+Interr+Pl+All:%>mile K ;
++Pron+Interr+Pl+Ela:%>mispäi K ;
++Pron+Interr+Pl+Ess:%>minnu K ;
++Pron+Interr+Pl+Gen:%>mien K ;
++Pron+Interr+Pl+Ill:%>mih K ;
++Pron+Interr+Pl+Ine:%>mis K ;
++Pron+Interr+Pl+Nom:%>mat K ;
++Pron+Interr+Pl+Par:%>mii K ;
 
 LEXICON PRON-INTERR_KEN !!= @CODE@ ken:ke
 +Pron+Interr+Hum: PRON-INTERR_KEN-01 ;
