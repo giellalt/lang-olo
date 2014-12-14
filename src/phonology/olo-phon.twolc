@@ -386,7 +386,7 @@ o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: ] ;
 !€0 valgi0e00t
 !€# hävi%>%{aäPar%}%>n
 !€0 hävi0e0n
-        i _ d: o %^WGStem: ;
+        i _ d: [ o | ä: ] %^WGStem: ;
 !€# tiedo%^WGStem%>n
 !€# tiijo00n
 
@@ -633,25 +633,23 @@ k:g <=> [ n | l |r ] %> _ (%{ui%}:) %{aäPar%}: ;
 !! {{{
 d:r <=>
      Vow: r _ Vow: ((%^A2O:) %> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
-   Vow r %> _ GRC ; !!= @CODE@ purra+Ind+Prs+ScPl3: purrah
+   Vow r %> _ [ GRC | e %^WGStem: ] ; !!= @CODE@ purra+Ind+Prs+ScPl3: purrah
 !! }}}
 
 "ld:ll weakening"
 !! __@RULENAME@__  
-!! {{{
 d:l <=>
   Vow: l _ Vow: ((%^A2O:) %> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
-  Vow l %> _ GRC ; !!= @CODE@ tulla+Ind+Prs+ScPl3: tullah
+  Vow l %> _ [ GRC | e %^WGStem: ] ; !!= @CODE@ tulla+Ind+Prs+ScPl3: tullah
 !€# tul%>d%{aäDiph%}%^WGStem
 !€0 tul0la0
-!! }}}
 
 "nd:nn weakening"
 !! __@RULENAME@__  
 !! {{{
 d:n <=>
      Vow: n _ Vow: ((%^A2O:) %> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
-  Vow ( %^WGStem:0 %> ) n %> _ GRC ; !!= @CODE@ mennä+Ind+Prs+ScPl3: mennäh
+  Vow ( %^WGStem:0 %> ) n %> _ [ GRC | e %^WGStem: ] ; !!= @CODE@ mennä+Ind+Prs+ScPl3: mennäh
 !€# kanda%^WGStem%^E1%>tt%{aäDiph%}s
 !€0 kanne000ttas
 !! }}}
@@ -693,7 +691,6 @@ k:0 <=> _ s %^KS2S:0 ;
 
 "gToZero"
 !! __@RULENAME@__  aika: ajan
-!! {{{
 g:0 <=>
         [ Vow: - [ o | u ] ] _ i s %> d: [ %{aäPar%}: %^WGStem: | i h ] ;
         [ Vow - [ o | u ] ] _ e: %^WGStem:0 %> ;
@@ -701,7 +698,7 @@ g:0 <=>
 !€0 vä0i00n
 !€# pagis%>d%{aäDiph%}%^WGStemh
 !€0 pa0is0ta0h
-!! }}}
+
 
 
 !2013-04-29! tToZero in weak

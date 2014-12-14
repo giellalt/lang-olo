@@ -18,6 +18,13 @@ LEXICON V-NEG !!= * __@CODE@__ ei:e
 +V+Neg+ScPl2:tto K ;
 !+V+Neg+ScPl3:i K ;
 
+LEXICON V-PROH !!= * __@CODE@__ älä:äl
++V+Neg+Imprt+ScSg2:ä K ;
++V+Neg+Imprt+ScSg3:gäh K ;
++V+Neg+Imprt+ScPl1:giämmö K ;
++V+Neg+Imprt+ScPl2:giä K ;
+!+V+Neg+ScPl3:i K ;
+
 LEXICON V_OLLA !!= * __@CODE@__ olla:o
 +V+Ind+Prs+ScSg1:le%^WGStem%>n K ;
 +V+Ind+Prs+ScSg2:le%^WGStem%>t K ;

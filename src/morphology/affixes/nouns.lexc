@@ -13,42 +13,53 @@ LEXICON N_
 
 !! !ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
 LEXICON N_SUO !!= @CODE@ suo:suo
+!! Gradation: No
+!! Harmony: Back
 +N: NMN_KUU ;
 
 LEXICON N_VYÖ !!= @CODE@ vyö:vyö
+!! Gradation: No
+!! Harmony: Front
 +N: NMN_VYÖ ;
 
-LEXICON N_KUU_SUB
-+Err/Sub: N_KUU ;
 LEXICON N_KUU !!= @CODE@ kuu:kuu
+!! Gradation: No
+!! Harmony: Back
  N_KUU-SG ;
  N_KUU-PL ;
 LEXICON N_KUU-SG
 +N: NMN_KUU-SG ;
 LEXICON N_KUU-PL
 +N: NMN_KUU-PL ;
+LEXICON N_KUU_SUB
++Err/Sub: N_KUU ;
 
+LEXICON N_MUA !!= @CODE@ mua:maa
+!! Gradation: No
+!! Harmony: Back
++N: NMN_MUA ;
 LEXICON N_MUA_SUB
 +Err/Sub: N_MUA ;
-LEXICON N_MUA !!= @CODE@ mua:maa
-+N: NMN_MUA ;
 
 !! !TWO-SYLLABLE VOWEL-FINAL STEMS
-LEXICON N_PAPPI_SUB
-+Err/Sub: N_PAPPI ;
+
 LEXICON N_PAPPI !!= @CODE@ pappi:pappi
-!! Gradation Yes
+!! Gradation: Yes
+!! Harmony: Back
 	N_PAPPI-SG ;
 	N_PAPPI-PL ;
 LEXICON N_PAPPI-SG
 +N: NMN_PAPPI-SG ;
 LEXICON N_PAPPI-PL
 +N: NMN_PAPPI-PL ;
+LEXICON N_PAPPI_SUB
++Err/Sub: N_PAPPI ;
 
 LEXICON N_LEIRI_SUB
 +Err/Sub: N_LEIRI ;
 LEXICON N_LEIRI !!= @CODE@ leiri:leiri
 !! Gradation NA
+!! Harmony: Front
 	N_LEIRI-SG ;
 	N_LEIRI-PL ;
 LEXICON N_LEIRI-SG
@@ -58,6 +69,7 @@ LEXICON N_LEIRI-PL
 
 LEXICON N_PADA !!= @CODE@ pada:pada
 !! Gradation Yes
+!! Harmony: Back
 	N_PADA-SG  ;
 	N_PADA-PL  ;
 LEXICON N_PADA-SG
@@ -66,23 +78,23 @@ LEXICON N_PADA-PL
 +N: NMN_PADA-PL ;
 
 
-LEXICON N-HUM_KALA
-+N+Hum: NMN_KALA ;
-
-LEXICON N_KALA_SUB
-+Err/Sub: N_KALA ;
 LEXICON N_KALA !!= @CODE@ kala:kala
 !! Gradation NA
+!! Harmony: Back
 	N_KALA-SG  ;
 	N_KALA-PL  ;
 LEXICON N_KALA-SG
 +N: NMN_KALA ;
 LEXICON N_KALA-PL
 +N: NMN_KALA-PL ;
+LEXICON N-HUM_KALA
++N+Sem/Hum: NMN_KALA ;
+LEXICON N_KALA_SUB
++Err/Sub: N_KALA ;
 
-LEXICON N_OZA_SUB
-+Err/Sub: N_OZA ;
 LEXICON N_OZA !!= @CODE@ oza:oza
+!! Gradation NA
+!! Harmony: Back
 	N_OZA-SG  ;
 	N_OZA-PL  ;
 
@@ -91,6 +103,8 @@ LEXICON N_OZA-SG
 
 LEXICON N_OZA-PL
 +N: NMN_OZA-PL ;
+LEXICON N_OZA_SUB
++Err/Sub: N_OZA ;
 
 LEXICON N_SÄYNÄ_SUB
 +Err/Sub: N_SÄYNÄ ;
@@ -197,6 +211,17 @@ LEXICON N_JÄLGI-SG
 +N: NMN_JÄLGI-SG ;
 LEXICON N_JÄLGI-PL
 +N: NMN_JÄLGI-PL ;
+
+LEXICON N_JOGI  !!= @CODE@ jogi:jog
+!! Back vowel
+!! gradation Yes
+ N_JOGI-SG ;
+ N_JOGI-PL ;
+
+LEXICON N_JOGI-SG
++N: NMN_JOGI-SG ;
+LEXICON N_JOGI-PL
++N: NMN_JOGI-PL ;
 
 
 LEXICON N_MUAMO_SUB
@@ -316,6 +341,16 @@ LEXICON N_NIMI-SG
 
 LEXICON N_NIMI-PL
 +N: NMN_NIMI-PL ;
+
+LEXICON N_HANGI !!= @CODE@ hangi:hang
+	N_HANGI-SG  ;
+	N_HANGI-PL  ;
+
+LEXICON N_HANGI-SG
++N: NMN_HANGI-SG ;
+
+LEXICON N_HANGI-PL
++N: NMN_HANGI-PL ;
 
 LEXICON N_PÄIVY_SUB
 +Err/Sub: N_PÄIVY ;
@@ -1259,6 +1294,31 @@ LEXICON NMN_NIMI-PL
 +Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
 +Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
 
+LEXICON NMN_HANGI
+!! Gradation: No
+!! Harmony: Back
+	NMN_HANGI-SG	;
+	NMN_HANGI-PL	;
+
+LEXICON NMN_HANGI-SG
+:i SGNOMSUF ;
+:e SGPARSUF_A2 ;
+:e SGGENSUF-USUALLY-WEAK ;
++Sg:e Noun-NB-01-USUALLY-WEAK ;
++Sg:e Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_HANGI-PL
+:e PLNOMSUF-USUALLY-WEAK	;
+:%>i PLGENSUF_EN ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
++Pl:i Noun-NB-01 ;
+:il%{oö%}i PLGENSUF_N ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
++Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
++Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+
 LEXICON NMN_JÄLGI
 !! Front Vowel
 !! Gradation Yes
@@ -1273,6 +1333,32 @@ LEXICON NMN_JÄLGI-SG
 +Sg:e Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_JÄLGI-PL
+:e%^WGStem PLNOMSUF-USUALLY-WEAK	;
+:%>i PLGENSUF_EN ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
++Pl:i%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
+:il%{oö%}i PLGENSUF_N ;
+:il%{oö%}i PLPARSUF_Zero ;
+:il%{oö%}i PLINSSUF ;
++Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
++Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_JOGI !!= @CODE@ jogi:jog
+!! Back Vowel
+!! Gradation Yes
+	NMN_JOGI-SG	;
+	NMN_JOGI-PL	;
+
+LEXICON NMN_JOGI-SG
+:i SGNOMSUF ;
+:e SGPARSUF_A2 ;
+:e%^WGStem SGGENSUF-USUALLY-WEAK ;
++Sg:e%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Sg:e Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_JOGI-PL
 :e%^WGStem PLNOMSUF-USUALLY-WEAK	;
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
