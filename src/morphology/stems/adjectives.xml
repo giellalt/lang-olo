@@ -6,6 +6,24 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="A">oigielaine</l>
+
+      <stg>
+        <st Contlex="A_KARJALAINE">oigiela</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">oikeistolainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">abei</l>
 
       <stg>
@@ -38750,6 +38768,12 @@
 
       <tg xml:lang="fin">
         <t pos="A">itsepäinen</t>
+
+        <tCtn>
+          <t pos="A">vapaa</t>
+
+          <re>valloillaan</re>
+        </tCtn>
       </tg>
     </mg>
   </e>

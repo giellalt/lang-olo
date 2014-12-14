@@ -15,6 +15,9 @@ LEXICON N_
 LEXICON N_SUO !!= @CODE@ suo:suo
 +N: NMN_KUU ;
 
+LEXICON N_VYÖ !!= @CODE@ vyö:vyö
++N: NMN_VYÖ ;
+
 LEXICON N_KUU_SUB
 +Err/Sub: N_KUU ;
 LEXICON N_KUU !!= @CODE@ kuu:kuu
@@ -1937,6 +1940,24 @@ LEXICON NMN_KUU-SG
 +Sg: Noun-NB-01 ;
 
 LEXICON NMN_KUU-PL
+ PLNOMSUF-USUALLY-WEAK ;
+:%>l%{oö%}i PLGENSUF_N ;
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
+
+
+LEXICON NMN_VYÖ !!= @CODE@ vyö:vyö
+	NMN_VYÖ-SG	;
+	NMN_VYÖ-PL	;
+
+LEXICON NMN_VYÖ-SG
+ SGNOMSUF ;
+ SGGENSUF-USUALLY-WEAK ;
+ SGPARSUF_dU ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_VYÖ-PL
  PLNOMSUF-USUALLY-WEAK ;
 :%>l%{oö%}i PLGENSUF_N ;
 :%>l%{oö%}i PLPARSUF_Zero ;

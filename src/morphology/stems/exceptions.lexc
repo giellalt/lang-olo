@@ -63,9 +63,8 @@ ei% vähäine:ei% vähäine ADV_  "" ;
 eule% kummu:eule% kummu ADV_  "" ;
 eulo% kiireh:eulo% kiireh ADV_  "" ;
 eulo% midä:eulo% midä ADV_  "" ;
-
-erähät:erähät PRON_  "eräät, muutamat" ;
-eräs:eräs PRON_  "eräs, muuan, muudan; jokin, joku (muu), toinen; mokoma" ;
+!! #päivy+N+Sg+Ess+Adv:#piän This should help in compound words Essive 
+90-vuozipiän:90-vuozipiän ADV-TEMP "" ;
 
 
 !! Conjunctors incomplete
@@ -76,6 +75,25 @@ sendäh:sendäh CONJ_  "siksi, sen tähden; sentään, kuitenkin, kuitenkaan, si
 vie:vie CONJ_  " lisäksi, vielä; jopa, suorastaan; yhä edelleen, vielä" ;
 što:što CS_  "että, jotta" ;
 štobi:štobi CS_  "jotta, että" ;
+
+!! Pronouns
+erähät:erähät PRON_  "eräät, muutamat" ;
+eräs:eräs PRON_  "eräs, muuan, muudan; jokin, joku (muu), toinen; mokoma" ;
+kentahto:ke PRON-INDEF_KEN "" ;
+kudaitahto:kuda PRON-INDEF_KUDAI "" ;
+mitahto:mi PRON-INDEF_MI "" ;
+mittuinetahto:mittu PRON-INDEF_MITTUINE "" ;
+nimittuine:ni«mittu PRON-INDEF_NIMITTUINE "" ;
+mittuine:mittu PRON-INTERR_MITTUINE "" ;
+
+konzutahto:konzu#tah ADV-INDEF-TEMP "" ;
+konzutahto:konzu#tahto ADV-INDEF-TEMP "" ;
+
+kuitahto:kui#tahto ADV-INDEF-MANNER "" ;
+kustahto:kus#tahto ADV-INDEF-SPAT-IS-INE "" ;
+kunnetahto:kunne#tahto ADV-INDEF-SPAT-IS-LAT "" ;
+
+
 
 
 !! Proper given names female

@@ -105,7 +105,9 @@ K1:k
 %^VowRM:0   !!= _@CODE@_ vowel removal, e.g. with superlative
 
 %- !Hyphen in  constructions 
-%>
+ «  ! Derivational prefix
+ »  ! Derivational suffix
+%>  ! Inflectional suffix
 #   ! Word boundary for both lexicalised and dynamic compounds
 
 
@@ -573,11 +575,14 @@ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] %^WGStem:0 ; !!= @CODE@
 "d:j"
 !! __@RULENAME@__  
 d:j <=> [ u a ] _ [ i ] %^WGStem:0 ;
-        [ i e: | a i ] _ o %^WGStem:0 ;
+        [ i e: | a i ] _ [ o ] %^WGStem:0 ;
 !€# maido%^WGStem%>n
 !€0 maijo00n
 !€# tiedo%^WGStem%>n
 !€# tiijo00n
+        i e:  _ ä: %^WGStem:0 ;
+!€# tiedä%^WGStem%>n
+!€# tiijä00n
 
 
 ! lʼöydiä:lʼövvä
