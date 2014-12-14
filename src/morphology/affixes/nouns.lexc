@@ -37,13 +37,24 @@ LEXICON N_KUU-PL
 LEXICON N_KUU_SUB
 +Err/Sub: N_KUU ;
 
-LEXICON N_MUA !!= @CODE@ mua:maa
+LEXICON N_MUA !!= @CODE@ mua:mua
 !! Gradation: No
 !! Harmony: Back
 +N: ATTESTED-NOUN-STEM ; 
 +N: NMN_MUA ;
 LEXICON N_MUA_SUB
 +Err/Sub: N_MUA ;
+
+LEXICON N_PIÄ !!= @CODE@ piä:piä
+!! Gradation: No
+!! Harmony: Front
++N: ATTESTED-NOUN-STEM ; 
+ N_PIÄ-SG ;
+ N_PIÄ-PL ;
+LEXICON N_PIÄ-SG
++N: NMN_PIÄ-SG ;
+LEXICON N_PIÄ-PL
++N: NMN_PIÄ-PL ;
 
 !! !TWO-SYLLABLE VOWEL-FINAL STEMS
 
@@ -72,6 +83,17 @@ LEXICON N_LEIRI-SG
 +N: NMN_LEIRI-SG ;
 LEXICON N_LEIRI-PL
 +N: NMN_LEIRI-PL ;
+
+LEXICON N_HÄKKI !!= @CODE@ häkki:häkki
+!! Gradation: Yes
+!! Harmony: Front
++N: ATTESTED-NOUN-STEM ; 
+	N_HÄKKI-SG ;
+	N_HÄKKI-PL ;
+LEXICON N_HÄKKI-SG
++N: NMN_HÄKKI-SG ;
+LEXICON N_HÄKKI-PL
++N: NMN_HÄKKI-PL ;
 
 LEXICON N_PADA !!= @CODE@ pada:pada
 !! Gradation Yes
@@ -128,10 +150,6 @@ LEXICON N_SÄYNÄ-SG
 LEXICON N_SÄYNÄ-PL
 +N: NMN_SÄYNÄ-PL ;
 
-LEXICON N_KOIVU-SG_SUB
-+Err/Sub: N_KOIVU-SG ;
-LEXICON N_KOIVU_SUB
-+Err/Sub: N_KOIVU ;
 LEXICON N_KOIVU !!= @CODE@ koivu:koivu
 !! Gradation NA
 !! Harmony: Back
@@ -144,7 +162,23 @@ LEXICON N_KOIVU-SG
 
 LEXICON N_KOIVU-PL
 +N: NMN_KOIVU-PL        ;
+LEXICON N_KOIVU-SG_SUB
++Err/Sub: N_KOIVU-SG ;
+LEXICON N_KOIVU_SUB
++Err/Sub: N_KOIVU ;
 
+LEXICON N_HERY !!= @CODE@ hery:hery
+!! Gradation NA
+!! Harmony: Front
++N: ATTESTED-NOUN-STEM ; 
+        N_HERY-SG ;
+        N_HERY-PL ;
+
+LEXICON N_HERY-SG
++N: NMN_HERY-SG        ;
+
+LEXICON N_HERY-PL
++N: NMN_HERY-PL        ;
 LEXICON N_IDY !!= @CODE@ idy:idy
 !! Gradation Yes
 !! Harmony: Front
@@ -365,21 +399,6 @@ LEXICON N_KOIRU-SG
 
 LEXICON N_KOIRU-PL
 +N: NMN_KOIRU-PL ;
-
-LEXICON N_LUODO_SUB
-+Err/Sub: N_LUODO ;
-LEXICON N_LUODO !!= @CODE@ luodo:luodo
-!! Gradation Yes
-!! Harmony: Back
-+N: ATTESTED-NOUN-STEM ;
- N_LUODO-SG ;
- N_LUODO-PL ;
-
-LEXICON N_LUODO-SG
-+N: NMN_LUODO-SG ;
-
-LEXICON N_LUODO-PL
-+N: NMN_LUODO-PL ;
 
 LEXICON N_NIMI_SUB
 +Err/Sub: N_NIMI ;
@@ -893,7 +912,7 @@ LEXICON N_KARJALAINE-SG
 LEXICON N_KARJALAINE-PL
 +N:    NMN_KARJALAINE-PL	 ;
 
-LEXICON N_LIYGILÄINE !!= @CODE@ liygiläine:lyigilä
+LEXICON N_LIYGILÄINE !!= @CODE@ liygiläine:liygilä
 !! Gradation NA
 !! Harmony: Front
 +N:s ATTESTED-NOUN-STEM ;
@@ -1973,6 +1992,26 @@ LEXICON NMN_LUGU-PL
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
+LEXICON NMN_HERY !!= @CODE@ hery:hery
+!! Gradation NA
+!! Vowel Harmony Back
+        NMN_HERY-SG ;
+        NMN_HERY-PL ;
+
+LEXICON NMN_HERY-SG
+ SGNOMSUF ;
+ SGGENSUF-USUALLY-WEAK ;
+! SGPARSUF_A2 ;
+ SGPARSUF_U ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_HERY-PL
+ PLNOMSUF-USUALLY-WEAK ;
+:%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
+
 LEXICON NMN_IDY !!= @CODE@ idy:idy
 !! Gradation Yes
 !! Vowel Harmony Front
@@ -1992,22 +2031,6 @@ LEXICON NMN_IDY-PL
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
-LEXICON NMN_LUODO !!= @CODE@ luodo:luodo
-        NMN_LUODO-SG ;
-        NMN_LUODO-PL ;
-
-LEXICON NMN_LUODO-SG
- SGNOMSUF ;
-:%^WGStem SGGENSUF ;
- SGPARSUF_A2 ;
-+Sg: Noun-NB-01 ;
-
-LEXICON NMN_LUODO-PL
-:%^WGStem PLNOMSUF-USUALLY-WEAK ;
-:%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
 
 LEXICON NMN_VASKIČČU !!= @CODE@ vaskičču:vaskičč
         NMN_VASKIČČU-SG ;
@@ -2285,6 +2308,23 @@ LEXICON NMN_KUU-PL
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
+LEXICON NMN_PIÄ !!= @CODE@ piä:piä
+	NMN_PIÄ-SG	;
+	NMN_PIÄ-PL	;
+
+LEXICON NMN_PIÄ-SG
+ SGNOMSUF ;
+ SGGENSUF-USUALLY-WEAK ;
+ SGPARSUF_dU ;
++Sg: Noun-NB-01 ;
+
+LEXICON NMN_PIÄ-PL
+ PLNOMSUF-USUALLY-WEAK ;
+:%>l%{oö%}i PLGENSUF_N ;
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
+
 
 LEXICON NMN_VYÖ !!= @CODE@ vyö:vyö
 	NMN_VYÖ-SG	;
@@ -2304,7 +2344,7 @@ LEXICON NMN_VYÖ-PL
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
 
-LEXICON NMN_MUA !!= @CODE@ mua:maa
+LEXICON NMN_MUA !!= @CODE@ mua:mua
 	NMN_MUA-SG	;
 	NMN_MUA-PL	;
 
@@ -2870,6 +2910,21 @@ LEXICON NMN_PAPPI-SG
  SGPARSUF_A2 ;
 +Sg: Noun-NB-01 ;
 LEXICON NMN_PAPPI-PL
+:%^WGStem PLNOMSUF-USUALLY-WEAK ;
+: PLGENSUF_EN ;
+:%>l%{oö%}i PLPARSUF_Zero ;
+:%>l%{oö%}i PLINSSUF ;
++Pl:%>l%{oö%}i Noun-NB-01 ;
+
+LEXICON NMN_HÄKKI !!= @CODE@ häkki:häkki
+	NMN_HÄKKI-SG ;
+	NMN_HÄKKI-PL ;
+LEXICON NMN_HÄKKI-SG
+ SGNOMSUF ;
+:%^WGStem SGGENSUF ;
+ SGPARSUF_A2 ;
++Sg: Noun-NB-01 ;
+LEXICON NMN_HÄKKI-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
 : PLGENSUF_EN ;
 :%>l%{oö%}i PLPARSUF_Zero ;

@@ -410,6 +410,8 @@ WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
  LEXICON A_MUA  mua:maa
 
+ LEXICON A_PIÄ  piä:piä
+
 
 !!Ordinary inflection
 
@@ -425,9 +427,13 @@ the comparatives and superlatives are supletive
 
  LEXICON A_KOIVU  koivu:koivu
 
+ LEXICON A_HERY  hery:hery
+
 
 
  LEXICON A_PAPPI  pappi:pappi
+
+ LEXICON A_HÄKKI  häkki:häkki
 
  LEXICON A_ARTELI  
 
@@ -471,6 +477,8 @@ the comparatives and superlatives are supletive
  LEXICON A_HUOLETOI  huoletoi:huolet
 
  LEXICON A_KARJALAINE  karjalaine:karjala
+
+ LEXICON A_LIYGILÄINE  liygiläine:liygilä
 
  LEXICON A_KIELINE  kieline:kieli
 
@@ -570,6 +578,10 @@ Harmony: Back
 Gradation NA
 Harmony: Front
 
+ LEXICON N_HÄKKI  häkki:häkki
+Gradation: Yes
+Harmony: Front
+
  LEXICON N_PADA  pada:pada
 Gradation Yes
 Harmony: Back
@@ -593,6 +605,11 @@ Harmony: Back
 Gradation NA
 Harmony: Back
 
+
+
+ LEXICON N_HERY  hery:hery
+Gradation NA
+Harmony: Front
 
 
  LEXICON N_IDY  idy:idy
@@ -680,12 +697,6 @@ Harmony: Back
 
  LEXICON N_KOIRU  koiru:koira
 Gradation NA
-Harmony: Back
-
-
-
- LEXICON N_LUODO  luodo:luodo
-Gradation Yes
 Harmony: Back
 
 
@@ -903,6 +914,12 @@ Harmony: Back
  LEXICON N_KARJALAINE  karjalaine:karjala
 Gradation NA
 Harmony: Back
+
+
+
+ LEXICON N_LIYGILÄINE  liygiläine:liygilä
+Gradation NA
+Harmony: Front
 
 
 
@@ -1224,13 +1241,16 @@ Vowel Harmony Back
 
 
 
+ LEXICON NMN_HERY  hery:hery
+Gradation NA
+Vowel Harmony Back
+
+
+
  LEXICON NMN_IDY  idy:idy
 Gradation Yes
 Vowel Harmony Front
 
-
-
- LEXICON NMN_LUODO  luodo:luodo
 
 
 
@@ -1426,6 +1446,8 @@ Gradation
 
  LEXICON NMN_PAPPI  pappi:pappi
 
+ LEXICON NMN_HÄKKI  häkki:häkki
+
 
  LEXICON NMN_LEIRI  leiri:leiri
 Gradation NA
@@ -1478,6 +1500,9 @@ Plural stem vowel i
 
 
  LEXICON NMN_TAIGIN  taigin:taigin
+
+
+
 
 
 
@@ -2117,10 +2142,8 @@ __ä:ö word final__
 
 
 __a:0 in suaja:sai__
-{{{
  *  a _ ( %^VowRM: ) %> i ;  Vowel shortening before subsequent "i"
 
-}}}
 
 !!iToj between vowels
 __i:j__

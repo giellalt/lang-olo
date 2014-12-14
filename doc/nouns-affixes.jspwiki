@@ -35,6 +35,10 @@ Harmony: Back
 Gradation NA
 Harmony: Front
 
+ LEXICON N_HÄKKI  häkki:häkki
+Gradation: Yes
+Harmony: Front
+
  LEXICON N_PADA  pada:pada
 Gradation Yes
 Harmony: Back
@@ -58,6 +62,11 @@ Harmony: Back
 Gradation NA
 Harmony: Back
 
+
+
+ LEXICON N_HERY  hery:hery
+Gradation NA
+Harmony: Front
 
 
  LEXICON N_IDY  idy:idy
@@ -145,12 +154,6 @@ Harmony: Back
 
  LEXICON N_KOIRU  koiru:koira
 Gradation NA
-Harmony: Back
-
-
-
- LEXICON N_LUODO  luodo:luodo
-Gradation Yes
 Harmony: Back
 
 
@@ -368,6 +371,12 @@ Harmony: Back
  LEXICON N_KARJALAINE  karjalaine:karjala
 Gradation NA
 Harmony: Back
+
+
+
+ LEXICON N_LIYGILÄINE  liygiläine:liygilä
+Gradation NA
+Harmony: Front
 
 
 
@@ -689,13 +698,16 @@ Vowel Harmony Back
 
 
 
+ LEXICON NMN_HERY  hery:hery
+Gradation NA
+Vowel Harmony Back
+
+
+
  LEXICON NMN_IDY  idy:idy
 Gradation Yes
 Vowel Harmony Front
 
-
-
- LEXICON NMN_LUODO  luodo:luodo
 
 
 
@@ -891,6 +903,8 @@ Gradation
 
  LEXICON NMN_PAPPI  pappi:pappi
 
+ LEXICON NMN_HÄKKI  häkki:häkki
+
 
  LEXICON NMN_LEIRI  leiri:leiri
 Gradation NA
@@ -943,6 +957,9 @@ Plural stem vowel i
 
 
  LEXICON NMN_TAIGIN  taigin:taigin
+
+
+
 
 
 
