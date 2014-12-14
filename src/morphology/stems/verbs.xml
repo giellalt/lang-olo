@@ -7970,13 +7970,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">ällöttää</t>
-
-        <t pos="V">etoa</t>
-
-        <t pos="V">oksettaa</t>
-
-        <t pos="V">kuvottaa</t>
+        <t pos="V">ei</t>
       </tg>
     </mg>
   </e>
@@ -120235,6 +120229,24 @@
 
       <tg xml:lang="rus">
         <t pos="V">конфузиться</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e order="2">
+    <lg>
+      <l pos="V">älä</l>
+
+      <stg>
+        <st Contlex="V-PROH">äl</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">älä</t>
       </tg>
     </mg>
   </e>
