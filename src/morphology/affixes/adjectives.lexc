@@ -52,6 +52,9 @@ LEXICON A_KUU !!= @CODE@ kuu:kuu
 LEXICON A_MUA !!= @CODE@ mua:maa
 +A: NMN_MUA ;
 
+LEXICON A_PIÄ !!= @CODE@ piä:piä
++A: NMN_PIÄ ;
+
 
 !! !!Ordinary inflection
 
@@ -80,6 +83,11 @@ LEXICON A_KOIVU !!= @CODE@ koivu:koivu
 +A+Der/mbi+Comp:%>mb NMN_PAREMBI        ;
 +A+Der/in+Superl:vi NMN_ENIN        ;
 
+LEXICON A_HERY !!= @CODE@ hery:hery
++A:        NMN_HERY ;
++A+Der/mbi+Comp:%>mb NMN_PAREMBI        ;
++A+Der/in+Superl:vi NMN_ENIN        ;
+
 LEXICON A_RUNO
 +A:	NMN_RUNO ;
 +A+Der/mbi+Comp:%>mb NMN_PAREMBI        ;
@@ -92,6 +100,9 @@ LEXICON A_RUADO
 
 LEXICON A_PAPPI !!= @CODE@ pappi:pappi
 +A: NMN_PAPPI ;
+
+LEXICON A_HÄKKI !!= @CODE@ häkki:häkki
++A: NMN_HÄKKI ;
 
 LEXICON A_ARTELI !!= @CODE@ 
 +A:     NMN_ARTELI ;
@@ -182,6 +193,12 @@ LEXICON A_HUOLETOI !!= @CODE@ huoletoi:huolet
 LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
 +A+Der/Us:z%{uy%} N_PUHTAHUS ;
 +A:	NMN_KARJALAINE	 ;
++A+Der/mbi+Comp:zemb NMN_PAREMBI        ;
++A+Der/in+Superl:zi NMN_ENIN        ;
+
+LEXICON A_LIYGILÄINE !!= @CODE@ liygiläine:liygilä
++A+Der/Us:z%{uy%} N_PUHTAHUS ;
++A:	NMN_LIYGILÄINE	 ;
 +A+Der/mbi+Comp:zemb NMN_PAREMBI        ;
 +A+Der/in+Superl:zi NMN_ENIN        ;
 
