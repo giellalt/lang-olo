@@ -88120,10 +88120,10 @@
 
   <e>
     <lg>
-      <l pos="N">reunahine</l>
+      <l pos="A">reunahine</l>
 
       <stg>
-        <st Contlex="N_KARJALAINE">reunahi</st>
+        <st Contlex="A_NAINE">reunahi</st>
       </stg>
     </lg>
 
@@ -88131,7 +88131,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">reunalla t. reunassa oleva</t>
+        <t pos="A">reunalla oleva</t><t pos="A">reunassa oleva</t>
       </tg>
     </mg>
   </e>
@@ -96409,24 +96409,6 @@
         <t pos="N">arvo</t>
 
         <t pos="N">asema</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">sijahine</l>
-
-      <stg>
-        <st Contlex="N_KARJALAINE">sijahi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">sijainen</t>
       </tg>
     </mg>
   </e>
@@ -117410,28 +117392,6 @@
 
       <tg xml:lang="fin">
         <t pos="N">vatsa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">vedehine</l>
-
-      <stg>
-        <st Contlex="N_KARJALAINE">vedehi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">vetehinen</t>
-
-        <t pos="N">vedenhaltia</t>
-
-        <t pos="N">näkki</t>
       </tg>
     </mg>
   </e>
