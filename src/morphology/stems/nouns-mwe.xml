@@ -1,0 +1,2212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xml:lang="olo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e exclude="fst">
+    <lg>
+      <l pos="N">keskenäine abu</l>
+
+      <stg>
+        <st Contlex="N_">keskenäine abu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">keskinäinen apu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">alahaine leuguluu</l>
+
+      <stg>
+        <st Contlex="N_KUU">alahaine leugu#luu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">alaleukaluu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">ammuine eläi</l>
+
+      <stg>
+        <st Contlex="N_">ammuine eläi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">entinen asukas</t>
+
+        <t pos="N">muinainen asukas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">avavumatoi halvaine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">avavumatoi halva</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">avautumaton kukka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">buabuiččij akkaine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">buabuiččij akka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">lapsenpäästäjä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">endine aigu</l>
+
+      <stg>
+        <st Contlex="N_AKKU">endine aigu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">entinen aika</t>
+
+        <t pos="N">entisaika</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">harmuat tukat</l>
+
+      <stg>
+        <st Contlex="N_">harmuat tukat</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">harmaat hiukset</t>
+
+        <t pos="N">harmaa tukka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">haudoju kana</l>
+
+      <stg>
+        <st Contlex="N_">haudoju kana</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hautova kana</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">hebožien salvattai</l>
+
+      <stg>
+        <st Contlex="N_KANDAI">hebožien salvatta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kuohari</t>
+
+        <t pos="N">hevosten salvaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">hebožien salvattai</l>
+
+      <stg>
+        <st Contlex="N_KANDAI">hebožien salvattai</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kuohari</t>
+
+        <t pos="N">hevosten salvaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">hebožien vaihtai</l>
+
+      <stg>
+        <st Contlex="N_KANDAI">hebožien vaihta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hevosten t. hevosien vaihtaja</t>
+
+        <t pos="N">hevoskauppias</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">hebožien vaihtai</l>
+
+      <stg>
+        <st Contlex="N_KANDAI">hebožien vaihtai</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hevosten t. hevosien vaihtaja</t>
+
+        <t pos="N">hevoskauppias</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">hebožien varrastai</l>
+
+      <stg>
+        <st Contlex="N_KANDAI">hebožien varrasta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hevosvaras</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">hebožien varrastai</l>
+
+      <stg>
+        <st Contlex="N_KANDAI">hebožien varrastai</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hevosvaras</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">hyvin juoksii</l>
+
+      <stg>
+        <st Contlex="N_PAGIZII">hyvin juoksi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hyvin juokseva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">hämähäkin verko</l>
+
+      <stg>
+        <st Contlex="N_RUNO">hämähäkin verko</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hämähäkinverkko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">hölyn pöly</l>
+
+      <stg>
+        <st Contlex="N_KOIVU">hölyn pöly</st>
+
+        <st Contlex="N_KOIVU">hölyn pely</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hölynpöly</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">ielpäi maksandu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">ielpäi maksanda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">etukäteismaksu</t>
+
+        <t pos="N">etumaksu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">iänel itkendy</l>
+
+      <stg>
+        <st Contlex="N_PÄIVY">iänel itkendä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">äänellä itkeminen</t>
+
+        <t pos="N">itkuvirren esittäminen</t>
+
+        <t pos="N">seremoniallinen itkeminen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">ižändät-emändät</l>
+
+      <stg>
+        <st Contlex="N_">ižändät-emändät</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">isäntäväki</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">haltiat</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">joga mies</l>
+
+      <stg>
+        <st Contlex="N_MIES">joga mies</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">joka mies</t>
+
+        <t pos="N">jokainen</t>
+
+        <t pos="N">itse kukin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">jyrky kohtu</l>
+
+      <stg>
+        <st Contlex="N_KOIRU">jyrky kohta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">jyrkkä kohta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">jälles ajandu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">jälles ajanda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">takaa-ajo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">kaiken kyllys</l>
+
+      <stg>
+        <st Contlex="N_">kaiken kyllys</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">yltäkylläisyys</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">karičan nahkaine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">karičan nahka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">karitsannahka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">karvan lykkiändy</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">karvan lykkiändä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">karvanlähtö</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">karvan lykkiändy</l>
+
+      <stg>
+        <st Contlex="N_PÄIVY">karvan lykkiändä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">karvanlähtö</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">koiran haukeh</l>
+
+      <stg>
+        <st Contlex="N_">koiran haukeh</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">koiran haukku</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">kondien pezä</l>
+
+      <stg>
+        <st Contlex="N_">kondien pezä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">karhunpesä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">korvienkel šuapku</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">korvienkel šuapka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">korvuslakki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">kova vačču</l>
+
+      <stg>
+        <st Contlex="N_">kova vačču</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">ummetus</t>
+
+        <t pos="N">kova vatsa</t>
+
+        <t pos="N">vatsa kovalla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">käzien taputus</l>
+
+      <stg>
+        <st Contlex="N_">käzien taputus</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kättentaputus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">leivän syväin</l>
+
+      <stg>
+        <st Contlex="N_">leivän syväin</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">leivän sisus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">leviet štanat</l>
+
+      <stg>
+        <st Contlex="N_">leviet štanat</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pussihousut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">lumoizil (kižata l.)</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">lumoizil (kižata l.)</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">olla lumisotasilla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">luttiloin pezä</l>
+
+      <stg>
+        <st Contlex="N_">luttiloin pezä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">lutikanpesä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">lähtenyh nahku</l>
+
+      <stg>
+        <st Contlex="N_">lähtenyh nahku</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">makuuhaava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">madal iäni</l>
+
+      <stg>
+        <st Contlex="N_KIELI">madal iän</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">matala ääni</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">muamo kuldu</l>
+
+      <stg>
+        <st Contlex="N_SULGU">muamo kulda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">äitikulta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">musta tähky</l>
+
+      <stg>
+        <st Contlex="N_PÄIVY">musta tähkä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">nokipää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">muurinaine čura</l>
+
+      <stg>
+        <st Contlex="N_OZA">muurinaine čura</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">nurja puoli</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">naizen čikko</l>
+
+      <stg>
+        <st Contlex="N_RUADO">naizen čikko</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">vaimon sisar</t>
+
+        <t pos="N">vaimon sisko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">notkei ullostus</l>
+
+      <stg>
+        <st Contlex="N_">notkei ullostus</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">vetelä uloste</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">oma randu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">oma randa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>kotiseutu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">paha heiny</l>
+
+      <stg>
+        <st Contlex="N_">paha heinä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">paha lykky</l>
+
+      <stg>
+        <st Contlex="N_">paha lykky</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>huono onni</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">pahan ruadai</l>
+
+      <stg>
+        <st Contlex="N_KANDAI">pahan ruadai</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>pahatekijä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">pahan ruado</l>
+
+      <stg>
+        <st Contlex="N_RUNO">pahan ruado</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>pahanteko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">pahat heinät</l>
+
+      <stg>
+        <st Contlex="N_PÄIVY-PL">paha heinä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">paimendandu kohta</l>
+
+      <stg>
+        <st Contlex="N_PÄIVY">paimendandu kohta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>paimentaminen, paimennus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">peittožile kiža</l>
+
+      <stg>
+        <st Contlex="N_KALA">peittožile kiža</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">piilosleikki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">peittožile kiža</l>
+
+      <stg>
+        <st Contlex="N_KALA">peittožile kiža</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>leikkiä kuurupiiloa, olla piilosilla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">peräh ando</l>
+
+      <stg>
+        <st Contlex="N_RUADO">peräh ando</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">periksi antaminen</t>
+
+        <t pos="N">periksianto</t>
+
+        <t pos="N">myöntyminen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">peräh ando</l>
+
+      <stg>
+        <st Contlex="N_RUNO">peräh ando</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>periksianto, höltyminen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">perän ajo</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">perän ajo</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>tukinuitto</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">perän ajo</l>
+
+      <stg>
+        <st Contlex="N_RUNO">perän ajo</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">uitto</t>
+
+        <t pos="N">tukintuitto</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">pikkaraine lapsi</l>
+
+      <stg>
+        <st Contlex="N_LAPSI">pikkaraine laps</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pikkulapsi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">pikoi kodvaine</l>
+
+      <stg>
+        <st Contlex="N_KARJALAINE">pikoi kodva</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pikku hetki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">piäle tulemine</l>
+
+      <stg>
+        <st Contlex="N_NAINE">piäle tulemi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">tuleminen</t>
+
+        <t pos="N">tulo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">piäliine jumal</l>
+
+      <stg>
+        <st Contlex="N_KARJAL">piäliine jumal</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">Luoja</t>
+
+        <t pos="N">Jumala</t>
+
+        <t pos="N">Ylinen Jumala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">piälline jumal</l>
+
+      <stg>
+        <st Contlex="N_KARJAL">piälli jumal</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">ylijumala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">piän kivištys</l>
+
+      <stg>
+        <st Contlex="N_ALUS">piän kivištyks</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">päänsärky</t>
+
+        <t pos="N">pääkipu</t>
+
+        <t pos="N">päänkivistys</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">piäs piettäy</l>
+
+      <stg>
+        <st Contlex="N_KESTÄY" status="Err/Sub">piäs piättäy</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">päähine</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">piäs piettäy</l>
+
+      <stg>
+        <st Contlex="N_PÄIVY">piäs piettäy</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">muistettava t. mielessäpidettävä asia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">poikki kävely</l>
+
+      <stg>
+        <st Contlex="N_KOIVU">poikki kävely</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">ylitys</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">puhien sanat</l>
+
+      <stg>
+        <st Contlex="N_">puhien sanat</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">loitsu</t>
+
+        <t pos="N">loitsusanat</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">puoli vuottu</l>
+
+      <stg>
+        <st Contlex="N_VUOZI">puoli vuod</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">puoli vuotta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">pyhä keski</l>
+
+      <stg>
+        <st Contlex="N_NIMI">pyhä kesk</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">paastonväli</t>
+
+        <t pos="N">paastojen välinen aika</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">päivän sualoi</l>
+
+      <stg>
+        <st Contlex="N_REBOI">päivän sualoi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">päiväpalkka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">ragehel perrandu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">ragehel perranda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">raetuho</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">rannal olii</l>
+
+      <stg>
+        <st Contlex="N_PAGIZII">rannal oli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">rannalla olija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">reduryerei akku</l>
+
+      <stg>
+        <st Contlex="N_">reduryerei akku</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">sottapytty</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">reduryörei akku</l>
+
+      <stg>
+        <st Contlex="N_">reduryörei akka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">sottapytty</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">riähkien sanondu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">riähkien sanonda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">synnintunnustus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">ruskei sveta</l>
+
+      <l_ref pos="N">kurrenpolvi</l_ref>
+
+      <l_ref pos="N">geruani</l_ref>
+
+      <stg>
+        <st Contlex="N_KALA">ruskei sveta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kurjenpolvi (yougi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">ruskei sveta</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">ruskei sveta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">salvatettu bošši</l>
+
+      <stg>
+        <st Contlex="N_PAPPI">salvatettu bošši</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">salvupässi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">salvatettu počči</l>
+
+      <stg>
+        <st Contlex="N_PAPPI">salvatettu počči</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">salvettu karju</t>
+
+        <t pos="N">kaltti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">sangei nuoru</l>
+
+      <stg>
+        <st Contlex="N_KOIRU">sangei nuora</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">paksu nuora</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">sangiet lavvat</l>
+
+      <stg>
+        <st Contlex="N_MUARJU-PL">sangiet lavva</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">paksut laudat</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">sangiet lavvat</l>
+
+      <stg>
+        <st Contlex="N_MUARJU-PL">sangiet lavvat</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">lankut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">silmän räpähys</l>
+
+      <stg>
+        <st Contlex="N_ALUS">silmän räpähyks</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">silmänräpäys</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">soidol soittai</l>
+
+      <stg>
+        <st Contlex="N_KANDAI">soidol soitta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hanurinsoittaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">soitol soittai</l>
+
+      <stg>
+        <st Contlex="N_KANDAI">soitol soitta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hanurinsoittaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">soitol soittai</l>
+
+      <stg>
+        <st Contlex="N_KANDAI">soitol soittai</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hanurinsoittaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">suappuan siäri</l>
+
+      <stg>
+        <st Contlex="N_KIELI">suappuan siär</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">saapasvarsi</t>
+
+        <t pos="N">saappaanvarsi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">sullan lykkiändy</l>
+
+      <stg>
+        <st Contlex="N_PÄIVY">sullan lykkiändä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">sulkasato</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">suuret huonukset</l>
+
+      <stg>
+        <st Contlex="N_">suuret huonukset</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">suuret rakennukset</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">suuret huonukset</l>
+
+      <stg>
+        <st Contlex="N_ALUS-PL">suuret huonukset</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">suuret t. isot rakennukset</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">suuri barvas</l>
+
+      <stg>
+        <st Contlex="N_VARVAS">suuri barba</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">isovarvas</t>
+
+        <t pos="N">ukkovarvas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">suuri huonus</l>
+
+      <stg>
+        <st Contlex="N_ALUS">suuri huonuks</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">iso rakennus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">suuri palʼlʼu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">suuri palʼlʼa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">moukari</t>
+
+        <t pos="N">leka</t>
+
+        <t pos="N">palja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">tainnoksis olendu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">tainnoksis olenda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">tajuttomuus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">taivahan sinine</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">taivahan sini</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">taivaansininen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">tiedovoiččii akku</l>
+
+      <stg>
+        <st Contlex="N_AKKU">tiedovoiččii akka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">noita-akka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">tuigu korvale</l>
+
+      <stg>
+        <st Contlex="N_KOIVU">tuigu korvale</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">korvapuusti</t>
+
+        <t pos="N">korvatillikka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">tyhjy dielo</l>
+
+      <stg>
+        <st Contlex="N_RUNO">tyhjy dielo</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">turhanpäiväinen asia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">uksen pieline</l>
+
+      <stg>
+        <st Contlex="N_KIELINE">uksen pieli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">ovenpieli</t>
+
+        <t pos="N">pihtipieli</t>
+
+        <t pos="N">ovenpielipuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">uuzi kuu</l>
+
+      <stg>
+        <st Contlex="N_KUU">uuzi kuu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">uusi kuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">uvvet molodoit</l>
+
+      <stg>
+        <st Contlex="N_VALGEI-PL">uvvet molodoi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">vastanaineet</t>
+
+        <t pos="N">nuoripari</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">vahnat lomut</l>
+
+      <stg>
+        <st Contlex="N_KOIVU-PL">vahnat lomu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">romut</t>
+
+        <t pos="N">vanhat romut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">vaikkani olendu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">vaikkani olenda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">vaitiolo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">varoloin pellätys</l>
+
+      <stg>
+        <st Contlex="N_ALUS">varoloin pellätyks</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">variksenpelätin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">veičilöinke tora</l>
+
+      <stg>
+        <st Contlex="N_OZA">veičilöinke tora</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">puukkotappelu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">vien urrates</l>
+
+      <stg>
+        <st Contlex="N_ALUS">vien urrates</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">veden syövyttämä ura</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">viestin tuoju</l>
+
+      <stg>
+        <st Contlex="N_KOIRU">viestin tuoja</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">viestintuoja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">viestin tuoju</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">viestin tuoja</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">viestintuoja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">villän leikkuaju</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">villän leikkuaja</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">viljanleikkaaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">vilʼlʼan leikkuaju</l>
+
+      <stg>
+        <st Contlex="N_KOIRU">vilʼlʼan leikkuaja</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">viljanleikkaaja</t>
+
+        <t pos="N">viljankorjaaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">vuolažu kohtu</l>
+
+      <stg>
+        <st Contlex="N_KOIRU">vuolažu kohta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">virtapaikka</t>
+
+        <t pos="N">virta</t>
+
+        <t pos="N"/>
+
+        <t pos="N">vuolas kohta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">vuolažu kohtu</l>
+
+      <stg>
+        <st Contlex="N_PÄIVY">vuolažu kohta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">vuolas kohta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">vuorolleh olendu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">vuorolleh olenda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">vuorottelu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">vägeh otandu</l>
+
+      <stg>
+        <st Contlex="N_MUARJU">vägeh otanda</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">väkeenotto</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">yhtehmennyh dielo</l>
+
+      <stg>
+        <st Contlex="N_RUNO">yhtehmennyh dielo</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">samanmerkityksinen asia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">yhtemennyh dielo</l>
+
+      <stg>
+        <st Contlex="N_RUNO">yhtemennyh dielo</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hukkatyö</t>
+
+        <t pos="N">sula mahdottomuus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">äijän pagizii</l>
+
+      <stg>
+        <st Contlex="N_PAGIZII">äijän pagizi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">paljonpuhuja</t>
+      </tg>
+    </mg>
+  </e>
+</r>
