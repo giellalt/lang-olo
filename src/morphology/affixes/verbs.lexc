@@ -288,6 +288,15 @@ LEXICON V_SUVAIJA-SG3 !!= * __@CODE@__ suvaija:suvai
 LEXICON V_SUVAIJA-3 !!= * __@CODE@__ suvaija:suvai
 +V: V-VV_05_SUVAIJA ;
 
+LEXICON V_EMÄNDÖIJÄ !!= * __@CODE@__ emändöijä:emändöi
++V: V-VV_05_EMÄNDÖIJÄ ;
+
+LEXICON V_EMÄNDÖIJÄ-SG3 !!= * __@CODE@__ emändöijä:emändöi
++V: V-VV_05_EMÄNDÖIJÄ ;
+
+LEXICON V_EMÄNDÖIJÄ-3 !!= * __@CODE@__ emändöijä:emändöi
++V: V-VV_05_EMÄNDÖIJÄ ;
+
 LEXICON V_MERKITÄ !!= * __@CODE@__ merkitä:merki
 +V: V-VV_05_MERKITÄ ;
 LEXICON V_MAINITA !!= * __@CODE@__ mainita:maini
@@ -381,7 +390,12 @@ LEXICON VR_PESTÄ !!= * __@CODE@__ tuliekseh:tul !this will need work 2013-10-23
 LEXICON VR_AVATA !!= * __@CODE@__ avatakseh:ava (typätäkseh:typpä)
  VR_ ;
 
-LEXICON VR_SUVAIJA !!= * __@CODE@__ emändöijäkseh:emändöi
+LEXICON VR_SUVAIJA !!= * __@CODE@__ suvaijakseh:suvai
+!Verbs of the Finnish type 5
+:čče VR-LONGSTEM_ ;
+ VR-SHORTSTEM_ ;
+
+LEXICON VR_EMÄNDÖIJÄ !!= * __@CODE@__ emändöijäkseh:emändöi
 !Verbs of the Finnish type 5
 :čče VR-LONGSTEM_ ;
  VR-SHORTSTEM_ ;
@@ -731,6 +745,40 @@ LEXICON V-VV_04
 :%>%{aäDiph%} M-INF ; 
 
 LEXICON V-VV_05_SUVAIJA !! * @CODE@ suvaija:suvai
+:čče INDPRSSG1 ;
+:čče INDPRSSG2 ;
+:čč%{oö%} INDPRSSG3 ;
+:čče INDPRSPL1 ;
+:čče INDPRSPL2 ;
+ INDPRSPL3_jAh ;
+:čče INDPRSCONNEG_WEAK ;
+:čč INDPRTSG1     ;
+:čč INDPRTSG2     ;
+:čč INDPRTSG3     ;
+:čč INDPRTPL1     ;
+:čč INDPRTPL2     ;
+ INDPRTPL3_ttih     ;
+ INDPRTCONNEG_nnUh	   ;
+ INDPRTCONNEGPL3_ttU	   ;
+:čč CONDPRS_IS ;
+ CONDPRSPL3_ttAs ;
+ CONDPRT_nnUs ;
+ CONDPRTPL3_tAnnUs ;
+ POT_nnE ;
+ POTPL3_tAnneh ;
+ IMPRT_kkA ;
+ IMPRTPL3_ttAhes ;
+
+:čči ACTPRSPRC_PEZII ;
+ ACTPRFPRC_nnUH ;
+ PSSPRSPRC_ttAvU ;
+ PSSPRFPRC_ttU ;
+
+:čče M-INF	      ;
++Inf:%>j%{aäDiph%} K ;
+
+
+LEXICON V-VV_05_EMÄNDÖIJÄ !! * @CODE@ emändöijä:emändöi
 :čče INDPRSSG1 ;
 :čče INDPRSSG2 ;
 :čč%{oö%} INDPRSSG3 ;

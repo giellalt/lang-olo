@@ -93,15 +93,41 @@ joi:joi INTERJ_ "" ;
 ka:ka INTERJ_ "" ;
 kei:kei INTERJ_ "" ;
 konah:konah INTERJ_ "" ;
-konzu-tahto:konzu-tahto PRON_ "" ;
 korvah:korvah INTERJ_ "" ;
 kouzollou:kouzollou INTERJ_ "" ;
+kulleh:kulleh INTERJ_ "" ;
+kulmas:kulmas INTERJ_ "" ;
+libo:libo CS_ "" ;
+migu:migu INTERJ_ "" ;
+mindäh:mindäh INTERJ_ "" ;
+mis:mis INTERJ_ "" ;
+myö:myö INTERJ_ "" ;
+no:no INTERJ_ "" ;
+nolja:nolja INTERJ_ "" ;
+näi:näi INTERJ_ "" ;
+se:se INTERJ_ "" ;
+tai:tai INTERJ_ "" ;
+tuan:tuan INTERJ_ "" ;
+vaigu:vaigu INTERJ_ "" ;
+vie:vie INTERJ_ "" ;
+
+!! POSTPOSITIONS
+piäh:piäh PO_ "" ;
+piäle:piäle PO_ "" ;
+piäs:piäs PO_ "" ;
+
+
 
 !! Pronouns
 erähät:erähät PRON_  "eräät, muutamat" ;
 eräs:eräs PRON_  "eräs, muuan, muudan; jokin, joku (muu), toinen; mokoma" ;
 kentahto:ke PRON-INDEF_KEN "" ;
 kudaitahto:kuda PRON-INDEF_KUDAI "" ;
+kuda-ken:kuda-ken PRON_ "" ;
+kuda-kui:kuda-kui PRON_ "" ;
+kuda-midä:kuda-midä PRON_ "" ;
+kuda-mis:kuda-mis PRON_ "" ;
+kus:kus PRON_ "" ;
 mitahto:mi PRON-INDEF_MI "" ;
 mittuinetahto:mittu PRON-INDEF_MITTUINE "" ;
 nimittuine:ni«mittu PRON-INDEF_NIMITTUINE "" ;
@@ -160,7 +186,7 @@ mahto:mahto N_RUNO "" ;
 
 roita:rodi V_AVATA "" ;
 
-tartuokseh:tartu VR_  "tarttua, saada t. tavata kiinni" ;
+tartuokseh:tartu VR_VALUO  "tarttua, saada t. tavata kiinni" ;
 vazitakseh:vazita VR_  "olla varovainen, varoa, karttaa" ;
 ällistyttiä:ällistyttä V_HEITTIÄ  "ällistyttää" ;
 čakkaillakseh:čakkail VR_  "nuhdella, torua, moittia, soimata, haukkua" ;
@@ -170,7 +196,7 @@ vazitakseh:vazita VR_  "olla varovainen, varoa, karttaa" ;
 šuoriekseh:šuore VR_  "lähteä matkaan, lähteä jnnek, aikoa jnnek, valmistautua lähtemään, varustautua lähtemään" ;
 šuorita:šuori V_  "valmistautua, varustautua, suoriutua; tehdä lähtöä; lähteä; pukeutua, sonnustautua" ;
 žiiloittua:žiiloitta V_KANDUA  "(yougi:) polttaa nokkosella; (yougi:) piestä nokkosella" ;
-žualuijakseh:žualui VR_  "valittaa jllek" ;
+žualuijakseh:žualui VR_SUVAIJA  "valittaa jllek" ;
 
 !! PROPER NOUNS FROM OLONETS
 Iisussu:Iisussa PROP_AKKU "" ;
