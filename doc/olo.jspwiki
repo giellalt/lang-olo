@@ -480,6 +480,8 @@ the comparatives and superlatives are supletive
 
  LEXICON A_LIYGILÄINE  liygiläine:liygilä
 
+ LEXICON A_NAINE  naine:nai
+
  LEXICON A_KIELINE  kieline:kieli
 
  LEXICON A_TOINE  toine:to
@@ -666,6 +668,7 @@ Gradation NA
 Harmony: Back
 
 
+
  LEXICON N_TUATTO  tuatto:tuatta
 Gradation Yes
 Harmony: Back
@@ -679,6 +682,7 @@ Harmony: Front
  LEXICON N_MUARJU  muarju:muarja
 Gradation No
 Harmony: Back
+
 
 
  LEXICON N_AKKU  akku:akka
@@ -771,6 +775,7 @@ Harmony: Back
  LEXICON N_PEZII  pezii:pezi
 Gradation NA
 Harmony: Front
+
 
 
 
@@ -874,6 +879,7 @@ Harmony: Back
 
 
 
+
  LEXICON N_SAMMAL  sammal:sammal
 Gradation No
 Harmony: Back
@@ -890,7 +896,6 @@ Harmony: Back
 Stem	     consonant n/m
 Singular stem vowel 0/0/e
 Plural stem vowel i
-
 
 
 
@@ -924,6 +929,12 @@ Harmony: Back
  LEXICON N_LIYGILÄINE  liygiläine:liygilä
 Gradation NA
 Harmony: Front
+
+
+
+ LEXICON N_NAINE  naine:nai
+Gradation NA
+Harmony: Back
 
 
 
@@ -1058,6 +1069,7 @@ Harmony: Back
 
 
 
+
  LEXICON N_TUATANDIM  tuatandim:tuatandim
 Gradation NA
 Harmony: Back
@@ -1069,15 +1081,18 @@ Gradation NA
 Harmony: Front
 
 
+
  LEXICON N_PAIMEN  paimen:paimen
 Gradation NA
 Harmony: Back
 
 
 
+
  LEXICON N_SALBOIN  salboin:salboi
 Gradation No
 Harmony: Back
+
 
 
 
@@ -1090,6 +1105,7 @@ Harmony: Front
  LEXICON N_UDAR  udar:udar
 Gradation No
 Harmony: Back
+
 
 
 
@@ -1508,6 +1524,9 @@ Plural stem vowel i
 
 
  LEXICON NMN_TAIGIN  taigin:taigin
+
+
+
 
 
 

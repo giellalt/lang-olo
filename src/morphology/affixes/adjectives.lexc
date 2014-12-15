@@ -202,6 +202,12 @@ LEXICON A_LIYGILÄINE !!= @CODE@ liygiläine:liygilä
 +A+Der/mbi+Comp:zemb NMN_PAREMBI        ;
 +A+Der/in+Superl:zi NMN_ENIN        ;
 
+LEXICON A_NAINE !!= @CODE@ naine:nai
++A+Der/Us:z%{uy%} N_PUHTAHUS ;
++A: NMN_NAINE ;
++A+Der/mbi+Comp:zemb NMN_PAREMBI        ;
++A+Der/in+Superl:zi NMN_ENIN        ;
+
 LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 +A+Der/Us:z%{uy%} N_PUHTAHUS ;
 +A: NMN_KIELINE ;
