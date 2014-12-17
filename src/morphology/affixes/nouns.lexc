@@ -963,6 +963,19 @@ LEXICON N_ALUS-SG !!= @CODE@ alus:aluks
 LEXICON N_ALUS-PL !!= @CODE@ alus:aluks
 +N: NMN_ALUS-PL ;
 
+LEXICON N_ILVES !!= @CODE@ ilves:ilveks
+!! Gradation No
+!! Harmony: Front
++N:%^KS2S ATTESTED-NOUN-STEM ;
+ N_ILVES-SG ;
+ N_ILVES-PL ;
+
+LEXICON N_ILVES-SG !!= @CODE@ ilves:ilveks
++N: NMN_ILVES-SG ;
+
+LEXICON N_ILVES-PL !!= @CODE@ ilves:ilveks
++N: NMN_ILVES-PL ;
+
 LEXICON N_MIES !!= @CODE@ mies:mie
 !! Gradation No
 !! Harmony: Front
@@ -2477,6 +2490,23 @@ LEXICON NMN_ALUS-SG
 +Sg:e Noun-NB-01 ;
 
 LEXICON NMN_ALUS-PL
+:e PLNOMSUF-USUALLY-WEAK ;
+:%>i PLGENSUF_EN ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
++Pl:i Noun-NB-01 ;
+
+LEXICON NMN_ILVES !!= @CODE@ ilves:ilveks
+	NMN_ILVES-SG ;
+	NMN_ILVES-PL ;
+
+LEXICON NMN_ILVES-SG
+:%^KS2S SGNOMSUF ;
+:e SGGENSUF-USUALLY-WEAK ;
+:%^KS2S SGPARSUF_dU ;
++Sg:e Noun-NB-01 ;
+
+LEXICON NMN_ILVES-PL
 :e PLNOMSUF-USUALLY-WEAK ;
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
