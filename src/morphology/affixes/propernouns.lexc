@@ -25,6 +25,7 @@ LEXICON PROP_OZA !!= @CODE@
 
 LEXICON PROP_OZA_FEM !!= @CODE@
 +N+Prop+Sem/Fem: NMN_OZA ;
++N+Prop+Sem/Fem: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP-PLC_OZA !!= @CODE@
 +N+Prop+Sem/Plc: NMN_OZA ;
@@ -39,9 +40,11 @@ LEXICON PROP_KALA !!= @CODE@
 
 LEXICON PROP_KALA_FEM !!= @CODE@ 
 +N+Prop+Sem/Fem: NMN_KALA ;
++N+Prop+Sem/Fem: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP_KALA_MAL !!= @CODE@ 
 +N+Prop+Sem/Mal: NMN_KALA ;
++N+Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP_KALA_PATRFEM !!= @CODE@ 
 +N+Prop+Patr+Sem/Fem: NMN_KALA ;
@@ -51,6 +54,7 @@ LEXICON PROP-PLC_KALA !!= @CODE@
 
 LEXICON PROP_KALA_SURFEM !!= @CODE@ 
 +N+Prop+Sem/Sur+Sem/Fem: NMN_KALA ;
+
 
 LEXICON PROP_KALA_SURMAL !!= @CODE@ 
 +N+Prop+Sem/Sur+Sem/Mal: NMN_KALA ;
@@ -161,6 +165,7 @@ LEXICON PROP_REBOI !!= @CODE@ reboi:reboi
 
 LEXICON PROP_REBOI_MAL !!= @CODE@ reboi:reboi
 +N+Prop+Sem/Mal: NMN_REBOI ;
++N+Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP_KOIRU !!= @CODE@ koiru:koira
 !! Gradation NA
@@ -193,7 +198,8 @@ LEXICON PROP_PÄIVY-PL
 +N+Prop: NMN_PÄIVY-PL ;
 
 LEXICON PROP_PÄIVY_MAL !!= @CODE@ päivy:päivä
-+N+Prop: NMN_PÄIVY ;
++N+Prop+Sem/Mal: NMN_PÄIVY ;
++N+Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP-PLC_PÄIVY !!= @CODE@ päivy:päivä
 +N+Prop+Sem/Plc: NMN_PÄIVY ;
@@ -359,6 +365,9 @@ LEXICON PROP-PLC_KONDII
 +N+Prop+Sem/Plc: NMN_KONDII ;
 LEXICON PROP_KONDII !!= @CODE@ kondii:kondi
 +N+Prop: NMN_KONDII ;
+
+LEXICON HUMAN-PROP-DERIVATION
+%-nimelline:%-#nimelli A_KIELINE ;
 
 ! vim: set ft=xfst-lexc:
 
