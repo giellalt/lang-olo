@@ -1,0 +1,82 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - ilves: # Noun 'day / ilvekse' - full paradigm
+     ilves+N+Sg+Nom: ilves
+     ilves+N+Sg+Gen: ilveksen
+     ilves+N+Sg+Acc: [ilves, ilveksen]
+     ilves+N+Sg+Par: ilvesty
+     ilves+N+Sg+Tra: ilveksekse
+     ilves+N+Sg+Abe: [ilveksetä, ilveksettäh]
+     ilves+N+Sg+Com: ilveksenke
+     ilves+N+Sg+Ine: ilvekses
+     ilves+N+Sg+Ela: [ilveksespäi, ilvekses]
+     ilves+N+Sg+Ill: ilvekseh
+     ilves+N+Sg+Ade: ilveksel
+     ilves+N+Sg+Abl: [ilvekselpäi, ilveksel]
+     ilves+N+Sg+All: ilveksele
+     ilves+N+Sg+Ess: ilveksenny
+     ilves+N+Sg+Ter: ilveksessäh
+     ilves+N+Sg+Apr: ilveksellyö
+     ilves+N+Pl+Nom: ilvekset
+     ilves+N+Pl+Gen: ilveksien
+     ilves+N+Pl+Acc: ilvekset
+     ilves+N+Pl+Par: ilveksii
+     ilves+N+Pl+Tra: ilveksikse
+     ilves+N+Pl+Abe: [ilveksitä, ilveksittäh]
+     ilves+N+Pl+Com: ilveksienke
+     ilves+N+Pl+Ine: ilveksis
+     ilves+N+Pl+Ela: [ilveksispäi, ilveksis]
+     ilves+N+Pl+Ill: ilveksih
+     ilves+N+Pl+Ade: ilveksil
+     ilves+N+Pl+Abl: [ilveksilpäi, ilveksil]
+     ilves+N+Pl+All: ilveksile
+     ilves+N+Pl+Ess: ilveksinny
+     ilves+N+Pl+Ins: ilveksin
+     ilves+N+Pl+Apr: ilveksiellyö
+     ilves+N+Sg+Nom+Clt/gi: ilvesgi
+     ilves+N+Sg+Gen+Clt/gi: ilveksengi
+     ilves+N+Sg+Acc+Clt/gi: [ilvesgi, ilveksengi]
+     ilves+N+Sg+Par+Clt/gi: ilveksiägi
+     ilves+N+Sg+Tra+Clt/gi: ilvekseksegi
+     ilves+N+Sg+Abe+Clt/gi: [ilveksetägi, ilveksettähgi]
+     ilves+N+Sg+Com+Clt/gi: ilveksenkegi
+     ilves+N+Sg+Ine+Clt/gi: ilveksesgi
+     ilves+N+Sg+Ela+Clt/gi: [ilveksespäigi, ilveksesgi]
+     ilves+N+Sg+Ill+Clt/gi: ilveksehgi
+     ilves+N+Sg+Ade+Clt/gi: ilvekselgi
+     ilves+N+Sg+Abl+Clt/gi: [ilvekselpäigi, ilvekselgi]
+     ilves+N+Sg+All+Clt/gi: ilvekselegi
+     ilves+N+Sg+Ess+Clt/gi: ilveksennygi
+     ilves+N+Sg+Ter+Clt/gi: ilveksessähgi
+     ilves+N+Sg+Apr+Clt/gi: ilveksellyögi
+     ilves+N+Pl+Nom+Clt/gi: ilveksetgi
+     ilves+N+Pl+Gen+Clt/gi: ilveksiengi
+     ilves+N+Pl+Acc+Clt/gi: ilveksetgi
+     ilves+N+Pl+Par+Clt/gi: ilveksiigi
+     ilves+N+Pl+Tra+Clt/gi: ilveksiksegi
+     ilves+N+Pl+Abe+Clt/gi: [ilveksitägi, ilveksittähgi]
+     ilves+N+Pl+Com+Clt/gi: ilveksienkegi
+     ilves+N+Pl+Ine+Clt/gi: ilveksisgi
+     ilves+N+Pl+Ela+Clt/gi: [ilveksispäigi, ilveksisgi]
+     ilves+N+Pl+Ill+Clt/gi: ilveksihgi
+     ilves+N+Pl+Ade+Clt/gi: ilveksilgi
+     ilves+N+Pl+Abl+Clt/gi: [ilveksilpäigi, ilveksilgi]
+     ilves+N+Pl+All+Clt/gi: ilveksilegi
+     ilves+N+Pl+Ess+Clt/gi: ilveksinnygi
+     ilves+N+Pl+Ins+Clt/gi: ilveksingi
+     ilves+N+Pl+Apr+Clt/gi: ilveksiellyögi
+

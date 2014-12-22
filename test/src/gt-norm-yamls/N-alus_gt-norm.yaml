@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - alus: # Noun 'tree / alukse' - full paradigm
+     alus+N+Sg+Nom: alus
+     alus+N+Sg+Gen: aluksen
+     alus+N+Sg+Acc: [alus, aluksen]
+     alus+N+Sg+Par: aluksedu
+     alus+N+Sg+Tra: aluksekse
+     alus+N+Sg+Abe: [alukseta, aluksettah]
+     alus+N+Sg+Com: aluksenke
+     alus+N+Sg+Ine: alukses
+     alus+N+Sg+Ela: [aluksespäi, alukses]
+     alus+N+Sg+Ill: alukseh
+     alus+N+Sg+Ade: aluksel
+     alus+N+Sg+Abl: [alukselpäi, aluksel]
+     alus+N+Sg+All: aluksele
+     alus+N+Sg+Ess: aluksennu
+     alus+N+Sg+Ter: aluksessah
+     alus+N+Sg+Apr: alukselluo
+     alus+N+Pl+Nom: alukset
+     alus+N+Pl+Gen: aluksin
+     alus+N+Pl+Acc: alukset
+     alus+N+Pl+Par: aluksi
+     alus+N+Pl+Tra: aluksikse
+     alus+N+Pl+Abe: [aluksita, aluksittah]
+     alus+N+Pl+Com: aluksinke
+     alus+N+Pl+Ine: aluksis
+     alus+N+Pl+Ela: [aluksispäi, aluksis]
+     alus+N+Pl+Ill: aluksih
+     alus+N+Pl+Ade: aluksil
+     alus+N+Pl+Abl: [aluksilpäi, aluksil]
+     alus+N+Pl+All: aluksile
+     alus+N+Pl+Ess: aluksinnu
+     alus+N+Pl+Ins: aluksin
+     alus+N+Pl+Apr: aluksilluo
+     alus+N+Sg+Nom+Clt/gi: alusgi
+     alus+N+Sg+Gen+Clt/gi: aluksengi
+     alus+N+Sg+Acc+Clt/gi: [alusgi, aluksengi]
+     alus+N+Sg+Par+Clt/gi: alustugi
+     alus+N+Sg+Tra+Clt/gi: alukseksegi
+     alus+N+Sg+Abe+Clt/gi: [aluksetagi, aluksettahgi]
+     alus+N+Sg+Com+Clt/gi: aluksenkegi
+     alus+N+Sg+Ine+Clt/gi: aluksesgi
+     alus+N+Sg+Ela+Clt/gi: [aluksespäigi, aluksesgi]
+     alus+N+Sg+Ill+Clt/gi: aluksehgi
+     alus+N+Sg+Ade+Clt/gi: alukselgi
+     alus+N+Sg+Abl+Clt/gi: [alukselpäigi, alukselgi]
+     alus+N+Sg+All+Clt/gi: alukselegi
+     alus+N+Sg+Ess+Clt/gi: aluksennugi
+     alus+N+Sg+Ter+Clt/gi: aluksessahgi
+     alus+N+Sg+Apr+Clt/gi: alukselluogi
+     alus+N+Pl+Nom+Clt/gi: aluksetgi
+     alus+N+Pl+Gen+Clt/gi: aluksingi
+     alus+N+Pl+Acc+Clt/gi: aluksetgi
+     alus+N+Pl+Par+Clt/gi: aluksigi
+     alus+N+Pl+Tra+Clt/gi: aluksiksegi
+     alus+N+Pl+Abe+Clt/gi: [aluksitagi, aluksittahgi]
+     alus+N+Pl+Com+Clt/gi: aluksinkegi
+     alus+N+Pl+Ine+Clt/gi: aluksisgi
+     alus+N+Pl+Ela+Clt/gi: [aluksispäigi, aluksisgi]
+     alus+N+Pl+Ill+Clt/gi: aluksihgi
+     alus+N+Pl+Ade+Clt/gi: aluksilgi
+     alus+N+Pl+Abl+Clt/gi: [aluksilpäigi, aluksilgi]
+     alus+N+Pl+All+Clt/gi: aluksilegi
+     alus+N+Pl+Ess+Clt/gi: aluksinnugi
+     alus+N+Pl+Ins+Clt/gi: aluksingi
+     alus+N+Pl+Apr+Clt/gi: aluksilluogi
