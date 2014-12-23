@@ -57,6 +57,7 @@ LEXICON N_PIÄ-PL
 LEXICON N_PAPPI !!= @CODE@ pappi:pappi
 !! Gradation: Yes
 !! Harmony: Back
+!! stem final i is retained
 +N: ATTESTED-NOUN-STEM ; 
 	N_PAPPI-SG ;
 	N_PAPPI-PL ;
@@ -68,6 +69,7 @@ LEXICON N_PAPPI-PL
 LEXICON N_LEIRI !!= @CODE@ leiri:leiri
 !! Gradation NA
 !! Harmony: Front
+!! stem	final i is retained
 +N: ATTESTED-NOUN-STEM ; 
 	N_LEIRI-SG ;
 	N_LEIRI-PL ;
@@ -79,6 +81,7 @@ LEXICON N_LEIRI-PL
 LEXICON N_HÄKKI !!= @CODE@ häkki:häkki
 !! Gradation: Yes
 !! Harmony: Front
+!! stem final i is retained
 +N: ATTESTED-NOUN-STEM ; 
 	N_HÄKKI-SG ;
 	N_HÄKKI-PL ;
@@ -90,6 +93,8 @@ LEXICON N_HÄKKI-PL
 LEXICON N_PADA !!= @CODE@ pada:pada
 !! Gradation Yes
 !! Harmony: Back
+!! stem final a changes to u in Sg Par
+!! stem final a changes to o before i in Pl stem
 +N: ATTESTED-NOUN-STEM ; 
 	N_PADA-SG  ;
 	N_PADA-PL  ;
@@ -102,6 +107,8 @@ LEXICON N_PADA-PL
 LEXICON N_KALA !!= @CODE@ kala:kala
 !! Gradation NA
 !! Harmony: Back
+!! stem final a changes to u in Sg Par
+!! stem final a changes to o before i in Pl stem
 +N: ATTESTED-NOUN-STEM ; 
 	N_KALA-SG  ;
 	N_KALA-PL  ;
@@ -115,6 +122,8 @@ LEXICON N-HUM_KALA
 LEXICON N_OZA !!= @CODE@ oza:oza
 !! Gradation NA
 !! Harmony: Back
+!! stem final a changes to u in Sg Par
+!! stem final a changes to 0 before i in Pl stem
 +N: ATTESTED-NOUN-STEM ; 
 	N_OZA-SG  ;
 	N_OZA-PL  ;
@@ -126,6 +135,11 @@ LEXICON N_OZA-PL
 +N: NMN_OZA-PL ;
 
 LEXICON N_SÄYNÄ !!= @CODE@ säynä:säynä
+!! Gradation NA
+!! Harmony: Front
+!! stem final ä changes to i in Sg Par
+!! stem final ä changes to 0 before i in Pl stem
+
 +N: ATTESTED-NOUN-STEM ; 
 	N_SÄYNÄ-SG  ;
 	N_SÄYNÄ-PL  ;
@@ -139,6 +153,8 @@ LEXICON N_SÄYNÄ-PL
 LEXICON N_KOIVU !!= @CODE@ koivu:koivu
 !! Gradation NA
 !! Harmony: Back
+!! There are no changes in stem-final __u__
+!! Plural stem in __loi__
 +N: ATTESTED-NOUN-STEM ; 
         N_KOIVU-SG ;
         N_KOIVU-PL ;
@@ -152,6 +168,8 @@ LEXICON N_KOIVU-PL
 LEXICON N_HERY !!= @CODE@ hery:hery
 !! Gradation NA
 !! Harmony: Front
+!! There are no	changes	in stem-final __y__
+!! Plural stem in __löi__
 +N: ATTESTED-NOUN-STEM ; 
         N_HERY-SG ;
         N_HERY-PL ;
@@ -164,6 +182,8 @@ LEXICON N_HERY-PL
 LEXICON N_IDY !!= @CODE@ idy:idy
 !! Gradation Yes
 !! Harmony: Front
+!! There are no changes in stem-final __y__
+!! Plural stem in __löi__
 +N: ATTESTED-NOUN-STEM ;
         N_IDY-SG ;
         N_IDY-PL ;
@@ -177,6 +197,8 @@ LEXICON N_IDY-PL
 LEXICON N_LUGU !!= @CODE@ lugu:lugu
 !! Gradation Yes
 !! Harmony: Back
+!! There are no changes in stem-final __u__
+!! Plural stem in __loi__
 +N: ATTESTED-NOUN-STEM ;
         N_LUGU-SG ;
         N_LUGU-PL ;
@@ -190,6 +212,8 @@ LEXICON N_LUGU-PL
 LEXICON N_RUNO !!= @CODE@ runo:runo
 !! Gradation NA
 !! Harmony: Back
+!! Stem-fianl o changes to u in Sg Par
+!! Plural stem in __loi__
 +N: ATTESTED-NOUN-STEM ;
 	 N_RUNO-SG ;
 	 N_RUNO-PL ;
