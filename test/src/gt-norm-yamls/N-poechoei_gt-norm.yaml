@@ -14,68 +14,69 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - pöčöi: # Noun 'fox / kettu' - full paradigm
+  Noun - pöčöi: # Noun 'paunch, tripe / pötsi' - full paradigm
      pöčöi+N+Sg+Nom: pöčöi
      pöčöi+N+Sg+Gen: pöčöin
      pöčöi+N+Sg+Acc: [pöčöi, pöčöin]
-     pöčöi+N+Sg+Par: pöčöidu
+     pöčöi+N+Sg+Par: pöččöidy
      pöčöi+N+Sg+Tra: pöčöikse
      pöčöi+N+Sg+Abe: [pöčöitä, pöčöittäh]
      pöčöi+N+Sg+Com: pöčöinke
      pöčöi+N+Sg+Ine: pöčöis
      pöčöi+N+Sg+Ela: [pöčöispäi, pöčöis]
-     pöčöi+N+Sg+Ill: pöčöih
+     pöčöi+N+Sg+Ill: pöččöih
      pöčöi+N+Sg+Ade: pöčöil
      pöčöi+N+Sg+Abl: [pöčöilpäi, pöčöil]
      pöčöi+N+Sg+All: pöčöile
      pöčöi+N+Sg+Ess: pöčöinny
-     pöčöi+N+Sg+Ter: pöčöissah
+     pöčöi+N+Sg+Ter: pöččöissäh
      pöčöi+N+Sg+Apr: pöčöillyö
      pöčöi+N+Pl+Nom: pöčöit
-     pöčöi+N+Pl+Gen: pöčölöin
+     pöčöi+N+Pl+Gen: pöččölöin
      pöčöi+N+Pl+Acc: pöčöit
-     pöčöi+N+Pl+Par: pöčölöi
-     pöčöi+N+Pl+Tra: pöčölöikse
-     pöčöi+N+Pl+Abe: [pöčölöitä, pöčölöittäh]
-     pöčöi+N+Pl+Com: pöčölöinke
-     pöčöi+N+Pl+Ine: pöčölöis
-     pöčöi+N+Pl+Ela: [pöčölöispäi, pöčölöis]
-     pöčöi+N+Pl+Ill: pöčölöih
-     pöčöi+N+Pl+Ade: pöčölöil
+     pöčöi+N+Pl+Par: pöččölöi
+     pöčöi+N+Pl+Tra: pöččölöikse
+     pöčöi+N+Pl+Abe: [pöččölöitä, pöččölöittäh]
+     pöčöi+N+Pl+Com: pöččölöinke
+     pöčöi+N+Pl+Ine: pöččölöis
+     pöčöi+N+Pl+Ela: [pöččölöispäi, pöččölöis]
+     pöčöi+N+Pl+Ill: pöččölöih
+     pöčöi+N+Pl+Ade: pöččölöil
      pöčöi+N+Pl+Abl: [pöčölöilpäi, pöčölöil]
-     pöčöi+N+Pl+All: pöčölöile
-     pöčöi+N+Pl+Ess: pöčölöinny
-     pöčöi+N+Pl+Ins: pöčölöin
-     pöčöi+N+Pl+Apr: pöčölöillyö
+     pöčöi+N+Pl+All: pöččölöile
+     pöčöi+N+Pl+Ess: pöččölöinny
+     pöčöi+N+Pl+Ins: pöččölöin
+     pöčöi+N+Pl+Apr: pöččölöillyö
      pöčöi+N+Sg+Nom+Clt/gi: pöčöigi
      pöčöi+N+Sg+Gen+Clt/gi: pöčöingi
      pöčöi+N+Sg+Acc+Clt/gi: [pöčöigi, pöčöingi]
-     pöčöi+N+Sg+Par+Clt/gi: pöčöidugi
+     pöčöi+N+Sg+Par+Clt/gi: pöččöidygi
      pöčöi+N+Sg+Tra+Clt/gi: pöčöiksegi
      pöčöi+N+Sg+Abe+Clt/gi: [pöčöitägi, pöčöittähgi]
      pöčöi+N+Sg+Com+Clt/gi: pöčöinkegi
      pöčöi+N+Sg+Ine+Clt/gi: pöčöisgi
      pöčöi+N+Sg+Ela+Clt/gi: [pöčöispäigi, pöčöisgi]
-     pöčöi+N+Sg+Ill+Clt/gi: pöčöihgi
+     pöčöi+N+Sg+Ill+Clt/gi: pöččöihgi
      pöčöi+N+Sg+Ade+Clt/gi: pöčöilgi
      pöčöi+N+Sg+Abl+Clt/gi: [pöčöilpäigi, pöčöilgi]
      pöčöi+N+Sg+All+Clt/gi: pöčöilegi
      pöčöi+N+Sg+Ess+Clt/gi: pöčöinnygi
-     pöčöi+N+Sg+Ter+Clt/gi: pöčöissahgi
+     pöčöi+N+Sg+Ter+Clt/gi: pöččöissähgi
      pöčöi+N+Sg+Apr+Clt/gi: pöčöillyögi
      pöčöi+N+Pl+Nom+Clt/gi: pöčöitgi
-     pöčöi+N+Pl+Gen+Clt/gi: pöčölöingi
+     pöčöi+N+Pl+Gen+Clt/gi: pöččölöingi
      pöčöi+N+Pl+Acc+Clt/gi: pöčöitgi
-     pöčöi+N+Pl+Par+Clt/gi: pöčölöigi
-     pöčöi+N+Pl+Tra+Clt/gi: pöčölöiksegi
-     pöčöi+N+Pl+Abe+Clt/gi: [pöčölöitägi, pöčölöittähgi]
-     pöčöi+N+Pl+Com+Clt/gi: pöčölöinkegi
-     pöčöi+N+Pl+Ine+Clt/gi: pöčölöisgi
-     pöčöi+N+Pl+Ela+Clt/gi: [pöčölöispäigi, pöčölöisgi]
-     pöčöi+N+Pl+Ill+Clt/gi: pöčölöihgi
-     pöčöi+N+Pl+Ade+Clt/gi: pöčölöilgi
-     pöčöi+N+Pl+Abl+Clt/gi: [pöčölöilpäigi, pöčölöilgi]
-     pöčöi+N+Pl+All+Clt/gi: pöčölöilegi
-     pöčöi+N+Pl+Ess+Clt/gi: pöčölöinnygi
-     pöčöi+N+Pl+Ins+Clt/gi: pöčölöingi
-     pöčöi+N+Pl+Apr+Clt/gi: pöčölöillyögi
+     pöčöi+N+Pl+Par+Clt/gi: pöččölöigi
+     pöčöi+N+Pl+Tra+Clt/gi: pöččölöiksegi
+     pöčöi+N+Pl+Abe+Clt/gi: [pöččölöitägi, pöččölöittähgi]
+     pöčöi+N+Pl+Com+Clt/gi: pöččölöinkegi
+     pöčöi+N+Pl+Ine+Clt/gi: pöččölöisgi
+     pöčöi+N+Pl+Ela+Clt/gi: [pöččölöispäigi, pöččölöisgi]
+     pöčöi+N+Pl+Ill+Clt/gi: pöččölöihgi
+     pöčöi+N+Pl+Ade+Clt/gi: pöččölöilgi
+     pöčöi+N+Pl+Abl+Clt/gi: [pöččölöilpäigi, pöččölöilgi]
+     pöčöi+N+Pl+All+Clt/gi: pöččölöilegi
+     pöčöi+N+Pl+Ess+Clt/gi: pöččölöinnygi
+     pöčöi+N+Sg+Ter+Clt/gi: pöččölöissähgi
+     pöčöi+N+Pl+Ins+Clt/gi: pöččölöingi
+     pöčöi+N+Pl+Apr+Clt/gi: pöččölöillyögi
