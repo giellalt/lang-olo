@@ -18,7 +18,7 @@ Tests:
      alus+N+Sg+Nom: alus
      alus+N+Sg+Gen: aluksen
      alus+N+Sg+Acc: [alus, aluksen]
-     alus+N+Sg+Par: aluksedu
+     alus+N+Sg+Par: alustu
      alus+N+Sg+Tra: aluksekse
      alus+N+Sg+Abe: [alukseta, aluksettah]
      alus+N+Sg+Com: aluksenke
@@ -32,12 +32,12 @@ Tests:
      alus+N+Sg+Ter: aluksessah
      alus+N+Sg+Apr: alukselluo
      alus+N+Pl+Nom: alukset
-     alus+N+Pl+Gen: aluksin
+     alus+N+Pl+Gen: aluksien
      alus+N+Pl+Acc: alukset
-     alus+N+Pl+Par: aluksi
+     alus+N+Pl+Par: aluksii
      alus+N+Pl+Tra: aluksikse
      alus+N+Pl+Abe: [aluksita, aluksittah]
-     alus+N+Pl+Com: aluksinke
+     alus+N+Pl+Com: aluksienke
      alus+N+Pl+Ine: aluksis
      alus+N+Pl+Ela: [aluksispäi, aluksis]
      alus+N+Pl+Ill: aluksih
@@ -46,7 +46,7 @@ Tests:
      alus+N+Pl+All: aluksile
      alus+N+Pl+Ess: aluksinnu
      alus+N+Pl+Ins: aluksin
-     alus+N+Pl+Apr: aluksilluo
+     alus+N+Pl+Apr: aluksielluo
      alus+N+Sg+Nom+Clt/gi: alusgi
      alus+N+Sg+Gen+Clt/gi: aluksengi
      alus+N+Sg+Acc+Clt/gi: [alusgi, aluksengi]
@@ -64,12 +64,12 @@ Tests:
      alus+N+Sg+Ter+Clt/gi: aluksessahgi
      alus+N+Sg+Apr+Clt/gi: alukselluogi
      alus+N+Pl+Nom+Clt/gi: aluksetgi
-     alus+N+Pl+Gen+Clt/gi: aluksingi
+     alus+N+Pl+Gen+Clt/gi: aluksiengi
      alus+N+Pl+Acc+Clt/gi: aluksetgi
-     alus+N+Pl+Par+Clt/gi: aluksigi
+     alus+N+Pl+Par+Clt/gi: aluksiigi
      alus+N+Pl+Tra+Clt/gi: aluksiksegi
      alus+N+Pl+Abe+Clt/gi: [aluksitagi, aluksittahgi]
-     alus+N+Pl+Com+Clt/gi: aluksinkegi
+     alus+N+Pl+Com+Clt/gi: aluksienkegi
      alus+N+Pl+Ine+Clt/gi: aluksisgi
      alus+N+Pl+Ela+Clt/gi: [aluksispäigi, aluksisgi]
      alus+N+Pl+Ill+Clt/gi: aluksihgi
@@ -78,4 +78,4 @@ Tests:
      alus+N+Pl+All+Clt/gi: aluksilegi
      alus+N+Pl+Ess+Clt/gi: aluksinnugi
      alus+N+Pl+Ins+Clt/gi: aluksingi
-     alus+N+Pl+Apr+Clt/gi: aluksilluogi
+     alus+N+Pl+Apr+Clt/gi: aluksielluogi
