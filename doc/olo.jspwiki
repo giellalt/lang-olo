@@ -579,60 +579,84 @@ Harmony: Front
  LEXICON N_PAPPI  pappi:pappi
 Gradation: Yes
 Harmony: Back
+stem final i is retained
 
  LEXICON N_LEIRI  leiri:leiri
 Gradation NA
 Harmony: Front
+stem	final i is retained
 
  LEXICON N_HÄKKI  häkki:häkki
 Gradation: Yes
 Harmony: Front
+stem final i is retained
 
  LEXICON N_PADA  pada:pada
 Gradation Yes
 Harmony: Back
+stem final a changes to u in Sg Par
+stem final a changes to o before i in Pl stem
 
 
  LEXICON N_KALA  kala:kala
 Gradation NA
 Harmony: Back
+stem final a changes to u in Sg Par
+stem final a changes to o before i in Pl stem
 
  LEXICON N_OZA  oza:oza
 Gradation NA
 Harmony: Back
+stem final a changes to u in Sg Par
+stem final a changes to 0 before i in Pl stem
 
 
 
  LEXICON N_SÄYNÄ  säynä:säynä
+Gradation NA
+Harmony: Front
+stem final ä changes to i in Sg Par
+stem final ä changes to 0 before i in Pl stem
+
 
 
 
  LEXICON N_KOIVU  koivu:koivu
 Gradation NA
 Harmony: Back
+There are no changes in stem-final __u__
+Plural stem in __loi__
 
 
 
  LEXICON N_HERY  hery:hery
 Gradation NA
 Harmony: Front
+There are no	changes	in stem-final __y__
+Plural stem in __löi__
 
 
  LEXICON N_IDY  idy:idy
 Gradation Yes
 Harmony: Front
+There are no changes in stem-final __y__
+Plural stem in __löi__
 
 
 
  LEXICON N_LUGU  lugu:lugu
 Gradation Yes
 Harmony: Back
+There are no changes in stem-final __u__
+Plural stem in __loi__
 
 
 
  LEXICON N_RUNO  runo:runo
 Gradation NA
 Harmony: Back
+Stem-fianl o changes to u in Sg Par
+Plural stem in __loi__
 
 
  LEXICON N_HÖRÖ  hörö:hörö
@@ -988,6 +1012,14 @@ Harmony: Back
  LEXICON N_ALUS-SG  alus:aluks
 
  LEXICON N_ALUS-PL  alus:aluks
+
+ LEXICON N_ILVES  ilves:ilveks
+Gradation No
+Harmony: Front
+
+ LEXICON N_ILVES-SG  ilves:ilveks
+
+ LEXICON N_ILVES-PL  ilves:ilveks
 
  LEXICON N_MIES  mies:mie
 Gradation No
@@ -1403,6 +1435,10 @@ Gradation Yes
 
 
  LEXICON NMN_ALUS  alus:aluks
+
+
+
+ LEXICON NMN_ILVES  ilves:ilveks
 
 
 
