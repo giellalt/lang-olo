@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - pöčöi: # Noun 'fox / kettu' - full paradigm
+     pöčöi+N+Sg+Nom: pöčöi
+     pöčöi+N+Sg+Gen: pöčöin
+     pöčöi+N+Sg+Acc: [pöčöi, pöčöin]
+     pöčöi+N+Sg+Par: pöčöidu
+     pöčöi+N+Sg+Tra: pöčöikse
+     pöčöi+N+Sg+Abe: [pöčöitä, pöčöittäh]
+     pöčöi+N+Sg+Com: pöčöinke
+     pöčöi+N+Sg+Ine: pöčöis
+     pöčöi+N+Sg+Ela: [pöčöispäi, pöčöis]
+     pöčöi+N+Sg+Ill: pöčöih
+     pöčöi+N+Sg+Ade: pöčöil
+     pöčöi+N+Sg+Abl: [pöčöilpäi, pöčöil]
+     pöčöi+N+Sg+All: pöčöile
+     pöčöi+N+Sg+Ess: pöčöinny
+     pöčöi+N+Sg+Ter: pöčöissah
+     pöčöi+N+Sg+Apr: pöčöillyö
+     pöčöi+N+Pl+Nom: pöčöit
+     pöčöi+N+Pl+Gen: pöčölöin
+     pöčöi+N+Pl+Acc: pöčöit
+     pöčöi+N+Pl+Par: pöčölöi
+     pöčöi+N+Pl+Tra: pöčölöikse
+     pöčöi+N+Pl+Abe: [pöčölöitä, pöčölöittäh]
+     pöčöi+N+Pl+Com: pöčölöinke
+     pöčöi+N+Pl+Ine: pöčölöis
+     pöčöi+N+Pl+Ela: [pöčölöispäi, pöčölöis]
+     pöčöi+N+Pl+Ill: pöčölöih
+     pöčöi+N+Pl+Ade: pöčölöil
+     pöčöi+N+Pl+Abl: [pöčölöilpäi, pöčölöil]
+     pöčöi+N+Pl+All: pöčölöile
+     pöčöi+N+Pl+Ess: pöčölöinny
+     pöčöi+N+Pl+Ins: pöčölöin
+     pöčöi+N+Pl+Apr: pöčölöillyö
+     pöčöi+N+Sg+Nom+Clt/gi: pöčöigi
+     pöčöi+N+Sg+Gen+Clt/gi: pöčöingi
+     pöčöi+N+Sg+Acc+Clt/gi: [pöčöigi, pöčöingi]
+     pöčöi+N+Sg+Par+Clt/gi: pöčöidugi
+     pöčöi+N+Sg+Tra+Clt/gi: pöčöiksegi
+     pöčöi+N+Sg+Abe+Clt/gi: [pöčöitägi, pöčöittähgi]
+     pöčöi+N+Sg+Com+Clt/gi: pöčöinkegi
+     pöčöi+N+Sg+Ine+Clt/gi: pöčöisgi
+     pöčöi+N+Sg+Ela+Clt/gi: [pöčöispäigi, pöčöisgi]
+     pöčöi+N+Sg+Ill+Clt/gi: pöčöihgi
+     pöčöi+N+Sg+Ade+Clt/gi: pöčöilgi
+     pöčöi+N+Sg+Abl+Clt/gi: [pöčöilpäigi, pöčöilgi]
+     pöčöi+N+Sg+All+Clt/gi: pöčöilegi
+     pöčöi+N+Sg+Ess+Clt/gi: pöčöinnygi
+     pöčöi+N+Sg+Ter+Clt/gi: pöčöissahgi
+     pöčöi+N+Sg+Apr+Clt/gi: pöčöillyögi
+     pöčöi+N+Pl+Nom+Clt/gi: pöčöitgi
+     pöčöi+N+Pl+Gen+Clt/gi: pöčölöingi
+     pöčöi+N+Pl+Acc+Clt/gi: pöčöitgi
+     pöčöi+N+Pl+Par+Clt/gi: pöčölöigi
+     pöčöi+N+Pl+Tra+Clt/gi: pöčölöiksegi
+     pöčöi+N+Pl+Abe+Clt/gi: [pöčölöitägi, pöčölöittähgi]
+     pöčöi+N+Pl+Com+Clt/gi: pöčölöinkegi
+     pöčöi+N+Pl+Ine+Clt/gi: pöčölöisgi
+     pöčöi+N+Pl+Ela+Clt/gi: [pöčölöispäigi, pöčölöisgi]
+     pöčöi+N+Pl+Ill+Clt/gi: pöčölöihgi
+     pöčöi+N+Pl+Ade+Clt/gi: pöčölöilgi
+     pöčöi+N+Pl+Abl+Clt/gi: [pöčölöilpäigi, pöčölöilgi]
+     pöčöi+N+Pl+All+Clt/gi: pöčölöilegi
+     pöčöi+N+Pl+Ess+Clt/gi: pöčölöinnygi
+     pöčöi+N+Pl+Ins+Clt/gi: pöčölöingi
+     pöčöi+N+Pl+Apr+Clt/gi: pöčölöillyögi
