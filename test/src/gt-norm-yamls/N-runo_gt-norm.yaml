@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - runo: # Noun 'poem / runo' - full paradigm
+     runo+N+Sg+Nom: runo
+     runo+N+Sg+Gen: runon
+     runo+N+Sg+Acc: [runo, runon]
+     runo+N+Sg+Par: runuo
+     runo+N+Sg+Tra: runokse
+     runo+N+Sg+Abe: [runota, runottah]
+     runo+N+Sg+Com: runonke
+     runo+N+Sg+Ine: runos
+     runo+N+Sg+Ela: [runospäi, runos]
+     runo+N+Sg+Ill: runoh
+     runo+N+Sg+Ade: runol
+     runo+N+Sg+Abl: [runolpäi, runol]
+     runo+N+Sg+All: runole
+     runo+N+Sg+Ess: runonnu
+     runo+N+Sg+Ter: runossah
+     runo+N+Sg+Apr: runolluo
+     runo+N+Pl+Nom: runot
+     runo+N+Pl+Gen: runoloin
+     runo+N+Pl+Acc: runot
+     runo+N+Pl+Par: runoloi
+     runo+N+Pl+Tra: runoloikse
+     runo+N+Pl+Abe: [runoloita, runoloittah]
+     runo+N+Pl+Com: runoloinke
+     runo+N+Pl+Ine: runolois
+     runo+N+Pl+Ela: [runoloispäi, runolois]
+     runo+N+Pl+Ill: runoloih
+     runo+N+Pl+Ade: runoloil
+     runo+N+Pl+Abl: [runoloilpäi, runoloil]
+     runo+N+Pl+All: runoloile
+     runo+N+Pl+Ess: runoloinnu
+     runo+N+Pl+Ins: runoloin
+     runo+N+Pl+Apr: runoloilluo
+     runo+N+Sg+Nom+Clt/gi: runogi
+     runo+N+Sg+Gen+Clt/gi: runongi
+     runo+N+Sg+Acc+Clt/gi: [runogi, runongi]
+     runo+N+Sg+Par+Clt/gi: runuogi
+     runo+N+Sg+Tra+Clt/gi: runoksegi
+     runo+N+Sg+Abe+Clt/gi: [runotagi, runottahgi]
+     runo+N+Sg+Com+Clt/gi: runonkegi
+     runo+N+Sg+Ine+Clt/gi: runosgi
+     runo+N+Sg+Ela+Clt/gi: [runospäigi, runosgi]
+     runo+N+Sg+Ill+Clt/gi: runohgi
+     runo+N+Sg+Ade+Clt/gi: runolgi
+     runo+N+Sg+Abl+Clt/gi: [runolpäigi, runolgi]
+     runo+N+Sg+All+Clt/gi: runolegi
+     runo+N+Sg+Ess+Clt/gi: runonnugi
+     runo+N+Sg+Ter+Clt/gi: runossahgi
+     runo+N+Sg+Apr+Clt/gi: runolluogi
+     runo+N+Pl+Nom+Clt/gi: runotgi
+     runo+N+Pl+Gen+Clt/gi: runoloingi
+     runo+N+Pl+Acc+Clt/gi: runotgi
+     runo+N+Pl+Par+Clt/gi: runoloigi
+     runo+N+Pl+Tra+Clt/gi: runoloiksegi
+     runo+N+Pl+Abe+Clt/gi: [runoloitagi, runoloittahgi]
+     runo+N+Pl+Com+Clt/gi: runoloinkegi
+     runo+N+Pl+Ine+Clt/gi: runoloisgi
+     runo+N+Pl+Ela+Clt/gi: [runoloispäigi, runoloisgi]
+     runo+N+Pl+Ill+Clt/gi: runoloihgi
+     runo+N+Pl+Ade+Clt/gi: runoloilgi
+     runo+N+Pl+Abl+Clt/gi: [runoloilpäigi, runoloilgi]
+     runo+N+Pl+All+Clt/gi: runoloilegi
+     runo+N+Pl+Ess+Clt/gi: runoloinnugi
+     runo+N+Pl+Ins+Clt/gi: runoloingi
+     runo+N+Pl+Apr+Clt/gi: runoloilluogi
