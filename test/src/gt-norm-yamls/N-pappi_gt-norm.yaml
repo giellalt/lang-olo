@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analuser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analuser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analuser, then correct. 
+
+
+  Adjective - pappi: # adjectives 'priest / pappi' - full paradigm
+     pappi+N+Sg+Nom: pappi
+     pappi+N+Sg+Gen: papin
+     pappi+N+Sg+Acc: [pappi, papin]
+     pappi+N+Sg+Par: pappii
+     pappi+N+Sg+Tra: papikse
+     pappi+N+Sg+Abe: [papita, papittah]
+     pappi+N+Sg+Com: papinke
+     pappi+N+Sg+Ine: papis
+     pappi+N+Sg+Ela: [papispäi, papis]
+     pappi+N+Sg+Ill: pappih
+     pappi+N+Sg+Ade: papil
+     pappi+N+Sg+Abl: [papilpäi, papil]
+     pappi+N+Sg+All: papile
+     pappi+N+Sg+Ess: papinnu, pappinnu
+     pappi+N+Sg+Ter: pappissah
+     pappi+N+Sg+Apr: papilluo
+     pappi+N+Pl+Nom: papit
+     pappi+N+Pl+Gen: [pappien, pappiloin]
+     pappi+N+Pl+Acc: papit
+     pappi+N+Pl+Par: [pappii, pappiloi]
+     pappi+N+Pl+Tra: [papikse, pappiloikse]
+     pappi+N+Pl+Abe: [papita, papittah, pappiloita, pappiloittah]
+     pappi+N+Pl+Com: [pappienke, pappiloinke]
+     pappi+N+Pl+Ine: [papis, pappilois]
+     pappi+N+Pl+Ela: [papispäi, papis, pappiloispäi, pappilois]
+     pappi+N+Pl+Ill: [pappih, pappiloih]
+     pappi+N+Pl+Ade: [papil, pappiloil]
+     pappi+N+Pl+Abl: [pappilpäi, pappil, pappiloilpäi, pappiloil]
+     pappi+N+Pl+All: [pappile, pappiloile]
+     pappi+N+Pl+Ess: [pappinnu, pappiloinnu]
+     pappi+N+Pl+Ins: [papin, pappiloin]
+     pappi+N+Pl+Apr: [pappielluo, pappiloilluo]
+     pappi+N+Sg+Nom+Clt/gi: pappigi
+     pappi+N+Sg+Gen+Clt/gi: papingi
+     pappi+N+Sg+Acc+Clt/gi: [pappigi, papingi]
+     pappi+N+Sg+Par+Clt/gi: pappiigi
+     pappi+N+Sg+Tra+Clt/gi: papiksegi
+     pappi+N+Sg+Abe+Clt/gi: [papitagi, papittahgi]
+     pappi+N+Sg+Com+Clt/gi: papinkegi
+     pappi+N+Sg+Ine+Clt/gi: papisgi
+     pappi+N+Sg+Ela+Clt/gi: [papispäigi, papisgi]
+     pappi+N+Sg+Ill+Clt/gi: pappihgi
+     pappi+N+Sg+Ade+Clt/gi: papilgi
+     pappi+N+Sg+Abl+Clt/gi: [papilpäigi, papilgi]
+     pappi+N+Sg+All+Clt/gi: papilegi
+     pappi+N+Sg+Ess+Clt/gi: papinnugi, pappinnugi
+     pappi+N+Sg+Ter+Clt/gi: pappissahgi
+     pappi+N+Sg+Apr+Clt/gi: papilluogi
+     pappi+N+Pl+Nom+Clt/gi: papitgi
+     pappi+N+Pl+Gen+Clt/gi: [pappiengi, pappiloingi]
+     pappi+N+Pl+Acc+Clt/gi: papitgi
+     pappi+N+Pl+Par+Clt/gi: [pappiigi, pappiloigi]
+     pappi+N+Pl+Tra+Clt/gi: [papiksegi, pappiloiksegi]
+     pappi+N+Pl+Abe+Clt/gi: [papitagi, papittahgi, pappiloitagi, pappiloittahgi]
+     pappi+N+Pl+Com+Clt/gi: [pappienkegi, pappiloinkegi]
+     pappi+N+Pl+Ine+Clt/gi: [papisgi, pappiloisgi]
+     pappi+N+Pl+Ela+Clt/gi: [papispäigi, papisgi, pappiloispäigi, pappiloisgi]
+     pappi+N+Pl+Ill+Clt/gi: [pappihgi, pappiloihgi]
+     pappi+N+Pl+Ade+Clt/gi: [papilgi, pappiloilgi]
+     pappi+N+Pl+Abl+Clt/gi: [papilpäigi, papilgi, pappiloilpäigi, pappiloilgi]
+     pappi+N+Pl+All+Clt/gi: [papilegi, pappiloilegi]
+     pappi+N+Pl+Ess+Clt/gi: [papinnugi, pappiloinnugi, pappinnugi]
+     pappi+N+Pl+Ins+Clt/gi: [papingi, pappiloingi]
+     pappi+N+Pl+Apr+Clt/gi: [pappielluogi, pappiloilluogi]

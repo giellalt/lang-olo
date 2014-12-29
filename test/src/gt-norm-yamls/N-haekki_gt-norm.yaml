@@ -1,0 +1,81 @@
+Cönfig:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    app: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  adjective - tver: # adjectives 'a bull / tver' - full paradigm
+     tver+N+Sg+Nom: tver
+     tver+N+Sg+Gen: tverin
+     tver+N+Sg+Acc: [tver, tverin]
+     tver+N+Sg+Par: tveri
+     tver+N+Sg+Tra: tverikse
+     tver+N+Sg+Abe: [tveritä, tverittäh]
+     tver+N+Sg+Com: tverinke
+     tver+N+Sg+Ine: tveris
+     tver+N+Sg+Ela: [tverispäi, tveris]
+     tver+N+Sg+Ill: tverih
+     tver+N+Sg+Ade: tveril
+     tver+N+Sg+Abl: [tverilpäi, tveril]
+     tver+N+Sg+All: tverile
+     tver+N+Sg+Ess: tverinny, tvernny
+     tver+N+Sg+Ter: tverissäh
+     tver+N+Sg+Apr: tverillyö
+     tver+N+Pl+Nom: tverit
+     tver+N+Pl+Gen: [tverin, tverilöin]
+     tver+N+Pl+Acc: tverit
+     tver+N+Pl+Par: [tverilöi, tverii]
+     tver+N+Pl+Tra: [tverikse, tverilöikse]
+     tver+N+Pl+Abe: [tveritä, tverittäh, tverilöitä, tverilöittäh]
+     tver+N+Pl+Com: [tverinke, tverilöinke]
+     tver+N+Pl+Ine: [tveris, tverilöis]
+     tver+N+Pl+Ela: [tverispäi, tveris, tverilöispäi, tverilöis]
+     tver+N+Pl+Ill: [tverilöih, tverih]
+     tver+N+Pl+Ade: [tverilöilpäi, tverilöil, tverilöil, tveril]
+     tver+N+Pl+Abl: [tverilpäi, tveril, ]
+     tver+N+Pl+All: [tverile, tverilöile]
+     tver+N+Pl+Ess: [tverinny, tverilöinny]
+     tver+N+Pl+Ins: [tverin, tverilöin]
+     tver+N+Pl+Apr: [tverillyö, tverilöillyö]
+     tver+N+Sg+Nom+Clt/gi: tverigi
+     tver+N+Sg+Gen+Clt/gi: tveringi
+     tver+N+Sg+Acc+Clt/gi: [tverigi, tveringi]
+     tver+N+Sg+Par+Clt/gi: tverigi
+     tver+N+Sg+Tra+Clt/gi: tveriksegi
+     tver+N+Sg+Abe+Clt/gi: [tveritägi, tverittähgi]
+     tver+N+Sg+Com+Clt/gi: tverinkegi
+     tver+N+Sg+Ine+Clt/gi: tverisgi
+     tver+N+Sg+Ela+Clt/gi: [tverispäigi, tverisgi]
+     tver+N+Sg+Ill+Clt/gi: tverhgi
+     tver+N+Sg+Ade+Clt/gi: tverilgi
+     tver+N+Sg+Abl+Clt/gi: [tverilpäigi, tverilgi]
+     tver+N+Sg+All+Clt/gi: tverilegi
+     tver+N+Sg+Ess+Clt/gi: tverinnygi, tverinnygi
+     tver+N+Sg+Ter+Clt/gi: tverissähgi
+     tver+N+Sg+Apr+Clt/gi: tverillyögi
+     tver+N+Pl+Nom+Clt/gi: tveritgi
+     tver+N+Pl+Gen+Clt/gi: [tveringi, tverilöingi]
+     tver+N+Pl+Acc+Clt/gi: tveritgi
+     tver+N+Pl+Par+Clt/gi: [tverigi, tverilöigi]
+     tver+N+Pl+Tra+Clt/gi: [tveriksegi, tverilöiksegi]
+     tver+N+Pl+Abe+Clt/gi: [tveritägi, tverittähgi, tverilöitägi, tverilöittähgi]
+     tver+N+Pl+Com+Clt/gi: [tverinkegi, tverilöinkegi]
+     tver+N+Pl+Ine+Clt/gi: [tverisgi, tverilöisgi]
+     tver+N+Pl+Ela+Clt/gi: [tverispäigi, tverisgi, tverilöispäigi, tverilöisgi]
+     tver+N+Pl+Ill+Clt/gi: [tverihgi, tverilöihgi]
+     tver+N+Pl+Ade+Clt/gi: [tverilgi, tverilöilgi]
+     tver+N+Pl+Abl+Clt/gi: [tverilöilpäigi, tverilöilgi, tverilpäigi, tverilgi]
+     tver+N+Pl+All+Clt/gi: [tverilöilegi, tverilegi]
+     tver+N+Pl+Ess+Clt/gi: [tverilöinnygi, tverinnygi]
+     tver+N+Pl+Ins+Clt/gi: [tverilöingi, tveringi]
+     tver+N+Pl+Apr+Clt/gi: [tverilöillyögi, tveriellyögi]

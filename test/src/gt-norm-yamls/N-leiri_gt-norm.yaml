@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjective - leiri: # adjectives 'big / leiri' - full paradigm
+     leiri+N+Sg+Nom: leiri
+     leiri+N+Sg+Gen: leirin
+     leiri+N+Sg+Acc: [leiri, leirin]
+     leiri+N+Sg+Par: leirii
+     leiri+N+Sg+Tra: leirikse
+     leiri+N+Sg+Abe: [leiritä, leirittäh]
+     leiri+N+Sg+Com: leirinke
+     leiri+N+Sg+Ine: leiris
+     leiri+N+Sg+Ela: [leirispäi, leiris]
+     leiri+N+Sg+Ill: leirih
+     leiri+N+Sg+Ade: leiril
+     leiri+N+Sg+Abl: [leirilpäi, leiril]
+     leiri+N+Sg+All: leirile
+     leiri+N+Sg+Ess: leirinny
+     leiri+N+Sg+Ter: leirissäh
+     leiri+N+Sg+Apr: leirillyö
+     leiri+N+Pl+Nom: leirit
+     leiri+N+Pl+Gen: [leirien, leirilöin]
+     leiri+N+Pl+Acc: leirit
+     leiri+N+Pl+Par: [leirii, leirilöi]
+     leiri+N+Pl+Tra: [leirikse, leirilöikse]
+     leiri+N+Pl+Abe: [leiritä, leirittäh, leirilöitä, leirilöittäh]
+     leiri+N+Pl+Com: [leirienke, leirilöinke]
+     leiri+N+Pl+Ine: [leiris, leirilöis]
+     leiri+N+Pl+Ela: [leirispäi, leiris, leirilöispäi, leirilöis]
+     leiri+N+Pl+Ill: [leirih, leirilöih]
+     leiri+N+Pl+Ade: [leiril, leirilöil]
+     leiri+N+Pl+Abl: [leirilpäi, leiril, leirilöilpäi, leirilöil]
+     leiri+N+Pl+All: [leirile, leirilöile]
+     leiri+N+Pl+Ess: [leirinny, leirilöinny]
+     leiri+N+Pl+Ins: [leirin, leirilöin]
+     leiri+N+Pl+Apr: [leiriellyö, leirilöillyö]
+     leiri+N+Sg+Nom+Clt/gi: leirigi
+     leiri+N+Sg+Gen+Clt/gi: leiringi
+     leiri+N+Sg+Acc+Clt/gi: [leirigi, leiringi]
+     leiri+N+Sg+Par+Clt/gi: leiridygi
+     leiri+N+Sg+Tra+Clt/gi: leiriksegi
+     leiri+N+Sg+Abe+Clt/gi: [leiritägi, leirittähgi]
+     leiri+N+Sg+Com+Clt/gi: leirinkegi
+     leiri+N+Sg+Ine+Clt/gi: leirisgi
+     leiri+N+Sg+Ela+Clt/gi: [leirispäigi, leirisgi]
+     leiri+N+Sg+Ill+Clt/gi: leirihgi
+     leiri+N+Sg+Ade+Clt/gi: leirilgi
+     leiri+N+Sg+Abl+Clt/gi: [leirilpäigi, leirilgi]
+     leiri+N+Sg+All+Clt/gi: leirilegi
+     leiri+N+Sg+Ess+Clt/gi: leirinnygi
+     leiri+N+Sg+Ter+Clt/gi: leirissähgi
+     leiri+N+Sg+Apr+Clt/gi: leirillyögi
+     leiri+N+Pl+Nom+Clt/gi: leiritgi
+     leiri+N+Pl+Gen+Clt/gi: [leiriengi, leirilöingi]
+     leiri+N+Pl+Acc+Clt/gi: leiritgi
+     leiri+N+Pl+Par+Clt/gi: [leiriigi, leirilöigi]
+     leiri+N+Pl+Tra+Clt/gi: [leiriksegi, leirilöiksegi]
+     leiri+N+Pl+Abe+Clt/gi: [leiritägi, leirittähgi, leirilöitägi, leirilöittähgi]
+     leiri+N+Pl+Com+Clt/gi: [leirienkegi, leirilöinkegi]
+     leiri+N+Pl+Ine+Clt/gi: [leirisgi, leirilöisgi]
+     leiri+N+Pl+Ela+Clt/gi: [leirispäigi, leirisgi, leirilöispäigi, leirilöisgi]
+     leiri+N+Pl+Ill+Clt/gi: [leirihgi, leirilöihgi]
+     leiri+N+Pl+Ade+Clt/gi: [leirilgi, leirilöilgi]
+     leiri+N+Pl+Abl+Clt/gi: [leirilpäigi, leirilgi, leirilöilpäigi, leirilöilgi]
+     leiri+N+Pl+All+Clt/gi: [leirilegi, leirilöilegi]
+     leiri+N+Pl+Ess+Clt/gi: [leirinnygi, leirilöinnygi]
+     leiri+N+Pl+Ins+Clt/gi: [leiringi, leirilöingi]
+     leiri+N+Pl+Apr+Clt/gi: [leiriellyögi, leirilöillyögi]
