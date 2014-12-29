@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - oza: # Noun 'piece, part, happines / oza' - full paradigm
+     oza+N+Sg+Nom: oza
+     oza+N+Sg+Gen: ozan
+     oza+N+Sg+Acc: [oza, ozan]
+     oza+N+Sg+Par: ozua
+     oza+N+Sg+Tra: ozakse
+     oza+N+Sg+Abe: [ozata, ozattah]
+     oza+N+Sg+Com: ozanke
+     oza+N+Sg+Ine: ozas
+     oza+N+Sg+Ela: [ozaspäi, ozas]
+     oza+N+Sg+Ill: ozah
+     oza+N+Sg+Ade: ozal
+     oza+N+Sg+Abl: [ozalpäi, ozal]
+     oza+N+Sg+All: ozale
+     oza+N+Sg+Ess: ozannu
+     oza+N+Sg+Ter: ozassah
+     oza+N+Sg+Apr: ozalluo
+     oza+N+Pl+Nom: ozat
+     oza+N+Pl+Gen: ozien
+     oza+N+Pl+Acc: ozat
+     oza+N+Pl+Par: ozii
+     oza+N+Pl+Tra: ozikse
+     oza+N+Pl+Abe: [ozita, ozittah]
+     oza+N+Pl+Com: ozienke
+     oza+N+Pl+Ine: ozis
+     oza+N+Pl+Ela: [ozispäi, ozis]
+     oza+N+Pl+Ill: ozih
+     oza+N+Pl+Ade: ozil
+     oza+N+Pl+Abl: [ozilpäi, ozil]
+     oza+N+Pl+All: ozile
+     oza+N+Pl+Ess: ozinnu
+     oza+N+Pl+Ins: ozin
+     oza+N+Pl+Apr: ozielluo
+     oza+N+Sg+Nom+Clt/gi: ozagi
+     oza+N+Sg+Gen+Clt/gi: ozangi
+     oza+N+Sg+Acc+Clt/gi: [ozagi, ozangi]
+     oza+N+Sg+Par+Clt/gi: ozuagi
+     oza+N+Sg+Tra+Clt/gi: ozaksegi
+     oza+N+Sg+Abe+Clt/gi: [ozatagi, ozattahgi]
+     oza+N+Sg+Com+Clt/gi: ozankegi
+     oza+N+Sg+Ine+Clt/gi: ozasgi
+     oza+N+Sg+Ela+Clt/gi: [ozaspäigi, ozasgi]
+     oza+N+Sg+Ill+Clt/gi: ozahgi
+     oza+N+Sg+Ade+Clt/gi: ozalgi
+     oza+N+Sg+Abl+Clt/gi: [ozalpäigi, ozalgi]
+     oza+N+Sg+All+Clt/gi: ozalegi
+     oza+N+Sg+Ess+Clt/gi: ozannugi
+     oza+N+Sg+Ter+Clt/gi: ozassahgi
+     oza+N+Sg+Apr+Clt/gi: ozalluogi
+     oza+N+Pl+Nom+Clt/gi: ozatgi
+     oza+N+Pl+Gen+Clt/gi: oziengi
+     oza+N+Pl+Acc+Clt/gi: ozatgi
+     oza+N+Pl+Par+Clt/gi: oziigi
+     oza+N+Pl+Tra+Clt/gi: oziksegi
+     oza+N+Pl+Abe+Clt/gi: [ozitagi, ozittahgi]
+     oza+N+Pl+Com+Clt/gi: ozienkegi
+     oza+N+Pl+Ine+Clt/gi: ozisgi
+     oza+N+Pl+Ela+Clt/gi: [ozispäigi, ozisgi]
+     oza+N+Pl+Ill+Clt/gi: ozihgi
+     oza+N+Pl+Ade+Clt/gi: ozilgi
+     oza+N+Pl+Abl+Clt/gi: [ozilpäigi, ozilgi]
+     oza+N+Pl+All+Clt/gi: ozilegi
+     oza+N+Pl+Ess+Clt/gi: ozinnugi
+     oza+N+Pl+Ins+Clt/gi: ozingi
+     oza+N+Pl+Apr+Clt/gi: ozielluogi
