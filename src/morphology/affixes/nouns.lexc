@@ -494,7 +494,7 @@ LEXICON N_KONDII-PL
 +N: NMN_KONDII-PL        ;
 
 LEXICON N_REBOI !!= @CODE@ reboi:reboi
-!! Gradation NA
+!! Gradation No
 !! Harmony: Back
 +N: ATTESTED-NOUN-STEM ;
         N_REBOI-SG ;
@@ -503,6 +503,17 @@ LEXICON N_REBOI-SG
 +N: NMN_REBOI-SG ;
 LEXICON N_REBOI-PL
 +N: NMN_REBOI-PL ;
+
+LEXICON N_PÖČÖI !!= @CODE@ pöčöi:pöččö
+!! Gradation Yes
+!! Harmony: Front
++N:%^WGStemi ATTESTED-NOUN-STEM ;
+        N_PÖČÖI-SG ;
+        N_PÖČÖI-PL ;
+LEXICON N_PÖČÖI-SG
++N: NMN_PÖČÖI-SG ;
+LEXICON N_PÖČÖI-PL
++N: NMN_PÖČÖI-PL ;
 
 LEXICON N_VALGEI !!= @CODE@ valgei:valge
 !! Gradation NA
@@ -2944,6 +2955,22 @@ LEXICON NMN_REBOI-PL
 :%^ILoss%>loi PLPARSUF_Zero ;
 :%^ILoss%>loi PLINSSUF ;
 +Pl:%^ILoss%>loi Noun-NB-01 ;
+
+LEXICON NMN_PÖČÖI !!= @CODE@ pöčöi:pöččö
+        NMN_PÖČÖI-SG ;
+        NMN_PÖČÖI-PL ;
+LEXICON NMN_PÖČÖI-SG
+:%^WGStemi SGNOMSUF ;
+:%^WGStemi SGGENSUF-USUALLY-WEAK ;
+:i SGPARSUF_dU ;
++Sg:%^WGStemi Noun-NB-01-USUALLY-WEAK ;
++Sg:i Noun-NB-01-USUALLY-STRONG ;
+LEXICON NMN_PÖČÖI-PL
+:%^WGStemi	PLNOMSUF-USUALLY-WEAK ;
+:%>löi PLGENSUF_N ;
+:%>löi PLPARSUF_Zero ;
+:%>löi PLINSSUF ;
++Pl:%>löi Noun-NB-01 ;
 
 LEXICON NMN_OZA !!= @CODE@ oza:oza
 	NMN_OZA-SG  ;
