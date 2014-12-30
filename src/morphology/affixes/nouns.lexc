@@ -1309,15 +1309,15 @@ LEXICON NMN_TUATTO-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
 :%>i PLGENSUF_N ; ! the plural comitative is declined here
 :%>i PLPARSUF_Zero ;
-:%>i PLINSSUF ;
+:%>i%^WGStem PLINSSUF ;
 +Pl:%>i%^WGStem Noun-NB-01-USUALLY-WEAK ;
 +Pl:%>i Noun-NB-01-USUALLY-STRONG ;
 
-:%^A2O%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
-:%^A2O%>l%{oö%}i PLPARSUF_Zero ;
-:%^A2O%>l%{oö%}i PLINSSUF ;
-+Pl:%^A2O%>l%{oö%}i%^WGStem Noun-NB-01-USUALLY-WEAK ;
-+Pl:%^A2O%>l%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+:%^A2O%>loi PLGENSUF_N ; ! the plural comitative is declined here
+:%^A2O%>loi PLPARSUF_Zero ;
+:%^A2O%>loi%^WGStem PLINSSUF ;
++Pl:%^A2O%>loi%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Pl:%^A2O%>loi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_DIÄDÖ !!= @CODE@ diädö:diädä
  NMN_DIÄDÖ-SG ;
@@ -1374,7 +1374,7 @@ LEXICON NMN_AKKU-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
 :%^A2O%>i PLGENSUF_N ; ! the plural comitative is declined here
 :%^A2O%>i PLPARSUF_Zero ;
-:%^A2O%>i PLINSSUF ;
+:%^A2O%>i%^WGStem PLINSSUF ;
 +Pl:%^A2O%>i%^WGStem Noun-NB-01-USUALLY-WEAK ;
 +Pl:%^A2O%>i Noun-NB-01-USUALLY-STRONG ;
 
@@ -1435,11 +1435,11 @@ LEXICON NMN_VEZI-PL
 +Pl:%^D2Z%>i Noun-NB-01-USUALLY-WEAK ;
 +Pl:%^D2Z%>i Noun-NB-01-USUALLY-STRONG ;
 
-:%^D2Z%>i%>l%{OÖ%}i PLGENSUF_EN ; ! the plural comitative is declined here
-:%^D2Z%>i%>l%{OÖ%}i PLPARSUF_Zero ;
-:%^D2Z%>i%>l%{OÖ%}i PLINSSUF ;
-+Pl:%^D2Z%>i%>l%{OÖ%}i Noun-NB-01-USUALLY-WEAK ;
-+Pl:%^D2Z%>i%>l%{OÖ%}i Noun-NB-01-USUALLY-STRONG ;
+:%^D2Z%>i%>löi PLGENSUF_EN ; ! the plural comitative is declined here
+:%^D2Z%>i%>löi PLPARSUF_Zero ;
+:%^D2Z%>i%>löi PLINSSUF ;
++Pl:%^D2Z%>i%>löi Noun-NB-01-USUALLY-WEAK ;
++Pl:%^D2Z%>i%>löi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_SUZI !!= @CODE@ suzi:su
  NMN_SUZI-SG ;
@@ -1449,14 +1449,16 @@ LEXICON NMN_SUZI-SG
 :z%>i SGNOMSUF ;
 :ze SGGENSUF ;
 :t SGPARSUF_dU ;
-+Sg:ze Noun-NB-01 ;
++Sg:ze Noun-NB-01-USUALLY-WEAK ;
++Sg:ze Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_SUZI-PL
 :ze PLNOMSUF-USUALLY-WEAK ;
-:z%>i%>l%{OÖ%}i PLGENSUF_EN ; ! the plural comitative is declined here
-:z%>i%>l%{OÖ%}i PLPARSUF_i ;
-:z%>i%>l%{OÖ%}i PLINSSUF ;
-+Pl:z%>i%>l%{OÖ%}i Noun-NB-01 ;
+:z%>i%>loi PLGENSUF_EN ; ! the plural comitative is declined here
+:z%>i%>loi PLPARSUF_i ;
+:z%>i%>loi PLINSSUF ;
++Pl:z%>i%>loi Noun-NB-01-USUALLY-WEAK ;
++Pl:z%>i%>loi Noun-NB-01-USUALLY-STRONG ;
 
 !! !NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
 LEXICON NMN_NIMI
@@ -1475,12 +1477,13 @@ LEXICON NMN_NIMI-PL
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
+:ilöi PLGENSUF_N ;
+:ilöi PLPARSUF_Zero ;
+:ilöi PLINSSUF ;
++Pl:ilöi Noun-NB-01-USUALLY-WEAK ;
++Pl:ilöi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_HANGI
 !! Gradation: No
@@ -1500,12 +1503,13 @@ LEXICON NMN_HANGI-PL
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
+:iloi PLGENSUF_N ;
+:iloi PLPARSUF_Zero ;
+:iloi PLINSSUF ;
++Pl:iloi Noun-NB-01-USUALLY-WEAK ;
++Pl:iloi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_JÄLGI
 !! Front Vowel
@@ -1524,14 +1528,14 @@ LEXICON NMN_JÄLGI-PL
 :e%^WGStem PLNOMSUF-USUALLY-WEAK	;
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
+:%>i%^WGStem PLINSSUF ;
 +Pl:i%^WGStem Noun-NB-01-USUALLY-WEAK ;
 +Pl:i Noun-NB-01-USUALLY-STRONG ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+:ilöi PLGENSUF_N ;
+:ilöi PLPARSUF_Zero ;
+:ilöi PLINSSUF ;
++Pl:ilöi Noun-NB-01-USUALLY-WEAK ;
++Pl:ilöi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_JOGI !!= @CODE@ jogi:jog
 !! Back Vowel
@@ -1550,14 +1554,14 @@ LEXICON NMN_JOGI-PL
 :e%^WGStem PLNOMSUF-USUALLY-WEAK	;
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
+:%>i%^WGStem PLINSSUF ;
 +Pl:i%^WGStem Noun-NB-01-USUALLY-WEAK ;
 +Pl:i Noun-NB-01-USUALLY-STRONG ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+:iloi PLGENSUF_N ;
+:iloi PLPARSUF_Zero ;
+:iloi PLINSSUF ;
++Pl:iloi Noun-NB-01-USUALLY-WEAK ;
++Pl:iloi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_KIELI
 	NMN_KIELI-SG ;
@@ -1574,12 +1578,13 @@ LEXICON NMN_KIELI-PL
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
+:ilöi PLGENSUF_N ;
+:ilöi PLPARSUF_Zero ;
+:ilöi PLINSSUF ;
++Pl:ilöi Noun-NB-01-USUALLY-WEAK ;
++Pl:ilöi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_SUARI
 	NMN_SUARI-SG ;
@@ -1596,12 +1601,13 @@ LEXICON NMN_SUARI-PL
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
-+Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
+:iloi PLGENSUF_N ;
+:iloi PLPARSUF_Zero ;
+:iloi PLINSSUF ;
++Pl:iloi Noun-NB-01-USUALLY-WEAK ;
++Pl:iloi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_YKSI  !!= @CODE@ yksi:y
 	NMN_YKSI-SG ;
@@ -1660,7 +1666,7 @@ LEXICON NMN_VUOZI-PL
 :%^D2Z%>i PLINSSUF ;
 +Pl:%^D2Z%>i Noun-NB-01 ;
 
-:%^D2Z%>i%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
+:%^D2Z%>i%>loi PLGENSUF_N ; ! the plural comitative is declined here
 :%^D2Z%>i%>%{oö%}i PLPARSUF_Zero ;
 :%^D2Z%>i%>%{oö%}i PLINSSUF ;
 +Pl:%^D2Z%>i%>%{oö%}i Noun-NB-01 ;
@@ -1720,11 +1726,11 @@ LEXICON NMN_PIIRAI-SG
 
 LEXICON NMN_PIIRAI-PL
 :a PLNOMSUF-USUALLY-WEAK ;
-:al%{oö%}i PLGENSUF_N ;
-:al%{oö%}i PLPARSUF_Zero ;
-:al%{oö%}i PLINSSUF ;
-+Pl:al%{oö%}i Noun-NB-01-USUALLY-WEAK ;
-+Pl:al%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+:aloi PLGENSUF_N ;
+:aloi PLPARSUF_Zero ;
+:aloi PLINSSUF ;
++Pl:aloi Noun-NB-01-USUALLY-WEAK ;
++Pl:aloi Noun-NB-01-USUALLY-STRONG ;
 
 
 LEXICON NMN_PAGIZII
@@ -1842,7 +1848,7 @@ LEXICON NMN_MEČČY-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
 :%>i PLGENSUF_N ; ! the plural comitative is declined here
 :%>i PLPARSUF_Zero ;
-:%>i PLINSSUF ;
+:%>i%^WGStem PLINSSUF ;
 +Pl:%>i%^WGStem Noun-NB-01-USUALLY-WEAK ;
 +Pl:%>i Noun-NB-01-USUALLY-STRONG ;
 
@@ -1884,10 +1890,10 @@ LEXICON NMN_KOIVU-SG
 
 LEXICON NMN_KOIVU-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>loi PLGENSUF_N ; ! the plural comitative is declined here
+:%>loi PLPARSUF_Zero ;
+:%>loi PLINSSUF ;
++Pl:%>loi Noun-NB-01 ;
 
 LEXICON NMN_LUGU !!= @CODE@ lugu:lugu
 !! Gradation Yes
@@ -1903,10 +1909,10 @@ LEXICON NMN_LUGU-SG
 
 LEXICON NMN_LUGU-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
-:%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>loi PLGENSUF_N ; ! the plural comitative is declined here
+:%>loi PLPARSUF_Zero ;
+:%>loi PLINSSUF ;
++Pl:%>loi Noun-NB-01 ;
 
 LEXICON NMN_HERY !!= @CODE@ hery:hery
 !! Gradation NA
@@ -1923,10 +1929,10 @@ LEXICON NMN_HERY-SG
 
 LEXICON NMN_HERY-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>löi PLGENSUF_N ; ! the plural comitative is declined here
+:%>löi PLPARSUF_Zero ;
+:%>löi PLINSSUF ;
++Pl:%>löi Noun-NB-01 ;
 
 LEXICON NMN_IDY !!= @CODE@ idy:idy
 !! Gradation Yes
@@ -1942,10 +1948,10 @@ LEXICON NMN_IDY-SG
 
 LEXICON NMN_IDY-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
-:%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>löi PLGENSUF_N ; ! the plural comitative is declined here
+:%>löi PLPARSUF_Zero ;
+:%>löi PLINSSUF ;
++Pl:%>löi Noun-NB-01 ;
 
 
 LEXICON NMN_VASKIČČU !!= @CODE@ vaskičču:vaskičč
@@ -1960,10 +1966,10 @@ LEXICON NMN_VASKIČČU-SG
 
 LEXICON NMN_VASKIČČU-PL
 :a%^WGStem PLNOMSUF-USUALLY-WEAK ;
-:u%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
-:u%>l%{oö%}i PLPARSUF_Zero ;
-:u%>l%{oö%}i PLINSSUF ;
-+Pl:u%>l%{oö%}i Noun-NB-01 ;
+:u%>loi PLGENSUF_N ; ! the plural comitative is declined here
+:u%>loi PLPARSUF_Zero ;
+:u%>loi PLINSSUF ;
++Pl:u%>loi Noun-NB-01 ;
 
 LEXICON NMN_SYGYZY !!= @CODE@ sygyzy:sygyzy
         NMN_SYGYZY-SG ;
@@ -1977,10 +1983,10 @@ LEXICON NMN_SYGYZY-SG
 
 LEXICON NMN_SYGYZY-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>l%{oö%}i PLGENSUF_N ; ! the plural comitative is declined here
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>löi PLGENSUF_N ; ! the plural comitative is declined here
+:%>löi PLPARSUF_Zero ;
+:%>löi PLINSSUF ;
++Pl:%>löi Noun-NB-01 ;
 
 
 LEXICON NMN_VALGEI !!= * __@CODE@__ valgei:valge
@@ -1994,10 +2000,10 @@ LEXICON NMN_VALGEI-SG
 +Sg:%>e Noun-NB-01 ;
 LEXICON NMN_VALGEI-PL
 :%>e PLNOMSUF-USUALLY-WEAK	;
-:%>el%{oö%}i PLGENSUF_N ;
-:%>el%{oö%}i PLPARSUF_Zero ;
-:%>el%{oö%}i PLINSSUF ;
-+Pl:%>el%{oö%}i Noun-NB-01 ;
+:%>eloi PLGENSUF_N ;
+:%>eloi PLPARSUF_Zero ;
+:%>eloi PLINSSUF ;
++Pl:%>eloi Noun-NB-01 ;
 
 LEXICON NMN_RAHMANNOI !!= @CODE@ rahmannoi:rahmannoi
 	NMN_RAHMANNOI-SG	;
@@ -2013,11 +2019,12 @@ LEXICON NMN_RAHMANNOI-PL
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-+Pl:il%{oö%}i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
+:iloi PLGENSUF_N ;
+:iloi PLPARSUF_Zero ;
+:iloi PLINSSUF ;
++Pl:iloi Noun-NB-01 ;
 
 LEXICON NMN_HARDIE !!= @CODE@ hardie:hardie
 	NMN_HARDIE-SG	;
@@ -2030,10 +2037,10 @@ LEXICON NMN_HARDIE-SG
 +Sg: Noun-NB-01 ;
 LEXICON NMN_HARDIE-PL
 : PLNOMSUF-USUALLY-WEAK	;
-:%>l%{oö%}i PLGENSUF_N ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>loi PLGENSUF_N ;
+:%>loi PLPARSUF_Zero ;
+:%>loi PLINSSUF ;
++Pl:%>loi Noun-NB-01 ;
 
 LEXICON NMN_KONDII !!= @CODE@ kondii:kondi
 	NMN_KONDII-SG	;
@@ -2046,10 +2053,10 @@ LEXICON NMN_KONDII-SG
 +Sg:e Noun-NB-01 ;
 LEXICON NMN_KONDII-PL
 :e PLNOMSUF-USUALLY-WEAK	;
-:e%>l%{oö%}i PLGENSUF_N ;
-:e%>l%{oö%}i PLPARSUF_Zero ;
-:e%>l%{oö%}i PLINSSUF ;
-+Pl:e%>l%{oö%}i Noun-NB-01 ;
+:e%>loi PLGENSUF_N ;
+:e%>loi PLPARSUF_Zero ;
+:e%>loi PLINSSUF ;
++Pl:e%>loi Noun-NB-01 ;
 
 LEXICON NMN_SEIČČIE !!= @CODE@ seiččie:seičče
 	NMN_SEIČČIE-SG	;
@@ -2149,10 +2156,10 @@ LEXICON NMN_RUNO-SG
 +Sg: 	Noun-NB-01 ;
 LEXICON NMN_RUNO-PL
  PLNOMSUF-USUALLY-WEAK ;
-:l%{oö%}i PLGENSUF_N ;
-:l%{oö%}i PLPARSUF_Zero ;
-:l%{oö%}i PLINSSUF ;
-+Pl:l%{oö%}i Noun-NB-01 ;
+:loi PLGENSUF_N ;
+:loi PLPARSUF_Zero ;
+:loi PLINSSUF ;
++Pl:loi Noun-NB-01 ;
 
 LEXICON NMN_HÖRÖ !!= @CODE@ hörö:hörö
 !! Gradation No
@@ -2166,10 +2173,10 @@ LEXICON NMN_HÖRÖ-SG
 +Sg: 	Noun-NB-01 ;
 LEXICON NMN_HÖRÖ-PL
  PLNOMSUF-USUALLY-WEAK ;
-:l%{oö%}i PLGENSUF_N ;
-:l%{oö%}i PLPARSUF_Zero ;
-:l%{oö%}i PLINSSUF ;
-+Pl:l%{oö%}i Noun-NB-01 ;
+:löi PLGENSUF_N ;
+:löi PLPARSUF_Zero ;
+:löi PLINSSUF ;
++Pl:löi Noun-NB-01 ;
 
 LEXICON NMN_RUADO !!= @CODE@ ruado:ruado
 !! Gradation Yes
@@ -2184,11 +2191,11 @@ LEXICON NMN_RUADO-SG
 +Sg: 	Noun-NB-01-USUALLY-STRONG ;
 LEXICON NMN_RUADO-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
-:l%{oö%}i PLGENSUF_N ;
-:l%{oö%}i PLPARSUF_Zero ;
-:l%{oö%}i PLINSSUF ;
-+Pl:l%{oö%}i Noun-NB-01-USUALLY-WEAK ;
-+Pl:l%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+:loi PLGENSUF_N ;
+:loi PLPARSUF_Zero ;
+:loi PLINSSUF ;
++Pl:loi Noun-NB-01-USUALLY-WEAK ;
++Pl:loi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_KYNDÖ !!= @CODE@ kyndö:kyndö
 	NMN_KYNDÖ-SG ;
@@ -2201,10 +2208,10 @@ LEXICON NMN_KYNDÖ-SG
 +Sg: 	Noun-NB-01 ;
 LEXICON NMN_KYNDÖ-PL
  PLNOMSUF-USUALLY-WEAK ;
-:l%{oö%}i PLGENSUF_N ;
-:l%{oö%}i PLPARSUF_Zero ;
-:l%{oö%}i PLINSSUF ;
-+Pl:l%{oö%}i Noun-NB-01 ;
+:löi PLGENSUF_N ;
+:löi PLPARSUF_Zero ;
+:löi PLINSSUF ;
++Pl:löi Noun-NB-01 ;
 
 
 LEXICON NMN_KUU !!= @CODE@ kuu:kuu
@@ -2219,10 +2226,10 @@ LEXICON NMN_KUU-SG
 
 LEXICON NMN_KUU-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>l%{oö%}i PLGENSUF_N ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>loi PLGENSUF_N ;
+:%>loi PLPARSUF_Zero ;
+:%>loi PLINSSUF ;
++Pl:%>loi Noun-NB-01 ;
 
 LEXICON NMN_PIÄ !!= @CODE@ piä:piä
 	NMN_PIÄ-SG	;
@@ -2236,10 +2243,10 @@ LEXICON NMN_PIÄ-SG
 
 LEXICON NMN_PIÄ-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>l%{oö%}i PLGENSUF_N ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>löi PLGENSUF_N ;
+:%>löi PLPARSUF_Zero ;
+:%>löi PLINSSUF ;
++Pl:%>löi Noun-NB-01 ;
 
 
 LEXICON NMN_VYÖ !!= @CODE@ vyö:vyö
@@ -2254,10 +2261,10 @@ LEXICON NMN_VYÖ-SG
 
 LEXICON NMN_VYÖ-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>l%{oö%}i PLGENSUF_N ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>löi PLGENSUF_N ;
+:%>löi PLPARSUF_Zero ;
+:%>löi PLINSSUF ;
++Pl:%>löi Noun-NB-01 ;
 
 
 LEXICON NMN_MUA !!= @CODE@ mua:mua
@@ -2272,10 +2279,10 @@ LEXICON NMN_MUA-SG
 
 LEXICON NMN_MUA-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>l%{oö%}i PLGENSUF_N ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>loi PLGENSUF_N ;
+:%>loi PLPARSUF_Zero ;
+:%>loi PLINSSUF ;
++Pl:%>loi Noun-NB-01 ;
 
 LEXICON NMN_KALA !!= @CODE@ kala:kala
 !! Gradation NA
@@ -2360,7 +2367,8 @@ LEXICON NMN_MADAL-PL !!= @CODE@ madal:madal
 :%>i PLGENSUF_N ;
 :%>ii PLPARSUF_Zero ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 !! ! Nominative singular in "m"
 
@@ -2420,10 +2428,9 @@ LEXICON NMN_SALBOIN-PL
 :%>mi PLINSSUF ;
 +Pl:mi Noun-NB-01-USUALLY-WEAK ;
 +Pl:mi Noun-NB-01-USUALLY-STRONG ;
-!:il%{oö%}i PLGENSUF_N ;
-!:il%{oö%}i PLPARSUF_Zero ;
-!:il%{oö%}i PLINSSUF ;
-!+Pl:mil%{oö%}i Noun-NB-01 ;
+!:iloi PLGENSUF_N ;
+!:iloi PLPARSUF_Zero ;
+!:iloi PLINSSUF ;
 
 LEXICON NMN_ENIN !!= @CODE@ enin:eni
 	NMN_ENIN-SG	;
@@ -2458,11 +2465,12 @@ LEXICON NMN_PIENAR-PL
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-+Pl:il%{oö%}i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
+:iloi PLGENSUF_N ;
+:iloi PLPARSUF_Zero ;
+:iloi PLINSSUF ;
++Pl:iloi Noun-NB-01 ;
 
 LEXICON NMN_UDAR
 	NMN_UDAR-SG	;
@@ -2478,11 +2486,12 @@ LEXICON NMN_UDAR-PL
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
-:il%{oö%}i PLGENSUF_N ;
-:il%{oö%}i PLPARSUF_Zero ;
-:il%{oö%}i PLINSSUF ;
-+Pl:il%{oö%}i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
+:iloi PLGENSUF_N ;
+:iloi PLPARSUF_Zero ;
+:iloi PLINSSUF ;
++Pl:iloi Noun-NB-01 ;
 
 !! ! Nominative singular in "s"
 LEXICON NMN_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
@@ -2518,7 +2527,8 @@ LEXICON NMN_ALUS-PL
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_ILVES !!= @CODE@ ilves:ilveks
 	NMN_ILVES-SG ;
@@ -2535,7 +2545,8 @@ LEXICON NMN_ILVES-PL
 :%>i PLGENSUF_EN ; ! the plural comitative is declined here
 :%>i PLPARSUF_i ;
 :%>i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_MIES !!= @CODE@ mies:mie
 	NMN_MIES-SG ;
@@ -2600,7 +2611,8 @@ LEXICON NMN_BEMMEL-PL
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_VIDEL !!= @CODE@ videl:videl
 !! Gradation No
@@ -2617,7 +2629,8 @@ LEXICON NMN_VIDEL-PL
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_TUORES !!= @CODE@ tuores:tuore
 !!= * Yaml: __A-tuores__
@@ -2702,7 +2715,8 @@ LEXICON NMN_OLUT-PL
 :je PLGENSUF_N ;
 :i PLPARSUF_dU ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_KEVÄT !!= * @CODE@ kevät:kevä
  NMN_KEVÄT-SG ;
@@ -2771,7 +2785,8 @@ LEXICON NMN_PEREH-PL
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_LIIKEH !!= @CODE@ liikeh:liikkeh
 	NMN_LIIKEH-SG	;
@@ -2786,7 +2801,8 @@ LEXICON NMN_LIIKEH-PL
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_SIVE !!= @CODE@ sive:sive
 	NMN_SIVE-SG	;
@@ -2801,7 +2817,8 @@ LEXICON NMN_SIVE-PL
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_PENGER !!= @CODE@ penger:penger
 	NMN_PENGER-SG	;
@@ -2816,7 +2833,8 @@ LEXICON NMN_PENGER-PL
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_ARTELI !!= @CODE@ arteli:arteli
 	NMN_ARTELI-SG ;
@@ -2829,9 +2847,9 @@ LEXICON NMN_ARTELI-SG
 LEXICON NMN_ARTELI-PL
 : PLNOMSUF-USUALLY-WEAK ;
 : PLGENSUF_EN ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>loi PLPARSUF_Zero ;
+:%>loi PLINSSUF ;
++Pl:%>loi Noun-NB-01 ;
 
 
 LEXICON NMN_PAPPI !!= @CODE@ pappi:pappi
@@ -2845,9 +2863,15 @@ LEXICON NMN_PAPPI-SG
 LEXICON NMN_PAPPI-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
 : PLGENSUF_EN ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+: PLPARSUF_i ;
+:%^WGStem PLINSSUF ;
++Pl:%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Pl: Noun-NB-01-USUALLY-STRONG ;
+:%>loi PLGENSUF_N ;
+:%>loi PLPARSUF_Zero ;
+:%>loi PLINSSUF ;
++Pl:%>loi Noun-NB-01-USUALLY-WEAK ;
++Pl:%>loi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_HÄKKI !!= @CODE@ häkki:häkki
 	NMN_HÄKKI-SG ;
@@ -2860,9 +2884,10 @@ LEXICON NMN_HÄKKI-SG
 LEXICON NMN_HÄKKI-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
 : PLGENSUF_EN ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+:%>löi PLGENSUF_N ;
+:%>löi PLPARSUF_Zero ;
+:%>löi PLINSSUF ;
++Pl:%>löi Noun-NB-01 ;
 
 
 LEXICON NMN_LEIRI !!= @CODE@ leiri:leiri
@@ -2877,9 +2902,15 @@ LEXICON NMN_LEIRI-SG
 LEXICON NMN_LEIRI-PL
 : PLNOMSUF-USUALLY-WEAK ;
 : PLGENSUF_EN ;
-:%>l%{oö%}i PLPARSUF_Zero ;
-:%>l%{oö%}i PLINSSUF ;
-+Pl:%>l%{oö%}i Noun-NB-01 ;
+: PLPARSUF_i ;
+: PLINSSUF ;
++Pl: Noun-NB-01-USUALLY-WEAK ;
++Pl: Noun-NB-01-USUALLY-STRONG ;
+:%>löi PLGENSUF_N ;
+:%>löi PLPARSUF_Zero ;
+:%>löi PLINSSUF ;
++Pl:%>löi Noun-NB-01-USUALLY-WEAK ;
++Pl:%>löi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_UKSI !!= @CODE@ uksi:uks
 	NMN_UKSI-SG ;
@@ -2896,7 +2927,8 @@ LEXICON NMN_UKSI-PL
 :i PLGENSUF_EN ;
 :i PLPARSUF_Zero ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_REBOI !!= @CODE@ reboi:reboi
         NMN_REBOI-SG ;
@@ -2908,10 +2940,10 @@ LEXICON NMN_REBOI-SG
 +Sg: Noun-NB-01 ;
 LEXICON NMN_REBOI-PL
 :	PLNOMSUF-USUALLY-WEAK ;
-:%^ILoss%>l%{oö%}i PLGENSUF_N ;
-:%^ILoss%>l%{oö%}i PLPARSUF_Zero ;
-:%^ILoss%>l%{oö%}i PLINSSUF ;
-+Pl:%^ILoss%>l%{oö%}i Noun-NB-01 ;
+:%^ILoss%>loi PLGENSUF_N ;
+:%^ILoss%>loi PLPARSUF_Zero ;
+:%^ILoss%>loi PLINSSUF ;
++Pl:%^ILoss%>loi Noun-NB-01 ;
 
 LEXICON NMN_OZA !!= @CODE@ oza:oza
 	NMN_OZA-SG  ;
@@ -2961,7 +2993,8 @@ LEXICON NMN_SAMMAL-PL
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_TVER !!= @CODE@ tver:tver
 !! Gradation NA
@@ -2978,10 +3011,10 @@ LEXICON NMN_TVER-SG
 +Sg:i Noun-NB-01 ;
 LEXICON NMN_TVER-PL	
 :i PLNOMSUF-USUALLY-WEAK ;
-:i%>l%{OÖ%}i PLGENSUF_EN ;
-:i%>l%{OÖ%}i PLPARSUF_i ;
-:i%>l%{OÖ%}i PLINSSUF ;
-+Pl:i%>l%{OÖ%}i Noun-NB-01 ;
+:i%>löi PLGENSUF_EN ;
+:i%>löi PLPARSUF_i ;
+:i%>löi PLINSSUF ;
++Pl:i%>löi Noun-NB-01 ;
 
 LEXICON NMN_VANUIN !!= @CODE@ vanuin:vanui
 !! Gradation NA
@@ -3177,14 +3210,16 @@ LEXICON NMN_ABRAMOV-SG
  SGNOMSUF ;
 :%>%{aäPar%} SGGENSUF-USUALLY-WEAK ;
 :%>%{ui%} SGPARSUF_A2 ;
-+Sg:%>%{aäPar%} Noun-NB-01 ;
++Sg:%>%{aäPar%} Noun-NB-01-USUALLY-WEAK ;
++Sg:%>%{aäPar%} Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_ABRAMOV-PL
 :%>%{aäPar%} PLNOMSUF-USUALLY-WEAK ;
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
-+Pl:i Noun-NB-01 ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
 
 
 
@@ -3236,7 +3271,7 @@ LEXICON PLGENSUF_N
 +Pl+Apr:%>ll%{uy%}%{oö%} K ;
 
 LEXICON PLINSSUF
-+Pl+Ins:%^WGStem%>n K ;
++Pl+Ins:%>n K ;
 
 LEXICON PLNOMSUF-USUALLY-WEAK
 +Pl+Nom:%>t K ;
