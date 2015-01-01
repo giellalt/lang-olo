@@ -73,10 +73,10 @@ Multichar_Symbols
  +Abe  !!= * @CODE@ abessive
  +Abl  !!= * @CODE@ ablative case
  +Acc  !!= * @CODE@ accusative
+ +Apr  !!= * @CODE@ Approximative
  +Com  !!= * @CODE@ comitative
- +Dat  !!= * @CODE@ dative case
  +Ela  !!= * @CODE@ elative
- +Ess  !!= * @CODE@ elative
+ +Ess  !!= * @CODE@ essive
  +Gen  !!= * @CODE@ genitive case
  +Ill  !!= * @CODE@ illative
  +Ine  !!= * @CODE@ inessive
@@ -85,12 +85,12 @@ Multichar_Symbols
  +Nom  !!= * @CODE@ nominative case
  +Par  !!= * @CODE@ partitive
  +Prl  !!= * @CODE@ prolative
+ +Ter  !!= * @CODE@ Terminative
  +Tra  !!= * @CODE@ translative
  +Pros !!= * @CODE@
  +Adc  !!= * @CODE@
- +Apr  !!= * @CODE@
  +Egr  !!= * @CODE@
- +Ter  !!= * @CODE@
+ +Dat  !!= * @CODE@ dative case
 
 
 !! The possession is marked as such:
@@ -482,6 +482,49 @@ N1   !!= * @CODE@
 @P.NeedNoun.ON@    !!= * @CODE@
 @D.NeedNoun.ON@    !!= * @CODE@
 @C.NeedNoun@	   !!= * @CODE@
+
+!! Flags used to identify parts of speech
+@P.POS.PRON@
+@P.POS.N@
+@R.POS.N@
+@P.POS.V@
+@R.POS.V@
+@C.POS@
+
+!! !!!FLAGS USED WITH NUMERALS
+!! !! cardinal vs ordinal
+@U.NUM-TYPE.CARD@ !!≈ * @CODE@
+@U.NUM-TYPE.ORD@ !!≈ * @CODE@
+!! !!number
+@U.DECL-NX.SG@ !!≈ * @CODE@
+@U.DECL-NX.SP@ !!≈ * @CODE@
+@U.DECL-NX.PL@ !!≈ * @CODE@
+@R.DECL-NX.SG@ !!≈ * @CODE@
+@R.DECL-NX.SP@ !!≈ * @CODE@
+@R.DECL-NX.PL@ !!≈ * @CODE@
+!! !!case
+@U.DECL-CX.ABE@
+@U.DECL-CX.ABL@
+@U.DECL-CX.ACC@
+@U.DECL-CX.ADE@
+@U.DECL-CX.ALL@
+@U.DECL-CX.COM@
+@U.DECL-CX.ELA@
+@U.DECL-CX.GEN@
+@U.DECL-CX.ILL@
+@U.DECL-CX.INE@
+@U.DECL-CX.INS@
+@U.DECL-CX.NOM@
+@U.DECL-CX.PAR@
+@U.DECL-CX.PRL@
+@U.DECL-CX.TER@
+@U.DECL-CX.TRA@
+
+
+!! Removal
+@C.DECL-NX@ !!≈ * @CODE@
+@C.DECL-CX@ !!≈ * @CODE@
+@C.NUM-TYPE@ !!≈ * @CODE@ 
 
 
 !! !!!Lexicon Root
