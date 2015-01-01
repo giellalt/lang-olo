@@ -787,6 +787,17 @@ LEXICON N_TVER-SG
 LEXICON N_TVER-PL
 +N: NMN_TVER-PL ;
 
+LEXICON N_ŠOUFER !!= @CODE@ šoufer:šoufer
+!! Vowel Harmony: Back
+ N_ŠOUFER-SG ;
+ N_ŠOUFER-PL ;
+
+LEXICON N_ŠOUFER-SG
++N: NMN_ŠOUFER-SG ;
+
+LEXICON N_ŠOUFER-PL
++N: NMN_ŠOUFER-PL ;
+
 LEXICON N_VANUIN !!= @CODE@ vanuin:vanui
 !! Gradation Yes
 !! Harmony: Back
@@ -1199,6 +1210,19 @@ LEXICON N_TUATANDIM-SG
 LEXICON N_TUATANDIM-PL
 +N:     NMN_TUATANDIM-PL ;
 
+LEXICON N_TYTÄRDIM !!= @CODE@ tytärdim:tytärdim
+!! Gradation NA
+!! Harmony: Front
++N: ATTESTED-NOUN-STEM ;
+        N_TYTÄRDIM-SG  ;
+        N_TYTÄRDIM-PL  ;
+
+LEXICON N_TYTÄRDIM-SG
++N: NMN_TYTÄRDIM-SG ;
+
+LEXICON N_TYTÄRDIM-PL
++N:     NMN_TYTÄRDIM-PL ;
+
 LEXICON N_SIEMEN !!= @CODE@ siemen:siemen
 !! Gradation NA
 !! Harmony: Front
@@ -1279,6 +1303,19 @@ LEXICON N_PIENAR-SG
 
 LEXICON N_PIENAR-PL
 +N: NMN_PIENAR-PL ;
+
+LEXICON N_TYTÄR !!= @CODE@ tytär:tyttär
+!! Gradation Yes
+!! Harmony: Front
++N:%^WGStem ATTESTED-NOUN-STEM ;
+        N_TYTÄR-SG  ;
+        N_TYTÄR-PL  ;
+
+LEXICON N_TYTÄR-SG
++N: NMN_TYTÄR-SG ;
+
+LEXICON N_TYTÄR-PL
++N: NMN_TYTÄR-PL ;
 
 !! !NOMINAL DECLENSION BEGINS
 
@@ -2409,6 +2446,19 @@ LEXICON NMN_TUATANDIM-PL
 :i PLGENSUF_EN ;
 :i PLPARSUF_i ;
 
+LEXICON NMN_TYTÄRDIM
+        NMN_TYTÄRDIM-SG   ;
+        NMN_TYTÄRDIM-PL   ;
+
+LEXICON NMN_TYTÄRDIM-SG
+ SGNOMSUF ;
+:i SGPARSUF_A2 ;
+
+LEXICON NMN_TYTÄRDIM-PL
+:ä  PLNOMSUF-USUALLY-WEAK ;
+:i PLGENSUF_EN ;
+:i PLPARSUF_i ;
+
 LEXICON NMN_TUATINDAM
         NMN_TUATINDAM-SG   ;
         NMN_TUATINDAM-PL   ;
@@ -2482,6 +2532,27 @@ LEXICON NMN_PIENAR-PL
 :iloi PLPARSUF_Zero ;
 :iloi PLINSSUF ;
 +Pl:iloi Noun-NB-01 ;
+
+LEXICON NMN_TYTÄR
+	NMN_TYTÄR-SG	;
+	NMN_TYTÄR-PL	;
+
+LEXICON NMN_TYTÄR-SG
+:%^WGStem SGNOMSUF ;
+:%^WGStem SGPARSUF_dU ;
+:e SGGENSUF ;
++Sg:e Noun-NB-01 ;
+LEXICON NMN_TYTÄR-PL
+:e PLNOMSUF-USUALLY-WEAK	;
+:%>i PLGENSUF_EN ; ! the plural comitative is declined here
+:%>i PLPARSUF_i ;
+:%>i PLINSSUF ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
+:ilöi PLGENSUF_N ;
+:ilöi PLPARSUF_Zero ;
+:ilöi PLINSSUF ;
++Pl:ilöi Noun-NB-01 ;
 
 LEXICON NMN_UDAR
 	NMN_UDAR-SG	;
@@ -2669,7 +2740,8 @@ LEXICON NMN_SUALIŠ-SG
 :s SGNOMSUF ;
 :i SGGENSUF-USUALLY-WEAK ;
 :s SGPARSUF_dU ;
-+Sg:i Noun-NB-01 ;
++Sg:i Noun-NB-01-USUALLY-WEAK ;
++Sg:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_SUALIŠ-PL
 :i PLNOMSUF-USUALLY-WEAK ;
@@ -2702,7 +2774,8 @@ LEXICON NMN_KUURNIS-SG
 :%>is SGNOMSUF ;
 :i SGGENSUF-USUALLY-WEAK ;
 :s SGPARSUF_dU ;
-+Sg:i Noun-NB-01 ;
++Sg:i Noun-NB-01-USUALLY-WEAK ;
++Sg:i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_KUURNIS-PL
 :i PLNOMSUF-USUALLY-WEAK ;
@@ -3035,13 +3108,37 @@ LEXICON NMN_TVER-SG
  SGNOMSUF ;
 :i SGGENSUF-USUALLY-WEAK ;
 : SGPARSUF_dU ;
-+Sg:i Noun-NB-01 ;
++Sg:i Noun-NB-01-USUALLY-WEAK ;
++Sg:i Noun-NB-01-USUALLY-STRONG ;
 LEXICON NMN_TVER-PL	
 :i PLNOMSUF-USUALLY-WEAK ;
 :i%>löi PLGENSUF_EN ;
 :i%>löi PLPARSUF_i ;
 :i%>löi PLINSSUF ;
-+Pl:i%>löi Noun-NB-01 ;
++Pl:i%>löi Noun-NB-01-USUALLY-WEAK ;
++Pl:i%>löi Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_ŠOUFER !!= @CODE@ šoufer:šoufer
+!! Gradation NA
+!! Back	 Vowel
+!! Singular stem vowel 0/i
+!! Plural stem vowel ilöi
+ NMN_ŠOUFER-SG ;
+ NMN_ŠOUFER-PL ;
+
+LEXICON NMN_ŠOUFER-SG	
+ SGNOMSUF ;
+:i SGGENSUF-USUALLY-WEAK ;
+: SGPARSUF_dU ;
++Sg:i Noun-NB-01-USUALLY-WEAK ;
++Sg:i Noun-NB-01-USUALLY-STRONG ;
+LEXICON NMN_ŠOUFER-PL	
+:i PLNOMSUF-USUALLY-WEAK ;
+:i%>loi PLGENSUF_EN ;
+:i%>loi PLPARSUF_i ;
+:i%>loi PLINSSUF ;
++Pl:i%>loi Noun-NB-01-USUALLY-WEAK ;
++Pl:i%>loi Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_VANUIN !!= @CODE@ vanuin:vanui
 !! Gradation NA
@@ -3360,8 +3457,6 @@ LEXICON Noun-NB-01-USUALLY-WEAK
 LEXICON Noun-NB-01-USUALLY-STRONG
 +Ill:%>h K ;
 +Ter:%>ss%{aäPar%}h K ;
-
-
 
 !! !SINGULAR POSSESSA
 
