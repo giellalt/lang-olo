@@ -56,10 +56,10 @@ The nominals are inflected in the following Case and Number
  *  +Abe   abessive
  *  +Abl   ablative case
  *  +Acc   accusative
+ *  +Apr   Approximative
  *  +Com   comitative
- *  +Dat   dative case
  *  +Ela   elative
- *  +Ess   elative
+ *  +Ess   essive
  *  +Gen   genitive case
  *  +Ill   illative
  *  +Ine   inessive
@@ -68,12 +68,12 @@ The nominals are inflected in the following Case and Number
  *  +Nom   nominative case
  *  +Par   partitive
  *  +Prl   prolative
+ *  +Ter   Terminative
  *  +Tra   translative
  *  +Pros 
  *  +Adc  
- *  +Apr  
  *  +Egr  
- *  +Ter  
+ *  +Dat   dative case
 
 
 The possession is marked as such:
@@ -317,6 +317,27 @@ flag diacritics to restrict morhpological combinatorics:
  * @P.NeedNoun.ON@    
  * @D.NeedNoun.ON@    
  * @C.NeedNoun@	   
+
+Flags used to identify parts of speech
+
+!!!FLAGS USED WITH NUMERALS
+cardinal vs ordinal
+ * @U.NUM-TYPE.CARD@
+ * @U.NUM-TYPE.ORD@
+!!number
+ * @U.DECL-NX.SG@
+ * @U.DECL-NX.SP@
+ * @U.DECL-NX.PL@
+ * @R.DECL-NX.SG@
+ * @R.DECL-NX.SP@
+ * @R.DECL-NX.PL@
+!!case
+
+
+Removal
+ * @C.DECL-NX@
+ * @C.DECL-CX@
+ * @C.NUM-TYPE@ 
 
 
 !!!Lexicon Root

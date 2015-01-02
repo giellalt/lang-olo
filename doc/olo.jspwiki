@@ -67,10 +67,10 @@ The nominals are inflected in the following Case and Number
  *  +Abe   abessive
  *  +Abl   ablative case
  *  +Acc   accusative
+ *  +Apr   Approximative
  *  +Com   comitative
- *  +Dat   dative case
  *  +Ela   elative
- *  +Ess   elative
+ *  +Ess   essive
  *  +Gen   genitive case
  *  +Ill   illative
  *  +Ine   inessive
@@ -79,12 +79,12 @@ The nominals are inflected in the following Case and Number
  *  +Nom   nominative case
  *  +Par   partitive
  *  +Prl   prolative
+ *  +Ter   Terminative
  *  +Tra   translative
  *  +Pros 
  *  +Adc  
- *  +Apr  
  *  +Egr  
- *  +Ter  
+ *  +Dat   dative case
 
 
 The possession is marked as such:
@@ -328,6 +328,27 @@ flag diacritics to restrict morhpological combinatorics:
  * @P.NeedNoun.ON@    
  * @D.NeedNoun.ON@    
  * @C.NeedNoun@	   
+
+Flags used to identify parts of speech
+
+!!!FLAGS USED WITH NUMERALS
+cardinal vs ordinal
+ * @U.NUM-TYPE.CARD@
+ * @U.NUM-TYPE.ORD@
+!!number
+ * @U.DECL-NX.SG@
+ * @U.DECL-NX.SP@
+ * @U.DECL-NX.PL@
+ * @R.DECL-NX.SG@
+ * @R.DECL-NX.SP@
+ * @R.DECL-NX.PL@
+!!case
+
+
+Removal
+ * @C.DECL-NX@
+ * @C.DECL-CX@
+ * @C.NUM-TYPE@ 
 
 
 !!!Lexicon Root
@@ -918,6 +939,11 @@ Harmony: Back
 
 
 
+ LEXICON N_ŠOUFER  šoufer:šoufer
+Vowel Harmony: Back
+
+
+
  LEXICON N_VANUIN  vanuin:vanui
 Gradation Yes
 Harmony: Back
@@ -1112,6 +1138,12 @@ Harmony: Back
 
 
 
+ LEXICON N_TYTÄRDIM  tytärdim:tytärdim
+Gradation NA
+Harmony: Front
+
+
+
  LEXICON N_SIEMEN  siemen:siemen
 Gradation NA
 Harmony: Front
@@ -1148,6 +1180,12 @@ Harmony: Back
  LEXICON N_PIENAR  pienar:piendar
 Gradation Yes
 Harmony: Back
+
+
+
+ LEXICON N_TYTÄR  tytär:tyttär
+Gradation Yes
+Harmony: Front
 
 
 
@@ -1420,6 +1458,9 @@ Gradation Yes
 
 
 
+
+
+
 ! Nominative singular in "n"
 
 
@@ -1428,6 +1469,8 @@ Gradation Yes
 
 
 ! Nominative singular in "r"
+
+
 
 
 
@@ -1542,6 +1585,13 @@ Singular stem vowel 0/i
 Plural stem vowel ilöi
 
 
+ LEXICON NMN_ŠOUFER  šoufer:šoufer
+Gradation NA
+Back	 Vowel
+Singular stem vowel 0/i
+Plural stem vowel ilöi
+
+
  LEXICON NMN_VANUIN  vanuin:vanui
 Gradation NA
 Back	     Vowel
@@ -1606,8 +1656,6 @@ __luaji000ttu0u examples:__
 
 
 !Plural suffixes
-
-
 
 
 
@@ -2033,6 +2081,8 @@ Forthcoming
 
 
 ... and next chapter
+
+
 
 
 
