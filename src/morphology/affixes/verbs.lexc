@@ -50,10 +50,10 @@ LEXICON V_OLLA !!= * __@CODE@__ olla:o
 +V:l POTPL3_DAnneh ;
 +V:l IMPRT_GA ;
 +V:l IMPRTPL3_DAhes ;
-+V:li ACTPRSPRC_PEZII ;
-+V:l ACTPRFPRC_nUH ;
-+V:l PSSPRSPRC_DAvU ;
-+V:l PSSPRFPRC_DU ;
++V:li ACT-PRSPRC_PEZII ;
++V:l ACT-PRFPRC_nUH ;
++V:l PSS-PRSPRC_DAvU ;
++V:l PSS-PRFPRC_DU ;
 +V:le M-INF ;
 +Ger+Manner:%>de%^WGStemn K ;
 +Ger+Temp:%>de%^WGStems K ;
@@ -143,7 +143,7 @@ LEXICON V_IMIE !!= * __@CODE@__ imie:ime
 +V:%>e INDPRSPL3_tAh ; !!= * __@CODE@__ 
 !!€# koske%>e%^WGStem%>t%{aäDiph%}h
 !!€0 koski0e00tah
-+V:%>e PSSPRFPRC_ttU ;
++V:%>e PSS-PRFPRC_ttU ;
 !!€# koske%>e%^WGStem%>tt%{uy%}
 !!€0 koski0e00tah
 
@@ -216,10 +216,10 @@ LEXICON V_NÄHTÄ !!= * __@CODE@__ nähtä:nä
 +V:h IMPRT_KA ;
 +V:h IMPRTPL3_tAhes ;
 
-+V:gi ACTPRSPRC_OSTAI ;
-+V:h PSSPRSPRC_tAvU ;
-+V:h ACTPRFPRC_nUH ;
-+V:h PSSPRFPRC_tU ;
++V:gi ACT-PRSPRC_OSTAI ;
++V:h PSS-PRSPRC_tAvU ;
++V:h ACT-PRFPRC_nUH ;
++V:h PSS-PRFPRC_tU ;
 
 +V:ge M-INF        ;
 +V+Inf:h%>%{aäDiph%} K ;
@@ -476,10 +476,10 @@ LEXICON V-VV_01
  IMPRT_kkA ;
  IMPRTPL3_EttAhes ;
 
- ACTPRSPRC_OSTAI ;
- PSSPRSPRC_EttAvU ;
- ACTPRFPRC_nUH ;
- PSSPRFPRC_EttU ;
+ ACT-PRSPRC_OSTAI ;
+ PSS-PRSPRC_EttAvU ;
+ ACT-PRFPRC_nUH ;
+ PSS-PRFPRC_EttU ;
 
  M-INF        ;
 +Inf:%>%{aäDiph%} K ;
@@ -519,10 +519,10 @@ LEXICON V-VV_01-NO-GRADATION
  IMPRT_kkA ;
  IMPRTPL3_EttAhes ;
 
- ACTPRSPRC_OSTAI ;
- PSSPRSPRC_EttAvU ;
- ACTPRFPRC_nUH ;
- PSSPRFPRC_EttU ;
+ ACT-PRSPRC_OSTAI ;
+ PSS-PRSPRC_EttAvU ;
+ ACT-PRFPRC_nUH ;
+ PSS-PRFPRC_EttU ;
 
  M-INF        ;
 +Inf:%>%{aäDiph%} K ;
@@ -562,11 +562,11 @@ LEXICON V-3SYLL_KIRJUTTUA !!= __@CODE@__  kirjuttua:kirjutta
  IMPRT_kkA ;
  IMPRTPL3_EttAhes ;
 
- ACTPRSPRC_OSTAI ;
- PSSPRSPRC_EttAvU ;
- ACTPRFPRC_nUH ;
- ACTPRFPRC_nnUH ;
- PSSPRFPRC_EttU ;
+ ACT-PRSPRC_OSTAI ;
+ PSS-PRSPRC_EttAvU ;
+ ACT-PRFPRC_nUH ;
+ ACT-PRFPRC_nnUH ;
+ PSS-PRFPRC_EttU ;
 
  M-INF        ;
 +Inf:%>%{aäDiph%} K ;
@@ -598,10 +598,10 @@ LEXICON V-VV_02
  IMPRT_GA ;
  IMPRTPL3_DAhes ;
 
- ACTPRSPRC_AVUAJU ;
- ACTPRFPRC_nnUH ;
- PSSPRSPRC_DAvU ;
- PSSPRFPRC_DU ;
+ ACT-PRSPRC_AVUAJU ;
+ ACT-PRFPRC_nnUH ;
+ PSS-PRSPRC_DAvU ;
+ PSS-PRFPRC_DU ;
 
  M-INF	      ;
 +Inf:%>j%{aäDiph%} K ;
@@ -631,10 +631,10 @@ LEXICON V-VV_JUVVA_02
  IMPRT_GA ;
  IMPRTPL3_DAhes ;
 
- ACTPRSPRC_AVUAJU ;
-:%>%{aäDiph%} ACTPRFPRC_nnUH ;
- PSSPRSPRC_DAvU ;
- PSSPRFPRC_DU ;
+ ACT-PRSPRC_AVUAJU ;
+:%>%{aäDiph%} ACT-PRFPRC_nnUH ;
+ PSS-PRSPRC_DAvU ;
+ PSS-PRFPRC_DU ;
 
 :%>%{aäDiph%} M-INF	      ;
 +Inf:%>vv%{aäDiph%} K ;
@@ -667,10 +667,10 @@ LEXICON V-VV_03 !!= * __@CODE@__ tulla:tul
 : IMPRT_GA ;
 : IMPRTPL3_DAhes ;
 
-:%^VOICEi ACTPRSPRC_PEZII ;
-: ACTPRFPRC_nUH ;
-: PSSPRSPRC_DAvU ;
-: PSSPRFPRC_DU ;
+:%^VOICEi ACT-PRSPRC_PEZII ;
+: ACT-PRFPRC_nUH ;
+: PSS-PRSPRC_DAvU ;
+: PSS-PRFPRC_DU ;
 :%^VOICEe M-INF ;
 +Inf:%>d%{aäDiph%}%^WGStem K ;
 +Ger+Temp:%>de%^WGStems K ;
@@ -702,10 +702,10 @@ LEXICON V-VV_KUULLA !!= * __@CODE@__ kuulla:kuul
 : IMPRT_KA ;
 : IMPRTPL3_tAhes ;
 
-:%^VOICEi ACTPRSPRC_PEZII ;
-: ACTPRFPRC_nUH ;
-: PSSPRSPRC_tAvU ;
-: PSSPRFPRC_tU ;
+:%^VOICEi ACT-PRSPRC_PEZII ;
+: ACT-PRFPRC_nUH ;
+: PSS-PRSPRC_tAvU ;
+: PSS-PRFPRC_tU ;
 :%^VOICEe M-INF ;
 +Inf:%>t%{aäDiph%}%^WGStem K ;
 
@@ -734,11 +734,11 @@ LEXICON V-VV_04
  POTPL3_tAnneh ;
  IMPRT_WEAK-kkA ;
  IMPRTPL3_ttAhes ;
-!:%>%{aäDiph%} ACTPRSPRC_vU ;
-:%>%{aäDiph%} ACTPRSPRC_AVUAJU ;
- PSSPRSPRC_ttAvU ;
- ACTPRFPRC_nnUH ;
- PSSPRFPRC_ttU ;
+!:%>%{aäDiph%} ACT-PRSPRC_vU ;
+:%>%{aäDiph%} ACT-PRSPRC_AVUAJU ;
+ PSS-PRSPRC_ttAvU ;
+ ACT-PRFPRC_nnUH ;
+ PSS-PRFPRC_ttU ;
 +Inf:%^WGStem%>t%{aäDiph%} K ;
 !€# kergi%^WGStem%>t%{aäDiph%}
 !€0 kerri00tä
@@ -769,10 +769,10 @@ LEXICON V-VV_05_SUVAIJA !! * @CODE@ suvaija:suvai
  IMPRT_kkA ;
  IMPRTPL3_ttAhes ;
 
-:čči ACTPRSPRC_PEZII ;
- ACTPRFPRC_nnUH ;
- PSSPRSPRC_ttAvU ;
- PSSPRFPRC_ttU ;
+:čči ACT-PRSPRC_PEZII ;
+ ACT-PRFPRC_nnUH ;
+ PSS-PRSPRC_ttAvU ;
+ PSS-PRFPRC_ttU ;
 
 :čče M-INF	      ;
 +Inf:%>j%{aäDiph%} K ;
@@ -803,10 +803,10 @@ LEXICON V-VV_05_EMÄNDÖIJÄ !! * @CODE@ emändöijä:emändöi
  IMPRT_kkA ;
  IMPRTPL3_ttAhes ;
 
-:čči ACTPRSPRC_PEZII ;
- ACTPRFPRC_nnUH ;
- PSSPRSPRC_ttAvU ;
- PSSPRFPRC_ttU ;
+:čči ACT-PRSPRC_PEZII ;
+ ACT-PRFPRC_nnUH ;
+ PSS-PRSPRC_ttAvU ;
+ PSS-PRFPRC_ttU ;
 
 :čče M-INF	      ;
 +Inf:%>j%{aäDiph%} K ;
@@ -837,10 +837,10 @@ LEXICON V-VV_05_MERKITÄ !! * @CODE@ merkitä:merki
  IMPRT_kkA ;
  IMPRTPL3_ttAhes ;
 
-:čči ACTPRSPRC_PEZII ;
- ACTPRFPRC_nnUH ;
- PSSPRSPRC_ttAvU ;
- PSSPRFPRC_ttU ;
+:čči ACT-PRSPRC_PEZII ;
+ ACT-PRFPRC_nnUH ;
+ PSS-PRSPRC_ttAvU ;
+ PSS-PRFPRC_ttU ;
 
 :čče M-INF	      ;
 +Inf:%>t%{aäDiph%} K ;
@@ -871,10 +871,10 @@ LEXICON V-VV_06
  IMPRT_kkA ;
  IMPRTPL3_ttAhes ;
 
- ACTPRSPRC_AVUAJU ;
- ACTPRFPRC_nnUH ;
- PSSPRSPRC_ttAvU ;
- PSSPRFPRC_ttU ;
+ ACT-PRSPRC_AVUAJU ;
+ ACT-PRFPRC_nnUH ;
+ PSS-PRSPRC_ttAvU ;
+ PSS-PRFPRC_ttU ;
 
 :ne M-INF	      ;
 +Inf:%>t%{aäDiph%} K ;
@@ -920,10 +920,10 @@ LEXICON VR_01-SHORTSTEM_
 +Inf+Rc:%>t%{aäDiph%}kseh K ;
 
 !! HOW WILL THESE WORK
-! ACTPRSPRC_OSTAI ;
-! PSSPRSPRC_EttAvU ;
-! ACTPRFPRC_nUH ;
-! PSSPRFPRC_EttU ;
+! ACT-PRSPRC_OSTAI ;
+! PSS-PRSPRC_EttAvU ;
+! ACT-PRFPRC_nUH ;
+! PSS-PRFPRC_EttU ;
 
 ! M-INF        ;
 !+Inf:%>%{aäDiph%} K ;
@@ -1443,67 +1443,67 @@ LEXICON VR_IMPRTPL3_EttAhes
 
 !! ... and next chapter
 
-!LEXICON  ACTPRSPRC_vU
-!+ActPrsPrc:%>v%{uy%} K ;
-!+ActPrsPrc:%>v%{aäPar%} NMN_PÄIVY ;
+!LEXICON  ACT-PRSPRC_vU
+!+Act+PrsPrc:%>v%{uy%} K ;
+!+Act+PrsPrc:%>v%{aäPar%} NMN_PÄIVY ;
 
-LEXICON  ACTPRSPRC_IU
-+ActPrsPrc:%>%{ijPRC%} NMN_OSTAI ;
+LEXICON  ACT-PRSPRC_IU
++Act+PrsPrc:%>%{ijPRC%} NMN_OSTAI ;
 
-LEXICON  ACTPRSPRC_OSTAI
-+ActPrsPrc:%>%{ijPRC%} NMN_OSTAI ;
+LEXICON  ACT-PRSPRC_OSTAI
++Act+PrsPrc:%>%{ijPRC%} NMN_OSTAI ;
 
-LEXICON  ACTPRSPRC_PEZII
-+ActPrsPrc:%>%{ijPRC%} NMN_PEZII ;
+LEXICON  ACT-PRSPRC_PEZII
++Act+PrsPrc:%>%{ijPRC%} NMN_PEZII ;
 
-LEXICON  ACTPRSPRC_AVUAJU
-+ActPrsPrc:%>%{ijPRC%}%{aäPar%} NMN_PÄIVY ;
+LEXICON  ACT-PRSPRC_AVUAJU
++Act+PrsPrc:%>%{ijPRC%}%{aäPar%} NMN_PÄIVY ;
 
-LEXICON  PSSPRSPRC_DAvU
-+PssPrsPrc:%>d%{aäDiph%}v%{uy%} K ;
-+PssPrsPrc:%>d%{aäDiph%}v%{aäPar%} NMN_PÄIVY        ;
+LEXICON  PSS-PRSPRC_DAvU
++Pss+PrsPrc:%>d%{aäDiph%}v%{uy%} K ;
++Pss+PrsPrc:%>d%{aäDiph%}v%{aäPar%} NMN_PÄIVY        ;
 
-LEXICON  PSSPRSPRC_tAvU
-+PssPrsPrc:%>t%{aäDiph%}v%{uy%} K ;
-+PssPrsPrc:%>t%{aäDiph%}v%{aäPar%} NMN_PÄIVY        ;
+LEXICON  PSS-PRSPRC_tAvU
++Pss+PrsPrc:%>t%{aäDiph%}v%{uy%} K ;
++Pss+PrsPrc:%>t%{aäDiph%}v%{aäPar%} NMN_PÄIVY        ;
 
-!LEXICON  PSSPRSPRC_EtAvU
-!+PssPrsPrc:%^WGStem%^E1%>t%{aäDiph%}v%{uy%} K ;
-!+PssPrsPrc:%^WGStem%^E1%>t%{aäDiph%}v%{aäPar%} NMN_PÄIVY        ;
+!LEXICON  PSS-PRSPRC_EtAvU
+!+Pss+PrsPrc:%^WGStem%^E1%>t%{aäDiph%}v%{uy%} K ;
+!+Pss+PrsPrc:%^WGStem%^E1%>t%{aäDiph%}v%{aäPar%} NMN_PÄIVY        ;
 
-LEXICON  PSSPRSPRC_ttAvU
-+PssPrsPrc:%^WGStem%>tt%{aäDiph%}v%{uy%} K	;
-+PssPrsPrc:%^WGStem%>tt%{aäDiph%}v%{aäPar%} NMN_PÄIVY	;
+LEXICON  PSS-PRSPRC_ttAvU
++Pss+PrsPrc:%^WGStem%>tt%{aäDiph%}v%{uy%} K	;
++Pss+PrsPrc:%^WGStem%>tt%{aäDiph%}v%{aäPar%} NMN_PÄIVY	;
 
-LEXICON  PSSPRSPRC_EttAvU
-+PssPrsPrc:%^WGStem%^E1%>tt%{aäDiph%}v%{uy%} K	;
-+PssPrsPrc:%^WGStem%^E1%>tt%{aäDiph%}v%{aäPar%} NMN_PÄIVY	;
+LEXICON  PSS-PRSPRC_EttAvU
++Pss+PrsPrc:%^WGStem%^E1%>tt%{aäDiph%}v%{uy%} K	;
++Pss+PrsPrc:%^WGStem%^E1%>tt%{aäDiph%}v%{aäPar%} NMN_PÄIVY	;
 
-LEXICON ACTPRFPRC_nUH
-+ActPrfPrc:%>n%{uy%}h K ;
-+ActPrfPrc+Err/Sub:%>n%{uy%}t K ;
-+ActPrfPrc:%>n%{uy%} NMN_PESSYH ;
+LEXICON ACT-PRFPRC_nUH
++Act+PrfPrc:%>n%{uy%}h K ;
++Act+PrfPrc+Err/Sub:%>n%{uy%}t K ;
++Act+PrfPrc:%>n%{uy%} NMN_PESSYH ;
 
-LEXICON ACTPRFPRC_nnUH
-+ActPrfPrc:%^WGStem%>nn%{uy%}h K ;
-+ActPrfPrc+Err/Sub:%^WGStem%>nn%{uy%}h K ;
-+ActPrfPrc:%^WGStem%>nn%{uy%} NMN_PESSYH ;
+LEXICON ACT-PRFPRC_nnUH
++Act+PrfPrc:%^WGStem%>nn%{uy%}h K ;
++Act+PrfPrc+Err/Sub:%^WGStem%>nn%{uy%}h K ;
++Act+PrfPrc:%^WGStem%>nn%{uy%} NMN_PESSYH ;
 
-LEXICON  PSSPRFPRC_DU
-+PssPrfPrc:%>d%{uy%} K ;
-+PssPrfPrc:%>d%{uy%} A_KOIVU ;
+LEXICON  PSS-PRFPRC_DU
++Pss+PrfPrc:%>d%{uy%} K ;
++Pss+PrfPrc:%>d%{uy%} A_KOIVU ;
 
-LEXICON  PSSPRFPRC_tU
-+PssPrfPrc:%>t%{uy%} K ;
-+PssPrfPrc:%>t%{uy%} A_KOIVU ;
+LEXICON  PSS-PRFPRC_tU
++Pss+PrfPrc:%>t%{uy%} K ;
++Pss+PrfPrc:%>t%{uy%} A_KOIVU ;
 
-LEXICON  PSSPRFPRC_ttU
-+PssPrfPrc:%^WGStem%>tt%{uy%} K ;
-+PssPrfPrc:%^WGStem%>tt%{uy%} A_KOIVU ;
+LEXICON  PSS-PRFPRC_ttU
++Pss+PrfPrc:%^WGStem%>tt%{uy%} K ;
++Pss+PrfPrc:%^WGStem%>tt%{uy%} A_KOIVU ;
 
-LEXICON  PSSPRFPRC_EttU
-+PssPrfPrc:%^WGStem%^E1%>tt%{uy%} K ;
-+PssPrfPrc:%^WGStem%^E1%>tt%{uy%} A_KOIVU ;
+LEXICON  PSS-PRFPRC_EttU
++Pss+PrfPrc:%^WGStem%^E1%>tt%{uy%} K ;
++Pss+PrfPrc:%^WGStem%^E1%>tt%{uy%} A_KOIVU ;
 
 !!
 LEXICON RCPRFPRC_nUHes
