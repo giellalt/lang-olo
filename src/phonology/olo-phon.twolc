@@ -178,7 +178,7 @@ SV = [ [ #: | Cns+ ] :Vow ] ;
 IL = [ #: Cns* Vow : Cns:+ | Cns* Vow+ Cns:+  Vow:+ Cns:+  ] ;
 
 !! Right context for gradation
-GRC =  [ [ ( %> ) [ %{aäDiph%}: | %{aäPar%}: ] | %{oö%}: | %{uy%}: | Vow: | :Vow ] ( %>  i )  |  %>  i ] %^WGStem:0  ;
+GRC =  [ [ ( %> ) [ %{aäDiph%}: | %{aäPar%}: ] | [ %{oö%}: |o|ö] | %{uy%}: | Vow: | :Vow ] ( %>  i )  |  %>  i ] %^WGStem:0  ;
 
 ! oma:ommaa, 
 ! Subsequent Long Vowel
@@ -202,12 +202,12 @@ Rules
 
 "%{aäDiph%}:o"
 !! __@RULENAME@__
-%{aäDiph%}:o <=> o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+%{aäDiph%}:o <=> o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
          [ o: | u] %> _ [ # | %> ] ;
 
 "%{aäDiph%}:ö"
 !! __@RULENAME@__
-%{aäDiph%}:ö <=> ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+%{aäDiph%}:ö <=> ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
          [ ö: | y] %> _ [ # | %> ] ;
 
 "%{aäDiph%}:e"
@@ -241,12 +241,12 @@ Rules
 
 "%{aäDiph%}:o"
 !! __@RULENAME@__
-%{aäDiph%}:o <=> [ o: | u ] %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+%{aäDiph%}:o <=> [ o: | u ] %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
          [ o: ] %> _ [# | %> ] ;
 
 "%{aäDiph%}:ö"
 !! __@RULENAME@__
-%{aäDiph%}:ö <=> [ ö: | y ] %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+%{aäDiph%}:ö <=> [ ö: | y ] %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
          Cns: [ ö: ] %> _ [# | %> ] ;
 
 ! Vowel harmony suffixes Back
@@ -286,7 +286,7 @@ Rules
 "%{aäPar%}:u"
 !! __@RULENAME@__
 %{aäPar%}:u <=>
- [ u: |[ BT | :VowBack Cns:* ] ( %> ) %{uy%}: ] %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+ [ u: |[ BT | :VowBack Cns:* ] ( %> ) %{uy%}: ] %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
 !€# luadi%^WGStem%^E1%>tt%{uy%}%>%{aäPar%}
 !€0 luaji000ttu0u
 
@@ -331,7 +331,7 @@ Rules
 
 "A2:a"
 !! __@RULENAME@__
-A2:a <=> [ a: ] %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+A2:a <=> [ a: ] %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
 
 "A2:u"
 !! __@RULENAME@__
@@ -469,8 +469,8 @@ a:o <=> # Cns* [[ a | i | e ] (u|i)| u a ] [ Cns* (%^NONE:) Cns: ] _ %> i: ( %^W
 
 "ä:e piettih and in comparatives"
 !! __@RULENAME@__  pidiä
-ä:e <=> # Cns* [ i | e ] Cns: _ %^WGStem:0 %^E1:0 ;
-      _ %^WGStem:0 %^E1:0 ;
+ä:e <=> # Cns* [ i | e ] Cns: _ (%^WGStem:0) %^E1:0 ;
+      _ (%^WGStem:0) %^E1:0 ;
 !€# mečästä%^WGStem%^E1%>tt%{aäDiph%}s
 !€0 mečäste000ttäs
 
@@ -481,7 +481,7 @@ a:o <=> # Cns* [[ a | i | e ] (u|i)| u a ] [ Cns* (%^NONE:) Cns: ] _ %> i: ( %^W
 
 "i:0 reboi:reboloi"
 !! __@RULENAME@__
-i:0 <=> o _ %^ILoss: %> l %{oö%}: i ;
+i:0 <=> o _ %^ILoss: %> l [ %{oö%}: |o|ö] i ;
       [ e: | i ] %> %{ijPRC%}:  %{oöØ%}: %> i %> _ [ # | %> Cns ]  ;
 
 
