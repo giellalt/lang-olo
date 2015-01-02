@@ -373,6 +373,11 @@ Harmony: Back
 
 
 
+ LEXICON N_ŠOUFER  šoufer:šoufer
+Vowel Harmony: Back
+
+
+
  LEXICON N_VANUIN  vanuin:vanui
 Gradation Yes
 Harmony: Back
@@ -567,6 +572,12 @@ Harmony: Back
 
 
 
+ LEXICON N_TYTÄRDIM  tytärdim:tytärdim
+Gradation NA
+Harmony: Front
+
+
+
  LEXICON N_SIEMEN  siemen:siemen
 Gradation NA
 Harmony: Front
@@ -603,6 +614,12 @@ Harmony: Back
  LEXICON N_PIENAR  pienar:piendar
 Gradation Yes
 Harmony: Back
+
+
+
+ LEXICON N_TYTÄR  tytär:tyttär
+Gradation Yes
+Harmony: Front
 
 
 
@@ -875,6 +892,9 @@ Gradation Yes
 
 
 
+
+
+
 ! Nominative singular in "n"
 
 
@@ -883,6 +903,8 @@ Gradation Yes
 
 
 ! Nominative singular in "r"
+
+
 
 
 
@@ -997,6 +1019,13 @@ Singular stem vowel 0/i
 Plural stem vowel ilöi
 
 
+ LEXICON NMN_ŠOUFER  šoufer:šoufer
+Gradation NA
+Back	 Vowel
+Singular stem vowel 0/i
+Plural stem vowel ilöi
+
+
  LEXICON NMN_VANUIN  vanuin:vanui
 Gradation NA
 Back	     Vowel
@@ -1061,8 +1090,6 @@ __luaji000ttu0u examples:__
 
 
 !Plural suffixes
-
-
 
 
 
