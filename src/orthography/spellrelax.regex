@@ -1,51 +1,51 @@
 # Spellrelax for Olonets
 
-cʼ (->) c%’, #Modifier Letter Apostrophe 02BC written 
-Cʼ (->) C%’, #Right single quotation mark 2019
-dʼ (->) d%’,
-Dʼ (->) D%’,
-lʼ (->) l%’,
-lʼ (->) l’,# Not commented out
-Lʼ (->) L%’,
-nʼ (->) n’, # Should these really be commmented out?
-Nʼ (->) N%’,
-rʼ (->) r%’,
-Rʼ (->) R%’,
-sʼ (->) s%’,
-Sʼ (->) S%’,
-tʼ (->) t%’,
-Tʼ (->) T%’,
+c ʼ (->) c %’, #Modifier Letter Apostrophe 02BC written 
+C ʼ (->) C %’, #Right single quotation mark 2019
+d ʼ (->) d %’,
+D ʼ (->) D %’,
+l ʼ (->) l %’,
+l ʼ (->) l  ’,# Not commented out
+L ʼ (->) L %’,
+n ʼ (->) n  ’, # Should these really be commmented out?
+N ʼ (->) N %’,
+r ʼ (->) r %’,
+R ʼ (->) R %’,
+s ʼ (->) s %’,
+S ʼ (->) S %’,
+t ʼ (->) t %’,
+T ʼ (->) T %’,
 #
-cʼ (->) c%', #Written with Apostrophe <'>-merkki (U+0027)
-Cʼ (->) C%', # Should these really be commmented out? 
-dʼ (->) d%',
-Dʼ (->) D%',
-lʼ (->) l%',
-Lʼ (->) L%',
-nʼ (->) n%',
-Nʼ (->) N%',
-rʼ (->) r%',
-Rʼ (->) R%',
-sʼ (->) s%',
-Sʼ (->) S%',
-tʼ (->) t%',
-Tʼ (->) T%',
-cʼ (->) c, #Written without Modifier Letter Apostrophe 02BC written
-Cʼ (->) C,
-dʼ (->) d,
-Dʼ (->) D,
-lʼ (->) l,
-Lʼ (->) L,
-nʼ (->) n,
-Nʼ (->) N,
-rʼ (->) r,
-Rʼ (->) R,
-sʼ (->) s,
-Sʼ (->) S,
-tʼ (->) t,
-Tʼ (->) T,
-cʼ (->) c,
-Cʼ (->) C,
+c ʼ (->) c %', #Written with Apostrophe <'>-merkki (U+0027)
+C ʼ (->) C %', # Should these really be commmented out? 
+d ʼ (->) d %',
+D ʼ (->) D %',
+l ʼ (->) l %',
+L ʼ (->) L %',
+n ʼ (->) n %',
+N ʼ (->) N %',
+r ʼ (->) r %',
+R ʼ (->) R %',
+s ʼ (->) s %',
+S ʼ (->) S %',
+t ʼ (->) t %',
+T ʼ (->) T %',
+c ʼ (->) c, #Written without Modifier Letter Apostrophe 02BC written
+C ʼ (->) C,
+d ʼ (->) d,
+D ʼ (->) D,
+l ʼ (->) l,
+L ʼ (->) L,
+n ʼ (->) n,
+N ʼ (->) N,
+r ʼ (->) r,
+R ʼ (->) R,
+s ʼ (->) s,
+S ʼ (->) S,
+t ʼ (->) t,
+T ʼ (->) T,
+c ʼ (->) c,
+C ʼ (->) C,
 č (->) c,
 š (->) s,
 ž (->) z, 
@@ -71,12 +71,6 @@ Y (->) Ü,
 # Explanation:
 # lexical side (->) input 
 
-# Future thought:
-# A posible change is to split this file into lg-specific files.
-# As the number of language grow, this might be more relevant.
-# Especially conflicting rules a -> b, b -> a in different lgs
-# might force a split of this file.
-
 # Note:
 # Some of the lines above seem to contain identical letters, 
 # and in some cases the same right-hand letter seems to occure twice.
@@ -84,7 +78,3 @@ Y (->) Ü,
 # In order to check which one is which one, open this file in emacs
 # and read through the line with the arrow key. The letters who span over
 # two characters (press arrow twice) are the precomposed ones.
-
-# Note that the ï/Ï letters are there for sma.
-# They are probably substandard, and should be relegated to sma.fst
-# but removed from a sma.norm.fst.
