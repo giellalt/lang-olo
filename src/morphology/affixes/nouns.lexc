@@ -466,7 +466,7 @@ LEXICON N_SIVE-PL
 +N:	NMN_SIVE-PL	;
 
 LEXICON N_HARDIE_SUB
-+Err/Sub: N_HARDIE ;
++Err/Orth: N_HARDIE ;
 LEXICON N_HARDIE !!= @CODE@ hardie:hardie
 !! Gradation NA
 !! Harmony: Back
@@ -3426,7 +3426,7 @@ LEXICON Noun-NB-01
 +Abl:%^WGStem%>lpäi K ;
 +All:%^WGStem%>le K ;
 +Abe:%^WGStem%>tt%{aäPar%}h K ;
-+Abe+Err/Sub:%^WGStem%>tt%{aäPar%} K ;
++Abe+Err/Orth:%^WGStem%>tt%{aäPar%} K ;
 +Abe:%^WGStem%>t%{aäPar%} K ;
 +Ela:%^WGStem%>s K ;
 +Ela:%^WGStem%>späi K ;
@@ -3445,7 +3445,7 @@ LEXICON Noun-NB-01-USUALLY-WEAK
 +All:%>le K ;
 +Abe:%>tt%{aäPar%}h K ;
 +Abe:%>t%{aäPar%} K ;
-+Abe+Err/Sub:%>tt%{aäPar%} K ;
++Abe+Err/Orth:%>tt%{aäPar%} K ;
 +Ela:%>s K ;
 +Ela:%>späi K ;
 +Ess:%>nn%{uy%} K ;

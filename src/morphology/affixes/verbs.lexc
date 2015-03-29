@@ -318,7 +318,7 @@ LEXICON V_ALETA !!= * __@CODE@__ aleta:ale (alenov)
 +V:n INDPRTPL1     ;
 +V:n INDPRTPL2     ;
 +V: INDPRTPL3_ttih     ;
-+V+Ind+PrfPrc+Err/Sub:%>nn%{uy%}t K ;
++V+Ind+PrfPrc+Err/Orth:%>nn%{uy%}t K ;
 +V+Ind+PrfPrc:%>nn%{uy%}h K ;
 +V+Ind+PrfPrcPl3:%>tt%{uy%} K ;
 +V: INDPRTCONNEG_nnUh ; !!
@@ -1481,12 +1481,12 @@ LEXICON  PSS-PRSPRC_EttAvU
 
 LEXICON ACT-PRFPRC_nUH
 +Act+PrfPrc:%>n%{uy%}h K ;
-+Act+PrfPrc+Err/Sub:%>n%{uy%}t K ;
++Act+PrfPrc+Err/Orth:%>n%{uy%}t K ;
 +Act+PrfPrc:%>n%{uy%} NMN_PESSYH ;
 
 LEXICON ACT-PRFPRC_nnUH
 +Act+PrfPrc:%^WGStem%>nn%{uy%}h K ;
-+Act+PrfPrc+Err/Sub:%^WGStem%>nn%{uy%}h K ;
++Act+PrfPrc+Err/Orth:%^WGStem%>nn%{uy%}h K ;
 +Act+PrfPrc:%^WGStem%>nn%{uy%} NMN_PESSYH ;
 
 LEXICON  PSS-PRFPRC_DU
@@ -1508,11 +1508,11 @@ LEXICON  PSS-PRFPRC_EttU
 !!
 LEXICON RCPRFPRC_nUHes
 +RcPrfPrc:%>n%{uy%}hes K ;
-!+RcPrfPrc+Err/Sub:%>n%{uy%}tes K ;
+!+RcPrfPrc+Err/Orth:%>n%{uy%}tes K ;
 
 !LEXICON RCPRFPRC_nnUHes
 !+RcPrfPrc:%^WGStem%>nn%{uy%}hes K ;
-!+RcPrfPrc+Err/Sub:%^WGStem%>nn%{uy%}tes K ;
+!+RcPrfPrc+Err/Orth:%^WGStem%>nn%{uy%}tes K ;
 
 LEXICON  RCPRFPRC_DUhes
 +RcPrfPrc+Pl3:%>d%{uy%}hes K ;
@@ -1526,7 +1526,7 @@ LEXICON  RCPRFPRC_DUhes
 LEXICON M-INF
 +Der/mine:%>mi NMN_KIELINE ;
 +Der/mA+Inf+Abe:%>m%{aäDiph%}%>tt%{aäDiph%}h K ;
-+Der/mA+Inf+Abe+Err/Sub:%>m%{aäDiph%}%>tt%{aäDiph%} K ;
++Der/mA+Inf+Abe+Err/Orth:%>m%{aäDiph%}%>tt%{aäDiph%} K ;
 +Der/mA+Inf+Abe:%>m%{aäDiph%}%>t%{aäDiph%} K ;
 +Der/mA+Inf+Ade:%>m%{aäDiph%}l K ;
 +Der/mA+Inf+Ela:%>m%{aäDiph%}späi K ;
@@ -1537,7 +1537,7 @@ LEXICON M-INF
 LEXICON M-INF_BACK
 +Der/mine:%>mi NMN_NAINE ;
 +Der/mA+Inf+Abe:%>ma%>ttah K ;
-+Der/mA+Inf+Abe+Err/Sub:%>ma%>tta K ;
++Der/mA+Inf+Abe+Err/Orth:%>ma%>tta K ;
 +Der/mA+Inf+Abe:%>ma%>ta K ;
 +Der/mA+Inf+Ade:%>mal K ;
 +Der/mA+Inf+Ela:%>maspäi K ;
@@ -1548,7 +1548,7 @@ LEXICON M-INF_BACK
 LEXICON M-INF_FRONT
 +Der/mine:%>mi NMN_KIELINE ;
 +Der/mA+Inf+Abe:%>mä%>ttäh K ;
-+Der/mA+Inf+Abe+Err/Sub:%>mä%>ttä K ;
++Der/mA+Inf+Abe+Err/Orth:%>mä%>ttä K ;
 +Der/mA+Inf+Abe:%>mä%>tä K ;
 +Der/mA+Inf+Ade:%>mäl K ;
 +Der/mA+Inf+Ela:%>mäspäi K ;
