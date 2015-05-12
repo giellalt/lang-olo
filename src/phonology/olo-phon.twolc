@@ -528,11 +528,11 @@ g:j <=> i _ [ a: ] ( %> i ) %^WGStem:0 ;
 
 "g:v"
 !! __@RULENAME@__
-!! {{{
 g:v <=> [ o | u ] _ e %^WGStem:0 ;
+!!jogi+N+Sg+Gen: __river/joki__
 !€# joge%^WGStem%>n
 !€0 jove00n
-!! }}}
+
 
 
 "g:l"
@@ -628,29 +628,30 @@ k:g <=> [ n | l |r ] %> _ (%{ui%}:) %{aäPar%}: ;
 
 "rd:rr weakening"
 !! __@RULENAME@__  
-!! {{{
 d:r <=>
-     Vow: r _ Vow: ((%^A2O:) %> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
-   Vow r %> _ [ GRC | e %^WGStem: ] ; !!= @CODE@ purra+Ind+Prs+ScPl3: purrah
-!! }}}
+     Vow: r _ Vow: ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
+   Vow r %> _ [ GRC | e %^WGStem: ] ; 
+!!purra+Ind+Prs+ScPl3: purrah
+
 
 "ld:ll weakening"
 !! __@RULENAME@__  
 d:l <=>
-  Vow: l _ Vow: ((%^A2O:) %> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
-  Vow l %> _ [ GRC | e %^WGStem: ] ; !!= @CODE@ tulla+Ind+Prs+ScPl3: tullah
+  Vow: l _ Vow: ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
+  Vow l %> _ [ GRC | e %^WGStem: ] ;
+!!tulla+Ind+Prs+ScPl3: tullah
 !€# tul%>d%{aäDiph%}%^WGStem
 !€0 tul0la0
 
 "nd:nn weakening"
-!! __@RULENAME@__  
-!! {{{
+!! __@RULENAME@__ 
 d:n <=>
-     Vow: n _ Vow: ((%^A2O:) %> i) %^WGStem:0 [ (%^E1:) %> | # ] ;
-  Vow ( %^WGStem:0 %> ) n %> _ [ GRC | e %^WGStem: ] ; !!= @CODE@ mennä+Ind+Prs+ScPl3: mennäh
+     Vow: n _ Vow: ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
+  Vow ( %^WGStem:0 %> ) n %> _ [ GRC | e %^WGStem: ] ;
+!!mennä+Ind+Prs+ScPl3: mennäh
 !€# kanda%^WGStem%^E1%>tt%{aäDiph%}s
 !€0 kanne000ttas
-!! }}}
+
 
 "rn:rr in prtprc"
 !! __@RULENAME@__  
