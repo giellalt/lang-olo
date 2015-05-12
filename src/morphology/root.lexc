@@ -63,7 +63,13 @@ Multichar_Symbols
 !! The Usage extents are marked using following tags:
 
  +Err/Orth     !!= * @CODE@
- +Use/-Spell  !!= * @CODE@
+ +Use/Marg        !!= * __@CODE@__ marginal (?)
+ +Use/-Spell      !!= * __@CODE@__ Excluded in speller
+ +Use/SpellNoSugg !!= * __@CODE@__ recognized but not suggested in speller
+ +Use/Circ        !!= * __@CODE@__ circular paths (old ^C^)
+ +Use/CircN       !!= * __@CODE@__ circular paths for the numerals (old ^N^)
+ +Use/NG          !!= * __@CODE@__ not-generate, for ped generation isme-ped.fst
+
 
 !! The nominals are inflected in the following Case and Number
 ! number

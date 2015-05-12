@@ -59,7 +59,13 @@ The parts-of-speech are:
 The Usage extents are marked using following tags:
 
  *  +Err/Orth     
- *  +Use/-Spell  
+ * __ +Use/Marg        __ marginal (?)
+ * __ +Use/-Spell      __ Excluded in speller
+ * __ +Use/SpellNoSugg __ recognized but not suggested in speller
+ * __ +Use/Circ        __ circular paths (old ^C^)
+ * __ +Use/CircN       __ circular paths for the numerals (old ^N^)
+ * __ +Use/NG          __ not-generate, for ped generation isme-ped.fst
+
 
 The nominals are inflected in the following Case and Number
  *  +Sg    singular
@@ -338,6 +344,8 @@ do no harm.
  | @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
  | @P.CmpPref.FALSE@ | Block these words from making further compounds
  | @D.CmpLast.TRUE@ | Block such words from entering R
+ | @D.CmpSuff.TRUE@ | Block such words from entering R
+ | @P.CmpSuff.TRUE@ | Mark that we have passed R
  | @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
  | @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
  | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
@@ -2342,8 +2350,7 @@ __g:j__
 }}}
 
 __g:v__
-{{{
-}}}
+
 
 
 __g:l__  
@@ -2387,17 +2394,12 @@ __k:g__ pestä: peskäh
 
 
 __rd:rr weakening__  
-{{{
-    Vow r %> _ [ GRC | e %^WGStem: ] ;  purra+Ind+Prs+ScPl3: purrah
-}}}
+
 
 __ld:ll weakening__  
-   Vow l %> _ [ GRC | e %^WGStem: ] ;  tulla+Ind+Prs+ScPl3: tullah
 
-__nd:nn weakening__  
-{{{
-   Vow ( %^WGStem:0 %> ) n %> _ [ GRC | e %^WGStem: ] ;  mennä+Ind+Prs+ScPl3: mennäh
-}}}
+__nd:nn weakening__ 
+
 
 __rn:rr in prtprc__  
 
@@ -2410,7 +2412,7 @@ __sn:ss in prtprc__
 
 __čToZero__  
 {{{
-*   Vow ( %^WGStem:0 %> ) n %> _ [ GRC | e %^WGStem: ] ;  suvaija:suvaičen
+* s:z <=> _ %^VOICE:0 ;  suvaija:suvaičen
 }}}
 
 __kToZero__  aika: ajan

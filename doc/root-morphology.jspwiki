@@ -48,7 +48,13 @@ The parts-of-speech are:
 The Usage extents are marked using following tags:
 
  *  +Err/Orth     
- *  +Use/-Spell  
+ * __ +Use/Marg        __ marginal (?)
+ * __ +Use/-Spell      __ Excluded in speller
+ * __ +Use/SpellNoSugg __ recognized but not suggested in speller
+ * __ +Use/Circ        __ circular paths (old ^C^)
+ * __ +Use/CircN       __ circular paths for the numerals (old ^N^)
+ * __ +Use/NG          __ not-generate, for ped generation isme-ped.fst
+
 
 The nominals are inflected in the following Case and Number
  *  +Sg    singular
@@ -327,6 +333,8 @@ do no harm.
  | @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
  | @P.CmpPref.FALSE@ | Block these words from making further compounds
  | @D.CmpLast.TRUE@ | Block such words from entering R
+ | @D.CmpSuff.TRUE@ | Block such words from entering R
+ | @P.CmpSuff.TRUE@ | Mark that we have passed R
  | @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
  | @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
  | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
