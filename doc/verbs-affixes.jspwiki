@@ -141,6 +141,11 @@ Verbs of the Finnish type 3 but not identical
  * __LEXICON V_KUULTA-SG3 __ kuulta:kuul
 
 
+ * __LEXICON V_VIERTÄ __ viertä:vier
+
+ * __LEXICON V_VIERTÄ-SG3 __ viertä:vier
+
+
  * __LEXICON V_TYPÄTÄ __ typätä:typpä
 
  * __LEXICON V_KÄITÄ __ käitä:käge
@@ -175,7 +180,11 @@ Verbs of the Finnish type 3 but not identical
 
  * __LEXICON V_ALETA __ aleta:ale (alenov)
 
- * __LEXICON V_ALETA-SG3 __ aleta:ale (alenov)
+ * __LEXICON V_ALETA-SG3 __ aleta:ale (alenou)
+
+ * __LEXICON V_VÄHETÄ __ vähetä:vähe (vähenöy)
+
+ * __LEXICON V_VÄHETÄ-SG3 __ vähetä:vähe (vähenöy)
 
 
  * __LEXICON V_SUATA __ suata:suva (suvaiččov)
@@ -241,13 +250,6 @@ Reflexive verbs
 
 
 
-No Gradation
-
-
-
-
-
-
 
  __LEXICON V-3SYLL_KIRJUTTUA __  kirjuttua:kirjutta
 
@@ -266,7 +268,15 @@ No Gradation
 
 
 
- * __LEXICON V-VV_03 __ tulla:tul
+
+
+
+ * __LEXICON V-VV_03_BACK __ tulla:tul
+
+
+
+
+ * __LEXICON V-VV_03_FRONT __ tulla:tul
 
 
 
@@ -276,19 +286,33 @@ No Gradation
 
 
 
-
-
-* LEXICON V-VV_KUULLA  suvaija:suvai
-
-
-
-
-* LEXICON V-VV_KUULLA  emändöijä:emändöi
+ * __LEXICON V-VV_VIERRÄ __ vierrä:vier
 
 
 
 
-* LEXICON V-VV_KUULLA  merkitä:merki
+
+
+
+
+* LEXICON V-VV_VIERRÄ  suvaija:suvai
+
+
+
+
+* LEXICON V-VV_VIERRÄ  emändöijä:emändöi
+
+
+
+
+* LEXICON V-VV_VIERRÄ  mainita:maini
+
+
+
+* LEXICON V-VV_VIERRÄ  merkitä:merki
+
+
+
 
 
 
@@ -327,15 +351,31 @@ Forthcoming
 
 !INDICATIVE PRESENT
 
-* LEXICON V-VV_KUULLA  type 04
+
+
+
+
+
+
+
+
+* LEXICON V-VV_VIERRÄ  type 04
 
 !INDICATIVE PRESENT REFLEXIVE
 
 
 
-* LEXICON V-VV_KUULLA  
+
+
+* LEXICON V-VV_VIERRÄ  
 
 !INDICATIVE PRETERITE
+
+
+
+
+
+
 
 
 !INDICATIVE PRETERITE REFLEXIVE
@@ -374,14 +414,14 @@ Forthcoming
 
 
 
+
+
  * __+Pot+RcPl3:%>d%{aäDiph%}%>nehes K ; __ Shouldn't THIS be the right form
+ * __+Pot+RcPl3:%>da%>nehes K ; __ Shouldn't THIS be the right form
+ * __+Pot+RcPl3:%>dä%>nehes K ; __ Shouldn't THIS be the right form
 
 
 !!IMPERATIVE
-
-
-
-
 
 
 
@@ -405,8 +445,6 @@ Forthcoming
 
 
 ... and next chapter
-
-
 
 
 

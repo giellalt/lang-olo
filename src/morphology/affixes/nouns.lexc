@@ -732,11 +732,17 @@ LEXICON N_KANDAI-SG
 LEXICON N_KANDAI-PL
 +N: NMN_KANDAI-PL ;
 
-LEXICON  N_AVUAJU !!= @CODE@ piästäjy:piästä
+LEXICON  N_AVUAJU !!= @CODE@ 
 !! Gradation NA
 !! Harmony: Back
 !!+N:%^A2U ATTESTED-NOUN-STEM ; Work needed
-+N:%>%{ijPRC%}%{aäPar%} NMN_PÄIVY ;
++N:%>%{ijPRC%}a NMN_KOIRU ;
+
+LEXICON  N_KERIÄJY !!= @CODE@ piästäjy:piästä
+!! Gradation NA
+!! Harmony: Front
+!!+N:%^A2U ATTESTED-NOUN-STEM ; Work needed
++N:%>%{ijPRC%}ä NMN_PÄIVY ;
 
 
 LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizi
@@ -1143,6 +1149,17 @@ LEXICON N_PESSYH-SG
 +N:        NMN_PESSYH-SG ;
 LEXICON N_PESSYH-PL
 +N:        NMN_PESSYH-PL ;
+
+LEXICON N_TULLUH !!= @CODE@ tulluh
+!! Gradation NA
+!! Harmony: Front
+!+N: ATTESTED-NOUN-STEM ; Work needed
+ N_TULLUH-SG ;
+ N_TULLUH-PL ;
+LEXICON N_TULLUH-SG
++N:        NMN_TULLUH-SG ;
+LEXICON N_TULLUH-PL
++N:        NMN_TULLUH-PL ;
 
 
 
@@ -1683,13 +1700,13 @@ LEXICON NMN_NELLI  !!= @CODE@ nelli:nell
 
 LEXICON NMN_NELLI-SG
 :i SGNOMSUF ;
-:%>%{aäPar%} SGGENSUF-USUALLY-WEAK ;
-:%>%{ui%} SGPARSUF_A2 ;
-+Sg:%>%{aäPar%} Noun-NB-01-USUALLY-WEAK ;
-+Sg:%>%{aäPar%} Noun-NB-01-USUALLY-STRONG ;
+:%>ä SGGENSUF-USUALLY-WEAK ;
+:%>i SGPARSUF_A2 ;
++Sg:%>ä Noun-NB-01-USUALLY-WEAK ;
++Sg:%>ä Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_NELLI-PL
-:%>%{aäPar%} PLNOMSUF-USUALLY-WEAK ;
+:%>ä PLNOMSUF-USUALLY-WEAK ;
 :i PLGENSUF_EN ; ! the plural comitative is declined here
 :i PLPARSUF_i ;
 :i PLINSSUF ;
@@ -1964,7 +1981,7 @@ LEXICON NMN_LUGU-PL
 
 LEXICON NMN_HERY !!= @CODE@ hery:hery
 !! Gradation NA
-!! Vowel Harmony Back
+!! Vowel Harmony Front
         NMN_HERY-SG ;
         NMN_HERY-PL ;
 
@@ -2379,6 +2396,24 @@ LEXICON NMN_PESSYH-SG
 +Sg:%{oö%} Noun-NB-01 ;
 
 LEXICON NMN_PESSYH-PL
+:%{oö%} PLNOMSUF-USUALLY-WEAK ;
+:zi PLGENSUF_EN ; !!= * @CODE@ the +Pl+Com comes here
+:zi PLPARSUF_i ;
+:zi PLINSSUF ;
++Pl:zi Noun-NB-01 ;
+
+LEXICON NMN_TULLUH !!= @CODE@ tulluh:tullu
+        NMN_TULLUH-SG ;
+        NMN_TULLUH-PL ;
+
+!! !Nominative singular in "h"
+LEXICON NMN_TULLUH-SG
+:h SGNOMSUF ;
+:%{oö%} SGGENSUF-USUALLY-WEAK ;
+:t SGPARSUF_dU ;
++Sg:%{oö%} Noun-NB-01 ;
+
+LEXICON NMN_TULLUH-PL
 :%{oö%} PLNOMSUF-USUALLY-WEAK ;
 :zi PLGENSUF_EN ; !!= * @CODE@ the +Pl+Com comes here
 :zi PLPARSUF_i ;

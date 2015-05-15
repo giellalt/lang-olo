@@ -15,6 +15,8 @@ Y
 %{aäPar%}:ä	!!= @CODE@  This is for the partitive and other vowel harmony not including diphthong phenomena
 !%{aä%}:0
 
+ %{aoeInf%}:a	!!= @CODE@ Back vowel infinitive marker
+ %{äöeInf%}:ä	!!= @CODE@ Front vowel infinitive marker
 
  %{aäDiph%}:ä !!= @CODE@  This is for the infinitive marker after i and u stems
 
@@ -261,12 +263,21 @@ Rules
 !€# pagis%>d%{aäPar%}%^WGStemh
 !€0 pa0is0ta0h
 
+"%{aäPar%}:u"
+!! __@RULENAME@__
+%{aäPar%}:u <=>
+ [ u: |[ BT | :VowBack Cns:* ] ( %> ) %{uy%}:u ] %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
+!€# luadi%^WGStem%^E1%>tt%{uy%}%>%{aäPar%}
+!€0 luaji000ttu0u
+
+         [ u ] %> _  ;
+ 	 BT [ Cns: | %{ijPRC%}: ] _ [ %^A2U:0 [ # | %> g i ] | %> %{aäPar%}:a ] ;
+
 ! Vowel harmony suffixes Front
 "%{aäPar%}:ä"
 !! __@RULENAME@__
  %{aäPar%}:ä <=>
   [ FTCons ( %> ) | FT %>  %{ijPRC%}:j %> | [ %{ui%}:i | %{uy%}:y | %{aäPar%}:i | ä:i ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:y ] | %^WGStem:0 ] ;
-
 
 
 "%{aäPar%}:e"
@@ -282,16 +293,6 @@ Rules
 !! __@RULENAME@__
 %{aäPar%}:i <=> FT Cns: _ %> %{aäPar%}:ä ;
      Cns: i %> _ ;
-
-"%{aäPar%}:u"
-!! __@RULENAME@__
-%{aäPar%}:u <=>
- [ u: |[ BT | :VowBack Cns:* ] ( %> ) %{uy%}: ] %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
-!€# luadi%^WGStem%^E1%>tt%{uy%}%>%{aäPar%}
-!€0 luaji000ttu0u
-
-         [ u ] %> _  ;
- 	 BT [ Cns: | %{ijPRC%}: ] _ [ %^A2U:0 [ # | %> g i ] | %> %{aäPar%}:a ] ;
 
 "%{aäPar%}:y"
 !! __@RULENAME@__
@@ -346,13 +347,19 @@ A2:y <=> [ y: ] %> _ ( %^WGStem:0 ) [ # | %>  ];
 
 "a:u before subsequent a"
 !! __@RULENAME@__  Diphthong a+a => ua
-a:u <=> ConsPalOrNot _ [ ( d:0 ) a  | %> [ %{aäPar%}: | %{aäDiph%}: | A2:a ] ]; 
+a:u <=> ConsPalOrNot _ [ ( d:0 ) a  | %> [ %{aäPar%}: | %{aäDiph%}: | a | A2:a ] ]; 
+!!ostua+V+Inf: __buy/ostaa__
+!€# osta%>a
+!€0 ostu0a
         _ %^A2U:0 ;
 
 
 "ä:i before subsequent A2"
 !! __@RULENAME@__  Diphthong ä+ä => iä
-ä:i <=>  Cns:  _ [ ä | %> [ %{aäPar%}:ä | %{aäDiph%}:ä| A2:ä ] ]; 
+ä:i <=>  Cns:  _ [ ä | %> [ %{aäPar%}:ä | ä | %{aäDiph%}:ä| A2:ä ] ]; 
+!!kehittiä+V+Inf: __develop/kehittää__
+!€# kehittä%>ä
+!€0 kehitti0ä
 
  
 "o:u before subsequent o"
