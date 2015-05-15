@@ -345,9 +345,13 @@ Harmony: Back
 
 
 
- LEXICON  N_AVUAJU  piästäjy:piästä
+ LEXICON  N_AVUAJU  
 Gradation NA
 Harmony: Back
+
+ LEXICON  N_KERIÄJY  piästäjy:piästä
+Gradation NA
+Harmony: Front
 
 
  LEXICON N_PAGIZII  pagizii:pagizi
@@ -541,6 +545,10 @@ Harmony: Back
 Gradation NA
 Harmony: Front
 
+ LEXICON N_TULLUH  tulluh
+Gradation NA
+Harmony: Front
+
 
 
  LEXICON N_BEMMEL  bemmel:bembel
@@ -705,8 +713,8 @@ Gradation Yes
  LEXICON NMN_PAREMBI  parembi:paremb
 
 __Adjective comparative examples:__
-* __tuorehembi__: {{tuores+A+Der/mbi+Comp+Sg+Nom}}
-* __*tuorehembembannu__: {{tuores+A+Der/mbi+Comp+Der/mbi+Comp+Sg+Ess}} (is not standard language)
+* __tuorehembi:__ {{tuores+A+Der/mbi+Comp+Sg+Nom}}
+* __*tuorehembembannu:__ {{tuores+A+Der/mbi+Comp+Der/mbi+Comp+Sg+Ess}} (is not standard language)
 
 
 
@@ -771,7 +779,7 @@ Vowel Harmony Back
 
  LEXICON NMN_HERY  hery:hery
 Gradation NA
-Vowel Harmony Back
+Vowel Harmony Front
 
 
 
@@ -865,6 +873,12 @@ Gradation Yes
 
 
  LEXICON NMN_PESSYH  pessyh
+
+!Nominative singular in "h"
+
+ * :zi PLGENSUF_EN ;  the +Pl+Com comes here
+
+ LEXICON NMN_TULLUH  tulluh:tullu
 
 !Nominative singular in "h"
 

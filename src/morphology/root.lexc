@@ -434,6 +434,10 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
 
+ %{aoeInf%}	!!= @CODE@ Back vowel infinitive marker
+ %{äöeInf%}	!!= @CODE@ Front vowel infinitive marker
+
+
  %{aäPar%} !!= * @CODE@  no diphthongs
  %{aäDiph%} !!= * @CODE@  This is for diphthongs such as the infinitive marker after i and u stems
  %{oö%}  !!= * @CODE@
