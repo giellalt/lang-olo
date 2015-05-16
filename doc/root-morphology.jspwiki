@@ -269,6 +269,10 @@ source and target part-of-speech.
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
+  %{aoeInf%}	 Back vowel infinitive marker
+  %{äöeInf%}	 Front vowel infinitive marker
+
+
  *  %{aäPar%}   no diphthongs
  *  %{aäDiph%}   This is for diphthongs such as the infinitive marker after i and u stems
  *  %{oö%}  
@@ -333,8 +337,6 @@ do no harm.
  | @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
  | @P.CmpPref.FALSE@ | Block these words from making further compounds
  | @D.CmpLast.TRUE@ | Block such words from entering R
- | @D.CmpSuff.TRUE@ | Block such words from entering R
- | @P.CmpSuff.TRUE@ | Mark that we have passed R
  | @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
  | @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
  | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
