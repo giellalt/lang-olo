@@ -280,6 +280,10 @@ source and target part-of-speech.
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
+  %{aoeInf%}	 Back vowel infinitive marker
+  %{äöeInf%}	 Front vowel infinitive marker
+
+
  *  %{aäPar%}   no diphthongs
  *  %{aäDiph%}   This is for diphthongs such as the infinitive marker after i and u stems
  *  %{oö%}  
@@ -344,8 +348,6 @@ do no harm.
  | @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
  | @P.CmpPref.FALSE@ | Block these words from making further compounds
  | @D.CmpLast.TRUE@ | Block such words from entering R
- | @D.CmpSuff.TRUE@ | Block such words from entering R
- | @P.CmpSuff.TRUE@ | Mark that we have passed R
  | @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
  | @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
  | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
@@ -1779,7 +1781,6 @@ Back vowel
 
  * __LEXICON V_VALUO-3 __ valuo:valu
 
-
 V1i
  * __LEXICON V_POTKIE __ potkie:potki
 Gradation No
@@ -1807,11 +1808,9 @@ __koski0e00tah examples:__
 
  * __LEXICON V_IMIE-SG3 __ imie:ime
 
-
  * __LEXICON  V_PIDIÄ __ pidiä:pidä
 Gradation Yes
 Front vowel
-
 
  * __LEXICON  V_PIDIÄ-SG3 __ pidiä:pidä
 
@@ -2199,6 +2198,8 @@ Forthcoming
 
  %{aäPar%}:ä	  This is for the partitive and other vowel harmony not including diphthong phenomena
 
+  %{aoeInf%}:a	 Back vowel infinitive marker
+  %{äöeInf%}:ä	 Front vowel infinitive marker
 
   %{aäDiph%}:ä   This is for the infinitive marker after i and u stems
 

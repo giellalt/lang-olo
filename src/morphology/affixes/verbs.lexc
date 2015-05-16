@@ -29,31 +29,31 @@ LEXICON V_OLLA !!= * __@CODE@__ olla:o
 +V+Ind+Prs+ScSg1:le%^WGStem%>n K ;
 +V+Ind+Prs+ScSg2:le%^WGStem%>t K ;
 +V+Ind+Prs+ScSg3:n K ;
-+V+Ind+Prs+ScPl1:le%^WGStem%>mm%{oö%} K ;
-+V+Ind+Prs+ScPl2:le%^WGStem%>tt%{oö%} K ;
-+V:l INDPRSPL3_dAh ;
++V+Ind+Prs+ScPl1:le%^WGStem%>mmo K ;
++V+Ind+Prs+ScPl2:le%^WGStem%>tto K ;
++V:l INDPRSPL3_dah ;
 +V+Ind+Prs+ConNeg:le%^WGStem K ;
 
 +V+Ind+Prt+ScSg1:l%^WGStem%>in K ;
 +V+Ind+Prt+ScSg2:l%^WGStem%>it K ;
 +V+Ind+Prt+ScSg3:l%>i K ;
-+V+Ind+Prt+ScPl1:l%^WGStem%>imm%{oö%} K ;
-+V+Ind+Prt+ScPl2:l%^WGStem%>itt%{oö%} K ;
++V+Ind+Prt+ScPl1:l%^WGStem%>immo K ;
++V+Ind+Prt+ScPl2:l%^WGStem%>itto K ;
 +V:l INDPRTPL3_dih     ;
-+V+Ind+Prt+ConNeg:l%>n%{uy%}%^WGStemh K ;
-+V+Ind+Prt+ConNeg+ScPl3:l%>t%{uy%} K ;
-+V:l CONDPRS_IS  ;
-+V:l CONDPRSPL3_DAs ;
-+V:l CONDPRT_nUs ;
-+V:l CONDPRTPL3_DAnnUs ;
-+V:l POT_N ;
-+V:l POTPL3_DAnneh ;
-+V:l IMPRT_GA ;
-+V:l IMPRTPL3_DAhes ;
-+V:li ACT-PRSPRC_PEZII ;
-+V:l ACT-PRFPRC_nUH ;
++V+Ind+Prt+ConNeg:l%>nu%^WGStemh K ;
++V+Ind+Prt+ConNeg+ScPl3:l%>tu K ;
++V:l CONDPRS_IS_BACK  ;
++V:l CONDPRSPL3_Das ;
++V:l CONDPRT_nus ;
++V:l CONDPRTPL3_Dannus ;
++V:l POT_N_BACK ;
++V:l POTPL3_Danneh ;
++V:l IMPRT_Ga ;
++V:l IMPRTPL3_Dahes ;
++V:li ACT-PRSPRC_OSTAI ;
++V:l ACT-PRFPRC_nuH ;
 +V:l PSS-PRSPRC_Davu ;
-+V:l PSS-PRFPRC_DU ;
++V:l PSS-PRFPRC_Du ;
 +V:le M-INF ;
 +Ger+Manner:%>de%^WGStemn K ;
 +Ger+Temp:%>de%^WGStems K ;
@@ -70,26 +70,31 @@ LEXICON V_ELLENDIÄ !!= * __@CODE@__ ellendiä:ellendä
 !! Gradation No
 +V: V-VV_01_FRONT_USUALLY-WEAK ;
 +V: V-VV_01_FRONT_USUALLY-STRONG	 ;
++V+Inf:%>ä K ;
 
 LEXICON V_KANDUA !!= * __@CODE@__ kandua:kanda
 !! Gradation Yes
 !! Back Vowel
 +V: V-VV_01_BACK ;
++V+Inf:%>a K ;
 
 LEXICON V_KANDUA-SG3 !!= * __@CODE@__ kandua:kanda
 +V: V-VV_01_BACK ;
-+V:  INDPRSSG3 ;
++V:  INDPRSSG3_BACK ;
 +V: INDPRSCONNEG_WEAK ;
 +V: INDPRTSG3 ;
-+V: INDPRTCONNEG_nUh ;
++V: INDPRTCONNEG_nuh ;
++V+Inf:%>a K ;
 
 LEXICON V_KANDUA-3 !!= * __@CODE@__ kandua:kanda
 +V: V-VV_01_BACK ;
++V+Inf:%>a K ;
 
 LEXICON V_HEITTIÄ !!= * __@CODE@__ heittä:heittä
 !! Gradation Yes
 !! Front vowel
 +V: V-VV_01_FRONT ;
++V+Inf:%>ä K ;
 
 LEXICON V_HEITTIÄ-SG3 !!= * __@CODE@__ heittä:heittä
 +V: V-VV_01_FRONT ;
@@ -97,9 +102,11 @@ LEXICON V_HEITTIÄ-SG3 !!= * __@CODE@__ heittä:heittä
 +V: INDPRSCONNEG_WEAK ;
 +V: INDPRTSG3 ;
 +V: INDPRTCONNEG_nUh ;
++V+Inf:%>ä K ;
 
 LEXICON V_HEITTIÄ-3 !!= * __@CODE@__ heittä:tiedä
 +V: V-VV_01_FRONT ;
++V+Inf:%>ä K ;
 
 !! V1o
 
@@ -107,9 +114,11 @@ LEXICON V_PUNUO !!= * __@CODE@__ punuo:puno
 !! Gradation No
 !! Back vowel
 +V: V-VV_01_BACK ;
++V+Inf:%>o K ;
 
 LEXICON V_PUNUO-SG3 !!= * __@CODE@__ punuo:puno
 +V: V-VV_01_BACK ;
++V+Inf:%>o K ;
 
 !! V1u
 
@@ -117,27 +126,32 @@ LEXICON V_VALUO !!= * __@CODE@__ valuo:valu
 !! Gradation No
 !! Back vowel
 +V: V-VV_01_BACK ;
++V+Inf:%>o K ;
 
 LEXICON V_VALUO-SG3 !!= * __@CODE@__ valuo:valu
 +V: V-VV_01_BACK ;
++V+Inf:%>o K ;
 
 LEXICON V_VALUO-3 !!= * __@CODE@__ valuo:valu
 +V: V-VV_01_BACK ;
-
++V+Inf:%>o K ;
 
 !! V1i
 LEXICON V_POTKIE !!= * __@CODE@__ potkie:potki
 !! Gradation No
 !! Back vowel
 +V: V-VV_01_BACK ;
++V+Inf:%>e K ;
 
 LEXICON V_POTKIE-SG3 !!= * __@CODE@__ potkie:potki
 +V: V-VV_01_BACK ;
++V+Inf:%>e K ;
 
 LEXICON V_IMIE !!= * __@CODE@__ imie:ime
 !! Gradation No
 !! Front vowel
 +V: V-VV_01_FRONT ;
++V+Inf:%>e K ;
 +V:%>e INDPRTPL3_ttih ; !!= * __@CODE@__ 
 !!€# koske%>e%^WGStem%>ttih
 !!€0 koski0e00ttih
@@ -150,16 +164,17 @@ LEXICON V_IMIE !!= * __@CODE@__ imie:ime
 
 LEXICON V_IMIE-SG3 !!= * __@CODE@__ imie:ime
 +V: V-VV_01_FRONT ;
-
++V+Inf:%>e K ;
 
 LEXICON  V_PIDIÄ !!= * __@CODE@__ pidiä:pidä
 !! Gradation Yes
 !! Front vowel
 +V: V-VV_01_FRONT ;
-
++V+Inf:%>ä K ;
 
 LEXICON  V_PIDIÄ-SG3 !!= * __@CODE@__ pidiä:pidä
 +V: V-VV_01_FRONT ;
++V+Inf:%>ä K ;
 
 LEXICON V_KIRJUTTUA !!= * __@CODE@__ kirjuttua:kirjutta
 !! 3-syllable stem
@@ -541,7 +556,6 @@ LEXICON V-VV_01_BACK_USUALLY-STRONG
  PSS-PRFPRC_Ettu ;
 
  M-INF_BACK        ;
-+Inf:%>%{aäPar%} K ;
  GER_jen ;
  GER-TEMP_jes ;
 
@@ -583,7 +597,6 @@ LEXICON V-VV_01_FRONT_USUALLY-STRONG
  ACT-PRFPRC_nyH ;
  PSS-PRFPRC_Etty ;
  M-INF_FRONT        ;
-+Inf:%>%{aäPar%} K ;
  GER_jen ;
  GER-TEMP_jes ;
 
@@ -628,7 +641,6 @@ LEXICON V-3SYLL_KIRJUTTUA !!= __@CODE@__  kirjuttua:kirjutta
  PSS-PRFPRC_Ettu ;
 
  M-INF_BACK        ;
-+Inf:%>%{aäDiph%} K ;
 
 
 
