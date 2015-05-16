@@ -364,7 +364,7 @@ a:u <=> ConsPalOrNot _ [ ( d:0 ) a  | %> [ %{aäPar%}: | %{aäDiph%}: | a | A2:a
  
 "o:u before subsequent o"
 !! __@RULENAME@__ Diphthong o+o => uo erota:eruou
-o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: ] ; 
+o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: | o ] ; 
 !€# ero%>%{aäDiph%}%>n
 !€0 eru0o0n
 !€# runo%>%{aäPar%}
