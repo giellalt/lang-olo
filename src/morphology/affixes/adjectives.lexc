@@ -314,7 +314,7 @@ LEXICON Adj-NB-i
 +Sg: Adj-NB-01 ;
 +Pl:%>i Adj-NB-01 ;
 ! The next two share the same stem vowel
-+Sg: SGGENSUF ; ! The singular comitative is declined here
++Sg: SG-ACC/APR/COM/GENSUF ;
 +Pl: PLNOMSUF ;
 
 LEXICON Adj-NB-loi
@@ -322,7 +322,7 @@ LEXICON Adj-NB-loi
 +Sg: Adj-NB-01 ;
 +Pl:%>loi Adj-NB-01 ;
 ! The next two share the same stem vowel
-+Sg: SGGENSUF ; ! The singular comitative is declined here
++Sg: SG-ACC/APR/COM/GENSUF ;
 +Pl: PLNOMSUF ;
 
 LEXICON Adj-NB-01
