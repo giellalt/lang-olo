@@ -460,10 +460,12 @@ Multichar_Symbols
  %^D2Z       !!= * @CODE@ Triggers ti=>zi
  %^A2O       !!= * @CODE@  before plural "i"
  %^A2U       !!= * @CODE@  +Nom+Sg
+ %^E2O	     !!= @CODE@  the e => o, e => ö +Ind+Prs+ScSg3
+ %^Ä2I		!!= @CODE@  ä => i
  %^NONE      !!= * @CODE@  no regular change
  %^KS2S      !!= * @CODE@  "aluksen" is "alus" in the nominative singular
  %^ILoss     !!= * @CODE@  the i => 0 __reboi reboloi__
- %^VowRM   !!= _@CODE@_ vowel removal, e.g. with superlative
+ %^RmVow   !!= _@CODE@_ vowel removal, e.g. with superlative
 
 
 QAQ1  !!= * @CODE@

@@ -14,68 +14,68 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  adjective - tver: # adjectives 'a bull / tver' - full paradigm
-     tver+N+Sg+Nom: tver
-     tver+N+Sg+Gen: tverin
-     tver+N+Sg+Acc: [tver, tverin]
-     tver+N+Sg+Par: tveri
-     tver+N+Sg+Tra: tverikse
-     tver+N+Sg+Abe: [tveritä, tverittäh]
-     tver+N+Sg+Com: tverinke
-     tver+N+Sg+Ine: tveris
-     tver+N+Sg+Ela: [tverispäi, tveris]
-     tver+N+Sg+Ill: tverih
-     tver+N+Sg+Ade: tveril
-     tver+N+Sg+Abl: [tverilpäi, tveril]
-     tver+N+Sg+All: tverile
-     tver+N+Sg+Ess: tverinny, tvernny
-     tver+N+Sg+Ter: tverissäh
-     tver+N+Sg+Apr: tverillyö
-     tver+N+Pl+Nom: tverit
-     tver+N+Pl+Gen: [tverin, tverilöin]
-     tver+N+Pl+Acc: tverit
-     tver+N+Pl+Par: [tverilöi, tverii]
-     tver+N+Pl+Tra: [tverikse, tverilöikse]
-     tver+N+Pl+Abe: [tveritä, tverittäh, tverilöitä, tverilöittäh]
-     tver+N+Pl+Com: [tverinke, tverilöinke]
-     tver+N+Pl+Ine: [tveris, tverilöis]
-     tver+N+Pl+Ela: [tverispäi, tveris, tverilöispäi, tverilöis]
-     tver+N+Pl+Ill: [tverilöih, tverih]
-     tver+N+Pl+Ade: [tverilöilpäi, tverilöil, tverilöil, tveril]
-     tver+N+Pl+Abl: [tverilpäi, tveril, ]
-     tver+N+Pl+All: [tverile, tverilöile]
-     tver+N+Pl+Ess: [tverinny, tverilöinny]
-     tver+N+Pl+Ins: [tverin, tverilöin]
-     tver+N+Pl+Apr: [tverillyö, tverilöillyö]
-     tver+N+Sg+Nom+Clt/gi: tverigi
-     tver+N+Sg+Gen+Clt/gi: tveringi
-     tver+N+Sg+Acc+Clt/gi: [tverigi, tveringi]
-     tver+N+Sg+Par+Clt/gi: tverigi
-     tver+N+Sg+Tra+Clt/gi: tveriksegi
-     tver+N+Sg+Abe+Clt/gi: [tveritägi, tverittähgi]
-     tver+N+Sg+Com+Clt/gi: tverinkegi
-     tver+N+Sg+Ine+Clt/gi: tverisgi
-     tver+N+Sg+Ela+Clt/gi: [tverispäigi, tverisgi]
-     tver+N+Sg+Ill+Clt/gi: tverhgi
-     tver+N+Sg+Ade+Clt/gi: tverilgi
-     tver+N+Sg+Abl+Clt/gi: [tverilpäigi, tverilgi]
-     tver+N+Sg+All+Clt/gi: tverilegi
-     tver+N+Sg+Ess+Clt/gi: tverinnygi, tverinnygi
-     tver+N+Sg+Ter+Clt/gi: tverissähgi
-     tver+N+Sg+Apr+Clt/gi: tverillyögi
-     tver+N+Pl+Nom+Clt/gi: tveritgi
-     tver+N+Pl+Gen+Clt/gi: [tveringi, tverilöingi]
-     tver+N+Pl+Acc+Clt/gi: tveritgi
-     tver+N+Pl+Par+Clt/gi: [tverigi, tverilöigi]
-     tver+N+Pl+Tra+Clt/gi: [tveriksegi, tverilöiksegi]
-     tver+N+Pl+Abe+Clt/gi: [tveritägi, tverittähgi, tverilöitägi, tverilöittähgi]
-     tver+N+Pl+Com+Clt/gi: [tverinkegi, tverilöinkegi]
-     tver+N+Pl+Ine+Clt/gi: [tverisgi, tverilöisgi]
-     tver+N+Pl+Ela+Clt/gi: [tverispäigi, tverisgi, tverilöispäigi, tverilöisgi]
-     tver+N+Pl+Ill+Clt/gi: [tverihgi, tverilöihgi]
-     tver+N+Pl+Ade+Clt/gi: [tverilgi, tverilöilgi]
-     tver+N+Pl+Abl+Clt/gi: [tverilöilpäigi, tverilöilgi, tverilpäigi, tverilgi]
-     tver+N+Pl+All+Clt/gi: [tverilöilegi, tverilegi]
-     tver+N+Pl+Ess+Clt/gi: [tverilöinnygi, tverinnygi]
-     tver+N+Pl+Ins+Clt/gi: [tverilöingi, tveringi]
-     tver+N+Pl+Apr+Clt/gi: [tverilöillyögi, tveriellyögi]
+  noun - tver: # nouns 'a bull / sonni' - full paradigm
+     häkki+N+Sg+Nom: häkki
+     häkki+N+Sg+Gen: häkin
+     häkki+N+Sg+Acc: [häkki, häkin]
+     häkki+N+Sg+Par: häkkii
+     häkki+N+Sg+Tra: häkikse
+     häkki+N+Sg+Abe: [häkitä, häkittäh]
+     häkki+N+Sg+Com: häkinke
+     häkki+N+Sg+Ine: häkis
+     häkki+N+Sg+Ela: [häkispäi, häkis]
+     häkki+N+Sg+Ill: häkkih
+     häkki+N+Sg+Ade: häkil
+     häkki+N+Sg+Abl: [häkilpäi, häkil]
+     häkki+N+Sg+All: häkile
+     häkki+N+Sg+Ess: häkinny
+     häkki+N+Sg+Ter: häkissäh
+     häkki+N+Sg+Apr: häkillyö
+     häkki+N+Pl+Nom: häkit
+     häkki+N+Pl+Gen: [häkin, häkkilöin]
+     häkki+N+Pl+Acc: häkit
+     häkki+N+Pl+Par: [häkkilöi, häkkii]
+     häkki+N+Pl+Tra: [häkikse, häkkilöikse]
+     häkki+N+Pl+Abe: [häkitä, häkittäh, häkkilöitä, häkkilöittäh]
+     häkki+N+Pl+Com: [häkinke, häkkilöinke]
+     häkki+N+Pl+Ine: [häkis, häkkilöis]
+     häkki+N+Pl+Ela: [häkispäi, häkis, häkkilöispäi, häkkilöis]
+     häkki+N+Pl+Ill: [häkkilöih, häkkih]
+     häkki+N+Pl+Ade: [häkkilöilpäi, häkkilöil, häkkilöil, häkil]
+     häkki+N+Pl+Abl: [häkilpäi, häkil, ]
+     häkki+N+Pl+All: [häkile, häkkilöile]
+     häkki+N+Pl+Ess: [häkinny, häkkilöinny]
+     häkki+N+Pl+Ins: [häkin, häkkilöin]
+     häkki+N+Pl+Apr: [häkillyö, häkkilöillyö]
+     häkki+N+Sg+Nom+Clt/gi: häkkigi
+     häkki+N+Sg+Gen+Clt/gi: häkingi
+     häkki+N+Sg+Acc+Clt/gi: [häkkigi, häkingi]
+     häkki+N+Sg+Par+Clt/gi: häkkiigi
+     häkki+N+Sg+Tra+Clt/gi: häkiksegi
+     häkki+N+Sg+Abe+Clt/gi: [häkitägi, häkittähgi]
+     häkki+N+Sg+Com+Clt/gi: häkinkegi
+     häkki+N+Sg+Ine+Clt/gi: häkisgi
+     häkki+N+Sg+Ela+Clt/gi: [häkispäigi, häkisgi]
+     häkki+N+Sg+Ill+Clt/gi: häkkihgi
+     häkki+N+Sg+Ade+Clt/gi: häkilgi
+     häkki+N+Sg+Abl+Clt/gi: [häkilpäigi, häkilgi]
+     häkki+N+Sg+All+Clt/gi: häkilegi
+     häkki+N+Sg+Ess+Clt/gi: häkinnygi, häkinnygi
+     häkki+N+Sg+Ter+Clt/gi: häkissähgi
+     häkki+N+Sg+Apr+Clt/gi: häkillyögi
+     häkki+N+Pl+Nom+Clt/gi: häkitgi
+     häkki+N+Pl+Gen+Clt/gi: [häkingi, häkkilöingi]
+     häkki+N+Pl+Acc+Clt/gi: häkitgi
+     häkki+N+Pl+Par+Clt/gi: [häkkiigi, häkkilöigi]
+     häkki+N+Pl+Tra+Clt/gi: [häkiksegi, häkkilöiksegi]
+     häkki+N+Pl+Abe+Clt/gi: [häkitägi, häkittähgi, häkkilöitägi, häkkilöittähgi]
+     häkki+N+Pl+Com+Clt/gi: [häkinkegi, häkkilöinkegi]
+     häkki+N+Pl+Ine+Clt/gi: [häkisgi, häkkilöisgi]
+     häkki+N+Pl+Ela+Clt/gi: [häkispäigi, häkisgi, häkkilöispäigi, häkkilöisgi]
+     häkki+N+Pl+Ill+Clt/gi: [häkkihgi, häkkilöihgi]
+     häkki+N+Pl+Ade+Clt/gi: [häkilgi, häkkilöilgi]
+     häkki+N+Pl+Abl+Clt/gi: [häkkilöilpäigi, häkkilöilgi, häkilpäigi, häkilgi]
+     häkki+N+Pl+All+Clt/gi: [häkkilöilegi, häkilegi]
+     häkki+N+Pl+Ess+Clt/gi: [häkkilöinnygi, häkinnygi]
+     häkki+N+Pl+Ins+Clt/gi: [häkkilöingi, häkingi]
+     häkki+N+Pl+Apr+Clt/gi: [häkkilöillyögi, häkillyögi]

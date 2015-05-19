@@ -33,14 +33,14 @@ LEXICON A_IS-N-SG-GEN !!= @CODE@ genitive plural attributes
 LEXICON A-DEM_NÄMÄ !!= @CODE@ nämä:nämä
 !+A+Dem+Pl+Abl:l K ;
 !+A+Dem+Pl+Abl:lpäi K ;
-+A+Dem+Pl+Ade:%^VowRM%>il K ;
-+A+Dem+Pl+All:%^VowRM%>ile K ;
-+A+Dem+Pl+Ess:%^VowRM%>inny K ;
-+A+Dem+Pl+Gen:%^VowRM%>ien K ;
-+A+Dem+Pl+Ill:%^VowRM%>ih K ;
-+A+Dem+Pl+Ine:%^VowRM%>is K ;
++A+Dem+Pl+Ade:%^RmVow%>il K ;
++A+Dem+Pl+All:%^RmVow%>ile K ;
++A+Dem+Pl+Ess:%^RmVow%>inny K ;
++A+Dem+Pl+Gen:%^RmVow%>ien K ;
++A+Dem+Pl+Ill:%^RmVow%>ih K ;
++A+Dem+Pl+Ine:%^RmVow%>is K ;
 +A+Dem+Pl+Nom: K ;
-+A+Dem+Pl+Par:%^VowRM%>ii K ;
++A+Dem+Pl+Par:%^RmVow%>ii K ;
 !+A+Dem+Pl+Tra:kse K ;
 
 
@@ -66,17 +66,17 @@ LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
 LEXICON A_OZA !!= @CODE@ oza:oza
 +A: NMN_OZA ;
 +A+Der/mbi+Comp:%^E1%>mb NMN_PAREMBI        ;
-+A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
++A+Der/in+Superl:%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_SÄYNÄ !!= @CODE@ säynä:säynä
 +A: NMN_SÄYNÄ ;
 +A+Der/mbi+Comp:%^E1%>mb NMN_PAREMBI        ;
-+A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
++A+Der/in+Superl:%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_KALA !!= @CODE@ kala:kala
 +A: NMN_KALA ;
 +A+Der/mbi+Comp:%^E1%>mb NMN_PAREMBI        ;
-+A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
++A+Der/in+Superl:%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_KOIVU !!= @CODE@ koivu:koivu
 +A:        NMN_KOIVU ;
@@ -129,22 +129,22 @@ LEXICON A_OLUT !!= @CODE@ olut:olu
 LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
 +A: NMN_PÄIVY ;
 +A+Der/mbi+Comp:%^E1%>mb NMN_PAREMBI        ;
-+A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
++A+Der/in+Superl:%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_MUARJU !!= @CODE@ muarju:muarja
 +A:	NMN_MUARJU ;
 +A+Der/mbi+Comp:%^E1%>mb NMN_PAREMBI        ;
-+A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
++A+Der/in+Superl:%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_AKKU !!= @CODE@ akku:akka
 +A:	NMN_AKKU ;
 +A+Der/mbi+Comp:%^E1%>mb NMN_PAREMBI        ;
-+A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
++A+Der/in+Superl:%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_KOIRU
 +A: NMN_PÄIVY ;
 +A+Der/mbi+Comp:%^E1%>mb NMN_PAREMBI        ;
-+A+Der/in+Superl:%^VowRM%>i NMN_ENIN        ;
++A+Der/in+Superl:%^RmVow%>i NMN_ENIN        ;
 
 
 LEXICON A_VALGEI !!= @CODE@ valgei:valge
@@ -250,6 +250,10 @@ LEXICON A_ARMAS !!= @CODE@ armas:arma
 +A+Der/mbi+Comp:h%{aä%}mb NMN_PAREMBI        ;
 +A+Der/in+Superl:hi NMN_ENIN        ;
 
+LEXICON A_TULLUH !!= @CODE@ tulluh:tullu
+!!= * Yaml: __A-tulluh__
++A: NMN_TULLUH ;
+
 LEXICON A_TUORES !!= @CODE@ tuores:tuore
 !!= * Yaml: __A-tuores__
 +A: NMN_TUORES ;
@@ -261,6 +265,11 @@ LEXICON A_SUURIM !!= @CODE@ suurim:suurim
 
 LEXICON A_KIELI !!= @CODE@ kieli:kiel
 +A:	NMN_KIELI	;
++A+Der/mbi+Comp:emb NMN_PAREMBI        ;
++A+Der/in+Superl:i NMN_ENIN        ;
+
+LEXICON A_SUARI !!= @CODE@ suari:suar
++A:	NMN_SUARI	;
 +A+Der/mbi+Comp:emb NMN_PAREMBI        ;
 +A+Der/in+Superl:i NMN_ENIN        ;
 
