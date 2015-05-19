@@ -36,10 +36,15 @@
 
 
 
+ %^E2O:0	  the e => o, e => ö
+
+
+ %^Ä2I:0		  ä => i
+
  %^ILoss:0    the i => 0 __reboi reboloi__
 
  _%^RVow:0   _ 
- _%^VowRM:0   _ vowel removal, e.g. with superlative
+ _%^RmVow:0   _ vowel removal, e.g. with superlative
 
 
 
@@ -112,12 +117,12 @@ __e:0__
 
 __%{ui%}:u__
 {{{
-* %^VowRM:0    ! imperative forms
+* %^RmVow:0    ! imperative forms
 }}}
 
 __%{ui%}:i__
 {{{
-* %^VowRM:0    ! imperative forms
+* %^RmVow:0    ! imperative forms
 }}}
 
 __A2:a__
@@ -152,8 +157,6 @@ __e:o__ Vowel harmony suffixes Back
 }}}
 
 __e:ö__ Vowel harmony 
-{{{
-}}}
 
 __ä:y word final__
 
@@ -161,7 +164,7 @@ __ä:ö word final__
 
 
 __a:0 in suaja:sai__
- *  a _ ( %^VowRM: ) %> i ;  Vowel shortening before subsequent "i"
+ *  a _  %^RmVow: %> i ;  Vowel shortening before subsequent "i"
 
 
 !!iToj between vowels
@@ -169,7 +172,7 @@ __i:j__
 
 __%{ijPRC%}:i__ 
 {{{
-*  a _ ( %^VowRM: ) %> i ;  +ActPrsPrc
+*  a _  %^RmVow: %> i ;  +ActPrsPrc
 }}}
 
 
