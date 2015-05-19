@@ -306,10 +306,12 @@ And following triggers to control variation
  *  %^D2Z        Triggers ti=>zi
  *  %^A2O         before plural "i"
  *  %^A2U         +Nom+Sg
+  %^E2O	       the e => o, e => ö +Ind+Prs+ScSg3
+  %^Ä2I		  ä => i
  *  %^NONE        no regular change
  *  %^KS2S        "aluksen" is "alus" in the nominative singular
  *  %^ILoss       the i => 0 __reboi reboloi__
- _ %^VowRM   _ vowel removal, e.g. with superlative
+ _ %^RmVow   _ vowel removal, e.g. with superlative
 
 
  * QAQ1  
@@ -554,12 +556,17 @@ the comparatives and superlatives are supletive
 
  LEXICON A_ARMAS  armas:arma
 
+ LEXICON A_TULLUH  tulluh:tullu
+  * Yaml: __A-tulluh__
+
  LEXICON A_TUORES  tuores:tuore
   * Yaml: __A-tuores__
 
  LEXICON A_SUURIM  suurim:suurim
 
  LEXICON A_KIELI  kieli:kiel
+
+ LEXICON A_SUARI  suari:suar
 
  LEXICON A_VUOZI  vuozi:vuod
 
@@ -1758,6 +1765,14 @@ Back Vowel
 
  * __LEXICON V_KANDUA-3 __ kandua:kanda
 
+ * __LEXICON V_OTTUA __ ottua:otta
+Gradation Yes
+Back Vowel
+
+ * __LEXICON V_OTTUA-SG3 __ ottua:otta
+
+ * __LEXICON V_OTTUA-3 __ ottua:otta
+
  * __LEXICON V_HEITTIÄ __ heittä:heittä
 Gradation Yes
 Front vowel
@@ -1794,20 +1809,9 @@ Back vowel
  * __LEXICON V_IMIE __ imie:ime
 Gradation No
 Front vowel
+
  * __+V:%>e INDPRTPL3_ttih ; __ 
-
-__koske%>e%^WGStem%>ttih examples:__
-
-__koski0e00ttih examples:__
  * __+V:%>e INDPRSPL3_tAh ; __ 
-
-__koske%>e%^WGStem%>t%{aäDiph%}h examples:__
-
-__koski0e00tah examples:__
-
-__koske%>e%^WGStem%>tt%{uy%} examples:__
-
-__koski0e00tah examples:__
 
  * __LEXICON V_IMIE-SG3 __ imie:ime
 
@@ -2015,6 +2019,8 @@ Reflexive verbs
  * __LEXICON VR_MERKITÄ __ merkitäkseh:merki
 
  * __LEXICON VR_MAINITA __ mainitakseh:maini
+
+
 
 
 
@@ -2306,10 +2312,15 @@ Forthcoming
 
 
 
+ %^E2O:0	  the e => o, e => ö
+
+
+ %^Ä2I:0		  ä => i
+
  %^ILoss:0    the i => 0 __reboi reboloi__
 
  _%^RVow:0   _ 
- _%^VowRM:0   _ vowel removal, e.g. with superlative
+ _%^RmVow:0   _ vowel removal, e.g. with superlative
 
 
 
@@ -2382,12 +2393,12 @@ __e:0__
 
 __%{ui%}:u__
 {{{
-* %^VowRM:0    ! imperative forms
+* %^RmVow:0    ! imperative forms
 }}}
 
 __%{ui%}:i__
 {{{
-* %^VowRM:0    ! imperative forms
+* %^RmVow:0    ! imperative forms
 }}}
 
 __A2:a__
@@ -2422,8 +2433,6 @@ __e:o__ Vowel harmony suffixes Back
 }}}
 
 __e:ö__ Vowel harmony 
-{{{
-}}}
 
 __ä:y word final__
 
@@ -2431,7 +2440,7 @@ __ä:ö word final__
 
 
 __a:0 in suaja:sai__
- *  a _ ( %^VowRM: ) %> i ;  Vowel shortening before subsequent "i"
+ *  a _  %^RmVow: %> i ;  Vowel shortening before subsequent "i"
 
 
 !!iToj between vowels
@@ -2439,7 +2448,7 @@ __i:j__
 
 __%{ijPRC%}:i__ 
 {{{
-*  a _ ( %^VowRM: ) %> i ;  +ActPrsPrc
+*  a _  %^RmVow: %> i ;  +ActPrsPrc
 }}}
 
 

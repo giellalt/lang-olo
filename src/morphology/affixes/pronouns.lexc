@@ -140,14 +140,14 @@ LEXICON PRON_TÄMÄ !!= @CODE@ tämä:tä
 LEXICON PRON-DEM_NÄMMÄ !!= @CODE@ nämmä:nämmä
 !+Pron+Dem+Pl+Abl:l K ;
 !+Pron+Dem+Pl+Abl:lpäi K ;
-+Pron+Dem+Pl+Ade:%^VowRM%>il K ;
-+Pron+Dem+Pl+All:%^VowRM%>ile K ;
-+Pron+Dem+Pl+Ess:%^VowRM%>inny K ;
-+Pron+Dem+Pl+Gen:%^VowRM%>ien K ;
-+Pron+Dem+Pl+Ill:%^VowRM%>ih K ;
-+Pron+Dem+Pl+Ine:%^VowRM%>is K ;
++Pron+Dem+Pl+Ade:%^RmVow%>il K ;
++Pron+Dem+Pl+All:%^RmVow%>ile K ;
++Pron+Dem+Pl+Ess:%^RmVow%>inny K ;
++Pron+Dem+Pl+Gen:%^RmVow%>ien K ;
++Pron+Dem+Pl+Ill:%^RmVow%>ih K ;
++Pron+Dem+Pl+Ine:%^RmVow%>is K ;
 +Pron+Dem+Pl+Nom: K ;
-+Pron+Dem+Pl+Par:%^VowRM%>ii K ;
++Pron+Dem+Pl+Par:%^RmVow%>ii K ;
 !+Pron+Dem+Pl+Tra:kse K ;
 
 LEXICON PRON-DEM_NET !!= @CODE@ net:n
