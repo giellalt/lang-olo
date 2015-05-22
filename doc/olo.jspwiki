@@ -307,7 +307,9 @@ And following triggers to control variation
  *  %^A2O         before plural "i"
  *  %^A2U         +Nom+Sg
   %^E2O	       the e => o, e => ö +Ind+Prs+ScSg3
-  %^Ä2I		  ä => i
+  %^Ä2I	       ä => i
+  %^V2U	       v => y __kävvä käydy__
+
  *  %^NONE        no regular change
  *  %^KS2S        "aluksen" is "alus" in the nominative singular
  *  %^ILoss       the i => 0 __reboi reboloi__
@@ -1831,24 +1833,43 @@ Back vowel
 
  * __LEXICON V_VOIJA __ voija:voi
 
+ * __+V+Inf:%>ja K ; __ type 2 also suaha
+
+
+
  * __LEXICON V_ROIJA __ roija:roi
+ * __+V+Inf:%>ja K ; __ type 2 also suaha
 
 
- * __LEXICON V_SUAJA __ suaja:saa jiäjä:jää
- * __+V+Inf:%>h%{aäDiph%} K ; __ type 2 also suaha jiäjä, jiähä
+ * __LEXICON V_SUAJA __ suaja:saa
+ * __+V+Inf:%>ja K ; __ type 2 also suaha
+ * __+V+Inf:%>ha K ; __ type 2 also suaha
 
- * __LEXICON V_JUVVA __ juvva:juo
+
+ * __LEXICON V_JUVVA __ juvva:jo
+
+
+ * __LEXICON V_JIÄJÄ __ suaja:saa jiäjä:jää
+ * __+V+Inf:%>jä K ; __ type 2 also jiähä
+ * __+V+Inf:%>hä K ; __ type 2 also jiähä
+
+ * __LEXICON V_MYVVÄ __ myvvä:mö
+
+ * __LEXICON V_VIIJÄ __ viijä:ve
+
 
  * __LEXICON V_NÄHTÄ __ nähtä:nä
 
 
 
 
-
-
-
-
  * __LEXICON V_KÄVVÄ __ kävvä:käv
+
+
+
+
+
+
 
 
 !Verbs of the Finnish type 3
@@ -2002,7 +2023,8 @@ Reflexive verbs
 
  * __LEXICON VR_ROITA __ roita:roi 
 
- * __LEXICON VR_JUVVA __ juvva:juo
+ * __LEXICON VR_JUVVA __ juvva:jo
+ * __LEXICON VR_MYVVÄ __ myvvä:mö
 
  * __LEXICON VR_NÄHTÄ __ nähtä:nä
 
@@ -2040,6 +2062,17 @@ Reflexive verbs
 
 
  __LEXICON V-3SYLL_KIRJUTTUA __  kirjuttua:kirjutta
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2318,6 +2351,7 @@ Forthcoming
  %^Ä2I:0		  ä => i
 
  %^ILoss:0    the i => 0 __reboi reboloi__
+ %^V2U:0	     v => y __kävvä käydy__
 
  _%^RVow:0   _ 
  _%^RmVow:0   _ vowel removal, e.g. with superlative
@@ -2440,7 +2474,7 @@ __ä:ö word final__
 
 
 __a:0 in suaja:sai__
- *  a _  %^RmVow: %> i ;  Vowel shortening before subsequent "i"
+ *  a _  %^RmVow:  ;  Vowel shortening before subsequent "i"
 
 
 !!iToj between vowels
@@ -2448,7 +2482,7 @@ __i:j__
 
 __%{ijPRC%}:i__ 
 {{{
-*  a _  %^RmVow: %> i ;  +ActPrsPrc
+*  a _  %^RmVow:  ;  +ActPrsPrc
 }}}
 
 
@@ -2507,6 +2541,7 @@ __d:v__
 
 }}}
 
+__v:y__
 __d:j__  
 
 
