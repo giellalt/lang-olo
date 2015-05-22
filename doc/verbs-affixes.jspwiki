@@ -100,24 +100,43 @@ Back vowel
 
  * __LEXICON V_VOIJA __ voija:voi
 
+ * __+V+Inf:%>ja K ; __ type 2 also suaha
+
+
+
  * __LEXICON V_ROIJA __ roija:roi
+ * __+V+Inf:%>ja K ; __ type 2 also suaha
 
 
- * __LEXICON V_SUAJA __ suaja:saa jiäjä:jää
- * __+V+Inf:%>h%{aäDiph%} K ; __ type 2 also suaha jiäjä, jiähä
+ * __LEXICON V_SUAJA __ suaja:saa
+ * __+V+Inf:%>ja K ; __ type 2 also suaha
+ * __+V+Inf:%>ha K ; __ type 2 also suaha
 
- * __LEXICON V_JUVVA __ juvva:juo
+
+ * __LEXICON V_JUVVA __ juvva:jo
+
+
+ * __LEXICON V_JIÄJÄ __ suaja:saa jiäjä:jää
+ * __+V+Inf:%>jä K ; __ type 2 also jiähä
+ * __+V+Inf:%>hä K ; __ type 2 also jiähä
+
+ * __LEXICON V_MYVVÄ __ myvvä:mö
+
+ * __LEXICON V_VIIJÄ __ viijä:ve
+
 
  * __LEXICON V_NÄHTÄ __ nähtä:nä
 
 
 
 
-
-
-
-
  * __LEXICON V_KÄVVÄ __ kävvä:käv
+
+
+
+
+
+
 
 
 !Verbs of the Finnish type 3
@@ -271,7 +290,8 @@ Reflexive verbs
 
  * __LEXICON VR_ROITA __ roita:roi 
 
- * __LEXICON VR_JUVVA __ juvva:juo
+ * __LEXICON VR_JUVVA __ juvva:jo
+ * __LEXICON VR_MYVVÄ __ myvvä:mö
 
  * __LEXICON VR_NÄHTÄ __ nähtä:nä
 
@@ -309,6 +329,17 @@ Reflexive verbs
 
 
  __LEXICON V-3SYLL_KIRJUTTUA __  kirjuttua:kirjutta
+
+
+
+
+
+
+
+
+
+
+
 
 
 

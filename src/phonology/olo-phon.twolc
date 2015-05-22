@@ -106,6 +106,7 @@ K1:k
 %^Ä2I:0		!!= @CODE@  ä => i
 
 %^ILoss:0  !!= @CODE@  the i => 0 __reboi reboloi__
+%^V2U:0	   !!= @CODE@  v => y __kävvä käydy__
 
 ! Vowel raising
 %^RVow:0   !!= _@CODE@_ 
@@ -382,13 +383,13 @@ o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: | o ] ;
 
 "ö:y before subsequent ö"
 !! __@RULENAME@__ Diphthong ö+ö, ö+%{aäPar%}:ö => yö
-ö:y <=> Cns _ %> [ %{aäDiph%}:ö | %{aäPar%}:ö ] ; 
-!€# sö%>%{aäDiph%}%>%{uy%}
-!€0 sy%>ö0y
-!€# pölllö%>%{aäPar%}
-!€0 pöllly%>ö
+ö:y <=> Cns _ %> [ %{aäDiph%}:ö | %{aäPar%}:ö | ö ] ; 
+!€# sö%>ö%>y
+!€0 sy%>ö%>y
+!€# pöllö%>ö
+!€0 pölly%>ö
           _ %> v v ;
-!€# sö%>vv%{aäDiph%}
+!€# sö%>vvä
 !€0 sy%>vvä
 
 "e:i before subsequent %{aäPar%}:e"
@@ -441,12 +442,12 @@ o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: | o ] ;
 "a:0 in suaja:sai"
 !! __@RULENAME@__
 a:0 <=>
- a _  %^RmVow: %> i ; !!= * @CODE@ Vowel shortening before subsequent "i"
+ a _  %^RmVow:  ; !!= * @CODE@ Vowel shortening before subsequent "i"
 [ # Cns:*  [[ u | o ] (i)| u o: ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ [ %^RmVow: %> i: (%^WGStem:) [ # |  %> [i|Cns] | %> e [n|l]] | %^WGStem: %> i: ] ;
 !€# koira%^RmVow%>i%>en
 !€0 koir00%>i%>en
 !€$ koira0%>j%>en
- _ %^RmVow: %> i ;
+ Cns: _ %^RmVow:  ;
 !€# vahna%^RmVow%>in
 !€0 vahn00%>in
 
@@ -489,7 +490,7 @@ a:o <=> Cns _ %^A2O: ;
 
 "ä:0 pidiä:pidi"
 !! __@RULENAME@__
-ä:0 <=> Cns: _ (%^RmVow:|%^WGStem:) %> i:  ;
+ä:0 <=> Cns: _ (%^WGStem:) %^RmVow:  ;
 
 "i:0 reboi:reboloi"
 !! __@RULENAME@__
@@ -581,6 +582,9 @@ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] %^WGStem:0 ; !!= @CODE@
 
 !! }}}
 
+"v:y"
+!! __@RULENAME@__
+ v:y <=> VowFront _ %^V2U: ;
 ! luadie:luajitah
 "d:j"
 !! __@RULENAME@__  

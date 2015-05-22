@@ -1850,11 +1850,11 @@ LEXICON NMN_SULGU-SG
 
 LEXICON NMN_SULGU-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
-:%>i PL-GEN/COM/APRSUF_EN ; 
-:%>i PLPARSUF_i ;
-:%>i%^WGStem PLINSSUF ;
-+Pl:%>i%^WGStem  Noun-NB-01-USUALLY-WEAK ;
-+Pl:%>i Noun-NB-01-USUALLY-STRONG ;
+:%^RmVow%>i PL-GEN/COM/APRSUF_EN ; 
+:%^RmVow%>i PLPARSUF_i ;
+:%^RmVow%>i%^WGStem PLINSSUF ;
++Pl:%^RmVow%>i%^WGStem  Noun-NB-01-USUALLY-WEAK ;
++Pl:%^RmVow%>i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_KOIRU !!= @CODE@ koiru:koira
 !! Gradation NA
@@ -1871,11 +1871,11 @@ LEXICON NMN_KOIRU-SG
 
 LEXICON NMN_KOIRU-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>i PL-GEN/COM/APRSUF_EN ; 
-:%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
-+Pl:%>i  Noun-NB-01-USUALLY-WEAK ;
-+Pl:%>i Noun-NB-01-USUALLY-STRONG ;
+:%^RmVow%>i PL-GEN/COM/APRSUF_EN ; 
+:%^RmVow%>i PLPARSUF_i ;
+:%^RmVow%>i PLINSSUF ;
++Pl:%^RmVow%>i  Noun-NB-01-USUALLY-WEAK ;
++Pl:%^RmVow%>i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_PÄIVY !!= @CODE@ päivy:päivä
 !! Gradation NA
@@ -1891,11 +1891,11 @@ LEXICON NMN_PÄIVY-SG
 
 LEXICON NMN_PÄIVY-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>i PL-GEN/COM/APRSUF_EN ; 
-:%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
-+Pl:%>i  Noun-NB-01-USUALLY-WEAK ;
-+Pl:%>i Noun-NB-01-USUALLY-STRONG ;
+:%^RmVow%>i PL-GEN/COM/APRSUF_EN ; 
+:%^RmVow%>i PLPARSUF_i ;
+:%^RmVow%>i PLINSSUF ;
++Pl:%^RmVow%>i  Noun-NB-01-USUALLY-WEAK ;
++Pl:%^RmVow%>i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_MEČČY !!= @CODE@ meččy:meččä
 !! gradation Yes
@@ -1911,11 +1911,11 @@ LEXICON NMN_MEČČY-SG
 +Sg: Noun-NB-01-USUALLY-STRONG ;
 LEXICON NMN_MEČČY-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
-:%>i PL-GEN/COM/APRSUF_N ; 
-:%>i PLPARSUF_Zero ;
-:%>i%^WGStem PLINSSUF ;
-+Pl:%>i%^WGStem Noun-NB-01-USUALLY-WEAK ;
-+Pl:%>i Noun-NB-01-USUALLY-STRONG ;
+:%^RmVow%>i PL-GEN/COM/APRSUF_N ; 
+:%^RmVow%>i PLPARSUF_Zero ;
+:%^RmVow%>i%^WGStem PLINSSUF ;
++Pl:%^RmVow%>i%^WGStem Noun-NB-01-USUALLY-WEAK ;
++Pl:%^RmVow%>i Noun-NB-01-USUALLY-STRONG ;
 
 
 LEXICON NMN_IŽÄNDY !!= @CODE@ ižändy:ižändä
@@ -1933,11 +1933,11 @@ LEXICON NMN_IŽÄNDY-SG
 
 LEXICON NMN_IŽÄNDY-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>i PL-GEN/COM/APRSUF_EN ; 
-:%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
-+Pl:%>i  Noun-NB-01-USUALLY-WEAK ;
-+Pl:%>i Noun-NB-01-USUALLY-STRONG ;
+:%^RmVow%>i PL-GEN/COM/APRSUF_EN ; 
+:%^RmVow%>i PLPARSUF_i ;
+:%^RmVow%>i PLINSSUF ;
++Pl:%^RmVow%>i  Noun-NB-01-USUALLY-WEAK ;
++Pl:%^RmVow%>i Noun-NB-01-USUALLY-STRONG ;
 
 
 LEXICON NMN_KOIVU !!= @CODE@ koivu:koivu
@@ -2361,10 +2361,10 @@ LEXICON NMN_KALA-SG
 
 LEXICON NMN_KALA-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>i PL-GEN/COM/APRSUF_EN ;
-:%>i PLPARSUF_Zero ;
-:%>i PLINSSUF ;
-+Pl:%>i Noun-NB-01 ;
+:%^A2O%>i PL-GEN/COM/APRSUF_EN ;
+:%^A2O%>i PLPARSUF_Zero ;
+:%^A2O%>i PLINSSUF ;
++Pl:%^A2O%>i Noun-NB-01 ;
 
 LEXICON NMN_PADA !!= @CODE@ pada:pada
 !! Yaml: __pada__
@@ -2379,10 +2379,10 @@ LEXICON NMN_PADA-SG
 
 LEXICON NMN_PADA-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
-:%>i PL-GEN/COM/APRSUF_EN ;
-:%>i PLPARSUF_Zero ;
-:%>i PLINSSUF ;
-+Pl:%>i Noun-NB-01 ;
+:%^A2O%>i PL-GEN/COM/APRSUF_EN ;
+:%^A2O%>i PLPARSUF_Zero ;
+:%^A2O%>i PLINSSUF ;
++Pl:%^A2O%>i Noun-NB-01 ;
 
 LEXICON NMN_PESSYH !!= @CODE@ pessyh
         NMN_PESSYH-SG ;
@@ -2391,12 +2391,13 @@ LEXICON NMN_PESSYH !!= @CODE@ pessyh
 !! !Nominative singular in "h"
 LEXICON NMN_PESSYH-SG
 :h SGNOMSUF ;
-:%{oö%} SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
++Err/Orth:t SGNOMSUF ;
+:ö SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
 :t SGPARSUF_dU ;
-+Sg:%{oö%} Noun-NB-01 ;
++Sg:ö Noun-NB-01 ;
 
 LEXICON NMN_PESSYH-PL
-:%{oö%} PLNOMSUF-USUALLY-WEAK ;
+:ö PLNOMSUF-USUALLY-WEAK ;
 :zi PL-GEN/COM/APRSUF_EN ; !!= * @CODE@ the +Pl+Com comes here
 :zi PLPARSUF_i ;
 :zi PLINSSUF ;
@@ -2409,12 +2410,13 @@ LEXICON NMN_TULLUH !!= @CODE@ tulluh:tullu
 !! !Nominative singular in "h"
 LEXICON NMN_TULLUH-SG
 :h SGNOMSUF ;
-:%{oö%} SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
++Err/Orth:t SGNOMSUF ;
+:o SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
 :t SGPARSUF_dU ;
-+Sg:%{oö%} Noun-NB-01 ;
++Sg:o Noun-NB-01 ;
 
 LEXICON NMN_TULLUH-PL
-:%{oö%} PLNOMSUF-USUALLY-WEAK ;
+:o PLNOMSUF-USUALLY-WEAK ;
 :zi PL-GEN/COM/APRSUF_EN ; !!= * @CODE@ the +Pl+Com comes here
 :zi PLPARSUF_i ;
 :zi PLINSSUF ;
@@ -2426,15 +2428,15 @@ LEXICON NMN_KARJAL !!= @CODE@ karjal:karjal
 
 LEXICON NMN_KARJAL-SG !!= @CODE@ karjal:karjal
  SGNOMSUF ;
-:%>%{aäPar%} SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
-:%>%{ui%} SGPARSUF_A2 ;
-+Sg:%>%{aäPar%} Noun-NB-01 ;
+:a SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
+:u SGPARSUF_A2 ;
++Sg:a Noun-NB-01 ;
 LEXICON NMN_KARJAL-PL !!= @CODE@ karjal:karjal
-:%>%{aäPar%} PLNOMSUF-USUALLY-WEAK ;
-:%>%{oö%}i PL-GEN/COM/APRSUF_N ;
-:%>%{oö%}i PLPARSUF_Zero ;
-:%{oö%}i PLINSSUF ;
-+Pl:%{oö%}i Noun-NB-01 ;
+:a PLNOMSUF-USUALLY-WEAK ;
+:oi PL-GEN/COM/APRSUF_N ;
+:oi PLPARSUF_Zero ;
+:oi PLINSSUF ;
++Pl:oi Noun-NB-01 ;
 
 LEXICON NMN_MADAL !!= @CODE@ madal:madal
 	NMN_MADAL-SG ;
@@ -2442,11 +2444,11 @@ LEXICON NMN_MADAL !!= @CODE@ madal:madal
 
 LEXICON NMN_MADAL-SG !!= @CODE@ madal:madal
  SGNOMSUF ;
-:%>%{aäPar%} SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
-:%>%{ui%} SGPARSUF_A2 ;
-+Sg:%>%{aäPar%} Noun-NB-01 ;
+:a SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
+:u SGPARSUF_A2 ;
++Sg:a Noun-NB-01 ;
 LEXICON NMN_MADAL-PL !!= @CODE@ madal:madal
-:%>%{aäPar%} PLNOMSUF-USUALLY-WEAK ;
+:a PLNOMSUF-USUALLY-WEAK ;
 :%>i PL-GEN/COM/APRSUF_N ;
 :%>ii PLPARSUF_Zero ;
 :i PLINSSUF ;
@@ -2461,7 +2463,7 @@ LEXICON NMN_SUURIM !!= @CODE@ suurim
 
 LEXICON NMN_SUURIM-SG
  SGNOMSUF ;
-:%{ui%} SGPARSUF_A2 ;
+:u SGPARSUF_A2 ;
 
 LEXICON NMN_SUURIM-PL
 :a  PLNOMSUF-USUALLY-WEAK ;
@@ -3092,10 +3094,10 @@ LEXICON NMN_OZA-SG
 
 LEXICON NMN_OZA-PL
 : PLNOMSUF-USUALLY-WEAK ;
-:%>i PL-GEN/COM/APRSUF_EN ;
-:%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
-+Pl:%>i Noun-NB-01 ;
+:%^RmVow%>i PL-GEN/COM/APRSUF_EN ;
+:%^RmVow%>i PLPARSUF_i ;
+:%^RmVow%>i PLINSSUF ;
++Pl:%^RmVow%>i Noun-NB-01 ;
 
 LEXICON NMN_SÄYNÄ !!= @CODE@ säynä:säynä
 	NMN_SÄYNÄ-SG  ;
@@ -3109,10 +3111,10 @@ LEXICON NMN_SÄYNÄ-SG
 
 LEXICON NMN_SÄYNÄ-PL
  PLNOMSUF-USUALLY-WEAK ;
-:%>i PL-GEN/COM/APRSUF_EN ;
-:%>i PLPARSUF_i ;
-:%>i PLINSSUF ;
-+Pl:%>i Noun-NB-01 ;
+:%^RmVow%>i PL-GEN/COM/APRSUF_EN ;
+:%^RmVow%>i PLPARSUF_i ;
+:%^RmVow%>i PLINSSUF ;
++Pl:%^RmVow%>i Noun-NB-01 ;
 
 LEXICON NMN_SAMMAL !!= @CODE@ sammal:sammal
  NMN_SAMMAL-SG ;
