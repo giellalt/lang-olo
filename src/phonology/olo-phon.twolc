@@ -354,7 +354,7 @@ A2:y <=> [ y: ] %> _ ( %^WGStem:0 ) [ # | %>  ];
 "a:u before subsequent a"
 !! __@RULENAME@__  Diphthong a+a => ua
 a:u <=> ConsPalOrNot _ [ ( d:0 ) a  | %> [ %{aäPar%}: | %{aäDiph%}: | A2:a ] ]; 
-!!ostua+V+Inf: __buy/ostaa__
+!! ostua+V+Inf: __buy/ostaa__
 !€# osta%>a
 !€0 ostu%>a
      Cns:   _ %^A2U:0 ;
@@ -364,7 +364,7 @@ a:u <=> ConsPalOrNot _ [ ( d:0 ) a  | %> [ %{aäPar%}: | %{aäDiph%}: | A2:a ] ]
 !! __@RULENAME@__  Diphthong ä+ä => iä
 ä:i <=>  Cns:  _ [ ä | %> [ %{aäPar%}:ä  | %{aäDiph%}:ä| A2:ä ] ]; 
          Cns: _ %^Ä2I:0 ;
-!!kehittiä+V+Inf: __develop/kehittää__
+!! kehittiä+V+Inf: __develop/kehittää__
 !€# kehittä%^Ä2I%>ä
 !€0 kehitti0%>ä
 
@@ -441,6 +441,7 @@ o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: | o ] ;
 
 "a:0 in suaja:sai"
 !! __@RULENAME@__
+!! {{{
 a:0 <=>
  a _  %^RmVow:  ; !!= * @CODE@ Vowel shortening before subsequent "i"
 [ # Cns:*  [[ u | o ] (i)| u o: ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ [ %^RmVow: %> i: (%^WGStem:) [ # |  %> [i|Cns] | %> e [n|l]] | %^WGStem: %> i: ] ;
@@ -450,7 +451,7 @@ a:0 <=>
  Cns: _ %^RmVow:  ;
 !€# vahna%^RmVow%>in
 !€0 vahn00%>in
-
+!! }}}
 
 !! !!iToj between vowels
 "i:j"
@@ -655,7 +656,7 @@ d:r <=>
 d:l <=>
   Vow: l _ Vow: ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
   Vow l %> _ [ GRC | e %^WGStem: ] ;
-!!tulla+Ind+Prs+ScPl3: tullah
+!! tulla+Ind+Prs+ScPl3: tullah
 !€# tul%>d%{aäDiph%}%^WGStem
 !€0 tul%>la0
 
@@ -664,7 +665,7 @@ d:l <=>
 d:n <=>
      Vow: n _ Vow: ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
   Vow ( %^WGStem:0 %> ) n %> _ [ GRC | e %^WGStem: ] ;
-!!mennä+Ind+Prs+ScPl3: mennäh
+!! mennä+Ind+Prs+ScPl3: mennäh
 !€# kanda%^WGStem%^E1%>tt%{aäDiph%}s
 !€0 kanne00%>ttas
 
