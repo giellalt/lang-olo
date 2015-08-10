@@ -1796,10 +1796,20 @@ V1u
  * __LEXICON V_VALUO __ valuo:valu
 Gradation No
 Back vowel
+similar_to: V_PYZYÖ
 
  * __LEXICON V_VALUO-SG3 __ valuo:valu
 
  * __LEXICON V_VALUO-3 __ valuo:valu
+
+ * __LEXICON V_PYZYÖ __ pyzyö:pyzy
+Gradation No
+Front vowel
+similar_to: V_VALUO
+
+ * __LEXICON V_PYZYÖ-SG3 __ pyzyö:pyzy
+
+ * __LEXICON V_PYZYÖ-3 __ pyzyö:pyzy
 
 V1i
  * __LEXICON V_POTKIE __ potkie:potki
@@ -2097,7 +2107,7 @@ Reflexive verbs
 
 
 
- * __LEXICON V-VV_03_FRONT __ tulla:tul
+ * __LEXICON V-VV_03_FRONT __ mennä:men
 
 
 
@@ -2180,6 +2190,9 @@ Forthcoming
 !!Finites
 
 !INDICATIVE PRESENT
+
+
+
 
 
 
@@ -2445,9 +2458,11 @@ __A2:y__
 
 
 __a:u before subsequent a__  Diphthong a+a => ua
+ostua+V+Inf: __buy/ostaa__
 
 
 __ä:i before subsequent A2__  Diphthong ä+ä => iä
+kehittiä+V+Inf: __develop/kehittää__
 
 
 __o:u before subsequent o__ Diphthong o+o => uo erota:eruou
@@ -2474,8 +2489,9 @@ __ä:ö word final__
 
 
 __a:0 in suaja:sai__
+{{{
  *  a _  %^RmVow:  ;  Vowel shortening before subsequent "i"
-
+}}}
 
 !!iToj between vowels
 __i:j__
@@ -2570,8 +2586,10 @@ __rd:rr weakening__
 
 
 __ld:ll weakening__  
+tulla+Ind+Prs+ScPl3: tullah
 
 __nd:nn weakening__ 
+mennä+Ind+Prs+ScPl3: mennäh
 
 
 __rn:rr in prtprc__  
