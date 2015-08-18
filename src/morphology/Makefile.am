@@ -20,26 +20,26 @@ GT_LEXC_ROOT=root.lexc
 
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
-			 compounding.lexc  \
-			 stems/abbr.lexc  \
-			 stems/acro.lexc  \
-			 stems/exceptions.lexc  \
-			 stems/punctuation.lexc  \
+			 compounding.lexc         \
+			 stems/abbreviations.lexc \
+			 stems/acronyms.lexc      \
+			 stems/exceptions.lexc    \
+			 stems/punctuation.lexc   \
 			 stems/rus-Cyrl-2-Lat-propernouns.lexc 	\
 			 affixes/adjectives.lexc  \
-			 affixes/adverbs.lexc  \
-			 affixes/clitics.lexc       \
+			 affixes/adverbs.lexc     \
+			 affixes/clitics.lexc     \
 			 affixes/nouns.lexc       \
 			 affixes/pronouns.lexc    \
 			 affixes/propernouns.lexc \
 			 affixes/quantifiers.lexc \
-                         affixes/rus-Cyrl-2-Lat-propernouns.lexc 	\
-			 affixes/verbs.lexc	\
-                         stems/adjectives_newwords.lexc \
-                         stems/adverbs_newwords.lexc \
-                         stems/nouns_newwords.lexc \
-                         stems/propernouns_newwords.lexc \
-                         stems/verbs_newwords.lexc 
+			 affixes/rus-Cyrl-2-Lat-propernouns.lexc \
+			 affixes/verbs.lexc	             \
+			 stems/adjectives_newwords.lexc  \
+			 stems/adverbs_newwords.lexc     \
+			 stems/nouns_newwords.lexc       \
+			 stems/propernouns_newwords.lexc \
+			 stems/verbs_newwords.lexc 
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and
