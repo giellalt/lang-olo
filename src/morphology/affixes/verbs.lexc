@@ -462,6 +462,43 @@ LEXICON V_TULLA !!= * __@CODE@__ tulla:tul
 LEXICON V_ULISTA !!= * __@CODE@__ ulista:ulis
 +V: V-VV_03_BACK ;
 
+LEXICON V_JUOSTA_BACK !!= * __@CODE@__ juosta:juoks
+:%>e INDPRSSG1 ;
+:%>e INDPRSSG2 ;
+:%>o INDPRSSG3_BACK ;
+:%>e INDPRSPL1_BACK ;
+:%>e INDPRSPL2_BACK ;
+: INDPRSPL3_dah ;
+:%>e INDPRSCONNEG_WEAK ;
+! MORE WORK NEEDED 2015-11
+: INDPRTSG1     ;
+: INDPRTSG2     ;
+: INDPRTSG3     ;
+: INDPRTPL1_BACK     ;
+: INDPRTPL2_BACK     ;
+: INDPRTPL3_dih     ;
+ INDPRTCONNEG_nuh ;
+ INDPRTCONNEGPL3_Du ;
+
+:%^VOICE CONDPRS_IS_BACK ;
+: CONDPRSPL3_Das ;
+: CONDPRT_nus ;
+: CONDPRTPL3_Dannus ;
+: POT_N_BACK ;
+: POTPL3_Danneh ;
+: IMPRT_Ga ;
+: IMPRTPL3_Dahes ;
+
+:%^VOICEi ACT-PRSPRC_OSTAI ;
+: ACT-PRFPRC_nuH ;
+: PSS-PRSPRC_Davu ;
+: PSS-PRFPRC_Du ;
+:%^VOICEe M-INF_BACK ;
++Inf:%>d%{aäDiph%}%^WGStem K ;
++Ger+Temp:%>de%^WGStems K ;
+
+
+
 LEXICON V_PESTÄ !!= * __@CODE@__ pestä:pes
 +V: V-VV_03_FRONT ;
 
