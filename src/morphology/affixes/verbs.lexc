@@ -239,6 +239,34 @@ LEXICON V_POTKIE-SG3 !!= * __@CODE@__ potkie:potki
 +V:  V-VV_01_BACK_USUALLY-STRONG-VOWEL-LOSS ;
 +V+Inf:%>e K ;
 
+LEXICON V_EČČIE !!= * __@CODE@__ eččie:ečči
+!! Gradation No
+!! Front vowel
++V:%^WGStem  V-VV_01_FRONT_USUALLY-WEAK ;
++V:%^WGStem V-VV_01_FRONT_USUALLY-WEAK-VOWEL-LOSS ;
++V:  V-VV_01_FRONT_USUALLY-STRONG ;
++V:  V-VV_01_FRONT_USUALLY-STRONG-VOWEL-LOSS ;
++V+Inf:%>e K ;
+
+LEXICON V_LUGIE !!= * __@CODE@__ lugie:luge
+!! Gradation Yes
+!! Back vowel
++V:%^WGStem V-VV_01_BACK_USUALLY-WEAK ;
++V:%^WGStem%^RmVow V-VV_01_BACK_USUALLY-WEAK-VOWEL-LOSS ;
++V: V-VV_01_BACK_USUALLY-STRONG ;
++V:%^RmVow  V-VV_01_BACK_USUALLY-STRONG-VOWEL-LOSS ;
++V+Inf:%>e K ;
+
++V:%^WGStem%>e INDPRTPL3_ttih ; !!= * __@CODE@__ 
+!€# koske%>e%^WGStem%>ttih
+!€0 koski0e00ttih
++V:%^WGStem%>e INDPRSPL3_tAh ; !!= * __@CODE@__ 
+!€# koske%>e%^WGStem%>t%{aäDiph%}h
+!€0 koski0e00tah
++V:%^WGStem%>e PSS-PRFPRC_ttU ;
+!€# koske%>e%^WGStem%>tt%{uy%}
+!€0 koski0e00tah
+!!!!!!!!!!!
 LEXICON V_IMIE !!= * __@CODE@__ imie:ime
 !! Gradation No
 !! Front vowel
@@ -379,34 +407,34 @@ LEXICON V_NÄHTÄ !!= * __@CODE@__ nähtä:nä
 +V+Act+Ind+Prs+Sg2:et K ;
 +V+Act+Ind+Prs+Pl:emmö K ;
 +V+Act+Ind+Prs+Pl2:ettö K ;
-+V:h INDPRTPL3_tih ;
-+V:h INDPRTCONNEGPL3_tU ;
-+V:h CONDPRSPL3_tAs ;
-+V: V-VV_02_FRONT_USUALLY-WEAK-VOWEL-LOSS ;     ! möin
++V+Act:h INDPRTPL3_tih ;
++V+Act:h INDPRTCONNEGPL3_tU ;
++V+Act:h CONDPRSPL3_tAs ;
++V+Act: V-VV_02_FRONT_USUALLY-WEAK-VOWEL-LOSS ;     ! möin
 !+V+Act+Ind+Prs+Sg1:in K ;
 !+V+Act+Ind+Prs+Sg2:it K ;
 !+V+Act+Ind+Prs+Pl:immö K ;
 !+V+Act+Ind+Prs+Pl2:ittö K ;
-!+V:ge V-VV_02_FRONT_USUALLY-STRONG ;
+!+V+Act:ge V-VV_02_FRONT_USUALLY-STRONG ;
 +V+Act+Ind+Prs+Sg3:göy K ;
-+V:h INDPRTCONNEG_nUh ;
-+V:g CONDPRS_IS  ;
-+V:h CONDPRT_nUs ;
-+V:h CONDPRTPL3_DAnUs ;
-+V:h POT_N ;
-+V:h POTPL3_DAneh ;
-+V:h IMPRT_KA ;
-+V:h IMPRTPL3_tAhes ;
++V+Act:h INDPRTCONNEG_nUh ;
++V+Act:g CONDPRS_IS  ;
++V+Act:h CONDPRT_nUs ;
++V+Act:h CONDPRTPL3_DAnUs ;
++V+Act:h POT_N ;
++V+Act:h POTPL3_DAneh ;
++V+Act:h IMPRT_KA ;
++V+Act:h IMPRTPL3_tAhes ;
 +V:gi ACT-PRSPRC_OSTAI ;
 +V:h PSS-PRSPRC_tävy ;
 +V:h ACT-PRFPRC_nUH ;
 +V:h PSS-PRFPRC_tU ;
 +V:ge M-INF        ;
 
-+V:g  V-VV_02_FRONT_USUALLY-STRONG-VOWEL-LOSS ;  ! möi
++V+Act:g  V-VV_02_FRONT_USUALLY-STRONG-VOWEL-LOSS ;  ! möi
 !+V+Act+Ind+Prs+Sg3:gi K ;
 
-+V:h INDPRSPL3_täh ;
++V+Act:h INDPRSPL3_täh ;
 +V+Inf:hä K ;
 
 +V:h GER_ten ;
@@ -414,36 +442,36 @@ LEXICON V_NÄHTÄ !!= * __@CODE@__ nähtä:nä
 +V+ACTPRSPRC:gevä A_PÄIVY ;
 
 LEXICON V_KÄVVÄ !!= * __@CODE@__ kävvä:käv
-!+V:%>y V-VV_02_FRONT_USUALLY-WEAK ;
-+V:%>y INDPRSSG1 ;
-+V:%>y INDPRSSG2 ;
-+V:%>y INDPRSPL1_FRONT ;
-+V:%>y INDPRSPL2_FRONT ;
-+V:%>y INDPRSCONNEG ;
-+V:%^V2U INDPRTPL3_dih     ;
-+V:%^V2U INDPRTCONNEGPL3_Dy        ;
-+V:%^V2U CONDPRSPL3_Däs ;
+!+V+Act:%>y V-VV_02_FRONT_USUALLY-WEAK ;
++V+Act:%>y INDPRSSG1 ;
++V+Act:%>y INDPRSSG2 ;
++V+Act:%>y INDPRSPL1_FRONT ;
++V+Act:%>y INDPRSPL2_FRONT ;
++V+Act:%>y INDPRSCONNEG ;
++V+Act:%^V2U INDPRTPL3_dih     ;
++V+Act:%^V2U INDPRTCONNEGPL3_Dy        ;
++V+Act:%^V2U CONDPRSPL3_Däs ;
 
-+V: V-VV_02_FRONT_USUALLY-WEAK-VOWEL-LOSS ;     ! möin
++V+Act: V-VV_02_FRONT_USUALLY-WEAK-VOWEL-LOSS ;     ! möin
 
-!+V:%>y V-VV_02_FRONT_USUALLY-STRONG ;
-+V:%>y INDPRSSG3_FRONT ;
+!+V+Act:%>y V-VV_02_FRONT_USUALLY-STRONG ;
++V+Act:%>y INDPRSSG3_FRONT ;
 
-+V:%^V2U INDPRTCONNEG_nnyh         ;
-+V:%^V2U CONDPRS_S_FRONT ;
-+V:%^V2U CONDPRT_nnys ;
-+V:%^V2U CONDPRTPL3_Dänys ;
-+V:%^V2U POT_nnE_FRONT ;
-+V:%^V2U POTPL3_Däneh ;
-+V:%^V2U IMPRT_Gä ;
-+V:%^V2U IMPRTPL3_Dähes ;
++V+Act:%^V2U INDPRTCONNEG_nnyh         ;
++V+Act:%^V2U CONDPRS_S_FRONT ;
++V+Act:%^V2U CONDPRT_nnys ;
++V+Act:%^V2U CONDPRTPL3_Dänys ;
++V+Act:%^V2U POT_nnE_FRONT ;
++V+Act:%^V2U POTPL3_Däneh ;
++V+Act:%^V2U IMPRT_Gä ;
++V+Act:%^V2U IMPRTPL3_Dähes ;
 +V:%^V2U ACT-PRSPRC_KERIÄJY ;
 +V:%^V2U ACT-PRFPRC_nnyH ;
 +V:%^V2U PSS-PRSPRC_Dävy ;
 +V:%^V2U PSS-PRFPRC_Dy ;
 +V:%^V2U M-INF_FRONT          ;
 
-+V:  V-VV_02_FRONT_USUALLY-STRONG-VOWEL-LOSS ;  ! möi
++V+Act:  V-VV_02_FRONT_USUALLY-STRONG-VOWEL-LOSS ;  ! möi
 
 !+V: INDPRSPL3_vväh ;
 +V+Act+Ind+Prs+Pl3:väh K	;
@@ -990,7 +1018,7 @@ LEXICON V-VV_01_BACK_USUALLY-WEAK-VOWEL-LOSS
 +Act: INDPRTPL2_BACK ;
 
 LEXICON V-VV_01_BACK_USUALLY-STRONG
-+Act: INDPRSSG3_BACK ;
++Act:%^E2O INDPRSSG3_BACK ;
 !+Ind+Prt+ConNeg:%>nuh K ;
 +Act: INDPRTCONNEG_nuh ;
 

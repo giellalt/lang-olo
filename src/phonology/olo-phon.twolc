@@ -316,7 +316,7 @@ Rules
 
 "e:0"
 !! __@RULENAME@__
- e:0 <=> Cns: (%^VOICE:)  _ %^RmVow: %> i  ;
+ e:0 <=> Cns: (%^VOICE:)  _ (%^WGStem:) %^RmVow:   ;
         [ u | a | o | ä | ö | y ] %> %{ijPRC%}:  [%{oöØ%}:o|%{oöØ%}:ö] %> i %> _ n ;
 !         [ u | a | o | ä | ö | y ] %> %{ijPRC%}:  %{oöØ%}: %> i %> _ n ;
  
@@ -424,7 +424,7 @@ o:u <=> Cns _ %> [ %{aäPar%}: | %{aäDiph%}: | o ] ;
 
 "e:ö"
 !! __@RULENAME@__ Vowel harmony 
- e:ö <=>  FT  _ %^E2O %> y ;
+ e:ö <=>  FT  _ %^E2O: %> y ;
 !€# käske%^E2O%>y
 !€0 käskö0%>y
 
