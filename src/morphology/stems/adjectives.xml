@@ -7666,6 +7666,24 @@
 
   <e>
     <lg>
+      <l pos="A">iloine</l>
+
+      <stg>
+        <st Contlex="A_KARJALAINE">ilo</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">iloinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ilokas</l>
 
       <stg>
@@ -38171,6 +38189,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">vuoden vanha</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">vanhu</l>
+
+      <stg>
+        <st Contlex="A_MUARJU">vanha</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">vanha</t>
       </tg>
     </mg>
   </e>
