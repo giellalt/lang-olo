@@ -1354,6 +1354,7 @@ LEXICON V-VV_KUULLA !!= * __@CODE@__ kuulla:kuul
 : PSS-PRFPRC_tU ;
 :%^VOICEe M-INF ;
 +Inf:%>t%{aäDiph%}%^WGStem K ;
++Use/NG+Inf:%>t%{aäDiph%} K ;
 
 LEXICON V-VV_VIERRÄ !!= * __@CODE@__ vierrä:vier
 +Act:%^VOICEe INDPRSSG1 ;
