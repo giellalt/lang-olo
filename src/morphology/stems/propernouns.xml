@@ -308,6 +308,24 @@
     </mg>
   </e>
 
+  <e> <!-- FMT/TAP -->
+    <lg>
+      <l pos="N" sem_type="Mal" type="Prop">Juakko</l>
+
+      <stg>
+        <st Contlex="PROP_KALA">Juakko</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop"/>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="N" sem_type="Fem" type="Prop">Alina</l>
