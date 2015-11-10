@@ -5212,7 +5212,7 @@
       <l pos="Adv">joga puolepäi</l>
 
       <stg>
-        <st Contlex="ADV_">joga puolepäi</st>
+        <st Contlex="ADV-SPAT-IS-ALL">joga puolepäi</st>
       </stg>
     </lg>
 
@@ -6120,7 +6120,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="Adv">kaikkiaaan</t>
+        <t pos="Adv">kaikkiaan</t>
       </tg>
     </mg>
   </e>
@@ -6148,7 +6148,7 @@
       <l pos="Adv">kaikkiel</l>
 
       <stg>
-        <st Contlex="ADV_">kaikkiel</st>
+        <st Contlex="ADV-SPAT-IS-ADE">kaikkiel</st>
       </stg>
     </lg>
 
@@ -6163,10 +6163,28 @@
 
   <e>
     <lg>
+      <l pos="Adv">kaikkiele</l>
+
+      <stg>
+        <st Contlex="ADV-SPAT-IS-ALL">kaikkiele</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">kaikkialle</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">kaikkielpäi</l>
 
       <stg>
-        <st Contlex="ADV_">kaikkielpäi</st>
+        <st Contlex="ADV-SPAT-IS-ABL">kaikkielpäi</st>
       </stg>
     </lg>
 

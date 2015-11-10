@@ -88,6 +88,9 @@ V3:0
 K1:k
 %^NoGrad:0 ! This will be placed after a stem to break Gradation
 
+! This is used in combination with WGStem to trigger change in penultimate coda
+%^Pen:0  !!= @CODE@ pagisou paistah in combination with WGStem to trigger
+
 ! this weakens the stem _ompel_ to _ommel_
 %^WGStem:0
 
@@ -536,16 +539,16 @@ i:0 <=> o _ %^ILoss: %> l [ %{oö%}: |o|ö] i ;
 !! __@RULENAME@__
 !! {{{
 g:j <=> i _ [ a: ] ( %> i ) %^WGStem:0 ;
-!€# poiga%^WGStem%>n
-!€0 poija0%>n
+!€ poiga%^WGStem%>n
+!€ poija0%>n
 !! }}}
 
 "g:v"
 !! __@RULENAME@__
-g:v <=> [ o | u ] _ e %^WGStem:0 ;
+g:v <=> [ o | u ] _ [e |u] %^WGStem:0 ;
 !!jogi+N+Sg+Gen: __river/joki__
-!€# joge%^WGStem%>n
-!€0 jove0%>n
+!€ joge%^WGStem%>n
+!€ jove0%>n
 
 
 
@@ -714,6 +717,7 @@ g:0 <=>
 !€0 vä0i0%>n
 !€# pagis%>d%{aäDiph%}%^WGStemh
 !€0 pa0is%>ta0h
+        [ Vow: - [ o | u ] ] _ i Cns:+ %^Pen: %^WGStem: ;
 
 
 
@@ -728,7 +732,9 @@ g:0 <=>
 !€0 tavoi0teh0
 
 "tTol in weak infinite form"
-t:l <=> l %> _ %{aäDiph%}: %^WGStem: ;
+t:l <=> l %> _ (%{aäDiph%}:|a|ä) %^WGStem: ;
+!€ kuul%>t%{aäDiph%}%^WGStem
+!€ kuul%>la0
 
 ! luba : luvan
 "b:v"
