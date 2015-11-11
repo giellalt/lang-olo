@@ -180,6 +180,9 @@ Multichar_Symbols
 
 ! Semantic tags to help disambiguation & synt. analysis: (before POS)
 ! Borrowed from main/langs/sme/src/morphology/root.lexc
+ +Sem/Ant
+ +Sem/Ant_Fem
+ +Sem/Ant_Mal
  +Sem/Act         !!≈ * __@CODE@__ Activity
  +Sem/Amount      !!≈ * __@CODE@__ Amount
  +Sem/Ani         !!≈ * __@CODE@__ Animate
