@@ -492,39 +492,39 @@ LEXICON V_ULISTA !!= * __@CODE@__ ulista:ulis
 +V: V-VV_03_BACK ;
 
 LEXICON V_JUOSTA_BACK !!= * __@CODE@__ juosta:juoks
-:%>e INDPRSSG1 ;
-:%>e INDPRSSG2 ;
-:%>o INDPRSSG3_BACK ;
-:%>e INDPRSPL1_BACK ;
-:%>e INDPRSPL2_BACK ;
-: INDPRSPL3_dah ;
-:%>e INDPRSCONNEG_WEAK ;
++V+Act:%>e INDPRSSG1 ;
++V+Act:%>e INDPRSSG2 ;
++V+Act:%>o INDPRSSG3_BACK ;
++V+Act:%>e INDPRSPL1_BACK ;
++V+Act:%>e INDPRSPL2_BACK ;
++V+Act: INDPRSPL3_dah ;
++V+Act:%>e INDPRSCONNEG_WEAK ;
 ! MORE WORK NEEDED 2015-11
-: INDPRTSG1     ;
-: INDPRTSG2     ;
-: INDPRTSG3     ;
-: INDPRTPL1_BACK     ;
-: INDPRTPL2_BACK     ;
-: INDPRTPL3_dih     ;
- INDPRTCONNEG_nuh ;
- INDPRTCONNEGPL3_Du ;
++V+Act: INDPRTSG1     ;
++V+Act: INDPRTSG2     ;
++V+Act: INDPRTSG3     ;
++V+Act: INDPRTPL1_BACK     ;
++V+Act: INDPRTPL2_BACK     ;
++V+Act: INDPRTPL3_dih     ;
++V+Act: INDPRTCONNEG_nuh ;
++V+Act: INDPRTCONNEGPL3_Du ;
 
-:%^VOICE CONDPRS_IS_BACK ;
-: CONDPRSPL3_Das ;
-: CONDPRT_nus ;
-: CONDPRTPL3_Dannus ;
-: POT_N_BACK ;
-: POTPL3_Danneh ;
-: IMPRT_Ga ;
-: IMPRTPL3_Dahes ;
++V+Act:%^VOICE CONDPRS_IS_BACK ;
++V+Act: CONDPRSPL3_Das ;
++V+Act: CONDPRT_nus ;
++V+Act: CONDPRTPL3_Dannus ;
++V+Act: POT_N_BACK ;
++V+Act: POTPL3_Danneh ;
++V+Act: IMPRT_Ga ;
++V+Act: IMPRTPL3_Dahes ;
 
-:%^VOICEi ACT-PRSPRC_OSTAI ;
-: ACT-PRFPRC_nuH ;
-: PSS-PRSPRC_Davu ;
-: PSS-PRFPRC_Du ;
-:%^VOICEe M-INF_BACK ;
-+Inf:%>d%{aäDiph%}%^WGStem K ;
-+Ger+Temp:%>de%^WGStems K ;
++V:%^VOICEi ACT-PRSPRC_OSTAI ;
++V: ACT-PRFPRC_nuH ;
++V: PSS-PRSPRC_Davu ;
++V: PSS-PRFPRC_Du ;
++V:%^VOICEe M-INF_BACK ;
++V+Inf:%>d%{aäDiph%}%^WGStem K ;
++V+Ger+Temp:%>de%^WGStems K ;
 
 LEXICON V_PAISTA !!= * __@CODE@__ paista:pagis
 +V:%>e INDPRSSG1 ;
