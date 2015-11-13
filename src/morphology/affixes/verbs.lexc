@@ -16,7 +16,7 @@ LEXICON V-NEG !!= * __@CODE@__ ei:e
 +V+Neg+Sg3:i K ;
 +V+Neg+Pl1:mmo K ;
 +V+Neg+Pl2:tto K ;
-!+V+Neg+Pl3:i K ;
++V+Neg+Pl3:i K ;  ! FMT/TAP: Fewer paradigm gaps is better for MTs ! 
 
 LEXICON V-PROH !!= * __@CODE@__ älä:äl
 +V+Neg+Imprt+Sg2:ä K ;
