@@ -3475,13 +3475,13 @@ LEXICON ILLSUF_he
 LEXICON Noun-NB-01
 +Ade:%^WGStem%>l K ;
 +Abl:%^WGStem%>l K ;
-+Abl:%^WGStem%>lpäi K ;
++Abl+Use/NG:%^WGStem%>lpäi K ;
 +All:%^WGStem%>le K ;
 +Abe:%^WGStem%>tt%{aäPar%}h K ;
 +Abe+Err/Orth:%^WGStem%>tt%{aäPar%} K ;
 +Abe:%^WGStem%>t%{aäPar%} K ;
 +Ela:%^WGStem%>s K ;
-+Ela:%^WGStem%>späi K ;
++Ela+Use/NG:%^WGStem%>späi K ;
 +Ess:%^WGStem%>nn%{uy%} K ;
 +Ine:%^WGStem%>s K ;
 !+Ins:%^WGStem%>n K ; 
@@ -3493,14 +3493,14 @@ LEXICON Noun-NB-01
 LEXICON Noun-NB-01-USUALLY-WEAK
 +Ade:%>l K ;
 +Abl:%>l K ;
-+Abl:%>lpäi K ;
++Abl+Use/NG:%>lpäi K ;
 +All:%>le K ;
 +All+PxSg3:%>lleh K ; ! More PX is needed 2015-11
 +Abe:%>tt%{aäPar%}h K ;
 +Abe:%>t%{aäPar%} K ;
 +Abe+Err/Orth:%>tt%{aäPar%} K ;
 +Ela:%>s K ;
-+Ela:%>späi K ;
++Ela+Use/NG:%>späi K ;
 +Ess:%>nn%{uy%} K ;
 +Ine:%>s K ;
 !+Ins:%>n K ; 
