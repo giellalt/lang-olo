@@ -2,8 +2,36 @@
 !! ---------------
 !! Livvi pronouns inflect for case.
 
+
+!  By default all pronouns get all number/case
+!  this means that none will fail to generate
+!  if the form happens to be wrong, it can be 
+!  fixed by assigning the pronoun to the appropriate
+!  continuation class. -FMT/TAP
 LEXICON PERS_
-+Pron+Pers: # ;
++Pron+Pers+Sg+Nom: # ;
++Pron+Pers+Sg+Gen: # ;
++Pron+Pers+Sg+Com: # ;
++Pron+Pers+Sg+Par: # ;
++Pron+Pers+Sg+All: # ;
++Pron+Pers+Sg+Abe: # ;
++Pron+Pers+Sg+Ade: # ;
++Pron+Pers+Sg+Abl: # ;
++Pron+Pers+Sg+Ill: # ;
++Pron+Pers+Sg+Ine: # ;
++Pron+Pers+Sg+Apr: # ;
++Pron+Pers+Pl+Nom: # ;
++Pron+Pers+Pl+Gen: # ;
++Pron+Pers+Pl+Com: # ;
++Pron+Pers+Pl+Par: # ;
++Pron+Pers+Pl+All: # ;
++Pron+Pers+Pl+Abe: # ;
++Pron+Pers+Pl+Ade: # ;
++Pron+Pers+Pl+Abl: # ;
++Pron+Pers+Pl+Ill: # ;
++Pron+Pers+Pl+Ine: # ;
++Pron+Pers+Pl+Apr: # ;
+
 
 
 LEXICON PERS-SG1
@@ -110,9 +138,35 @@ LEXICON PERS-PL3
 +Pron+Pers+Pl3+Apr:eillyö K ;
 
 
-
+!  By default all pronouns get all number/case
+!  this means that none will fail to generate
+!  if the form happens to be wrong, it can be 
+!  fixed by assigning the pronoun to the appropriate
+!  continuation class. -FMT/TAP
 LEXICON PRON_
-+Pron: # ;
++Pron+Sg+Nom: # ;
++Pron+Sg+Gen: # ;
++Pron+Sg+Com: # ;
++Pron+Sg+Par: # ;
++Pron+Sg+All: # ;
++Pron+Sg+Abe: # ;
++Pron+Sg+Ade: # ;
++Pron+Sg+Abl: # ;
++Pron+Sg+Ill: # ;
++Pron+Sg+Ine: # ;
++Pron+Sg+Apr: # ;
++Pron+Pl+Nom: # ;
++Pron+Pl+Gen: # ;
++Pron+Pl+Com: # ;
++Pron+Pl+Par: # ;
++Pron+Pl+All: # ;
++Pron+Pl+Abe: # ;
++Pron+Pl+Ade: # ;
++Pron+Pl+Abl: # ;
++Pron+Pl+Ill: # ;
++Pron+Pl+Ine: # ;
++Pron+Pl+Apr: # ;
+
 
 !! !DEMONSTRATIVE PRONOUNS
 LEXICON PRON_SE
