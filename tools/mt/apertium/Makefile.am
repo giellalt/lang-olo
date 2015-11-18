@@ -15,6 +15,13 @@ APERTIUM_TARGET_LANGS=und fin
 APERTIUM_TARGET_LANG_NAME=apertium-und apertium-fin-olo
 
 ##################################################################
+#### Specify CG3 source files, main and included ones:        ####
+##################################################################
+APERTIUM_CG_SRC=
+
+APERTIUM_CG_INCLUDE_SRC=
+
+##################################################################
 #### BEGIN: Add local processing instructions BELOW this line ####
 ##################################################################
 
