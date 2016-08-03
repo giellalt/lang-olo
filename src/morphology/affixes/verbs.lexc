@@ -258,13 +258,13 @@ LEXICON V_LUGIE !!= * __@CODE@__ lugie:luge
 +V:%^RmVow  V-VV_01_BACK_USUALLY-STRONG-VOWEL-LOSS ;
 +V+Inf:%>e K ;
 
-+V:%^WGStem%>e INDPRTPL3_ttih ; !!= * __@CODE@__ 
++V:%>e INDPRTPL3_ttih ; !!= * __@CODE@__ 
 !€# koske%>e%^WGStem%>ttih
 !€0 koski0e00ttih
-+V:%^WGStem%>e INDPRSPL3_tAh ; !!= * __@CODE@__ 
++V:%>e INDPRSPL3_tAh ; !!= * __@CODE@__ 
 !€# koske%>e%^WGStem%>t%{aäDiph%}h
 !€0 koski0e00tah
-+V:%^WGStem%>e PSS-PRFPRC_ttU ;
++V:%>e PSS-PRFPRC_ttU ;
 !€# koske%>e%^WGStem%>tt%{uy%}
 !€0 koski0e00tah
 
@@ -277,13 +277,9 @@ LEXICON V_TUNDIE !!= * __@CODE@__ tundie:tunde
 +V:%^RmVow  V-VV_01_BACK_USUALLY-STRONG-VOWEL-LOSS ;
 +V+Inf:%>e K ;
 
-+V:%^WGStem%>e INDPRTPL3_ttih ; !!= * __@CODE@__ 
-!€# koske%>e%^WGStem%>ttih
-!€0 koski0e00ttih
-+V:%^WGStem%>e INDPRSPL3_tAh ; !!= * __@CODE@__ 
-!€# koske%>e%^WGStem%>t%{aäDiph%}h
-!€0 koski0e00tah
-+V:%^WGStem%>e PSS-PRFPRC_ttU ;
++V:%>e INDPRTPL3_ttih ; !!= * __@CODE@__ 
++V:%>e INDPRSPL3_tAh ; !!= * __@CODE@__ 
++V:%>e PSS-PRFPRC_ttU ;
 !!!!!!!!!!!
 LEXICON V_IMIE !!= * __@CODE@__ imie:ime
 !! Gradation No
@@ -2826,37 +2822,37 @@ LEXICON ACT-PRFPRC_nnyH
 
 LEXICON  PSS-PRFPRC_Du
 +Pss+PrfPrc:%>du K ;
-+Pss+PrfPrc:%>du A_KOIVU ;
++Pss+PrfPrc:%>du A_LUGU ;
 LEXICON  PSS-PRFPRC_Dy
 +Pss+PrfPrc:%>dy K ;
-+Pss+PrfPrc:%>dy A_HERY ;
++Pss+PrfPrc:%>dy A_IDY ;
 
 LEXICON  PSS-PRFPRC_tU
 +Pss+PrfPrc:%>t%{uy%} K ;
-+Pss+PrfPrc:%>t%{uy%} A_KOIVU ;
++Pss+PrfPrc:%>t%{uy%} A_LUGU ;
 LEXICON  PSS-PRFPRC_tu
 +Pss+PrfPrc:%>tu K ;
-+Pss+PrfPrc:%>tu A_KOIVU ;
++Pss+PrfPrc:%>tu A_LUGU ;
 LEXICON  PSS-PRFPRC_ty
 +Pss+PrfPrc:%>ty K ;
-+Pss+PrfPrc:%>ty A_HERY ;
++Pss+PrfPrc:%>ty A_IDY ;
 
 LEXICON  PSS-PRFPRC_ttU
 +Pss+PrfPrc:%^WGStem%>tt%{uy%} K ;
-+Pss+PrfPrc:%^WGStem%>tt%{uy%} A_KOIVU ;
++Pss+PrfPrc:%^WGStem%>tt%{uy%} A_LUGU ;
 LEXICON  PSS-PRFPRC_ttu
 +Pss+PrfPrc:%^WGStem%>ttu K ;
-+Pss+PrfPrc:%^WGStem%>ttu A_KOIVU ;
++Pss+PrfPrc:%^WGStem%>ttu A_LUGU ;
 LEXICON  PSS-PRFPRC_tty
 +Pss+PrfPrc:%^WGStem%>tty K ;
-+Pss+PrfPrc:%^WGStem%>tty A_KOIVU ;
++Pss+PrfPrc:%^WGStem%>tty A_IDY ;
 
 LEXICON  PSS-PRFPRC_Ettu
 +Pss+PrfPrc:%^E1%>ttu K ;
-+Pss+PrfPrc:%^E1%>ttu A_KOIVU ;
++Pss+PrfPrc:%^E1%>ttu A_LUGU ;
 LEXICON  PSS-PRFPRC_Etty
 +Pss+PrfPrc:%^E1%>tty K ;
-+Pss+PrfPrc:%^E1%>tty A_HERY ;
++Pss+PrfPrc:%^E1%>tty A_IDY ;
 
 !!
 LEXICON RCPRFPRC_nUHes

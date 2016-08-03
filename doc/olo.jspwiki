@@ -481,6 +481,10 @@ the comparatives and superlatives are supletive
 
  LEXICON A_HERY  hery:hery
 
+ LEXICON A_LUGU  lugu:lugu
+
+ LEXICON A_IDY  idy:idy
+
 
 
  LEXICON A_PAPPI  pappi:pappi
@@ -1819,15 +1823,15 @@ Front vowel
 Gradation Yes
 Back vowel
 
- * __+V:%^WGStem%>e INDPRTPL3_ttih ; __ 
- * __+V:%^WGStem%>e INDPRSPL3_tAh ; __ 
+ * __+V:%>e INDPRTPL3_ttih ; __ 
+ * __+V:%>e INDPRSPL3_tAh ; __ 
 
  * __LEXICON V_TUNDIE __ tundie:tunde 
 Gradation Yes
 Back vowel
 
- * __+V:%^WGStem%>e INDPRTPL3_ttih ; __ 
- * __+V:%^WGStem%>e INDPRSPL3_tAh ; __ 
+ * __+V:%>e INDPRTPL3_ttih ; __ 
+ * __+V:%>e INDPRSPL3_tAh ; __ 
  * __LEXICON V_IMIE __ imie:ime
 Gradation No
 Front vowel
@@ -2627,6 +2631,8 @@ __koira0%>j%>en examples:__
 __vahna%^RmVow%>in examples:__
 
 __vahn00%>in examples:__
+* __otta%^WGStem%^RmVow%>in __
+* __ot0000%>in __
 }}}
 
 !!iToj between vowels
