@@ -88,6 +88,16 @@ LEXICON A_HERY !!= @CODE@ hery:hery
 +A+Der/mbi+Comp:%>mb NMN_PAREMBI        ;
 +A+Der/in+Superl:vi NMN_ENIN        ;
 
+LEXICON A_LUGU !!= @CODE@ lugu:lugu
++A:        NMN_LUGU ;
++A+Der/mbi+Comp:%^WGStem%>mb NMN_PAREMBI        ;
++A+Der/in+Superl:vi NMN_ENIN        ;
+
+LEXICON A_IDY !!= @CODE@ idy:idy
++A:        NMN_IDY ;
++A+Der/mbi+Comp:%^WGStem%>mb NMN_PAREMBI        ;
++A+Der/in+Superl:vi NMN_ENIN        ;
+
 LEXICON A_RUNO
 +A:	NMN_RUNO ;
 +A+Der/mbi+Comp:%>mb NMN_PAREMBI        ;
