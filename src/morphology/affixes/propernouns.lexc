@@ -9,6 +9,8 @@ LEXICON PROP_ !!= @CODE@
 !! !ONE-SYLLABLE LEMMA AND STEM
 LEXICON PROP_KUU !!= @CODE@ kuu:kuu
 +N+Prop: NMN_KUU ;
+LEXICON PROP_VYÖ !!= @CODE@ vyö:vyö
++N+Prop: NMN_VYÖ ;
 
 LEXICON PROP_MUA !!= @CODE@ mua:maa
 +N+Prop: NMN_MUA ;
@@ -282,6 +284,16 @@ LEXICON PROP_RUADO !!= @CODE@ ruado:ruado
 
 LEXICON PROP-PLC_RUADO !!= @CODE@ ruado:ruado
 +N+Prop+Sem/Plc: NMN_RUADO ;
+
+LEXICON PROP_KYNDÖ !!= @CODE@ kyndö:kyndö
+!! Front vowel
+!! Gradation Yes
+!! Stem vowel o
+!! Plural stem in loi
++N+Prop: NMN_KYNDÖ ;
+
+LEXICON PROP-PLC_KYNDÖ !!= @CODE@ kyndö:kyndö
++N+Prop+Sem/Plc: NMN_KYNDÖ ;
 
 LEXICON PROP_VALGEI !!= @CODE@ 
 !! Back	vowel
