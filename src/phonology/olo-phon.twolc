@@ -563,7 +563,7 @@ g:l <=> l _ [[ a: ] ((%^A2O:) %> i )| i | e | u ] %^WGStem:0 ;
 "g:r"
 !! __@RULENAME@__  
 !! {{{
-g:r <=> r _ [[ a: ] ( %> i )| i | e ] %^WGStem:0 ;
+g:r <=> r _ [[ a: ] ( %> i )| i | e |ä|ö:] %^WGStem:0 ;
 !!€# särge%^WGStem%>n
 !!€0 särre0%>n
 !!€# kergi%^WGStem%>t%{aäPar%}
@@ -626,6 +626,12 @@ o:v <=> u _ d: [ e | a: ] (%> i ) %^WGStem:0 ;
 "d:z"
 !! __@RULENAME@__  
 d:z <=> [Vow | r | n ] _ %^D2Z:0 %> i ;
+!!€ vuod%^D2Z%>i
+!!€ vuoz0%>i
+ # Cns* Vow (Vow) (r|n) _ e:0 (%^WGStem:) %^RmVow: %> i ;
+!!€ tunde%^RmVow%>i
+!!€ tunz00%>i
+ # Cns* i e _ ä:0 (%^WGStem:) %^RmVow: %> i ;
 
 ! vuozi:vuod+d%{uy%}, armas:armas+d%{uy%}
 "d:t in partitive"
