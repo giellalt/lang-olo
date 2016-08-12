@@ -836,6 +836,22 @@ LEXICON N_SAMMUTIN-SG
 LEXICON N_SAMMUTIN-PL
 +N: NMN_SAMMUTIN-PL ;
 
+LEXICON N_KEITIN !!= @CODE@ keitin:sammutti
+!! Gradation Yes
+!! Harmony: Front
+!! Stem consonant n/m
+!! Singular stem vowel 0/0/e
+!! Plural stem vowel i
++N:%^WGStem%>n ATTESTED-NOUN-STEM ;
+ N_KEITIN-SG ;
+ N_KEITIN-PL ;
+
+LEXICON N_KEITIN-SG
++N: NMN_KEITIN-SG ;
+
+LEXICON N_KEITIN-PL
++N: NMN_KEITIN-PL ;
+
 LEXICON N_LÄMMIN !!= @CODE@ lämmin:lämbi
 !! Gradation Yes
 !! Harmony: Front
@@ -3214,6 +3230,28 @@ LEXICON NMN_SAMMUTIN-SG
 :%^WGStemn SGPARSUF_A2 ;
 +Sg:me Noun-NB-01 ;
 LEXICON NMN_SAMMUTIN-PL	
+:me PLNOMSUF-USUALLY-WEAK ;
+:mi PL-GEN/COM/APRSUF_EN ;
+:mi PLPARSUF_i ;
+:mi PLINSSUF ;
++Pl:mi Noun-NB-01 ;
+
+LEXICON NMN_KEITIN !!= @CODE@ keitin:keitti
+!! Gradation Yes
+!! (Nominative and partitive singular forms are weak grade)
+!! Front	     Vowel
+!! Stem	     consonant n/m
+!! Singular stem vowel 0/0/e
+!! Plural stem vowel i
+ NMN_KEITIN-SG ;
+ NMN_KEITIN-PL ;
+
+LEXICON NMN_KEITIN-SG	
+:%^WGStemn SGNOMSUF ;
+:me SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
+:%^WGStemn SGPARSUF_A2 ;
++Sg:me Noun-NB-01 ;
+LEXICON NMN_KEITIN-PL	
 :me PLNOMSUF-USUALLY-WEAK ;
 :mi PL-GEN/COM/APRSUF_EN ;
 :mi PLPARSUF_i ;
