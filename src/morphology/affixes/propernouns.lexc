@@ -96,6 +96,23 @@ LEXICON PROP_ARTELI-PL !!= @CODE@
 LEXICON PROP-PLC_ARTELI !!= @CODE@
 +N+Prop+Sem/Plc: NMN_ARTELI ;
 
+LEXICON PROP_LEIRI !!= @CODE@
+!! Gradation NA
+!! Front vowel
+!! Stem  vowel i
+!! Plural stem in iloi
+  PROP_LEIRI-SG ;
+  PROP_LEIRI-PL ;
+
+LEXICON PROP_LEIRI-SG !!= @CODE@
++N+Prop: NMN_LEIRI-SG ;
+
+LEXICON PROP_LEIRI-PL !!= @CODE@
++N+Prop: NMN_LEIRI-PL ;
+
+LEXICON PROP-PLC_LEIRI !!= @CODE@
++N+Prop+Sem/Plc: NMN_LEIRI ;
+
 
 LEXICON PROP_NIMI !!= @CODE@ nimi:nim
 !! Gradation NA
