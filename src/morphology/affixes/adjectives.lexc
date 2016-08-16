@@ -260,6 +260,11 @@ LEXICON A_ARMAS !!= @CODE@ armas:arma
 +A+Der/mbi+Comp:h%{aä%}mb NMN_PAREMBI        ;
 +A+Der/in+Superl:hi NMN_ENIN        ;
 
+LEXICON A_VARVAS !!= @CODE@ varvas:varva
++A: NMN_VARVAS        ;
++A+Der/mbi+Comp:h%{aä%}mb NMN_PAREMBI        ;
++A+Der/in+Superl:hi NMN_ENIN        ;
+
 LEXICON A_TULLUH !!= @CODE@ tulluh:tullu
 !!= * Yaml: __A-tulluh__
 +A: NMN_TULLUH ;
