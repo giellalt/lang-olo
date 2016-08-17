@@ -1,6 +1,6 @@
 !! This is where new words are added as lexc entries before they are 
 !! added to the xml source files.
-!! rounu:rounu ADV_  "/(eng) /(fin) tasan" ;
+!! rounu:rounu ADV_ "/(eng) /(fin) tasan" ;
 
 
 LEXICON ADV_NEWWORDS
@@ -8,32 +8,32 @@ test ADV_ "" ;
 !! ADD ADVERBS BELOW!
 atiivizesti:atiivizesti ADV_ "" ;
 avtomattizesti:avtomattizesti ADV_ "" ;
-avuandupiän:avuandu#piän ADV-TEMP "" ;
-ennevahnas:enne#vahnas ADV-TEMP "" ;
-ennepäi:ennepäi ADV-TEMP "" ;
-Iivananpiän:Iivanan#piän ADV-TEMP "" ;
+avuandupiän:avuandu#piän ADV-TEMP_ "" ;
+ennevahnas:enne#vahnas ADV-TEMP_ "" ;
+ennepäi:ennepäi ADV-TEMP_ "" ;
+Iivananpiän:Iivanan#piän ADV-TEMP_ "" ;
 kanzainvälizesti:kanzain#välizesti ADV_ "" ;
-kolmanpiän:kolman#piän ADV-TEMP "" ;
-loppupiän:loppu#piän ADV-TEMP "" ;
+kolmanpiän:kolman#piän ADV-TEMP_ "" ;
+loppupiän:loppu#piän ADV-TEMP_ "" ;
 mielihyväl:mieli#hyväl ADV_ "" ;
 myödämielizesti:myödä#mielizesti ADV_ "" ;
-nellänpiän:nellän#piän ADV-TEMP "" ;
-Pedrunpiän:Pedrun#piän ADV-TEMP "" ;
+nellänpiän:nellän#piän ADV-TEMP_ "" ;
+Pedrunpiän:Pedrun#piän ADV-TEMP_ "" ;
 piädykauti:piädy#kauti ADV_ "" ;
-pruazniekkupiän:pruazniekku#piän ADV-TEMP "" ;
-pyhänpiän:pyhän#piän ADV-TEMP "" ;
-roindupiän:roindu#piän ADV-TEMP "" ;
-sinnypiän:sinny#piän ADV-TEMP "" ;
-sinäpiän:sinä#piän ADV-TEMP "" ;
+pruazniekkupiän:pruazniekku#piän ADV-TEMP_ "" ;
+pyhänpiän:pyhän#piän ADV-TEMP_ "" ;
+roindupiän:roindu#piän ADV-TEMP_ "" ;
+sinnypiän:sinny#piän ADV-TEMP_ "" ;
+sinäpiän:sinä#piän ADV-TEMP_ "" ;
 tarkoituksellizesti:tarkoituksellizesti ADV_ "" ;
-toizennupiän:toizennu#piän ADV-TEMP "" ;
-tossupiän:tossu#piän ADV-TEMP "" ;
-tossupiänny:tossu#piänny ADV-TEMP "" ;
-tänäpiän:tänä#piän ADV-TEMP "" ;
+toizennupiän:toizennu#piän ADV-TEMP_ "" ;
+tossupiän:tossu#piän ADV-TEMP_ "" ;
+tossupiänny:tossu#piänny ADV-TEMP_ "" ;
+tänäpiän:tänä#piän ADV-TEMP_ "" ;
 yksipuolizesti:yksi#puolizesti ADV_ "" ;
 vaigu:vaigu ADV_ "ainoastaan" ;
-virboipyhänpiän:virboi#pyhän#piän ADV-TEMP "" ;
-vuahtipiänny:vuahti#piänny ADV-TEMP "" ;
+virboipyhänpiän:virboi#pyhän#piän ADV-TEMP_ "" ;
+vuahtipiänny:vuahti#piänny ADV-TEMP_ "" ;
 
 ystävällizesti:ystävällizesti ADV_ "" ;
 hajamielizesti:hajamielizesti ADV_ "" ;
@@ -526,7 +526,8 @@ kuslienne:kuslienne ADV_ "" ;
 loitombannu:loitombannu ADV_ "" ;
 teriämbäh:teriämbäh ADV_ "" ;
 tajemba:tajemba ADV_ "" ;
-myöhembä:myöhembä    ADV_ "" ;
-sentäh:sentäh	     ADV_ "" ;
-syrjäh:syrjäh	     ADV_ "" ;
-myöhembäh:myöhembäh  ADV_ "" ;
+myöhembä:myöhembä ADV_ "" ;
+sentäh:sentäh ADV_ "" ;
+syrjäh:syrjäh ADV_ "" ;
+myöhembäh:myöhembäh ADV_ "" ;
+igänäh:igänäh ADV_ "" ;
