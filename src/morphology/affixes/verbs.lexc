@@ -601,6 +601,12 @@ LEXICON V_VIERTÄ !!= * __@CODE@__ viertä:vier
 LEXICON V_VIERTÄ-SG3 !!= * __@CODE@__ viertä:vier
 +V: V-VV_VIERRÄ ;
 
+!! Verbs of the Finnish type 3 but not identical
+!! gradation: yes
+
+LEXICON V_KUVITELLA !!= * __@CODE@__ kuvitella:kuvittel
++V: V-VV_KUVITELLA ;
+
 
 LEXICON V_TYPÄTÄ !!= * __@CODE@__ typätä:typpä
 +V: #;
@@ -970,6 +976,9 @@ LEXICON VR_TULLA !!= * __@CODE@__ tuliekseh:tul !this will need work 2013-10-23
 
 LEXICON VR_PESTÄ !!= * __@CODE@__ tuliekseh:tul !this will need work 2013-10-23
 	VR_03 ;
+
+LEXICON VR_KUVITELLA !!= * __@CODE@__ kuvitellakseh:kuvittel !this will need work 2016-08-17
+	VR_03_kuvitellakseh ;
 
 LEXICON VR_AVATA !!= * __@CODE@__ avatakseh:ava (typätäkseh:typpä)
  VR_ ;
@@ -1442,6 +1451,49 @@ LEXICON V-VV_VIERRÄ !!= * __@CODE@__ vierrä:vier
 :%^VOICEe M-INF_FRONT ;
 +Inf:%>t%{aäDiph%}%^WGStem K ;
 
+LEXICON V-VV_KUVITELLA !!= * __@CODE@__ kuvitella:kuvittel
++Act:%^VOICEe INDPRSSG1 ;
++Act:%^VOICEe INDPRSSG2 ;
++Act:%^VOICEo INDPRSSG3_BACK ;
++Act:%^VOICEe INDPRSPL1_BACK ;
++Act:%^VOICEe INDPRSPL2 ;
++Act:%^WGStem INDPRSPL3_dah ;
++Act+Use/NG:%^WGStem INDPRSPL3_tAh ; !checkme
++Act:%^VOICEe INDPRSCONNEG_WEAK ;
++Act:%^VOICE INDPRTSG1     ;
++Act:%^VOICE INDPRTSG2     ;
++Act:%^VOICE INDPRTSG3     ;
++Act:%^VOICE INDPRTPL1     ;
++Act:%^VOICE INDPRTPL2     ;
++Act:%^WGStem INDPRTPL3_dih     ;
++Act+Use/NG:%^WGStem INDPRTPL3_tih     ;
++Act:%^WGStem INDPRTCONNEG_nuh ;
++Act:%^WGStem INDPRTCONNEGPL3_Du ;
++Act+Use/NG:%^WGStem INDPRTCONNEGPL3_tU ;
+
++Act:%^VOICE CONDPRS_IS ;
++Act:%^WGStem CONDPRSPL3_Das ;
++Act+Use/NG:%^WGStem CONDPRSPL3_tAs ;
++Act:%^WGStem CONDPRT_nUs ;
++Act: CONDPRTPL3_Dannus ;
++Act+Use/NG:%^WGStem CONDPRTPL3_tAnnUs ;
++Act:%^WGStem POT_N ;
++Act:%^WGStem POTPL3_Danneh ;
++Act+Use/NG:%^WGStem POTPL3_tAnneh ;
++Act:%^WGStem IMPRT_KA ;
++Act:%^WGStem IMPRTPL3_Dahes ;
++Act+Use/NG:%^WGStem IMPRTPL3_tAhes ;
+
+:%^VOICEi ACT-PRSPRC_PEZII ;
+:%^WGStem ACT-PRFPRC_nUH ;
+:%^WGStem PSS-PRSPRC_Davu ;
++Use/NG:%^WGStem PSS-PRSPRC_tAvU ;
+:%^WGStem PSS-PRFPRC_Du ;
++Use/NG:%^WGStem PSS-PRFPRC_tU ;
+:%^VOICEe M-INF ;
++Inf:%^WGStem%>d%{aäDiph%}%^WGStem K ;
++Use/NG+Inf:%^WGStem%>ta K ;
+
 LEXICON V-VV_04_BACK
 +Act: V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
 +Act: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
@@ -1855,6 +1907,10 @@ LEXICON VR_03-SHORTSTEM_
 
  RCPRFPRC_nUHes ;
 +Inf+Rc:%>t%{aäDiph%}kseh K ;
+
+LEXICON VR_03_kuvitellakseh
++V:e     VR_03-LONGSTEM_ ;
++V:%^WGStem     VR_03-SHORTSTEM_ ;
 
 
 !! !!Nonfinites

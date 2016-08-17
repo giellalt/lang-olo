@@ -666,10 +666,13 @@ d:r <=>
 !! __@RULENAME@__  
 d:l <=>
   Vow: l _ Vow: ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
-  Vow l %> _ [ GRC | e %^WGStem: ] ;
+  Vow l (%^WGStem:) %> _ [ GRC | e %^WGStem: ] ;
 !! tulla+Ind+Prs+ScPl3: tullah
 !!€# tul%>d%{aäDiph%}%^WGStem
 !!€0 tul%>la0
+!! kuvitella+V+Inf
+!!€ kuvittel%^WGStem%>d%{aäDiph%}%^WGStem
+!!€ kuvi0tel0%>la0
 
 "nd:nn weakening"
 !! __@RULENAME@__ 
