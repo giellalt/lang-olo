@@ -99,14 +99,15 @@ the comparatives and superlatives are supletive
 
  LEXICON A_JIÄTÖI  jiätöi:jiät
  LEXICON A_HUOLETOI  huoletoi:huolet
+ LEXICON A_HUOLETOI/JIÄTÖI  huoletoi:huolet
 
  LEXICON A_KARJALAINE  karjalaine:karjala
 
  LEXICON A_LIYGILÄINE  liygiläine:liygilä
 
  LEXICON A_NAINE  naine:nai
-
  LEXICON A_KIELINE  kieline:kieli
+ LEXICON A_NAINE/KIELINE_01  kieline:kieli naine:nai
 
  LEXICON A_TOINE  toine:to
  LEXICON A_TOINE-PL  toine:to
@@ -134,9 +135,10 @@ the comparatives and superlatives are supletive
 
  LEXICON A_SUURIM  suurim:suurim
 
- LEXICON A_KIELI  kieli:kiel
-
  LEXICON A_SUARI  suari:suar
+
+ LEXICON A_KIELI  kieli:kiel
+ LEXICON A_SUARI/KIELI_01  suari:suar
 
  LEXICON A_VUOZI  vuozi:vuod
 

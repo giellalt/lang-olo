@@ -10,6 +10,10 @@
 
   %{aäDiph%}:ä   This is for the infinitive marker after i and u stems
 
+ *  %{aäoeöuiy%}:ä   with partitive type koivuu
+ *  %{aäoeö%}:ä   newer This is for diphthongs such as the infinitive marker after i and u stems ampuo
+ * %{aäuyiØ%}:ä  in participle endings anticipating PÄIVY or KOIRU type
+
   %{ui%}:i   in imperative before %{aä%}:
 
 
@@ -17,6 +21,8 @@
 
 
   %{ijPRC%}:j  participle
+ *  %{lnrs%}:n   e.g. in perfect participles
+ *  %{dtlnr%}:d  e.g. infinitive and Ind+Prs+Pl3
 
 
 
@@ -42,6 +48,7 @@
 
 
  %^Ä2I:0		  ä => i
+ %^A2UÄ2I:0		  a => u, ä => i
 
  %^ILoss:0    the i => 0 __reboi reboloi__
  %^V2U:0	     v => y __kävvä käydy__
@@ -49,6 +56,12 @@
  _%^RVow:0   _ 
  _%^RmVow:0   _ vowel removal, e.g. with superlative
 
+
+
+
+Triggers dictating right context phenomena
+ * _%{back%}:0 _ back harmony until harmony boundary, i.e. word boundary
+ * _%{front%}:0 _ front harmony until harmony boundary, i.e. word boundary
 
 
 
@@ -104,6 +117,11 @@ __lʼykkä%>%{aäDiph%}%>%{ijPRC%}%{aäDiph%}%^A2U examples:__
 
 __lʼykki0ä%>jy0 examples:__
 
+__%{aä%}:a__
+
+__%{aä%}:ä__
+
+
 __%{aäDiph%}:a__
 
 __kanda%>kk%{ui%}%{aäDiph%}mm%{oö%} examples:__
@@ -151,20 +169,47 @@ __%{aäPar%}:y__
 __%{aäPar%}:0__
 
 
+__%{aäoeö%}:a__
+
+__%{aäoeö%}:ä__
+
+__%{aäoeö%}:o__
+
+__%{aäoeö%}:e__
+
+__%{aäoeö%}:ö__
+
+__{aäoeöuiy%}:a__
+
+__{aäoeöuiy%}:ä__
+
+__{aäoeöuiy%}:o__
+
+__{aäoeöuiy%}:e__
+
+__{aäoeöuiy%}:ö__
+
+__{aäoeöuiy%}:u__
+
+__{aäoeöuiy%}:i__
+
+__{aäoeöuiy%}:y__
+
+
 __e:0__
 
 __%{ui%}:u__
 {{{
-* %^RmVow:0    ! imperative forms
+* %{front%}:0  ! imperative forms
 
-__kanda%>kk%{ui%}%{aäDiph%}mm%{oö%} examples:__
+__kanda%>kk%{ui%}%{aä%}mm%{oö%} examples:__
 
 __kanda%>kkuammo examples:__
 }}}
 
 __%{ui%}:i__
 {{{
-* %^RmVow:0    ! imperative forms
+* %{front%}:0  ! imperative forms
 
 __lʼykkä%^WGStem%>kk%{ui%}%{aäDiph%}mm%{oö%} examples:__
 
@@ -178,22 +223,33 @@ __A2:u__
 __A2:y__
 
 
+__%{aäuyiØ%}:a__
+
+__%{aäuyiØ%}:u__
+
+__%{aäuyiØ%}:ä__
+
+__%{aäuyiØ%}:y__
+
+__%{aäuyiØ%}:i__
+
+__%{aäuyiØ%}:0__
 
 
 __a:u before subsequent a__  Diphthong a+a => ua
 ostua+V+Inf: __buy/ostaa__
 
-__osta%>a examples:__
+__osta%>%{aä%} examples:__
 
-__ostu%>a examples:__
+__ostu%>%{aä%} examples:__
 
 
 __ä:i before subsequent A2__  Diphthong ä+ä => iä
 kehittiä+V+Inf: __develop/kehittää__
 
-__kehittä%^Ä2I%>ä examples:__
+__kehittä%>%{aä%} examples:__
 
-__kehitti0%>ä examples:__
+__kehitti%>ä examples:__
 
 
 __o:u before subsequent o__ Diphthong o+o => uo erota:eruou
@@ -240,10 +296,8 @@ __tiedo%^WGStem%>n examples:__
 
 __tiijo0%>n examples:__
 
-
-__väge%^WGStem%>n examples:__
-
-__vä0i0%>n examples:__
+* __väge%{front%}%^WGStem>n __
+* __vä0i00%>n __
 
 __luge>%{ijPRC%} examples:__
 
@@ -273,7 +327,7 @@ __ä:ö word final__
 
 __a:0 in suaja:sai__
 {{{
- *  a _  %^RmVow:  ;  Vowel shortening before subsequent "i"
+ *  a _ (HarmDummy:)  %^RmVow:  ;  Vowel shortening before subsequent "i"
 
 __koira%^RmVow%>i%>en examples:__
 
@@ -284,8 +338,8 @@ __koira0%>j%>en examples:__
 __vahna%^RmVow%>in examples:__
 
 __vahn00%>in examples:__
-* __otta%^WGStem%^RmVow%>in __
-* __ot0000%>in __
+* __otta%{back%}%^WGStem%^RmVow%>in __
+* __ot00000%>in __
 }}}
 
 !!iToj between vowels
@@ -293,12 +347,14 @@ __i:j__
 
 __%{ijPRC%}:i__ 
 {{{
-*  a _  %^RmVow:  ;  +ActPrsPrc
+*  a _ (HarmDummy:)  %^RmVow:  ;  +ActPrsPrc
 }}}
 
 
 
 __a:o in the plural and preterite__
+* __muama%{back%}%^A2O __
+* __muamo00 __
 
 __a:e__  pidiä
 
@@ -325,6 +381,8 @@ __i:0 reboi:reboloi__
 
 
 __%{oö%}:o__ Vowel harmony suffixes Back
+__%{oö%}:ö__ Vowel harmony suffixes Front
+
 
 __%{oöØ%}:0__ Vowel harmony suffixes Back
 
@@ -339,7 +397,8 @@ __%{oöØ%}:ö__ Vowel harmony suffixes Front
 
 
 __%{uy%}:u__ Vowel harmony suffixes Back
-
+* __tul%>%{lnrs%}%{uy%}h __
+* __tul%>luh __
 
 __%{uy%}:y__ Vowel harmony suffixes Front
 
@@ -381,11 +440,11 @@ __kerri0%>tä examples:__
 
 __d:v__  
 {{{
- d:v <=> [ ö y: | o u: ] _ [ ä: | a ] %^WGStem:0 ; 
-           u a           _   o       %^WGStem:0 ; 
-           a             _   u       %^WGStem:0 ; 
-         [ u o: | u: ]   _  [ e | a: ]  (%> i )    %^WGStem:0 ;  
-         [ ä y: ]   _  [ e | y ]  (%> i )    %^WGStem:0 ;  
+ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; 
+           u a           _   o       (HarmDummy:) %^WGStem:0 ; 
+           a             _   u       (HarmDummy:) %^WGStem:0 ; 
+         [ u o: | u: ]   _  [ e | a: ]  (HarmDummy:) (%> i )    %^WGStem:0 ;  
+         [ ä y: ]   _  [ e | y ]  (HarmDummy:) (%> i )    %^WGStem:0 ;  
 
 __täydy%^WGStem examples:__
 
@@ -436,7 +495,7 @@ __pa0is%>ta0h examples:__
 
 __s:z__
 {{{
- * s:z <=> _ %^VOICE:0 ;  pestä: pezen
+ * s:z <=> _ (HarmDummy:) %^VOICE:0 ;  pestä: pezen
 }}}
 
 __k:g__ pestä: peskäh
@@ -446,14 +505,6 @@ __rd:rr weakening__
 
 
 __ld:ll weakening__  
-tulla+Ind+Prs+ScPl3: tullah
-
-__tul%>d%{aäDiph%}%^WGStem examples:__
-
-__tul%>la0 examples:__
-kuvitella+V+Inf
-* __kuvittel%^WGStem%>d%{aäDiph%}%^WGStem __
-* __kuvi0tel0%>la0 __
 
 __nd:nn weakening__ 
 mennä+Ind+Prs+ScPl3: mennäh
@@ -466,43 +517,50 @@ __kanne00%>ttas examples:__
 __rn:rr in prtprc__  
 
 __ln:ll in prtprc__  
+* __tul%>%{lnrs%}%{uy%}h __
+* __tul%>luh __
 
 __sn:ss in prtprc__  
 
+__%{dtlnr%}:d__
+
+__%{dtlnr%}:t__
+
+__%{dtlnr%}:l__
+tulla+Ind+Prs+ScPl3: tullah
+* __tul%{back%}%>%{dtlnr%}%{aä%} __
+* __tul0%>la __
+kuvitella+V+Inf
+* __kuvittel%{back%}%^WGStem%>%{dtlnr%}%{aä%} __
+* __kuvi0tel00%>la __
+
+__%{dtlnr%}:n__
+
+__%{dtlnr%}:r__
 
 !CONSONANT LOSS
 
 __čToZero__  
 {{{
-* s:z <=> _ %^VOICE:0 ;  suvaija:suvaičen
+* s:z <=> _ (HarmDummy:) %^VOICE:0 ;  suvaija:suvaičen
 }}}
 
 __kToZero__  aika: ajan
 {{{
-
-__lʼykkä%^WGStem%>t%{AÄ%} examples:__
-
-__lʼy0kä0%>tä examples:__
-
-__abuniekka%^A2O%>i%>l examples:__
-
-__abunie0ko0%>i%>l examples:__
-
-__liikkeh%^WGStem examples:__
-
-__lii0keh0 examples:__
+* __lʼykkä%{front%}%^WGStem%>t%{AÄ%} __
+* __lʼy0kä00%>tä __
+* __abuniekka%{back%}%^A2O%>i%>l __
+* __abunie0ko00%>i%>l __
+* __liikkeh%{front%}%^WGStem __
+* __lii0keh00 __
 
 }}}
 
 __gToZero__  aika: ajan
-
-__väge%^WGStem>n examples:__
-
-__vä0i0%>n examples:__
-
-__pagis%>d%{aäDiph%}%^WGStemh examples:__
-
-__pa0is%>ta0h examples:__
+* __väge%{front%}%^WGStem>n __
+* __vä0i00%>n __
+* __pagis%{back%}%^Pen%^WGStem%>%{dtlnr%}%{aä%}h __
+* __pa0is000%>tah __
 
 
 

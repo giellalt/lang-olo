@@ -13,6 +13,7 @@
  * __LEXICON V-PROH __ älä:äl
 
  * __LEXICON V_OLLA __ olla:o
+ * __LEXICON V_OLLA_01 __ olla:o
 
 
 
@@ -23,28 +24,36 @@
 
 V1a
 
+ * __LEXICON V_ALENDUA __ alendua:alenda
+Harmony: Back
+
  * __LEXICON V_ELLENDIÄ __ ellendiä:ellendä
+Harmony: Front
+ * __LEXICON V_ALENDUA/ELLENDIÄ_01 __ ellendiä:ellendä alendua:alenda
 Gradation No
 
  * __LEXICON V_KANDUA __ kandua:kanda
-Gradation Yes
 Back Vowel
+ * __LEXICON V_KANDUA_01 __ kandua:kanda
+Gradation Yes
 
  * __LEXICON V_KANDUA-SG3 __ kandua:kanda
 
  * __LEXICON V_KANDUA-3 __ kandua:kanda
 
  * __LEXICON V_OTTUA __ ottua:otta
-Gradation Yes
 Back Vowel
+ * __LEXICON V_OTTUA/HEITTIÄ_01 __ ottua:otta
+Gradation Yes
+
 
  * __LEXICON V_OTTUA-SG3 __ ottua:otta
 
  * __LEXICON V_OTTUA-3 __ ottua:otta
 
  * __LEXICON V_HEITTIÄ __ heittä:heittä
-Gradation Yes
 Front vowel
+
 
  * __LEXICON V_HEITTIÄ-SG3 __ heittä:heittä
 
@@ -53,26 +62,28 @@ Front vowel
 V1o
 
  * __LEXICON V_PUNUO __ punuo:puno
-Gradation No
 Back vowel
+ * __LEXICON V_PUNUO/XX_01 __ punuo:puno
+Gradation No
 
  * __LEXICON V_PUNUO-SG3 __ punuo:puno
 
 V1u
 
  * __LEXICON V_VALUO __ valuo:valu
-Gradation No
 Back vowel
+ * __LEXICON V_VALUO/PYZYÖ_01 __ valuo:valu
+Gradation No
 similar_to: V_PYZYÖ
+
 
  * __LEXICON V_VALUO-SG3 __ valuo:valu
 
  * __LEXICON V_VALUO-3 __ valuo:valu
 
  * __LEXICON V_PYZYÖ __ pyzyö:pyzy
-Gradation No
 Front vowel
-similar_to: V_VALUO
+
 
  * __LEXICON V_PYZYÖ-SG3 __ pyzyö:pyzy
 
@@ -80,18 +91,22 @@ similar_to: V_VALUO
 
 V1i
  * __LEXICON V_POTKIE __ potkie:potki
-Gradation No
 Back vowel
+ * __LEXICON V_POTKIE/EČČIE_01 __ potkie:potki
+Gradation No
+Ind+Prt+Sg3
+
 
  * __LEXICON V_POTKIE-SG3 __ potkie:potki
 
  * __LEXICON V_EČČIE __ eččie:ečči
-Gradation No
 Front vowel
 
+
  * __LEXICON V_LUGIE __ lugie:luge
-Gradation Yes
 Back vowel
+ * __LEXICON V_LUGIE/IMIE_01 __ lugie:luge
+Gradation Yes
 
  * __+V:%>e INDPRTPL3_ttih ; __ 
  * __+V:%>e INDPRSPL3_tAh ; __ 
@@ -99,6 +114,7 @@ Back vowel
  * __LEXICON V_TUNDIE __ tundie:tunde 
 Gradation Yes
 Back vowel
+
 
  * __+V:%>e INDPRTPL3_ttih ; __ 
  * __+V:%>e INDPRSPL3_tAh ; __ 
@@ -153,6 +169,9 @@ Back vowel
 
 
  * __LEXICON V_NÄHTÄ __ nähtä:nä
+ * __LEXICON V_NÄHTÄ_01 __ nähtä:nä
+
+
 
 
 
@@ -177,6 +196,9 @@ Back vowel
 
 
  * __LEXICON V_PAISTA __ paista:pagis
+ * __LEXICON V_PAISTA_01 __ paista:pagis
+
+
 
 
 
@@ -185,6 +207,7 @@ Back vowel
  * __LEXICON V_PESTÄ __ pestä:pes
 
  * __LEXICON V_NOSTA __ nosta:no
+ * __LEXICON V_NOSTA/XX_01 __ nosta:no
 
 Verbs of the Finnish type 3 but not identical
 
@@ -323,6 +346,8 @@ gradation: yes
 
  * __LEXICON VR_OTTUA __ ottuakseh:otta
 
+ * __LEXICON VR_EISTIÄ __ eistiäkseh:eistä
+
 
 Reflexive verbs
 
@@ -376,6 +401,10 @@ Reflexive verbs
 
 
 
+
+
+
+
  __LEXICON V-3SYLL_KIRJUTTUA __  kirjuttua:kirjutta
 
 
@@ -400,6 +429,13 @@ Reflexive verbs
 
 
 
+
+
+
+
+
+
+ * __LEXICON V-VV_03_Harm-Neutr __ tulla:tul
 
 
 
@@ -513,6 +549,7 @@ Forthcoming
 
 
 
+
 * LEXICON V-VV_KUVITELLA  type 04
 
 !INDICATIVE PRESENT REFLEXIVE
@@ -525,6 +562,7 @@ Forthcoming
 * LEXICON V-VV_KUVITELLA  
 
 !INDICATIVE PRETERITE
+
 
 
 
@@ -603,6 +641,8 @@ Forthcoming
 
 
 ... and next chapter
+
+
 
 
 

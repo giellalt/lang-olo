@@ -448,17 +448,23 @@ Multichar_Symbols
 
  %{aäPar%} !!= * @CODE@  no diphthongs
  %{aäDiph%} !!= * @CODE@  This is for diphthongs such as the infinitive marker after i and u stems
+ %{aäoeöuiy%} !!= * @CODE@  with partitive type
+ %{aäoeö%} !!= * @CODE@  newer This is for diphthongs such as the infinitive marker after i and u stems
+ %{aäuyiØ%} !!= * @CODE@ in participle endings anticipating PÄIVY or KOIRU type
+ %{aä%}  !!= * @CODE@
  %{oö%}  !!= * @CODE@
  %{oöØ%} !!= * @CODE@  Used in present participle
  %{uy%}  !!= * @CODE@
  %{ui%} !!= @CODE@ in imperative before %{aä%}:
  A2      !!= * @CODE@  used with verb types V_AVATA
  %{ijPRC%} !!= * @CODE@ participle
+ %{lnrs%}  !!= * @CODE@ e.g. in perfect participles
+ %{dtlnr%} !!= * @CODE@ e.g. infinitive and Ind+Prs+Pl3
 
 !! And following triggers to control variation
 
- {front}     !!= * @CODE@
- {back}	     !!= * @CODE@
+ %{front%}     !!= * @CODE@
+ %{back%}	     !!= * @CODE@
  %>		     !! * %>
  %^DEVOICE   !!= * @CODE@
  %^VOICE     !!= * @CODE@  pestä: pezen
@@ -469,8 +475,10 @@ Multichar_Symbols
  %^D2Z       !!= * @CODE@ Triggers ti=>zi
  %^A2O       !!= * @CODE@  before plural "i"
  %^A2U       !!= * @CODE@  +Nom+Sg
+ %^A2UÄ2Y    !!= * @CODE@ with single vowels
  %^E2O	     !!= @CODE@  the e => o, e => ö +Ind+Prs+ScSg3
  %^Ä2I	     !!= @CODE@  ä => i
+%^A2UÄ2I     !!= @CODE@  a => u, ä => i in consecutive vowels
  %^V2U	     !!= @CODE@  v => y __kävvä käydy__
 
  %^NONE      !!= * @CODE@  no regular change

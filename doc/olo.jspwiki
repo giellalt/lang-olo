@@ -281,17 +281,23 @@ symbols in the lexicon files:
 
  *  %{aäPar%}   no diphthongs
  *  %{aäDiph%}   This is for diphthongs such as the infinitive marker after i and u stems
+ *  %{aäoeöuiy%}   with partitive type
+ *  %{aäoeö%}   newer This is for diphthongs such as the infinitive marker after i and u stems
+ *  %{aäuyiØ%}  in participle endings anticipating PÄIVY or KOIRU type
+ *  %{aä%}  
  *  %{oö%}  
  *  %{oöØ%}   Used in present participle
  *  %{uy%}  
   %{ui%}  in imperative before %{aä%}:
  *  A2        used with verb types V_AVATA
  *  %{ijPRC%}  participle
+ *  %{lnrs%}   e.g. in perfect participles
+ *  %{dtlnr%}  e.g. infinitive and Ind+Prs+Pl3
 
 And following triggers to control variation
 
- *  {front}     
- *  {back}	     
+ *  %{front%}     
+ *  %{back%}	     
 * %>
  *  %^DEVOICE   
  *  %^VOICE       pestä: pezen
@@ -302,8 +308,10 @@ And following triggers to control variation
  *  %^D2Z        Triggers ti=>zi
  *  %^A2O         before plural "i"
  *  %^A2U         +Nom+Sg
+ *  %^A2UÄ2Y     with single vowels
   %^E2O	       the e => o, e => ö +Ind+Prs+ScSg3
   %^Ä2I	       ä => i
+ %^A2UÄ2I       a => u, ä => i in consecutive vowels
   %^V2U	       v => y __kävvä käydy__
 
  *  %^NONE        no regular change
@@ -531,14 +539,15 @@ the comparatives and superlatives are supletive
 
  LEXICON A_JIÄTÖI  jiätöi:jiät
  LEXICON A_HUOLETOI  huoletoi:huolet
+ LEXICON A_HUOLETOI/JIÄTÖI  huoletoi:huolet
 
  LEXICON A_KARJALAINE  karjalaine:karjala
 
  LEXICON A_LIYGILÄINE  liygiläine:liygilä
 
  LEXICON A_NAINE  naine:nai
-
  LEXICON A_KIELINE  kieline:kieli
+ LEXICON A_NAINE/KIELINE_01  kieline:kieli naine:nai
 
  LEXICON A_TOINE  toine:to
  LEXICON A_TOINE-PL  toine:to
@@ -566,9 +575,10 @@ the comparatives and superlatives are supletive
 
  LEXICON A_SUURIM  suurim:suurim
 
- LEXICON A_KIELI  kieli:kiel
-
  LEXICON A_SUARI  suari:suar
+
+ LEXICON A_KIELI  kieli:kiel
+ LEXICON A_SUARI/KIELI_01  suari:suar
 
  LEXICON A_VUOZI  vuozi:vuod
 
@@ -879,14 +889,12 @@ Harmony: Front
 Gradation NA
 Harmony: Back
 
- LEXICON N_KIELI  kieli:kiel
-Gradation No
-Harmony: Front
-
-
  LEXICON N_SUARI  suari:suar
-Gradation NA
 Harmony: Back
+ LEXICON N_KIELI  kieli:kiel
+Harmony: Front
+ LEXICON N_SUARI/KIELI_01  kieli:kiel
+Gradation No
 
 
  LEXICON N_LAPSI  lapsi:laps lapsi:laps
@@ -1044,11 +1052,9 @@ Gradation NA
 Harmony: Back
 
 
-
  LEXICON N_KIELINE  kieline:kieli
 Gradation NA
 Harmony: Front
-
 
 
  LEXICON N_TOINE  toine:to
@@ -1084,8 +1090,8 @@ Gradation No
 Harmony: Back
 
  LEXICON N_PUHTAHUS  puhtahus:puhtahu
-Gradation NA
 Harmony: Back
+Gradation NA
 
 
  LEXICON N_ALUS  alus:aluks
@@ -1309,7 +1315,6 @@ Gradation Yes
 
 
 
-
  LEXICON NMN_YKSI   yksi:y
 
 
@@ -1348,7 +1353,7 @@ __Adjective comparative examples:__
 
  LEXICON NMN_PAGIZII-PL  
 
- LEXICON NMN_HUOLETOI  huoletoi: huolet
+ LEXICON NMN_HUOLETOI/JIÄTÖI  huoletoi: huolet
 
 
  LEXICON NMN_SULGU  sulgu:sulga
@@ -1357,7 +1362,7 @@ Vowel Harmony Back
 
 
 
- LEXICON NMN_KOIRU  koiru:koira
+ LEXICON NMN_KOIRU/PÄIVY  koiru:koira
 Gradation NA
 Vowel Harmony Back
 
@@ -1380,13 +1385,13 @@ VowelHarmony Front
 
 
 
- LEXICON NMN_KOIVU  koivu:koivu
+ LEXICON NMN_KOIVU/HERY  koivu:koivu
 Gradation NA
 Vowel Harmony Back
 
 
 
- LEXICON NMN_LUGU  lugu:lugu
+ LEXICON NMN_LUGU/IDY  lugu:lugu
 Gradation Yes
 Vowel Harmony Back
 
@@ -1452,7 +1457,7 @@ Gradation No
 Gradation No
 
 
- LEXICON NMN_RUADO  ruado:ruado
+ LEXICON NMN_RUADO/KYNDÖ  ruado:ruado
 Gradation Yes
 
 
@@ -1539,12 +1544,12 @@ Gradation Yes
 
 
 ! Nominative singular in "s"
- LEXICON NMN_PUHTAHUS  puhtahus:puhtahu
+ LEXICON NMN_PUHTAHUS/XX  puhtahus:puhtahu
 
 
 
 
- LEXICON NMN_ALUS  alus:aluks
+ LEXICON NMN_ALUS/ILVES  alus:aluks
 
 
 
@@ -1723,7 +1728,7 @@ Plural stem vowel i
 
 
 
-__luadi%^WGStem%^E1%>tt%{uy%}%>%{aäPar%} examples:__
+__luadi%^WGStem%^E1%>tt%{uy%}%>%{aäoeöuiy%} examples:__
 
 __luaji000ttu0u examples:__
 
@@ -1763,6 +1768,7 @@ __luaji000ttu0u examples:__
  * __LEXICON V-PROH __ älä:äl
 
  * __LEXICON V_OLLA __ olla:o
+ * __LEXICON V_OLLA_01 __ olla:o
 
 
 
@@ -1773,28 +1779,36 @@ __luaji000ttu0u examples:__
 
 V1a
 
+ * __LEXICON V_ALENDUA __ alendua:alenda
+Harmony: Back
+
  * __LEXICON V_ELLENDIÄ __ ellendiä:ellendä
+Harmony: Front
+ * __LEXICON V_ALENDUA/ELLENDIÄ_01 __ ellendiä:ellendä alendua:alenda
 Gradation No
 
  * __LEXICON V_KANDUA __ kandua:kanda
-Gradation Yes
 Back Vowel
+ * __LEXICON V_KANDUA_01 __ kandua:kanda
+Gradation Yes
 
  * __LEXICON V_KANDUA-SG3 __ kandua:kanda
 
  * __LEXICON V_KANDUA-3 __ kandua:kanda
 
  * __LEXICON V_OTTUA __ ottua:otta
-Gradation Yes
 Back Vowel
+ * __LEXICON V_OTTUA/HEITTIÄ_01 __ ottua:otta
+Gradation Yes
+
 
  * __LEXICON V_OTTUA-SG3 __ ottua:otta
 
  * __LEXICON V_OTTUA-3 __ ottua:otta
 
  * __LEXICON V_HEITTIÄ __ heittä:heittä
-Gradation Yes
 Front vowel
+
 
  * __LEXICON V_HEITTIÄ-SG3 __ heittä:heittä
 
@@ -1803,26 +1817,28 @@ Front vowel
 V1o
 
  * __LEXICON V_PUNUO __ punuo:puno
-Gradation No
 Back vowel
+ * __LEXICON V_PUNUO/XX_01 __ punuo:puno
+Gradation No
 
  * __LEXICON V_PUNUO-SG3 __ punuo:puno
 
 V1u
 
  * __LEXICON V_VALUO __ valuo:valu
-Gradation No
 Back vowel
+ * __LEXICON V_VALUO/PYZYÖ_01 __ valuo:valu
+Gradation No
 similar_to: V_PYZYÖ
+
 
  * __LEXICON V_VALUO-SG3 __ valuo:valu
 
  * __LEXICON V_VALUO-3 __ valuo:valu
 
  * __LEXICON V_PYZYÖ __ pyzyö:pyzy
-Gradation No
 Front vowel
-similar_to: V_VALUO
+
 
  * __LEXICON V_PYZYÖ-SG3 __ pyzyö:pyzy
 
@@ -1830,18 +1846,22 @@ similar_to: V_VALUO
 
 V1i
  * __LEXICON V_POTKIE __ potkie:potki
-Gradation No
 Back vowel
+ * __LEXICON V_POTKIE/EČČIE_01 __ potkie:potki
+Gradation No
+Ind+Prt+Sg3
+
 
  * __LEXICON V_POTKIE-SG3 __ potkie:potki
 
  * __LEXICON V_EČČIE __ eččie:ečči
-Gradation No
 Front vowel
 
+
  * __LEXICON V_LUGIE __ lugie:luge
-Gradation Yes
 Back vowel
+ * __LEXICON V_LUGIE/IMIE_01 __ lugie:luge
+Gradation Yes
 
  * __+V:%>e INDPRTPL3_ttih ; __ 
  * __+V:%>e INDPRSPL3_tAh ; __ 
@@ -1849,6 +1869,7 @@ Back vowel
  * __LEXICON V_TUNDIE __ tundie:tunde 
 Gradation Yes
 Back vowel
+
 
  * __+V:%>e INDPRTPL3_ttih ; __ 
  * __+V:%>e INDPRSPL3_tAh ; __ 
@@ -1903,6 +1924,9 @@ Back vowel
 
 
  * __LEXICON V_NÄHTÄ __ nähtä:nä
+ * __LEXICON V_NÄHTÄ_01 __ nähtä:nä
+
+
 
 
 
@@ -1927,6 +1951,9 @@ Back vowel
 
 
  * __LEXICON V_PAISTA __ paista:pagis
+ * __LEXICON V_PAISTA_01 __ paista:pagis
+
+
 
 
 
@@ -1935,6 +1962,7 @@ Back vowel
  * __LEXICON V_PESTÄ __ pestä:pes
 
  * __LEXICON V_NOSTA __ nosta:no
+ * __LEXICON V_NOSTA/XX_01 __ nosta:no
 
 Verbs of the Finnish type 3 but not identical
 
@@ -2073,6 +2101,8 @@ gradation: yes
 
  * __LEXICON VR_OTTUA __ ottuakseh:otta
 
+ * __LEXICON VR_EISTIÄ __ eistiäkseh:eistä
+
 
 Reflexive verbs
 
@@ -2126,6 +2156,10 @@ Reflexive verbs
 
 
 
+
+
+
+
  __LEXICON V-3SYLL_KIRJUTTUA __  kirjuttua:kirjutta
 
 
@@ -2150,6 +2184,13 @@ Reflexive verbs
 
 
 
+
+
+
+
+
+
+ * __LEXICON V-VV_03_Harm-Neutr __ tulla:tul
 
 
 
@@ -2263,6 +2304,7 @@ Forthcoming
 
 
 
+
 * LEXICON V-VV_KUVITELLA  type 04
 
 !INDICATIVE PRESENT REFLEXIVE
@@ -2275,6 +2317,7 @@ Forthcoming
 * LEXICON V-VV_KUVITELLA  
 
 !INDICATIVE PRETERITE
+
 
 
 
@@ -2381,6 +2424,8 @@ Forthcoming
 
 
 
+
+
 !!!The Livvi (Olonets) Karelian morphophonological/twolc rules file 
 
 
@@ -2393,6 +2438,10 @@ Forthcoming
 
   %{aäDiph%}:ä   This is for the infinitive marker after i and u stems
 
+ *  %{aäoeöuiy%}:ä   with partitive type koivuu
+ *  %{aäoeö%}:ä   newer This is for diphthongs such as the infinitive marker after i and u stems ampuo
+ * %{aäuyiØ%}:ä  in participle endings anticipating PÄIVY or KOIRU type
+
   %{ui%}:i   in imperative before %{aä%}:
 
 
@@ -2400,6 +2449,8 @@ Forthcoming
 
 
   %{ijPRC%}:j  participle
+ *  %{lnrs%}:n   e.g. in perfect participles
+ *  %{dtlnr%}:d  e.g. infinitive and Ind+Prs+Pl3
 
 
 
@@ -2425,6 +2476,7 @@ Forthcoming
 
 
  %^Ä2I:0		  ä => i
+ %^A2UÄ2I:0		  a => u, ä => i
 
  %^ILoss:0    the i => 0 __reboi reboloi__
  %^V2U:0	     v => y __kävvä käydy__
@@ -2432,6 +2484,12 @@ Forthcoming
  _%^RVow:0   _ 
  _%^RmVow:0   _ vowel removal, e.g. with superlative
 
+
+
+
+Triggers dictating right context phenomena
+ * _%{back%}:0 _ back harmony until harmony boundary, i.e. word boundary
+ * _%{front%}:0 _ front harmony until harmony boundary, i.e. word boundary
 
 
 
@@ -2487,6 +2545,11 @@ __lʼykkä%>%{aäDiph%}%>%{ijPRC%}%{aäDiph%}%^A2U examples:__
 
 __lʼykki0ä%>jy0 examples:__
 
+__%{aä%}:a__
+
+__%{aä%}:ä__
+
+
 __%{aäDiph%}:a__
 
 __kanda%>kk%{ui%}%{aäDiph%}mm%{oö%} examples:__
@@ -2534,20 +2597,47 @@ __%{aäPar%}:y__
 __%{aäPar%}:0__
 
 
+__%{aäoeö%}:a__
+
+__%{aäoeö%}:ä__
+
+__%{aäoeö%}:o__
+
+__%{aäoeö%}:e__
+
+__%{aäoeö%}:ö__
+
+__{aäoeöuiy%}:a__
+
+__{aäoeöuiy%}:ä__
+
+__{aäoeöuiy%}:o__
+
+__{aäoeöuiy%}:e__
+
+__{aäoeöuiy%}:ö__
+
+__{aäoeöuiy%}:u__
+
+__{aäoeöuiy%}:i__
+
+__{aäoeöuiy%}:y__
+
+
 __e:0__
 
 __%{ui%}:u__
 {{{
-* %^RmVow:0    ! imperative forms
+* %{front%}:0  ! imperative forms
 
-__kanda%>kk%{ui%}%{aäDiph%}mm%{oö%} examples:__
+__kanda%>kk%{ui%}%{aä%}mm%{oö%} examples:__
 
 __kanda%>kkuammo examples:__
 }}}
 
 __%{ui%}:i__
 {{{
-* %^RmVow:0    ! imperative forms
+* %{front%}:0  ! imperative forms
 
 __lʼykkä%^WGStem%>kk%{ui%}%{aäDiph%}mm%{oö%} examples:__
 
@@ -2561,22 +2651,33 @@ __A2:u__
 __A2:y__
 
 
+__%{aäuyiØ%}:a__
+
+__%{aäuyiØ%}:u__
+
+__%{aäuyiØ%}:ä__
+
+__%{aäuyiØ%}:y__
+
+__%{aäuyiØ%}:i__
+
+__%{aäuyiØ%}:0__
 
 
 __a:u before subsequent a__  Diphthong a+a => ua
 ostua+V+Inf: __buy/ostaa__
 
-__osta%>a examples:__
+__osta%>%{aä%} examples:__
 
-__ostu%>a examples:__
+__ostu%>%{aä%} examples:__
 
 
 __ä:i before subsequent A2__  Diphthong ä+ä => iä
 kehittiä+V+Inf: __develop/kehittää__
 
-__kehittä%^Ä2I%>ä examples:__
+__kehittä%>%{aä%} examples:__
 
-__kehitti0%>ä examples:__
+__kehitti%>ä examples:__
 
 
 __o:u before subsequent o__ Diphthong o+o => uo erota:eruou
@@ -2623,10 +2724,8 @@ __tiedo%^WGStem%>n examples:__
 
 __tiijo0%>n examples:__
 
-
-__väge%^WGStem%>n examples:__
-
-__vä0i0%>n examples:__
+* __väge%{front%}%^WGStem>n __
+* __vä0i00%>n __
 
 __luge>%{ijPRC%} examples:__
 
@@ -2656,7 +2755,7 @@ __ä:ö word final__
 
 __a:0 in suaja:sai__
 {{{
- *  a _  %^RmVow:  ;  Vowel shortening before subsequent "i"
+ *  a _ (HarmDummy:)  %^RmVow:  ;  Vowel shortening before subsequent "i"
 
 __koira%^RmVow%>i%>en examples:__
 
@@ -2667,8 +2766,8 @@ __koira0%>j%>en examples:__
 __vahna%^RmVow%>in examples:__
 
 __vahn00%>in examples:__
-* __otta%^WGStem%^RmVow%>in __
-* __ot0000%>in __
+* __otta%{back%}%^WGStem%^RmVow%>in __
+* __ot00000%>in __
 }}}
 
 !!iToj between vowels
@@ -2676,12 +2775,14 @@ __i:j__
 
 __%{ijPRC%}:i__ 
 {{{
-*  a _  %^RmVow:  ;  +ActPrsPrc
+*  a _ (HarmDummy:)  %^RmVow:  ;  +ActPrsPrc
 }}}
 
 
 
 __a:o in the plural and preterite__
+* __muama%{back%}%^A2O __
+* __muamo00 __
 
 __a:e__  pidiä
 
@@ -2708,6 +2809,8 @@ __i:0 reboi:reboloi__
 
 
 __%{oö%}:o__ Vowel harmony suffixes Back
+__%{oö%}:ö__ Vowel harmony suffixes Front
+
 
 __%{oöØ%}:0__ Vowel harmony suffixes Back
 
@@ -2722,7 +2825,8 @@ __%{oöØ%}:ö__ Vowel harmony suffixes Front
 
 
 __%{uy%}:u__ Vowel harmony suffixes Back
-
+* __tul%>%{lnrs%}%{uy%}h __
+* __tul%>luh __
 
 __%{uy%}:y__ Vowel harmony suffixes Front
 
@@ -2764,11 +2868,11 @@ __kerri0%>tä examples:__
 
 __d:v__  
 {{{
- d:v <=> [ ö y: | o u: ] _ [ ä: | a ] %^WGStem:0 ; 
-           u a           _   o       %^WGStem:0 ; 
-           a             _   u       %^WGStem:0 ; 
-         [ u o: | u: ]   _  [ e | a: ]  (%> i )    %^WGStem:0 ;  
-         [ ä y: ]   _  [ e | y ]  (%> i )    %^WGStem:0 ;  
+ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; 
+           u a           _   o       (HarmDummy:) %^WGStem:0 ; 
+           a             _   u       (HarmDummy:) %^WGStem:0 ; 
+         [ u o: | u: ]   _  [ e | a: ]  (HarmDummy:) (%> i )    %^WGStem:0 ;  
+         [ ä y: ]   _  [ e | y ]  (HarmDummy:) (%> i )    %^WGStem:0 ;  
 
 __täydy%^WGStem examples:__
 
@@ -2819,7 +2923,7 @@ __pa0is%>ta0h examples:__
 
 __s:z__
 {{{
- * s:z <=> _ %^VOICE:0 ;  pestä: pezen
+ * s:z <=> _ (HarmDummy:) %^VOICE:0 ;  pestä: pezen
 }}}
 
 __k:g__ pestä: peskäh
@@ -2829,14 +2933,6 @@ __rd:rr weakening__
 
 
 __ld:ll weakening__  
-tulla+Ind+Prs+ScPl3: tullah
-
-__tul%>d%{aäDiph%}%^WGStem examples:__
-
-__tul%>la0 examples:__
-kuvitella+V+Inf
-* __kuvittel%^WGStem%>d%{aäDiph%}%^WGStem __
-* __kuvi0tel0%>la0 __
 
 __nd:nn weakening__ 
 mennä+Ind+Prs+ScPl3: mennäh
@@ -2849,43 +2945,50 @@ __kanne00%>ttas examples:__
 __rn:rr in prtprc__  
 
 __ln:ll in prtprc__  
+* __tul%>%{lnrs%}%{uy%}h __
+* __tul%>luh __
 
 __sn:ss in prtprc__  
 
+__%{dtlnr%}:d__
+
+__%{dtlnr%}:t__
+
+__%{dtlnr%}:l__
+tulla+Ind+Prs+ScPl3: tullah
+* __tul%{back%}%>%{dtlnr%}%{aä%} __
+* __tul0%>la __
+kuvitella+V+Inf
+* __kuvittel%{back%}%^WGStem%>%{dtlnr%}%{aä%} __
+* __kuvi0tel00%>la __
+
+__%{dtlnr%}:n__
+
+__%{dtlnr%}:r__
 
 !CONSONANT LOSS
 
 __čToZero__  
 {{{
-* s:z <=> _ %^VOICE:0 ;  suvaija:suvaičen
+* s:z <=> _ (HarmDummy:) %^VOICE:0 ;  suvaija:suvaičen
 }}}
 
 __kToZero__  aika: ajan
 {{{
-
-__lʼykkä%^WGStem%>t%{AÄ%} examples:__
-
-__lʼy0kä0%>tä examples:__
-
-__abuniekka%^A2O%>i%>l examples:__
-
-__abunie0ko0%>i%>l examples:__
-
-__liikkeh%^WGStem examples:__
-
-__lii0keh0 examples:__
+* __lʼykkä%{front%}%^WGStem%>t%{AÄ%} __
+* __lʼy0kä00%>tä __
+* __abuniekka%{back%}%^A2O%>i%>l __
+* __abunie0ko00%>i%>l __
+* __liikkeh%{front%}%^WGStem __
+* __lii0keh00 __
 
 }}}
 
 __gToZero__  aika: ajan
-
-__väge%^WGStem>n examples:__
-
-__vä0i0%>n examples:__
-
-__pagis%>d%{aäDiph%}%^WGStemh examples:__
-
-__pa0is%>ta0h examples:__
+* __väge%{front%}%^WGStem>n __
+* __vä0i00%>n __
+* __pagis%{back%}%^Pen%^WGStem%>%{dtlnr%}%{aä%}h __
+* __pa0is000%>tah __
 
 
 
