@@ -392,7 +392,7 @@ LEXICON PRON-INTERR_KEN-01
 +Pl+Nom:t K ;
 
 LEXICON PRON-INTERR_KARJALAINE
-+Pron+Interr: NMN_KARJALAINE ;
++Pron+Interr:%{back%} NMN_KARJALAINE ;
 
 !! !REFLEXIVE PRONOUNS
 LEXICON PRON-REFL_ !!= __@CODE@__ iče:ičče
@@ -420,33 +420,33 @@ LEXICON PRON-REFL_ !!= __@CODE@__ iče:ičče
 
 !! !RELATIVE PRONOUNS
 LEXICON PRON-REL_KUDAI !!= @CODE@ kudai:kuda
-+Pron+Rel: NMN_KUDAI ;
-+Pron+Rel: NMN_PIIRAI ; !2015-05-21
++Pron+Rel:%{back%} NMN_KUDAI ;
++Pron+Rel:%{back%} NMN_PIIRAI ; !2015-05-21
 
 LEXICON PRON-REFL_IS-SG-PAR
 +Pron+Refl+Sg+Par: K ;
 +Pron+Refl+Sg+Par+PxSg3:däh K ;
 
 LEXICON PRON_ARMAS !!= @CODE@ armas:arma
-+Pron: NMN_ARMAS        ;
++Pron:%{back%} NMN_ARMAS        ;
 
 LEXICON PRON_OZA !!= @CODE@ oza:oza
-+Pron: NMN_OZA        ;
++Pron:%{back%} NMN_OZA        ;
 
 LEXICON PRON-QNT_KIELI !!= @CODE@ kieli:kiel
-+Pron+Qnt: NMN_KIELI ;
++Pron+Qnt:%{front%} NMN_KIELI ;
 
 LEXICON PRON_KARJALAINE
-+Pron: NMN_KARJALAINE ;
++Pron:%{back%} NMN_KARJALAINE ;
 
 LEXICON PRON_KIELINE
-+Pron: NMN_KIELINE ;
++Pron:%{front%} NMN_NAINE/KIELINE ;
 
 LEXICON PRON_TOINE !!= @CODE@ toine:to
-+Pron: NMN_TOINE ;
++Pron:%{back%} NMN_TOINE ;
 
 LEXICON PRON_KAI !!= @CODE@ requires developing
-+Pron+Pl+Nom: K ;
++Pron+Pl+Nom:%{back%} K ;
 
 
 

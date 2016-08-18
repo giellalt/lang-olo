@@ -273,14 +273,12 @@ Harmony: Front
 Gradation NA
 Harmony: Back
 
- LEXICON N_KIELI  kieli:kiel
-Gradation No
-Harmony: Front
-
-
  LEXICON N_SUARI  suari:suar
-Gradation NA
 Harmony: Back
+ LEXICON N_KIELI  kieli:kiel
+Harmony: Front
+ LEXICON N_SUARI/KIELI_01  kieli:kiel
+Gradation No
 
 
  LEXICON N_LAPSI  lapsi:laps lapsi:laps
@@ -438,11 +436,9 @@ Gradation NA
 Harmony: Back
 
 
-
  LEXICON N_KIELINE  kieline:kieli
 Gradation NA
 Harmony: Front
-
 
 
  LEXICON N_TOINE  toine:to
@@ -478,8 +474,8 @@ Gradation No
 Harmony: Back
 
  LEXICON N_PUHTAHUS  puhtahus:puhtahu
-Gradation NA
 Harmony: Back
+Gradation NA
 
 
  LEXICON N_ALUS  alus:aluks
@@ -703,7 +699,6 @@ Gradation Yes
 
 
 
-
  LEXICON NMN_YKSI   yksi:y
 
 
@@ -742,7 +737,7 @@ __Adjective comparative examples:__
 
  LEXICON NMN_PAGIZII-PL  
 
- LEXICON NMN_HUOLETOI  huoletoi: huolet
+ LEXICON NMN_HUOLETOI/JIÄTÖI  huoletoi: huolet
 
 
  LEXICON NMN_SULGU  sulgu:sulga
@@ -751,7 +746,7 @@ Vowel Harmony Back
 
 
 
- LEXICON NMN_KOIRU  koiru:koira
+ LEXICON NMN_KOIRU/PÄIVY  koiru:koira
 Gradation NA
 Vowel Harmony Back
 
@@ -774,13 +769,13 @@ VowelHarmony Front
 
 
 
- LEXICON NMN_KOIVU  koivu:koivu
+ LEXICON NMN_KOIVU/HERY  koivu:koivu
 Gradation NA
 Vowel Harmony Back
 
 
 
- LEXICON NMN_LUGU  lugu:lugu
+ LEXICON NMN_LUGU/IDY  lugu:lugu
 Gradation Yes
 Vowel Harmony Back
 
@@ -846,7 +841,7 @@ Gradation No
 Gradation No
 
 
- LEXICON NMN_RUADO  ruado:ruado
+ LEXICON NMN_RUADO/KYNDÖ  ruado:ruado
 Gradation Yes
 
 
@@ -933,12 +928,12 @@ Gradation Yes
 
 
 ! Nominative singular in "s"
- LEXICON NMN_PUHTAHUS  puhtahus:puhtahu
+ LEXICON NMN_PUHTAHUS/XX  puhtahus:puhtahu
 
 
 
 
- LEXICON NMN_ALUS  alus:aluks
+ LEXICON NMN_ALUS/ILVES  alus:aluks
 
 
 
@@ -1117,7 +1112,7 @@ Plural stem vowel i
 
 
 
-__luadi%^WGStem%^E1%>tt%{uy%}%>%{aäPar%} examples:__
+__luadi%^WGStem%^E1%>tt%{uy%}%>%{aäoeöuiy%} examples:__
 
 __luaji000ttu0u examples:__
 

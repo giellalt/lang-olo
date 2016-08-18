@@ -270,17 +270,23 @@ symbols in the lexicon files:
 
  *  %{aäPar%}   no diphthongs
  *  %{aäDiph%}   This is for diphthongs such as the infinitive marker after i and u stems
+ *  %{aäoeöuiy%}   with partitive type
+ *  %{aäoeö%}   newer This is for diphthongs such as the infinitive marker after i and u stems
+ *  %{aäuyiØ%}  in participle endings anticipating PÄIVY or KOIRU type
+ *  %{aä%}  
  *  %{oö%}  
  *  %{oöØ%}   Used in present participle
  *  %{uy%}  
   %{ui%}  in imperative before %{aä%}:
  *  A2        used with verb types V_AVATA
  *  %{ijPRC%}  participle
+ *  %{lnrs%}   e.g. in perfect participles
+ *  %{dtlnr%}  e.g. infinitive and Ind+Prs+Pl3
 
 And following triggers to control variation
 
- *  {front}     
- *  {back}	     
+ *  %{front%}     
+ *  %{back%}	     
 * %>
  *  %^DEVOICE   
  *  %^VOICE       pestä: pezen
@@ -291,8 +297,10 @@ And following triggers to control variation
  *  %^D2Z        Triggers ti=>zi
  *  %^A2O         before plural "i"
  *  %^A2U         +Nom+Sg
+ *  %^A2UÄ2Y     with single vowels
   %^E2O	       the e => o, e => ö +Ind+Prs+ScSg3
   %^Ä2I	       ä => i
+ %^A2UÄ2I       a => u, ä => i in consecutive vowels
   %^V2U	       v => y __kävvä käydy__
 
  *  %^NONE        no regular change
