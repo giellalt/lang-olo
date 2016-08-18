@@ -589,6 +589,9 @@ LEXICON N_SUARI-PL !!= @CODE@ suari:suar
 LEXICON N_KIELI !!= @CODE@ kieli:kiel
 !! Harmony: Front
 :%{front%} N_SUARI/KIELI_01 ;
+LEXICON N_KIELI-PL !!= @CODE@ kieli:kiel
+!! Harmony: Front
+:%{front%} N_SUARI/KIELI-PL;
 LEXICON N_SUARI/KIELI_01 !!= @CODE@ kieli:kiel
 !! Gradation No
 +N:i ATTESTED-NOUN-STEM ;
