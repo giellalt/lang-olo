@@ -669,3 +669,48 @@ LEXICON WORD-END
 # ;
 
 ! vim: set ft=xfst-lexc:
+
+
+! Ad hoc lexica (TT)
+
+LEXICON ADV-TEMP
++Adv: # ;
+
+LEXICON VR_PYZYÖ
++V: # ; ! XXX Ad hoc lexicon to make code compile
+
+LEXICON NMN_KOIVU
++N: # ;
+
+LEXICON NMN_KARJALAINE
++N: # ;
+
+LEXICON NMN_LUGU
++A: # ;
+
+LEXICON NMN_ALUS
++A: # ;
+
+LEXICON NMN_PUHTAHUS
++A: # ;
+
+LEXICON A_HUOLETOI/JIÄTÖI_01
++A: # ;
+
+LEXICON NMN_NAINE-SG
++N: # ;
+
+LEXICON NMN_KIELI
++N: # ;
+
+LEXICON NMN_SUARI
++N: # ;
+
+LEXICON NMN_KOIRU
++N: # ;
+
+LEXICON NMN_NAINE
++N: # ;
+
+LEXICON INDPRTCONNEG_n{lnrs}yh
+# ;
