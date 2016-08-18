@@ -759,7 +759,7 @@ d:z <=> [Vow | r | n ] _ (HarmDummy:) %^D2Z:0 %> i ;
 ! vuozi:vuod+d%{uy%}, armas:armas+d%{uy%}
 "d:t in partitive"
 !! __@RULENAME@__  
-d:t <=> [ d: | h | :t | s ] (HarmDummy:) ( %^KS2S:0 ) %> _ ;
+d:t <=> [ d: | h | :t | (HarmDummy:) s ] (HarmDummy:) ( %^KS2S:0 ) %> _ ;
          [Vow | r | n ] _ (HarmDummy:) %> [ d: %{uy%}: | t y | t u ] ;
 !!€# pagis%>d%{aäDiph%}%^WGStemh
 !!€0 pa0is%>ta0h
