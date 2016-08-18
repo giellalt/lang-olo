@@ -583,6 +583,9 @@ LEXICON N_UKSI-PL
 LEXICON N_SUARI !!= @CODE@ suari:suar
 !! Harmony: Back
 :%{back%} N_SUARI/KIELI_01 ;
+LEXICON N_SUARI-PL !!= @CODE@ suari:suar
+!! Harmony: Back
+:%{back%} N_SUARI/KIELI-PL ;
 LEXICON N_KIELI !!= @CODE@ kieli:kiel
 !! Harmony: Front
 :%{front%} N_SUARI/KIELI_01 ;
