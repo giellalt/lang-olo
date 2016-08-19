@@ -160,7 +160,7 @@ LEXICON PROP-SETTLEMENT_OŠ
 +N+Prop+Sem/Plc: NMN_ABRAMOV ;
 
 LEXICON PROP-SETTLEMENT_PANGO
-+N+Prop+Sem/Plc: NMN_RUNO ;
++N+Prop+Sem/Plc: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP-SETTLEMENT_KUDO
 +N+Prop+Sem/Plc: NMN_KALA ;
@@ -175,7 +175,7 @@ LEXICON PROP_OŠ_DIVINITY
 +N+Prop+Sem/Hum+Sem/Divinity: NMN_ABRAMOV ;
 
 LEXICON PROP_PANGO_DIVINITY
-+N+Prop+Sem/Hum+Sem/Divinity: NMN_RUNO ;
++N+Prop+Sem/Hum+Sem/Divinity: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_KUDO_DIVINITY
 +N+Prop+Sem/Hum+Sem/Divinity: NMN_KALA ;
@@ -193,7 +193,7 @@ LEXICON PROP_OŠ-PL_CONSTELLATION
 +N+Prop+Sem/Constellation+Sem/Plc+Pl: NMN_ABRAMOV-PL ;
 
 LEXICON PROP_PANGO_CONSTELLATION
-+N+Prop+Sem/Constellation+Sem/Plc: NMN_RUNO ;
++N+Prop+Sem/Constellation+Sem/Plc: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_KUDO_CONSTELLATION
 +N+Prop+Sem/Constellation+Sem/Plc: NMN_KALA ;
@@ -202,7 +202,7 @@ LEXICON PROP_KUDO-PL_CONSTELLATION
 +N+Prop+Sem/Constellation+Sem/Plc+Pl: NMN_KALA-PL ; 
 
 LEXICON PROP_TJeŠTJe_CONSTELLATION
-+N+Prop+Sem/Constellation+Sem/Plc: NMN_RUNO ;
++N+Prop+Sem/Constellation+Sem/Plc: NMN_RUNO/HÖRÖ ;
 
 
 !!!!!!!!!!!!!!!!
@@ -263,7 +263,7 @@ LEXICON PROP_TINGJe
  N_RUNO ;
 
 LEXICON PROP_PANGO
-+N+Prop: NMN_RUNO ;
++N+Prop: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_KUDO
 +N+Prop: NMN_KALA ;
@@ -293,7 +293,7 @@ LEXICON PROP_TINGJe_MAL
  PROP_PANGO_MAL ;
 
 LEXICON PROP_PANGO_MAL
-+N+Prop+Sem/Mal: NMN_RUNO ;
++N+Prop+Sem/Mal: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_KUDO_MAL
 +N+Prop+Sem/Mal: NMN_KALA ;
@@ -317,7 +317,7 @@ LEXICON PROP_TINGJe_FEM
  PROP_PANGO_FEM ;
 
 LEXICON PROP_PANGO_FEM
-+N+Prop+Sem/Fem: NMN_RUNO ;
++N+Prop+Sem/Fem: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_KUDO_FEM
 +N+Prop+Sem/Fem: NMN_KALA ;
