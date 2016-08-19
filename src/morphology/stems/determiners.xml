@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="olo">
+  <e>
+    <lg>
+      <l pos="Det">toine</l>
+
+      <stg>
+        <st Contlex="ORD_TOINE">to</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Num">second</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Num">toinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det">enzimäine</l>
+
+      <stg>
+        <st Contlex="ORD_KARJALAINE">enzimä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det">ezmäine</l>
+
+      <stg>
+        <st Contlex="ORD_KARJALAINE">ezmä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="Det" type="Ord">kaheksaskymmenes</l>
+
+      <stg>
+        <st Contlex="ORD_">kaheksaskymmen</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det">kaheksas</l>
+
+      <stg>
+        <st Contlex="ORD_01_BACK">kaheksa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+
+  <e exclude="fst">
+    <lg>
+      <l pos="Det">kolmas</l>
+
+      <stg>
+        <st Contlex="NUM_">kolma</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">kuvves</l>
+
+      <stg>
+        <st Contlex="ORD_01_BACK">kuvve</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">kuvvestostu</l>
+
+      <stg>
+        <st Contlex="ORD_">kuvvestostu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">kymmenes</l>
+
+      <stg>
+        <st Contlex="ORD_01_FRONT">kymmene</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">nelläskymmenes</l>
+
+      <stg>
+        <st Contlex="ORD_">nelläskymmen</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">nellästostu</l>
+
+      <stg>
+        <st Contlex="ORD_">nellästostu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">nelläs</l>
+
+      <stg>
+        <st Contlex="ORD_01_FRONT">nellä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">sadas</l>
+
+      <stg>
+        <st Contlex="ORD_">sada</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">seiččemäs</l>
+
+      <stg>
+        <st Contlex="ORD_01_FRONT">seiččemä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">toine</l>
+
+      <stg>
+        <st Contlex="ORD_TOINE">to</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">viijes</l>
+
+      <stg>
+        <st Contlex="ORD_01_FRONT">viije</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">viijestostu</l>
+
+      <stg>
+        <st Contlex="NUM_">viijestostu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+
+  <e>
+    <lg>
+      <l pos="Det" type="Ord">yheksäs</l>
+
+      <stg>
+        <st Contlex="ORD_01_FRONT">yheksä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+</r>
