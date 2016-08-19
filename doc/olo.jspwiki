@@ -587,7 +587,7 @@ the comparatives and superlatives are supletive
 
  LEXICON A_VUOZI  vuozi:vuod
 
- LEXICON A_VEZI  vezi:vet
+ LEXICON A_VEZI  vezi:ved
 
  LEXICON A_NIMI  nimi:nim
 
@@ -1339,7 +1339,7 @@ Gradation Yes
 
 
 
- LEXICON NMN_VUOZI  vuozi:vuod
+ LEXICON NMN_VUOZI/VEZI  vuozi:vuod
 
 
 
@@ -2829,10 +2829,8 @@ __kirjava%^E1%>m%^NONEb examples:__
 __kirjave0%>m0b examples:__
 
 __ä:e piettih and in comparatives__  pidiä
-
-__mečästä%^WGStem%^E1%>tt%{aäDiph%}s examples:__
-
-__mečäste00%>ttäs examples:__
+* __mečästä%{front%}%^E1%>tt%{aä%}s __
+* __mečäste00%>ttäs __
 
 
 __ä:0 pidiä:pidi__
@@ -2905,12 +2903,10 @@ __d:v__
  d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; 
            u a           _   o       (HarmDummy:) %^WGStem:0 ; 
            a             _   u       (HarmDummy:) %^WGStem:0 ; 
-         [ u o: | u: ]   _  [ e | a: ]  (HarmDummy:) (%> i )    %^WGStem:0 ;  
-         [ ä y: ]   _  [ e | y ]  (HarmDummy:) (%> i )    %^WGStem:0 ;  
-
-__täydy%^WGStem examples:__
-
-__tävvy0 examples:__
+         [ u o: | u: ]   _  [ (HarmDummy:) e | a: ]  (HarmDummy:) (%> i )    %^WGStem:0 ;  
+         [ ä y: ]   _  [(HarmDummy:) e | y ]  (HarmDummy:) (%> i )    %^WGStem:0 ;  
+* __täydy%{front%}%^WGStem __
+* __tävvy00 __
 
 }}}
 

@@ -289,12 +289,12 @@ LEXICON A_SUARI/KIELI_01 !!= @CODE@ suari:suar
 +Der/in+Superl:i NMN_ENIN        ;
 
 LEXICON A_VUOZI !!= @CODE@ vuozi:vuod
-+A:%{back%}	NMN_VUOZI ;
++A:%{back%}	NMN_VUOZI/VEZI ;
 +A+Der/mbi+Comp:%{back%}%^WGStem%>emb NMN_PAREMBI/ENÄMBI        ;
 +A+Der/in+Superl:%{back%}%^WGStem%>i NMN_ENIN        ;
 
-LEXICON A_VEZI !!= @CODE@ vezi:vet
-+A:%{front%}     NMN_VEZI ;
+LEXICON A_VEZI !!= @CODE@ vezi:ved
++A:%{front%}     NMN_VUOZI/VEZI ;
 
 LEXICON A_NIMI !!= @CODE@ nimi:nim
 +A:%{front%}        NMN_HANGI/NIMI  ;
