@@ -392,7 +392,7 @@ LEXICON PRON-INTERR_KEN-01
 +Pl+Nom:t K ;
 
 LEXICON PRON-INTERR_KARJALAINE
-+Pron+Interr:%{back%} NMN_KARJALAINE ;
++Pron+Interr:%{back%} NMN_KARJALAINE/LIYGILÄINE ;
 
 !! !REFLEXIVE PRONOUNS
 LEXICON PRON-REFL_ !!= __@CODE@__ iče:ičče
@@ -434,10 +434,10 @@ LEXICON PRON_OZA !!= @CODE@ oza:oza
 +Pron:%{back%} NMN_OZA        ;
 
 LEXICON PRON-QNT_KIELI !!= @CODE@ kieli:kiel
-+Pron+Qnt:%{front%} NMN_KIELI ;
++Pron+Qnt:%{front%} NMN_SUARI/KIELI ;
 
 LEXICON PRON_KARJALAINE
-+Pron:%{back%} NMN_KARJALAINE ;
++Pron:%{back%} NMN_KARJALAINE/LIYGILÄINE ;
 
 LEXICON PRON_KIELINE
 +Pron:%{front%} NMN_NAINE/KIELINE ;

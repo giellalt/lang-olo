@@ -911,7 +911,7 @@ LEXICON N_NAINE !!= @CODE@ naine:nai
  N_NAINE-PL     ;
 
 LEXICON N_NAINE-SG
-+N:%{back%}    NMN_NAINE-SG         ;
++N:%{back%}    NMN_NAINE/KIELINE-SG         ;
 LEXICON N_NAINE-PL
 +N:%{back%}    NMN_NAINE/KIELINE-PL         ;
 

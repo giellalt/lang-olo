@@ -79,27 +79,27 @@ LEXICON A_KALA !!= @CODE@ kala:kala
 +A+Der/in+Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_KOIVU !!= @CODE@ koivu:koivu
-+A:%{back%}        NMN_KOIVU ;
++A:%{back%}        NMN_KOIVU/HERY ;
 +A+Der/mbi+Comp:%{back%}%>mb NMN_PAREMBI        ;
 +A+Der/in+Superl:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_HERY !!= @CODE@ hery:hery
-+A:%{front%}        NMN_HERY ;
++A:%{front%}        NMN_KOIVU/HERY ;
 +A+Der/mbi+Comp:%{front%}%>mb NMN_PAREMBI        ;
 +A+Der/in+Superl:%{front%}vi NMN_ENIN        ;
 
 LEXICON A_LUGU !!= @CODE@ lugu:lugu
-+A:%{back%}        NMN_LUGU ;
++A:%{back%}        NMN_LUGU/IDY ;
 +A+Der/mbi+Comp:%{back%}%^WGStem%>mb NMN_PAREMBI        ;
 +A+Der/in+Superl:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_IDY !!= @CODE@ idy:idy
-+A:%{front%}        NMN_IDY ;
++A:%{front%}        NMN_LUGU/IDY ;
 +A+Der/mbi+Comp:%{front%}%^WGStem%>mb NMN_PAREMBI        ;
 +A+Der/in+Superl:%{front%}vi NMN_ENIN        ;
 
 LEXICON A_RUNO
-+A:%{back%}	NMN_RUNO ;
++A:%{back%}	NMN_RUNO/HÖRÖ ;
 +A+Der/mbi+Comp:%{back%}%>mb NMN_PAREMBI        ;
 +A+Der/in+Superl:%{back%}vi NMN_ENIN        ;
 
@@ -118,7 +118,7 @@ LEXICON A_ARTELI !!= @CODE@
 +A:%{back%}     NMN_ARTELI ;
 
 LEXICON A_ALUS !!= @CODE@ alus:aluks
-+A:%{back%} NMN_ALUS   ;
++A:%{back%} NMN_ALUS/ILVES   ;
 +A+Der/mbi+Comp:%{back%}e%>mb NMN_PAREMBI        ;
 +A+Der/in+Superl:%{back%}i NMN_ENIN        ;
 
@@ -130,7 +130,7 @@ LEXICON A_KUURNIS !!= @CODE@ kuurnis:kuurne
 +A:%{back%}      NMN_KUURNIS ;
 
 LEXICON A_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
-+A:%{back%}	NMN_PUHTAHUS ;
++A:%{back%}	NMN_PUHTAHUS/XX ;
 
 LEXICON A_OLUT !!= @CODE@ olut:olu
 +A:%{back%}	 NMN_OLUT ;
@@ -191,11 +191,11 @@ LEXICON A_PAREMBI !!= @CODE@ parembi:paremb
 !+N:%{aä%} Adj-NB-i ; !2012-09-27 unknown -loi vs -i
 
 LEXICON A_JIÄTÖI !!= @CODE@ jiätöi:jiät
-+A:%{front%} A_HUOLETOI/JIÄTÖI_01 ;
++A:%{front%} A_HUOLETOI/JIÄTÖI ;
 LEXICON A_HUOLETOI !!= @CODE@ huoletoi:huolet
-+A:%{back%} A_HUOLETOI/JIÄTÖI_01 ;
++A:%{back%} A_HUOLETOI/JIÄTÖI ;
 LEXICON A_HUOLETOI/JIÄTÖI !!= @CODE@ huoletoi:huolet
-+Der/Us:t%{oö%}m%{uy%} N_PUHTAHUS ;
++Der/Us+N:t%{oö%}m%{uy%} NMN_PUHTAHUS/XX ;
 :	NMN_HUOLETOI/JIÄTÖI   ;
 +Der/MWN: N_HUOLETOI ; 
 +Der/MWN+N:t%{oö%}m%{aä%} Adj-NB-i ; !2012-09-27 unknown -loi vs -i
