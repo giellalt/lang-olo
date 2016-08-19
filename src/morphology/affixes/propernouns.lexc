@@ -147,20 +147,20 @@ LEXICON PROP_KIELI !!= @CODE@ kieli:kiel
 !! Vowel Harmony Front
 !! Stem Vowel i/0/e
 !! Plural stem in i
-+N+Prop:%{front%} NMN_KIELI ;
++N+Prop:%{front%} NMN_SUARI/KIELI ;
 
 LEXICON PROP-PLC_KIELI !!= @CODE@ kieli:kiel
-+N+Prop+Sem/Plc:%{front%} NMN_KIELI ;
++N+Prop+Sem/Plc:%{front%} NMN_SUARI/KIELI ;
 
 LEXICON PROP_SUARI !!= @CODE@ suari:suar
 !! Gradation NA
 !! Vowel Harmony Back
 !! Stem Vowel i/0/e
 !! Plural stem in i
-+N+Prop:%{back%} NMN_SUARI ;
++N+Prop:%{back%} NMN_SUARI/KIELI ;
 
 LEXICON PROP-PLC_SUARI !!= @CODE@ suari:suar
-+N+Prop+Sem/Plc:%{back%} NMN_SUARI ;
++N+Prop+Sem/Plc:%{back%} NMN_SUARI/KIELI ;
 
 LEXICON PROP_UKSI !!= @CODE@ uksi:uks
 !! Gradation NA 
