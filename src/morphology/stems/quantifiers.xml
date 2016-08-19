@@ -6,28 +6,6 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="olo">
   <e>
     <lg>
-      <l pos="Qnt">puaksužeh</l>
-
-      <stg>
-        <st Contlex="QNT-ITER">puaksužeh</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Qnt">often</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Qnt">usein</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="Num">seiččie</l>
 
       <stg>
@@ -72,66 +50,6 @@
 
   <e>
     <lg>
-      <l pos="Qnt">toine</l>
-
-      <stg>
-        <st Contlex="ORD_TOINE">to</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Num">second</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Num">toinen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">enzimäine</l>
-
-      <stg>
-        <st Contlex="ORD_KARJALAINE">enzimä</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">ezmäine</l>
-
-      <stg>
-        <st Contlex="ORD_KARJALAINE">ezmä</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="Num">kaheksa</l>
 
       <stg>
@@ -170,86 +88,10 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="Num" type="Ord">kaheksaskymmenes</l>
-
-      <stg>
-        <st Contlex="ORD_">kaheksaskymmen</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
       <l pos="Num">kaheksatostu</l>
 
       <stg>
         <st Contlex="NUM_">kaheksatostu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">kaheksas</l>
-
-      <stg>
-        <st Contlex="ORD_01_BACK">kaheksa</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">kahtei</l>
-
-      <stg>
-        <st Contlex="NUM_">kahtei</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t pos="Qnt">kahdestaan</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">kakkoine</l>
-
-      <stg>
-        <st Contlex="N_KARJALAINE">kakko</st>
       </stg>
     </lg>
 
@@ -358,24 +200,6 @@
     </mg>
   </e>
 
-  <e exclude="fst">
-    <lg>
-      <l pos="Num">kolmas</l>
-
-      <stg>
-        <st Contlex="NUM_">kolma</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
 
   <e>
     <lg>
@@ -397,25 +221,6 @@
 
       <tg xml:lang="fin">
         <t pos="Num">kolme</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">kolmei</l>
-
-      <stg>
-        <st Contlex="QNT_">kolmei</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
       </tg>
     </mg>
   </e>
@@ -464,25 +269,6 @@
 
       <stg>
         <st Contlex="NUM_">kolmetostu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">kuvves</l>
-
-      <stg>
-        <st Contlex="ORD_01_BACK">kuvve</st>
       </stg>
     </lg>
 
@@ -574,67 +360,10 @@
 
   <e>
     <lg>
-      <l pos="Qnt">kuvvei</l>
-
-      <stg>
-        <st Contlex="QNT_">kuvvei</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">kuvvestostu</l>
-
-      <stg>
-        <st Contlex="ORD_">kuvvestostu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="Num" type="Card">kymmene</l>
 
       <stg>
         <st Contlex="NUM_KYMMENE">kymmen</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">kymmenes</l>
-
-      <stg>
-        <st Contlex="ORD_01_FRONT">kymmene</st>
       </stg>
     </lg>
 
@@ -711,82 +440,6 @@
 
       <stg>
         <st Contlex="NUM_">nellitostu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">nelläskymmenes</l>
-
-      <stg>
-        <st Contlex="ORD_">nelläskymmen</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">nellästi</l>
-
-      <stg>
-        <st Contlex="NUM_">nellästi</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">nellästostu</l>
-
-      <stg>
-        <st Contlex="ORD_">nellästostu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">nelläs</l>
-
-      <stg>
-        <st Contlex="ORD_01_FRONT">nellä</st>
       </stg>
     </lg>
 
@@ -897,25 +550,6 @@
 
   <e>
     <lg>
-      <l pos="Num" type="Ord">sadas</l>
-
-      <stg>
-        <st Contlex="ORD_">sada</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="Num">seiččekymmendy</l>
 
       <stg>
@@ -973,162 +607,10 @@
 
   <e>
     <lg>
-      <l pos="N">seičikko</l>
-
-      <stg>
-        <st Contlex="N_">seičikko</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">seiččemäs</l>
-
-      <stg>
-        <st Contlex="ORD_01_FRONT">seiččemä</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">seiččiei</l>
-
-      <stg>
-        <st Contlex="QNT_">seiččiei</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">toine</l>
-
-      <stg>
-        <st Contlex="ORD_TOINE">to</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="Num" type="Card">tuhat</l>
 
       <stg>
         <st Contlex="NUM_TUHAT">tuha</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">viijes</l>
-
-      <stg>
-        <st Contlex="ORD_01_FRONT">viije</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">viijestostu</l>
-
-      <stg>
-        <st Contlex="NUM_">viijestostu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">viidoine</l>
-
-      <stg>
-        <st Contlex="N_KARJALAINE">viido</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">viiei</l>
-
-      <stg>
-        <st Contlex="QNT_">viiei</st>
       </stg>
     </lg>
 
@@ -1281,25 +763,6 @@
 
       <stg>
         <st Contlex="NUM_">yheksätostu</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">yheksäs</l>
-
-      <stg>
-        <st Contlex="ORD_01_FRONT">yheksä</st>
       </stg>
     </lg>
 

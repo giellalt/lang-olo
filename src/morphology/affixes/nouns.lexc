@@ -1775,18 +1775,18 @@ LEXICON NMN_PIIRAI !!= @CODE@ piirai:piira
 
 LEXICON NMN_PIIRAI-SG
 :i SGNOMSUF ;
-:a SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
-:a SGPARSUF_dU ;
-+Sg:%{aäPar%} Noun-NB-01-USUALLY-WEAK ;
-+Sg:%{aäPar%} Noun-NB-01-USUALLY-STRONG ;
+:%{aä%} SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
+:%{aä%} SGPARSUF_dU ;
++Sg:%{aä%} Noun-NB-01-USUALLY-WEAK ;
++Sg:%{aä%} Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_PIIRAI-PL
-:a PLNOMSUF-USUALLY-WEAK ;
-:al%{oö%}i PL-GEN/COM/APRSUF_N ;
-:al%{oö%}i PLPARSUF_Zero ;
-:al%{oö%}i PLINSSUF ;
-+Pl:al%{oö%}i Noun-NB-01-USUALLY-WEAK ;
-+Pl:al%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+:%{aä%} PLNOMSUF-USUALLY-WEAK ;
+:%{aä%}l%{oö%}i PL-GEN/COM/APRSUF_N ;
+:%{aä%}l%{oö%}i PLPARSUF_Zero ;
+:%{aä%}l%{oö%}i PLINSSUF ;
++Pl:%{aä%}l%{oö%}i Noun-NB-01-USUALLY-WEAK ;
++Pl:%{aä%}l%{oö%}i Noun-NB-01-USUALLY-STRONG ;
 
 
 LEXICON NMN_PAGIZII

@@ -446,9 +446,21 @@ LEXICON PRON_TOINE !!= @CODE@ toine:to
 +Pron:%{back%} NMN_TOINE ;
 
 LEXICON PRON_KAI !!= @CODE@ requires developing
-+Pron+Pl+Nom:%{back%} K ;
-
-
++Pron:%{back%} PRON_KAI_01 ;
+LEXICON PRON_KAI_01
++Pl+Nom: K ;
++Pl+Gen:kkien K ;
++Pl+All:kile K ;
++Pl+Abl:kilpäi K ;
++Pl+Abl:kil K ;
++Pl+Ade:kil K ;
++Sg+Gen:ken K ;
++Sg+Ine:kes K ;
++Sg+Ela:kes K ;
++Sg+Ela:kespäi K ;
++Sg+Ade:kel K ;
++Sg+Abl:kel K ;
++Sg+Abl:kelpäi K ;
 
 ! vim: set ft=xfst-lexc:
 
