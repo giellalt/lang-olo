@@ -288,9 +288,9 @@ LEXICON PROP_RUNO !!= @CODE@ runo:runo
 !! Gradation NA
 !! Stem vowel o
 !! Plural stem in loi
-+N+Prop:%{back%} NMN_RUNO ;
++N+Prop:%{back%} NMN_RUNO/HÖRÖ ;
 LEXICON PROP-PLC_RUNO !!= @CODE@ runo:runo
-+N+Prop+Sem/Plc:%{back%} NMN_RUNO ;
++N+Prop+Sem/Plc:%{back%} NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_RUADO !!= @CODE@ ruado:ruado
 !! Back vowel

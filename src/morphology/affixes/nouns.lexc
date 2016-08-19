@@ -219,9 +219,9 @@ LEXICON N_RUNO !!= @CODE@ runo:runo
 	 N_RUNO-PL ;
 
 LEXICON N_RUNO-SG
-+N:%{back%} NMN_RUNO-SG   ;
++N:%{back%} NMN_RUNO/HÖRÖ-SG   ;
 LEXICON N_RUNO-PL
-+N:%{back%} NMN_RUNO-PL   ;
++N:%{back%} NMN_RUNO/HÖRÖ-PL   ;
 
 LEXICON N_HÖRÖ !!= @CODE@ hörö:hörö
 !! Gradation NA
@@ -231,9 +231,9 @@ LEXICON N_HÖRÖ !!= @CODE@ hörö:hörö
 	 N_HÖRÖ-PL ;
 
 LEXICON N_HÖRÖ-SG
-+N:%{front%} NMN_HÖRÖ-SG   ;
++N:%{front%} NMN_RUNO/HÖRÖ-SG   ;
 LEXICON N_HÖRÖ-PL
-+N:%{front%} NMN_HÖRÖ-PL   ;
++N:%{front%} NMN_RUNO/HÖRÖ-PL   ;
 
 LEXICON N_RUADO !!= @CODE@ ruado:ruado
 !! Gradation Yes
@@ -2200,17 +2200,17 @@ LEXICON NMN_KESTÄY-PL
 :v%>i PLINSSUF ;
 +Pl:v%>i Noun-NB-01 ;
 
-LEXICON NMN_RUNO !!= @CODE@ runo:runo
+LEXICON NMN_RUNO/HÖRÖ !!= @CODE@ runo:runo
 !! Gradation No
-	NMN_RUNO-SG ;
-	NMN_RUNO-PL ;
+	NMN_RUNO/HÖRÖ-SG ;
+	NMN_RUNO/HÖRÖ-PL ;
 
-LEXICON NMN_RUNO-SG
+LEXICON NMN_RUNO/HÖRÖ-SG
 	SGNOMSUF ;
  	SGPARSUF_A2 ;
 	SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
 +Sg: 	Noun-NB-01 ;
-LEXICON NMN_RUNO-PL
+LEXICON NMN_RUNO/HÖRÖ-PL
  PLNOMSUF-USUALLY-WEAK ;
 :l%{oö%}i PL-GEN/COM/APRSUF_N ;
 :l%{oö%}i PLPARSUF_Zero ;
