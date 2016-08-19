@@ -405,17 +405,17 @@ Rules
 "%{ui%}:u"
 !! __@RULENAME@__
 !! {{{
-%{ui%}:u <=> [BT|BHarm] [Cns: | %{ijPRC%}: ] ( %> ) _ ( %> ) [ %{aäPar%}: | %{aäDiph%}: | %{aäoeöuiy%}: | %{aä%}:] ; !! * @CODE@ ! imperative forms
-!!€# kanda%>kk%{ui%}%{aä%}mm%{oö%}
-!!€0 kanda%>kkuammo
+%{ui%}:u <=> BHarm ( %> ) _ ( %> ) [ %{aäPar%}: | %{aäDiph%}: | %{aäoeöuiy%}: | %{aä%}:] ; !! * @CODE@ ! imperative forms
+!!€ kanda%{back%}%>kk%{ui%}%{aä%}mm%{oö%}
+!!€ kanda0%>kkuammo
 !! }}}
 
 "%{ui%}:i"
 !! __@RULENAME@__
 !! {{{
-%{ui%}:i <=> [FT|FHarm] [ Cns: | %{ijPRC%}: ] ( %> ) _ ( %> ) [ %{aäPar%}: | %{aäDiph%}: | %{aä%}:] ; !! * @CODE@ ! imperative forms
-!!€# lʼykkä%^WGStem%>kk%{ui%}%{aäDiph%}mm%{oö%}
-!!€0 lʼyk0ä0%>kkiämmö
+%{ui%}:i <=> FHarm ( %> ) _ ( %> ) [ %{aäPar%}: | %{aäDiph%}: | %{aäoeöuiy%}: | %{aä%}:] ; !! * @CODE@ ! imperative forms
+!!€ lʼykkä%{front%}%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}
+!!€ lʼyk0ä00%>kkiämmö
 !! }}}
 
 "A2:a"
@@ -501,7 +501,7 @@ o:u <=> Cns _ (HarmDummy:) %> [ %{aäPar%}: | %{aäDiph%}: | %{aäoeö%}: |%{aä
 "e:i before subsequent %{aäPar%}:e"
 !! __@RULENAME@__ Diphthong o+o => uo erota:eruou
 !! {{{
- e:i <=> Cns _ (HarmDummy:) %> [ %{aäPar%}:e | %{aäDiph%}:e |%{aäoeöuiy%}:e|%{aäoeö%}:e| e ] ;
+ e:i <=> Cns  (HarmDummy:) _ (HarmDummy:) %> [ %{aäPar%}:e | %{aäDiph%}:e |%{aäoeöuiy%}:e|%{aäoeö%}:e| e ] ;
 !!€# valge%>e%^WGStem%>t
 !!€0 valgi%>e00t
 !!€# hävi%>%{aäPar%}%>n

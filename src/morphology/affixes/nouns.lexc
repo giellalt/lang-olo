@@ -396,10 +396,10 @@ LEXICON N_NIMI !!= @CODE@ nimi:nim
 	N_NIMI-PL  ;
 
 LEXICON N_NIMI-SG
-+N:%{front%} NMN_NIMI-SG ;
++N:%{front%} NMN_HANGI/NIMI-SG ;
 
 LEXICON N_NIMI-PL
-+N:%{front%} NMN_NIMI-PL ;
++N:%{front%} NMN_HANGI/NIMI-PL ;
 
 LEXICON N_HANGI !!= @CODE@ hangi:hang
 !! Gradation NA
@@ -409,10 +409,10 @@ LEXICON N_HANGI !!= @CODE@ hangi:hang
 	N_HANGI-PL  ;
 
 LEXICON N_HANGI-SG
-+N:%{back%} NMN_HANGI-SG ;
++N:%{back%} NMN_HANGI/NIMI-SG ;
 
 LEXICON N_HANGI-PL
-+N:%{back%} NMN_HANGI-PL ;
++N:%{back%} NMN_HANGI/NIMI-PL ;
 
 LEXICON N_PÄIVY !!= @CODE@ päivy:päivä
 !! Gradation NA
@@ -453,6 +453,18 @@ LEXICON N_IŽÄNDY-SG
 LEXICON N_IŽÄNDY-PL
 +N:%{front%} NMN_IŽÄNDY-PL	;
 
+LEXICON N_LATE !!= @CODE@ late:latte
+!! Gradation Yes
+!! Harmony: Back
+!+N: ATTESTED-NOUN-STEM ; Work needed
+	N_LATE-SG	;
+	N_LATE-PL	;
+LEXICON N_LATE-SG
++N:%{back%}	NMN_LATE/SIVE-SG	;
+
+LEXICON N_LATE-PL
++N:%{back%}	NMN_LATE/SIVE-PL	;
+
 LEXICON N_SIVE !!= @CODE@ sive:side
 !! Gradation Yes
 !! Harmony: Front
@@ -460,10 +472,10 @@ LEXICON N_SIVE !!= @CODE@ sive:side
 	N_SIVE-SG	;
 	N_SIVE-PL	;
 LEXICON N_SIVE-SG
-+N:	NMN_SIVE-SG	;
++N:%{front%}	NMN_LATE/SIVE-SG	;
 
 LEXICON N_SIVE-PL
-+N:	NMN_SIVE-PL	;
++N:%{front%}	NMN_LATE/SIVE-PL	;
 
 LEXICON N_HARDIE_SUB
 +Err/Orth: N_HARDIE ;
@@ -1148,9 +1160,9 @@ LEXICON N_PAREMBI !!= @CODE@ parembi:paremb
  N_PAREMBI-PL	  ;
 
 LEXICON N_PAREMBI-SG
-+N:%{back%} NMN_PAREMBI-SG   ;
++N:%{back%} NMN_PAREMBI/ENÄMBI-SG   ;
 LEXICON N_PAREMBI-PL
-+N:%{back%} NMN_PAREMBI-PL   ;
++N:%{back%} NMN_PAREMBI/ENÄMBI-PL   ;
 
 LEXICON N_PESSYH !!= @CODE@ pessyh:pessy
 !! Gradation NA
@@ -1539,18 +1551,18 @@ LEXICON NMN_SUZI-PL
 +Pl:z%>i%>l%{oö%}i Noun-NB-01-USUALLY-STRONG ;
 
 !! !NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
-LEXICON NMN_NIMI
-	NMN_NIMI-SG	;
-	NMN_NIMI-PL	;
+LEXICON NMN_HANGI/NIMI
+	NMN_HANGI/NIMI-SG	;
+	NMN_HANGI/NIMI-PL	;
 
-LEXICON NMN_NIMI-SG
+LEXICON NMN_HANGI/NIMI-SG
 :i SGNOMSUF ;
 :e SGPARSUF_A2 ;
 :e SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
 +Sg:e Noun-NB-01-USUALLY-WEAK ;
 +Sg:e Noun-NB-01-USUALLY-STRONG ;
 
-LEXICON NMN_NIMI-PL
+LEXICON NMN_HANGI/NIMI-PL
 :e PLNOMSUF-USUALLY-WEAK	;
 :%>i PL-GEN/COM/APRSUF_EN ; 
 :%>i PLPARSUF_i ;
@@ -1727,22 +1739,22 @@ LEXICON NMN_VUOZI-PL
 :%^D2Z%>i%>%{oö%}i PLINSSUF ;
 +Pl:%^D2Z%>i%>%{oö%}i Noun-NB-01 ;
 
-LEXICON NMN_PAREMBI !!= @CODE@ parembi:paremb
+LEXICON NMN_PAREMBI/ENÄMBI !!= @CODE@ parembi:paremb
 !!€gt-norm: Adjective comparative
 !!€ tuorehembi: tuores+A+Der/mbi+Comp+Sg+Nom
 !!$ tuorehembembannu: tuores+A+Der/mbi+Comp+Der/mbi+Comp+Sg+Ess
- NMN_PAREMBI-SG ;
- NMN_PAREMBI-PL ;
+ NMN_PAREMBI/ENÄMBI-SG ;
+ NMN_PAREMBI/ENÄMBI-PL ;
 
-LEXICON NMN_PAREMBI-SG
+LEXICON NMN_PAREMBI/ENÄMBI-SG
 :i SGNOMSUF ;
-:%{aäPar%} SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
+:%{aä%} SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
 :%{ui%} SGPARSUF_A2 ;
-+Sg:%{aäPar%} Noun-NB-01-USUALLY-WEAK ;
-+Sg:%{aäPar%} Noun-NB-01-USUALLY-STRONG ;
++Sg:%{aä%} Noun-NB-01-USUALLY-WEAK ;
++Sg:%{aä%} Noun-NB-01-USUALLY-STRONG ;
 
-LEXICON NMN_PAREMBI-PL
-:%{aäPar%} PLNOMSUF-USUALLY-WEAK ;
+LEXICON NMN_PAREMBI/ENÄMBI-PL
+:%{aä%} PLNOMSUF-USUALLY-WEAK ;
 :i PL-GEN/COM/APRSUF_EN ;
 :i PLPARSUF_i ;
 :i PLINSSUF ;
@@ -2916,15 +2928,15 @@ LEXICON NMN_LIIKEH-PL
 +Pl:i Noun-NB-01-USUALLY-WEAK ;
 +Pl:i Noun-NB-01-USUALLY-STRONG ;
 
-LEXICON NMN_SIVE !!= @CODE@ sive:side
-	NMN_SIVE-SG	;
-	NMN_SIVE-PL	;
-LEXICON NMN_SIVE-SG
+LEXICON NMN_LATE/SIVE !!= @CODE@ sive:side
+	NMN_LATE/SIVE-SG	;
+	NMN_LATE/SIVE-PL	;
+LEXICON NMN_LATE/SIVE-SG
  SGNOMSUF ;
 :e SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
- SGPARSUF_tty ;
+ SGPARSUF_ttU ;
 +Sg:e Noun-NB-01 ;
-LEXICON NMN_SIVE-PL
+LEXICON NMN_LATE/SIVE-PL
 :e  PLNOMSUF-USUALLY-WEAK ;
 :i PL-GEN/COM/APRSUF_EN ;
 :i PLPARSUF_i ;
@@ -3428,11 +3440,15 @@ LEXICON SGPARSUF_du
 LEXICON SGPARSUF_dy
 +Sg+Par:%>dy K ;
 
+LEXICON SGPARSUF_tU
++Sg+Par:%>t%{uy%} K ;
 LEXICON SGPARSUF_tu
 +Sg+Par:%>tu K ;
 LEXICON SGPARSUF_ty
 +Sg+Par:%>ty K ;
 
+LEXICON SGPARSUF_ttU
++Sg+Par:%>tt%{uy%} K ;
 LEXICON SGPARSUF_ttu
 +Sg+Par:%>ttu K ;
 LEXICON SGPARSUF_tty

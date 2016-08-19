@@ -168,6 +168,7 @@ LEXICON PRON_
 +Pron+Pl+Apr: # ;
 
 
+
 !! !DEMONSTRATIVE PRONOUNS
 LEXICON PRON_SE
 +Pron+Dem+Sg+Nom:e K ;
@@ -461,6 +462,10 @@ LEXICON PRON_KAI_01
 +Sg+Ade:kel K ;
 +Sg+Abl:kel K ;
 +Sg+Abl:kelpäi K ;
+
+LEXICON PRON_ENÄMBI
++Pron:%{front%} NMN_PAREMBI/ENÄMBI ;
+
 
 ! vim: set ft=xfst-lexc:
 

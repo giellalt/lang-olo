@@ -118,6 +118,7 @@ LEXICON V_OTTUA !!= * __@CODE@__ ottua:otta
 +V:%{back%} V_OTTUA/HEITTIÄ_01 ;
 LEXICON V_OTTUA/HEITTIÄ_01 !!= * __@CODE@__ ottua:otta
 !! Gradation Yes
++Der/Rc: VR_OTTUA/HEITTIÄ_01 ;
 :%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem%^RmVow V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
 :  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
@@ -173,6 +174,7 @@ LEXICON V_PUNUO !!= * __@CODE@__ punuo:puno
 +V:%{back%} V_PUNUO/XX_01 ;
 LEXICON V_PUNUO/XX_01 !!= * __@CODE@__ punuo:puno
 !! Gradation No
++Der/Rc: VR_PUNUO/XX_01 ;
 :%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
 :  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
@@ -194,6 +196,7 @@ LEXICON V_VALUO !!= * __@CODE@__ valuo:valu
 LEXICON V_VALUO/PYZYÖ_01 !!= * __@CODE@__ valuo:valu
 !! Gradation No
 !! similar_to: V_PYZYÖ
++Der/Rc: VR_VALUO/PYZYÖ ;
 :%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
 :  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
@@ -240,9 +243,11 @@ LEXICON V_POTKIE !!= * __@CODE@__ potkie:potki
 +V:%{back%} V_POTKIE/EČČIE_01 ;
 LEXICON V_POTKIE/EČČIE_01 !!= * __@CODE@__ potkie:potki
 !! Gradation No
++Der/Rc: VR_POTKIE/EČČIE_01 ;
 +V:%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 +V:%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
 +V:  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
++V:%^WGStem  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ; !Ljudmila Markianova opii, ečii Aho: Juha
 +V:%^RmVow  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;
 !! Ind+Prt+Sg3
 INF_A ;
@@ -938,7 +943,7 @@ LEXICON VR_VALUO/PYZYÖ !!= * __@CODE@__ valuokseh:valu
 :     VR_01-Harm-Neutr-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
 :     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-STRONG_ ;
 :     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-WEAK_ ;
-+Inf+Rc:%>%{aä%}kseh K ;
+INF-RC_Akseh ;
 
 LEXICON VR_PYZYÖ !!= * __@CODE@__ valuokseh:valu
 ! harmony: front
@@ -946,28 +951,31 @@ LEXICON VR_PYZYÖ !!= * __@CODE@__ valuokseh:valu
 
 
 LEXICON VR_PUNUO !!= * __@CODE@__ punuokseh:puno
-+V:     VR_01-BACK-LONGSTEM-USUALLY-STRONG_ ;
-+V:     VR_01-BACK-LONGSTEM-USUALLY-WEAK_ ;  
-+V:     VR_01-BACK-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
-+V:     VR_01-BACK-SHORTSTEM-USUALLY-STRONG_ ;
-+V:     VR_01-BACK-SHORTSTEM-USUALLY-WEAK_ ;
-+Inf+Rc:%>%{aäDiph%}kseh K ;
++V:%{back%} VR_PUNUO/XX_01 ;
+LEXICON VR_PUNUO/XX_01 !!= * __@CODE@__ punuokseh:puno
+:     VR_01-Harm-Neutr-LONGSTEM-USUALLY-STRONG_ ;
+:     VR_01-Harm-Neutr-LONGSTEM-USUALLY-WEAK_ ;  
+:     VR_01-Harm-Neutr-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
+:     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-STRONG_ ;
+:     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-WEAK_ ;
+INF-RC_Akseh ;
 
 LEXICON VR_IMIE !!= * __@CODE@__ imiekseh:ime
-+V:     VR_01-FRONT-LONGSTEM-USUALLY-STRONG_ ;
-+V:     VR_01-FRONT-LONGSTEM-USUALLY-WEAK_ ;  
-+V:%^RmVow     VR_01-BACK-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
-+V:     VR_01-FRONT-SHORTSTEM-USUALLY-STRONG_ ;
-+V:     VR_01-FRONT-SHORTSTEM-USUALLY-WEAK_ ;
-+Inf+Rc:%>%{aäDiph%}kseh K ;
++V:%{front%} VR_POTKIE/EČČIE_01 ; ! FIXME  
+
+LEXICON VR_EČČIE !!= * __@CODE@__ eččiekseh:ečči
++V:%{front%} VR_POTKIE/EČČIE_01 ; 
+LEXICON VR_POTKIE/EČČIE_01 !!= * __@CODE@__ imiekseh:ime
+:     VR_01-FRONT-LONGSTEM-USUALLY-STRONG_ ;
+:     VR_01-FRONT-LONGSTEM-USUALLY-WEAK_ ;  
+:%^RmVow     VR_01-BACK-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
+:     VR_01-FRONT-SHORTSTEM-USUALLY-STRONG_ ;
+:     VR_01-FRONT-SHORTSTEM-USUALLY-WEAK_ ;
+INF-RC_Akseh ;
 
 LEXICON VR_POTKIE !!= * __@CODE@__ potkiekseh:potki
-+V:     VR_01-BACK-LONGSTEM-USUALLY-STRONG_ ;
-+V:     VR_01-BACK-LONGSTEM-USUALLY-WEAK_ ;  
-+V:%^RmVow     VR_01-BACK-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
-+V:     VR_01-BACK-SHORTSTEM-USUALLY-STRONG_ ;
-+V:     VR_01-BACK-SHORTSTEM-USUALLY-WEAK_ ; ! fix needed for inf 2016-08-17
-+Inf+Rc:%>%{aäDiph%}kseh K ;
++V:%{back%} VR_POTKIE/EČČIE_01 ; 
+
 
 LEXICON VR_PIDIÄ !!= * __@CODE@__ pidiäkseh:pidä
 +V:     VR_01-FRONT-LONGSTEM-USUALLY-STRONG_ ;
@@ -997,37 +1005,28 @@ LEXICON VR_KANDUA-SG3 !!= * __@CODE@__ kanduakseh:kanda
 LEXICON VR_OTTUA-SG3 ! needs fixing 2016-08-17
 VR_OTTUA ;
 LEXICON VR_OTTUA !!= * __@CODE@__ ottuakseh:otta
-+V:     VR_01-BACK-LONGSTEM-USUALLY-STRONG_ ;
-+V:%^WGStem     VR_01-BACK-LONGSTEM-USUALLY-WEAK ;  
-+V:%^WGStem%^RmVow     VR_01-BACK-LONGSTEM-USUALLY-WEAK-VOWEL-LOSS ;  
-+V:%^RmVow     VR_01-BACK-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
-+V:     VR_01-BACK-SHORTSTEM-USUALLY-STRONG_ ;
-+V:%^WGStem     VR_01-BACK-SHORTSTEM-USUALLY-WEAK_ ;
-+Inf+Rc:%^A2U%>%{aäDiph%}kseh K ;
++V:%{back%} VR_OTTUA/HEITTIÄ_01 ;
+LEXICON VR_OTTUA/HEITTIÄ_01 !!= * __@CODE@__ ottuakseh:otta
+:     VR_01-Harm-Neutr-LONGSTEM-USUALLY-STRONG_ ;
+:%^WGStem     VR_01-Harm-Neutr-LONGSTEM-USUALLY-WEAK ;  
+:%^WGStem%^RmVow     VR_01-Harm-Neutr-LONGSTEM-USUALLY-WEAK-VOWEL-LOSS ;  
+:%^RmVow     VR_01-Harm-Neutr-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
+:     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-STRONG_ ;
+:%^WGStem     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-WEAK_ ;
+INF-RC_Akseh ;
 
 LEXICON VR_EISTIÄ-SG3 ! needs fixing 2016-08-17
 VR_EISTIÄ ;
 LEXICON VR_EISTIÄ !!= * __@CODE@__ eistiäkseh:eistä
-+V:     VR_01-BACK-LONGSTEM-USUALLY-STRONG_ ;
-+V:%^WGStem     VR_01-BACK-LONGSTEM-USUALLY-WEAK ;  
-+V:%^WGStem%^RmVow     VR_01-BACK-LONGSTEM-USUALLY-WEAK-VOWEL-LOSS ;  
-+V:%^RmVow     VR_01-BACK-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
-+V:     VR_01-BACK-SHORTSTEM-USUALLY-STRONG_ ;
-+V:%^WGStem     VR_01-BACK-SHORTSTEM-USUALLY-WEAK_ ;
-+Inf+Rc:%^Ä2I%>%{aäDiph%}kseh K ;
++V:%{front%} VR_OTTUA/HEITTIÄ_01 ;
 
 
 !! !! Reflexive verbs
 
 LEXICON VR_RODIEKSEH !!= * __@CODE@__ rodiekseh:rodi
-+V:     VR_01-BACK-LONGSTEM-USUALLY-STRONG_ ;
-+V:%^WGStem     VR_01-BACK-LONGSTEM-USUALLY-WEAK_ ;  
-+V:%^RmVow     VR_01-BACK-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
-+V:     VR_01-BACK-SHORTSTEM-USUALLY-STRONG_ ;
-+V:%^WGStem     VR_01-BACK-SHORTSTEM-USUALLY-WEAK_ ;
-+Inf+Rc:%>%{aäDiph%}kseh K ;
+! Gradation: Yes
++V:%{back%} VR_POTKIE/EČČIE_01 ; 
 
-+V:%^WGStem VR_INDPRTCONNEG_nnuhes ;
 
 LEXICON VR_ROIJA !!= * __@CODE@__ roijakseh:roi
         VR_ ;
@@ -3246,6 +3245,8 @@ LEXICON  RCPRFPRC_Dyhes
 LEXICON INF_A
 +Inf:%>%{aäoeö%} K ;
 
+LEXICON INF-RC_Akseh
++Inf+Rc:%>%{aäoeö%}kseh K ;
 LEXICON INF-RC_tAkseh
 +Inf+Rc:%>t%{aä%}kseh K ;
 

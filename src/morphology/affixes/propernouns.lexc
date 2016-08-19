@@ -119,10 +119,10 @@ LEXICON PROP_NIMI !!= @CODE@ nimi:nim
 !! Front vowel
 !! Stem	 vowel i/e
 !! Plural stem in i
-+N+Prop:%{front%} NMN_NIMI ;
++N+Prop:%{front%} NMN_HANGI/NIMI ;
 
 LEXICON PROP-PLC_NIMI !!= @CODE@ nimi:nim
-+N+Prop+Sem/Plc:%{front%} NMN_NIMI ;
++N+Prop+Sem/Plc:%{front%} NMN_HANGI/NIMI ;
 
 LEXICON PROP_JÄLGI !!= @CODE@ 
 !! Gradation Yes

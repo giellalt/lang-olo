@@ -260,6 +260,7 @@ source and target part-of-speech.
  *  +V→V 	    
  *  +V→A	    
  *  +Der/xxx   
+ *  +Der/Rc    used in verbs for deriving reflexive conjugation
  *  +Der/Ta  
  *  +Der/Te  
  *  +Der/mA  
@@ -838,6 +839,11 @@ Harmony: Front
 
 
 
+ LEXICON N_LATE  late:latte
+Gradation Yes
+Harmony: Back
+
+
  LEXICON N_SIVE  sive:side
 Gradation Yes
 Harmony: Front
@@ -1338,7 +1344,7 @@ Gradation Yes
 
 
 
- LEXICON NMN_PAREMBI  parembi:paremb
+ LEXICON NMN_PAREMBI/ENÄMBI  parembi:paremb
 
 __Adjective comparative examples:__
 * __tuorehembi: __ {{tuores+A+Der/mbi+Comp+Sg+Nom }}
@@ -1619,7 +1625,7 @@ Gradation None
 
  LEXICON NMN_LIIKEH  liikeh:liikkeh
 
- LEXICON NMN_SIVE  sive:side
+ LEXICON NMN_LATE/SIVE  sive:side
 
  LEXICON NMN_PENGER  penger:penger
 
@@ -2100,10 +2106,15 @@ gradation: yes
 
 
  * __LEXICON VR_PUNUO __ punuokseh:puno
+ * __LEXICON VR_PUNUO/XX_01 __ punuokseh:puno
 
  * __LEXICON VR_IMIE __ imiekseh:ime
 
+ * __LEXICON VR_EČČIE __ eččiekseh:ečči
+ * __LEXICON VR_POTKIE/EČČIE_01 __ imiekseh:ime
+
  * __LEXICON VR_POTKIE __ potkiekseh:potki
+
 
  * __LEXICON VR_PIDIÄ __ pidiäkseh:pidä
 
@@ -2112,6 +2123,7 @@ gradation: yes
  * __LEXICON VR_KANDUA-SG3 __ kanduakseh:kanda
 
  * __LEXICON VR_OTTUA __ ottuakseh:otta
+ * __LEXICON VR_OTTUA/HEITTIÄ_01 __ ottuakseh:otta
 
  * __LEXICON VR_EISTIÄ __ eistiäkseh:eistä
 
@@ -2655,19 +2667,15 @@ __e:0__
 __%{ui%}:u__
 {{{
 * %{front%}:0  ! imperative forms
-
-__kanda%>kk%{ui%}%{aä%}mm%{oö%} examples:__
-
-__kanda%>kkuammo examples:__
+* __kanda%{back%}%>kk%{ui%}%{aä%}mm%{oö%} __
+* __kanda0%>kkuammo __
 }}}
 
 __%{ui%}:i__
 {{{
 * %{front%}:0  ! imperative forms
-
-__lʼykkä%^WGStem%>kk%{ui%}%{aäDiph%}mm%{oö%} examples:__
-
-__lʼyk0ä0%>kkiämmö examples:__
+* __lʼykkä%{front%}%^WGStem%>kk%{ui%}%{aä%}mm%{oö%} __
+* __lʼyk0ä00%>kkiämmö __
 }}}
 
 __A2:a__
