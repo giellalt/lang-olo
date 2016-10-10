@@ -1993,6 +1993,19 @@
 </e>
 <e> <lg> <l pos="N">homeh</l> <stg> <st Contlex="N_PEREH">homeh</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">home</t> </tg> </mg>
 </e>
+<e order="2">
+   <lg>
+     <l pos="N">hommu</l>
+     <stg>
+       <st Contlex="N_KOIRU">homma</st>
+     </stg>
+   </lg>
+   <mg> <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N">homma</t>
+     </tg>
+   </mg>
+</e>
 <e> <lg> <l pos="N">hongikko</l> <stg> <st Contlex="N_RUADO">hongikko</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">hongikko</t> </tg> </mg>
 </e>
 <e> <lg> <l pos="N">hongoi</l> <stg> <st Contlex="N_REBOI">hongoi</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">yksipuinen vene t. ruuhi</t> <t pos="N">honkio</t> </tg> </mg>
@@ -12416,5 +12429,68 @@
       </tg>
     </mg>
   </e>
+<e order="2">
+   <lg>
+     <l pos="N">hyvittely</l>
+     <stg>
+       <st Contlex="N_KOIVU">hyvittely</st>
+     </stg>
+   </lg>
+   <mg> <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N">onnittelu</t>
+     </tg>
+   </mg>
+   <mg> <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N">hyvittely</t>
+     </tg>
+   </mg>
+   <mg> <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N">auttaminen</t>
+     </tg>
+   </mg>
+</e>
+<e order="2">
+   <lg>
+     <l pos="N">katalkupualikku</l>
+     <stg>
+       <st Contlex="N_MUARJU">katalku#pualikka</st>
+     </stg>
+   </lg>
+   <mg> <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N">kaulaustukki</t>
+       <t pos="N">kaulauspölkky</t>
+     </tg>
+   </mg>
+</e>
+<e order="2">
+   <lg>
+     <l pos="N">kukindu</l>
+     <stg>
+       <st Contlex="N_MUARJU">kukinda</st>
+     </stg>
+   </lg>
+   <mg> <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N"/>
+     </tg>
+   </mg>
+</e>
+<e order="2">
+   <lg>
+     <l pos="N">nahruatta</l>
+     <stg>
+       <st Contlex="N_MUARJU">nahruatta</st>
+     </stg>
+   </lg>
+   <mg> <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N"/>
+     </tg>
+   </mg>
+</e>
 
 </r> 
