@@ -141,7 +141,7 @@ LEXICON A_OLUT !!= @CODE@ olut:olu
 
 !! !TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
 LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
-+A:%{front%} NMN_PÄIVY ;
++A:%{front%} NMN_KOIRU/PÄIVY ;
 +A+Der/mbi+Comp:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
 +A+Der/in+Superl:%{front%}%^RmVow%>i NMN_ENIN        ;
 
