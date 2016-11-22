@@ -36,15 +36,15 @@ Gradation: Yes
 Harmony: Back
 stem final i is retained
 
- LEXICON N_LEIRI  leiri:leiri
-Gradation NA
-Harmony: Front
-stem	final i is retained
-
  LEXICON N_HÄKKI  häkki:häkki
 Gradation: Yes
 Harmony: Front
 stem final i is retained
+
+ LEXICON N_LEIRI  leiri:leiri
+Gradation NA
+Harmony: Front
+stem	final i is retained
 
  LEXICON N_PADA  pada:pada
 Gradation Yes
@@ -163,6 +163,11 @@ Gradation No
 Harmony: Back
 
 
+ LEXICON N_PIÄSTÄNDY  piäständy:piäständä
+Gradation No
+Harmony: Front
+
+
 
  LEXICON N_AKKU  akku:akka
 Gradation Yes
@@ -240,7 +245,17 @@ Harmony: Back
 
 
 
+ LEXICON N_STIPENDII  stipendii:stipendi
+Gradation NA
+Harmony: Back
+
+
+
  LEXICON N_REBOI  reboi:reboi
+Gradation No
+Harmony: Back
+
+ LEXICON N_JÄNÖI  jänöi:jänöi
 Gradation No
 Harmony: Back
 
@@ -282,12 +297,16 @@ Harmony: Back
 Harmony: Back
  LEXICON N_SUARI-PL  suari:suar
 Harmony: Back
+
+ LEXICON N_SUARI/KIELI_01  kieli:kiel
+Gradation No
+
+
  LEXICON N_KIELI  kieli:kiel
 Harmony: Front
  LEXICON N_KIELI-PL  kieli:kiel
 Harmony: Front
- LEXICON N_SUARI/KIELI_01  kieli:kiel
-Gradation No
+
 
 
  LEXICON N_LAPSI  lapsi:laps lapsi:laps
@@ -340,6 +359,12 @@ Harmony: Back
  LEXICON N_MADAL-PL  madal:madal
 
  LEXICON N_PIIRAI  piirai:piira CHECK THIS
+Gradation NA
+Harmony: Back
+
+
+
+ LEXICON N_VERÄI  veräi:verä CHECK THIS
 Gradation NA
 Harmony: Back
 
@@ -407,7 +432,7 @@ Plural stem vowel i
 
 
 
- LEXICON N_KEITIN  keitin:sammutti
+ LEXICON N_KEITIN  keitin:keitti
 Gradation Yes
 Harmony: Front
 Stem consonant n/m
@@ -463,8 +488,18 @@ Gradation Yes
 Harmony: Back
 
 
+ LEXICON N_TOVESTEH  tovesteh:tovesteh
+Gradation No
+Harmony: Back
+
+
  LEXICON N_PEREH  pereh:pereh
 Gradation No
+Harmony: Front
+
+
+ LEXICON N_HUIKEH  huikeh:huikkeh
+Gradation Yes
 Harmony: Front
 
 
@@ -485,6 +520,11 @@ Harmony: Back
  LEXICON N_PUHTAHUS  puhtahus:puhtahu
 Harmony: Back
 Gradation NA
+
+ LEXICON N_VÄHYS  vähys:vähy
+Harmony: Back
+Gradation NA
+
 
 
  LEXICON N_ALUS  alus:aluks
@@ -661,7 +701,7 @@ gradation Yes
  LEXICON NMN_DIÄDÖ  diädö:diädä
 
 
- LEXICON NMN_MUARJU  muarju:muarja
+ LEXICON NMN_MUARJU/PIÄSTÄNDY  muarju:muarja
 gradation NA
 
 
@@ -736,7 +776,7 @@ __Adjective comparative examples:__
 
 
 
- LEXICON NMN_PIIRAI  piirai:piira
+ LEXICON NMN_PIIRAI/VERÄI  piirai:piira
 
 
 
@@ -745,6 +785,7 @@ __Adjective comparative examples:__
  LEXICON NMN_PAGIZII-SG  
 
  LEXICON NMN_PAGIZII-PL  
+
 
  LEXICON NMN_HUOLETOI/JIÄTÖI  huoletoi: huolet
 
@@ -761,8 +802,9 @@ Vowel Harmony Back
 
 
 
- LEXICON NMN_PÄIVY  päivy:päivä
+ LEXICON NMN_AVUAJU/KERIÄJY  päivy:päivä
 Gradation NA
+
 
 
 
@@ -821,7 +863,8 @@ Vowel Harmony Front
  LEXICON NMN_HARDIE  hardie:hardie
 
 
- LEXICON NMN_KONDII  kondii:kondi
+ LEXICON NMN_KONDII/STIPENDII  kondii:kondi
+
 
 
  LEXICON NMN_SEIČČIE  seiččie:seičče
@@ -835,6 +878,7 @@ Stem Vowel 0:a:0 kandai, kandajan, kandajua, kandajinnu
 
 
  LEXICON NMN_PEZII  pestä:pezi%>j
+
 
 
 
@@ -937,7 +981,7 @@ Gradation Yes
 
 
 ! Nominative singular in "s"
- LEXICON NMN_PUHTAHUS/XX  puhtahus:puhtahu
+ LEXICON NMN_PUHTAHUS/VÄHYS  puhtahus:puhtahu
 
 
 
@@ -1000,18 +1044,18 @@ Gradation None
 
 
 
- LEXICON NMN_PEREH  pereh:pereh
+ LEXICON NMN_TOVESTEH/PEREH  pereh:pereh
 
- LEXICON NMN_LIIKEH  liikeh:liikkeh
+ LEXICON NMN_HUIKEH/LIIKEH  liikeh:liikkeh
 
  LEXICON NMN_LATE/SIVE  sive:side
 
  LEXICON NMN_PENGER  penger:penger
 
- LEXICON NMN_ARTELI  arteli:arteli
+ LEXICON NMN_ARTELI/LEIRI  arteli:arteli
 
 
- LEXICON NMN_PAPPI  pappi:pappi
+ LEXICON NMN_PAPPI/HÄKKI  pappi:pappi
 
  LEXICON NMN_HÄKKI  häkki:häkki
 
@@ -1023,7 +1067,7 @@ Gradation NA
 
 
 
- LEXICON NMN_REBOI  reboi:reboi
+ LEXICON NMN_REBOI/JÄNÖI  reboi:reboi
 
  LEXICON NMN_PÖČÖI  pöčöi:pöččö
 
