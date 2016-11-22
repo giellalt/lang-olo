@@ -62,21 +62,9 @@ LEXICON N_PAPPI !!= @CODE@ pappi:pappi
 	N_PAPPI-SG ;
 	N_PAPPI-PL ;
 LEXICON N_PAPPI-SG
-+N:%{back%} NMN_PAPPI-SG ;
++N:%{back%} NMN_PAPPI/HÄKKI-SG ;
 LEXICON N_PAPPI-PL
-+N:%{back%} NMN_PAPPI-PL ;
-
-LEXICON N_LEIRI !!= @CODE@ leiri:leiri
-!! Gradation NA
-!! Harmony: Front
-!! stem	final i is retained
-+N: ATTESTED-NOUN-STEM ; 
-	N_LEIRI-SG ;
-	N_LEIRI-PL ;
-LEXICON N_LEIRI-SG
-+N:%{front%} NMN_LEIRI-SG ;
-LEXICON N_LEIRI-PL
-+N:%{front%} NMN_LEIRI-PL ;
++N:%{back%} NMN_PAPPI/HÄKKI-PL ;
 
 LEXICON N_HÄKKI !!= @CODE@ häkki:häkki
 !! Gradation: Yes
@@ -86,9 +74,21 @@ LEXICON N_HÄKKI !!= @CODE@ häkki:häkki
 	N_HÄKKI-SG ;
 	N_HÄKKI-PL ;
 LEXICON N_HÄKKI-SG
-+N:%{front%} NMN_HÄKKI-SG ;
++N:%{front%} NMN_PAPPI/HÄKKI-SG ;
 LEXICON N_HÄKKI-PL
-+N:%{front%} NMN_HÄKKI-PL ;
++N:%{front%} NMN_PAPPI/HÄKKI-PL ;
+
+LEXICON N_LEIRI !!= @CODE@ leiri:leiri
+!! Gradation NA
+!! Harmony: Front
+!! stem	final i is retained
++N: ATTESTED-NOUN-STEM ; 
+	N_LEIRI-SG ;
+	N_LEIRI-PL ;
+LEXICON N_LEIRI-SG
++N:%{front%} NMN_ARTELI/LEIRI-SG ;
+LEXICON N_LEIRI-PL
++N:%{front%} NMN_ARTELI/LEIRI-PL ;
 
 LEXICON N_PADA !!= @CODE@ pada:pada
 !! Gradation Yes
@@ -129,10 +129,10 @@ LEXICON N_OZA !!= @CODE@ oza:oza
 	N_OZA-PL  ;
 
 LEXICON N_OZA-SG
-+N:%{back%} NMN_OZA-SG ;
++N:%{back%} NMN_OZA/SÄYNÄ-SG ;
 
 LEXICON N_OZA-PL
-+N:%{back%} NMN_OZA-PL ;
++N:%{back%} NMN_OZA/SÄYNÄ-PL ;
 
 LEXICON N_SÄYNÄ !!= @CODE@ säynä:säynä
 !! Gradation NA
@@ -145,10 +145,10 @@ LEXICON N_SÄYNÄ !!= @CODE@ säynä:säynä
 	N_SÄYNÄ-PL  ;
 
 LEXICON N_SÄYNÄ-SG
-+N:%{front%} NMN_SÄYNÄ-SG ;
++N:%{front%} NMN_OZA/SÄYNÄ-SG ;
 
 LEXICON N_SÄYNÄ-PL
-+N:%{front%} NMN_SÄYNÄ-PL ;
++N:%{front%} NMN_OZA/SÄYNÄ-PL ;
 
 LEXICON N_KOIVU !!= @CODE@ koivu:koivu
 !! Gradation NA
@@ -331,9 +331,21 @@ LEXICON N_MUARJU !!= @CODE@ muarju:muarja
  N_MUARJU-PL ;
 
 LEXICON N_MUARJU-SG
-+N:%{back%} NMN_MUARJU-SG ;
++N:%{back%} NMN_MUARJU/PIÄSTÄNDY-SG ;
 LEXICON N_MUARJU-PL
-+N:%{back%} NMN_MUARJU-PL ;
++N:%{back%} NMN_MUARJU/PIÄSTÄNDY-PL ;
+
+LEXICON N_PIÄSTÄNDY !!= @CODE@ piäständy:piäständä
+!! Gradation No
+!! Harmony: Front
++N:%^A2UÄ2Y ATTESTED-NOUN-STEM ;
+ N_PIÄSTÄNDY-SG ;
+ N_PIÄSTÄNDY-PL ;
+
+LEXICON N_PIÄSTÄNDY-SG
++N:%{front%} NMN_MUARJU/PIÄSTÄNDY-SG ;
+LEXICON N_PIÄSTÄNDY-PL
++N:%{front%} NMN_MUARJU/PIÄSTÄNDY-PL ;
 
 
 LEXICON N_AKKU !!= @CODE@ akku:akka
@@ -500,10 +512,23 @@ LEXICON N_KONDII !!= @CODE@ kondii:kondi
         N_KONDII-PL ;
 
 LEXICON N_KONDII-SG
-+N:%{back%} NMN_KONDII-SG        ;
++N:%{back%} NMN_KONDII/STIPENDII-SG        ;
 
 LEXICON N_KONDII-PL
-+N:%{back%} NMN_KONDII-PL        ;
++N:%{back%} NMN_KONDII/STIPENDII-PL        ;
+
+LEXICON N_STIPENDII !!= @CODE@ stipendii:stipendi
+!! Gradation NA
+!! Harmony: Back
++N:i ATTESTED-NOUN-STEM ;
+        N_STIPENDII-SG ;
+        N_STIPENDII-PL ;
+
+LEXICON N_STIPENDII-SG
++N:%{front%} NMN_KONDII/STIPENDII-SG        ;
+
+LEXICON N_STIPENDII-PL
++N:%{front%} NMN_KONDII/STIPENDII-PL        ;
 
 LEXICON N_REBOI !!= @CODE@ reboi:reboi
 !! Gradation No
@@ -512,9 +537,20 @@ LEXICON N_REBOI !!= @CODE@ reboi:reboi
         N_REBOI-SG ;
         N_REBOI-PL ;
 LEXICON N_REBOI-SG
-+N:%{back%} NMN_REBOI-SG ;
++N:%{back%} NMN_REBOI/JÄNÖI-SG ;
 LEXICON N_REBOI-PL
-+N:%{back%} NMN_REBOI-PL ;
++N:%{back%} NMN_REBOI/JÄNÖI-PL ;
+
+LEXICON N_JÄNÖI !!= @CODE@ jänöi:jänöi
+!! Gradation No
+!! Harmony: Back
++N: ATTESTED-NOUN-STEM ;
+        N_JÄNÖI-SG ;
+        N_JÄNÖI-PL ;
+LEXICON N_JÄNÖI-SG
++N:%{front%} NMN_REBOI/JÄNÖI-SG ;
+LEXICON N_JÄNÖI-PL
++N:%{front%} NMN_REBOI/JÄNÖI-PL ;
 
 LEXICON N_PÖČÖI !!= @CODE@ pöčöi:pöččö
 !! Gradation Yes
@@ -598,12 +634,7 @@ LEXICON N_SUARI !!= @CODE@ suari:suar
 LEXICON N_SUARI-PL !!= @CODE@ suari:suar
 !! Harmony: Back
 :%{back%} N_SUARI/KIELI-PL ;
-LEXICON N_KIELI !!= @CODE@ kieli:kiel
-!! Harmony: Front
-:%{front%} N_SUARI/KIELI_01 ;
-LEXICON N_KIELI-PL !!= @CODE@ kieli:kiel
-!! Harmony: Front
-:%{front%} N_SUARI/KIELI-PL;
+
 LEXICON N_SUARI/KIELI_01 !!= @CODE@ kieli:kiel
 !! Gradation No
 +N:i ATTESTED-NOUN-STEM ;
@@ -614,6 +645,15 @@ LEXICON N_SUARI/KIELI-SG
 +N:%{front%} 	NMN_SUARI/KIELI-SG ;
 LEXICON N_SUARI/KIELI-PL
 +N:%{front%} 	NMN_SUARI/KIELI-PL ;
+
+LEXICON N_KIELI !!= @CODE@ kieli:kiel
+!! Harmony: Front
+:%{front%} N_KIELI_01 ;
+LEXICON N_KIELI-PL !!= @CODE@ kieli:kiel
+!! Harmony: Front
+:%{front%} N_KIELI-PL;
+
+
 
 LEXICON N_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
 !! Gradation NA
@@ -724,10 +764,23 @@ LEXICON N_PIIRAI !!= @CODE@ piirai:piira CHECK THIS
         N_PIIRAI-PL ;
 
 LEXICON N_PIIRAI-SG
-+N:%{back%} NMN_PIIRAI-SG ;
++N:%{back%} NMN_PIIRAI/VERÄI-SG ;
 
 LEXICON N_PIIRAI-PL
-+N:%{back%} NMN_PIIRAI-PL ;
++N:%{back%} NMN_PIIRAI/VERÄI-PL ;
+
+LEXICON N_VERÄI !!= @CODE@ veräi:verä CHECK THIS
+!! Gradation NA
+!! Harmony: Back
++N:i ATTESTED-NOUN-STEM ;
+        N_VERÄI-SG ;
+        N_VERÄI-PL ;
+
+LEXICON N_VERÄI-SG
++N:%{front%} NMN_PIIRAI/VERÄI-SG ;
+
+LEXICON N_VERÄI-PL
++N:%{front%} NMN_PIIRAI/VERÄI-PL ;
 
 
 LEXICON N_KANDAI !!= @CODE@ kandai:kanda
@@ -747,13 +800,13 @@ LEXICON  N_AVUAJU !!= @CODE@
 !! Gradation NA
 !! Harmony: Back
 !!+N:%^A2U ATTESTED-NOUN-STEM ; Work needed
-+N:%>%{ijPRC%}a NMN_KOIRU/PÄIVY ;
++N:%{back%}%>%{ijPRC%}a NMN__AVUAJU/KERIÄJY ;
 
 LEXICON  N_KERIÄJY !!= @CODE@ piästäjy:piästä
 !! Gradation NA
 !! Harmony: Front
 !!+N:%^A2U ATTESTED-NOUN-STEM ; Work needed
-+N:%>%{ijPRC%}ä NMN_KOIRU/PÄIVY ;
++N:%{front%}%>%{ijPRC%}ä NMN__AVUAJU/KERIÄJY ;
 
 
 LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizi
@@ -763,9 +816,9 @@ LEXICON N_PAGIZII !!= @CODE@ pagizii:pagizi
  N_PAGIZII-SG ;
  N_PAGIZII-PL ;
 LEXICON N_PAGIZII-SG !!= @CODE@ 
-+N:%>%{ijPRC%} NMN_PAGIZII-SG ;
++N:%{back%}%>%{ijPRC%} NMN_PAGIZII-SG ;
 LEXICON N_PAGIZII-PL !!= @CODE@ 
-+N:%>%{ijPRC%} NMN_PAGIZII-PL ;
++N:%{back%}%>%{ijPRC%} NMN_PAGIZII-PL ;
 
 LEXICON N_HUOLETOI !!= @CODE@ huoletoi: huolet
 !! Gradation Yes
@@ -847,7 +900,7 @@ LEXICON N_SAMMUTIN-SG
 LEXICON N_SAMMUTIN-PL
 +N:%{back%} NMN_SAMMUTIN-PL ;
 
-LEXICON N_KEITIN !!= @CODE@ keitin:sammutti
+LEXICON N_KEITIN !!= @CODE@ keitin:keitti
 !! Gradation Yes
 !! Harmony: Front
 !! Stem consonant n/m
@@ -966,6 +1019,18 @@ LEXICON N_RAIŠ-SG
 LEXICON N_RAIŠ-PL
 +N:	NMN_RAIŠ-PL	;
 
+LEXICON N_TOVESTEH !!= @CODE@ tovesteh:tovesteh
+!! Gradation No
+!! Harmony: Back
++N: ATTESTED-NOUN-STEM ;
+	N_TOVESTEH-SG	;
+	N_TOVESTEH-PL	;
+LEXICON N_TOVESTEH-SG
++N:%{back%}	NMN_TOVESTEH/PEREH-SG	;
+
+LEXICON N_TOVESTEH-PL
++N:%{back%}	NMN_TOVESTEH/PEREH-PL	;
+
 LEXICON N_PEREH !!= @CODE@ pereh:pereh
 !! Gradation No
 !! Harmony: Front
@@ -973,10 +1038,22 @@ LEXICON N_PEREH !!= @CODE@ pereh:pereh
 	N_PEREH-SG	;
 	N_PEREH-PL	;
 LEXICON N_PEREH-SG
-+N:	NMN_PEREH-SG	;
++N:%{front%}	NMN_TOVESTEH/PEREH-SG	;
 
 LEXICON N_PEREH-PL
-+N:	NMN_PEREH-PL	;
++N:%{front%}	NMN_TOVESTEH/PEREH-PL	;
+
+LEXICON N_HUIKEH !!= @CODE@ huikeh:huikkeh
+!! Gradation Yes
+!! Harmony: Front
++N:%^WGStem ATTESTED-NOUN-STEM ;
+	N_HUIKEH-SG	;
+	N_HUIKEH-PL	;
+LEXICON N_HUIKEH-SG
++N:%{back%}	NMN_HUIKEH/LIIKEH-SG	;
+
+LEXICON N_HUIKEH-PL
++N:%{back%}	NMN_HUIKEH/LIIKEH-PL	;
 
 LEXICON N_LIIKEH !!= @CODE@ liikeh:liikkeh
 !! Gradation Yes
@@ -985,10 +1062,10 @@ LEXICON N_LIIKEH !!= @CODE@ liikeh:liikkeh
 	N_LIIKEH-SG	;
 	N_LIIKEH-PL	;
 LEXICON N_LIIKEH-SG
-+N:	NMN_LIIKEH-SG	;
++N:%{front%}	NMN_HUIKEH/LIIKEH-SG	;
 
 LEXICON N_LIIKEH-PL
-+N:	NMN_LIIKEH-PL	;
++N:%{front%}	NMN_HUIKEH/LIIKEH-PL	;
 
 LEXICON N_PENGER !!= @CODE@ penger:penger
 !! Gradation No
@@ -1009,9 +1086,9 @@ LEXICON N_ARTELI !!= @CODE@ arteli:arteli
 	N_ARTELI-SG ;
 	N_ARTELI-PL ;
 LEXICON N_ARTELI-SG
-+N:%{back%} NMN_ARTELI-SG ;
++N:%{back%} NMN_ARTELI/LEIRI-SG ;
 LEXICON N_ARTELI-PL
-+N:%{back%} NMN_ARTELI-PL ;
++N:%{back%} NMN_ARTELI/LEIRI-PL ;
 
 LEXICON N_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 !! Harmony: Back
@@ -1023,6 +1100,18 @@ LEXICON N_PUHTAHUS-SG
 +N:%{back%} NMN_PUHTAHUS/XX-SG ;
 LEXICON N_PUHTAHUS-PL
 +N:%{back%} NMN_PUHTAHUS/XX-PL ;
+
+LEXICON N_VÄHYS !!= @CODE@ vähys:vähy
+!! Harmony: Back
+!! Gradation NA
++N:%{back%}%>s ATTESTED-NOUN-STEM ;
+	N_VÄHYS-SG ;
+        N_VÄHYS-PL ;
+LEXICON N_VÄHYS-SG
++N:%{front%} NMN_PUHTAHUS/VÄHYS-SG ;
+LEXICON N_VÄHYS-PL
++N:%{front%} NMN_PUHTAHUS/VÄHYS-PL ;
+
 
 LEXICON N_AIGOMUS
  N_ALUS ;
@@ -1428,19 +1517,19 @@ LEXICON NMN_DIÄDÖ-PL
 +Pl:%>i Noun-NB-01-USUALLY-WEAK ;
 +Pl:%>i Noun-NB-01-USUALLY-STRONG ;
 
-LEXICON NMN_MUARJU !!= @CODE@ muarju:muarja
+LEXICON NMN_MUARJU/PIÄSTÄNDY !!= @CODE@ muarju:muarja
 !! gradation NA
- NMN_MUARJU-SG ;
- NMN_MUARJU-PL ;
+ NMN_MUARJU/PIÄSTÄNDY-SG ;
+ NMN_MUARJU/PIÄSTÄNDY-PL ;
 
-LEXICON NMN_MUARJU-SG
+LEXICON NMN_MUARJU/PIÄSTÄNDY-SG
 :%^A2UÄ2Y SGNOMSUF ;
  SGNOM/PXSP3 ;
  SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
  SGPARSUF_A2 ;
 +Sg: Noun-NB-01-USUALLY-WEAK ;
 +Sg: Noun-NB-01-USUALLY-STRONG ;
-LEXICON NMN_MUARJU-PL
+LEXICON NMN_MUARJU/PIÄSTÄNDY-PL
  PLNOMSUF-USUALLY-WEAK ;
 :%^A2O%>i PL-GEN/COM/APRSUF_N ; 
 :%^A2O%>i PLPARSUF_Zero ;
@@ -1781,18 +1870,18 @@ LEXICON NMN_KUDAI-PL
 
 
 
-LEXICON NMN_PIIRAI !!= @CODE@ piirai:piira
-	NMN_PIIRAI-SG ;
-	NMN_PIIRAI-PL ;
+LEXICON NMN_PIIRAI/VERÄI !!= @CODE@ piirai:piira
+	NMN_PIIRAI/VERÄI-SG ;
+	NMN_PIIRAI/VERÄI-PL ;
 
-LEXICON NMN_PIIRAI-SG
+LEXICON NMN_PIIRAI/VERÄI-SG
 :i SGNOMSUF ;
 :%{aä%} SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
 :%{aä%} SGPARSUF_dU ;
 +Sg:%{aä%} Noun-NB-01-USUALLY-WEAK ;
 +Sg:%{aä%} Noun-NB-01-USUALLY-STRONG ;
 
-LEXICON NMN_PIIRAI-PL
+LEXICON NMN_PIIRAI/VERÄI-PL
 :%{aä%} PLNOMSUF-USUALLY-WEAK ;
 :%{aä%}l%{oö%}i PL-GEN/COM/APRSUF_N ;
 :%{aä%}l%{oö%}i PLPARSUF_Zero ;
@@ -1819,6 +1908,12 @@ LEXICON NMN_PAGIZII-PL !!= @CODE@
 :A2 Noun-NB-01-USUALLY-STRONG ; !CHECKME 2016-08-18
 :%>%{oö%} Noun-NB-01-USUALLY-WEAK ;
 :%>%{oö%} Noun-NB-01-USUALLY-STRONG ;
+
+:%>ii PL-GEN/COM/APRSUF_N ;
+:%>ii PLPARSUF_i ;
+:%>ii PLINSSUF ;
+:%>ii Noun-NB-01-USUALLY-WEAK ;
+:%>ii Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_HUOLETOI/JIÄTÖI !!= @CODE@ huoletoi: huolet
  NMN_HUOLETOI/JIÄTÖI-SG ;
@@ -1880,25 +1975,31 @@ LEXICON NMN_KOIRU/PÄIVY-PL
 +Pl:%^RmVow%>i  Noun-NB-01-USUALLY-WEAK ;
 +Pl:%^RmVow%>i Noun-NB-01-USUALLY-STRONG ;
 
-LEXICON NMN_PÄIVY !!= @CODE@ päivy:päivä
+LEXICON NMN_AVUAJU/KERIÄJY !!= @CODE@ päivy:päivä
 !! Gradation NA
- NMN_PÄIVY-SG ;
- NMN_PÄIVY-PL ;
+ NMN_AVUAJU/KERIÄJY-SG ;
+ NMN_AVUAJU/KERIÄJY-PL ;
 
-LEXICON NMN_PÄIVY-SG
+LEXICON NMN_AVUAJU/KERIÄJY-SG
 :%^A2UÄ2Y SGNOMSUF ;
  SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
  SGPARSUF_A2 ;
 +Sg:  Noun-NB-01-USUALLY-WEAK ;
 +Sg: Noun-NB-01-USUALLY-STRONG ;
 
-LEXICON NMN_PÄIVY-PL
+LEXICON NMN_AVUAJU/KERIÄJY-PL
  PLNOMSUF-USUALLY-WEAK ;
 :%^RmVow%>i PL-GEN/COM/APRSUF_EN ; 
 :%^RmVow%>i PLPARSUF_i ;
 :%^RmVow%>i PLINSSUF ;
 +Pl:%^RmVow%>i  Noun-NB-01-USUALLY-WEAK ;
 +Pl:%^RmVow%>i Noun-NB-01-USUALLY-STRONG ;
+
+:%^RmVow%>%{oö%}i PL-GEN/COM/APRSUF_EN ; 
+:%^RmVow%>%{oö%}i PLPARSUF_i ;
+:%^RmVow%>%{oö%}i PLINSSUF ;
++Pl:%^RmVow%>%{oö%}i  Noun-NB-01-USUALLY-WEAK ;
++Pl:%^RmVow%>%{oö%}i Noun-NB-01-USUALLY-STRONG ;
 
 LEXICON NMN_MEČČY !!= @CODE@ meččy:meččä
 !! gradation Yes
@@ -2110,11 +2211,11 @@ LEXICON NMN_HARDIE-PL
 :%>l%{oö%}i PLINSSUF ;
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
-LEXICON NMN_KONDII !!= @CODE@ kondii:kondi
-	NMN_KONDII-SG	;
-	NMN_KONDII-PL	;
+LEXICON NMN_KONDII/STIPENDII !!= @CODE@ kondii:kondi
+	NMN_KONDII/STIPENDII-SG	;
+	NMN_KONDII/STIPENDII-PL	;
 
-LEXICON NMN_KONDII-SG
+LEXICON NMN_KONDII/STIPENDII-SG
 :i SGNOMSUF ;
 :e SGPARSUF_dU ;
 :e SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
@@ -2125,6 +2226,7 @@ LEXICON NMN_KONDII-PL
 :e%>l%{oö%}i PLPARSUF_Zero ;
 :e%>l%{oö%}i PLINSSUF ;
 +Pl:e%>l%{oö%}i Noun-NB-01 ;
+
 
 LEXICON NMN_SEIČČIE !!= @CODE@ seiččie:seičče
 	NMN_SEIČČIE-SG	;
@@ -2194,6 +2296,11 @@ LEXICON NMN_PEZII-PL
 :%>%{oö%}%>i PLPARSUF_Zero ;
 :%>%{oö%}%>i PLINSSUF ;
 +Pl:%>%{oö%}%>i Noun-NB-01 ;
+
+:%>i PL-GEN/COM/APRSUF_N ; 
+:%>ii PLPARSUF_Zero ;
+:%>ii PLINSSUF ;
++Pl:%>ii Noun-NB-01 ;
 
 LEXICON NMN_KESTÄY !!= @CODE@ kestäy:kestä
  NMN_KESTÄY-SG ;
@@ -2616,17 +2723,17 @@ LEXICON NMN_UDAR-PL
 +Pl:il%{oö%}i Noun-NB-01 ;
 
 !! ! Nominative singular in "s"
-LEXICON NMN_PUHTAHUS/XX !!= @CODE@ puhtahus:puhtahu
-	NMN_PUHTAHUS/XX-SG ;
-	NMN_PUHTAHUS/XX-PL ;
+LEXICON NMN_PUHTAHUS/VÄHYS !!= @CODE@ puhtahus:puhtahu
+	NMN_PUHTAHUS/VÄHYS-SG ;
+	NMN_PUHTAHUS/VÄHYS-PL ;
 
-LEXICON NMN_PUHTAHUS/XX-SG
+LEXICON NMN_PUHTAHUS/VÄHYS-SG
 :s SGNOMSUF ;
 :%{oö%} SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
 :t SGPARSUF_dU ;
 +Sg:%{oö%} Noun-NB-01 ;
 
-LEXICON NMN_PUHTAHUS/XX-PL
+LEXICON NMN_PUHTAHUS/VÄHYS-PL
 :%{oö%} PLNOMSUF-USUALLY-WEAK ;
 :z%>i PL-GEN/COM/APRSUF_EN ; 
 :z%>i PLPARSUF_i ;
@@ -2896,15 +3003,15 @@ LEXICON NMN_TULLUT-PL
 +Pl:zi Noun-NB-01 ;
 
 
-LEXICON NMN_PEREH !!= @CODE@ pereh:pereh
-	NMN_PEREH-SG	;
-	NMN_PEREH-PL	;
-LEXICON NMN_PEREH-SG
+LEXICON NMN_TOVESTEH/PEREH !!= @CODE@ pereh:pereh
+	NMN_TOVESTEH/PEREH-SG	;
+	NMN_TOVESTEH/PEREH-PL	;
+LEXICON NMN_TOVESTEH/PEREH-SG
  SGNOMSUF ;
 :e SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
  SGPARSUF_dU ;
 +Sg:e Noun-NB-01 ;
-LEXICON NMN_PEREH-PL
+LEXICON NMN_TOVESTEH/PEREH-PL
 :e PLNOMSUF-USUALLY-WEAK ;
 :i PL-GEN/COM/APRSUF_EN ;
 :i PLPARSUF_i ;
@@ -2912,15 +3019,15 @@ LEXICON NMN_PEREH-PL
 +Pl:i Noun-NB-01-USUALLY-WEAK ;
 +Pl:i Noun-NB-01-USUALLY-STRONG ;
 
-LEXICON NMN_LIIKEH !!= @CODE@ liikeh:liikkeh
-	NMN_LIIKEH-SG	;
-	NMN_LIIKEH-PL	;
-LEXICON NMN_LIIKEH-SG
+LEXICON NMN_HUIKEH/LIIKEH !!= @CODE@ liikeh:liikkeh
+	NMN_HUIKEH/LIIKEH-SG	;
+	NMN_HUIKEH/LIIKEH-PL	;
+LEXICON NMN_HUIKEH/LIIKEH-SG
 :%^WGStem SGNOMSUF ;
 :e SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
 :%^WGStem SGPARSUF_dU ;
 +Sg:e Noun-NB-01 ;
-LEXICON NMN_LIIKEH-PL
+LEXICON NMN_HUIKEH/LIIKEH-PL
 :e PLNOMSUF-USUALLY-WEAK ;
 :i PL-GEN/COM/APRSUF_EN ;
 :i PLPARSUF_i ;
@@ -2960,15 +3067,15 @@ LEXICON NMN_PENGER-PL
 +Pl:i Noun-NB-01-USUALLY-WEAK ;
 +Pl:i Noun-NB-01-USUALLY-STRONG ;
 
-LEXICON NMN_ARTELI !!= @CODE@ arteli:arteli
-	NMN_ARTELI-SG ;
-	NMN_ARTELI-PL ;
-LEXICON NMN_ARTELI-SG
+LEXICON NMN_ARTELI/LEIRI !!= @CODE@ arteli:arteli
+	NMN_ARTELI/LEIRI-SG ;
+	NMN_ARTELI/LEIRI-PL ;
+LEXICON NMN_ARTELI/LEIRI-SG
  SGNOMSUF ;
  SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
  SGPARSUF_A2 ;
 +Sg: Noun-NB-01 ;
-LEXICON NMN_ARTELI-PL
+LEXICON NMN_ARTELI/LEIRI-PL
 : PLNOMSUF-USUALLY-WEAK ;
 : PL-GEN/COM/APRSUF_EN ;
 :%>l%{oö%}i PLPARSUF_Zero ;
@@ -2976,15 +3083,15 @@ LEXICON NMN_ARTELI-PL
 +Pl:%>l%{oö%}i Noun-NB-01 ;
 
 
-LEXICON NMN_PAPPI !!= @CODE@ pappi:pappi
-	NMN_PAPPI-SG ;
-	NMN_PAPPI-PL ;
-LEXICON NMN_PAPPI-SG
+LEXICON NMN_PAPPI/HÄKKI !!= @CODE@ pappi:pappi
+	NMN_PAPPI/HÄKKI-SG ;
+	NMN_PAPPI/HÄKKI-PL ;
+LEXICON NMN_PAPPI/HÄKKI-SG
  SGNOMSUF ;
 :%^WGStem SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
  SGPARSUF_A2 ;
 +Sg: Noun-NB-01 ;
-LEXICON NMN_PAPPI-PL
+LEXICON NMN_PAPPI/HÄKKI-PL
 :%^WGStem PLNOMSUF-USUALLY-WEAK ;
 : PL-GEN/COM/APRSUF_EN ;
 : PLPARSUF_i ;
@@ -3054,15 +3161,15 @@ LEXICON NMN_UKSI-PL
 +Pl:i Noun-NB-01-USUALLY-WEAK ;
 +Pl:i Noun-NB-01-USUALLY-STRONG ;
 
-LEXICON NMN_REBOI !!= @CODE@ reboi:reboi
-        NMN_REBOI-SG ;
-        NMN_REBOI-PL ;
-LEXICON NMN_REBOI-SG
+LEXICON NMN_REBOI/JÄNÖI !!= @CODE@ reboi:reboi
+        NMN_REBOI/JÄNÖI-SG ;
+        NMN_REBOI/JÄNÖI-PL ;
+LEXICON NMN_REBOI/JÄNÖI-SG
  SGNOMSUF ;
  SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
  SGPARSUF_dU ;
 +Sg: Noun-NB-01 ;
-LEXICON NMN_REBOI-PL
+LEXICON NMN_REBOI/JÄNÖI-PL
 :	PLNOMSUF-USUALLY-WEAK ;
 :%^ILoss%>l%{oö%}i PL-GEN/COM/APRSUF_N ;
 :%^ILoss%>l%{oö%}i PLPARSUF_Zero ;
