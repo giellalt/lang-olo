@@ -206,7 +206,7 @@ LEXICON A_JIÄTÖI !!= @CODE@ jiätöi:jiät
 LEXICON A_HUOLETOI !!= @CODE@ huoletoi:huolet
 +A:%{back%} A_HUOLETOI/JIÄTÖI ;
 LEXICON A_HUOLETOI/JIÄTÖI !!= @CODE@ huoletoi:huolet
-+Der/Us+N:t%{oö%}m%{uy%} NMN_PUHTAHUS/XX ;
++Der/Us+N:t%{oö%}m%{uy%} NMN_PUHTAHUS/VÄHYS ;
 :	NMN_HUOLETOI/JIÄTÖI   ;
 +Der/MWN: N_HUOLETOI ; 
 +Der/MWN+N:t%{oö%}m%{aä%} Adj-NB-i ; !2012-09-27 unknown -loi vs -i
@@ -230,7 +230,7 @@ LEXICON A_NAINE !!= @CODE@ naine:nai
 LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 +A:%{front%} A_NAINE/KIELINE_01 ;
 LEXICON A_NAINE/KIELINE_01 !!= @CODE@ kieline:kieli naine:nai
-+Der/Us+N:z%{uy%} NMN_PUHTAHUS/XX ;
++Der/Us+N:z%{uy%} NMN_PUHTAHUS/VÄHYS ;
 : NMN_NAINE/KIELINE ;
 +Der/mbi+Comp:zemb NMN_PAREMBI/ENÄMBI        ;
 +Der/in+Superl:zi NMN_ENIN        ;
