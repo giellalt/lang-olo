@@ -64,12 +64,12 @@ LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
 +A:%{front%} NMN_OZA ;
 
 LEXICON A_OZA !!= @CODE@ oza:oza
-+A:%{back%} NMN_OZA ;
++A:%{back%} NMN_OZA/SÄYNÄ ;
 +A+Der/mbi+Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
 +A+Der/in+Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_SÄYNÄ !!= @CODE@ säynä:säynä
-+A:%{front%} NMN_SÄYNÄ ;
++A:%{front%} NMN_OZA/SÄYNÄ ;
 +A+Der/mbi+Comp:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
 +A+Der/in+Superl:%{front%}%^RmVow%>i NMN_ENIN        ;
 
@@ -109,13 +109,15 @@ LEXICON A_RUADO
 +A+Der/in+Superl:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_PAPPI !!= @CODE@ pappi:pappi
-+A:%{back%} NMN_PAPPI ;
++A:%{back%} NMN_PAPPI/HÄKKI ;
 
 LEXICON A_HÄKKI !!= @CODE@ häkki:häkki
-+A:%{front%} NMN_HÄKKI ;
++A:%{front%} NMN_PAPPI/HÄKKI ;
 
 LEXICON A_ARTELI !!= @CODE@ 
-+A:%{back%}     NMN_ARTELI ;
++A:%{back%}     NMN_ARTELI/LEIRI ;
+LEXICON A_LEIRI !!= @CODE@ 
++A:%{front%}     NMN_ARTELI/LEIRI ;
 
 LEXICON A_ALUS !!= @CODE@ alus:aluks
 +A:%{back%} NMN_ALUS/ILVES   ;
@@ -130,7 +132,9 @@ LEXICON A_KUURNIS !!= @CODE@ kuurnis:kuurne
 +A:%{back%}      NMN_KUURNIS ;
 
 LEXICON A_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
-+A:%{back%}	NMN_PUHTAHUS/XX ;
++A:%{back%}	NMN_PUHTAHUS/VÄHYS ;
+LEXICON A_VÄHYS !!= @CODE@ vähys:vähy
++A:%{front%}	NMN_PUHTAHUS/VÄHYS ;
 
 LEXICON A_OLUT !!= @CODE@ olut:olu
 +A:%{back%}	 NMN_OLUT ;
@@ -142,9 +146,14 @@ LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
 +A+Der/in+Superl:%{front%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_MUARJU !!= @CODE@ muarju:muarja
-+A:%{back%}	NMN_MUARJU ;
++A:%{back%}	NMN_MUARJU/PIÄSTÄNDY ;
 +A+Der/mbi+Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
 +A+Der/in+Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
+
+LEXICON A_PIÄSTÄNDY !!= @CODE@ piäständy:piäständä
++A:%{front%}	NMN_MUARJU/PIÄSTÄNDY ;
++A+Der/mbi+Comp:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++A+Der/in+Superl:%{front%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_AKKU !!= @CODE@ akku:akka
 +A:%{back%}	NMN_AKKU ;
@@ -176,7 +185,9 @@ LEXICON A_PEZII
 +A:%{front%}%>%{ijPRC%} NMN_PEZII ;
 
 LEXICON A_KONDII
-+A:%{back%} NMN_KONDII ;
++A:%{back%} NMN_KONDII/STIPENDII ;
+LEXICON A_STIPENDII
++A:%{front%} NMN_KONDII/STIPENDII ;
 
 LEXICON A_KESTÄY !!= @CODE@ kestäy:kestä
 +A:%{front%} NMN_KESTÄY ;
@@ -244,13 +255,18 @@ LEXICON A_MADAL !!= @CODE@ madal:madal
 +A+Der/in+Superl:%{back%}i NMN_ENIN        ;
 
 LEXICON A_PIIRAI !!= @CODE@ piirai:piira 
-+A:%{back%}	NMN_PIIRAI   ;
++A:%{back%}	NMN_PIIRAI/VERÄI   ;
+LEXICON A_VERÄI !!= @CODE@ veräi:verä 
++A:%{front%}	NMN_PIIRAI/VERÄI   ;
 
 LEXICON A_RAIŠ !!= @CODE@ raiš:ra
 +A:%{back%}     NMN_RAIŠ   ;
 
+LEXICON A_TOVESTEH !!= @CODE@ pereh:pereh
++A:%{back%}	NMN_TOVESTEH/PEREH	;
+
 LEXICON A_PEREH !!= @CODE@ pereh:pereh
-+A:%{front%}	NMN_PEREH	;
++A:%{front%}	NMN_TOVESTEH/PEREH	;
 
 LEXICON A_PESSYH !!= @CODE@ pessyh:pessy
 +A:%{front%} NMN_PESSYH ;
