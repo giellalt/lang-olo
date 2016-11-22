@@ -432,7 +432,7 @@ LEXICON PRON_ARMAS !!= @CODE@ armas:arma
 +Pron:%{back%} NMN_ARMAS        ;
 
 LEXICON PRON_OZA !!= @CODE@ oza:oza
-+Pron:%{back%} NMN_OZA        ;
++Pron:%{back%} NMN_OZA/SÄYNÄ        ;
 
 LEXICON PRON-QNT_KIELI !!= @CODE@ kieli:kiel
 +Pron+Qnt:%{front%} NMN_SUARI/KIELI ;

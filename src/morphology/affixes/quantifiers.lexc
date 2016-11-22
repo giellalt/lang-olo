@@ -17,7 +17,7 @@ LEXICON NUM-STEMS
 #yheksä:#yheksä NUM_YHEKSÄ ;
 
 LEXICON NUM_OZA
-+Num+Card: NMN_OZA ;
++Num+Card: NMN_OZA/SÄYNÄ ;
 : ORD_01_BACK ;
 
 LEXICON NUM_MUARJU  !!= __@CODE@__ muarju:muarja
@@ -25,7 +25,7 @@ LEXICON NUM_MUARJU  !!= __@CODE@__ muarju:muarja
 : ORD_01_BACK ;
 
 LEXICON NUM_SÄYNÄ
-+Num+Card: NMN_SÄYNÄ ;
++Num+Card: NMN_OZA/SÄYNÄ ;
 
 LEXICON NUM_SADA
 +Num+Card+Sg@U.NUM-TYPE.CARD@@U.DECL-NX.SG@:%^WGStem00@U.NUM-TYPE.CARD@@U.DECL-NX.SG@ NUM-USUALLY-WEAK ;
