@@ -648,10 +648,14 @@ LEXICON N_SUARI/KIELI-PL
 
 LEXICON N_KIELI !!= @CODE@ kieli:kiel
 !! Harmony: Front
-:%{front%} N_KIELI_01 ;
+ N_KIELI-SG ;
+ N_KIELI-PL ;
+
+LEXICON N_KIELI-SG !!= @CODE@ kieli:kiel
++N:%{front%} NMN_KIELI-SG ;
 LEXICON N_KIELI-PL !!= @CODE@ kieli:kiel
 !! Harmony: Front
-:%{front%} N_KIELI-PL;
++N:%{front%} NMN_KIELI-PL ;
 
 
 
@@ -1097,9 +1101,9 @@ LEXICON N_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 	N_PUHTAHUS-SG ;
         N_PUHTAHUS-PL ;
 LEXICON N_PUHTAHUS-SG
-+N:%{back%} NMN_PUHTAHUS/XX-SG ;
++N:%{back%} NMN_PUHTAHUS/VÄHYS-SG ;
 LEXICON N_PUHTAHUS-PL
-+N:%{back%} NMN_PUHTAHUS/XX-PL ;
++N:%{back%} NMN_PUHTAHUS/VÄHYS-PL ;
 
 LEXICON N_VÄHYS !!= @CODE@ vähys:vähy
 !! Harmony: Back
@@ -1764,6 +1768,26 @@ LEXICON NMN_SUARI/KIELI-PL
 :il%{oö%}i PLINSSUF ;
 +Pl:il%{oö%}i Noun-NB-01-USUALLY-WEAK ;
 +Pl:il%{oö%}i Noun-NB-01-USUALLY-STRONG ;
+
+
+LEXICON NMN_KIELI
+	NMN_KIELI-SG ;
+	NMN_KIELI-PL ;
+LEXICON NMN_KIELI-SG
+:i SGNOMSUF ;
+:e SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
+: SGPARSUF_dU ;
++Sg:e Noun-NB-01-USUALLY-WEAK ;
++Sg:e Noun-NB-01-USUALLY-STRONG ;
+
+LEXICON NMN_KIELI-PL
+:e PLNOMSUF-USUALLY-WEAK ;
+:i PL-GEN/COM/APRSUF_EN ;
+:i PLPARSUF_i ;
+:i PLINSSUF ;
++Pl:i Noun-NB-01-USUALLY-WEAK ;
++Pl:i Noun-NB-01-USUALLY-STRONG ;
+
 
 
 LEXICON NMN_YKSI  !!= @CODE@ yksi:y
