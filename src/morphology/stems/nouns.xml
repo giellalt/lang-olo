@@ -12473,10 +12473,1078 @@
    </lg>
    <mg> <defNative/>
      <tg xml:lang="fin">
-       <t pos="N"/>
+       <t pos="N">kukinta</t>
      </tg>
    </mg>
 </e>
+<e><lg><l pos="N">abaipaikku</l><stg><st Contlex="N_AKKU">abai#paikka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">apajapaikka</t></tg></mg></e>
+<e><lg><l pos="N">abajanlaskemine</l><stg><st Contlex="N_NAINE">abajan#laskemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">nuotan heittäminen</t></tg></mg></e>
+<e><lg><l pos="N">abažuuru</l><stg><st Contlex="N_MUARJU">abažuura</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(lampun)varjostin</t></tg></mg></e>
+<e><lg><l pos="N">abeiččii</l><stg><st Contlex="N_PAGIZII">abeičči</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">loukkaaja</t></tg></mg></e>
+<e><lg><l pos="N">abiturientu</l><stg><st Contlex="N_MUARJU">abiturienta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">abiturientti</t><t pos="N">ylioppilaskokelas</t><t pos="N">(korkeakouluun) pyrkijä</t></tg></mg></e>
+<e><lg><l pos="N">abonementu</l><stg><st Contlex="N_MUARJU">abonementa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sarjalippu</t><t pos="N">kausilippu</t></tg></mg></e>
+<e><lg><l pos="N">abonentu</l><stg><st Contlex="N_MUARJU">abonenta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tilaaja</t></tg></mg></e>
+<e><lg><l pos="N">abrikoussu</l><stg><st Contlex="N_AKKU">abrikoussa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aprikoosi</t></tg></mg></e>
+<e><lg><l pos="N">abrikoussupuu</l><stg><st Contlex="N_KUU">abrikoussu#puu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aprikoosipuu</t></tg></mg></e>
+<e><lg><l pos="N">abstraktsii</l><stg><st Contlex="N_KONDII">abstraktsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">abstraktio</t><t pos="N">abstrahointi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">yleiskäsitys</t></tg></mg></e>
+<e><lg><l pos="N">absurdu</l><stg><st Contlex="N_MUARJU">absurda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mahdottomuus</t><t pos="N">järjettömyys</t></tg></mg></e>
+<e><lg><l pos="N">abuhoidai</l><stg><st Contlex="N_PAGIZII">abu#hoida</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">apuhoitaja</t></tg></mg></e>
+<e><lg><l pos="N">abuhuonus</l><stg><st Contlex="N_ALUS">abu#huonuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aputila</t></tg></mg></e>
+<e><lg><l pos="N">aburaha</l><stg><st Contlex="N_KALA">abu#raha</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">apuraha</t><t pos="N">avustus</t></tg></mg></e>
+<e><lg><l pos="N">abustipendii</l><stg><st Contlex="N_STIPENDII ">abu#stipendi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">apuraha</t></tg></mg></e>
+<e><lg><l pos="N">abutila</l><stg><st Contlex="N_KALA">abu#tila</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aputila</t></tg></mg></e>
+<e><lg><l pos="N">adaptatsii</l><stg><st Contlex="N_KONDII">adaptatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">adaptaatio</t><t pos="N">mukautuminen</t><t pos="N">sopeutuminen</t></tg></mg></e>
+<e><lg><l pos="N">admirualanlaivu</l><stg><st Contlex="N_MUARJU">admirualan#laiva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">amiraalinlaiva</t></tg></mg></e>
+<e><lg><l pos="N">admirualu</l><stg><st Contlex="N_MUARJU">admiruala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">amiraali</t></tg></mg></e>
+<e><lg><l pos="N">adranlastu</l><stg><st Contlex="N_MUARJU">adranlasta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">auranvannas</t></tg></mg></e>
+<e><lg><l pos="N">adresantu</l><stg><st Contlex="N_MUARJU">adresanta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(kirjeen tms) lähettäjä</t></tg></mg></e>
+<e><lg><l pos="N">adressi</l><stg><st Contlex="N_PAPPI">adressi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">osoite</t></tg></mg></e>
+<e><lg><l pos="N">adresuattu</l><stg><st Contlex="N_AKKU">adresuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N"> (kirjeen tms) vastaanottaja</t></tg></mg></e>
+<e><lg><l pos="N">adverbiali</l><stg><st Contlex="N_ARTELI">adverbialia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">adverbiaali</t></tg></mg></e>
+<e><lg><l pos="N">advokatuuru</l><stg><st Contlex="N_MUARJU">advokatuura</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asianajotoimi</t><t pos="N">asianajajakunta</t></tg></mg></e>
+<e><lg><l pos="N">advokuattu</l><stg><st Contlex="N_AKKU">advokuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asianajaja</t></tg></mg></e>
+<e><lg><l pos="N">aerodroumu</l><stg><st Contlex="N_MUARJU">aerodrouma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lentokenttä</t></tg></mg></e>
+<e><lg><l pos="N">aerosnimaičus</l><stg><st Contlex="N_ALUS">aero#snimaičuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ilmakuvaus</t></tg></mg></e>
+<e><lg><l pos="N">affektu</l><stg><st Contlex="N_MUARJU">affekta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">affekti</t><t pos="N">(mielen)kiihtymys</t><t pos="N">tunnekiihtymys</t></tg></mg></e>
+<e><lg><l pos="N">afgansu</l><stg><st Contlex="N_MUARJU">afgansa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">afgaani</t><t pos="N">afganistanilainen</t></tg></mg></e>
+<e><lg><l pos="N">afguanielaine</l><stg><st Contlex="N_KARJALAINE">afguaniela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">afgaani</t><t pos="N">afganistanilainen</t></tg></mg></e>
+<e><lg><l pos="N">aforizmu</l><stg><st Contlex="N_MUARJU">aforizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aforismi</t><t pos="N">ajatelma</t><t pos="N">mietelause</t></tg></mg></e>
+<e><lg><l pos="N">afriekkalaine</l><stg><st Contlex="N_KARJALAINE">afriekkala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">afrikkalainen</t></tg></mg></e>
+<e><lg><l pos="N">afrikansu</l><stg><st Contlex="N_MUARJU">afrikansa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">afrikkalainen</t></tg></mg></e>
+<e><lg><l pos="N">agitatsii</l><stg><st Contlex="N_KONDII">agitatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">agitaatio</t><t pos="N">suostuttelu</t></tg></mg></e>
+<e><lg><l pos="N">agituator</l><stg><st Contlex="N_TAIGIN">agituator</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">agitaattori</t></tg></mg><!-- taigin da karjal sama taivutus, jätä parembi taigin  :: --></e>
+<e><lg><l pos="N">agjaine</l><stg><st Contlex="N_KARJALAINE">agja</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pää</t><t pos="N">kärki</t><t pos="N">nenä</t><t pos="N">latva</t><t pos="N">loppupuoli</t></tg></mg></e>
+<e><lg><l pos="N">agjattomus</l><stg><st Contlex="N_PUHTAHUS">agjattomu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">loputtomuus</t><t pos="N">äärettömyys</t><t pos="N">pohjaton syvyys</t></tg></mg></e>
+<e><lg><l pos="N">agounii</l><stg><st Contlex="N_KONDII">agouni</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuolinkamppailu</t><t pos="N">agonia</t></tg></mg></e>
+<e><lg><l pos="N">agreguattu</l><stg><st Contlex="N_AKKU">agreguatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aggregaatti</t><t pos="N">kytkelmä</t><t pos="N">koneikko</t></tg></mg></e>
+<e><lg><l pos="N">agressii</l><stg><st Contlex="N_KONDII">agressi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hyökkäys</t></tg></mg></e>
+<e><lg><l pos="N">agressor</l><stg><st Contlex="N_TAIGIN">agressor</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hyökkääjä</t></tg></mg></e>
+<e><lg><l pos="N">agronoumii</l><stg><st Contlex="N_KONDII">agronoumi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">agronomia</t><t pos="N">maanviljelytiede</t><t pos="N">maataloustiede</t></tg></mg></e>
+<e><lg><l pos="N">agronoumu</l><stg><st Contlex="N_MUARJU">agronouma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">agronomi</t></tg></mg></e>
+<e><lg><l pos="N">ahjo</l><stg><st Contlex="N_RUNO">ahjo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pajan tulisija</t><t pos="N">hiillos</t></tg></mg></e>
+<e><lg><l pos="N">ahkandu</l><stg><st Contlex="N_MUARJU">ahkanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">voivottelu</t><t pos="N">jahkailu</t></tg></mg></e>
+<e><lg><l pos="N">ahkerus</l><stg><st Contlex="N_PUHTAHUS">ahkeru</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ahkeruus</t></tg></mg></e>
+<e><lg><l pos="N">ahnahus</l><stg><st Contlex="N_PUHTAHUS">ahnahu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ahneus</t></tg></mg></e>
+<e><lg><l pos="N">ahtistamine</l><stg><st Contlex="N_NAINE">ahtistami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ahdistus</t><t pos="N">sorto</t></tg></mg></e>
+<e><lg><l pos="N">aiduveräi</l><stg><st Contlex="N_VERÄI">aidu#verä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aidan veräjä</t></tg></mg></e>
+<e><lg><l pos="N">aigukauzikirjutus</l><stg><st Contlex="N_ALUS">aigu#kauzi#kirjutuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kronikka</t><t pos="N">aikakirja</t></tg></mg></e>
+<e><lg><l pos="N">aigukirju</l><stg><st Contlex="N_MUARJU">aigu#kirja</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kronikka</t><t pos="N">aikakirja</t></tg></mg></e>
+<e><lg><l pos="N">aigulippu</l><stg><st Contlex="N_LUGU">aigu|lippu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kausilippu</t><t pos="N">sarjalippu</t></tg></mg></e>
+<e><lg><l pos="N">aigulistu</l><stg><st Contlex="N_MUARJU">aigu#lista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aikataulu</t></tg></mg></e>
+<e><lg><l pos="N">aiguližä</l><stg><st Contlex="N_SÄYNÄ">aigu#ližä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aikalisä</t></tg></mg></e>
+<e><lg><l pos="N">aiguoza</l><stg><st Contlex="N_OZA">aigu#oza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">erä</t><t pos="N">puoliaika</t></tg></mg></e>
+<e><lg><l pos="N">aiguväli</l><stg><st Contlex="N_LEIRI">aigu#väli</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aikaväli</t></tg></mg></e>
+<e><lg><l pos="N">aihepagin</l><stg><st Contlex="N_TAIGIN">aihe#pagin</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">väittelytilaisuus</t></tg></mg></e>
+<e><lg><l pos="N">aijalližus</l><stg><st Contlex="N_PUHTAHUS">aijalližu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajankohtaisuus</t><t pos="N">aktuaalisuus</t></tg></mg></e>
+<e><lg><l pos="N">aijankohtažus</l><stg><st Contlex="N_PUHTAHUS">aijan#kohtažu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajankohtaisuus</t><t pos="N">aktuaalisuus</t></tg></mg></e>
+<e><lg><l pos="N">aijanmenetändy</l><stg><st Contlex="N_PIÄSTÄNDY">aijan#menetändä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajanviete</t><t pos="N">ajankulu</t><t pos="N">ajanvietto</t></tg></mg></e>
+<e><lg><l pos="N">aijanmiäry</l><stg><st Contlex="N_PÄIVY">aijan#miärä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">työjärjestys</t></tg></mg></e>
+<e><lg><l pos="N">aijanrajoitus</l><stg><st Contlex="N_ALUS">aijan#rajoituks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">työjärjestys</t></tg></mg></e>
+<e><lg><l pos="N">aijanrikosmakso</l><stg><st Contlex="N_RUNO">aijan#rikos#makso</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">viivästyskorko</t></tg></mg></e>
+<e><lg><l pos="N">aijanvietändy</l><stg><st Contlex="N_PIÄSTÄNDY">aijan#vietändä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajanviete</t><t pos="N">ajankulu</t><t pos="N">ajanvietto</t></tg></mg></e>
+<e><lg><l pos="N">aijanvähys</l><stg><st Contlex="N_VÄHYS">aijan#vähy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajanpuute</t></tg></mg></e>
+<e><lg><l pos="N">aijoittelu</l><stg><st Contlex="N_KOIVU">aijoittelu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">olettamus</t><t pos="N">oletus</t></tg></mg></e>
+<e><lg><l pos="N">aijoitus</l><stg><st Contlex="N_ALUS">aijoituks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">päiväys</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">ajoitus</t></tg></mg></e>
+<e><lg><l pos="N">ajajaine</l><stg><st Contlex="N_KARJALAINE">ajaja</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">paise</t><t pos="N">ajos</t></tg></mg></e>
+<e><lg><l pos="N">ajandu</l><stg><st Contlex="N_MUARJU">ajanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajaminen</t><t pos="N">ajo</t></tg></mg></e>
+<e><lg><l pos="N">ajandudorogu</l><stg><st Contlex="N_MUARJU">ajandu#doroga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajotie</t></tg></mg></e>
+<e><lg><l pos="N">ajattelemattomus</l><stg><st Contlex="N_PUHTAHUS">ajattelemattomu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajattelemattomuus</t></tg></mg></e>
+<e><lg><l pos="N">ajattelemine</l><stg><st Contlex="N_NAINE">ajattelemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajatteleminen</t></tg></mg></e>
+<e><lg><l pos="N">ajattelendu</l><stg><st Contlex="N_MUARJU">ajattelenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajatteleminen</t></tg></mg></e>
+<e><lg><l pos="N">ajattelii</l><stg><st Contlex="N_PAGIZII">ajatteli</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajattelii</t></tg></mg></e>
+<e><lg><l pos="N">ajattelu</l><stg><st Contlex="N_KOIVU">ajattelu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajattelu</t><t pos="N">ajatteleminen</t></tg></mg></e>
+<e><lg><l pos="N">ajatuksensiirdo</l><stg><st Contlex="N_RUADO">ajatuksen#siirdo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">telepatia</t><t pos="N">ajatuksensiirto</t></tg></mg></e>
+<e><lg><l pos="N">ajelemine</l><stg><st Contlex="N_NAINE">ajelemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajaminen ajoneuvolla tai ajokkaalla</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">takaa ajaminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">taikinan kaulitseminen</t></tg></mg></e>
+<e><lg><l pos="N">ajelu</l><stg><st Contlex="N_KOIVU">ajelu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajaminen ajoneuvolla tai ajokkaalla</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">takaa ajaminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">taikinan kaulitseminen</t></tg></mg></e>
+<e><lg><l pos="N">ajelutandu</l><stg><st Contlex="N_MUARJU">ajelutanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajeluttaminen</t></tg></mg></e>
+<e><lg><l pos="N">ajeluttamine</l><stg><st Contlex="N_NAINE">ajeluttami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajeluttaminen</t></tg></mg></e>
+<e><lg><l pos="N">ajeluttelemine</l><stg><st Contlex="N_NAINE">ajeluttelemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajeluttaminen</t></tg></mg></e>
+<e><lg><l pos="N">ajeluttelendu</l><stg><st Contlex="N_MUARJU">ajeluttelenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajeluttaminen</t></tg></mg></e>
+<e><lg><l pos="N">ajodorogu</l><stg><st Contlex="N_MUARJU">ajo#doroga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kauttakulkutie</t><t pos="N">ajotie</t><t pos="N">kulkutie</t></tg></mg></e>
+<e><lg><l pos="N">ajohpiästämine</l><stg><st Contlex="N_KIELINE">ajoh#piästämi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajoneuvojen päästö</t><t pos="N">päästäminen</t></tg></mg></e>
+<e><lg><l pos="N">ajohpiäständy</l><stg><st Contlex="N_PIÄSTÄNDY">ajoh#piäständä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajoneuvojen päästö</t><t pos="N">päästäminen</t></tg></mg></e>
+<e><lg><l pos="N">ajomečästys</l><stg><st Contlex="N_ILVES">ajo#mečästyks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">riistan ajaminen</t></tg></mg></e>
+<e><lg><l pos="N">ajonevvo</l><stg><st Contlex="N_RUNO">ajo#nevvo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajoneuvo </t></tg></mg></e>
+<e><lg><l pos="N">ajos</l><stg><st Contlex="N_ALUS">ajoks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajos</t><t pos="N">ajettuma</t></tg></mg></e>
+<e><lg><l pos="N">ajotie</l><stg><st Contlex="N_VYÖ">ajo#tie</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kauttakulkutie</t><t pos="N">ajotie</t></tg></mg></e>
+<e><lg><l pos="N">akadiemii</l><stg><st Contlex="N_KONDII">akadiemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">akatemia</t></tg></mg></e>
+<e><lg><l pos="N">akadiemine</l><stg><st Contlex="N_KIELINE">akadiemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">akatemian</t><t pos="N">akateeminen</t></tg></mg></e>
+<e><lg><l pos="N">akardion</l><stg><st Contlex="N_TAIGIN">akardion</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pianoharmonikka</t></tg></mg></e>
+<e><lg><l pos="N">akatsii</l><stg><st Contlex="N_KONDII">akatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">akasia</t></tg></mg></e>
+<e><lg><l pos="N">akattomus</l><stg><st Contlex="N_PUHTAHUS">akattomu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">naimattomuus</t></tg></mg></e>
+<e><lg><l pos="N">akkaine</l><stg><st Contlex="N_KARJALAINE">akka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vaimo</t><t pos="N">vahna nainen</t></tg></mg></e>
+<e><lg><l pos="N">akkiloiččemine</l><stg><st Contlex="N_NAINE">akkiloiččemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">silmälläpito</t><t pos="N">hoito</t><t pos="N">käsittely</t></tg></mg></e>
+<e><lg><l pos="N">akkiloičendu</l><stg><st Contlex="N_MUARJU">akkiloičenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">silmälläpito</t><t pos="N">hoito</t><t pos="N">käsittely</t></tg></mg></e>
+<e><lg><l pos="N">akkiloičus</l><stg><st Contlex="N_ALUS">akkiloičuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">silmälläpito</t><t pos="N">hoito</t><t pos="N">käsittely</t></tg></mg></e>
+<e><lg><l pos="N">akkordu</l><stg><st Contlex="N_MUARJU">akkorda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sointu</t><t pos="N">akordi</t></tg></mg></e>
+<e><lg><l pos="N">akkumulʼuatoru</l><stg><st Contlex="N_MUARJU">akkumulʼuatora</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">akku</t></tg></mg></e>
+<e><lg><l pos="N">akrobuatiekku</l><stg><st Contlex="N_AKKU">akrobuatiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">akrobatia</t><t pos="N">taitovoimistelu</t></tg></mg></e>
+<e><lg><l pos="N">akrobuattu</l><stg><st Contlex="N_AKKU">akrobuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">akrobaatti</t><t pos="N">taitovoimistelija</t></tg></mg></e>
+<e><lg><l pos="N">aksiomu</l><stg><st Contlex="N_MUARJU">aksioma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">selviö</t><t pos="N">aksiooma</t><t pos="N">aksiomi</t></tg></mg></e>
+<e><lg><l pos="N">aktiivu</l><stg><st Contlex="N_MUARJU">aktiiva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">varat</t><t pos="N">aktiivat</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">aktiivi (kieliopissa)</t></tg></mg></e>
+<e><lg><l pos="N">aktsiizu</l><stg><st Contlex="N_MUARJU">aktsiiza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">valmistevero</t><t pos="N">aksiisi</t></tg></mg></e>
+<e><lg><l pos="N">aktu</l><stg><st Contlex="N_MUARJU">akta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">päätös</t><t pos="N">asetus</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">asiakirja</t><t pos="N">akti</t><t pos="N">pöytäkirja</t></tg></mg></e>
+<e><lg><l pos="N">aktuali</l><stg><st Contlex="N_ARTELI">aktualia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajankohtaisuus</t><t pos="N">aktuaalisuus</t></tg></mg></e>
+<e><lg><l pos="N">akustiekku</l><stg><st Contlex="N_AKKU">akustiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">akustiikka</t><t pos="N">kaikusuhteet</t></tg></mg></e>
+<e><lg><l pos="N">akuulu</l><stg><st Contlex="N_MUARJU">akuula</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">haikala</t><t pos="N">hai</t></tg></mg></e>
+<e><lg><l pos="N">akvalangistu</l><stg><st Contlex="N_MUARJU">akvalangista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sammakkomies</t></tg></mg></e>
+<e><lg><l pos="N">akvalangu</l><stg><st Contlex="N_MUARJU">akvalanga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">happilaite</t></tg></mg></e>
+<e><lg><l pos="N">akvareeli</l><stg><st Contlex="N_ARTELI">akvareelia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">akvarellivärit</t><t pos="N">vezivärit</t></tg></mg></e>
+<e><lg><l pos="N">akvuariumu</l><stg><st Contlex="N_MUARJU">akvuariuma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">akvaario</t></tg></mg></e>
+<e><lg><l pos="N">alaine</l><stg><st Contlex="N_KARJALAINE">ala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lapanen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">alainen</t></tg></mg></e>
+<e><lg><l pos="N">alakazvos</l><stg><st Contlex="N_ALUS">ala#kazvoks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alakasvos</t><t pos="N">alametsä</t></tg></mg></e>
+<e><lg><l pos="N">alalližus</l><stg><st Contlex="N_PUHTAHUS">alalližu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pysyvyys</t><t pos="N">muuttumattomuus</t></tg></mg></e>
+<e><lg><l pos="N">alandeh</l><stg><st Contlex="N_PEREH">alandeh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">notko</t><t pos="N">alanko</t><t pos="N">alanne</t></tg></mg></e>
+<e><lg><l pos="N">alatuuli</l><stg><st Contlex="N_SUARI">ala#tuul</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tuiskutuuli</t><t pos="N">lunta juoksuttava tuuli</t></tg></mg></e>
+<e><lg><l pos="N">albansu</l><stg><st Contlex="N_MUARJU">albansa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">albanialainen</t></tg></mg></e>
+<e><lg><l pos="N">alʼbom</l><stg><st Contlex="N_TAIGIN">alʼbom</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">albumi</t><t pos="N">kansio</t></tg></mg></e>
+<e><lg><l pos="N">alʼbomu</l><stg><st Contlex="N_MUARJU">alʼboma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">albumi</t><t pos="N">kansio</t></tg></mg></e>
+<e><lg><l pos="N">albuanielaine</l><stg><st Contlex="N_KARJALAINE">albuaniela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">albanialainen</t></tg></mg></e>
+<e><lg><l pos="N">aldoviivu</l><stg><st Contlex="N_MUARJU">aldo#viiva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aaltoviiva</t></tg></mg></e>
+<e><lg><l pos="N">alendamine</l><stg><st Contlex="N_NAINE">alendami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alennus</t><t pos="N">alentaminen</t><t pos="N">lasku</t><t pos="N">laskeminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">halventaminen</t></tg></mg></e>
+<e><lg><l pos="N">alendandu</l><stg><st Contlex="N_MUARJU">alendanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alennus</t><t pos="N">alentaminen</t><t pos="N">lasku</t><t pos="N">laskeminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">halventaminen</t></tg></mg></e>
+<e><lg><l pos="N">alendumine</l><stg><st Contlex="N_NAINE">alendumi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alentuminen</t><t pos="N">nöyrtyminen </t></tg></mg></e>
+<e><lg><l pos="N">alendundu</l><stg><st Contlex="N_MUARJU">alendunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alentuminen</t><t pos="N">nöyrtyminen </t></tg></mg></e>
+<e><lg><l pos="N">alendus</l><stg><st Contlex="N_ALUS">alenduks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alennus</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">alentuminen</t></tg></mg></e>
+<e><lg><l pos="N">alendusmerki</l><stg><st Contlex="N_LEIRI">alendus#merki</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alennusmerkki</t></tg></mg></e>
+<e><lg><l pos="N">alenendu</l><stg><st Contlex="N_MUARJU">alenenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aleneminen</t><t pos="N">alentuminen</t><t pos="N">laskeminen</t></tg></mg></e>
+<e><lg><l pos="N">alevumine</l><stg><st Contlex="N_NAINE">alevumi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rauhoittuminen</t><t pos="N">hiljeneminen</t><t pos="N">asettuminen</t></tg></mg></e>
+<e><lg><l pos="N">alevundu</l><stg><st Contlex="N_MUARJU">alevunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rauhoittuminen</t><t pos="N">hiljeneminen</t><t pos="N">asettuminen</t></tg></mg></e>
+<e><lg><l pos="N">algai</l><stg><st Contlex="N_PAGIZII ">alga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aloittaja</t><t pos="N">alkuunpanija</t><t pos="N">aloitteentekijä </t></tg></mg></e>
+<e><lg><l pos="N">algavo</l><stg><st Contlex="N_RUNO">algavo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alku</t></tg></mg></e>
+<e><lg><l pos="N">algavundu</l><stg><st Contlex="N_MUARJU">algavunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alku</t></tg></mg></e>
+<e><lg><l pos="N">algebru</l><stg><st Contlex="N_MUARJU">algebra</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">algebra</t></tg></mg></e>
+<e><lg><l pos="N">algueläi</l><stg><st Contlex="N_PEZII">algu#elä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alkuasukas</t></tg></mg></e>
+<e><lg><l pos="N">alguhistourii</l><stg><st Contlex="N_KONDII">algu#histouri</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">esihistoria</t><t pos="N">alkuhistoria</t></tg></mg></e>
+<e><lg><l pos="N">alguhpano</l><stg><st Contlex="N_RUNO">alguh#pano</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alullepano</t><t pos="N">alkuunpano</t><t pos="N">alku</t></tg></mg></e>
+<e><lg><l pos="N">alguhpanokygy</l><stg><st Contlex="N_IDY">alguh#pano#kygy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aloitekyky</t><t pos="N">aloitteellisuus</t></tg></mg></e>
+<e><lg><l pos="N">algulähtö</l><stg><st Contlex="N_HÖRÖ">algu#lähtö</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lähde</t></tg></mg></e>
+<e><lg><l pos="N">alguoza</l><stg><st Contlex="N_OZA">algu#oza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">peruselementti</t><t pos="N">perusaines</t></tg></mg></e>
+<e><lg><l pos="N">algupala</l><stg><st Contlex="N_KALA">algu#pala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alkupala</t></tg></mg></e>
+<e><lg><l pos="N">alguperä</l><stg><st Contlex="N_SÄYNÄ">algu#perä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alkuperä</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">periaate </t></tg></mg></e>
+<e><lg><l pos="N">alguperätovesteh</l><stg><st Contlex="N_TOVESTEH">algu#perä#tovesteh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sertifikaatti</t><t pos="N">alkuperätodistus</t></tg></mg></e>
+<e><lg><l pos="N">algusoitto</l><stg><st Contlex="N_RUADO">algu#soitto</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">preludi</t><t pos="N">alkusoitto</t></tg></mg></e>
+<e><lg><l pos="N">algusyy</l><stg><st Contlex="N_VYÖ">algu#syy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aihe</t><t pos="N">syy</t></tg></mg></e>
+<e><lg><l pos="N">algusyömine</l><stg><st Contlex="N_KIELINE">algu#syömi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alkupala</t></tg></mg></e>
+<e><lg><l pos="N">algutila</l><stg><st Contlex="N_KALA">algu#tila</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asento</t><t pos="N">lähtöasento </t></tg></mg></e>
+<e><lg><l pos="N">alguvariantu</l><stg><st Contlex="N_MUARJU">algu#varianta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">luonnos</t><t pos="N">ehdotus </t></tg></mg></e>
+<e><lg><l pos="N">alistamine</l><stg><st Contlex="N_NAINE">alistami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alistaminen</t></tg></mg></e>
+<e><lg><l pos="N">alistandu</l><stg><st Contlex="N_MUARJU">alistanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alistaminen</t></tg></mg></e>
+<e><lg><l pos="N">alistumine</l><stg><st Contlex="N_NAINE">alistumi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alistuminen</t></tg></mg></e>
+<e><lg><l pos="N">alistundu</l><stg><st Contlex="N_MUARJU">alistunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alistuminen</t></tg></mg></e>
+<e><lg><l pos="N">alistus</l><stg><st Contlex="N_ALUS">alistuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alistuminen</t></tg></mg></e>
+<e><lg><l pos="N">alkogouli</l><stg><st Contlex="N_ARTELI">alkogoulia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alkoholi</t></tg></mg></e>
+<e><lg><l pos="N">alkogouliekku</l><stg><st Contlex="N_AKKU">alkogouliekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alkoholisti</t><t pos="N">juoppo</t></tg></mg></e>
+<e><lg><l pos="N">allatiivu</l><stg><st Contlex="N_MUARJU">allatiiva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">allatiivi</t></tg></mg></e>
+<e><lg><l pos="N">allekirjuttamine</l><stg><st Contlex="N_NAINE">allekirjuttami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">allekirjoittaminen</t></tg></mg></e>
+<e><lg><l pos="N">allekirjutus</l><stg><st Contlex="N_ALUS">alle#kirjutuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">allekirjoitus</t></tg></mg></e>
+<e><lg><l pos="N">alluandu</l><stg><st Contlex="N_MUARJU">alluanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">täytyy olla algandu libo alguandu alku</t></tg></mg><!-- täytyy olla algandu libo alguandu.   :: --></e>
+<e><lg><l pos="N">almuazu</l><stg><st Contlex="N_MUARJU">almuaza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">timantti</t></tg></mg></e>
+<e><lg><l pos="N">alʼpinistu</l><stg><st Contlex="N_MUARJU">alʼpinista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vuoristokiipeilijä</t></tg></mg></e>
+<e><lg><l pos="N">alʼpinizmu</l><stg><st Contlex="N_MUARJU">alʼpinizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vuoristikiipeily</t></tg></mg></e>
+<e><lg><l pos="N">altari</l><stg><st Contlex="N_ARTELI">altaria</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alttari</t><t pos="N">alttarihuone</t></tg></mg></e>
+<e><lg><l pos="N">altaristola</l><stg><st Contlex="N_OZA">altari#stola</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alttaripöytä</t></tg></mg><!-- tämä!  :: --></e>
+<e><lg><l pos="N">alternatiivu</l><stg><st Contlex="N_MUARJU">alternatiiva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vaihtoehto</t><t pos="N">alternatiivi</t></tg></mg></e>
+<e><lg><l pos="N">alʼumiinibumuagu</l><stg><st Contlex="N_MUARJU">alʼumiini#bumuaga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alumiinifolio</t></tg></mg></e>
+<e><lg><l pos="N">alʼumiinii</l><stg><st Contlex="N_KONDII">alʼumiini</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alumiini</t><t pos="N">aluminium</t></tg></mg></e>
+<e><lg><l pos="N">aluspohju</l><stg><st Contlex="N_KOIRU">alus#pohja</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alusta</t><t pos="N">alunen</t></tg></mg></e>
+<e><lg><l pos="N">alykkähys</l><stg><st Contlex="N_VÄHYS">alykkähy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">Täytyy olla älykkähys. äly</t><t pos="N">älykkyys</t></tg></mg></e>
+<e><lg><l pos="N">ambumine</l><stg><st Contlex="N_NAINE">ambumi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ampuminen</t></tg></mg></e>
+<e><lg><l pos="N">amburijaine</l><stg><st Contlex="N_KARJALAINE">amburija</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ampiainen </t></tg></mg></e>
+<e><lg><l pos="N">amerikansu</l><stg><st Contlex="N_MUARJU">amerikansa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">amerikkalainen</t></tg></mg></e>
+<e><lg><l pos="N">amierikkalaine</l><stg><st Contlex="N_KARJALAINE">amierikkala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">amerikkalainen</t></tg></mg></e>
+<e><lg><l pos="N">ammattikomitiettu</l><stg><st Contlex="N_AKKU">ammatti#komitietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ammattiliittokomitea</t><t pos="N">ay-toimikunta</t></tg></mg></e>
+<e><lg><l pos="N">ammattinero</l><stg><st Contlex="N_RUNO">ammatti#nero</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ammattitaito</t><t pos="N">työtaitto</t><t pos="N">pätevyys</t></tg></mg></e>
+<e><lg><l pos="N">ammattisugu</l><stg><st Contlex="N_LUGU">ammatti#sugu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">suku</t><t pos="N">sukukunta: esim. työläissuku</t></tg></mg></e>
+<e><lg><l pos="N">ammundu</l><stg><st Contlex="N_MUARJU">ammunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ammunta</t></tg></mg></e>
+<e><lg><l pos="N">ammunduhuonus</l><stg><st Contlex="N_ALUS">ammundu#huonuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ampumahalli</t></tg></mg></e>
+<e><lg><l pos="N">ammundukerdu</l><stg><st Contlex="N_AKKU">ammundu#kerda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">laukaus</t></tg></mg></e>
+<e><lg><l pos="N">ammunduvehkehvarasto</l><stg><st Contlex="N_RUNO">ammundu#vehkeh#varasto</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asevarasto</t><t pos="N">arsenaali</t></tg></mg></e>
+<e><lg><l pos="N">ammunduzualu</l><stg><st Contlex="N_MUARJU">ammundu#zuala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ampumahalli</t></tg></mg></e>
+<e><lg><l pos="N">amnistii</l><stg><st Contlex="N_KONDII">amnisti</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">armahdus</t><t pos="N">amnestia</t></tg></mg></e>
+<e><lg><l pos="N">ampulu</l><stg><st Contlex="N_MUARJU">ampula</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ampulli</t></tg></mg></e>
+<e><lg><l pos="N">amuliettu</l><stg><st Contlex="N_AKKU">amulietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">amuletti</t></tg></mg></e>
+<e><lg><l pos="N">anahronizmu</l><stg><st Contlex="N_MUARJU">anahronizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">anakronismi</t></tg></mg></e>
+<e><lg><l pos="N">analiziiruičendu</l><stg><st Contlex="N_MUARJU">analiziiruičenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">analysointi</t><t pos="N">erittely</t></tg></mg></e>
+<e><lg><l pos="N">analougii</l><stg><st Contlex="N_KONDII">analougi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">analogia</t><t pos="N">yhdenmukaisuus</t></tg></mg></e>
+<e><lg><l pos="N">ananassu</l><stg><st Contlex="N_AKKU">ananassa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ananas</t></tg></mg></e>
+<e><lg><l pos="N">ananassupuu</l><stg><st Contlex="N_KUU">ananassu#puu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ananaspuu</t></tg></mg></e>
+<e><lg><l pos="N">anarhii</l><stg><st Contlex="N_KONDII">anarhi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">anarkia</t></tg></mg></e>
+<e><lg><l pos="N">anarhizmu</l><stg><st Contlex="N_MUARJU">anarhizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">anarkismi</t></tg></mg></e>
+<e><lg><l pos="N">anatoumii</l><stg><st Contlex="N_KONDII">anatoumi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">anatomia</t></tg></mg></e>
+<e><lg><l pos="N">andamu</l><stg><st Contlex="N_KOIRU">andama</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lahja</t><t pos="N">anti</t></tg></mg></e>
+<e><lg><l pos="N">andavumine</l><stg><st Contlex="N_NAINE">andavumi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">antautuminen</t></tg></mg></e>
+<e><lg><l pos="N">andavundu</l><stg><st Contlex="N_MUARJU">andavunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">antautuminen</t></tg></mg></e>
+<e><lg><l pos="N">andelii</l><stg><st Contlex="N_KONDII">andeli</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">antelias</t><t pos="N">runsaskätinen</t><t pos="N">aulis</t></tg></mg><!-- taipuu kui lugii, lugijua, lugijoi,   kui pagizii teijän sanakirjas:: --></e>
+<e><lg><l pos="N">andiekseando</l><stg><st Contlex="N_RUADO">andiekse#ando</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">armahdus</t><t pos="N">armo</t><t pos="N">anteeksianto</t></tg></mg></e>
+<e><lg><l pos="N">andomieližys</l><stg><st Contlex="N_VÄHYS">ando#mieližy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">anteliaisuus</t><t pos="N">aulius</t><t pos="N">runsaskätisyys</t></tg></mg></e>
+<e><lg><l pos="N">anekdouttu</l><stg><st Contlex="N_AKKU">anekdoutta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vitsi</t><t pos="N">kasku</t><t pos="N">anekdootti</t></tg></mg></e>
+<e><lg><l pos="N">anfassu</l><stg><st Contlex="N_AKKU">anfassa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">edestäpäin</t></tg></mg></e>
+<e><lg><l pos="N">angiinu</l><stg><st Contlex="N_MUARJU">angiina</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">angiina</t><t pos="N">kurkkutulehdus</t></tg></mg></e>
+<e><lg><l pos="N">angličuanu</l><stg><st Contlex="N_MUARJU">angličuana</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">englantilainen</t></tg></mg></e>
+<e><lg><l pos="N">anglielaine</l><stg><st Contlex="N_KARJALAINE">angliela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">englantilainen</t></tg></mg></e>
+<e><lg><l pos="N">anissu</l><stg><st Contlex="N_AKKU">anissa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">anis</t></tg></mg></e>
+<e><lg><l pos="N">anistu</l><stg><st Contlex="N_MUARJU">anista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kumina</t></tg></mg></e>
+<e><lg><l pos="N">ankiettu</l><stg><st Contlex="N_AKKU">ankietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lomake</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kysely</t></tg></mg></e>
+<e><lg><l pos="N">annos</l><stg><st Contlex="N_ALUS">annoks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">annos</t></tg></mg></e>
+<e><lg><l pos="N">annotatsii</l><stg><st Contlex="N_KONDII">annotatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">esittely</t></tg></mg></e>
+<e><lg><l pos="N">annuliiruindu</l><stg><st Contlex="N_MUARJU">annuliiruinda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mitätöiminen</t><t pos="N">mitätöntäminen</t></tg></mg><!-- täytyy olla annuliiruičendu  :: --></e>
+<e><lg><l pos="N">anomualii</l><stg><st Contlex="N_KONDII">anomuali</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">anomalia</t></tg></mg></e>
+<e><lg><l pos="N">ansamblʼu</l><stg><st Contlex="N_MUARJU">ansamblʼa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">yhtye</t></tg></mg></e>
+<e><lg><l pos="N">anšluagu</l><stg><st Contlex="N_MUARJU">anšluaga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">esitys on loppuunmyyty</t></tg></mg></e>
+<e><lg><l pos="N">antennu</l><stg><st Contlex="N_MUARJU">antenna</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">antenni</t></tg></mg></e>
+<e><lg><l pos="N">antiekku</l><stg><st Contlex="N_AKKU">antiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">antiikki </t></tg></mg></e>
+<e><lg><l pos="N">antikvariattu</l><stg><st Contlex="N_AKKU">antikvariatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">antiikki</t><t pos="N">antiikkiesineet</t></tg></mg></e>
+<e><lg><l pos="N">antikvuaru</l><stg><st Contlex="N_MUARJU">antikvuara</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">taidekauppias</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">antikvaari</t><t pos="N">vahnojen esineiden keräilijä</t></tg></mg></e>
+<e><lg><l pos="N">antipoudu</l><stg><st Contlex="N_MUARJU">antipouda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">antipodi</t><t pos="N">vastakohta</t></tg></mg></e>
+<e><lg><l pos="N">antitsiklon</l><stg><st Contlex="N_TAIGIN">anti#tsiklon</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">karkeapaine</t><t pos="N">antisykloni</t></tg></mg></e>
+<e><lg><l pos="N">antounimu</l><stg><st Contlex="N_MUARJU">antounima</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">antonyymi</t><t pos="N">vastakohtasana</t></tg></mg></e>
+<e><lg><l pos="N">antropolougu</l><stg><st Contlex="N_MUARJU">antropolouga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">antropologi</t></tg></mg></e>
+<e><lg><l pos="N">anuafemu</l><stg><st Contlex="N_MUARJU">anuafema</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kirkonkirous</t><t pos="N">anateema</t></tg></mg></e>
+<e><lg><l pos="N">anualizu</l><stg><st Contlex="N_MUARJU">anualiza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">erittely</t><t pos="N">analyysi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">koe</t></tg></mg></e>
+<e><lg><l pos="N">aortu</l><stg><st Contlex="N_MUARJU">aorta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aortta</t></tg></mg></e>
+<e><lg><l pos="N">aparatuuru</l><stg><st Contlex="N_MUARJU">aparatuura</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kojeisto</t></tg></mg></e>
+<e><lg><l pos="N">aparuattu</l><stg><st Contlex="N_AKKU">aparuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">koje</t><t pos="N">kone</t><t pos="N">aparaatti</t></tg></mg></e>
+<e><lg><l pos="N">apelʼsiinu</l><stg><st Contlex="N_MUARJU">apelʼsiina</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">appelsiini</t></tg></mg></e>
+<e><lg><l pos="N">apelʼsiinupuu</l><stg><st Contlex="N_KUU">apelʼsiinu#puu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">appelsiinipuu</t></tg></mg></e>
+<e><lg><l pos="N">apendiksu</l><stg><st Contlex="N_MUARJU">apendiksa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">umpilisäke</t><t pos="N">umpisuoli</t></tg></mg></e>
+<e><lg><l pos="N">apologiettu</l><stg><st Contlex="N_AKKU">apologietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">puolustaja</t><t pos="N">ylistäjä</t><t pos="N">apologeetta</t></tg></mg></e>
+<e><lg><l pos="N">apostolu</l><stg><st Contlex="N_MUARJU">apostola</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">apostoli</t></tg></mg></e>
+<e><lg><l pos="N">appelʼlʼatiivu</l><stg><st Contlex="N_MUARJU">appelʼlʼatiiva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">appelatiivi</t><t pos="N">yleisnimi</t></tg></mg></e>
+<e><lg><l pos="N">appenditsiittu</l><stg><st Contlex="N_AKKU">appenditsiitta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">umpilisäkkeen tulehdus</t><t pos="N">appendisiitti</t></tg></mg></e>
+<e><lg><l pos="N">aptiekku</l><stg><st Contlex="N_AKKU">aptiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">apteekki</t></tg></mg></e>
+<e><lg><l pos="N">arbailtavu</l><stg><st Contlex="N_MUARJU">arbailtava</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">oletettava</t><t pos="N">mahdollinen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">tuntematon</t><t pos="N">outo</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">arvuuttava</t></tg></mg></e>
+<e><lg><l pos="N">arbavo</l><stg><st Contlex="N_RUNO">arbavo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arvaus</t><t pos="N">arvaaminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">arvoituksen ratkaisu</t></tg></mg></e>
+<e><lg><l pos="N">arbavus</l><stg><st Contlex="N_ALUS">arbavuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arvaus</t><t pos="N">arvaaminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">arvoituksen ratkaisu</t></tg></mg></e>
+<e><lg><l pos="N">arbitru</l><stg><st Contlex="N_MUARJU">arbitra</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tuomari</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">välimies</t><t pos="N">välitystuomari</t></tg></mg></e>
+<e><lg><l pos="N">arbitruažu</l><stg><st Contlex="N_MUARJU">arbitruaža</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">välimiesmenettely</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">välimiesoikeus</t><t pos="N">välitystuomioistuin</t></tg></mg></e>
+<e><lg><l pos="N">arbuamine</l><stg><st Contlex="N_NAINE">arbuami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arvaus</t><t pos="N">arvaaminen</t></tg></mg></e>
+<e><lg><l pos="N">arbuandu</l><stg><st Contlex="N_MUARJU">arbuanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arvaus</t><t pos="N">arvaaminen</t></tg></mg></e>
+<e><lg><l pos="N">arbuuzu</l><stg><st Contlex="N_MUARJU">arbuuza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vesimeloni</t></tg></mg></e>
+<e><lg><l pos="N">arendu</l><stg><st Contlex="N_MUARJU">arenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vuokra</t><t pos="N">vuokraus</t><t pos="N">vuokraaminen </t></tg></mg></e>
+<e><lg><l pos="N">arenduator</l><stg><st Contlex="N_TAIGIN">arenduator</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vuokraaja</t></tg></mg></e>
+<e><lg><l pos="N">arestu</l><stg><st Contlex="N_MUARJU">aresta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vangitseminen</t><t pos="N">pidätys</t><t pos="N">aresti</t></tg></mg></e>
+<e><lg><l pos="N">argentiinalaine</l><stg><st Contlex="N_KARJALAINE">argentiinala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">argentiinalainen</t></tg></mg></e>
+<e><lg><l pos="N">argentinsu</l><stg><st Contlex="N_MUARJU">argentinsa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">argentiinalainen</t></tg></mg></e>
+<e><lg><l pos="N">argikieli</l><stg><st Contlex="N_KIELI">argi#kiel</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arkikieli</t></tg></mg></e>
+<e><lg><l pos="N">argiolo</l><stg><st Contlex="N_RUNO">argi#olo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">proosa</t><t pos="N">arkipäiväisyys</t></tg></mg></e>
+<e><lg><l pos="N">argumentatsii</l><stg><st Contlex="N_KONDII">argumentatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">perustelu</t><t pos="N">todistelu</t><t pos="N">argumentaatio</t></tg></mg></e>
+<e><lg><l pos="N">argumentu</l><stg><st Contlex="N_MUARJU">argumenta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">todiste</t><t pos="N">peruste</t><t pos="N">argumentti</t></tg></mg></e>
+<e><lg><l pos="N">arguristikanzu</l><stg><st Contlex="N_MUARJU">arguristikanza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arka</t><t pos="N">ujo</t></tg></mg></e>
+<e><lg><l pos="N">arhiivanhoidai</l><stg><st Contlex="N_PAGIZII">arhiivan#hoida</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arkistonhoitaja</t><t pos="N">arkkivaari</t></tg></mg></e>
+<e><lg><l pos="N">arhiivuruadai</l><stg><st Contlex="N_PAGIZII">arhiivu#ruada</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arkistomies</t><t pos="N">arkistovirkailija</t></tg></mg><!-- taipuu kui pajattai, pajattajua, pajattajat, pajattajii  :: --></e>
+<e><lg><l pos="N">arienu</l><stg><st Contlex="N_MUARJU">ariena</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arena</t><t pos="N">näyttämö</t><t pos="N">kenttä</t></tg></mg></e>
+<e><lg><l pos="N">arifmietiekku</l><stg><st Contlex="N_AKKU">arifmietiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aritmetiikka</t><t pos="N">laskento</t></tg></mg></e>
+<e><lg><l pos="N">armahtus</l><stg><st Contlex="N_ALUS">armahtuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">armahdus</t><t pos="N">amnestia</t></tg></mg></e>
+<e><lg><l pos="N">armastelu</l><stg><st Contlex="N_KOIVU">armastelu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hyväily</t><t pos="N">rakkaus</t></tg></mg></e>
+<e><lg><l pos="N">armastus</l><stg><st Contlex="N_ALUS">armastuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rakkaus</t></tg></mg></e>
+<e><lg><l pos="N">armienielaine</l><stg><st Contlex="N_KARJALAINE">armieniela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">armenialainen</t></tg></mg></e>
+<e><lg><l pos="N">armiespiästö</l><stg><st Contlex="N_HÖRÖ">armies#piästö</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kotiuttaminen</t><t pos="N">demobilisointi</t></tg></mg></e>
+<e><lg><l pos="N">armiivellalline</l><stg><st Contlex="N_NAINE">armii#vellalli</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asevelvollinen</t></tg></mg></e>
+<e><lg><l pos="N">armopalaleläi</l><stg><st Contlex="N_PEZII">armopalal#elä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">armoleivän syöjä</t><t pos="N">armopaloilla eläjä</t></tg></mg></e>
+<e><lg><l pos="N">aromuattu</l><stg><st Contlex="N_AKKU">aromuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tuoksu</t><t pos="N">aromi</t></tg></mg></e>
+<e><lg><l pos="N">aršin</l><stg><st Contlex="N_TAIGIN">aršin</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arsina</t></tg></mg></e>
+<e><lg><l pos="N">artiikul</l><stg><st Contlex="N_TAIGIN">artiikul</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">artikkeli</t><t pos="N">tavaralaji</t></tg></mg></e>
+<e><lg><l pos="N">artileristu</l><stg><st Contlex="N_MUARJU">artilerista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tykistömies</t></tg></mg></e>
+<e><lg><l pos="N">artilierienammundu</l><stg><st Contlex="N_MUARJU">artilierien#ammunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tykistöammunta</t></tg></mg></e>
+<e><lg><l pos="N">artilierii</l><stg><st Contlex="N_KONDII">artilieri</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tykistömies</t></tg></mg></e>
+<e><lg><l pos="N">artistujoukko</l><stg><st Contlex="N_RUADO">artistu#joukko</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">taiteilijaryhmä</t><t pos="N">taiteilijat</t></tg></mg></e>
+<e><lg><l pos="N">aruabu</l><stg><st Contlex="N_MUARJU">aruaba</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arabi</t></tg></mg></e>
+<e><lg><l pos="N">arvoezineh</l><stg><st Contlex="N_PEREH">arvo#ezineh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arvoesine</t></tg></mg></e>
+<e><lg><l pos="N">arvomiäry</l><stg><st Contlex="N_PÄIVY">arvo#miärä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kriteeri</t></tg></mg></e>
+<e><lg><l pos="N">arvondu</l><stg><st Contlex="N_MUARJU">arvonda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arvonta</t></tg></mg></e>
+<e><lg><l pos="N">arvospiendy</l><stg><st Contlex="N_PIÄSTÄNDY">arvospiendä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arvossapito</t></tg></mg></e>
+<e><lg><l pos="N">arvostai</l><stg><st Contlex="N_PAGIZII">arvosta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arvostaja</t></tg></mg></e>
+<e><lg><l pos="N">arvotego</l><stg><st Contlex="N_RUADO">arvo#tego</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ansio</t></tg></mg></e>
+<e><lg><l pos="N">arvovaldu</l><stg><st Contlex="N_AKKU">arvo#valda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arvovalta</t></tg></mg></e>
+<e><lg><l pos="N">arvožus</l><stg><st Contlex="N_PUHTAHUS">arvožu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">arvo</t><t pos="N">arvokkuus</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kunnia</t></tg></mg></e>
+<e><lg><l pos="N">asfalʼtu</l><stg><st Contlex="N_MUARJU">asfalʼta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asfaltti</t><t pos="N">asvaltti</t></tg></mg></e>
+<e><lg><l pos="N">asketizmu</l><stg><st Contlex="N_MUARJU">asketizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">askeesi</t><t pos="N">asketismi</t></tg></mg></e>
+<e><lg><l pos="N">askiettu</l><stg><st Contlex="N_AKKU">askietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">askeetti</t></tg></mg></e>
+<e><lg><l pos="N">aspirin</l><stg><st Contlex="N_TAIGIN">aspirin</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aspiriini</t></tg></mg></e>
+<e><lg><l pos="N">assamblei</l><stg><st Contlex="N_PAGIZII">assamble</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kokous</t><t pos="N">yleiskokous</t></tg></mg></e>
+<e><lg><l pos="N">assignuičendu</l><stg><st Contlex="N_MUARJU">assignuičenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">määrärahojen myöntäminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">määräraha</t></tg></mg></e>
+<e><lg><l pos="N">assistentu</l><stg><st Contlex="N_MUARJU">assistenta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">assistentti</t><t pos="N">apulainen</t><t pos="N">avustaja</t></tg></mg></e>
+<e><lg><l pos="N">assortimentu</l><stg><st Contlex="N_MUARJU">assortimenta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lajitelma</t><t pos="N">valikoima</t></tg></mg></e>
+<e><lg><l pos="N">astavoičendu</l><stg><st Contlex="N_MUARJU">astavoičenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">äestys</t><t pos="N">äestäminen</t></tg></mg></e>
+<e><lg><l pos="N">astavu</l><stg><st Contlex="N_MUARJU">astava</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">karhi</t><t pos="N">äes</t></tg></mg></e>
+<e><lg><l pos="N">asteikko</l><stg><st Contlex="N_RUADO">asteikko</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asteikko</t></tg></mg></e>
+<e><lg><l pos="N">astʼeškuappu</l><stg><st Contlex="N_AKKU">astʼe#škuappa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">astiakaappi</t></tg></mg></e>
+<e><lg><l pos="N">astienpezii</l><stg><st Contlex="N_PEZII">astien#pezi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">astianpesijä</t><t pos="N">tiskaaja</t></tg></mg></e>
+<e><lg><l pos="N">astienpezokoneh</l><stg><st Contlex="N_TOVESTEH">astien#pezo#koneh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">astianpesukone</t></tg></mg></e>
+<e><lg><l pos="N">astma</l><stg><st Contlex="N_KALA">astma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">astma</t></tg></mg></e>
+<e><lg><l pos="N">astrolougu</l><stg><st Contlex="N_MUARJU">astrolouga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">astrologi</t><t pos="N">tähdistä ennustaja</t></tg></mg></e>
+<e><lg><l pos="N">astronavtiekku</l><stg><st Contlex="N_AKKU">astronavtiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">avaruus(lento)tutkimus</t></tg></mg></e>
+<e><lg><l pos="N">astronavtu</l><stg><st Contlex="N_MUARJU">astronavta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">avaruustutkija</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">avaruuslentäjä</t><t pos="N">avaruusmies</t></tg></mg></e>
+<e><lg><l pos="N">astru</l><stg><st Contlex="N_MUARJU">astra</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asteri</t></tg></mg></e>
+<e><lg><l pos="N">atamuanu</l><stg><st Contlex="N_MUARJU">atamuana</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">atamaani</t><t pos="N">kasakkapäällikkö</t></tg></mg></e>
+<e><lg><l pos="N">ateistu</l><stg><st Contlex="N_MUARJU">ateista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ateisti</t></tg></mg></e>
+<e><lg><l pos="N">ateizmu</l><stg><st Contlex="N_MUARJU">ateizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ateismi</t></tg></mg></e>
+<e><lg><l pos="N">ateljee</l><stg><st Contlex="N_KUU">ateljee</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ateljee</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">liike</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">korjaamo</t></tg></mg></e>
+<e><lg><l pos="N">atkalažus</l><stg><st Contlex="N_PUHTAHUS">atkalažu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alakuloisuus</t></tg></mg></e>
+<e><lg><l pos="N">atlassu</l><stg><st Contlex="N_AKKU">atlassa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kartasto</t><t pos="N">karttakirja</t><t pos="N">atlas</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kuvasto</t></tg></mg></e>
+<e><lg><l pos="N">atletiekku</l><stg><st Contlex="N_AKKU">atletiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">urheilu</t><t pos="N">voimailu</t><t pos="N">atletiikka</t></tg></mg></e>
+<e><lg><l pos="N">atliettu</l><stg><st Contlex="N_AKKU">atlietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">urheilija</t><t pos="N">voimailija</t><t pos="N">atleetti</t></tg></mg></e>
+<e><lg><l pos="N">atmosfieru</l><stg><st Contlex="N_MUARJU">atmosfiera</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ilmakehä</t><t pos="N">atmosfääri</t></tg></mg></e>
+<e><lg><l pos="N">atom</l><stg><st Contlex="N_TAIGIN">atom</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">atomi</t></tg></mg></e>
+<e><lg><l pos="N">atribuuttu</l><stg><st Contlex="N_AKKU">atribuutta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">attribuutti</t></tg></mg></e>
+<e><lg><l pos="N">attraktsion</l><stg><st Contlex="N_TAIGIN">attraktsion</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">huvilaitteet</t></tg></mg></e>
+<e><lg><l pos="N">atuakku</l><stg><st Contlex="N_AKKU">atuakka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hyökkäys</t><t pos="N">rynnäkkö</t></tg></mg></e>
+<e><lg><l pos="N">augivo</l><stg><st Contlex="N_RUNO">augivo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aukio</t></tg></mg></e>
+<e><lg><l pos="N">auktsion</l><stg><st Contlex="N_TAIGIN">auktsion</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">huutokauppa</t></tg></mg></e>
+<e><lg><l pos="N">autobussuazetus</l><stg><st Contlex="N_ALUS">auto#bussu#azetuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">linja-auton pysäkki</t></tg></mg></e>
+<e><lg><l pos="N">avantʼuristu</l><stg><st Contlex="N_MUARJU">avantʼurista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">seikkailija</t><t pos="N">onnenonkija</t></tg></mg></e>
+<e><lg><l pos="N">avantʼurizmu</l><stg><st Contlex="N_MUARJU">avantʼurizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">seikkailunhalu</t><t pos="N">onnenonkinta</t></tg></mg></e>
+<e><lg><l pos="N">avantʼuuru</l><stg><st Contlex="N_MUARJU">avantʼuura</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(vaarallinen) seikkailu</t><t pos="N">uhkayritys</t></tg></mg></e>
+<e><lg><l pos="N">avavo</l><stg><st Contlex="N_RUNO">avavo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">avaus</t><t pos="N">käyttöönotto</t></tg></mg></e>
+<e><lg><l pos="N">avavumine</l><stg><st Contlex="N_NAINE">avavumi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">avautuminen</t><t pos="N">paljastaminen</t></tg></mg></e>
+<e><lg><l pos="N">avavundu</l><stg><st Contlex="N_MUARJU">avavunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">avautuminen</t><t pos="N">paljastaminen</t></tg></mg></e>
+<e><lg><l pos="N">aviapoštu</l><stg><st Contlex="N_KOIRU">avia#pošta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lentoposti</t></tg></mg><!-- taipuu kuin koiru  :: --></e>
+<e><lg><l pos="N">avokuado</l><stg><st Contlex="N_RUNO">avokuado</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">avokado</t></tg></mg></e>
+<e><lg><l pos="N">avokuadopuu</l><stg><st Contlex="N_KUU">avokuado#puu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">avokadopuu</t></tg></mg></e>
+<e><lg><l pos="N">avstraliitsu</l><stg><st Contlex="N_MUARJU">avstraliitsa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">australialainen</t></tg></mg></e>
+<e><lg><l pos="N">avstrielaine</l><stg><st Contlex="N_KARJALAINE">avstriela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">itävaltalainen</t></tg></mg></e>
+<e><lg><l pos="N">avstrualilaine</l><stg><st Contlex="N_KARJALAINE">avstrualila</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">australialainen</t></tg></mg></e>
+<e><lg><l pos="N">avto</l><stg><st Contlex="N_RUNO">avto</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">auto</t></tg></mg></e>
+<e><lg><l pos="N">avtoazemu</l><stg><st Contlex="N_MUARJU">avto#azema</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">linja-autoasema</t></tg></mg></e>
+<e><lg><l pos="N">avtobuazu</l><stg><st Contlex="N_MUARJU">avto#buaza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">autovarikko</t></tg></mg></e>
+<e><lg><l pos="N">avtogaražu</l><stg><st Contlex="N_MUARJU">avto#garaža</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">autovarikko</t></tg></mg></e>
+<e><lg><l pos="N">avtohuoldo</l><stg><st Contlex="N_RUADO">avto#huoldo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(auton)huolto</t><t pos="N">huoltoasema</t></tg></mg></e>
+<e><lg><l pos="N">avtokilbailii</l><stg><st Contlex="N_PAGIZII">avto#kilbaili</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kilpa-autoilija</t></tg></mg></e>
+<e><lg><l pos="N">avtomašin</l><stg><st Contlex="N_TAIGIN">avto#mašin</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">auto</t></tg></mg></e>
+<e><lg><l pos="N">avtotransportu</l><stg><st Contlex="N_MUARJU">avto#transporta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">autoliikenne</t><t pos="N">autot</t></tg></mg></e>
+<e><lg><l pos="N">avtoturizmu</l><stg><st Contlex="N_MUARJU">avto#turizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">automatkailu</t></tg></mg></e>
+<e><lg><l pos="N">avtoubussu</l><stg><st Contlex="N_AKKU">avtoubussa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">linja-auto</t><t pos="N">bussi</t></tg></mg></e>
+<e><lg><l pos="N">avtovokzualu</l><stg><st Contlex="N_MUARJU">avto#vokzuala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">linja-autoasema</t></tg></mg></e>
+<e><lg><l pos="N">avtozavodu</l><stg><st Contlex="N_MUARJU">avto#zavoda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">autotehdas</t></tg></mg></e>
+<e><lg><l pos="N">avuamine</l><stg><st Contlex="N_NAINE">avuami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">avaaminen</t><t pos="N">avaus</t></tg></mg></e>
+<e><lg><l pos="N">avuarii</l><stg><st Contlex="N_KONDII">avuari</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kolari</t><t pos="N">onnettomuus</t></tg></mg></e>
+<e><lg><l pos="N">avunandai</l><stg><st Contlex="N_PAGIZII">avun#anda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tukija</t><t pos="N">suojelija</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">työhön perehdyttäjä</t></tg></mg></e>
+<e><lg><l pos="N">avunando</l><stg><st Contlex="N_RUADO">avun#ando</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">apu</t><t pos="N">auttaminen</t></tg></mg></e>
+<e><lg><l pos="N">avvoisydämelližys</l><stg><st Contlex="N_VÄHYS">avvoi#sydämelližy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">avosydämisyys</t></tg></mg></e>
+<e><lg><l pos="N">avvonažus</l><stg><st Contlex="N_PUHTAHUS">avvonažu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rehellisyys</t></tg></mg></e>
+<e><lg><l pos="N">avvopäčči</l><stg><st Contlex="N_HÄKKI">avvo#päčči</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">takkauuni</t></tg></mg></e>
+<e><lg><l pos="N">avvožus</l><stg><st Contlex="N_PUHTAHUS">avvožu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">julkisuus</t><t pos="N">avoimuus</t></tg></mg></e>
+<e><lg><l pos="N">avvutandu</l><stg><st Contlex="N_MUARJU">avvutanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">auttaminen</t><t pos="N">apu</t></tg></mg></e>
+<e><lg><l pos="N">azemosana</l><stg><st Contlex="N_KALA">azemo#sana</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pronomini</t></tg></mg></e>
+<e><lg><l pos="N">azerbaidžansu</l><stg><st Contlex="N_MUARJU">azerbaidžansa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">azeri</t><t pos="N">azerbaidžanialainen</t></tg></mg></e>
+<e><lg><l pos="N">azerbaidžuanalaine</l><stg><st Contlex="N_KARJALAINE">azerbaidžuanala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">azeri</t><t pos="N">azerbaidžanialainen</t></tg></mg></e>
+<e><lg><l pos="N">azetandu</l><stg><st Contlex="N_MUARJU">azetanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asettaminen</t><t pos="N">asennus</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">pysäyttäminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">rauhoittaminen</t></tg></mg></e>
+<e><lg><l pos="N">azettamine</l><stg><st Contlex="N_NAINE">azettami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asettaminen</t><t pos="N">asennus</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">pysäyttäminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">rauhoittaminen</t></tg></mg></e>
+<e><lg><l pos="N">azettumine</l><stg><st Contlex="N_NAINE">azettumi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asettuminen</t><t pos="N">pysähtyminen</t></tg></mg></e>
+<e><lg><l pos="N">azetundu</l><stg><st Contlex="N_MUARJU">azetunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asettuminen</t><t pos="N">pysähtyminen</t></tg></mg></e>
+<e><lg><l pos="N">aziaattu</l><stg><st Contlex="N_AKKU">aziaatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aasialainen</t></tg></mg></e>
+<e><lg><l pos="N">azienhoidai</l><stg><st Contlex="N_PAGIZII">azien#hoida</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kanslisti</t><t pos="N">kanslianhoitaja</t></tg></mg></e>
+<e><lg><l pos="N">azienhoido</l><stg><st Contlex="N_RUADO">azien#hoido</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kanslianhoito</t></tg></mg></e>
+<e><lg><l pos="N">aziensellittäi</l><stg><st Contlex="N_PEZII">azien#sellittä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asiamies</t></tg></mg></e>
+<e><lg><l pos="N">azientiedäi</l><stg><st Contlex="N_PEZII">azien#tiedä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asiantuntija </t></tg></mg></e>
+<e><lg><l pos="N">azientundiikundu</l><stg><st Contlex="N_AKKU">azien#tundii#kunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asiantuntijalautakunta</t></tg></mg></e>
+<e><lg><l pos="N">azienvedäi</l><stg><st Contlex="N_PEZII">azien#vedä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asiamies</t></tg></mg></e>
+<e><lg><l pos="N">aziibumuagu</l><stg><st Contlex="N_MUARJU">azii#bumuaga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">työpaperi</t><t pos="N">asiapaperi</t></tg></mg></e>
+<e><lg><l pos="N">aziihuoldo</l><stg><st Contlex="N_RUADO">azii#huoldo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">toimisto</t></tg></mg></e>
+<e><lg><l pos="N">aziiniekku</l><stg><st Contlex="N_AKKU">aziiniekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asialla olija</t></tg></mg></e>
+<e><lg><l pos="N">ažiotuažu</l><stg><st Contlex="N_MUARJU">ažiotuaža</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">agiotaasi</t><t pos="N">kurssikeinottelu</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kohu</t><t pos="N">kouhu</t><t pos="N">kiihkoilu</t></tg></mg></e>
+<e><lg><l pos="N">azui</l><stg><st Contlex="N_PAGIZII">azu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tekijä</t></tg></mg></e>
+<e><lg><l pos="N">azundu</l><stg><st Contlex="N_MUARJU">azunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tekeminen</t><t pos="N">valmistaminen</t><t pos="N">laatiminen</t></tg></mg></e>
+<e><lg><l pos="N">badminton</l><stg><st Contlex="N_TAIGIN">badminton</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sulkapallo</t></tg></mg></e>
+<e><lg><l pos="N">bagažu</l><stg><st Contlex="N_MUARJU">bagaža</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">matkatavara</t></tg></mg></e>
+<e><lg><l pos="N">bajanalsoittai</l><stg><st Contlex="N_PAGIZII">bajanal#soitta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hanurinsoittaja</t><t pos="N">hanuristi</t></tg></mg></e>
+<e><lg><l pos="N">bajanistu</l><stg><st Contlex="N_MUARJU">bajanista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hanurinsoittaja</t><t pos="N">hanuristi</t></tg></mg></e>
+<e><lg><l pos="N">bajarinakku</l><stg><st Contlex="N_AKKU">bajarin#akka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pajarinvaimo</t></tg></mg></e>
+<e><lg><l pos="N">baklažuanu</l><stg><st Contlex="N_MUARJU">baklažuana</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">munakoiso</t><t pos="N">aubergiini</t><t pos="N">munahedelmä</t></tg></mg></e>
+<e><lg><l pos="N">bakteerii</l><stg><st Contlex="N_KONDII">bakteeri</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bakteeri</t></tg></mg></e>
+<e><lg><l pos="N">balahon</l><stg><st Contlex="N_TAIGIN">balahon</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(päällys)viitta</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">halatta</t><t pos="N">takki</t></tg></mg></e>
+<e><lg><l pos="N">balalaikku</l><stg><st Contlex="N_AKKU">balalaikka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">balalaikka</t></tg></mg></e>
+<e><lg><l pos="N">balansu</l><stg><st Contlex="N_MUARJU">balansa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tasapaino</t><t pos="N">balanssi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">tase</t><t pos="N">balanssi</t><t pos="N">tiliasema</t></tg></mg></e>
+<e><lg><l pos="N">balansupuu</l><stg><st Contlex="N_KUU">balansu#puu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuitupuu</t><t pos="N">paperipuu</t></tg></mg></e>
+<e><lg><l pos="N">baleriinu</l><stg><st Contlex="N_MUARJU">baleriina</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(baletti)tansijatar</t><t pos="N">ballerina</t></tg></mg></e>
+<e><lg><l pos="N">ballu</l><stg><st Contlex="N_MUARJU">balla</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aste</t><t pos="N">bofori</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">arvosana</t><t pos="N">piste</t><t pos="N">numero</t></tg></mg></e>
+<e><lg><l pos="N">balovniekku</l><stg><st Contlex="N_AKKU">balovniekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hulivili</t><t pos="N">veitikka</t></tg></mg></e>
+<e><lg><l pos="N">banderouli</l><stg><st Contlex="N_ARTELI">banderoulia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">postipaketti</t></tg></mg></e>
+<e><lg><l pos="N">bandiittu</l><stg><st Contlex="N_AKKU">bandiitta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ryöväri</t><t pos="N">rosvo</t></tg></mg></e>
+<e><lg><l pos="N">bandu</l><stg><st Contlex="N_MUARJU">banda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">joukkio</t><t pos="N">rosvojoukko</t></tg></mg></e>
+<e><lg><l pos="N">bankiettu</l><stg><st Contlex="N_AKKU">bankietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(juhla)illalliset</t><t pos="N">banketti</t></tg></mg></e>
+<e><lg><l pos="N">bankiiru</l><stg><st Contlex="N_MUARJU">bankiira</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pankkiiri</t></tg></mg></e>
+<e><lg><l pos="N">banknottu</l><stg><st Contlex="N_AKKU">banknotta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">seteli</t></tg></mg></e>
+<e><lg><l pos="N">bankrottu</l><stg><st Contlex="N_AKKU">bankrotta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">konkurssivelallinen</t><t pos="N">vararikontekijä</t></tg></mg></e>
+<e><lg><l pos="N">bantu</l><stg><st Contlex="N_MUARJU">banta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rusetti</t><t pos="N">ruusuke</t></tg></mg></e>
+<e><lg><l pos="N">banuanu</l><stg><st Contlex="N_MUARJU">banuana</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">banaani</t></tg></mg></e>
+<e><lg><l pos="N">banuanupuu</l><stg><st Contlex="N_KUU">banuanu#puu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">banaanipuu</t></tg></mg></e>
+<e><lg><l pos="N">barabanahpergai</l><stg><st Contlex="N_PAGIZII">barabanah#perga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rumpali</t><t pos="N">rummunlyöjä</t><t pos="N">rummuttaja</t></tg></mg></e>
+<e><lg><l pos="N">barabuanu</l><stg><st Contlex="N_MUARJU">barabuana</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rumpu</t></tg></mg></e>
+<e><lg><l pos="N">bardu</l><stg><st Contlex="N_MUARJU">barda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bardi</t><t pos="N">folklaulaja</t></tg></mg></e>
+<e><lg><l pos="N">baroumetru</l><stg><st Contlex="N_MUARJU">baroumetra</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ilmapuntari</t><t pos="N">barometri</t></tg></mg></e>
+<e><lg><l pos="N">barrikuadu</l><stg><st Contlex="N_MUARJU">barrikuada</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">barrikadi</t><t pos="N">katusulku</t></tg></mg></e>
+<e><lg><l pos="N">basketbol</l><stg><st Contlex="N_TAIGIN">basketbol</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">koripallo</t></tg></mg></e>
+<e><lg><l pos="N">basketbolistu</l><stg><st Contlex="N_MUARJU">basketbolista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">koripalloilija</t></tg></mg></e>
+<e><lg><l pos="N">bašmakku</l><stg><st Contlex="N_AKKU">bašmakka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kenkä</t></tg></mg></e>
+<e><lg><l pos="N">bassu</l><stg><st Contlex="N_KOIVU">bassu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">basso</t></tg></mg></e>
+<e><lg><l pos="N">bassuiäni</l><stg><st Contlex="N_KIELI">bassu#iän</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bassoääni</t></tg></mg></e>
+<e><lg><l pos="N">baton</l><stg><st Contlex="N_TAIGIN">baton</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">polakka</t><t pos="N">ranskanleipä</t><t pos="N">patonki</t></tg></mg></e>
+<e><lg><l pos="N">bazari</l><stg><st Contlex="N_ARTELI">bazaria</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(kauppa)tori</t><t pos="N">basaari</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">myyjäiset</t></tg></mg></e>
+<e><lg><l pos="N">baziliekku</l><stg><st Contlex="N_AKKU">baziliekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">basilika</t></tg></mg></e>
+<e><lg><l pos="N">beda</l><stg><st Contlex="N_KALA">beda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hätä</t><t pos="N">pula</t><t pos="N">onnettomus</t></tg></mg></e>
+<e><lg><l pos="N">begemouttu</l><stg><st Contlex="N_AKKU">begemoutta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">virtahepo</t></tg></mg></e>
+<e><lg><l pos="N">belʼgielaine</l><stg><st Contlex="N_KARJALAINE">belʼgiela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">belgialainen</t></tg></mg></e>
+<e><lg><l pos="N">belʼgiitsu</l><stg><st Contlex="N_MUARJU">belʼgiitsa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">belgialainen</t></tg></mg></e>
+<e><lg><l pos="N">belladonna</l><stg><st Contlex="N_KALA">belladonna</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">belladonna</t><t pos="N">lemmenmarja</t></tg></mg></e>
+<e><lg><l pos="N">belletristiekku</l><stg><st Contlex="N_AKKU">belletristiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kauniskirjallisuus</t><t pos="N">belletristiikka</t></tg></mg></e>
+<e><lg><l pos="N">belletristu</l><stg><st Contlex="N_MUARJU">belletrista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(kauno)kirjailija</t><t pos="N">belletristi</t></tg></mg></e>
+<e><lg><l pos="N">beloruussu</l><stg><st Contlex="N_AKKU">beloruussa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">valkovenäläinen</t></tg></mg></e>
+<e><lg><l pos="N">bemoli</l><stg><st Contlex="N_ARTELI">bemolia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alennusmerkki</t></tg></mg></e>
+<e><lg><l pos="N">benzinkolonku</l><stg><st Contlex="N_MUARJU">benzin#kolonka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bensiinipumppu</t></tg></mg></e>
+<e><lg><l pos="N">benzinmašin</l><stg><st Contlex="N_TAIGIN">benzin#mašin</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bensiiniauto</t></tg></mg></e>
+<e><lg><l pos="N">benzinvarasto</l><stg><st Contlex="N_RUNO">benzin#varasto</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bensiinivarasto</t></tg></mg></e>
+<e><lg><l pos="N">benzinzapravku</l><stg><st Contlex="N_MUARJU">benzin#zapravka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bensiiniasema</t></tg></mg></e>
+<e><lg><l pos="N">bergamouttupuu</l><stg><st Contlex="N_KUU">bergamouttu#puu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bergamotti</t><t pos="N">bergamottipuu</t></tg></mg></e>
+<e><lg><l pos="N">beton</l><stg><st Contlex="N_TAIGIN">beton</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">betoni</t></tg></mg></e>
+<e><lg><l pos="N">biatlon</l><stg><st Contlex="N_TAIGIN">biatlon</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ampumahiihto</t></tg></mg></e>
+<e><lg><l pos="N" type="Prop">Biblii</l><stg><st Contlex="PROP_STIPENDII">Bibli</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">Raamattu</t></tg></mg></e>
+<e><lg><l pos="N">bibliogruafii</l><stg><st Contlex="N_KONDII">bibliogruafi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bibliografia</t><t pos="N">systemaattinen julkaisuluettelo</t></tg></mg></e>
+<e><lg><l pos="N">bibliotiekkari</l><stg><st Contlex="N_ARTELI">bibliotiekkaria</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kirjastonhoitaja</t></tg></mg></e>
+<e><lg><l pos="N">bibliotiekku</l><stg><st Contlex="N_AKKU">bibliotiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kirjasto </t></tg></mg></e>
+<e><lg><l pos="N">bičču</l><stg><st Contlex="N_AKKU">bičča</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ruoska</t><t pos="N">piisku</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">viitsaus</t></tg></mg></e>
+<e><lg><l pos="N">bifšteksu</l><stg><st Contlex="N_MUARJU">bifšteksa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pihvi</t></tg></mg></e>
+<e><lg><l pos="N">biiser</l><stg><st Contlex="N_TAIGIN">biiser</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(lasi)helmet</t></tg></mg></e>
+<e><lg><l pos="N">biitum</l><stg><st Contlex="N_TAIGIN">biitum</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bitumi</t></tg></mg></e>
+<e><lg><l pos="N">biljardu</l><stg><st Contlex="N_MUARJU">biljarda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">biljardi</t></tg></mg></e>
+<e><lg><l pos="N">binokli</l><stg><st Contlex="N_ARTELI">binoklia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kiikari</t></tg></mg></e>
+<e><lg><l pos="N">bintu</l><stg><st Contlex="N_MUARJU">binta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">side</t></tg></mg></e>
+<e><lg><l pos="N">biofiiziekku</l><stg><st Contlex="N_AKKU">bio#fiiziekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">biofyysikko</t></tg></mg></e>
+<e><lg><l pos="N">biogruafu</l><stg><st Contlex="N_MUARJU">biogruafa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elämänkerran kirjoittaja</t><t pos="N">elämänkertoja</t><t pos="N">biografi</t></tg></mg></e>
+<e><lg><l pos="N">biohiimii</l><stg><st Contlex="N_KONDII">bio#hiimi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">biokemia</t></tg></mg></e>
+<e><lg><l pos="N">biolougu</l><stg><st Contlex="N_MUARJU">biolouga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">biologi </t></tg></mg></e>
+<e><lg><l pos="N">biostansii</l><stg><st Contlex="N_KONDII">bio#stansi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">biologinen asema</t></tg></mg></e>
+<e><lg><l pos="N">biskviittu</l><stg><st Contlex="N_AKKU">biskviitta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sokerikakku</t></tg></mg></e>
+<e><lg><l pos="N">bissektriissu</l><stg><st Contlex="N_AKKU">bissektriissa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(kulman) puolittaja</t></tg></mg></e>
+<e><lg><l pos="N">biton</l><stg><st Contlex="N_TAIGIN">biton</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kannu</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">pystö</t><t pos="N">tonkka</t></tg></mg></e>
+<e><lg><l pos="N">blanku</l><stg><st Contlex="N_MUARJU">blanka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lomake</t></tg></mg></e>
+<e><lg><l pos="N">bleffu</l><stg><st Contlex="N_AKKU">bleffa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hämäys</t><t pos="N">harhauttaminen</t><t pos="N">bluffi</t></tg></mg></e>
+<e><lg><l pos="N">bleznuiččii</l><stg><st Contlex="N_PAGIZII">bleznuičči</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">imartelija</t><t pos="N">mielistelijä</t><t pos="N">liehakko</t></tg></mg></e>
+<e><lg><l pos="N">bliämindy, täytyy olla bliämičendy</l><stg><st Contlex="N_PIÄSTÄNDY">bliämindä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">määkinä</t><t pos="N">mäkätys</t></tg></mg><!-- täytyy olla bliämičendy  :: --></e>
+<e><lg><l pos="N">bloknouttu</l><stg><st Contlex="N_AKKU">bloknoutta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lehtiö</t></tg></mg></e>
+<e><lg><l pos="N">bluaznitus</l><stg><st Contlex="N_ALUS">bluaznituks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kummitus</t></tg></mg></e>
+<e><lg><l pos="N">blʼuudečku</l><stg><st Contlex="N_MUARJU">blʼuudečka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(pikku)lautanen</t><t pos="N">teevati</t></tg></mg></e>
+<e><lg><l pos="N">bläketändy</l><stg><st Contlex="N_PIÄSTÄNDY">bläketändä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">määkinä</t><t pos="N">mäkätys</t></tg></mg></e>
+<e><lg><l pos="N">boba</l><stg><st Contlex="N_KALA">boba</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lelu</t></tg></mg><!-- ei taivu kuin kala. Kuin oza da on heikko da vahvaaste. Boba - bovat. Bobii monikos. Ozii monikos. Bobii.   :: --></e>
+<e><lg><l pos="N">bohatus</l><stg><st Contlex="N_ALUS">bohatuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rikkaus</t><t pos="N">vauraus</t></tg></mg></e>
+<e><lg><l pos="N">bohoroudičanheiny</l><stg><st Contlex="N_PÄIVY">bohoroudičan#heinä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajuruoho</t></tg></mg></e>
+<e><lg><l pos="N">boikohus</l><stg><st Contlex="N_PUHTAHUS">boikohu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">reippaus</t></tg></mg></e>
+<e><lg><l pos="N">boikottu</l><stg><st Contlex="N_AKKU">boikotta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">boikotti</t></tg></mg></e>
+<e><lg><l pos="N">bojeviekku</l><stg><st Contlex="N_AKKU">bojeviekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">militantti</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">jännityselokuva</t></tg></mg></e>
+<e><lg><l pos="N">boksu</l><stg><st Contlex="N_KOIVU">boksu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">nyrkkeily</t></tg></mg></e>
+<e><lg><l pos="N">boksuiččii</l><stg><st Contlex="N_PAGIZII">boksuičči</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">nyrkkeilijä</t></tg></mg></e>
+<e><lg><l pos="N">bokualu</l><stg><st Contlex="N_MUARJU">bokuala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(juoma)malja</t><t pos="N">(viini)lasi</t></tg></mg></e>
+<e><lg><l pos="N">bolbetandu</l><stg><st Contlex="N_MUARJU">bolbetanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rupattelu</t><t pos="N">lörpöttely</t></tg></mg></e>
+<e><lg><l pos="N">bolbetus</l><stg><st Contlex="N_ALUS">bolbetuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rupattelu</t><t pos="N">lörpöttely</t></tg></mg></e>
+<e><lg><l pos="N">bolelʼščiekku</l><stg><st Contlex="N_AKKU">bolelʼščiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N"> penkkiurheilija</t><t pos="N">kannattaja</t></tg></mg></e>
+<e><lg><l pos="N">bolguarielaine</l><stg><st Contlex="N_KARJALAINE">bolguariela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bulgarialainen</t><t pos="N">bulgaari</t></tg></mg></e>
+<e><lg><l pos="N">bolguarin</l><stg><st Contlex="N_TAIGIN">bolguarin</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bulgarialainen</t><t pos="N">bulgaari</t></tg></mg></e>
+<e><lg><l pos="N">boliidu</l><stg><st Contlex="N_MUARJU">boliida</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bolidi</t><t pos="N">tulipallo</t></tg></mg></e>
+<e><lg><l pos="N">bombardiroušiekku</l><stg><st Contlex="N_AKKU">bombardiroušiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pommittaja</t><t pos="N">pommikone</t></tg></mg></e>
+<e><lg><l pos="N">bombitus</l><stg><st Contlex="N_ALUS">bombituks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pommitus</t></tg></mg></e>
+<e><lg><l pos="N">bombu</l><stg><st Contlex="N_KOIRU">bomba</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pommi</t></tg></mg></e>
+<e><lg><l pos="N">bombusuojus</l><stg><st Contlex="N_ALUS">bombu#suojuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pommisuoja</t></tg></mg></e>
+<e><lg><l pos="N">borčuiččii</l><stg><st Contlex="N_PAGIZII">borčuičči</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">painija</t></tg></mg></e>
+<e><lg><l pos="N">boršči</l><stg><st Contlex="N_ARTELI">borščia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">borssi</t></tg></mg></e>
+<e><lg><l pos="N">botsman</l><stg><st Contlex="N_TAIGIN">botsman</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pursimies</t><t pos="N">puosu</t></tg></mg></e>
+<e><lg><l pos="N">botuaniekku</l><stg><st Contlex="N_AKKU">botuaniekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kasvitieteilijä</t></tg></mg></e>
+<e><lg><l pos="N">botuanikku</l><stg><st Contlex="N_AKKU">botuanikka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kasvitiede</t><t pos="N">kasvioppi</t></tg></mg></e>
+<e><lg><l pos="N">braziilielaine</l><stg><st Contlex="N_KARJALAINE">braziiliela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">brasilialainen</t></tg></mg></e>
+<e><lg><l pos="N">brazilʼsu</l><stg><st Contlex="N_MUARJU">brazilʼsa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">brasilialainen</t></tg></mg></e>
+<e><lg><l pos="N">breičendy</l><stg><st Contlex="N_PIÄSTÄNDY">breičendä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">parranajo</t></tg></mg></e>
+<e><lg><l pos="N">bretkoi</l><stg><st Contlex="N_REBOI">bretkoi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">korte</t></tg></mg></e>
+<e><lg><l pos="N">briljantu</l><stg><st Contlex="N_MUARJU">briljanta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">briljantti</t></tg></mg></e>
+<e><lg><l pos="N">brilliantu</l><stg><st Contlex="N_MUARJU">brillianta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">briljantti</t></tg></mg></e>
+<e><lg><l pos="N">britfu</l><stg><st Contlex="N_MUARJU">britfa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">partaveitsi</t></tg></mg></e>
+<e><lg><l pos="N">brodʼuagu</l><stg><st Contlex="N_MUARJU">brodʼuaga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kulkuri</t><t pos="N">maankiertäjä</t><t pos="N">kiertolainen</t></tg></mg></e>
+<e><lg><l pos="N">brokkoli</l><stg><st Contlex="N_ARTELI">brokkolia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">parsakaali</t><t pos="N">brokkoli</t></tg></mg></e>
+<e><lg><l pos="N">broneviekku</l><stg><st Contlex="N_AKKU">broneviekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">panssariauto</t></tg></mg></e>
+<e><lg><l pos="N">bronhientulehtus</l><stg><st Contlex="N_ALUS">bronhien#tulehtuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bronkiitti</t><t pos="N">keuhkoputken tulehdus</t></tg></mg></e>
+<e><lg><l pos="N">bronzu</l><stg><st Contlex="N_KOIRU">bronza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pronssi</t></tg></mg></e>
+<e><lg><l pos="N">brošku</l><stg><st Contlex="N_KOIRU">broška</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rintaneula</t><t pos="N">rintasolki</t></tg></mg></e>
+<e><lg><l pos="N">bruakku</l><stg><st Contlex="N_LUGU">bruakku</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hylky</t></tg></mg></e>
+<e><lg><l pos="N">brutto</l><stg><st Contlex="N_RUADO">brutto</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">brutto</t></tg></mg></e>
+<e><lg><l pos="N">buabaine</l><stg><st Contlex="N_KARJALAINE">buaba</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">isoäiti</t><t pos="N">mummo</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">vanha nainen</t></tg></mg></e>
+<e><lg><l pos="N">buajutandu</l><stg><st Contlex="N_MUARJU">buajutanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tuudinta</t></tg></mg></e>
+<e><lg><l pos="N">buajuttamine</l><stg><st Contlex="N_NAINE">buajuttami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tuudittaminen</t></tg></mg></e>
+<e><lg><l pos="N">buajutus</l><stg><st Contlex="N_ALUS">buajutuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tuuditus</t></tg></mg></e>
+<e><lg><l pos="N">buakku</l><stg><st Contlex="N_AKKU">buakka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(neste)säiliö</t></tg></mg></e>
+<e><lg><l pos="N">buaru</l><stg><st Contlex="N_MUARJU">buara</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">baari</t></tg></mg></e>
+<e><lg><l pos="N">buašnʼu</l><stg><st Contlex="N_MUARJU">buašnʼa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">torni</t></tg></mg></e>
+<e><lg><l pos="N">buatʼušku</l><stg><st Contlex="N_MUARJU">buatʼuška</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pappi</t></tg></mg></e>
+<e><lg><l pos="N">budʼbetandu</l><stg><st Contlex="N_MUARJU">budʼbetanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mumina</t><t pos="N">mutina</t></tg></mg></e>
+<e><lg><l pos="N">budʼbetus</l><stg><st Contlex="N_ALUS">budʼbetuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mumina</t><t pos="N">mutina</t></tg></mg></e>
+<e><lg><l pos="N">buddizmu</l><stg><st Contlex="N_MUARJU">buddizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">buddhalaisuus</t><t pos="N">buddhismi</t></tg></mg></e>
+<e><lg><l pos="N">bʼudžiettu</l><stg><st Contlex="N_AKKU">bʼudžietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">budjetti</t></tg></mg></e>
+<e><lg><l pos="N">buguričču</l><stg><st Contlex="N_AKKU">buguričča</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kumpu</t><t pos="N">kumpare</t></tg></mg></e>
+<e><lg><l pos="N">buhgalteri</l><stg><st Contlex="N_ARTELI">buhgalteria</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kirjanpitäjä</t></tg></mg></e>
+<e><lg><l pos="N">buhkutus</l><stg><st Contlex="N_ALUS">buhkutuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pamahtelu</t><t pos="N">paukahtelu</t><t pos="N">paukkuminen</t></tg></mg></e>
+<e><lg><l pos="N">buivol</l><stg><st Contlex="N_TAIGIN">buivol</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">puhveli</t></tg></mg></e>
+<e><lg><l pos="N">bukinistu</l><stg><st Contlex="N_MUARJU">bukinista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vanhojen kirjojen kauppias</t></tg></mg></e>
+<e><lg><l pos="N">buksiiru</l><stg><st Contlex="N_MUARJU">buksiira</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hinausköysi</t></tg></mg></e>
+<e><lg><l pos="N">bulaufku</l><stg><st Contlex="N_MUARJU">bulaufka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">nuppineula</t></tg></mg></e>
+<e><lg><l pos="N">bulʼdouzeru</l><stg><st Contlex="N_MUARJU">bulʼdouzera</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">raivaustraktori</t><t pos="N">puskutraktori</t></tg></mg></e>
+<e><lg><l pos="N">bulkaine</l><stg><st Contlex="N_KARJALAINE">bulka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vehnäleipä</t><t pos="N">pulla</t></tg></mg></e>
+<e><lg><l pos="N">bulʼkeh</l><stg><st Contlex="N_TOVESTEH">bulʼkeh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pulputus</t><t pos="N">solina</t></tg></mg></e>
+<e><lg><l pos="N">bulʼku</l><stg><st Contlex="N_KOIRU">bulʼka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">paise</t><t pos="N">ajos</t></tg></mg></e>
+<e><lg><l pos="N">bulʼkuine</l><stg><st Contlex="N_KARJALAINE">bulʼku</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">näppy</t><t pos="N">näppylä</t></tg></mg></e>
+<e><lg><l pos="N">bumerangu</l><stg><st Contlex="N_MUARJU">bumeranga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">bumerangi</t></tg></mg></e>
+<e><lg><l pos="N">bumuagudengu</l><stg><st Contlex="N_MUARJU">bumuagu#denga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">seteli</t></tg></mg></e>
+<e><lg><l pos="N">bunkeri</l><stg><st Contlex="N_ARTELI">bunkeria</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">suoja</t><t pos="N">korsu</t><t pos="N">bunkkeri</t></tg></mg></e>
+<e><lg><l pos="N">buntu</l><stg><st Contlex="N_MUARJU">bunta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kapina</t><t pos="N">mellakka</t></tg></mg></e>
+<e><lg><l pos="N">buntuiččii</l><stg><st Contlex="N_PAGIZII">buntuičči</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kapinallinen</t><t pos="N">kapinoitsija</t></tg></mg></e>
+<e><lg><l pos="N">burbetandu</l><stg><st Contlex="N_MUARJU">burbetanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mumina</t><t pos="N">mutina</t></tg></mg></e>
+<e><lg><l pos="N">burbettai</l><stg><st Contlex="N_PAGIZII">burbetta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mumisija</t><t pos="N">murisija</t></tg></mg></e>
+<e><lg><l pos="N">burineh</l><stg><st Contlex="N_TOVESTEH">burineh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">murina</t><t pos="N">mörinä</t></tg></mg></e>
+<e><lg><l pos="N">burizendu</l><stg><st Contlex="N_MUARJU">burizenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">murina</t><t pos="N">murahtelu</t><t pos="N">marmatus</t></tg></mg></e>
+<e><lg><l pos="N">bʼuro</l><stg><st Contlex="N_RUNO">bʼuro</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">toimisto</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">toimikunta</t><t pos="N">johtokunta</t></tg></mg></e>
+<e><lg><l pos="N">bʼurokratizmu</l><stg><st Contlex="N_MUARJU">bʼurokratizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">byrokratia</t><t pos="N">virkavalta</t></tg></mg></e>
+<e><lg><l pos="N">bʼurokruatii</l><stg><st Contlex="N_KONDII">bʼurokruati</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">byrokratia</t><t pos="N">virkavalta</t></tg></mg></e>
+<e><lg><l pos="N">bʼurokruattu</l><stg><st Contlex="N_AKKU">bʼurokruatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">virkamies</t><t pos="N">virkavallan edustaja</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">byrokraatti</t></tg></mg></e>
+<e><lg><l pos="N">buržuilisto</l><stg><st Contlex="N_RUNO">buržuilisto</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">porvaristo</t></tg></mg></e>
+<e><lg><l pos="N">butafourii</l><stg><st Contlex="N_KONDII">butafouri</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">näyttömötarpeisto</t><t pos="N">näyttämövarusteet</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">näyte-esineet</t></tg></mg></e>
+<e><lg><l pos="N">butilkaine</l><stg><st Contlex="N_KARJALAINE">butilka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pullo</t></tg></mg></e>
+<e><lg><l pos="N">butku</l><stg><st Contlex="N_KOIRU">butka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">koppi</t></tg></mg></e>
+<e><lg><l pos="N">buuriško</l><stg><st Contlex="N_RUNO">buuriško</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">jyrrikkä</t><t pos="N">murjottaja</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">juro</t><t pos="N">synkkä</t><t pos="N">synkkämielinen</t></tg></mg></e>
+<e><lg><l pos="N">buzinu</l><stg><st Contlex="N_MUARJU">buzina</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">selja</t></tg></mg></e>
+<e><lg><l pos="N">bylletieni</l><stg><st Contlex="N_ARTELI">bylletienia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lääkärintodistus</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">äänestyslippu</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">tiedotus</t><t pos="N">tiedote</t></tg></mg></e>
+<e><lg><l pos="N">böbökkäine</l><stg><st Contlex="N_LIYGILÄINE">böbökkä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ötökkä</t></tg></mg></e>
+<e><lg><l pos="N">börineh</l><stg><st Contlex="N_PEREH">börineh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">surina</t><t pos="N">hyrinä</t><t pos="N">pörinä</t></tg></mg></e>
+<e><lg><l pos="N">čaivoi</l><stg><st Contlex="N_REBOI">čaivoi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">täin muna</t><t pos="N">saivar</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">täikärpänen</t></tg></mg></e>
+<e><lg><l pos="N">čakkuamine</l><stg><st Contlex="N_NAINE">čakkuami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">nuhteleminen</t><t pos="N">moittiminen</t></tg></mg></e>
+<e><lg><l pos="N">čakkuandu</l><stg><st Contlex="N_MUARJU">čakkuanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">nuhteleminen</t><t pos="N">moittiminen</t></tg></mg></e>
+<e><lg><l pos="N">čamodan</l><stg><st Contlex="N_TAIGIN">čamodan</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">matkalaukku</t></tg></mg></e>
+<e><lg><l pos="N">čarter</l><stg><st Contlex="N_TAIGIN">čarter</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rahtaussopimus</t><t pos="N">charter</t></tg></mg></e>
+<e><lg><l pos="N">častušku</l><stg><st Contlex="N_MUARJU">častuška</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tšastuška</t><t pos="N">rekilaulu</t></tg></mg></e>
+<e><lg><l pos="N">čečensu</l><stg><st Contlex="N_MUARJU">čečensa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tšetšeeni</t></tg></mg></e>
+<e><lg><l pos="N">čečevičču</l><stg><st Contlex="N_AKKU">čečevičča</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">linssi</t></tg></mg></e>
+<e><lg><l pos="N">čečotku</l><stg><st Contlex="N_MUARJU">čečotka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tšetšotka</t><t pos="N">steppi</t></tg></mg></e>
+<e><lg><l pos="N">čeehielaine</l><stg><st Contlex="N_KARJALAINE">čeehiela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tšekki</t><t pos="N">tšekinmaalainen</t></tg></mg></e>
+<e><lg><l pos="N">čempion</l><stg><st Contlex="N_TAIGIN">čempion</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mestari</t></tg></mg></e>
+<e><lg><l pos="N">čempionuattu</l><stg><st Contlex="N_AKKU">čempionuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mestaruuskilpailut</t></tg></mg></e>
+<e><lg><l pos="N">čerdakku</l><stg><st Contlex="N_AKKU">čerdakka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ullakko</t></tg></mg></e>
+<e><lg><l pos="N">čeremissu</l><stg><st Contlex="N_AKKU">čeremissa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tšeremissi</t><t pos="N">mari</t></tg></mg></e>
+<e><lg><l pos="N">čerepuahu</l><stg><st Contlex="N_MUARJU">čerepuaha</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kilpikonna</t></tg></mg></e>
+<e><lg><l pos="N">černiltačmu</l><stg><st Contlex="N_MUARJU">černil#tačma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mustetahra</t><t pos="N">mustetäplä</t></tg></mg></e>
+<e><lg><l pos="N">četverti</l><stg><st Contlex="N_LEIRI">četverti</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">neljännes</t><t pos="N">neljäsosa</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">lukuvuoden neljännes</t></tg></mg></e>
+<e><lg><l pos="N">čiekku</l><stg><st Contlex="N_AKKU">čiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuitti</t></tg></mg></e>
+<e><lg><l pos="N">čiganjoukko</l><stg><st Contlex="N_RUADO">čigan#joukko</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mustalaisleiri</t></tg></mg></e>
+<e><lg><l pos="N">čiganoinazetuskohtu</l><stg><st Contlex="N_KOIRU">čiganoin#azetus#kohta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mustalaisten leiripaikka</t></tg></mg></e>
+<e><lg><l pos="N">čiganoinstuanu</l><stg><st Contlex="N_MUARJU">čiganoin#stuanu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mustalaisten leiripaikka</t></tg></mg></e>
+<e><lg><l pos="N">čiha</l><stg><st Contlex="N_KALA">čiha</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">nokkavuus</t><t pos="N">nenäkkyys</t></tg></mg></e>
+<e><lg><l pos="N">čihineh</l><stg><st Contlex="N_PEREH">čihineh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sihinä</t><t pos="N">sähinä</t><t pos="N">pihinä</t></tg></mg></e>
+<e><lg><l pos="N">čihkandu</l><stg><st Contlex="N_MUARJU">čihkanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">nyyhkytys</t><t pos="N">nyyhkintä</t><t pos="N">nyyhke</t></tg></mg></e>
+<e><lg><l pos="N">čiihakko</l><stg><st Contlex="N_RUADO">čiihakko</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">harallaan</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kipakka</t><t pos="N">kiihkeä</t><t pos="N">koppava</t><t pos="N">nokkava</t><t pos="N">nenäkäs</t></tg></mg></e>
+<e><lg><l pos="N">čiitätes</l><stg><st Contlex="N_ILVES">čiitäteks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alijäähtynyt vesi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">räntä</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">ohut jää</t><t pos="N">riite</t></tg></mg></e>
+<e><lg><l pos="N">čiksutus</l><stg><st Contlex="N_ALUS">čiksutuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">naksutus</t><t pos="N">poksahdus</t></tg></mg></e>
+<e><lg><l pos="N">čilineh</l><stg><st Contlex="N_PEREH">čilineh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">helinä</t><t pos="N">kilinä</t></tg></mg></e>
+<e><lg><l pos="N">čilkehtys</l><stg><st Contlex="N_ILVES">čilkehtyks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">välähdys</t><t pos="N">pilkahdus</t></tg></mg></e>
+<e><lg><l pos="N">čilketys</l><stg><st Contlex="N_ILVES">čilketyks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">loisto</t><t pos="N">loiste</t><t pos="N">kiilto</t></tg></mg></e>
+<e><lg><l pos="N">čilkutus</l><stg><st Contlex="N_ALUS">čilkutuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">helinä</t><t pos="N">kilinä</t></tg></mg></e>
+<e><lg><l pos="N">čilu</l><stg><st Contlex="N_KOIVU">čilu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kilinä</t><t pos="N">helinä</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kilisevä lelu</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">sirpale</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">ohut kevätjää</t></tg></mg></e>
+<e><lg><l pos="N">činouniekku</l><stg><st Contlex="N_AKKU">činouniekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">virkamies</t></tg></mg></e>
+<e><lg><l pos="N">čirineh</l><stg><st Contlex="N_PEREH">čirineh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sirkutus</t><t pos="N">tirskutus</t></tg></mg></e>
+<e><lg><l pos="N">čirkaine</l><stg><st Contlex="N_KARJALAINE">čirka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">heinäsirkka</t></tg></mg></e>
+<e><lg><l pos="N">čirkupualikku</l><stg><st Contlex="N_AKKU">čirku#pualikka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">čirku-pelissä käytetty puukapula tai karttu</t><t pos="N">jolla sitä lyödään </t></tg></mg></e>
+<e><lg><l pos="N">čiyčetys</l><stg><st Contlex="N_ILVES">čiyčetyks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sirkutus</t><t pos="N">tirskutus</t></tg></mg></e>
+<e><lg><l pos="N">čiäry</l><stg><st Contlex="N_PÄIVY">čiärä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">nuha</t></tg></mg></e>
+<e><lg><l pos="N">čokki</l><stg><st Contlex="N_PAPPI">čokki</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sokka</t><t pos="N">tappi</t><t pos="N">pultti</t></tg></mg></e>
+<e><lg><l pos="N">čomapaginkieli</l><stg><st Contlex="N_KIELI">čoma#pagin#kiel</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kaunopuheisuus</t></tg></mg></e>
+<e><lg><l pos="N">čomendai</l><stg><st Contlex="N_PAGIZII">čomenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">somistaja</t></tg></mg></e>
+<e><lg><l pos="N">čomendamine</l><stg><st Contlex="N_NAINE">čomendami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">koristaminen</t></tg></mg></e>
+<e><lg><l pos="N">čomendandu</l><stg><st Contlex="N_MUARJU">čomendanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">koristus</t><t pos="N">kaunistus</t></tg></mg></e>
+<e><lg><l pos="N">čomendelendu</l><stg><st Contlex="N_MUARJU">čomendelenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">komeileminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">koristaminen</t></tg></mg></e>
+<e><lg><l pos="N">čomendelu</l><stg><st Contlex="N_KOIVU">čomendelu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">komeileminen</t><t pos="N">komeilu</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">koristus</t></tg></mg></e>
+<e><lg><l pos="N">čopakko</l><stg><st Contlex="N_RUADO">čopakko</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tarkka</t><t pos="N">huolellinen</t><t pos="N">täsmällinen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">tarkkuutta vaativa</t><t pos="N">hankala</t><t pos="N">vaikea</t></tg></mg></e>
+<e><lg><l pos="N">čotaiččemine</l><stg><st Contlex="N_NAINE">čotaiččemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">laskeminen</t></tg></mg></e>
+<e><lg><l pos="N">čotaičendu</l><stg><st Contlex="N_MUARJU">čotaičenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lasku</t><t pos="N">laskenta</t></tg></mg></e>
+<e><lg><l pos="N">čotanpidäi</l><stg><st Contlex="N_PEZII">čotan#pidä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tilinpitäjä</t></tg></mg></e>
+<e><lg><l pos="N">čuajuniittyheiny</l><stg><st Contlex="N_PÄIVY">čuaju#niitty#heinä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alpi</t></tg></mg></e>
+<e><lg><l pos="N">čuašku</l><stg><st Contlex="N_MUARJU">čuaška</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuppi</t></tg></mg></e>
+<e><lg><l pos="N">čugun</l><stg><st Contlex="N_TAIGIN">čugun</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">harkkorauta</t><t pos="N">valorauta</t></tg></mg></e>
+<e><lg><l pos="N">čuhkahus</l><stg><st Contlex="N_ALUS">čuhkahuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuiske</t><t pos="N">kuiskaus</t><t pos="N">kuiskutus</t></tg></mg></e>
+<e><lg><l pos="N">čuhkeh</l><stg><st Contlex="N_TOVESTEH">čuhkeh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuiske</t><t pos="N">kuiskaus</t><t pos="N">kuiskutus</t></tg></mg></e>
+<e><lg><l pos="N">čukeldajaine</l><stg><st Contlex="N_KARJALAINE">čukeldaja</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sukeltaja (eläin)</t></tg></mg></e>
+<e><lg><l pos="N">čukeldui</l><stg><st Contlex="N_PAGIZII">čukeldu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sukeltaja </t></tg></mg></e>
+<e><lg><l pos="N">čukeldusveneh</l><stg><st Contlex="N_PEREH">čukeldus#veneh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sukellusvene</t></tg></mg></e>
+<e><lg><l pos="N">čukkeli</l><stg><st Contlex="N_ARTELI">čukkelia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sukellus </t></tg></mg></e>
+<e><lg><l pos="N">čukkelo</l><stg><st Contlex="N_RUNO">čukkelo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sukeltajasorsa</t></tg></mg></e>
+<e><lg><l pos="N">čuppumiärätin</l><stg><st Contlex="N_KEITIN">čuppu#miärätti</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kulmamittari</t></tg></mg></e>
+<e><lg><l pos="N">čura</l><stg><st Contlex="N_KALA">čura</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">puoli</t><t pos="N">syrjä</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">suunta</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">näkökanta</t><t pos="N">kannanotto</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">osapuoli</t><t pos="N">joukko</t><t pos="N">joukkue</t><t pos="N">ryhmä</t></tg></mg><!-- taipuu kui oza, monikos ozii  :: --></e>
+<e><lg><l pos="N">čuravo</l><stg><st Contlex="N_RUNO">čuravo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mäenlasku</t></tg></mg></e>
+<e><lg><l pos="N">čuruamine</l><stg><st Contlex="N_NAINE">čuruami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mäenlasku</t></tg></mg></e>
+<e><lg><l pos="N">čuruandu</l><stg><st Contlex="N_MUARJU">čuruanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mäenlasku</t></tg></mg></e>
+<e><lg><l pos="N">čusvattomus</l><stg><st Contlex="N_PUHTAHUS">čusvattomu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tunnottomuus</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">tunteettomuus</t></tg></mg></e>
+<e><lg><l pos="N">čusvii</l><stg><st Contlex="N_KONDII">čusvi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aisti</t><t pos="N">tunto</t><t pos="N">tunne</t></tg></mg></e>
+<e><lg><l pos="N">čusvu</l><stg><st Contlex="N_KOIRU">čusva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aisti</t><t pos="N">tunto</t><t pos="N">tunne</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">taju</t></tg></mg></e>
+<e><lg><l pos="N">čuučelo</l><stg><st Contlex="N_RUNO">čuučelo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">linnun kuva</t><t pos="N">houkutuslintu</t><t pos="N">bulvaani</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">retale</t></tg></mg></e>
+<e><lg><l pos="N">čuvvonluadii</l><stg><st Contlex="N_PAGIZII">čuvvonluadi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ihmeidentekijä</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">ihmeitä tekevä</t></tg></mg></e>
+<e><lg><l pos="N">čäčätys</l><stg><st Contlex="N_ILVES">čäčätyks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">surina</t><t pos="N">sirinä</t><t pos="N">sirkutus</t><t pos="N">räkätys</t><t pos="N">säksätys</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">räpätys</t><t pos="N">pulina</t></tg></mg></e>
+<e><lg><l pos="N">čäijähtys</l><stg><st Contlex="N_ILVES">čäijähtyks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">välähdys</t><t pos="N">pilkahdus</t></tg></mg></e>
+<e><lg><l pos="N">čäri</l><stg><st Contlex="N_LEIRI">čäri</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sora</t></tg></mg></e>
+<e><lg><l pos="N">čökeh</l><stg><st Contlex="N_LIIKEH">čöka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pisto</t><t pos="N">pistos</t></tg></mg></e>
+<e><lg><l pos="N">čökehviivu</l><stg><st Contlex="N_MUARJU">čökeh#viiva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">katkoviiva</t></tg></mg></e>
+<e><lg><l pos="N">čökeriädy</l><stg><st Contlex="N_IDY">čöke#riädy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kolmen pisteen ryhmä</t></tg></mg></e>
+<e><lg><l pos="N">daalii</l><stg><st Contlex="N_KONDII">daali</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">daalia</t><t pos="N">syyshehku</t></tg></mg></e>
+<e><lg><l pos="N">dʼalai</l><stg><st Contlex="N_PAGIZII">dʼala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">jalava</t></tg></mg></e>
+<e><lg><l pos="N">dantistu</l><stg><st Contlex="N_MUARJU">dantista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hammaslääkäri</t></tg></mg></e>
+<e><lg><l pos="N">debjuttu</l><stg><st Contlex="N_AKKU">debjutta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ensiesiintyminen</t></tg></mg></e>
+<e><lg><l pos="N">dʼebuattu</l><stg><st Contlex="N_AKKU">dʼebuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">väittely</t><t pos="N">sanakiista</t><t pos="N">debatti</t></tg></mg></e>
+<e><lg><l pos="N">defiissu</l><stg><st Contlex="N_AKKU">defiissa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">yhdysmerkki</t><t pos="N">tavuviiva</t></tg></mg></e>
+<e><lg><l pos="N">defitsiittu</l><stg><st Contlex="N_AKKU">defitsiitta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vajaus</t><t pos="N">vaje</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">puute</t><t pos="N">pula</t></tg></mg></e>
+<e><lg><l pos="N">degradatsii</l><stg><st Contlex="N_KONDII">degradatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">taantuminen</t><t pos="N">rappeuttuminen</t></tg></mg></e>
+<e><lg><l pos="N">dekan</l><stg><st Contlex="N_TAIGIN">dekan</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">dekaani</t></tg></mg></e>
+<e><lg><l pos="N">dekanuattu</l><stg><st Contlex="N_AKKU">dekanuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">dekaanivirasto</t></tg></mg></e>
+<e><lg><l pos="N">delʼanku</l><stg><st Contlex="N_MUARJU">delʼanka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(maa)palsta</t><t pos="N">(metsä)palsta</t><t pos="N">hakkuupalsta</t></tg></mg></e>
+<e><lg><l pos="N">delʼfin</l><stg><st Contlex="N_TAIGIN">delʼfin</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">delfiini</t></tg></mg></e>
+<e><lg><l pos="N">demagougii</l><stg><st Contlex="N_KONDII">demagougi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">demagogia</t></tg></mg></e>
+<e><lg><l pos="N">demagougu</l><stg><st Contlex="N_MUARJU">demagouga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">demagogi </t></tg></mg></e>
+<e><lg><l pos="N">demobilizatsii</l><stg><st Contlex="N_KONDII">demobilizatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kotiuttaminen</t><t pos="N">demobilisointi</t></tg></mg></e>
+<e><lg><l pos="N">demogruafii</l><stg><st Contlex="N_KONDII">demogruafi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">demografia</t><t pos="N">väestötiedo</t></tg></mg></e>
+<e><lg><l pos="N">denganandai</l><stg><st Contlex="N_PAGIZII">dengan#anda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sponsori</t><t pos="N">rahoittaja</t></tg></mg></e>
+<e><lg><l pos="N">dʼengankeriändy</l><stg><st Contlex="N_PIÄSTÄNDY">dʼengankeriändä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">varojen keruu</t></tg></mg></e>
+<e><lg><l pos="N">denganmeno</l><stg><st Contlex="N_RUNO">dengan#meno</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rahan menot</t><t pos="N">kustannukset</t><t pos="N">kulut</t></tg></mg></e>
+<e><lg><l pos="N">denganmyöndämine</l><stg><st Contlex="N_KIELINE">dengan#myöndämi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">varojen myöntäminen</t></tg></mg></e>
+<e><lg><l pos="N">denganpido</l><stg><st Contlex="N_RUADO">dengan#pido</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rahakäyttö</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">raha-asioiden hoito</t></tg></mg></e>
+<e><lg><l pos="N">denganpidäi</l><stg><st Contlex="N_PEZII">dengan#pidä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rahankäyttäjä</t></tg></mg></e>
+<e><lg><l pos="N">dengukassoinkeriäjy</l><stg><st Contlex="N_KERIÄJY">dengu#kassoin#keriäja</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kassankerääjä</t></tg></mg></e>
+<e><lg><l pos="N">dengukukkaro</l><stg><st Contlex="N_RUNO">dengu#kukkaro</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rahakukkaro</t></tg></mg></e>
+<e><lg><l pos="N">dengulähetys</l><stg><st Contlex="N_ILVES">dengu#lähetyks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rahalähetys</t><t pos="N">rahan siirto</t></tg></mg></e>
+<e><lg><l pos="N">dengupanos</l><stg><st Contlex="N_ALUS">dengu#panoks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pelipanos</t></tg></mg></e>
+<e><lg><l pos="N">desantu</l><stg><st Contlex="N_MUARJU">desanta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">maihinnousujoukot</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">maahanlaskujoukot</t><t pos="N">ilmasissiosasto</t></tg></mg></e>
+<e><lg><l pos="N">despottu</l><stg><st Contlex="N_AKKU">despotta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">itsevaltias</t><t pos="N">despootti</t></tg></mg></e>
+<e><lg><l pos="N">detektiivu</l><stg><st Contlex="N_MUARJU">detektiiva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">salapoliisiromaani</t><t pos="N">salapoliisikertomus</t><t pos="N">dekkari</t></tg></mg></e>
+<e><lg><l pos="N">detuali</l><stg><st Contlex="N_ARTELI">detualia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">osa</t><t pos="N">työstettävä kappale</t><t pos="N">työkappale</t></tg></mg></e>
+<e><lg><l pos="N">deviizu</l><stg><st Contlex="N_MUARJU">deviiza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tunnuslause</t><t pos="N">motto</t></tg></mg></e>
+<e><lg><l pos="N">diafragmu</l><stg><st Contlex="N_MUARJU">diafragma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pallea diafragma</t></tg></mg></e>
+<e><lg><l pos="N">diagnozu</l><stg><st Contlex="N_MUARJU">diagnoza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">taudinmääritys</t><t pos="N">diagnoosi</t></tg></mg></e>
+<e><lg><l pos="N">diagrammu</l><stg><st Contlex="N_MUARJU">diagramma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">diagrammi</t></tg></mg></e>
+<e><lg><l pos="N">dialektizmu</l><stg><st Contlex="N_MUARJU">dialektizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">murresana</t><t pos="N">murteellisuus</t></tg></mg></e>
+<e><lg><l pos="N">dialektu</l><stg><st Contlex="N_MUARJU">dialekta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">murre </t></tg></mg></e>
+<e><lg><l pos="N">dialogu</l><stg><st Contlex="N_MUARJU">dialoga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vuoropuhelu</t><t pos="N">keskustelu</t><t pos="N">dialogi</t></tg></mg></e>
+<e><lg><l pos="N">diametru</l><stg><st Contlex="N_MUARJU">diametra</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">halkaisija</t><t pos="N">diametri</t></tg></mg></e>
+<e><lg><l pos="N">diettu</l><stg><st Contlex="N_AKKU">dietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ruokavalio</t><t pos="N">dieetti</t></tg></mg></e>
+<e><lg><l pos="N">difterii</l><stg><st Contlex="N_STIPENDII">difteri</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kurkkumätä</t><t pos="N">difteria</t></tg></mg></e>
+<e><lg><l pos="N">diivu</l><stg><st Contlex="N_MUARJU">diiva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ihme</t><t pos="N">kumma</t></tg></mg></e>
+<e><lg><l pos="N">diktor</l><stg><st Contlex="N_TAIGIN">diktor</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuuluttaja</t></tg></mg></e>
+<e><lg><l pos="N">diplomuatii</l><stg><st Contlex="N_KONDII">diplomuati</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">diplomatia</t></tg></mg></e>
+<e><lg><l pos="N">diplomuattu</l><stg><st Contlex="N_AKKU">diplomuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">diplomaatti</t></tg></mg></e>
+<e><lg><l pos="N">diskiettu</l><stg><st Contlex="N_AKKU">diskietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">levyke</t></tg></mg></e>
+<e><lg><l pos="N">diskriminatsii</l><stg><st Contlex="N_KONDII">diskriminatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">syrjintä</t><t pos="N">diskriminointi</t></tg></mg></e>
+<e><lg><l pos="N">divan</l><stg><st Contlex="N_TAIGIN">divan</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sohva</t></tg></mg></e>
+<e><lg><l pos="N">dizenterii</l><stg><st Contlex="N_STIPENDII">dizenteri</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">punatauti</t><t pos="N">dysenteria</t></tg></mg></e>
+<e><lg><l pos="N">dʼokti</l><stg><st Contlex="N_ARTELI">dʼoktia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tuohiterva</t><t pos="N">koivuterva</t><t pos="N">tökötti</t></tg></mg></e>
+<e><lg><l pos="N">dokumentoičendu</l><stg><st Contlex="N_MUARJU">dokumentoičenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">dokumentointi</t></tg></mg></e>
+<e><lg><l pos="N">dollar</l><stg><st Contlex="N_TAIGIN">dollar</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">dollari</t></tg></mg></e>
+<e><lg><l pos="N">dorogattomus</l><stg><st Contlex="N_PUHTAHUS">dorogattomu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tiettömyys</t></tg></mg></e>
+<e><lg><l pos="N">drenuažu</l><stg><st Contlex="N_MUARJU">drenuaža</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(sala)ojitus</t></tg></mg></e>
+<e><lg><l pos="N">druamu</l><stg><st Contlex="N_MUARJU">druama</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">näytelmä</t><t pos="N">draama</t></tg></mg></e>
+<e><lg><l pos="N">drušlakku</l><stg><st Contlex="N_AKKU">drušlakka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lävikkö</t></tg></mg></e>
+<e><lg><l pos="N">družin</l><stg><st Contlex="N_TAIGIN">družin</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">družina</t><t pos="N">joukkue</t></tg></mg></e>
+<e><lg><l pos="N">družinniekku</l><stg><st Contlex="N_AKKU">družinniekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">järjestyksenvalvoja</t></tg></mg></e>
+<e><lg><l pos="N">duanielaine</l><stg><st Contlex="N_KARJALAINE">duaniela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tanskalainen</t></tg></mg></e>
+<e><lg><l pos="N">dublikuattu</l><stg><st Contlex="N_AKKU">dublikuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kaksoiskappale</t><t pos="N">duplikaatti</t><t pos="N">jäljennös</t></tg></mg></e>
+<e><lg><l pos="N">duumaiččemattomus</l><stg><st Contlex="N_PUHTAHUS">duumaiččemattomu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajattelemattomuus</t></tg></mg></e>
+<e><lg><l pos="N">duumaiččemine</l><stg><st Contlex="N_NAINE">duumaiččemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajatteleminen</t></tg></mg></e>
+<e><lg><l pos="N">duumaiččii</l><stg><st Contlex="N_PAGIZII">duumaičči</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ajattelija</t></tg></mg></e>
+<e><lg><l pos="N">džem</l><stg><st Contlex="N_TAIGIN">džem</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">marmeladi</t></tg></mg></e>
+<e><lg><l pos="N">džuazu</l><stg><st Contlex="N_MUARJU">džuaza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">jatsi</t><t pos="N">jazz</t></tg></mg></e>
+<e><lg><l pos="N">ebäilemine</l><stg><st Contlex="N_KIELINE">ebäilemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">epäileminen</t></tg></mg></e>
+<e><lg><l pos="N">ebäilendy</l><stg><st Contlex="N_PIÄSTÄNDY">ebäilendä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">epäileminen</t></tg></mg></e>
+<e><lg><l pos="N">ebäilys</l><stg><st Contlex="N_ILVES">ebäilyks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">epäily</t><t pos="N">epäilys</t></tg></mg></e>
+<e><lg><l pos="N">ebäkundo</l><stg><st Contlex="N_RUADO">ebä#kundo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">epäjärjestys</t></tg></mg></e>
+<e><lg><l pos="N">ebäoigevus</l><stg><st Contlex="N_PUHTAHUS">ebä#oigevu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vääryys</t><t pos="N">epäoikeudenmukaisuus</t></tg></mg></e>
+<e><lg><l pos="N">ebätoivo</l><stg><st Contlex="N_RUNO">ebätoivo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">epätoivo</t></tg></mg></e>
+<e><lg><l pos="N">ebäyhtelö</l><stg><st Contlex="N_HÖRÖ">ebä#yhtelö</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">epäyhtälö</t></tg></mg></e>
+<e><lg><l pos="N">eččii</l><stg><st Contlex="N_PEZII">ečči</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etsijä</t></tg></mg></e>
+<e><lg><l pos="N">eččimine</l><stg><st Contlex="N_KIELINE">eččimi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etsiminen</t></tg></mg></e>
+<e><lg><l pos="N">eččimys</l><stg><st Contlex="N_ILVES">eččimyks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pyyntö</t><t pos="N">hakemus</t><t pos="N">anomus </t></tg></mg></e>
+<e><lg><l pos="N">edehpäimenendy</l><stg><st Contlex="N_PIÄSTÄNDY">edehpäimenendä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">edistys</t></tg></mg></e>
+<e><lg><l pos="N">edehpäivedäi</l><stg><st Contlex="N_PEZII">edehpäi#vedä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">edistäjä</t></tg></mg></e>
+<e><lg><l pos="N">edukäzimakso</l><stg><st Contlex="N_RUNO">edu#käzi#makso</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ennakko</t><t pos="N">etumaksu</t></tg></mg></e>
+<e><lg><l pos="N">eduliiteh</l><stg><st Contlex="N_LIIKEH">edu#liita</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etuliite</t><t pos="N">prefiksi</t></tg></mg></e>
+<e><lg><l pos="N">eduoigevus</l><stg><st Contlex="N_PUHTAHUS">edu#oigevu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etuoikeus</t></tg></mg></e>
+<e><lg><l pos="N">edusija</l><stg><st Contlex="N_KALA">edu#sija</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etusija</t></tg></mg></e>
+<e><lg><l pos="N">eetiekku</l><stg><st Contlex="N_AKKU">eetiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etiika</t><t pos="N">siveysoppi</t></tg></mg></e>
+<e><lg><l pos="N">effektu</l><stg><st Contlex="N_MUARJU">effekta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vaikutus</t><t pos="N">teho</t><t pos="N">efekti</t></tg></mg></e>
+<e><lg><l pos="N">efiiru</l><stg><st Contlex="N_MUARJU">efiira</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eetteri</t></tg></mg></e>
+<e><lg><l pos="N">egoistu</l><stg><st Contlex="N_MUARJU">egoista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">egoisti</t><t pos="N">itsekäs ihminen</t></tg></mg></e>
+<e><lg><l pos="N">egoizmu</l><stg><st Contlex="N_MUARJU">egoizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">egoismi</t><t pos="N">itsekkyys</t></tg></mg></e>
+<e><lg><l pos="N">ehoitandu</l><stg><st Contlex="N_MUARJU">ehoitanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tarjoaminen</t><t pos="N">ehdottaminen</t></tg></mg></e>
+<e><lg><l pos="N">ehoittamine</l><stg><st Contlex="N_NAINE">ehoittami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tarjoaminen</t><t pos="N">ehdottaminen</t></tg></mg></e>
+<e><lg><l pos="N">ehtyzorʼa</l><stg><st Contlex="N_OZA">ehty#zorʼa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">iltarusko</t></tg></mg></e>
+<e><lg><l pos="N">ehättämine</l><stg><st Contlex="N_KIELINE">ehättämi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuljettaminen-</t><t pos="N">vieminen</t></tg></mg></e>
+<e><lg><l pos="N">ehätyslauttu</l><stg><st Contlex="N_AKKU">ehätys#lautta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lautta</t></tg></mg></e>
+<e><lg><l pos="N">eiforii</l><stg><st Contlex="N_KONDII">eifori</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">euforia</t></tg></mg></e>
+<e><lg><l pos="N">einehlaukku</l><stg><st Contlex="N_AKKU">eineh#laukka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ruokasipuli</t></tg></mg></e>
+<e><lg><l pos="N">eketändy</l><stg><st Contlex="N_PIÄSTÄNDY">eketändä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">änkyttäminen</t><t pos="N">änkytys</t></tg></mg></e>
+<e><lg><l pos="N">ekonoumižus</l><stg><st Contlex="N_PUHTAHUS">ekonoumižu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">taloudellisuus</t><t pos="N">edullisuus</t></tg></mg></e>
+<e><lg><l pos="N">ekskavuator</l><stg><st Contlex="N_TAIGIN">ekskavuator</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kaivuri</t><t pos="N">kaivukone</t></tg></mg></e>
+<e><lg><l pos="N">ekskursienvedäi</l><stg><st Contlex="N_PEZII">ekskursien#vedä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">opas</t></tg></mg></e>
+<e><lg><l pos="N">ekskursiijoukko</l><stg><st Contlex="N_RUADO">ekskursii#joukko</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">retkeilijäryhmä</t></tg></mg></e>
+<e><lg><l pos="N">ekskursu</l><stg><st Contlex="N_MUARJU">ekskursa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ekskurssi</t><t pos="N">poikkeama</t></tg></mg></e>
+<e><lg><l pos="N">eksperimentu</l><stg><st Contlex="N_MUARJU">eksperimenta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">koe</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kokeilu</t></tg></mg></e>
+<e><lg><l pos="N">ekspertiizukundu</l><stg><st Contlex="N_AKKU">ekspertiizu#kunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asiantuntijalautakunta</t></tg></mg><!-- taipuu kuin akku  :: --></e>
+<e><lg><l pos="N">eksportu</l><stg><st Contlex="N_MUARJU">eksporta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vienti</t></tg></mg></e>
+<e><lg><l pos="N">eksportumiäry</l><stg><st Contlex="N_PÄIVY">eksportu#miärä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vientimäärä</t></tg></mg></e>
+<e><lg><l pos="N">ekspromtu</l><stg><st Contlex="N_MUARJU">ekspromta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tempore -esitys</t><t pos="N">tuokiosepitelmä</t></tg></mg></e>
+<e><lg><l pos="N">ekstremistu</l><stg><st Contlex="N_MUARJU">ekstremista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ekstremisti</t></tg></mg></e>
+<e><lg><l pos="N">ekvuator</l><stg><st Contlex="N_TAIGIN">ekvuator</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">päiväntasaaja</t><t pos="N">ekvaattori</t></tg></mg></e>
+<e><lg><l pos="N">ekzoutiekku</l><stg><st Contlex="N_AKKU">ekzoutiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eksoottisuus</t><t pos="N">eksotiikka</t></tg></mg></e>
+<e><lg><l pos="N">elaigu</l><stg><st Contlex="N_AKKU">elaiga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elämä</t></tg></mg></e>
+<e><lg><l pos="N">elavundu</l><stg><st Contlex="N_MUARJU">elavunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elpyminen</t></tg></mg></e>
+<e><lg><l pos="N">elavutandu</l><stg><st Contlex="N_MUARJU">elavutanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elvyttäminen</t></tg></mg></e>
+<e><lg><l pos="N">elbymine</l><stg><st Contlex="N_KIELINE">elbymi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elpyminen</t></tg></mg></e>
+<e><lg><l pos="N">elektriekku</l><stg><st Contlex="N_AKKU">elektriekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkömies</t><t pos="N">sähköasentaja</t></tg></mg></e>
+<e><lg><l pos="N">elektriičestvu</l><stg><st Contlex="N_MUARJU">elektriičestva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkö </t></tg></mg></e>
+<e><lg><l pos="N">elektročökeh</l><stg><st Contlex="N_LIIKEH">elektro#čöka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pistorasia</t></tg></mg></e>
+<e><lg><l pos="N">elektrodrieli</l><stg><st Contlex="N_ARTELI">elektro#drielia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähköpora</t></tg></mg></e>
+<e><lg><l pos="N">elektroenergii</l><stg><st Contlex="N_STIPENDII">elektro#energi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkövoima</t></tg></mg></e>
+<e><lg><l pos="N">elektrohierondu</l><stg><st Contlex="N_MUARJU">elektro#hieronda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähköhieronta</t></tg></mg></e>
+<e><lg><l pos="N">elektrolampu</l><stg><st Contlex="N_KOIVU">elektro#lampu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkölamppu</t></tg></mg></e>
+<e><lg><l pos="N">elektrolypsykoneh</l><stg><st Contlex="N_TOVESTEH">elektro#lypsy#koneh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lypsykone</t></tg></mg></e>
+<e><lg><l pos="N">elektrolämmitin</l><stg><st Contlex="N_KEITIN">elektrolämmitti</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkölämmitin</t></tg></mg><!-- keitin ja sammutin sama taivustus  , keitin on etuvokaaline, sammutin takavokaaline, lämmitin on kui keitin :: --></e>
+<e><lg><l pos="N">elektromagniettu</l><stg><st Contlex="N_AKKU">elektro#magnietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkömagneetti</t></tg></mg></e>
+<e><lg><l pos="N">elektromehuaniekku</l><stg><st Contlex="N_AKKU">elektro#mehuaniekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkömekaanikko</t><t pos="N">sähköasentaja</t></tg></mg></e>
+<e><lg><l pos="N">elektromehuanikku</l><stg><st Contlex="N_AKKU">elektro#mehuanikka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkömekaanikko</t><t pos="N">sähköasentaja</t></tg></mg></e>
+<e><lg><l pos="N">elektromiärätin</l><stg><st Contlex="N_KEITIN">elektromiärätti</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkömittari</t></tg></mg><!-- mikse sammutin? Miärätin taipuu kui keitin  :: --></e>
+<e><lg><l pos="N">elektromotor</l><stg><st Contlex="N_TAIGIN">elektro#motor</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkömoottori</t></tg></mg></e>
+<e><lg><l pos="N">elektromuasteri</l><stg><st Contlex="N_ARTELI">elektro#muasteria</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkömies </t></tg></mg></e>
+<e><lg><l pos="N">elektronasossu</l><stg><st Contlex="N_AKKU">elektro#nasossa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähköpumppu</t></tg></mg></e>
+<e><lg><l pos="N">elektron</l><stg><st Contlex="N_TAIGIN">elektron</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elektroni</t></tg></mg></e>
+<e><lg><l pos="N">elektroplitku</l><stg><st Contlex="N_MUARJU">elektroplitka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">keittolevy</t><t pos="N">sähkölevy</t></tg></mg></e>
+<e><lg><l pos="N">elektropoujezdu</l><stg><st Contlex="N_MUARJU">elektro#poujezda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähköjuna</t></tg></mg></e>
+<e><lg><l pos="N">elektroprovodu</l><stg><st Contlex="N_MUARJU">elektro#provoda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähköjohto</t></tg></mg></e>
+<e><lg><l pos="N">elektrosevoitin</l><stg><st Contlex="N_SAMMUTIN">elektro#sevoitti</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkövatkain</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">tehosekoitin</t></tg></mg></e>
+<e><lg><l pos="N">elektrostansii</l><stg><st Contlex="N_KONDII">elektro#stansi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">voimala</t><t pos="N">voimalaitos</t></tg></mg></e>
+<e><lg><l pos="N">elektrotehnikku</l><stg><st Contlex="N_AKKU">elektro#tehnikka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähkötekniikka</t></tg></mg></e>
+<e><lg><l pos="N">elektrouniekku</l><stg><st Contlex="N_AKKU">elektrouniekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elektroniikka</t></tg></mg></e>
+<e><lg><l pos="N">elektrovehkehienazettamine</l><stg><st Contlex="N_KIELINE">elektrovehkehienazettami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sähköasennus</t></tg></mg></e>
+<e><lg><l pos="N">elementu</l><stg><st Contlex="N_MUARJU">elementa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">alkuaine</t><t pos="N">elementti</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">aines</t><t pos="N">aineosa</t></tg></mg></e>
+<e><lg><l pos="N">eletty</l><stg><st Contlex="N_IDY">eletty</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eletty</t><t pos="N">koettu</t></tg></mg></e>
+<e><lg><l pos="N">elevuator</l><stg><st Contlex="N_TAIGIN">elevuator</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elevaattori</t><t pos="N">viljankuivaamo</t></tg></mg><!-- sama taivustus karjala da taigin  . Jätä taigin:: --></e>
+<e><lg><l pos="N">eliittu</l><stg><st Contlex="N_AKKU">eliitta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eliitti</t><t pos="N">parhaimmisto</t></tg></mg></e>
+<e><lg><l pos="N">eliksiiru</l><stg><st Contlex="N_MUARJU">eliksiira</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">uute</t></tg></mg></e>
+<e><lg><l pos="N">elinhommu</l><stg><st Contlex="N_KOIRU">elin#homma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elinkeino</t></tg></mg></e>
+<e><lg><l pos="N">ellendäi</l><stg><st Contlex="N_PEZII">ellendä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tuntija</t><t pos="N">ymmärtäjä</t><t pos="N">arvostaja</t></tg></mg></e>
+<e><lg><l pos="N">ellendändy</l><stg><st Contlex="N_PIÄSTÄNDY">ellendändä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ymmärtäminen</t></tg></mg></e>
+<e><lg><l pos="N">eloipaikanmerki</l><stg><st Contlex="N_LEIRI">eloi#paikan#merki</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">asuinpaikkamerkintä</t></tg></mg></e>
+<e><lg><l pos="N">elokkahus</l><stg><st Contlex="N_PUHTAHUS">elokkahu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hyvinvointi</t><t pos="N">toimeentulo</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">varakkuus</t></tg></mg></e>
+<e><lg><l pos="N">eloksenkirjuttai</l><stg><st Contlex="N_PAGIZII">eloksen#kirjutta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elämänkerran kirjoittaja</t><t pos="N">elämänkertoja</t><t pos="N">biografi</t></tg></mg></e>
+<e><lg><l pos="N">eloksenrakkahus</l><stg><st Contlex="N_PUHTAHUS">eloksen#rakkahu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elämänhalu</t></tg></mg></e>
+<e><lg><l pos="N">eloksensuvaičus</l><stg><st Contlex="N_ALUS">eloksen#suvaičuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elämänhalu</t></tg></mg></e>
+<e><lg><l pos="N">elontoimindu</l><stg><st Contlex="N_MUARJU">elon#toiminda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elintoiminnot</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">toiminta</t></tg></mg></e>
+<e><lg><l pos="N">elontulendu</l><stg><st Contlex="N_MUARJU">elontulenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tulo</t><t pos="N">ansio</t></tg></mg></e>
+<e><lg><l pos="N">elopaikku</l><stg><st Contlex="N_AKKU">elo#paikka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elinpaikka</t><t pos="N">asuinpaikka</t></tg></mg></e>
+<e><lg><l pos="N">eloskerdu</l><stg><st Contlex="N_AKKU">elos#kerda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elämäkerta</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">asuinkerros</t></tg></mg></e>
+<e><lg><l pos="N">elvitys</l><stg><st Contlex="N_ILVES">elvityks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elvytys</t></tg></mg></e>
+<e><lg><l pos="N">elvyttämine</l><stg><st Contlex="N_KIELINE">elvyttämi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elvyttäminen</t></tg></mg></e>
+<e><lg><l pos="N">elvytändy</l><stg><st Contlex="N_PIÄSTÄNDY">elvytändä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elvyttäminen</t><t pos="N">elvytys</t></tg></mg></e>
+<e><lg><l pos="N">eläinmuailmu</l><stg><st Contlex="N_MUARJU">eläin#mua#ilma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eläinmaailma</t></tg></mg></e>
+<e><lg><l pos="N">eläintiedäi</l><stg><st Contlex="N_PEZII">eläin#tiedä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eläintieteilijä</t><t pos="N">eläinten tutkija</t></tg></mg></e>
+<e><lg><l pos="N">eläkkehelolii</l><stg><st Contlex="N_PAGIZII">eläkkehel#oli</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eläkeläinen</t></tg></mg></e>
+<e><lg><l pos="N">elämine</l><stg><st Contlex="N_KIELINE">elämi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elämä</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">omaisuus</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">elintarpeet</t></tg></mg></e>
+<e><lg><l pos="N">eländy</l><stg><st Contlex="N_PIÄSTÄNDY">eländä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eläminen</t><t pos="N">elämä</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">asuminen</t></tg></mg></e>
+<e><lg><l pos="N">elättihuonus</l><stg><st Contlex="N_ALUS">elätti#huonuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tarha</t></tg></mg></e>
+<e><lg><l pos="N">elättilaji</l><stg><st Contlex="N_ARTELI">elätti#lajia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eläinlaji</t></tg></mg></e>
+<e><lg><l pos="N">elättäi</l><stg><st Contlex="N_PEZII">elättä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elättäjä</t></tg></mg></e>
+<e><lg><l pos="N">elätändy</l><stg><st Contlex="N_PIÄSTÄNDY">elätändä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elättäminen</t></tg></mg></e>
+<e><lg><l pos="N">emansipatsii</l><stg><st Contlex="N_KONDII">emansipatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">emansipaatio</t></tg></mg></e>
+<e><lg><l pos="N">embliemu</l><stg><st Contlex="N_MUARJU">embliema</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">embleemi</t><t pos="N">tunnus</t><t pos="N">tunnusmerkki</t></tg></mg></e>
+<e><lg><l pos="N">embrion</l><stg><st Contlex="N_TAIGIN">embrion</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sikiö</t><t pos="N">alkio</t></tg></mg></e>
+<e><lg><l pos="N">emigrantu</l><stg><st Contlex="N_MUARJU">emigranta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">siirtolainen</t><t pos="N">pakolainen</t></tg></mg></e>
+<e><lg><l pos="N">emigratsii</l><stg><st Contlex="N_KONDII">emigratsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">siirtolaisuus</t><t pos="N">maastamuutto</t><t pos="N">pakolaisuus</t></tg></mg></e>
+<e><lg><l pos="N">emotsii</l><stg><st Contlex="N_KONDII">emotsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tunne</t><t pos="N">emootio</t></tg></mg></e>
+<e><lg><l pos="N">emuali</l><stg><st Contlex="N_ARTELI">emualia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">emali</t></tg></mg></e>
+<e><lg><l pos="N">emäččy</l><stg><st Contlex="N_IDY">emäččy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">naaras</t></tg></mg></e>
+<e><lg><l pos="N">emändöiččemine</l><stg><st Contlex="N_KIELINE">emändöiččemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">emännöiminen</t></tg></mg></e>
+<e><lg><l pos="N">emändöičendy</l><stg><st Contlex="N_PIÄSTÄNDY">emändöičendä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">emännöinti</t><t pos="N">emännöiminen</t></tg></mg></e>
+<e><lg><l pos="N">endine</l><stg><st Contlex="N_KIELINE">endi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">entinen</t><t pos="N">vanha</t></tg></mg></e>
+<e><lg><l pos="N">energietiekku</l><stg><st Contlex="N_AKKU">energietiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">energiatalouden erikoistuntija</t><t pos="N">voimatalouden työntekijä</t></tg></mg></e>
+<e><lg><l pos="N">energii</l><stg><st Contlex="N_KONDII">energi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">energia</t><t pos="N">voima</t></tg></mg></e>
+<e><lg><l pos="N">enimistö</l><stg><st Contlex="N_HÖRÖ">enimistö</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">enemmistö</t></tg></mg></e>
+<e><lg><l pos="N">ennakkomieli</l><stg><st Contlex="N_KIELI">ennakko#miel</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ennakkoluulo</t></tg></mg></e>
+<e><lg><l pos="N">ennittämine</l><stg><st Contlex="N_KIELINE">ennittämi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ohitus</t><t pos="N">ohittaminen</t></tg></mg></e>
+<e><lg><l pos="N">ennitys</l><stg><st Contlex="N_ILVES">ennityks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ohitus</t><t pos="N">ohittaminen</t></tg></mg></e>
+<e><lg><l pos="N">ennitändy</l><stg><st Contlex="N_PIÄSTÄNDY">ennitändä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ohitus</t><t pos="N">ohittaminen</t></tg></mg></e>
+<e><lg><l pos="N">ennustus</l><stg><st Contlex="N_ALUS">ennustuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ennustus</t></tg></mg></e>
+<e><lg><l pos="N">ennustusmerki</l><stg><st Contlex="N_LEIRI">ennustus#merki</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">enne</t><t pos="N">ennusmerkki</t></tg></mg></e>
+<e><lg><l pos="N">ennustusmieli</l><stg><st Contlex="N_KIELI">ennustus#miel</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hypoteesi</t></tg></mg></e>
+<e><lg><l pos="N">enzikluassalaine</l><stg><st Contlex="N_KARJALAINE">enzi#kluassala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ensiluokkalainen</t></tg></mg></e>
+<e><lg><l pos="N">enziluokkalaine</l><stg><st Contlex="N_KARJALAINE">enzi#luokkala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ensiluokkalainen</t></tg></mg></e>
+<e><lg><l pos="N">enzi-ozutelmu</l><stg><st Contlex="N_MUARJU">enzi-ozutelma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ensi-ilta</t><t pos="N">ensiesitys</t></tg></mg></e>
+<e><lg><l pos="N">enzi-ozutus</l><stg><st Contlex="N_ALUS">enzi-ozutuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ensiesiintyminen </t></tg></mg></e>
+<e><lg><l pos="N">epidiemii</l><stg><st Contlex="N_KONDII">epidiemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">epidemia</t></tg></mg></e>
+<e><lg><l pos="N">epigraffu</l><stg><st Contlex="N_AKKU">epigraffa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">epigrafi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">motto</t></tg></mg></e>
+<e><lg><l pos="N">epikriizu</l><stg><st Contlex="N_MUARJU">epikriiza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">epikriisi</t></tg></mg></e>
+<e><lg><l pos="N">epilougu</l><stg><st Contlex="N_MUARJU">epilouga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">epilogi</t><t pos="N">loppusanat</t></tg></mg></e>
+<e><lg><l pos="N">episkoppu</l><stg><st Contlex="N_AKKU">episkoppa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">piispa</t></tg></mg></e>
+<e><lg><l pos="N">epizoudu</l><stg><st Contlex="N_MUARJU">epizouda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">episodi</t><t pos="N">välikohtaus</t><t pos="N">tapaus</t></tg></mg></e>
+<e><lg><l pos="N">erehtymättömys</l><stg><st Contlex="N_VÄHYS">erehtymättömy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">virheettömyys</t></tg></mg></e>
+<e><lg><l pos="N">erehtys</l><stg><st Contlex="N_ILVES">erehtyks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">virhe </t></tg></mg></e>
+<e><lg><l pos="N">eriarvožus</l><stg><st Contlex="N_PUHTAHUS">eri#arvožu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eriarvoisuus</t></tg></mg></e>
+<e><lg><l pos="N">erikieližys</l><stg><st Contlex="N_VÄHYS">eri#kieližy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">monikielisyys</t></tg></mg></e>
+<e><lg><l pos="N">erilažus</l><stg><st Contlex="N_PUHTAHUS">erilažu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">erimielisyys </t></tg></mg></e>
+<e><lg><l pos="N">eriluadužus</l><stg><st Contlex="N_PUHTAHUS">eri#luadužu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">moninaisuus</t><t pos="N">monipuolisuus</t></tg></mg></e>
+<e><lg><l pos="N">erimieli</l><stg><st Contlex="N_KIELI">eri#miel</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">erimielisyys</t></tg></mg></e>
+<e><lg><l pos="N">erimieližys</l><stg><st Contlex="N_VÄHYS">eri#mieližy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">erimielisyys</t></tg></mg></e>
+<e><lg><l pos="N">erioigevus</l><stg><st Contlex="N_PUHTAHUS">eri#oigevu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etu</t><t pos="N">erioikeus</t><t pos="N">etuoikeus</t></tg></mg></e>
+<e><lg><l pos="N">erioza</l><stg><st Contlex="N_OZA">eri#oza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">osa</t><t pos="N">työkappale</t></tg></mg></e>
+<e><lg><l pos="N">eristeh</l><stg><st Contlex="N_PEREH">eristeh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eristin</t></tg></mg></e>
+<e><lg><l pos="N">eriteh</l><stg><st Contlex="N_LIIKEH">eritteh</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eritteet</t><t pos="N">eritys</t></tg></mg></e>
+<e><lg><l pos="N">erittely</l><stg><st Contlex="N_KOIVU">erittely</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">erittely</t><t pos="N">analyysi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">koe</t></tg></mg><!-- pitäisikö olla etuvokaline sana?  :: --></e>
+<e><lg><l pos="N">eroitandu</l><stg><st Contlex="N_MUARJU">eroitanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">erottaminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">valinta</t><t pos="N">valitseminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">eroaminen</t><t pos="N">vieroittaminen</t></tg></mg></e>
+<e><lg><l pos="N">eroittelemine</l><stg><st Contlex="N_NAINE">eroittelemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">jakautuminen kerroksiin</t><t pos="N">irtoaminen kerroksittain</t><t pos="N">halkeilemininen levyiksi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">jakautua ryhmiin</t><t pos="N">luokkiin</t></tg></mg></e>
+<e><lg><l pos="N">eroittelendu</l><stg><st Contlex="N_MUARJU">eroittelenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">jakautuminen kerroksiin</t><t pos="N">irtoaminen kerroksittain</t><t pos="N">halkeilemininen levyiksi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">jakautua ryhmiin</t><t pos="N">luokkiin</t></tg></mg></e>
+<e><lg><l pos="N">eroittumine</l><stg><st Contlex="N_NAINE">eroittumi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eroaminen</t><t pos="N">erottuminen </t></tg></mg></e>
+<e><lg><l pos="N">eroitundu</l><stg><st Contlex="N_MUARJU">eroitunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eroaminen</t><t pos="N">erottuminen </t></tg></mg></e>
+<e><lg><l pos="N">eroitus</l><stg><st Contlex="N_ALUS">eroituks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eroaminen</t><t pos="N">erottuminen </t></tg></mg></e>
+<e><lg><l pos="N">eroitusperti</l><stg><st Contlex="N_LEIRI">eroitus#perti</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eristyshuone</t></tg></mg></e>
+<e><lg><l pos="N">eromerki</l><stg><st Contlex="N_LEIRI">ero#merki</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kunniamerkki</t></tg></mg></e>
+<e><lg><l pos="N">erosolendu</l><stg><st Contlex="N_MUARJU">eros#olenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">erossaolo</t></tg></mg></e>
+<e><lg><l pos="N">erudiittu</l><stg><st Contlex="N_AKKU">erudiitta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">oppinut henkilö</t></tg></mg></e>
+<e><lg><l pos="N">eruditsii</l><stg><st Contlex="N_KONDII">eruditsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eruditio</t><t pos="N">oppineisuus</t><t pos="N">perehtyneisyys</t><t pos="N">syvälliset tiedot</t></tg></mg></e>
+<e><lg><l pos="N">eruomine</l><stg><st Contlex="N_NAINE">eruomi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">erotus</t><t pos="N">erottaminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">irrotus</t><t pos="N">irrottaminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">eristys</t><t pos="N">eristyminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">eroaminen</t><t pos="N">erottuminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">irtoaminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">eristyminen</t></tg></mg></e>
+<e><lg><l pos="N">eruomishimo</l><stg><st Contlex="N_RUNO">eruomis#himo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">separatismi</t><t pos="N">eristäytymispyrkimys</t><t pos="N">irrouttauttumispyrkimys</t></tg></mg></e>
+<e><lg><l pos="N">eruomistahto</l><stg><st Contlex="N_RUNO">eruomis#tahto</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">separatismi</t><t pos="N">eristäytymispyrkimys</t><t pos="N">irrouttauttumispyrkimys</t></tg></mg></e>
+<e><lg><l pos="N">eskadron</l><stg><st Contlex="N_TAIGIN">eskadron</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eskadroona</t></tg></mg></e>
+<e><lg><l pos="N">eskadru</l><stg><st Contlex="N_MUARJU">eskadra</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eskaaderi</t></tg></mg></e>
+<e><lg><l pos="N">eskalatsii</l><stg><st Contlex="N_KONDII">eskalatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">laajentaminen</t><t pos="N">eskalaatio</t></tg></mg></e>
+<e><lg><l pos="N">eskaloppu</l><stg><st Contlex="N_AKKU">eskaloppa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(paisti)leike</t></tg></mg></e>
+<e><lg><l pos="N">eskaluator</l><stg><st Contlex="N_TAIGIN">eskaluator</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">liukuportaat</t></tg></mg></e>
+<e><lg><l pos="N">eskiizu</l><stg><st Contlex="N_MUARJU">eskiiza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">luonnos</t><t pos="N">hahmotelma</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">lavasteluonnos</t></tg></mg></e>
+<e><lg><l pos="N">eskimo</l><stg><st Contlex="N_RUNO">eskimo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">jäätelöpuikko</t></tg></mg></e>
+<e><lg><l pos="N">estietiekku</l><stg><st Contlex="N_AKKU">estietiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">estetiikka</t></tg></mg></e>
+<e><lg><l pos="N">estonsu</l><stg><st Contlex="N_MUARJU">estonsa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eestiläinen</t></tg></mg></e>
+<e><lg><l pos="N">estounielaine</l><stg><st Contlex="N_KARJALAINE">estouniela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eestiläinen</t></tg></mg></e>
+<e><lg><l pos="N">estruadu</l><stg><st Contlex="N_MUARJU">estruada</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lava</t><t pos="N">koroke</t><t pos="N">estradi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">viihde</t></tg></mg></e>
+<e><lg><l pos="N">eständykeino</l><stg><st Contlex="N_RUNO">eständy#keino</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ennakkoehkäisy</t><t pos="N">ennakkotorjunta</t></tg></mg></e>
+<e><lg><l pos="N">etiketku</l><stg><st Contlex="N_MUARJU">etiketka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etiketti</t><t pos="N">nimilappu</t></tg></mg></e>
+<e><lg><l pos="N">etikiettu</l><stg><st Contlex="N_AKKU">etikietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etiketti</t><t pos="N">käyttäytymissäännöt</t></tg></mg></e>
+<e><lg><l pos="N">etimolougii</l><stg><st Contlex="N_KONDII">etimolougi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etymologia</t></tg></mg></e>
+<e><lg><l pos="N">etnossu</l><stg><st Contlex="N_AKKU">etnossa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etninen yhteisö</t></tg></mg></e>
+<e><lg><l pos="N">etuappu</l><stg><st Contlex="N_AKKU">etuappa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vaihe</t></tg></mg></e>
+<e><lg><l pos="N">etʼuudu</l><stg><st Contlex="N_MUARJU">etʼuuda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">harjoitelma</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kirjoitelma</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">tutkielma</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">etydi</t></tg></mg></e>
+<e><lg><l pos="N">evakuatsii</l><stg><st Contlex="N_KONDII">evakuatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">evakuointi</t></tg></mg></e>
+<e><lg><l pos="N">ezičura</l><stg><st Contlex="N_OZA">ezi#čura</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etupuoli</t><t pos="N">etupiä</t></tg></mg></e>
+<e><lg><l pos="N">ezihistourii</l><stg><st Contlex="N_KONDII">ezi#histouri</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">esihistoria</t></tg></mg></e>
+<e><lg><l pos="N">ezijoukko</l><stg><st Contlex="N_RUADO">ezi#joukko</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etujoukko</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kärkijoukko</t></tg></mg></e>
+<e><lg><l pos="N">ezikuva</l><stg><st Contlex="N_OZA">ezi#kuva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">esimerkki</t><t pos="N">esikuva</t></tg></mg></e>
+<e><lg><l pos="N">ezimakso</l><stg><st Contlex="N_RUNO">ezi#makso</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ennakko</t><t pos="N">etumaksu</t></tg></mg></e>
+<e><lg><l pos="N">ezipajattai</l><stg><st Contlex="N_PAGIZII">ezi#pajatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">esilaulaja</t></tg></mg></e>
+<e><lg><l pos="N">ezipiä</l><stg><st Contlex="N_VYÖ">ezi#piä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">etujoukko</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kärkijoukko</t></tg></mg></e>
+<e><lg><l pos="N">ezisana</l><stg><st Contlex="N_KALA">ezi#sana</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">prepositio</t></tg></mg></e>
+<e><lg><l pos="N">ezittelemine</l><stg><st Contlex="N_KIELINE">ezittelemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">esitys</t><t pos="N">esittäminen</t><t pos="N">esittely</t><t pos="N">esittäytyminen</t></tg></mg></e>
+<e><lg><l pos="N">ezittelendy</l><stg><st Contlex="N_PIÄSTÄNDY">ezittelendä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">esitys</t><t pos="N">esittäminen</t><t pos="N">esittely</t><t pos="N">esittäytyminen</t></tg></mg></e>
+<e><lg><l pos="N">ezittely</l><stg><st Contlex="N_KOIVU">ezittely</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">esittely(tilaisuus)</t><t pos="N">julkistamistilaisuus</t></tg></mg></e>
+<e><lg><l pos="N">ezittelyoza</l><stg><st Contlex="N_OZA">ezittely#oza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">esittelyjakso</t><t pos="N">ekspositio</t></tg></mg></e>
+<e><lg><l pos="N">ezittäi</l><stg><st Contlex="N_PEZII">ezittä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">edustaja</t></tg></mg></e>
+<e><lg><l pos="N">ezittämine</l><stg><st Contlex="N_KIELINE">ezittämi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kertomus</t><t pos="N">kuvaus</t><t pos="N">selostus</t><t pos="N">referaatti</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">esitys</t><t pos="N">esittäminen</t></tg></mg></e>
+<e><lg><l pos="N">ezitutkindo</l><stg><st Contlex="N_RUNO">ezi#tutkindo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">osatentti</t></tg></mg></e>
+<e><lg><l pos="N">ezitystö</l><stg><st Contlex="N_HÖRÖ">ezitystö</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">edustusto</t></tg></mg></e>
+<e><lg><l pos="N">ezizualu</l><stg><st Contlex="N_MUARJU">ezi#zuala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">eteishalli</t><t pos="N">aula</t></tg></mg></e>
+<e><lg><l pos="N">failu</l><stg><st Contlex="N_MUARJU">faila</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tiedosto</t></tg></mg></e>
+<e><lg><l pos="N">fajansu</l><stg><st Contlex="N_MUARJU">fajansa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fajanssi</t></tg></mg></e>
+<e><lg><l pos="N">faksu</l><stg><st Contlex="N_MUARJU">faksa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">faksi</t></tg></mg></e>
+<e><lg><l pos="N">faktu</l><stg><st Contlex="N_MUARJU">fakta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tosiasia</t><t pos="N">tosiseikka</t><t pos="N">fakta</t></tg></mg></e>
+<e><lg><l pos="N">fakultatiivu</l><stg><st Contlex="N_MUARJU">fakultatiiva</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">valinnaisaine</t><t pos="N">valinnaiskurssi</t></tg></mg></e>
+<e><lg><l pos="N">fakultiettu</l><stg><st Contlex="N_AKKU">fakultietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tiedekunta</t></tg></mg></e>
+<e><lg><l pos="N">falsifikatsii</l><stg><st Contlex="N_KONDII">falsifikatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">väärennys</t><t pos="N">väärentäminen</t><t pos="N">vääristely</t><t pos="N">falsifikaatio</t></tg></mg></e>
+<e><lg><l pos="N">falʼšifku</l><stg><st Contlex="N_MUARJU">falʼšifka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">väärennös</t></tg></mg></e>
+<e><lg><l pos="N">fanatizmu</l><stg><st Contlex="N_MUARJU">fanatizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fanatismi</t><t pos="N">fanaattisuus</t></tg></mg></e>
+<e><lg><l pos="N">fanieru</l><stg><st Contlex="N_MUARJU">faniera</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">viilu</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">vaneri</t></tg></mg></e>
+<e><lg><l pos="N">fantastiekkuliteratuuru</l><stg><st Contlex="N_MUARJU">fantastiekku#literatuura</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fantastinen kirjallisuus</t></tg></mg></e>
+<e><lg><l pos="N">fantuazii</l><stg><st Contlex="N_KONDII">fantuazi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mielikuvitus</t><t pos="N">fantasia</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kuvitelma</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kuvittelu</t></tg></mg></e>
+<e><lg><l pos="N">farfouru</l><stg><st Contlex="N_MUARJU">farfoura</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">posliini</t></tg></mg></e>
+<e><lg><l pos="N">farmakolougii</l><stg><st Contlex="N_KONDII">farmakolougi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">farmakologia</t><t pos="N">lääkeoppi</t></tg></mg></e>
+<e><lg><l pos="N">farmakolougu</l><stg><st Contlex="N_MUARJU">farmakolouga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">farmakologi </t></tg></mg></e>
+<e><lg><l pos="N">farmatseftu</l><stg><st Contlex="N_MUARJU">farmatsefta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">farmaseutti</t></tg></mg></e>
+<e><lg><l pos="N">farsu</l><stg><st Contlex="N_MUARJU">farsa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">farssi</t><t pos="N">ilveily</t></tg></mg></e>
+<e><lg><l pos="N">faršu</l><stg><st Contlex="N_MUARJU">farša</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">jauheliha</t></tg></mg></e>
+<e><lg><l pos="N">fašizmu</l><stg><st Contlex="N_MUARJU">fašizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fasismi</t></tg></mg></e>
+<e><lg><l pos="N">fasoli</l><stg><st Contlex="N_ARTELI">fasolia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">papu</t><t pos="N">tarhapapu</t><t pos="N">salkopapu</t></tg></mg></e>
+<e><lg><l pos="N">fason</l><stg><st Contlex="N_TAIGIN">fason</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">malli</t><t pos="N">tyyli</t></tg></mg></e>
+<e><lg><l pos="N">fatieranvuogruaju</l><stg><st Contlex="N_AVUAJU">fatieran#vuogruaja</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vuokralainen</t><t pos="N">asukas</t></tg></mg></e>
+<e><lg><l pos="N">federalizmu</l><stg><st Contlex="N_MUARJU">federalizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">federalismi</t></tg></mg></e>
+<e><lg><l pos="N">feljeton</l><stg><st Contlex="N_TAIGIN">feljeton</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pakina</t></tg></mg></e>
+<e><lg><l pos="N">fenikslindu</l><stg><st Contlex="N_LUGU">feniks#lindu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">feeniks-lintu</t></tg></mg></e>
+<e><lg><l pos="N">fennougristu</l><stg><st Contlex="N_MUARJU">fenno#ugrista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fennougristi</t></tg></mg></e>
+<e><lg><l pos="N">fermentu</l><stg><st Contlex="N_MUARJU">fermenta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">entsyymi</t></tg></mg></e>
+<e><lg><l pos="N">fiiniššu</l><stg><st Contlex="N_AKKU">fiinišša</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">loppukiri</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">maali</t><t pos="N">loppusuora</t><t pos="N">maalisuora</t></tg></mg></e>
+<e><lg><l pos="N">fiiziekku</l><stg><st Contlex="N_AKKU">fiiziekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fysiikka</t></tg></mg></e>
+<e><lg><l pos="N">fiksuator</l><stg><st Contlex="N_TAIGIN">fiksuator</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kiinnitin</t><t pos="N">kiinnityskoe</t><t pos="N">kiinnityslaite</t></tg></mg></e>
+<e><lg><l pos="N">filantroppu</l><stg><st Contlex="N_AKKU">filantroppa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">filantrooppi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">ihmisystävä</t></tg></mg></e>
+<e><lg><l pos="N">filatelii</l><stg><st Contlex="N_KONDII">filateli</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">filatelia</t><t pos="N">postimerkkeily</t></tg></mg></e>
+<e><lg><l pos="N">filatelistu</l><stg><st Contlex="N_MUARJU">filatelista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">filatelisti</t><t pos="N">postimerkkeilijä</t></tg></mg></e>
+<e><lg><l pos="N">filee</l><stg><st Contlex="N_VYÖ">filee</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">filee</t><t pos="N">selkälihakappale</t></tg></mg></e>
+<e><lg><l pos="N">filʼmuamine</l><stg><st Contlex="N_NAINE">filʼmuami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">filmatisointi</t><t pos="N">filminnös</t><t pos="N">elokuvasovitus</t></tg></mg></e>
+<e><lg><l pos="N">filʼmuandu</l><stg><st Contlex="N_MUARJU">filʼmuanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">filmatisointi</t><t pos="N">filminnös</t><t pos="N">elokuvasovitus</t></tg></mg></e>
+<e><lg><l pos="N">filmu</l><stg><st Contlex="N_MUARJU">filma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">elokuva</t><t pos="N">filmi</t></tg></mg></e>
+<e><lg><l pos="N">filtru</l><stg><st Contlex="N_MUARJU">filtra</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">suodatin</t><t pos="N">filtteri</t></tg></mg></e>
+<e><lg><l pos="N">finansiiruiččemine</l><stg><st Contlex="N_NAINE">finansiiruiččemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rahoittaminen</t><t pos="N">rahoitus</t></tg></mg></e>
+<e><lg><l pos="N">finansiiruičendu</l><stg><st Contlex="N_MUARJU">finansiiruičenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rahoittaminen</t><t pos="N">rahoitus</t></tg></mg></e>
+<e><lg><l pos="N">finansiiruičus</l><stg><st Contlex="N_ALUS">finansiiruičuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rahoittaminen</t><t pos="N">rahoitus</t></tg></mg></e>
+<e><lg><l pos="N">finansistu</l><stg><st Contlex="N_MUARJU">finansista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rahoitusasiantuntija</t><t pos="N">rahoitusekspertti</t><t pos="N">finanssitieteilijä</t></tg></mg></e>
+<e><lg><l pos="N">finansudokumentu</l><stg><st Contlex="N_MUARJU">finansudokumenta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">voucher</t></tg></mg></e>
+<e><lg><l pos="N">finualu</l><stg><st Contlex="N_MUARJU">finuala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">loppu</t><t pos="N">finaali</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">loppuottelu</t><t pos="N">loppukilpailu</t></tg></mg></e>
+<e><lg><l pos="N">firmu</l><stg><st Contlex="N_MUARJU">firma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">liike</t><t pos="N">yritys</t><t pos="N">firma</t></tg></mg></e>
+<e><lg><l pos="N">fitili</l><stg><st Contlex="N_LEIRI">fitili</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lampun</t><t pos="N">kynttilän ym. sydän</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">tulilanka</t><t pos="N">sytytyslanka</t></tg></mg></e>
+<e><lg><l pos="N">fiziolougii</l><stg><st Contlex="N_KONDII">fiziolougi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fysiologia</t><t pos="N">elintoimintaoppi</t></tg></mg></e>
+<e><lg><l pos="N">fiziolougu</l><stg><st Contlex="N_MUARJU">fiziolouga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fysiologi </t></tg></mg></e>
+<e><lg><l pos="N">fizioterapevtu</l><stg><st Contlex="N_MUARJU">fizioterapevta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fysioterapeutti</t></tg></mg></e>
+<e><lg><l pos="N">fizioterapii</l><stg><st Contlex="N_KONDII">fizioterapi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fysikaalinen hoito</t><t pos="N">fysioterapia</t></tg></mg></e>
+<e><lg><l pos="N">flagu</l><stg><st Contlex="N_LUGU">flagu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lippu </t></tg></mg></e>
+<e><lg><l pos="N">flaneli</l><stg><st Contlex="N_ARTELI">flanelia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">flanelli</t></tg></mg></e>
+<e><lg><l pos="N">flegmuatiekku</l><stg><st Contlex="N_AKKU">flegmuatiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">flegmaatikko</t></tg></mg></e>
+<e><lg><l pos="N">fleittu</l><stg><st Contlex="N_AKKU">fleitta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">huilu</t></tg></mg></e>
+<e><lg><l pos="N">flouru</l><stg><st Contlex="N_KOIRU">floura</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kasvisto</t><t pos="N">floora</t></tg></mg></e>
+<e><lg><l pos="N">foijee</l><stg><st Contlex="N_KUU">foijee</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lämpiö</t></tg></mg></e>
+<e><lg><l pos="N">folʼgu</l><stg><st Contlex="N_KOIRU">folʼga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">folio </t></tg></mg></e>
+<e><lg><l pos="N">folkloristu</l><stg><st Contlex="N_MUARJU">folklorista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">perinnetieteilijä</t><t pos="N">folkloristi</t></tg></mg></e>
+<e><lg><l pos="N">fonari</l><stg><st Contlex="N_ARTELI">fonaria</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lyhty</t></tg></mg></e>
+<e><lg><l pos="N">foneetiekku</l><stg><st Contlex="N_AKKU">foneetiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fonetiikka</t><t pos="N">äänneoppi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">äännerakenne</t></tg></mg></e>
+<e><lg><l pos="N">fonogrammu</l><stg><st Contlex="N_MUARJU">fonogramma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">äänite</t><t pos="N">äänitallenne</t><t pos="N">fonogrammi</t></tg></mg></e>
+<e><lg><l pos="N">fonotiekku</l><stg><st Contlex="N_AKKU">fonotiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">äänitearkisto</t></tg></mg></e>
+<e><lg><l pos="N">fontuanu</l><stg><st Contlex="N_MUARJU">fontuana</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">suihku</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">suihkulähde</t><t pos="N">suihkukaivo</t></tg></mg></e>
+<e><lg><l pos="N">foonu</l><stg><st Contlex="N_KOIRU">foona</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tausta</t><t pos="N">pohja(väri)</t></tg></mg></e>
+<e><lg><l pos="N">formu</l><stg><st Contlex="N_KOIRU">forma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(virka)puku</t></tg></mg></e>
+<e><lg><l pos="N">formulu</l><stg><st Contlex="N_MUARJU">formula</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sanamuoto</t><t pos="N">määritelmä</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kaava</t><t pos="N">formula</t></tg></mg></e>
+<e><lg><l pos="N">fortepiano</l><stg><st Contlex="N_RUNO">fortepiano</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">piano</t></tg></mg></e>
+<e><lg><l pos="N">fotoaparuattu</l><stg><st Contlex="N_AKKU">fotoaparuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kamera</t></tg></mg></e>
+<e><lg><l pos="N">fotobumuagu</l><stg><st Contlex="N_MUARJU">fotobumuaga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">valokuvapaperi</t></tg></mg></e>
+<e><lg><l pos="N">foto</l><stg><st Contlex="N_RUNO">foto</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">valokuva</t><t pos="N">kuva</t></tg></mg></e>
+<e><lg><l pos="N">fotogruaffu</l><stg><st Contlex="N_AKKU">fotogruaffa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">valokuvaaja</t></tg></mg></e>
+<e><lg><l pos="N">fotokuvuamine</l><stg><st Contlex="N_NAINE">foto#kuvuami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">valokuvaus</t><t pos="N">kuvaaminen</t></tg></mg></e>
+<e><lg><l pos="N">fotokuvuamo</l><stg><st Contlex="N_RUNO">foto#kuvuamo</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">valokuvaamo</t><t pos="N">valokuvausliike</t></tg></mg></e>
+<e><lg><l pos="N">fotokuvuandu</l><stg><st Contlex="N_MUARJU">foto#kuvuanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">valokuvaus</t><t pos="N">kuvaaminen</t></tg></mg></e>
+<e><lg><l pos="N">fotoplʼonku</l><stg><st Contlex="N_KOIRU">foto#plʼonka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(valokuva)filmi</t></tg></mg></e>
+<e><lg><l pos="N">fotoreportuažu</l><stg><st Contlex="N_MUARJU">foto#reportuaža</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuvareportaasi</t></tg></mg></e>
+<e><lg><l pos="N">foukussi</l><stg><st Contlex="N_PAPPI">foukussi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">taikatemppu</t></tg></mg></e>
+<e><lg><l pos="N">fragmentu</l><stg><st Contlex="N_MUARJU">fragmenta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">katkelma</t><t pos="N">fragmentti</t></tg></mg></e>
+<e><lg><l pos="N">frantsuuzu</l><stg><st Contlex="N_MUARJU">frantsuuza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">ranskalainen</t></tg></mg></e>
+<e><lg><l pos="N">frazeologizmu</l><stg><st Contlex="N_MUARJU">frazeologizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lauseparsi</t><t pos="N">sanonta</t><t pos="N">fraasi</t></tg></mg></e>
+<e><lg><l pos="N">frazeolougii</l><stg><st Contlex="N_KONDII">frazeolougi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fraseologia</t><t pos="N">fraasit</t><t pos="N">sanonnat</t></tg></mg></e>
+<e><lg><l pos="N">freguattu</l><stg><st Contlex="N_AKKU">freguatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fregaatti</t></tg></mg></e>
+<e><lg><l pos="N">fresku</l><stg><st Contlex="N_MUARJU">freska</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fresko</t></tg></mg></e>
+<e><lg><l pos="N">frontu</l><stg><st Contlex="N_KOIRU">fronta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">rintama</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">työkenttä</t></tg></mg></e>
+<e><lg><l pos="N">fruktoinkazvatandu</l><stg><st Contlex="N_MUARJU">fruktoin#kazvatanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hedelmäviljely</t></tg></mg></e>
+<e><lg><l pos="N">fruktoinkazvattamine</l><stg><st Contlex="N_NAINE">fruktoin#kazvattami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hedelmäviljely</t></tg></mg><!-- ? kui naine, fruktoinkazvattamistu  :: --></e>
+<e><lg><l pos="N">fruktoinkazvatus</l><stg><st Contlex="N_ALUS">fruktoin#kazvatuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hedelmäviljely</t></tg></mg></e>
+<e><lg><l pos="N">fruktouzu</l><stg><st Contlex="N_MUARJU">fruktouza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">fruktoosi</t><t pos="N">hedelmäsokeri</t></tg></mg></e>
+<e><lg><l pos="N">fruktu</l><stg><st Contlex="N_MUARJU">frukta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hedelmä </t></tg></mg></e>
+<e><lg><l pos="N">ftiziatru</l><stg><st Contlex="N_MUARJU">ftiziatra</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tuberkuloosilääkäri</t></tg></mg></e>
+<e><lg><l pos="N">fuabrikku</l><stg><st Contlex="N_AKKU">fuabrikka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tehdas</t></tg></mg></e>
+<e><lg><l pos="N">fuaru</l><stg><st Contlex="N_MUARJU">fuara</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">(etu)lyhty</t><t pos="N">ajovalo</t></tg></mg></e>
+<e><lg><l pos="N">fuazu</l><stg><st Contlex="N_MUARJU">fuaza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vaihe</t><t pos="N">kausi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">olomuoto</t></tg></mg></e>
+<e><lg><l pos="N">fufaikku</l><stg><st Contlex="N_AKKU">fufaikka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">toppatakki</t><t pos="N">toppanuttu</t></tg></mg></e>
+<e><lg><l pos="N">furašku</l><stg><st Contlex="N_MUARJU">furaška</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lippalakki</t></tg></mg></e>
+<e><lg><l pos="N">futbol</l><stg><st Contlex="N_TAIGIN">futbol</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">jalkapallo</t></tg></mg></e>
+<e><lg><l pos="N">futbolistu</l><stg><st Contlex="N_MUARJU">futbolista</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">jalkapalloilija</t><t pos="N">jalkapallon pelaaja</t></tg></mg></e>
+<e><lg><l pos="N">futlʼuaru</l><stg><st Contlex="N_KOIRU">futlʼuara</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kotelo</t></tg></mg></e>
+<e><lg><l pos="N">gaikku</l><stg><st Contlex="N_AKKU">gaikka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mutteri</t></tg></mg></e>
+<e><lg><l pos="N">galaktiekku</l><stg><st Contlex="N_AKKU">galaktiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">Linnunrata</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">gallaksit</t></tg></mg></e>
+<e><lg><l pos="N">galdari</l><stg><st Contlex="N_ARTELI">galdaria</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">parveke</t></tg></mg></e>
+<e><lg><l pos="N">galʼlʼutsinatsii</l><stg><st Contlex="N_KONDII">galʼlʼutsinatsi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hallusinaatio</t><t pos="N">aistiharha</t></tg></mg></e>
+<e><lg><l pos="N">garantii</l><stg><st Contlex="N_KONDII">garanti</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">takuu</t><t pos="N">tae</t></tg></mg></e>
+<e><lg><l pos="N">garažu</l><stg><st Contlex="N_MUARJU">garaža</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">autotalli</t></tg></mg></e>
+<e><lg><l pos="N">garmounii</l><stg><st Contlex="N_KONDII">garmouni</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">harmonia</t><t pos="N">sointu</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">sopusointu</t><t pos="N">sopusuhtaisuus</t></tg></mg></e>
+<e><lg><l pos="N">gastriittu</l><stg><st Contlex="N_AKKU">gastriitta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">mahakattari</t><t pos="N">mahatulehdus</t><t pos="N">gastriitti</t></tg></mg></e>
+<e><lg><l pos="N">gastronoumii</l><stg><st Contlex="N_KONDII">gastronoumi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">gastronomia</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">ruokavalmisteet</t></tg></mg></e>
+<e><lg><l pos="N">gaziettu</l><stg><st Contlex="N_AKKU">gazietta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lehti</t><t pos="N">sanomalehti</t></tg></mg></e>
+<e><lg><l pos="N">geenu</l><stg><st Contlex="N_MUARJU">geena</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">geeni</t></tg></mg></e>
+<e><lg><l pos="N">gektuaru</l><stg><st Contlex="N_MUARJU">gektuara</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hehtaari</t></tg></mg></e>
+<e><lg><l pos="N">gelihrizum</l><stg><st Contlex="N_TAIGIN">gelihrizum</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">olkikukka</t></tg></mg></e>
+<e><lg><l pos="N">geminuattu</l><stg><st Contlex="N_AKKU">geminuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">geminaatta</t><t pos="N">kaksoiskonsonantti</t></tg></mg></e>
+<e><lg><l pos="N">gemoglobin</l><stg><st Contlex="N_TAIGIN">gemoglobin</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hemolgobiini</t><t pos="N">verenpuna</t></tg></mg></e>
+<e><lg><l pos="N">geneetiekku</l><stg><st Contlex="N_AKKU">geneetiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">genetiikka</t><t pos="N">perinnöllisyystiede</t></tg></mg></e>
+<e><lg><l pos="N">generualu</l><stg><st Contlex="N_MUARJU">generuala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kenraali</t></tg></mg></e>
+<e><lg><l pos="N">geograffu</l><stg><st Contlex="N_AKKU">geograffa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">maantieteilijä</t></tg></mg></e>
+<e><lg><l pos="N">geogruafii</l><stg><st Contlex="N_KONDII">geogruafi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">maantiede</t></tg></mg></e>
+<e><lg><l pos="N">geolougii</l><stg><st Contlex="N_KONDII">geolougi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">geologia</t></tg></mg></e>
+<e><lg><l pos="N">geolougu</l><stg><st Contlex="N_MUARJU">geolouga</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">geologi</t></tg></mg></e>
+<e><lg><l pos="N">geometrii</l><stg><st Contlex="N_KONDII">geometri</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">geometria</t><t pos="N">mittausoppi</t></tg></mg></e>
+<e><lg><l pos="N">georgiinu</l><stg><st Contlex="N_MUARJU">georgiina</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">daalia</t><t pos="N">syyshehku</t></tg></mg></e>
+<e><lg><l pos="N">gerbuarii</l><stg><st Contlex="N_KONDII">gerbuari</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kasvikokoelma</t><t pos="N">herbaario</t></tg></mg></e>
+<e><lg><l pos="N">gerbu</l><stg><st Contlex="N_MUARJU">gerba</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vaakuna</t></tg></mg></e>
+<e><lg><l pos="N">gerpessu</l><stg><st Contlex="N_AKKU">gerpessa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">herpes</t><t pos="N">rokahtuma</t></tg></mg></e>
+<e><lg><l pos="N">geruani</l><stg><st Contlex="N_ARTELI">geruania</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kurjenpolvi</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">pelargoni</t><t pos="N">pielikki</t></tg></mg></e>
+<e><lg><l pos="N">gidroenergietiekku</l><stg><st Contlex="N_AKKU">gidro#energietiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hydroenergetiikka</t></tg></mg></e>
+<e><lg><l pos="N">gidrosfieru</l><stg><st Contlex="N_MUARJU">gidrosfiera</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vesikehä</t><t pos="N">hydrosfääri</t></tg></mg></e>
+<e><lg><l pos="N">gidrostansii</l><stg><st Contlex="N_KONDII">gidrostansi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vesivoimala</t></tg></mg></e>
+<e><lg><l pos="N">gigijienu</l><stg><st Contlex="N_MUARJU">gigijiena</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hygienia</t><t pos="N">terveysoppi</t></tg></mg></e>
+<e><lg><l pos="N">giidu</l><stg><st Contlex="N_MUARJU">giida</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">opas</t></tg></mg></e>
+<e><lg><l pos="N">giiru</l><stg><st Contlex="N_MUARJU">giira</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">punnus</t><t pos="N">paino</t></tg></mg><mg><tg xml:lang="fin"><t pos="N"></t></tg></mg></e>
+<e><lg><l pos="N">gimnastiekku</l><stg><st Contlex="N_AKKU">gimnastiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">voimistelu</t></tg></mg></e>
+<e><lg><l pos="N">gimnastu</l><stg><st Contlex="N_MUARJU">gimnasta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">voimistelija</t></tg></mg></e>
+<e><lg><l pos="N">gipnouzu</l><stg><st Contlex="N_MUARJU">gipnouza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hypnoosi</t></tg></mg></e>
+<e><lg><l pos="N">gipoutezu</l><stg><st Contlex="N_MUARJU">gipouteza</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hypoteesi</t><t pos="N">olettamus</t></tg></mg></e>
+<e><lg><l pos="N">gipsu</l><stg><st Contlex="N_MUARJU">gipsa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kipsi</t></tg></mg></e>
+<e><lg><l pos="N">gituaru</l><stg><st Contlex="N_MUARJU">gituara</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kitara</t></tg></mg></e>
+<e><lg><l pos="N">glasnosti</l><stg><st Contlex="N_ARTELI">glasnostia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">julkisuus</t><t pos="N">avoimuus</t></tg></mg></e>
+<e><lg><l pos="N">gloubussu</l><stg><st Contlex="N_AKKU">gloubussa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pallokartta</t><t pos="N">karttapallo</t></tg></mg></e>
+<e><lg><l pos="N">gnuomu</l><stg><st Contlex="N_KOIRU">gnuoma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">tonttu</t></tg></mg></e>
+<e><lg><l pos="N">gobelienu</l><stg><st Contlex="N_MUARJU">gobeliena</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">gobeliini</t><t pos="N">kuvakudos</t></tg></mg></e>
+<e><lg><l pos="N">gollandielaine</l><stg><st Contlex="N_KARJALAINE">gollandiela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hollantilainen</t></tg></mg></e>
+<e><lg><l pos="N">gollansu</l><stg><st Contlex="N_MUARJU">gollansa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hollantilainen</t></tg></mg></e>
+<e><lg><l pos="N">gonoruaru</l><stg><st Contlex="N_MUARJU">gonoruara</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">palkkio</t></tg></mg></e>
+<e><lg><l pos="N">gorʼa</l><stg><st Contlex="N_OZA">gorʼa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hätä</t><t pos="N">kurjuus</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kurja</t><t pos="N">raukka</t><t pos="N">parka</t><t pos="N">polonen</t></tg></mg></e>
+<e><lg><l pos="N">gorčitsu</l><stg><st Contlex="N_MUARJU">gorčitsa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sinappi</t></tg></mg></e>
+<e><lg><l pos="N">gorizontuali</l><stg><st Contlex="N_ARTELI">gorizontualia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vaakasuora viiva</t><t pos="N">vaakaviiva</t></tg></mg></e>
+<e><lg><l pos="N">gospitali</l><stg><st Contlex="N_ARTELI">gospitalia</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sotilassairaala</t></tg></mg></e>
+<e><lg><l pos="N">gostittamine</l><stg><st Contlex="N_NAINE">gostittami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kestittäminen</t><t pos="N">kestitys</t></tg></mg></e>
+<e><lg><l pos="N">gostitus</l><stg><st Contlex="N_ALUS">gostituks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kestittäminen</t><t pos="N">kestitys</t></tg></mg></e>
+<e><lg><l pos="N">gostitustaloi</l><stg><st Contlex="N_REBOI">gostitus#taloi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">vierastalo</t></tg></mg></e>
+<e><lg><l pos="N">gostʼuperti</l><stg><st Contlex="N_LEIRI">gostʼu#perti</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">olohuone</t></tg></mg></e>
+<e><lg><l pos="N">grammuatiekku</l><stg><st Contlex="N_AKKU">grammuatiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kielioppi</t></tg></mg></e>
+<e><lg><l pos="N">grammu</l><stg><st Contlex="N_MUARJU">gramma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">gramma</t></tg></mg></e>
+<e><lg><l pos="N">granuattu</l><stg><st Contlex="N_AKKU">granuatta</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kranaatti</t></tg></mg></e>
+<e><lg><l pos="N">granuattupuu</l><stg><st Contlex="N_KUU">granuattu#puu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">granaattiomenapuu</t></tg></mg></e>
+<e><lg><l pos="N">greipfrutpuu</l><stg><st Contlex="N_KUU">greipfrut#puu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">greippipuu</t></tg></mg></e>
+<e><lg><l pos="N">grelku</l><stg><st Contlex="N_MUARJU">grelka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lämpöhaudin </t></tg></mg></e>
+<e><lg><l pos="N">gribaniekku</l><stg><st Contlex="N_AKKU">gribaniekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">sienimies</t><t pos="N">sienestäjä</t></tg></mg></e>
+<e><lg><l pos="N">griekkalaine</l><stg><st Contlex="N_KARJALAINE">griekkala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kreikkalainen</t></tg></mg></e>
+<e><lg><l pos="N">grippu</l><stg><st Contlex="N_AKKU">grippa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">influenssa</t><t pos="N">flunssa</t></tg></mg></e>
+<e><lg><l pos="N">gruadusniekku</l><stg><st Contlex="N_AKKU">gruadusniekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lämpömittari</t><t pos="N">kuumemittari</t></tg></mg></e>
+<e><lg><l pos="N">gruadussu</l><stg><st Contlex="N_AKKU">gruadussa</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">aste</t></tg></mg></e>
+<e><lg><l pos="N">gruafiekku</l><stg><st Contlex="N_AKKU">gruafiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">käyrädiagrammi</t><t pos="N">käyrästö</t></tg></mg></e>
+<e><lg><l pos="N">gruafikku</l><stg><st Contlex="N_AKKU">gruafikka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">grafiikka</t><t pos="N">taidegrafiikka</t></tg></mg></e>
+<e><lg><l pos="N">gruššiekku</l><stg><st Contlex="N_AKKU">gruššiekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lastaaja</t><t pos="N">ahtaaja</t></tg></mg></e>
+<e><lg><l pos="N">gruuššu</l><stg><st Contlex="N_AKKU">gruušša</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">päärynä</t></tg></mg></e>
+<e><lg><l pos="N">gruuššupuu</l><stg><st Contlex="N_KUU">gruuššu#puu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">päärynäpuu</t></tg></mg></e>
+<e><lg><l pos="N">gruuzielaine</l><stg><st Contlex="N_KARJALAINE">gruuziela</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">georgialainen</t><t pos="N">gruusialainen</t></tg></mg></e>
+<e><lg><l pos="N">gruuzimine</l><stg><st Contlex="N_NAINE">gruuzimi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lastaaminen</t><t pos="N">lastaus</t></tg></mg></e>
+<e><lg><l pos="N">gruuzindu</l><stg><st Contlex="N_MUARJU">gruuzinda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">lastaaminen</t><t pos="N">lastaus</t></tg></mg></e>
+<e><lg><l pos="N">gruuzu</l><stg><st Contlex="N_KOIVU">gruuzu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuorma</t><t pos="N">lasta</t><t pos="N">taakka</t></tg></mg></e>
+<e><lg><l pos="N">gruuzumašin</l><stg><st Contlex="N_TAIGIN">gruuzu#mašin</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuorma-auto</t></tg></mg></e>
+<e><lg><l pos="N">gruzoviekku</l><stg><st Contlex="N_AKKU">gruzoviekka</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuorma-auto</t></tg></mg></e>
+<e><lg><l pos="N">guašši</l><stg><st Contlex="N_PAPPI">guašši</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">guassiväri</t><t pos="N">peiteväri</t></tg></mg></e>
+<e><lg><l pos="N">guazu</l><stg><st Contlex="N_KOIVU">guazu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kaasu</t></tg></mg></e>
+<e><lg><l pos="N">gubernuator</l><stg><st Contlex="N_TAIGIN">gubernuator</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">kuvernööri</t></tg></mg></e>
+<e><lg><l pos="N">gulʼaššu</l><stg><st Contlex="N_LUGU">gulʼaššu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">gulassi</t></tg></mg></e>
+<e><lg><l pos="N">gumanizmu</l><stg><st Contlex="N_MUARJU">gumanizma</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">humanismi</t></tg></mg></e>
+<e><lg><l pos="N">gumanoidu</l><stg><st Contlex="N_KOIRU">gumanoida</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">humanoidi</t></tg></mg></e>
+<e><lg><l pos="N">guppikala</l><stg><st Contlex="N_KALA">guppi#kala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">miljoonakala</t></tg></mg></e>
+<e><lg><l pos="N">guruamikala</l><stg><st Contlex="N_KALA">guruami#kala</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">gurami</t><t pos="N">rihmakala</t></tg></mg></e>
+<e><lg><l pos="N">gusterlahnu</l><stg><st Contlex="N_MUARJU">guster#lahna</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pasuri</t><t pos="N">parkki</t></tg></mg></e>
+<e><lg><l pos="N">gyrzymado</l><stg><st Contlex="N_RUADO">gyrzy#mado</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">levantinkyy</t></tg></mg></e>
+<e><lg><l pos="N">hagopiä</l><stg><st Contlex="N_VYÖ">hago#piä</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">pölkkypää</t></tg></mg></e>
+<e><lg><l pos="N">haikari</l><stg><st Contlex="N_ARTELI">haikaria</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">haikara</t></tg></mg></e>
+<e><lg><l pos="N">haimurauhazentulehtus</l><stg><st Contlex="N_ALUS">haimu#rauhazen#tulehtuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">haimatulehdus</t></tg></mg></e>
+<e><lg><l pos="N">hairahtundu</l><stg><st Contlex="N_MUARJU">hairahtunda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hairahtuminen</t><t pos="N">erehtyminen</t><t pos="N">eksyminen</t></tg></mg></e>
+<e><lg><l pos="N">hairehtelližus</l><stg><st Contlex="N_PUHTAHUS">hairehtelližu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">virheellisyys</t></tg></mg></e>
+<e><lg><l pos="N">hairovus</l><stg><st Contlex="N_ALUS">hairovuks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">väärinkäsitys</t><t pos="N">erehdys</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">kompastus</t></tg></mg></e>
+<e><lg><l pos="N">haižu</l><stg><st Contlex="N_KOIVU">haižu</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">haju</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">vihi</t></tg></mg></e>
+<e><lg><l pos="N">hajamieližys</l><stg><st Contlex="N_VÄHYS">haja#mieližy</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hajamielisyys</t></tg></mg></e>
+<e><lg><l pos="N">hajoitandu</l><stg><st Contlex="N_MUARJU">hajoitanda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">murskaaminen</t><t pos="N">murskaus</t><t pos="N">hajottaminen</t></tg></mg></e>
+<e><lg><l pos="N">hajoittamine</l><stg><st Contlex="N_NAINE">hajoittami</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">murskaaminen</t><t pos="N">murskaus</t><t pos="N">hajottaminen</t></tg></mg></e>
+<e><lg><l pos="N">hajoitus</l><stg><st Contlex="N_ALUS">hajoituks</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">murskaaminen</t><t pos="N">murskaus</t><t pos="N">hajottaminen</t></tg></mg></e>
+<e><lg><l pos="N">hajuomine</l><stg><st Contlex="N_NAINE">hajuomi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hajoaminen</t></tg></mg></e>
+<e><lg><l pos="N">hajuondu</l><stg><st Contlex="N_MUARJU">hajuonda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hajoaminen</t></tg></mg></e>
+<e><lg><l pos="N">haldivoiččemine</l><stg><st Contlex="N_NAINE">haldivoiččemi</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hallinto</t><t pos="N">hallitseminen</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">omistaminen</t></tg></mg></e>
+<e><lg><l pos="N">haldivoiččii</l><stg><st Contlex="N_PAGIZII">haldivoičči</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hallitsija</t></tg></mg><mg><tg xml:lang="fin"><t pos="N">omistaja</t></tg></mg></e>
+<e><lg><l pos="N">haldivoičendu</l><stg><st Contlex="N_MUARJU">haldivoičenda</st></stg></lg><mg><tg xml:lang="fin"><t pos="N">hallinto</t><t pos="N">hallitseminen</t></tg></mg></e>
+
 <e order="2">
    <lg>
      <l pos="N">nahruatta</l>
