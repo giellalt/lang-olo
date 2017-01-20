@@ -628,13 +628,13 @@ i:0 <=> o _ (HarmDummy:)  %^ILoss: %> l [ %{oö%}: |o|ö] i ;
 
 "%{oöØ%}:o"
 !! __@RULENAME@__ Vowel harmony suffixes Back
- %{oöØ%}:o <=>  [BT|BHarm]  :Cns [ e: | i ] %> %{ijPRC%}: _  ;
+ %{oöØ%}:o <=>  [BT|BHarm]  :Cns [ e:0 | e | i ] %> %{ijPRC%}: _  ;
 !!€# luge%>%{ijPRC%}%>%{oöØ%}%>i%>n
 !!€0 lugi%>j%>o%>i%>s
 
 "%{oöØ%}:ö"
 !! __@RULENAME@__ Vowel harmony suffixes Front
- %{oöØ%}:ö <=> [FT|FHarm] :Cns [ e: | i ] %> %{ijPRC%}:  _  ;
+ %{oöØ%}:ö <=> [FT|FHarm] :Cns [ e:0| e | i ] %> %{ijPRC%}:  _  ;
 
 
 
