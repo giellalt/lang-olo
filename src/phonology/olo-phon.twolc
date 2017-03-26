@@ -678,11 +678,14 @@ g:v <=> [ o | u ] _ [e |u] (HarmDummy:) %^WGStem:0 ;
 
 "g:l"
 !! __@RULENAME@__  
-g:l <=> l _ [[ a: ] (HarmDummy:) ((%^A2O:) %> i )| i | e | u ] (HarmDummy:) %^WGStem:0 ;
-!!€# sulga%^WGStem%>n
-!!€0 sulla0%>n
-!!€# jalga%^A2O%>i%^WGStem%>s
-!!€0 jallo0%>i0%>s
+g:l <=> l _ [[ a: ] (HarmDummy:) ((%^A2O:|%^RmVow:) %> i )| i | e | u ] (HarmDummy:) %^WGStem:0 ;
+!!€ sulga%^WGStem%>n
+!!€ sulla0%>n
+!!€ jalga%^A2O%>i%^WGStem%>s
+!!€ jallo0%>i0%>s
+!! sulgu+N+Pl+Ins __feather/sulka__
+!!€ sulga%^RmVow%>i%^WGStem%>n
+!!€ sull0%>i0%>n
 
 "g:r"
 !! __@RULENAME@__  
