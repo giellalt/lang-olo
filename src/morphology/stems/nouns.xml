@@ -7347,7 +7347,7 @@
 </e>
 <e> <lg> <l pos="N">pihlaimarju</l> <stg> <st Contlex="N_MUARJU">pihlaimarja</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">pihlajanmarja</t> </tg> </mg>
 </e>
-<e> <lg> <l pos="N">pii</l> <stg> <st Contlex="N_KUU">pii</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">(haravan) pii</t> <t pos="N">haravan piikki</t> <t pos="N">haravan hammas</t> <t pos="N">hammas (koneen osana)</t> </tg> </mg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">piikki</t> <t pos="N">kamman- tai haravanpiikki</t> <t pos="N">pii</t> <t pos="N">sahan hammas</t> </tg> </mg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">pii(kivi)</t> </tg> </mg>
+<e> <lg> <l pos="N">pii</l> <stg> <st Contlex="N_PII">pii</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">(haravan) pii</t> <t pos="N">haravan piikki</t> <t pos="N">haravan hammas</t> <t pos="N">hammas (koneen osana)</t> </tg> </mg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">piikki</t> <t pos="N">kamman- tai haravanpiikki</t> <t pos="N">pii</t> <t pos="N">sahan hammas</t> </tg> </mg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">pii(kivi)</t> </tg> </mg>
 </e>
 <e> <lg> <l pos="N">piidoi</l> <stg> <st Contlex="N_REBOI">piidoi</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">pillike</t> </tg> </mg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">harv. ohdake</t> </tg> </mg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">harv. orjantappura l. orjanruusu</t> </tg> </mg>
 </e>
@@ -8039,9 +8039,7 @@
 </e>
 <e> <lg> <l pos="N">pyvvös</l> <stg> <st Contlex="N_ALUS">pyvvös</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">kalanpyydys</t> </tg> </mg>
 </e>
-<e> <lg> <l pos="N">pyy</l> <stg> <st Contlex="N_KOIVU" status="Err/Sub">pyy</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">pyy</t> </tg> </mg>
-</e>
-<e> <lg> <l pos="N">pyy</l> <stg> <st Contlex="N_KUU">pyy</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">pyy</t> </tg> </mg>
+<e> <lg> <l pos="N">pyy</l> <stg> <st Contlex="N_PII">pyy</st><st Contlex="N_KOIVU" status="Err/Sub">pyy</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">pyy</t> </tg> </mg>
 </e>
 <e> <lg> <l pos="N">pyzymyne</l> <stg> <st Contlex="N_KIELINE">pyzymy</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">pysyminen</t> </tg> </mg>
 </e>
