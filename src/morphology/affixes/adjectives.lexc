@@ -167,7 +167,7 @@ LEXICON A_KOIRU
 
 
 LEXICON A_VALGEI !!= @CODE@ valgei:valge
-+A:%{back%} NMN_VALGEI        ;
++A:%{back%} NMN_VALGEI/LIBEI        ;
 +A+Der/mbi+Comp:%{back%}%>emb NMN_PAREMBI/ENÄMBI        ;
 +A+Der/in+Superl:%{back%}vi NMN_ENIN        ;
 
