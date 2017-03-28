@@ -796,7 +796,8 @@ d:l <=>
 "nd:nn weakening"
 !! __@RULENAME@__ 
 d:n <=>
-     Vow: n _ Vow: (HarmDummy:) ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
+     Vow: n _ Vow: (HarmDummy:) %^WGStem: [(%^A2O:) %> i| (%^E1:) %> | # ] ;
+!     Vow: n _ Vow: (HarmDummy:) ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
   Vow (HarmDummy:) ( %^WGStem:0 %> ) n %> _ [ GRC | e %^WGStem: ] ;
 !! mennä+Ind+Prs+ScPl3: mennäh
 !!€# kanda%^WGStem%^E1%>tt%{aäDiph%}s

@@ -582,10 +582,23 @@ LEXICON N_VALGEI !!= @CODE@ valgei:valge
         N_VALGEI-PL ;
 
 LEXICON N_VALGEI-SG
-+N:%{back%} NMN_VALGEI-SG        ;
++N:%{back%} NMN_VALGEI/LIBEI-SG        ;
 
 LEXICON N_VALGEI-PL
-+N:%{back%} NMN_VALGEI-PL        ;
++N:%{back%} NMN_VALGEI/LIBEI-PL        ;
+
+LEXICON N_LIBEI !!= @CODE@ libei:libe
+!! Gradation NA
+!! Harmony: Back
++N:i ATTESTED-NOUN-STEM ;
+        N_LIBEI-SG ;
+        N_LIBEI-PL ;
+
+LEXICON N_LIBEI-SG
++N:%{front%} NMN_VALGEI/LIBEI-SG        ;
+
+LEXICON N_LIBEI-PL
++N:%{front%} NMN_VALGEI/LIBEI-PL        ;
 
 LEXICON N_OSTAI !!= @CODE@ ostai:osta
 !! Gradation NA
@@ -2193,16 +2206,16 @@ LEXICON NMN_SYGYZY-PL
 +Pl:%>löi Noun-NB-01 ;
 
 
-LEXICON NMN_VALGEI !!= * __@CODE@__ valgei:valge
-	NMN_VALGEI-SG	;
-	NMN_VALGEI-PL	;
+LEXICON NMN_VALGEI/LIBEI !!= * __@CODE@__ valgei:valge
+	NMN_VALGEI/LIBEI-SG	;
+	NMN_VALGEI/LIBEI-PL	;
 
-LEXICON NMN_VALGEI-SG
+LEXICON NMN_VALGEI/LIBEI-SG
 :i SGNOMSUF ;
 :%>e SGPARSUF_dU ;
 :%>e SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
 +Sg:%>e Noun-NB-01 ;
-LEXICON NMN_VALGEI-PL
+LEXICON NMN_VALGEI/LIBEI-PL
 :%>e PLNOMSUF-USUALLY-WEAK	;
 :%>el%{oö%}i PL-GEN/COM/APRSUF_N ;
 :%>el%{oö%}i PLPARSUF_Zero ;
