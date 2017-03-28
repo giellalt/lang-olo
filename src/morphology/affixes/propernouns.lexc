@@ -348,12 +348,12 @@ LEXICON PROP_VALGEI !!= @CODE@
   PROP_VALGEI-PL ;
 
 LEXICON PROP_VALGEI-SG !!= @CODE@ 
-+N+Prop:%{back%} NMN_VALGEI-SG ;
++N+Prop:%{back%} NMN_VALGEI/LIBEI-SG ;
 
 LEXICON PROP_VALGEI-PL !!= @CODE@ 
-+N+Prop:%{back%} NMN_VALGEI-PL ;
++N+Prop:%{back%} NMN_VALGEI/LIBEI-PL ;
 LEXICON PROP-PLC_VALGEI !!= @CODE@ valgei:valge
-+N+Prop+Sem/Plc:%{back%} NMN_VALGEI ;
++N+Prop+Sem/Plc:%{back%} NMN_VALGEI/LIBEI ;
 
 
 
