@@ -181,6 +181,9 @@ LEXICON A_HARDIE
 LEXICON A_OSTAI
 +A:%{back%}%>%{ijPRC%} NMN_OSTAI ;
 
+LEXICON A_PAGIZII !!= @CODE@ pagizii:pagizi
++A:%{back%}%>%{ijPRC%} NMN_PAGIZII ;
+
 LEXICON A_PEZII
 +A:%{front%}%>%{ijPRC%} NMN_PEZII ;
 
