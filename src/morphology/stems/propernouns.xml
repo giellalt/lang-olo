@@ -6,6 +6,57 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="N" type="Prop">Biblii</l>
+      <stg>
+        <st Contlex="PROP_STIPENDII">Bibli</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">Raamattu</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">Hristossu</l>
+      <stg>
+        <st Contlex="N_AKKU">Hristossa</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg>
+        <t pos="N">Kristus</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">Jumal</l>
+      <stg>
+        <st Contlex="N_TAIGIN">Jumal</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg>
+        <t pos="N">Jumala</t>
+      </tg>
+    </mg>
+  </e>
+  <e> <lg> <l pos="N">Juminkeko-fondu</l> <stg> <st Contlex="N_KOIRU">Jumin#keko-#fonda</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">Juminkeko-säätiö</t> </tg> </mg>
+</e>
+  <e> <lg> <l pos="N">Kiži-muzei</l> <stg> <st Contlex="N_VALGEI">Kiži-muze</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">Kižin museo</t> </tg> </mg>
+</e>
+  <e> <lg> <l pos="N">Kone-fondu</l> <stg> <st Contlex="N_KOIRU">Kone-#fonda</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">Koneen Säätiö</t> </tg> </mg>
+</e>
+  <e> <lg> <l pos="N">Noid-joukko</l> <stg> <st Contlex="N_RUADO">Noid-#joukko</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">Noid-ryhmä</t> </tg> </mg>
+</e>
+  <e> <lg> <l pos="N">OK-opintokeskus</l> <stg> <st Contlex="N_ALUS">OK-#opinto#keskuks</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">OK-opintokeskus</t> </tg> </mg>
+</e>
+  <e> <lg> <l pos="N">Salmi-Fondu</l> <stg> <st Contlex="N_KOIRU">Salmi-#Fonda</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="fin"> <t pos="N">Salmi-säätiö</t> </tg> </mg>
+</e>
+  <e>
+    <lg>
       <l pos="N" type="Prop">Abramov</l>
 
       <stg>
