@@ -47,7 +47,7 @@ LEXICON A-DEM_NÄMÄ !!= @CODE@ nämä:nämä
 
 !! !ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
 LEXICON A_KUU !!= @CODE@ kuu:kuu
-+A:%{back%} NMN_KUU ;
++A:%{back%} NMN_KUU/PII ;
 
 LEXICON A_MUA !!= @CODE@ mua:maa
 +A:%{back%} NMN_MUA ;
