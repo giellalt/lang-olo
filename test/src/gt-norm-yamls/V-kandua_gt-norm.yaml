@@ -15,66 +15,66 @@ Tests:
 
 
   Verb - kandua: # Verb 'to carry / kantaa' - full paradigm
-      kandua+V+Ind+Prs+ScSg1: kannan
-      kandua+V+Ind+Prs+ScSg2: kannat
-      kandua+V+Ind+Prs+ScSg3: kandau
-      kandua+V+Ind+Prs+ScPl1: kannammo
-      kandua+V+Ind+Prs+ScPl2: kannatto
-      kandua+V+Ind+Prs+ScPl3: kannetah
-      kandua+V+Ind+Prs+ConNeg: kanna
-      kandua+V+Ind+Prs+ConNeg+ScPl3: kanneta
+      kandua+V+Act+Ind+Prs+Sg1: kannan
+      kandua+V+Act+Ind+Prs+Sg2: kannat
+      kandua+V+Act+Ind+Prs+Sg3: kandau
+      kandua+V+Act+Ind+Prs+Pl1: kannammo
+      kandua+V+Act+Ind+Prs+Pl2: kannatto
+      kandua+V+Act+Ind+Prs+Pl3: kannetah
+      kandua+V+Act+Ind+Prs+ConNeg: kanna
+      kandua+V+Act+Ind+Prs+ConNeg+Pl3: kanneta
  
-      kandua+V+Ind+Prt+ScSg1: kannoin
-      kandua+V+Ind+Prt+ScSg2: kannoit
-      kandua+V+Ind+Prt+ScSg3: kandoi
-      kandua+V+Ind+Prt+ScPl1: kannoimmo
-      kandua+V+Ind+Prt+ScPl2: kannoitto
-      kandua+V+Ind+Prt+ScPl3: kannettih
-      kandua+V+Ind+Prt+ConNeg: kandanuh
-      kandua+V+Ind+Prt+ConNeg+ScPl3: kannettu
+      kandua+V+Act+Ind+Prt+Sg1: kannoin
+      kandua+V+Act+Ind+Prt+Sg2: kannoit
+      kandua+V+Act+Ind+Prt+Sg3: kandoi
+      kandua+V+Act+Ind+Prt+Pl1: kannoimmo
+      kandua+V+Act+Ind+Prt+Pl2: kannoitto
+      kandua+V+Act+Ind+Prt+Pl3: kannettih
+      kandua+V+Act+Ind+Prt+ConNeg: kandanuh
+      kandua+V+Act+Ind+Prt+ConNeg+Pl3: kannettu
       
-      kandua+V+Cond+Prs+ScSg1:  kandazin
-      kandua+V+Cond+Prs+ScSg2:  kandazit
-      kandua+V+Cond+Prs+ScSg3:  kandas
-      kandua+V+Cond+Prs+ScPl1:  kandazimmo
-      kandua+V+Cond+Prs+ScPl2:  kandazitto
-      kandua+V+Cond+Prs+ScPl3:  kannettas
-      kandua+V+Cond+Prs+ConNeg: kandas
-      kandua+V+Cond+Prs+ConNeg+ScPl3:  kannettas
+      kandua+V+Act+Cond+Prs+Sg1:  kandazin
+      kandua+V+Act+Cond+Prs+Sg2:  kandazit
+      kandua+V+Act+Cond+Prs+Sg3:  kandas
+      kandua+V+Act+Cond+Prs+Pl1:  kandazimmo
+      kandua+V+Act+Cond+Prs+Pl2:  kandazitto
+      kandua+V+Act+Cond+Prs+Pl3:  kannettas
+      kandua+V+Act+Cond+Prs+ConNeg: kandas
+      kandua+V+Act+Cond+Prs+ConNeg+Pl3:  kannettas
 
-      kandua+V+Cond+Prt+ScSg1:  kandanuzin
-      kandua+V+Cond+Prt+ScSg2:  kandanuzit
-      kandua+V+Cond+Prt+ScSg3:  kandanus
-      kandua+V+Cond+Prt+ScPl1:  kandanuzimmo
-      kandua+V+Cond+Prt+ScPl2:  kandanuzitto
-      kandua+V+Cond+Prt+ScPl3:  kannetannus
-      kandua+V+Cond+Prt+ConNeg: kandanus
-      kandua+V+Cond+Prt+ConNeg+ScPl3:  kannetannus
+      kandua+V+Act+Cond+Prt+Sg1:  kandanuzin
+      kandua+V+Act+Cond+Prt+Sg2:  kandanuzit
+      kandua+V+Act+Cond+Prt+Sg3:  kandanus
+      kandua+V+Act+Cond+Prt+Pl1:  kandanuzimmo
+      kandua+V+Act+Cond+Prt+Pl2:  kandanuzitto
+      kandua+V+Act+Cond+Prt+Pl3:  kannetannus
+      kandua+V+Act+Cond+Prt+ConNeg: kandanus
+      kandua+V+Act+Cond+Prt+ConNeg+Pl3:  kannetannus
 
-      kandua+V+Pot+ScSg1:  kandanen
-      kandua+V+Pot+ScSg2:  kandanet
-      kandua+V+Pot+ScSg3:  kandanou
-      kandua+V+Pot+ScPl1:  kandanemmo
-      kandua+V+Pot+ScPl2:  kandanetto
-      kandua+V+Pot+ScPl3:  kannetanneh
-      kandua+V+Pot+ConNeg: kandane
-      kandua+V+Pot+ConNeg+ScPl3:  kannetanne
+      kandua+V+Act+Pot+Sg1:  kandanen
+      kandua+V+Act+Pot+Sg2:  kandanet
+      kandua+V+Act+Pot+Sg3:  kandanou
+      kandua+V+Act+Pot+Pl1:  kandanemmo
+      kandua+V+Act+Pot+Pl2:  kandanetto
+      kandua+V+Act+Pot+Pl3:  kannetanneh
+      kandua+V+Act+Pot+ConNeg: kandane
+      kandua+V+Act+Pot+ConNeg+Pl3:  kannetanne
 
-      kandua+V+Imprt+ScSg2:  kanna
-      kandua+V+Imprt+ScSg3:  kandakkah
-      kandua+V+Imprt+ScPl1:  kandakkuammo
-      kandua+V+Imprt+ScPl2: [kandakkua, kandakkuatto]
-      kandua+V+Imprt+ScPl3:  kannettahes
-      kandua+V+Imprt+ConNeg+ScSg2: kanna
-      kandua+V+Imprt+ConNeg+ScSg3: kandakkah
-      kandua+V+Imprt+ConNeg+ScPl1: kandakkuammo
-      kandua+V+Imprt+ConNeg+ScPl2: kandakkua
-      kandua+V+Imprt+ConNeg+ScPl3: kannettahes
+      kandua+V+Act+Imprt+Sg2:  kanna
+      kandua+V+Act+Imprt+Sg3:  kandakkah
+      kandua+V+Act+Imprt+Pl1:  kandakkuammo
+      kandua+V+Act+Imprt+Pl2: [kandakkua, kandakkuatto]
+      kandua+V+Act+Imprt+Pl3:  kannettahes
+      kandua+V+Act+Imprt+ConNeg+Sg2: kanna
+      kandua+V+Act+Imprt+ConNeg+Sg3: kandakkah
+      kandua+V+Act+Imprt+ConNeg+Pl1: kandakkuammo
+      kandua+V+Act+Imprt+ConNeg+Pl2: kandakkua
+      kandua+V+Act+Imprt+ConNeg+Pl3: kannettahes
 
-      kandua+V+ActPrsPrc+Sg+Nom: kandai
-      kandua+V+ActPrfPrc: kandanuh
-      kandua+V+PssPrsPrc: kannettavu
-      kandua+V+PssPrfPrc: kannettu
+      kandua+V+Act+PrsPrc+Sg+Nom: kandai
+      kandua+V+Act+PrfPrc: kandanuh
+      kandua+V+Pss+PrsPrc: kannettavu
+      kandua+V+Pss+PrfPrc: kannettu
       kandua+V+Inf: kandua
  
  

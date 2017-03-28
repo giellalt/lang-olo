@@ -3,14 +3,13 @@
 a
 b
 c
+č
 d
 e
 f
 g
 h
 i
-î
-ï
 j
 k
 l
@@ -19,16 +18,45 @@ n
 o
 p
 r
-s
+š
 t
 u
 v
 w
 x
 y
-z
+ž
 ä
 ö
+A
+B
+C
+Č
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+R
+Š
+T
+U
+V
+W
+X
+Y
+Ž
+Ä
+Ö
+ʼ
 -
 .
 0
@@ -47,7 +75,11 @@ z
 @@
 
 ## Transition pair specifications + weight:
-a	á	0.4
+c	e	0.4
+o	ö	0.4
+a	ä	0.4
+c	č	0.4
+J	l	0.9
 
 ## Swaps:
 ## Change dh into hd with the weight 0.5:
