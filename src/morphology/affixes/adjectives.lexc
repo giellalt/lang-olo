@@ -271,8 +271,12 @@ LEXICON A_TOVESTEH !!= @CODE@ pereh:pereh
 LEXICON A_PEREH !!= @CODE@ pereh:pereh
 +A:%{front%}	NMN_TOVESTEH/PEREH	;
 
+LEXICON A_TULLUH !!= @CODE@ tulluh:tullu
+!!= * Yaml: __A-tulluh__
++A:%{back%} NMN_TULLUH/PESSYH ;
+
 LEXICON A_PESSYH !!= @CODE@ pessyh:pessy
-+A:%{front%} NMN_PESSYH ;
++A:%{front%} NMN_TULLUH/PESSYH ;
 
 LEXICON A_ARMAS !!= @CODE@ armas:arma
 +A:%{back%} NMN_ARMAS        ;
@@ -283,10 +287,6 @@ LEXICON A_VARVAS !!= @CODE@ varvas:varva
 +A:%{back%} NMN_VARVAS        ;
 +A+Der/mbi+Comp:%{back%}h%{aä%}mb NMN_PAREMBI/ENÄMBI        ;
 +A+Der/in+Superl:%{back%}hi NMN_ENIN        ;
-
-LEXICON A_TULLUH !!= @CODE@ tulluh:tullu
-!!= * Yaml: __A-tulluh__
-+A:%{back%} NMN_TULLUH ;
 
 LEXICON A_TUORES !!= @CODE@ tuores:tuore
 !!= * Yaml: __A-tuores__
