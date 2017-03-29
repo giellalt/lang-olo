@@ -15,40 +15,40 @@ Tests:
 
 
   Verb - tulla: # Verb 'to come / tulla' - full paradigm
-     tulla+V+Ind+Prs+ScSg1: tulen
-     tulla+V+Ind+Prs+ScSg2: tulet
-     tulla+V+Ind+Prs+ScSg3: tulou
-     tulla+V+Ind+Prs+ScPl1: tulemmo
-     tulla+V+Ind+Prs+ScPl2: tuletto
-     tulla+V+Ind+Prs+ScPl3: tullah
-     tulla+V+Ind+Prs+ConNeg: tule
-     tulla+V+Ind+Prs+ConNeg+ScPl3: tulla
+     tulla+V+Act+Ind+Prs+Sg1: tulen
+     tulla+V+Act+Ind+Prs+Sg2: tulet
+     tulla+V+Act+Ind+Prs+Sg3: tulou
+     tulla+V+Act+Ind+Prs+Pl1: tulemmo
+     tulla+V+Act+Ind+Prs+Pl2: tuletto
+     tulla+V+Act+Ind+Prs+Pl3: tullah
+     tulla+V+Act+Ind+Prs+ConNeg: tule
+     tulla+V+Act+Ind+Prs+ConNeg+Pl3: tulla
 
-     tulla+V+Ind+Prt+ScSg1: tulin
-     tulla+V+Ind+Prt+ScSg2: tulit
-     tulla+V+Ind+Prt+ScSg3: tuli
-     tulla+V+Ind+Prt+ScPl1: tulimmo
-     tulla+V+Ind+Prt+ScPl2: tulitto
-     tulla+V+Ind+Prt+ScPl3: tuldih
-     tulla+V+Ind+Prt+ConNeg: tulluh
-     tulla+V+Ind+Prt+ConNeg+ScPl3: tuldu
+     tulla+V+Act+Ind+Prt+Sg1: tulin
+     tulla+V+Act+Ind+Prt+Sg2: tulit
+     tulla+V+Act+Ind+Prt+Sg3: tuli
+     tulla+V+Act+Ind+Prt+Pl1: tulimmo
+     tulla+V+Act+Ind+Prt+Pl2: tulitto
+     tulla+V+Act+Ind+Prt+Pl3: tuldih
+     tulla+V+Act+Ind+Prt+ConNeg: tulluh
+     tulla+V+Act+Ind+Prt+ConNeg+Pl3: tuldu
      
-     tulla+V+Cond+Prs+ScSg1: tulizin
-     tulla+V+Cond+Prs+ScSg2: tulizit
-     tulla+V+Cond+Prs+ScSg3: [tulis, tuliz]
-     tulla+V+Cond+Prs+ScPl1: tulizimmo
-     tulla+V+Cond+Prs+ScPl2: tulizitto
-     tulla+V+Cond+Prs+ScPl3: tuldas
+     tulla+V+Act+Cond+Prs+Sg1: tulizin
+     tulla+V+Act+Cond+Prs+Sg2: tulizit
+     tulla+V+Act+Cond+Prs+Sg3: [tulis, tuliz]
+     tulla+V+Act+Cond+Prs+Pl1: tulizimmo
+     tulla+V+Act+Cond+Prs+Pl2: tulizitto
+     tulla+V+Act+Cond+Prs+Pl3: tuldas
 
-     tulla+V+Cond+Prt+ScSg1: tulluzin
-     tulla+V+Cond+Prt+ScSg2: tulluzit
-     tulla+V+Cond+Prt+ScSg3: [tullus, tulluz]
-     tulla+V+Cond+Prt+ScPl1: tulluzimmo
-     tulla+V+Cond+Prt+ScPl2: tulluzitto
-     tulla+V+Cond+Prt+ScPl3: tuldannus
+     tulla+V+Act+Cond+Prt+Sg1: tulluzin
+     tulla+V+Act+Cond+Prt+Sg2: tulluzit
+     tulla+V+Act+Cond+Prt+Sg3: [tullus, tulluz]
+     tulla+V+Act+Cond+Prt+Pl1: tulluzimmo
+     tulla+V+Act+Cond+Prt+Pl2: tulluzitto
+     tulla+V+Act+Cond+Prt+Pl3: tuldannus
 
-     tulla+V+ActPrfPrc: tulluh
-     tulla+V+PssPrfPrc: tuldu
+     tulla+V+Act+PrfPrc: tulluh
+     tulla+V+Pss+PrfPrc: tuldu
           
 
 

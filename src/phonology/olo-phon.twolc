@@ -458,7 +458,7 @@ A2:y <=> [ y: ] %{front%}: %> _ ( %^WGStem:0 ) [ # | %>  ];
 
 "a:u before subsequent a"
 !! __@RULENAME@__  Diphthong a+a => ua
-a:u <=> ConsPalOrNot _ [%{back%}:  ( d:0 ) a  | (%{back%}:) %> [ %{aä%}: | A2:a ] ]; 
+a:u <=> ConsPalOrNot _ [%{back%}:  ( d:0 ) a  |d:0 a| (%{back%}:) %> [ %{aä%}: | A2:a ] ]; 
 !! ostua+V+Inf: __buy/ostaa__
 !!€# osta%>%{aä%}
 !!€0 ostu%>%{aä%}
@@ -477,13 +477,13 @@ a:u <=> ConsPalOrNot _ [%{back%}:  ( d:0 ) a  | (%{back%}:) %> [ %{aä%}: | A2:a
  
 "o:u before subsequent o"
 !! __@RULENAME@__ Diphthong o+o => uo erota:eruou
-o:u <=> Cns (ʼ) _ (%{back%}:) %> [ %{aä%}: | %{aäoeö%}: |%{aäoeöuiy%}: | o ] ; 
-!!€# ero%>%{aäDiph%}%>n
+o:u <=> Cns (ʼ) _ (%{back%}:) %> [ %{oö%}: | %{aäoeö%}: |%{aäoeöuiy%}: | o ] ; 
+!!€# ero%>%{oö%}%>n
 !!€0 eru0o%>n
-!!€# runo%>%{aäPar%}
+!!€# runo%>%{oö%}
 !!€0 runu%>o
                   _ %{back%}: %> v v ;
-!!€# jo%>vv%{aäDiph%}
+!!€# jo%>vv%{aä%}
 !!€0 ju%>vva
 
 
@@ -704,10 +704,10 @@ g:r <=> r _ [[ a: ] (HarmDummy:) ( %> i )| i | e |ä|ö:] (HarmDummy:) %^WGStem:
 d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; !!= @CODE@
           u a           _   o       (%{back%}:) %^WGStem:0 ; !!= @CODE@
           a             _   u       (%{back%}:) %^WGStem:0 ; !!= @CODE@
-        [ u o: | u: ]   _  [ (%{back%}:) e | a: ]  (%{back%}:) (%> i )    %^WGStem:0 ; !!= @CODE@ 
+        [ u o: | u: ]   _  [ (%{back%}:) e | a: ]  (%{back%}:) ((%^RmVow:) %> i )    %^WGStem:0 ; !!= @CODE@ 
         !!€# vuode%^WGStem%>n
         !!€0 vuvve0%>n
-        [ ä y: ]   _  [(%{front%}:) e | y ]  (%{front%}:) (%> i )    %^WGStem:0 ; !!= @CODE@ 
+        [ ä y: ]   _  [(%{front%}:) e | y ]  (%{front%}:) ((%^RmVow:) %> i )    %^WGStem:0 ; !!= @CODE@ 
 !!€ täydy%{front%}%^WGStem
 !!€ tävvy00
 
@@ -748,7 +748,7 @@ u:v <=> [ o | u ] _ d: [ a: | (%{back%}:) e | u ] (%{back%}:) %^WGStem: [%>| #:]
 "o:v Lengthening with Ut:vv weakening"
 !! __@RULENAME@__  
 !! {{{
-o:v <=> u _ d: [ (%{back%}:) e | a: ] [(%{back%}:) %> i | (%{back%}:)] %^WGStem: [%>| #:] ;
+o:v <=> u _ d: [ (%{back%}:) e | a: ] [(%{back%}:) (%^RmVow:) %> i | (%{back%}:)] %^WGStem:  ;
 !! }}}
 
 ! vuozi:vuod
@@ -914,7 +914,9 @@ b:m <=> m _  [ a | i ] (HarmDummy:) %^WGStem:0 ;
 "p:0 in lapsi"
 !! __@RULENAME@__  
 p:0 <=> Vow _ s  (HarmDummy:) %^KS2S:0  ;
- Vow: _ p Vow: (HarmDummy:) (%> i) %^WGStem:0  ;
+ Vow: _ p Vow: (HarmDummy:) (%^RmVow:) (%> i) %^WGStem:0  ;
+!!€ kuoppa%{back%}%^WGStem%^RmVow%>i%>l
+!!€ kuo0p0000%>i%>l
 
 !2013-04-29! Vowel raising
 !2013-04-29!"o:u ö:y in Inf"
