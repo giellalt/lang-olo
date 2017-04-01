@@ -279,7 +279,7 @@ LEXICON A_PESSYH !!= @CODE@ pessyh:pessy
 +A:%{front%} NMN_TULLUH/PESSYH ;
 
 LEXICON A_ARMAS !!= @CODE@ armas:arma
-+A:%{back%} NMN_ARMAS        ;
++A:%{back%} NMN_ARMAS/EVAES        ;
 +A+Der/mbi+Comp:%{back%}h%{aä%}mb NMN_PAREMBI/ENÄMBI        ;
 +A+Der/in+Superl:%{back%}hi NMN_ENIN        ;
 
