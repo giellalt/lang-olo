@@ -108,30 +108,32 @@ Back vowel
  * __LEXICON V_LUGIE/IMIE_01 __ lugie:luge
 Gradation Yes
 
- * __+V:%>e INDPRTPL3_ttih ; __ 
- * __+V:%>e INDPRSPL3_tAh ; __ 
+ * __:%>e INDPRTPL3_ttih ; __ 
+ * __:%>e INDPRSPL3_tAh ; __ 
 
  * __LEXICON V_TUNDIE __ tundie:tunde 
+ * __LEXICON V_TUNDIE_01 __ tundie:tunde 
 Gradation Yes
 Back vowel
 
 
- * __+V:%>e INDPRTPL3_ttih ; __ 
- * __+V:%>e INDPRSPL3_tAh ; __ 
+ * __:%>e INDPRTPL3_ttih ; __ 
+ * __:%>e INDPRSPL3_tAh ; __ 
  * __LEXICON V_IMIE __ imie:ime
 Gradation No
 Front vowel
 
- * __+V:%>e INDPRTPL3_ttih ; __ 
- * __+V:%>e INDPRSPL3_tAh ; __ 
 
  * __LEXICON V_IMIE-SG3 __ imie:ime
+ * __LEXICON V_IMIE-SG3_01 __ imie:ime
 
  * __LEXICON  V_PIDIÄ __ pidiä:pidä
 Gradation Yes
 Front vowel
+ * __LEXICON  V_PIDIÄ_01 __ pidiä:pidä
 
  * __LEXICON  V_PIDIÄ-SG3 __ pidiä:pidä
+ * __LEXICON  V_PIDIÄ-SG3_01 __ pidiä:pidä
 
  * __LEXICON V_KIRJUTTUA __ kirjuttua:kirjutta
 3-syllable stem
@@ -142,28 +144,34 @@ Back vowel
 !VERBS OF FINNISH TYPE 2 in dA
 
  * __LEXICON V_VOIJA __ voija:voi
+ * __LEXICON V_VOIJA_01 __ voija:voi
 
- * __+V+Inf:%>ja K ; __ type 2 also suaha
+ * __+Inf:%>ja K ; __ type 2 also suaha
 
 
 
  * __LEXICON V_ROIJA __ roija:roi
- * __+V+Inf:%>ja K ; __ type 2 also suaha
+ * __LEXICON V_ROIJA_01 __ roija:roi
+ * __+Inf:%>ja K ; __ type 2 also suaha
 
 
  * __LEXICON V_SUAJA __ suaja:saa
- * __+V+Inf:%>ja K ; __ type 2 also suaha
- * __+V+Inf:%>ha K ; __ type 2 also suaha
+ * __LEXICON V_SUAJA_01 __ suaja:saa
+ * __+Inf:%>ja K ; __ type 2 also suaha
+ * __+Inf:%>ha K ; __ type 2 also suaha
 
 
  * __LEXICON V_JUVVA __ juvva:jo
+ * __LEXICON V_JUVVA_01 __ juvva:jo
 
 
  * __LEXICON V_JIÄJÄ __ suaja:saa jiäjä:jää
- * __+V+Inf:%>jä K ; __ type 2 also jiähä
- * __+V+Inf:%>hä K ; __ type 2 also jiähä
+ * __LEXICON V_JIÄJÄ_01 __ suaja:saa jiäjä:jää
+ * __+Inf:%>jä K ; __ type 2 also jiähä
+ * __+Inf:%>hä K ; __ type 2 also jiähä
 
  * __LEXICON V_MYVVÄ __ myvvä:mö
+ * __LEXICON V_MYVVÄ_01 __ myvvä:mö
 
  * __LEXICON V_VIIJÄ __ viijä:ve
 
@@ -192,6 +200,7 @@ Back vowel
  * __LEXICON V_ULISTA __ ulista:ulis
 
  * __LEXICON V_JUOSTA_BACK __ juosta:juoks
+ * __LEXICON V_JUOSTA_01 __ juosta:juoks
 
 
 
@@ -327,8 +336,10 @@ gradation: yes
 
 
  * __LEXICON V_SUATA __ suata:suva (suvaiččov)
+ * __LEXICON V_SUATA_01 __ suata:suva (suvaiččov)
 
  * __LEXICON VR_AMBUO __ ambuokseh:ambu
+ * __LEXICON VR_AMBUO_01 __ ambuokseh:ambu
 
  * __LEXICON VR_VALUO __ valuokseh:valu
  * __LEXICON VR_VALUO/PYZYÖ __ valuokseh:valu
@@ -348,10 +359,13 @@ gradation: yes
 
 
  * __LEXICON VR_PIDIÄ __ pidiäkseh:pidä
+ * __LEXICON VR_PIDIÄ_01 __ pidiäkseh:pidä
 
  * __LEXICON VR_KANDUA __ kanduakseh:kanda
+ * __LEXICON VR_KANDUA_01 __ kanduakseh:kanda
 
  * __LEXICON VR_KANDUA-SG3 __ kanduakseh:kanda
+ * __LEXICON VR_KANDUA-SG3_01 __ kanduakseh:kanda
 
  * __LEXICON VR_OTTUA __ ottuakseh:otta
  * __LEXICON VR_OTTUA/HEITTIÄ_01 __ ottuakseh:otta
@@ -414,10 +428,7 @@ Reflexive verbs
 
 
 
-
  __LEXICON V-3SYLL_KIRJUTTUA __  kirjuttua:kirjutta
-
-
 
 
 
@@ -450,15 +461,6 @@ Reflexive verbs
 
 
 
-
-
-
- * __LEXICON V-VV_03_BACK __ tulla:tul
-
-
-
-
- * __LEXICON V-VV_03_FRONT __ mennä:men
 
 
 
