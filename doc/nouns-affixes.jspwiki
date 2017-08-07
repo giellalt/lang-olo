@@ -21,6 +21,10 @@ Harmony: Front
 Gradation: No
 Harmony: Back
 
+ LEXICON N_PII  pii:pii
+Gradation: No
+Harmony: front
+
  LEXICON N_MUA  mua:mua
 Gradation: No
 Harmony: Back
@@ -89,6 +93,7 @@ Gradation NA
 Harmony: Front
 There are no	changes	in stem-final __y__
 Plural stem in __löi__
+
 
 
  LEXICON N_IDY  idy:idy
@@ -167,6 +172,11 @@ Harmony: Back
 Gradation No
 Harmony: Front
 
+
+
+ LEXICON N_SUAJU  suaju:suaja
+Gradation No
+Harmony: Back
 
 
  LEXICON N_AKKU  akku:akka
@@ -264,6 +274,12 @@ Gradation Yes
 Harmony: Front
 
  LEXICON N_VALGEI  valgei:valge
+Gradation NA
+Harmony: Back
+
+
+
+ LEXICON N_LIBEI  libei:libe
 Gradation NA
 Harmony: Back
 
@@ -587,6 +603,10 @@ Harmony: Back
 Gradation NA
 Harmony: Back
 
+ LEXICON N_EVAES  eväs:evä
+Gradation Yes
+Harmony: Front
+
  LEXICON N_VARVAS  varvas:varba
 Gradation NA
 Harmony: Back
@@ -694,7 +714,6 @@ Back vowel
 gradation NA
 
 
- LEXICON NMN_TUATTO  tuatto:tuatta
 Back vowel
 gradation Yes
 
@@ -704,6 +723,10 @@ gradation Yes
 
 
  LEXICON NMN_MUARJU/PIÄSTÄNDY  muarju:muarja
+gradation NA
+
+
+ LEXICON NMN_SUAJU/XX  muarju:muarja
 gradation NA
 
 
@@ -718,21 +741,14 @@ gradation No
  LEXICON NMN_LAPSI  lapsi:laps lapsi:laps
 
 
- LEXICON NMN_VEZI  vezi:ved
 
 
 
 
- LEXICON NMN_SUZI  suzi:su
 
 
 
 !NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
-
-
-
-Gradation: No
-Harmony: Back
 
 
 
@@ -796,7 +812,6 @@ __Adjective comparative examples:__
  LEXICON NMN_HUOLETOI/JIÄTÖI  huoletoi: huolet
 
 
- LEXICON NMN_SULGU  sulgu:sulga
 Gradation Yes
 Vowel Harmony Back
 
@@ -814,7 +829,6 @@ Gradation NA
 
 
 
- LEXICON NMN_MEČČY  meččy:meččä
 gradation Yes
 
 
@@ -838,29 +852,14 @@ Vowel Harmony Back
 
 
 
- LEXICON NMN_HERY  hery:hery
-Gradation NA
-Vowel Harmony Front
-
-
-
- LEXICON NMN_IDY  idy:idy
-Gradation Yes
-Vowel Harmony Front
 
 
 
 
- LEXICON NMN_VASKIČČU  vaskičču:vaskičč
 
 
 
- LEXICON NMN_SYGYZY  sygyzy:sygyzy
-
-
-
-
- * __LEXICON NMN_VALGEI __ valgei:valge
+ * __LEXICON NMN_VALGEI/LIBEI __ valgei:valge
 
 
  LEXICON NMN_RAHMANNOI  rahmannoi:rahmannoi
@@ -896,7 +895,6 @@ Stem Vowel 0:a:0 kandai, kandajan, kandajua, kandajinnu
 Gradation No
 
 
- LEXICON NMN_HÖRÖ  hörö:hörö
 Gradation No
 
 
@@ -908,7 +906,7 @@ Gradation Yes
 
 
 
- LEXICON NMN_KUU  kuu:kuu
+ LEXICON NMN_KUU/PII  kuu:kuu
 
 
 
@@ -935,7 +933,7 @@ Yaml: __pada__
 Gradation Yes
 
 
- LEXICON NMN_PESSYH  pessyh
+ LEXICON NMN_TULLUH/PESSYH  pessyh
 
 !Nominative singular in "h"
 
@@ -996,21 +994,15 @@ Gradation Yes
 
 
 
- LEXICON NMN_ILVES  ilves:ilveks
 
 
 
- LEXICON NMN_MIES  mies:mie
-
-
-
- LEXICON NMN_ARMAS  armas:arma
+ LEXICON NMN_ARMAS/EVAES  armas:arma
 
 
  LEXICON NMN_VARVAS  varvas:varba
 
 
- LEXICON NMN_BEMMEL  bemmel:bembel
 
 
  LEXICON NMN_VIDEL  videl:videl
@@ -1040,7 +1032,6 @@ Gradation No
 
 
 
- * LEXICON NMN_TUHAT  tuhat:tuha
 Gradation None
 
 
@@ -1063,13 +1054,8 @@ Gradation None
 
  LEXICON NMN_PAPPI/HÄKKI  pappi:pappi
 
- LEXICON NMN_HÄKKI  häkki:häkki
 
 
- LEXICON NMN_LEIRI  leiri:leiri
-Gradation NA
-
- LEXICON NMN_UKSI  uksi:uks
 
 
 
@@ -1081,25 +1067,22 @@ Gradation NA
 
 
 
- LEXICON NMN_SÄYNÄ  säynä:säynä
 
 
 
- LEXICON NMN_SAMMAL  sammal:sammal
 
 
  LEXICON NMN_TVER  tver:tver
 Gradation NA
 Front	 Vowel
 Singular stem vowel 0/i
-Plural stem vowel ilöi
+Plural stem vowel il%{oö%}i
 
 
- LEXICON NMN_ŠOUFER  šoufer:šoufer
 Gradation NA
 Back	 Vowel
 Singular stem vowel 0/i
-Plural stem vowel ilöi
+Plural stem vowel il%{oö%}i
 
 
  LEXICON NMN_VANUIN  vanuin:vanui
@@ -1110,7 +1093,7 @@ Singular stem vowel 0/0/e
 Plural stem vowel i
 
 
- LEXICON NMN_SAMMUTIN  sammutin:sammutti
+ LEXICON NMN_SAMMUTIN/KEITIN  sammutin:sammutti
 Gradation Yes
 (Nominative and partitive singular forms are weak grade)
 Back	     Vowel
@@ -1118,14 +1101,6 @@ Stem	     consonant n/m
 Singular stem vowel 0/0/e
 Plural stem vowel i
 
-
- LEXICON NMN_KEITIN  keitin:keitti
-Gradation Yes
-(Nominative and partitive singular forms are weak grade)
-Front	     Vowel
-Stem	     consonant n/m
-Singular stem vowel 0/0/e
-Plural stem vowel i
 
 
  LEXICON NMN_VAŽEN  važen:važe
@@ -1171,9 +1146,10 @@ Plural stem vowel i
 
 
 
-__luadi%^WGStem%^E1%>tt%{uy%}%>%{aäoeöuiy%} examples:__
 
-__luaji000ttu0u examples:__
+__luadi%^WGStem%^E1%>tt%{uy%}%>%{uy%} examples:__
+
+__luaji000ttu%>u examples:__
 
 
 
