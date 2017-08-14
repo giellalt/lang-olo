@@ -2594,68 +2594,30 @@ Right context for gradation
 
 !!!Rules
 
-o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
-
-
-ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
 
 
 
 
 
 
-__lʼykkä%^WGStem%>kk%{ui%}%{aä%}mm%{oö%} examples:__
 
-__lʼyk0ä0%>kkiämmö examples:__
-
-__lʼykkä%>%{aä%}%>m%{aä%}h examples:__
-
-__lʼykki%>ä%>mäh examples:__
-
-__lʼykkä%>%{aä%}%>%{ijPRC%}%{aä%}%^A2U examples:__
-
-__lʼykki0ä%>jy0 examples:__
 
 __%{aä%}:a__
 
 __%{aä%}:ä__
 
 
-Vowel harmony suffixes Back
-
-__kanda%>kk%{ui%}%{aä%}mm%{oö%} examples:__
-
-__kanda%>kkuammo examples:__
-
-__pagis%>d%{aä%}%^WGStemh examples:__
-
-__pa0is%>ta0h examples:__
 
 
 
-Vowel harmony suffixes Back
-
-__pagis%>d%{aä%}%^WGStemh examples:__
-
-__pa0is%>ta0h examples:__
-
-
-__luadi%{back%}%^WGStem%^E1%>tt%{uy%}%>%{uy%} examples:__
-
-__luaji000%>ttu%>u examples:__
-
-
-Vowel harmony suffixes Front
-
-
-* __hävi%>%{aäPar%}%>%{uy%} __
-* __hävi0e%>y __
-* __hävi%>%{aäPar%}%>n __
-* __hävi%>e0n __
 
 
 
-           [ a | ä | i ] i _ %^A2U: ; 
+
+
+
+
+
 
 
 __%{aäoeö%}:a__
@@ -3055,6 +3017,7 @@ __b:v__
 
 __b:v__
 {{{
+ b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 }}}
 
 __p:0 in lapsi__  
