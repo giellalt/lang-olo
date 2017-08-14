@@ -218,43 +218,43 @@ GRC =  [ [ ( %> ) %{aä%}: | [ %{oö%}: |o|ö] | %{uy%}: | Vow: | :Vow ] ( %>  i
 Rules
 
 !"%{aäPar%}:o"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 !%{aäPar%}:o <=>   [%{back%}: o: |o: %{back%}:] %> _ [# | %> ] ;
-!! o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+! ! o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
 
 
 !"%{aäPar%}:ö"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 !%{aäPar%}:ö <=>  [%{front%}: ö: |ö: %{front%}:]  %> _ [# | %> ] ;
-!! ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+! ! ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
 
 
 !"%{aäDiph%}:o"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 !%{aäDiph%}:o <=> o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
 !         [ o: | u] %> _ [ # | %> ] ;
 
 !"%{aäDiph%}:ö"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 !%{aäDiph%}:ö <=> ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
 !         [ ö: | y] %> _ [ # | %> ] ;
 
 !"%{aäDiph%}:e"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 ! %{aäDiph%}:e <=> [ e: | i ] %> _ [ # | %> ]  ;
 
 !"%{aäDiph%}:ä"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 ! %{aäDiph%}:ä <=> [ FTCons %> | [FT|FHarm] %> [ d: | v v | j | h | t ]] _ [ ( %^WGStem:0 ) [ h | # | %> ] | i | %> n %{uy%}: | %> g i | # ] ;
 !   [ FTCons %> | [FT|FHarm] ( %^WGStem:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
 !               Cns:  ä: %{front%}:  (%^Ä2I:) %> _ \[ .#. | %{back%}: ]* [  %> | # ] ;
 !   [ FTCons %> | [ [FT|FHarm] ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:i) |g (%{ui%}:)| m | d: | (t) t | s s ]] _ [  h | z |  s | ( n ) n | t t | m m | v |l | %> %{ijPRC%}: | %> g | # ] ;
-!!€# lʼykkä%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}
-!!€0 lʼyk0ä0%>kkiämmö
-!!€# lʼykkä%>%{aä%}%>m%{aä%}h
-!!€0 lʼykki%>ä%>mäh
-!!€# lʼykkä%>%{aä%}%>%{ijPRC%}%{aä%}%^A2U
-!!€0 lʼykki0ä%>jy0
+! !€# lʼykkä%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}
+! !€0 lʼyk0ä0%>kkiämmö
+! !€# lʼykkä%>%{aä%}%>m%{aä%}h
+! !€0 lʼykki%>ä%>mäh
+! !€# lʼykkä%>%{aä%}%>%{ijPRC%}%{aä%}%^A2U
+! !€0 lʼykki0ä%>jy0
 
 "%{aä%}:a"
 !! __@RULENAME@__
@@ -265,80 +265,80 @@ Rules
  %{aä%}:ä <=> FHarm (%>) _ ;
 
 
-!! Vowel harmony suffixes Back
+! ! Vowel harmony suffixes Back
 !"%{aäDiph%}:a"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 ! %{aäDiph%}:a <=> [ BTCons %> | [BT|BHarm] %> [ d: | v v | h | j | t ]] _ [ ( %^WGStem:0 ) [ h | # | %> ] | i | %> n %{uy%}: | %> g i | # ] ;
 !   [ BTCons %> | [BT|BHarm] ( %^WGStem:0 )  %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
 !               Cns:  a: %{back%}: (%^A2U:) %> _ \[ .#. | %{front%}: ]* [  %> | # ] ;
 !   [ BTCons %> | [ [BT|BHarm] ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) |g (%{ui%}:) | m | d: | (t) t | s s ]] _ [  h | z | s | ( n ) n | t t | m m | v | l | %> %{ijPRC%}: | %> g | # ] ;
-!!€# kanda%>kk%{ui%}%{aä%}mm%{oö%}
-!!€0 kanda%>kkuammo
-!!€# pagis%>d%{aä%}%^WGStemh
-!!€0 pa0is%>ta0h
+! !€# kanda%>kk%{ui%}%{aä%}mm%{oö%}
+! !€0 kanda%>kkuammo
+! !€# pagis%>d%{aä%}%^WGStemh
+! !€0 pa0is%>ta0h
 
 !"%{aäDiph%}:o"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 !%{aäDiph%}:o <=> [ o: | u ] %{back%}: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
 !         [ o: ] %{back%}: %> _ [# | %> ] ;
 
 !"%{aäDiph%}:ö"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 !%{aäDiph%}:ö <=> [ ö: | y ] %{front%}: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
 !         Cns: [ ö: ] %{front%}: %> _ [# | %> ] ;
 
-!! Vowel harmony suffixes Back
+! ! Vowel harmony suffixes Back
 !"%{aäPar%}:a"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 ! %{aäPar%}:a <=>
 !  [BHarm BTCons ( %> ) | [BHarm] %>  %{ijPRC%}:j %> | BHarm [ %{ui%}:u | %{uy%}:u | %{aäPar%}:u | a:u ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:u ] | %^WGStem:0 ] ;
 !   [BT|BHarm] %>  %{ijPRC%}:j %> %{ui%}:u _ ;
 !  [BT|BHarm] %> d: _  ;
-!!€# pagis%>d%{aä%}%^WGStemh
-!!€0 pa0is%>ta0h
+! !€# pagis%>d%{aä%}%^WGStemh
+! !€0 pa0is%>ta0h
 
 !"%{aäPar%}:u"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 !%{aäPar%}:u <=>
 ! [ u: |[ [BT|BHarm] |BHarm :VowBack Cns:* ] ( %> ) %{uy%}:u ] %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
-!!€# luadi%{back%}%^WGStem%^E1%>tt%{uy%}%>%{uy%}
-!!€0 luaji000%>ttu%>u
+! !€# luadi%{back%}%^WGStem%^E1%>tt%{uy%}%>%{uy%}
+! !€0 luaji000%>ttu%>u
 
 !       BHarm  [ u ] %> _  ;
 ! 	 [BT|BHarm] [ Cns: | %{ijPRC%}: ] _ [ %^A2U:0 [ # | %> g i ] | %> %{aäPar%}:a ] ;
 
-!! Vowel harmony suffixes Front
+! ! Vowel harmony suffixes Front
 !"%{aäPar%}:ä"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 ! %{aäPar%}:ä <=>
 !  [FHarm FTCons ( %> ) | [FT|FHarm] %>  %{ijPRC%}:j %> | FHarm [ %{ui%}:i | %{uy%}:y | %{aäPar%}:i | ä:i ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:y ] | %^WGStem:0 ] ;
 
 
 !"%{aäPar%}:e"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 ! %{aäPar%}:e <=>  e:  %> _ [ # | (%^WGStem:) %> ] ;
-!!€ hävi%>%{aäPar%}%>%{uy%}
-!!€ hävi0e%>y
-!!€ hävi%>%{aäPar%}%>n
-!!€ hävi%>e0n
+! !€ hävi%>%{aäPar%}%>%{uy%}
+! !€ hävi0e%>y
+! !€ hävi%>%{aäPar%}%>n
+! !€ hävi%>e0n
 
 !"%{aäPar%}:i"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 !%{aäPar%}:i <=> [FT|FHarm] Cns: _ %> %{aäPar%}:ä ;
 !   FHarm  Cns: i %> _ ;
 
 !"%{aäPar%}:y"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 !%{aäPar%}:y <=> [FT|FHarm] [ Cns: | %{ijPRC%}: ] _ %^A2U:0 [ # | %> g i ] ;
 !    FHarm  y %> _ ;
 
 !"%{aäPar%}:0"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 !%{aäPar%}:0 <=> Cns:  _ %> i  ;
-!!            [ a | ä | i ] i _ %^A2U: ; 
+! !            [ a | ä | i ] i _ %^A2U: ; 
 
 !"%{aäPar%}:0 right"
-!!! __@RULENAME@__
+! ! __@RULENAME@__
 !%{aäPar%}:0 <=> _ %> i  ;
 
 "%{aäoeö%}:a"
@@ -906,7 +906,7 @@ b:v <=> [ #: ] Cns* Vow ( r | l | Vow ) _  [ GRC | %^TS:0 i (HarmDummy:) %^WGSte
 "b:v"
 !! __@RULENAME@__
 !! {{{
-b:m <=> m _  [ a | i ] (HarmDummy:) %^WGStem:0 ;
+b:m <=> m _  [ a | i ] (HarmDummy:) %^WGStem:0 ; !!≈ @CODE@
 !! }}}
 
 !2013-04-29!"double pp to p"
