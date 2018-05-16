@@ -1,27 +1,23 @@
-!!python/object/apply:collections.defaultdict
-args:
-- !!python/name:__builtin__.set ''
-dictitems:
-  Err: !!set
-    !!python/unicode 'Err/Orth': null
-    !!python/unicode 'Err/Sub': null
-  Sem: !!set
-    !!python/unicode 'Sem/Ant_Fem': null
-    !!python/unicode 'Sem/Ant_Mal': null
-    !!python/unicode 'Sem/Measr_Time': null
-    !!python/unicode 'Sem/Plc': null
-  Use: !!set
-    !!python/unicode 'Use/NG': null
-  resten: !!set
-    !!python/unicode 'ActPrfPrc': null
-    !!python/unicode 'CLB': null
-    !!python/unicode 'ConNeg': null
-    !!python/unicode 'Imprt': null
-    !!python/unicode 'Ind': null
-    !!python/unicode 'PUNCT': null
-    !!python/unicode 'Prs': null
-    !!python/unicode 'Prt': null
-    !!python/unicode 'PssPrfPrc': null
-    !!python/unicode 'ScPl3': null
-    !!python/unicode 'ScSg2': null
-    !!python/unicode 'V': null
+Err
+	Err/Orth
+	Err/Sub
+Sem
+	Sem/Ant_Fem
+	Sem/Ant_Mal
+	Sem/Measr_Time
+	Sem/Plc
+Use
+	Use/NG
+resten
+	ActPrfPrc
+	CLB
+	ConNeg
+	Imprt
+	Ind
+	PUNCT
+	Prs
+	Prt
+	PssPrfPrc
+	ScPl3
+	ScSg2
+	V
