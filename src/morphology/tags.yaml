@@ -13,23 +13,15 @@ dictitems:
   Use: !!set
     !!python/unicode 'Use/NG': null
   resten: !!set
-    ? !!python/unicode ''
-    : null
-    !!python/unicode '/-': null
-    !!python/unicode 'ABBR': null
-    !!python/unicode 'ACR': null
     !!python/unicode 'ActPrfPrc': null
     !!python/unicode 'CLB': null
     !!python/unicode 'ConNeg': null
     !!python/unicode 'Imprt': null
     !!python/unicode 'Ind': null
-    !!python/unicode 'LEFT': null
-    !!python/unicode 'N': null
     !!python/unicode 'PUNCT': null
     !!python/unicode 'Prs': null
     !!python/unicode 'Prt': null
     !!python/unicode 'PssPrfPrc': null
-    !!python/unicode 'RIGHT': null
     !!python/unicode 'ScPl3': null
     !!python/unicode 'ScSg2': null
     !!python/unicode 'V': null
