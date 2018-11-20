@@ -5,49 +5,49 @@
 LEXICON ADA_
 +AdA: # ;
 LEXICON ADV_
-+Adv: K ; 
+: K ; 
 
 LEXICON ADV-IS-ELA-WITH-PXSG3 !!= @CODE@ e.g. levälleh
-+Adv: # ; 
+: # ; 
 
 LEXICON ADV-MANNER
-+Adv+Manner: K ;
++Manner: K ;
 
 LEXICON ADV-SPAT
-+Adv+Spat: K ;
++Spat: K ;
 
 LEXICON ADV-SPAT-IS-ABL
-+Adv+Spat+Abl: K ;
++Spat+Abl: K ;
 
 LEXICON ADV-SPAT-IS-ADE
-+Adv+Spat+Ade: K ;
++Spat+Ade: K ;
 
 LEXICON ADV-SPAT-IS-ALL
-+Adv+Spat+All: K ;
++Spat+All: K ;
 
 LEXICON ADV-TEMP_
-+Adv+Temp: K ;
++Temp: K ;
 
 LEXICON ADV-INDEF-MANNER
-+Adv+Indef+Manner: K ;
++Indef+Manner: K ;
 
 LEXICON ADV-INDEF-SPAT-IS-INE
-+Adv+Indef+Spat+Ine: K ;
++Indef+Spat+Ine: K ;
 
 LEXICON ADV-INDEF-SPAT-IS-LAT
-+Adv+Indef+Spat+Lat: K ;
++Indef+Spat+Lat: K ;
 
 LEXICON ADV-INDEF-TEMP
-+Adv+Indef+Temp: K ;
++Indef+Temp: K ;
 
 LEXICON ADV-INTERR-MANNER
-+Adv+Interr+Manner: K ;
++Interr+Manner: K ;
 
 LEXICON ADV-INTERR-SPAT-IS-INE
-+Adv+Interr+Spat+Ine: K ;
++Interr+Spat+Ine: K ;
 
 LEXICON ADV-INTERR-SPAT-IS-ELA
-+Adv+Interr+Spat+Ela: K ;
++Interr+Spat+Ela: K ;
 
 LEXICON QNT-ITER
 +Qnt+Iter: K ;
