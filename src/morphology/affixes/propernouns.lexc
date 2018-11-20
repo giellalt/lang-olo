@@ -8,12 +8,12 @@ LEXICON PROP_ !!= @CODE@
 
 !! !ONE-SYLLABLE LEMMA AND STEM
 LEXICON PROP_KUU !!= @CODE@ kuu:kuu
-+N+Prop:%{back%} NMN_KUU/PII ;
++Prop:%{back%} NMN_KUU/PII ;
 LEXICON PROP_VYÖ !!= @CODE@ vyö:vyö
-+N+Prop:%{front%} NMN_VYÖ ;
++Prop:%{front%} NMN_VYÖ ;
 
 LEXICON PROP_MUA !!= @CODE@ mua:maa
-+N+Prop:%{back%} NMN_MUA ;
++Prop:%{back%} NMN_MUA ;
 
 
 
@@ -23,14 +23,14 @@ LEXICON PROP_OZA !!= @CODE@
 !! Back vowel
 !! Stem  vowel a
 !! Plural stem in i
-+N+Prop:%{back%} NMN_OZA/SÄYNÄ ;
++Prop:%{back%} NMN_OZA/SÄYNÄ ;
 
 LEXICON PROP_OZA_FEM !!= @CODE@
-+N+Prop+Sem/Fem:%{back%} NMN_OZA/SÄYNÄ ;
-+N+Prop+Sem/Fem: HUMAN-PROP-DERIVATION ;
++Prop+Sem/Fem:%{back%} NMN_OZA/SÄYNÄ ;
++Prop+Sem/Fem: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP-PLC_OZA !!= @CODE@
-+N+Prop+Sem/Plc:%{back%} NMN_OZA/SÄYNÄ ;
++Prop+Sem/Plc:%{back%} NMN_OZA/SÄYNÄ ;
 
 
 LEXICON PROP_KALA !!= @CODE@ 
@@ -38,28 +38,28 @@ LEXICON PROP_KALA !!= @CODE@
 !! Back vowel
 !! Stem  vowel a
 !! Plural stem in oi
-+N+Prop:%{back%} NMN_KALA ;
++Prop:%{back%} NMN_KALA ;
 
 LEXICON PROP-FEM_KALA !!= @CODE@ 
-+N+Prop+Sem/Fem:%{back%} NMN_KALA ;
-+N+Prop+Sem/Fem: HUMAN-PROP-DERIVATION ;
++Prop+Sem/Fem:%{back%} NMN_KALA ;
++Prop+Sem/Fem: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP_KALA_MAL !!= @CODE@ 
-+N+Prop+Sem/Mal:%{back%} NMN_KALA ;
-+N+Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
++Prop+Sem/Mal:%{back%} NMN_KALA ;
++Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP_KALA_PATRFEM !!= @CODE@ 
-+N+Prop+Patr+Sem/Fem:%{back%} NMN_KALA ;
++Prop+Patr+Sem/Fem:%{back%} NMN_KALA ;
 
 LEXICON PROP-PLC_KALA !!= @CODE@ 
-+N+Prop+Sem/Plc:%{back%} NMN_KALA ;
++Prop+Sem/Plc:%{back%} NMN_KALA ;
 
 LEXICON PROP_KALA_SURFEM !!= @CODE@ 
-+N+Prop+Sem/Sur+Sem/Fem:%{back%} NMN_KALA ;
++Prop+Sem/Sur+Sem/Fem:%{back%} NMN_KALA ;
 
 
 LEXICON PROP_KALA_SURMAL !!= @CODE@ 
-+N+Prop+Sem/Sur+Sem/Mal:%{back%} NMN_KALA ;
++Prop+Sem/Sur+Sem/Mal:%{back%} NMN_KALA ;
 
 
 LEXICON PROP_PAPPI !!= @CODE@ 
@@ -71,13 +71,13 @@ LEXICON PROP_PAPPI !!= @CODE@
   PROP_PAPPI-PL ;
 
 LEXICON PROP_PAPPI-SG !!= @CODE@ 
-+N+Prop:%{back%} NMN_PAPPI/HÄKKI-SG ;
++Prop:%{back%} NMN_PAPPI/HÄKKI-SG ;
 
 LEXICON PROP_PAPPI-PL !!= @CODE@ 
-+N+Prop:%{back%} NMN_PAPPI/HÄKKI-PL ;
++Prop:%{back%} NMN_PAPPI/HÄKKI-PL ;
 
 LEXICON PROP-PLC_PAPPI !!= @CODE@ 
-+N+Prop+Sem/Plc:%{back%} NMN_PAPPI/HÄKKI ;
++Prop+Sem/Plc:%{back%} NMN_PAPPI/HÄKKI ;
 
 LEXICON PROP_ARTELI !!= @CODE@
 !! Gradation NA
@@ -88,13 +88,13 @@ LEXICON PROP_ARTELI !!= @CODE@
   PROP_ARTELI-PL ;
 
 LEXICON PROP_ARTELI-SG !!= @CODE@
-+N+Prop:%{back%} NMN_ARTELI/LEIRI-SG ;
++Prop:%{back%} NMN_ARTELI/LEIRI-SG ;
 
 LEXICON PROP_ARTELI-PL !!= @CODE@
-+N+Prop:%{back%} NMN_ARTELI/LEIRI-PL ;
++Prop:%{back%} NMN_ARTELI/LEIRI-PL ;
 
 LEXICON PROP-PLC_ARTELI !!= @CODE@
-+N+Prop+Sem/Plc:%{back%} NMN_ARTELI/LEIRI ;
++Prop+Sem/Plc:%{back%} NMN_ARTELI/LEIRI ;
 
 LEXICON PROP_LEIRI !!= @CODE@
 !! Gradation NA
@@ -105,13 +105,13 @@ LEXICON PROP_LEIRI !!= @CODE@
   PROP_LEIRI-PL ;
 
 LEXICON PROP_LEIRI-SG !!= @CODE@
-+N+Prop:%{front%} NMN_ARTELI/LEIRI-SG ;
++Prop:%{front%} NMN_ARTELI/LEIRI-SG ;
 
 LEXICON PROP_LEIRI-PL !!= @CODE@
-+N+Prop:%{front%} NMN_ARTELI/LEIRI-PL ;
++Prop:%{front%} NMN_ARTELI/LEIRI-PL ;
 
 LEXICON PROP-PLC_LEIRI !!= @CODE@
-+N+Prop+Sem/Plc:%{front%} NMN_ARTELI/LEIRI ;
++Prop+Sem/Plc:%{front%} NMN_ARTELI/LEIRI ;
 
 
 LEXICON PROP_NIMI !!= @CODE@ nimi:nim
@@ -119,10 +119,10 @@ LEXICON PROP_NIMI !!= @CODE@ nimi:nim
 !! Front vowel
 !! Stem	 vowel i/e
 !! Plural stem in i
-+N+Prop:%{front%} NMN_HANGI/NIMI ;
++Prop:%{front%} NMN_HANGI/NIMI ;
 
 LEXICON PROP-PLC_NIMI !!= @CODE@ nimi:nim
-+N+Prop+Sem/Plc:%{front%} NMN_HANGI/NIMI ;
++Prop+Sem/Plc:%{front%} NMN_HANGI/NIMI ;
 
 LEXICON PROP_JÄLGI !!= @CODE@ 
 !! Gradation Yes
@@ -133,13 +133,13 @@ LEXICON PROP_JÄLGI !!= @CODE@
   PROP_JÄLGI-PL ;
 
 LEXICON PROP_JÄLGI-SG !!= @CODE@ 
-+N+Prop:%{front%} NMN_JÄLGI-SG ;
++Prop:%{front%} NMN_JÄLGI-SG ;
 
 LEXICON PROP_JÄLGI-PL !!= @CODE@ 
-+N+Prop:%{front%} NMN_JÄLGI-PL ;
++Prop:%{front%} NMN_JÄLGI-PL ;
 
 LEXICON PROP-PLC_JÄLGI !!= @CODE@ jälgi:jälg
-+N+Prop+Sem/Plc:%{front%} NMN_JÄLGI ;
++Prop+Sem/Plc:%{front%} NMN_JÄLGI ;
 
 
 LEXICON PROP_KIELI !!= @CODE@ kieli:kiel
@@ -147,20 +147,20 @@ LEXICON PROP_KIELI !!= @CODE@ kieli:kiel
 !! Vowel Harmony Front
 !! Stem Vowel i/0/e
 !! Plural stem in i
-+N+Prop:%{front%} NMN_SUARI/KIELI ;
++Prop:%{front%} NMN_SUARI/KIELI ;
 
 LEXICON PROP-PLC_KIELI !!= @CODE@ kieli:kiel
-+N+Prop+Sem/Plc:%{front%} NMN_SUARI/KIELI ;
++Prop+Sem/Plc:%{front%} NMN_SUARI/KIELI ;
 
 LEXICON PROP_SUARI !!= @CODE@ suari:suar
 !! Gradation NA
 !! Vowel Harmony Back
 !! Stem Vowel i/0/e
 !! Plural stem in i
-+N+Prop:%{back%} NMN_SUARI/KIELI ;
++Prop:%{back%} NMN_SUARI/KIELI ;
 
 LEXICON PROP-PLC_SUARI !!= @CODE@ suari:suar
-+N+Prop+Sem/Plc:%{back%} NMN_SUARI/KIELI ;
++Prop+Sem/Plc:%{back%} NMN_SUARI/KIELI ;
 
 LEXICON PROP_UKSI !!= @CODE@ uksi:uks
 !! Gradation NA 
@@ -171,31 +171,31 @@ LEXICON PROP_UKSI !!= @CODE@ uksi:uks
  PROP_UKSI-PL ;
 
 LEXICON PROP_UKSI-SG !!= @CODE@
-+N+Prop:%{back%} NMN_UKSI-SG ;
++Prop:%{back%} NMN_UKSI-SG ;
 LEXICON PROP_UKSI-PL !!= @CODE@
-+N+Prop:%{back%} NMN_UKSI-PL ;
++Prop:%{back%} NMN_UKSI-PL ;
 
 LEXICON PROP_REBOI !!= @CODE@ reboi:reboi
 !! Gradation NA
 !! Vowel Harmony Back
 !! Stem Vowel oi/o
 !! Plural stem in oloi
-+N+Prop:%{back%} NMN_REBOI/JÄNÖI ;
++Prop:%{back%} NMN_REBOI/JÄNÖI ;
 
 LEXICON PROP_REBOI_MAL !!= @CODE@ reboi:reboi
-+N+Prop+Sem/Mal:%{back%} NMN_REBOI/JÄNÖI ;
-+N+Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
++Prop+Sem/Mal:%{back%} NMN_REBOI/JÄNÖI ;
++Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP_JÄNÖI !!= @CODE@ jänöi:jänöi
 !! Gradation NA
 !! Vowel Harmony Back
 !! Stem Vowel oi/o
 !! Plural stem in oloi
-+N+Prop:%{back%} NMN_REBOI/JÄNÖI ;
++Prop:%{back%} NMN_REBOI/JÄNÖI ;
 
 LEXICON PROP_JÄNÖI_MAL !!= @CODE@ jänöi:jänöi
-+N+Prop+Sem/Mal:%{back%} NMN_REBOI/JÄNÖI ;
-+N+Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
++Prop+Sem/Mal:%{back%} NMN_REBOI/JÄNÖI ;
++Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP_KOIRU !!= @CODE@ koiru:koira
 !! Gradation NA
@@ -206,12 +206,12 @@ LEXICON PROP_KOIRU !!= @CODE@ koiru:koira
  PROP_KOIRU-PL ;
 
 LEXICON PROP_KOIRU-SG
-+N+Prop:%{back%} NMN_KOIRU/PÄIVY-SG ;
++Prop:%{back%} NMN_KOIRU/PÄIVY-SG ;
 LEXICON PROP_KOIRU-PL
-+N+Prop:%{back%} NMN_KOIRU/PÄIVY-PL ;
++Prop:%{back%} NMN_KOIRU/PÄIVY-PL ;
 
 LEXICON PROP-PLC_KOIRU !!= @CODE@ koiru:koira
-+N+Prop+Sem/Plc:%{back%} NMN_KOIRU/PÄIVY ;
++Prop+Sem/Plc:%{back%} NMN_KOIRU/PÄIVY ;
 
 
 LEXICON PROP_PÄIVY !!= @CODE@ päivy:päivä
@@ -223,18 +223,18 @@ LEXICON PROP_PÄIVY !!= @CODE@ päivy:päivä
  PROP_PÄIVY-PL ;
 
 LEXICON PROP_PÄIVY-SG
-+N+Prop:%{front%} NMN_KOIRU/PÄIVY-SG ;
++Prop:%{front%} NMN_KOIRU/PÄIVY-SG ;
 LEXICON PROP_PÄIVY-PL
-+N+Prop:%{front%} NMN_KOIRU/PÄIVY-PL ;
++Prop:%{front%} NMN_KOIRU/PÄIVY-PL ;
 
 LEXICON PROP_PÄIVY_MAL !!= @CODE@ päivy:päivä
-+N+Prop+Sem/Mal:%{front%} NMN_KOIRU/PÄIVY ;
-+N+Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
++Prop+Sem/Mal:%{front%} NMN_KOIRU/PÄIVY ;
++Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP-PLC_PÄIVY !!= @CODE@ päivy:päivä
-+N+Prop+Sem/Plc:%{front%} NMN_KOIRU/PÄIVY ;
++Prop+Sem/Plc:%{front%} NMN_KOIRU/PÄIVY ;
 LEXICON PROP-PLC_PÄIVY-PL
-+N+Prop+Sem/Plc:%{front%} NMN_KOIRU/PÄIVY-PL ;
++Prop+Sem/Plc:%{front%} NMN_KOIRU/PÄIVY-PL ;
 
 
 LEXICON PROP-PLC_KNIIGU !!= @CODE@ kniigu:kniiga
@@ -242,7 +242,7 @@ LEXICON PROP-PLC_KNIIGU !!= @CODE@ kniigu:kniiga
 !! Vowel Harmony Back
 !! Stem Vowel u/a
 !! Plural stem in oi
-+N+Prop+Sem/Plc:%{back%} NMN_KNIIGU ;
++Prop+Sem/Plc:%{back%} NMN_KNIIGU ;
 
 LEXICON PROP_MUARJU !!= @CODE@ muarju:muarja
 !! Gradation NA
@@ -253,14 +253,14 @@ LEXICON PROP_MUARJU !!= @CODE@ muarju:muarja
  PROP_MUARJU-PL ;
 
 LEXICON PROP_MUARJU-SG
-+N+Prop:%{back%} NMN_MUARJU/PIÄSTÄNDY-SG ;
++Prop:%{back%} NMN_MUARJU/PIÄSTÄNDY-SG ;
 LEXICON PROP_MUARJU-PL
-+N+Prop:%{back%} NMN_MUARJU/PIÄSTÄNDY-PL ;
++Prop:%{back%} NMN_MUARJU/PIÄSTÄNDY-PL ;
 
 LEXICON PROP-PLC_MUARJU !!= @CODE@ muarju:muarja
-+N+Prop+Sem/Plc:%{back%} NMN_MUARJU/PIÄSTÄNDY ;
++Prop+Sem/Plc:%{back%} NMN_MUARJU/PIÄSTÄNDY ;
 LEXICON PROP-PLC_MUARJU-PL
-+N+Prop+Sem/Plc:%{back%} NMN_MUARJU/PIÄSTÄNDY-PL ;
++Prop+Sem/Plc:%{back%} NMN_MUARJU/PIÄSTÄNDY-PL ;
 
 LEXICON PROP_PIÄSTÄNDY !!= @CODE@ piäständy:piäständä
 !! Gradation NA
@@ -271,14 +271,14 @@ LEXICON PROP_PIÄSTÄNDY !!= @CODE@ piäständy:piäständä
  PROP_PIÄSTÄNDY-PL ;
 
 LEXICON PROP_PIÄSTÄNDY-SG
-+N+Prop:%{back%} NMN_MUARJU/PIÄSTÄNDY-SG ;
++Prop:%{back%} NMN_MUARJU/PIÄSTÄNDY-SG ;
 LEXICON PROP_PIÄSTÄNDY-PL
-+N+Prop:%{back%} NMN_MUARJU/PIÄSTÄNDY-PL ;
++Prop:%{back%} NMN_MUARJU/PIÄSTÄNDY-PL ;
 
 LEXICON PROP-PLC_PIÄSTÄNDY !!= @CODE@ piäständy:piäständä
-+N+Prop+Sem/Plc:%{back%} NMN_MUARJU/PIÄSTÄNDY ;
++Prop+Sem/Plc:%{back%} NMN_MUARJU/PIÄSTÄNDY ;
 LEXICON PROP-PLC_PIÄSTÄNDY-PL
-+N+Prop+Sem/Plc:%{back%} NMN_MUARJU/PIÄSTÄNDY-PL ;
++Prop+Sem/Plc:%{back%} NMN_MUARJU/PIÄSTÄNDY-PL ;
 
 LEXICON PROP_AKKU !!= @CODE@ akku:akka
 !! Gradation Yes
@@ -289,14 +289,14 @@ LEXICON PROP_AKKU !!= @CODE@ akku:akka
  PROP_AKKU-PL ;
 
 LEXICON PROP_AKKU-SG
-+N+Prop:%{back%} NMN_AKKU-SG ;
++Prop:%{back%} NMN_AKKU-SG ;
 LEXICON PROP_AKKU-PL
-+N+Prop:%{back%} NMN_AKKU-PL ;
++Prop:%{back%} NMN_AKKU-PL ;
 
 LEXICON PROP-MAL_AKKU
-+N+Prop+Sem/Mal:%{back%} NMN_AKKU ;
++Prop+Sem/Mal:%{back%} NMN_AKKU ;
 LEXICON PROP-PLC_AKKU
-+N+Prop+Sem/Plc:%{back%} NMN_AKKU ;
++Prop+Sem/Plc:%{back%} NMN_AKKU ;
 
 LEXICON PROP_KOIVU !!= @CODE@ koivu:koivu
 !! Back vowel
@@ -304,42 +304,42 @@ LEXICON PROP_KOIVU !!= @CODE@ koivu:koivu
 !! Stem vowel u
 !! Plural stem in loi
 !! Can be merged with _RUNO
-+N+Prop:%{back%} NMN_KOIVU/HERY ;
++Prop:%{back%} NMN_KOIVU/HERY ;
 
 LEXICON PROP_KOIVU_MAL !!= @CODE@ koivu:koivu
-+N+Prop+Sem/Mal:%{back%} NMN_KOIVU/HERY ;
++Prop+Sem/Mal:%{back%} NMN_KOIVU/HERY ;
 
 LEXICON PROP-PLC_KOIVU
-+N+Prop+Sem/Plc:%{back%} NMN_KOIVU/HERY ;
++Prop+Sem/Plc:%{back%} NMN_KOIVU/HERY ;
 
 LEXICON PROP_RUNO !!= @CODE@ runo:runo
 !! Back	vowel
 !! Gradation NA
 !! Stem vowel o
 !! Plural stem in loi
-+N+Prop:%{back%} NMN_RUNO/HÖRÖ ;
++Prop:%{back%} NMN_RUNO/HÖRÖ ;
 LEXICON PROP-PLC_RUNO !!= @CODE@ runo:runo
-+N+Prop+Sem/Plc:%{back%} NMN_RUNO/HÖRÖ ;
++Prop+Sem/Plc:%{back%} NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_RUADO !!= @CODE@ ruado:ruado
 !! Back vowel
 !! Gradation Yes
 !! Stem vowel o
 !! Plural stem in loi
-+N+Prop:%{back%} NMN_RUADO/KYNDÖ ;
++Prop:%{back%} NMN_RUADO/KYNDÖ ;
 
 LEXICON PROP-PLC_RUADO !!= @CODE@ ruado:ruado
-+N+Prop+Sem/Plc:%{back%} NMN_RUADO/KYNDÖ ;
++Prop+Sem/Plc:%{back%} NMN_RUADO/KYNDÖ ;
 
 LEXICON PROP_KYNDÖ !!= @CODE@ kyndö:kyndö
 !! Front vowel
 !! Gradation Yes
 !! Stem vowel o
 !! Plural stem in loi
-+N+Prop:%{front%} NMN_RUADO/KYNDÖ ;
++Prop:%{front%} NMN_RUADO/KYNDÖ ;
 
 LEXICON PROP-PLC_KYNDÖ !!= @CODE@ kyndö:kyndö
-+N+Prop+Sem/Plc:%{front%} NMN_RUADO/KYNDÖ ;
++Prop+Sem/Plc:%{front%} NMN_RUADO/KYNDÖ ;
 
 LEXICON PROP_VALGEI !!= @CODE@ 
 !! Back	vowel
@@ -348,12 +348,12 @@ LEXICON PROP_VALGEI !!= @CODE@
   PROP_VALGEI-PL ;
 
 LEXICON PROP_VALGEI-SG !!= @CODE@ 
-+N+Prop:%{back%} NMN_VALGEI/LIBEI-SG ;
++Prop:%{back%} NMN_VALGEI/LIBEI-SG ;
 
 LEXICON PROP_VALGEI-PL !!= @CODE@ 
-+N+Prop:%{back%} NMN_VALGEI/LIBEI-PL ;
++Prop:%{back%} NMN_VALGEI/LIBEI-PL ;
 LEXICON PROP-PLC_VALGEI !!= @CODE@ valgei:valge
-+N+Prop+Sem/Plc:%{back%} NMN_VALGEI/LIBEI ;
++Prop+Sem/Plc:%{back%} NMN_VALGEI/LIBEI ;
 
 
 
@@ -365,79 +365,79 @@ LEXICON PROP_KARJAL !!= @CODE@ karjal:karjal
 !! Gradation NA
 !! Singular stem vowel 0/a
 !! Plural stem vowel o
-+N+Prop:%{back%} NMN_KARJAL ;
++Prop:%{back%} NMN_KARJAL ;
 
 LEXICON PROP-PLC_KARJAL !!= @CODE@ karjal:karjal
-+N+Prop+Sem/Plc:%{back%} NMN_KARJAL ;
++Prop+Sem/Plc:%{back%} NMN_KARJAL ;
 
 LEXICON PROP-MAL_KARJAL !!= @CODE@ 
-+N+Prop+Sem/Mal:%{back%} NMN_KARJAL ;
++Prop+Sem/Mal:%{back%} NMN_KARJAL ;
 
 LEXICON PROP_KARJALAINE !!= @CODE@ karjalaine:karjala
-+N+Prop:%{back%} NMN_KARJALAINE/LIYGILÄINE ;
++Prop:%{back%} NMN_KARJALAINE/LIYGILÄINE ;
 LEXICON PROP-PLC_KARJALAINE !!= @CODE@ karjalaine:karjala
-+N+Prop+Sem/Plc:%{back%} NMN_KARJALAINE/LIYGILÄINE ;
++Prop+Sem/Plc:%{back%} NMN_KARJALAINE/LIYGILÄINE ;
 
 LEXICON PROP_KIELINE !!= @CODE@ kieline:kieli
-+N+Prop:%{front%} NMN_NAINE/KIELINE ;
++Prop:%{front%} NMN_NAINE/KIELINE ;
 LEXICON PROP-PLC_KIELINE !!= @CODE@ kieline:kieli
-+N+Prop+Sem/Plc:%{front%} NMN_NAINE/KIELINE ;
++Prop+Sem/Plc:%{front%} NMN_NAINE/KIELINE ;
 
 LEXICON PROP-PLC_TVER !!= __@CODE@__ Tver:Tver
-+N+Prop+Sem/Plc:%{front%} NMN_TVER ;
++Prop+Sem/Plc:%{front%} NMN_TVER ;
 
 LEXICON PROP_TAIGIN
-+N+Prop:   NMN_TAIGIN  ;
++Prop:   NMN_TAIGIN  ;
 LEXICON PROP-MAL_TAIGIN
-+N+Prop+Sem/Mal:   NMN_TAIGIN  ;
++Prop+Sem/Mal:   NMN_TAIGIN  ;
 
 LEXICON PROP-PLC_TAIGIN !!= __@CODE@__
-+N+Prop+Sem/Plc:%{back%} NMN_TAIGIN  ;
++Prop+Sem/Plc:%{back%} NMN_TAIGIN  ;
 
 LEXICON PROP-PLC_TOVESTEH !!= __@CODE@__ tovesteh:tovesteh
-+N+Prop+Sem/Plc:%{front%} NMN_TOVESTEH/PEREH ;
++Prop+Sem/Plc:%{front%} NMN_TOVESTEH/PEREH ;
 LEXICON PROP_TOVESTEH !!= __@CODE@__ tovesteh:tovesteh
-+N+Prop:%{front%} NMN_TOVESTEH/PEREH ;
++Prop:%{front%} NMN_TOVESTEH/PEREH ;
 
 LEXICON PROP-PLC_PEREH !!= __@CODE@__ pereh:pereh
-+N+Prop+Sem/Plc:%{front%} NMN_TOVESTEH/PEREH ;
++Prop+Sem/Plc:%{front%} NMN_TOVESTEH/PEREH ;
 LEXICON PROP_PEREH !!= __@CODE@__ pereh:pereh
-+N+Prop:%{front%} NMN_TOVESTEH/PEREH ;
++Prop:%{front%} NMN_TOVESTEH/PEREH ;
 
 LEXICON	 PROP-PLC_VIDEL !!= __@CODE@__ videl:videl
-+N+Prop+Sem/Plc:%{front%} NMN_VIDEL ;
++Prop+Sem/Plc:%{front%} NMN_VIDEL ;
 
 LEXICON PROP_VIDEL !!= __@CODE@__ videl:videl
-+N+Prop:%{front%} NMN_VIDEL ;
++Prop:%{front%} NMN_VIDEL ;
 
 LEXICON PROP_RUS-IN_SUR
 :a PROP_KALA_SURFEM     ;
-+N+Prop+Sem/Sur+Sem/Mal:   NMN_TAIGIN  ;
++Prop+Sem/Sur+Sem/Mal:   NMN_TAIGIN  ;
 
 LEXICON PROP_RUS-VIČ_PATR !! * @CODE@ Pavlovič:Pavlov
 :na PROP_KALA_PATRFEM	;
-+N+Prop+Patr+Sem/Mal:ič   NMN_TAIGIN	;
++Prop+Patr+Sem/Mal:ič   NMN_TAIGIN	;
  PROP_RUS-V_SUR ; 
 
 LEXICON PROP_RUS-V_SUR
 :a PROP_KALA_SURFEM	;
-+N+Prop+Sem/Sur+Sem/Mal:   NMN_ABRAMOV	;
++Prop+Sem/Sur+Sem/Mal:   NMN_ABRAMOV	;
 
 LEXICON PROP-PLC_ALUS !!= @CODE@ Alus:Aluks
-+N+Prop+Sem/Plc:%{back%} NMN_ALUS/ILVES ;
++Prop+Sem/Plc:%{back%} NMN_ALUS/ILVES ;
 
 LEXICON PROP_ALUS !!= @CODE@ Alus:Aluks
-+N+Prop:%{back%} NMN_ALUS/ILVES ;
++Prop:%{back%} NMN_ALUS/ILVES ;
 
 LEXICON PROP-PLC_KONDII
-+N+Prop+Sem/Plc:%{back%} NMN_KONDII/STIPENDII ;
++Prop+Sem/Plc:%{back%} NMN_KONDII/STIPENDII ;
 LEXICON PROP_KONDII !!= @CODE@ kondii:kondi
-+N+Prop:%{back%} NMN_KONDII/STIPENDII ;
++Prop:%{back%} NMN_KONDII/STIPENDII ;
 
 LEXICON PROP-PLC_STIPENDII
-+N+Prop+Sem/Plc:%{front%} NMN_KONDII/STIPENDII ;
++Prop+Sem/Plc:%{front%} NMN_KONDII/STIPENDII ;
 LEXICON PROP_STIPENDII !!= @CODE@ kondii:kondi
-+N+Prop:%{front%} NMN_KONDII/STIPENDII ;
++Prop:%{front%} NMN_KONDII/STIPENDII ;
 
 LEXICON HUMAN-PROP-DERIVATION
 %-nimelline:%-#nimelli A_KIELINE ;
