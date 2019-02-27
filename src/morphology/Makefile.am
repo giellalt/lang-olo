@@ -36,6 +36,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/propernouns.lexc \
 			 affixes/quantifiers.lexc \
 			 affixes/rus-Cyrl-2-Lat-propernouns.lexc \
+			 affixes/symbols.lexc            \
 			 affixes/verbs.lexc	             \
 			 stems/adjectives_newwords.lexc  \
 			 stems/adverbs_newwords.lexc     \
@@ -72,7 +73,8 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/propernouns-toponyms.lexc   \
 			 $(srcdir)/stems/quantifiers.lexc   \
 			 $(srcdir)/stems/verbs.lexc \
-			 generated_files/punctuation.lexc
+			 generated_files/punctuation.lexc \
+			 generated_files/symbols.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
