@@ -16,8 +16,8 @@
 ! The Olonets-Karelian clock !
 ! ========================== !
 
-! Note! This is NOT checked with native speakers nor
-! textbooks, just based upon guessing from a dictionary.
+! textbook source: Gilojeva, N. & Rudakova, S. 2009. Karjalan kielen livvin murdehen algukursu. Petroskoi (75–77)
+! Note! This is NOT checked with native speakers
 
 Multichar_Symbols
 
@@ -33,83 +33,97 @@ Multichar_Symbols
 @U.TIME.10@ 
 @U.TIME.11@ 
 @U.TIME.12@ 
+@U.HOUR.SHARP@ 
+@U.HOUR.HOUR@ 
+
 
 +Use/NG
 +Use/NA
 
 LEXICON Root
+@U.HOUR.SHARP@:@U.HOUR.SHARP@tazah%  FULL-HOUR ;
+@U.HOUR.HOUR@ FULL-HOUR ;
+ OTHER-TIME ;
 
 ! Allowing sloppy 2:30 in answer
-@U.TIME.1@1:@U.TIME.1@+Use/NA AFTpunkt ; !01:00 - 01:19
 @U.TIME.2@1:@U.TIME.2@+Use/NA BEFpunkt ; !01:20 - 01:59
-@U.TIME.2@2:@U.TIME.2@+Use/NA AFTpunkt ; !02:00 - 02:19
 @U.TIME.3@2:@U.TIME.3@+Use/NA BEFpunkt ; !02:20 - 02:59
-@U.TIME.3@3:@U.TIME.3@+Use/NA AFTpunkt ; !03:00 - 03:19
 @U.TIME.4@3:@U.TIME.4@+Use/NA BEFpunkt ; !03:20 - 03:59
-@U.TIME.4@4:@U.TIME.4@+Use/NA AFTpunkt ; !04:00 - 04:19
 @U.TIME.5@4:@U.TIME.5@+Use/NA BEFpunkt ; !04:20 - 04:59
-@U.TIME.5@5:@U.TIME.5@+Use/NA AFTpunkt ; !05:00 - 05:19
 @U.TIME.6@5:@U.TIME.6@+Use/NA BEFpunkt ; !05:20 - 05:59
-@U.TIME.6@6:@U.TIME.6@+Use/NA AFTpunkt ; !06:00 - 06:19
 @U.TIME.7@6:@U.TIME.7@+Use/NA BEFpunkt ; !06:20 - 06:59
-@U.TIME.7@7:@U.TIME.7@+Use/NA AFTpunkt ; !07:00 - 07:19
 @U.TIME.8@7:@U.TIME.8@+Use/NA BEFpunkt ; !07:20 - 07:59
-@U.TIME.8@8:@U.TIME.8@+Use/NA AFTpunkt ; !08:00 - 08:19
 @U.TIME.9@8:@U.TIME.9@+Use/NA BEFpunkt ; !08:20 - 08:59
-@U.TIME.9@9:@U.TIME.9@+Use/NA AFTpunkt ; !09:00 - 09:19
 @U.TIME.10@9:@U.TIME.10@+Use/NA BEFpunkt ; !09:20 - 09:59
 
 ! Correct is 02:30
-@U.TIME.1@%01:@U.TIME.1@ AFTpunkt ; !01:00 - 01:19
 @U.TIME.2@%01:@U.TIME.2@ BEFpunkt ; !01:20 - 01:59
-@U.TIME.2@%02:@U.TIME.2@ AFTpunkt ; !02:00 - 02:19
 @U.TIME.3@%02:@U.TIME.3@ BEFpunkt ; !02:20 - 02:59
-@U.TIME.3@%03:@U.TIME.3@ AFTpunkt ; !03:00 - 03:19
 @U.TIME.4@%03:@U.TIME.4@ BEFpunkt ; !03:20 - 03:59
-@U.TIME.4@%04:@U.TIME.4@ AFTpunkt ; !04:00 - 04:19
 @U.TIME.5@%04:@U.TIME.5@ BEFpunkt ; !04:20 - 04:59
-@U.TIME.5@%05:@U.TIME.5@ AFTpunkt ; !05:00 - 05:19
 @U.TIME.6@%05:@U.TIME.6@ BEFpunkt ; !05:20 - 05:59
-@U.TIME.6@%06:@U.TIME.6@ AFTpunkt ; !06:00 - 06:19
 @U.TIME.7@%06:@U.TIME.7@ BEFpunkt ; !06:20 - 06:59
-@U.TIME.7@%07:@U.TIME.7@ AFTpunkt ; !07:00 - 07:19
 @U.TIME.8@%07:@U.TIME.8@ BEFpunkt ; !07:20 - 07:59
-@U.TIME.8@%08:@U.TIME.8@ AFTpunkt ; !08:00 - 08:19
 @U.TIME.9@%08:@U.TIME.9@ BEFpunkt ; !08:20 - 08:59
-@U.TIME.9@%09:@U.TIME.9@ AFTpunkt ; !09:00 - 09:19
 @U.TIME.10@%09:@U.TIME.10@ BEFpunkt ; !09:20 - 09:59
 
-@U.TIME.10@1%0:@U.TIME.10@ AFTpunkt ; !10:00 - 10:19
 @U.TIME.11@1%0:@U.TIME.11@ BEFpunkt ; !10:20 - 10:59
-@U.TIME.11@11:@U.TIME.11@ AFTpunkt ; !11:00 - 11:59
 @U.TIME.12@11:@U.TIME.12@ BEFpunkt ; !11:19 - 11:59
-@U.TIME.12@12:@U.TIME.12@ AFTpunkt ; !12:00 - 12:19
 @U.TIME.1@12:@U.TIME.1@ BEFpunkt ; !12:19 - 12:59
-@U.TIME.1@13:@U.TIME.1@ AFTpunkt ; !13:00 - 13:19
 @U.TIME.2@13:@U.TIME.2@ BEFpunkt ; !13:19 - 13:59
-@U.TIME.2@14:@U.TIME.2@ AFTpunkt ; !14:00 - 114:19
 @U.TIME.3@14:@U.TIME.3@ BEFpunkt ; !14:19 - 14:59
-@U.TIME.3@15:@U.TIME.3@ AFTpunkt ; !15:00 - 15:19
 @U.TIME.4@15:@U.TIME.4@ BEFpunkt ; !15:19 - 15:59
-@U.TIME.4@16:@U.TIME.4@ AFTpunkt ; !16:00 - 16:19
 @U.TIME.5@16:@U.TIME.5@ BEFpunkt ; !16:19 - 16:59
-@U.TIME.5@17:@U.TIME.5@ AFTpunkt ; !17:00 - 17:19
 @U.TIME.6@17:@U.TIME.6@ BEFpunkt ; !17:19 - 17:59
-@U.TIME.6@18:@U.TIME.6@ AFTpunkt ; !18:00 - 18:19
 @U.TIME.7@18:@U.TIME.7@ BEFpunkt ; !18:19 - 18:59
-@U.TIME.7@19:@U.TIME.7@ AFTpunkt ; !19:00 - 19:19
 @U.TIME.8@19:@U.TIME.8@ BEFpunkt ; !19:20 - 19:59
-@U.TIME.8@2%0:@U.TIME.8@ AFTpunkt ; !20:00 - 20:19
 @U.TIME.9@2%0:@U.TIME.9@ BEFpunkt ; !20:20 - 20:59
-@U.TIME.9@21:@U.TIME.9@ AFTpunkt ; !21:00 - 21:19
 @U.TIME.10@21:@U.TIME.10@ BEFpunkt ; !21:20 - 21:59
-@U.TIME.10@22:@U.TIME.10@ AFTpunkt ; !22:00 - 22:19
 @U.TIME.11@22:@U.TIME.11@ BEFpunkt ; !22:19 - 22:59
-@U.TIME.11@23:@U.TIME.11@ AFTpunkt ; !23:00 - 23:19
 @U.TIME.12@23:@U.TIME.12@ BEFpunkt ; !23:19 - 23:59
-@U.TIME.12@%0%0:@U.TIME.12@ AFTpunkt ; !00:00 - 00:19
 @U.TIME.1@%0%0:@U.TIME.1@ BEFpunkt ; !00:19 - 00:59
-24%:%0%0:kaksitostu  # ; !24:00
+24%:%0%0:kaksitostu% čuassuu  # ; !24:00
+
+LEXICON FULL-HOUR
+! Allowing sloppy 2:30 in answer
+@U.TIME.1@1:@U.TIME.1@+Use/NA AFTpunkt ; !01:01 - 01:59
+@U.TIME.2@2:@U.TIME.2@+Use/NA AFTpunkt ; !02:01 - 02:59
+@U.TIME.3@3:@U.TIME.3@+Use/NA AFTpunkt ; !03:01 - 03:59
+@U.TIME.4@4:@U.TIME.4@+Use/NA AFTpunkt ; !04:01 - 04:59
+@U.TIME.5@5:@U.TIME.5@+Use/NA AFTpunkt ; !05:01 - 05:59
+@U.TIME.6@6:@U.TIME.6@+Use/NA AFTpunkt ; !06:01 - 06:59
+@U.TIME.7@7:@U.TIME.7@+Use/NA AFTpunkt ; !07:01 - 07:59
+@U.TIME.8@8:@U.TIME.8@+Use/NA AFTpunkt ; !08:01 - 08:59
+@U.TIME.9@9:@U.TIME.9@+Use/NA AFTpunkt ; !09:01 - 09:59
+@U.TIME.10@1%0:@U.TIME.10@+Use/NA AFTpunkt ; !10:01 - 10:59
+
+! Correct is 02:30
+@U.TIME.1@%01:@U.TIME.1@ AFTpunkt ; !01:01 - 01:59
+@U.TIME.2@%02:@U.TIME.2@ AFTpunkt ; !02:01 - 02:59
+@U.TIME.3@%03:@U.TIME.3@ AFTpunkt ; !03:01 - 03:59
+@U.TIME.4@%04:@U.TIME.4@ AFTpunkt ; !04:01 - 04:59
+@U.TIME.5@%05:@U.TIME.5@ AFTpunkt ; !05:01 - 05:59
+@U.TIME.6@%06:@U.TIME.6@ AFTpunkt ; !06:01 - 06:59
+@U.TIME.7@%07:@U.TIME.7@ AFTpunkt ; !07:01 - 07:59
+@U.TIME.8@%08:@U.TIME.8@ AFTpunkt ; !08:01 - 08:59
+@U.TIME.9@%09:@U.TIME.9@ AFTpunkt ; !09:01 - 09:59
+@U.TIME.10@1%0:@U.TIME.10@ AFTpunkt ; !10:01 - 10:59
+
+@U.TIME.11@11:@U.TIME.11@ AFTpunkt ; !11:01 - 11:59
+@U.TIME.12@12:@U.TIME.12@ AFTpunkt ; !12:01 - 12:59
+@U.TIME.1@13:@U.TIME.1@ AFTpunkt ; !13:01 - 13:59
+@U.TIME.2@14:@U.TIME.2@ AFTpunkt ; !14:01 - 14:59
+@U.TIME.3@15:@U.TIME.3@ AFTpunkt ; !15:01 - 15:59
+@U.TIME.4@16:@U.TIME.4@ AFTpunkt ; !16:01 - 16:59
+@U.TIME.5@17:@U.TIME.5@ AFTpunkt ; !17:01 - 17:59
+@U.TIME.6@18:@U.TIME.6@ AFTpunkt ; !18:01 - 18:59
+@U.TIME.7@19:@U.TIME.7@ AFTpunkt ; !19:01 - 19:59
+@U.TIME.8@2%0:@U.TIME.8@ AFTpunkt ; !20:01 - 20:59
+@U.TIME.9@21:@U.TIME.9@ AFTpunkt ; !21:01 - 21:59
+@U.TIME.10@22:@U.TIME.10@ AFTpunkt ; !22:01 - 22:59
+@U.TIME.11@23:@U.TIME.11@ AFTpunkt ; !23:01 - 23:59
+@U.TIME.12@%0%0:@U.TIME.12@ AFTpunkt ;  
+
 
 
 LEXICON BEFpunkt
@@ -117,86 +131,69 @@ LEXICON BEFpunkt
 %.:+Use/NA BEF ;
 
 LEXICON AFTpunkt
-%:: AFT ; ! 2:00 = göökte
-%.:+Use/NA AFT ; ! 2.00 = göökte
-:+Use/NA HOUR ; ! 2 = göökte
+%:%0%0: HOUR-CHUASSUU ;
+%.%0%0:+Use/NA HOUR-CHUASSUU ;
 
 LEXICON BEF
-2%0:kymmene%  TOHALF ;
-21:yheksä%  TOHALF ;
-22:kaheksa%  TOHALF ;
-23:seiččie%  TOHALF ;
-24:kuuzi%  TOHALF ;
-25:viizi%  TOHALF ; 
-26:nelli%  TOHALF ; 
-27:kolme%  TOHALF ;
-28:kaksi%  TOHALF ; 
-29:yksi%  TOHALF ;
-3%0:puoli%  HOUR ;
-31:yksi%  OVERHALF ;
-32:kaksi%  OVERHALF ;
-33:kolme%  OVERHALF ;
-34:nelli%  OVERHALF ;
-35:viizi%  OVERHALF ;
-36:kuuzi%  OVERHALF ;
-37:seiččie%  OVERHALF ;
-38:kaheksa%  OVERHALF ; 
-39:yheksä%  OVERHALF ;
-4%0:kymmene%  OVERHALF ;
-41:yksitostu%  TO ;
-42:kaksitostu%  TO ;
-43:seiččietostu%  TO ;
-44:kuuzitostu%  TO ;
-45:nelläs%  TO ;
-46:nellitostu%  TO ;
-47:kolmetostu%  TO ;
-48:kaksitostu%  TO ;
-49:yksitostu%  TO ;
-5%0:kymmene%  TO ;
-51:yheksä%  TO ;
-52:kaheksa%  TO ;
-53:seiččie%  TO ;
-54:kuuzi%  TO ;
-55:viizi%  TO ; 
-56:nelli%  TO ; 
-57:kolme%  TO ;
-58:kaksi%  TO ; 
-59:yksi%  TO ;
-
-LEXICON AFT
-%0%0: HOUR ;
-%01:yksi%  OVER ;
-%02:kaksi%  OVER ;
-%03:kolme%  OVER ;
-%04:nelli%  OVER ;
-%05:viizi%  OVER ;
-%06:kuuzi%  OVER ;
-%07:seiččie%  OVER ;
-%08:kaheksa%  OVER ;
-%09:yheksä%  OVER ;
-1%0:kymmene%  OVER ;
-11:yksitostu%  OVER ;
-12:kaksitostu%  OVER ;
-13:kolmetostu%  OVER ;
-14:nellitostu%  OVER ;
-15:nelläs%  OVER ; 
-16:kuuzitostu%  OVER ;
-17:seiččietostu%  OVER ;
-18:kaheksatostu%  OVER ;
-19:yheksätostu%  OVER ;
-
-LEXICON TOHALF
-:vaille% puoli%  HOUR ;
-
-
-LEXICON OVERHALF
-:yli% puoli%  HOUR ;
-
-LEXICON TO
-:vaille%  HOUR ;
-
-LEXICON OVER
-:yli%  HOUR ;
+%01:yksi%  MINUTES-OF-NEXT-HOUR ;
+%02:kaksi%  MINUTES-OF-NEXT-HOUR ;
+%03:kolme%  MINUTES-OF-NEXT-HOUR ;
+%04:nelli%  MINUTES-OF-NEXT-HOUR ;
+%05:viizi%  MINUTES-OF-NEXT-HOUR ;
+%06:kuuzi%  MINUTES-OF-NEXT-HOUR ;
+%07:seiččie%  MINUTES-OF-NEXT-HOUR ;
+%08:kaheksa%  MINUTES-OF-NEXT-HOUR ;
+%09:yheksä%  MINUTES-OF-NEXT-HOUR ;
+1%0:kymmen%  MINUTES-OF-NEXT-HOUR ;
+11:yksitostu%  MINUTES-OF-NEXT-HOUR ;
+12:kaksitostu%  MINUTES-OF-NEXT-HOUR ;
+13:kolmetostu%  MINUTES-OF-NEXT-HOUR ;
+14:nellitostu%  MINUTES-OF-NEXT-HOUR ;
+15:viizitostu%  MINUTES-OF-NEXT-HOUR ; 
+16:kuuzitostu%  MINUTES-OF-NEXT-HOUR ;
+17:seiččietostu%  MINUTES-OF-NEXT-HOUR ;
+18:kaheksatostu%  MINUTES-OF-NEXT-HOUR ;
+19:yheksätostu%  MINUTES-OF-NEXT-HOUR ;
+2%0:kaksikymmen%  MINUTES-OF-NEXT-HOUR ;
+21:kaksikymmen% yksi%  MINUTES-OF-NEXT-HOUR ;
+22:kaksikymmen% kaksi%  MINUTES-OF-NEXT-HOUR ;
+23:kaksikymmen% kolme%  MINUTES-OF-NEXT-HOUR ;
+24:kaksikymmen% nelli%  MINUTES-OF-NEXT-HOUR ;
+25:kaksikymmen% viizi%  MINUTES-OF-NEXT-HOUR ; 
+26:kaksikymmen% kuuzi%  MINUTES-OF-NEXT-HOUR ; 
+27:kaksikymmen% seiččie%  MINUTES-OF-NEXT-HOUR ;
+28:kaksikymmen% kaheksa%  MINUTES-OF-NEXT-HOUR ; 
+29:kaksikymmen% yheksä%  MINUTES-OF-NEXT-HOUR ;
+3%0:puoli NOMINATIVE-NEXT-HOUR ;
+31:kahtukymmendy% yheksiä%  MINUTES-TILL-NEXT-HOUR ;
+32:kahtukymmendy% kaheksua%  MINUTES-TILL-NEXT-HOUR ;
+33:kahtukymmendy% seiččendy%  MINUTES-TILL-NEXT-HOUR ;
+34:kahtukymmendy% kuuttu%  MINUTES-TILL-NEXT-HOUR ;
+35:kahtukymmendy% viitty%  MINUTES-TILL-NEXT-HOUR ;
+36:kahtukymmendy% nelliä%  MINUTES-TILL-NEXT-HOUR ;
+37:kahtukymmendy% kolmia%  MINUTES-TILL-NEXT-HOUR ;
+38:kahtukymmendy% kahtu%  MINUTES-TILL-NEXT-HOUR ; 
+39:kahtukymmendy% yhty%  MINUTES-TILL-NEXT-HOUR ;
+4%0:kahtukymmendy%  MINUTES-TILL-NEXT-HOUR ;
+41:yheksiätostu%  MINUTES-TILL-NEXT-HOUR ;
+42:kaheksuatostu%  MINUTES-TILL-NEXT-HOUR ;
+43:seiččendytostu%  MINUTES-TILL-NEXT-HOUR ;
+44:kuuttutostu%  MINUTES-TILL-NEXT-HOUR ;
+45:viittytostu%  MINUTES-TILL-NEXT-HOUR ;
+46:nelliätostu%  MINUTES-TILL-NEXT-HOUR ;
+47:kolmetostu%  MINUTES-TILL-NEXT-HOUR ;
+48:kaksitostu%  MINUTES-TILL-NEXT-HOUR ;
+49:yksitostu%  MINUTES-TILL-NEXT-HOUR ;
+5%0:kymmene%  MINUTES-TILL-NEXT-HOUR ;
+51:yheksä%  MINUTES-TILL-NEXT-HOUR ;
+52:kaheksa%  MINUTES-TILL-NEXT-HOUR ;
+53:seiččie%  MINUTES-TILL-NEXT-HOUR ;
+54:kuuzi%  MINUTES-TILL-NEXT-HOUR ;
+55:viitty%  MINUTES-TILL-NEXT-HOUR ; 
+56:nelliä%  MINUTES-TILL-NEXT-HOUR ; 
+57:kolmea%  MINUTES-TILL-NEXT-HOUR ;
+58:kahtu%  MINUTES-TILL-NEXT-HOUR ; 
+59:yhty%  MINUTES-TILL-NEXT-HOUR ;
 
 LEXICON HOUR
 @U.TIME.1@:@U.TIME.1@yksi ENDLEX ;
@@ -212,5 +209,64 @@ LEXICON HOUR
 @U.TIME.11@:@U.TIME.11@yksitostu ENDLEX ;
 @U.TIME.12@:@U.TIME.12@kaksitostu ENDLEX ;
 
+LEXICON HOUR-CHUASSUU
+@U.TIME.1@:@U.TIME.1@yksi 1-HOUR-FINAL ;
+@U.TIME.2@:@U.TIME.2@kaksi HOUR-FINAL ;
+@U.TIME.3@:@U.TIME.3@kolme HOUR-FINAL ;
+@U.TIME.4@:@U.TIME.4@nelli HOUR-FINAL ;
+@U.TIME.5@:@U.TIME.5@viizi HOUR-FINAL ;
+@U.TIME.6@:@U.TIME.6@kuuzi HOUR-FINAL ;
+@U.TIME.7@:@U.TIME.7@seiččie HOUR-FINAL ;
+@U.TIME.8@:@U.TIME.8@kaheksa HOUR-FINAL ;
+@U.TIME.9@:@U.TIME.9@yheksä HOUR-FINAL ;
+@U.TIME.10@:@U.TIME.10@kymmene HOUR-FINAL ;
+@U.TIME.11@:@U.TIME.11@yksitostu HOUR-FINAL ;
+@U.TIME.12@:@U.TIME.12@kaksitostu HOUR-FINAL ;
+
+LEXICON 1-HOUR-FINAL
+@U.HOUR.HOUR@:@U.HOUR.HOUR@% čuassu ENDLEX ; 
+@U.HOUR.SHARP@ ENDLEX ;
+
+LEXICON HOUR-FINAL
+@U.HOUR.HOUR@:@U.HOUR.HOUR@% čuassuu ENDLEX ; 
+@U.HOUR.SHARP@ ENDLEX ;
+
+LEXICON MINUTES-TILL-NEXT-HOUR
+:minuuttua% vajai%  NOMINATIVE-NEXT-HOUR ;
+
+LEXICON MINUTES-OF-NEXT-HOUR
+:minuuttua%  OF-PARTITIVE-HOUR ;
+
+LEXICON NOMINATIVE-NEXT-HOUR
+@U.TIME.1@:@U.TIME.1@yksi ENDLEX ;
+@U.TIME.2@:@U.TIME.2@kaksi ENDLEX ;
+@U.TIME.3@:@U.TIME.3@kolme ENDLEX ;
+@U.TIME.4@:@U.TIME.4@nelli ENDLEX ;
+@U.TIME.5@:@U.TIME.5@viizi ENDLEX ;
+@U.TIME.6@:@U.TIME.6@kuuzi ENDLEX ;
+@U.TIME.7@:@U.TIME.7@seiččie ENDLEX ;
+@U.TIME.8@:@U.TIME.8@kaheksa ENDLEX ;
+@U.TIME.9@:@U.TIME.9@yheksä ENDLEX ;
+@U.TIME.10@:@U.TIME.10@kymmene ENDLEX ;
+@U.TIME.11@:@U.TIME.11@yksitostu ENDLEX ;
+@U.TIME.12@:@U.TIME.12@kaksitostu ENDLEX ;
+
+LEXICON OF-PARTITIVE-HOUR
+@U.TIME.1@:@U.TIME.1@enzimästy ENDLEX ;
+@U.TIME.2@:@U.TIME.2@tostu ENDLEX ;
+@U.TIME.3@:@U.TIME.3@kolmattu ENDLEX ;
+@U.TIME.4@:@U.TIME.4@nellätty ENDLEX ;
+@U.TIME.5@:@U.TIME.5@viijetty ENDLEX ;
+@U.TIME.6@:@U.TIME.6@kuvvettu ENDLEX ;
+@U.TIME.7@:@U.TIME.7@seiččemetty ENDLEX ;
+@U.TIME.8@:@U.TIME.8@kaheksattu ENDLEX ;
+@U.TIME.9@:@U.TIME.9@yheksätty ENDLEX ;
+@U.TIME.10@:@U.TIME.10@kymmenetty ENDLEX ;
+@U.TIME.11@:@U.TIME.11@yhtettytostu ENDLEX ;
+@U.TIME.12@:@U.TIME.12@kahdettutostu ENDLEX ;
+
 LEXICON ENDLEX
 # ;
+
+
+!!!work
