@@ -488,6 +488,14 @@ Multichar_Symbols
  %^ILoss     !!= * @CODE@  the i => 0 __reboi reboloi__
  %^RmVow   !!= _@CODE@_ vowel removal, e.g. with superlative
 
+        !! !!Symbols that need to be escaped on the lower side (towards twolc):
+ »7     !!≈ ; @CODE@ : Literal »
+ «7     !!≈ ; @CODE@ : Literal «
+        !! {{{
+ %[%>%] !!= @CODE@ - Literal >
+ %[%<%] !!= @CODE@ - Literal <
+        !! }}}
+
 
 QAQ1  !!= * @CODE@
 QAO1  !!= * @CODE@
