@@ -161,6 +161,21 @@ LEXICON N_SÄYNÄ-SG
 LEXICON N_SÄYNÄ-PL
 :%{front%} NMN_OZA/SÄYNÄ-PL ;
 
+LEXICON N_BOBA !!= @CODE@ boba:boba
+!! Gradation YES
+!! Harmony: Back
+!! stem final a changes to u in Sg Par
+!! stem final a changes to 0 before i in Pl stem
+: ATTESTED-NOUN-STEM ; 
+	N_BOBA-SG  ;
+	N_BOBA-PL  ;
+
+LEXICON N_BOBA-SG
+:%{back%} NMN_BOBA/XX-SG ;
+
+LEXICON N_BOBA-PL
+:%{back%} NMN_BOBA/XX-PL ;
+
 LEXICON N_KOIVU !!= @CODE@ koivu:koivu
 !! Gradation NA
 !! Harmony: Back
@@ -338,6 +353,46 @@ LEXICON N_DIÄDÖ-PL
 LEXICON N_MUARJU !!= @CODE@ muarju:muarja
 !! Gradation No
 !! Harmony: Back
+!! two forms for accusative
+!! two forms for elative, ablative phrases
+!!€gt-norm:   Noun 'berry / marja' - full paradigm: Noun - muarju
+!!€  muarju: muarju+N+Sg+Nom
+!!€  muarjan: muarju+N+Sg+Gen
+!!€  muarju: muarju+N+Sg+Acc
+!!€  muarjan: muarju+N+Sg+Acc
+!!€  muarjua: muarju+N+Sg+Par
+!!€  muarjakse: muarju+N+Sg+Tra
+!!€  muarjata: muarju+N+Sg+Abe
+!!€  muarjanke: muarju+N+Sg+Com
+!!€  muarjas: muarju+N+Sg+Ine
+!!€  muarjaspäi: muarju+N+Sg+Ela
+!!€  muarjas: muarju+N+Sg+Ela
+!!€  muarjah: muarju+N+Sg+Ill
+!!€  muarjal: muarju+N+Sg+Ade
+!!€  muarjalpäi: muarju+N+Sg+Abl
+!!€  muarjal: muarju+N+Sg+Abl
+!!€  muarjale: muarju+N+Sg+All
+!!€  muarjannu: muarju+N+Sg+Ess
+!!€  muarjassah: muarju+N+Sg+Ter
+!!€  muarjalluo: muarju+N+Sg+Apr
+!!€  muarjat: muarju+N+Pl+Nom
+!!€  muarjoin: muarju+N+Pl+Gen
+!!€  muarjat: muarju+N+Pl+Acc
+!!€  muarjoi: muarju+N+Pl+Par
+!!€  muarjoikse: muarju+N+Pl+Tra
+!!€  muarjoita: muarju+N+Pl+Abe
+!!€  muarjoinke: muarju+N+Pl+Com
+!!€  muarjois: muarju+N+Pl+Ine
+!!€  muarjoispäi: muarju+N+Pl+Ela
+!!€  muarjois: muarju+N+Pl+Ela
+!!€  muarjoih: muarju+N+Pl+Ill
+!!€  muarjoil: muarju+N+Pl+Ade
+!!€  muarjoilpäi: muarju+N+Pl+Abl
+!!€  muarjoil: muarju+N+Pl+Abl
+!!€  muarjoile: muarju+N+Pl+All
+!!€  muarjoinnu: muarju+N+Pl+Ess
+!!€  muarjoin: muarju+N+Pl+Ins
+!!€  muarjoilluo: muarju+N+Pl+Apr
 :%^A2UÄ2Y ATTESTED-NOUN-STEM ;
  N_MUARJU-SG ;
  N_MUARJU-PL ;
@@ -3128,6 +3183,23 @@ LEXICON NMN_OZA/SÄYNÄ-PL
 :%^RmVow%>i PLPARSUF_i ;
 :%^RmVow%>i PLINSSUF ;
 +Pl:%^RmVow%>i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
+
+LEXICON NMN_BOBA/XX !!= @CODE@ boba:boba
+	NMN_BOBA/XX-SG  ;
+	NMN_BOBA/XX-PL  ;
+
+LEXICON NMN_BOBA/XX-SG
+ SGNOMSUF ;
+:%^WGStem SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
+ SGPARSUF_A2 ;
++Sg:%^WGStem OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
+
+LEXICON NMN_BOBA/XX-PL
+:%^WGStem PLNOMSUF-USUALLY-WEAK ;
+:%^WGStem%^RmVow%>i PL-GEN/COM/APRSUF_EN ;
+:%^WGStem%^RmVow%>i PLPARSUF_i ;
+:%^WGStem%^RmVow%>i PLINSSUF ;
++Pl:%^WGStem%^RmVow%>i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
 !LEXICON NMN_SÄYNÄ !!= @CODE@ säynä:säynä
 !	NMN_SÄYNÄ-SG  ;
