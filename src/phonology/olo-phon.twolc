@@ -89,6 +89,14 @@ V3:0
 %^KS2S:0
 
 ! no change
+! The example here is for something that should not be done
+! We have two infinite sets, Olonets-Karelian and incoming loanwords.
+! The original idea was to make a rule changing all instances of 
+! adjacent double aa to ua. For this reason a special trigger was
+! to be inserted into the lexc stem of a word to prevent such a rule
+! from occurring. Since the infinite Olonets-Karelian set is more predictable
+! and perhaps smaller than the incoming loanword set, it is better
+! to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
 %^NONE:0 ! This will break vowel change, e.g. sa%^NONEamelaine
 
 ! this k is not effected by gradation
@@ -96,6 +104,12 @@ K1:k
 %^NoGrad:0 ! This will be placed after a stem to break Gradation
 
 ! This is used in combination with WGStem to trigger change in penultimate coda
+! The penultimate coda trigger is used profusely in sms and vro
+! it allows for distinguishing between ultimate and penultimate coda,
+! but due to this distinction it is also a good idea to configure with
+! ./configure --enable-reversed-intersect
+! , which means that the triggers are seen before the stems and requires
+! LESS memory. 2019-09-02 JMR
 %^Pen:0  !!= @CODE@ pagisou paistah in combination with WGStem to trigger
 
 ! this weakens the stem _ompel_ to _ommel_
