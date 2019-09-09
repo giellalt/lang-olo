@@ -309,6 +309,14 @@ And following triggers to control variation
  *  %^ILoss       the i => 0 __reboi reboloi__
  _ %^RmVow   _ vowel removal, e.g. with superlative
 
+!!Symbols that need to be escaped on the lower side (towards twolc):
+ ; »7 : Literal »
+ ; «7 : Literal «
+{{{
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+}}}
+
 
  * QAQ1  
  * QAO1  
@@ -396,6 +404,7 @@ Removal
  *    quantifiers    ;  
  *    verbs	  ;	     
  *    rus-Cyrl-2-Lat-ProperNouns ;   Derived from urj-Cyrl
+
 
  *  Exceptions ;  
 

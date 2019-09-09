@@ -32,7 +32,13 @@ LEXICON PERS_
 +Pron+Pers+Pl+Ine: # ;
 +Pron+Pers+Pl+Apr: # ;
 
-
+LEXICON Pronoun-types
+minä+Pron:min PERS-SG1 ;
+minä+Pron:m PERS-PL1 ;
+sinä+Pron:sin PERS-SG2 ;
+sinä+Pron:t PERS-PL2 ;
+häi+Pron:hä PERS-SG3 ;
+häi+Pron:h PERS-PL3 ;
 
 LEXICON PERS-SG1
 ! minä:min
@@ -85,7 +91,7 @@ LEXICON PERS-SG3
 +Pers+Sg3+Apr:nellyö K ;
 
 LEXICON PERS-PL1
-! myö:m
+! minä:m
 +Pers+Pl1+Nom:yö K ;
 +Pers+Pl1+Gen:eijän K ;
 +Pers+Pl1+Acc:eijät K ;
@@ -102,7 +108,7 @@ LEXICON PERS-PL1
 +Pers+Pl1+Ela+Use/NG:eispäi K ;
 
 LEXICON PERS-PL2
-! työ:t
+! sinä:t
 +Pers+Pl2+Nom:yö K ;
 +Pers+Pl2+Gen:eijän K ;
 +Pers+Pl2+Acc:eijät K ;
@@ -119,7 +125,7 @@ LEXICON PERS-PL2
 +Pers+Pl2+Ela+Use/NG:eispäi K ;
 
 LEXICON PERS-PL3
-! hyö:h
+! häi:h
 +Pers+Pl3+Nom:yö K ;
 +Pers+Pl3+Gen:eijän K ;
 +Pers+Pl3+Acc:eijät K ;
