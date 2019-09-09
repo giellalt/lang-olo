@@ -608,6 +608,8 @@ LEXICON Root
    verbs	  ;	     !!= * @CODE@
    rus-Cyrl-2-Lat-ProperNouns ;  !!= * @CODE@ Derived from urj-Cyrl
 
+Pronoun-types ;
+
 !Abbreviation ;	! stems/abbr.lexc
 !Acronym ;    	! stems/acro.lexc
  Punctuation ;
@@ -628,10 +630,10 @@ LEXICON CONJ_
 +Conj: # ;
 
 LEXICON CC_
-+CC: # ;
+: # ;
 
 LEXICON CS_
-+CS: # ;
+: # ;
 
 
 LEXICON INTERJ_
@@ -641,31 +643,31 @@ LEXICON INTERJ_
 !+Num: # ;
 
 LEXICON NUMBERSUF
-+Num: K;
-+Num:%> CASESUF ;
-+Num:%> ORDINAL ;
+: K;
+:%> CASESUF ;
+:%> ORDINAL ;
 
 LEXICON ORDINAL
 +Ord+TYÄ:s K;
 
 LEXICON PCLE_
-+Pcle: #;
+: #;
 
 
 LEXICON PO_
-+Po: # ;
+: # ;
 
 LEXICON PO-GOV/ILL_
-+Po: # ;
+: # ;
 
 LEXICON PO_KIELINE
-+Po+Der/A: A_KIELINE ;
++Der/A: A_KIELINE ;
 
 LEXICON PO_KARJALAINE
-+Po+Der/A: A_KARJALAINE ;
++Der/A: A_KARJALAINE ;
 
 LEXICON PREP_
-+Pr: # ;
+: # ;
 
 
 LEXICON CASESUF

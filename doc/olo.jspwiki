@@ -320,6 +320,14 @@ And following triggers to control variation
  *  %^ILoss       the i => 0 __reboi reboloi__
  _ %^RmVow   _ vowel removal, e.g. with superlative
 
+!!Symbols that need to be escaped on the lower side (towards twolc):
+ ; »7 : Literal »
+ ; «7 : Literal «
+{{{
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+}}}
+
 
  * QAQ1  
  * QAO1  
@@ -407,6 +415,7 @@ Removal
  *    quantifiers    ;  
  *    verbs	  ;	     
  *    rus-Cyrl-2-Lat-ProperNouns ;   Derived from urj-Cyrl
+
 
  *  Exceptions ;  
 
@@ -710,6 +719,14 @@ stem final ä changes to 0 before i in Pl stem
 
 
 
+ LEXICON N_BOBA  boba:boba
+Gradation YES
+Harmony: Back
+stem final a changes to u in Sg Par
+stem final a changes to 0 before i in Pl stem
+
+
+
  LEXICON N_KOIVU  koivu:koivu
 Gradation NA
 Harmony: Back
@@ -796,6 +813,47 @@ Harmony: Front
  LEXICON N_MUARJU  muarju:muarja
 Gradation No
 Harmony: Back
+two forms for accusative
+two forms for elative, ablative phrases
+
+__Noun 'berry / marja' - full paradigm: Noun - muarju examples:__
+* __muarju: __ {{muarju+N+Sg+Nom }}
+* __muarjan: __ {{muarju+N+Sg+Gen }}
+* __muarju: __ {{muarju+N+Sg+Acc }}
+* __muarjan: __ {{muarju+N+Sg+Acc }}
+* __muarjua: __ {{muarju+N+Sg+Par }}
+* __muarjakse: __ {{muarju+N+Sg+Tra }}
+* __muarjata: __ {{muarju+N+Sg+Abe }}
+* __muarjanke: __ {{muarju+N+Sg+Com }}
+* __muarjas: __ {{muarju+N+Sg+Ine }}
+* __muarjaspäi: __ {{muarju+N+Sg+Ela }}
+* __muarjas: __ {{muarju+N+Sg+Ela }}
+* __muarjah: __ {{muarju+N+Sg+Ill }}
+* __muarjal: __ {{muarju+N+Sg+Ade }}
+* __muarjalpäi: __ {{muarju+N+Sg+Abl }}
+* __muarjal: __ {{muarju+N+Sg+Abl }}
+* __muarjale: __ {{muarju+N+Sg+All }}
+* __muarjannu: __ {{muarju+N+Sg+Ess }}
+* __muarjassah: __ {{muarju+N+Sg+Ter }}
+* __muarjalluo: __ {{muarju+N+Sg+Apr }}
+* __muarjat: __ {{muarju+N+Pl+Nom }}
+* __muarjoin: __ {{muarju+N+Pl+Gen }}
+* __muarjat: __ {{muarju+N+Pl+Acc }}
+* __muarjoi: __ {{muarju+N+Pl+Par }}
+* __muarjoikse: __ {{muarju+N+Pl+Tra }}
+* __muarjoita: __ {{muarju+N+Pl+Abe }}
+* __muarjoinke: __ {{muarju+N+Pl+Com }}
+* __muarjois: __ {{muarju+N+Pl+Ine }}
+* __muarjoispäi: __ {{muarju+N+Pl+Ela }}
+* __muarjois: __ {{muarju+N+Pl+Ela }}
+* __muarjoih: __ {{muarju+N+Pl+Ill }}
+* __muarjoil: __ {{muarju+N+Pl+Ade }}
+* __muarjoilpäi: __ {{muarju+N+Pl+Abl }}
+* __muarjoil: __ {{muarju+N+Pl+Abl }}
+* __muarjoile: __ {{muarju+N+Pl+All }}
+* __muarjoinnu: __ {{muarju+N+Pl+Ess }}
+* __muarjoin: __ {{muarju+N+Pl+Ins }}
+* __muarjoilluo: __ {{muarju+N+Pl+Apr }}
 
 
  LEXICON N_PIÄSTÄNDY  piäständy:piäständä
@@ -1694,6 +1752,10 @@ Gradation None
  LEXICON NMN_PÖČÖI  pöčöi:pöččö
 
  LEXICON NMN_OZA/SÄYNÄ  oza:oza
+
+
+
+ LEXICON NMN_BOBA/XX  boba:boba
 
 
 
