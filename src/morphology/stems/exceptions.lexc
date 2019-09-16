@@ -29,63 +29,62 @@ työndiä+V+PssPrfPrc:työtty A_KOIVU ;
 
 !! ADJECTIVES 
 
-harvat:harvat PRON_  "harvat" ;
-joga:joga PRON_  "joka, jokainen" ;
+harvat+Pron:harvat PRON_  "harvat" ;
+joga+Pron:joga PRON_  "joka, jokainen" ;
 kahteskymmenes:kahteskymmenes NUM_  "kahdeskymmenes" ;
 kolmaskymmenes:kolma#kymmen NUM_  "kolmaskymmenes" ;
 kolmassuas:kolma#sada NUM_  "kolmassadas" ;
-kudai:kuda PRON_  "kuka , mikä; joka; mikä - mikä" ;
-kumbaine:kumba PRON_KARJALAINE  "" ;
+kudai+Pron:kuda PRON_  "kuka , mikä; joka; mikä - mikä" ;
+kumbaine+Pron:kumba PRON_KARJALAINE  "" ;
 kaheksastostu:kaheksastos NUM_  "kahdeksastoista" ;
 monet:monet A_  "monet" ;
-muduas:muduande PRON_ "muuan, muudan" ;
-muduan:muduande PRON_  "muuan, muudan" ;
+muduas+Pron:muduande PRON_ "muuan, muudan" ;
+muduan+Pron:muduande PRON_  "muuan, muudan" ;
 pilkettiä:pilkettä V_  "vilkkua, pilkottaa" ;
 tuhannes:tuhanne NUM_  "tuhannes" ;
-tämä:tämä PRON_  "tämä" ;
 ulgo-:ulgo- A_  "ulko-" ;
 yhtestostu:yhtestostu NUM_  "yhdestoista" ;
-äijäs:äijäs PRON_  "mones" ;
+äijäs+Pron:äijäs PRON_  "mones" ;
 
 !! Adverbs incomplete
-ei% ammui:ei% ammui ADV_  "" ;
-ei% himol:ei% himol ADV_  "" ;
-ei% hätkekse:ei% hätkekse ADV_  "" ;
-ei% jugei:ei% jugei ADV_  "" ;
-ei% juuri:ei% juuri ADV_  "" ;
-ei% kallehesti:ei% kallehesti ADV_  "" ;
-ei% kebjiesti:ei% kebjiesti ADV_  "" ;
-ei% loiton:ei% loiton ADV_  "" ;
-ei% midä:ei% midä ADV_  "" ;
-ei% mistöi:ei% mistöi ADV_  "" ;
-ei% selgieh:ei% selgieh ADV_  "" ;
-ei% suo:ei% suo ADV_  "" ;
-ei% viikokši:ei% viikokši ADV_  "" ;
-ei% voi:ei% voi ADV_  "" ;
-ei% vähäine:ei% vähäine ADV_  "" ;
-eule% kummu:eule% kummu ADV_  "" ;
-eulo% kiireh:eulo% kiireh ADV_  "" ;
-eulo% midä:eulo% midä ADV_  "" ;
-!! #päivy+N+Sg+Ess+Adv:#piän This should help in compound words Essive 
-90-vuozipiän:90-vuozipiän ADV-TEMP_ "" ;
+ei% ammui+Adv:ei% ammui ADV_  "" ;
+ei% himol+Adv:ei% himol ADV_  "" ;
+ei% hätkekse+Adv:ei% hätkekse ADV_  "" ;
+ei% jugei+Adv:ei% jugei ADV_  "" ;
+ei% juuri+Adv:ei% juuri ADV_  "" ;
+ei% kallehesti+Adv:ei% kallehesti ADV_  "" ;
+ei% kebjiesti+Adv:ei% kebjiesti ADV_  "" ;
+ei% loiton+Adv:ei% loiton ADV_  "" ;
+ei% midä+Adv:ei% midä ADV_  "" ;
+ei% mistöi+Adv:ei% mistöi ADV_  "" ;
+ei% selgieh+Adv:ei% selgieh ADV_  "" ;
+ei% suo+Adv:ei% suo ADV_  "" ;
+ei% viikokši+Adv:ei% viikokši ADV_  "" ;
+ei% voi+Adv:ei% voi ADV_  "" ;
+ei% vähäine+Adv:ei% vähäine ADV_  "" ;
+eule% kummu+Adv:eule% kummu ADV_  "" ;
+eulo% kiireh+Adv:eulo% kiireh ADV_  "" ;
+eulo% midä+Adv:eulo% midä ADV_  "" ;
+!! #päivy+N+Sg+Ess+Adv+Adv:#piän This should help in compound words Essive 
+90-vuozipiän+Adv:90-vuozipiän ADV-TEMP_ "" ;
 
 
 !! Conjunctors incomplete
-kui:kui CS_  "kuinka, miten, millä tavoin; kuin, niin kuin; koska, siksi, että; jos; jospa, kunpa; jotta; kun, kerran; -pa, .pä" ;
-libo:libo CC_  "vai, vai; eli" ;
-što:što CS_  "että, jotta" ;
-štobi:štobi CS_  "jotta, että" ;
-hoš:hoš CS_ "" ;
-muga% že:muga% že CONJ_  "niin, näin, noin; -kin, -kaan, -kään" ;
-sendäh:sendäh CONJ_  "siksi, sen tähden; sentään, kuitenkin, kuitenkaan, siitä huolimatta" ;
-vie:vie CONJ_  " lisäksi, vielä; jopa, suorastaan; yhä edelleen, vielä" ;
+kui+CS:kui CS_  "kuinka, miten, millä tavoin; kuin, niin kuin; koska, siksi, että; jos; jospa, kunpa; jotta; kun, kerran; -pa, .pä" ;
+libo+CC+CS:libo CC_  "vai, vai; eli" ;
+što+CS:što CS_  "että, jotta" ;
+štobi+CS:štobi CS_  "jotta, että" ;
+hoš+CS:hoš CS_ "" ;
+muga% že+CS:muga% že CS_  "niin, näin, noin; -kin, -kaan, -kään" ;
+sendäh+CS:sendäh CS_  "siksi, sen tähden; sentään, kuitenkin, kuitenkaan, siitä huolimatta" ;
+vie+CS:vie CS_  " lisäksi, vielä; jopa, suorastaan; yhä edelleen, vielä" ;
 
 !! MISC
 al:al INTERJ_ "" ;
 ali:ali INTERJ_ "" ;
 däh:däh INTERJ_ "" ;
 aku:aku INTERJ_ "" ;
-ga:ga CC_ "" ;
+!ga:ga CC_ "" ;
 gai:gai INTERJ_ "" ;
 hoš:hoš INTERJ_ "" ;
 jo:jo INTERJ_ "" ;
@@ -97,7 +96,6 @@ korvah:korvah INTERJ_ "" ;
 kouzollou:kouzollou INTERJ_ "" ;
 kulleh:kulleh INTERJ_ "" ;
 kulmas:kulmas INTERJ_ "" ;
-libo:libo CS_ "" ;
 migu:migu INTERJ_ "" ;
 mindäh:mindäh ADV_ "" ;
 mis:mis INTERJ_ "" ;
@@ -112,33 +110,33 @@ vaigu:vaigu INTERJ_ "" ;
 vie:vie ADV_ "" ;
 
 !! POSTPOSITIONS
-piäh:piäh PO_ "" ;
-piäle:piäle PO_ "" ;
-piäs:piäs PO_ "" ;
+piäh+Po:piäh PO_ "" ;
+piäle+Po:piäle PO_ "" ;
+piäs+Po:piäs PO_ "" ;
 
 
 
 !! Pronouns
-erähät:erähät PRON_  "eräät, muutamat" ;
-eräs:eräs PRON_  "eräs, muuan, muudan; jokin, joku (muu), toinen; mokoma" ;
-kentahto:ke PRON-INDEF_KEN "" ;
-kudaitahto:kuda PRON-INDEF_KUDAI "" ;
-kuda-ken:kuda-ken PRON_ "" ;
-kuda-kui:kuda-kui PRON_ "" ;
-kuda-midä:kuda-midä PRON_ "" ;
-kuda-mis:kuda-mis PRON_ "" ;
-kus:kus PRON_ "" ;
-mitahto:mi PRON-INDEF_MI "" ;
-mittuinetahto:mittu PRON-INDEF_MITTUINE "" ;
-nimittuine:ni«mittu PRON-INDEF_NIMITTUINE "" ;
-mittuine:mittu PRON-INTERR_MITTUINE "" ;
+erähät+Pron:erähät PRON_  "eräät, muutamat" ;
+eräs+Pron:eräs PRON_  "eräs, muuan, muudan; jokin, joku (muu), toinen; mokoma" ;
+kentahto+Pron:ke PRON-INDEF_KEN "" ;
+kudaitahto+Pron:kuda PRON-INDEF_KUDAI "" ;
+kuda-ken+Pron:kuda-ken PRON_ "" ;
+kuda-kui+Pron:kuda-kui PRON_ "" ;
+kuda-midä+Pron:kuda-midä PRON_ "" ;
+kuda-mis+Pron:kuda-mis PRON_ "" ;
+mitahto+Pron:mi PRON-INDEF_MI "" ;
+mittuinetahto+Pron:mittu PRON-INDEF_MITTUINE "" ;
+nimittuine+Pron:ni«mittu PRON-INDEF_NIMITTUINE "" ;
+mittuine+Pron:mittu PRON-INTERR_MITTUINE "" ;
 
-konzutahto:konzu#tah ADV-INDEF-TEMP "" ;
-konzutahto:konzu#tahto ADV-INDEF-TEMP "" ;
+kus+Adv:kus ADV_ "" ;
+konzutahto+Adv:konzu#tah ADV-INDEF-TEMP "" ;
+konzutahto+Adv:konzu#tahto ADV-INDEF-TEMP "" ;
 
-kuitahto:kui#tahto ADV-INDEF-MANNER "" ;
-kustahto:kus#tahto ADV-INDEF-SPAT-IS-INE "" ;
-kunnetahto:kunne#tahto ADV-INDEF-SPAT-IS-LAT "" ;
+kuitahto+Adv:kui#tahto ADV-INDEF-MANNER "" ;
+kustahto+Adv:kus#tahto ADV-INDEF-SPAT-IS-INE "" ;
+kunnetahto+Adv:kunne#tahto ADV-INDEF-SPAT-IS-LAT "" ;
 
 
 
@@ -152,7 +150,7 @@ kunnetahto:kunne#tahto ADV-INDEF-SPAT-IS-LAT "" ;
 !! Nouns incomplete
 
 i:i PCLE_ "ja" ;
-kunne:kunne PRON-INTERR_ "minne, mihin, kunne" ;
+kunne+Adv:kunne PRON-INTERR_ "minne, mihin, kunne" ;
 
 
 
@@ -184,24 +182,24 @@ mahto:mahto N_RUNO "" ;
 !! Väinämöine
 !! Verbs INCOMPLETE
 
-roita:rodi V_AVATA "" ;
+roita+V:rodi V_AVATA "" ;
 
-tartuokseh:tartu VR_VALUO  "tarttua, saada t. tavata kiinni" ;
-vazitakseh:vazita VR_  "olla varovainen, varoa, karttaa" ;
-ällistyttiä:ällistyttä V_HEITTIÄ  "ällistyttää" ;
-čakkaillakseh:čakkail VR_  "nuhdella, torua, moittia, soimata, haukkua" ;
-čongurdua:čongurda V_KANDUA  "tonkia, kaivertaa, kovertaa" ;
-čuraittua:čuraitta V_KANDUA  "lasketella, liukua, ajaa" ;
-šiivilöijä:šiivilei V_SUVAIJA  "siivilöidä" ;
-šuoriekseh:šuore VR_  "lähteä matkaan, lähteä jnnek, aikoa jnnek, valmistautua lähtemään, varustautua lähtemään" ;
-šuorita:šuori V_  "valmistautua, varustautua, suoriutua; tehdä lähtöä; lähteä; pukeutua, sonnustautua" ;
-žiiloittua:žiiloitta V_KANDUA  "(yougi:) polttaa nokkosella; (yougi:) piestä nokkosella" ;
-žualuijakseh:žualui VR_SUVAIJA  "valittaa jllek" ;
+tartuokseh+V:tartu VR_VALUO  "tarttua, saada t. tavata kiinni" ;
+vazitakseh+V:vazita VR_  "olla varovainen, varoa, karttaa" ;
+ällistyttiä+V:ällistyttä V_HEITTIÄ  "ällistyttää" ;
+čakkaillakseh+V:čakkail VR_  "nuhdella, torua, moittia, soimata, haukkua" ;
+čongurdua+V:čongurda V_KANDUA  "tonkia, kaivertaa, kovertaa" ;
+čuraittua+V:čuraitta V_KANDUA  "lasketella, liukua, ajaa" ;
+šiivilöijä+V:šiivilei V_SUVAIJA  "siivilöidä" ;
+šuoriekseh+V:šuore VR_  "lähteä matkaan, lähteä jnnek, aikoa jnnek, valmistautua lähtemään, varustautua lähtemään" ;
+šuorita+V:šuori V_  "valmistautua, varustautua, suoriutua; tehdä lähtöä; lähteä; pukeutua, sonnustautua" ;
+žiiloittua+V:žiiloitta V_KANDUA  "(yougi:) polttaa nokkosella; (yougi:) piestä nokkosella" ;
+žualuijakseh+V:žualui VR_SUVAIJA  "valittaa jllek" ;
 
 !! PROPER NOUNS FROM OLONETS
-Iisussu:Iisussa PROP_AKKU "" ;
-Iivan:Iivan PROP_KARJAL "" ;
-Puavil:Puavil PROP_KARJAL "" ;
+Iisussu+N:Iisussa PROP_AKKU "" ;
+Iivan+N:Iivan PROP_KARJAL "" ;
+Puavil+N:Puavil PROP_KARJAL "" ;
 
 
 !! Undentified Morph
@@ -315,9 +313,9 @@ Puavil:Puavil PROP_KARJAL "" ;
 !2014-02-14!ollus:ollus Q_X "" ;
 !2014-02-14!!kolmen:kolmen Q_X "" ; gen
 !2014-02-14!!kerale:kerale Q_X "" ; POSTPOSITIO
-!2014-02-14!!Mihail:Mihail Q_X "" ; PROP nom
-!2014-02-14!!Martti:Martti Q_X "" ; PRPO nom
-!2014-02-14!!Ilʼlʼu:Ilʼlʼu Q_X "" ; PROP nom
+!2014-02-14!!Mihail+N:Mihail Q_X "" ; PROP nom
+!2014-02-14!!Martti+N:Martti Q_X "" ; PRPO nom
+!2014-02-14!!Ilʼlʼu+N:Ilʼlʼu Q_X "" ; PROP nom
 !2014-02-14!!yhtet:yhtet Q_X "" ; NUM mon.nom.
 !2014-02-14!!vellie:vellie Q_X "" ; partit
 !2014-02-14!!tärgei:tärgei Q_X "" ; A nom
@@ -327,15 +325,15 @@ Puavil:Puavil PROP_KARJAL "" ;
 !2014-02-14!!gostih:gostih Q_X "" ; illat.
 !2014-02-14!!ezitti:ezitti Q_X "" ; imperf. y..3.
 !2014-02-14!!ajoi:ajoi Q_X "" ; imperf.y.3.
-!2014-02-14!!Viktor:Viktor Q_X "" ; PROP nom
-!2014-02-14!!Juakoi:Juakoi Q_X "" ; PRPO nom
-!2014-02-14!!Josif:Josif Q_X "" ; PROP nom
+!2014-02-14!!Viktor+N:Viktor Q_X "" ; PROP nom
+!2014-02-14!!Juakoi+N:Juakoi Q_X "" ; PRPO nom
+!2014-02-14!!Josif+N:Josif Q_X "" ; PROP nom
 !2014-02-14!!viinua:viinua Q_X "" ; y.partit
 !2014-02-14!!ruattu:ruattu Q_X "" ; pass. II partis.
 !2014-02-14!olle:olle Q_X "" ;
 !2014-02-14!!kuduat:kuduat Q_X "" ; PRON mon nom
-!2014-02-14!!Saulu:Saulu Q_X "" ; PROP nom
-!2014-02-14!!Karhu:Karhu Q_X "" ; PROP nom
+!2014-02-14!!Saulu+N:Saulu Q_X "" ; PROP nom
+!2014-02-14!!Karhu+N:Karhu Q_X "" ; PROP nom
 !2014-02-14!!tyrmäs:tyrmäs Q_X "" ; iness
 !2014-02-14!!rua:rua Q_X "" ; imperat
 !2014-02-14!!palkan:palkan Q_X "" ; gen
@@ -352,7 +350,7 @@ Puavil:Puavil PROP_KARJAL "" ;
 !2014-02-14!!muutti:muutti Q_X "" ; imperf. y.3.
 !2014-02-14!!käi:käi Q_X "" ; imperf. y.3. murt., tav. kävyi
 !2014-02-14!!jengua:jengua Q_X "" ; part
-!2014-02-14!!David:David Q_X "" ; PROP
+!2014-02-14!!David+N:David Q_X "" ; PROP
 !2014-02-14!!Aminʼ:Aminʼ Q_X "" ; interj.
 !2014-02-14!!vietäh:vietäh Q_X "" ; pass.prees.lyhyt muoto
 !2014-02-14!!tovel:tovel Q_X "" ; adess
@@ -371,7 +369,7 @@ Puavil:Puavil PROP_KARJAL "" ;
 !2014-02-14!!laval:laval Q_X "" ; adess
 !2014-02-14!!kolmes:kolmes Q_X "" ; NUM iness
 !2014-02-14!!kazvau:kazvau Q_X "" ; pree.y.3.
-!2014-02-14!!Mari:Mari Q_X "" ; PROP nom
+!2014-02-14!!Mari+N:Mari Q_X "" ; PROP nom
 !2014-02-14!!Kaiken:Kaiken Q_X "" ;PRON gen
 !2014-02-14!!Enimät:Enimät Q_X "" ; mon nom
 !2014-02-14!!viel:viel Q_X "" ; adess / ablat
