@@ -366,11 +366,11 @@ LEXICON N_MUARJU !!= @CODE@ muarju:muarja
 !!€  muarjanke: muarju+N+Sg+Com
 !!€  muarjas: muarju+N+Sg+Ine
 !!€  muarjaspäi: muarju+N+Sg+Ela
-!!€  muarjas: muarju+N+Sg+Ela
+!  muarjas: muarju+N+Sg+Ela
 !!€  muarjah: muarju+N+Sg+Ill
 !!€  muarjal: muarju+N+Sg+Ade
 !!€  muarjalpäi: muarju+N+Sg+Abl
-!!€  muarjal: muarju+N+Sg+Abl
+!  muarjal: muarju+N+Sg+Abl
 !!€  muarjale: muarju+N+Sg+All
 !!€  muarjannu: muarju+N+Sg+Ess
 !!€  muarjassah: muarju+N+Sg+Ter
@@ -384,11 +384,11 @@ LEXICON N_MUARJU !!= @CODE@ muarju:muarja
 !!€  muarjoinke: muarju+N+Pl+Com
 !!€  muarjois: muarju+N+Pl+Ine
 !!€  muarjoispäi: muarju+N+Pl+Ela
-!!€  muarjois: muarju+N+Pl+Ela
+!  muarjois: muarju+N+Pl+Ela
 !!€  muarjoih: muarju+N+Pl+Ill
 !!€  muarjoil: muarju+N+Pl+Ade
 !!€  muarjoilpäi: muarju+N+Pl+Abl
-!!€  muarjoil: muarju+N+Pl+Abl
+! muarjoil: muarju+N+Pl+Abl
 !!€  muarjoile: muarju+N+Pl+All
 !!€  muarjoinnu: muarju+N+Pl+Ess
 !!€  muarjoin: muarju+N+Pl+Ins
@@ -3565,13 +3565,13 @@ LEXICON ILLSUF_he
 
 LEXICON Noun-NB-01
 +Ade:%^WGStem%>l K ;
-+Abl:%^WGStem%>l K ;
-+Abl+Use/NG:%^WGStem%>lpäi K ;
+!+Abl:%^WGStem%>l K ;
++Abl:%^WGStem%>lpäi K ;
 +All:%^WGStem%>le K ;
 +Abe:%^WGStem%>tt%{aä%}h K ;
 +Abe+Err/Orth:%^WGStem%>tt%{aä%} K ;
 +Abe:%^WGStem%>t%{aä%} K ;
-+Ela:%^WGStem%>s K ;
+!+Ela:%^WGStem%>s K ;
 +Ela+Use/NG:%^WGStem%>späi K ;
 +Ess:%^WGStem%>nn%{uy%} K ;
 +Ine:%^WGStem%>s K ;
@@ -3587,15 +3587,15 @@ LEXICON OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES
 
 LEXICON OBLIQUE-CASES-TYPICALLY-WITH-WEAK-GRADE
 +Ade:%>l K ;
-+Abl:%>l K ;
-+Abl+Use/NG:%>lpäi K ;
+!+Abl:%>l K ;
++Abl:%>lpäi K ;
 +All:%>le K ;
 +All+PxSg3:%>lleh K ; ! More PX is needed 2015-11
 +Abe:%>tt%{aä%}h K ;
 +Abe:%>t%{aä%} K ;
 +Abe+Err/Orth:%>tt%{aä%} K ;
-+Ela:%>s K ;
-+Ela+Use/NG:%>späi K ;
+!+Ela:%>s K ;
++Ela:%>späi K ;
 +Ess:%>nn%{uy%} K ;
 +Ine:%>s K ;
 !+Ins:%>n K ; 
