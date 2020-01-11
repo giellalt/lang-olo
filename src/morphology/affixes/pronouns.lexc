@@ -53,7 +53,7 @@ LEXICON PERS-SG1
 +Pers+Sg1+All+Use/NG:ulleni K ;
 +Pers+Sg1+Abe:uttah K ;
 +Pers+Sg1+Ade:ul K ;
-+Pers+Sg1+Abl:ul K ;
+!+Pers+Sg1+Abl:ul K ;
 +Pers+Sg1+Abl+Use/NG:ulpäi K ;
 +Pers+Sg1+Ill:uh K ;
 +Pers+Sg1+Ine:us K ;
@@ -70,7 +70,7 @@ LEXICON PERS-SG2
 +Pers+Sg2+All+Use/NG:ulles K ;
 +Pers+Sg2+Ade:ul K ;
 +Pers+Sg2+Abe:uttah K ;
-+Pers+Sg2+Abl:ul K ;
+!+Pers+Sg2+Abl:ul K ;
 +Pers+Sg2+Abl+Use/NG:ulpäi K ;
 +Pers+Sg2+Ill:uh K ;
 +Pers+Sg2+Ine:us K ;
@@ -83,7 +83,7 @@ LEXICON PERS-SG3
 +Pers+Sg3+Com:nenke K ;
 +Pers+Sg3+Par:ndy K ;
 +Pers+Sg3+Abe:nettäh K ;
-+Pers+Sg3+Abl:nel K ;
+!+Pers+Sg3+Abl:nel K ;
 +Pers+Sg3+Abl+Use/NG:nelpäi K ;
 +Pers+Sg3+Ade:nel K ;
 +Pers+Sg3+All:nele K ;
@@ -100,13 +100,13 @@ LEXICON PERS-PL1
 +Pers+Pl1+Com:eijänke K ;
 +Pers+Pl1+Par:eidy K ;
 +Pers+Pl2+Abe:eittäh K ;
-+Pers+Pl1+Abl:eil K ;
+!+Pers+Pl1+Abl:eil K ;
 +Pers+Pl1+Abl+Use/NG:eilpäi K ;
 +Pers+Pl1+Ade:eil K ;
 +Pers+Pl1+All:eile K ;
 +Pers+Pl1+Ill:eih K ;
 +Pers+Pl1+Ine:eis K ;
-+Pers+Pl1+Ela:eis K ;
+!+Pers+Pl1+Ela:eis K ;
 +Pers+Pl1+Ela+Use/NG:eispäi K ;
 
 LEXICON PERS-PL2
@@ -117,13 +117,13 @@ LEXICON PERS-PL2
 +Pers+Pl2+Com:eijänke K ;
 +Pers+Pl2+Par:eidy K ;
 +Pers+Pl2+Abe:eittäh K ;
-+Pers+Pl2+Abl:eil K ;
+!+Pers+Pl2+Abl:eil K ;
 +Pers+Pl2+Abl+Use/NG:eilpäi K ;
 +Pers+Pl2+Ade:eil K ;
 +Pers+Pl2+All:eile K ;
 +Pers+Pl2+Ill:eih K ;
 +Pers+Pl2+Ine:eis K ;
-+Pers+Pl2+Ela:eis K ;
+!+Pers+Pl2+Ela:eis K ;
 +Pers+Pl2+Ela+Use/NG:eispäi K ;
 
 LEXICON PERS-PL3
@@ -134,14 +134,14 @@ LEXICON PERS-PL3
 +Pers+Pl3+Com:eijänke K ;
 +Pers+Pl3+Par:eidy K ;
 +Pers+Pl3+Abe:eittäh K ;
-+Pers+Pl3+Abl:eil K ;
+!+Pers+Pl3+Abl:eil K ;
 +Pers+Pl3+Abl+Use/NG:eilpäi K ;
 +Pers+Pl3+Ade:eil K ;
 +Pers+Pl3+Ade:eiläh K ;
 +Pers+Pl3+All:eile K ;
 +Pers+Pl3+Ill:eih K ;
 +Pers+Pl3+Ine:eis K ;
-+Pers+Pl3+Ela:eis K ;
+!+Pers+Pl3+Ela:eis K ;
 +Pers+Pl3+Ela+Use/NG:eispäi K ;
 +Pers+Pl3+Apr:eillyö K ;
 
@@ -181,7 +181,7 @@ LEXICON PRON_
 LEXICON PRON_SE
 +Dem+Sg+Nom:e K ;
 +Dem+Sg+Gen:en K ;
-+Dem+Sg+Abl:il K ;
+!+Dem+Sg+Abl:il K ;
 +Dem+Sg+Abl+Use/NG:ilpäi K ;
 +Dem+Sg+Ade:il K ;
 +Dem+Sg+All:ille K ;
@@ -189,7 +189,7 @@ LEXICON PRON_SE
 +Dem+Sg+Ill:ih K ;
 
 LEXICON PRON_TÄMÄ !!= @CODE@ tämä:tä
-+Dem+Sg+Abl:l K ;
+!+Dem+Sg+Abl:l K ;
 +Dem+Sg+Abl+Use/NG:lpäi K ;
 +Dem+Sg+Ade:l K ;
 +Dem+Sg+All:lle K ;
@@ -220,11 +220,11 @@ LEXICON PRON-DEM_NET !!= @CODE@ net:n
 +Dem+Pl+Par:iilöi K ;
 +Dem+Pl+Par:iidy K ;
 +Dem+Pl+Abe:iilöittäh K ;
-+Dem+Pl+Abl:iilöil K ;
+!+Dem+Pl+Abl:iilöil K ;
 +Dem+Pl+Abl+Use/NG:iilöilpäi K ;
 +Dem+Pl+Ade:iilöil K ;
 +Dem+Pl+All:iilöile K ;
-+Dem+Pl+Ela:iilöis K ;
+!+Dem+Pl+Ela:iilöis K ;
 +Dem+Pl+Ela+Use/NG:iilöispäi K ;
 +Dem+Pl+Ess:iilöinny K ;
 +Dem+Pl+Ine:iilöis K ;
@@ -461,14 +461,14 @@ LEXICON PRON_KAI_01
 +Pl+Gen:kkien K ;
 +Pl+All:kile K ;
 +Pl+Abl:kilpäi K ;
-+Pl+Abl:kil K ;
+!+Pl+Abl:kil K ;
 +Pl+Ade:kil K ;
 +Sg+Gen:ken K ;
 +Sg+Ine:kes K ;
-+Sg+Ela:kes K ;
+!+Sg+Ela:kes K ;
 +Sg+Ela:kespäi K ;
 +Sg+Ade:kel K ;
-+Sg+Abl:kel K ;
+!+Sg+Abl:kel K ;
 +Sg+Abl:kelpäi K ;
 
 LEXICON PRON_ENÄMBI !!= @CODE@ enämbi:enämb
