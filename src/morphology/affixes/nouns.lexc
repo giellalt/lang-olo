@@ -358,8 +358,8 @@ LEXICON N_MUARJU !!= @CODE@ muarju:muarja
 !!€gt-norm:   Noun 'berry / marja' - full paradigm: Noun - muarju
 !!€  muarju: muarju+N+Sg+Nom
 !!€  muarjan: muarju+N+Sg+Gen
-!!€  muarju: muarju+N+Sg+Acc
-!!€  muarjan: muarju+N+Sg+Acc
+!  muarju: muarju+N+Sg+Acc
+!  muarjan: muarju+N+Sg+Acc
 !!€  muarjua: muarju+N+Sg+Par
 !!€  muarjakse: muarju+N+Sg+Tra
 !!€  muarjata: muarju+N+Sg+Abe
@@ -377,7 +377,7 @@ LEXICON N_MUARJU !!= @CODE@ muarju:muarja
 !!€  muarjalluo: muarju+N+Sg+Apr
 !!€  muarjat: muarju+N+Pl+Nom
 !!€  muarjoin: muarju+N+Pl+Gen
-!!€  muarjat: muarju+N+Pl+Acc
+!  muarjat: muarju+N+Pl+Acc
 !!€  muarjoi: muarju+N+Pl+Par
 !!€  muarjoikse: muarju+N+Pl+Tra
 !!€  muarjoita: muarju+N+Pl+Abe
@@ -3474,22 +3474,22 @@ LEXICON NMN_ABRAMOV-PL
 !! !Singular suffixes
 !! 
 LEXICON SG-ACC/APR/COM/GENSUF-USUALLY-WEAK
- SGACCSUF_n ;
+! SGACCSUF_n ;
  SGAPRSUF_llUO ;
  SGCOMSUF_nke ;
  SGGENSUF_n ;
 +Sg+Ins:%>n K ;
 
 LEXICON SG-ACC/APR/COM/GENSUF
- SGACCSUF_n ;
+! SGACCSUF_n ;
  SGAPRSUF_llUO ;
  SGCOMSUF_nke ;
  SGGENSUF_n ;
 
  SGINSSUF ;
 
-LEXICON SGACCSUF_n
-+Sg+Acc:%>n K ;
+!LEXICON SGACCSUF_n
+!+Sg+Acc:%>n K ;
 
 LEXICON SGAPRSUF_llUO
 +Sg+Apr:%>ll%{uy%}%{oö%} K ;
@@ -3505,7 +3505,7 @@ LEXICON SGINSSUF
 
 LEXICON SGNOMSUF
 +Sg+Nom: K ;
-+Sg+Acc: K ;
+!+Sg+Acc: K ;
 
 LEXICON SGPARSUF_dU
 +Sg+Par:%>d%{uy%} K ;
@@ -3545,11 +3545,11 @@ LEXICON PLINSSUF
 
 LEXICON PLNOMSUF-USUALLY-WEAK
 +Pl+Nom:%>t K ;
-+Pl+Acc:%>t K ;
+!+Pl+Acc:%>t K ;
 
 LEXICON PLNOMSUF
 +Pl+Nom:%^WGStem%>t K ;
-+Pl+Acc:%^WGStem%>t K ;
+!+Pl+Acc:%^WGStem%>t K ;
 
 LEXICON PLPARSUF_Zero
 +Pl+Par: K ;
