@@ -95,23 +95,23 @@ LEXICON V_KANDUA_01 !!= * __@CODE@__ kandua:kanda
 :%^A2O  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;
 INF_A ;
 
-LEXICON V_KANDUA-SG3 !!= * __@CODE@__ kandua:kanda
-:%{back%}%^WGStem  V-VV_01_USUALLY-WEAK ;
-:%{back%}%^WGStem%^A2O V-VV_01_USUALLY-WEAK-VOWEL-LOSS ;
-:%{back%}  V-VV_01_BACK_USUALLY-STRONG ;
-:%{back%}%^A2O  V-VV_01_BACK_USUALLY-STRONG-VOWEL-LOSS ;
-:%{back%}  INDPRSSG3_BACK ;
-:%{back%} INDPRSCONNEG_WEAK ;
-:%{back%} INDPRTSG3 ;
-:%{back%} INDPRTCONNEG_nuh ;
-+Inf:%{back%}%^A2U%>a K ;
+!LEXICON V_KANDUA-SG3 !!= * __@CODE@__ kandua:kanda
+!:%{back%}%^WGStem  V-VV_01_USUALLY-WEAK ;
+!:%{back%}%^WGStem%^A2O V-VV_01_USUALLY-WEAK-VOWEL-LOSS ;
+!:%{back%}  V-VV_01_BACK_USUALLY-STRONG ;
+!:%{back%}%^A2O  V-VV_01_BACK_USUALLY-STRONG-VOWEL-LOSS ;
+!:%{back%}  INDPRSSG3_BACK ;
+!:%{back%} INDPRSCONNEG_WEAK ;
+!:%{back%} INDPRTSG3 ;
+!:%{back%} INDPRTCONNEG_nuh ;
+!+Inf:%{back%}%^A2U%>a K ;
 
-LEXICON V_KANDUA-3 !!= * __@CODE@__ kandua:kanda
-:%{back%}%^WGStem  V-VV_01_USUALLY-WEAK ;
-:%{back%}%^WGStem%^A2O V-VV_01_USUALLY-WEAK-VOWEL-LOSS ;
-:%{back%}  V-VV_01_BACK_USUALLY-STRONG ;
-:%{back%}%^A2O  V-VV_01_BACK_USUALLY-STRONG-VOWEL-LOSS ;
-+Inf:%{back%}%^A2U%>a K ;
+!LEXICON V_KANDUA-3 !!= * __@CODE@__ kandua:kanda
+!:%{back%}%^WGStem  V-VV_01_USUALLY-WEAK ;
+!:%{back%}%^WGStem%^A2O V-VV_01_USUALLY-WEAK-VOWEL-LOSS ;
+!:%{back%}  V-VV_01_BACK_USUALLY-STRONG ;
+!:%{back%}%^A2O  V-VV_01_BACK_USUALLY-STRONG-VOWEL-LOSS ;
+!+Inf:%{back%}%^A2U%>a K ;
 
 LEXICON V_OTTUA !!= * __@CODE@__ ottua:otta
 !! Back Vowel
@@ -211,12 +211,12 @@ LEXICON V_VALUO-SG3 !!= * __@CODE@__ valuo:valu
 :%{back%}%^WGStem  V-VV_01_BACK_USUALLY-STRONG-VOWEL-LOSS ;
 +Inf:%{back%}%>o K ;
 
-LEXICON V_VALUO-3 !!= * __@CODE@__ valuo:valu
-:%{back%}%^WGStem  V-VV_01_USUALLY-WEAK ;
-:%{back%}%^WGStem V-VV_01_USUALLY-WEAK-VOWEL-LOSS ;
-:%{back%}  V-VV_01_BACK_USUALLY-STRONG ;
-:%{back%}%^WGStem  V-VV_01_BACK_USUALLY-STRONG-VOWEL-LOSS ;
-+Inf:%{back%}%>o K ;
+!LEXICON V_VALUO-3 !!= * __@CODE@__ valuo:valu
+!:%{back%}%^WGStem  V-VV_01_USUALLY-WEAK ;
+!:%{back%}%^WGStem V-VV_01_USUALLY-WEAK-VOWEL-LOSS ;
+!:%{back%}  V-VV_01_BACK_USUALLY-STRONG ;
+!:%{back%}%^WGStem  V-VV_01_BACK_USUALLY-STRONG-VOWEL-LOSS ;
+!+Inf:%{back%}%>o K ;
 
 LEXICON V_PYZYÖ !!= * __@CODE@__ pyzyö:pyzy
 !! Front vowel
@@ -308,8 +308,8 @@ LEXICON V_IMIE !!= * __@CODE@__ imie:ime
 :%{front%} V_LUGIE/IMIE_01 ;
 
 
-LEXICON V_IMIE-SG3 !!= * __@CODE@__ imie:ime
-:%{front%} V_IMIE-SG3_01 ;
+!LEXICON V_IMIE-SG3 !!= * __@CODE@__ imie:ime
+!:%{front%} V_IMIE-SG3_01 ;
 LEXICON V_IMIE-SG3_01 !!= * __@CODE@__ imie:ime
 :%^WGStem V-VV_01_USUALLY-WEAK ;
 :%^WGStem%^RmVow V-VV_01_USUALLY-WEAK-VOWEL-LOSS ;
@@ -337,12 +337,12 @@ LEXICON  V_PIDIÄ-SG3_01 !!= * __@CODE@__ pidiä:pidä
 :%^RmVow  V-VV_01_FRONT_USUALLY-STRONG-VOWEL-LOSS ;
 +Inf:%^Ä2I%>ä K ;
 
-LEXICON V_KIRJUTTUA !!= * __@CODE@__ kirjuttua:kirjutta
-!! 3-syllable stem
-!! Gradation Yes
-!! Back vowel
+!LEXICON V_KIRJUTTUA !!= * __@CODE@__ kirjuttua:kirjutta
+!!! 3-syllable stem
+!!! Gradation Yes
+!!! Back vowel
 
-:%{back%} V-3SYLL_KIRJUTTUA ;
+!:%{back%} V-3SYLL_KIRJUTTUA ;
 
 !! !VERBS OF FINNISH TYPE 2 in dA
 
@@ -641,8 +641,8 @@ LEXICON V_KUULTA-SG3 !!= * __@CODE@__ kuulta:kuul
 LEXICON V_VIERTÄ !!= * __@CODE@__ viertä:vier
 : V-VV_VIERRÄ ;
 
-LEXICON V_VIERTÄ-SG3 !!= * __@CODE@__ viertä:vier
-: V-VV_VIERRÄ ;
+!LEXICON V_VIERTÄ-SG3 !!= * __@CODE@__ viertä:vier
+!: V-VV_VIERRÄ ;
 
 !! Verbs of the Finnish type 3 but not identical
 !! gradation: yes
@@ -669,11 +669,11 @@ LEXICON V_AVATA !!= * __@CODE@__ avata:ava
 : V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 : V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_AVATA-SG3 !!= * __@CODE@__ avata:ava
-! gradation: no
-:%^A2U%>a V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_AVATA-SG3 !!= * __@CODE@__ avata:ava
+!! gradation: no
+!:%^A2U%>a V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 LEXICON V_ARVOTA !!= * __@CODE@__ arvota:arvo
 ! gradation: no
@@ -681,11 +681,11 @@ LEXICON V_ARVOTA !!= * __@CODE@__ arvota:arvo
 : V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 : V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_ARVOTA-SG3 !!= * __@CODE@__ arvota:arvo
-! gradation: no
-:o V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_ARVOTA-SG3 !!= * __@CODE@__ arvota:arvo
+!! gradation: no
+!:o V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 LEXICON V_KABLITA !!= * __@CODE@__ kablita:kabli
 ! gradation: no
@@ -693,11 +693,11 @@ LEXICON V_KABLITA !!= * __@CODE@__ kablita:kabli
 : V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 : V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_KABLITA-SG3 !!= * __@CODE@__ kablita:kabli
-! gradation: no
-:e V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_KABLITA-SG3 !!= * __@CODE@__ kablita:kabli
+!! gradation: no
+!:e V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 LEXICON V_BAUHUTA !!= * __@CODE@__ bauhuta:bauhu
 ! gradation: no
@@ -717,11 +717,11 @@ LEXICON V_LANGETA !!= * __@CODE@__ langeta:lange
 : V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 : V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_LANGETA-SG3 !!= * __@CODE@__ langeta:lange
-! gradation: no
-:e V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_LANGETA-SG3 !!= * __@CODE@__ langeta:lange
+!! gradation: no
+!:e V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 LEXICON V_ALLATA !!= * __@CODE@__ allata:alga
 ! gradation: yes
@@ -729,11 +729,11 @@ LEXICON V_ALLATA !!= * __@CODE@__ allata:alga
 : V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 :%^WGStem V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_ALLATA-SG3 !!= * __@CODE@__ allata:alga
-! gradation: yes
-:%^A2U%>a V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-:%^WGStem V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_ALLATA-SG3 !!= * __@CODE@__ allata:alga
+!! gradation: yes
+!:%^A2U%>a V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!:%^WGStem V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 LEXICON V_KIKOTA !!= * __@CODE@__ kikota:kikko
 ! gradation: yes
@@ -741,11 +741,11 @@ LEXICON V_KIKOTA !!= * __@CODE@__ kikota:kikko
 : V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 :%^WGStem V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_KIKOTA-SG3 !!= * __@CODE@__ kikota:kikko
-! gradation: yes
-:%>o V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-:%^WGStem V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_KIKOTA-SG3 !!= * __@CODE@__ kikota:kikko
+!! gradation: yes
+!:%>o V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!:%^WGStem V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 LEXICON V_RUVETA !!= * __@CODE@__ ruveta:rube
 ! gradation: yes
@@ -767,11 +767,11 @@ LEXICON V_HYRRÄTÄ !!= * __@CODE@__ hyrrätä:hyrrä
 : V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 
-LEXICON V_HYRRÄTÄ-SG3 !!= * __@CODE@__ hyrrätä:hyrrä
-! gradation: no
-:%^Ä2I%>ä V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_HYRRÄTÄ-SG3 !!= * __@CODE@__ hyrrätä:hyrrä
+!! gradation: no
+!:%^Ä2I%>ä V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 LEXICON V_HÄVITÄ !!= * __@CODE@__ hävitä:hävi
 ! gradation: no
@@ -779,11 +779,11 @@ LEXICON V_HÄVITÄ !!= * __@CODE@__ hävitä:hävi
 : V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 : V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_HÄVITÄ-SG3 !!= * __@CODE@__ hävitä:hävi
-! gradation: no
-:e V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_HÄVITÄ-SG3 !!= * __@CODE@__ hävitä:hävi
+!! gradation: no
+!:e V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 LEXICON V_HÖYRYTÄ !!= * __@CODE@__ höyrytä:höyry
 ! gradation: no
@@ -791,11 +791,11 @@ LEXICON V_HÖYRYTÄ !!= * __@CODE@__ höyrytä:höyry
 : V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 : V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_HÖYRYTÄ-SG3 !!= * __@CODE@__ höyrytä:höyry
-! gradation: no
-:ö V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_HÖYRYTÄ-SG3 !!= * __@CODE@__ höyrytä:höyry
+!! gradation: no
+!:ö V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 LEXICON V_HÖPSÖTÄ !!= * __@CODE@__ höpsötä:höpsö
 ! gradation: no
@@ -803,11 +803,11 @@ LEXICON V_HÖPSÖTÄ !!= * __@CODE@__ höpsötä:höpsö
 : V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 : V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_HÖPSÖTÄ-SG3 !!= * __@CODE@__ höpsötä:höpsö
-! gradation: no
-:ö V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_HÖPSÖTÄ-SG3 !!= * __@CODE@__ höpsötä:höpsö
+!! gradation: no
+!:ö V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 
 LEXICON V_BÖVVÄTÄ !!= * __@CODE@__ bövvätä:böygä
@@ -816,11 +816,11 @@ LEXICON V_BÖVVÄTÄ !!= * __@CODE@__ bövvätä:böygä
 : V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 :%^WGStem V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_BÖVVÄTÄ-SG3 !!= * __@CODE@__ bövvätä:böygä
-! gradation: yes
-:%^Ä2I%>ä V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-:%^WGStem V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_BÖVVÄTÄ-SG3 !!= * __@CODE@__ bövvätä:böygä
+!! gradation: yes
+!:%^Ä2I%>ä V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!:%^WGStem V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 LEXICON V_REVITÄ !!= * __@CODE@__ revitä:rebi
 ! gradation: yes
@@ -828,11 +828,11 @@ LEXICON V_REVITÄ !!= * __@CODE@__ revitä:rebi
 : V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 :%^WGStem V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_REVITÄ-SG3 !!= * __@CODE@__ revitä:rebi
-! gradation: yes
-:e V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-:%^WGStem V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_REVITÄ-SG3 !!= * __@CODE@__ revitä:rebi
+!! gradation: yes
+!:e V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!:%^WGStem V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 LEXICON V_PÄITÄ !!= * __@CODE@__ päitä:päde
 ! gradation: yes
@@ -840,11 +840,11 @@ LEXICON V_PÄITÄ !!= * __@CODE@__ päitä:päde
 : V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 :%^WGStem V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
-LEXICON V_PÄITÄ-SG3 !!= * __@CODE@__ päitä:päde
-! gradation: yes
-:e V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
-: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
-:%^WGStem V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
+!LEXICON V_PÄITÄ-SG3 !!= * __@CODE@__ päitä:päde
+!! gradation: yes
+!:e V-VV_04_FRONT-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!: V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
+!:%^WGStem V-VV_04_FRONT-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
 
 
@@ -862,11 +862,11 @@ LEXICON V_SUVAIJA-3 !!= * __@CODE@__ suvaija:suvai
 LEXICON V_EMÄNDÖIJÄ !!= * __@CODE@__ emändöijä:emändöi
 : V-VV_05_EMÄNDÖIJÄ ;
 
-LEXICON V_EMÄNDÖIJÄ-SG3 !!= * __@CODE@__ emändöijä:emändöi
-: V-VV_05_EMÄNDÖIJÄ ;
+!LEXICON V_EMÄNDÖIJÄ-SG3 !!= * __@CODE@__ emändöijä:emändöi
+!: V-VV_05_EMÄNDÖIJÄ ;
 
-LEXICON V_EMÄNDÖIJÄ-3 !!= * __@CODE@__ emändöijä:emändöi
-: V-VV_05_EMÄNDÖIJÄ ;
+!LEXICON V_EMÄNDÖIJÄ-3 !!= * __@CODE@__ emändöijä:emändöi
+!: V-VV_05_EMÄNDÖIJÄ ;
 
 LEXICON V_MERKITÄ !!= * __@CODE@__ merkitä:merki
 : V-VV_05_MERKITÄ ;
@@ -899,8 +899,8 @@ LEXICON V_ALETA !!= * __@CODE@__ aleta:ale (alenov)
 !+Act:%>du%^WGStem CONDPRT ;
 !+Act:%>da CONDPRTPL3_DAnUs ;
 
-LEXICON V_ALETA-SG3 !!= * __@CODE@__ aleta:ale (alenou)
-: V-VV_06_BACK ;
+!LEXICON V_ALETA-SG3 !!= * __@CODE@__ aleta:ale (alenou)
+!: V-VV_06_BACK ;
 
 LEXICON V_VÄHETÄ !!= * __@CODE@__ vähetä:vähe (vähenöy)
 : V-VV_06_FRONT ;
@@ -977,8 +977,8 @@ INF-RC_Akseh ;
 LEXICON VR_IMIE !!= * __@CODE@__ imiekseh:ime
 :%{front%} VR_POTKIE/EČČIE_01 ; ! FIXME  
 
-LEXICON VR_EČČIE !!= * __@CODE@__ eččiekseh:ečči
-:%{front%} VR_POTKIE/EČČIE_01 ; 
+!LEXICON VR_EČČIE !!= * __@CODE@__ eččiekseh:ečči
+!:%{front%} VR_POTKIE/EČČIE_01 ; 
 LEXICON VR_POTKIE/EČČIE_01 !!= * __@CODE@__ imiekseh:ime
 :     VR_01-FRONT-LONGSTEM-USUALLY-STRONG_ ;
 :     VR_01-FRONT-LONGSTEM-USUALLY-WEAK_ ;  
@@ -1035,8 +1035,8 @@ LEXICON VR_OTTUA/HEITTIÄ_01 !!= * __@CODE@__ ottuakseh:otta
 :%^WGStem     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-WEAK_ ;
 INF-RC_Akseh ;
 
-LEXICON VR_EISTIÄ-SG3 ! needs fixing 2016-08-17
-VR_EISTIÄ ;
+!LEXICON VR_EISTIÄ-SG3 ! needs fixing 2016-08-17
+!VR_EISTIÄ ;
 LEXICON VR_EISTIÄ !!= * __@CODE@__ eistiäkseh:eistä
 :%{front%} VR_OTTUA/HEITTIÄ_01 ;
 
@@ -1051,8 +1051,8 @@ LEXICON VR_RODIEKSEH !!= * __@CODE@__ rodiekseh:rodi
 LEXICON VR_ROIJA !!= * __@CODE@__ roijakseh:roi
         VR_ ;
 
-LEXICON VR_VOIJA !!= * __@CODE@__ voijakseh:voi
-        VR_ ;
+!LEXICON VR_VOIJA !!= * __@CODE@__ voijakseh:voi
+!        VR_ ;
 
 LEXICON VR_ROITA !!= * __@CODE@__ roita:roi 
         VR_ ;
@@ -1089,10 +1089,10 @@ LEXICON VR_EMÄNDÖIJÄ !!= * __@CODE@__ emändöijäkseh:emändöi
 :čče VR-LONGSTEM_ ;
  VR-SHORTSTEM_ ;
 
-LEXICON VR_MERKITÄ !!= * __@CODE@__ merkitäkseh:merki
-!Verbs of the Finnish type 5
-:čče VR-LONGSTEM_ ;
- VR-SHORTSTEM_ ;
+!LEXICON VR_MERKITÄ !!= * __@CODE@__ merkitäkseh:merki
+!!Verbs of the Finnish type 5
+!:čče VR-LONGSTEM_ ;
+! VR-SHORTSTEM_ ;
 
 LEXICON VR_MAINITA !!= * __@CODE@__ mainitakseh:maini
 !Verbs of the Finnish type 5
@@ -1128,28 +1128,28 @@ LEXICON VR-SHORTSTEM_
 +Act+Ind+Prt+ConNeg+Pl1+Rc:%>%{lnrs%}%{uy%}h	K	;
 +Act+Ind+Prt+ConNeg+Pl2+Rc:%>%{lnrs%}%{uy%}h	K	;
 +Act+Ind+Prt+ConNeg+Pl3+Rc:%>tt%{uy%}	K	;
-LEXICON VR-SHORTSTEM_BACK
-+Act+Ind+Prs+Pl3+Rc:%^WGStem%>jah	K	;
-+Act+Ind+Prs+ConNeg+RcSg:%^WGStem%>	K	;
-+Act+Ind+Prs+ConNeg+Pl1+Rc:%^WGStem%>	K	;
-+Act+Ind+Prs+ConNeg+Pl2+Rc:%^WGStem%>	K	;
-+Act+Ind+Prs+ConNeg+Pl3+Rc:%^WGStem%>ja	K	;
-+Act+Ind+Prt+Pl3+Rc:%>ttih	K	;
-+Act+Ind+Prt+ConNeg+RcSg:%>%{lnrs%}uh	K	;
-+Act+Ind+Prt+ConNeg+Pl1+Rc:%>%{lnrs%}uh	K	;
-+Act+Ind+Prt+ConNeg+Pl2+Rc:%>%{lnrs%}uh	K	;
-+Act+Ind+Prt+ConNeg+Pl3+Rc:%>ttu	K	;
-LEXICON VR-SHORTSTEM_FRONT
-+Act+Ind+Prs+Pl3+Rc:%^WGStem%>jäh	K	;
-+Act+Ind+Prs+ConNeg+RcSg:%^WGStem%>	K	;
-+Act+Ind+Prs+ConNeg+Pl1+Rc:%^WGStem%>	K	;
-+Act+Ind+Prs+ConNeg+Pl2+Rc:%^WGStem%>	K	;
-+Act+Ind+Prs+ConNeg+Pl3+Rc:%^WGStem%>jä	K	;
-+Act+Ind+Prt+Pl3+Rc:%>ttih	K	;
-+Act+Ind+Prt+ConNeg+RcSg:%>%{lnrs%}yh	K	;
-+Act+Ind+Prt+ConNeg+Pl1+Rc:%>%{lnrs%}yh	K	;
-+Act+Ind+Prt+ConNeg+Pl2+Rc:%>%{lnrs%}yh	K	;
-+Act+Ind+Prt+ConNeg+Pl3+Rc:%>tty	K	;
+!LEXICON VR-SHORTSTEM_BACK
+!+Act+Ind+Prs+Pl3+Rc:%^WGStem%>jah	K	;
+!+Act+Ind+Prs+ConNeg+RcSg:%^WGStem%>	K	;
+!+Act+Ind+Prs+ConNeg+Pl1+Rc:%^WGStem%>	K	;
+!+Act+Ind+Prs+ConNeg+Pl2+Rc:%^WGStem%>	K	;
+!+Act+Ind+Prs+ConNeg+Pl3+Rc:%^WGStem%>ja	K	;
+!+Act+Ind+Prt+Pl3+Rc:%>ttih	K	;
+!+Act+Ind+Prt+ConNeg+RcSg:%>%{lnrs%}uh	K	;
+!+Act+Ind+Prt+ConNeg+Pl1+Rc:%>%{lnrs%}uh	K	;
+!+Act+Ind+Prt+ConNeg+Pl2+Rc:%>%{lnrs%}uh	K	;
+!+Act+Ind+Prt+ConNeg+Pl3+Rc:%>ttu	K	;
+!LEXICON VR-SHORTSTEM_FRONT
+!+Act+Ind+Prs+Pl3+Rc:%^WGStem%>jäh	K	;
+!+Act+Ind+Prs+ConNeg+RcSg:%^WGStem%>	K	;
+!+Act+Ind+Prs+ConNeg+Pl1+Rc:%^WGStem%>	K	;
+!+Act+Ind+Prs+ConNeg+Pl2+Rc:%^WGStem%>	K	;
+!+Act+Ind+Prs+ConNeg+Pl3+Rc:%^WGStem%>jä	K	;
+!+Act+Ind+Prt+Pl3+Rc:%>ttih	K	;
+!+Act+Ind+Prt+ConNeg+RcSg:%>%{lnrs%}yh	K	;
+!+Act+Ind+Prt+ConNeg+Pl1+Rc:%>%{lnrs%}yh	K	;
+!+Act+Ind+Prt+ConNeg+Pl2+Rc:%>%{lnrs%}yh	K	;
+!+Act+Ind+Prt+ConNeg+Pl3+Rc:%>tty	K	;
 
 
 LEXICON V-VV_01_USUALLY-WEAK-VOWEL-LOSS
@@ -1195,16 +1195,16 @@ LEXICON V-VV_01_USUALLY-WEAK
 +Act: INDPRTCONNEGPL3_EttU ;
 +Act: CONDPRSPL3_EttAs ;
 
-LEXICON V-VV_01_FRONT_USUALLY-WEAK
-+Act: INDPRSSG1 ;
-+Act: INDPRSSG2 ;
-+Act: INDPRSPL1_FRONT ;
-+Act: INDPRSPL2_FRONT ;
-+Act: INDPRSPL3_Etäh ;
-+Act: INDPRSCONNEG_WEAK ;
-+Act: INDPRTPL3_Ettih ;
-+Act: INDPRTCONNEGPL3_Etty ;
-+Act: CONDPRSPL3_Ettäs ;
+!LEXICON V-VV_01_FRONT_USUALLY-WEAK
+!+Act: INDPRSSG1 ;
+!+Act: INDPRSSG2 ;
+!+Act: INDPRSPL1_FRONT ;
+!+Act: INDPRSPL2_FRONT ;
+!+Act: INDPRSPL3_Etäh ;
+!+Act: INDPRSCONNEG_WEAK ;
+!+Act: INDPRTPL3_Ettih ;
+!+Act: INDPRTCONNEGPL3_Etty ;
+!+Act: CONDPRSPL3_Ettäs ;
 
 !LEXICON V-VV_01_FRONT_USUALLY-WEAK-VOWEL-LOSS
 !+Act: INDPRTSG1 ;
@@ -1233,11 +1233,11 @@ LEXICON V-VV_01_FRONT_USUALLY-STRONG
 LEXICON V-VV_01_FRONT_USUALLY-STRONG-VOWEL-LOSS
 +Act: INDPRTSG3 ;
 
-LEXICON V-VV_01_Harm-Neutr
-! V1
-! This verb type has two final vowels in the first infinitive
-+Act:%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK ;
-+Act: V-VV_01_Harm-Neutr_USUALLY-STRONG ;
+!LEXICON V-VV_01_Harm-Neutr
+!! V1
+!! This verb type has two final vowels in the first infinitive
+!+Act:%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK ;
+!+Act: V-VV_01_Harm-Neutr_USUALLY-STRONG ;
 
 LEXICON V-VV_01_Harm-Neutr_USUALLY-WEAK
 +Act: INDPRSSG1 ;
@@ -2197,15 +2197,15 @@ LEXICON VR_INDPRSPL2_BACK
 LEXICON VR_INDPRSPL2_FRONT
 +Ind+Prs+Pl2+Rc:%^WGStem%>ttökseh K ;
 
-LEXICON VR_INDPRSPL3_jAhes
-+Ind+Prs+Pl3+Rc:%>j%{aä%}hes K ;
-+Ind+Prs+ConNeg+Pl3+Rc:%>j%{aä%}hes K ;
-LEXICON VR_INDPRSPL3_jahes
-+Ind+Prs+Pl3+Rc:%>jahes K ;
-+Ind+Prs+ConNeg+Pl3+Rc:%>jahes K ;
-LEXICON VR_INDPRSPL3_jähes
-+Ind+Prs+Pl3+Rc:%>jähes K ;
-+Ind+Prs+ConNeg+Pl3+Rc:%>jähes K ;
+!LEXICON VR_INDPRSPL3_jAhes
+!+Ind+Prs+Pl3+Rc:%>j%{aä%}hes K ;
+!+Ind+Prs+ConNeg+Pl3+Rc:%>j%{aä%}hes K ;
+!LEXICON VR_INDPRSPL3_jahes
+!+Ind+Prs+Pl3+Rc:%>jahes K ;
+!+Ind+Prs+ConNeg+Pl3+Rc:%>jahes K ;
+!LEXICON VR_INDPRSPL3_jähes
+!+Ind+Prs+Pl3+Rc:%>jähes K ;
+!+Ind+Prs+ConNeg+Pl3+Rc:%>jähes K ;
 
 LEXICON VR_INDPRSPL3_dAhes
 +Ind+Prs+Pl3+Rc:%>d%{aä%}%^WGStemhes K ;
@@ -2347,8 +2347,8 @@ LEXICON VR_INDPRTPL2_BACK
 +Ind+Prt+Pl2+Rc:%>i%^WGStem%>ttokseh K ;
 LEXICON VR_INDPRTPL2_FRONT
 +Ind+Prt+Pl2+Rc:%>i%^WGStem%>ttökseh K ;
-LEXICON VR_INDPRTPL3_dihes
-+Ind+Prt+Pl3+Rc:%>dihes K ;
+!LEXICON VR_INDPRTPL3_dihes
+!+Ind+Prt+Pl3+Rc:%>dihes K ;
 LEXICON VR_INDPRTPL3_tihes
 +Ind+Prt+Pl3+Rc:%^WGStem%>tihes K ;
 !LEXICON VR_INDPRTPL3_Etihes
@@ -2375,8 +2375,8 @@ LEXICON VR_INDPRTCONNEG_nUhes
 !+Ind+Prt+ConNeg+Pl1+Rc:%>%{lnrs%}y%^WGStemhes K ;
 !+Ind+Prt+ConNeg+Pl2+Rc:%>%{lnrs%}y%^WGStemhes K ;
 
-LEXICON VR_INDPRTCONNEG_nnUhes
-+Ind+Prt+ConNeg:%>n%{lnrs%}%{uy%}hes K ;
+!LEXICON VR_INDPRTCONNEG_nnUhes
+!+Ind+Prt+ConNeg:%>n%{lnrs%}%{uy%}hes K ;
 !LEXICON VR_INDPRTCONNEG_nnuhes
 !+Ind+Prt+ConNeg:%>n%{lnrs%}uhes K ;
 !LEXICON VR_INDPRTCONNEG_nnyhes
@@ -2524,12 +2524,12 @@ LEXICON VR_CONDPRS_IZ_FRONT
 LEXICON VR_CONDPRSPL3_DAzihes
 +Cond+Prs+Pl3+Rc:%>d%{aä%}zihes K ;
 +Cond+Prs+ConNeg+Pl3+Rc:%>d%{aä%}zihes K ;
-LEXICON VR_CONDPRSPL3_Dazihes
-+Cond+Prs+Pl3+Rc:%>dazihes K ;
-+Cond+Prs+ConNeg+Pl3+Rc:%>dazihes K ;
-LEXICON VR_CONDPRSPL3_Däzihes
-+Cond+Prs+Pl3+Rc:%>däzihes K ;
-+Cond+Prs+ConNeg+Pl3+Rc:%>däzihes K ;
+!LEXICON VR_CONDPRSPL3_Dazihes
+!+Cond+Prs+Pl3+Rc:%>dazihes K ;
+!+Cond+Prs+ConNeg+Pl3+Rc:%>dazihes K ;
+!LEXICON VR_CONDPRSPL3_Däzihes
+!+Cond+Prs+Pl3+Rc:%>däzihes K ;
+!+Cond+Prs+ConNeg+Pl3+Rc:%>däzihes K ;
 
 LEXICON VR_CONDPRSPL3_EttAzihes
 +Cond+Prs+Pl3+Rc:%^WGStem%^E1%>tt%{aä%}zihes K ;
@@ -2792,14 +2792,14 @@ LEXICON VR_POTPL3_DAnehes
 +Pot+Pl3+Rc:%>d%{aä%}%>hes K ;
 +Pot+Pl3+Rc:%>d%{aä%}%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
 +Pot+ConNeg+Pl3+Rc:%>d%{aä%}%>nehes K ;
-LEXICON VR_POTPL3_Danehes
-+Pot+Pl3+Rc:%>da%>hes K ;
-+Pot+Pl3+Rc:%>da%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
-+Pot+ConNeg+Pl3+Rc:%>da%>nehes K ;
-LEXICON VR_POTPL3_Dänehes
-+Pot+Pl3+Rc:%>dä%>hes K ;
-+Pot+Pl3+Rc:%>dä%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
-+Pot+ConNeg+Pl3+Rc:%>dä%>nehes K ;
+!LEXICON VR_POTPL3_Danehes
+!+Pot+Pl3+Rc:%>da%>hes K ;
+!+Pot+Pl3+Rc:%>da%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
+!+Pot+ConNeg+Pl3+Rc:%>da%>nehes K ;
+!LEXICON VR_POTPL3_Dänehes
+!+Pot+Pl3+Rc:%>dä%>hes K ;
+!+Pot+Pl3+Rc:%>dä%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
+!+Pot+ConNeg+Pl3+Rc:%>dä%>nehes K ;
 
 LEXICON VR_POTPL3_EtAnehes
 +Pot+Pl3+Rc:%^WGStem%^E1%>t%{aä%}nehes K ;
@@ -2953,10 +2953,10 @@ LEXICON IMPRTPL3_Ettähes
 +Imprt+ConNeg+Pl3:%^WGStem%^E1%>ttähes K ;
 
 !! !IMPERATIVE REFLEXIVE
-LEXICON VR_IMPRT_GA
-+Imprt+Sg3+Rc:%>g%{aä%}hes K ;
-+Imprt+Pl1+Rc:%>g%{ui%}%{aä%}mm%{oö%}kseh K ;
-+Imprt+Pl2+Rc:%>g%{ui%}%{aä%}tt%{oö%}kseh K ;
+!LEXICON VR_IMPRT_GA
+!+Imprt+Sg3+Rc:%>g%{aä%}hes K ;
+!+Imprt+Pl1+Rc:%>g%{ui%}%{aä%}mm%{oö%}kseh K ;
+!+Imprt+Pl2+Rc:%>g%{ui%}%{aä%}tt%{oö%}kseh K ;
 
 +Imprt+ConNeg+Sg3+Rc:%>g%{aä%}hes K ;
 +Imprt+ConNeg+Pl1+Rc:%>g%{ui%}%{aä%}mm%{oö%}kseh K ;

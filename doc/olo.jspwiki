@@ -349,6 +349,13 @@ These are for developing underlying morphology rules
  * E1   
  * N1   
 
+!Symbols that need to be escaped on the lower side (towards twolc):
+
+* »
+* «
+* > (escaped with square brackets, to avoid collision with > as morpheme boundary)
+* < (escaped with square brackets, to avoid collision with < as morpheme boundary)
+
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -1390,9 +1397,6 @@ Harmony: Front
 
 !NOMINAL DECLENSION BEGINS
 
- LEXICON NMN_MUAMO  muamo:muama
-Back vowel
-gradation NA
 
 
 Back vowel
@@ -1400,15 +1404,12 @@ gradation Yes
 
 
 
- LEXICON NMN_DIÄDÖ  diädö:diädä
 
 
  LEXICON NMN_MUARJU/PIÄSTÄNDY  muarju:muarja
 gradation NA
 
 
- LEXICON NMN_SUAJU/XX  muarju:muarja
-gradation NA
 
 
  LEXICON NMN_AKKU  akku:akka
@@ -1419,7 +1420,6 @@ gradation Yes
 gradation No
 
 
- LEXICON NMN_LAPSI  lapsi:laps lapsi:laps
 
 
 
@@ -1438,9 +1438,6 @@ Gradation Yes
 
 
 
- LEXICON NMN_JOGI  jogi:jog
-Back Vowel
-Gradation Yes
 
 
 
@@ -1456,7 +1453,6 @@ Gradation Yes
 
 
 
- LEXICON NMN_NELLI   nelli:nell
 
 
 
@@ -1514,9 +1510,6 @@ gradation Yes
 
 
 
- LEXICON NMN_IŽÄNDY  ižändy:ižändä
-Gradation No
-VowelHarmony Front
 
 
 
@@ -1553,7 +1546,6 @@ Vowel Harmony Back
 
 
 
- LEXICON NMN_SEIČČIE  seiččie:seičče
 
 
  LEXICON NMN_OSTAI  ostua:osta%>j
@@ -1583,7 +1575,6 @@ Gradation No
 Gradation Yes
 
 
- LEXICON NMN_KYNDÖ  kyndö:kyndö
 
 
 
@@ -1709,7 +1700,6 @@ Gradation No
 
 
 
- * LEXICON NMN_KEVÄT  kevät:kevä
 
 
 
@@ -1724,11 +1714,8 @@ Gradation None
 
  LEXICON NMN_TOVESTEH/PEREH  pereh:pereh
 
- LEXICON NMN_HUIKEH/LIIKEH  liikeh:liikkeh
 
- LEXICON NMN_LATE/SIVE  sive:side
 
- LEXICON NMN_PENGER  penger:penger
 
  LEXICON NMN_ARTELI/LEIRI  arteli:arteli
 
@@ -1742,13 +1729,11 @@ Gradation None
 
  LEXICON NMN_REBOI/JÄNÖI  reboi:reboi
 
- LEXICON NMN_PÖČÖI  pöčöi:pöččö
 
  LEXICON NMN_OZA/SÄYNÄ  oza:oza
 
 
 
- LEXICON NMN_BOBA/XX  boba:boba
 
 
 
@@ -1778,13 +1763,6 @@ Singular stem vowel 0/0/e
 Plural stem vowel i
 
 
- LEXICON NMN_SAMMUTIN/KEITIN  sammutin:sammutti
-Gradation Yes
-(Nominative and partitive singular forms are weak grade)
-Back	     Vowel
-Stem	     consonant n/m
-Singular stem vowel 0/0/e
-Plural stem vowel i
 
 
 
@@ -1900,9 +1878,7 @@ Back Vowel
  * __LEXICON V_KANDUA_01 __ kandua:kanda
 Gradation Yes
 
- * __LEXICON V_KANDUA-SG3 __ kandua:kanda
 
- * __LEXICON V_KANDUA-3 __ kandua:kanda
 
  * __LEXICON V_OTTUA __ ottua:otta
 Back Vowel
@@ -1942,7 +1918,6 @@ similar_to: V_PYZYÖ
 
  * __LEXICON V_VALUO-SG3 __ valuo:valu
 
- * __LEXICON V_VALUO-3 __ valuo:valu
 
  * __LEXICON V_PYZYÖ __ pyzyö:pyzy
 Front vowel
@@ -1987,7 +1962,6 @@ Gradation No
 Front vowel
 
 
- * __LEXICON V_IMIE-SG3 __ imie:ime
  * __LEXICON V_IMIE-SG3_01 __ imie:ime
 
  * __LEXICON  V_PIDIÄ __ pidiä:pidä
@@ -1998,10 +1972,6 @@ Front vowel
  * __LEXICON  V_PIDIÄ-SG3 __ pidiä:pidä
  * __LEXICON  V_PIDIÄ-SG3_01 __ pidiä:pidä
 
- * __LEXICON V_KIRJUTTUA __ kirjuttua:kirjutta
-3-syllable stem
-Gradation Yes
-Back vowel
 
 
 !VERBS OF FINNISH TYPE 2 in dA
@@ -2090,7 +2060,6 @@ Verbs of the Finnish type 3 but not identical
 
  * __LEXICON V_VIERTÄ __ viertä:vier
 
- * __LEXICON V_VIERTÄ-SG3 __ viertä:vier
 
 Verbs of the Finnish type 3 but not identical
 gradation: yes
@@ -2109,15 +2078,15 @@ gradation: yes
 
  * __LEXICON V_AVATA __ avata:ava
 
- * __LEXICON V_AVATA-SG3 __ avata:ava
+gradation: no
 
  * __LEXICON V_ARVOTA __ arvota:arvo
 
- * __LEXICON V_ARVOTA-SG3 __ arvota:arvo
+gradation: no
 
  * __LEXICON V_KABLITA __ kablita:kabli
 
- * __LEXICON V_KABLITA-SG3 __ kablita:kabli
+gradation: no
 
  * __LEXICON V_BAUHUTA __ bauhuta:bauhu
 
@@ -2125,15 +2094,15 @@ gradation: yes
 
  * __LEXICON V_LANGETA __ langeta:lange
 
- * __LEXICON V_LANGETA-SG3 __ langeta:lange
+gradation: no
 
  * __LEXICON V_ALLATA __ allata:alga
 
- * __LEXICON V_ALLATA-SG3 __ allata:alga
+gradation: yes
 
  * __LEXICON V_KIKOTA __ kikota:kikko
 
- * __LEXICON V_KIKOTA-SG3 __ kikota:kikko
+gradation: yes
 
  * __LEXICON V_RUVETA __ ruveta:rube
 
@@ -2143,32 +2112,32 @@ gradation: yes
  * __LEXICON V_HYRRÄTÄ __ hyrrätä:hyrrä
 
 
- * __LEXICON V_HYRRÄTÄ-SG3 __ hyrrätä:hyrrä
+gradation: no
 
  * __LEXICON V_HÄVITÄ __ hävitä:hävi
 
- * __LEXICON V_HÄVITÄ-SG3 __ hävitä:hävi
+gradation: no
 
  * __LEXICON V_HÖYRYTÄ __ höyrytä:höyry
 
- * __LEXICON V_HÖYRYTÄ-SG3 __ höyrytä:höyry
+gradation: no
 
  * __LEXICON V_HÖPSÖTÄ __ höpsötä:höpsö
 
- * __LEXICON V_HÖPSÖTÄ-SG3 __ höpsötä:höpsö
+gradation: no
 
 
  * __LEXICON V_BÖVVÄTÄ __ bövvätä:böygä
 
- * __LEXICON V_BÖVVÄTÄ-SG3 __ bövvätä:böygä
+gradation: yes
 
  * __LEXICON V_REVITÄ __ revitä:rebi
 
- * __LEXICON V_REVITÄ-SG3 __ revitä:rebi
+gradation: yes
 
  * __LEXICON V_PÄITÄ __ päitä:päde
 
- * __LEXICON V_PÄITÄ-SG3 __ päitä:päde
+gradation: yes
 
 
 
@@ -2182,16 +2151,13 @@ gradation: yes
 
  * __LEXICON V_EMÄNDÖIJÄ __ emändöijä:emändöi
 
- * __LEXICON V_EMÄNDÖIJÄ-SG3 __ emändöijä:emändöi
 
- * __LEXICON V_EMÄNDÖIJÄ-3 __ emändöijä:emändöi
 
  * __LEXICON V_MERKITÄ __ merkitä:merki
  * __LEXICON V_MAINITA __ mainita:maini
 
  * __LEXICON V_ALETA __ aleta:ale (alenov)
 
- * __LEXICON V_ALETA-SG3 __ aleta:ale (alenou)
 
  * __LEXICON V_VÄHETÄ __ vähetä:vähe (vähenöy)
 
@@ -2215,7 +2181,6 @@ gradation: yes
 
  * __LEXICON VR_IMIE __ imiekseh:ime
 
- * __LEXICON VR_EČČIE __ eččiekseh:ečči
  * __LEXICON VR_POTKIE/EČČIE_01 __ imiekseh:ime
 
  * __LEXICON VR_POTKIE __ potkiekseh:potki
@@ -2243,7 +2208,6 @@ Reflexive verbs
 
  * __LEXICON VR_ROIJA __ roijakseh:roi
 
- * __LEXICON VR_VOIJA __ voijakseh:voi
 
  * __LEXICON VR_ROITA __ roita:roi 
 
@@ -2265,7 +2229,6 @@ Reflexive verbs
 
  * __LEXICON VR_EMÄNDÖIJÄ __ emändöijäkseh:emändöi
 
- * __LEXICON VR_MERKITÄ __ merkitäkseh:merki
 
  * __LEXICON VR_MAINITA __ mainitakseh:maini
 
@@ -2286,6 +2249,8 @@ Reflexive verbs
 
 
 
+V1
+This verb type has two final vowels in the first infinitive
 
 
 
@@ -2503,8 +2468,6 @@ Forthcoming
 
 
  * __+Pot+Pl3+Rc:%>d%{aä%}%>nehes K ; __ Shouldn't THIS be the right form
- * __+Pot+Pl3+Rc:%>da%>nehes K ; __ Shouldn't THIS be the right form
- * __+Pot+Pl3+Rc:%>dä%>nehes K ; __ Shouldn't THIS be the right form
 
 
 !!IMPERATIVE
@@ -2617,6 +2580,8 @@ Forthcoming
 
  _%^RVow:0   _ 
  _%^RmVow:0   _ vowel removal, e.g. with superlative
+
+
 
 
 

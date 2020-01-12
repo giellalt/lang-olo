@@ -44,9 +44,9 @@ LEXICON PROP-FEM_KALA !!= @CODE@
 +Prop+Sem/Fem:%{back%} NMN_KALA ;
 +Prop+Sem/Fem: HUMAN-PROP-DERIVATION ;
 
-LEXICON PROP_KALA_MAL !!= @CODE@ 
-+Prop+Sem/Mal:%{back%} NMN_KALA ;
-+Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
+!LEXICON PROP_KALA_MAL !!= @CODE@ 
+!+Prop+Sem/Mal:%{back%} NMN_KALA ;
+!+Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP_KALA_PATRFEM !!= @CODE@ 
 +Prop+Patr+Sem/Fem:%{back%} NMN_KALA ;
@@ -193,9 +193,9 @@ LEXICON PROP_JÄNÖI !!= @CODE@ jänöi:jänöi
 !! Plural stem in oloi
 +Prop:%{back%} NMN_REBOI/JÄNÖI ;
 
-LEXICON PROP_JÄNÖI_MAL !!= @CODE@ jänöi:jänöi
-+Prop+Sem/Mal:%{back%} NMN_REBOI/JÄNÖI ;
-+Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
+!LEXICON PROP_JÄNÖI_MAL !!= @CODE@ jänöi:jänöi
+!+Prop+Sem/Mal:%{back%} NMN_REBOI/JÄNÖI ;
+!+Prop+Sem/Mal: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP_KOIRU !!= @CODE@ koiru:koira
 !! Gradation NA
