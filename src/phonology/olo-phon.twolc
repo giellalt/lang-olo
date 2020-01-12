@@ -138,6 +138,13 @@ K1:k
 %^RVow:0   !!= _@CODE@_ 
 %^RmVow:0   !!= _@CODE@_ vowel removal, e.g. with superlative
 
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
+
+
 %- !Hyphen in  constructions 
  «  ! Derivational prefix
  »  ! Derivational suffix
@@ -960,3 +967,6 @@ d:0 <=>  # Cns* [ i | a: | o | ä ] _ [ ä: | a: | e: | i ] (HarmDummy:) %^WGSte
 a:u /<= _ a: %> i ;
 
 
+!!TESTS
+!echo 'A v r a a m {back}:0 > {aä}:a n' | hfst-pair-test src/phonology/olo-phon.compose.hfst
+!echo 'Avraam+N+Prop+Sg+Nom' | hfst-lookup src/morphology/lexicon.hfst
