@@ -2132,9 +2132,9 @@ LEXICON INDPRSPL3_DAh
 LEXICON INDPRSPL3_dah
 +Ind+Prs+Pl3:%>da%^WGStemh K ;
 +Ind+Prs+ConNeg+Pl3:%>da%^WGStem K ;
-LEXICON INDPRSPL3_däh
-+Ind+Prs+Pl3:%>dä%^WGStemh K ;
-+Ind+Prs+ConNeg+Pl3:%>dä%^WGStem K ;
+!LEXICON INDPRSPL3_däh
+!+Ind+Prs+Pl3:%>dä%^WGStemh K ;
+!+Ind+Prs+ConNeg+Pl3:%>dä%^WGStem K ;
 
 LEXICON INDPRSPL3_tAh
 +Ind+Prs+Pl3:%>t%{aä%}h K ;
@@ -2153,9 +2153,9 @@ LEXICON INDPRSPL3_EtAh
 LEXICON INDPRSPL3_Etah
 +Ind+Prs+Pl3:%^E1%>tah K ;
 +Ind+Prs+ConNeg+Pl3:%^E1%>ta K ;
-LEXICON INDPRSPL3_Etäh
-+Ind+Prs+Pl3:%^E1%>täh K ;
-+Ind+Prs+ConNeg+Pl3:%^E1%>tä K ;
+!LEXICON INDPRSPL3_Etäh
+!+Ind+Prs+Pl3:%^E1%>täh K ;
+!+Ind+Prs+ConNeg+Pl3:%^E1%>tä K ;
 
 LEXICON INDPRSCONNEG_WEAK
 +Ind+Prs+ConNeg: K ;
@@ -2446,15 +2446,15 @@ LEXICON CONDPRS_S_FRONT
 +Cond+Prs+Pl2:%>zittö K ;
 +Cond+Prs+ConNeg:%>s K ;
 
-LEXICON CONDPRSPL3
-+Cond+Prs+Pl3:%>%{aä%}s K ;
-+Cond+Prs+ConNeg+Pl3:%>%{aä%}s K ;
-LEXICON CONDPRSPL3_BACK
-+Cond+Prs+Pl3:as K ;
-+Cond+Prs+ConNeg+Pl3:as K ;
-LEXICON CONDPRSPL3_FRONT
-+Cond+Prs+Pl3:äs K ;
-+Cond+Prs+ConNeg+Pl3:äs K ;
+!LEXICON CONDPRSPL3
+!+Cond+Prs+Pl3:%>%{aä%}s K ;
+!+Cond+Prs+ConNeg+Pl3:%>%{aä%}s K ;
+!LEXICON CONDPRSPL3_BACK
+!+Cond+Prs+Pl3:as K ;
+!+Cond+Prs+ConNeg+Pl3:as K ;
+!LEXICON CONDPRSPL3_FRONT
+!+Cond+Prs+Pl3:äs K ;
+!+Cond+Prs+ConNeg+Pl3:äs K ;
 
 LEXICON CONDPRSPL3_DAs
 +Cond+Prs+Pl3:%>%{dtlnr%}%{aä%}s K ;
@@ -2489,9 +2489,9 @@ LEXICON CONDPRSPL3_EttAs
 LEXICON CONDPRSPL3_Ettas
 +Cond+Prs+Pl3:%^E1%>ttas K ;
 +Cond+Prs+ConNeg+Pl3:%^E1%>ttas K ;
-LEXICON CONDPRSPL3_Ettäs
-+Cond+Prs+Pl3:%^E1%>ttäs K ;
-+Cond+Prs+ConNeg+Pl3:%^E1%>ttäs K ;
+!LEXICON CONDPRSPL3_Ettäs
+!+Cond+Prs+Pl3:%^E1%>ttäs K ;
+!+Cond+Prs+ConNeg+Pl3:%^E1%>ttäs K ;
 
 LEXICON VR_CONDPRS_IZ
 +Cond+Prs+Sg1+Rc:%>i%>zimm%{oö%}s K ;
@@ -2542,13 +2542,13 @@ LEXICON VR_CONDPRSPL3_Ettäzihes
 +Cond+Prs+ConNeg+Pl3+Rc:%^E1%>ttäzihes K ;
 
 !! !CONDITIONAL PRETERITE
-LEXICON CONDPRT
-+Cond+Prt+Sg1:%>zin K ;
-+Cond+Prt+Sg2:%>zit K ;
-+Cond+Prt+Sg3:%>s K ;
-+Cond+Prt+Sg3:%>z K ;
-+Cond+Prt+Pl1:%>zimm%{oö%} K ;
-+Cond+Prt+Pl2:%>zitt%{oö%} K ;
+!LEXICON CONDPRT
+!+Cond+Prt+Sg1:%>zin K ;
+!+Cond+Prt+Sg2:%>zit K ;
+!+Cond+Prt+Sg3:%>s K ;
+!+Cond+Prt+Sg3:%>z K ;
+!+Cond+Prt+Pl1:%>zimm%{oö%} K ;
+!+Cond+Prt+Pl2:%>zitt%{oö%} K ;
 
 LEXICON CONDPRT_nUs
 +Cond+Prt+Sg1:%>%{lnrs%}%{uy%}%^WGStem%>zin K ;
@@ -2608,9 +2608,9 @@ LEXICON CONDPRTPL3_DAnnUs
 LEXICON CONDPRTPL3_Dannus
 +Cond+Prt+Pl3:%>dan%{lnrs%}us K ;
 +Cond+Prt+ConNeg+Pl3:%>dan%{lnrs%}us K ;
-LEXICON CONDPRTPL3_Dännys
-+Cond+Prt+Pl3:%>dän%{lnrs%}ys K ;
-+Cond+Prt+ConNeg+Pl3:%>dän%{lnrs%}ys K ;
+!LEXICON CONDPRTPL3_Dännys
+!+Cond+Prt+Pl3:%>dän%{lnrs%}ys K ;
+!+Cond+Prt+ConNeg+Pl3:%>dän%{lnrs%}ys K ;
 
 LEXICON CONDPRTPL3_tAnnUs
 +Cond+Prt+Pl3:%^WGStem%>t%{aä%}n%{lnrs%}%{uy%}s K ;

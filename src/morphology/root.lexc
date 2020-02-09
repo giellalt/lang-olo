@@ -63,6 +63,7 @@ Multichar_Symbols
 !! The Usage extents are marked using following tags:
 
  +Err/Orth     !!= * @CODE@
+ +Err/Sub     !!= * @CODE@
  +Use/Marg        !!= * __@CODE@__ marginal (?)
  +Use/-Spell      !!= * __@CODE@__ Excluded in speller
  +Use/SpellNoSugg !!= * __@CODE@__ recognized but not suggested in speller
@@ -89,6 +90,7 @@ Multichar_Symbols
  +Ill  !!= * @CODE@ illative
  +Ine  !!= * @CODE@ inessive
  +Ins  !!= * @CODE@ instrumental
+ +Lat  !!= * @CODE@ Lative
  +Loc  !!= * @CODE@ Locative
  +Nom  !!= * @CODE@ nominative case
  +Par  !!= * @CODE@ partitive
@@ -168,7 +170,7 @@ Multichar_Symbols
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
- +TV +IV
+ +TV +IV +VR
 !! Special multiword units are analysed with:
  +Multi
 !! Non-dictionary words can be recognised with:
@@ -265,6 +267,8 @@ Multichar_Symbols
  +Sem/State-sick      !!≈ * __@CODE@__ Illness
  +Sem/Substnc     !!≈ * __@CODE@__ Substance, like Air and Water
  +Sem/Sur         !!≈ * __@CODE@__ Surname
+ +Sem/Sur-Fem         !!≈ * __@CODE@__ Female Surname
+ +Sem/Sur-Mal         !!≈ * __@CODE@__ Male Surname
  +Sem/Symbol      !!≈ * __@CODE@__ Symbol
  +Sem/Time        !!≈ * __@CODE@__ Time
  +Sem/Tool        !!≈ * __@CODE@__ Prototypical tool for repairing things
@@ -406,7 +410,9 @@ Multichar_Symbols
 +Sem/Substnc_Wthr
 +Sem/Time_Wthr
 
-
+!! semantic types of adverbs
++Deg
++Manner
 +Spat
 +Temp
 
@@ -426,6 +432,7 @@ Multichar_Symbols
  +V→N 	    !!= * @CODE@
  +V→V 	    !!= * @CODE@
  +V→A	    !!= * @CODE@
+ +Der/Tostu !!= * @CODE@ with numerals 11-19
  +Der/xxx   !!= * @CODE@
  +Der/Rc   !!= * @CODE@ used in verbs for deriving reflexive conjugation
  +Der/Ta  !!= * @CODE@
@@ -437,7 +444,7 @@ Multichar_Symbols
  +Der/mbi  !!= * @CODE@ comparative
  +Der/Us  !!= * @CODE@ A>>N derivation
 +Der/A  !!= * @CODE@ Adjective derivation
-
++Der/MWN !!= * @CODE@ Modifier without Noun head
 
 !! !!Morphophonology
 ! ---------------

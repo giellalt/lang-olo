@@ -65,76 +65,76 @@ LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
 
 LEXICON A_OZA !!= @CODE@ oza:oza
 :%{back%} NMN_OZA/SÄYNÄ ;
-+Der/mbi+Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
++Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_SÄYNÄ !!= @CODE@ säynä:säynä
 :%{front%} NMN_OZA/SÄYNÄ ;
-+Der/mbi+Comp:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{front%}%^RmVow%>i NMN_ENIN        ;
++Comp:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{front%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_KALA !!= @CODE@ kala:kala
 :%{back%} NMN_KALA ;
-+Der/mbi+Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
++Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_KOIVU !!= @CODE@ koivu:koivu
 :%{back%}        NMN_KOIVU/HERY ;
-+Der/mbi+Comp:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}vi NMN_ENIN        ;
++Comp:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_HERY !!= @CODE@ hery:hery
 :%{front%}        NMN_KOIVU/HERY ;
-+Der/mbi+Comp:%{front%}%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{front%}vi NMN_ENIN        ;
++Comp:%{front%}%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{front%}vi NMN_ENIN        ;
 
 LEXICON A_LUGU !!= @CODE@ lugu:lugu
 :%{back%}        NMN_LUGU/IDY ;
-+Der/mbi+Comp:%{back%}%^WGStem%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}vi NMN_ENIN        ;
++Comp:%{back%}%^WGStem%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_IDY !!= @CODE@ idy:idy
 :%{front%}        NMN_LUGU/IDY ;
-+Der/mbi+Comp:%{front%}%^WGStem%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{front%}vi NMN_ENIN        ;
++Comp:%{front%}%^WGStem%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{front%}vi NMN_ENIN        ;
 
 LEXICON A_RUNO
 :%{back%}	NMN_RUNO/HÖRÖ ;
-+Der/mbi+Comp:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}vi NMN_ENIN        ;
++Comp:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_RUADO
 :%{back%}	NMN_RUADO/KYNDÖ ;
-+Der/mbi+Comp:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}vi NMN_ENIN        ;
++Comp:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}vi NMN_ENIN        ;
 
-LEXICON A_PAPPI !!= @CODE@ pappi:pappi
-:%{back%} NMN_PAPPI/HÄKKI ;
+!LEXICON A_PAPPI !!= @CODE@ pappi:pappi
+!:%{back%} NMN_PAPPI/HÄKKI ;
 
 LEXICON A_HÄKKI !!= @CODE@ häkki:häkki
 :%{front%} NMN_PAPPI/HÄKKI ;
 
 LEXICON A_ARTELI !!= @CODE@ 
 :%{back%}     NMN_ARTELI/LEIRI ;
-LEXICON A_LEIRI !!= @CODE@ 
-:%{front%}     NMN_ARTELI/LEIRI ;
+!LEXICON A_LEIRI !!= @CODE@ 
+!:%{front%}     NMN_ARTELI/LEIRI ;
 
 LEXICON A_ALUS !!= @CODE@ alus:aluks
 :%{back%} NMN_ALUS/ILVES   ;
-+Der/mbi+Comp:%{back%}e%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}i NMN_ENIN        ;
++Comp:%{back%}e%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}i NMN_ENIN        ;
 
-LEXICON A_SUALIŠ !!= @CODE@ suališ:suali
-:%{back%}	 NMN_SUALIŠ ;
-+Der/in+Superl:%{back%}vi NMN_ENIN        ;
+!LEXICON A_SUALIŠ !!= @CODE@ suališ:suali
+!:%{back%}	 NMN_SUALIŠ ;
+!+Superl:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_KUURNIS !!= @CODE@ kuurnis:kuurne
 :%{back%}      NMN_KUURNIS ;
 
 LEXICON A_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 :%{back%}	NMN_PUHTAHUS/VÄHYS ;
-LEXICON A_VÄHYS !!= @CODE@ vähys:vähy
-:%{front%}	NMN_PUHTAHUS/VÄHYS ;
+!LEXICON A_VÄHYS !!= @CODE@ vähys:vähy
+!:%{front%}	NMN_PUHTAHUS/VÄHYS ;
 
 LEXICON A_OLUT !!= @CODE@ olut:olu
 :%{back%}	 NMN_OLUT ;
@@ -142,34 +142,34 @@ LEXICON A_OLUT !!= @CODE@ olut:olu
 !! !TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
 LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
 :%{front%} NMN_KOIRU/PÄIVY ;
-+Der/mbi+Comp:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{front%}%^RmVow%>i NMN_ENIN        ;
++Comp:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{front%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_MUARJU !!= @CODE@ muarju:muarja
 :%{back%}	NMN_MUARJU/PIÄSTÄNDY ;
-+Der/mbi+Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
++Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
 
-LEXICON A_PIÄSTÄNDY !!= @CODE@ piäständy:piäständä
-:%{front%}	NMN_MUARJU/PIÄSTÄNDY ;
-+Der/mbi+Comp:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{front%}%^RmVow%>i NMN_ENIN        ;
+!LEXICON A_PIÄSTÄNDY !!= @CODE@ piäständy:piäständä
+!:%{front%}	NMN_MUARJU/PIÄSTÄNDY ;
+!+Comp:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
+!+Superl:%{front%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_AKKU !!= @CODE@ akku:akka
 :%{back%}	NMN_AKKU ;
-+Der/mbi+Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
++Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_KOIRU
 :%{back%} NMN_KOIRU/PÄIVY ;
-+Der/mbi+Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
++Comp:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}%^RmVow%>i NMN_ENIN        ;
 
 
 LEXICON A_VALGEI !!= @CODE@ valgei:valge
 :%{back%} NMN_VALGEI/LIBEI        ;
-+Der/mbi+Comp:%{back%}%>emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}vi NMN_ENIN        ;
++Comp:%{back%}%>emb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_RAHMANNOI !!= @CODE@ rahmannoi:rahmannoi
 :%{back%} NMN_RAHMANNOI        ;
@@ -189,8 +189,8 @@ LEXICON A_PEZII
 
 LEXICON A_KONDII
 :%{back%} NMN_KONDII/STIPENDII ;
-LEXICON A_STIPENDII
-:%{front%} NMN_KONDII/STIPENDII ;
+!LEXICON A_STIPENDII
+!:%{front%} NMN_KONDII/STIPENDII ;
 
 LEXICON A_KESTÄY !!= @CODE@ kestäy:kestä
 :%{front%} NMN_KESTÄY ;
@@ -213,20 +213,20 @@ LEXICON A_HUOLETOI/JIÄTÖI !!= @CODE@ huoletoi:huolet
 :	NMN_HUOLETOI/JIÄTÖI   ;
 +Der/MWN: N_HUOLETOI ; 
 +Der/MWN+N:t%{oö%}m%{aä%} Adj-NB-i ; !2012-09-27 unknown -loi vs -i
-+Der/mbi+Comp:t%{oö%}memb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:t%{oö%}mi NMN_ENIN        ;
++Comp:t%{oö%}memb NMN_PAREMBI/ENÄMBI        ;
++Superl:t%{oö%}mi NMN_ENIN        ;
 
 LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
 +Der/Us:%{back%}z%{uy%} N_PUHTAHUS ;
 :%{back%}	NMN_KARJALAINE/LIYGILÄINE	 ;
-+Der/mbi+Comp:%{back%}zemb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}zi NMN_ENIN        ;
++Comp:%{back%}zemb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}zi NMN_ENIN        ;
 
 LEXICON A_LIYGILÄINE !!= @CODE@ liygiläine:liygilä
 +Der/Us:%{front%}z%{uy%} N_PUHTAHUS ;
 :%{front%}	NMN_KARJALAINE/LIYGILÄINE ;
-+Der/mbi+Comp:%{front%}zemb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{front%}zi NMN_ENIN        ;
++Comp:%{front%}zemb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{front%}zi NMN_ENIN        ;
 
 LEXICON A_NAINE !!= @CODE@ naine:nai
 :%{back%} A_NAINE/KIELINE_01 ;
@@ -235,38 +235,38 @@ LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 LEXICON A_NAINE/KIELINE_01 !!= @CODE@ kieline:kieli naine:nai
 +Der/Us+N:z%{uy%} NMN_PUHTAHUS/VÄHYS ;
 : NMN_NAINE/KIELINE ;
-+Der/mbi+Comp:zemb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:zi NMN_ENIN        ;
++Comp:zemb NMN_PAREMBI/ENÄMBI        ;
++Superl:zi NMN_ENIN        ;
 
 LEXICON A_TOINE !!= @CODE@ toine:to
 :%{back%} NMN_TOINE ;
-+Der/mbi+Comp:%{back%}izemb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}izi NMN_ENIN        ;
++Comp:%{back%}izemb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}izi NMN_ENIN        ;
 LEXICON A_TOINE-PL !!= @CODE@ toine:to
 :%{back%} NMN_TOINE-PL ;
 
 !! !THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
-LEXICON A_KARJAL !!= @CODE@ karjal:karjal
-:%{back%}     NMN_KARJAL ;
-+Der/mbi+Comp:%{back%}emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}i NMN_ENIN        ;
+!LEXICON A_KARJAL !!= @CODE@ karjal:karjal
+!:%{back%}     NMN_KARJAL ;
+!+Comp:%{back%}emb NMN_PAREMBI/ENÄMBI        ;
+!+Superl:%{back%}i NMN_ENIN        ;
 
 LEXICON A_MADAL !!= @CODE@ madal:madal
 +Der/Us:%{back%}%{uy%} N_PUHTAHUS ;
 :%{back%}	NMN_MADAL ;
-+Der/mbi+Comp:%{back%}emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}i NMN_ENIN        ;
++Comp:%{back%}emb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}i NMN_ENIN        ;
 
 LEXICON A_PIIRAI !!= @CODE@ piirai:piira 
 :%{back%}	NMN_PIIRAI/VERÄI   ;
-LEXICON A_VERÄI !!= @CODE@ veräi:verä 
-:%{front%}	NMN_PIIRAI/VERÄI   ;
+!LEXICON A_VERÄI !!= @CODE@ veräi:verä 
+!:%{front%}	NMN_PIIRAI/VERÄI   ;
 
 LEXICON A_RAIŠ !!= @CODE@ raiš:ra
 :%{back%}     NMN_RAIŠ   ;
 
-LEXICON A_TOVESTEH !!= @CODE@ pereh:pereh
-:%{back%}	NMN_TOVESTEH/PEREH	;
+!LEXICON A_TOVESTEH !!= @CODE@ pereh:pereh
+!:%{back%}	NMN_TOVESTEH/PEREH	;
 
 LEXICON A_PEREH !!= @CODE@ pereh:pereh
 :%{front%}	NMN_TOVESTEH/PEREH	;
@@ -280,22 +280,22 @@ LEXICON A_PESSYH !!= @CODE@ pessyh:pessy
 
 LEXICON A_ARMAS !!= @CODE@ armas:arma
 :%{back%} NMN_ARMAS/EVAES        ;
-+Der/mbi+Comp:%{back%}h%{aä%}mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}hi NMN_ENIN        ;
++Comp:%{back%}h%{aä%}mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}hi NMN_ENIN        ;
 
 LEXICON A_VARVAS !!= @CODE@ varvas:varva
 :%{back%} NMN_VARVAS        ;
-+Der/mbi+Comp:%{back%}h%{aä%}mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}hi NMN_ENIN        ;
++Comp:%{back%}h%{aä%}mb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}hi NMN_ENIN        ;
 
 LEXICON A_TUORES !!= @CODE@ tuores:tuore
 !!= * Yaml: __A-tuores__
 :%{back%} NMN_TUORES ;
-+Der/mbi+Comp:%{back%}hemb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}hi NMN_ENIN        ;
++Comp:%{back%}hemb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}hi NMN_ENIN        ;
 
-LEXICON A_SUURIM !!= @CODE@ suurim:suurim
-:%{back%}	NMN_SUURIM ;
+!LEXICON A_SUURIM !!= @CODE@ suurim:suurim
+!:%{back%}	NMN_SUURIM ;
 
 LEXICON A_SUARI !!= @CODE@ suari:suar
 :%{back%} A_SUARI/KIELI_01 ;
@@ -304,34 +304,34 @@ LEXICON A_KIELI !!= @CODE@ kieli:kiel
 :%{front%} A_SUARI/KIELI_01 ;
 LEXICON A_SUARI/KIELI_01 !!= @CODE@ suari:suar
 :	NMN_SUARI/KIELI	;
-+Der/mbi+Comp:emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:i NMN_ENIN        ;
++Comp:emb NMN_PAREMBI/ENÄMBI        ;
++Superl:i NMN_ENIN        ;
 
 LEXICON A_VUOZI !!= @CODE@ vuozi:vuod
 :%{back%}	NMN_VUOZI/VEZI ;
-+Der/mbi+Comp:%{back%}%^WGStem%>emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{back%}%^WGStem%>i NMN_ENIN        ;
++Comp:%{back%}%^WGStem%>emb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{back%}%^WGStem%>i NMN_ENIN        ;
 
 LEXICON A_VEZI !!= @CODE@ vezi:ved
 :%{front%}     NMN_VUOZI/VEZI ;
 
 LEXICON A_NIMI !!= @CODE@ nimi:nim
 :%{front%}        NMN_HANGI/NIMI  ;
-+Der/mbi+Comp:%{front%}emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{front%}i NMN_ENIN        ;
++Comp:%{front%}emb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{front%}i NMN_ENIN        ;
 
 LEXICON A_JÄLGI  !!= @CODE@ jälgi:jälg
 !! front vowel
 !! gradation Yes
 :%{front%}        NMN_JÄLGI  ;
-+Der/mbi+Comp:%{front%}emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in+Superl:%{front%}i NMN_ENIN        ;
++Comp:%{front%}emb NMN_PAREMBI/ENÄMBI        ;
++Superl:%{front%}i NMN_ENIN        ;
 
 
 
 !! !TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
-LEXICON A_VANUIN !!= @CODE@ vanuin:vanui
-:%{back%} NMN_VANUIN	 ;
+!LEXICON A_VANUIN !!= @CODE@ vanuin:vanui
+!:%{back%} NMN_VANUIN	 ;
 
 LEXICON A_VAŽEN !!= @CODE@ važen:važe
 :%{back%} NMN_VAŽEN   ;
@@ -360,13 +360,13 @@ LEXICON Adj-NB-i
 +Sg: SG-ACC/APR/COM/GENSUF ;
 +Pl: PLNOMSUF ;
 
-LEXICON Adj-NB-loi
-! These cases are symmetrically marked for number
-+Sg: Adj-NB-01 ;
-+Pl:%>loi Adj-NB-01 ;
-! The next two share the same stem vowel
-+Sg: SG-ACC/APR/COM/GENSUF ;
-+Pl: PLNOMSUF ;
+!LEXICON Adj-NB-loi
+!! These cases are symmetrically marked for number
+!+Sg: Adj-NB-01 ;
+!+Pl:%>loi Adj-NB-01 ;
+!! The next two share the same stem vowel
+!+Sg: SG-ACC/APR/COM/GENSUF ;
+!+Pl: PLNOMSUF ;
 
 LEXICON Adj-NB-01
 +Ess:%^WGStem%>nn%{uy%} K ;
