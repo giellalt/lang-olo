@@ -80,11 +80,6 @@ stem final ä changes to 0 before i in Pl stem
 
 
 
- LEXICON N_BOBA  boba:boba
-Gradation YES
-Harmony: Back
-stem final a changes to u in Sg Par
-stem final a changes to 0 before i in Pl stem
 
 
 
@@ -465,7 +460,6 @@ Harmony: Back
 
 
 
- LEXICON N_TVER  tver:tver
 
 
 
@@ -645,9 +639,6 @@ Harmony: Back
 Gradation NA
 Harmony: Back
 
- LEXICON N_EVAES  eväs:evä
-Gradation Yes
-Harmony: Front
 
  LEXICON N_VARVAS  varvas:varba
 Gradation NA
@@ -663,9 +654,6 @@ Harmony: Back
 Gradation NA
 Harmony: Front
 
- LEXICON N_TULLUH  tulluh
-Gradation NA
-Harmony: Front
 
 
 
@@ -673,9 +661,6 @@ Harmony: Front
 Gradation Yes
 Harmony: Front
 
- LEXICON N_VIDEL  videl:videl
-Gradation NA
-Harmony: Front
 
 
 
@@ -698,9 +683,6 @@ Harmony: Back
 
 
 
- LEXICON N_TYTÄRDIM  tytärdim:tytärdim
-Gradation NA
-Harmony: Front
 
 
 
@@ -710,9 +692,6 @@ Harmony: Front
 
 
 
- LEXICON N_PAIMEN  paimen:paimen
-Gradation NA
-Harmony: Back
 
 
 
@@ -724,9 +703,6 @@ Harmony: Back
 
 
 
- LEXICON N_ENIN  enin:eni
-Gradation NA
-Harmony: Front
 
 
 
@@ -743,9 +719,6 @@ Harmony: Back
 
 
 
- LEXICON N_TYTÄR  tytär:tyttär
-Gradation Yes
-Harmony: Front
 
 
 
@@ -819,8 +792,8 @@ Gradation Yes
  LEXICON NMN_PAREMBI/ENÄMBI  parembi:paremb
 
 __Adjective comparative examples:__
-* __tuorehembi: __ {{tuores+A+Der/mbi+Comp+Sg+Nom }}
-* __*tuorehembembannu: __ {{tuores+A+Der/mbi+Comp+Der/mbi+Comp+Sg+Ess }} (is not standard language)
+* __tuorehembi: __ {{tuores+A+Comp+Sg+Nom }}
+* __*tuorehembembannu: __ {{tuores+A+Comp+Comp+Sg+Ess }} (is not standard language)
 
 
 
@@ -983,7 +956,6 @@ Gradation Yes
 
 ! Nominative singular in "m"
 
- LEXICON NMN_SUURIM  suurim
 
 
 
@@ -1039,7 +1011,6 @@ Gradation No
 
 
 
- LEXICON NMN_SUALIŠ  suališ:suali
 
 
 
@@ -1109,12 +1080,6 @@ Singular stem vowel 0/i
 Plural stem vowel il%{oö%}i
 
 
- LEXICON NMN_VANUIN  vanuin:vanui
-Gradation NA
-Back	     Vowel
-Stem	     consonant n/m
-Singular stem vowel 0/0/e
-Plural stem vowel i
 
 
 
