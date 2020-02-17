@@ -43,7 +43,7 @@ Multichar_Symbols
 LEXICON Root
 @U.HOUR.SHARP@:@U.HOUR.SHARP@tazah%  FULL-HOUR ;
 @U.HOUR.HOUR@ FULL-HOUR ;
- OTHER-TIME ;
+! OTHER-TIME ; XXX TODO: FIX!
 
 ! Allowing sloppy 2:30 in answer
 @U.TIME.2@1:@U.TIME.2@+Use/NA BEFpunkt ; !01:20 - 01:59
