@@ -1,0 +1,973 @@
+!! !!!The Livvi (Olonets) Karelian morphophonological/twolc rules file 
+
+
+
+Alphabet
+a b c č d e f g h i j k l m n o p r s š ş t u v w y z ž ƶ ü ä ö
+A B C Č D E F G H I J K L M N O P R S Š Ş T U V W Y Z Ž Ƶ Ü Ä Ö
+y
+Y
+! MODIFIER LETTER APOSTROPHE 02BC
+ʼ
+
+! Vowel harmony with "(t)a/ä"
+!
+!%{aäPar%}:0	!!= @CODE@  This is for the partitive and other vowel harmony not including diphthong phenomena
+%{aä%}:0
+
+ %{aoeInf%}:a	!!= @CODE@ Back vowel infinitive marker
+ %{äöeInf%}:ä	!!= @CODE@ Front vowel infinitive marker
+
+! %{aäDiph%}:ä !!= @CODE@  This is for the infinitive marker after i and u stems
+
+ %{aäoeöuiy%}:ä !!= * @CODE@  with partitive type koivuu
+ %{aäoeö%}:ä !!= * @CODE@  newer This is for diphthongs such as the infinitive marker after i and u stems ampuo
+%{aäuyiØ%}:ä !!= * @CODE@ in participle endings anticipating PÄIVY or KOIRU type
+
+ %{ui%}:i !!= @CODE@  in imperative before %{aä%}:
+
+! Vowel harmony with "loi/löi" also kalatOÖ1in
+%{oö%}:o
+%{oö%}:ö
+
+%{oöØ%}:0 !!= @CODE@  Used in present participle
+
+! Vowel harmony with "ttu/tty"
+!%{uy%}:u
+%{uy%}:y
+
+ %{ijPRC%}:j !!= @CODE@ participle
+ %{lnrs%}:n  !!= * @CODE@ e.g. in perfect participles
+ %{dtlnr%}:d !!= * @CODE@ e.g. infinitive and Ind+Prs+Pl3
+
+
+
+! in verb type V_AVATA
+!A2:a
+A2:ä
+!A2:o
+!A2:ö
+
+! this appears in the illative
+V1:a
+V1:e
+V1:i
+V1:o
+V1:u
+V1:y
+V1:ä
+V1:ö
+
+! These appear with the inessive and adessive
+V2:a
+V2:e
+V2:i
+V2:o
+V2:u
+V2:y
+V2:ä
+V2:ö
+
+! These reduplicate the preceding vowel if it in turn is preceded by a consonant
+V3:a
+V3:e
+V3:i
+V3:o
+V3:u
+V3:y
+V3:ä
+V3:ö
+V3:0
+
+%^DEVOICE:0   !!= @CODE@ 
+%^VOICE:0   !!= @CODE@  pestä : pezen
+
+! syllable boundary for V_AVATA
+%^SyllBound:0
+
+
+! Used with ks:s, ps:s
+%^KS2S:0
+
+! no change
+! The example here is for something that should not be done
+! We have two infinite sets, Olonets-Karelian and incoming loanwords.
+! The original idea was to make a rule changing all instances of 
+! adjacent double aa to ua. For this reason a special trigger was
+! to be inserted into the lexc stem of a word to prevent such a rule
+! from occurring. Since the infinite Olonets-Karelian set is more predictable
+! and perhaps smaller than the incoming loanword set, it is better
+! to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
+%^NONE:0 ! This will break vowel change, e.g. sa%^NONEamelaine
+
+! this k is not effected by gradation
+K1:k
+%^NoGrad:0 ! This will be placed after a stem to break Gradation
+
+! This is used in combination with WGStem to trigger change in penultimate coda
+! The penultimate coda trigger is used profusely in sms and vro
+! it allows for distinguishing between ultimate and penultimate coda,
+! but due to this distinction it is also a good idea to configure with
+! ./configure --enable-reversed-intersect
+! , which means that the triggers are seen before the stems and requires
+! LESS memory. 2019-09-02 JMR
+%^Pen:0  !!= @CODE@ pagisou paistah in combination with WGStem to trigger
+
+! this weakens the stem _ompel_ to _ommel_
+%^WGStem:0
+
+
+%^D2Z:0	 !!= @CODE@ ! The ti => zi
+
+! the a => o
+%^A2O:0
+
+
+%^E2O:0	!!= @CODE@  the e => o, e => ö
+
+! the a => u, ä => y
+%^A2U:0
+%^A2UÄ2Y:0
+
+%^Ä2I:0		!!= @CODE@  ä => i
+%^A2UÄ2I:0		!!= @CODE@  a => u, ä => i
+
+%^ILoss:0  !!= @CODE@  the i => 0 __reboi reboloi__
+%^V2U:0	   !!= @CODE@  v => y __kävvä käydy__
+
+! Vowel raising
+%^RVow:0   !!= _@CODE@_ 
+%^RmVow:0   !!= _@CODE@_ vowel removal, e.g. with superlative
+
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
+
+
+%- !Hyphen in  constructions 
+ «  ! Derivational prefix
+ »  ! Derivational suffix
+%>  ! Inflectional suffix
+#   ! Word boundary for both lexicalised and dynamic compounds
+
+
+%^LVow:0
+%^LCns:0
+%^WCns:0
+%^AtoO:0
+%^ÄtoÖ:0
+%^OddSyll:0
+%^StretchSyll2:0
+%^SyllBr:0
+%^E1:0
+
+!! Triggers dictating right context phenomena
+%{back%}:0 !!= * _@CODE@_ back harmony until harmony boundary, i.e. word boundary
+%{front%}:0 !!= * _@CODE@_ front harmony until harmony boundary, i.e. word boundary
+
+
+
+;
+
+
+Sets
+
+VowBack = a o u A O U ;
+VowFront = ä ö y ü Ä Ö Y Ü ;
+VowNeutral = e i E I ; 
+VowNonHigh = a o ä ö e A O Ä Ö E ;
+VowNotHiLab = a o ä ö e i 
+              A O Ä Ö E I ;
+
+Vow = a o u ä ö y ü e i 
+      A O U Ä Ö Y Ü E I ;
+
+Cns = b c č d f g h j k l m n p r s ş š t v z ƶ ž 
+      B C Č D F G H J K L M N P R S Ş Š T V Z Ƶ Ž ;
+
+Letters = Vow Cns ;
+
+HarmDummy = %{back%} %{front%} ;
+
+Dummy = %^ILoss %^KS2S %^WGStem %^E1 %^SyllBound  %^VOICE %> %^NONE HarmDummy ;
+
+
+Definitions
+
+! Front Trigger
+FT =  [ #: Cns* [ VowFront | VowNeutral | i: ] | :VowFront ] [ %> | VowFront: | ʼ | Cns: | %{aä%}:ä | %{oö%}:ö | %{uy%}:y ]* \[ # | VowBack: | :VowBack ]* ;
+! [ #: Cns* [ VowFront | VowNeutral | i: ] | :VowFront ] [ %> | VowFront: | Cns: | %{aä%}:ä | %{oö%}:ö | %{uy%}:y ]*  ;
+
+FHarm = [ %{front%}: \[ # | %{back%}: ]* ] ;
+
+! Back Trigger 
+BT =     #: Cns* ( [ VowNeutral | i: ] [ Dummy: | %> | VowNeutral | VowBack: | :VowBack | Cns: | :Cns | ʼ ]* )  [ VowBack: | :VowBack ] \[ # | VowFront: | :VowFront ]* ;
+!    #: Cns* ( [ VowNeutral | i: ] [ Dummy: | %> | VowBack: | :VowBack | Cns: | :Cns ]* )  [ VowBack: | :VowBack ] [ Dummy: | %> | VowNeutral | i: | %{aä%}:0 | VowBack: | :VowBack | Cns: | :Cns ]* ;
+
+BHarm = [ %{back%}: \[ # | %{front%}: ]* ] ;
+
+!Front Trigger with consonant
+FTCons = [FT|FHarm] [ Cns: (ʼ:) ] ;
+
+!Back Trigger with consonant
+BTCons = [BT | BHarm ] [ Cns: (ʼ:) ] ;
+
+! Cns or Cns with palatal
+ConsPalOrNot = [Cns: (ʼ:)]+ ;
+
+! Gradation strong to weak
+!GS2W = [ p:v | m p:m | t:0 | l t:l | r t:r | n t:n | s t:s | k:0 | l k:0 | r k:0 | n k:g | s k:0 ] ;
+
+! Short vowel
+SV = [ [ #: | Cns+ ] :Vow ] ;
+
+ ! If a vowel is preceeded by this, is can be long
+!  in both the inessive and the adessive
+! Inessive lengthening of vowel
+IL = [ #: Cns* Vow : Cns:+ | Cns* Vow+ Cns:+  Vow:+ Cns:+  ] ;
+
+!! Right context for gradation
+GRC =  [ [ ( %> ) %{aä%}: | [ %{oö%}: |o|ö] | %{uy%}: | Vow: | :Vow ] ( %>  i )  |  %>  i ] %^WGStem:0  ;
+
+! oma:ommaa, 
+! Subsequent Long Vowel
+! preceeded by "Cns _"
+! 2012-10-11 SLV =  [ :Vow [ ( %> %^LCns:0 %^LVow:0 | %> %^LCns:0 | %> i %> | %> ) [ V1:Vow | %{aä%}: ] |  0:Vow %> ( %^LCns:0 | %^WGStem: ) %^LVow: | %> %^LCns:0  ] ] ;
+
+!! !!!Rules
+Rules
+
+!"%{aäPar%}:o"
+! ! __@RULENAME@__
+!%{aäPar%}:o <=>   [%{back%}: o: |o: %{back%}:] %> _ [# | %> ] ;
+! ! o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+
+
+!"%{aäPar%}:ö"
+! ! __@RULENAME@__
+!%{aäPar%}:ö <=>  [%{front%}: ö: |ö: %{front%}:]  %> _ [# | %> ] ;
+! ! ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m %{oö%}: | t t %{oö%}: ]];
+
+
+!"%{aäDiph%}:o"
+! ! __@RULENAME@__
+!%{aäDiph%}:o <=> o: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
+!         [ o: | u] %> _ [ # | %> ] ;
+
+!"%{aäDiph%}:ö"
+! ! __@RULENAME@__
+!%{aäDiph%}:ö <=> ö: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
+!         [ ö: | y] %> _ [ # | %> ] ;
+
+!"%{aäDiph%}:e"
+! ! __@RULENAME@__
+! %{aäDiph%}:e <=> [ e: | i ] %> _ [ # | %> ]  ;
+
+!"%{aäDiph%}:ä"
+! ! __@RULENAME@__
+! %{aäDiph%}:ä <=> [ FTCons %> | [FT|FHarm] %> [ d: | v v | j | h | t ]] _ [ ( %^WGStem:0 ) [ h | # | %> ] | i | %> n %{uy%}: | %> g i | # ] ;
+!   [ FTCons %> | [FT|FHarm] ( %^WGStem:0 ) %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
+!               Cns:  ä: %{front%}:  (%^Ä2I:) %> _ \[ .#. | %{back%}: ]* [  %> | # ] ;
+!   [ FTCons %> | [ [FT|FHarm] ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:i) |g (%{ui%}:)| m | d: | (t) t | s s ]] _ [  h | z |  s | ( n ) n | t t | m m | v |l | %> %{ijPRC%}: | %> g | # ] ;
+! !€# lʼykkä%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}
+! !€0 lʼyk0ä0%>kkiämmö
+! !€# lʼykkä%>%{aä%}%>m%{aä%}h
+! !€0 lʼykki%>ä%>mäh
+! !€# lʼykkä%>%{aä%}%>%{ijPRC%}%{aä%}%^A2U
+! !€0 lʼykki0ä%>jy0
+
+"%{aä%}:a"
+!! __@RULENAME@__
+ %{aä%}:a <=> BHarm (%>) _ ;
+
+"%{aä%}:ä"
+!! __@RULENAME@__
+ %{aä%}:ä <=> FHarm (%>) _ ;
+
+
+! ! Vowel harmony suffixes Back
+!"%{aäDiph%}:a"
+! ! __@RULENAME@__
+! %{aäDiph%}:a <=> [ BTCons %> | [BT|BHarm] %> [ d: | v v | h | j | t ]] _ [ ( %^WGStem:0 ) [ h | # | %> ] | i | %> n %{uy%}: | %> g i | # ] ;
+!   [ BTCons %> | [BT|BHarm] ( %^WGStem:0 )  %> [ t (t) | s s ]] _ [  h | %> g | # ] ;
+!               Cns:  a: %{back%}: (%^A2U:) %> _ \[ .#. | %{front%}: ]* [  %> | # ] ;
+!   [ BTCons %> | [ [BT|BHarm] ] ( %^WGStem:0 (%^E1:) ) %> [ (k) k (%{ui%}:u) |g (%{ui%}:) | m | d: | (t) t | s s ]] _ [  h | z | s | ( n ) n | t t | m m | v | l | %> %{ijPRC%}: | %> g | # ] ;
+! !€# kanda%>kk%{ui%}%{aä%}mm%{oö%}
+! !€0 kanda%>kkuammo
+! !€# pagis%>d%{aä%}%^WGStemh
+! !€0 pa0is%>ta0h
+
+!"%{aäDiph%}:o"
+! ! __@RULENAME@__
+!%{aäDiph%}:o <=> [ o: | u ] %{back%}: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
+!         [ o: ] %{back%}: %> _ [# | %> ] ;
+
+!"%{aäDiph%}:ö"
+! ! __@RULENAME@__
+!%{aäDiph%}:ö <=> [ ö: | y ] %{front%}: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
+!         Cns: [ ö: ] %{front%}: %> _ [# | %> ] ;
+
+! ! Vowel harmony suffixes Back
+!"%{aäPar%}:a"
+! ! __@RULENAME@__
+! %{aäPar%}:a <=>
+!  [BHarm BTCons ( %> ) | [BHarm] %>  %{ijPRC%}:j %> | BHarm [ %{ui%}:u | %{uy%}:u | %{aäPar%}:u | a:u ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:u ] | %^WGStem:0 ] ;
+!   [BT|BHarm] %>  %{ijPRC%}:j %> %{ui%}:u _ ;
+!  [BT|BHarm] %> d: _  ;
+! !€# pagis%>d%{aä%}%^WGStemh
+! !€0 pa0is%>ta0h
+
+!"%{aäPar%}:u"
+! ! __@RULENAME@__
+!%{aäPar%}:u <=>
+! [ u: |[ [BT|BHarm] |BHarm :VowBack Cns:* ] ( %> ) %{uy%}:u ] %> _ ( %^WGStem:0 ) [ # | %>  [ g i | n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
+! !€# luadi%{back%}%^WGStem%^E1%>tt%{uy%}%>%{uy%}
+! !€0 luaji000%>ttu%>u
+
+!       BHarm  [ u ] %> _  ;
+! 	 [BT|BHarm] [ Cns: | %{ijPRC%}: ] _ [ %^A2U:0 [ # | %> g i ] | %> %{aäPar%}:a ] ;
+
+! ! Vowel harmony suffixes Front
+!"%{aäPar%}:ä"
+! ! __@RULENAME@__
+! %{aäPar%}:ä <=>
+!  [FHarm FTCons ( %> ) | [FT|FHarm] %>  %{ijPRC%}:j %> | FHarm [ %{ui%}:i | %{uy%}:y | %{aäPar%}:i | ä:i ] ( %> ) ] _ [ # | ( ( %^WGStem:0 ) %> )  [ Cns: | %{uy%}:y ] | %^WGStem:0 ] ;
+
+
+!"%{aäPar%}:e"
+! ! __@RULENAME@__
+! %{aäPar%}:e <=>  e:  %> _ [ # | (%^WGStem:) %> ] ;
+! !€ hävi%>%{aäPar%}%>%{uy%}
+! !€ hävi0e%>y
+! !€ hävi%>%{aäPar%}%>n
+! !€ hävi%>e0n
+
+!"%{aäPar%}:i"
+! ! __@RULENAME@__
+!%{aäPar%}:i <=> [FT|FHarm] Cns: _ %> %{aäPar%}:ä ;
+!   FHarm  Cns: i %> _ ;
+
+!"%{aäPar%}:y"
+! ! __@RULENAME@__
+!%{aäPar%}:y <=> [FT|FHarm] [ Cns: | %{ijPRC%}: ] _ %^A2U:0 [ # | %> g i ] ;
+!    FHarm  y %> _ ;
+
+!"%{aäPar%}:0"
+! ! __@RULENAME@__
+!%{aäPar%}:0 <=> Cns:  _ %> i  ;
+! !            [ a | ä | i ] i _ %^A2U: ; 
+
+!"%{aäPar%}:0 right"
+! ! __@RULENAME@__
+!%{aäPar%}:0 <=> _ %> i  ;
+
+"%{aäoeö%}:a"
+!! __@RULENAME@__
+%{aäoeö%}:a <=> [a:] (%{back%}:) %> _ ;
+ 
+"%{aäoeö%}:ä"
+!! __@RULENAME@__
+%{aäoeö%}:ä <=> [ä:] (%{front%}:) %> _ ;
+ 
+"%{aäoeö%}:o"
+!! __@RULENAME@__
+%{aäoeö%}:o <=> [u| o:] (%{back%}:) %> _ ;
+ 
+"%{aäoeö%}:e"
+!! __@RULENAME@__
+%{aäoeö%}:e <=> [i| e:] (HarmDummy:) %> _ ;
+ 
+"%{aäoeö%}:ö"
+!! __@RULENAME@__
+%{aäoeö%}:ö <=> [y| ö:] (%{front%}:) %> _ ;
+ 
+"{aäoeöuiy%}:a"
+!! __@RULENAME@__
+%{aäoeöuiy%}:a <=> [a: | %{ui%}:u ] (%{back%}:) %> _ ;
+
+"{aäoeöuiy%}:ä"
+!! __@RULENAME@__
+%{aäoeöuiy%}:ä <=> [ä:| %{ui%}:i] (%{front%}:) %> _ ;
+
+"{aäoeöuiy%}:o"
+!! __@RULENAME@__
+%{aäoeöuiy%}:o <=> o: (%{back%}:) %> _ ;
+
+"{aäoeöuiy%}:e"
+!! __@RULENAME@__
+%{aäoeöuiy%}:e <=> e: (HarmDummy:) %> _ ;
+
+"{aäoeöuiy%}:ö"
+!! __@RULENAME@__
+%{aäoeöuiy%}:ö <=> ö: (%{front%}:) %> _ ;
+
+"{aäoeöuiy%}:u"
+!! __@RULENAME@__
+%{aäoeöuiy%}:u <=> [ u|%{uy%}:u] (%{back%}:) %> _ ;
+
+"{aäoeöuiy%}:i"
+!! __@RULENAME@__
+%{aäoeöuiy%}:i <=> i (HarmDummy:) %> _ ;
+
+"{aäoeöuiy%}:y"
+!! __@RULENAME@__
+%{aäoeöuiy%}:y <=> [y|%{uy%}:y] (%{front%}:) %> _ ;
+
+
+"e:0"
+!! __@RULENAME@__
+ e:0 <=>
+  Cns: (%^VOICE:)  _ (HarmDummy:) (%^WGStem:) %^RmVow:   ;
+! Cns: (%^VOICE:)  _ (HarmDummy:) (%^WGStem:) %^RmVow:   ;
+        [ u | a | o | ä | ö | y ] (HarmDummy:) %> %{ijPRC%}:  [%{oöØ%}:o|%{oöØ%}:ö] %> i %> _ n ;
+
+ 
+"%{ui%}:u"
+!! __@RULENAME@__
+!! {{{
+%{ui%}:u <=> BHarm ( %> ) _ ( %> ) [ %{aäoeöuiy%}: | %{aä%}:] ; !! * @CODE@ ! imperative forms
+!!€ kanda%{back%}%>kk%{ui%}%{aä%}mm%{oö%}
+!!€ kanda0%>kkuammo
+!! }}}
+
+"%{ui%}:i"
+!! __@RULENAME@__
+!! {{{
+%{ui%}:i <=> FHarm ( %> ) _ ( %> ) [ %{aäoeöuiy%}: | %{aä%}:] ; !! * @CODE@ ! imperative forms
+!!€ lʼykkä%{front%}%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}
+!!€ lʼyk0ä00%>kkiämmö
+!! }}}
+
+"A2:a"
+!! __@RULENAME@__
+A2:a <=> [ a: ] %{back%}: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
+
+"A2:u"
+!! __@RULENAME@__
+A2:u <=>  u: %{back%}: %> _ ( %^WGStem:0 ) [ # | %>  ];
+
+"A2:y"
+!! __@RULENAME@__
+A2:y <=> [ y: ] %{front%}: %> _ ( %^WGStem:0 ) [ # | %>  ];
+
+
+"%{aäuyiØ%}:a"
+!! __@RULENAME@__
+%{aäuyiØ%}:a <=> BHarm Cns: _ ((%{back%}:) %>:) Cns: ;
+
+"%{aäuyiØ%}:u"
+!! __@RULENAME@__
+%{aäuyiØ%}:u <=> BHarm Cns: _ ((%{back%}:) %>:) [%{aä%}: | %^A2UÄ2I: |%^A2UÄ2Y:] ;
+
+"%{aäuyiØ%}:ä"
+!! __@RULENAME@__
+%{aäuyiØ%}:ä <=> FHarm Cns: _ ((%{front%}:) %>:) Cns: ;
+
+"%{aäuyiØ%}:y"
+!! __@RULENAME@__
+%{aäuyiØ%}:y <=> FHarm Cns: _ ((%{front%}:) %>:) %^A2UÄ2Y: ;
+
+"%{aäuyiØ%}:i"
+!! __@RULENAME@__
+%{aäuyiØ%}:i <=> FHarm Cns: _ ((HarmDummy:) %>:) %{aä%}: ;
+
+"%{aäuyiØ%}:0"
+!! __@RULENAME@__
+%{aäuyiØ%}:0 <=> Cns: _  (HarmDummy:) %^RmVow: ;
+
+
+"a:u before subsequent a"
+!! __@RULENAME@__  Diphthong a+a => ua
+a:u <=> ConsPalOrNot _ [%{back%}:  ( d:0 ) a  |d:0 a| (%{back%}:) %> [ %{aä%}: | A2:a ] ]; 
+!! ostua+V+Inf: __buy/ostaa__
+!!€# osta%>%{aä%}
+!!€0 ostu%>%{aä%}
+!     Cns:   _ %^A2U:0 ;
+     Cns: (ʼ) _ (%{back%}:) [%^A2UÄ2I:0| (%>) %{aä%}: |(%>) %{aäoeö%}: |(%>) %{aäoeöuiy%}: | %^A2UÄ2Y:] ;
+
+
+"ä:i before subsequent A2"
+!! __@RULENAME@__  Diphthong ä+ä => iä
+ä:i <=>  Cns: (ʼ)  _ [ ä | %> [ %{aä%}:ä | A2:ä ] ]; 
+         Cns: (ʼ) _ (%{front%}:) [%^A2UÄ2I:0| (%>) %{aä%}: | (%>) %{aäoeö%}: |(%>) %{aäoeöuiy%}: ] ;
+!! kehittiä+V+Inf: __develop/kehittää__
+!!€# kehittä%>%{aä%}
+!!€0 kehitti%>ä
+
+ 
+"o:u before subsequent o"
+!! __@RULENAME@__ Diphthong o+o => uo erota:eruou
+o:u <=> Cns (ʼ) _ (%{back%}:) %> [ %{oö%}: | %{aäoeö%}: |%{aäoeöuiy%}: | o ] ; 
+!!€# ero%>%{oö%}%>n
+!!€0 eru0o%>n
+!!€# runo%>%{oö%}
+!!€0 runu%>o
+                  _ %{back%}: %> v v ;
+!!€# jo%>vv%{aä%}
+!!€0 ju%>vva
+
+
+"ö:y before subsequent ö"
+!! __@RULENAME@__ Diphthong ö+ö, ö+%{oö%}:ö => yö
+ö:y <=> Cns (ʼ) _ (%{front%}:) %> [ %{oö%}:ö |%{aäoeö%}:| ö ] ; 
+!!€# sö%>ö%>y
+!!€0 sy%>ö%>y
+!!€# pöllö%>ö
+!!€0 pölly%>ö
+          _ (%{front%}:) %> v v ;
+!!€# sö%>vvä
+!!€0 sy%>vvä
+
+"e:i before subsequent :e"
+!! __@RULENAME@__ Diphthong o+o => uo erota:eruou
+!! {{{
+ e:i <=> Cns  (HarmDummy:) _ (HarmDummy:) %> [ %{aäoeöuiy%}:e|%{aäoeö%}:e| e ] ;
+!!€# valge%>e%^WGStem%>t
+!!€0 valgi%>e00t
+!!€# hävi%>%{aäPar%}%>n
+!!€0 hävi%>e0n
+        i _ d: [ o | ä: ] (HarmDummy:) %^WGStem: ;
+!!€# tiedo%^WGStem%>n
+!!€# tiijo0%>n
+
+         ä [ g: | d: ] (%{front%}:) _ (%{front%}:) %^WGStem: %> Cns: ;
+!!€ väge%{front%}%^WGStem>n
+!!€ vä0i00%>n
+        (HarmDummy:) _ (HarmDummy:) %> %{ijPRC%}: ;
+!!€# luge>%{ijPRC%}
+!!€0 lugi%>j
+
+!! }}}
+
+
+"e:o"
+!! __@RULENAME@__ Vowel harmony suffixes Back
+!! {{{
+ e:o <=>  [BHarm]  _ (%{back%}:) %^E2O: %> [ %{uy%}: | u ] ;
+!!€# luge%^E2O%>u
+!!€0 lugo%>u
+!! }}}
+
+"e:ö"
+!! __@RULENAME@__ Vowel harmony 
+ e:ö <=>  [FHarm]  _ (%{front%}:) %^E2O: %> y ;
+!!€# käske%^E2O%>y
+!!€0 käskö0%>y
+
+! Word final u, y
+"ä:y word final"
+!! __@RULENAME@__
+ä:y <=> Cns: _ (%{front%}:) [ %^A2U:0|%^A2UÄ2Y:] ;
+
+! Word final ö
+"ä:ö word final"
+!! __@RULENAME@__
+ä:ö <=> Cns: _ (%{front%}:) %^A2O:0 ;
+
+
+"a:0 in suaja:sai"
+!! __@RULENAME@__
+!! {{{
+a:0 <=>
+ a _ (%{back%}:)  %^RmVow:  ; !!= * @CODE@ Vowel shortening before subsequent "i"
+[ # Cns:*  [[ u | o ] (i)| u o: ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ [(%{back%}:) %^RmVow: %> i: (%^WGStem:) [ # |  (%{back%}:)  %> [i|Cns] | (%{back%}:)  %> e [n|l]] | (%{back%}:)  %^WGStem: %> i: ] ;
+!!€# koira%^RmVow%>i%>en
+!!€0 koir00%>i%>en
+!!€$ koira0%>j%>en
+ Cns: _ (%{back%}:) (%^WGStem:) %^RmVow:  ;
+!!€# vahna%^RmVow%>in
+!!€0 vahn00%>in
+!!€ otta%{back%}%^WGStem%^RmVow%>in
+!!€ ot00000%>in
+!! }}}
+
+!! !!iToj between vowels
+"i:j"
+!! __@RULENAME@__
+ i:j <=> :Vow (HarmDummy:) ( %>  %^LCns:0 ) %> _ %> :Vow ;
+
+"%{ijPRC%}:i"
+!! __@RULENAME@__ 
+!! {{{
+!! * @CODE@ +ActPrsPrc
+ %{ijPRC%}:i <=> :Vow (HarmDummy:)  %> _ [ # | %> [ g i | b o | h %{aä%}: i | g o ] ] ;
+!! }}}
+
+
+
+"a:o in the plural and preterite"
+!! __@RULENAME@__
+a:o <=> Cns: _ (%{back%}:) (%^WGStem:) %^A2O: ;
+! # Cns* [[ a | i | e ] (u|i)| u a ] [ Cns* (%^NONE:) Cns: ] _ %^A2O: %> i: ( %^WGStem:0 )  ;
+!       _ %^A2O: ;
+!!€ muama%{back%}%^A2O
+!!€ muamo00
+
+"a:e"
+!! __@RULENAME@__  pidiä
+ a:e <=> _ (%{back%}:) (%^WGStem:0) %^E1:0 ;
+!!€# kanda%^WGStem%^E1%>tt%{aäDiph%}s
+!!€0 kanne00%>ttas
+!!€# kirjava%^E1%>m%^NONEb
+!!€0 kirjave0%>m0b
+
+"ä:e piettih and in comparatives"
+!! __@RULENAME@__  pidiä
+ä:e <=> # Cns* [ i | e ] Cns: _ (%{front%}:) (%^WGStem:0) %^E1:0 ;
+      _ (%{front%}:) (%^WGStem:0) %^E1:0 ;
+!!€ mečästä%{front%}%^E1%>tt%{aä%}s
+!!€ mečäste00%>ttäs
+
+
+"ä:0 pidiä:pidi"
+!! __@RULENAME@__
+ä:0 <=> Cns: _ (%{front%}:) (%^WGStem:) %^RmVow:  ;
+        ä _ (%{front%}:) (%^WGStem:) %^RmVow:  ;
+
+"i:0 reboi:reboloi"
+!! __@RULENAME@__
+i:0 <=> o _ (HarmDummy:)  %^ILoss: %> l [ %{oö%}: |o|ö] i ;
+      [ e: | i ] (HarmDummy:) %> %{ijPRC%}:  %{oöØ%}: %> i %> _ [ # | %> Cns ]  ;
+ Cns: _ (HarmDummy:) (%^WGStem:) %^RmVow:  ;
+!!€ rodi%^RmVow%>i%>h
+!!€ rod00%>i%>h
+
+
+"%{oö%}:o"
+!! __@RULENAME@__ Vowel harmony suffixes Back
+ %{oö%}:o <=>  [BHarm] (  %> ) _ ;
+!  [BT|BHarm] (  %> ) _ ;
+"%{oö%}:ö"
+!! __@RULENAME@__ Vowel harmony suffixes Front
+ %{oö%}:ö <=>  [FHarm] (  %> ) _ ;
+
+
+"%{oöØ%}:0"
+!! __@RULENAME@__ Vowel harmony suffixes Back
+ %{oöØ%}:0 <=> [ u | a | o | ä | ö | y ] (HarmDummy:) %> %{ijPRC%}:  _  ;
+
+"%{oöØ%}:o"
+!! __@RULENAME@__ Vowel harmony suffixes Back
+ %{oöØ%}:o <=>  [BHarm]  :Cns [ e:0 | e | i ] %> %{ijPRC%}: _  ;
+!!€# luge%>%{ijPRC%}%>%{oöØ%}%>i%>n
+!!€0 lugi%>j%>o%>i%>s
+
+"%{oöØ%}:ö"
+!! __@RULENAME@__ Vowel harmony suffixes Front
+ %{oöØ%}:ö <=> [FHarm] :Cns [ e:0| e | i ] %> %{ijPRC%}:  _  ;
+
+
+
+"%{uy%}:u"
+!! __@RULENAME@__ Vowel harmony suffixes Back
+ %{uy%}:u <=>
+  [BHarm] ( %> ) _ ;
+  [BHarm] (%^WGStem:) %> (n) %{lnrs%}: _ ;
+!  [ [BT|BHarm] | :VowBack Cns:* ] ( %> ) _ ;
+!  [ [BT|BHarm] | :VowBack Cns:* ] (%^WGStem:) %> (n) %{lnrs%}: _ ;
+!!€ tul%>%{lnrs%}%{uy%}h
+!!€ tul%>luh
+
+"%{uy%}:y"
+!! __@RULENAME@__ Vowel harmony suffixes Front
+ %{uy%}:y <=>
+  [ FHarm ] ( %> ) _ ;
+  [ FHarm ] (%^WGStem:) %> (n) %{lnrs%}: _ ;
+!  [ [FT|FHarm] | :VowFront Cns:* ] ( %> ) _ ;
+!  [ [FT|FHarm] | :VowFront Cns:* ] (%^WGStem:) %> (n) %{lnrs%}: _ ;
+
+!! !!Consonant change
+
+!
+"g:j"
+!! __@RULENAME@__
+!! {{{
+g:j <=> i _ [ a: ] (HarmDummy:) ( %> i ) %^WGStem:0 ;
+!!€ poiga%^WGStem%>n
+!!€ poija0%>n
+!! }}}
+
+"g:v"
+!! __@RULENAME@__
+g:v <=> [ o | u ] _ [e |u] (HarmDummy:) %^WGStem:0 ;
+!!jogi+N+Sg+Gen: __river/joki__
+!!€ joge%^WGStem%>n
+!!€ jove0%>n
+
+
+
+"g:l"
+!! __@RULENAME@__  
+g:l <=> l _ [[ a: ] (HarmDummy:) ((%^A2O:|%^RmVow:) %> i )| i | e | u ] (HarmDummy:) %^WGStem:0 ;
+!!€ sulga%^WGStem%>n
+!!€ sulla0%>n
+!!€ jalga%^A2O%>i%^WGStem%>s
+!!€ jallo0%>i0%>s
+!! sulgu+N+Pl+Ins __feather/sulka__
+!!€ sulga%^RmVow%>i%^WGStem%>n
+!!€ sull0%>i0%>n
+
+"g:r"
+!! __@RULENAME@__  
+!! {{{
+g:r <=> r _ [[ a: ] (HarmDummy:) ( %> i )| i | e |ä|ö:] (HarmDummy:) %^WGStem:0 ;
+!!€# särge%^WGStem%>n
+!!€0 särre0%>n
+!!€# kergi%^WGStem%>t%{aäPar%}
+!!€0 kerri0%>tä
+!! }}}
+
+! lʼöydiä:lʼövvä
+"d:v"
+!! __@RULENAME@__  
+!! {{{
+d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; !!= @CODE@
+          u a           _   o       (%{back%}:) %^WGStem:0 ; !!= @CODE@
+          a             _   u       (%{back%}:) %^WGStem:0 ; !!= @CODE@
+        [ u o: | u: ]   _  [ (%{back%}:) e | a: ]  (%{back%}:) ((%^RmVow:) %> i )    %^WGStem:0 ; !!= @CODE@ 
+        !!€# vuode%^WGStem%>n
+        !!€0 vuvve0%>n
+        [ ä y: ]   _  [(%{front%}:) e | y ]  (%{front%}:) ((%^RmVow:) %> i )    %^WGStem:0 ; !!= @CODE@ 
+!!€ täydy%{front%}%^WGStem
+!!€ tävvy00
+
+!! }}}
+
+"v:y"
+!! __@RULENAME@__
+ v:y <=> VowFront _ (%{front%}:) %^V2U: ;
+! luadie:luajitah
+"d:j"
+!! __@RULENAME@__  
+d:j <=> [ u a ] _ [ i ] (%{back%}:) %^WGStem: %> ;
+        [ i e: | a i ] _ [ o | a] (HarmDummy:) %^WGStem: %> ;
+!!€ maido%^WGStem%>n
+!!€ maijo0%>n
+!!€ tiedo%^WGStem%>n
+!!€ tiijo0%>n
+        i e:  _ ä: (%{front%}:) %^WGStem: %> ;
+!!€ tiedä%^WGStem%>n
+!!€ tiijä0%>n
+
+
+"y:v"
+!! __@RULENAME@__
+y:v <=>  [ ö | ä ] _ d: [ ä: | (%{front%}:) e | y ] (%{front%}:) %^WGStem: [%>| #:] ;
+!!€# täydy%^WGStem
+!!€0 tävvy0
+!! lʼöydiä:lʼövvä
+
+"u:v"
+!! __@RULENAME@__
+u:v <=> [ o | u ] _ d: [ a: | (%{back%}:) e | u ] (%{back%}:) %^WGStem: [%>| #:] ;
+!! juodu+N+Pl+Ade
+!!€ juoda%{back%}%^RmVow%>i%^WGStem%>l
+!!€ juod000%>i0%>l
+!! soudua:sovva
+
+"o:v Lengthening with Ut:vv weakening"
+!! __@RULENAME@__  
+!! {{{
+o:v <=> u _ d: [ (%{back%}:) e | a: ] [(%{back%}:) (%^RmVow:) %> i | (%{back%}:)] %^WGStem:  ;
+!! }}}
+
+! vuozi:vuod
+"d:z"
+!! __@RULENAME@__  
+d:z <=> [Vow | r | n ] _ (HarmDummy:) %^D2Z:0 %> i ;
+!!€ vuod%^D2Z%>i
+!!€ vuoz0%>i
+ # Cns* Vow (Vow) (r|n) _ e:0 (HarmDummy:) %^D2Z: (%^WGStem:) %^RmVow: %> i ;
+!!€ tunde%^RmVow%>i
+!!€ tunz00%>i
+ # Cns* i e _ ä:0 (%{front%}:) %^D2Z: (%^WGStem:) %^RmVow: %> i ;
+
+! vuozi:vuod+d%{uy%}, armas:armas+d%{uy%}
+"d:t in partitive"
+!! __@RULENAME@__  
+d:t <=> [ d: | h | :t | (HarmDummy:) s ] (HarmDummy:) ( %^KS2S:0 ) %> _ ;
+         [Vow | r | n ] _ (HarmDummy:) %> [ d: %{uy%}: | t y | t u ] ;
+!!€# pagis%>d%{aä%}%^WGStemh
+!!€0 pa0is%>ta0h
+
+"s:z"
+!! __@RULENAME@__
+!! {{{
+s:z <=> _ (HarmDummy:) %^VOICE:0 ; !!= * @CODE@ pestä: pezen
+!! }}}
+
+"k:g"
+!! __@RULENAME@__ pestä: peskäh
+k:g <=> [ n | l |r ] (HarmDummy:) %> _ (%{ui%}:) %{aä%}: ; 
+
+
+"rd:rr weakening"
+!! __@RULENAME@__  
+d:r <=>
+     Vow: r _ Vow: (HarmDummy:) ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
+   Vow r (HarmDummy:) %> _ [ GRC | e %^WGStem: ] ; 
+!!purra+Ind+Prs+ScPl3: purrah
+
+
+"ld:ll weakening"
+!! __@RULENAME@__  
+d:l <=>
+  Vow: l _ Vow: (HarmDummy:) ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
+  Vow l (HarmDummy:) (%^WGStem:) %> _ [ GRC | e %^WGStem: ] ;
+
+"nd:nn weakening"
+!! __@RULENAME@__ 
+d:n <=>
+     Vow: n _ Vow: (HarmDummy:) %^WGStem: [(%^A2O:) %> i| (%^E1:) %> | # ] ;
+!     Vow: n _ Vow: (HarmDummy:) ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
+  Vow (HarmDummy:) ( %^WGStem:0 %> ) n %> _ [ GRC | e %^WGStem: ] ;
+!! mennä+Ind+Prs+ScPl3: mennäh
+!!€# kanda%^WGStem%^E1%>tt%{aä%}s
+!!€0 kanne00%>ttas
+
+
+"rn:rr in prtprc"
+!! __@RULENAME@__  
+%{lnrs%}:r <=> r (HarmDummy:) (%^WGStem:) %> _ (%{uy%}:) (%^WGStem:)  ;
+
+"ln:ll in prtprc"
+!! __@RULENAME@__  
+%{lnrs%}:l <=> l (HarmDummy:) (%^WGStem:) %> _ (%{uy%}:) (%^WGStem:)  ;
+!!€ tul%>%{lnrs%}%{uy%}h
+!!€ tul%>luh
+
+"sn:ss in prtprc"
+!! __@RULENAME@__  
+%{lnrs%}:s <=> s (HarmDummy:) (%^WGStem:) %> _ (%{uy%}:) (%^WGStem:)  ;
+
+"%{dtlnr%}:d"
+!! __@RULENAME@__
+%{dtlnr%}:d <=> Vow: (HarmDummy:) (%^WGStem:) %> _ ; 
+
+"%{dtlnr%}:t"
+!! __@RULENAME@__
+%{dtlnr%}:t <=> s (HarmDummy:) (%^WGStem:) %> _ ; 
+
+"%{dtlnr%}:l"
+!! __@RULENAME@__
+%{dtlnr%}:l <=> l (HarmDummy:) (%^WGStem:) %> _ ; 
+!! tulla+Ind+Prs+ScPl3: tullah
+!!€ tul%{back%}%>%{dtlnr%}%{aä%}
+!!€ tul0%>la
+!! kuvitella+V+Inf
+!!€ kuvittel%{back%}%^WGStem%>%{dtlnr%}%{aä%}
+!!€ kuvi0tel00%>la
+
+"%{dtlnr%}:n"
+!! __@RULENAME@__
+%{dtlnr%}:n <=> n (HarmDummy:) (%^WGStem:) %> _ ; 
+
+"%{dtlnr%}:r"
+!! __@RULENAME@__
+%{dtlnr%}:r <=> r (HarmDummy:) (%^WGStem:) %> _ ; 
+
+!! !CONSONANT LOSS
+ 
+"čToZero"
+!! __@RULENAME@__  
+!! {{{
+č:0 <=> _ č [ ((HarmDummy:) %>) Vow | Vow: (HarmDummy:) %> i ] %^WGStem:0 ; !! * @CODE@ suvaija:suvaičen
+ _ č Vow: (HarmDummy:) %^WGStem:0 ; 
+!! }}}
+
+"kToZero"
+!! __@RULENAME@__  aika: ajan
+!! {{{
+k:0 <=> _ s (HarmDummy:) %^KS2S:0 ;
+        _ k [ Vow (HarmDummy:) | Vow: (HarmDummy:) %^A2O: %> i | e h (HarmDummy:) ] %^WGStem:0 ;
+!!€ lʼykkä%{front%}%^WGStem%>t%{AÄ%}
+!!€ lʼy0kä00%>tä
+!!€ abuniekka%{back%}%^A2O%>i%>l
+!!€ abunie0ko00%>i%>l
+!!€ liikkeh%{front%}%^WGStem
+!!€ lii0keh00
+
+!! }}}
+
+"gToZero"
+!! __@RULENAME@__  aika: ajan
+g:0 <=>
+        [ Vow: - [ o | u ] ] _ i s (HarmDummy:) %> d: [ %{aä%}: %^WGStem: | i h ] ;
+        [ Vow - [ o | u ] ] _ (HarmDummy:) e: (HarmDummy:) %^WGStem:0 %> ;
+!!€ väge%{front%}%^WGStem>n
+!!€ vä0i00%>n
+        [ Vow: - [ o | u ] ] _ i Cns:+ (HarmDummy:) %^Pen: %^WGStem: ;
+!!€ pagis%{back%}%^Pen%^WGStem%>%{dtlnr%}%{aä%}h
+!!€ pa0is000%>tah
+
+
+
+!2013-04-29! tToZero in weak
+"tToZero in weak geminate"
+ t:0 <=>
+  _ t [ %{uy%}: | u | y | %{aäuyiØ%}: |Vow: ] (HarmDummy:) %^WGStem:0  ;
+ Vow: _ t [ Vow: (%> i)| e h | Vow: Cns: ] (HarmDummy:) %^WGStem:0  ;
+! [ # Cns* Vow | # Cns* Vow [ Vow - [ i | u | y ] ] | Vow h [ y | u ] ] _  GRC ;
+!2013-04-29!        [ #: Cns*  Vow+ [ h | (r) t ] | Vow ( %^WGStem:0 %> ) t | Cns* Vow+ Cns+ Vow+ ( n ) t | Vow t ] _  [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
+!2013-04-29!        t _ Vow l %^WGStem:0 ; ! ottel- to otel-
+!!€# tavoitteh%^WGStem
+!!€0 tavoi0teh0
+
+"tTol in weak infinite form"
+t:l <=> l (HarmDummy:) %> _ (%{aä%}:|a|ä) %^WGStem: ;
+!!€ kuul%>t%{aä%}%^WGStem
+!!€ kuul%>la0
+
+! luba : luvan
+"b:v"
+!! __@RULENAME@__  
+b:v <=> [ #: ] Cns* Vow ( r | l | Vow ) _  [ GRC | %^TS:0 i (HarmDummy:) %^WGStem:0 %> ] ;
+
+"b:v"
+!! __@RULENAME@__
+!! {{{
+b:m <=> m _  [ a | i ] (HarmDummy:) %^WGStem:0 ; !!≈ @CODE@
+!! }}}
+
+!2013-04-29!"double pp to p"
+!2013-04-29!p:0 <=> [ #: Cns* Vow ( m ) p | #: Cns* Vow Vow p | Cns* Vow+ Cns+ Vow+ p ] _ [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
+"p:0 in lapsi"
+!! __@RULENAME@__  
+p:0 <=> Vow _ s  (HarmDummy:) %^KS2S:0  ;
+ Vow: _ p Vow: (HarmDummy:) (%^RmVow:) (%> i) %^WGStem:0  ;
+!!€ kuoppa%{back%}%^WGStem%^RmVow%>i%>l
+!!€ kuo0p0000%>i%>l
+
+!2013-04-29! Vowel raising
+!2013-04-29!"o:u ö:y in Inf"
+!2013-04-29! Vx:Vy <=> _ Vx: %> v v %{aä%}: %^RVow:0 ;
+!2013-04-29!           Vx: _ %> v v %{aä%}: %^RVow:0 ;
+!2013-04-29!          where Vx in (o ö)
+!2013-04-29!                Vy in (u y) matched ;
+
+!! !!Consonant loss
+"d:0"
+!! __@RULENAME@__   pidiä:piän
+d:0 <=>  # Cns* [ i | a: | o | ä ] _ [ ä: | a: | e: | i ] (HarmDummy:) %^WGStem:0  ;
+!!€# pidä%^WGStem%>n
+!!€0 pi0ä0%>n
+
+"s:0"
+!! __@RULENAME@__   
+ s:0 <=>  [ u | u a | e ] _ s [ ä: | a: ( (HarmDummy:) %^A2O: %> i) | e: | i ] (HarmDummy:) %^WGStem:0  ;
+!!€# bussa%^WGStem%>l
+!!€0 bu0sa0%>l
+
+
+!"Disallow V3 after two consecutive realized vowels"
+! V3: /<= :Vow :0* :Vow :0* _ ;
+
+"Disallow a:u before a and %> i"
+a:u /<= _ a: %> i ;
+
+
+!!TESTS
+!echo 'A v r a a m {back}:0 > {aä}:a n' | hfst-pair-test src/phonology/olo-phon.compose.hfst
+!echo 'Avraam+N+Prop+Sg+Nom' | hfst-lookup src/morphology/lexicon.hfst
