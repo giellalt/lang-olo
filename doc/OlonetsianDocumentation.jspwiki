@@ -4,8 +4,8 @@
 !!! Dynamic documentation
 
 * [Links to generated source file documentation|Links.html]
-* Source files: [stems|https://gtsvn.uit.no/langtech/trunk/langs/olo/src/morphology/stems/]   
-  / [affixes|https://gtsvn.uit.no/langtech/trunk/langs/olo/src/morphology/affixes/] 
+* Source files: [stems|https://gtsvn.uit.no/langtech/trunk/langs/olo/src/fst/stems/]   
+  / [affixes|https://gtsvn.uit.no/langtech/trunk/langs/olo/src/fst/affixes/] 
   / [syntax|https://gtsvn.uit.no/langtech/trunk/langs/olo/src/syntax] 
   / [twolc|https://gtsvn.uit.no/langtech/trunk/langs/olo/src/phonology/olo-phon.twolc]   
   / [yaml|https://gtsvn.uit.no/langtech/trunk/langs/olo/test/src/gt-norm-yamls/]
@@ -14,7 +14,7 @@
 
 !!! Grammatical issues
 
-* [The tags that are in use|https://gtsvn.uit.no/langtech/trunk/langs/olo/src/morphology/root.lexc]   
+* [The tags that are in use|https://gtsvn.uit.no/langtech/trunk/langs/olo/src/fst/root.lexc]   
 * [A list of morphological tags|/lang/common/MorphologicalTags.html]
 
 !!!Using the analysers
