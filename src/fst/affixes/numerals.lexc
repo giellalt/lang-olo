@@ -1,0 +1,183 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@uit.no or feedback@divvun.no
+
+! ############################## !
+!! !!!Olonets numerals 
+! ############################## !
+
+!! !!!Numeral inflection
+!! Numeral inflection is like nominal, except that numerals compound in all
+!! forms which requires great amount of care in the inflection patterns.
+! FIXME: compounding
+
+! nominatives
+
+
+LEXICON NUM_CASE
++Gen:^WGStem%>n NUM_K ;
++All:^WGStem%>le NUM_K ;
++Abl:^WGStem%>lp%{aä%}i NUM_K ;
++Ela:^WGStem%>st%{aä%} NUM_K ;
++Ade:^WGStem%>l NUM_K ;
+
+LEXICON NUM_K
+K ;
+ARABICCOMPOUNDS ;
+
+
+LEXICON ARABICCOMPOUNDS   !!≈ * __@CODE@__  ! 1-osainen
++Use/NG: RHyph ; ! 3-
+
+
+
+
+
+!  Collection numbers
+! ---------------
+
+
+!LEXICON COLLTAG
+!          +N+Coll+Pl+Nom:%>%^DISIMPh       # ;
+!          +N+Coll+Pl+Acc:%>idie            # ;
+!          +N+Coll+Pl+Gen:%>%^DISIMPi       # ;
+!          +N+Coll+Pl+Ill:%>idie            # ;
+!          +N+Coll+Pl+Ine:%>inie            # ;
+!          +N+Coll+Pl+Ela:%>ijstie          # ;
+!          +N+Coll+Pl+Com:%>%^DISIMPigujmie # ;
+! +N+Coll+Pl+Com+Err/Orth:%>%^DISIMPigyjmie # ;
+!             +N+Coll+Ess:%>inie            # ;
+
+LEXICON dateyearcase_nullsuff_w_dot
+          +Sg+Nom: MARKDOT ;
+          +Sg+Gen: MARKDOT ;
+          +Sg+Acc: MARKDOT ;
+
+
+LEXICON dateyearcase_fullsuff
+          +Sg+Gen:%:n  #      ;
+ +Err/Orth+Sg+Gen:n  #      ;
+          +Sg+Ine:%:ssa  #      ;
+ +Err/Orth+Sg+Ine:ssa   #      ;
+          +Sg+Ela:%:sta  #      ;
+ +Err/Orth+Sg+Ela:sta   #      ;
+          +Sg+Ill:%:iin  #      ;
+ +Err/Orth+Sg+Ill:iin    #      ;
+      +Cmp/SplitR:%-   ENDLEX ;
+      +Cmp/SplitR:%–   ENDLEX ;
+
+
+
+
+!LEXICON ARABICCASES   !!≈ * __@CODE@__  to distinguish between 0 and oblique
+!  ARABICCASE0 ;
+!  ARABICCASE  ;
+
+LEXICON ARABICCASES   !!≈ * __@CODE@__  adds +Arab
++Arab: DIGITCASES ;
+
+LEXICON ARABICCASE   !!≈ * __@CODE@__  adds +Arab
+ +Arab:  DIGITCASE ;
+
+LEXICON ARABICCASE0   !!≈ * __@CODE@__  adds +Arab
+ +Arab:  DIGITCASE0 ;
+
+LEXICON DIGITCASES
+ DIGITCASES ;
+ DIGITCASE0 ;
+
+
+LEXICON DIGITCASE0
+      +Arab+Sg+Nom: # ;
+  +Cmp/SplitR:%:%- ENDLEX ;
+
+
+LEXICON DIGITCASE
+        +Arab+Sg+Gen:n       # ;
+        +Arab+Sg+Ill:iin      # ;
+        +Arab+Sg+Ine:ssa     # ; ! NRK:sne
+        +Arab+Sg+Ela:sta     # ; ! NRK:ste
+        +Arab+Sg+All:lla     # ; ! NRK:sne
+        +Arab+Sg+Abl:lta     # ; ! NRK:ste
+           +Arab+Ess:ina     # ; ! NBR:ine
+        +Arab+Pl+Nom:t       # ;
+        +Arab+Pl+Gen:ien       # ;
+        +Arab+Pl+Ill:ihin     # ;
+        +Arab+Pl+Ine:issa    # ;
+        +Arab+Pl+Ela:ista    # ;
+        +Arab+Pl+All:illa    # ;
+        +Arab+Pl+Abl:ilta    # ;
+        +Arab+Pl+Com:ine     # ;
+!ordinals
+
+LEXICON ARABICCASEORD
+      +Arab+Sg+Nom:%>s       # ;
+      +Arab+Sg+Gen:%>nnen      # ;
+      +Arab+Sg+Ill:%>nteen    # ;
+      +Arab+Sg+Ine:%>nnessa   # ;
+      +Arab+Sg+Ela:%>nnesta   # ;
+      +Arab+Sg+Ess:%>ntena    # ;
+      +Arab+Pl+Nom:%>nnet       # ;
+      +Arab+Pl+Gen:%>nsien       # ;
+      +Arab+Pl+Ill:%>nsiin    # ;
+      +Arab+Pl+Ine:%>nsissa    # ;
+      +Arab+Pl+Ela:%>nsista  # ;
+      +Arab+Pl+Com:%>nnine # ;
+
+LEXICON ARABICCASECOLL
+ +Arab+Pl+Nom:%>t       # ;
+! +Arab+Pl+Acc:%>sidie    # ;
+! +Arab+Pl+Gen:%>si       # ;
+! +Arab+Pl+Ill:%>sidie    # ;
+! +Arab+Pl+Ine:%>sinie    # ;
+! +Arab+Pl+Ela:%>sijstie  # ;
+! +Arab+Pl+Com:%>sigujmie # ;
+!    +Arab+Ess:%>sinie    # ;
+
+LEXICON ARABICCASEORD-ERR
+ARABICCASEORD ; ! XXX look at this
+      
+
+
+
+
+
+LEXICON yeartagpl
+          +Num+Sem/Year+Pl+Nom:        # ;
+          +Num+Sem/Year+Pl+Gen:        # ;
+! +Num+Sem/Year+Err/Orth+Pl+Ine:%:dinie # ;
+
+LEXICON dateyearcase
+      +Sg+Nom:        #      ;
+      +Sg+Gen:n       #      ;
+      +Sg+Ill:iin      #      ;
+      +Sg+Ine:ssa     #      ; ! NRK:sne
+      +Sg+Ela:sta     #      ; ! NRK:ste
+         +Ess:ine     #      ; ! NBR:ine
+      +Pl+Nom:t       #      ;
+      +Pl+Gen:ien       #      ;
+      +Pl+Ill:isiin     #      ;
+      +Pl+Ine:issa     #      ;
+      +Pl+Ela:ista    #      ;
+      +Pl+Com:ine #      ;
+  +Cmp/SplitR:%-      ENDLEX ;
+  +Cmp/SplitR:%–      ENDLEX ;
+
+
+LEXICON ROMNUMTAGOBL !
+      +Rom+Sg+Gen:n   # ; ! But here 123a 123
+      +Rom+Sg+Ill:iin  # ;
+      +Rom+Sg+Ine:ssa # ;
+      +Rom+Sg+Ela:sta # ;
+      +Rom+Sg+Com:ine # ;
+      +Rom+Sg+Ess:ina # ;
