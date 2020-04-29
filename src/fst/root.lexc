@@ -621,14 +621,12 @@ LEXICON Root
    quantifiers    ;  !!= * @CODE@
    verbs	  ;	     !!= * @CODE@
    rus-Cyrl-2-Lat-ProperNouns ;  !!= * @CODE@ Derived from urj-Cyrl
-
-Pronoun-types ;
-
-!Abbreviation ;	! stems/abbr.lexc
-!Acronym ;    	! stems/acro.lexc
- Punctuation ;
- Symbols     ;
- Exceptions ;  !!= * @CODE@
+   Pronoun-types ;
+   Abbreviation ;	! stems/abbr.lexc
+   Acronym ;    	! stems/acro.lexc
+   Punctuation ;
+   Symbols     ;
+   Exceptions ;  !!= * @CODE@
 
 !! NEWWORDS FILES
  A_NEWWORDS ;     !!= @CODE@ adjectives
@@ -637,11 +635,22 @@ Pronoun-types ;
  PROP_NEWWORDS ;     !!= @CODE@ proper nouns
  V_NEWWORDS ;     !!= @CODE@ verbs
 
+LEXICON Abbreviation
+Abbreviation-olo ;
+Abbreviation-smi ;
+
+LEXICON Acronym
+Acronym-olo ;
+Acronym-smi ;
+
+
+
+
 !! I INCLUDE SOME SMALL LEXICA HERE
 !! WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
-LEXICON CONJ_
-+Conj: # ;
+!LEXICON CONJ_
+!+Conj: # ;
 
 LEXICON CC_
 : # ;
@@ -656,10 +665,10 @@ LEXICON INTERJ_
 !LEXICON NUMERAL
 !+Num: # ;
 
-LEXICON NUMBERSUF
-: K;
-:%> CASESUF ;
-:%> ORDINAL ;
+!LEXICON NUMBERSUF
+!: K;
+!:%> CASESUF ;
+!:%> ORDINAL ;
 
 LEXICON ORDINAL
 +Ord+TYÄ:s K;
@@ -687,13 +696,16 @@ LEXICON PREP_
 LEXICON CASESUF
 #;
 
-LEXICON DEM
-#;
+!LEXICON DEM
+!#;
 
 LEXICON ACRONDELIMITER
 # ;
 
 LEXICON WORD-END
+# ;
+
+LEXICON ENDLEX
 # ;
 
 ! vim: set ft=xfst-lexc:

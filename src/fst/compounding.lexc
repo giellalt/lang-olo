@@ -1,8 +1,18 @@
 
 
-!LEXICON R
-!+Cmp#:# # ; ! For turning off compounding during testing
-! +Cmp#:# NounRoot ;
+
+LEXICON R
+ +Cmp#:0# nouns ; ! NounRoot ;
+ +Cmp/Hyph#:0#- propernouns ;
+
+
+LEXICON RHyph
+ +Cmp/Hyph#:0#- nouns ; ! evt restricting to NounRoot ;
+ +Cmp/Hyph#:0#- propernouns ;
+
+LEXICON RNum
+      +Use/Circ+Cmp/Hyph#:%-# nouns ; ! evt restricting to NounRoot ; ! For Num Cmp Noun, vi vil ikke ha Num Cmp Num 
+
 
 
 LEXICON ATTESTED-NOUN-STEM

@@ -26,20 +26,23 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
 			 compounding.lexc         \
-			 stems/abbreviations.lexc \
-			 stems/acronyms.lexc      \
-			 stems/exceptions.lexc    \
-			 stems/rus-Cyrl-2-Lat-propernouns.lexc 	\
+			 affixes/abbreviations.lexc  \
+			 affixes/acronyms.lexc  \
 			 affixes/adjectives.lexc  \
 			 affixes/adverbs.lexc     \
 			 affixes/clitics.lexc     \
 			 affixes/nouns.lexc       \
+			 affixes/numerals.lexc       \
 			 affixes/pronouns.lexc    \
 			 affixes/propernouns.lexc \
 			 affixes/quantifiers.lexc \
 			 affixes/rus-Cyrl-2-Lat-propernouns.lexc \
 			 affixes/symbols.lexc            \
 			 affixes/verbs.lexc	             \
+			 stems/$(GTLANG)-abbreviations.lexc \
+			 stems/$(GTLANG)-acronyms.lexc      \
+			 stems/exceptions.lexc    \
+			 stems/rus-Cyrl-2-Lat-propernouns.lexc 	\
 			 stems/adjectives_newwords.lexc  \
 			 stems/adverbs_newwords.lexc     \
 			 stems/nouns_newwords.lexc       \
@@ -75,6 +78,10 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/propernouns-toponyms.lexc   \
 			 $(srcdir)/stems/quantifiers.lexc   \
 			 $(srcdir)/stems/verbs.lexc \
+			 generated_files/smi-acronyms.lexc \
+			 generated_files/smi-abbreviations.lexc \
+			 generated_files/smi-digits.lexc \
+			 generated_files/arabic_roman_digits.lexc \
 			 generated_files/punctuation.lexc \
 			 generated_files/symbols.lexc
 
@@ -111,6 +118,16 @@ GT_DISTRO_SRCS=
 ### gle/ for an example of how this is used.
 
 GIELLA_LOCAL_TARGETS=
+
+generated_files/%.lexc: \
+			$(GIELLA_SHARED)/smi/src/fst/stems/%.lexc
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_V_GEN)cp -f $< $@
+
+generated_files/%.lexc: \
+			$(GIELLA_SHARED)/all-langs/src/fst/stems/%.lexc
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_V_GEN)cp -f $< $@
 
 ### END: Local processing: ###
 

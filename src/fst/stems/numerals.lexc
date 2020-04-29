@@ -3,6 +3,11 @@
 !! Numerals in the Livvi language are numbers.
 
 LEXICON Numerals
-numeral    Cases   ;
+yksi:y    NUM_YKSI   ;
+
+LEXICON NUM_YKSI
++Num+Sg+Nom:ksi NUM_K ;
++Num+Sg:hte NUM_CASE ;
+
 
 ! vim: set ft=xfst-lexc:
