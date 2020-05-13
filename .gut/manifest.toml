@@ -1,0 +1,35 @@
+[package]
+name = "olo"
+human_name = "Livvi"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.olo]
+filename = "olo-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-olo"
+platform = "windows"
+uuid = "4B4C328A-1C7F-40A0-8854-C17EB64DC8BD"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.olo"
+package = "speller-olo"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-olo-mso"
+platform = "windows"
+uuid = "6A340BF1-4D72-4D9B-9154-4209918910D5"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-olo"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
