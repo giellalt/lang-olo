@@ -1,0 +1,9 @@
+name = "Livvi"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.olo"
+
+[windows]
+system_product_code = "4B4C328A-1C7F-40A0-8854-C17EB64DC8BD"
+msoffice_product_code = "6A340BF1-4D72-4D9B-9154-4209918910D5"
