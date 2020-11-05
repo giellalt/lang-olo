@@ -22,7 +22,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/olodoc/index.html>
+-   <https://giellalt.uit.no/lang/olo/OlonetsianDocumentation.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
