@@ -27,6 +27,7 @@ do
  do
   echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-olo/src/generator-gt-norm.xfst
  done
+ rm -f $L_FILE
 done
 
 
