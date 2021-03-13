@@ -256,6 +256,7 @@ Question and Focus particles:
 
 
 
+Pmatch 2021-03-13 
 
 
 
@@ -355,7 +356,6 @@ And following triggers to control variation
 
 These are for developing underlying morphology rules
 
- * D1   
  * E1   
  * N1   
 
@@ -409,12 +409,17 @@ cardinal vs ordinal
  * @R.DECL-NX.PL@
 !!case
 
+Orthographical errors? 2021-03-13
+ * @R.ErrOrth.ON@
+
+Pmatch 2021-03-13
+
 
 Removal
  * @C.DECL-NX@
  * @C.DECL-CX@
  * @C.NUM-TYPE@ 
-
+ * @C.ErrOrth@
 
 !!!Lexicon Root
 
@@ -2195,6 +2200,8 @@ Reflexive verbs
 
  * __LEXICON VR_KUVITELLA __ kuvitellakseh:kuvittel !this will need work 2016-08-17
 
+ * __LEXICON VR_EBAEILLAE __ kuvitellakseh:kuvittel !this will need work 2016-08-17
+
  * __LEXICON VR_AVATA __ avatakseh:ava (typätäkseh:typpä)
 
  * __LEXICON VR_SUVAIJA __ suvaijakseh:suvai
@@ -2344,6 +2351,14 @@ HOW WILL THESE WORK
 
 
 HOW WILL THESE WORK
+
+
+
+
+
+
+
+
 
 
 

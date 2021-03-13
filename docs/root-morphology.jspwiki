@@ -245,6 +245,7 @@ Question and Focus particles:
 
 
 
+Pmatch 2021-03-13 
 
 
 
@@ -344,7 +345,6 @@ And following triggers to control variation
 
 These are for developing underlying morphology rules
 
- * D1   
  * E1   
  * N1   
 
@@ -398,12 +398,17 @@ cardinal vs ordinal
  * @R.DECL-NX.PL@
 !!case
 
+Orthographical errors? 2021-03-13
+ * @R.ErrOrth.ON@
+
+Pmatch 2021-03-13
+
 
 Removal
  * @C.DECL-NX@
  * @C.DECL-CX@
  * @C.NUM-TYPE@ 
-
+ * @C.ErrOrth@
 
 !!!Lexicon Root
 
