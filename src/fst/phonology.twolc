@@ -9,12 +9,12 @@ y
 Y
 ! MODIFIER LETTER APOSTROPHE 02BC
 ʼ
-
 ! Vowel harmony with "(t)a/ä"
 !
 !%{aäPar%}:0	!!= @CODE@  This is for the partitive and other vowel harmony not including diphthong phenomena
 %{aä%}:0
 
+! Note these two aoeInf and äöeInf are not is use, which I think is just as fine, as I see no rationale for it. TT.
  %{aoeInf%}:a	!!= @CODE@ Back vowel infinitive marker
  %{äöeInf%}:ä	!!= @CODE@ Front vowel infinitive marker
 
@@ -691,10 +691,13 @@ g:j <=> i _ [ a: ] (HarmDummy:) ( %> i ) %^WGStem:0 ;
 
 "g:v"
 !! __@RULENAME@__
-g:v <=> [ o | u ] _ [e |u] (HarmDummy:) %^WGStem:0 ;
+g:v <=> [ o | u ] _ (HarmDummy:) [e|u] (HarmDummy:) %^WGStem:0 ;
 !!jogi+N+Sg+Gen: __river/joki__
 !!€ joge%^WGStem%>n
 !!€ jove0%>n
+
+!!€ jog%{back%}e%^WGStem%>n
+!!€ jov0e0%>n
 
 
 
