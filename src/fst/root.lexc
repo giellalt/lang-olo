@@ -58,6 +58,21 @@ Multichar_Symbols
 
 
 
++Ad-A
++Arab
++Cmp
++Cmp/Hyph
++Cmp/SplitR
++Det
++Dyn
++Orth/Colloq
++Patr
++Rom
+
++V-Aux
++v1
++v2
+
 
 !! !!Useage
 !! The Usage extents are marked using following tags:
@@ -409,6 +424,16 @@ Multichar_Symbols
 +Sem/Obj_State
 +Sem/Substnc_Wthr
 +Sem/Time_Wthr
++Sem/Patr-Fem
++Sem/Patr-Mal
++Sem/Year
+
++Use/-PMatch
+
+
++CmpNP/First
++CmpNP/Last
++CmpNP/None
 
 !! semantic types of adverbs
 +Deg
@@ -596,6 +621,7 @@ N1   !!= * @CODE@
 @U.DECL-CX.PRL@
 @U.DECL-CX.TER@
 @U.DECL-CX.TRA@
+@U.DECL-CX.ESS@
 
 
 !! Removal
