@@ -851,16 +851,16 @@ LEXICON V_PÄITÄ !!= * __@CODE@__ päitä:päde
 !! !Verbs of the Finnish type 5
 
 LEXICON V_SUVAIJA !!= * __@CODE@__ suvaija:suvai
-: V-VV_05_SUVAIJA ;
+:%{back%} V-VV_05_SUVAIJA ;
 
 LEXICON V_SUVAIJA-SG3 !!= * __@CODE@__ suvaija:suvai
-: V-VV_05_SUVAIJA ;
+:%{back%} V-VV_05_SUVAIJA ;
 
 LEXICON V_SUVAIJA-3 !!= * __@CODE@__ suvaija:suvai
-: V-VV_05_SUVAIJA ;
+:%{back%} V-VV_05_SUVAIJA ;
 
 LEXICON V_EMÄNDÖIJÄ !!= * __@CODE@__ emändöijä:emändöi
-: V-VV_05_EMÄNDÖIJÄ ;
+:%{front%} V-VV_05_EMÄNDÖIJÄ ;
 
 !LEXICON V_EMÄNDÖIJÄ-SG3 !!= * __@CODE@__ emändöijä:emändöi
 !: V-VV_05_EMÄNDÖIJÄ ;
@@ -869,13 +869,13 @@ LEXICON V_EMÄNDÖIJÄ !!= * __@CODE@__ emändöijä:emändöi
 !: V-VV_05_EMÄNDÖIJÄ ;
 
 LEXICON V_MERKITÄ !!= * __@CODE@__ merkitä:merki
-: V-VV_05_MERKITÄ ;
+:%{front%} V-VV_05_MERKITÄ ;
 LEXICON V_MAINITA !!= * __@CODE@__ mainita:maini
-: V-VV_05_MAINITA ;
+:%{back%} V-VV_05_MAINITA ;
 !!= *  Incorrect forms are generated here
 
 LEXICON V_ALETA !!= * __@CODE@__ aleta:ale (alenov)
-: V-VV_06_BACK ;
+:%{back%} V-VV_06_BACK ;
 +Act:ne INDPRSSG1 ;
 +Act:ne INDPRSSG2 ;
 +Act:no INDPRSSG3_BACK ;
@@ -903,7 +903,7 @@ LEXICON V_ALETA !!= * __@CODE@__ aleta:ale (alenov)
 !: V-VV_06_BACK ;
 
 LEXICON V_VÄHETÄ !!= * __@CODE@__ vähetä:vähe (vähenöy)
-: V-VV_06_FRONT ;
+:%{front%} V-VV_06_FRONT ;
 +Act:ne INDPRSSG1 ;
 +Act:ne INDPRSSG2 ;
 +Act:nö INDPRSSG3_FRONT ;
@@ -928,7 +928,7 @@ LEXICON V_VÄHETÄ !!= * __@CODE@__ vähetä:vähe (vähenöy)
 !+Act:%>da CONDPRTPL3_DAnUs ;
 
 LEXICON V_VÄHETÄ-SG3 !!= * __@CODE@__ vähetä:vähe (vähenöy)
-: V-VV_06_FRONT ;
+:%{front%} V-VV_06_FRONT ;
 
 
 LEXICON V_SUATA !!= * __@CODE@__ suata:suva (suvaiččov)
@@ -1826,10 +1826,10 @@ LEXICON V-VV_06_BACK
 +Act: IMPRT_kka ;
 +Act: IMPRTPL3_ttahes ;
 
- ACT-PRSPRC_AVUAJU ;
- ACT-PRFPRC_nnuH ;
- PSS-PRSPRC_ttavu ;
- PSS-PRFPRC_ttu ;
+: ACT-PRSPRC_AVUAJU ;
+: ACT-PRFPRC_nnuH ;
+: PSS-PRSPRC_ttavu ;
+: PSS-PRFPRC_ttu ;
 
 :ne M-INF_BACK	      ;
 +Inf:%>t%{aä%} K ;
@@ -1859,10 +1859,10 @@ LEXICON V-VV_06_FRONT
 +Act: IMPRT_kkä ;
 +Act: IMPRTPL3_ttähes ;
 
- ACT-PRSPRC_KERIÄJY ;
- ACT-PRFPRC_nnyH ;
- PSS-PRSPRC_ttävy ;
- PSS-PRFPRC_tty ;
+: ACT-PRSPRC_KERIÄJY ;
+: ACT-PRFPRC_nnyH ;
+: PSS-PRSPRC_ttävy ;
+: PSS-PRFPRC_tty ;
 
 :ne M-INF_FRONT	      ;
 +Inf:%>t%{aä%} K ;
