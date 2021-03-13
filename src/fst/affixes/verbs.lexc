@@ -135,7 +135,8 @@ LEXICON V_OTTUA-SG3 !!= * __@CODE@__ ottua:otta
 :%{back%} INDPRSCONNEG_WEAK ;
 :%{back%} INDPRTSG3 ;
 :%{back%} INDPRTCONNEG_nuh ;
-+Inf:%{back%}%^A2U%>a K ;
+!+Inf:%{back%}%^A2U%>a K ;
+:%{back%} INF_A ;
 
 LEXICON V_OTTUA-3 !!= * __@CODE@__ ottua:otta
 :%{back%}%^WGStem  V-VV_01_USUALLY-WEAK ;
@@ -648,7 +649,10 @@ LEXICON V_VIERTÄ !!= * __@CODE@__ viertä:vier
 !! gradation: yes
 
 LEXICON V_KUVITELLA !!= * __@CODE@__ kuvitella:kuvittel
-: V-VV_KUVITELLA ;
+:%{back%} V-VV_KUVITELLA ;
+
+LEXICON V_EZITELLAE !!= * __@CODE@__ ezitellä:ezittel
+:%{front%} V-VV_KUVITELLA ;
 
 
 LEXICON V_TYPÄTÄ !!= * __@CODE@__ typätä:typpä
@@ -1131,6 +1135,9 @@ LEXICON VR-SHORTSTEM_
 +Act+Ind+Prt+ConNeg+Pl1+Rc:%>%{lnrs%}%{uy%}h	K	;
 +Act+Ind+Prt+ConNeg+Pl2+Rc:%>%{lnrs%}%{uy%}h	K	;
 +Act+Ind+Prt+ConNeg+Pl3+Rc:%>tt%{uy%}	K	;
+
++Inf+Rc:%>j%{aä%}kseh K ; !2021-03-13
+
 !LEXICON VR-SHORTSTEM_BACK
 !+Act+Ind+Prs+Pl3+Rc:%^WGStem%>jah	K	;
 !+Act+Ind+Prs+ConNeg+RcSg:%^WGStem%>	K	;
@@ -1584,7 +1591,7 @@ LEXICON V-VV_KUVITELLA !!= * __@CODE@__ kuvitella:kuvittel
 :%^WGStem PSS-PRFPRC_DU ;
 +Use/NG:%^WGStem PSS-PRFPRC_tU ;
 :%^VOICEe M-INF ;
-+Inf:%^WGStem%>d%{aä%}%^WGStem K ;
++Inf:%^WGStem%>%{lnrs%}%{aä%}%^WGStem K ;
 +Use/NG+Inf:%^WGStem%>ta K ;
 
 LEXICON V-VV_04_BACK
