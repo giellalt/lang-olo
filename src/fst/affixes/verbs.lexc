@@ -1068,26 +1068,29 @@ LEXICON VR_NÄHTÄ !!= * __@CODE@__ nähtä:nä
 
 
 LEXICON VR_TULLA !!= * __@CODE@__ tuliekseh:tul !this will need work 2013-10-23
-	VR_03 ;
+:%{back%}	VR_03 ;
 
 LEXICON VR_PESTÄ !!= * __@CODE@__ tuliekseh:tul !this will need work 2013-10-23
-	VR_03 ;
+:%{front%}	VR_03 ;
 
 LEXICON VR_KUVITELLA !!= * __@CODE@__ kuvitellakseh:kuvittel !this will need work 2016-08-17
-	VR_03_kuvitellakseh ;
+:%{back%}	VR_03_KUVITELLAKSEH ;
+
+LEXICON VR_EBAEILLAE !!= * __@CODE@__ kuvitellakseh:kuvittel !this will need work 2016-08-17
+:%{front%}	VR_03_KUVITELLAKSEH ;
 
 LEXICON VR_AVATA !!= * __@CODE@__ avatakseh:ava (typätäkseh:typpä)
- VR_ ;
+:%{back%} VR_ ;
 
 LEXICON VR_SUVAIJA !!= * __@CODE@__ suvaijakseh:suvai
 !Verbs of the Finnish type 5
-:čče VR-LONGSTEM_ ;
- VR-SHORTSTEM_ ;
+:%{back%}čče VR-LONGSTEM_ ;
+:%{back%} VR-SHORTSTEM_ ;
 
 LEXICON VR_EMÄNDÖIJÄ !!= * __@CODE@__ emändöijäkseh:emändöi
 !Verbs of the Finnish type 5
-:čče VR-LONGSTEM_ ;
- VR-SHORTSTEM_ ;
+:%{front%}čče VR-LONGSTEM_ ;
+:%{front%} VR-SHORTSTEM_ ;
 
 !LEXICON VR_MERKITÄ !!= * __@CODE@__ merkitäkseh:merki
 !!Verbs of the Finnish type 5
@@ -1096,8 +1099,8 @@ LEXICON VR_EMÄNDÖIJÄ !!= * __@CODE@__ emändöijäkseh:emändöi
 
 LEXICON VR_MAINITA !!= * __@CODE@__ mainitakseh:maini
 !Verbs of the Finnish type 5
-:čče VR-LONGSTEM_ ;
- VR-SHORTSTEM_ ;
+:%{back%}čče VR-LONGSTEM_ ;
+:%{back%} VR-SHORTSTEM_ ;
 
 
 
@@ -1946,9 +1949,9 @@ LEXICON VR_01-BACK-LONGSTEM-USUALLY-STRONG_
 LEXICON VR_01-BACK-SHORTSTEM-USUALLY-STRONG_
  VR_INDPRTCONNEG_nUhes ;
 
- VR_CONDPRT_nus ;
+ VR_CONDPRT_nUs ;
  VR_POT_N_BACK ;
- VR_IMPRT_kka ;
+ VR_IMPRT_kkA ;
  RCPRFPRC_nuHes ;
 +Inf+Rc:%>takseh K ;
 
@@ -2057,9 +2060,33 @@ LEXICON VR_03-SHORTSTEM_
  RCPRFPRC_nUHes ;
 +Inf+Rc:%>t%{aä%}kseh K ;
 
-LEXICON VR_03_kuvitellakseh
+LEXICON VR_03_KUVITELLAKSEH 
 :e     VR_03-LONGSTEM_ ;
-:%^WGStem     VR_03-SHORTSTEM_ ;
+     VR_03-SHORTSTEM_LNRS ;
+
+!!
+LEXICON VR_03-SHORTSTEM_LNRS
+ VR_INDPRSPL3_dAhes ;
+
+ VR_INDPRTPL3_tihes ;
+
+VR_INDPRTCONNEG_nUhes ;
+ VR_INDPRTCONNEGPL3_DUhes ;
+
+ VR_CONDPRSPL3_DAzihes ;
+ VR_CONDPRT_nUs ;
+ VR_CONDPRTPL3_DAhUzihes ;
+ VR_POT_N ;
+ VR_POTPL3_DAnehes ;
+ VR_IMPRT_KA ;
+ VR_IMPRTPL3_DAhes ;
+
+ RCPRFPRC_nUHes ;
++Inf+Rc:%>%{lnrs%}%{aä%}kseh K ;
+
+
+!!
+
 
 
 !! !!Nonfinites
@@ -2315,8 +2342,8 @@ LEXICON INDPRTCONNEGPL3_EttU
 +Ind+Prt+ConNeg+Pl3:%^E1%>tt%{uy%} K ;
 LEXICON INDPRTCONNEGPL3_Ettu
 +Ind+Prt+ConNeg+Pl3:%^E1%>ttu K ;
-LEXICON INDPRTCONNEGPL3_Etty
-+Ind+Prt+ConNeg+Pl3:%^E1%>tty K ;
+!LEXICON INDPRTCONNEGPL3_Etty
+!+Ind+Prt+ConNeg+Pl3:%^E1%>tty K ;
 
 !! !INDICATIVE PRETERITE REFLEXIVE
 
@@ -2719,9 +2746,9 @@ LEXICON POTPL3_DAnneh
 LEXICON POTPL3_Danneh
 +Pot+Pl3:%>danneh K ;
 +Pot+ConNeg+Pl3:%>danne K ;
-LEXICON POTPL3_Dänneh
-+Pot+Pl3:%>dänneh K ;
-+Pot+ConNeg+Pl3:%>dänne K ;
+!LEXICON POTPL3_Dänneh
+!+Pot+Pl3:%>dänneh K ;
+!+Pot+ConNeg+Pl3:%>dänne K ;
 
 LEXICON POTPL3_DAneh
 +Pot+Pl3:%>d%{aä%}%>neh K ;
@@ -2733,12 +2760,12 @@ LEXICON POTPL3_Däneh
 +Pot+Pl3:%>dä%>neh K ;
 +Pot+ConNeg+Pl3:%>dä%>ne K ;
 
-LEXICON POTPL3_taneh
-+Pot+Pl3:%^WGStem%>taneh K ;
-+Pot+ConNeg+Pl3:%^WGStem%>tane K ;
-LEXICON POTPL3_täneh
-+Pot+Pl3:%^WGStem%>täneh K ;
-+Pot+ConNeg+Pl3:%^WGStem%>täne K ;
+!LEXICON POTPL3_taneh
+!+Pot+Pl3:%^WGStem%>taneh K ;
+!+Pot+ConNeg+Pl3:%^WGStem%>tane K ;
+!LEXICON POTPL3_täneh
+!+Pot+Pl3:%^WGStem%>täneh K ;
+!+Pot+ConNeg+Pl3:%^WGStem%>täne K ;
 
 LEXICON POTPL3_tAnneh
 +Pot+Pl3:%^WGStem%>t%{aä%}nneh K ;
@@ -2849,15 +2876,15 @@ LEXICON IMPRT_KA
 +Imprt+ConNeg+Pl1:%>k%{ui%}%{aä%}mm%{oö%} K ;
 +Imprt+ConNeg+Pl2:%>k%{ui%}%{aä%} K ;
 +Imprt+ConNeg+Pl2:%>k%{ui%}%{aä%}tt%{oö%} K ;
-LEXICON IMPRT_Ka
-+Imprt+Sg3:%>kah K ;
-+Imprt+Pl1:%>kuammo K ;
-+Imprt+Pl2:%>kua K ;
-+Imprt+Pl2:%>kuatto K ;
-+Imprt+ConNeg+Sg3:%>kah K ;
-+Imprt+ConNeg+Pl1:%>kuammo K ;
-+Imprt+ConNeg+Pl2:%>kua K ;
-+Imprt+ConNeg+Pl2:%>kuatto K ;
+!LEXICON IMPRT_Ka
+!+Imprt+Sg3:%>kah K ;
+!+Imprt+Pl1:%>kuammo K ;
+!+Imprt+Pl2:%>kua K ;
+!+Imprt+Pl2:%>kuatto K ;
+!+Imprt+ConNeg+Sg3:%>kah K ;
+!+Imprt+ConNeg+Pl1:%>kuammo K ;
+!+Imprt+ConNeg+Pl2:%>kua K ;
+!+Imprt+ConNeg+Pl2:%>kuatto K ;
 LEXICON IMPRT_Kä
 +Imprt+Sg3:%>käh K ;
 +Imprt+Pl1:%>kiämmö K ;
@@ -3110,12 +3137,12 @@ LEXICON ACT-PRFPRC_nnyH
 LEXICON  PSS-PRFPRC_DU
 +Pss+PrfPrc:%>d%{uy%} K ;
 +Pss+PrfPrc:%>d%{uy%} NMN_LUGU/IDY ;
-LEXICON  PSS-PRFPRC_Du
-+Pss+PrfPrc:%>du K ;
-+Pss+PrfPrc:%>du A_LUGU ;
-LEXICON  PSS-PRFPRC_Dy
-+Pss+PrfPrc:%>dy K ;
-+Pss+PrfPrc:%>dy A_IDY ;
+!LEXICON  PSS-PRFPRC_Du
+!+Pss+PrfPrc:%>du K ;
+!+Pss+PrfPrc:%>du A_LUGU ;
+!LEXICON  PSS-PRFPRC_Dy
+!+Pss+PrfPrc:%>dy K ;
+!+Pss+PrfPrc:%>dy A_IDY ;
 
 LEXICON  PSS-PRFPRC_tU
 +Pss+PrfPrc:%>t%{uy%} K ;
@@ -3160,10 +3187,10 @@ LEXICON RCPRFPRC_nyHes
 !+RcPrfPrc:%^WGStem%>n%{lnrs%}%{uy%}hes K ;
 !+RcPrfPrc+Err/Orth:%^WGStem%>n%{lnrs%}%{uy%}tes K ;
 
-LEXICON  RCPRFPRC_Duhes
-+RcPrfPrc+Pl3:%>duhes K ;
-LEXICON  RCPRFPRC_Dyhes
-+RcPrfPrc+Pl3:%>dyhes K ;
+!LEXICON  RCPRFPRC_Duhes
+!+RcPrfPrc+Pl3:%>duhes K ;
+!LEXICON  RCPRFPRC_Dyhes
+!+RcPrfPrc+Pl3:%>dyhes K ;
 
 !LEXICON  RCPRFPRC_ttUhes
 !+RcPrfPrc+Pl3:%^WGStem%>tt%{uy%} K ;

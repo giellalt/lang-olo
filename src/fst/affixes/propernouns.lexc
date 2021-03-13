@@ -40,9 +40,9 @@ LEXICON PROP_KALA !!= @CODE@
 !! Plural stem in oi
 +Prop:%{back%} NMN_KALA ;
 
-LEXICON PROP-FEM_KALA !!= @CODE@ 
-+Prop+Sem/Fem:%{back%} NMN_KALA ;
-+Prop+Sem/Fem: HUMAN-PROP-DERIVATION ;
+!LEXICON PROP-FEM_KALA !!= @CODE@ 
+!+Prop+Sem/Fem:%{back%} NMN_KALA ;
+!+Prop+Sem/Fem: HUMAN-PROP-DERIVATION ;
 
 !LEXICON PROP_KALA_MAL !!= @CODE@ 
 !+Prop+Sem/Mal:%{back%} NMN_KALA ;
@@ -142,12 +142,12 @@ LEXICON PROP_JÄLGI-PL !!= @CODE@
 !+Prop+Sem/Plc:%{front%} NMN_JÄLGI ;
 
 
-LEXICON PROP_KIELI !!= @CODE@ kieli:kiel
-!! Gradation NA
-!! Vowel Harmony Front
-!! Stem Vowel i/0/e
-!! Plural stem in i
-+Prop:%{front%} NMN_SUARI/KIELI ;
+!LEXICON PROP_KIELI !!= @CODE@ kieli:kiel
+!!! Gradation NA
+!!! Vowel Harmony Front
+!!! Stem Vowel i/0/e
+!!! Plural stem in i
+!+Prop:%{front%} NMN_SUARI/KIELI ;
 
 !LEXICON PROP-PLC_KIELI !!= @CODE@ kieli:kiel
 !+Prop+Sem/Plc:%{front%} NMN_SUARI/KIELI ;
@@ -388,8 +388,8 @@ LEXICON PROP-PLC_TVER !!= __@CODE@__ Tver:Tver
 
 LEXICON PROP_TAIGIN
 +Prop:   NMN_TAIGIN  ;
-LEXICON PROP-MAL_TAIGIN
-+Prop+Sem/Mal:   NMN_TAIGIN  ;
+!LEXICON PROP-MAL_TAIGIN
+!+Prop+Sem/Mal:   NMN_TAIGIN  ;
 
 LEXICON PROP-PLC_TAIGIN !!= __@CODE@__
 +Prop+Sem/Plc:%{back%} NMN_TAIGIN  ;
@@ -399,8 +399,8 @@ LEXICON PROP-PLC_TAIGIN !!= __@CODE@__
 !LEXICON PROP_TOVESTEH !!= __@CODE@__ tovesteh:tovesteh
 !+Prop:%{front%} NMN_TOVESTEH/PEREH ;
 
-LEXICON PROP-PLC_PEREH !!= __@CODE@__ pereh:pereh
-+Prop+Sem/Plc:%{front%} NMN_TOVESTEH/PEREH ;
+!LEXICON PROP-PLC_PEREH !!= __@CODE@__ pereh:pereh
+!+Prop+Sem/Plc:%{front%} NMN_TOVESTEH/PEREH ;
 LEXICON PROP_PEREH !!= __@CODE@__ pereh:pereh
 +Prop:%{front%} NMN_TOVESTEH/PEREH ;
 

@@ -429,6 +429,7 @@ Multichar_Symbols
 +Sem/Year
 
 +Use/-PMatch
++Use/PMatch !! Pmatch 2021-03-13 
 
 
 +CmpNP/First
@@ -545,7 +546,7 @@ ZD1	  !!= * @CODE@
 
 !! These are for developing underlying morphology rules
 
-D1   !!= * @CODE@
+!D1   !!= * @CODE@ is this needed any where? 2021-03-13 Jaska the smi abbreviations has BD1:BD1
 E1   !!= * @CODE@
 N1   !!= * @CODE@
 
@@ -623,12 +624,18 @@ N1   !!= * @CODE@
 @U.DECL-CX.TRA@
 @U.DECL-CX.ESS@
 
+!! Orthographical errors? 2021-03-13
+@R.ErrOrth.ON@ !!≈ * @CODE@
+
+!! Pmatch 2021-03-13
+@P.Pmatch.Backtrack@
+
 
 !! Removal
 @C.DECL-NX@ !!≈ * @CODE@
 @C.DECL-CX@ !!≈ * @CODE@
 @C.NUM-TYPE@ !!≈ * @CODE@ 
-
+@C.ErrOrth@ !!≈ * @CODE@
 
 !! !!!Lexicon Root
 
