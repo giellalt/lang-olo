@@ -496,10 +496,10 @@ Multichar_Symbols
  %{lnrs%}  !!= * @CODE@ e.g. in perfect participles
  %{dtlnr%} !!= * @CODE@ e.g. infinitive and Ind+Prs+Pl3
 
-!! And following triggers to control variation
+!! And following triggers to control variation 
 
- %{front%}     !!= * @CODE@
- %{back%}	     !!= * @CODE@
+ %{front%}     !!= * @CODE@ front harmony until harmony boundary, i.e. word boundary
+ %{back%}	     !!= * @CODE@ back harmony until harmony boundary, i.e. word boundary
  %>		     !! * %>
  %^DEVOICE   !!= * @CODE@
  %^VOICE     !!= * @CODE@  pestä: pezen
