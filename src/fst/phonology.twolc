@@ -12,7 +12,8 @@ Y
 ! Vowel harmony with "(t)a/ä"
 !
 !%{aäPar%}:0	!!= @CODE@  This is for the partitive and other vowel harmony not including diphthong phenomena
-%{aä%}:0
+%{aä%}:a
+%{aä%}:ä
 
 ! Note these two aoeInf and äöeInf are not is use, which I think is just as fine, as I see no rationale for it. TT.
  %{aoeInf%}:a	!!= @CODE@ Back vowel infinitive marker
@@ -281,10 +282,16 @@ Rules
 "%{aä%}:a"
 !! __@RULENAME@__
  %{aä%}:a <=> BHarm (%>) _ ;
+!! kuvitella+V+Inf: __imagine/kuvitella__
+!!€ kuvittel%{back%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
+!!€ kuvi0tel00%>la0
 
 "%{aä%}:ä"
 !! __@RULENAME@__
  %{aä%}:ä <=> FHarm (%>) _ ;
+!! ezitellä+V+Inf: __present/esitellä__
+!!€ ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
+!!€ ezi0tel00%>lä0
 
 
 ! ! Vowel harmony suffixes Back
@@ -370,7 +377,10 @@ Rules
 "%{aäoeö%}:ä"
 !! __@RULENAME@__
 %{aäoeö%}:ä <=> [ä:] (%{front%}:) %> _ ;
- 
+!! heittiä+V+Inf: __throw/heittää__
+!!€ heittä%{front%}%>%{aäoeö%}
+!!€ heitti0%>ä
+
 "%{aäoeö%}:o"
 !! __@RULENAME@__
 %{aäoeö%}:o <=> [u| o:] (%{back%}:) %> _ ;
@@ -837,9 +847,12 @@ d:n <=>
 
 "ln:ll in prtprc"
 !! __@RULENAME@__  
-%{lnrs%}:l <=> l (HarmDummy:) (%^WGStem:) %> _ (%{uy%}:) (%^WGStem:)  ;
+%{lnrs%}:l <=> l (HarmDummy:) (%^WGStem:) %> _ (%{uy%}:|%{aä%}:) (%^WGStem:)  ;
 !!€ tul%>%{lnrs%}%{uy%}h
 !!€ tul%>luh
+!! ezitellä+V+Inf: __present/esitellä__
+!!€ ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
+!!€ ezi0tel00%>lä0
 
 "sn:ss in prtprc"
 !! __@RULENAME@__  
@@ -912,6 +925,9 @@ g:0 <=>
  t:0 <=>
   _ t [ %{uy%}: | u | y | %{aäuyiØ%}: |Vow: ] (HarmDummy:) %^WGStem:0  ;
  Vow: _ t [ Vow: (%> i)| e h | Vow: Cns: ] (HarmDummy:) %^WGStem:0  ;
+!! ezitellä+V+Inf: __present/esitellä__
+!!€ ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
+!!€ ezi0tel00%>lä0
 ! [ # Cns* Vow | # Cns* Vow [ Vow - [ i | u | y ] ] | Vow h [ y | u ] ] _  GRC ;
 !2013-04-29!        [ #: Cns*  Vow+ [ h | (r) t ] | Vow ( %^WGStem:0 %> ) t | Cns* Vow+ Cns+ Vow+ ( n ) t | Vow t ] _  [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
 !2013-04-29!        t _ Vow l %^WGStem:0 ; ! ottel- to otel-
@@ -972,5 +988,5 @@ a:u /<= _ a: %> i ;
 
 
 !!TESTS
-!echo 'A v r a a m {back}:0 > {aä}:a n' | hfst-pair-test src/phonology/olo-phon.compose.hfst
+!echo 'A v r a a m {back}:0 > {aä}:a n' | hfst-pair-test src/fst/phonology.compose.hfst
 !echo 'Avraam+N+Prop+Sg+Nom' | hfst-lookup src/morphology/lexicon.hfst
