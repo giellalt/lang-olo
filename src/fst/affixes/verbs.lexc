@@ -1460,6 +1460,8 @@ LEXICON V-VV_03_Harm-Neutr_VOWEL-STEM
 +Act:%^VOICE INDPRTPL2     ;
 :%^VOICEi ACT-PRSPRC_OSTAI ;
 :%^VOICEe M-INF ;
++Inf:%^WGStem%>%{lnrs%}%{aä%}%^WGStem K ; ! Trond
++Use/NG+Inf:%^WGStem%>tä K ;
 
 LEXICON  V-VV_03_Harm-Neutr_CONSONANT-STEM
 +Act: INDPRTPL3_dih     ;
