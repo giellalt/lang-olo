@@ -295,10 +295,10 @@ symbols in the lexicon files:
  *  %{lnrs%}   e.g. in perfect participles
  *  %{dtlnr%}  e.g. infinitive and Ind+Prs+Pl3
 
-And following triggers to control variation
+And following triggers to control variation 
 
- *  %{front%}     
- *  %{back%}	     
+ *  %{front%}      front harmony until harmony boundary, i.e. word boundary
+ *  %{back%}	      back harmony until harmony boundary, i.e. word boundary
 * %>
  *  %^DEVOICE   
  *  %^VOICE       pestä: pezen
@@ -2610,7 +2610,7 @@ Right context for gradation
 **%{aä%}:a**
 kuvitella+V+Inf: **imagine/kuvitella**
 * *kuvittel%{back%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
-* *kuvi0tel00%>lä0*
+* *kuvi0tel00%>la0*
 
 **%{aä%}:ä**
 ezitellä+V+Inf: **present/esitellä**

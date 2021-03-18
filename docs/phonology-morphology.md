@@ -103,7 +103,7 @@ Right context for gradation
 **%{aä%}:a**
 kuvitella+V+Inf: **imagine/kuvitella**
 * *kuvittel%{back%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
-* *kuvi0tel00%>lä0*
+* *kuvi0tel00%>la0*
 
 **%{aä%}:ä**
 ezitellä+V+Inf: **present/esitellä**
