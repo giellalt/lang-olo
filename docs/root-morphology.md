@@ -295,10 +295,10 @@ symbols in the lexicon files:
  *  %{lnrs%}   e.g. in perfect participles
  *  %{dtlnr%}  e.g. infinitive and Ind+Prs+Pl3
 
-And following triggers to control variation
+And following triggers to control variation 
 
- *  %{front%}     
- *  %{back%}	     
+ *  %{front%}      front harmony until harmony boundary, i.e. word boundary
+ *  %{back%}	      back harmony until harmony boundary, i.e. word boundary
 * %>
  *  %^DEVOICE   
  *  %^VOICE       pestä: pezen
