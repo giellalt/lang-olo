@@ -18,6 +18,11 @@
 
 Multichar_Symbols
 
++Ex/N	!!= * __@CODE@__ - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
++Ex/A	!!= * __@CODE@__ - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
++Ex/V	!!= * __@CODE@__ - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+
+
 !! The morphological analyses of wordforms of Livvi are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
@@ -473,6 +478,7 @@ Multichar_Symbols
  +V→N 	    !!= * @CODE@
  +V→V 	    !!= * @CODE@
  +V→A	    !!= * @CODE@
+ +Der	    !!= * @CODE@
  +Der/Tostu !!= * @CODE@ with numerals 11-19
  +Der/xxx   !!= * @CODE@
  +Der/Rc   !!= * @CODE@ used in verbs for deriving reflexive conjugation
