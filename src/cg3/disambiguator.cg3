@@ -78,7 +78,12 @@ LIST Attr = Attr ; # ?
 LIST Rel = Rel ;
 LIST Interr = Interr ;
 LIST Card = Card ;
-LIST Cmpnd = Cmpnd ;
+LIST Cmp = Cmp ;
+LIST Cmp/Hyph = Cmp/Hyph ;
+LIST Cmp/SgGen = Cmp/SgGen ;
+LIST Cmp/Attr = Cmp/Attr ;
+LIST Cmp/SgNom = Cmp/SgNom ;
+
 
 #!! !Numerus
 LIST Pers = Pers ;
@@ -444,24 +449,24 @@ SET S-BOUNDARY2 = Interr OR Rel OR ("miksi") OR ("mutta") OR ("sitten") + CC OR 
 # NP boundary xxx*
 # ----------- 
 SET CNOUN = N - Prop;
-SET HNOUN = N - Cmpnd ;
+SET HNOUN = N - Cmp ;
 
 
 
 SET NP = N OR A ;                      # anything that can take except numerals
 SET NP-HEAD        = Pron OR HNOUN - ("hyvä") ;
-SET NP-HEAD-SG     = SGPRON OR N + Sg OR A + Sg - Cmpnd  - Dem - ("hyvä");
-SET NP-HEAD-PL     = PLPRON OR N + Pl OR A + Pl - Cmpnd  - Dem - ("hyvä");
-SET NP-HEAD-SG-NOM = SGPRON + Nom OR NSgNom OR ASgNom - ("hyvä") - Cmpnd ;
-SET NP-HEAD-PL-NOM = PLPRON + Nom OR NPlNom OR APlNom - Cmpnd  - ("hyvä");
+SET NP-HEAD-SG     = SGPRON OR N + Sg OR A + Sg - Cmp  - Dem - ("hyvä");
+SET NP-HEAD-PL     = PLPRON OR N + Pl OR A + Pl - Cmp  - Dem - ("hyvä");
+SET NP-HEAD-SG-NOM = SGPRON + Nom OR NSgNom OR ASgNom - ("hyvä") - Cmp ;
+SET NP-HEAD-PL-NOM = PLPRON + Nom OR NPlNom OR APlNom - Cmp  - ("hyvä");
 SET NP-HEAD-NOM    = NP-HEAD-SG-NOM OR NP-HEAD-PL-NOM ;
-SET NP-HEAD-ACC    = Pron + Acc OR N + Acc OR A + Acc - Cmpnd - Dem - ("hyvä");
-SET NP-HEAD-GEN    = Pron + Gen OR NGen OR A + Gen - Cmpnd - Dem - ("hyvä");
+SET NP-HEAD-ACC    = Pron + Acc OR N + Acc OR A + Acc - Cmp - Dem - ("hyvä");
+SET NP-HEAD-GEN    = Pron + Gen OR NGen OR A + Gen - Cmp - Dem - ("hyvä");
 
 # why gen?
 #SET PRE-NP-HEAD = (Prop Attr) OR Prop + (@>N) OR (A Attr) OR (Abbr Attr) OR ("hyvä") OR Pron + Pers + Gen OR NGen OR 
 SET PRE-NP-HEAD = Prop + Gen OR Prop + (@>N) OR A OR Abbr + Gen OR ("hyvä") OR Pron + Pers + Gen OR NGen OR 
-         Num OR Cmpnd OR CC OR Pron + Dem OR Pron + Refl + Gen OR Pron + Indef OR 
+         Num OR Cmp OR CC OR Pron + Dem OR Pron + Refl + Gen OR Pron + Indef OR 
          PrfPrc + (@>N) OR PrsPrc OR Ord OR PCP ;
          # The strict version of items that can only be premodifiers, not parts of the predicate
  
@@ -706,9 +711,9 @@ SET ALL_SGPRON = Sg1 OR Sg2 OR Sg3 OR Sg ;
 
 SET CNOUN = N - Prop;
 
-SET HNOUN = N - Cmpnd ;
+SET HNOUN = N - Cmp ;
 
-#SET HNOUN-NOM = NNom - Cmpnd ; not used
+#SET HNOUN-NOM = NNom - Cmp ; not used
 
 #SET N-NOT-GEN = N - Gen ; not used
 
@@ -2073,10 +2078,13 @@ REMOVE Pl + POSS_SUFF (0 Sg)(*0 Pron + Pers + SGa BARRIER S-BOUNDARY);
 
 
 
+REMOVE SUB:1 Cmp/SgGen (0/* Cmp/SgNom) ;	#This for HFST
+REMOVE SUB:1 A - Cmp/Attr (0/* Cmp/Attr) ;	#This for HFST
+REMOVE SUB:1 Prop + Attr (0/* Cmp/Hyph) ; # This for HFST
 
+REMOVE:RemoveAllCmp SUB:1 Cmp (0/* Cmp);
 
-
-
+REMOVE:X @X ;
 
 
 
