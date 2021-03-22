@@ -4,6 +4,11 @@
 ## Multichar symbols
 
 
+ * **+Ex/N	** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+ * **+Ex/A	** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+ * **+Ex/V	** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+
+
 The morphological analyses of wordforms of Livvi are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -273,6 +278,7 @@ source and target part-of-speech.
  *  +V→N 	    
  *  +V→V 	    
  *  +V→A	    
+ *  +Der	    
  *  +Der/Tostu  with numerals 11-19
  *  +Der/xxx   
  *  +Der/Rc    used in verbs for deriving reflexive conjugation
