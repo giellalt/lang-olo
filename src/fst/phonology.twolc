@@ -45,7 +45,7 @@ Y
 
 ! in verb type V_AVATA
 !A2:a
-A2:ä
+!A2:ä !Trond: Not in use.
 !A2:o
 !A2:ö
 
@@ -450,17 +450,19 @@ Rules
 !!€ lʼyk0ä00%>kkiämmö
 !! }}}
 
-"A2:a"
+! The A2 block not in use, therefore uutkommented. Trond.
+!"A2:a"
 !! __@RULENAME@__
-A2:a <=> [ a: ] %{back%}: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
+!A2:a <=> [ a: ] %{back%}: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
+!
+!"A2:u"
+!! __@RULENAME@__
+!A2:u <=>  u: %{back%}: %> _ ( %^WGStem:0 ) [ # | %>  ];
+!
+!"A2:y"
+!! __@RULENAME@__
+!A2:y <=> [ y: ] %{front%}: %> _ ( %^WGStem:0 ) [ # | %>  ];
 
-"A2:u"
-!! __@RULENAME@__
-A2:u <=>  u: %{back%}: %> _ ( %^WGStem:0 ) [ # | %>  ];
-
-"A2:y"
-!! __@RULENAME@__
-A2:y <=> [ y: ] %{front%}: %> _ ( %^WGStem:0 ) [ # | %>  ];
 
 
 "%{aäuyiØ%}:a"
