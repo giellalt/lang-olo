@@ -220,6 +220,7 @@ Multichar_Symbols
 
 ! Semantic tags to help disambiguation & synt. analysis: (before POS)
 ! Borrowed from main/langs/sme/src/morphology/root.lexc
+ +Sem/ID
  +Sem/Ant
  +Sem/Ant-Fem
  +Sem/Ant-Mal
@@ -650,7 +651,7 @@ E1   !!= * @CODE@
 
 !! Pmatch 2021-03-13
 @P.Pmatch.Backtrack@
-
+@P.Pmatch.Loc@
 
 !! Removal
 @C.DECL-NX@ !!≈ * @CODE@
@@ -681,6 +682,7 @@ LEXICON Root
    Punctuation ;
    Symbols     ;
    Exceptions ;  !!= * @CODE@
+   Numerals ;
 
 !! NEWWORDS FILES
  A_NEWWORDS ;     !!= @CODE@ adjectives
