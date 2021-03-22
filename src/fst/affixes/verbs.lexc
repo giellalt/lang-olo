@@ -118,7 +118,7 @@ LEXICON V_OTTUA !!= * __@CODE@__ ottua:otta
 :%{back%} V_OTTUA/HEITTIÄ_01 ;
 LEXICON V_OTTUA/HEITTIÄ_01 !!= * __@CODE@__ ottua:otta
 !! Gradation Yes
-+Der/Rc: VR_OTTUA/HEITTIÄ_01 ;
++Der+Der/Rc: VR_OTTUA/HEITTIÄ_01 ;
 :%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem%^RmVow V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
 :  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
@@ -175,7 +175,7 @@ LEXICON V_PUNUO !!= * __@CODE@__ punuo:puno
 :%{back%} V_PUNUO/XX_01 ;
 LEXICON V_PUNUO/XX_01 !!= * __@CODE@__ punuo:puno
 !! Gradation No
-+Der/Rc: VR_PUNUO/XX_01 ;
++Der+Der/Rc: VR_PUNUO/XX_01 ;
 :%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
 :  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
@@ -197,7 +197,7 @@ LEXICON V_VALUO !!= * __@CODE@__ valuo:valu
 LEXICON V_VALUO/PYZYÖ_01 !!= * __@CODE@__ valuo:valu
 !! Gradation No
 !! similar_to: V_PYZYÖ
-+Der/Rc: VR_VALUO/PYZYÖ ;
++Der+Der/Rc: VR_VALUO/PYZYÖ ;
 :%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
 :  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
@@ -244,7 +244,7 @@ LEXICON V_POTKIE !!= * __@CODE@__ potkie:potki
 :%{back%} V_POTKIE/EČČIE_01 ;
 LEXICON V_POTKIE/EČČIE_01 !!= * __@CODE@__ potkie:potki
 !! Gradation No
-+Der/Rc: VR_POTKIE/EČČIE_01 ;
++Der+Der/Rc: VR_POTKIE/EČČIE_01 ;
 :%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
 :  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
@@ -3220,35 +3220,35 @@ LEXICON INF-RC_tAkseh
 +Inf+Rc:%>t%{aä%}kseh K ;
 
 LEXICON M-INF
-+Der/mine:%>mi NMN_NAINE/KIELINE ;
-+Der/mA+Inf+Abe:%>m%{aä%}%>tt%{aä%}h K ;
-+Der/mA+Inf+Abe+Err/Orth:%>m%{aä%}%>tt%{aä%} K ;
-+Der/mA+Inf+Abe:%>m%{aä%}%>t%{aä%} K ;
-+Der/mA+Inf+Ade:%>m%{aä%}l K ;
-+Der/mA+Inf+Ela:%>m%{aä%}späi K ;
-+Der/mA+Inf+Ill:%>m%{aä%}h K ;
-+Der/mA+Inf+Ine:%>m%{aä%}s K ;
-+Der/mA+Inf+Par:%>m%{aäuyiØ%}%{aä%} K ;
++Der+Der/mine+N:%>mi NMN_NAINE/KIELINE ;
++Der+Der/mA+Inf+Abe:%>m%{aä%}%>tt%{aä%}h K ;
++Der+Der/mA+Inf+Abe+Err/Orth:%>m%{aä%}%>tt%{aä%} K ;
++Der+Der/mA+Inf+Abe:%>m%{aä%}%>t%{aä%} K ;
++Der+Der/mA+Inf+Ade:%>m%{aä%}l K ;
++Der+Der/mA+Inf+Ela:%>m%{aä%}späi K ;
++Der+Der/mA+Inf+Ill:%>m%{aä%}h K ;
++Der+Der/mA+Inf+Ine:%>m%{aä%}s K ;
++Der+Der/mA+Inf+Par:%>m%{aäuyiØ%}%{aä%} K ;
 LEXICON M-INF_BACK
-+Der/mine:%>mi NMN_NAINE/KIELINE ;
-+Der/mA+Inf+Abe:%>ma%>ttah K ;
-+Der/mA+Inf+Abe+Err/Orth:%>ma%>tta K ;
-+Der/mA+Inf+Abe:%>ma%>ta K ;
-+Der/mA+Inf+Ade:%>mal K ;
-+Der/mA+Inf+Ela:%>maspäi K ;
-+Der/mA+Inf+Ill:%>mah K ;
-+Der/mA+Inf+Ine:%>mas K ;
-+Der/mA+Inf+Par:%>mua K ;
++Der+Der/mine+N:%>mi NMN_NAINE/KIELINE ;
++Der+Der/mA+Inf+Abe:%>ma%>ttah K ;
++Der+Der/mA+Inf+Abe+Err/Orth:%>ma%>tta K ;
++Der+Der/mA+Inf+Abe:%>ma%>ta K ;
++Der+Der/mA+Inf+Ade:%>mal K ;
++Der+Der/mA+Inf+Ela:%>maspäi K ;
++Der+Der/mA+Inf+Ill:%>mah K ;
++Der+Der/mA+Inf+Ine:%>mas K ;
++Der+Der/mA+Inf+Par:%>mua K ;
 LEXICON M-INF_FRONT
-+Der/mine:%>mi NMN_NAINE/KIELINE ;
-+Der/mA+Inf+Abe:%>mä%>ttäh K ;
-+Der/mA+Inf+Abe+Err/Orth:%>mä%>ttä K ;
-+Der/mA+Inf+Abe:%>mä%>tä K ;
-+Der/mA+Inf+Ade:%>mäl K ;
-+Der/mA+Inf+Ela:%>mäspäi K ;
-+Der/mA+Inf+Ill:%>mäh K ;
-+Der/mA+Inf+Ine:%>mäs K ;
-+Der/mA+Inf+Par:%>miä K ;
++Der+Der/mine+N:%>mi NMN_NAINE/KIELINE ;
++Der+Der/mA+Inf+Abe:%>mä%>ttäh K ;
++Der+Der/mA+Inf+Abe+Err/Orth:%>mä%>ttä K ;
++Der+Der/mA+Inf+Abe:%>mä%>tä K ;
++Der+Der/mA+Inf+Ade:%>mäl K ;
++Der+Der/mA+Inf+Ela:%>mäspäi K ;
++Der+Der/mA+Inf+Ill:%>mäh K ;
++Der+Der/mA+Inf+Ine:%>mäs K ;
++Der+Der/mA+Inf+Par:%>miä K ;
 
 LEXICON GER_jen
 +Ger+Manner:%>jen K ;
