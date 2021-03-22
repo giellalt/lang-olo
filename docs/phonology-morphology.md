@@ -171,11 +171,10 @@ heittiä+V+Inf: **throw/heittää**
 * *lʼyk0ä00%>kkiämmö*
 ```
 
-**A2:a**
+**%{ui%}:i**
+**%{ui%}:i**
+**%{ui%}:i**
 
-**A2:u**
-
-**A2:y**
 
 
 **%{aäuyiØ%}:a**
