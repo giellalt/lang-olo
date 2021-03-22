@@ -1077,6 +1077,9 @@ REMOVE:PrtPl3NotSg2 Sg2 IF (-1 (Pl Nom))(0 (Act Ind Prt Pl3));
 REMOVE:PrtSg2NotPl3 Pl3 IF (-1 ("sie"))(0 (Act Ind Prt Sg2));
 		    ## Sie tulit.
 
+#!! !!Negative verb
+REMOVE:eiNeg Interj IF (0 ("ei"))(*1 ConNeg OR PrfPrc OR Inf BARRIER NEGV);
+
 #!! !!! Relative pronouns
 
 
