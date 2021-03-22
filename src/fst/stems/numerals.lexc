@@ -2,12 +2,25 @@
 !  --------
 !! Numerals in the Livvi language are numbers.
 
-LEXICON Numerals
-yksi:y    NUM_YKSI   ;
 
-LEXICON NUM_YKSI
-+Num+Sg+Nom:ksi NUM_K ;
-+Num+Sg:hte NUM_CASE ;
+LEXICON Numerals 
+!! Numerals have been split in three sections, the compounding parts
+!! of cardinals and ordinals, and the non-compounding ones:
+!!€gt-norm: Numeral
+!!€ kaksikymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par ! 23,000
+!!€ kakskymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par
+!!€ kahđessađasneljes: kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom  ! 204rd
+!!€ viitisenkymmentä: viitisen+Num#kymmentä  ! 50-ish
+
+!0    NUM_CARD_ALL    ;
+!0    NUM_ORD_ALL ;
+!0    NUM_OTHERS  ;
+
+ +Use/Circ: ARABICS ;          ! for the arabic numerals        !
+ +Use/Circ: ROMAN ;           ! for the roman numerals         !
+ +Use/Circ: NUM-PREFIXES ;    ! for §34 etc.                   !
+ +Use/Circ: ISOLATED-NUMEXP ; ! for ½ etc.                     !
+
 
 
 ! vim: set ft=xfst-lexc:
