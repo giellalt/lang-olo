@@ -30,6 +30,7 @@ The parts-of-speech are:
  *  +Qnt     quantifier
  *  +V       verb
  *  +Num     numeral
+ *  +Coll    collective, probably from a common file.
 
  * +AdA           Ad-adjective
  * +Bahuv	       Bahuvrihi
