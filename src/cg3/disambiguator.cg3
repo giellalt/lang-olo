@@ -1466,6 +1466,7 @@ MAP (@<OBJ) TARGET NNom IF (*-1 Pass) (*-1 Nom) ;
     # Needs barriers
 
 MAP (@N>) TARGET NSgNom IF (1 Prop) ;
+MAP:GenN (@N>) TARGET Gen IF (1 N) ;
 
 # LIST Cases = Ill Ine ; 
 # MAP (@N>) Pron + Dem IF (1 N) (1 $$Cases) (0 $$Cases) ;
