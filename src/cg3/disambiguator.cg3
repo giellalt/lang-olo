@@ -1215,11 +1215,26 @@ REMOVE:ImperativeafterNeg Imprt IF (0 Pron)(*-1 Neg BARRIER WORD - Foc/kaan - Ad
 	#$ Ei yksikhään niistä jokka mie olin kuttunu.
 
 
+# Conjunctions
+
+REMOVE:CCnotAdv Adv IF (-1 N)(0 CC)(*1 N BARRIER NPNH);
+
+# QP structure
+
+REMOVE:NumNomPar Ins IF (0 Num + Sg + Nom)(1 Par) ;
+
 # NP structure
+
+# Gen
+REMOVE:GenNotIns Ins IF (0 Sg + Gen)(1 N);
+
+REMOVE:SuperlNotIne Ins IF (0 A + Superl + Nom)(1 N) ;
 
 # Attr
 SELECT:AttrAttr Attr IF (1 Attr) ;
        ## P. A. Munch. ja E. N. Setälä
+
+SELECT:AttrN Attr IF (0 ABBR)(1 N) ;
 
 #SELECT:congruencebetweennounandverb  IF (-1 N OR 1 N LINK V) (NEGATE -1 Dem) ;
 #$ Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa ...
