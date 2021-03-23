@@ -64,6 +64,8 @@ The Usage extents are marked using following tags:
  * **+Use/NG** not-generate, for ped generation isme-ped.fst
 
 
+
+
 The nominals are inflected in the following Case and Number
  *  +Sg    singular
  *  +Pl   plural
