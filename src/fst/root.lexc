@@ -188,7 +188,11 @@ Multichar_Symbols
  +ABBR +ACR
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
++CLB
++CLBfinal
++PUNCT
++LEFT
++RIGHT
 !! The verbs are syntactically split according to transitivity:
  +TV +IV +VR
 !! Special multiword units are analysed with:
