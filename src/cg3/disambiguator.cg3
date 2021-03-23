@@ -369,10 +369,11 @@ LIST QUANTADV = "paljon" ;
 SET NUMNOT1 = Num - ("yksi") - ("1") - Sem/ID ;
 SET QNUM = NUMNOT1 OR QUANTADV ;
 
-LIST VFIN = Prs Prt Cond Neg Imprt ; 
-LIST VFIN-C = Prs Prt Cond Neg Imprt CS CC ; 
-LIST VFIN-C-MYOS = Prs Prt Cond Neg Imprt CS CC "myös" ; 
-LIST VFIN-PCP = Prs Prt Cond Neg Imprt PrfPrc PrsPrc ; 
+SET NEG = V + Neg ;
+LIST VFIN = Prs Prt Cond NEG Imprt ; 
+LIST VFIN-C = Prs Prt Cond NEG Imprt CS CC ; 
+LIST VFIN-C-MYOS = Prs Prt Cond NEG Imprt CS CC "myös" ; 
+LIST VFIN-PCP = Prs Prt Cond NEG Imprt PrfPrc PrsPrc ; 
 #LIST VFIN_PrsPrc = Prt Prs Cond PrsPrc ; not used
 LIST VFIN_PrsPrc_Inf = Prt Prs Cond PrsPrc (PrfPrc Gen) (PrfPrc Par) InfA InfE InfMa ;
 
@@ -683,9 +684,9 @@ SET CAP_NOCAP = N - Prop ; #CAP NOCAP ;
 SET REALVFIN = VFIN - ConNeg ;
 SET PART-SUBJ = Weather-Verbs ;
 
-SET REAL_AUX = AUXs OR Neg ; # to get ettei, ellei
+SET REAL_AUX = AUXs OR NEG ; # to get ettei, ellei
 SET AUX-OR-MAIN = InfA-VERB OR InfMa-VERB ; 
-SET AUX = COPULAS OR Neg OR MOD-ASP OR AUX-OR-MAIN ;
+SET AUX = COPULAS OR NEG OR MOD-ASP OR AUX-OR-MAIN ;
 
 
 
@@ -869,7 +870,7 @@ REMOVE:vasthaan Nom IF (0 Par)(1 ("vasthaan"));
 
 SELECT:häntä Par IF (-1 V)(0 ("häntä"));
 
-REMOVE:ParNotImprt Imprt IF (0 Par)(*1 Neg);
+REMOVE:ParNotImprt Imprt IF (0 Par)(*1 NEG);
 #€ Viimi aikhoin heitä ei ole näkyny ollenkhaan.
 
 SELECT:ParNP Sg + Par IF (-1C Sg + Par)(-2 QNUM);
@@ -912,7 +913,7 @@ SELECT:Bulle Nom IF (0 ("Bulle"));
 
 #!! ei negation verb
 
-SELECT:en Neg + Sg1 ; # en is not Gen of e.
+SELECT:en NEG + Sg1 ; # en is not Gen of e.
 
 #!! eli
 
@@ -978,7 +979,7 @@ REMOVE:CS CC IF (-1 BOS OR CC)(0 CS);
 
 #!! että
 
-SELECT:ettaPl2 Neg + Pl2 IF (-1 Pl2 OR CS)(1 ConNeg);
+SELECT:ettaPl2 NEG + Pl2 IF (-1 Pl2 OR CS)(1 ConNeg);
 SELECT:ettaCS CS IF (0 ("että"));
 
 #!! jos
