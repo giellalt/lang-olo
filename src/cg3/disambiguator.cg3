@@ -499,7 +499,7 @@ LIST Non-Nom-Subj = "kiinnostaa" "tuntua" ; # partitive too
 # Sataa lunta. Paistaa aurinkoa.
 LIST Weather-Verbs = "sataa" "tuulla" "paistaa" ;
 
-LIST AUXs = "olla" "ei" ;
+SET AUXs = ("olla") + V  OR  ("ei") + V ;
 
 LIST VOI = "voida" ; 
 LIST VOIMA = "voima" ; 
