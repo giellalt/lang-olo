@@ -311,7 +311,6 @@ symbols in the lexicon files:
  *  %{oöØ%}   Used in present participle
  *  %{uy%}  
   %{ui%}  in imperative before %{aä%}:
- *  A2        used with verb types V_AVATA
  *  %{ijPRC%}  participle
  *  %{lnrs%}   e.g. in perfect participles
  *  %{dtlnr%}  e.g. infinitive and Ind+Prs+Pl3
