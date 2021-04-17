@@ -1,4 +1,4 @@
-!! !!!The Livvi (Olonets) Karelian morphophonological/twolc rules file 
+!! # The Livvi (Olonets) Karelian morphophonological/twolc rules file 
 
 
 
@@ -133,8 +133,8 @@ K1:k
 %^Ä2I:0		!!= @CODE@  ä => i
 %^A2UÄ2I:0		!!= @CODE@  a => u, ä => i
 
-%^ILoss:0  !!= @CODE@  the i => 0 __reboi reboloi__
-%^V2U:0	   !!= @CODE@  v => y __kävvä käydy__
+%^ILoss:0  !!= @CODE@  the i => 0 **reboi reboloi**
+%^V2U:0	   !!= @CODE@  v => y **kävvä käydy**
 
 ! Vowel raising
 %^RVow:0   !!= _@CODE@_ 
@@ -237,7 +237,7 @@ GRC =  [ [ ( %> ) %{aä%}: | [ %{oö%}: |o|ö] | %{uy%}: | Vow: | :Vow ] ( %>  i
 ! preceeded by "Cns _"
 ! 2012-10-11 SLV =  [ :Vow [ ( %> %^LCns:0 %^LVow:0 | %> %^LCns:0 | %> i %> | %> ) [ V1:Vow | %{aä%}: ] |  0:Vow %> ( %^LCns:0 | %^WGStem: ) %^LVow: | %> %^LCns:0  ] ] ;
 
-!! !!!Rules
+!! # Rules
 Rules
 
 !"%{aäPar%}:o"
@@ -280,16 +280,16 @@ Rules
 ! !€0 lʼykki0ä%>jy0
 
 "%{aä%}:a"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{aä%}:a <=> BHarm (%>) _ ;
-!! kuvitella+V+Inf: __imagine/kuvitella__
+!! kuvitella+V+Inf: **imagine/kuvitella**
 !!€ kuvittel%{back%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
 !!€ kuvi0tel00%>la0
 
 "%{aä%}:ä"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{aä%}:ä <=> FHarm (%>) _ ;
-!! ezitellä+V+Inf: __present/esitellä__
+!! ezitellä+V+Inf: **present/esitellä**
 !!€ ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
 !!€ ezi0tel00%>lä0
 
@@ -371,63 +371,63 @@ Rules
 !%{aäPar%}:0 <=> _ %> i  ;
 
 "%{aäoeö%}:a"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeö%}:a <=> [a:] (%{back%}:) %> _ ;
  
 "%{aäoeö%}:ä"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeö%}:ä <=> [ä:] (%{front%}:) %> _ ;
-!! heittiä+V+Inf: __throw/heittää__
+!! heittiä+V+Inf: **throw/heittää**
 !!€ heittä%{front%}%>%{aäoeö%}
 !!€ heitti0%>ä
 
 "%{aäoeö%}:o"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeö%}:o <=> [u| o:] (%{back%}:) %> _ ;
  
 "%{aäoeö%}:e"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeö%}:e <=> [i| e:] (HarmDummy:) %> _ ;
  
 "%{aäoeö%}:ö"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeö%}:ö <=> [y| ö:] (%{front%}:) %> _ ;
  
 "{aäoeöuiy%}:a"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeöuiy%}:a <=> [a: | %{ui%}:u ] (%{back%}:) %> _ ;
 
 "{aäoeöuiy%}:ä"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeöuiy%}:ä <=> [ä:| %{ui%}:i] (%{front%}:) %> _ ;
 
 "{aäoeöuiy%}:o"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeöuiy%}:o <=> o: (%{back%}:) %> _ ;
 
 "{aäoeöuiy%}:e"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeöuiy%}:e <=> e: (HarmDummy:) %> _ ;
 
 "{aäoeöuiy%}:ö"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeöuiy%}:ö <=> ö: (%{front%}:) %> _ ;
 
 "{aäoeöuiy%}:u"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeöuiy%}:u <=> [ u|%{uy%}:u] (%{back%}:) %> _ ;
 
 "{aäoeöuiy%}:i"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeöuiy%}:i <=> i (HarmDummy:) %> _ ;
 
 "{aäoeöuiy%}:y"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäoeöuiy%}:y <=> [y|%{uy%}:y] (%{front%}:) %> _ ;
 
 
 "e:0"
-!! __@RULENAME@__
+!! **@RULENAME@**
  e:0 <=>
   Cns: (%^VOICE:)  _ (HarmDummy:) (%^WGStem:) %^RmVow:   ;
 ! Cns: (%^VOICE:)  _ (HarmDummy:) (%^WGStem:) %^RmVow:   ;
@@ -435,65 +435,65 @@ Rules
 
  
 "%{ui%}:u"
-!! __@RULENAME@__
-!! {{{
+!! **@RULENAME@**
+!! ```
 %{ui%}:u <=> BHarm ( %> ) _ ( %> ) [ %{aäoeöuiy%}: | %{aä%}:] ; !! * @CODE@ ! imperative forms
 !!€ kanda%{back%}%>kk%{ui%}%{aä%}mm%{oö%}
 !!€ kanda0%>kkuammo
-!! }}}
+!! ```
 
 "%{ui%}:i"
-!! __@RULENAME@__
-!! {{{
+!! **@RULENAME@**
+!! ```
 %{ui%}:i <=> FHarm ( %> ) _ ( %> ) [ %{aäoeöuiy%}: | %{aä%}:] ; !! * @CODE@ ! imperative forms
 !!€ lʼykkä%{front%}%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}
 !!€ lʼyk0ä00%>kkiämmö
-!! }}}
+!! ```
 
 ! The A2 block not in use, therefore uutkommented. Trond.
 !"A2:a"
-!! __@RULENAME@__
+!! **@RULENAME@**
 !A2:a <=> [ a: ] %{back%}: %> _ ( %^WGStem:0 ) [ # | %>  [ n | t | %{uy%}: | m m [ %{oö%}: |o|ö] | t t [ %{oö%}: |o|ö] ]];
 !
 !"A2:u"
-!! __@RULENAME@__
+!! **@RULENAME@**
 !A2:u <=>  u: %{back%}: %> _ ( %^WGStem:0 ) [ # | %>  ];
 !
 !"A2:y"
-!! __@RULENAME@__
+!! **@RULENAME@**
 !A2:y <=> [ y: ] %{front%}: %> _ ( %^WGStem:0 ) [ # | %>  ];
 
 
 
 "%{aäuyiØ%}:a"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäuyiØ%}:a <=> BHarm Cns: _ ((%{back%}:) %>:) Cns: ;
 
 "%{aäuyiØ%}:u"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäuyiØ%}:u <=> BHarm Cns: _ ((%{back%}:) %>:) [%{aä%}: | %^A2UÄ2I: |%^A2UÄ2Y:] ;
 
 "%{aäuyiØ%}:ä"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäuyiØ%}:ä <=> FHarm Cns: _ ((%{front%}:) %>:) Cns: ;
 
 "%{aäuyiØ%}:y"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäuyiØ%}:y <=> FHarm Cns: _ ((%{front%}:) %>:) %^A2UÄ2Y: ;
 
 "%{aäuyiØ%}:i"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäuyiØ%}:i <=> FHarm Cns: _ ((HarmDummy:) %>:) %{aä%}: ;
 
 "%{aäuyiØ%}:0"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{aäuyiØ%}:0 <=> Cns: _  (HarmDummy:) %^RmVow: ;
 
 
 "a:u before subsequent a"
-!! __@RULENAME@__  Diphthong a+a => ua
+!! **@RULENAME@**  Diphthong a+a => ua
 a:u <=> ConsPalOrNot _ [%{back%}:  ( d:0 ) a  |d:0 a| (%{back%}:) %> [ %{aä%}: | A2:a ] ]; 
-!! ostua+V+Inf: __buy/ostaa__
+!! ostua+V+Inf: **buy/ostaa**
 !!€# osta%>%{aä%}
 !!€0 ostu%>%{aä%}
 !     Cns:   _ %^A2U:0 ;
@@ -501,16 +501,16 @@ a:u <=> ConsPalOrNot _ [%{back%}:  ( d:0 ) a  |d:0 a| (%{back%}:) %> [ %{aä%}: 
 
 
 "ä:i before subsequent A2"
-!! __@RULENAME@__  Diphthong ä+ä => iä
+!! **@RULENAME@**  Diphthong ä+ä => iä
 ä:i <=>  Cns: (ʼ)  _ [ ä | %> [ %{aä%}:ä | A2:ä ] ]; 
          Cns: (ʼ) _ (%{front%}:) [%^A2UÄ2I:0| (%>) %{aä%}: | (%>) %{aäoeö%}: |(%>) %{aäoeöuiy%}: ] ;
-!! kehittiä+V+Inf: __develop/kehittää__
+!! kehittiä+V+Inf: **develop/kehittää**
 !!€# kehittä%>%{aä%}
 !!€0 kehitti%>ä
 
  
 "o:u before subsequent o"
-!! __@RULENAME@__ Diphthong o+o => uo erota:eruou
+!! **@RULENAME@** Diphthong o+o => uo erota:eruou
 o:u <=> Cns (ʼ) _ (%{back%}:) %> [ %{oö%}: | %{aäoeö%}: |%{aäoeöuiy%}: | o ] ; 
 !!€# ero%>%{oö%}%>n
 !!€0 eru0o%>n
@@ -522,7 +522,7 @@ o:u <=> Cns (ʼ) _ (%{back%}:) %> [ %{oö%}: | %{aäoeö%}: |%{aäoeöuiy%}: | o
 
 
 "ö:y before subsequent ö"
-!! __@RULENAME@__ Diphthong ö+ö, ö+%{oö%}:ö => yö
+!! **@RULENAME@** Diphthong ö+ö, ö+%{oö%}:ö => yö
 ö:y <=> Cns (ʼ) _ (%{front%}:) %> [ %{oö%}:ö |%{aäoeö%}:| ö ] ; 
 !!€# sö%>ö%>y
 !!€0 sy%>ö%>y
@@ -533,8 +533,8 @@ o:u <=> Cns (ʼ) _ (%{back%}:) %> [ %{oö%}: | %{aäoeö%}: |%{aäoeöuiy%}: | o
 !!€0 sy%>vvä
 
 "e:i before subsequent :e"
-!! __@RULENAME@__ Diphthong o+o => uo erota:eruou
-!! {{{
+!! **@RULENAME@** Diphthong o+o => uo erota:eruou
+!! ```
  e:i <=> Cns  (HarmDummy:) _ (HarmDummy:) %> [ %{aäoeöuiy%}:e|%{aäoeö%}:e| e ] ;
 !!€# valge%>e%^WGStem%>t
 !!€0 valgi%>e00t
@@ -551,37 +551,37 @@ o:u <=> Cns (ʼ) _ (%{back%}:) %> [ %{oö%}: | %{aäoeö%}: |%{aäoeöuiy%}: | o
 !!€# luge>%{ijPRC%}
 !!€0 lugi%>j
 
-!! }}}
+!! ```
 
 
 "e:o"
-!! __@RULENAME@__ Vowel harmony suffixes Back
-!! {{{
+!! **@RULENAME@** Vowel harmony suffixes Back
+!! ```
  e:o <=>  [BHarm]  _ (%{back%}:) %^E2O: %> [ %{uy%}: | u ] ;
 !!€# luge%^E2O%>u
 !!€0 lugo%>u
-!! }}}
+!! ```
 
 "e:ö"
-!! __@RULENAME@__ Vowel harmony 
+!! **@RULENAME@** Vowel harmony 
  e:ö <=>  [FHarm]  _ (%{front%}:) %^E2O: %> y ;
 !!€# käske%^E2O%>y
 !!€0 käskö0%>y
 
 ! Word final u, y
 "ä:y word final"
-!! __@RULENAME@__
+!! **@RULENAME@**
 ä:y <=> Cns: _ (%{front%}:) [ %^A2U:0|%^A2UÄ2Y:] ;
 
 ! Word final ö
 "ä:ö word final"
-!! __@RULENAME@__
+!! **@RULENAME@**
 ä:ö <=> Cns: _ (%{front%}:) %^A2O:0 ;
 
 
 "a:0 in suaja:sai"
-!! __@RULENAME@__
-!! {{{
+!! **@RULENAME@**
+!! ```
 a:0 <=>
  a _ (%{back%}:)  %^RmVow:  ; !!= * @CODE@ Vowel shortening before subsequent "i"
 [ # Cns:*  [[ u | o ] (i)| u o: ] [ Cns:+ |:Cns+] | # Cns:*  Vow:+ [ Cns:+ |:Cns+] [Vow:+ [ Cns:+ |:Cns+]]+ ] _ [(%{back%}:) %^RmVow: %> i: (%^WGStem:) [ # |  (%{back%}:)  %> [i|Cns] | (%{back%}:)  %> e [n|l]] | (%{back%}:)  %^WGStem: %> i: ] ;
@@ -593,24 +593,24 @@ a:0 <=>
 !!€0 vahn00%>in
 !!€ otta%{back%}%^WGStem%^RmVow%>in
 !!€ ot00000%>in
-!! }}}
+!! ```
 
-!! !!iToj between vowels
+!! ## iToj between vowels
 "i:j"
-!! __@RULENAME@__
+!! **@RULENAME@**
  i:j <=> :Vow (HarmDummy:) ( %>  %^LCns:0 ) %> _ %> :Vow ;
 
 "%{ijPRC%}:i"
-!! __@RULENAME@__ 
-!! {{{
+!! **@RULENAME@** 
+!! ```
 !! * @CODE@ +ActPrsPrc
  %{ijPRC%}:i <=> :Vow (HarmDummy:)  %> _ [ # | %> [ g i | b o | h %{aä%}: i | g o ] ] ;
-!! }}}
+!! ```
 
 
 
 "a:o in the plural and preterite"
-!! __@RULENAME@__
+!! **@RULENAME@**
 a:o <=> Cns: _ (%{back%}:) (%^WGStem:) %^A2O: ;
 ! # Cns* [[ a | i | e ] (u|i)| u a ] [ Cns* (%^NONE:) Cns: ] _ %^A2O: %> i: ( %^WGStem:0 )  ;
 !       _ %^A2O: ;
@@ -618,7 +618,7 @@ a:o <=> Cns: _ (%{back%}:) (%^WGStem:) %^A2O: ;
 !!€ muamo00
 
 "a:e"
-!! __@RULENAME@__  pidiä
+!! **@RULENAME@**  pidiä
  a:e <=> _ (%{back%}:) (%^WGStem:0) %^E1:0 ;
 !!€# kanda%^WGStem%^E1%>tt%{aäDiph%}s
 !!€0 kanne00%>ttas
@@ -626,7 +626,7 @@ a:o <=> Cns: _ (%{back%}:) (%^WGStem:) %^A2O: ;
 !!€0 kirjave0%>m0b
 
 "ä:e piettih and in comparatives"
-!! __@RULENAME@__  pidiä
+!! **@RULENAME@**  pidiä
 ä:e <=> # Cns* [ i | e ] Cns: _ (%{front%}:) (%^WGStem:0) %^E1:0 ;
       _ (%{front%}:) (%^WGStem:0) %^E1:0 ;
 !!€ mečästä%{front%}%^E1%>tt%{aä%}s
@@ -634,12 +634,12 @@ a:o <=> Cns: _ (%{back%}:) (%^WGStem:) %^A2O: ;
 
 
 "ä:0 pidiä:pidi"
-!! __@RULENAME@__
+!! **@RULENAME@**
 ä:0 <=> Cns: _ (%{front%}:) (%^WGStem:) %^RmVow:  ;
         ä _ (%{front%}:) (%^WGStem:) %^RmVow:  ;
 
 "i:0 reboi:reboloi"
-!! __@RULENAME@__
+!! **@RULENAME@**
 i:0 <=> o _ (HarmDummy:)  %^ILoss: %> l [ %{oö%}: |o|ö] i ;
       [ e: | i ] (HarmDummy:) %> %{ijPRC%}:  %{oöØ%}: %> i %> _ [ # | %> Cns ]  ;
  Cns: _ (HarmDummy:) (%^WGStem:) %^RmVow:  ;
@@ -648,32 +648,32 @@ i:0 <=> o _ (HarmDummy:)  %^ILoss: %> l [ %{oö%}: |o|ö] i ;
 
 
 "%{oö%}:o"
-!! __@RULENAME@__ Vowel harmony suffixes Back
+!! **@RULENAME@** Vowel harmony suffixes Back
  %{oö%}:o <=>  [BHarm] (  %> ) _ ;
 !  [BT|BHarm] (  %> ) _ ;
 "%{oö%}:ö"
-!! __@RULENAME@__ Vowel harmony suffixes Front
+!! **@RULENAME@** Vowel harmony suffixes Front
  %{oö%}:ö <=>  [FHarm] (  %> ) _ ;
 
 
 "%{oöØ%}:0"
-!! __@RULENAME@__ Vowel harmony suffixes Back
+!! **@RULENAME@** Vowel harmony suffixes Back
  %{oöØ%}:0 <=> [ u | a | o | ä | ö | y ] (HarmDummy:) %> %{ijPRC%}:  _  ;
 
 "%{oöØ%}:o"
-!! __@RULENAME@__ Vowel harmony suffixes Back
+!! **@RULENAME@** Vowel harmony suffixes Back
  %{oöØ%}:o <=>  [BHarm]  :Cns [ e:0 | e | i ] %> %{ijPRC%}: _  ;
 !!€# luge%>%{ijPRC%}%>%{oöØ%}%>i%>n
 !!€0 lugi%>j%>o%>i%>s
 
 "%{oöØ%}:ö"
-!! __@RULENAME@__ Vowel harmony suffixes Front
+!! **@RULENAME@** Vowel harmony suffixes Front
  %{oöØ%}:ö <=> [FHarm] :Cns [ e:0| e | i ] %> %{ijPRC%}:  _  ;
 
 
 
 "%{uy%}:u"
-!! __@RULENAME@__ Vowel harmony suffixes Back
+!! **@RULENAME@** Vowel harmony suffixes Back
  %{uy%}:u <=>
   [BHarm] ( %> ) _ ;
   [BHarm] (%^WGStem:) %> (n) %{lnrs%}: _ ;
@@ -683,26 +683,26 @@ i:0 <=> o _ (HarmDummy:)  %^ILoss: %> l [ %{oö%}: |o|ö] i ;
 !!€ tul%>luh
 
 "%{uy%}:y"
-!! __@RULENAME@__ Vowel harmony suffixes Front
+!! **@RULENAME@** Vowel harmony suffixes Front
  %{uy%}:y <=>
   [ FHarm ] ( %> ) _ ;
   [ FHarm ] (%^WGStem:) %> (n) %{lnrs%}: _ ;
 !  [ [FT|FHarm] | :VowFront Cns:* ] ( %> ) _ ;
 !  [ [FT|FHarm] | :VowFront Cns:* ] (%^WGStem:) %> (n) %{lnrs%}: _ ;
 
-!! !!Consonant change
+!! ## Consonant change
 
 !
 "g:j"
-!! __@RULENAME@__
-!! {{{
+!! **@RULENAME@**
+!! ```
 g:j <=> i _ [ a: ] (HarmDummy:) ( %> i ) %^WGStem:0 ;
 !!€ poiga%^WGStem%>n
 !!€ poija0%>n
-!! }}}
+!! ```
 
 "g:v"
-!! __@RULENAME@__
+!! **@RULENAME@**
 g:v <=> [ o | u ] _ (HarmDummy:) [e|u] (HarmDummy:) %^WGStem:0 ;
 !!jogi+N+Sg+Gen: __river/joki__
 !!€ jog%{back%}e%^WGStem%>n
@@ -714,30 +714,30 @@ g:v <=> [ o | u ] _ (HarmDummy:) [e|u] (HarmDummy:) %^WGStem:0 ;
 
 
 "g:l"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 g:l <=> l _ [[ a: ] (HarmDummy:) ((%^A2O:|%^RmVow:) %> i )| i | e | u ] (HarmDummy:) %^WGStem:0 ;
 !!€ sulga%^WGStem%>n
 !!€ sulla0%>n
 !!€ jalga%^A2O%>i%^WGStem%>s
 !!€ jallo0%>i0%>s
-!! sulgu+N+Pl+Ins __feather/sulka__
+!! sulgu+N+Pl+Ins **feather/sulka**
 !!€ sulga%^RmVow%>i%^WGStem%>n
 !!€ sull0%>i0%>n
 
 "g:r"
-!! __@RULENAME@__  
-!! {{{
+!! **@RULENAME@**  
+!! ```
 g:r <=> r _ [[ a: ] (HarmDummy:) ( %> i )| i | e |ä|ö:] (HarmDummy:) %^WGStem:0 ;
 !!€# särge%^WGStem%>n
 !!€0 särre0%>n
 !!€# kergi%^WGStem%>t%{aäPar%}
 !!€0 kerri0%>tä
-!! }}}
+!! ```
 
 ! lʼöydiä:lʼövvä
 "d:v"
-!! __@RULENAME@__  
-!! {{{
+!! **@RULENAME@**  
+!! ```
 d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; !!= @CODE@
           u a           _   o       (%{back%}:) %^WGStem:0 ; !!= @CODE@
           a             _   u       (%{back%}:) %^WGStem:0 ; !!= @CODE@
@@ -748,14 +748,14 @@ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; !!= @CODE@
 !!€ täydy%{front%}%^WGStem
 !!€ tävvy00
 
-!! }}}
+!! ```
 
 "v:y"
-!! __@RULENAME@__
+!! **@RULENAME@**
  v:y <=> VowFront _ (%{front%}:) %^V2U: ;
 ! luadie:luajitah
 "d:j"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 d:j <=> [ u a ] _ [ i ] (%{back%}:) %^WGStem: %> ;
         [ i e: | a i ] _ [ o | a] (HarmDummy:) %^WGStem: %> ;
 !!€ maido%^WGStem%>n
@@ -768,14 +768,14 @@ d:j <=> [ u a ] _ [ i ] (%{back%}:) %^WGStem: %> ;
 
 
 "y:v"
-!! __@RULENAME@__
+!! **@RULENAME@**
 y:v <=>  [ ö | ä ] _ d: [ ä: | (%{front%}:) e | y ] (%{front%}:) %^WGStem: [%>| #:] ;
 !!€# täydy%^WGStem
 !!€0 tävvy0
 !! lʼöydiä:lʼövvä
 
 "u:v"
-!! __@RULENAME@__
+!! **@RULENAME@**
 u:v <=> [ o | u ] _ d: [ a: | (%{back%}:) e | u ] (%{back%}:) %^WGStem: [%>| #:] ;
 !! juodu+N+Pl+Ade
 !!€ juoda%{back%}%^RmVow%>i%^WGStem%>l
@@ -783,14 +783,14 @@ u:v <=> [ o | u ] _ d: [ a: | (%{back%}:) e | u ] (%{back%}:) %^WGStem: [%>| #:]
 !! soudua:sovva
 
 "o:v Lengthening with Ut:vv weakening"
-!! __@RULENAME@__  
-!! {{{
+!! **@RULENAME@**  
+!! ```
 o:v <=> u _ d: [ (%{back%}:) e | a: ] [(%{back%}:) (%^RmVow:) %> i | (%{back%}:)] %^WGStem:  ;
-!! }}}
+!! ```
 
 ! vuozi:vuod
 "d:z"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 d:z <=> [Vow | r | n ] _ (HarmDummy:) %^D2Z:0 %> i ;
 !!€ vuod%^D2Z%>i
 !!€ vuoz0%>i
@@ -801,25 +801,25 @@ d:z <=> [Vow | r | n ] _ (HarmDummy:) %^D2Z:0 %> i ;
 
 ! vuozi:vuod+d%{uy%}, armas:armas+d%{uy%}
 "d:t in partitive"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 d:t <=> [ d: | h | :t | (HarmDummy:) s ] (HarmDummy:) ( %^KS2S:0 ) %> _ ;
          [Vow | r | n ] _ (HarmDummy:) %> [ d: %{uy%}: | t y | t u ] ;
 !!€# pagis%>d%{aä%}%^WGStemh
 !!€0 pa0is%>ta0h
 
 "s:z"
-!! __@RULENAME@__
-!! {{{
+!! **@RULENAME@**
+!! ```
 s:z <=> _ (HarmDummy:) %^VOICE:0 ; !!= * @CODE@ pestä: pezen
-!! }}}
+!! ```
 
 "k:g"
-!! __@RULENAME@__ pestä: peskäh
+!! **@RULENAME@** pestä: peskäh
 k:g <=> [ n | l |r ] (HarmDummy:) %> _ (%{ui%}:) %{aä%}: ; 
 
 
 "rd:rr weakening"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 d:r <=>
      Vow: r _ Vow: (HarmDummy:) ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
    Vow r (HarmDummy:) %> _ [ GRC | e %^WGStem: ] ; 
@@ -827,13 +827,13 @@ d:r <=>
 
 
 "ld:ll weakening"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 d:l <=>
   Vow: l _ Vow: (HarmDummy:) ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
   Vow l (HarmDummy:) (%^WGStem:) %> _ [ GRC | e %^WGStem: ] ;
 
 "nd:nn weakening"
-!! __@RULENAME@__ 
+!! **@RULENAME@** 
 d:n <=>
      Vow: n _ Vow: (HarmDummy:) %^WGStem: [(%^A2O:) %> i| (%^E1:) %> | # ] ;
 !     Vow: n _ Vow: (HarmDummy:) ((%^A2O:) %> i) %^WGStem: [ (%^E1:) %> | # ] ;
@@ -844,32 +844,32 @@ d:n <=>
 
 
 "rn:rr in prtprc"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 %{lnrs%}:r <=> r (HarmDummy:) (%^WGStem:) %> _ (%{uy%}:) (%^WGStem:)  ;
 
 "ln:ll in prtprc"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 %{lnrs%}:l <=> l (HarmDummy:) (%^WGStem:) %> _ (%{uy%}:|%{aä%}:) (%^WGStem:)  ;
 !!€ tul%>%{lnrs%}%{uy%}h
 !!€ tul%>luh
-!! ezitellä+V+Inf: __present/esitellä__
+!! ezitellä+V+Inf: **present/esitellä**
 !!€ ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
 !!€ ezi0tel00%>lä0
 
 "sn:ss in prtprc"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 %{lnrs%}:s <=> s (HarmDummy:) (%^WGStem:) %> _ (%{uy%}:) (%^WGStem:)  ;
 
 "%{dtlnr%}:d"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{dtlnr%}:d <=> Vow: (HarmDummy:) (%^WGStem:) %> _ ; 
 
 "%{dtlnr%}:t"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{dtlnr%}:t <=> s (HarmDummy:) (%^WGStem:) %> _ ; 
 
 "%{dtlnr%}:l"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{dtlnr%}:l <=> l (HarmDummy:) (%^WGStem:) %> _ ; 
 !! tulla+Ind+Prs+ScPl3: tullah
 !!€ tul%{back%}%>%{dtlnr%}%{aä%}
@@ -879,25 +879,25 @@ d:n <=>
 !!€ kuvi0tel00%>la
 
 "%{dtlnr%}:n"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{dtlnr%}:n <=> n (HarmDummy:) (%^WGStem:) %> _ ; 
 
 "%{dtlnr%}:r"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %{dtlnr%}:r <=> r (HarmDummy:) (%^WGStem:) %> _ ; 
 
-!! !CONSONANT LOSS
+!! ### CONSONANT LOSS
  
 "čToZero"
-!! __@RULENAME@__  
-!! {{{
+!! **@RULENAME@**  
+!! ```
 č:0 <=> _ č [ ((HarmDummy:) %>) Vow | Vow: (HarmDummy:) %> i ] %^WGStem:0 ; !! * @CODE@ suvaija:suvaičen
  _ č Vow: (HarmDummy:) %^WGStem:0 ; 
-!! }}}
+!! ```
 
 "kToZero"
-!! __@RULENAME@__  aika: ajan
-!! {{{
+!! **@RULENAME@**  aika: ajan
+!! ```
 k:0 <=> _ s (HarmDummy:) %^KS2S:0 ;
         _ k [ Vow (HarmDummy:) | Vow: (HarmDummy:) %^A2O: %> i | e h (HarmDummy:) ] %^WGStem:0 ;
 !!€ lʼykkä%{front%}%^WGStem%>t%{AÄ%}
@@ -907,10 +907,10 @@ k:0 <=> _ s (HarmDummy:) %^KS2S:0 ;
 !!€ liikkeh%{front%}%^WGStem
 !!€ lii0keh00
 
-!! }}}
+!! ```
 
 "gToZero"
-!! __@RULENAME@__  aika: ajan
+!! **@RULENAME@**  aika: ajan
 g:0 <=>
         [ Vow: - [ o | u ] ] _ i s (HarmDummy:) %> d: [ %{aä%}: %^WGStem: | i h ] ;
         [ Vow - [ o | u ] ] _ (HarmDummy:) e: (HarmDummy:) %^WGStem:0 %> ;
@@ -927,7 +927,7 @@ g:0 <=>
  t:0 <=>
   _ t [ %{uy%}: | u | y | %{aäuyiØ%}: |Vow: ] (HarmDummy:) %^WGStem:0  ;
  Vow: _ t [ Vow: (%> i)| e h | Vow: Cns: ] (HarmDummy:) %^WGStem:0  ;
-!! ezitellä+V+Inf: __present/esitellä__
+!! ezitellä+V+Inf: **present/esitellä**
 !!€ ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
 !!€ ezi0tel00%>lä0
 ! [ # Cns* Vow | # Cns* Vow [ Vow - [ i | u | y ] ] | Vow h [ y | u ] ] _  GRC ;
@@ -943,19 +943,19 @@ t:l <=> l (HarmDummy:) %> _ (%{aä%}:|a|ä) %^WGStem: ;
 
 ! luba : luvan
 "b:v"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 b:v <=> [ #: ] Cns* Vow ( r | l | Vow ) _  [ GRC | %^TS:0 i (HarmDummy:) %^WGStem:0 %> ] ;
 
 "b:v"
-!! __@RULENAME@__
-!! {{{
+!! **@RULENAME@**
+!! ```
 b:m <=> m _  [ a | i ] (HarmDummy:) %^WGStem:0 ; !!≈ @CODE@
-!! }}}
+!! ```
 
 !2013-04-29!"double pp to p"
 !2013-04-29!p:0 <=> [ #: Cns* Vow ( m ) p | #: Cns* Vow Vow p | Cns* Vow+ Cns+ Vow+ p ] _ [ GRC | %^TS:0 i %^WGStem:0 %> ] ;
 "p:0 in lapsi"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 p:0 <=> Vow _ s  (HarmDummy:) %^KS2S:0  ;
  Vow: _ p Vow: (HarmDummy:) (%^RmVow:) (%> i) %^WGStem:0  ;
 !!€ kuoppa%{back%}%^WGStem%^RmVow%>i%>l
@@ -968,15 +968,15 @@ p:0 <=> Vow _ s  (HarmDummy:) %^KS2S:0  ;
 !2013-04-29!          where Vx in (o ö)
 !2013-04-29!                Vy in (u y) matched ;
 
-!! !!Consonant loss
+!! ## Consonant loss
 "d:0"
-!! __@RULENAME@__   pidiä:piän
+!! **@RULENAME@**   pidiä:piän
 d:0 <=>  # Cns* [ i | a: | o | ä ] _ [ ä: | a: | e: | i ] (HarmDummy:) %^WGStem:0  ;
 !!€# pidä%^WGStem%>n
 !!€0 pi0ä0%>n
 
 "s:0"
-!! __@RULENAME@__   
+!! **@RULENAME@**   
  s:0 <=>  [ u | u a | e ] _ s [ ä: | a: ( (HarmDummy:) %^A2O: %> i) | e: | i ] (HarmDummy:) %^WGStem:0  ;
 !!€# bussa%^WGStem%>l
 !!€0 bu0sa0%>l

@@ -6,7 +6,7 @@
 LEXICON PROP_ !!= @CODE@ 
 +TYÄ+Prop: N_ ;
 
-!! !ONE-SYLLABLE LEMMA AND STEM
+!! ### ONE-SYLLABLE LEMMA AND STEM
 !LEXICON PROP_KUU !!= @CODE@ kuu:kuu
 !+Prop:%{back%} NMN_KUU/PII ;
 LEXICON PROP_VYÖ !!= @CODE@ vyö:vyö
@@ -17,7 +17,7 @@ LEXICON PROP_MUA !!= @CODE@ mua:maa
 
 
 
-!! !TWO-SYLLABLE LEMMA AND STEM
+!! ### TWO-SYLLABLE LEMMA AND STEM
 LEXICON PROP_OZA !!= @CODE@
 !! Gradation NA
 !! Back vowel
@@ -358,7 +358,7 @@ LEXICON PROP_VALGEI-PL !!= @CODE@
 
 
 
-!! !TWO-SYLLABLE LEMMA THREE-SYLLABLE STEM
+!! ### TWO-SYLLABLE LEMMA THREE-SYLLABLE STEM
 
 LEXICON PROP_KARJAL !!= @CODE@ karjal:karjal
 !! Back vowel
@@ -383,7 +383,7 @@ LEXICON PROP_KIELINE !!= @CODE@ kieline:kieli
 !LEXICON PROP-PLC_KIELINE !!= @CODE@ kieline:kieli
 !+Prop+Sem/Plc:%{front%} NMN_NAINE/KIELINE ;
 
-LEXICON PROP-PLC_TVER !!= __@CODE@__ Tver:Tver
+LEXICON PROP-PLC_TVER !!= **@CODE@** Tver:Tver
 +Prop+Sem/Plc:%{front%} NMN_TVER ;
 
 LEXICON PROP_TAIGIN
@@ -391,7 +391,7 @@ LEXICON PROP_TAIGIN
 !LEXICON PROP-MAL_TAIGIN
 !+Prop+Sem/Mal:   NMN_TAIGIN  ;
 
-LEXICON PROP-PLC_TAIGIN !!= __@CODE@__
+LEXICON PROP-PLC_TAIGIN !!= **@CODE@**
 +Prop+Sem/Plc:%{back%} NMN_TAIGIN  ;
 
 !LEXICON PROP-PLC_TOVESTEH !!= __@CODE@__ tovesteh:tovesteh
@@ -401,13 +401,13 @@ LEXICON PROP-PLC_TAIGIN !!= __@CODE@__
 
 !LEXICON PROP-PLC_PEREH !!= __@CODE@__ pereh:pereh
 !+Prop+Sem/Plc:%{front%} NMN_TOVESTEH/PEREH ;
-LEXICON PROP_PEREH !!= __@CODE@__ pereh:pereh
+LEXICON PROP_PEREH !!= **@CODE@** pereh:pereh
 +Prop:%{front%} NMN_TOVESTEH/PEREH ;
 
 !LEXICON	 PROP-PLC_VIDEL !!= __@CODE@__ videl:videl
 !+Prop+Sem/Plc:%{front%} NMN_VIDEL ;
 
-LEXICON PROP_VIDEL !!= __@CODE@__ videl:videl
+LEXICON PROP_VIDEL !!= **@CODE@** videl:videl
 +Prop:%{front%} NMN_VIDEL ;
 
 LEXICON PROP_RUS-IN_SUR
