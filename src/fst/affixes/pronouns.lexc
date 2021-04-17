@@ -177,7 +177,7 @@ LEXICON PRON_
 
 
 
-!! !DEMONSTRATIVE PRONOUNS
+!! ### DEMONSTRATIVE PRONOUNS
 LEXICON PRON_SE
 +Dem+Sg+Nom:e K ;
 +Dem+Sg+Gen:en K ;
@@ -234,7 +234,7 @@ LEXICON PRON-DEM_NET !!= @CODE@ net:n
 +Dem+Dep+Pl+Ine:iis K ;
 +Dem+Dep+Pl+Ill:iih K ;
 
-!! !INDEFINITE
+!! ### INDEFINITE
 LEXICON PRON-INDEF_ !!= @CODE@ Still requires work
 +Indef: K ;
 
@@ -352,7 +352,7 @@ LEXICON PRON-INDEF_NIMITTUINE !!= @CODE@ nimittuine:ni«mittu
 +Indef+Neg+Pl+Par:%>mii K ;
 
 
-!! !INTERROGATIVE
+!! ### INTERROGATIVE
 LEXICON PRON-INTERR_ !!= @CODE@ Still requires work
 +Interr: K ;
 
@@ -403,8 +403,8 @@ LEXICON PRON-INTERR_KEN-01
 LEXICON PRON-INTERR_KARJALAINE
 +Interr:%{back%} NMN_KARJALAINE/LIYGILÄINE ;
 
-!! !REFLEXIVE PRONOUNS
-LEXICON PRON-REFL_ !!= __@CODE@__ iče:ičče
+!! ### REFLEXIVE PRONOUNS
+LEXICON PRON-REFL_ !!= **@CODE@** iče:ičče
 +Refl+Abl:%^WGStem%>lpäi K ; 
 +Refl+Ade:%^WGStem%>l K ; 
 +Refl+All:%^WGStem%>le K ;
@@ -427,7 +427,7 @@ LEXICON PRON-REFL_ !!= __@CODE@__ iče:ičče
 !! iččiedäh, iččedäh, iččeh, ičes, iččenäh, iččiedäs, iččeni,
 
 
-!! !RELATIVE PRONOUNS
+!! ### RELATIVE PRONOUNS
 LEXICON PRON-REL_KUDAI !!= @CODE@ kudai:kuda
 +Rel:%{back%} NMN_KUDAI ;
 +Rel:%{back%} NMN_PIIRAI/VERÄI ; !2015-05-21

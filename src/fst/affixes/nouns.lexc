@@ -1,4 +1,4 @@
-!! !!!Noun inflection
+!! # Noun inflection
 ! ---------------
 !! Livvi nouns inflect in cases.
 !! Vowel harmony involves front and back
@@ -6,7 +6,7 @@
 !! there are three values: Yes, No and NA (not applicable)
 
 
-!! !!The file proper
+!! ## The file proper
 LEXICON OTHER-TIME ! adhoc
 # ;
 
@@ -16,7 +16,7 @@ N_KALA ;
 LEXICON N_
 +Sg+Nom+TYÄ: # ;
 
-!! !ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
+!! ### ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
 LEXICON N_SUO !!= @CODE@ suo:suo
 !! Gradation: No
 !! Harmony: Back
@@ -68,7 +68,7 @@ LEXICON N_PIÄ-SG
 LEXICON N_PIÄ-PL
 :%{front%} NMN_PIÄ-PL ;
 
-!! !TWO-SYLLABLE VOWEL-FINAL STEMS
+!! ### TWO-SYLLABLE VOWEL-FINAL STEMS
 
 LEXICON N_PAPPI !!= @CODE@ pappi:pappi
 !! Gradation: Yes
@@ -184,8 +184,8 @@ LEXICON N_SÄYNÄ-PL
 LEXICON N_KOIVU !!= @CODE@ koivu:koivu
 !! Gradation NA
 !! Harmony: Back
-!! There are no changes in stem-final __u__
-!! Plural stem in __loi__
+!! There are no changes in stem-final **u**
+!! Plural stem in **loi**
 : ATTESTED-NOUN-STEM ; 
         N_KOIVU-SG ;
         N_KOIVU-PL ;
@@ -199,8 +199,8 @@ LEXICON N_KOIVU-PL
 LEXICON N_HERY !!= @CODE@ hery:hery
 !! Gradation NA
 !! Harmony: Front
-!! There are no	changes	in stem-final __y__
-!! Plural stem in __löi__
+!! There are no	changes	in stem-final **y**
+!! Plural stem in **löi**
 : ATTESTED-NOUN-STEM ; 
         N_HERY-SG ;
         N_HERY-PL ;
@@ -214,8 +214,8 @@ LEXICON N_HERY-PL
 LEXICON N_IDY !!= @CODE@ idy:idy
 !! Gradation Yes
 !! Harmony: Front
-!! There are no changes in stem-final __y__
-!! Plural stem in __löi__
+!! There are no changes in stem-final **y**
+!! Plural stem in **löi**
 : ATTESTED-NOUN-STEM ;
         N_IDY-SG ;
         N_IDY-PL ;
@@ -229,8 +229,8 @@ LEXICON N_IDY-PL
 LEXICON N_LUGU !!= @CODE@ lugu:lugu
 !! Gradation Yes
 !! Harmony: Back
-!! There are no changes in stem-final __u__
-!! Plural stem in __loi__
+!! There are no changes in stem-final **u**
+!! Plural stem in **loi**
 : ATTESTED-NOUN-STEM ;
         N_LUGU-SG ;
         N_LUGU-PL ;
@@ -245,7 +245,7 @@ LEXICON N_RUNO !!= @CODE@ runo:runo
 !! Gradation NA
 !! Harmony: Back
 !! Stem-fianl o changes to u in Sg Par
-!! Plural stem in __loi__
+!! Plural stem in **loi**
 : ATTESTED-NOUN-STEM ;
 	 N_RUNO-SG ;
 	 N_RUNO-PL ;
@@ -291,7 +291,7 @@ LEXICON N_KYNDÖ-SG
 LEXICON N_KYNDÖ-PL
 :%{front%} NMN_RUADO/KYNDÖ-PL   ;
 
-!! !TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
+!! ### TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
 
 LEXICON N_JÄLGI  !!= @CODE@ jälgi:jälg
 !! Gradation Yes
@@ -713,7 +713,7 @@ LEXICON N_KESTÄY-SG
 LEXICON N_KESTÄY-PL
 :%> NMN_KESTÄY-PL        ;
 
-!! !TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
+!! ### TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
 LEXICON N_UKSI !!= @CODE@ uksi:uks
 !! Gradation NA
 !! Harmony: Back
@@ -807,7 +807,7 @@ LEXICON N_VUOZI-SG
 LEXICON N_VUOZI-PL
 :%{back%} NMN_VUOZI/VEZI-PL	;
 
-!! !THREE-SYLLABLE VOWEL-FINAL STEMS
+!! ### THREE-SYLLABLE VOWEL-FINAL STEMS
 LEXICON N_SYGYZY !!= @CODE@ sygyzy:sygyzy
 !! Gradation NA
 !! Harmony: Front
@@ -834,7 +834,7 @@ LEXICON N_VASKIČČU-SG
 LEXICON N_VASKIČČU-PL
 :%{back%} NMN_VASKIČČU-PL        ;
 
-!! !THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
+!! ### THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
 LEXICON N_KARJAL !!= @CODE@ karjal:karjal
 !! Gradation NA
 !! Harmony: Back
@@ -1560,7 +1560,7 @@ LEXICON N_PIENAR-PL
 !LEXICON N_TYTÄR-PL
 !:%{front%} NMN_TYTÄR-PL ;
 
-!! !NOMINAL DECLENSION BEGINS
+!! ### NOMINAL DECLENSION BEGINS
 
 !LEXICON NMN_MUAMO !!= @CODE@ muamo:muama
 !!! Back vowel
@@ -1759,7 +1759,7 @@ LEXICON NMN_SUZI-PL
 :z%>i%>l%{oö%}i PLINSSUF ;
 +Pl:z%>i%>l%{oö%}i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-!! !NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
+!! ### NMN = Nominals mutually shared case marking for nouns, adjectives, proper ouns, numerals
 LEXICON NMN_HANGI/NIMI
 	NMN_HANGI/NIMI-SG	;
 	NMN_HANGI/NIMI-PL	;
@@ -2206,7 +2206,7 @@ LEXICON NMN_SYGYZY-PL
 +Pl:%>l%{oö%}i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
 
-LEXICON NMN_VALGEI/LIBEI !!= * __@CODE@__ valgei:valge
+LEXICON NMN_VALGEI/LIBEI !!= * **@CODE@** valgei:valge
 	NMN_VALGEI/LIBEI-SG	;
 	NMN_VALGEI/LIBEI-PL	;
 
@@ -2524,7 +2524,7 @@ LEXICON NMN_KALA-PL
 +Pl:^A2O%>i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
 LEXICON NMN_PADA !!= @CODE@ pada:pada
-!! Yaml: __pada__
+!! Yaml: **pada**
 !! Gradation Yes
 	NMN_PADA-SG  ; 
 	NMN_PADA-PL  ;
@@ -2547,7 +2547,7 @@ LEXICON NMN_TULLUH/PESSYH !!= @CODE@ pessyh
         NMN_TULLUH/PESSYH-SG ;
         NMN_TULLUH/PESSYH-PL ;
 
-!! !Nominative singular in "h"
+!! ### Nominative singular in "h"
 LEXICON NMN_TULLUH/PESSYH-SG
 :h SGNOMSUF ;
 +Err/Orth:t SGNOMSUF ;
@@ -2566,7 +2566,7 @@ LEXICON NMN_TULLUH !!= @CODE@ tulluh:tullu
         NMN_TULLUH-SG ;
         NMN_TULLUH-PL ;
 
-!! !Nominative singular in "h"
+!! ### Nominative singular in "h"
 LEXICON NMN_TULLUH-SG
 :h SGNOMSUF ;
 +Err/Orth:t SGNOMSUF ;
@@ -2613,7 +2613,7 @@ LEXICON NMN_MADAL-PL !!= @CODE@ madal:madal
 :i PLINSSUF ;
 +Pl:i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-!! ! Nominative singular in "m"
+!! ###  Nominative singular in "m"
 
 !LEXICON NMN_SUURIM !!= @CODE@ suurim
 !        NMN_SUURIM-SG   ;
@@ -2667,7 +2667,7 @@ LEXICON NMN_TUATINDAM-PL
 :i PL-GEN/COM/APRSUF_EN ;
 :i PLPARSUF_i ;
 
-!! ! Nominative singular in "n"
+!! ###  Nominative singular in "n"
 LEXICON NMN_SALBOIN 
 	NMN_SALBOIN-SG	;
 	NMN_SALBOIN-PL	;
@@ -2705,7 +2705,7 @@ LEXICON NMN_ENIN-PL
 +Pl:mi OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
 
-!! ! Nominative singular in "r"
+!! ###  Nominative singular in "r"
 !LEXICON NMN_PIENAR
 !	NMN_PIENAR-SG	;
 !	NMN_PIENAR-PL	;
@@ -2766,7 +2766,7 @@ LEXICON NMN_UDAR-PL
 :il%{oö%}i PLINSSUF ;
 +Pl:il%{oö%}i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-!! ! Nominative singular in "s"
+!! ###  Nominative singular in "s"
 LEXICON NMN_PUHTAHUS/VÄHYS !!= @CODE@ puhtahus:puhtahu
 	NMN_PUHTAHUS/VÄHYS-SG ;
 	NMN_PUHTAHUS/VÄHYS-PL ;
@@ -2885,7 +2885,7 @@ LEXICON NMN_VIDEL-PL
 +Pl:i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
 LEXICON NMN_TUORES !!= @CODE@ tuores:tuore
-!!= * Yaml: __A-tuores__
+!!= * Yaml: **A-tuores**
  NMN_TUORES-SG        ;
  NMN_TUORES-PL        ;
 
@@ -3456,7 +3456,7 @@ LEXICON NMN_TOINE-PL
 +Pl:izi OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
 
-!! ! Nominative singular in "v"
+!! ###  Nominative singular in "v"
 LEXICON NMN_ABRAMOV !!= * @CODE@ Abramov:Abramov
 	NMN_ABRAMOV-SG ;
 	NMN_ABRAMOV-PL ;
@@ -3476,7 +3476,7 @@ LEXICON NMN_ABRAMOV-PL
 
 
 
-!! !Singular suffixes
+!! ### Singular suffixes
 !! 
 LEXICON SG-ACC/APR/COM/GENSUF-USUALLY-WEAK
 ! SGACCSUF_n ;
@@ -3534,7 +3534,7 @@ LEXICON SGPARSUF_O
 +Sg+Par:%>%{oö%} K ;
 
 
-!! !Plural suffixes
+!! ### Plural suffixes
 LEXICON PL-GEN/COM/APRSUF_EN
 +Pl+Gen:%>en K ;
 +Pl+Com:%>enke K ;
@@ -3611,7 +3611,7 @@ LEXICON OBLIQUE-CASES-TYPICALLY-WITH-STRONG-GRADE
 +Ill:%>h K ;
 +Ter:%>ss%{aä%}h K ;
 
-!! !SINGULAR POSSESSA
+!! ### SINGULAR POSSESSA
 
 LEXICON SGNOM/PXSP3 !!= @CODE@ adding -h
 +Sg+Nom+PxSP3:%>h K ;

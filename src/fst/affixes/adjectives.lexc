@@ -1,8 +1,8 @@
-!! !!!Livvi adjective inflection
+!! # Livvi adjective inflection
 ! --------------------
 
 
-!! !!Temporary lexica
+!! ## Temporary lexica
 
 LEXICON Q_X !!= * @CODE@ 
 +TYÄ: # ;
@@ -10,7 +10,7 @@ LEXICON Q_X !!= * @CODE@
 LEXICON A_ !!= * @CODE@ 
 +TYÄ: # ;
 
-!! !!Somewhat open issues
+!! ## Somewhat open issues
 
 LEXICON A_TULLUT !!= * @CODE@ IS THIS LIVVI? tullut:tullu
 :%{back%} NMN_TULLUT ; 
@@ -45,7 +45,7 @@ LEXICON A-DEM_NÄMÄ !!= @CODE@ nämä:nämä
 
 
 
-!! !ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
+!! ### ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
 LEXICON A_KUU !!= @CODE@ kuu:kuu
 :%{back%} NMN_KUU/PII ;
 
@@ -56,9 +56,9 @@ LEXICON A_PIÄ !!= @CODE@ piä:piä
 :%{front%} NMN_PIÄ ;
 
 
-!! !!Ordinary inflection
+!! ## Ordinary inflection
 
-!! !TWO-SYLLABLE VOWEL-FINAL STEMS
+!! ### TWO-SYLLABLE VOWEL-FINAL STEMS
 LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
 !! the comparatives and superlatives are supletive
 :%{front%} NMN_OZA/SÄYNÄ ;
@@ -139,7 +139,7 @@ LEXICON A_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 LEXICON A_OLUT !!= @CODE@ olut:olu
 :%{back%}	 NMN_OLUT ;
 
-!! !TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
+!! ### TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
 LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
 :%{front%} NMN_KOIRU/PÄIVY ;
 +Comp:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
@@ -195,10 +195,10 @@ LEXICON A_KONDII
 LEXICON A_KESTÄY !!= @CODE@ kestäy:kestä
 :%{front%} NMN_KESTÄY ;
 
-!! !TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
+!! ### TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
 
 
-!! !THREE-SYLLABLE VOWEL-FINAL STEMS
+!! ### THREE-SYLLABLE VOWEL-FINAL STEMS
 LEXICON A_PAREMBI !!= @CODE@ parembi:paremb
 :%{back%} NMN_PAREMBI/ENÄMBI	  ;
 +Der/MWN:%{back%} N_PAREMBI ;
@@ -245,7 +245,7 @@ LEXICON A_TOINE !!= @CODE@ toine:to
 LEXICON A_TOINE-PL !!= @CODE@ toine:to
 :%{back%} NMN_TOINE-PL ;
 
-!! !THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
+!! ### THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
 !LEXICON A_KARJAL !!= @CODE@ karjal:karjal
 !:%{back%}     NMN_KARJAL ;
 !+Comp:%{back%}emb NMN_PAREMBI/ENÄMBI        ;
@@ -272,7 +272,7 @@ LEXICON A_PEREH !!= @CODE@ pereh:pereh
 :%{front%}	NMN_TOVESTEH/PEREH	;
 
 LEXICON A_TULLUH !!= @CODE@ tulluh:tullu
-!!= * Yaml: __A-tulluh__
+!!= * Yaml: **A-tulluh**
 :%{back%} NMN_TULLUH/PESSYH ;
 
 LEXICON A_PESSYH !!= @CODE@ pessyh:pessy
@@ -289,7 +289,7 @@ LEXICON A_VARVAS !!= @CODE@ varvas:varva
 +Superl:%{back%}hi NMN_ENIN        ;
 
 LEXICON A_TUORES !!= @CODE@ tuores:tuore
-!!= * Yaml: __A-tuores__
+!!= * Yaml: **A-tuores**
 :%{back%} NMN_TUORES ;
 +Comp:%{back%}hemb NMN_PAREMBI/ENÄMBI        ;
 +Superl:%{back%}hi NMN_ENIN        ;
@@ -329,7 +329,7 @@ LEXICON A_JÄLGI  !!= @CODE@ jälgi:jälg
 
 
 
-!! !TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
+!! ### TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
 !LEXICON A_VANUIN !!= @CODE@ vanuin:vanui
 !:%{back%} NMN_VANUIN	 ;
 
