@@ -34,4 +34,5 @@ MD_PAGES=root-morphology.md  \
 # adjectives-oahpa-affixes.md \
 # adjectives-affixes.md       \
 # propernouns-affixes.md      
+
 include $(top_srcdir)/../giella-core/am-shared/docs-dir-include.am
