@@ -1,0 +1,545 @@
+!!!The Livvi (Olonets) Karelian morphophonological/twolc rules file 
+
+
+
+
+  %{aoeInf%}:a	 Back vowel infinitive marker
+  %{äöeInf%}:ä	 Front vowel infinitive marker
+
+
+ *  %{aäoeöuiy%}:ä   with partitive type koivuu
+ *  %{aäoeö%}:ä   newer This is for diphthongs such as the infinitive marker after i and u stems ampuo
+ * %{aäuyiØ%}:ä  in participle endings anticipating PÄIVY or KOIRU type
+
+  %{ui%}:i   in imperative before %{aä%}:
+
+
+ %{oöØ%}:0   Used in present participle
+
+
+  %{ijPRC%}:j  participle
+ *  %{lnrs%}:n   e.g. in perfect participles
+ *  %{dtlnr%}:d  e.g. infinitive and Ind+Prs+Pl3
+
+
+
+
+
+
+
+ %^DEVOICE:0    
+ %^VOICE:0     pestä : pezen
+
+
+
+
+
+
+ %^Pen:0   pagisou paistah in combination with WGStem to trigger
+
+
+
+ %^D2Z:0	  ! The ti => zi
+
+
+
+ %^E2O:0	  the e => o, e => ö
+
+
+ %^Ä2I:0		  ä => i
+ %^A2UÄ2I:0		  a => u, ä => i
+
+ %^ILoss:0    the i => 0 __reboi reboloi__
+ %^V2U:0	     v => y __kävvä käydy__
+
+ _%^RVow:0   _ 
+ _%^RmVow:0   _ vowel removal, e.g. with superlative
+
+
+
+
+
+
+Triggers dictating right context phenomena
+ * _%{back%}:0 _ back harmony until harmony boundary, i.e. word boundary
+ * _%{front%}:0 _ front harmony until harmony boundary, i.e. word boundary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Right context for gradation
+
+
+!!!Rules
+
+
+
+
+
+
+
+
+
+__%{aä%}:a__
+
+__%{aä%}:ä__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__%{aäoeö%}:a__
+
+__%{aäoeö%}:ä__
+
+__%{aäoeö%}:o__
+
+__%{aäoeö%}:e__
+
+__%{aäoeö%}:ö__
+
+__{aäoeöuiy%}:a__
+
+__{aäoeöuiy%}:ä__
+
+__{aäoeöuiy%}:o__
+
+__{aäoeöuiy%}:e__
+
+__{aäoeöuiy%}:ö__
+
+__{aäoeöuiy%}:u__
+
+__{aäoeöuiy%}:i__
+
+__{aäoeöuiy%}:y__
+
+
+__e:0__
+
+
+__%{ui%}:u__
+{{{
+* %{front%}:0  ! imperative forms
+* __kanda%{back%}%>kk%{ui%}%{aä%}mm%{oö%} __
+* __kanda0%>kkuammo __
+}}}
+
+__%{ui%}:i__
+{{{
+* %{front%}:0  ! imperative forms
+* __lʼykkä%{front%}%^WGStem%>kk%{ui%}%{aä%}mm%{oö%} __
+* __lʼyk0ä00%>kkiämmö __
+}}}
+
+__A2:a__
+
+__A2:u__
+
+__A2:y__
+
+
+__%{aäuyiØ%}:a__
+
+__%{aäuyiØ%}:u__
+
+__%{aäuyiØ%}:ä__
+
+__%{aäuyiØ%}:y__
+
+__%{aäuyiØ%}:i__
+
+__%{aäuyiØ%}:0__
+
+
+__a:u before subsequent a__  Diphthong a+a => ua
+ostua+V+Inf: __buy/ostaa__
+
+__osta%>%{aä%} examples:__
+
+__ostu%>%{aä%} examples:__
+
+
+__ä:i before subsequent A2__  Diphthong ä+ä => iä
+kehittiä+V+Inf: __develop/kehittää__
+
+__kehittä%>%{aä%} examples:__
+
+__kehitti%>ä examples:__
+
+
+__o:u before subsequent o__ Diphthong o+o => uo erota:eruou
+
+__ero%>%{oö%}%>n examples:__
+
+__eru0o%>n examples:__
+
+__runo%>%{oö%} examples:__
+
+__runu%>o examples:__
+
+__jo%>vv%{aä%} examples:__
+
+__ju%>vva examples:__
+
+
+__ö:y before subsequent ö__ Diphthong ö+ö, ö+%{oö%}:ö => yö
+
+__sö%>ö%>y examples:__
+
+__sy%>ö%>y examples:__
+
+__pöllö%>ö examples:__
+
+__pölly%>ö examples:__
+
+__sö%>vvä examples:__
+
+__sy%>vvä examples:__
+
+__e:i before subsequent :e__ Diphthong o+o => uo erota:eruou
+{{{
+
+__valge%>e%^WGStem%>t examples:__
+
+__valgi%>e00t examples:__
+
+__hävi%>%{aäPar%}%>n examples:__
+
+__hävi%>e0n examples:__
+
+__tiedo%^WGStem%>n examples:__
+
+__tiijo0%>n examples:__
+
+* __väge%{front%}%^WGStem>n __
+* __vä0i00%>n __
+
+__luge>%{ijPRC%} examples:__
+
+__lugi%>j examples:__
+
+}}}
+
+
+__e:o__ Vowel harmony suffixes Back
+{{{
+
+__luge%^E2O%>u examples:__
+
+__lugo%>u examples:__
+}}}
+
+__e:ö__ Vowel harmony 
+
+__käske%^E2O%>y examples:__
+
+__käskö0%>y examples:__
+
+__ä:y word final__
+
+__ä:ö word final__
+
+
+__a:0 in suaja:sai__
+{{{
+ *  a _ (%{back%}:)  %^RmVow:  ;  Vowel shortening before subsequent "i"
+
+__koira%^RmVow%>i%>en examples:__
+
+__koir00%>i%>en examples:__
+
+__koira0%>j%>en examples:__
+
+__vahna%^RmVow%>in examples:__
+
+__vahn00%>in examples:__
+* __otta%{back%}%^WGStem%^RmVow%>in __
+* __ot00000%>in __
+}}}
+
+!!iToj between vowels
+__i:j__
+
+__%{ijPRC%}:i__ 
+{{{
+*  a _ (%{back%}:)  %^RmVow:  ;  +ActPrsPrc
+}}}
+
+
+
+__a:o in the plural and preterite__
+* __muama%{back%}%^A2O __
+* __muamo00 __
+
+__a:e__  pidiä
+
+__kanda%^WGStem%^E1%>tt%{aäDiph%}s examples:__
+
+__kanne00%>ttas examples:__
+
+__kirjava%^E1%>m%^NONEb examples:__
+
+__kirjave0%>m0b examples:__
+
+__ä:e piettih and in comparatives__  pidiä
+* __mečästä%{front%}%^E1%>tt%{aä%}s __
+* __mečäste00%>ttäs __
+
+
+__ä:0 pidiä:pidi__
+
+__i:0 reboi:reboloi__
+* __rodi%^RmVow%>i%>h __
+* __rod00%>i%>h __
+
+
+__%{oö%}:o__ Vowel harmony suffixes Back
+__%{oö%}:ö__ Vowel harmony suffixes Front
+
+
+__%{oöØ%}:0__ Vowel harmony suffixes Back
+
+__%{oöØ%}:o__ Vowel harmony suffixes Back
+
+__luge%>%{ijPRC%}%>%{oöØ%}%>i%>n examples:__
+
+__lugi%>j%>o%>i%>s examples:__
+
+__%{oöØ%}:ö__ Vowel harmony suffixes Front
+
+
+
+__%{uy%}:u__ Vowel harmony suffixes Back
+* __tul%>%{lnrs%}%{uy%}h __
+* __tul%>luh __
+
+__%{uy%}:y__ Vowel harmony suffixes Front
+
+!!Consonant change
+
+__g:j__
+{{{
+* __poiga%^WGStem%>n __
+* __poija0%>n __
+}}}
+
+__g:v__
+* __jog%{back%}e%^WGStem%>n __
+* __jov0e0%>n __
+
+* __jog%{back%}e%^WGStem%>n __
+* __jov0e0%>n __
+
+
+
+__g:l__  
+* __sulga%^WGStem%>n __
+* __sulla0%>n __
+* __jalga%^A2O%>i%^WGStem%>s __
+* __jallo0%>i0%>s __
+sulgu+N+Pl+Ins __feather/sulka__
+* __sulga%^RmVow%>i%^WGStem%>n __
+* __sull0%>i0%>n __
+
+__g:r__  
+{{{
+
+__särge%^WGStem%>n examples:__
+
+__särre0%>n examples:__
+
+__kergi%^WGStem%>t%{aäPar%} examples:__
+
+__kerri0%>tä examples:__
+}}}
+
+__d:v__  
+{{{
+ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; 
+           u a           _   o       (%{back%}:) %^WGStem:0 ; 
+           a             _   u       (%{back%}:) %^WGStem:0 ; 
+         [ u o: | u: ]   _  [ (%{back%}:) e | a: ]  (%{back%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
+         [ ä y: ]   _  [(%{front%}:) e | y ]  (%{front%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
+* __täydy%{front%}%^WGStem __
+* __tävvy00 __
+
+}}}
+
+__v:y__
+__d:j__  
+* __maido%^WGStem%>n __
+* __maijo0%>n __
+* __tiedo%^WGStem%>n __
+* __tiijo0%>n __
+* __tiedä%^WGStem%>n __
+* __tiijä0%>n __
+
+
+__y:v__
+
+__täydy%^WGStem examples:__
+
+__tävvy0 examples:__
+lʼöydiä:lʼövvä
+
+__u:v__
+juodu+N+Pl+Ade
+* __juoda%{back%}%^RmVow%>i%^WGStem%>l __
+* __juod000%>i0%>l __
+soudua:sovva
+
+__o:v Lengthening with Ut:vv weakening__  
+{{{
+}}}
+
+__d:z__  
+* __vuod%^D2Z%>i __
+* __vuoz0%>i __
+* __tunde%^RmVow%>i __
+* __tunz00%>i __
+
+__d:t in partitive__  
+
+__pagis%>d%{aä%}%^WGStemh examples:__
+
+__pa0is%>ta0h examples:__
+
+__s:z__
+{{{
+ * s:z <=> _ (HarmDummy:) %^VOICE:0 ;  pestä: pezen
+}}}
+
+__k:g__ pestä: peskäh
+
+
+__rd:rr weakening__  
+
+
+__ld:ll weakening__  
+
+__nd:nn weakening__ 
+mennä+Ind+Prs+ScPl3: mennäh
+
+__kanda%^WGStem%^E1%>tt%{aä%}s examples:__
+
+__kanne00%>ttas examples:__
+
+
+__rn:rr in prtprc__  
+
+__ln:ll in prtprc__  
+* __tul%>%{lnrs%}%{uy%}h __
+* __tul%>luh __
+
+__sn:ss in prtprc__  
+
+__%{dtlnr%}:d__
+
+__%{dtlnr%}:t__
+
+__%{dtlnr%}:l__
+tulla+Ind+Prs+ScPl3: tullah
+* __tul%{back%}%>%{dtlnr%}%{aä%} __
+* __tul0%>la __
+kuvitella+V+Inf
+* __kuvittel%{back%}%^WGStem%>%{dtlnr%}%{aä%} __
+* __kuvi0tel00%>la __
+
+__%{dtlnr%}:n__
+
+__%{dtlnr%}:r__
+
+!CONSONANT LOSS
+
+__čToZero__  
+{{{
+* s:z <=> _ (HarmDummy:) %^VOICE:0 ;  suvaija:suvaičen
+}}}
+
+__kToZero__  aika: ajan
+{{{
+* __lʼykkä%{front%}%^WGStem%>t%{AÄ%} __
+* __lʼy0kä00%>tä __
+* __abuniekka%{back%}%^A2O%>i%>l __
+* __abunie0ko00%>i%>l __
+* __liikkeh%{front%}%^WGStem __
+* __lii0keh00 __
+
+}}}
+
+__gToZero__  aika: ajan
+* __väge%{front%}%^WGStem>n __
+* __vä0i00%>n __
+* __pagis%{back%}%^Pen%^WGStem%>%{dtlnr%}%{aä%}h __
+* __pa0is000%>tah __
+
+
+
+
+__tavoitteh%^WGStem examples:__
+
+__tavoi0teh0 examples:__
+
+* __kuul%>t%{aä%}%^WGStem __
+* __kuul%>la0 __
+
+__b:v__  
+
+__b:v__
+{{{
+ b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
+}}}
+
+__p:0 in lapsi__  
+* __kuoppa%{back%}%^WGStem%^RmVow%>i%>l __
+* __kuo0p0000%>i%>l __
+
+
+!!Consonant loss
+__d:0__   pidiä:piän
+
+__pidä%^WGStem%>n examples:__
+
+__pi0ä0%>n examples:__
+
+__s:0__   
+
+__bussa%^WGStem%>l examples:__
+
+__bu0sa0%>l examples:__
+
+
+
+
+
