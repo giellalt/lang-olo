@@ -3,17 +3,17 @@
 ## Temporary lexica
 
 
- * **LEXICON V_ ** is for ad-hoc incoming verbs, not in xml
+ * __LEXICON V_ __ is for ad-hoc incoming verbs, not in xml
 
 
 ## Auxiliary verbs
 
- * **LEXICON V-NEG ** ei:e
+ * **LEXICON V-NEG** ei:e
 
- * **LEXICON V-PROH ** älä:äl
+ * **LEXICON V-PROH** älä:äl
 
- * **LEXICON V_OLLA ** olla:o
- * **LEXICON V_OLLA_01 ** olla:o
+ * __LEXICON V_OLLA __ olla:o
+ * __LEXICON V_OLLA_01 __ olla:o
 
 
 
@@ -24,159 +24,159 @@
 
 V1a
 
- * **LEXICON V_ALENDUA ** alendua:alenda
+ * __LEXICON V_ALENDUA __ alendua:alenda
 Harmony: Back
 
- * **LEXICON V_ELLENDIÄ ** ellendiä:ellendä
+ * __LEXICON V_ELLENDIÄ __ ellendiä:ellendä
 Harmony: Front
- * **LEXICON V_ALENDUA/ELLENDIÄ_01 ** ellendiä:ellendä alendua:alenda
+ * __LEXICON V_ALENDUA/ELLENDIÄ_01 __ ellendiä:ellendä alendua:alenda
 Gradation No
 
- * **LEXICON V_KANDUA ** kandua:kanda
+ * __LEXICON V_KANDUA __ kandua:kanda
 Back Vowel
- * **LEXICON V_KANDUA_01 ** kandua:kanda
+ * __LEXICON V_KANDUA_01 __ kandua:kanda
 Gradation Yes
 
 
 
- * **LEXICON V_OTTUA ** ottua:otta
+ * __LEXICON V_OTTUA __ ottua:otta
 Back Vowel
- * **LEXICON V_OTTUA/HEITTIÄ_01 ** ottua:otta
+ * __LEXICON V_OTTUA/HEITTIÄ_01 __ ottua:otta
 Gradation Yes
 
 
- * **LEXICON V_OTTUA-SG3 ** ottua:otta
+ * __LEXICON V_OTTUA-SG3 __ ottua:otta
 
- * **LEXICON V_OTTUA-3 ** ottua:otta
+ * __LEXICON V_OTTUA-3 __ ottua:otta
 
- * **LEXICON V_HEITTIÄ ** heittä:heittä
+ * __LEXICON V_HEITTIÄ __ heittä:heittä
 Front vowel
 
 
- * **LEXICON V_HEITTIÄ-SG3 ** heittä:heittä
+ * __LEXICON V_HEITTIÄ-SG3 __ heittä:heittä
 
- * **LEXICON V_HEITTIÄ-3 ** heittä:tiedä
+ * __LEXICON V_HEITTIÄ-3 __ heittä:tiedä
 
 V1o
 
- * **LEXICON V_PUNUO ** punuo:puno
+ * __LEXICON V_PUNUO __ punuo:puno
 Back vowel
- * **LEXICON V_PUNUO/XX_01 ** punuo:puno
+ * __LEXICON V_PUNUO/XX_01 __ punuo:puno
 Gradation No
 
- * **LEXICON V_PUNUO-SG3 ** punuo:puno
+ * __LEXICON V_PUNUO-SG3 __ punuo:puno
 
 V1u
 
- * **LEXICON V_VALUO ** valuo:valu
+ * __LEXICON V_VALUO __ valuo:valu
 Back vowel
- * **LEXICON V_VALUO/PYZYÖ_01 ** valuo:valu
+ * __LEXICON V_VALUO/PYZYÖ_01 __ valuo:valu
 Gradation No
 similar_to: V_PYZYÖ
 
 
- * **LEXICON V_VALUO-SG3 ** valuo:valu
+ * __LEXICON V_VALUO-SG3 __ valuo:valu
 
 
- * **LEXICON V_PYZYÖ ** pyzyö:pyzy
+ * __LEXICON V_PYZYÖ __ pyzyö:pyzy
 Front vowel
 
 
- * **LEXICON V_PYZYÖ-SG3 ** pyzyö:pyzy
+ * __LEXICON V_PYZYÖ-SG3 __ pyzyö:pyzy
 
- * **LEXICON V_PYZYÖ-3 ** pyzyö:pyzy
+ * __LEXICON V_PYZYÖ-3 __ pyzyö:pyzy
 
 V1i
- * **LEXICON V_POTKIE ** potkie:potki
+ * __LEXICON V_POTKIE __ potkie:potki
 Back vowel
- * **LEXICON V_POTKIE/EČČIE_01 ** potkie:potki
+ * __LEXICON V_POTKIE/EČČIE_01 __ potkie:potki
 Gradation No
 Ind+Prt+Sg3
 
 
- * **LEXICON V_POTKIE-SG3 ** potkie:potki
+ * __LEXICON V_POTKIE-SG3 __ potkie:potki
 
- * **LEXICON V_EČČIE ** eččie:ečči
+ * __LEXICON V_EČČIE __ eččie:ečči
 Front vowel
 
 
- * **LEXICON V_LUGIE ** lugie:luge
+ * __LEXICON V_LUGIE __ lugie:luge
 Back vowel
- * **LEXICON V_LUGIE/IMIE_01 ** lugie:luge
+ * __LEXICON V_LUGIE/IMIE_01 __ lugie:luge
 Gradation Yes
 
- * **:%>e INDPRTPL3_ttih ; ** 
- * **:%>e INDPRSPL3_tAh ; ** 
+ * __:%>e INDPRTPL3_ttih ; __ 
+ * __:%>e INDPRSPL3_tAh ; __ 
 
- * **LEXICON V_TUNDIE ** tundie:tunde 
- * **LEXICON V_TUNDIE_01 ** tundie:tunde 
+ * __LEXICON V_TUNDIE __ tundie:tunde 
+ * __LEXICON V_TUNDIE_01 __ tundie:tunde 
 Gradation Yes
 Back vowel
 
 
- * **:%>e INDPRTPL3_ttih ; ** 
- * **:%>e INDPRSPL3_tAh ; ** 
- * **LEXICON V_IMIE ** imie:ime
+ * __:%>e INDPRTPL3_ttih ; __ 
+ * __:%>e INDPRSPL3_tAh ; __ 
+ * __LEXICON V_IMIE __ imie:ime
 Gradation No
 Front vowel
 
 
- * **LEXICON V_IMIE-SG3_01 ** imie:ime
+ * __LEXICON V_IMIE-SG3_01 __ imie:ime
 
- * **LEXICON  V_PIDIÄ ** pidiä:pidä
+ * __LEXICON  V_PIDIÄ __ pidiä:pidä
 Gradation Yes
 Front vowel
- * **LEXICON  V_PIDIÄ_01 ** pidiä:pidä
+ * __LEXICON  V_PIDIÄ_01 __ pidiä:pidä
 
- * **LEXICON  V_PIDIÄ-SG3 ** pidiä:pidä
- * **LEXICON  V_PIDIÄ-SG3_01 ** pidiä:pidä
+ * __LEXICON  V_PIDIÄ-SG3 __ pidiä:pidä
+ * __LEXICON  V_PIDIÄ-SG3_01 __ pidiä:pidä
 
 
 
 ### VERBS OF FINNISH TYPE 2 in dA
 
- * **LEXICON V_VOIJA ** voija:voi
- * **LEXICON V_VOIJA_01 ** voija:voi
+ * __LEXICON V_VOIJA __ voija:voi
+ * __LEXICON V_VOIJA_01 __ voija:voi
 
- * **+Inf:%>ja K ; ** type 2 also suaha
-
-
-
- * **LEXICON V_ROIJA ** roija:roi
- * **LEXICON V_ROIJA_01 ** roija:roi
- * **+Inf:%>ja K ; ** type 2 also suaha
+ * **+Inf:%>ja K ;** type 2 also suaha
 
 
- * **LEXICON V_SUAJA ** suaja:saa
- * **LEXICON V_SUAJA_01 ** suaja:saa
- * **+Inf:%>ja K ; ** type 2 also suaha
- * **+Inf:%>ha K ; ** type 2 also suaha
+
+ * __LEXICON V_ROIJA __ roija:roi
+ * __LEXICON V_ROIJA_01 __ roija:roi
+ * **+Inf:%>ja K ;** type 2 also suaha
 
 
- * **LEXICON V_JUVVA ** juvva:jo
- * **LEXICON V_JUVVA_01 ** juvva:jo
+ * __LEXICON V_SUAJA __ suaja:saa
+ * __LEXICON V_SUAJA_01 __ suaja:saa
+ * **+Inf:%>ja K ;** type 2 also suaha
+ * **+Inf:%>ha K ;** type 2 also suaha
 
 
- * **LEXICON V_JIÄJÄ ** suaja:saa jiäjä:jää
- * **LEXICON V_JIÄJÄ_01 ** suaja:saa jiäjä:jää
- * **+Inf:%>jä K ; ** type 2 also jiähä
- * **+Inf:%>hä K ; ** type 2 also jiähä
-
- * **LEXICON V_MYVVÄ ** myvvä:mö
- * **LEXICON V_MYVVÄ_01 ** myvvä:mö
-
- * **LEXICON V_VIIJÄ ** viijä:ve
+ * __LEXICON V_JUVVA __ juvva:jo
+ * __LEXICON V_JUVVA_01 __ juvva:jo
 
 
- * **LEXICON V_NÄHTÄ ** nähtä:nä
- * **LEXICON V_NÄHTÄ_01 ** nähtä:nä
+ * __LEXICON V_JIÄJÄ __ suaja:saa jiäjä:jää
+ * __LEXICON V_JIÄJÄ_01 __ suaja:saa jiäjä:jää
+ * **+Inf:%>jä K ;** type 2 also jiähä
+ * **+Inf:%>hä K ;** type 2 also jiähä
+
+ * __LEXICON V_MYVVÄ __ myvvä:mö
+ * __LEXICON V_MYVVÄ_01 __ myvvä:mö
+
+ * __LEXICON V_VIIJÄ __ viijä:ve
 
 
+ * __LEXICON V_NÄHTÄ __ nähtä:nä
+ * __LEXICON V_NÄHTÄ_01 __ nähtä:nä
 
 
 
 
- * **LEXICON V_KÄVVÄ ** kävvä:käv
+
+
+ * __LEXICON V_KÄVVÄ __ kävvä:käv
 
 
 
@@ -187,116 +187,116 @@ Front vowel
 
 ### Verbs of the Finnish type 3
 
- * **LEXICON V_TULLA ** tulla:tul
+ * __LEXICON V_TULLA __ tulla:tul
 
- * **LEXICON V_ULISTA ** ulista:ulis
+ * __LEXICON V_ULISTA __ ulista:ulis
 
- * **LEXICON V_JUOSTA_BACK ** juosta:juoks
- * **LEXICON V_JUOSTA_01 ** juosta:juoks
-
-
-
- * **LEXICON V_PAISTA ** paista:pagis
- * **LEXICON V_PAISTA_01 ** paista:pagis
+ * __LEXICON V_JUOSTA_BACK __ juosta:juoks
+ * __LEXICON V_JUOSTA_01 __ juosta:juoks
 
 
+
+ * __LEXICON V_PAISTA __ paista:pagis
+ * __LEXICON V_PAISTA_01 __ paista:pagis
 
 
 
 
 
- * **LEXICON V_PESTÄ ** pestä:pes
 
- * **LEXICON V_NOSTA ** nosta:no
- * **LEXICON V_NOSTA/XX_01 ** nosta:no
+
+ * __LEXICON V_PESTÄ __ pestä:pes
+
+ * __LEXICON V_NOSTA __ nosta:no
+ * __LEXICON V_NOSTA/XX_01 __ nosta:no
 
 Verbs of the Finnish type 3 but not identical
 
- * **LEXICON V_KUULTA ** kuulta:kuul
+ * __LEXICON V_KUULTA __ kuulta:kuul
 
- * **LEXICON V_KUULTA-SG3 ** kuulta:kuul
+ * __LEXICON V_KUULTA-SG3 __ kuulta:kuul
 
 
- * **LEXICON V_VIERTÄ ** viertä:vier
+ * __LEXICON V_VIERTÄ __ viertä:vier
 
 
 Verbs of the Finnish type 3 but not identical
 gradation: yes
 
- * **LEXICON V_KUVITELLA ** kuvitella:kuvittel
+ * __LEXICON V_KUVITELLA __ kuvitella:kuvittel
 
- * **LEXICON V_EZITELLAE ** ezitellä:ezittel
+ * __LEXICON V_EZITELLAE __ ezitellä:ezittel
 
 
- * **LEXICON V_TYPÄTÄ ** typätä:typpä
+ * __LEXICON V_TYPÄTÄ __ typätä:typpä
 
- * **LEXICON V_KÄITÄ ** käitä:käge
+ * __LEXICON V_KÄITÄ __ käitä:käge
 
- * **LEXICON V_SUVATA ** suvata:suva
+ * __LEXICON V_SUVATA __ suvata:suva
 
 
 ### Verbs of the Finnish type 4
 
- * **LEXICON V_AVATA ** avata:ava
+ * __LEXICON V_AVATA __ avata:ava
 
 gradation: no
 
- * **LEXICON V_ARVOTA ** arvota:arvo
+ * __LEXICON V_ARVOTA __ arvota:arvo
 
 gradation: no
 
- * **LEXICON V_KABLITA ** kablita:kabli
+ * __LEXICON V_KABLITA __ kablita:kabli
 
 gradation: no
 
- * **LEXICON V_BAUHUTA ** bauhuta:bauhu
+ * __LEXICON V_BAUHUTA __ bauhuta:bauhu
 
- * **LEXICON V_BAUHUTA-SG3 ** bauhuta:bauhu
+ * __LEXICON V_BAUHUTA-SG3 __ bauhuta:bauhu
 
- * **LEXICON V_LANGETA ** langeta:lange
+ * __LEXICON V_LANGETA __ langeta:lange
 
 gradation: no
 
- * **LEXICON V_ALLATA ** allata:alga
+ * __LEXICON V_ALLATA __ allata:alga
 
 gradation: yes
 
- * **LEXICON V_KIKOTA ** kikota:kikko
+ * __LEXICON V_KIKOTA __ kikota:kikko
 
 gradation: yes
 
- * **LEXICON V_RUVETA ** ruveta:rube
+ * __LEXICON V_RUVETA __ ruveta:rube
 
- * **LEXICON V_RUVETA-SG3 ** ruveta:rube
+ * __LEXICON V_RUVETA-SG3 __ ruveta:rube
 
 
- * **LEXICON V_HYRRÄTÄ ** hyrrätä:hyrrä
+ * __LEXICON V_HYRRÄTÄ __ hyrrätä:hyrrä
 
 
 gradation: no
 
- * **LEXICON V_HÄVITÄ ** hävitä:hävi
+ * __LEXICON V_HÄVITÄ __ hävitä:hävi
 
 gradation: no
 
- * **LEXICON V_HÖYRYTÄ ** höyrytä:höyry
+ * __LEXICON V_HÖYRYTÄ __ höyrytä:höyry
 
 gradation: no
 
- * **LEXICON V_HÖPSÖTÄ ** höpsötä:höpsö
+ * __LEXICON V_HÖPSÖTÄ __ höpsötä:höpsö
 
 gradation: no
 
 
- * **LEXICON V_BÖVVÄTÄ ** bövvätä:böygä
+ * __LEXICON V_BÖVVÄTÄ __ bövvätä:böygä
 
 gradation: yes
 
- * **LEXICON V_REVITÄ ** revitä:rebi
+ * __LEXICON V_REVITÄ __ revitä:rebi
 
 gradation: yes
 
- * **LEXICON V_PÄITÄ ** päitä:päde
+ * __LEXICON V_PÄITÄ __ päitä:päde
 
 gradation: yes
 
@@ -304,98 +304,98 @@ gradation: yes
 
 ### Verbs of the Finnish type 5
 
- * **LEXICON V_SUVAIJA ** suvaija:suvai
+ * __LEXICON V_SUVAIJA __ suvaija:suvai
 
- * **LEXICON V_SUVAIJA-SG3 ** suvaija:suvai
+ * __LEXICON V_SUVAIJA-SG3 __ suvaija:suvai
 
- * **LEXICON V_SUVAIJA-3 ** suvaija:suvai
+ * __LEXICON V_SUVAIJA-3 __ suvaija:suvai
 
- * **LEXICON V_EMÄNDÖIJÄ ** emändöijä:emändöi
-
-
-
- * **LEXICON V_MERKITÄ ** merkitä:merki
- * **LEXICON V_MAINITA ** mainita:maini
-
- * **LEXICON V_ALETA ** aleta:ale (alenov)
- * **LEXICON V_ALETA_01 ** aleta:ale (alenov)
+ * __LEXICON V_EMÄNDÖIJÄ __ emändöijä:emändöi
 
 
- * **LEXICON V_VÄHETÄ ** vähetä:vähe (vähenöy)
- * **LEXICON V_VÄHETÄ_01 ** vähetä:vähe (vähenöy)
 
- * **LEXICON V_VÄHETÄ-SG3 ** vähetä:vähe (vähenöy)
+ * __LEXICON V_MERKITÄ __ merkitä:merki
+ * __LEXICON V_MAINITA __ mainita:maini
 
-
- * **LEXICON V_SUATA ** suata:suva (suvaiččov)
- * **LEXICON V_SUATA_01 ** suata:suva (suvaiččov)
-
- * **LEXICON VR_AMBUO ** ambuokseh:ambu
- * **LEXICON VR_AMBUO_01 ** ambuokseh:ambu
-
- * **LEXICON VR_VALUO ** valuokseh:valu
- * **LEXICON VR_VALUO/PYZYÖ ** valuokseh:valu
-
- * **LEXICON VR_PYZYÖ ** valuokseh:valu
+ * __LEXICON V_ALETA __ aleta:ale (alenov)
+ * __LEXICON V_ALETA_01 __ aleta:ale (alenov)
 
 
- * **LEXICON VR_PUNUO ** punuokseh:puno
- * **LEXICON VR_PUNUO/XX_01 ** punuokseh:puno
+ * __LEXICON V_VÄHETÄ __ vähetä:vähe (vähenöy)
+ * __LEXICON V_VÄHETÄ_01 __ vähetä:vähe (vähenöy)
 
- * **LEXICON VR_IMIE ** imiekseh:ime
-
- * **LEXICON VR_POTKIE/EČČIE_01 ** imiekseh:ime
-
- * **LEXICON VR_POTKIE ** potkiekseh:potki
+ * __LEXICON V_VÄHETÄ-SG3 __ vähetä:vähe (vähenöy)
 
 
- * **LEXICON VR_PIDIÄ ** pidiäkseh:pidä
- * **LEXICON VR_PIDIÄ_01 ** pidiäkseh:pidä
+ * __LEXICON V_SUATA __ suata:suva (suvaiččov)
+ * __LEXICON V_SUATA_01 __ suata:suva (suvaiččov)
 
- * **LEXICON VR_KANDUA ** kanduakseh:kanda
- * **LEXICON VR_KANDUA_01 ** kanduakseh:kanda
+ * __LEXICON VR_AMBUO __ ambuokseh:ambu
+ * __LEXICON VR_AMBUO_01 __ ambuokseh:ambu
 
- * **LEXICON VR_KANDUA-SG3 ** kanduakseh:kanda
- * **LEXICON VR_KANDUA-SG3_01 ** kanduakseh:kanda
+ * __LEXICON VR_VALUO __ valuokseh:valu
+ * __LEXICON VR_VALUO/PYZYÖ __ valuokseh:valu
 
- * **LEXICON VR_OTTUA ** ottuakseh:otta
- * **LEXICON VR_OTTUA/HEITTIÄ_01 ** ottuakseh:otta
+ * __LEXICON VR_PYZYÖ __ valuokseh:valu
 
- * **LEXICON VR_EISTIÄ ** eistiäkseh:eistä
+
+ * __LEXICON VR_PUNUO __ punuokseh:puno
+ * __LEXICON VR_PUNUO/XX_01 __ punuokseh:puno
+
+ * __LEXICON VR_IMIE __ imiekseh:ime
+
+ * __LEXICON VR_POTKIE/EČČIE_01 __ imiekseh:ime
+
+ * __LEXICON VR_POTKIE __ potkiekseh:potki
+
+
+ * __LEXICON VR_PIDIÄ __ pidiäkseh:pidä
+ * __LEXICON VR_PIDIÄ_01 __ pidiäkseh:pidä
+
+ * __LEXICON VR_KANDUA __ kanduakseh:kanda
+ * __LEXICON VR_KANDUA_01 __ kanduakseh:kanda
+
+ * __LEXICON VR_KANDUA-SG3 __ kanduakseh:kanda
+ * __LEXICON VR_KANDUA-SG3_01 __ kanduakseh:kanda
+
+ * __LEXICON VR_OTTUA __ ottuakseh:otta
+ * __LEXICON VR_OTTUA/HEITTIÄ_01 __ ottuakseh:otta
+
+ * __LEXICON VR_EISTIÄ __ eistiäkseh:eistä
 
 
 Reflexive verbs
 
- * **LEXICON VR_RODIEKSEH ** rodiekseh:rodi
+ * __LEXICON VR_RODIEKSEH __ rodiekseh:rodi
 
 
- * **LEXICON VR_ROIJA ** roijakseh:roi
+ * __LEXICON VR_ROIJA __ roijakseh:roi
 
 
- * **LEXICON VR_ROITA ** roita:roi 
+ * __LEXICON VR_ROITA __ roita:roi 
 
- * **LEXICON VR_JUVVA ** juvva:jo
- * **LEXICON VR_MYVVÄ ** myvvä:mö
+ * __LEXICON VR_JUVVA __ juvva:jo
+ * __LEXICON VR_MYVVÄ __ myvvä:mö
 
- * **LEXICON VR_NÄHTÄ ** nähtä:nä
-
-
- * **LEXICON VR_TULLA ** tuliekseh:tul !this will need work 2013-10-23
-
- * **LEXICON VR_PESTÄ ** tuliekseh:tul !this will need work 2013-10-23
-
- * **LEXICON VR_KUVITELLA ** kuvitellakseh:kuvittel !this will need work 2016-08-17
-
- * **LEXICON VR_EBAEILLAE ** kuvitellakseh:kuvittel !this will need work 2016-08-17
-
- * **LEXICON VR_AVATA ** avatakseh:ava (typätäkseh:typpä)
-
- * **LEXICON VR_SUVAIJA ** suvaijakseh:suvai
-
- * **LEXICON VR_EMÄNDÖIJÄ ** emändöijäkseh:emändöi
+ * __LEXICON VR_NÄHTÄ __ nähtä:nä
 
 
- * **LEXICON VR_MAINITA ** mainitakseh:maini
+ * __LEXICON VR_TULLA __ tuliekseh:tul !this will need work 2013-10-23
+
+ * __LEXICON VR_PESTÄ __ tuliekseh:tul !this will need work 2013-10-23
+
+ * __LEXICON VR_KUVITELLA __ kuvitellakseh:kuvittel !this will need work 2016-08-17
+
+ * __LEXICON VR_EBAEILLAE __ kuvitellakseh:kuvittel !this will need work 2016-08-17
+
+ * __LEXICON VR_AVATA __ avatakseh:ava (typätäkseh:typpä)
+
+ * __LEXICON VR_SUVAIJA __ suvaijakseh:suvai
+
+ * __LEXICON VR_EMÄNDÖIJÄ __ emändöijäkseh:emändöi
+
+
+ * __LEXICON VR_MAINITA __ mainitakseh:maini
 
 
 
@@ -423,7 +423,7 @@ This verb type has two final vowels in the first infinitive
 
 
 
- **LEXICON V-3SYLL_KIRJUTTUA **  kirjuttua:kirjutta
+ __LEXICON V-3SYLL_KIRJUTTUA __  kirjuttua:kirjutta
 
 
 
@@ -451,7 +451,7 @@ This verb type has two final vowels in the first infinitive
 
 
 
- * **LEXICON V-VV_03_Harm-Neutr ** tulla:tul
+ * __LEXICON V-VV_03_Harm-Neutr __ tulla:tul
 
 
 
@@ -460,16 +460,16 @@ This verb type has two final vowels in the first infinitive
 
 
 
- * **LEXICON V-VV_KUULLA ** kuulla:kuul
+ * __LEXICON V-VV_KUULLA __ kuulla:kuul
 
 
 
- * **LEXICON V-VV_VIERRÄ ** vierrä:vier
+ * __LEXICON V-VV_VIERRÄ __ vierrä:vier
 
 
 
 
- * **LEXICON V-VV_KUVITELLA/EZITELLAE ** kuvitella:kuvittel
+ * __LEXICON V-VV_KUVITELLA/EZITELLAE __ kuvitella:kuvittel
 
 
 
@@ -642,7 +642,7 @@ Forthcoming
 
 
 
- * **+Pot+Pl3+Rc:%>d%{aä%}%>nehes K ; ** Shouldn't THIS be the right form
+ * **+Pot+Pl3+Rc:%>d%{aä%}%>nehes K ;** Shouldn't THIS be the right form
 
 
 ## IMPERATIVE

@@ -394,11 +394,11 @@ sulgu+N+Pl+Ins **feather/sulka**
 
 **d:v**  
 ```
- d:v <=> [ ö y: | o u: ] _ [ ä: ]( a ) (HarmDummy:) %^WGStem:0 ; 
+ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; 
            u a           _   o       (%{back%}:) %^WGStem:0 ; 
            a             _   u       (%{back%}:) %^WGStem:0 ; 
-         [ u o: | u: ]   _  [ (%{back%}:) e ]( a: )  (%{back%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
-         [ ä y: ]   _  [(%{front%}:) e ]( y )  (%{front%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
+         [ u o: | u: ]   _  [ (%{back%}:) e | a: ]  (%{back%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
+         [ ä y: ]   _  [(%{front%}:) e | y ]  (%{front%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
 * *täydy%{front%}%^WGStem*
 * *tävvy00*
 
@@ -532,7 +532,7 @@ ezitellä+V+Inf: **present/esitellä**
 
 **b:v**
 ```
- b:m <=> m _ [ a ]( i ) (HarmDummy:) %^WGStem:0 ;
+ b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 ```
 
 **p:0 in lapsi**  

@@ -861,7 +861,7 @@ Vowel Harmony Back
 
 
 
- * __LEXICON NMN_VALGEI/LIBEI __ valgei:valge
+ * **LEXICON NMN_VALGEI/LIBEI ** valgei:valge
 
 
  LEXICON NMN_RAHMANNOI  rahmannoi:rahmannoi
