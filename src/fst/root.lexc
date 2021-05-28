@@ -3,7 +3,7 @@
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
-! this file under the terms of the GNU General Public License as published by
+! this file under the terms ofthe GNU General Public License as published by
 ! the Free Software Foundation, either version 3 of the License, or
 ! (at your option) any later version. The GNU General Public License
 ! is found at http://www.gnu.org/licenses/gpl.html. It is
@@ -18,49 +18,49 @@
 
 Multichar_Symbols
 
-+Ex/N	!!= * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
-+Ex/A	!!= * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
-+Ex/V	!!= * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
++Ex/N	!!≈ * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
++Ex/A	!!≈ * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
++Ex/V	!!≈ * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 
 
 !! The morphological analyses of wordforms of Livvi are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
-+TYÄ !!= * @CODE@ This alerts workers of work to be done
++TYÄ !!≈ * **@CODE@** This alerts workers of work to be done
 
 !! The parts-of-speech are:
- +A  !!= * @CODE@  adjective
- +Adp  !!= * @CODE@  adposition
- +Adv  !!= * @CODE@  adverb
- +CS  !!= * @CODE@  subordinating conjunction
- +CC  !!= * @CODE@  coordinating conjunction
- +Interj  !!= * @CODE@  interjection
- +N     !!= * @CODE@  noun
- +Pcle  !!= * @CODE@  particle
- +Po    !!= * @CODE@  postposition
- +Pr    !!= * @CODE@  preposition
- +Pron  !!= * @CODE@  pronoun
- +Qnt   !!= * @CODE@  quantifier
- +V     !!= * @CODE@  verb
- +Num   !!= * @CODE@  numeral
- +Coll  !!= * @CODE@  collective, probably from a common file.
+ +A  !!≈ * **@CODE@**  adjective
+ +Adp  !!≈ * **@CODE@**  adposition
+ +Adv  !!≈ * **@CODE@**  adverb
+ +CS  !!≈ * **@CODE@**  subordinating conjunction
+ +CC  !!≈ * **@CODE@**  coordinating conjunction
+ +Interj  !!≈ * **@CODE@**  interjection
+ +N     !!≈ * **@CODE@**  noun
+ +Pcle  !!≈ * **@CODE@**  particle
+ +Po    !!≈ * **@CODE@**  postposition
+ +Pr    !!≈ * **@CODE@**  preposition
+ +Pron  !!≈ * **@CODE@**  pronoun
+ +Qnt   !!≈ * **@CODE@**  quantifier
+ +V     !!≈ * **@CODE@**  verb
+ +Num   !!≈ * **@CODE@**  numeral
+ +Coll  !!≈ * **@CODE@**  collective, probably from a common file.
  
-+AdA         !!= * @CODE@  Ad-adjective
-+Bahuv	     !!= * @CODE@  Bahuvrihi
++AdA         !!≈ * **@CODE@**  Ad-adjective
++Bahuv	     !!≈ * **@CODE@**  Bahuvrihi
 ! Depricate This CONJ
-+Conj   !!= * @CODE@
- +Prop  !!= * @CODE@
++Conj   !!≈ * @CODE@
+ +Prop  !!≈ * @CODE@
 
 !! ## Pronouns
- +Dem	 !!= * @CODE@ demonstrative
- +Indef  !!= * @CODE@ indefinite
- +Dep 	 !!= * @CODE@ dependent word requiring the presence of another, e.g. **мень**
- +Interr !!= * @CODE@ interrogative
- +Pers 	 !!= * @CODE@ personal
- +Recipr !!= * @CODE@ reciprocal
- +Refl 	 !!= * @CODE@ reflexive
- +Rel 	 !!= * @CODE@ relative
+ +Dem	 !!≈ * **@CODE@** demonstrative
+ +Indef  !!≈ * **@CODE@** indefinite
+ +Dep 	 !!≈ * **@CODE@** dependent word requiring the presence of another, e.g. **мень**
+ +Interr !!≈ * **@CODE@** interrogative
+ +Pers 	 !!≈ * **@CODE@** personal
+ +Recipr !!≈ * **@CODE@** reciprocal
+ +Refl 	 !!≈ * **@CODE@** reflexive
+ +Rel 	 !!≈ * **@CODE@** relative
 
 
 
@@ -82,14 +82,14 @@ Multichar_Symbols
 !! ## Useage
 !! The Usage extents are marked using following tags:
 
- +Err/Orth     !!= * @CODE@
- +Err/Sub     !!= * @CODE@
- +Use/Marg        !!= * **@CODE@** marginal (?)
- +Use/-Spell      !!= * **@CODE@** Excluded in speller
- +Use/SpellNoSugg !!= * **@CODE@** recognized but not suggested in speller
- +Use/Circ        !!= * **@CODE@** circular paths (old ^C^)
- +Use/CircN       !!= * **@CODE@** circular paths for the numerals (old ^N^)
- +Use/NG          !!= * **@CODE@** not-generate, for ped generation isme-ped.fst
+ +Err/Orth     !!≈ * @CODE@
+ +Err/Sub     !!≈ * @CODE@
+ +Use/Marg        !!≈ * **@CODE@** marginal (?)
+ +Use/-Spell      !!≈ * **@CODE@** Excluded in speller
+ +Use/SpellNoSugg !!≈ * **@CODE@** recognized but not suggested in speller
+ +Use/Circ        !!≈ * **@CODE@** circular paths (old ^C^)
+ +Use/CircN       !!≈ * **@CODE@** circular paths for the numerals (old ^N^)
+ +Use/NG          !!≈ * **@CODE@** not-generate, for ped generation isme-ped.fst
 
 
 +OLang/NOB
@@ -100,70 +100,70 @@ Multichar_Symbols
 
 !! The nominals are inflected in the following Case and Number
 ! number
- +Sg  !!= * @CODE@  singular
- +Pl  !!= * @CODE@ plural
+ +Sg  !!≈ * **@CODE@**  singular
+ +Pl  !!≈ * **@CODE@** plural
 ! case
- +Abe  !!= * @CODE@ abessive
- +Abl  !!= * @CODE@ ablative case
- +Acc  !!= * @CODE@ accusative
- +Ade  !!= * @CODE@ adessive case
- +All  !!= * @CODE@ Allatiivi
- +Apr  !!= * @CODE@ Approximative
- +Com  !!= * @CODE@ comitative
- +Ela  !!= * @CODE@ elative
- +Ess  !!= * @CODE@ essive
- +Gen  !!= * @CODE@ genitive case
- +Ill  !!= * @CODE@ illative
- +Ine  !!= * @CODE@ inessive
- +Ins  !!= * @CODE@ instrumental
- +Lat  !!= * @CODE@ Lative
- +Loc  !!= * @CODE@ Locative
- +Nom  !!= * @CODE@ nominative case
- +Par  !!= * @CODE@ partitive
- +Prl  !!= * @CODE@ prolative
- +Ter  !!= * @CODE@ Terminative
- +Tra  !!= * @CODE@ translative
- +Pros !!= * @CODE@
- +Adc  !!= * @CODE@
- +Egr  !!= * @CODE@
- +Dat  !!= * @CODE@ dative case
+ +Abe  !!≈ * **@CODE@** abessive
+ +Abl  !!≈ * **@CODE@** ablative case
+ +Acc  !!≈ * **@CODE@** accusative
+ +Ade  !!≈ * **@CODE@** adessive case
+ +All  !!≈ * **@CODE@** Allatiivi
+ +Apr  !!≈ * **@CODE@** Approximative
+ +Com  !!≈ * **@CODE@** comitative
+ +Ela  !!≈ * **@CODE@** elative
+ +Ess  !!≈ * **@CODE@** essive
+ +Gen  !!≈ * **@CODE@** genitive case
+ +Ill  !!≈ * **@CODE@** illative
+ +Ine  !!≈ * **@CODE@** inessive
+ +Ins  !!≈ * **@CODE@** instrumental
+ +Lat  !!≈ * **@CODE@** Lative
+ +Loc  !!≈ * **@CODE@** Locative
+ +Nom  !!≈ * **@CODE@** nominative case
+ +Par  !!≈ * **@CODE@** partitive
+ +Prl  !!≈ * **@CODE@** prolative
+ +Ter  !!≈ * **@CODE@** Terminative
+ +Tra  !!≈ * **@CODE@** translative
+ +Pros !!≈ * @CODE@
+ +Adc  !!≈ * @CODE@
+ +Egr  !!≈ * @CODE@
+ +Dat  !!≈ * **@CODE@** dative case
 
 
 !! The possession is marked as such:
 
-+PxSg1	  !!= * @CODE@
-+PxSg2	  !!= * @CODE@
-+PxSg3	  !!= * @CODE@
-+PxDu1	  !!= * @CODE@
-+PxDu2	  !!= * @CODE@
-+PxDu3	  !!= * @CODE@
-+PxPl1	  !!= * @CODE@
-+PxPl2	  !!= * @CODE@
-+PxPl3	  !!= * @CODE@
-+PxSP3 	  !!= * @CODE@
++PxSg1	  !!≈ * @CODE@
++PxSg2	  !!≈ * @CODE@
++PxSg3	  !!≈ * @CODE@
++PxDu1	  !!≈ * @CODE@
++PxDu2	  !!≈ * @CODE@
++PxDu3	  !!≈ * @CODE@
++PxPl1	  !!≈ * @CODE@
++PxPl2	  !!≈ * @CODE@
++PxPl3	  !!≈ * @CODE@
++PxSP3 	  !!≈ * @CODE@
 
 !! The comparative forms are:
-+Pos     !!= * @CODE@
-+Comp    !!= * @CODE@
-+Superl  !!= * @CODE@
++Pos     !!≈ * @CODE@
++Comp    !!≈ * @CODE@
++Superl  !!≈ * @CODE@
 
 !! Numerals and Quantifiers are classified under:
- +Iter      !!= * @CODE@ Iterative form expressing number of times; myv: `кавксть`, kpv: `кыкысь`
+ +Iter      !!≈ * **@CODE@** Iterative form expressing number of times; myv: `кавксть`, kpv: `кыкысь`
 
- +Attr   !!= * @CODE@
- +Card   !!= * @CODE@
- +Ord    !!= * @CODE@
+ +Attr   !!≈ * @CODE@
+ +Card   !!≈ * @CODE@
+ +Ord    !!≈ * @CODE@
 
 !! Verb tenses are:
-  +Prs     !!≈ |  @CODE@ | Present, non-past Tense
-  +Prt     !!* @CODE@ | Preterite Tense
+  +Prs     !!≈ |  **@CODE@** | Present, non-past Tense
+  +Prt     !!* **@CODE@** | Preterite Tense
 
 
 !! Verb moods are:
-  +Ind   !! * @CODE@ Indicative
-  +Imprt !! * @CODE@ Imperative
-  +Cond  !! * @CODE@ Conditional
-  +Pot   !! * @CODE@ Potential
+  +Ind   !! * **@CODE@** Indicative
+  +Imprt !! * **@CODE@** Imperative
+  +Cond  !! * **@CODE@** Conditional
+  +Pot   !! * **@CODE@** Potential
 
 !! Verb personal forms are:
 ! Subject conjugation
@@ -178,13 +178,13 @@ Multichar_Symbols
 +RcPl
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
-  +Inf       !!= @CODE@ : Infinitive
-  +Act !!= @CODE@ : active voice
-  +Pss !!= @CODE@ : passive voice
-  +PrfPrc !!= @CODE@ : past participle
-  +PrsPrc !!= @CODE@ : present participle
-  +RcPrfPrc  !!= @CODE@ : reflexive past participle
-  +Ger       !!= @CODE@ : Gerund
+  +Inf       !!≈ **@CODE@** : Infinitive
+  +Act !!≈ **@CODE@** : active voice
+  +Pss !!≈ **@CODE@** : passive voice
+  +PrfPrc !!≈ **@CODE@** : past participle
+  +PrsPrc !!≈ **@CODE@** : present participle
+  +RcPrfPrc  !!≈ **@CODE@** : reflexive past participle
+  +Ger       !!≈ **@CODE@** : Gerund
 
  +ConNeg +ConNegII +Neg +ImprtII
  +PrfPrcPl3
@@ -192,7 +192,7 @@ Multichar_Symbols
 
 ! Abbreviated words are classified with:
  +ABBR +ACR
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
++Symbol !!≈ * **@CODE@** = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
 +CLB
 +CLBfinal
@@ -222,10 +222,10 @@ Multichar_Symbols
 
 
 !! Question and Focus particles:
-+Qst +Foc   !!= * @CODE@
-+Clt/gi	    !!= * @CODE@
-+Clt/hAi    !!= * @CODE@
-+Clt/bo	    !!= * @CODE@
++Qst +Foc   !!≈ * @CODE@
++Clt/gi	    !!≈ * @CODE@
++Clt/hAi    !!≈ * @CODE@
++Clt/bo	    !!≈ * @CODE@
 
 
 ! Semantic tags to help disambiguation & synt. analysis: (before POS)
@@ -490,101 +490,101 @@ Multichar_Symbols
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
- +V→N 	    !!= * @CODE@
- +V→V 	    !!= * @CODE@
- +V→A	    !!= * @CODE@
- +Der	    !!= * @CODE@
- +Der/Tostu !!= * @CODE@ with numerals 11-19
- +Der/xxx   !!= * @CODE@
- +Der/Rc   !!= * @CODE@ used in verbs for deriving reflexive conjugation
- +Der/Ta  !!= * @CODE@
- +Der/Te  !!= * @CODE@
- +Der/mA  !!= * @CODE@
- +Der/mine  !!= * @CODE@
- +Der/Tu  !!= * @CODE@
- +Der/IA  !!= * @CODE@
- +Der/mbi  !!= * @CODE@ comparative
- +Der/Us  !!= * @CODE@ A>>N derivation
-+Der/A  !!= * @CODE@ Adjective derivation
-+Der/MWN !!= * @CODE@ Modifier without Noun head
+ +V→N 	    !!≈ * @CODE@
+ +V→V 	    !!≈ * @CODE@
+ +V→A	    !!≈ * @CODE@
+ +Der	    !!≈ * @CODE@
+ +Der/Tostu !!≈ * **@CODE@** with numerals 11-19
+ +Der/xxx   !!≈ * @CODE@
+ +Der/Rc   !!≈ * **@CODE@** used in verbs for deriving reflexive conjugation
+ +Der/Ta  !!≈ * @CODE@
+ +Der/Te  !!≈ * @CODE@
+ +Der/mA  !!≈ * @CODE@
+ +Der/mine  !!≈ * @CODE@
+ +Der/Tu  !!≈ * @CODE@
+ +Der/IA  !!≈ * @CODE@
+ +Der/mbi  !!≈ * **@CODE@** comparative
+ +Der/Us  !!≈ * **@CODE@** A>>N derivation
++Der/A  !!≈ * **@CODE@** Adjective derivation
++Der/MWN !!≈ * **@CODE@** Modifier without Noun head
 
 !! ## Morphophonology
 ! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
 
- %{aoeInf%}	!!= @CODE@ Back vowel infinitive marker
- %{äöeInf%}	!!= @CODE@ Front vowel infinitive marker
+ %{aoeInf%}	!!≈ **@CODE@** Back vowel infinitive marker
+ %{äöeInf%}	!!≈ **@CODE@** Front vowel infinitive marker
 
 
- %{aäPar%} !!= * @CODE@  no diphthongs
- %{aäDiph%} !!= * @CODE@  This is for diphthongs such as the infinitive marker after i and u stems
- %{aäoeöuiy%} !!= * @CODE@  with partitive type
- %{aäoeö%} !!= * @CODE@  newer This is for diphthongs such as the infinitive marker after i and u stems
- %{aäuyiØ%} !!= * @CODE@ in participle endings anticipating PÄIVY or KOIRU type
- %{aä%}  !!= * @CODE@
- %{oö%}  !!= * @CODE@
- %{oöØ%} !!= * @CODE@  Used in present participle
- %{uy%}  !!= * @CODE@
- %{ui%} !!= @CODE@ in imperative before %{aä%}:
-! A2      !!= * @CODE@  used with verb types V_AVATA
- %{ijPRC%} !!= * @CODE@ participle
- %{lnrs%}  !!= * @CODE@ e.g. in perfect participles
- %{dtlnr%} !!= * @CODE@ e.g. infinitive and Ind+Prs+Pl3
+ %{aäPar%} !!≈ * **@CODE@**  no diphthongs
+ %{aäDiph%} !!≈ * **@CODE@**  This is for diphthongs such as the infinitive marker after i and u stems
+ %{aäoeöuiy%} !!≈ * **@CODE@**  with partitive type
+ %{aäoeö%} !!≈ * **@CODE@**  newer This is for diphthongs such as the infinitive marker after i and u stems
+ %{aäuyiØ%} !!≈ * **@CODE@** in participle endings anticipating PÄIVY or KOIRU type
+ %{aä%}  !!≈ * @CODE@
+ %{oö%}  !!≈ * @CODE@
+ %{oöØ%} !!≈ * **@CODE@**  Used in present participle
+ %{uy%}  !!≈ * @CODE@
+ %{ui%} !!≈ **@CODE@** in imperative before %{aä%}:
+! A2      !!≈ * **@CODE@**  used with verb types V_AVATA
+ %{ijPRC%} !!≈ * **@CODE@** participle
+ %{lnrs%}  !!≈ * **@CODE@** e.g. in perfect participles
+ %{dtlnr%} !!≈ * **@CODE@** e.g. infinitive and Ind+Prs+Pl3
 
 !! And following triggers to control variation 
 
- %{front%}     !!= * @CODE@ front harmony until harmony boundary, i.e. word boundary
- %{back%}	     !!= * @CODE@ back harmony until harmony boundary, i.e. word boundary
+ %{front%}     !!≈ * **@CODE@** front harmony until harmony boundary, i.e. word boundary
+ %{back%}	     !!≈ * **@CODE@** back harmony until harmony boundary, i.e. word boundary
  %>		     !! * %>
- %^DEVOICE   !!= * @CODE@
- %^VOICE     !!= * @CODE@  pestä: pezen
- %^Pen       !!= @CODE@ pagisou paistah in with WGStem to trigger pen coda
- %^WGStem    !!= * @CODE@  weak grade
- %^E1        !!= * @CODE@  causes a:e in kandua : kannettu
- %^SyllBound !!= * @CODE@  syllable boundary
- %^D2Z       !!= * @CODE@ Triggers ti=>zi
- %^A2O       !!= * @CODE@  before plural "i"
- %^A2U       !!= * @CODE@  +Nom+Sg
- %^A2UÄ2Y    !!= * @CODE@ with single vowels
- %^E2O	     !!= @CODE@  the e => o, e => ö +Ind+Prs+ScSg3
- %^Ä2I	     !!= @CODE@  ä => i
-%^A2UÄ2I     !!= @CODE@  a => u, ä => i in consecutive vowels
- %^V2U	     !!= @CODE@  v => y **kävvä käydy**
+ %^DEVOICE   !!≈ * @CODE@
+ %^VOICE     !!≈ * **@CODE@**  pestä: pezen
+ %^Pen       !!≈ **@CODE@** pagisou paistah in with WGStem to trigger pen coda
+ %^WGStem    !!≈ * **@CODE@**  weak grade
+ %^E1        !!≈ * **@CODE@**  causes a:e in kandua : kannettu
+ %^SyllBound !!≈ * **@CODE@**  syllable boundary
+ %^D2Z       !!≈ * **@CODE@** Triggers ti=>zi
+ %^A2O       !!≈ * **@CODE@**  before plural "i"
+ %^A2U       !!≈ * **@CODE@**  +Nom+Sg
+ %^A2UÄ2Y    !!≈ * **@CODE@** with single vowels
+ %^E2O	     !!≈ **@CODE@**  the e => o, e => ö +Ind+Prs+ScSg3
+ %^Ä2I	     !!≈ **@CODE@**  ä => i
+%^A2UÄ2I     !!≈ **@CODE@**  a => u, ä => i in consecutive vowels
+ %^V2U	     !!≈ **@CODE@**  v => y **kävvä käydy**
 
- %^NONE      !!= * @CODE@  no regular change
- %^KS2S      !!= * @CODE@  "aluksen" is "alus" in the nominative singular
- %^ILoss     !!= * @CODE@  the i => 0 **reboi reboloi**
- %^RmVow   !!= _@CODE@_ vowel removal, e.g. with superlative
+ %^NONE      !!≈ * **@CODE@**  no regular change
+ %^KS2S      !!≈ * **@CODE@**  "aluksen" is "alus" in the nominative singular
+ %^ILoss     !!≈ * **@CODE@**  the i => 0 **reboi reboloi**
+ %^RmVow   !!≈ _@CODE@_ vowel removal, e.g. with superlative
 
         !! ## Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!≈ * **@CODE@**:  Literal »
  «7     !!≈ * **@CODE@**:  Literal «
         !! ```
- %[%>%] !!= @CODE@ - Literal >
- %[%<%] !!= @CODE@ - Literal <
+ %[%>%] !!≈ **@CODE@** - Literal >
+ %[%<%] !!≈ **@CODE@** - Literal <
         !! ```
 
 
-QAQ1  !!= * @CODE@
-QAO1  !!= * @CODE@
-EH1	  !!= * @CODE@
-QEQ1  !!= * @CODE@
-INE1  !!= * @CODE@
-ZD1	  !!= * @CODE@
-ZS1	  !!= * @CODE@
-V1	  !!= * @CODE@
-AO1	  !!= * @CODE@
-EI1	  !!= * @CODE@
-ZS1	  !!= * @CODE@
-ZD1	  !!= * @CODE@
+QAQ1  !!≈ * @CODE@
+QAO1  !!≈ * @CODE@
+EH1	  !!≈ * @CODE@
+QEQ1  !!≈ * @CODE@
+INE1  !!≈ * @CODE@
+ZD1	  !!≈ * @CODE@
+ZS1	  !!≈ * @CODE@
+V1	  !!≈ * @CODE@
+AO1	  !!≈ * @CODE@
+EI1	  !!≈ * @CODE@
+ZS1	  !!≈ * @CODE@
+ZD1	  !!≈ * @CODE@
 
 
 !! These are for developing underlying morphology rules
 
-!D1   !!= * @CODE@ is this needed any where? 2021-03-13 Jaska the smi abbreviations has BD1:BD1
-E1   !!= * @CODE@
-!N1   !!= * @CODE@ is this needed any where? 2021-03-13 Jaska 
+!D1   !!≈ * **@CODE@** is this needed any where? 2021-03-13 Jaska the smi abbreviations has BD1:BD1
+E1   !!≈ * @CODE@
+!N1   !!≈ * **@CODE@** is this needed any where? 2021-03-13 Jaska 
 
 !! ### Symbols that need to be escaped on the lower side (towards twolc):
 
@@ -597,29 +597,29 @@ E1   !!= * @CODE@
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @P.NeedNoun.ON@    !!≈ |  **@CODE@** | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ |  **@CODE@** | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ |  **@CODE@** | (Dis)allow compounds with verbs unless nominalised
 !! 
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ |  @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ |  @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ |  @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ |  @CODE@ | Disallow words coming directly from root.
+ @P.CmpFrst.FALSE@ !!≈ |  **@CODE@** | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ |  **@CODE@** | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ |  **@CODE@** | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ |  **@CODE@** | Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ |  **@CODE@** | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ |  **@CODE@** | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ |  **@CODE@** | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ |  **@CODE@** | Disallow words coming directly from root.
 !! 
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Obl@        !!≈ |  **@CODE@** | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!≈ |  **@CODE@** | Allowing downcasing of derived names: deatnulasj.
 
 !! Flags used to identify parts of speech
 @P.POS.PRON@
@@ -670,40 +670,40 @@ E1   !!= * @CODE@
 !! Removal
 @C.DECL-NX@ !!≈ * @CODE@
 @C.DECL-CX@ !!≈ * @CODE@
-@C.NUM-TYPE@ !!≈ * @CODE@ 
+@C.NUM-TYPE@ !!≈ * **@CODE@** 
 @C.ErrOrth@ !!≈ * @CODE@
 
 !! # Lexicon Root
 
 LEXICON Root
 
-   adjectives  ;     !!= * @CODE@
-   adpositions    ;  !!= * @CODE@
-   adverbs  ;	     !!= * @CODE@
-   conjunctors  ;    !!= * @CODE@
-   determiners  ;    !!= * @CODE@
-   interjections  ;  !!= * @CODE@
-   nouns   ;	     !!= * @CODE@
-   pronouns    ;     !!= * @CODE@
-   propernouns    ;  !!= * @CODE@
-   propernouns-toponyms    ;  !!= * @CODE@
-   quantifiers    ;  !!= * @CODE@
-   verbs	  ;	     !!= * @CODE@
-   rus-Cyrl-2-Lat-ProperNouns ;  !!= * @CODE@ Derived from urj-Cyrl
+   adjectives  ;     !!≈ * @CODE@
+   adpositions    ;  !!≈ * @CODE@
+   adverbs  ;	     !!≈ * @CODE@
+   conjunctors  ;    !!≈ * @CODE@
+   determiners  ;    !!≈ * @CODE@
+   interjections  ;  !!≈ * @CODE@
+   nouns   ;	     !!≈ * @CODE@
+   pronouns    ;     !!≈ * @CODE@
+   propernouns    ;  !!≈ * @CODE@
+   propernouns-toponyms    ;  !!≈ * @CODE@
+   quantifiers    ;  !!≈ * @CODE@
+   verbs	  ;	     !!≈ * @CODE@
+   rus-Cyrl-2-Lat-ProperNouns ;  !!≈ * **@CODE@** Derived from urj-Cyrl
    Pronoun-types ;
    Abbreviation ;	! stems/abbr.lexc
    Acronym ;    	! stems/acro.lexc
    Punctuation ;
    Symbols     ;
-   Exceptions ;  !!= * @CODE@
+   Exceptions ;  !!≈ * @CODE@
    Numerals ;
 
 !! NEWWORDS FILES
- A_NEWWORDS ;     !!= @CODE@ adjectives
- ADV_NEWWORDS ;	  !!= @CODE@ adverbs
- N_NEWWORDS ;     !!= @CODE@ nouns
- PROP_NEWWORDS ;     !!= @CODE@ proper nouns
- V_NEWWORDS ;     !!= @CODE@ verbs
+ A_NEWWORDS ;     !!≈ **@CODE@** adjectives
+ ADV_NEWWORDS ;	  !!≈ **@CODE@** adverbs
+ N_NEWWORDS ;     !!≈ **@CODE@** nouns
+ PROP_NEWWORDS ;     !!≈ **@CODE@** proper nouns
+ V_NEWWORDS ;     !!≈ **@CODE@** verbs
 
 LEXICON Abbreviation
 Abbreviation-olo ;
