@@ -4597,7 +4597,13 @@ Livvi quantifiers inflect for case.
 # The Livvi (Olonets) Karelian morphophonological/twolc rules file 
 
 
-
+## Alphatbet, sets
+ **a b c č d e f g h i j k l m n o p r s š ş t u v w y z ž ƶ ü ä ö**
+ **A B C Č D E F G H I J K L M N O P R S Š Ş T U V W Y Z Ž Ƶ Ü Ä Ö**
+ **y**
+ **Y**
+ **%{aä%}:a**
+ **%{aä%}:ä**
 
   %{aoeInf%}:a	 Back vowel infinitive marker
   %{äöeInf%}:ä	 Front vowel infinitive marker
@@ -4609,9 +4615,12 @@ Livvi quantifiers inflect for case.
 
   %{ui%}:i   in imperative before %{aä%}:
 
+ **%{oö%}:o**
+ **%{oö%}:ö**
 
  %{oöØ%}:0   Used in present participle
 
+ **%{uy%}:y**
 
   %{ijPRC%}:j  participle
  *  %{lnrs%}:n   e.g. in perfect participles
@@ -4620,15 +4629,55 @@ Livvi quantifiers inflect for case.
 
 
 
+this appears in the illative
+ **V1:a**
+ **V1:e**
+ **V1:i**
+ **V1:o**
+ **V1:u**
+ **V1:y**
+ **V1:ä**
+ **V1:ö**
 
+These appear with the inessive and adessive
+ **V2:a**
+ **V2:e**
+ **V2:i**
+ **V2:o**
+ **V2:u**
+ **V2:y**
+ **V2:ä**
+ **V2:ö**
 
+These reduplicate the preceding vowel if it in turn is preceded by a consonant
+ **V3:a**
+ **V3:e**
+ **V3:i**
+ **V3:o**
+ **V3:u**
+ **V3:y**
+ **V3:ä**
+ **V3:ö**
+ **V3:0**
 
  %^DEVOICE:0    
  %^VOICE:0     pestä : pezen
 
+ **%^SyllBound:0**
 
 
+ **%^KS2S:0**
 
+no change
+The example here is for something that should not be done
+We have two infinite sets, Olonets-Karelian and incoming loanwords.
+The original idea was to make a rule changing all instances of 
+adjacent double aa to ua. For this reason a special trigger was
+to be inserted into the lexc stem of a word to prevent such a rule
+from occurring. Since the infinite Olonets-Karelian set is more predictable
+and perhaps smaller than the incoming loanword set, it is better
+to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
+ %^NONE:0 This will break vowel change, e.g. sa%^NONEamelaine
 
 
  %^Pen:0   pagisou paistah in combination with WGStem to trigger
@@ -4663,7 +4712,7 @@ Triggers dictating right context phenomena
 
 
 
-
+### Sets
 
 
 
@@ -4696,12 +4745,12 @@ Right context for gradation
 
 
 
-**%{aä%}:a**
+**Rule: %{aä%}:a**
 kuvitella+V+Inf: **imagine/kuvitella**
 * *kuvittel%{back%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
 * *kuvi0tel00%>la0*
 
-**%{aä%}:ä**
+**Rule: %{aä%}:ä**
 ezitellä+V+Inf: **present/esitellä**
 * *ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
 * *ezi0tel00%>lä0*
@@ -4720,70 +4769,70 @@ ezitellä+V+Inf: **present/esitellä**
 
 
 
-**%{aäoeö%}:a**
+**Rule: %{aäoeö%}:a**
 
-**%{aäoeö%}:ä**
+**Rule: %{aäoeö%}:ä**
 heittiä+V+Inf: **throw/heittää**
 * *heittä%{front%}%>%{aäoeö%}*
 * *heitti0%>ä*
 
-**%{aäoeö%}:o**
+**Rule: %{aäoeö%}:o**
 
-**%{aäoeö%}:e**
+**Rule: %{aäoeö%}:e**
 
-**%{aäoeö%}:ö**
+**Rule: %{aäoeö%}:ö**
 
-**{aäoeöuiy%}:a**
+**Rule: {aäoeöuiy%}:a**
 
-**{aäoeöuiy%}:ä**
+**Rule: {aäoeöuiy%}:ä**
 
-**{aäoeöuiy%}:o**
+**Rule: {aäoeöuiy%}:o**
 
-**{aäoeöuiy%}:e**
+**Rule: {aäoeöuiy%}:e**
 
-**{aäoeöuiy%}:ö**
+**Rule: {aäoeöuiy%}:ö**
 
-**{aäoeöuiy%}:u**
+**Rule: {aäoeöuiy%}:u**
 
-**{aäoeöuiy%}:i**
+**Rule: {aäoeöuiy%}:i**
 
-**{aäoeöuiy%}:y**
-
-
-**e:0**
+**Rule: {aäoeöuiy%}:y**
 
 
-**%{ui%}:u**
+**Rule: e:0**
+
+
+**Rule: %{ui%}:u**
 ```
 * %{front%}:0  ! imperative forms
 * *kanda%{back%}%>kk%{ui%}%{aä%}mm%{oö%}*
 * *kanda0%>kkuammo*
 ```
 
-**%{ui%}:i**
+**Rule: %{ui%}:i**
 ```
 * %{front%}:0  ! imperative forms
 * *lʼykkä%{front%}%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}*
 * *lʼyk0ä00%>kkiämmö*
 ```
 
-**%{ui%}:i**
-**%{ui%}:i**
-**%{ui%}:i**
+**Rule: %{ui%}:i**
+**Rule: %{ui%}:i**
+**Rule: %{ui%}:i**
 
 
 
-**%{aäuyiØ%}:a**
+**Rule: %{aäuyiØ%}:a**
 
-**%{aäuyiØ%}:u**
+**Rule: %{aäuyiØ%}:u**
 
-**%{aäuyiØ%}:ä**
+**Rule: %{aäuyiØ%}:ä**
 
-**%{aäuyiØ%}:y**
+**Rule: %{aäuyiØ%}:y**
 
-**%{aäuyiØ%}:i**
+**Rule: %{aäuyiØ%}:i**
 
-**%{aäuyiØ%}:0**
+**Rule: %{aäuyiØ%}:0**
 
 
 **a:u before subsequent a**  Diphthong a+a => ua
@@ -4870,12 +4919,12 @@ kehittiä+V+Inf: **develop/kehittää**
 
 *käskö0%>y examples:*
 
-**ä:y word final**
+**Rule: ä:y word final**
 
-**ä:ö word final**
+**Rule: ä:ö word final**
 
 
-**a:0 in suaja:sai**
+**Rule: a:0 in suaja:sai**
 ```
  *  a _ (%{back%}:)  %^RmVow:  ;  Vowel shortening before subsequent "i"
 
@@ -4893,7 +4942,7 @@ kehittiä+V+Inf: **develop/kehittää**
 ```
 
 ## iToj between vowels
-**i:j**
+**Rule: i:j**
 
 **%{ijPRC%}:i** 
 ```
@@ -4902,7 +4951,7 @@ kehittiä+V+Inf: **develop/kehittää**
 
 
 
-**a:o in the plural and preterite**
+**Rule: a:o in the plural and preterite**
 * *muama%{back%}%^A2O*
 * *muamo00*
 
@@ -4921,9 +4970,9 @@ kehittiä+V+Inf: **develop/kehittää**
 * *mečäste00%>ttäs*
 
 
-**ä:0 pidiä:pidi**
+**Rule: ä:0 pidiä:pidi**
 
-**i:0 reboi:reboloi**
+**Rule: i:0 reboi:reboloi**
 * *rodi%^RmVow%>i%>h*
 * *rod00%>i%>h*
 
@@ -4952,13 +5001,13 @@ kehittiä+V+Inf: **develop/kehittää**
 
 ## Consonant change
 
-**g:j**
+**Rule: g:j**
 ```
 * *poiga%^WGStem%>n*
 * *poija0%>n*
 ```
 
-**g:v**
+**Rule: g:v**
 * *jog%{back%}e%^WGStem%>n*
 * *jov0e0%>n*
 
@@ -5000,7 +5049,7 @@ sulgu+N+Pl+Ins **feather/sulka**
 
 ```
 
-**v:y**
+**Rule: v:y**
 **d:j**  
 * *maido%^WGStem%>n*
 * *maijo0%>n*
@@ -5010,14 +5059,14 @@ sulgu+N+Pl+Ins **feather/sulka**
 * *tiijä0%>n*
 
 
-**y:v**
+**Rule: y:v**
 
 *täydy%^WGStem examples:*
 
 *tävvy0 examples:*
 lʼöydiä:lʼövvä
 
-**u:v**
+**Rule: u:v**
 juodu+N+Pl+Ade
 * *juoda%{back%}%^RmVow%>i%^WGStem%>l*
 * *juod000%>i0%>l*
@@ -5039,7 +5088,7 @@ soudua:sovva
 
 *pa0is%>ta0h examples:*
 
-**s:z**
+**Rule: s:z**
 ```
  * s:z <=> _ (HarmDummy:) %^VOICE:0 ;  pestä: pezen
 ```
@@ -5071,11 +5120,11 @@ ezitellä+V+Inf: **present/esitellä**
 
 **sn:ss in prtprc**  
 
-**%{dtlnr%}:d**
+**Rule: %{dtlnr%}:d**
 
-**%{dtlnr%}:t**
+**Rule: %{dtlnr%}:t**
 
-**%{dtlnr%}:l**
+**Rule: %{dtlnr%}:l**
 tulla+Ind+Prs+ScPl3: tullah
 * *tul%{back%}%>%{dtlnr%}%{aä%}*
 * *tul0%>la*
@@ -5083,9 +5132,9 @@ kuvitella+V+Inf
 * *kuvittel%{back%}%^WGStem%>%{dtlnr%}%{aä%}*
 * *kuvi0tel00%>la*
 
-**%{dtlnr%}:n**
+**Rule: %{dtlnr%}:n**
 
-**%{dtlnr%}:r**
+**Rule: %{dtlnr%}:r**
 
 ### CONSONANT LOSS
 
@@ -5126,7 +5175,7 @@ ezitellä+V+Inf: **present/esitellä**
 
 **b:v**  
 
-**b:v**
+**Rule: b:v**
 ```
  b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 ```
@@ -5326,48 +5375,48 @@ Undentified Morph
 ## Multichar symbols
 
 
- * **+Ex/N	** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
- * **+Ex/A	** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
- * **+Ex/V	** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+ * **+Ex/N** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+ * **+Ex/A** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+ * **+Ex/V** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 
 
 The morphological analyses of wordforms of Livvi are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
- * +TYÄ  This alerts workers of work to be done
+ * **+TYÄ** This alerts workers of work to be done
 
 The parts-of-speech are:
- *  +A    adjective
- *  +Adp    adposition
- *  +Adv    adverb
- *  +CS    subordinating conjunction
- *  +CC    coordinating conjunction
- *  +Interj    interjection
- *  +N       noun
- *  +Pcle    particle
- *  +Po      postposition
- *  +Pr      preposition
- *  +Pron    pronoun
- *  +Qnt     quantifier
- *  +V       verb
- *  +Num     numeral
- *  +Coll    collective, probably from a common file.
+ * **+A**  adjective
+ * **+Adp**  adposition
+ * **+Adv**  adverb
+ * **+CS**  subordinating conjunction
+ * **+CC**  coordinating conjunction
+ * **+Interj**  interjection
+ * **+N**  noun
+ * **+Pcle**  particle
+ * **+Po**  postposition
+ * **+Pr**  preposition
+ * **+Pron**  pronoun
+ * **+Qnt**  quantifier
+ * **+V**  verb
+ * **+Num**  numeral
+ * **+Coll**  collective, probably from a common file.
 
- * +AdA           Ad-adjective
- * +Bahuv	       Bahuvrihi
- * +Conj   
- *  +Prop  
+ * **+AdA**  Ad-adjective
+ * **+Bahuv**  Bahuvrihi
+ * +Conj
+ * +Prop
 
 ## Pronouns
- *  +Dem	  demonstrative
- *  +Indef   indefinite
- *  +Dep 	  dependent word requiring the presence of another, e.g. **мень**
- *  +Interr  interrogative
- *  +Pers 	  personal
- *  +Recipr  reciprocal
- *  +Refl 	  reflexive
- *  +Rel 	  relative
+ * **+Dem** demonstrative
+ * **+Indef** indefinite
+ * **+Dep** dependent word requiring the presence of another, e.g. **мень**
+ * **+Interr** interrogative
+ * **+Pers** personal
+ * **+Recipr** reciprocal
+ * **+Refl** reflexive
+ * **+Rel** relative
 
 
 
@@ -5377,94 +5426,94 @@ The parts-of-speech are:
 ## Useage
 The Usage extents are marked using following tags:
 
- *  +Err/Orth     
- *  +Err/Sub     
- * ** +Use/Marg        ** marginal (?)
- * ** +Use/-Spell      ** Excluded in speller
- * ** +Use/SpellNoSugg ** recognized but not suggested in speller
- * ** +Use/Circ        ** circular paths (old ^C^)
- * ** +Use/CircN       ** circular paths for the numerals (old ^N^)
- * ** +Use/NG          ** not-generate, for ped generation isme-ped.fst
+ * +Err/Orth
+ * +Err/Sub
+ * **+Use/Marg** marginal (?)
+ * **+Use/-Spell** Excluded in speller
+ * **+Use/SpellNoSugg** recognized but not suggested in speller
+ * **+Use/Circ** circular paths (old ^C^)
+ * **+Use/CircN** circular paths for the numerals (old ^N^)
+ * **+Use/NG** not-generate, for ped generation isme-ped.fst
 
 
 
 
 The nominals are inflected in the following Case and Number
- *  +Sg    singular
- *  +Pl   plural
- *  +Abe   abessive
- *  +Abl   ablative case
- *  +Acc   accusative
- *  +Ade   adessive case
- *  +All   Allatiivi
- *  +Apr   Approximative
- *  +Com   comitative
- *  +Ela   elative
- *  +Ess   essive
- *  +Gen   genitive case
- *  +Ill   illative
- *  +Ine   inessive
- *  +Ins   instrumental
- *  +Lat   Lative
- *  +Loc   Locative
- *  +Nom   nominative case
- *  +Par   partitive
- *  +Prl   prolative
- *  +Ter   Terminative
- *  +Tra   translative
- *  +Pros 
- *  +Adc  
- *  +Egr  
- *  +Dat   dative case
+ * **+Sg**  singular
+ * **+Pl** plural
+ * **+Abe** abessive
+ * **+Abl** ablative case
+ * **+Acc** accusative
+ * **+Ade** adessive case
+ * **+All** Allatiivi
+ * **+Apr** Approximative
+ * **+Com** comitative
+ * **+Ela** elative
+ * **+Ess** essive
+ * **+Gen** genitive case
+ * **+Ill** illative
+ * **+Ine** inessive
+ * **+Ins** instrumental
+ * **+Lat** Lative
+ * **+Loc** Locative
+ * **+Nom** nominative case
+ * **+Par** partitive
+ * **+Prl** prolative
+ * **+Ter** Terminative
+ * **+Tra** translative
+ * +Pros
+ * +Adc
+ * +Egr
+ * **+Dat** dative case
 
 
 The possession is marked as such:
 
- * +PxSg1	  
- * +PxSg2	  
- * +PxSg3	  
- * +PxDu1	  
- * +PxDu2	  
- * +PxDu3	  
- * +PxPl1	  
- * +PxPl2	  
- * +PxPl3	  
- * +PxSP3 	  
+ * +PxSg1
+ * +PxSg2
+ * +PxSg3
+ * +PxDu1
+ * +PxDu2
+ * +PxDu3
+ * +PxPl1
+ * +PxPl2
+ * +PxPl3
+ * +PxSP3
 
 The comparative forms are:
- * +Pos     
- * +Comp    
- * +Superl  
+ * +Pos
+ * +Comp
+ * +Superl
 
 Numerals and Quantifiers are classified under:
- *  +Iter       Iterative form expressing number of times; myv: `кавксть`, kpv: `кыкысь`
+ * **+Iter** Iterative form expressing number of times; myv: `кавксть`, kpv: `кыкысь`
 
- *  +Attr   
- *  +Card   
- *  +Ord    
+ * +Attr
+ * +Card
+ * +Ord
 
 Verb tenses are:
- |  +Prs | Present, non-past Tense
+ |  **+Prs** | Present, non-past Tense
 
 
 Verb moods are:
-* +Prs Indicative
-* +Prs Imperative
-* +Prs Conditional
-* +Prs Potential
+* **+Prs** Indicative
+* **+Prs** Imperative
+* **+Prs** Conditional
+* **+Prs** Potential
 
 Verb personal forms are:
 Other verb forms are
-   +Inf        : Infinitive
-   +Act  : active voice
-   +Pss  : passive voice
-   +PrfPrc  : past participle
-   +PrsPrc  : present participle
-   +RcPrfPrc   : reflexive past participle
-   +Ger        : Gerund
+ **+Inf** : Infinitive
+ **+Act** : active voice
+ **+Pss** : passive voice
+ **+PrfPrc** : past participle
+ **+PrsPrc** : present participle
+ **+RcPrfPrc** : reflexive past participle
+ **+Ger** : Gerund
 
 
- * +Symbol = independent symbols in the text stream, like £, €, ©
+ * **+Symbol** = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
 Special multiword units are analysed with:
@@ -5486,10 +5535,10 @@ the sentence can be considered as true cases.
 
 
 Question and Focus particles:
- * +Qst +Foc   
- * +Clt/gi	    
- * +Clt/hAi    
- * +Clt/bo	    
+ * +Qst +Foc
+ * +Clt/gi
+ * +Clt/hAi
+ * +Clt/bo
 
 
  * **+Sem/Act** Activity
@@ -5600,97 +5649,97 @@ Semantics are classified with
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
- *  +V→N 	    
- *  +V→V 	    
- *  +V→A	    
- *  +Der	    
- *  +Der/Tostu  with numerals 11-19
- *  +Der/xxx   
- *  +Der/Rc    used in verbs for deriving reflexive conjugation
- *  +Der/Ta  
- *  +Der/Te  
- *  +Der/mA  
- *  +Der/mine  
- *  +Der/Tu  
- *  +Der/IA  
- *  +Der/mbi   comparative
- *  +Der/Us   A>>N derivation
- * +Der/A   Adjective derivation
- * +Der/MWN  Modifier without Noun head
+ * +V→N
+ * +V→V
+ * +V→A
+ * +Der
+ * **+Der/Tostu** with numerals 11-19
+ * +Der/xxx
+ * **+Der/Rc** used in verbs for deriving reflexive conjugation
+ * +Der/Ta
+ * +Der/Te
+ * +Der/mA
+ * +Der/mine
+ * +Der/Tu
+ * +Der/IA
+ * **+Der/mbi** comparative
+ * **+Der/Us** A>>N derivation
+ * **+Der/A** Adjective derivation
+ * **+Der/MWN** Modifier without Noun head
 
 ## Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
-  %{aoeInf%}	 Back vowel infinitive marker
-  %{äöeInf%}	 Front vowel infinitive marker
+ **%{aoeInf%}** Back vowel infinitive marker
+ **%{äöeInf%}** Front vowel infinitive marker
 
 
- *  %{aäPar%}   no diphthongs
- *  %{aäDiph%}   This is for diphthongs such as the infinitive marker after i and u stems
- *  %{aäoeöuiy%}   with partitive type
- *  %{aäoeö%}   newer This is for diphthongs such as the infinitive marker after i and u stems
- *  %{aäuyiØ%}  in participle endings anticipating PÄIVY or KOIRU type
- *  %{aä%}  
- *  %{oö%}  
- *  %{oöØ%}   Used in present participle
- *  %{uy%}  
-  %{ui%}  in imperative before %{aä%}:
- *  %{ijPRC%}  participle
- *  %{lnrs%}   e.g. in perfect participles
- *  %{dtlnr%}  e.g. infinitive and Ind+Prs+Pl3
+ * **%{aäPar%}**  no diphthongs
+ * **%{aäDiph%}**  This is for diphthongs such as the infinitive marker after i and u stems
+ * **%{aäoeöuiy%}**  with partitive type
+ * **%{aäoeö%}**  newer This is for diphthongs such as the infinitive marker after i and u stems
+ * **%{aäuyiØ%}** in participle endings anticipating PÄIVY or KOIRU type
+ * %{aä%}
+ * %{oö%}
+ * **%{oöØ%}**  Used in present participle
+ * %{uy%}
+ **%{ui%}** in imperative before %{aä%}:
+ * **%{ijPRC%}** participle
+ * **%{lnrs%}** e.g. in perfect participles
+ * **%{dtlnr%}** e.g. infinitive and Ind+Prs+Pl3
 
 And following triggers to control variation 
 
- *  %{front%}      front harmony until harmony boundary, i.e. word boundary
- *  %{back%}	      back harmony until harmony boundary, i.e. word boundary
+ * **%{front%}** front harmony until harmony boundary, i.e. word boundary
+ * **%{back%}** back harmony until harmony boundary, i.e. word boundary
 * %>
- *  %^DEVOICE   
- *  %^VOICE       pestä: pezen
-  %^Pen        pagisou paistah in with WGStem to trigger pen coda
- *  %^WGStem      weak grade
- *  %^E1          causes a:e in kandua : kannettu
- *  %^SyllBound   syllable boundary
- *  %^D2Z        Triggers ti=>zi
- *  %^A2O         before plural "i"
- *  %^A2U         +Nom+Sg
- *  %^A2UÄ2Y     with single vowels
-  %^E2O	       the e => o, e => ö +Ind+Prs+ScSg3
-  %^Ä2I	       ä => i
- %^A2UÄ2I       a => u, ä => i in consecutive vowels
-  %^V2U	       v => y **kävvä käydy**
+ * %^DEVOICE
+ * **%^VOICE**  pestä: pezen
+ **%^Pen** pagisou paistah in with WGStem to trigger pen coda
+ * **%^WGStem**  weak grade
+ * **%^E1**  causes a:e in kandua : kannettu
+ * **%^SyllBound**  syllable boundary
+ * **%^D2Z** Triggers ti=>zi
+ * **%^A2O**  before plural "i"
+ * **%^A2U**  +Nom+Sg
+ * **%^A2UÄ2Y** with single vowels
+ **%^E2O**  the e => o, e => ö +Ind+Prs+ScSg3
+ **%^Ä2I**  ä => i
+ **%^A2UÄ2I**  a => u, ä => i in consecutive vowels
+ **%^V2U**  v => y **kävvä käydy**
 
- *  %^NONE        no regular change
- *  %^KS2S        "aluksen" is "alus" in the nominative singular
- *  %^ILoss       the i => 0 **reboi reboloi**
- _ %^RmVow   _ vowel removal, e.g. with superlative
+ * **%^NONE**  no regular change
+ * **%^KS2S**  "aluksen" is "alus" in the nominative singular
+ * **%^ILoss**  the i => 0 **reboi reboloi**
+ _%^RmVow_ vowel removal, e.g. with superlative
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
  * **»7**:  Literal »
  * **«7**:  Literal «
 ```
-  %[%>%]  - Literal >
-  %[%<%]  - Literal <
+ **%[%>%]** - Literal >
+ **%[%<%]** - Literal <
 ```
 
 
- * QAQ1  
- * QAO1  
- * EH1	  
- * QEQ1  
- * INE1  
- * ZD1	  
- * ZS1	  
- * V1	  
- * AO1	  
- * EI1	  
- * ZS1	  
- * ZD1	  
+ * QAQ1
+ * QAO1
+ * EH1
+ * QEQ1
+ * INE1
+ * ZD1
+ * ZS1
+ * V1
+ * AO1
+ * EI1
+ * ZS1
+ * ZD1
 
 
 These are for developing underlying morphology rules
 
- * E1   
+ * E1
 
 ### Symbols that need to be escaped on the lower side (towards twolc):
 
@@ -5703,29 +5752,29 @@ These are for developing underlying morphology rules
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+ |  **@P.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+ |  **@D.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+ |  **@C.NeedNoun@** | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+ |  **@P.CmpFrst.FALSE@** | Require that words tagged as such only appear first
+ |  **@D.CmpPref.TRUE@** | Block such words from entering ENDLEX
+ |  **@P.CmpPref.FALSE@** | Block these words from making further compounds
+ |  **@D.CmpLast.TRUE@** | Block such words from entering R
+ |  **@D.CmpNone.TRUE@** | Combines with the next tag to prohibit compounding
+ |  **@U.CmpNone.FALSE@** | Combines with the prev tag to prohibit compounding
+ |  **@P.CmpOnly.TRUE@** | Sets a flag to indicate that the word has passed R
+ |  **@D.CmpOnly.FALSE@** | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+ |  **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj.
+ |  **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
 
 Flags used to identify parts of speech
 
@@ -5750,33 +5799,33 @@ Pmatch 2021-03-13
 Removal
  * @C.DECL-NX@
  * @C.DECL-CX@
- * @C.NUM-TYPE@ 
+ * **@C.NUM-TYPE@** 
  * @C.ErrOrth@
 
 # Lexicon Root
 
 
- *    adjectives  ;     
- *    adpositions    ;  
- *    adverbs  ;	     
- *    conjunctors  ;    
- *    determiners  ;    
- *    interjections  ;  
- *    nouns   ;	     
- *    pronouns    ;     
- *    propernouns    ;  
- *    propernouns-toponyms    ;  
- *    quantifiers    ;  
- *    verbs	  ;	     
- *    rus-Cyrl-2-Lat-ProperNouns ;   Derived from urj-Cyrl
- *    Exceptions ;  
+ * adjectives ;
+ * adpositions ;
+ * adverbs ;
+ * conjunctors ;
+ * determiners ;
+ * interjections ;
+ * nouns ;
+ * pronouns ;
+ * propernouns ;
+ * propernouns-toponyms ;
+ * quantifiers ;
+ * verbs ;
+ * **rus-Cyrl-2-Lat-ProperNouns ;** Derived from urj-Cyrl
+ * Exceptions ;
 
 NEWWORDS FILES
-  A_NEWWORDS ;      adjectives
-  ADV_NEWWORDS ;	   adverbs
-  N_NEWWORDS ;      nouns
-  PROP_NEWWORDS ;      proper nouns
-  V_NEWWORDS ;      verbs
+ **A_NEWWORDS ;** adjectives
+ **ADV_NEWWORDS ;** adverbs
+ **N_NEWWORDS ;** nouns
+ **PROP_NEWWORDS ;** proper nouns
+ **V_NEWWORDS ;** verbs
 
 
 

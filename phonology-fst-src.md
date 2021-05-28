@@ -1,7 +1,13 @@
 # The Livvi (Olonets) Karelian morphophonological/twolc rules file 
 
 
-
+## Alphatbet, sets
+ **a b c č d e f g h i j k l m n o p r s š ş t u v w y z ž ƶ ü ä ö**
+ **A B C Č D E F G H I J K L M N O P R S Š Ş T U V W Y Z Ž Ƶ Ü Ä Ö**
+ **y**
+ **Y**
+ **%{aä%}:a**
+ **%{aä%}:ä**
 
   %{aoeInf%}:a	 Back vowel infinitive marker
   %{äöeInf%}:ä	 Front vowel infinitive marker
@@ -13,9 +19,12 @@
 
   %{ui%}:i   in imperative before %{aä%}:
 
+ **%{oö%}:o**
+ **%{oö%}:ö**
 
  %{oöØ%}:0   Used in present participle
 
+ **%{uy%}:y**
 
   %{ijPRC%}:j  participle
  *  %{lnrs%}:n   e.g. in perfect participles
@@ -24,15 +33,55 @@
 
 
 
+this appears in the illative
+ **V1:a**
+ **V1:e**
+ **V1:i**
+ **V1:o**
+ **V1:u**
+ **V1:y**
+ **V1:ä**
+ **V1:ö**
 
+These appear with the inessive and adessive
+ **V2:a**
+ **V2:e**
+ **V2:i**
+ **V2:o**
+ **V2:u**
+ **V2:y**
+ **V2:ä**
+ **V2:ö**
 
+These reduplicate the preceding vowel if it in turn is preceded by a consonant
+ **V3:a**
+ **V3:e**
+ **V3:i**
+ **V3:o**
+ **V3:u**
+ **V3:y**
+ **V3:ä**
+ **V3:ö**
+ **V3:0**
 
  %^DEVOICE:0    
  %^VOICE:0     pestä : pezen
 
+ **%^SyllBound:0**
 
 
+ **%^KS2S:0**
 
+no change
+The example here is for something that should not be done
+We have two infinite sets, Olonets-Karelian and incoming loanwords.
+The original idea was to make a rule changing all instances of 
+adjacent double aa to ua. For this reason a special trigger was
+to be inserted into the lexc stem of a word to prevent such a rule
+from occurring. Since the infinite Olonets-Karelian set is more predictable
+and perhaps smaller than the incoming loanword set, it is better
+to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
+ %^NONE:0 This will break vowel change, e.g. sa%^NONEamelaine
 
 
  %^Pen:0   pagisou paistah in combination with WGStem to trigger
@@ -67,7 +116,7 @@ Triggers dictating right context phenomena
 
 
 
-
+### Sets
 
 
 
@@ -100,12 +149,12 @@ Right context for gradation
 
 
 
-**%{aä%}:a**
+**Rule: %{aä%}:a**
 kuvitella+V+Inf: **imagine/kuvitella**
 * *kuvittel%{back%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
 * *kuvi0tel00%>la0*
 
-**%{aä%}:ä**
+**Rule: %{aä%}:ä**
 ezitellä+V+Inf: **present/esitellä**
 * *ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
 * *ezi0tel00%>lä0*
@@ -124,70 +173,70 @@ ezitellä+V+Inf: **present/esitellä**
 
 
 
-**%{aäoeö%}:a**
+**Rule: %{aäoeö%}:a**
 
-**%{aäoeö%}:ä**
+**Rule: %{aäoeö%}:ä**
 heittiä+V+Inf: **throw/heittää**
 * *heittä%{front%}%>%{aäoeö%}*
 * *heitti0%>ä*
 
-**%{aäoeö%}:o**
+**Rule: %{aäoeö%}:o**
 
-**%{aäoeö%}:e**
+**Rule: %{aäoeö%}:e**
 
-**%{aäoeö%}:ö**
+**Rule: %{aäoeö%}:ö**
 
-**{aäoeöuiy%}:a**
+**Rule: {aäoeöuiy%}:a**
 
-**{aäoeöuiy%}:ä**
+**Rule: {aäoeöuiy%}:ä**
 
-**{aäoeöuiy%}:o**
+**Rule: {aäoeöuiy%}:o**
 
-**{aäoeöuiy%}:e**
+**Rule: {aäoeöuiy%}:e**
 
-**{aäoeöuiy%}:ö**
+**Rule: {aäoeöuiy%}:ö**
 
-**{aäoeöuiy%}:u**
+**Rule: {aäoeöuiy%}:u**
 
-**{aäoeöuiy%}:i**
+**Rule: {aäoeöuiy%}:i**
 
-**{aäoeöuiy%}:y**
-
-
-**e:0**
+**Rule: {aäoeöuiy%}:y**
 
 
-**%{ui%}:u**
+**Rule: e:0**
+
+
+**Rule: %{ui%}:u**
 ```
 * %{front%}:0  ! imperative forms
 * *kanda%{back%}%>kk%{ui%}%{aä%}mm%{oö%}*
 * *kanda0%>kkuammo*
 ```
 
-**%{ui%}:i**
+**Rule: %{ui%}:i**
 ```
 * %{front%}:0  ! imperative forms
 * *lʼykkä%{front%}%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}*
 * *lʼyk0ä00%>kkiämmö*
 ```
 
-**%{ui%}:i**
-**%{ui%}:i**
-**%{ui%}:i**
+**Rule: %{ui%}:i**
+**Rule: %{ui%}:i**
+**Rule: %{ui%}:i**
 
 
 
-**%{aäuyiØ%}:a**
+**Rule: %{aäuyiØ%}:a**
 
-**%{aäuyiØ%}:u**
+**Rule: %{aäuyiØ%}:u**
 
-**%{aäuyiØ%}:ä**
+**Rule: %{aäuyiØ%}:ä**
 
-**%{aäuyiØ%}:y**
+**Rule: %{aäuyiØ%}:y**
 
-**%{aäuyiØ%}:i**
+**Rule: %{aäuyiØ%}:i**
 
-**%{aäuyiØ%}:0**
+**Rule: %{aäuyiØ%}:0**
 
 
 **a:u before subsequent a**  Diphthong a+a => ua
@@ -274,12 +323,12 @@ kehittiä+V+Inf: **develop/kehittää**
 
 *käskö0%>y examples:*
 
-**ä:y word final**
+**Rule: ä:y word final**
 
-**ä:ö word final**
+**Rule: ä:ö word final**
 
 
-**a:0 in suaja:sai**
+**Rule: a:0 in suaja:sai**
 ```
  *  a _ (%{back%}:)  %^RmVow:  ;  Vowel shortening before subsequent "i"
 
@@ -297,7 +346,7 @@ kehittiä+V+Inf: **develop/kehittää**
 ```
 
 ## iToj between vowels
-**i:j**
+**Rule: i:j**
 
 **%{ijPRC%}:i** 
 ```
@@ -306,7 +355,7 @@ kehittiä+V+Inf: **develop/kehittää**
 
 
 
-**a:o in the plural and preterite**
+**Rule: a:o in the plural and preterite**
 * *muama%{back%}%^A2O*
 * *muamo00*
 
@@ -325,9 +374,9 @@ kehittiä+V+Inf: **develop/kehittää**
 * *mečäste00%>ttäs*
 
 
-**ä:0 pidiä:pidi**
+**Rule: ä:0 pidiä:pidi**
 
-**i:0 reboi:reboloi**
+**Rule: i:0 reboi:reboloi**
 * *rodi%^RmVow%>i%>h*
 * *rod00%>i%>h*
 
@@ -356,13 +405,13 @@ kehittiä+V+Inf: **develop/kehittää**
 
 ## Consonant change
 
-**g:j**
+**Rule: g:j**
 ```
 * *poiga%^WGStem%>n*
 * *poija0%>n*
 ```
 
-**g:v**
+**Rule: g:v**
 * *jog%{back%}e%^WGStem%>n*
 * *jov0e0%>n*
 
@@ -404,7 +453,7 @@ sulgu+N+Pl+Ins **feather/sulka**
 
 ```
 
-**v:y**
+**Rule: v:y**
 **d:j**  
 * *maido%^WGStem%>n*
 * *maijo0%>n*
@@ -414,14 +463,14 @@ sulgu+N+Pl+Ins **feather/sulka**
 * *tiijä0%>n*
 
 
-**y:v**
+**Rule: y:v**
 
 *täydy%^WGStem examples:*
 
 *tävvy0 examples:*
 lʼöydiä:lʼövvä
 
-**u:v**
+**Rule: u:v**
 juodu+N+Pl+Ade
 * *juoda%{back%}%^RmVow%>i%^WGStem%>l*
 * *juod000%>i0%>l*
@@ -443,7 +492,7 @@ soudua:sovva
 
 *pa0is%>ta0h examples:*
 
-**s:z**
+**Rule: s:z**
 ```
  * s:z <=> _ (HarmDummy:) %^VOICE:0 ;  pestä: pezen
 ```
@@ -475,11 +524,11 @@ ezitellä+V+Inf: **present/esitellä**
 
 **sn:ss in prtprc**  
 
-**%{dtlnr%}:d**
+**Rule: %{dtlnr%}:d**
 
-**%{dtlnr%}:t**
+**Rule: %{dtlnr%}:t**
 
-**%{dtlnr%}:l**
+**Rule: %{dtlnr%}:l**
 tulla+Ind+Prs+ScPl3: tullah
 * *tul%{back%}%>%{dtlnr%}%{aä%}*
 * *tul0%>la*
@@ -487,9 +536,9 @@ kuvitella+V+Inf
 * *kuvittel%{back%}%^WGStem%>%{dtlnr%}%{aä%}*
 * *kuvi0tel00%>la*
 
-**%{dtlnr%}:n**
+**Rule: %{dtlnr%}:n**
 
-**%{dtlnr%}:r**
+**Rule: %{dtlnr%}:r**
 
 ### CONSONANT LOSS
 
@@ -530,7 +579,7 @@ ezitellä+V+Inf: **present/esitellä**
 
 **b:v**  
 
-**b:v**
+**Rule: b:v**
 ```
  b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 ```
