@@ -1,5 +1,6 @@
 # The Livvi (Olonets) Karelian morphophonological/twolc rules file 
 
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-olo/blob/main/src/fst/phonology.twolc) 
 
 ## Alphatbet, sets
  **a b c č d e f g h i j k l m n o p r s š ş t u v w y z ž ƶ ü ä ö**
