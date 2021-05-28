@@ -19,10 +19,10 @@ LEXICON ACRONOUN_cons
 LEXICON ACRONOUN_vow  
  ACRONOUN ;
 
-LEXICON UNIT   !!= * **@CODE@**  As acro, but without paradigm
+LEXICON UNIT   !!≈ * **@CODE@**  As acro, but without paradigm
 +N+ABBR: # ;
 
-LEXICON ACRO_ACCRA  !!= * **@CODE@** 
+LEXICON ACRO_ACCRA  !!≈ * **@CODE@** 
 +N+Prop+ACR: acroconnector ;
 !+N+Prop:%> ACCRADECL ;
 
