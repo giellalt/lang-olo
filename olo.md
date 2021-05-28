@@ -1871,17 +1871,17 @@ Correction rules
 ## Temporary lexica
 
 
- * **LEXICON V_ ** is for ad-hoc incoming verbs, not in xml
+ * **LEXICON V_** is for ad-hoc incoming verbs, not in xml
 
 
 ## Auxiliary verbs
 
- * **LEXICON V-NEG ** ei:e
+ * **LEXICON V-NEG** ei:e
 
- * **LEXICON V-PROH ** älä:äl
+ * **LEXICON V-PROH** älä:äl
 
- * **LEXICON V_OLLA ** olla:o
- * **LEXICON V_OLLA_01 ** olla:o
+ * **LEXICON V_OLLA** olla:o
+ * **LEXICON V_OLLA_01** olla:o
 
 
 
@@ -1892,159 +1892,159 @@ Correction rules
 
 V1a
 
- * **LEXICON V_ALENDUA ** alendua:alenda
+ * **LEXICON V_ALENDUA** alendua:alenda
 Harmony: Back
 
- * **LEXICON V_ELLENDIÄ ** ellendiä:ellendä
+ * **LEXICON V_ELLENDIÄ** ellendiä:ellendä
 Harmony: Front
- * **LEXICON V_ALENDUA/ELLENDIÄ_01 ** ellendiä:ellendä alendua:alenda
+ * **LEXICON V_ALENDUA/ELLENDIÄ_01** ellendiä:ellendä alendua:alenda
 Gradation No
 
- * **LEXICON V_KANDUA ** kandua:kanda
+ * **LEXICON V_KANDUA** kandua:kanda
 Back Vowel
- * **LEXICON V_KANDUA_01 ** kandua:kanda
+ * **LEXICON V_KANDUA_01** kandua:kanda
 Gradation Yes
 
 
 
- * **LEXICON V_OTTUA ** ottua:otta
+ * **LEXICON V_OTTUA** ottua:otta
 Back Vowel
- * **LEXICON V_OTTUA/HEITTIÄ_01 ** ottua:otta
+ * **LEXICON V_OTTUA/HEITTIÄ_01** ottua:otta
 Gradation Yes
 
 
- * **LEXICON V_OTTUA-SG3 ** ottua:otta
+ * **LEXICON V_OTTUA-SG3** ottua:otta
 
- * **LEXICON V_OTTUA-3 ** ottua:otta
+ * **LEXICON V_OTTUA-3** ottua:otta
 
- * **LEXICON V_HEITTIÄ ** heittä:heittä
+ * **LEXICON V_HEITTIÄ** heittä:heittä
 Front vowel
 
 
- * **LEXICON V_HEITTIÄ-SG3 ** heittä:heittä
+ * **LEXICON V_HEITTIÄ-SG3** heittä:heittä
 
- * **LEXICON V_HEITTIÄ-3 ** heittä:tiedä
+ * **LEXICON V_HEITTIÄ-3** heittä:tiedä
 
 V1o
 
- * **LEXICON V_PUNUO ** punuo:puno
+ * **LEXICON V_PUNUO** punuo:puno
 Back vowel
- * **LEXICON V_PUNUO/XX_01 ** punuo:puno
+ * **LEXICON V_PUNUO/XX_01** punuo:puno
 Gradation No
 
- * **LEXICON V_PUNUO-SG3 ** punuo:puno
+ * **LEXICON V_PUNUO-SG3** punuo:puno
 
 V1u
 
- * **LEXICON V_VALUO ** valuo:valu
+ * **LEXICON V_VALUO** valuo:valu
 Back vowel
- * **LEXICON V_VALUO/PYZYÖ_01 ** valuo:valu
+ * **LEXICON V_VALUO/PYZYÖ_01** valuo:valu
 Gradation No
 similar_to: V_PYZYÖ
 
 
- * **LEXICON V_VALUO-SG3 ** valuo:valu
+ * **LEXICON V_VALUO-SG3** valuo:valu
 
 
- * **LEXICON V_PYZYÖ ** pyzyö:pyzy
+ * **LEXICON V_PYZYÖ** pyzyö:pyzy
 Front vowel
 
 
- * **LEXICON V_PYZYÖ-SG3 ** pyzyö:pyzy
+ * **LEXICON V_PYZYÖ-SG3** pyzyö:pyzy
 
- * **LEXICON V_PYZYÖ-3 ** pyzyö:pyzy
+ * **LEXICON V_PYZYÖ-3** pyzyö:pyzy
 
 V1i
- * **LEXICON V_POTKIE ** potkie:potki
+ * **LEXICON V_POTKIE** potkie:potki
 Back vowel
- * **LEXICON V_POTKIE/EČČIE_01 ** potkie:potki
+ * **LEXICON V_POTKIE/EČČIE_01** potkie:potki
 Gradation No
 Ind+Prt+Sg3
 
 
- * **LEXICON V_POTKIE-SG3 ** potkie:potki
+ * **LEXICON V_POTKIE-SG3** potkie:potki
 
- * **LEXICON V_EČČIE ** eččie:ečči
+ * **LEXICON V_EČČIE** eččie:ečči
 Front vowel
 
 
- * **LEXICON V_LUGIE ** lugie:luge
+ * **LEXICON V_LUGIE** lugie:luge
 Back vowel
- * **LEXICON V_LUGIE/IMIE_01 ** lugie:luge
+ * **LEXICON V_LUGIE/IMIE_01** lugie:luge
 Gradation Yes
 
- * **:%>e INDPRTPL3_ttih ; ** 
- * **:%>e INDPRSPL3_tAh ; ** 
+ * **:%>e INDPRTPL3_ttih ;** 
+ * **:%>e INDPRSPL3_tAh ;** 
 
- * **LEXICON V_TUNDIE ** tundie:tunde 
- * **LEXICON V_TUNDIE_01 ** tundie:tunde 
+ * **LEXICON V_TUNDIE** tundie:tunde 
+ * **LEXICON V_TUNDIE_01** tundie:tunde 
 Gradation Yes
 Back vowel
 
 
- * **:%>e INDPRTPL3_ttih ; ** 
- * **:%>e INDPRSPL3_tAh ; ** 
- * **LEXICON V_IMIE ** imie:ime
+ * **:%>e INDPRTPL3_ttih ;** 
+ * **:%>e INDPRSPL3_tAh ;** 
+ * **LEXICON V_IMIE** imie:ime
 Gradation No
 Front vowel
 
 
- * **LEXICON V_IMIE-SG3_01 ** imie:ime
+ * **LEXICON V_IMIE-SG3_01** imie:ime
 
- * **LEXICON  V_PIDIÄ ** pidiä:pidä
+ * **LEXICON V_PIDIÄ** pidiä:pidä
 Gradation Yes
 Front vowel
- * **LEXICON  V_PIDIÄ_01 ** pidiä:pidä
+ * **LEXICON V_PIDIÄ_01** pidiä:pidä
 
- * **LEXICON  V_PIDIÄ-SG3 ** pidiä:pidä
- * **LEXICON  V_PIDIÄ-SG3_01 ** pidiä:pidä
+ * **LEXICON V_PIDIÄ-SG3** pidiä:pidä
+ * **LEXICON V_PIDIÄ-SG3_01** pidiä:pidä
 
 
 
 ### VERBS OF FINNISH TYPE 2 in dA
 
- * **LEXICON V_VOIJA ** voija:voi
- * **LEXICON V_VOIJA_01 ** voija:voi
+ * **LEXICON V_VOIJA** voija:voi
+ * **LEXICON V_VOIJA_01** voija:voi
 
- * **+Inf:%>ja K ; ** type 2 also suaha
-
-
-
- * **LEXICON V_ROIJA ** roija:roi
- * **LEXICON V_ROIJA_01 ** roija:roi
- * **+Inf:%>ja K ; ** type 2 also suaha
+ * **+Inf:%>ja K ;** type 2 also suaha
 
 
- * **LEXICON V_SUAJA ** suaja:saa
- * **LEXICON V_SUAJA_01 ** suaja:saa
- * **+Inf:%>ja K ; ** type 2 also suaha
- * **+Inf:%>ha K ; ** type 2 also suaha
+
+ * **LEXICON V_ROIJA** roija:roi
+ * **LEXICON V_ROIJA_01** roija:roi
+ * **+Inf:%>ja K ;** type 2 also suaha
 
 
- * **LEXICON V_JUVVA ** juvva:jo
- * **LEXICON V_JUVVA_01 ** juvva:jo
+ * **LEXICON V_SUAJA** suaja:saa
+ * **LEXICON V_SUAJA_01** suaja:saa
+ * **+Inf:%>ja K ;** type 2 also suaha
+ * **+Inf:%>ha K ;** type 2 also suaha
 
 
- * **LEXICON V_JIÄJÄ ** suaja:saa jiäjä:jää
- * **LEXICON V_JIÄJÄ_01 ** suaja:saa jiäjä:jää
- * **+Inf:%>jä K ; ** type 2 also jiähä
- * **+Inf:%>hä K ; ** type 2 also jiähä
-
- * **LEXICON V_MYVVÄ ** myvvä:mö
- * **LEXICON V_MYVVÄ_01 ** myvvä:mö
-
- * **LEXICON V_VIIJÄ ** viijä:ve
+ * **LEXICON V_JUVVA** juvva:jo
+ * **LEXICON V_JUVVA_01** juvva:jo
 
 
- * **LEXICON V_NÄHTÄ ** nähtä:nä
- * **LEXICON V_NÄHTÄ_01 ** nähtä:nä
+ * **LEXICON V_JIÄJÄ** suaja:saa jiäjä:jää
+ * **LEXICON V_JIÄJÄ_01** suaja:saa jiäjä:jää
+ * **+Inf:%>jä K ;** type 2 also jiähä
+ * **+Inf:%>hä K ;** type 2 also jiähä
+
+ * **LEXICON V_MYVVÄ** myvvä:mö
+ * **LEXICON V_MYVVÄ_01** myvvä:mö
+
+ * **LEXICON V_VIIJÄ** viijä:ve
 
 
+ * **LEXICON V_NÄHTÄ** nähtä:nä
+ * **LEXICON V_NÄHTÄ_01** nähtä:nä
 
 
 
 
- * **LEXICON V_KÄVVÄ ** kävvä:käv
+
+
+ * **LEXICON V_KÄVVÄ** kävvä:käv
 
 
 
@@ -2055,116 +2055,116 @@ Front vowel
 
 ### Verbs of the Finnish type 3
 
- * **LEXICON V_TULLA ** tulla:tul
+ * **LEXICON V_TULLA** tulla:tul
 
- * **LEXICON V_ULISTA ** ulista:ulis
+ * **LEXICON V_ULISTA** ulista:ulis
 
- * **LEXICON V_JUOSTA_BACK ** juosta:juoks
- * **LEXICON V_JUOSTA_01 ** juosta:juoks
-
-
-
- * **LEXICON V_PAISTA ** paista:pagis
- * **LEXICON V_PAISTA_01 ** paista:pagis
+ * **LEXICON V_JUOSTA_BACK** juosta:juoks
+ * **LEXICON V_JUOSTA_01** juosta:juoks
 
 
+
+ * **LEXICON V_PAISTA** paista:pagis
+ * **LEXICON V_PAISTA_01** paista:pagis
 
 
 
 
 
- * **LEXICON V_PESTÄ ** pestä:pes
 
- * **LEXICON V_NOSTA ** nosta:no
- * **LEXICON V_NOSTA/XX_01 ** nosta:no
+
+ * **LEXICON V_PESTÄ** pestä:pes
+
+ * **LEXICON V_NOSTA** nosta:no
+ * **LEXICON V_NOSTA/XX_01** nosta:no
 
 Verbs of the Finnish type 3 but not identical
 
- * **LEXICON V_KUULTA ** kuulta:kuul
+ * **LEXICON V_KUULTA** kuulta:kuul
 
- * **LEXICON V_KUULTA-SG3 ** kuulta:kuul
+ * **LEXICON V_KUULTA-SG3** kuulta:kuul
 
 
- * **LEXICON V_VIERTÄ ** viertä:vier
+ * **LEXICON V_VIERTÄ** viertä:vier
 
 
 Verbs of the Finnish type 3 but not identical
 gradation: yes
 
- * **LEXICON V_KUVITELLA ** kuvitella:kuvittel
+ * **LEXICON V_KUVITELLA** kuvitella:kuvittel
 
- * **LEXICON V_EZITELLAE ** ezitellä:ezittel
+ * **LEXICON V_EZITELLAE** ezitellä:ezittel
 
 
- * **LEXICON V_TYPÄTÄ ** typätä:typpä
+ * **LEXICON V_TYPÄTÄ** typätä:typpä
 
- * **LEXICON V_KÄITÄ ** käitä:käge
+ * **LEXICON V_KÄITÄ** käitä:käge
 
- * **LEXICON V_SUVATA ** suvata:suva
+ * **LEXICON V_SUVATA** suvata:suva
 
 
 ### Verbs of the Finnish type 4
 
- * **LEXICON V_AVATA ** avata:ava
+ * **LEXICON V_AVATA** avata:ava
 
 gradation: no
 
- * **LEXICON V_ARVOTA ** arvota:arvo
+ * **LEXICON V_ARVOTA** arvota:arvo
 
 gradation: no
 
- * **LEXICON V_KABLITA ** kablita:kabli
+ * **LEXICON V_KABLITA** kablita:kabli
 
 gradation: no
 
- * **LEXICON V_BAUHUTA ** bauhuta:bauhu
+ * **LEXICON V_BAUHUTA** bauhuta:bauhu
 
- * **LEXICON V_BAUHUTA-SG3 ** bauhuta:bauhu
+ * **LEXICON V_BAUHUTA-SG3** bauhuta:bauhu
 
- * **LEXICON V_LANGETA ** langeta:lange
+ * **LEXICON V_LANGETA** langeta:lange
 
 gradation: no
 
- * **LEXICON V_ALLATA ** allata:alga
+ * **LEXICON V_ALLATA** allata:alga
 
 gradation: yes
 
- * **LEXICON V_KIKOTA ** kikota:kikko
+ * **LEXICON V_KIKOTA** kikota:kikko
 
 gradation: yes
 
- * **LEXICON V_RUVETA ** ruveta:rube
+ * **LEXICON V_RUVETA** ruveta:rube
 
- * **LEXICON V_RUVETA-SG3 ** ruveta:rube
+ * **LEXICON V_RUVETA-SG3** ruveta:rube
 
 
- * **LEXICON V_HYRRÄTÄ ** hyrrätä:hyrrä
+ * **LEXICON V_HYRRÄTÄ** hyrrätä:hyrrä
 
 
 gradation: no
 
- * **LEXICON V_HÄVITÄ ** hävitä:hävi
+ * **LEXICON V_HÄVITÄ** hävitä:hävi
 
 gradation: no
 
- * **LEXICON V_HÖYRYTÄ ** höyrytä:höyry
+ * **LEXICON V_HÖYRYTÄ** höyrytä:höyry
 
 gradation: no
 
- * **LEXICON V_HÖPSÖTÄ ** höpsötä:höpsö
+ * **LEXICON V_HÖPSÖTÄ** höpsötä:höpsö
 
 gradation: no
 
 
- * **LEXICON V_BÖVVÄTÄ ** bövvätä:böygä
+ * **LEXICON V_BÖVVÄTÄ** bövvätä:böygä
 
 gradation: yes
 
- * **LEXICON V_REVITÄ ** revitä:rebi
+ * **LEXICON V_REVITÄ** revitä:rebi
 
 gradation: yes
 
- * **LEXICON V_PÄITÄ ** päitä:päde
+ * **LEXICON V_PÄITÄ** päitä:päde
 
 gradation: yes
 
@@ -2172,98 +2172,98 @@ gradation: yes
 
 ### Verbs of the Finnish type 5
 
- * **LEXICON V_SUVAIJA ** suvaija:suvai
+ * **LEXICON V_SUVAIJA** suvaija:suvai
 
- * **LEXICON V_SUVAIJA-SG3 ** suvaija:suvai
+ * **LEXICON V_SUVAIJA-SG3** suvaija:suvai
 
- * **LEXICON V_SUVAIJA-3 ** suvaija:suvai
+ * **LEXICON V_SUVAIJA-3** suvaija:suvai
 
- * **LEXICON V_EMÄNDÖIJÄ ** emändöijä:emändöi
-
-
-
- * **LEXICON V_MERKITÄ ** merkitä:merki
- * **LEXICON V_MAINITA ** mainita:maini
-
- * **LEXICON V_ALETA ** aleta:ale (alenov)
- * **LEXICON V_ALETA_01 ** aleta:ale (alenov)
+ * **LEXICON V_EMÄNDÖIJÄ** emändöijä:emändöi
 
 
- * **LEXICON V_VÄHETÄ ** vähetä:vähe (vähenöy)
- * **LEXICON V_VÄHETÄ_01 ** vähetä:vähe (vähenöy)
 
- * **LEXICON V_VÄHETÄ-SG3 ** vähetä:vähe (vähenöy)
+ * **LEXICON V_MERKITÄ** merkitä:merki
+ * **LEXICON V_MAINITA** mainita:maini
 
-
- * **LEXICON V_SUATA ** suata:suva (suvaiččov)
- * **LEXICON V_SUATA_01 ** suata:suva (suvaiččov)
-
- * **LEXICON VR_AMBUO ** ambuokseh:ambu
- * **LEXICON VR_AMBUO_01 ** ambuokseh:ambu
-
- * **LEXICON VR_VALUO ** valuokseh:valu
- * **LEXICON VR_VALUO/PYZYÖ ** valuokseh:valu
-
- * **LEXICON VR_PYZYÖ ** valuokseh:valu
+ * **LEXICON V_ALETA** aleta:ale (alenov)
+ * **LEXICON V_ALETA_01** aleta:ale (alenov)
 
 
- * **LEXICON VR_PUNUO ** punuokseh:puno
- * **LEXICON VR_PUNUO/XX_01 ** punuokseh:puno
+ * **LEXICON V_VÄHETÄ** vähetä:vähe (vähenöy)
+ * **LEXICON V_VÄHETÄ_01** vähetä:vähe (vähenöy)
 
- * **LEXICON VR_IMIE ** imiekseh:ime
-
- * **LEXICON VR_POTKIE/EČČIE_01 ** imiekseh:ime
-
- * **LEXICON VR_POTKIE ** potkiekseh:potki
+ * **LEXICON V_VÄHETÄ-SG3** vähetä:vähe (vähenöy)
 
 
- * **LEXICON VR_PIDIÄ ** pidiäkseh:pidä
- * **LEXICON VR_PIDIÄ_01 ** pidiäkseh:pidä
+ * **LEXICON V_SUATA** suata:suva (suvaiččov)
+ * **LEXICON V_SUATA_01** suata:suva (suvaiččov)
 
- * **LEXICON VR_KANDUA ** kanduakseh:kanda
- * **LEXICON VR_KANDUA_01 ** kanduakseh:kanda
+ * **LEXICON VR_AMBUO** ambuokseh:ambu
+ * **LEXICON VR_AMBUO_01** ambuokseh:ambu
 
- * **LEXICON VR_KANDUA-SG3 ** kanduakseh:kanda
- * **LEXICON VR_KANDUA-SG3_01 ** kanduakseh:kanda
+ * **LEXICON VR_VALUO** valuokseh:valu
+ * **LEXICON VR_VALUO/PYZYÖ** valuokseh:valu
 
- * **LEXICON VR_OTTUA ** ottuakseh:otta
- * **LEXICON VR_OTTUA/HEITTIÄ_01 ** ottuakseh:otta
+ * **LEXICON VR_PYZYÖ** valuokseh:valu
 
- * **LEXICON VR_EISTIÄ ** eistiäkseh:eistä
+
+ * **LEXICON VR_PUNUO** punuokseh:puno
+ * **LEXICON VR_PUNUO/XX_01** punuokseh:puno
+
+ * **LEXICON VR_IMIE** imiekseh:ime
+
+ * **LEXICON VR_POTKIE/EČČIE_01** imiekseh:ime
+
+ * **LEXICON VR_POTKIE** potkiekseh:potki
+
+
+ * **LEXICON VR_PIDIÄ** pidiäkseh:pidä
+ * **LEXICON VR_PIDIÄ_01** pidiäkseh:pidä
+
+ * **LEXICON VR_KANDUA** kanduakseh:kanda
+ * **LEXICON VR_KANDUA_01** kanduakseh:kanda
+
+ * **LEXICON VR_KANDUA-SG3** kanduakseh:kanda
+ * **LEXICON VR_KANDUA-SG3_01** kanduakseh:kanda
+
+ * **LEXICON VR_OTTUA** ottuakseh:otta
+ * **LEXICON VR_OTTUA/HEITTIÄ_01** ottuakseh:otta
+
+ * **LEXICON VR_EISTIÄ** eistiäkseh:eistä
 
 
 Reflexive verbs
 
- * **LEXICON VR_RODIEKSEH ** rodiekseh:rodi
+ * **LEXICON VR_RODIEKSEH** rodiekseh:rodi
 
 
- * **LEXICON VR_ROIJA ** roijakseh:roi
+ * **LEXICON VR_ROIJA** roijakseh:roi
 
 
- * **LEXICON VR_ROITA ** roita:roi 
+ * **LEXICON VR_ROITA** roita:roi 
 
- * **LEXICON VR_JUVVA ** juvva:jo
- * **LEXICON VR_MYVVÄ ** myvvä:mö
+ * **LEXICON VR_JUVVA** juvva:jo
+ * **LEXICON VR_MYVVÄ** myvvä:mö
 
- * **LEXICON VR_NÄHTÄ ** nähtä:nä
-
-
- * **LEXICON VR_TULLA ** tuliekseh:tul !this will need work 2013-10-23
-
- * **LEXICON VR_PESTÄ ** tuliekseh:tul !this will need work 2013-10-23
-
- * **LEXICON VR_KUVITELLA ** kuvitellakseh:kuvittel !this will need work 2016-08-17
-
- * **LEXICON VR_EBAEILLAE ** kuvitellakseh:kuvittel !this will need work 2016-08-17
-
- * **LEXICON VR_AVATA ** avatakseh:ava (typätäkseh:typpä)
-
- * **LEXICON VR_SUVAIJA ** suvaijakseh:suvai
-
- * **LEXICON VR_EMÄNDÖIJÄ ** emändöijäkseh:emändöi
+ * **LEXICON VR_NÄHTÄ** nähtä:nä
 
 
- * **LEXICON VR_MAINITA ** mainitakseh:maini
+ * **LEXICON VR_TULLA** tuliekseh:tul !this will need work 2013-10-23
+
+ * **LEXICON VR_PESTÄ** tuliekseh:tul !this will need work 2013-10-23
+
+ * **LEXICON VR_KUVITELLA** kuvitellakseh:kuvittel !this will need work 2016-08-17
+
+ * **LEXICON VR_EBAEILLAE** kuvitellakseh:kuvittel !this will need work 2016-08-17
+
+ * **LEXICON VR_AVATA** avatakseh:ava (typätäkseh:typpä)
+
+ * **LEXICON VR_SUVAIJA** suvaijakseh:suvai
+
+ * **LEXICON VR_EMÄNDÖIJÄ** emändöijäkseh:emändöi
+
+
+ * **LEXICON VR_MAINITA** mainitakseh:maini
 
 
 
@@ -2291,7 +2291,7 @@ This verb type has two final vowels in the first infinitive
 
 
 
- **LEXICON V-3SYLL_KIRJUTTUA **  kirjuttua:kirjutta
+ **LEXICON V-3SYLL_KIRJUTTUA**  kirjuttua:kirjutta
 
 
 
@@ -2319,7 +2319,7 @@ This verb type has two final vowels in the first infinitive
 
 
 
- * **LEXICON V-VV_03_Harm-Neutr ** tulla:tul
+ * **LEXICON V-VV_03_Harm-Neutr** tulla:tul
 
 
 
@@ -2328,40 +2328,40 @@ This verb type has two final vowels in the first infinitive
 
 
 
- * **LEXICON V-VV_KUULLA ** kuulla:kuul
+ * **LEXICON V-VV_KUULLA** kuulla:kuul
 
 
 
- * **LEXICON V-VV_VIERRÄ ** vierrä:vier
-
-
-
-
- * **LEXICON V-VV_KUVITELLA/EZITELLAE ** kuvitella:kuvittel
+ * **LEXICON V-VV_VIERRÄ** vierrä:vier
 
 
 
 
+ * **LEXICON V-VV_KUVITELLA/EZITELLAE** kuvitella:kuvittel
 
 
 
 
 
-* LEXICON V-VV_KUVITELLA/EZITELLAE  suvaija:suvai
 
 
 
 
-* LEXICON V-VV_KUVITELLA/EZITELLAE  emändöijä:emändöi
+* LEXICON V-VV_KUVITELLA/EZITELLAE suvaija:suvai
 
 
 
 
-* LEXICON V-VV_KUVITELLA/EZITELLAE  mainita:maini
+* LEXICON V-VV_KUVITELLA/EZITELLAE emändöijä:emändöi
 
 
 
-* LEXICON V-VV_KUVITELLA/EZITELLAE  merkitä:merki
+
+* LEXICON V-VV_KUVITELLA/EZITELLAE mainita:maini
+
+
+
+* LEXICON V-VV_KUVITELLA/EZITELLAE merkitä:merki
 
 
 
@@ -2447,7 +2447,7 @@ Forthcoming
 
 
 
-* LEXICON V-VV_KUVITELLA/EZITELLAE  type 04
+* LEXICON V-VV_KUVITELLA/EZITELLAE type 04
 
 ### INDICATIVE PRESENT REFLEXIVE
 
@@ -2456,7 +2456,7 @@ Forthcoming
 
 
 
-* LEXICON V-VV_KUVITELLA/EZITELLAE  
+* LEXICON V-VV_KUVITELLA/EZITELLAE 
 
 ### INDICATIVE PRETERITE
 
@@ -2510,7 +2510,7 @@ Forthcoming
 
 
 
- * **+Pot+Pl3+Rc:%>d%{aä%}%>nehes K ; ** Shouldn't THIS be the right form
+ * **+Pot+Pl3+Rc:%>d%{aä%}%>nehes K ;** Shouldn't THIS be the right form
 
 
 ## IMPERATIVE
@@ -2570,64 +2570,64 @@ Forthcoming
 
 
 
- * **LEXICON ab-noun   **
+ * **LEXICON ab-noun**
 
- * **LEXICON ab-adj   **
+ * **LEXICON ab-adj**
 
- * **LEXICON ab-adv   **
+ * **LEXICON ab-adv**
 
- * **LEXICON ab-num   **
+ * **LEXICON ab-num**
 
 ### Lexicons without final period
 
- * **LEXICON ab-nodot-noun   **  The bulk
+ * **LEXICON ab-nodot-noun**  The bulk
 
- * **LEXICON ab-nodot-adj   **
+ * **LEXICON ab-nodot-adj**
 
- * **LEXICON ab-nodot-adv   **
+ * **LEXICON ab-nodot-adv**
 
- * **LEXICON ab-nodot-num   **
+ * **LEXICON ab-nodot-num**
 
 ### Lexicons with final period
 
- * **LEXICON ab-dot-noun   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-noun**  This is the lexicon for abbrs that must have a period.
 
- * **LEXICON ab-dot-adj   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-adj**  This is the lexicon for abbrs that must have a period.
 
- * **LEXICON ab-dot-adv   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-adv**  This is the lexicon for abbrs that must have a period.
 
- * **LEXICON ab-dot-num   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-num**  This is the lexicon for abbrs that must have a period.
 
- * **LEXICON ab-dot-cc   **
-
-
+ * **LEXICON ab-dot-cc**
 
 
 
- * **LEXICON ab-dot-verb   **
-
- * **LEXICON ab-nodot-verb   **
 
 
- * **LEXICON ab-dot-IVprfprc   **
+ * **LEXICON ab-dot-verb**
+
+ * **LEXICON ab-nodot-verb**
 
 
- * **LEXICON nodot-attrnomaccgen-infl   **
-
- * **LEXICON nodot-attr-infl   **
-
- * **LEXICON nodot-nomaccgen-infl   **
+ * **LEXICON ab-dot-IVprfprc**
 
 
+ * **LEXICON nodot-attrnomaccgen-infl**
 
- * **LEXICON dot-attrnomaccgen-infl   **
+ * **LEXICON nodot-attr-infl**
 
- * **LEXICON dot-attr   **
-
- * **LEXICON dot-nomaccgen-infl   **
+ * **LEXICON nodot-nomaccgen-infl**
 
 
- * **LEXICON DOT   ** - Adds the dot to dotted abbreviations.
+
+ * **LEXICON dot-attrnomaccgen-infl**
+
+ * **LEXICON dot-attr**
+
+ * **LEXICON dot-nomaccgen-infl**
+
+
+ * **LEXICON DOT** - Adds the dot to dotted abbreviations.
 
 
 
@@ -2646,28 +2646,28 @@ Proper noun inflection
 The LIVVI-KARELIAN language proper nouns inflect in the same cases as regular
 nouns, but sometimes with a colon (':') as separator.
 
- LEXICON PROP_  
+ LEXICON PROP_ 
 
 ### ONE-SYLLABLE LEMMA AND STEM
- LEXICON PROP_VYÖ  vyö:vyö
+ LEXICON PROP_VYÖ vyö:vyö
 
- LEXICON PROP_MUA  mua:maa
+ LEXICON PROP_MUA mua:maa
 
 
 
 ### TWO-SYLLABLE LEMMA AND STEM
- LEXICON PROP_OZA 
+ LEXICON PROP_OZA
 Gradation NA
 Back vowel
 Stem  vowel a
 Plural stem in i
 
- LEXICON PROP_OZA_FEM 
+ LEXICON PROP_OZA_FEM
 
- LEXICON PROP-PLC_OZA 
+ LEXICON PROP-PLC_OZA
 
 
- LEXICON PROP_KALA  
+ LEXICON PROP_KALA 
 Gradation NA
 Back vowel
 Stem  vowel a
@@ -2675,72 +2675,72 @@ Plural stem in oi
 
 
 
- LEXICON PROP_KALA_PATRFEM  
+ LEXICON PROP_KALA_PATRFEM 
 
- LEXICON PROP-PLC_KALA  
+ LEXICON PROP-PLC_KALA 
 
- LEXICON PROP_KALA_SURFEM  
-
-
+ LEXICON PROP_KALA_SURFEM 
 
 
- LEXICON PROP_PAPPI  
+
+
+ LEXICON PROP_PAPPI 
 Gradation Yes
 Back vowel
 Stem	 vowel i
 Plural stem in iloi
 
- LEXICON PROP_PAPPI-SG  
+ LEXICON PROP_PAPPI-SG 
 
- LEXICON PROP_PAPPI-PL  
+ LEXICON PROP_PAPPI-PL 
 
- LEXICON PROP-PLC_PAPPI  
+ LEXICON PROP-PLC_PAPPI 
 
- LEXICON PROP_ARTELI 
+ LEXICON PROP_ARTELI
 Gradation NA
 Back vowel
 Stem  vowel i
 Plural stem in iloi
 
- LEXICON PROP_ARTELI-SG 
+ LEXICON PROP_ARTELI-SG
 
- LEXICON PROP_ARTELI-PL 
+ LEXICON PROP_ARTELI-PL
 
 
- LEXICON PROP_LEIRI 
+ LEXICON PROP_LEIRI
 Gradation NA
 Front vowel
 Stem  vowel i
 Plural stem in iloi
 
- LEXICON PROP_LEIRI-SG 
+ LEXICON PROP_LEIRI-SG
 
- LEXICON PROP_LEIRI-PL 
+ LEXICON PROP_LEIRI-PL
 
 
 
- LEXICON PROP_NIMI  nimi:nim
+ LEXICON PROP_NIMI nimi:nim
 Gradation NA
 Front vowel
 Stem	 vowel i/e
 Plural stem in i
 
 
- LEXICON PROP_JÄLGI  
+ LEXICON PROP_JÄLGI 
 Gradation Yes
 Vowel Harmony Front
 Stem Vowel i/0/e
 Plural stem in i
 
- LEXICON PROP_JÄLGI-SG  
+ LEXICON PROP_JÄLGI-SG 
 
- LEXICON PROP_JÄLGI-PL  
-
-
+ LEXICON PROP_JÄLGI-PL 
 
 
 
- LEXICON PROP_SUARI  suari:suar
+
+
+ LEXICON PROP_SUARI suari:suar
 Gradation NA
 Vowel Harmony Back
 Stem Vowel i/0/e
@@ -2749,7 +2749,7 @@ Plural stem in i
 
 
 
- LEXICON PROP_REBOI  reboi:reboi
+ LEXICON PROP_REBOI reboi:reboi
 Gradation NA
 Vowel Harmony Back
 Stem Vowel oi/o
@@ -2758,17 +2758,17 @@ Plural stem in oloi
 
 
 
- LEXICON PROP_KOIRU  koiru:koira
+ LEXICON PROP_KOIRU koiru:koira
 Gradation NA
 Back vowel
 Stem	 vowel u/a
 Plural stem in i
 
 
- LEXICON PROP-PLC_KOIRU  koiru:koira
+ LEXICON PROP-PLC_KOIRU koiru:koira
 
 
- LEXICON PROP_PÄIVY  päivy:päivä
+ LEXICON PROP_PÄIVY päivy:päivä
 Gradation NA
 Vowel Harmony Front
 Stem Vowel y/ä
@@ -2778,25 +2778,25 @@ Plural stem in i
 
 
 
- LEXICON PROP-PLC_KNIIGU  kniigu:kniiga
+ LEXICON PROP-PLC_KNIIGU kniigu:kniiga
 Gradation No (looks like it should have gradation)
 Vowel Harmony Back
 Stem Vowel u/a
 Plural stem in oi
 
- LEXICON PROP_MUARJU  muarju:muarja
+ LEXICON PROP_MUARJU muarju:muarja
 Gradation NA
 Vowel Harmony Back
 Stem Vowel u:a
 Plural stem in o
 
 
- LEXICON PROP-PLC_MUARJU  muarju:muarja
+ LEXICON PROP-PLC_MUARJU muarju:muarja
 
 
 
 
- LEXICON PROP_AKKU  akku:akka
+ LEXICON PROP_AKKU akku:akka
 Gradation Yes
 Vowel Harmony Back
 Stem Vowel u:a
@@ -2804,7 +2804,7 @@ Plural stem in o
 
 
 
- LEXICON PROP_KOIVU  koivu:koivu
+ LEXICON PROP_KOIVU koivu:koivu
 Back vowel
 Gradation NA
 Stem vowel u
@@ -2813,75 +2813,75 @@ Can be merged with _RUNO
 
 
 
- LEXICON PROP_RUNO  runo:runo
+ LEXICON PROP_RUNO runo:runo
 Back	vowel
 Gradation NA
 Stem vowel o
 Plural stem in loi
 
- LEXICON PROP_RUADO  ruado:ruado
+ LEXICON PROP_RUADO ruado:ruado
 Back vowel
 Gradation Yes
 Stem vowel o
 Plural stem in loi
 
- LEXICON PROP-PLC_RUADO  ruado:ruado
+ LEXICON PROP-PLC_RUADO ruado:ruado
 
- LEXICON PROP_KYNDÖ  kyndö:kyndö
+ LEXICON PROP_KYNDÖ kyndö:kyndö
 Front vowel
 Gradation Yes
 Stem vowel o
 Plural stem in loi
 
 
- LEXICON PROP_VALGEI  
+ LEXICON PROP_VALGEI 
 Back	vowel
 Gradation NA
 
- LEXICON PROP_VALGEI-SG  
+ LEXICON PROP_VALGEI-SG 
 
- LEXICON PROP_VALGEI-PL  
+ LEXICON PROP_VALGEI-PL 
 
 
 
 
 ### TWO-SYLLABLE LEMMA THREE-SYLLABLE STEM
 
- LEXICON PROP_KARJAL  karjal:karjal
+ LEXICON PROP_KARJAL karjal:karjal
 Back vowel
 Gradation NA
 Singular stem vowel 0/a
 Plural stem vowel o
 
 
- LEXICON PROP-MAL_KARJAL  
+ LEXICON PROP-MAL_KARJAL 
 
- LEXICON PROP_KARJALAINE  karjalaine:karjala
+ LEXICON PROP_KARJALAINE karjalaine:karjala
 
- LEXICON PROP_KIELINE  kieline:kieli
+ LEXICON PROP_KIELINE kieline:kieli
 
- **LEXICON PROP-PLC_TVER ** Tver:Tver
-
-
- **LEXICON PROP-PLC_TAIGIN **
+ **LEXICON PROP-PLC_TVER** Tver:Tver
 
 
- **LEXICON PROP_PEREH ** pereh:pereh
+ **LEXICON PROP-PLC_TAIGIN**
 
 
- **LEXICON PROP_VIDEL ** videl:videl
+ **LEXICON PROP_PEREH** pereh:pereh
 
 
-* LEXICON PROP_VIDEL  Pavlovič:Pavlov
+ **LEXICON PROP_VIDEL** videl:videl
 
 
- LEXICON PROP-PLC_ALUS  Alus:Aluks
+* LEXICON PROP_VIDEL Pavlovič:Pavlov
 
- LEXICON PROP_ALUS  Alus:Aluks
 
- LEXICON PROP_KONDII  kondii:kondi
+ LEXICON PROP-PLC_ALUS Alus:Aluks
 
- LEXICON PROP_STIPENDII  kondii:kondi
+ LEXICON PROP_ALUS Alus:Aluks
+
+ LEXICON PROP_KONDII kondii:kondi
+
+ LEXICON PROP_STIPENDII kondii:kondi
 
 
 
@@ -2903,65 +2903,65 @@ Livvi pronouns inflect for case.
 
 ### DEMONSTRATIVE PRONOUNS
 
- LEXICON PRON_TÄMÄ  tämä:tä
+ LEXICON PRON_TÄMÄ tämä:tä
 
- LEXICON PRON-DEM_NÄMMÄ  nämmä:nämmä
+ LEXICON PRON-DEM_NÄMMÄ nämmä:nämmä
 
- LEXICON PRON-DEM_NET  net:n
+ LEXICON PRON-DEM_NET net:n
 
 ### INDEFINITE
- LEXICON PRON-INDEF_  Still requires work
+ LEXICON PRON-INDEF_ Still requires work
 
- LEXICON PRON-INDEF_KEN  kentahto:ke
+ LEXICON PRON-INDEF_KEN kentahto:ke
 
- LEXICON PRON-INDEF_KUDAI  kudaitahto:kuda
-
-
- LEXICON PRON-INDEF_MI  mitahto:mi
-
- LEXICON PRON-INDEF_MITTUINE  mittuinetahto:mittu
+ LEXICON PRON-INDEF_KUDAI kudaitahto:kuda
 
 
- LEXICON PRON-INDEF_NIMI  nimi:ni«mi
+ LEXICON PRON-INDEF_MI mitahto:mi
 
- LEXICON PRON-INDEF_NIKEN  niken:ni«ke
+ LEXICON PRON-INDEF_MITTUINE mittuinetahto:mittu
 
- LEXICON PRON-INDEF_NIMITTUINE  nimittuine:ni«mittu
+
+ LEXICON PRON-INDEF_NIMI nimi:ni«mi
+
+ LEXICON PRON-INDEF_NIKEN niken:ni«ke
+
+ LEXICON PRON-INDEF_NIMITTUINE nimittuine:ni«mittu
 
 
 ### INTERROGATIVE
- LEXICON PRON-INTERR_  Still requires work
+ LEXICON PRON-INTERR_ Still requires work
 
- LEXICON PRON-INTERR_MI  mi:mi
+ LEXICON PRON-INTERR_MI mi:mi
 
- LEXICON PRON-INTERR_MITTUINE  mittuine:mittu
+ LEXICON PRON-INTERR_MITTUINE mittuine:mittu
 
- LEXICON PRON-INTERR_KEN  ken:ke
+ LEXICON PRON-INTERR_KEN ken:ke
 
 
 
 ### REFLEXIVE PRONOUNS
- **LEXICON PRON-REFL_ ** iče:ičče
+ **LEXICON PRON-REFL_** iče:ičče
 iččiedäh, iččedäh, iččeh, ičes, iččenäh, iččiedäs, iččeni,
 
 
 ### RELATIVE PRONOUNS
- LEXICON PRON-REL_KUDAI  kudai:kuda
+ LEXICON PRON-REL_KUDAI kudai:kuda
 
 
- LEXICON PRON_ARMAS  armas:arma
+ LEXICON PRON_ARMAS armas:arma
 
- LEXICON PRON_OZA  oza:oza
+ LEXICON PRON_OZA oza:oza
 
- LEXICON PRON-QNT_KIELI  kieli:kiel
+ LEXICON PRON-QNT_KIELI kieli:kiel
 
 
 
- LEXICON PRON_TOINE  toine:to
+ LEXICON PRON_TOINE toine:to
 
- LEXICON PRON_KAI  requires developing
+ LEXICON PRON_KAI requires developing
 
- LEXICON PRON_ENÄMBI  enämbi:enämb
+ LEXICON PRON_ENÄMBI enämbi:enämb
 
 
 
@@ -3140,150 +3140,150 @@ DECLENSION LIMITATIONS
 
 ## Temporary lexica
 
- * LEXICON Q_X  
+ * LEXICON Q_X 
 
- * LEXICON A_  
+ * LEXICON A_ 
 
 ## Somewhat open issues
 
- * LEXICON A_TULLUT  IS THIS LIVVI? tullut:tullu
+ * LEXICON A_TULLUT IS THIS LIVVI? tullut:tullu
 
- * LEXICON A_EX  needs to be changed to @exclude=fst
+ * LEXICON A_EX needs to be changed to @exclude=fst
 
- LEXICON A_BAHUV  
+ LEXICON A_BAHUV 
 
- LEXICON A_UNDECL   undeclinable fin: taipumaton
+ LEXICON A_UNDECL undeclinable fin: taipumaton
 
- LEXICON A_IS-N-PL-GEN  genitive plural attributes
+ LEXICON A_IS-N-PL-GEN genitive plural attributes
 
- LEXICON A_IS-N-SG-GEN  genitive plural attributes
+ LEXICON A_IS-N-SG-GEN genitive plural attributes
 
- LEXICON A-DEM_NÄMÄ  nämä:nämä
+ LEXICON A-DEM_NÄMÄ nämä:nämä
 
 
 
 ### ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
- LEXICON A_KUU  kuu:kuu
+ LEXICON A_KUU kuu:kuu
 
- LEXICON A_MUA  mua:maa
+ LEXICON A_MUA mua:maa
 
- LEXICON A_PIÄ  piä:piä
+ LEXICON A_PIÄ piä:piä
 
 
 ## Ordinary inflection
 
 ### TWO-SYLLABLE VOWEL-FINAL STEMS
- LEXICON A_HYVÄ  hyvä:hyvä
+ LEXICON A_HYVÄ hyvä:hyvä
 the comparatives and superlatives are supletive
 
- LEXICON A_OZA  oza:oza
+ LEXICON A_OZA oza:oza
 
- LEXICON A_SÄYNÄ  säynä:säynä
+ LEXICON A_SÄYNÄ säynä:säynä
 
- LEXICON A_KALA  kala:kala
+ LEXICON A_KALA kala:kala
 
- LEXICON A_KOIVU  koivu:koivu
+ LEXICON A_KOIVU koivu:koivu
 
- LEXICON A_HERY  hery:hery
+ LEXICON A_HERY hery:hery
 
- LEXICON A_LUGU  lugu:lugu
+ LEXICON A_LUGU lugu:lugu
 
- LEXICON A_IDY  idy:idy
-
-
+ LEXICON A_IDY idy:idy
 
 
- LEXICON A_HÄKKI  häkki:häkki
-
- LEXICON A_ARTELI  
-
- LEXICON A_ALUS  alus:aluks
 
 
- LEXICON A_KUURNIS  kuurnis:kuurne
+ LEXICON A_HÄKKI häkki:häkki
 
- LEXICON A_PUHTAHUS  puhtahus:puhtahu
+ LEXICON A_ARTELI 
 
- LEXICON A_OLUT  olut:olu
+ LEXICON A_ALUS alus:aluks
+
+
+ LEXICON A_KUURNIS kuurnis:kuurne
+
+ LEXICON A_PUHTAHUS puhtahus:puhtahu
+
+ LEXICON A_OLUT olut:olu
 
 ### TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
- LEXICON A_PÄIVY  päivy:päivä
+ LEXICON A_PÄIVY päivy:päivä
 
- LEXICON A_MUARJU  muarju:muarja
-
-
- LEXICON A_AKKU  akku:akka
+ LEXICON A_MUARJU muarju:muarja
 
 
-
- LEXICON A_VALGEI  valgei:valge
-
- LEXICON A_RAHMANNOI  rahmannoi:rahmannoi
+ LEXICON A_AKKU akku:akka
 
 
 
+ LEXICON A_VALGEI valgei:valge
 
- LEXICON A_PAGIZII  pagizii:pagizi
+ LEXICON A_RAHMANNOI rahmannoi:rahmannoi
 
 
 
- LEXICON A_KESTÄY  kestäy:kestä
+
+ LEXICON A_PAGIZII pagizii:pagizi
+
+
+
+ LEXICON A_KESTÄY kestäy:kestä
 
 ### TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
 
 
 ### THREE-SYLLABLE VOWEL-FINAL STEMS
- LEXICON A_PAREMBI  parembi:paremb
+ LEXICON A_PAREMBI parembi:paremb
 
- LEXICON A_JIÄTÖI  jiätöi:jiät
- LEXICON A_HUOLETOI  huoletoi:huolet
- LEXICON A_HUOLETOI/JIÄTÖI  huoletoi:huolet
+ LEXICON A_JIÄTÖI jiätöi:jiät
+ LEXICON A_HUOLETOI huoletoi:huolet
+ LEXICON A_HUOLETOI/JIÄTÖI huoletoi:huolet
 
- LEXICON A_KARJALAINE  karjalaine:karjala
+ LEXICON A_KARJALAINE karjalaine:karjala
 
- LEXICON A_LIYGILÄINE  liygiläine:liygilä
+ LEXICON A_LIYGILÄINE liygiläine:liygilä
 
- LEXICON A_NAINE  naine:nai
- LEXICON A_KIELINE  kieline:kieli
- LEXICON A_NAINE/KIELINE_01  kieline:kieli naine:nai
+ LEXICON A_NAINE naine:nai
+ LEXICON A_KIELINE kieline:kieli
+ LEXICON A_NAINE/KIELINE_01 kieline:kieli naine:nai
 
- LEXICON A_TOINE  toine:to
- LEXICON A_TOINE-PL  toine:to
+ LEXICON A_TOINE toine:to
+ LEXICON A_TOINE-PL toine:to
 
 ### THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
 
- LEXICON A_MADAL  madal:madal
+ LEXICON A_MADAL madal:madal
 
- LEXICON A_PIIRAI  piirai:piira 
+ LEXICON A_PIIRAI piirai:piira 
 
- LEXICON A_RAIŠ  raiš:ra
-
-
- LEXICON A_PEREH  pereh:pereh
-
- LEXICON A_TULLUH  tulluh:tullu
-
- LEXICON A_PESSYH  pessyh:pessy
-
- LEXICON A_ARMAS  armas:arma
-
- LEXICON A_VARVAS  varvas:varva
-
- LEXICON A_TUORES  tuores:tuore
+ LEXICON A_RAIŠ raiš:ra
 
 
- LEXICON A_SUARI  suari:suar
+ LEXICON A_PEREH pereh:pereh
 
- LEXICON A_KIELI  kieli:kiel
- LEXICON A_SUARI/KIELI_01  suari:suar
+ LEXICON A_TULLUH tulluh:tullu
 
- LEXICON A_VUOZI  vuozi:vuod
+ LEXICON A_PESSYH pessyh:pessy
 
- LEXICON A_VEZI  vezi:ved
+ LEXICON A_ARMAS armas:arma
 
- LEXICON A_NIMI  nimi:nim
+ LEXICON A_VARVAS varvas:varva
 
- LEXICON A_JÄLGI   jälgi:jälg
+ LEXICON A_TUORES tuores:tuore
+
+
+ LEXICON A_SUARI suari:suar
+
+ LEXICON A_KIELI kieli:kiel
+ LEXICON A_SUARI/KIELI_01 suari:suar
+
+ LEXICON A_VUOZI vuozi:vuod
+
+ LEXICON A_VEZI vezi:ved
+
+ LEXICON A_NIMI nimi:nim
+
+ LEXICON A_JÄLGI jälgi:jälg
 front vowel
 gradation Yes
 
@@ -3291,16 +3291,16 @@ gradation Yes
 
 ### TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
 
- LEXICON A_VAŽEN  važen:važe
+ LEXICON A_VAŽEN važen:važe
 
 
- LEXICON A_LÄMMIN  lämmin:lämbi
+ LEXICON A_LÄMMIN lämmin:lämbi
 
- LEXICON A_TAIGIN  taigin:taigin
+ LEXICON A_TAIGIN taigin:taigin
 
- LEXICON A_SALBOIN  salboin:salboi
+ LEXICON A_SALBOIN salboin:salboi
 
- LEXICON A_ENIN  enin:eni
+ LEXICON A_ENIN enin:eni
 
 
 
@@ -3323,7 +3323,7 @@ Adverbs
 Olonets-Karelian adverbs compare.
 
 
- LEXICON ADV-IS-ELA-WITH-PXSG3  e.g. levälleh
+ LEXICON ADV-IS-ELA-WITH-PXSG3 e.g. levälleh
 
 
 
@@ -3357,61 +3357,61 @@ there are three values: Yes, No and NA (not applicable)
 
 
 ### ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
- LEXICON N_SUO  suo:suo
+ LEXICON N_SUO suo:suo
 Gradation: No
 Harmony: Back
 
- LEXICON N_VYÖ  vyö:vyö
+ LEXICON N_VYÖ vyö:vyö
 Gradation: No
 Harmony: Front
 
- LEXICON N_KUU  kuu:kuu
+ LEXICON N_KUU kuu:kuu
 Gradation: No
 Harmony: Back
 
- LEXICON N_PII  pii:pii
+ LEXICON N_PII pii:pii
 Gradation: No
 Harmony: front
 
- LEXICON N_MUA  mua:mua
+ LEXICON N_MUA mua:mua
 Gradation: No
 Harmony: Back
 
- LEXICON N_PIÄ  piä:piä
+ LEXICON N_PIÄ piä:piä
 Gradation: No
 Harmony: Front
 
 ### TWO-SYLLABLE VOWEL-FINAL STEMS
 
- LEXICON N_PAPPI  pappi:pappi
+ LEXICON N_PAPPI pappi:pappi
 Gradation: Yes
 Harmony: Back
 stem final i is retained
 
- LEXICON N_HÄKKI  häkki:häkki
+ LEXICON N_HÄKKI häkki:häkki
 Gradation: Yes
 Harmony: Front
 stem final i is retained
 
- LEXICON N_LEIRI  leiri:leiri
+ LEXICON N_LEIRI leiri:leiri
 Gradation NA
 Harmony: Front
 stem	final i is retained
 
- LEXICON N_PADA  pada:pada
+ LEXICON N_PADA pada:pada
 Gradation Yes
 Harmony: Back
 stem final a changes to u in Sg Par
 stem final a changes to o before i in Pl stem
 
 
- LEXICON N_KALA  kala:kala
+ LEXICON N_KALA kala:kala
 Gradation NA
 Harmony: Back
 stem final a changes to u in Sg Par
 stem final a changes to o before i in Pl stem
 
- LEXICON N_OZA  oza:oza
+ LEXICON N_OZA oza:oza
 Gradation NA
 Harmony: Back
 stem final a changes to u in Sg Par
@@ -3419,7 +3419,7 @@ stem final a changes to 0 before i in Pl stem
 
 
 
- LEXICON N_SÄYNÄ  säynä:säynä
+ LEXICON N_SÄYNÄ säynä:säynä
 Gradation NA
 Harmony: Front
 stem final ä changes to i in Sg Par
@@ -3431,7 +3431,7 @@ stem final ä changes to 0 before i in Pl stem
 
 
 
- LEXICON N_KOIVU  koivu:koivu
+ LEXICON N_KOIVU koivu:koivu
 Gradation NA
 Harmony: Back
 There are no changes in stem-final **u**
@@ -3439,7 +3439,7 @@ Plural stem in **loi**
 
 
 
- LEXICON N_HERY  hery:hery
+ LEXICON N_HERY hery:hery
 Gradation NA
 Harmony: Front
 There are no	changes	in stem-final **y**
@@ -3447,7 +3447,7 @@ Plural stem in **löi**
 
 
 
- LEXICON N_IDY  idy:idy
+ LEXICON N_IDY idy:idy
 Gradation Yes
 Harmony: Front
 There are no changes in stem-final **y**
@@ -3455,7 +3455,7 @@ Plural stem in **löi**
 
 
 
- LEXICON N_LUGU  lugu:lugu
+ LEXICON N_LUGU lugu:lugu
 Gradation Yes
 Harmony: Back
 There are no changes in stem-final **u**
@@ -3463,58 +3463,58 @@ Plural stem in **loi**
 
 
 
- LEXICON N_RUNO  runo:runo
+ LEXICON N_RUNO runo:runo
 Gradation NA
 Harmony: Back
 Stem-fianl o changes to u in Sg Par
 Plural stem in **loi**
 
 
- LEXICON N_HÖRÖ  hörö:hörö
+ LEXICON N_HÖRÖ hörö:hörö
 Gradation NA
 Harmony: Front
 
 
- LEXICON N_RUADO  ruado:ruado
+ LEXICON N_RUADO ruado:ruado
 Gradation Yes
 Harmony: Back
 
 
- LEXICON N_KYNDÖ  kyndö:kyndö
+ LEXICON N_KYNDÖ kyndö:kyndö
 Gradation Yes
 Harmony: Front
 
 
 ### TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
 
- LEXICON N_JÄLGI   jälgi:jälg
+ LEXICON N_JÄLGI jälgi:jälg
 Gradation Yes
 Harmony: Front
 
 
- LEXICON N_JOGI   jogi:jog
+ LEXICON N_JOGI jogi:jog
 Gradation Yes
 Harmony: Back
 
 
 
- LEXICON N_MUAMO  muamo:muama
+ LEXICON N_MUAMO muamo:muama
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_TUATTO  tuatto:tuatta
+ LEXICON N_TUATTO tuatto:tuatta
 Gradation Yes
 Harmony: Back
 
 
- LEXICON N_DIÄDÖ  diädö:diädä
+ LEXICON N_DIÄDÖ diädö:diädä
 Gradation No
 Harmony: Front
 
 
- LEXICON N_MUARJU  muarju:muarja
+ LEXICON N_MUARJU muarju:muarja
 Gradation No
 Harmony: Back
 two forms for accusative
@@ -3553,28 +3553,28 @@ two forms for elative, ablative phrases
 * *muarjoilluo:* `muarju+N+Pl+Apr`
 
 
- LEXICON N_PIÄSTÄNDY  piäständy:piäständä
+ LEXICON N_PIÄSTÄNDY piäständy:piäständä
 Gradation No
 Harmony: Front
 
 
 
- LEXICON N_SUAJU  suaju:suaja
+ LEXICON N_SUAJU suaju:suaja
 Gradation No
 Harmony: Back
 
 
- LEXICON N_AKKU  akku:akka
+ LEXICON N_AKKU akku:akka
 Gradation Yes
 Harmony: Back
 
 
- LEXICON N_KNIIGU  kniigu:kniiga
+ LEXICON N_KNIIGU kniigu:kniiga
 Gradation No
 Harmony: Back
 
 
- LEXICON N_SULGU  sulgu:sulga
+ LEXICON N_SULGU sulgu:sulga
 Gradation Yes
 Harmony: Back
 
@@ -3582,227 +3582,227 @@ Harmony: Back
 
 
 
- LEXICON N_KOIRU  koiru:koira
+ LEXICON N_KOIRU koiru:koira
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_NIMI  nimi:nim
+ LEXICON N_NIMI nimi:nim
 Gradation NA
 Harmony: Front
 
 
 
- LEXICON N_HANGI  hangi:hang
+ LEXICON N_HANGI hangi:hang
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_PÄIVY  päivy:päivä
+ LEXICON N_PÄIVY päivy:päivä
 Gradation NA
 Harmony: Front
 
 
 
- LEXICON N_MEČČY  meččy:meččä
+ LEXICON N_MEČČY meččy:meččä
 Gradation Yes
 Harmony: Front
 
 
 
- LEXICON N_IŽÄNDY  ižändy:ižändä
+ LEXICON N_IŽÄNDY ižändy:ižändä
 Gradation No
 Harmony: Front
 
 
 
- LEXICON N_LATE  late:latte
+ LEXICON N_LATE late:latte
 Gradation Yes
 Harmony: Back
 
 
- LEXICON N_SIVE  sive:side
+ LEXICON N_SIVE sive:side
 Gradation Yes
 Harmony: Front
 
 
- LEXICON N_HARDIE  hardie:hardie
+ LEXICON N_HARDIE hardie:hardie
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_KONDII  kondii:kondi
+ LEXICON N_KONDII kondii:kondi
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_STIPENDII  stipendii:stipendi
+ LEXICON N_STIPENDII stipendii:stipendi
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_REBOI  reboi:reboi
+ LEXICON N_REBOI reboi:reboi
 Gradation No
 Harmony: Back
 
- LEXICON N_JÄNÖI  jänöi:jänöi
+ LEXICON N_JÄNÖI jänöi:jänöi
 Gradation No
 Harmony: Back
 
- LEXICON N_PÖČÖI  pöčöi:pöččö
+ LEXICON N_PÖČÖI pöčöi:pöččö
 Gradation Yes
 Harmony: Front
 
- LEXICON N_VALGEI  valgei:valge
+ LEXICON N_VALGEI valgei:valge
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_LIBEI  libei:libe
+ LEXICON N_LIBEI libei:libe
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_OSTAI  ostai:osta
+ LEXICON N_OSTAI ostai:osta
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_PEZII  pezii:pezi
+ LEXICON N_PEZII pezii:pezi
 Gradation NA
 Harmony: Front
 
 
 
 
- LEXICON N_KESTÄY  kestäy:kestä
+ LEXICON N_KESTÄY kestäy:kestä
 Gradation NA
 Harmony: Front
 
 
 
 ### TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
- LEXICON N_UKSI  uksi:uks
+ LEXICON N_UKSI uksi:uks
 Gradation NA
 Harmony: Back
 
- LEXICON N_SUARI  suari:suar
+ LEXICON N_SUARI suari:suar
 Harmony: Back
- LEXICON N_SUARI-PL  suari:suar
+ LEXICON N_SUARI-PL suari:suar
 Harmony: Back
 
- LEXICON N_SUARI/KIELI_01  kieli:kiel
+ LEXICON N_SUARI/KIELI_01 kieli:kiel
 Gradation No
 
 
- LEXICON N_KIELI  kieli:kiel
+ LEXICON N_KIELI kieli:kiel
 Harmony: Front
 
- LEXICON N_KIELI-SG  kieli:kiel
- LEXICON N_KIELI-PL  kieli:kiel
+ LEXICON N_KIELI-SG kieli:kiel
+ LEXICON N_KIELI-PL kieli:kiel
 Harmony: Front
 
 
 
- LEXICON N_LAPSI  lapsi:laps lapsi:laps
+ LEXICON N_LAPSI lapsi:laps lapsi:laps
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_VEZI  vezi:ved
+ LEXICON N_VEZI vezi:ved
 Gradation NA
 Harmony: Front
 
 
 
- LEXICON N_SUZI  suzi:su
+ LEXICON N_SUZI suzi:su
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_VUOZI  vuozi:vuod
+ LEXICON N_VUOZI vuozi:vuod
 Gradation NA
 Harmony: Back
 
 
 ### THREE-SYLLABLE VOWEL-FINAL STEMS
- LEXICON N_SYGYZY  sygyzy:sygyzy
+ LEXICON N_SYGYZY sygyzy:sygyzy
 Gradation NA
 Harmony: Front
 
 
 
- LEXICON N_VASKIČČU  vaskičču:vaskičča
+ LEXICON N_VASKIČČU vaskičču:vaskičča
 Gradation Yes
 Harmony: Back
 
 
 
 ### THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
- LEXICON N_KARJAL  karjal:karjal
+ LEXICON N_KARJAL karjal:karjal
 Gradation NA
 Harmony: Back
- LEXICON N_KARJAL-SG  karjal:karjal
- LEXICON N_KARJAL-PL  karjal:karjal
+ LEXICON N_KARJAL-SG karjal:karjal
+ LEXICON N_KARJAL-PL karjal:karjal
 
- LEXICON N_MADAL  madal:madal
+ LEXICON N_MADAL madal:madal
 Gradation No
 Harmony: Back
- LEXICON N_MADAL-SG  madal:madal
- LEXICON N_MADAL-PL  madal:madal
+ LEXICON N_MADAL-SG madal:madal
+ LEXICON N_MADAL-PL madal:madal
 
- LEXICON N_PIIRAI  piirai:piira CHECK THIS
+ LEXICON N_PIIRAI piirai:piira CHECK THIS
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_VERÄI  veräi:verä CHECK THIS
+ LEXICON N_VERÄI veräi:verä CHECK THIS
 Gradation NA
 Harmony: Back
 
 
 
 
- LEXICON N_KANDAI  kandai:kanda
+ LEXICON N_KANDAI kandai:kanda
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON  N_AVUAJU  
+ LEXICON N_AVUAJU 
 Gradation NA
 Harmony: Back
 
- LEXICON  N_KERIÄJY  piästäjy:piästä
+ LEXICON N_KERIÄJY piästäjy:piästä
 Gradation NA
 Harmony: Front
 
 
- LEXICON N_PAGIZII  pagizii:pagizi
+ LEXICON N_PAGIZII pagizii:pagizi
 Gradation NA
 Harmony: Back
- LEXICON N_PAGIZII-SG  
- LEXICON N_PAGIZII-PL  
+ LEXICON N_PAGIZII-SG 
+ LEXICON N_PAGIZII-PL 
 
- LEXICON N_HUOLETOI  huoletoi: huolet
+ LEXICON N_HUOLETOI huoletoi: huolet
 Gradation Yes
 Harmony: Back
 
 
 
 
- LEXICON N_SAMMAL  sammal:sammal
+ LEXICON N_SAMMAL sammal:sammal
 Gradation No
 Harmony: Back
 
@@ -3811,12 +3811,12 @@ Harmony: Back
 
 
 
- LEXICON N_ŠOUFER  šoufer:šoufer
+ LEXICON N_ŠOUFER šoufer:šoufer
 Vowel Harmony: Back
 
 
 
- LEXICON N_VANUIN  vanuin:vanui
+ LEXICON N_VANUIN vanuin:vanui
 Gradation Yes
 Harmony: Back
 Stem	     consonant n/m
@@ -3825,7 +3825,7 @@ Plural stem vowel i
 
 
 
- LEXICON N_SAMMUTIN  sammutin:sammutti
+ LEXICON N_SAMMUTIN sammutin:sammutti
 Gradation Yes
 Harmony: Back
 Stem consonant n/m
@@ -3834,7 +3834,7 @@ Plural stem vowel i
 
 
 
- LEXICON N_KEITIN  keitin:keitti
+ LEXICON N_KEITIN keitin:keitti
 Gradation Yes
 Harmony: Front
 Stem consonant n/m
@@ -3843,41 +3843,41 @@ Plural stem vowel i
 
 
 
- LEXICON N_LÄMMIN  lämmin:lämbi
+ LEXICON N_LÄMMIN lämmin:lämbi
 Gradation Yes
 Harmony: Front
 
 
 
- LEXICON N_TAIGIN  taigin:taigin
+ LEXICON N_TAIGIN taigin:taigin
 Gradation No
 Harmony: Back
 
 
 
- LEXICON N_KARJALAINE  karjalaine:karjala
+ LEXICON N_KARJALAINE karjalaine:karjala
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_LIYGILÄINE  liygiläine:liygilä
+ LEXICON N_LIYGILÄINE liygiläine:liygilä
 Gradation NA
 Harmony: Front
 
 
 
- LEXICON N_NAINE  naine:nai
+ LEXICON N_NAINE naine:nai
 Gradation NA
 Harmony: Back
 
 
- LEXICON N_KIELINE  kieline:kieli
+ LEXICON N_KIELINE kieline:kieli
 Gradation NA
 Harmony: Front
 
 
- LEXICON N_TOINE  toine:to
+ LEXICON N_TOINE toine:to
 Gradation NA
 Harmony: Back
 
@@ -3885,156 +3885,156 @@ Harmony: Back
 
 
 
- LEXICON N_RAIŠ  raiš:ra
+ LEXICON N_RAIŠ raiš:ra
 Gradation Yes
 Harmony: Back
 
 
- LEXICON N_TOVESTEH  tovesteh:tovesteh
+ LEXICON N_TOVESTEH tovesteh:tovesteh
 Gradation No
 Harmony: Back
 
 
- LEXICON N_PEREH  pereh:pereh
+ LEXICON N_PEREH pereh:pereh
 Gradation No
 Harmony: Front
 
 
- LEXICON N_HUIKEH  huikeh:huikkeh
+ LEXICON N_HUIKEH huikeh:huikkeh
 Gradation Yes
 Harmony: Front
 
 
- LEXICON N_LIIKEH  liikeh:liikkeh
+ LEXICON N_LIIKEH liikeh:liikkeh
 Gradation Yes
 Harmony: Front
 
 
- LEXICON N_PENGER  penger:penger
+ LEXICON N_PENGER penger:penger
 Gradation No
 Harmony: Front
 
 
- LEXICON N_ARTELI  arteli:arteli
+ LEXICON N_ARTELI arteli:arteli
 Gradation No
 Harmony: Back
 
- LEXICON N_PUHTAHUS  puhtahus:puhtahu
+ LEXICON N_PUHTAHUS puhtahus:puhtahu
 Harmony: Back
 Gradation NA
 
- LEXICON N_VÄHYS  vähys:vähy
+ LEXICON N_VÄHYS vähys:vähy
 Harmony: Back
 Gradation NA
 
 
 
- LEXICON N_ALUS  alus:aluks
+ LEXICON N_ALUS alus:aluks
 Gradation No
 Harmony: Back
 
- LEXICON N_ALUS-SG  alus:aluks
+ LEXICON N_ALUS-SG alus:aluks
 
- LEXICON N_ALUS-PL  alus:aluks
+ LEXICON N_ALUS-PL alus:aluks
 
- LEXICON N_ILVES  ilves:ilveks
-Gradation No
-Harmony: Front
-
- LEXICON N_ILVES-SG  ilves:ilveks
-
- LEXICON N_ILVES-PL  ilves:ilveks
-
- LEXICON N_MIES  mies:mie
+ LEXICON N_ILVES ilves:ilveks
 Gradation No
 Harmony: Front
 
- LEXICON N_MIES-SG  mies:mie
+ LEXICON N_ILVES-SG ilves:ilveks
 
- LEXICON N_MIES-PL  mies:mie
+ LEXICON N_ILVES-PL ilves:ilveks
 
- LEXICON N_KUURNIS  kuurnis:kuurne
-Gradation NA
-Harmony: Back
-
- LEXICON N_SUALIŠ  suališ:suali
-Gradation NA
-Harmony: Back
-
- LEXICON N_SUALIŠ-SG  suališ:suali
-
- LEXICON N_SUALIŠ-PL  suališ:suali
-
- LEXICON N_OLUT  olut:olu
-Gradation No
-Harmony: Back
-
-
-
- LEXICON N_KEVÄT  kevät:kevä
+ LEXICON N_MIES mies:mie
 Gradation No
 Harmony: Front
 
+ LEXICON N_MIES-SG mies:mie
 
+ LEXICON N_MIES-PL mies:mie
 
- LEXICON N_TUHAT  tuhat:tuha
+ LEXICON N_KUURNIS kuurnis:kuurne
+Gradation NA
+Harmony: Back
+
+ LEXICON N_SUALIŠ suališ:suali
+Gradation NA
+Harmony: Back
+
+ LEXICON N_SUALIŠ-SG suališ:suali
+
+ LEXICON N_SUALIŠ-PL suališ:suali
+
+ LEXICON N_OLUT olut:olu
 Gradation No
 Harmony: Back
 
 
 
- LEXICON N_ARMAS  armas:arma
-Gradation NA
-Harmony: Back
-
-
- LEXICON N_VARVAS  varvas:varba
-Gradation NA
-Harmony: Back
-
-
- LEXICON N_PAREMBI  parembi:paremb
-Gradation NA
-Harmony: Back
-
-
- LEXICON N_PESSYH  pessyh:pessy
-Gradation NA
+ LEXICON N_KEVÄT kevät:kevä
+Gradation No
 Harmony: Front
 
 
 
+ LEXICON N_TUHAT tuhat:tuha
+Gradation No
+Harmony: Back
 
- LEXICON N_BEMMEL  bemmel:bembel
+
+
+ LEXICON N_ARMAS armas:arma
+Gradation NA
+Harmony: Back
+
+
+ LEXICON N_VARVAS varvas:varba
+Gradation NA
+Harmony: Back
+
+
+ LEXICON N_PAREMBI parembi:paremb
+Gradation NA
+Harmony: Back
+
+
+ LEXICON N_PESSYH pessyh:pessy
+Gradation NA
+Harmony: Front
+
+
+
+
+ LEXICON N_BEMMEL bemmel:bembel
 Gradation Yes
 Harmony: Front
 
 
 
 
- LEXICON N_SUURIM  suurim:suurim
+ LEXICON N_SUURIM suurim:suurim
 Gradation NA
 Harmony: Back
 
 
 
- LEXICON N_TUATINDAM  tuatindam:tuatindam
-Gradation NA
-Harmony: Back
-
-
-
-
- LEXICON N_TUATANDIM  tuatandim:tuatandim
+ LEXICON N_TUATINDAM tuatindam:tuatindam
 Gradation NA
 Harmony: Back
 
 
 
 
+ LEXICON N_TUATANDIM tuatandim:tuatandim
+Gradation NA
+Harmony: Back
 
 
- LEXICON N_SIEMEN  siemen:siemen
+
+
+
+
+ LEXICON N_SIEMEN siemen:siemen
 Gradation NA
 Harmony: Front
 
@@ -4044,7 +4044,7 @@ Harmony: Front
 
 
 
- LEXICON N_SALBOIN  salboin:salboi
+ LEXICON N_SALBOIN salboin:salboi
 Gradation No
 Harmony: Back
 
@@ -4054,14 +4054,14 @@ Harmony: Back
 
 
 
- LEXICON N_UDAR  udar:udar
+ LEXICON N_UDAR udar:udar
 Gradation No
 Harmony: Back
 
 
 
 
- LEXICON N_PIENAR  pienar:piendar
+ LEXICON N_PIENAR pienar:piendar
 Gradation Yes
 Harmony: Back
 
@@ -4081,17 +4081,17 @@ gradation Yes
 
 
 
- LEXICON NMN_MUARJU/PIÄSTÄNDY  muarju:muarja
+ LEXICON NMN_MUARJU/PIÄSTÄNDY muarju:muarja
 gradation NA
 
 
 
 
- LEXICON NMN_AKKU  akku:akka
+ LEXICON NMN_AKKU akku:akka
 gradation Yes
 
 
- LEXICON NMN_KNIIGU  kniigu:kniiga
+ LEXICON NMN_KNIIGU kniigu:kniiga
 gradation No
 
 
@@ -4123,7 +4123,7 @@ Gradation Yes
 
 
 
- LEXICON NMN_YKSI   yksi:y
+ LEXICON NMN_YKSI yksi:y
 
 
 
@@ -4132,12 +4132,12 @@ Gradation Yes
 
 
 
- LEXICON NMN_VUOZI/VEZI  vuozi:vuod
+ LEXICON NMN_VUOZI/VEZI vuozi:vuod
 
 
 
 
- LEXICON NMN_PAREMBI/ENÄMBI  parembi:paremb
+ LEXICON NMN_PAREMBI/ENÄMBI parembi:paremb
 
 *Adjective comparative examples:*
 * *tuorehembi:* `tuores+A+Comp+Sg+Nom`
@@ -4145,23 +4145,23 @@ Gradation Yes
 
 
 
- LEXICON	NMN_KUDAI  kudai:kuda
+ LEXICON NMN_KUDAI kudai:kuda
 
 
 
 
- LEXICON NMN_PIIRAI/VERÄI  piirai:piira
+ LEXICON NMN_PIIRAI/VERÄI piirai:piira
 
 
 
 
 
- LEXICON NMN_PAGIZII-SG  
+ LEXICON NMN_PAGIZII-SG 
 
- LEXICON NMN_PAGIZII-PL  
+ LEXICON NMN_PAGIZII-PL 
 
 
- LEXICON NMN_HUOLETOI/JIÄTÖI  huoletoi: huolet
+ LEXICON NMN_HUOLETOI/JIÄTÖI huoletoi: huolet
 
 
 Gradation Yes
@@ -4169,13 +4169,13 @@ Vowel Harmony Back
 
 
 
- LEXICON NMN_KOIRU/PÄIVY  koiru:koira
+ LEXICON NMN_KOIRU/PÄIVY koiru:koira
 Gradation NA
 Vowel Harmony Back
 
 
 
- LEXICON NMN_AVUAJU/KERIÄJY  päivy:päivä
+ LEXICON NMN_AVUAJU/KERIÄJY päivy:päivä
 Gradation NA
 
 
@@ -4189,13 +4189,13 @@ gradation Yes
 
 
 
- LEXICON NMN_KOIVU/HERY  koivu:koivu
+ LEXICON NMN_KOIVU/HERY koivu:koivu
 Gradation NA
 Vowel Harmony Back
 
 
 
- LEXICON NMN_LUGU/IDY  lugu:lugu
+ LEXICON NMN_LUGU/IDY lugu:lugu
 Gradation Yes
 Vowel Harmony Back
 
@@ -4208,99 +4208,99 @@ Vowel Harmony Back
 
 
 
- * **LEXICON NMN_VALGEI/LIBEI ** valgei:valge
+ * **LEXICON NMN_VALGEI/LIBEI** valgei:valge
 
 
- LEXICON NMN_RAHMANNOI  rahmannoi:rahmannoi
+ LEXICON NMN_RAHMANNOI rahmannoi:rahmannoi
 
 
- LEXICON NMN_HARDIE  hardie:hardie
+ LEXICON NMN_HARDIE hardie:hardie
 
 
- LEXICON NMN_KONDII/STIPENDII  kondii:kondi
+ LEXICON NMN_KONDII/STIPENDII kondii:kondi
 
 
 
 
 
- LEXICON NMN_OSTAI  ostua:osta%>j
+ LEXICON NMN_OSTAI ostua:osta%>j
 
 
 
 Stem Vowel 0:a:0 kandai, kandajan, kandajua, kandajinnu
 
 
- LEXICON NMN_PEZII  pestä:pezi%>j
+ LEXICON NMN_PEZII pestä:pezi%>j
 
 
 
 
- LEXICON NMN_KESTÄY  kestäy:kestä
+ LEXICON NMN_KESTÄY kestäy:kestä
 
 
 
- LEXICON NMN_RUNO/HÖRÖ  runo:runo
+ LEXICON NMN_RUNO/HÖRÖ runo:runo
 Gradation No
 
 
 Gradation No
 
 
- LEXICON NMN_RUADO/KYNDÖ  ruado:ruado
+ LEXICON NMN_RUADO/KYNDÖ ruado:ruado
 Gradation Yes
 
 
 
 
 
- LEXICON NMN_KUU/PII  kuu:kuu
+ LEXICON NMN_KUU/PII kuu:kuu
 
 
 
- LEXICON NMN_PIÄ  piä:piä
-
-
-
-
- LEXICON NMN_VYÖ  vyö:vyö
+ LEXICON NMN_PIÄ piä:piä
 
 
 
 
- LEXICON NMN_MUA  mua:mua
+ LEXICON NMN_VYÖ vyö:vyö
 
 
 
- LEXICON NMN_KALA  kala:kala
+
+ LEXICON NMN_MUA mua:mua
+
+
+
+ LEXICON NMN_KALA kala:kala
 Gradation NA
 
 
- LEXICON NMN_PADA  pada:pada
+ LEXICON NMN_PADA pada:pada
 Yaml: **pada**
 Gradation Yes
 
 
- LEXICON NMN_TULLUH/PESSYH  pessyh
+ LEXICON NMN_TULLUH/PESSYH pessyh
 
 ### Nominative singular in "h"
 
- * :zi PL-GEN/COM/APRSUF_EN ;  the +Pl+Com comes here
+ * :zi PL-GEN/COM/APRSUF_EN ; the +Pl+Com comes here
 
- LEXICON NMN_TULLUH  tulluh:tullu
+ LEXICON NMN_TULLUH tulluh:tullu
 
 ### Nominative singular in "h"
 
- * :zi PL-GEN/COM/APRSUF_EN ;  the +Pl+Com comes here
+ * :zi PL-GEN/COM/APRSUF_EN ; the +Pl+Com comes here
 
- LEXICON NMN_KARJAL  karjal:karjal
+ LEXICON NMN_KARJAL karjal:karjal
 
- LEXICON NMN_KARJAL-SG  karjal:karjal
- LEXICON NMN_KARJAL-PL  karjal:karjal
+ LEXICON NMN_KARJAL-SG karjal:karjal
+ LEXICON NMN_KARJAL-PL karjal:karjal
 
- LEXICON NMN_MADAL  madal:madal
+ LEXICON NMN_MADAL madal:madal
 
- LEXICON NMN_MADAL-SG  madal:madal
- LEXICON NMN_MADAL-PL  madal:madal
+ LEXICON NMN_MADAL-SG madal:madal
+ LEXICON NMN_MADAL-PL madal:madal
 
 ###  Nominative singular in "m"
 
@@ -4319,7 +4319,7 @@ Gradation Yes
 ###  Nominative singular in "n"
 
 
- LEXICON NMN_ENIN  enin:eni
+ LEXICON NMN_ENIN enin:eni
 
 
 
@@ -4331,31 +4331,31 @@ Gradation Yes
 
 
 ###  Nominative singular in "s"
- LEXICON NMN_PUHTAHUS/VÄHYS  puhtahus:puhtahu
+ LEXICON NMN_PUHTAHUS/VÄHYS puhtahus:puhtahu
 
 
 
 
- LEXICON NMN_ALUS/ILVES  alus:aluks
+ LEXICON NMN_ALUS/ILVES alus:aluks
 
 
 
 
 
 
- LEXICON NMN_ARMAS/EVAES  armas:arma
+ LEXICON NMN_ARMAS/EVAES armas:arma
 
 
- LEXICON NMN_VARVAS  varvas:varba
+ LEXICON NMN_VARVAS varvas:varba
 
 
 
 
- LEXICON NMN_VIDEL  videl:videl
+ LEXICON NMN_VIDEL videl:videl
 Gradation No
 
 
- LEXICON NMN_TUORES  tuores:tuore
+ LEXICON NMN_TUORES tuores:tuore
 
 
 
@@ -4363,13 +4363,13 @@ Gradation No
 
 
 
- LEXICON NMN_RAIŠ  raiš:ra
+ LEXICON NMN_RAIŠ raiš:ra
 
- LEXICON NMN_KUURNIS  kuurnis:kuurne
+ LEXICON NMN_KUURNIS kuurnis:kuurne
 
 
 
- * LEXICON NMN_OLUT  olut:olu
+ * LEXICON NMN_OLUT olut:olu
 
 
 
@@ -4380,42 +4380,42 @@ Gradation None
 
 
 
- * LEXICON NMN_TULLUT  tullut:tullu
+ * LEXICON NMN_TULLUT tullut:tullu
 
 
 
 
- LEXICON NMN_TOVESTEH/PEREH  pereh:pereh
+ LEXICON NMN_TOVESTEH/PEREH pereh:pereh
 
 
 
 
- LEXICON NMN_ARTELI/LEIRI  arteli:arteli
+ LEXICON NMN_ARTELI/LEIRI arteli:arteli
 
 
- LEXICON NMN_PAPPI/HÄKKI  pappi:pappi
-
-
-
-
-
-
- LEXICON NMN_REBOI/JÄNÖI  reboi:reboi
-
-
- LEXICON NMN_OZA/SÄYNÄ  oza:oza
+ LEXICON NMN_PAPPI/HÄKKI pappi:pappi
 
 
 
 
 
 
+ LEXICON NMN_REBOI/JÄNÖI reboi:reboi
+
+
+ LEXICON NMN_OZA/SÄYNÄ oza:oza
 
 
 
 
 
- LEXICON NMN_TVER  tver:tver
+
+
+
+
+
+
+ LEXICON NMN_TVER tver:tver
 Gradation NA
 Front	 Vowel
 Singular stem vowel 0/i
@@ -4433,13 +4433,13 @@ Plural stem vowel il%{oö%}i
 
 
 
- LEXICON NMN_VAŽEN  važen:važe
+ LEXICON NMN_VAŽEN važen:važe
 
 
- LEXICON NMN_LÄMMIN  lämmin:lämbi
+ LEXICON NMN_LÄMMIN lämmin:lämbi
 
 
- LEXICON NMN_TAIGIN  taigin:taigin
+ LEXICON NMN_TAIGIN taigin:taigin
 
 
 
@@ -4458,7 +4458,7 @@ Plural stem vowel il%{oö%}i
 
 
 ###  Nominative singular in "v"
- * LEXICON NMN_ABRAMOV  Abramov:Abramov
+ * LEXICON NMN_ABRAMOV Abramov:Abramov
 
 
 
@@ -4503,7 +4503,7 @@ Plural stem vowel il%{oö%}i
 
 ### SINGULAR POSSESSA
 
- LEXICON SGNOM/PXSP3  adding -h
+ LEXICON SGNOM/PXSP3 adding -h
 
 
 Quantifier inflection
@@ -4512,45 +4512,45 @@ Livvi quantifiers inflect for case.
 
 
 
- **LEXICON NUM_MUARJU  ** muarju:muarja
+ **LEXICON NUM_MUARJU** muarju:muarja
 
 
 
- LEXICON NUM_YKSI   yksi:y
+ LEXICON NUM_YKSI yksi:y
 
- LEXICON NUM_KAKSI   kaksi:ka
- * :hte%^WGStem ORD_01_BACK ;  This cannot be final
+ LEXICON NUM_KAKSI kaksi:ka
+ * :hte%^WGStem ORD_01_BACK ; This cannot be final
 
- LEXICON NUM_SEIČČIE   seiččie:seičče
+ LEXICON NUM_SEIČČIE seiččie:seičče
 
- LEXICON NUM_NELLI  nelli:nell
+ LEXICON NUM_NELLI nelli:nell
 
- LEXICON NUM_KAHEKSA  kaheksa:kaheksa
+ LEXICON NUM_KAHEKSA kaheksa:kaheksa
 
- LEXICON NUM_YHEKSÄ  yheksä:yheksä
+ LEXICON NUM_YHEKSÄ yheksä:yheksä
 
- LEXICON NUM_TUHAT  tuhat:tuha
- LEXICON NUM_TUHAT_01  tuhat:tuha
-
-
- LEXICON NUM_KUUZI  kuuzi:kuud
-
- LEXICON NUM_VIIZI  viizi:viid
-
- LEXICON NUM_KYMMENE  kymmene:kymmen
- LEXICON NUM_KYMMENE_01  kymmene:kymmen
-
- LEXICON NUM_KOLME  
+ LEXICON NUM_TUHAT tuhat:tuha
+ LEXICON NUM_TUHAT_01 tuhat:tuha
 
 
+ LEXICON NUM_KUUZI kuuzi:kuud
+
+ LEXICON NUM_VIIZI viizi:viid
+
+ LEXICON NUM_KYMMENE kymmene:kymmen
+ LEXICON NUM_KYMMENE_01 kymmene:kymmen
+
+ LEXICON NUM_KOLME 
 
 
- LEXICON ORD_TOINE  toine:to
 
 
- LEXICON ORD_KARJALAINE  enzimäine:ensimä
+ LEXICON ORD_TOINE toine:to
 
- LEXICON ORD_LIYGILÄINE  enzimäine:ensimä
+
+ LEXICON ORD_KARJALAINE enzimäine:ensimä
+
+ LEXICON ORD_LIYGILÄINE enzimäine:ensimä
 
 
 
