@@ -77,7 +77,7 @@ svn checkout https://github.com/giellalt/lang-olo.git/trunk lang-olo
 Building and installation
 -------------------------
 
-[INSTALL](https://github.com/giellalt/lang-olo/blob/develop/INSTALL)
+[INSTALL](https://github.com/giellalt/lang-olo/blob/main/INSTALL)
 describes the GNU build system in detail, but for most users it is the usual:
 
 ```sh
