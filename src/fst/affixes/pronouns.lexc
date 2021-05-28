@@ -188,7 +188,7 @@ LEXICON PRON_SE
 +Dem+Sg+Abl:ildy K ;
 +Dem+Sg+Ill:ih K ;
 
-LEXICON PRON_TÄMÄ !!= @CODE@ tämä:tä
+LEXICON PRON_TÄMÄ !!≈ @CODE@ tämä:tä
 !+Dem+Sg+Abl:l K ;
 +Dem+Sg+Abl+Use/NG:lpäi K ;
 +Dem+Sg+Ade:l K ;
@@ -200,7 +200,7 @@ LEXICON PRON_TÄMÄ !!= @CODE@ tämä:tä
 +Dem+Sg+Par:dä K ;
 +Dem+Sg+Tra:kse K ;
 
-LEXICON PRON-DEM_NÄMMÄ !!= @CODE@ nämmä:nämmä
+LEXICON PRON-DEM_NÄMMÄ !!≈ @CODE@ nämmä:nämmä
 !+Dem+Pl+Abl:l K ;
 !+Dem+Pl+Abl:lpäi K ;
 +Dem+Pl+Ade:%^RmVow%>il K ;
@@ -213,7 +213,7 @@ LEXICON PRON-DEM_NÄMMÄ !!= @CODE@ nämmä:nämmä
 +Dem+Pl+Par:%^RmVow%>ii K ;
 !+Dem+Pl+Tra:kse K ;
 
-LEXICON PRON-DEM_NET !!= @CODE@ net:n
+LEXICON PRON-DEM_NET !!≈ @CODE@ net:n
 +Dem+Pl+Nom:et K ;
 +Dem+Pl+Gen:iilöin K ;
 +Dem+Pl+Com:iilöinke K ;
@@ -235,10 +235,10 @@ LEXICON PRON-DEM_NET !!= @CODE@ net:n
 +Dem+Dep+Pl+Ill:iih K ;
 
 !! ### INDEFINITE
-LEXICON PRON-INDEF_ !!= @CODE@ Still requires work
+LEXICON PRON-INDEF_ !!≈ @CODE@ Still requires work
 +Indef: K ;
 
-LEXICON PRON-INDEF_KEN !!= @CODE@ kentahto:ke
+LEXICON PRON-INDEF_KEN !!≈ @CODE@ kentahto:ke
 +Indef+Sg+Abl:lpäi TAHTO/LIENNE ;
 +Indef+Sg+Ade:l TAHTO/LIENNE ;
 +Indef+Sg+All:lle TAHTO/LIENNE ;
@@ -251,7 +251,7 @@ LEXICON PRON-INDEF_KEN !!= @CODE@ kentahto:ke
 +Indef+Sg+Par:dä TAHTO/LIENNE ;
 +Indef+Sg+Tra:nekse TAHTO/LIENNE ;
 
-LEXICON PRON-INDEF_KUDAI !!= @CODE@ kudaitahto:kuda
+LEXICON PRON-INDEF_KUDAI !!≈ @CODE@ kudaitahto:kuda
 +Indef+Sg+Abl:%>malpäi TAHTO/LIENNE ;
 +Indef+Sg+Ade:%>mal TAHTO/LIENNE ;
 +Indef+Sg+All:%>male TAHTO/LIENNE ;
@@ -263,7 +263,7 @@ LEXICON PRON-INDEF_KUDAI !!= @CODE@ kudaitahto:kuda
 +Indef+Sg+Par:idu TAHTO/LIENNE ;
 
 
-LEXICON PRON-INDEF_MI !!= @CODE@ mitahto:mi
+LEXICON PRON-INDEF_MI !!≈ @CODE@ mitahto:mi
 +Indef+Sg+Abl:%>lpäi TAHTO/LIENNE ;
 +Indef+Sg+Ade:%>l TAHTO/LIENNE ;
 +Indef+Sg+Ade:%>l»tah K ;
@@ -277,7 +277,7 @@ LEXICON PRON-INDEF_MI !!= @CODE@ mitahto:mi
 +Indef+Sg+Par:%>dä TAHTO/LIENNE ;
 +Indef+Sg+Tra:%>kse TAHTO/LIENNE ;
 
-LEXICON PRON-INDEF_MITTUINE !!= @CODE@ mittuinetahto:mittu
+LEXICON PRON-INDEF_MITTUINE !!≈ @CODE@ mittuinetahto:mittu
 +Indef+Sg+Abl:%>malpäi TAHTO/LIENNE ;
 +Indef+Sg+Ade:%>mal TAHTO/LIENNE ;
 +Indef+Sg+All:%>male TAHTO/LIENNE ;
@@ -306,7 +306,7 @@ LEXICON TAHTO/LIENNE
 :»tahto K ;
 :»tah K ;
 
-LEXICON PRON-INDEF_NIMI !!= @CODE@ nimi:ni«mi
+LEXICON PRON-INDEF_NIMI !!≈ @CODE@ nimi:ni«mi
 +Indef+Neg+Pl+Nom:t K ;
 +Indef+Neg+Sg+Ela:späi K ;
 +Indef+Neg+Sg+Gen:n K ;
@@ -316,7 +316,7 @@ LEXICON PRON-INDEF_NIMI !!= @CODE@ nimi:ni«mi
 +Indef+Neg+Sg+Par:dä K ;
 +Indef+Neg+Sg+Tra:kse K ;
 
-LEXICON PRON-INDEF_NIKEN !!= @CODE@ niken:ni«ke
+LEXICON PRON-INDEF_NIKEN !!≈ @CODE@ niken:ni«ke
 +Indef+Neg+Sg+Abl:lpäi K ;
 +Indef+Neg+Sg+Ade:l K ;
 +Indef+Neg+Sg+All:lle K ;
@@ -329,7 +329,7 @@ LEXICON PRON-INDEF_NIKEN !!= @CODE@ niken:ni«ke
 +Indef+Neg+Sg+Par:dä K ;
 +Indef+Neg+Sg+Tra:nekse K ;
 
-LEXICON PRON-INDEF_NIMITTUINE !!= @CODE@ nimittuine:ni«mittu
+LEXICON PRON-INDEF_NIMITTUINE !!≈ @CODE@ nimittuine:ni«mittu
 +Indef+Neg+Sg+Abl:%>malpäi K ;
 +Indef+Neg+Sg+Ade:%>mal K ;
 +Indef+Neg+Sg+All:%>male K ;
@@ -353,10 +353,10 @@ LEXICON PRON-INDEF_NIMITTUINE !!= @CODE@ nimittuine:ni«mittu
 
 
 !! ### INTERROGATIVE
-LEXICON PRON-INTERR_ !!= @CODE@ Still requires work
+LEXICON PRON-INTERR_ !!≈ @CODE@ Still requires work
 +Interr: K ;
 
-LEXICON PRON-INTERR_MI !!= @CODE@ mi:mi
+LEXICON PRON-INTERR_MI !!≈ @CODE@ mi:mi
 +Interr+Pl+Nom:t K ;
 +Interr+Sg+Ela:späi K ;
 +Interr+Sg+Gen:n K ;
@@ -366,7 +366,7 @@ LEXICON PRON-INTERR_MI !!= @CODE@ mi:mi
 +Interr+Sg+Par:dä K ;
 +Interr+Sg+Tra:kse K ;
 
-LEXICON PRON-INTERR_MITTUINE !!= @CODE@ mittuine:mittu
+LEXICON PRON-INTERR_MITTUINE !!≈ @CODE@ mittuine:mittu
 +Interr+Sg+Abl:%>malpäi K ;
 +Interr+Sg+Ade:%>mal K ;
 +Interr+Sg+All:%>male K ;
@@ -388,7 +388,7 @@ LEXICON PRON-INTERR_MITTUINE !!= @CODE@ mittuine:mittu
 +Interr+Pl+Nom:%>mat K ;
 +Interr+Pl+Par:%>mii K ;
 
-LEXICON PRON-INTERR_KEN !!= @CODE@ ken:ke
+LEXICON PRON-INTERR_KEN !!≈ @CODE@ ken:ke
 +Interr+Sem/Hum: PRON-INTERR_KEN-01 ;
 
 LEXICON PRON-INTERR_KEN-01
@@ -404,7 +404,7 @@ LEXICON PRON-INTERR_KARJALAINE
 +Interr:%{back%} NMN_KARJALAINE/LIYGILÄINE ;
 
 !! ### REFLEXIVE PRONOUNS
-LEXICON PRON-REFL_ !!= **@CODE@** iče:ičče
+LEXICON PRON-REFL_ !!≈ **@CODE@** iče:ičče
 +Refl+Abl:%^WGStem%>lpäi K ; 
 +Refl+Ade:%^WGStem%>l K ; 
 +Refl+All:%^WGStem%>le K ;
@@ -428,7 +428,7 @@ LEXICON PRON-REFL_ !!= **@CODE@** iče:ičče
 
 
 !! ### RELATIVE PRONOUNS
-LEXICON PRON-REL_KUDAI !!= @CODE@ kudai:kuda
+LEXICON PRON-REL_KUDAI !!≈ @CODE@ kudai:kuda
 +Rel:%{back%} NMN_KUDAI ;
 +Rel:%{back%} NMN_PIIRAI/VERÄI ; !2015-05-21
 
@@ -436,13 +436,13 @@ LEXICON PRON-REFL_IS-SG-PAR
 +Refl+Sg+Par: K ;
 +Refl+Sg+Par+PxSg3:däh K ;
 
-LEXICON PRON_ARMAS !!= @CODE@ armas:arma
+LEXICON PRON_ARMAS !!≈ @CODE@ armas:arma
 :%{back%} NMN_ARMAS/EVAES        ;
 
-LEXICON PRON_OZA !!= @CODE@ oza:oza
+LEXICON PRON_OZA !!≈ @CODE@ oza:oza
 :%{back%} NMN_OZA/SÄYNÄ        ;
 
-LEXICON PRON-QNT_KIELI !!= @CODE@ kieli:kiel
+LEXICON PRON-QNT_KIELI !!≈ @CODE@ kieli:kiel
 +Qnt:%{front%} NMN_SUARI/KIELI ;
 
 LEXICON PRON_KARJALAINE
@@ -451,10 +451,10 @@ LEXICON PRON_KARJALAINE
 LEXICON PRON_KIELINE
 :%{front%} NMN_NAINE/KIELINE ;
 
-LEXICON PRON_TOINE !!= @CODE@ toine:to
+LEXICON PRON_TOINE !!≈ @CODE@ toine:to
 :%{back%} NMN_TOINE ;
 
-LEXICON PRON_KAI !!= @CODE@ requires developing
+LEXICON PRON_KAI !!≈ @CODE@ requires developing
 :%{back%} PRON_KAI_01 ;
 LEXICON PRON_KAI_01
 +Pl+Nom: K ;
@@ -471,7 +471,7 @@ LEXICON PRON_KAI_01
 !+Sg+Abl:kel K ;
 +Sg+Abl:kelpäi K ;
 
-LEXICON PRON_ENÄMBI !!= @CODE@ enämbi:enämb
+LEXICON PRON_ENÄMBI !!≈ @CODE@ enämbi:enämb
 :%{front%} NMN_PAREMBI/ENÄMBI ;
 
 
