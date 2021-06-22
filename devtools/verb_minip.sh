@@ -7,6 +7,7 @@
 
 
 LOOKUP=$(echo $LOOKUP)
+HLOOKUP=$(echo $HLOOKUP)
 GTLANGS=$(echo $GTLANGS)
 
 
@@ -22,7 +23,7 @@ do
  for form in $(cat $P_FILE);
  do
     #  echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-olo/src/generator-gt-norm.xfst
-   echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-olo/src/generator-gt-norm.xfst
+   echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-olo/src/generator-gt-norm.hfstol
  done
  rm -f $L_FILE
 done
