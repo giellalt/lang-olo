@@ -378,12 +378,12 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="Pron">ga</l>
 
       <stg>
-        <st Contlex="PRON_">ga</st>
+        <st Contlex="ADV_">ga</st>
       </stg>
     </lg>
 
@@ -392,15 +392,15 @@
 
 
       <tg xml:lang="fin">
-        <t pos="Pron">niin</t>
+        <t pos="Adv">niin</t>
 
-        <t pos="Pron">mutta</t>
+        <t pos="CC">mutta</t>
 
-        <t pos="Pron">lauseenloppuisena: joo</t>
+        <t pos="Interj">lauseenloppuisena: joo</t>
 
-        <t pos="Pron">juu</t>
+        <t pos="Interj">juu</t>
 
-        <t pos="Pron">niin</t>
+        <t pos="Interj">niin</t>
       </tg>
     </mg>
   </e>
@@ -1146,29 +1146,6 @@
     </mg>
   </e>
 
-  <e>
-    <lg>
-      <l pos="Pron">muga</l>
-
-      <stg>
-        <st Contlex="PRON_">muga</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-      <tg xml:lang="fin">
-        <t pos="Pron">niin</t>
-
-        <t pos="Pron">näin</t>
-
-        <t pos="Pron">siten</t>
-      </tg>
-    </mg>
-  </e>
-
   <e exclude="fst">
     <lg>
       <l pos="Pron">myö</l>
@@ -1672,21 +1649,6 @@
     </mg>
   </e>
 
-  <e>
-    <lg>
-      <l pos="Pron">sendäh</l>
-
-      <stg>
-        <st Contlex="PRON_">sendäh</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-    </mg>
-  </e>
 
   <e>
     <lg>
@@ -1754,42 +1716,10 @@
 
   <e>
     <lg>
-      <l pos="Pron">sie</l>
-
-      <stg>
-        <st Contlex="PERS_">sie</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="Pron">sigäli</l>
 
       <stg>
         <st Contlex="PRON_">sigäli</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Pron">sih</l>
-
-      <stg>
-        <st Contlex="PRON_">sih</st>
       </stg>
     </lg>
 
