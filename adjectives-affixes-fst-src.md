@@ -175,3 +175,5 @@ The next two share the same stem vowel
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/adjectives.lexc)</small>

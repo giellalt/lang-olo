@@ -23,3 +23,5 @@ Vili+N+Prop:Vil
 FEMALE GIVEN NAMES
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/rus-Cyrl-2-Lat-propernouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/rus-Cyrl-2-Lat-propernouns.lexc)</small>

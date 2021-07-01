@@ -15,3 +15,5 @@ of cardinals and ordinals, and the non-compounding ones:
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/numerals.lexc)</small>

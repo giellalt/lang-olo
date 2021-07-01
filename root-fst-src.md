@@ -150,10 +150,10 @@ Non-dictionary words can be recognised with:
 
  * **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
  * **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous
-   with more frequent words. They should only be considered
-   abbreviations in the middle of a sentence.
+with more frequent words. They should only be considered
+abbreviations in the middle of a sentence.
  * **+Gram/TNumAbbr**:  Transitive abbreviation if the following
-            constituent is numeric
+constituent is numeric
  * **+Gram/NumNoAbbr**:  Transitive abbreviations for which numerals
 are complements and normal words. The abbreviation usage
 is less common and thus only the occurences in the middle of
@@ -488,3 +488,5 @@ WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/root.lexc)</small>

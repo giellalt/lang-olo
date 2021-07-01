@@ -43,23 +43,6 @@ Amorskij:Amorsk
 
 
 
-PLACE NAMES FROM TEMPLATES !!
-
-
-
-
-Erzya settlements !!
-
-
-
-
-
-Divinities !!
-
-
-
-
-Constellations !!
 
 
 
@@ -68,16 +51,33 @@ Constellations !!
 
 
 
-TEXT NAMES !!
-
-
-
-HOLIDAYS !!
 
 
 
 
-RIVER NAMES !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -118,3 +118,5 @@ DECLENSION LIMITATIONS
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/rus-Cyrl-2-Lat-propernouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/rus-Cyrl-2-Lat-propernouns.lexc)</small>

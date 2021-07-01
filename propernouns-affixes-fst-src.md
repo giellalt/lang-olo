@@ -241,3 +241,5 @@ Plural stem vowel o
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/propernouns.lexc)</small>

@@ -5,3 +5,5 @@ kandua+V:kanda V_KANDUA "/(eng) carry/(fin) kantaa" ;
 
 ADD VERBS BELOW!
 These Below exist in xml but lack Finnish translation
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>

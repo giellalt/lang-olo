@@ -1159,3 +1159,5 @@ Plural stem vowel il%{oö%}i
  LEXICON SGNOM/PXSP3 adding -h
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/nouns.lexc)</small>

@@ -73,3 +73,5 @@ PROPER NOUNS FROM OLONETS
 Undentified Morph
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/exceptions.lexc)</small>
