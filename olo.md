@@ -5525,7 +5525,6 @@ ostua+V+Inf: **buy/ostaa**
 
 *ostu%>%{aä%} examples:*
 
-
 **ä:i before subsequent A2**  Diphthong ä+ä => iä
 kehittiä+V+Inf: **develop/kehittää**
 
