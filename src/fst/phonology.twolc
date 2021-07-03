@@ -499,7 +499,7 @@ a:u <=> ConsPalOrNot _ [%{back%}:  ( d:0 ) a  |d:0 a| (%{back%}:) %> [ %{aä%}: 
 !!€0 ostu%>%{aä%}
 !     Cns:   _ %^A2U:0 ;
      Cns: (ʼ) _ (%{back%}:) [%^A2UÄ2I:0| (%>) %{aä%}: |(%>) %{aäoeö%}: |(%>) %{aäoeöuiy%}: | %^A2UÄ2Y:] ;
-
+     Cns: (ʼ) _ a (%{back%}:) %^A2UÄ2I:0 ;
 
 "ä:i before subsequent A2"
 !! **@RULENAME@**  Diphthong ä+ä => iä
@@ -757,8 +757,8 @@ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; !!= @CODE@
 ! luadie:luajitah
 "d:j"
 !! **@RULENAME@**  
-d:j <=> [ u a ] _ [ i ] (%{back%}:) %^WGStem: %> ;
-        [ i e: | a i ] _ [ o | a] (HarmDummy:) %^WGStem: %> ;
+d:j <=> [ u a ] _ [ i ] (%{back%}:) %^WGStem: (%^E1:) %> ;
+        [ i e: | a i ] _ [ o | a] (HarmDummy:) %^WGStem: (%^E1:) %> ;
 !!€ maido%^WGStem%>n
 !!€ maijo0%>n
 !!€ tiedo%^WGStem%>n
