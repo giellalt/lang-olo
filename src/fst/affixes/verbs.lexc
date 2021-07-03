@@ -388,14 +388,14 @@ LEXICON V_ROIJA_01 !!≈ * **@CODE@** roija:roi
 LEXICON V_SUAJA !!≈ * **@CODE@** suaja:saa
 :%{back%} V_SUAJA_01 ;
 LEXICON V_SUAJA_01 !!≈ * **@CODE@** suaja:saa
-: V-VV_02_BACK_USUALLY-WEAK ;
+:%^A2UÄ2I V-VV_02_BACK_USUALLY-WEAK ;
 :%^RmVow V-VV_02_BACK_USUALLY-WEAK-VOWEL-LOSS ;
-: V-VV_02_BACK_USUALLY-STRONG ;
+:%^A2UÄ2I V-VV_02_BACK_USUALLY-STRONG ;
 :%^RmVow  V-VV_02_BACK_USUALLY-STRONG-VOWEL-LOSS ;
 +Inf:%>ja K ; !!≈ * **@CODE@** type 2 also suaha
+:%^A2UÄ2I INDPRSPL3_jah ;
 +Inf:%>ha K ; !!≈ * **@CODE@** type 2 also suaha
-: INDPRSPL3_jah ;
-: INDPRSPL3_hah ;
+:%^A2UÄ2I INDPRSPL3_hah ;
 
 
 LEXICON V_JUVVA !!≈ * **@CODE@** juvva:jo
