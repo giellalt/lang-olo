@@ -21,8 +21,9 @@
  [ %<scpl1%> -> %<p1%> %<pl%> ] .o.
  [ %<scpl2%> -> %<p2%> %<pl%> ] .o.
  [ %<scpl3%> -> %<p3%> %<pl%> ] .o.
- [ %<actv%> %<ind%> %<prs%> %<conneg%> -> %<ind%> %<prs%> %<conneg%> ] .o.
- [ %<actv%> %<ind%> %<prt%> %<conneg%> -> %<ind%> %<prt%> %<conneg%> ] .o.
+ [ %<actv%> %<ind%> %<prs%> -> %<actv%> %<pri%> ] .o.
+ [ %<actv%> %<ind%> %<prt%> %<conneg%> -> %<actv%> %<past%> %<sg%> %<conneg%> ] .o.
+ [ %<actv%> %<ind%> %<prt%> -> %<actv%> %<past%> ] .o.
  [ %<n%> %<prop%> -> %<np%> ] 
 ];
 
