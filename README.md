@@ -9,7 +9,7 @@ This repository contains finite state source files for the Olonets Karelian lang
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under GNU GPL
 licence, also detailed in the
-[LICENSE](https://github.com/giellalt/lang-olo/blob/main/LICENCE). The
+[LICENSE](https://github.com/giellalt/lang-olo/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
 
