@@ -4,45 +4,45 @@ Livvi quantifiers inflect for case.
 
 
 
- **LEXICON NUM_MUARJU** muarju:muarja
+**LEXICON NUM_MUARJUmuarju:muarja** muarju:muarja
 
 
 
- LEXICON NUM_YKSI yksi:y
+LEXICON NUM_YKSIyksi:y yksi:y
 
- LEXICON NUM_KAKSI kaksi:ka
- * :hte%^WGStem ORD_01_BACK ; This cannot be final
+LEXICON NUM_KAKSIkaksi:ka kaksi:ka
+* :hte%^WGStem ORD_01_BACK ;final This cannot be final
 
- LEXICON NUM_SEIČČIE seiččie:seičče
+LEXICON NUM_SEIČČIEseiččie:seičče seiččie:seičče
 
- LEXICON NUM_NELLI nelli:nell
+LEXICON NUM_NELLInelli:nell nelli:nell
 
- LEXICON NUM_KAHEKSA kaheksa:kaheksa
+LEXICON NUM_KAHEKSAkaheksa:kaheksa kaheksa:kaheksa
 
- LEXICON NUM_YHEKSÄ yheksä:yheksä
+LEXICON NUM_YHEKSÄyheksä:yheksä yheksä:yheksä
 
- LEXICON NUM_TUHAT tuhat:tuha
- LEXICON NUM_TUHAT_01 tuhat:tuha
-
-
- LEXICON NUM_KUUZI kuuzi:kuud
-
- LEXICON NUM_VIIZI viizi:viid
-
- LEXICON NUM_KYMMENE kymmene:kymmen
- LEXICON NUM_KYMMENE_01 kymmene:kymmen
-
- LEXICON NUM_KOLME 
+LEXICON NUM_TUHATtuhat:tuha tuhat:tuha
+LEXICON NUM_TUHAT_01tuhat:tuha tuhat:tuha
 
 
+LEXICON NUM_KUUZIkuuzi:kuud kuuzi:kuud
+
+LEXICON NUM_VIIZIviizi:viid viizi:viid
+
+LEXICON NUM_KYMMENEkymmene:kymmen kymmene:kymmen
+LEXICON NUM_KYMMENE_01kymmene:kymmen kymmene:kymmen
+
+LEXICON NUM_KOLME 
 
 
- LEXICON ORD_TOINE toine:to
 
 
- LEXICON ORD_KARJALAINE enzimäine:ensimä
+LEXICON ORD_TOINEtoine:to toine:to
 
- LEXICON ORD_LIYGILÄINE enzimäine:ensimä
+
+LEXICON ORD_KARJALAINEenzimäine:ensimä enzimäine:ensimä
+
+LEXICON ORD_LIYGILÄINEenzimäine:ensimä enzimäine:ensimä
 
 
 

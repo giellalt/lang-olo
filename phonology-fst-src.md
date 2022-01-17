@@ -3,12 +3,12 @@
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-olo/blob/main/src/fst/phonology.twolc) 
 
 ## Alphatbet, sets
- **a b c č d e f g h i j k l m n o p r s š ş t u v w y z ž ƶ ü ä ö**
- **A B C Č D E F G H I J K L M N O P R S Š Ş T U V W Y Z Ž Ƶ Ü Ä Ö**
- **y**
- **Y**
- **%{aä%}:a**
- **%{aä%}:ä**
+**a b c č d e f g h i j k l m n o p r s š ş t u v w y z ž ƶ ü ä ö**@CODE@****
+**A B C Č D E F G H I J K L M N O P R S Š Ş T U V W Y Z Ž Ƶ Ü Ä Ö**@CODE@****
+**y**@CODE@****
+**Y**@CODE@****
+**%{aä%}:a**@CODE@****
+**%{aä%}:ä**@CODE@****
 
   %{aoeInf%}:a	 Back vowel infinitive marker
   %{äöeInf%}:ä	 Front vowel infinitive marker
@@ -20,12 +20,12 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-o
 
   %{ui%}:i   in imperative before %{aä%}:
 
- **%{oö%}:o**
- **%{oö%}:ö**
+**%{oö%}:o**@CODE@****
+**%{oö%}:ö**@CODE@****
 
  %{oöØ%}:0   Used in present participle
 
- **%{uy%}:y**
+**%{uy%}:y**@CODE@****
 
   %{ijPRC%}:j  participle
  *  %{lnrs%}:n   e.g. in perfect participles
@@ -35,43 +35,43 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-o
 
 
 this appears in the illative
- **V1:a**
- **V1:e**
- **V1:i**
- **V1:o**
- **V1:u**
- **V1:y**
- **V1:ä**
- **V1:ö**
+**V1:a**@CODE@****
+**V1:e**@CODE@****
+**V1:i**@CODE@****
+**V1:o**@CODE@****
+**V1:u**@CODE@****
+**V1:y**@CODE@****
+**V1:ä**@CODE@****
+**V1:ö**@CODE@****
 
 These appear with the inessive and adessive
- **V2:a**
- **V2:e**
- **V2:i**
- **V2:o**
- **V2:u**
- **V2:y**
- **V2:ä**
- **V2:ö**
+**V2:a**@CODE@****
+**V2:e**@CODE@****
+**V2:i**@CODE@****
+**V2:o**@CODE@****
+**V2:u**@CODE@****
+**V2:y**@CODE@****
+**V2:ä**@CODE@****
+**V2:ö**@CODE@****
 
 These reduplicate the preceding vowel if it in turn is preceded by a consonant
- **V3:a**
- **V3:e**
- **V3:i**
- **V3:o**
- **V3:u**
- **V3:y**
- **V3:ä**
- **V3:ö**
- **V3:0**
+**V3:a**@CODE@****
+**V3:e**@CODE@****
+**V3:i**@CODE@****
+**V3:o**@CODE@****
+**V3:u**@CODE@****
+**V3:y**@CODE@****
+**V3:ä**@CODE@****
+**V3:ö**@CODE@****
+**V3:0**@CODE@****
 
  %^DEVOICE:0    
  %^VOICE:0     pestä : pezen
 
- **%^SyllBound:0**
+**%^SyllBound:0**@CODE@****
 
 
- **%^KS2S:0**
+**%^KS2S:0**@CODE@****
 
 no change
 The example here is for something that should not be done
@@ -82,7 +82,7 @@ to be inserted into the lexc stem of a word to prevent such a rule
 from occurring. Since the infinite Olonets-Karelian set is more predictable
 and perhaps smaller than the incoming loanword set, it is better
 to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
- %^NONE:0 This will break vowel change, e.g. sa%^NONEamelaine
+%^NONE:0sa%^NONEamelaine This will break vowel change, e.g. sa%^NONEamelaine
 
 
  %^Pen:0   pagisou paistah in combination with WGStem to trigger
@@ -581,7 +581,7 @@ ezitellä+V+Inf: **present/esitellä**
 
 **Rule: b:v**
 ```
- b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
+b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;@CODE@
 ```
 
 **p:0 in lapsi**  
