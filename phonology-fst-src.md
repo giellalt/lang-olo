@@ -3,75 +3,75 @@
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-olo/blob/main/src/fst/phonology.twolc) 
 
 ## Alphatbet, sets
-**a b c č d e f g h i j k l m n o p r s š ş t u v w y z ž ƶ ü ä ö**@CODE@****
-**A B C Č D E F G H I J K L M N O P R S Š Ş T U V W Y Z Ž Ƶ Ü Ä Ö**@CODE@****
-**y**@CODE@****
-**Y**@CODE@****
-**%{aä%}:a**@CODE@****
-**%{aä%}:ä**@CODE@****
+**a b c č d e f g h i j k l m n o p r s š ş t u v w y z ž ƶ ü ä ö**
+**A B C Č D E F G H I J K L M N O P R S Š Ş T U V W Y Z Ž Ƶ Ü Ä Ö**
+**y**
+**Y**
+**%{aä%}:a**
+**%{aä%}:ä**
 
-  %{aoeInf%}:a	 Back vowel infinitive marker
-  %{äöeInf%}:ä	 Front vowel infinitive marker
+ %{aoeInf%}:a	 Back vowel infinitive marker
+ %{äöeInf%}:ä	 Front vowel infinitive marker
 
 
- *  %{aäoeöuiy%}:ä   with partitive type koivuu
- *  %{aäoeö%}:ä   newer This is for diphthongs such as the infinitive marker after i and u stems ampuo
- * %{aäuyiØ%}:ä  in participle endings anticipating PÄIVY or KOIRU type
+*  %{aäoeöuiy%}:ä   with partitive type koivuu
+*  %{aäoeö%}:ä   newer This is for diphthongs such as the infinitive marker after i and u stems ampuo
+* %{aäuyiØ%}:ä  in participle endings anticipating PÄIVY or KOIRU type
 
-  %{ui%}:i   in imperative before %{aä%}:
+ %{ui%}:i   in imperative before %{aä%}:
 
-**%{oö%}:o**@CODE@****
-**%{oö%}:ö**@CODE@****
+**%{oö%}:o**
+**%{oö%}:ö**
 
- %{oöØ%}:0   Used in present participle
+%{oöØ%}:0   Used in present participle
 
-**%{uy%}:y**@CODE@****
+**%{uy%}:y**
 
-  %{ijPRC%}:j  participle
- *  %{lnrs%}:n   e.g. in perfect participles
- *  %{dtlnr%}:d  e.g. infinitive and Ind+Prs+Pl3
+ %{ijPRC%}:j  participle
+*  %{lnrs%}:n   e.g. in perfect participles
+*  %{dtlnr%}:d  e.g. infinitive and Ind+Prs+Pl3
 
 
 
 
 this appears in the illative
-**V1:a**@CODE@****
-**V1:e**@CODE@****
-**V1:i**@CODE@****
-**V1:o**@CODE@****
-**V1:u**@CODE@****
-**V1:y**@CODE@****
-**V1:ä**@CODE@****
-**V1:ö**@CODE@****
+**V1:a**
+**V1:e**
+**V1:i**
+**V1:o**
+**V1:u**
+**V1:y**
+**V1:ä**
+**V1:ö**
 
 These appear with the inessive and adessive
-**V2:a**@CODE@****
-**V2:e**@CODE@****
-**V2:i**@CODE@****
-**V2:o**@CODE@****
-**V2:u**@CODE@****
-**V2:y**@CODE@****
-**V2:ä**@CODE@****
-**V2:ö**@CODE@****
+**V2:a**
+**V2:e**
+**V2:i**
+**V2:o**
+**V2:u**
+**V2:y**
+**V2:ä**
+**V2:ö**
 
 These reduplicate the preceding vowel if it in turn is preceded by a consonant
-**V3:a**@CODE@****
-**V3:e**@CODE@****
-**V3:i**@CODE@****
-**V3:o**@CODE@****
-**V3:u**@CODE@****
-**V3:y**@CODE@****
-**V3:ä**@CODE@****
-**V3:ö**@CODE@****
-**V3:0**@CODE@****
+**V3:a**
+**V3:e**
+**V3:i**
+**V3:o**
+**V3:u**
+**V3:y**
+**V3:ä**
+**V3:ö**
+**V3:0**
 
- %^DEVOICE:0    
- %^VOICE:0     pestä : pezen
+%^DEVOICE:0    
+%^VOICE:0     pestä : pezen
 
-**%^SyllBound:0**@CODE@****
+**%^SyllBound:0**
 
 
-**%^KS2S:0**@CODE@****
+**%^KS2S:0**
 
 no change
 The example here is for something that should not be done
@@ -82,28 +82,28 @@ to be inserted into the lexc stem of a word to prevent such a rule
 from occurring. Since the infinite Olonets-Karelian set is more predictable
 and perhaps smaller than the incoming loanword set, it is better
 to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
-%^NONE:0sa%^NONEamelaine This will break vowel change, e.g. sa%^NONEamelaine
+%^NONE:0 This will break vowel change, e.g. sa%^NONEamelaine
 
 
- %^Pen:0   pagisou paistah in combination with WGStem to trigger
-
-
-
- %^D2Z:0	  ! The ti => zi
+%^Pen:0   pagisou paistah in combination with WGStem to trigger
 
 
 
- %^E2O:0	  the e => o, e => ö
+%^D2Z:0	  ! The ti => zi
 
 
- %^Ä2I:0		  ä => i
- %^A2UÄ2I:0		  a => u, ä => i
 
- %^ILoss:0    the i => 0 **reboi reboloi**
- %^V2U:0	     v => y **kävvä käydy**
+%^E2O:0	  the e => o, e => ö
 
- _%^RVow:0   _ 
- _%^RmVow:0   _ vowel removal, e.g. with superlative
+
+%^Ä2I:0		  ä => i
+%^A2UÄ2I:0		  a => u, ä => i
+
+%^ILoss:0    the i => 0 **reboi reboloi**
+%^V2U:0	     v => y **kävvä käydy**
+
+_%^RVow:0   _ 
+_%^RmVow:0   _ vowel removal, e.g. with superlative
 
 
 
@@ -111,8 +111,8 @@ to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
 
 
 Triggers dictating right context phenomena
- * _%{back%}:0 _ back harmony until harmony boundary, i.e. word boundary
- * _%{front%}:0 _ front harmony until harmony boundary, i.e. word boundary
+* _%{back%}:0 _ back harmony until harmony boundary, i.e. word boundary
+* _%{front%}:0 _ front harmony until harmony boundary, i.e. word boundary
 
 
 
@@ -330,7 +330,7 @@ kehittiä+V+Inf: **develop/kehittää**
 
 **Rule: a:0 in suaja:sai**
 ```
- *  a _ (%{back%}:)  %^RmVow:  ;  Vowel shortening before subsequent "i"
+*  a _ (%{back%}:)  %^RmVow:  ;  Vowel shortening before subsequent "i"
 
 *koira%^RmVow%>i%>en examples:*
 
@@ -443,11 +443,11 @@ sulgu+N+Pl+Ins **feather/sulka**
 
 **d:v**  
 ```
- d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; 
-           u a           _   o       (%{back%}:) %^WGStem:0 ; 
-           a             _   u       (%{back%}:) %^WGStem:0 ; 
-         [ u o: | u: ]   _  [ (%{back%}:) e | a: ]  (%{back%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
-         [ ä y: ]   _  [(%{front%}:) e | y ]  (%{front%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
+d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; 
+          u a           _   o       (%{back%}:) %^WGStem:0 ; 
+          a             _   u       (%{back%}:) %^WGStem:0 ; 
+        [ u o: | u: ]   _  [ (%{back%}:) e | a: ]  (%{back%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
+        [ ä y: ]   _  [(%{front%}:) e | y ]  (%{front%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
 * *täydy%{front%}%^WGStem*
 * *tävvy00*
 
@@ -494,7 +494,7 @@ soudua:sovva
 
 **Rule: s:z**
 ```
- * s:z <=> _ (HarmDummy:) %^VOICE:0 ;  pestä: pezen
+* s:z <=> _ (HarmDummy:) %^VOICE:0 ;  pestä: pezen
 ```
 
 **k:g** pestä: peskäh
@@ -581,7 +581,7 @@ ezitellä+V+Inf: **present/esitellä**
 
 **Rule: b:v**
 ```
-b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;@CODE@
+b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 ```
 
 **p:0 in lapsi**  

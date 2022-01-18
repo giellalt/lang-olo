@@ -5,22 +5,22 @@ nouns, but sometimes with a colon (':') as separator.
 LEXICON PROP_ 
 
 ### ONE-SYLLABLE LEMMA AND STEM
-LEXICON PROP_VYÖvyö:vyö vyö:vyö
+LEXICON PROP_VYÖ vyö:vyö
 
-LEXICON PROP_MUAmua:maa mua:maa
+LEXICON PROP_MUA mua:maa
 
 
 
 ### TWO-SYLLABLE LEMMA AND STEM
-LEXICON PROP_OZA@CODE@
+LEXICON PROP_OZA
 Gradation NA
 Back vowel
 Stem  vowel a
 Plural stem in i
 
-LEXICON PROP_OZA_FEM@CODE@
+LEXICON PROP_OZA_FEM
 
-LEXICON PROP-PLC_OZA@CODE@
+LEXICON PROP-PLC_OZA
 
 
 LEXICON PROP_KALA 
@@ -52,30 +52,30 @@ LEXICON PROP_PAPPI-PL
 
 LEXICON PROP-PLC_PAPPI 
 
-LEXICON PROP_ARTELI@CODE@
+LEXICON PROP_ARTELI
 Gradation NA
 Back vowel
 Stem  vowel i
 Plural stem in iloi
 
-LEXICON PROP_ARTELI-SG@CODE@
+LEXICON PROP_ARTELI-SG
 
-LEXICON PROP_ARTELI-PL@CODE@
+LEXICON PROP_ARTELI-PL
 
 
-LEXICON PROP_LEIRI@CODE@
+LEXICON PROP_LEIRI
 Gradation NA
 Front vowel
 Stem  vowel i
 Plural stem in iloi
 
-LEXICON PROP_LEIRI-SG@CODE@
+LEXICON PROP_LEIRI-SG
 
-LEXICON PROP_LEIRI-PL@CODE@
+LEXICON PROP_LEIRI-PL
 
 
 
-LEXICON PROP_NIMInimi:nim nimi:nim
+LEXICON PROP_NIMI nimi:nim
 Gradation NA
 Front vowel
 Stem	 vowel i/e
@@ -96,7 +96,7 @@ LEXICON PROP_JÄLGI-PL
 
 
 
-LEXICON PROP_SUARIsuari:suar suari:suar
+LEXICON PROP_SUARI suari:suar
 Gradation NA
 Vowel Harmony Back
 Stem Vowel i/0/e
@@ -105,7 +105,7 @@ Plural stem in i
 
 
 
-LEXICON PROP_REBOIreboi:reboi reboi:reboi
+LEXICON PROP_REBOI reboi:reboi
 Gradation NA
 Vowel Harmony Back
 Stem Vowel oi/o
@@ -114,17 +114,17 @@ Plural stem in oloi
 
 
 
-LEXICON PROP_KOIRUkoiru:koira koiru:koira
+LEXICON PROP_KOIRU koiru:koira
 Gradation NA
 Back vowel
 Stem	 vowel u/a
 Plural stem in i
 
 
-LEXICON PROP-PLC_KOIRUkoiru:koira koiru:koira
+LEXICON PROP-PLC_KOIRU koiru:koira
 
 
-LEXICON PROP_PÄIVYpäivy:päivä päivy:päivä
+LEXICON PROP_PÄIVY päivy:päivä
 Gradation NA
 Vowel Harmony Front
 Stem Vowel y/ä
@@ -134,25 +134,25 @@ Plural stem in i
 
 
 
-LEXICON PROP-PLC_KNIIGUkniigu:kniiga kniigu:kniiga
+LEXICON PROP-PLC_KNIIGU kniigu:kniiga
 Gradation No (looks like it should have gradation)
 Vowel Harmony Back
 Stem Vowel u/a
 Plural stem in oi
 
-LEXICON PROP_MUARJUmuarju:muarja muarju:muarja
+LEXICON PROP_MUARJU muarju:muarja
 Gradation NA
 Vowel Harmony Back
 Stem Vowel u:a
 Plural stem in o
 
 
-LEXICON PROP-PLC_MUARJUmuarju:muarja muarju:muarja
+LEXICON PROP-PLC_MUARJU muarju:muarja
 
 
 
 
-LEXICON PROP_AKKUakku:akka akku:akka
+LEXICON PROP_AKKU akku:akka
 Gradation Yes
 Vowel Harmony Back
 Stem Vowel u:a
@@ -160,7 +160,7 @@ Plural stem in o
 
 
 
-LEXICON PROP_KOIVUkoivu:koivu koivu:koivu
+LEXICON PROP_KOIVU koivu:koivu
 Back vowel
 Gradation NA
 Stem vowel u
@@ -169,21 +169,21 @@ Can be merged with _RUNO
 
 
 
-LEXICON PROP_RUNOruno:runo runo:runo
+LEXICON PROP_RUNO runo:runo
 Back	vowel
 Gradation NA
 Stem vowel o
 Plural stem in loi
 
-LEXICON PROP_RUADOruado:ruado ruado:ruado
+LEXICON PROP_RUADO ruado:ruado
 Back vowel
 Gradation Yes
 Stem vowel o
 Plural stem in loi
 
-LEXICON PROP-PLC_RUADOruado:ruado ruado:ruado
+LEXICON PROP-PLC_RUADO ruado:ruado
 
-LEXICON PROP_KYNDÖkyndö:kyndö kyndö:kyndö
+LEXICON PROP_KYNDÖ kyndö:kyndö
 Front vowel
 Gradation Yes
 Stem vowel o
@@ -203,7 +203,7 @@ LEXICON PROP_VALGEI-PL
 
 ### TWO-SYLLABLE LEMMA THREE-SYLLABLE STEM
 
-LEXICON PROP_KARJALkarjal:karjal karjal:karjal
+LEXICON PROP_KARJAL karjal:karjal
 Back vowel
 Gradation NA
 Singular stem vowel 0/a
@@ -212,32 +212,32 @@ Plural stem vowel o
 
 LEXICON PROP-MAL_KARJAL 
 
-LEXICON PROP_KARJALAINEkarjalaine:karjala karjalaine:karjala
+LEXICON PROP_KARJALAINE karjalaine:karjala
 
-LEXICON PROP_KIELINEkieline:kieli kieline:kieli
+LEXICON PROP_KIELINE kieline:kieli
 
-**LEXICON PROP-PLC_TVERTver:Tver** Tver:Tver
-
-
-**LEXICON PROP-PLC_TAIGIN**@CODE@****
+**LEXICON PROP-PLC_TVER** Tver:Tver
 
 
-**LEXICON PROP_PEREHpereh:pereh** pereh:pereh
+**LEXICON PROP-PLC_TAIGIN**
 
 
-**LEXICON PROP_VIDELvidel:videl** videl:videl
+**LEXICON PROP_PEREH** pereh:pereh
 
 
-* LEXICON PROP_VIDELvidel:videl Pavlovič:Pavlov
+**LEXICON PROP_VIDEL** videl:videl
 
 
-LEXICON PROP-PLC_ALUSAlus:Aluks Alus:Aluks
+* LEXICON PROP_VIDEL Pavlovič:Pavlov
 
-LEXICON PROP_ALUSAlus:Aluks Alus:Aluks
 
-LEXICON PROP_KONDIIkondii:kondi kondii:kondi
+LEXICON PROP-PLC_ALUS Alus:Aluks
 
-LEXICON PROP_STIPENDIIkondii:kondi kondii:kondi
+LEXICON PROP_ALUS Alus:Aluks
+
+LEXICON PROP_KONDII kondii:kondi
+
+LEXICON PROP_STIPENDII kondii:kondi
 
 
 

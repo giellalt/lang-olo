@@ -5,7 +5,9 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-olo)](https://github.com/giellalt/lang-olo/issues)
 [![Build status](https://github.com/giellalt/lang-olo/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-olo/actions)
 
-This page documents the work on the [Livvi language model](http://github.com/giellalt/lang-olo). 
+This page documents the work on the [Livvi, or Olonets, language model](http://github.com/giellalt/lang-olo). 
+It contains some 56000 stems and the core morphology, and is in use in a morphological dictionary.
+
 
 # Project documentation
 
