@@ -1,613 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* Sets for POS sub-categories
-
-
-
-
-
-* Sets for Semantic tags
-
-
-
-
-
-* Sets for Morphosyntactic properties
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* Sets for verbs
-
-
-- V is all readings with a V tag in them, REAL-V should
-be the ones without an N tag following the V.  
-The REAL-V set thus awaits a fix to the preprocess V ... N bug.
-
-
-
-* The set COPULAS is for predicative constructions
-
-
-
-
-
-
-
-* NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
-
-* The PRE-NP-HEAD family of sets
-
-These sets model noun phrases (NPs). The idea is to first define whatever can
-occur in front of the head of the NP, and thereafter negate that with the
-expression **WORD - premodifiers**.
-
-
-
-
-
-
-
-
-
-
-
-
-The set **NOT-NPMOD** is used to find barriers between NPs.
-Typical usage: ... (*1 N BARRIER NPT-NPMOD) ...
-meaning: Scan to the first noun, ignoring anything that can be
-part of the noun phrase of that noun (i.e., "scan to the next NP head")
-
-
-
-
-
-
-* Miscellaneous sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* Border sets and their complements
-
-
-
-
-
-
-
-
-
-
-
-
-
-* Syntactic sets
-
-
-
-
-These were the set types.
-
-
-
-## HABITIVE MAPPING
-
-
-* **hab1** 
-
-
-* **hab2** 
-
-* **hab3** (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
-
-
-
-* **habNomLeft** 
-
-
-* **hab4** 	
-
-
-
-* **hab6** 
-
-* **hab7** 
-
-* **hab8** This is not HAB
-* **hab5**  This is not HAB
-
-
-
-* **habDain** (<hab> @ADVL>) for (Pron Dem Pl Loc) if leat followed by Nom to the right
-
-
-
-
-* **habGen** (<hab> @<ADVL) hab for Gen; if Gen is located in the end of the sentence and Nom is sentence initial
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **spred<obj** (@SPRED<OBJ) for Acc; the object of an SPRPED. Not to be mistaken with OPRED. If SPRED is to the left, and copulas is to the left of it. Nom or Hab are found sentence initially.
-
-
-* **Hab<spred** (@<SPRED) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
-
-* **Hab>Advlcase<spred** (<ext> @<SUBJ) for Nom; it allows adverbials with Ill/Loc/Com/Ess to be found inbetween HAB and <ext>.
-
-* **Nom>Advlcase<spred** (<ext> @<SUBJ) for Nom; it allows adverbials with Ill/Loc/Com/Ess to be found inbetween Nom and <ext> @<SUBJ.
-
-* **<spred** (<ext> @<SUBJ) for Nom; if copulas to the left, and some kind of adverb, N Loc, time related word or Po to the left of it. OR: if Ill or @Pron< to the left, followed by copulas and the before mentioned to the left of copulas. 
-
-* **<spred** (<ext> @<SUBJ) for Nom, but not for Pers. To the left boahtit or heaŋgát as MAINV, and futher to the left is some kind of place related word, or time related word
-
-
-* **<spredQst1** (<ext> @<SUBJ) for Nom in a typically question sentence; if A) Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. B) same as a, only the Qst-pcle is attached to copulas. C) Qst to the left, with copulas to its left, but not if two Nom:s are found somewhere to the right. D) copulas to the left, and BOS to the left. E) Loc or Ill to the left, and Loc or Hab to the left of this, Qst and copulas to the left. F) Num @>N to the left, Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. NOTE) for all these rules; human, Loc or Sem/Plc not allowed to the right.
-
-* **<spredQst2** (@<SPRED) for Nom; in a typically question sentence; differs from <spredQst1 by not beeing as restricted to the right. Though you are not allowed to be Pers or human.
-
-* **Nom<spredQst** (@<SPRED) for Nom; in a typically question sentence. Differs from <spredQst2 by letting Nom be found between SPRED and copulas
-
-
-
-* **<spred** (@<SPRED) for A Nom or N Nom if; the subject Nom is on the same side of copulas as you: on the right side of copulas
-
-* **<spredVeara** (@<SPRED) for veara + Nom; if genitive immediately to the right, and intransitive mainverb to the right of genitive
-
-* **leftCop<spred** (@<SPRED) for Nom; if copulas is the main verb to the left, and there is no Ess found to the left of cop (note that Loc is allowed between target and cop). OR: if you are Coll or Sem/Group with copulas to your left. 
-
-* **<spredLocEXPERIMENT** (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
-
-
-* **NumTime** (@<SPRED) for A Nom
-
-* **<spredSg** (@<SPRED) for Sg Nom	
-
-* **<spredPg** (@<SPRED) for Pl Nom	
-
-* **<spred** (@<SPRED) for Nom; if copulas to the left, and Nom or sentence boundary to the left of copulas. First one to the right is EOS.
-
-* **<spred** (@<SPRED) for N Ess
-
-* **spredEss>** (@SPRED>) for N Ess; if copulas to the right of you, and if an NP with nom-case first one to your left.
-
-* **HABSpredSg>** (@SPRED>) for Nom; if habitive first one to the left, followed by copulas.
-
-* **GalleSpred>** (@SPRED>) for Num Nom; if sentence initial
-
-* **spredSgMII>** (@SPRED>)
-
-* **r492>** (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
-
-
-
-* **AdjSpredSg>** (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
-
-* **SpredSg>Hab** (@SPRED>) for Nom; if you are sentence initial, copulas is located to the right, and there is a habitive to the right of copulas
-
-
-
-* **Spred>SubjInf** (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
-
-* **spredCoord** (@<SPRED) coordination for Nom; only if there already is a SPRED to the left of CNP. Not if there is some kind of comparison involved.
-
-
-
-
-
-
-* **subj>Sgnr1** (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left) 
-
-* **subj>Du** (@SUBJ>) for dual nominatives, including Coll Nom. VFIN + Du3 to the right. 
-* **subj>Pl** (@SUBJ>) for plural nominatives, including Coll and Sem/Group. VFIN + Pl3 to the right.
-
-* **subj>Pl** (@SUBJ>) for plural nominatives
-
-
-* **subj>Sgnr2** (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
-
-* **<subjSg** (@<SUBJ) for Nom Sg; if VFIN Sg3 or Du2 to the left (no HAB allowed to the left).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **f<advl** (@-F<ADVL) for infinite adverbials
-
-* **f<advl** (@-F<ADVL) for infinite adverbials
-
-
-
-* **s-boundary=advl>** (@ADVL>) for ADVL that resemble s-booundaries. Mainverb to the right.
-
-
-
-
-* **-fobj>** (@-FOBJ>) for Acc 
-
-* **-fobj>** (@-FOBJ>) for Acc
-
-
-
-
-* **advl>mainV** (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
-
-
-* **<advl** (@<ADVL) if; finite mainverb found to the left. Not if a comma is found immediately to the left and a finite mainverb is located somewhere to the right of this comma.
-
-
-
-
-* **<advlPoPr** (@<ADVL) if mainverb to the left.
-* **advlPoPr>** (@<ADVL) if mainverb to the right.
-
-
-
-* **advlEss>** (@<ADVL) for weather and time Ess, if FMAINV to the left.
-
-
-
-
-
-
-* **advl>inbetween** (@ADVL>) for Adv; if inbetween two sentenceboundaries where no mainverb is present.
-
-* **comma<advlEOS** (@<ADVL) if; comma found to the left and the finite mainverb to the left of comma. To the right is the end of the sentence.
-
-
-
-* **advlBOS>** (@ADVL>) if; you are N Ill and found sentnece initially. First one to your right is a clause.
-
-
-* **<advlPoEOS** (@<ADVL) for Po; if you are found at the very end of a sentence. A mainverb is needed to the right though.
-
-
-
-* **cleanupILL<advl** (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
-
-
-
-
-
-
-
-
-
-
-
-* **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
-
-
-### sma object
-
-
-
-
-
-
-
-
-
-* **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
-* **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
-
-
-
-
-
-## SUBJ MAPPING - leftovers
-
-## OBJ MAPPING - leftovers
-
-
-## HNOUN MAPPING
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-olo/blob/main/../src/cg3/functions.cg3)</small>
-
 Disambiguator for Olonets
 
 
@@ -1429,6 +821,614 @@ Relative pronouns
 
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-olo/blob/main/../src/cg3/disambiguator.cg3)</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Sets for POS sub-categories
+
+
+
+
+
+* Sets for Semantic tags
+
+
+
+
+
+* Sets for Morphosyntactic properties
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Sets for verbs
+
+
+- V is all readings with a V tag in them, REAL-V should
+be the ones without an N tag following the V.  
+The REAL-V set thus awaits a fix to the preprocess V ... N bug.
+
+
+
+* The set COPULAS is for predicative constructions
+
+
+
+
+
+
+
+* NP sets defined according to their morphosyntactic features
+
+
+
+
+
+
+
+* The PRE-NP-HEAD family of sets
+
+These sets model noun phrases (NPs). The idea is to first define whatever can
+occur in front of the head of the NP, and thereafter negate that with the
+expression **WORD - premodifiers**.
+
+
+
+
+
+
+
+
+
+
+
+
+The set **NOT-NPMOD** is used to find barriers between NPs.
+Typical usage: ... (*1 N BARRIER NPT-NPMOD) ...
+meaning: Scan to the first noun, ignoring anything that can be
+part of the noun phrase of that noun (i.e., "scan to the next NP head")
+
+
+
+
+
+
+* Miscellaneous sets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Border sets and their complements
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Syntactic sets
+
+
+
+
+These were the set types.
+
+
+
+## HABITIVE MAPPING
+
+
+* **hab1** 
+
+
+* **hab2** 
+
+* **hab3** (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+
+
+* **habNomLeft** 
+
+
+* **hab4** 	
+
+
+
+* **hab6** 
+
+* **hab7** 
+
+* **hab8** This is not HAB
+* **hab5**  This is not HAB
+
+
+
+* **habDain** (<hab> @ADVL>) for (Pron Dem Pl Loc) if leat followed by Nom to the right
+
+
+
+
+* **habGen** (<hab> @<ADVL) hab for Gen; if Gen is located in the end of the sentence and Nom is sentence initial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **spred<obj** (@SPRED<OBJ) for Acc; the object of an SPRPED. Not to be mistaken with OPRED. If SPRED is to the left, and copulas is to the left of it. Nom or Hab are found sentence initially.
+
+
+* **Hab<spred** (@<SPRED) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
+
+* **Hab>Advlcase<spred** (<ext> @<SUBJ) for Nom; it allows adverbials with Ill/Loc/Com/Ess to be found inbetween HAB and <ext>.
+
+* **Nom>Advlcase<spred** (<ext> @<SUBJ) for Nom; it allows adverbials with Ill/Loc/Com/Ess to be found inbetween Nom and <ext> @<SUBJ.
+
+* **<spred** (<ext> @<SUBJ) for Nom; if copulas to the left, and some kind of adverb, N Loc, time related word or Po to the left of it. OR: if Ill or @Pron< to the left, followed by copulas and the before mentioned to the left of copulas. 
+
+* **<spred** (<ext> @<SUBJ) for Nom, but not for Pers. To the left boahtit or heaŋgát as MAINV, and futher to the left is some kind of place related word, or time related word
+
+
+* **<spredQst1** (<ext> @<SUBJ) for Nom in a typically question sentence; if A) Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. B) same as a, only the Qst-pcle is attached to copulas. C) Qst to the left, with copulas to its left, but not if two Nom:s are found somewhere to the right. D) copulas to the left, and BOS to the left. E) Loc or Ill to the left, and Loc or Hab to the left of this, Qst and copulas to the left. F) Num @>N to the left, Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. NOTE) for all these rules; human, Loc or Sem/Plc not allowed to the right.
+
+* **<spredQst2** (@<SPRED) for Nom; in a typically question sentence; differs from <spredQst1 by not beeing as restricted to the right. Though you are not allowed to be Pers or human.
+
+* **Nom<spredQst** (@<SPRED) for Nom; in a typically question sentence. Differs from <spredQst2 by letting Nom be found between SPRED and copulas
+
+
+
+* **<spred** (@<SPRED) for A Nom or N Nom if; the subject Nom is on the same side of copulas as you: on the right side of copulas
+
+* **<spredVeara** (@<SPRED) for veara + Nom; if genitive immediately to the right, and intransitive mainverb to the right of genitive
+
+* **leftCop<spred** (@<SPRED) for Nom; if copulas is the main verb to the left, and there is no Ess found to the left of cop (note that Loc is allowed between target and cop). OR: if you are Coll or Sem/Group with copulas to your left. 
+
+* **<spredLocEXPERIMENT** (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
+
+
+* **NumTime** (@<SPRED) for A Nom
+
+* **<spredSg** (@<SPRED) for Sg Nom	
+
+* **<spredPg** (@<SPRED) for Pl Nom	
+
+* **<spred** (@<SPRED) for Nom; if copulas to the left, and Nom or sentence boundary to the left of copulas. First one to the right is EOS.
+
+* **<spred** (@<SPRED) for N Ess
+
+* **spredEss>** (@SPRED>) for N Ess; if copulas to the right of you, and if an NP with nom-case first one to your left.
+
+* **HABSpredSg>** (@SPRED>) for Nom; if habitive first one to the left, followed by copulas.
+
+* **GalleSpred>** (@SPRED>) for Num Nom; if sentence initial
+
+* **spredSgMII>** (@SPRED>)
+
+* **r492>** (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
+
+
+
+* **AdjSpredSg>** (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
+
+* **SpredSg>Hab** (@SPRED>) for Nom; if you are sentence initial, copulas is located to the right, and there is a habitive to the right of copulas
+
+
+
+* **Spred>SubjInf** (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
+
+* **spredCoord** (@<SPRED) coordination for Nom; only if there already is a SPRED to the left of CNP. Not if there is some kind of comparison involved.
+
+
+
+
+
+
+* **subj>Sgnr1** (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left) 
+
+* **subj>Du** (@SUBJ>) for dual nominatives, including Coll Nom. VFIN + Du3 to the right. 
+* **subj>Pl** (@SUBJ>) for plural nominatives, including Coll and Sem/Group. VFIN + Pl3 to the right.
+
+* **subj>Pl** (@SUBJ>) for plural nominatives
+
+
+* **subj>Sgnr2** (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
+
+* **<subjSg** (@<SUBJ) for Nom Sg; if VFIN Sg3 or Du2 to the left (no HAB allowed to the left).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **f<advl** (@-F<ADVL) for infinite adverbials
+
+* **f<advl** (@-F<ADVL) for infinite adverbials
+
+
+
+* **s-boundary=advl>** (@ADVL>) for ADVL that resemble s-booundaries. Mainverb to the right.
+
+
+
+
+* **-fobj>** (@-FOBJ>) for Acc 
+
+* **-fobj>** (@-FOBJ>) for Acc
+
+
+
+
+* **advl>mainV** (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
+
+
+* **<advl** (@<ADVL) if; finite mainverb found to the left. Not if a comma is found immediately to the left and a finite mainverb is located somewhere to the right of this comma.
+
+
+
+
+* **<advlPoPr** (@<ADVL) if mainverb to the left.
+* **advlPoPr>** (@<ADVL) if mainverb to the right.
+
+
+
+* **advlEss>** (@<ADVL) for weather and time Ess, if FMAINV to the left.
+
+
+
+
+
+
+* **advl>inbetween** (@ADVL>) for Adv; if inbetween two sentenceboundaries where no mainverb is present.
+
+* **comma<advlEOS** (@<ADVL) if; comma found to the left and the finite mainverb to the left of comma. To the right is the end of the sentence.
+
+
+
+* **advlBOS>** (@ADVL>) if; you are N Ill and found sentnece initially. First one to your right is a clause.
+
+
+* **<advlPoEOS** (@<ADVL) for Po; if you are found at the very end of a sentence. A mainverb is needed to the right though.
+
+
+
+* **cleanupILL<advl** (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
+
+
+
+
+
+
+
+
+
+
+
+* **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
+
+
+### sma object
+
+
+
+
+
+
+
+
+
+* **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
+* **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
+
+
+
+
+
+## SUBJ MAPPING - leftovers
+
+## OBJ MAPPING - leftovers
+
+
+## HNOUN MAPPING
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-olo/blob/main/../src/cg3/functions.cg3)</small>
 # C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
 
 This dep file is for sma, sme, smj, sje.
@@ -1869,7 +1869,616 @@ Correction rules
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-olo/blob/main/../src/cg3/dependency.cg3)</small>
+<small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-olo/blob/main/../src/cg3/dependency.cg3)</small># The Livvi (Olonets) Karelian morphophonological/twolc rules file 
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-olo/blob/main/src/fst/phonology.twolc) 
+
+## Alphatbet, sets
+**a b c č d e f g h i j k l m n o p r s š ş t u v w y z ž ƶ ü ä ö**
+**A B C Č D E F G H I J K L M N O P R S Š Ş T U V W Y Z Ž Ƶ Ü Ä Ö**
+**y**
+**Y**
+**%{aä%}:a**
+**%{aä%}:ä**
+
+ %{aoeInf%}:a	 Back vowel infinitive marker
+ %{äöeInf%}:ä	 Front vowel infinitive marker
+
+
+*  %{aäoeöuiy%}:ä   with partitive type koivuu
+*  %{aäoeö%}:ä   newer This is for diphthongs such as the infinitive marker after i and u stems ampuo
+* %{aäuyiØ%}:ä  in participle endings anticipating PÄIVY or KOIRU type
+
+ %{ui%}:i   in imperative before %{aä%}:
+
+**%{oö%}:o**
+**%{oö%}:ö**
+
+%{oöØ%}:0   Used in present participle
+
+**%{uy%}:y**
+
+ %{ijPRC%}:j  participle
+*  %{lnrs%}:n   e.g. in perfect participles
+*  %{dtlnr%}:d  e.g. infinitive and Ind+Prs+Pl3
+
+
+
+
+this appears in the illative
+**V1:a**
+**V1:e**
+**V1:i**
+**V1:o**
+**V1:u**
+**V1:y**
+**V1:ä**
+**V1:ö**
+
+These appear with the inessive and adessive
+**V2:a**
+**V2:e**
+**V2:i**
+**V2:o**
+**V2:u**
+**V2:y**
+**V2:ä**
+**V2:ö**
+
+These reduplicate the preceding vowel if it in turn is preceded by a consonant
+**V3:a**
+**V3:e**
+**V3:i**
+**V3:o**
+**V3:u**
+**V3:y**
+**V3:ä**
+**V3:ö**
+**V3:0**
+
+%^DEVOICE:0    
+%^VOICE:0     pestä : pezen
+
+**%^SyllBound:0**
+
+
+**%^KS2S:0**
+
+no change
+The example here is for something that should not be done
+We have two infinite sets, Olonets-Karelian and incoming loanwords.
+The original idea was to make a rule changing all instances of 
+adjacent double aa to ua. For this reason a special trigger was
+to be inserted into the lexc stem of a word to prevent such a rule
+from occurring. Since the infinite Olonets-Karelian set is more predictable
+and perhaps smaller than the incoming loanword set, it is better
+to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
+%^NONE:0 This will break vowel change, e.g. sa%^NONEamelaine
+
+
+%^Pen:0   pagisou paistah in combination with WGStem to trigger
+
+
+
+%^D2Z:0	  ! The ti => zi
+
+
+
+%^E2O:0	  the e => o, e => ö
+
+
+%^Ä2I:0		  ä => i
+%^A2UÄ2I:0		  a => u, ä => i
+
+%^ILoss:0    the i => 0 **reboi reboloi**
+%^V2U:0	     v => y **kävvä käydy**
+
+_%^RVow:0   _ 
+_%^RmVow:0   _ vowel removal, e.g. with superlative
+
+
+
+
+
+
+Triggers dictating right context phenomena
+* _%{back%}:0 _ back harmony until harmony boundary, i.e. word boundary
+* _%{front%}:0 _ front harmony until harmony boundary, i.e. word boundary
+
+
+
+
+### Sets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Right context for gradation
+
+
+# Rules
+
+
+
+
+
+
+
+
+
+**Rule: %{aä%}:a**
+kuvitella+V+Inf: **imagine/kuvitella**
+* *kuvittel%{back%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
+* *kuvi0tel00%>la0*
+
+**Rule: %{aä%}:ä**
+ezitellä+V+Inf: **present/esitellä**
+* *ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
+* *ezi0tel00%>lä0*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Rule: %{aäoeö%}:a**
+
+**Rule: %{aäoeö%}:ä**
+heittiä+V+Inf: **throw/heittää**
+* *heittä%{front%}%>%{aäoeö%}*
+* *heitti0%>ä*
+
+**Rule: %{aäoeö%}:o**
+
+**Rule: %{aäoeö%}:e**
+
+**Rule: %{aäoeö%}:ö**
+
+**Rule: {aäoeöuiy%}:a**
+
+**Rule: {aäoeöuiy%}:ä**
+
+**Rule: {aäoeöuiy%}:o**
+
+**Rule: {aäoeöuiy%}:e**
+
+**Rule: {aäoeöuiy%}:ö**
+
+**Rule: {aäoeöuiy%}:u**
+
+**Rule: {aäoeöuiy%}:i**
+
+**Rule: {aäoeöuiy%}:y**
+
+
+**Rule: e:0**
+
+
+**Rule: %{ui%}:u**
+```
+* %{front%}:0  ! imperative forms
+* *kanda%{back%}%>kk%{ui%}%{aä%}mm%{oö%}*
+* *kanda0%>kkuammo*
+```
+
+**Rule: %{ui%}:i**
+```
+* %{front%}:0  ! imperative forms
+* *lʼykkä%{front%}%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}*
+* *lʼyk0ä00%>kkiämmö*
+```
+
+**Rule: %{ui%}:i**
+**Rule: %{ui%}:i**
+**Rule: %{ui%}:i**
+
+
+
+**Rule: %{aäuyiØ%}:a**
+
+**Rule: %{aäuyiØ%}:u**
+
+**Rule: %{aäuyiØ%}:ä**
+
+**Rule: %{aäuyiØ%}:y**
+
+**Rule: %{aäuyiØ%}:i**
+
+**Rule: %{aäuyiØ%}:0**
+
+
+**a:u before subsequent a**  Diphthong a+a => ua
+ostua+V+Inf: **buy/ostaa**
+
+*osta%>%{aä%} examples:*
+
+*ostu%>%{aä%} examples:*
+
+**ä:i before subsequent A2**  Diphthong ä+ä => iä
+kehittiä+V+Inf: **develop/kehittää**
+
+*kehittä%>%{aä%} examples:*
+
+*kehitti%>ä examples:*
+
+
+**o:u before subsequent o** Diphthong o+o => uo erota:eruou
+
+*ero%>%{oö%}%>n examples:*
+
+*eru0o%>n examples:*
+
+*runo%>%{oö%} examples:*
+
+*runu%>o examples:*
+
+*jo%>vv%{aä%} examples:*
+
+*ju%>vva examples:*
+
+
+**ö:y before subsequent ö** Diphthong ö+ö, ö+%{oö%}:ö => yö
+
+*sö%>ö%>y examples:*
+
+*sy%>ö%>y examples:*
+
+*pöllö%>ö examples:*
+
+*pölly%>ö examples:*
+
+*sö%>vvä examples:*
+
+*sy%>vvä examples:*
+
+**e:i before subsequent :e** Diphthong o+o => uo erota:eruou
+```
+
+*valge%>e%^WGStem%>t examples:*
+
+*valgi%>e00t examples:*
+
+*hävi%>%{aäPar%}%>n examples:*
+
+*hävi%>e0n examples:*
+
+*tiedo%^WGStem%>n examples:*
+
+*tiijo0%>n examples:*
+
+* *väge%{front%}%^WGStem>n*
+* *vä0i00%>n*
+
+*luge>%{ijPRC%} examples:*
+
+*lugi%>j examples:*
+
+```
+
+
+**e:o** Vowel harmony suffixes Back
+```
+
+*luge%^E2O%>u examples:*
+
+*lugo%>u examples:*
+```
+
+**e:ö** Vowel harmony 
+
+*käske%^E2O%>y examples:*
+
+*käskö0%>y examples:*
+
+**Rule: ä:y word final**
+
+**Rule: ä:ö word final**
+
+
+**Rule: a:0 in suaja:sai**
+```
+*  a _ (%{back%}:)  %^RmVow:  ;  Vowel shortening before subsequent "i"
+
+*koira%^RmVow%>i%>en examples:*
+
+*koir00%>i%>en examples:*
+
+*koira0%>j%>en examples:*
+
+*vahna%^RmVow%>in examples:*
+
+*vahn00%>in examples:*
+* *otta%{back%}%^WGStem%^RmVow%>in*
+* *ot00000%>in*
+```
+
+## iToj between vowels
+**Rule: i:j**
+
+**%{ijPRC%}:i** 
+```
+*  a _ (%{back%}:)  %^RmVow:  ;  +ActPrsPrc
+```
+
+
+
+**Rule: a:o in the plural and preterite**
+* *muama%{back%}%^A2O*
+* *muamo00*
+
+**a:e**  pidiä
+
+*kanda%^WGStem%^E1%>tt%{aäDiph%}s examples:*
+
+*kanne00%>ttas examples:*
+
+*kirjava%^E1%>m%^NONEb examples:*
+
+*kirjave0%>m0b examples:*
+
+**ä:e piettih and in comparatives**  pidiä
+* *mečästä%{front%}%^E1%>tt%{aä%}s*
+* *mečäste00%>ttäs*
+
+
+**Rule: ä:0 pidiä:pidi**
+
+**Rule: i:0 reboi:reboloi**
+* *rodi%^RmVow%>i%>h*
+* *rod00%>i%>h*
+
+
+**%{oö%}:o** Vowel harmony suffixes Back
+**%{oö%}:ö** Vowel harmony suffixes Front
+
+
+**%{oöØ%}:0** Vowel harmony suffixes Back
+
+**%{oöØ%}:o** Vowel harmony suffixes Back
+
+*luge%>%{ijPRC%}%>%{oöØ%}%>i%>n examples:*
+
+*lugi%>j%>o%>i%>s examples:*
+
+**%{oöØ%}:ö** Vowel harmony suffixes Front
+
+
+
+**%{uy%}:u** Vowel harmony suffixes Back
+* *tul%>%{lnrs%}%{uy%}h*
+* *tul%>luh*
+
+**%{uy%}:y** Vowel harmony suffixes Front
+
+## Consonant change
+
+**Rule: g:j**
+```
+* *poiga%^WGStem%>n*
+* *poija0%>n*
+```
+
+**Rule: g:v**
+* *jog%{back%}e%^WGStem%>n*
+* *jov0e0%>n*
+
+* *jog%{back%}e%^WGStem%>n*
+* *jov0e0%>n*
+
+
+
+**g:l**  
+* *sulga%^WGStem%>n*
+* *sulla0%>n*
+* *jalga%^A2O%>i%^WGStem%>s*
+* *jallo0%>i0%>s*
+sulgu+N+Pl+Ins **feather/sulka**
+* *sulga%^RmVow%>i%^WGStem%>n*
+* *sull0%>i0%>n*
+
+**g:r**  
+```
+
+*särge%^WGStem%>n examples:*
+
+*särre0%>n examples:*
+
+*kergi%^WGStem%>t%{aäPar%} examples:*
+
+*kerri0%>tä examples:*
+```
+
+**d:v**  
+```
+d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; 
+          u a           _   o       (%{back%}:) %^WGStem:0 ; 
+          a             _   u       (%{back%}:) %^WGStem:0 ; 
+        [ u o: | u: ]   _  [ (%{back%}:) e | a: ]  (%{back%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
+        [ ä y: ]   _  [(%{front%}:) e | y ]  (%{front%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
+* *täydy%{front%}%^WGStem*
+* *tävvy00*
+
+```
+
+**Rule: v:y**
+**d:j**  
+* *maido%^WGStem%>n*
+* *maijo0%>n*
+* *tiedo%^WGStem%>n*
+* *tiijo0%>n*
+* *tiedä%^WGStem%>n*
+* *tiijä0%>n*
+
+
+**Rule: y:v**
+
+*täydy%^WGStem examples:*
+
+*tävvy0 examples:*
+lʼöydiä:lʼövvä
+
+**Rule: u:v**
+juodu+N+Pl+Ade
+* *juoda%{back%}%^RmVow%>i%^WGStem%>l*
+* *juod000%>i0%>l*
+soudua:sovva
+
+**o:v Lengthening with Ut:vv weakening**  
+```
+```
+
+**d:z**  
+* *vuod%^D2Z%>i*
+* *vuoz0%>i*
+* *tunde%^RmVow%>i*
+* *tunz00%>i*
+
+**d:t in partitive**  
+
+*pagis%>d%{aä%}%^WGStemh examples:*
+
+*pa0is%>ta0h examples:*
+
+**Rule: s:z**
+```
+* s:z <=> _ (HarmDummy:) %^VOICE:0 ;  pestä: pezen
+```
+
+**k:g** pestä: peskäh
+
+
+**rd:rr weakening**  
+
+
+**ld:ll weakening**  
+
+**nd:nn weakening** 
+mennä+Ind+Prs+ScPl3: mennäh
+
+*kanda%^WGStem%^E1%>tt%{aä%}s examples:*
+
+*kanne00%>ttas examples:*
+
+
+**rn:rr in prtprc**  
+
+**ln:ll in prtprc**  
+* *tul%>%{lnrs%}%{uy%}h*
+* *tul%>luh*
+ezitellä+V+Inf: **present/esitellä**
+* *ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
+* *ezi0tel00%>lä0*
+
+**sn:ss in prtprc**  
+
+**Rule: %{dtlnr%}:d**
+
+**Rule: %{dtlnr%}:t**
+
+**Rule: %{dtlnr%}:l**
+tulla+Ind+Prs+ScPl3: tullah
+* *tul%{back%}%>%{dtlnr%}%{aä%}*
+* *tul0%>la*
+kuvitella+V+Inf
+* *kuvittel%{back%}%^WGStem%>%{dtlnr%}%{aä%}*
+* *kuvi0tel00%>la*
+
+**Rule: %{dtlnr%}:n**
+
+**Rule: %{dtlnr%}:r**
+
+### CONSONANT LOSS
+
+**čToZero**  
+```
+* s:z <=> _ (HarmDummy:) %^VOICE:0 ;  suvaija:suvaičen
+```
+
+**kToZero**  aika: ajan
+```
+* *lʼykkä%{front%}%^WGStem%>t%{AÄ%}*
+* *lʼy0kä00%>tä*
+* *abuniekka%{back%}%^A2O%>i%>l*
+* *abunie0ko00%>i%>l*
+* *liikkeh%{front%}%^WGStem*
+* *lii0keh00*
+
+```
+
+**gToZero**  aika: ajan
+* *väge%{front%}%^WGStem>n*
+* *vä0i00%>n*
+* *pagis%{back%}%^Pen%^WGStem%>%{dtlnr%}%{aä%}h*
+* *pa0is000%>tah*
+
+
+
+ezitellä+V+Inf: **present/esitellä**
+* *ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
+* *ezi0tel00%>lä0*
+
+*tavoitteh%^WGStem examples:*
+
+*tavoi0teh0 examples:*
+
+* *kuul%>t%{aä%}%^WGStem*
+* *kuul%>la0*
+
+**b:v**  
+
+**Rule: b:v**
+```
+b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
+```
+
+**p:0 in lapsi**  
+* *kuoppa%{back%}%^WGStem%^RmVow%>i%>l*
+* *kuo0p0000%>i%>l*
+
+
+## Consonant loss
+**d:0**   pidiä:piän
+
+*pidä%^WGStem%>n examples:*
+
+*pi0ä0%>n examples:*
+
+**s:0**   
+
+*bussa%^WGStem%>l examples:*
+
+*bu0sa0%>l examples:*
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/phonology.twolc)</small>
 # The tags and root lexica of the morphological fst of Livvi
 
 ## Multichar symbols
@@ -2369,119 +2978,944 @@ WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/symbols.lexc)</small>Proper noun inflection
+The LIVVI-KARELIAN language proper nouns inflect in the same cases as regular
+nouns, but sometimes with a colon (':') as separator.
 
-Erzya proper nouns inflect in the same cases as regular
-nouns.
+LEXICON PROP_ 
 
+### ONE-SYLLABLE LEMMA AND STEM
+LEXICON PROP_VYÖ vyö:vyö
 
+LEXICON PROP_MUA mua:maa
 
 
 
-Vili:Vil
+### TWO-SYLLABLE LEMMA AND STEM
+LEXICON PROP_OZA
+Gradation NA
+Back vowel
+Stem  vowel a
+Plural stem in i
 
+LEXICON PROP_OZA_FEM
 
+LEXICON PROP-PLC_OZA
 
-Russian type Surnames 
-Abdʼejev:Abdʼejev
 
-Bagrij:Bagr
+LEXICON PROP_KALA 
+Gradation NA
+Back vowel
+Stem  vowel a
+Plural stem in oi
 
-Amorskij:Amorsk
 
 
+LEXICON PROP_KALA_PATRFEM 
 
+LEXICON PROP-PLC_KALA 
 
+LEXICON PROP_KALA_SURFEM 
 
 
 
 
+LEXICON PROP_PAPPI 
+Gradation Yes
+Back vowel
+Stem	 vowel i
+Plural stem in iloi
 
+LEXICON PROP_PAPPI-SG 
 
+LEXICON PROP_PAPPI-PL 
 
+LEXICON PROP-PLC_PAPPI 
 
+LEXICON PROP_ARTELI
+Gradation NA
+Back vowel
+Stem  vowel i
+Plural stem in iloi
 
+LEXICON PROP_ARTELI-SG
 
+LEXICON PROP_ARTELI-PL
 
 
+LEXICON PROP_LEIRI
+Gradation NA
+Front vowel
+Stem  vowel i
+Plural stem in iloi
 
+LEXICON PROP_LEIRI-SG
 
+LEXICON PROP_LEIRI-PL
 
 
 
+LEXICON PROP_NIMI nimi:nim
+Gradation NA
+Front vowel
+Stem	 vowel i/e
+Plural stem in i
 
 
+LEXICON PROP_JÄLGI 
+Gradation Yes
+Vowel Harmony Front
+Stem Vowel i/0/e
+Plural stem in i
 
+LEXICON PROP_JÄLGI-SG 
 
+LEXICON PROP_JÄLGI-PL 
 
 
 
 
 
+LEXICON PROP_SUARI suari:suar
+Gradation NA
+Vowel Harmony Back
+Stem Vowel i/0/e
+Plural stem in i
 
 
 
 
+LEXICON PROP_REBOI reboi:reboi
+Gradation NA
+Vowel Harmony Back
+Stem Vowel oi/o
+Plural stem in oloi
 
 
 
 
+LEXICON PROP_KOIRU koiru:koira
+Gradation NA
+Back vowel
+Stem	 vowel u/a
+Plural stem in i
 
 
+LEXICON PROP-PLC_KOIRU koiru:koira
 
 
+LEXICON PROP_PÄIVY päivy:päivä
+Gradation NA
+Vowel Harmony Front
+Stem Vowel y/ä
+Plural stem in i
 
 
 
 
 
+LEXICON PROP-PLC_KNIIGU kniigu:kniiga
+Gradation No (looks like it should have gradation)
+Vowel Harmony Back
+Stem Vowel u/a
+Plural stem in oi
 
+LEXICON PROP_MUARJU muarju:muarja
+Gradation NA
+Vowel Harmony Back
+Stem Vowel u:a
+Plural stem in o
 
 
+LEXICON PROP-PLC_MUARJU muarju:muarja
 
 
 
 
+LEXICON PROP_AKKU akku:akka
+Gradation Yes
+Vowel Harmony Back
+Stem Vowel u:a
+Plural stem in o
 
 
 
+LEXICON PROP_KOIVU koivu:koivu
+Back vowel
+Gradation NA
+Stem vowel u
+Plural stem in loi
+Can be merged with _RUNO
 
 
 
+LEXICON PROP_RUNO runo:runo
+Back	vowel
+Gradation NA
+Stem vowel o
+Plural stem in loi
 
+LEXICON PROP_RUADO ruado:ruado
+Back vowel
+Gradation Yes
+Stem vowel o
+Plural stem in loi
 
+LEXICON PROP-PLC_RUADO ruado:ruado
 
+LEXICON PROP_KYNDÖ kyndö:kyndö
+Front vowel
+Gradation Yes
+Stem vowel o
+Plural stem in loi
 
 
+LEXICON PROP_VALGEI 
+Back	vowel
+Gradation NA
 
+LEXICON PROP_VALGEI-SG 
 
+LEXICON PROP_VALGEI-PL 
 
 
 
 
+### TWO-SYLLABLE LEMMA THREE-SYLLABLE STEM
 
+LEXICON PROP_KARJAL karjal:karjal
+Back vowel
+Gradation NA
+Singular stem vowel 0/a
+Plural stem vowel o
 
 
+LEXICON PROP-MAL_KARJAL 
 
+LEXICON PROP_KARJALAINE karjalaine:karjala
 
+LEXICON PROP_KIELINE kieline:kieli
 
+**LEXICON PROP-PLC_TVER** Tver:Tver
 
 
+**LEXICON PROP-PLC_TAIGIN**
 
 
+**LEXICON PROP_PEREH** pereh:pereh
 
 
+**LEXICON PROP_VIDEL** videl:videl
 
 
+* LEXICON PROP_VIDEL Pavlovič:Pavlov
 
 
+LEXICON PROP-PLC_ALUS Alus:Aluks
 
+LEXICON PROP_ALUS Alus:Aluks
 
+LEXICON PROP_KONDII kondii:kondi
 
+LEXICON PROP_STIPENDII kondii:kondi
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/propernouns.lexc)</small># Verb inflection
 
-DECLENSION LIMITATIONS
+## Temporary lexica
+
+
+* **LEXICON V_** is for ad-hoc incoming verbs, not in xml
+
+
+## Auxiliary verbs
+
+* **LEXICON V-NEG** ei:e
+
+* **LEXICON V-PROH** älä:äl
+
+* **LEXICON V_OLLA** olla:o
+* **LEXICON V_OLLA_01** olla:o
+
+
+
+
+## Regular verbs
+
+### Verbs of the Finnish type 1
+
+V1a
+
+* **LEXICON V_ALENDUA** alendua:alenda
+Harmony: Back
+
+* **LEXICON V_ELLENDIÄ** ellendiä:ellendä
+Harmony: Front
+* **LEXICON V_ALENDUA/ELLENDIÄ_01** ellendiä:ellendä alendua:alenda
+Gradation No
+
+* **LEXICON V_KANDUA** kandua:kanda
+Back Vowel
+* **LEXICON V_KANDUA_01** kandua:kanda
+Gradation Yes
+
+
+
+* **LEXICON V_OTTUA** ottua:otta
+Back Vowel
+* **LEXICON V_OTTUA/HEITTIÄ_01** ottua:otta
+Gradation Yes
+
+
+* **LEXICON V_OTTUA-SG3** ottua:otta
+
+* **LEXICON V_OTTUA-3** ottua:otta
+
+* **LEXICON V_HEITTIÄ** heittä:heittä
+Front vowel
+
+
+* **LEXICON V_HEITTIÄ-SG3** heittä:heittä
+
+* **LEXICON V_HEITTIÄ-3** heittä:tiedä
+
+V1o
+
+* **LEXICON V_PUNUO** punuo:puno
+Back vowel
+* **LEXICON V_PUNUO/XX_01** punuo:puno
+Gradation No
+
+* **LEXICON V_PUNUO-SG3** punuo:puno
+
+V1u
+
+* **LEXICON V_VALUO** valuo:valu
+Back vowel
+* **LEXICON V_VALUO/PYZYÖ_01** valuo:valu
+Gradation No
+similar_to: V_PYZYÖ
+
+
+* **LEXICON V_VALUO-SG3** valuo:valu
+
+
+* **LEXICON V_PYZYÖ** pyzyö:pyzy
+Front vowel
+
+
+* **LEXICON V_PYZYÖ-SG3** pyzyö:pyzy
+
+* **LEXICON V_PYZYÖ-3** pyzyö:pyzy
+
+V1i
+* **LEXICON V_POTKIE** potkie:potki
+Back vowel
+* **LEXICON V_POTKIE/EČČIE_01** potkie:potki
+Gradation No
+Ind+Prt+Sg3
+
+
+* **LEXICON V_POTKIE-SG3** potkie:potki
+
+* **LEXICON V_EČČIE** eččie:ečči
+Front vowel
+
+
+* **LEXICON V_LUGIE** lugie:luge
+Back vowel
+* **LEXICON V_LUGIE/IMIE_01** lugie:luge
+Gradation Yes
+
+* **:%>e INDPRTPL3_ttih ;** 
+* **:%>e INDPRSPL3_tAh ;** 
+
+* **LEXICON V_TUNDIE** tundie:tunde 
+* **LEXICON V_TUNDIE_01** tundie:tunde 
+Gradation Yes
+Back vowel
+
+
+* **:%>e INDPRTPL3_ttih ;** 
+* **:%>e INDPRSPL3_tAh ;** 
+* **LEXICON V_IMIE** imie:ime
+Gradation No
+Front vowel
+
+
+* **LEXICON V_IMIE-SG3_01** imie:ime
+
+* **LEXICON V_PIDIÄ** pidiä:pidä
+Gradation Yes
+Front vowel
+* **LEXICON V_PIDIÄ_01** pidiä:pidä
+
+* **LEXICON V_PIDIÄ-SG3** pidiä:pidä
+* **LEXICON V_PIDIÄ-SG3_01** pidiä:pidä
+
+
+
+### VERBS OF FINNISH TYPE 2 in dA
+
+* **LEXICON V_VOIJA** voija:voi
+* **LEXICON V_VOIJA_01** voija:voi
+
+* **+Inf:%>ja K ;** type 2 also suaha
+
+
+
+* **LEXICON V_ROIJA** roija:roi
+* **LEXICON V_ROIJA_01** roija:roi
+* **+Inf:%>ja K ;** type 2 also suaha
+
+
+* **LEXICON V_SUAJA** suaja:saa
+* **LEXICON V_SUAJA_01** suaja:saa
+* **+Inf:%>ja K ;** type 2 also suaha
+* **+Inf:%>ha K ;** type 2 also suaha
+
+
+* **LEXICON V_JUVVA** juvva:jo
+* **LEXICON V_JUVVA_01** juvva:jo
+
+
+* **LEXICON V_JIÄJÄ** suaja:saa jiäjä:jää
+* **LEXICON V_JIÄJÄ_01** suaja:saa jiäjä:jää
+* **+Inf:%>jä K ;** type 2 also jiähä
+* **+Inf:%>hä K ;** type 2 also jiähä
+
+* **LEXICON V_MYVVÄ** myvvä:mö
+* **LEXICON V_MYVVÄ_01** myvvä:mö
+
+* **LEXICON V_VIIJÄ** viijä:ve
+
+
+* **LEXICON V_NÄHTÄ** nähtä:nä
+* **LEXICON V_NÄHTÄ_01** nähtä:nä
+
+
+
+
+
+
+* **LEXICON V_KÄVVÄ** kävvä:käv
+
+
+
+
+
+
+
+
+### Verbs of the Finnish type 3
+
+* **LEXICON V_TULLA** tulla:tul
+
+* **LEXICON V_ULISTA** ulista:ulis
+
+* **LEXICON V_JUOSTA_BACK** juosta:juoks
+* **LEXICON V_JUOSTA_01** juosta:juoks
+
+
+
+* **LEXICON V_PAISTA** paista:pagis
+* **LEXICON V_PAISTA_01** paista:pagis
+
+
+
+
+
+
+
+* **LEXICON V_PESTÄ** pestä:pes
+
+* **LEXICON V_NOSTA** nosta:no
+* **LEXICON V_NOSTA/XX_01** nosta:no
+
+Verbs of the Finnish type 3 but not identical
+
+* **LEXICON V_KUULTA** kuulta:kuul
+
+* **LEXICON V_KUULTA-SG3** kuulta:kuul
+
+
+* **LEXICON V_VIERTÄ** viertä:vier
+
+
+Verbs of the Finnish type 3 but not identical
+gradation: yes
+
+* **LEXICON V_KUVITELLA** kuvitella:kuvittel
+
+* **LEXICON V_EZITELLAE** ezitellä:ezittel
+
+
+* **LEXICON V_TYPÄTÄ** typätä:typpä
+
+* **LEXICON V_KÄITÄ** käitä:käge
+
+* **LEXICON V_SUVATA** suvata:suva
+
+
+### Verbs of the Finnish type 4
+
+* **LEXICON V_AVATA** avata:ava
+
+gradation: no
+
+* **LEXICON V_ARVOTA** arvota:arvo
+
+gradation: no
+
+* **LEXICON V_KABLITA** kablita:kabli
+
+gradation: no
+
+* **LEXICON V_BAUHUTA** bauhuta:bauhu
+
+* **LEXICON V_BAUHUTA-SG3** bauhuta:bauhu
+
+* **LEXICON V_LANGETA** langeta:lange
+
+gradation: no
+
+* **LEXICON V_ALLATA** allata:alga
+
+gradation: yes
+
+* **LEXICON V_KIKOTA** kikota:kikko
+
+gradation: yes
+
+* **LEXICON V_RUVETA** ruveta:rube
+
+* **LEXICON V_RUVETA-SG3** ruveta:rube
+
+
+* **LEXICON V_HYRRÄTÄ** hyrrätä:hyrrä
+
+
+gradation: no
+
+* **LEXICON V_HÄVITÄ** hävitä:hävi
+
+gradation: no
+
+* **LEXICON V_HÖYRYTÄ** höyrytä:höyry
+
+gradation: no
+
+* **LEXICON V_HÖPSÖTÄ** höpsötä:höpsö
+
+gradation: no
+
+
+* **LEXICON V_BÖVVÄTÄ** bövvätä:böygä
+
+gradation: yes
+
+* **LEXICON V_REVITÄ** revitä:rebi
+
+gradation: yes
+
+* **LEXICON V_PÄITÄ** päitä:päde
+
+gradation: yes
+
+
+
+### Verbs of the Finnish type 5
+
+* **LEXICON V_SUVAIJA** suvaija:suvai
+
+* **LEXICON V_SUVAIJA-SG3** suvaija:suvai
+
+* **LEXICON V_SUVAIJA-3** suvaija:suvai
+
+* **LEXICON V_EMÄNDÖIJÄ** emändöijä:emändöi
+
+
+
+* **LEXICON V_MERKITÄ** merkitä:merki
+* **LEXICON V_MAINITA** mainita:maini
+
+* **LEXICON V_ALETA** aleta:ale (alenov)
+* **LEXICON V_ALETA_01** aleta:ale (alenov)
+
+
+* **LEXICON V_VÄHETÄ** vähetä:vähe (vähenöy)
+* **LEXICON V_VÄHETÄ_01** vähetä:vähe (vähenöy)
+
+* **LEXICON V_VÄHETÄ-SG3** vähetä:vähe (vähenöy)
+
+
+* **LEXICON V_SUATA** suata:suva (suvaiččov)
+* **LEXICON V_SUATA_01** suata:suva (suvaiččov)
+
+* **LEXICON VR_AMBUO** ambuokseh:ambu
+* **LEXICON VR_AMBUO_01** ambuokseh:ambu
+
+* **LEXICON VR_VALUO** valuokseh:valu
+* **LEXICON VR_VALUO/PYZYÖ** valuokseh:valu
+
+* **LEXICON VR_PYZYÖ** valuokseh:valu
+
+
+* **LEXICON VR_PUNUO** punuokseh:puno
+* **LEXICON VR_PUNUO/XX_01** punuokseh:puno
+
+* **LEXICON VR_IMIE** imiekseh:ime
+
+* **LEXICON VR_POTKIE/EČČIE_01** imiekseh:ime
+
+* **LEXICON VR_POTKIE** potkiekseh:potki
+
+
+* **LEXICON VR_PIDIÄ** pidiäkseh:pidä
+* **LEXICON VR_PIDIÄ_01** pidiäkseh:pidä
+
+* **LEXICON VR_KANDUA** kanduakseh:kanda
+* **LEXICON VR_KANDUA_01** kanduakseh:kanda
+
+* **LEXICON VR_KANDUA-SG3** kanduakseh:kanda
+* **LEXICON VR_KANDUA-SG3_01** kanduakseh:kanda
+
+* **LEXICON VR_OTTUA** ottuakseh:otta
+* **LEXICON VR_OTTUA/HEITTIÄ_01** ottuakseh:otta
+
+* **LEXICON VR_EISTIÄ** eistiäkseh:eistä
+
+
+Reflexive verbs
+
+* **LEXICON VR_RODIEKSEH** rodiekseh:rodi
+
+
+* **LEXICON VR_ROIJA** roijakseh:roi
+
+
+* **LEXICON VR_ROITA** roita:roi 
+
+* **LEXICON VR_JUVVA** juvva:jo
+* **LEXICON VR_MYVVÄ** myvvä:mö
+
+* **LEXICON VR_NÄHTÄ** nähtä:nä
+
+
+* **LEXICON VR_TULLA** tuliekseh:tul !this will need work 2013-10-23
+
+* **LEXICON VR_PESTÄ** tuliekseh:tul !this will need work 2013-10-23
+
+* **LEXICON VR_KUVITELLA** kuvitellakseh:kuvittel !this will need work 2016-08-17
+
+* **LEXICON VR_EBAEILLAE** kuvitellakseh:kuvittel !this will need work 2016-08-17
+
+* **LEXICON VR_AVATA** avatakseh:ava (typätäkseh:typpä)
+
+* **LEXICON VR_SUVAIJA** suvaijakseh:suvai
+
+* **LEXICON VR_EMÄNDÖIJÄ** emändöijäkseh:emändöi
+
+
+* **LEXICON VR_MAINITA** mainitakseh:maini
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+V1
+This verb type has two final vowels in the first infinitive
+
+
+
+
+
+**LEXICON V-3SYLL_KIRJUTTUA**  kirjuttua:kirjutta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **LEXICON V-VV_03_Harm-Neutr** tulla:tul
+
+
+
+
+
+
+
+
+* **LEXICON V-VV_KUULLA** kuulla:kuul
+
+
+
+* **LEXICON V-VV_VIERRÄ** vierrä:vier
+
+
+
+
+* **LEXICON V-VV_KUVITELLA/EZITELLAE** kuvitella:kuvittel
+
+
+
+
+
+
+
+
+
+* LEXICON V-VV_KUVITELLA/EZITELLAE suvaija:suvai
+
+
+
+
+* LEXICON V-VV_KUVITELLA/EZITELLAE emändöijä:emändöi
+
+
+
+
+* LEXICON V-VV_KUVITELLA/EZITELLAE mainita:maini
+
+
+
+* LEXICON V-VV_KUVITELLA/EZITELLAE merkitä:merki
+
+
+
+
+
+
+
+
+
+
+
+### REFLEXIVE CONJUGATION
+
+
+
+
+
+
+
+
+
+
+HOW WILL THESE WORK
+
+
+
+
+
+
+
+
+
+
+
+
+HOW WILL THESE WORK
+
+
+
+
+
+
+
+
+HOW WILL THESE WORK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Nonfinites
+
+Forthcoming
+
+## Finites
+
+### INDICATIVE PRESENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON V-VV_KUVITELLA/EZITELLAE type 04
+
+### INDICATIVE PRESENT REFLEXIVE
+
+
+
+
+
+
+* LEXICON V-VV_KUVITELLA/EZITELLAE 
+
+### INDICATIVE PRETERITE
+
+
+
+
+
+
+
+
+
+### INDICATIVE PRETERITE REFLEXIVE
+
+
+
+
+
+
+
+
+
+## Conditional
+
+
+
+
+
+
+
+
+
+
+### CONDITIONAL PRETERITE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **+Pot+Pl3+Rc:%>d%{aä%}%>nehes K ;** Shouldn't THIS be the right form
+
+
+## IMPERATIVE
+
+
+
+
+
+
+
+
+### IMPERATIVE REFLEXIVE
+
+
+
+
+
+
+
+
+
+
+
+
+... and next chapter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2489,83 +3923,7 @@ DECLENSION LIMITATIONS
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/rus-Cyrl-2-Lat-propernouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/rus-Cyrl-2-Lat-propernouns.lexc)</small>
-
-
-* **LEXICON ab-noun**
-
-* **LEXICON ab-adj**
-
-* **LEXICON ab-adv**
-
-* **LEXICON ab-num**
-
-### Lexicons without final period
-
-* **LEXICON ab-nodot-noun**  The bulk
-
-* **LEXICON ab-nodot-adj**
-
-* **LEXICON ab-nodot-adv**
-
-* **LEXICON ab-nodot-num**
-
-### Lexicons with final period
-
-* **LEXICON ab-dot-noun**  This is the lexicon for abbrs that must have a period.
-
-* **LEXICON ab-dot-adj**  This is the lexicon for abbrs that must have a period.
-
-* **LEXICON ab-dot-adv**  This is the lexicon for abbrs that must have a period.
-
-* **LEXICON ab-dot-num**  This is the lexicon for abbrs that must have a period.
-
-* **LEXICON ab-dot-cc**
-
-
-
-
-
-* **LEXICON ab-dot-verb**
-
-* **LEXICON ab-nodot-verb**
-
-
-* **LEXICON ab-dot-IVprfprc**
-
-
-* **LEXICON nodot-attrnomaccgen-infl**
-
-* **LEXICON nodot-attr-infl**
-
-* **LEXICON nodot-nomaccgen-infl**
-
-
-
-* **LEXICON dot-attrnomaccgen-infl**
-
-* **LEXICON dot-attr**
-
-* **LEXICON dot-nomaccgen-infl**
-
-
-* **LEXICON DOT** - Adds the dot to dotted abbreviations.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/abbreviations.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/abbreviations.lexc)</small>Clitics
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/verbs.lexc)</small>Clitics
 Livvi clitics
 
 
@@ -2573,55 +3931,197 @@ Livvi clitics
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/clitics.lexc)</small>Quantifier inflection
-Livvi quantifiers inflect for case.
+<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/clitics.lexc)</small># Livvi adjective inflection
+
+
+## Temporary lexica
+
+* LEXICON Q_X 
+
+* LEXICON A_ 
+
+## Somewhat open issues
+
+* LEXICON A_TULLUT IS THIS LIVVI? tullut:tullu
+
+* LEXICON A_EX needs to be changed to @exclude=fst
+
+LEXICON A_BAHUV 
+
+LEXICON A_UNDECL undeclinable fin: taipumaton
+
+LEXICON A_IS-N-PL-GEN genitive plural attributes
+
+LEXICON A_IS-N-SG-GEN genitive plural attributes
+
+LEXICON A-DEM_NÄMÄ nämä:nämä
+
+
+
+### ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
+LEXICON A_KUU kuu:kuu
+
+LEXICON A_MUA mua:maa
+
+LEXICON A_PIÄ piä:piä
+
+
+## Ordinary inflection
+
+### TWO-SYLLABLE VOWEL-FINAL STEMS
+LEXICON A_HYVÄ hyvä:hyvä
+the comparatives and superlatives are supletive
+
+LEXICON A_OZA oza:oza
+
+LEXICON A_SÄYNÄ säynä:säynä
+
+LEXICON A_KALA kala:kala
+
+LEXICON A_KOIVU koivu:koivu
+
+LEXICON A_HERY hery:hery
+
+LEXICON A_LUGU lugu:lugu
+
+LEXICON A_IDY idy:idy
 
 
 
 
-**LEXICON NUM_MUARJU** muarju:muarja
+LEXICON A_HÄKKI häkki:häkki
+
+LEXICON A_ARTELI 
+
+LEXICON A_ALUS alus:aluks
+
+
+LEXICON A_KUURNIS kuurnis:kuurne
+
+LEXICON A_PUHTAHUS puhtahus:puhtahu
+
+LEXICON A_OLUT olut:olu
+
+### TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
+LEXICON A_PÄIVY päivy:päivä
+
+LEXICON A_MUARJU muarju:muarja
+
+
+LEXICON A_AKKU akku:akka
 
 
 
-LEXICON NUM_YKSI yksi:y
+LEXICON A_VALGEI valgei:valge
 
-LEXICON NUM_KAKSI kaksi:ka
-* :hte%^WGStem ORD_01_BACK ; This cannot be final
-
-LEXICON NUM_SEIČČIE seiččie:seičče
-
-LEXICON NUM_NELLI nelli:nell
-
-LEXICON NUM_KAHEKSA kaheksa:kaheksa
-
-LEXICON NUM_YHEKSÄ yheksä:yheksä
-
-LEXICON NUM_TUHAT tuhat:tuha
-LEXICON NUM_TUHAT_01 tuhat:tuha
-
-
-LEXICON NUM_KUUZI kuuzi:kuud
-
-LEXICON NUM_VIIZI viizi:viid
-
-LEXICON NUM_KYMMENE kymmene:kymmen
-LEXICON NUM_KYMMENE_01 kymmene:kymmen
-
-LEXICON NUM_KOLME 
-
-
-
-
-LEXICON ORD_TOINE toine:to
-
-
-LEXICON ORD_KARJALAINE enzimäine:ensimä
-
-LEXICON ORD_LIYGILÄINE enzimäine:ensimä
+LEXICON A_RAHMANNOI rahmannoi:rahmannoi
 
 
 
 
+LEXICON A_PAGIZII pagizii:pagizi
+
+
+
+LEXICON A_KESTÄY kestäy:kestä
+
+### TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
+
+
+### THREE-SYLLABLE VOWEL-FINAL STEMS
+LEXICON A_PAREMBI parembi:paremb
+
+LEXICON A_JIÄTÖI jiätöi:jiät
+LEXICON A_HUOLETOI huoletoi:huolet
+LEXICON A_HUOLETOI/JIÄTÖI huoletoi:huolet
+
+LEXICON A_KARJALAINE karjalaine:karjala
+
+LEXICON A_LIYGILÄINE liygiläine:liygilä
+
+LEXICON A_NAINE naine:nai
+LEXICON A_KIELINE kieline:kieli
+LEXICON A_NAINE/KIELINE_01 kieline:kieli naine:nai
+
+LEXICON A_TOINE toine:to
+LEXICON A_TOINE-PL toine:to
+
+### THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
+
+LEXICON A_MADAL madal:madal
+
+LEXICON A_PIIRAI piirai:piira 
+
+LEXICON A_RAIŠ raiš:ra
+
+
+LEXICON A_PEREH pereh:pereh
+
+LEXICON A_TULLUH tulluh:tullu
+
+LEXICON A_PESSYH pessyh:pessy
+
+LEXICON A_ARMAS armas:arma
+
+LEXICON A_VARVAS varvas:varva
+
+LEXICON A_TUORES tuores:tuore
+
+
+LEXICON A_SUARI suari:suar
+
+LEXICON A_KIELI kieli:kiel
+LEXICON A_SUARI/KIELI_01 suari:suar
+
+LEXICON A_VUOZI vuozi:vuod
+
+LEXICON A_VEZI vezi:ved
+
+LEXICON A_NIMI nimi:nim
+
+LEXICON A_JÄLGI jälgi:jälg
+front vowel
+gradation Yes
+
+
+
+### TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
+
+LEXICON A_VAŽEN važen:važe
+
+
+LEXICON A_LÄMMIN lämmin:lämbi
+
+LEXICON A_TAIGIN taigin:taigin
+
+LEXICON A_SALBOIN salboin:salboi
+
+LEXICON A_ENIN enin:eni
+
+
+
+
+These cases are symmetrically marked for number
+The next two share the same stem vowel
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+# Olonets numerals 
+
+# Numeral inflection
+Numeral inflection is like nominal, except that numerals compound in all
+forms which requires great amount of care in the inflection patterns.
+
+
+
+
+
+
+* **LEXICON ARABICCOMPOUNDS**  ! 1-osainen
 
 
 
@@ -2637,6 +4137,11 @@ LEXICON ORD_LIYGILÄINE enzimäine:ensimä
 
 
 
+* **LEXICON ARABICCASES**  adds +Arab
+
+* **LEXICON ARABICCASE**  adds +Arab
+
+* **LEXICON ARABICCASE0**  adds +Arab
 
 
 
@@ -2655,7 +4160,7 @@ LEXICON ORD_LIYGILÄINE enzimäine:ensimä
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/quantifiers.lexc)</small># Noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/numerals.lexc)</small># Noun inflection
 Livvi nouns inflect in cases.
 Vowel harmony involves front and back
 Gradation does not affect all consonants, therefore
@@ -3817,185 +5322,83 @@ LEXICON SGNOM/PXSP3 adding -h
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/nouns.lexc)</small># Livvi adjective inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/nouns.lexc)</small>
 
 
-## Temporary lexica
+* **LEXICON ab-noun**
 
-* LEXICON Q_X 
+* **LEXICON ab-adj**
 
-* LEXICON A_ 
+* **LEXICON ab-adv**
 
-## Somewhat open issues
+* **LEXICON ab-num**
 
-* LEXICON A_TULLUT IS THIS LIVVI? tullut:tullu
+### Lexicons without final period
 
-* LEXICON A_EX needs to be changed to @exclude=fst
+* **LEXICON ab-nodot-noun**  The bulk
 
-LEXICON A_BAHUV 
+* **LEXICON ab-nodot-adj**
 
-LEXICON A_UNDECL undeclinable fin: taipumaton
+* **LEXICON ab-nodot-adv**
 
-LEXICON A_IS-N-PL-GEN genitive plural attributes
+* **LEXICON ab-nodot-num**
 
-LEXICON A_IS-N-SG-GEN genitive plural attributes
+### Lexicons with final period
 
-LEXICON A-DEM_NÄMÄ nämä:nämä
+* **LEXICON ab-dot-noun**  This is the lexicon for abbrs that must have a period.
 
+* **LEXICON ab-dot-adj**  This is the lexicon for abbrs that must have a period.
 
+* **LEXICON ab-dot-adv**  This is the lexicon for abbrs that must have a period.
 
-### ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
-LEXICON A_KUU kuu:kuu
+* **LEXICON ab-dot-num**  This is the lexicon for abbrs that must have a period.
 
-LEXICON A_MUA mua:maa
+* **LEXICON ab-dot-cc**
 
-LEXICON A_PIÄ piä:piä
 
 
-## Ordinary inflection
 
-### TWO-SYLLABLE VOWEL-FINAL STEMS
-LEXICON A_HYVÄ hyvä:hyvä
-the comparatives and superlatives are supletive
 
-LEXICON A_OZA oza:oza
+* **LEXICON ab-dot-verb**
 
-LEXICON A_SÄYNÄ säynä:säynä
+* **LEXICON ab-nodot-verb**
 
-LEXICON A_KALA kala:kala
 
-LEXICON A_KOIVU koivu:koivu
+* **LEXICON ab-dot-IVprfprc**
 
-LEXICON A_HERY hery:hery
 
-LEXICON A_LUGU lugu:lugu
+* **LEXICON nodot-attrnomaccgen-infl**
 
-LEXICON A_IDY idy:idy
+* **LEXICON nodot-attr-infl**
 
+* **LEXICON nodot-nomaccgen-infl**
 
 
 
-LEXICON A_HÄKKI häkki:häkki
+* **LEXICON dot-attrnomaccgen-infl**
 
-LEXICON A_ARTELI 
+* **LEXICON dot-attr**
 
-LEXICON A_ALUS alus:aluks
+* **LEXICON dot-nomaccgen-infl**
 
 
-LEXICON A_KUURNIS kuurnis:kuurne
+* **LEXICON DOT** - Adds the dot to dotted abbreviations.
 
-LEXICON A_PUHTAHUS puhtahus:puhtahu
 
-LEXICON A_OLUT olut:olu
 
-### TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE +Nom+Sg VOWEL
-LEXICON A_PÄIVY päivy:päivä
 
-LEXICON A_MUARJU muarju:muarja
 
 
-LEXICON A_AKKU akku:akka
 
 
 
-LEXICON A_VALGEI valgei:valge
-
-LEXICON A_RAHMANNOI rahmannoi:rahmannoi
-
-
-
-
-LEXICON A_PAGIZII pagizii:pagizi
-
-
-
-LEXICON A_KESTÄY kestäy:kestä
-
-### TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
-
-
-### THREE-SYLLABLE VOWEL-FINAL STEMS
-LEXICON A_PAREMBI parembi:paremb
-
-LEXICON A_JIÄTÖI jiätöi:jiät
-LEXICON A_HUOLETOI huoletoi:huolet
-LEXICON A_HUOLETOI/JIÄTÖI huoletoi:huolet
-
-LEXICON A_KARJALAINE karjalaine:karjala
-
-LEXICON A_LIYGILÄINE liygiläine:liygilä
-
-LEXICON A_NAINE naine:nai
-LEXICON A_KIELINE kieline:kieli
-LEXICON A_NAINE/KIELINE_01 kieline:kieli naine:nai
-
-LEXICON A_TOINE toine:to
-LEXICON A_TOINE-PL toine:to
-
-### THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
-
-LEXICON A_MADAL madal:madal
-
-LEXICON A_PIIRAI piirai:piira 
-
-LEXICON A_RAIŠ raiš:ra
-
-
-LEXICON A_PEREH pereh:pereh
-
-LEXICON A_TULLUH tulluh:tullu
-
-LEXICON A_PESSYH pessyh:pessy
-
-LEXICON A_ARMAS armas:arma
-
-LEXICON A_VARVAS varvas:varva
-
-LEXICON A_TUORES tuores:tuore
-
-
-LEXICON A_SUARI suari:suar
-
-LEXICON A_KIELI kieli:kiel
-LEXICON A_SUARI/KIELI_01 suari:suar
-
-LEXICON A_VUOZI vuozi:vuod
-
-LEXICON A_VEZI vezi:ved
-
-LEXICON A_NIMI nimi:nim
-
-LEXICON A_JÄLGI jälgi:jälg
-front vowel
-gradation Yes
-
-
-
-### TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
-
-LEXICON A_VAŽEN važen:važe
-
-
-LEXICON A_LÄMMIN lämmin:lämbi
-
-LEXICON A_TAIGIN taigin:taigin
-
-LEXICON A_SALBOIN salboin:salboi
-
-LEXICON A_ENIN enin:eni
-
-
-
-
-These cases are symmetrically marked for number
-The next two share the same stem vowel
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/adjectives.lexc)</small>Pronoun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/abbreviations.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/abbreviations.lexc)</small>Pronoun inflection
 Livvi pronouns inflect for case.
 
 
@@ -4076,185 +5479,91 @@ LEXICON PRON_ENÄMBI enämbi:enämb
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/pronouns.lexc)</small># Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/pronouns.lexc)</small>Proper noun inflection
 
-## Temporary lexica
+Erzya proper nouns inflect in the same cases as regular
+nouns.
 
 
-* **LEXICON V_** is for ad-hoc incoming verbs, not in xml
 
 
-## Auxiliary verbs
 
-* **LEXICON V-NEG** ei:e
+Vili:Vil
 
-* **LEXICON V-PROH** älä:äl
 
-* **LEXICON V_OLLA** olla:o
-* **LEXICON V_OLLA_01** olla:o
 
+Russian type Surnames 
+Abdʼejev:Abdʼejev
 
+Bagrij:Bagr
 
+Amorskij:Amorsk
 
-## Regular verbs
 
-### Verbs of the Finnish type 1
 
-V1a
 
-* **LEXICON V_ALENDUA** alendua:alenda
-Harmony: Back
 
-* **LEXICON V_ELLENDIÄ** ellendiä:ellendä
-Harmony: Front
-* **LEXICON V_ALENDUA/ELLENDIÄ_01** ellendiä:ellendä alendua:alenda
-Gradation No
 
-* **LEXICON V_KANDUA** kandua:kanda
-Back Vowel
-* **LEXICON V_KANDUA_01** kandua:kanda
-Gradation Yes
 
 
 
-* **LEXICON V_OTTUA** ottua:otta
-Back Vowel
-* **LEXICON V_OTTUA/HEITTIÄ_01** ottua:otta
-Gradation Yes
 
 
-* **LEXICON V_OTTUA-SG3** ottua:otta
 
-* **LEXICON V_OTTUA-3** ottua:otta
 
-* **LEXICON V_HEITTIÄ** heittä:heittä
-Front vowel
 
 
-* **LEXICON V_HEITTIÄ-SG3** heittä:heittä
 
-* **LEXICON V_HEITTIÄ-3** heittä:tiedä
 
-V1o
 
-* **LEXICON V_PUNUO** punuo:puno
-Back vowel
-* **LEXICON V_PUNUO/XX_01** punuo:puno
-Gradation No
 
-* **LEXICON V_PUNUO-SG3** punuo:puno
 
-V1u
 
-* **LEXICON V_VALUO** valuo:valu
-Back vowel
-* **LEXICON V_VALUO/PYZYÖ_01** valuo:valu
-Gradation No
-similar_to: V_PYZYÖ
 
 
-* **LEXICON V_VALUO-SG3** valuo:valu
 
 
-* **LEXICON V_PYZYÖ** pyzyö:pyzy
-Front vowel
 
 
-* **LEXICON V_PYZYÖ-SG3** pyzyö:pyzy
 
-* **LEXICON V_PYZYÖ-3** pyzyö:pyzy
 
-V1i
-* **LEXICON V_POTKIE** potkie:potki
-Back vowel
-* **LEXICON V_POTKIE/EČČIE_01** potkie:potki
-Gradation No
-Ind+Prt+Sg3
 
 
-* **LEXICON V_POTKIE-SG3** potkie:potki
 
-* **LEXICON V_EČČIE** eččie:ečči
-Front vowel
 
 
-* **LEXICON V_LUGIE** lugie:luge
-Back vowel
-* **LEXICON V_LUGIE/IMIE_01** lugie:luge
-Gradation Yes
 
-* **:%>e INDPRTPL3_ttih ;** 
-* **:%>e INDPRSPL3_tAh ;** 
 
-* **LEXICON V_TUNDIE** tundie:tunde 
-* **LEXICON V_TUNDIE_01** tundie:tunde 
-Gradation Yes
-Back vowel
 
 
-* **:%>e INDPRTPL3_ttih ;** 
-* **:%>e INDPRSPL3_tAh ;** 
-* **LEXICON V_IMIE** imie:ime
-Gradation No
-Front vowel
 
 
-* **LEXICON V_IMIE-SG3_01** imie:ime
 
-* **LEXICON V_PIDIÄ** pidiä:pidä
-Gradation Yes
-Front vowel
-* **LEXICON V_PIDIÄ_01** pidiä:pidä
 
-* **LEXICON V_PIDIÄ-SG3** pidiä:pidä
-* **LEXICON V_PIDIÄ-SG3_01** pidiä:pidä
 
 
 
-### VERBS OF FINNISH TYPE 2 in dA
 
-* **LEXICON V_VOIJA** voija:voi
-* **LEXICON V_VOIJA_01** voija:voi
 
-* **+Inf:%>ja K ;** type 2 also suaha
 
 
 
-* **LEXICON V_ROIJA** roija:roi
-* **LEXICON V_ROIJA_01** roija:roi
-* **+Inf:%>ja K ;** type 2 also suaha
 
 
-* **LEXICON V_SUAJA** suaja:saa
-* **LEXICON V_SUAJA_01** suaja:saa
-* **+Inf:%>ja K ;** type 2 also suaha
-* **+Inf:%>ha K ;** type 2 also suaha
 
 
-* **LEXICON V_JUVVA** juvva:jo
-* **LEXICON V_JUVVA_01** juvva:jo
 
 
-* **LEXICON V_JIÄJÄ** suaja:saa jiäjä:jää
-* **LEXICON V_JIÄJÄ_01** suaja:saa jiäjä:jää
-* **+Inf:%>jä K ;** type 2 also jiähä
-* **+Inf:%>hä K ;** type 2 also jiähä
 
-* **LEXICON V_MYVVÄ** myvvä:mö
-* **LEXICON V_MYVVÄ_01** myvvä:mö
 
-* **LEXICON V_VIIJÄ** viijä:ve
 
 
-* **LEXICON V_NÄHTÄ** nähtä:nä
-* **LEXICON V_NÄHTÄ_01** nähtä:nä
 
 
 
 
 
 
-* **LEXICON V_KÄVVÄ** kävvä:käv
 
 
 
@@ -4263,19 +5572,12 @@ Front vowel
 
 
 
-### Verbs of the Finnish type 3
 
-* **LEXICON V_TULLA** tulla:tul
 
-* **LEXICON V_ULISTA** ulista:ulis
 
-* **LEXICON V_JUOSTA_BACK** juosta:juoks
-* **LEXICON V_JUOSTA_01** juosta:juoks
 
 
 
-* **LEXICON V_PAISTA** paista:pagis
-* **LEXICON V_PAISTA_01** paista:pagis
 
 
 
@@ -4283,494 +5585,14 @@ Front vowel
 
 
 
-* **LEXICON V_PESTÄ** pestä:pes
 
-* **LEXICON V_NOSTA** nosta:no
-* **LEXICON V_NOSTA/XX_01** nosta:no
 
-Verbs of the Finnish type 3 but not identical
 
-* **LEXICON V_KUULTA** kuulta:kuul
 
-* **LEXICON V_KUULTA-SG3** kuulta:kuul
 
 
-* **LEXICON V_VIERTÄ** viertä:vier
 
-
-Verbs of the Finnish type 3 but not identical
-gradation: yes
-
-* **LEXICON V_KUVITELLA** kuvitella:kuvittel
-
-* **LEXICON V_EZITELLAE** ezitellä:ezittel
-
-
-* **LEXICON V_TYPÄTÄ** typätä:typpä
-
-* **LEXICON V_KÄITÄ** käitä:käge
-
-* **LEXICON V_SUVATA** suvata:suva
-
-
-### Verbs of the Finnish type 4
-
-* **LEXICON V_AVATA** avata:ava
-
-gradation: no
-
-* **LEXICON V_ARVOTA** arvota:arvo
-
-gradation: no
-
-* **LEXICON V_KABLITA** kablita:kabli
-
-gradation: no
-
-* **LEXICON V_BAUHUTA** bauhuta:bauhu
-
-* **LEXICON V_BAUHUTA-SG3** bauhuta:bauhu
-
-* **LEXICON V_LANGETA** langeta:lange
-
-gradation: no
-
-* **LEXICON V_ALLATA** allata:alga
-
-gradation: yes
-
-* **LEXICON V_KIKOTA** kikota:kikko
-
-gradation: yes
-
-* **LEXICON V_RUVETA** ruveta:rube
-
-* **LEXICON V_RUVETA-SG3** ruveta:rube
-
-
-* **LEXICON V_HYRRÄTÄ** hyrrätä:hyrrä
-
-
-gradation: no
-
-* **LEXICON V_HÄVITÄ** hävitä:hävi
-
-gradation: no
-
-* **LEXICON V_HÖYRYTÄ** höyrytä:höyry
-
-gradation: no
-
-* **LEXICON V_HÖPSÖTÄ** höpsötä:höpsö
-
-gradation: no
-
-
-* **LEXICON V_BÖVVÄTÄ** bövvätä:böygä
-
-gradation: yes
-
-* **LEXICON V_REVITÄ** revitä:rebi
-
-gradation: yes
-
-* **LEXICON V_PÄITÄ** päitä:päde
-
-gradation: yes
-
-
-
-### Verbs of the Finnish type 5
-
-* **LEXICON V_SUVAIJA** suvaija:suvai
-
-* **LEXICON V_SUVAIJA-SG3** suvaija:suvai
-
-* **LEXICON V_SUVAIJA-3** suvaija:suvai
-
-* **LEXICON V_EMÄNDÖIJÄ** emändöijä:emändöi
-
-
-
-* **LEXICON V_MERKITÄ** merkitä:merki
-* **LEXICON V_MAINITA** mainita:maini
-
-* **LEXICON V_ALETA** aleta:ale (alenov)
-* **LEXICON V_ALETA_01** aleta:ale (alenov)
-
-
-* **LEXICON V_VÄHETÄ** vähetä:vähe (vähenöy)
-* **LEXICON V_VÄHETÄ_01** vähetä:vähe (vähenöy)
-
-* **LEXICON V_VÄHETÄ-SG3** vähetä:vähe (vähenöy)
-
-
-* **LEXICON V_SUATA** suata:suva (suvaiččov)
-* **LEXICON V_SUATA_01** suata:suva (suvaiččov)
-
-* **LEXICON VR_AMBUO** ambuokseh:ambu
-* **LEXICON VR_AMBUO_01** ambuokseh:ambu
-
-* **LEXICON VR_VALUO** valuokseh:valu
-* **LEXICON VR_VALUO/PYZYÖ** valuokseh:valu
-
-* **LEXICON VR_PYZYÖ** valuokseh:valu
-
-
-* **LEXICON VR_PUNUO** punuokseh:puno
-* **LEXICON VR_PUNUO/XX_01** punuokseh:puno
-
-* **LEXICON VR_IMIE** imiekseh:ime
-
-* **LEXICON VR_POTKIE/EČČIE_01** imiekseh:ime
-
-* **LEXICON VR_POTKIE** potkiekseh:potki
-
-
-* **LEXICON VR_PIDIÄ** pidiäkseh:pidä
-* **LEXICON VR_PIDIÄ_01** pidiäkseh:pidä
-
-* **LEXICON VR_KANDUA** kanduakseh:kanda
-* **LEXICON VR_KANDUA_01** kanduakseh:kanda
-
-* **LEXICON VR_KANDUA-SG3** kanduakseh:kanda
-* **LEXICON VR_KANDUA-SG3_01** kanduakseh:kanda
-
-* **LEXICON VR_OTTUA** ottuakseh:otta
-* **LEXICON VR_OTTUA/HEITTIÄ_01** ottuakseh:otta
-
-* **LEXICON VR_EISTIÄ** eistiäkseh:eistä
-
-
-Reflexive verbs
-
-* **LEXICON VR_RODIEKSEH** rodiekseh:rodi
-
-
-* **LEXICON VR_ROIJA** roijakseh:roi
-
-
-* **LEXICON VR_ROITA** roita:roi 
-
-* **LEXICON VR_JUVVA** juvva:jo
-* **LEXICON VR_MYVVÄ** myvvä:mö
-
-* **LEXICON VR_NÄHTÄ** nähtä:nä
-
-
-* **LEXICON VR_TULLA** tuliekseh:tul !this will need work 2013-10-23
-
-* **LEXICON VR_PESTÄ** tuliekseh:tul !this will need work 2013-10-23
-
-* **LEXICON VR_KUVITELLA** kuvitellakseh:kuvittel !this will need work 2016-08-17
-
-* **LEXICON VR_EBAEILLAE** kuvitellakseh:kuvittel !this will need work 2016-08-17
-
-* **LEXICON VR_AVATA** avatakseh:ava (typätäkseh:typpä)
-
-* **LEXICON VR_SUVAIJA** suvaijakseh:suvai
-
-* **LEXICON VR_EMÄNDÖIJÄ** emändöijäkseh:emändöi
-
-
-* **LEXICON VR_MAINITA** mainitakseh:maini
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-V1
-This verb type has two final vowels in the first infinitive
-
-
-
-
-
-**LEXICON V-3SYLL_KIRJUTTUA**  kirjuttua:kirjutta
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **LEXICON V-VV_03_Harm-Neutr** tulla:tul
-
-
-
-
-
-
-
-
-* **LEXICON V-VV_KUULLA** kuulla:kuul
-
-
-
-* **LEXICON V-VV_VIERRÄ** vierrä:vier
-
-
-
-
-* **LEXICON V-VV_KUVITELLA/EZITELLAE** kuvitella:kuvittel
-
-
-
-
-
-
-
-
-
-* LEXICON V-VV_KUVITELLA/EZITELLAE suvaija:suvai
-
-
-
-
-* LEXICON V-VV_KUVITELLA/EZITELLAE emändöijä:emändöi
-
-
-
-
-* LEXICON V-VV_KUVITELLA/EZITELLAE mainita:maini
-
-
-
-* LEXICON V-VV_KUVITELLA/EZITELLAE merkitä:merki
-
-
-
-
-
-
-
-
-
-
-
-### REFLEXIVE CONJUGATION
-
-
-
-
-
-
-
-
-
-
-HOW WILL THESE WORK
-
-
-
-
-
-
-
-
-
-
-
-
-HOW WILL THESE WORK
-
-
-
-
-
-
-
-
-HOW WILL THESE WORK
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Nonfinites
-
-Forthcoming
-
-## Finites
-
-### INDICATIVE PRESENT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON V-VV_KUVITELLA/EZITELLAE type 04
-
-### INDICATIVE PRESENT REFLEXIVE
-
-
-
-
-
-
-* LEXICON V-VV_KUVITELLA/EZITELLAE 
-
-### INDICATIVE PRETERITE
-
-
-
-
-
-
-
-
-
-### INDICATIVE PRETERITE REFLEXIVE
-
-
-
-
-
-
-
-
-
-## Conditional
-
-
-
-
-
-
-
-
-
-
-### CONDITIONAL PRETERITE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **+Pot+Pl3+Rc:%>d%{aä%}%>nehes K ;** Shouldn't THIS be the right form
-
-
-## IMPERATIVE
-
-
-
-
-
-
-
-
-### IMPERATIVE REFLEXIVE
-
-
-
-
-
-
-
-
-
-
-
-
-... and next chapter
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+DECLENSION LIMITATIONS
 
 
 
@@ -4778,58 +5600,7 @@ Forthcoming
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/verbs.lexc)</small>
-# Olonets numerals 
-
-# Numeral inflection
-Numeral inflection is like nominal, except that numerals compound in all
-forms which requires great amount of care in the inflection patterns.
-
-
-
-
-
-
-* **LEXICON ARABICCOMPOUNDS**  ! 1-osainen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **LEXICON ARABICCASES**  adds +Arab
-
-* **LEXICON ARABICCASE**  adds +Arab
-
-* **LEXICON ARABICCASE0**  adds +Arab
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/numerals.lexc)</small>Adverbs 
+<small>This (part of) documentation was generated from [../src/fst/affixes/rus-Cyrl-2-Lat-propernouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/rus-Cyrl-2-Lat-propernouns.lexc)</small>Adverbs 
 Olonets-Karelian adverbs compare.
 
 
@@ -4856,860 +5627,89 @@ LEXICON ADV-IS-ELA-WITH-PXSG3 e.g. levälleh
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/adverbs.lexc)</small>Proper noun inflection
-The LIVVI-KARELIAN language proper nouns inflect in the same cases as regular
-nouns, but sometimes with a colon (':') as separator.
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/adverbs.lexc)</small>Quantifier inflection
+Livvi quantifiers inflect for case.
 
-LEXICON PROP_ 
 
-### ONE-SYLLABLE LEMMA AND STEM
-LEXICON PROP_VYÖ vyö:vyö
 
-LEXICON PROP_MUA mua:maa
 
+**LEXICON NUM_MUARJU** muarju:muarja
 
 
-### TWO-SYLLABLE LEMMA AND STEM
-LEXICON PROP_OZA
-Gradation NA
-Back vowel
-Stem  vowel a
-Plural stem in i
 
-LEXICON PROP_OZA_FEM
+LEXICON NUM_YKSI yksi:y
 
-LEXICON PROP-PLC_OZA
+LEXICON NUM_KAKSI kaksi:ka
+* :hte%^WGStem ORD_01_BACK ; This cannot be final
 
+LEXICON NUM_SEIČČIE seiččie:seičče
 
-LEXICON PROP_KALA 
-Gradation NA
-Back vowel
-Stem  vowel a
-Plural stem in oi
+LEXICON NUM_NELLI nelli:nell
 
+LEXICON NUM_KAHEKSA kaheksa:kaheksa
 
+LEXICON NUM_YHEKSÄ yheksä:yheksä
 
-LEXICON PROP_KALA_PATRFEM 
+LEXICON NUM_TUHAT tuhat:tuha
+LEXICON NUM_TUHAT_01 tuhat:tuha
 
-LEXICON PROP-PLC_KALA 
 
-LEXICON PROP_KALA_SURFEM 
+LEXICON NUM_KUUZI kuuzi:kuud
 
+LEXICON NUM_VIIZI viizi:viid
 
+LEXICON NUM_KYMMENE kymmene:kymmen
+LEXICON NUM_KYMMENE_01 kymmene:kymmen
 
+LEXICON NUM_KOLME 
 
-LEXICON PROP_PAPPI 
-Gradation Yes
-Back vowel
-Stem	 vowel i
-Plural stem in iloi
 
-LEXICON PROP_PAPPI-SG 
 
-LEXICON PROP_PAPPI-PL 
 
-LEXICON PROP-PLC_PAPPI 
+LEXICON ORD_TOINE toine:to
 
-LEXICON PROP_ARTELI
-Gradation NA
-Back vowel
-Stem  vowel i
-Plural stem in iloi
 
-LEXICON PROP_ARTELI-SG
+LEXICON ORD_KARJALAINE enzimäine:ensimä
 
-LEXICON PROP_ARTELI-PL
+LEXICON ORD_LIYGILÄINE enzimäine:ensimä
 
 
-LEXICON PROP_LEIRI
-Gradation NA
-Front vowel
-Stem  vowel i
-Plural stem in iloi
 
-LEXICON PROP_LEIRI-SG
 
-LEXICON PROP_LEIRI-PL
 
 
 
-LEXICON PROP_NIMI nimi:nim
-Gradation NA
-Front vowel
-Stem	 vowel i/e
-Plural stem in i
 
 
-LEXICON PROP_JÄLGI 
-Gradation Yes
-Vowel Harmony Front
-Stem Vowel i/0/e
-Plural stem in i
 
-LEXICON PROP_JÄLGI-SG 
 
-LEXICON PROP_JÄLGI-PL 
 
 
 
 
 
-LEXICON PROP_SUARI suari:suar
-Gradation NA
-Vowel Harmony Back
-Stem Vowel i/0/e
-Plural stem in i
 
 
 
 
-LEXICON PROP_REBOI reboi:reboi
-Gradation NA
-Vowel Harmony Back
-Stem Vowel oi/o
-Plural stem in oloi
 
 
 
 
-LEXICON PROP_KOIRU koiru:koira
-Gradation NA
-Back vowel
-Stem	 vowel u/a
-Plural stem in i
 
 
-LEXICON PROP-PLC_KOIRU koiru:koira
 
 
-LEXICON PROP_PÄIVY päivy:päivä
-Gradation NA
-Vowel Harmony Front
-Stem Vowel y/ä
-Plural stem in i
 
 
 
-
-
-LEXICON PROP-PLC_KNIIGU kniigu:kniiga
-Gradation No (looks like it should have gradation)
-Vowel Harmony Back
-Stem Vowel u/a
-Plural stem in oi
-
-LEXICON PROP_MUARJU muarju:muarja
-Gradation NA
-Vowel Harmony Back
-Stem Vowel u:a
-Plural stem in o
-
-
-LEXICON PROP-PLC_MUARJU muarju:muarja
-
-
-
-
-LEXICON PROP_AKKU akku:akka
-Gradation Yes
-Vowel Harmony Back
-Stem Vowel u:a
-Plural stem in o
-
-
-
-LEXICON PROP_KOIVU koivu:koivu
-Back vowel
-Gradation NA
-Stem vowel u
-Plural stem in loi
-Can be merged with _RUNO
-
-
-
-LEXICON PROP_RUNO runo:runo
-Back	vowel
-Gradation NA
-Stem vowel o
-Plural stem in loi
-
-LEXICON PROP_RUADO ruado:ruado
-Back vowel
-Gradation Yes
-Stem vowel o
-Plural stem in loi
-
-LEXICON PROP-PLC_RUADO ruado:ruado
-
-LEXICON PROP_KYNDÖ kyndö:kyndö
-Front vowel
-Gradation Yes
-Stem vowel o
-Plural stem in loi
-
-
-LEXICON PROP_VALGEI 
-Back	vowel
-Gradation NA
-
-LEXICON PROP_VALGEI-SG 
-
-LEXICON PROP_VALGEI-PL 
-
-
-
-
-### TWO-SYLLABLE LEMMA THREE-SYLLABLE STEM
-
-LEXICON PROP_KARJAL karjal:karjal
-Back vowel
-Gradation NA
-Singular stem vowel 0/a
-Plural stem vowel o
-
-
-LEXICON PROP-MAL_KARJAL 
-
-LEXICON PROP_KARJALAINE karjalaine:karjala
-
-LEXICON PROP_KIELINE kieline:kieli
-
-**LEXICON PROP-PLC_TVER** Tver:Tver
-
-
-**LEXICON PROP-PLC_TAIGIN**
-
-
-**LEXICON PROP_PEREH** pereh:pereh
-
-
-**LEXICON PROP_VIDEL** videl:videl
-
-
-* LEXICON PROP_VIDEL Pavlovič:Pavlov
-
-
-LEXICON PROP-PLC_ALUS Alus:Aluks
-
-LEXICON PROP_ALUS Alus:Aluks
-
-LEXICON PROP_KONDII kondii:kondi
-
-LEXICON PROP_STIPENDII kondii:kondi
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/propernouns.lexc)</small># The Livvi (Olonets) Karelian morphophonological/twolc rules file 
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-olo/blob/main/src/fst/phonology.twolc) 
-
-## Alphatbet, sets
-**a b c č d e f g h i j k l m n o p r s š ş t u v w y z ž ƶ ü ä ö**
-**A B C Č D E F G H I J K L M N O P R S Š Ş T U V W Y Z Ž Ƶ Ü Ä Ö**
-**y**
-**Y**
-**%{aä%}:a**
-**%{aä%}:ä**
-
- %{aoeInf%}:a	 Back vowel infinitive marker
- %{äöeInf%}:ä	 Front vowel infinitive marker
-
-
-*  %{aäoeöuiy%}:ä   with partitive type koivuu
-*  %{aäoeö%}:ä   newer This is for diphthongs such as the infinitive marker after i and u stems ampuo
-* %{aäuyiØ%}:ä  in participle endings anticipating PÄIVY or KOIRU type
-
- %{ui%}:i   in imperative before %{aä%}:
-
-**%{oö%}:o**
-**%{oö%}:ö**
-
-%{oöØ%}:0   Used in present participle
-
-**%{uy%}:y**
-
- %{ijPRC%}:j  participle
-*  %{lnrs%}:n   e.g. in perfect participles
-*  %{dtlnr%}:d  e.g. infinitive and Ind+Prs+Pl3
-
-
-
-
-this appears in the illative
-**V1:a**
-**V1:e**
-**V1:i**
-**V1:o**
-**V1:u**
-**V1:y**
-**V1:ä**
-**V1:ö**
-
-These appear with the inessive and adessive
-**V2:a**
-**V2:e**
-**V2:i**
-**V2:o**
-**V2:u**
-**V2:y**
-**V2:ä**
-**V2:ö**
-
-These reduplicate the preceding vowel if it in turn is preceded by a consonant
-**V3:a**
-**V3:e**
-**V3:i**
-**V3:o**
-**V3:u**
-**V3:y**
-**V3:ä**
-**V3:ö**
-**V3:0**
-
-%^DEVOICE:0    
-%^VOICE:0     pestä : pezen
-
-**%^SyllBound:0**
-
-
-**%^KS2S:0**
-
-no change
-The example here is for something that should not be done
-We have two infinite sets, Olonets-Karelian and incoming loanwords.
-The original idea was to make a rule changing all instances of 
-adjacent double aa to ua. For this reason a special trigger was
-to be inserted into the lexc stem of a word to prevent such a rule
-from occurring. Since the infinite Olonets-Karelian set is more predictable
-and perhaps smaller than the incoming loanword set, it is better
-to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
-%^NONE:0 This will break vowel change, e.g. sa%^NONEamelaine
-
-
-%^Pen:0   pagisou paistah in combination with WGStem to trigger
-
-
-
-%^D2Z:0	  ! The ti => zi
-
-
-
-%^E2O:0	  the e => o, e => ö
-
-
-%^Ä2I:0		  ä => i
-%^A2UÄ2I:0		  a => u, ä => i
-
-%^ILoss:0    the i => 0 **reboi reboloi**
-%^V2U:0	     v => y **kävvä käydy**
-
-_%^RVow:0   _ 
-_%^RmVow:0   _ vowel removal, e.g. with superlative
-
-
-
-
-
-
-Triggers dictating right context phenomena
-* _%{back%}:0 _ back harmony until harmony boundary, i.e. word boundary
-* _%{front%}:0 _ front harmony until harmony boundary, i.e. word boundary
-
-
-
-
-### Sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Right context for gradation
-
-
-# Rules
-
-
-
-
-
-
-
-
-
-**Rule: %{aä%}:a**
-kuvitella+V+Inf: **imagine/kuvitella**
-* *kuvittel%{back%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
-* *kuvi0tel00%>la0*
-
-**Rule: %{aä%}:ä**
-ezitellä+V+Inf: **present/esitellä**
-* *ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
-* *ezi0tel00%>lä0*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Rule: %{aäoeö%}:a**
-
-**Rule: %{aäoeö%}:ä**
-heittiä+V+Inf: **throw/heittää**
-* *heittä%{front%}%>%{aäoeö%}*
-* *heitti0%>ä*
-
-**Rule: %{aäoeö%}:o**
-
-**Rule: %{aäoeö%}:e**
-
-**Rule: %{aäoeö%}:ö**
-
-**Rule: {aäoeöuiy%}:a**
-
-**Rule: {aäoeöuiy%}:ä**
-
-**Rule: {aäoeöuiy%}:o**
-
-**Rule: {aäoeöuiy%}:e**
-
-**Rule: {aäoeöuiy%}:ö**
-
-**Rule: {aäoeöuiy%}:u**
-
-**Rule: {aäoeöuiy%}:i**
-
-**Rule: {aäoeöuiy%}:y**
-
-
-**Rule: e:0**
-
-
-**Rule: %{ui%}:u**
-```
-* %{front%}:0  ! imperative forms
-* *kanda%{back%}%>kk%{ui%}%{aä%}mm%{oö%}*
-* *kanda0%>kkuammo*
-```
-
-**Rule: %{ui%}:i**
-```
-* %{front%}:0  ! imperative forms
-* *lʼykkä%{front%}%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}*
-* *lʼyk0ä00%>kkiämmö*
-```
-
-**Rule: %{ui%}:i**
-**Rule: %{ui%}:i**
-**Rule: %{ui%}:i**
-
-
-
-**Rule: %{aäuyiØ%}:a**
-
-**Rule: %{aäuyiØ%}:u**
-
-**Rule: %{aäuyiØ%}:ä**
-
-**Rule: %{aäuyiØ%}:y**
-
-**Rule: %{aäuyiØ%}:i**
-
-**Rule: %{aäuyiØ%}:0**
-
-
-**a:u before subsequent a**  Diphthong a+a => ua
-ostua+V+Inf: **buy/ostaa**
-
-*osta%>%{aä%} examples:*
-
-*ostu%>%{aä%} examples:*
-
-**ä:i before subsequent A2**  Diphthong ä+ä => iä
-kehittiä+V+Inf: **develop/kehittää**
-
-*kehittä%>%{aä%} examples:*
-
-*kehitti%>ä examples:*
-
-
-**o:u before subsequent o** Diphthong o+o => uo erota:eruou
-
-*ero%>%{oö%}%>n examples:*
-
-*eru0o%>n examples:*
-
-*runo%>%{oö%} examples:*
-
-*runu%>o examples:*
-
-*jo%>vv%{aä%} examples:*
-
-*ju%>vva examples:*
-
-
-**ö:y before subsequent ö** Diphthong ö+ö, ö+%{oö%}:ö => yö
-
-*sö%>ö%>y examples:*
-
-*sy%>ö%>y examples:*
-
-*pöllö%>ö examples:*
-
-*pölly%>ö examples:*
-
-*sö%>vvä examples:*
-
-*sy%>vvä examples:*
-
-**e:i before subsequent :e** Diphthong o+o => uo erota:eruou
-```
-
-*valge%>e%^WGStem%>t examples:*
-
-*valgi%>e00t examples:*
-
-*hävi%>%{aäPar%}%>n examples:*
-
-*hävi%>e0n examples:*
-
-*tiedo%^WGStem%>n examples:*
-
-*tiijo0%>n examples:*
-
-* *väge%{front%}%^WGStem>n*
-* *vä0i00%>n*
-
-*luge>%{ijPRC%} examples:*
-
-*lugi%>j examples:*
-
-```
-
-
-**e:o** Vowel harmony suffixes Back
-```
-
-*luge%^E2O%>u examples:*
-
-*lugo%>u examples:*
-```
-
-**e:ö** Vowel harmony 
-
-*käske%^E2O%>y examples:*
-
-*käskö0%>y examples:*
-
-**Rule: ä:y word final**
-
-**Rule: ä:ö word final**
-
-
-**Rule: a:0 in suaja:sai**
-```
-*  a _ (%{back%}:)  %^RmVow:  ;  Vowel shortening before subsequent "i"
-
-*koira%^RmVow%>i%>en examples:*
-
-*koir00%>i%>en examples:*
-
-*koira0%>j%>en examples:*
-
-*vahna%^RmVow%>in examples:*
-
-*vahn00%>in examples:*
-* *otta%{back%}%^WGStem%^RmVow%>in*
-* *ot00000%>in*
-```
-
-## iToj between vowels
-**Rule: i:j**
-
-**%{ijPRC%}:i** 
-```
-*  a _ (%{back%}:)  %^RmVow:  ;  +ActPrsPrc
-```
-
-
-
-**Rule: a:o in the plural and preterite**
-* *muama%{back%}%^A2O*
-* *muamo00*
-
-**a:e**  pidiä
-
-*kanda%^WGStem%^E1%>tt%{aäDiph%}s examples:*
-
-*kanne00%>ttas examples:*
-
-*kirjava%^E1%>m%^NONEb examples:*
-
-*kirjave0%>m0b examples:*
-
-**ä:e piettih and in comparatives**  pidiä
-* *mečästä%{front%}%^E1%>tt%{aä%}s*
-* *mečäste00%>ttäs*
-
-
-**Rule: ä:0 pidiä:pidi**
-
-**Rule: i:0 reboi:reboloi**
-* *rodi%^RmVow%>i%>h*
-* *rod00%>i%>h*
-
-
-**%{oö%}:o** Vowel harmony suffixes Back
-**%{oö%}:ö** Vowel harmony suffixes Front
-
-
-**%{oöØ%}:0** Vowel harmony suffixes Back
-
-**%{oöØ%}:o** Vowel harmony suffixes Back
-
-*luge%>%{ijPRC%}%>%{oöØ%}%>i%>n examples:*
-
-*lugi%>j%>o%>i%>s examples:*
-
-**%{oöØ%}:ö** Vowel harmony suffixes Front
-
-
-
-**%{uy%}:u** Vowel harmony suffixes Back
-* *tul%>%{lnrs%}%{uy%}h*
-* *tul%>luh*
-
-**%{uy%}:y** Vowel harmony suffixes Front
-
-## Consonant change
-
-**Rule: g:j**
-```
-* *poiga%^WGStem%>n*
-* *poija0%>n*
-```
-
-**Rule: g:v**
-* *jog%{back%}e%^WGStem%>n*
-* *jov0e0%>n*
-
-* *jog%{back%}e%^WGStem%>n*
-* *jov0e0%>n*
-
-
-
-**g:l**  
-* *sulga%^WGStem%>n*
-* *sulla0%>n*
-* *jalga%^A2O%>i%^WGStem%>s*
-* *jallo0%>i0%>s*
-sulgu+N+Pl+Ins **feather/sulka**
-* *sulga%^RmVow%>i%^WGStem%>n*
-* *sull0%>i0%>n*
-
-**g:r**  
-```
-
-*särge%^WGStem%>n examples:*
-
-*särre0%>n examples:*
-
-*kergi%^WGStem%>t%{aäPar%} examples:*
-
-*kerri0%>tä examples:*
-```
-
-**d:v**  
-```
-d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; 
-          u a           _   o       (%{back%}:) %^WGStem:0 ; 
-          a             _   u       (%{back%}:) %^WGStem:0 ; 
-        [ u o: | u: ]   _  [ (%{back%}:) e | a: ]  (%{back%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
-        [ ä y: ]   _  [(%{front%}:) e | y ]  (%{front%}:) ((%^RmVow:) %> i )    %^WGStem:0 ;  
-* *täydy%{front%}%^WGStem*
-* *tävvy00*
-
-```
-
-**Rule: v:y**
-**d:j**  
-* *maido%^WGStem%>n*
-* *maijo0%>n*
-* *tiedo%^WGStem%>n*
-* *tiijo0%>n*
-* *tiedä%^WGStem%>n*
-* *tiijä0%>n*
-
-
-**Rule: y:v**
-
-*täydy%^WGStem examples:*
-
-*tävvy0 examples:*
-lʼöydiä:lʼövvä
-
-**Rule: u:v**
-juodu+N+Pl+Ade
-* *juoda%{back%}%^RmVow%>i%^WGStem%>l*
-* *juod000%>i0%>l*
-soudua:sovva
-
-**o:v Lengthening with Ut:vv weakening**  
-```
-```
-
-**d:z**  
-* *vuod%^D2Z%>i*
-* *vuoz0%>i*
-* *tunde%^RmVow%>i*
-* *tunz00%>i*
-
-**d:t in partitive**  
-
-*pagis%>d%{aä%}%^WGStemh examples:*
-
-*pa0is%>ta0h examples:*
-
-**Rule: s:z**
-```
-* s:z <=> _ (HarmDummy:) %^VOICE:0 ;  pestä: pezen
-```
-
-**k:g** pestä: peskäh
-
-
-**rd:rr weakening**  
-
-
-**ld:ll weakening**  
-
-**nd:nn weakening** 
-mennä+Ind+Prs+ScPl3: mennäh
-
-*kanda%^WGStem%^E1%>tt%{aä%}s examples:*
-
-*kanne00%>ttas examples:*
-
-
-**rn:rr in prtprc**  
-
-**ln:ll in prtprc**  
-* *tul%>%{lnrs%}%{uy%}h*
-* *tul%>luh*
-ezitellä+V+Inf: **present/esitellä**
-* *ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
-* *ezi0tel00%>lä0*
-
-**sn:ss in prtprc**  
-
-**Rule: %{dtlnr%}:d**
-
-**Rule: %{dtlnr%}:t**
-
-**Rule: %{dtlnr%}:l**
-tulla+Ind+Prs+ScPl3: tullah
-* *tul%{back%}%>%{dtlnr%}%{aä%}*
-* *tul0%>la*
-kuvitella+V+Inf
-* *kuvittel%{back%}%^WGStem%>%{dtlnr%}%{aä%}*
-* *kuvi0tel00%>la*
-
-**Rule: %{dtlnr%}:n**
-
-**Rule: %{dtlnr%}:r**
-
-### CONSONANT LOSS
-
-**čToZero**  
-```
-* s:z <=> _ (HarmDummy:) %^VOICE:0 ;  suvaija:suvaičen
-```
-
-**kToZero**  aika: ajan
-```
-* *lʼykkä%{front%}%^WGStem%>t%{AÄ%}*
-* *lʼy0kä00%>tä*
-* *abuniekka%{back%}%^A2O%>i%>l*
-* *abunie0ko00%>i%>l*
-* *liikkeh%{front%}%^WGStem*
-* *lii0keh00*
-
-```
-
-**gToZero**  aika: ajan
-* *väge%{front%}%^WGStem>n*
-* *vä0i00%>n*
-* *pagis%{back%}%^Pen%^WGStem%>%{dtlnr%}%{aä%}h*
-* *pa0is000%>tah*
-
-
-
-ezitellä+V+Inf: **present/esitellä**
-* *ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
-* *ezi0tel00%>lä0*
-
-*tavoitteh%^WGStem examples:*
-
-*tavoi0teh0 examples:*
-
-* *kuul%>t%{aä%}%^WGStem*
-* *kuul%>la0*
-
-**b:v**  
-
-**Rule: b:v**
-```
-b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
-```
-
-**p:0 in lapsi**  
-* *kuoppa%{back%}%^WGStem%^RmVow%>i%>l*
-* *kuo0p0000%>i%>l*
-
-
-## Consonant loss
-**d:0**   pidiä:piän
-
-*pidä%^WGStem%>n examples:*
-
-*pi0ä0%>n examples:*
-
-**s:0**   
-
-*bussa%^WGStem%>l examples:*
-
-*bu0sa0%>l examples:*
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/phonology.twolc)</small>This is where new words are added as lexc entries before they are 
+<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/quantifiers.lexc)</small>This is where new words are added as lexc entries before they are 
 added to the xml source files.
 merki:merki PROP_  "/(eng) mark/(fin) merkki" ;
 
@@ -5719,7 +5719,47 @@ ADD NOUNS BELOW!
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns_newwords.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/propernouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns_newwords.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/propernouns_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+lyhyt+A:lyhy A_  "/(eng) short/(fin) lyhyt" ;
+
+ADD ADJECTIVES BELOW!
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+pappi+N:pappi N_PAPPI "/(eng) priest/(fin) pappi" ;
+
+ERRONEOUS FORMS
+sluudielaine+N:sluudiela : stuudielaine
+oldihanukselaine+N:oldihanuksela : oldih_anukselazet
+
+ADD NOUNS BELOW!
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>Numerals
+Numerals in the Livvi language are numbers.
+
+
+Numerals have been split in three sections, the compounding parts
+of cardinals and ordinals, and the non-compounding ones:
+
+*Numeral examples:*
+* *kaksikymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par` (Eng. ! 23,000)
+* *kakskymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par`
+* *kahđessađasneljes:* `kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom` (Eng. ! 204rd)
+* *viitisenkymmentä:* `viitisen+Num#kymmentä` (Eng. ! 50-ish)
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/numerals.lexc)</small>
 
 
 
@@ -5753,24 +5793,7 @@ kandua+V:kanda V_KANDUA "/(eng) carry/(fin) kantaa" ;
 ADD VERBS BELOW!
 These Below exist in xml but lack Finnish translation
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-pappi+N:pappi N_PAPPI "/(eng) priest/(fin) pappi" ;
-
-ERRONEOUS FORMS
-sluudielaine+N:sluudiela : stuudielaine
-oldihanukselaine+N:oldihanuksela : oldih_anukselazet
-
-ADD NOUNS BELOW!
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>Prefixes
-Prefixes in the Livvi language are bound to beginning of other words.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/prefixes.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>
 
 
 Special verbal forms
@@ -5846,18 +5869,13 @@ Undentified Morph
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/exceptions.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-lyhyt+A:lyhy A_  "/(eng) short/(fin) lyhyt" ;
-
-ADD ADJECTIVES BELOW!
-
-
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/exceptions.lexc)</small>Prefixes
+Prefixes in the Livvi language are bound to beginning of other words.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/prefixes.lexc)</small>This is where new words are added as lexc entries before they are 
 added to the xml source files.
 rounu+Adv:rounu ADV_ "/(eng) /(fin) tasan" ;
 
@@ -5867,25 +5885,7 @@ ADD ADVERBS BELOW!
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>Numerals
-Numerals in the Livvi language are numbers.
-
-
-Numerals have been split in three sections, the compounding parts
-of cardinals and ordinals, and the non-compounding ones:
-
-*Numeral examples:*
-* *kaksikymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par` (Eng. ! 23,000)
-* *kakskymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par`
-* *kahđessađasneljes:* `kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom` (Eng. ! 204rd)
-* *viitisenkymmentä:* `viitisen+Num#kymmentä` (Eng. ! 50-ish)
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>
 
 
 We describe here how abbreviations are in Livvi are read out, e.g.
