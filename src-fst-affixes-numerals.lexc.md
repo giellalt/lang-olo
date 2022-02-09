@@ -5,26 +5,7 @@
 Numeral inflection is like nominal, except that numerals compound in all
 forms which requires great amount of care in the inflection patterns.
 
-
-
-
-
-
 * **LEXICON ARABICCOMPOUNDS**  ! 1-osainen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON ARABICCASES**  adds +Arab
 
@@ -32,21 +13,9 @@ forms which requires great amount of care in the inflection patterns.
 
 * **LEXICON ARABICCASE0**  adds +Arab
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/numerals.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/numerals.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/numerals.lexc)</small>
+
+---
+

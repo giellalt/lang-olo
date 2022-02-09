@@ -3,11 +3,9 @@
 
 ## Multichar symbols
 
-
 * **+Ex/N** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 * **+Ex/A** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 * **+Ex/V** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
-
 
 The morphological analyses of wordforms of Livvi are presented
 in this system in terms of following symbols.
@@ -47,11 +45,6 @@ The parts-of-speech are:
 * **+Refl** reflexive
 * **+Rel** relative
 
-
-
-
-
-
 ## Useage
 The Usage extents are marked using following tags:
 
@@ -63,9 +56,6 @@ The Usage extents are marked using following tags:
 * **+Use/Circ** circular paths (old ^C^)
 * **+Use/CircN** circular paths for the numerals (old ^N^)
 * **+Use/NG** not-generate, for ped generation isme-ped.fst
-
-
-
 
 The nominals are inflected in the following Case and Number
 * **+Sg**  singular
@@ -95,7 +85,6 @@ The nominals are inflected in the following Case and Number
 * +Egr
 * **+Dat** dative case
 
-
 The possession is marked as such:
 
 * +PxSg1
@@ -124,7 +113,6 @@ Numerals and Quantifiers are classified under:
 Verb tenses are:
 |  **+Prs** | Present, non-past Tense
 
-
 Verb moods are:
 * **+Prs** Indicative
 * **+Prs** Imperative
@@ -140,7 +128,6 @@ Other verb forms are
 **+PrsPrc** : present participle
 **+RcPrfPrc** : reflexive past participle
 **+Ger** : Gerund
-
 
 * **+Symbol** = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
@@ -161,14 +148,11 @@ the sentence can be considered as true cases.
 * **+Gram/TIAbbr**:  Both transitive and intransitive abbreviation
 * **+Gram/IAbbr**:  Intransitive abbreviation (it takes no argument)
 
-
-
 Question and Focus particles:
 * +Qst +Foc
 * +Clt/gi
 * +Clt/hAi
 * +Clt/bo
-
 
 * **+Sem/Act** Activity
 * **+Sem/Amount** Amount
@@ -265,12 +249,7 @@ Question and Focus particles:
 * **+Sem/Wpn** Weapon
 * **+Sem/Wthr** The Weather or the state of ground
 
-
-
-
 Pmatch 2021-03-13 
-
-
 
 semantic types of adverbs
 
@@ -302,7 +281,6 @@ symbols in the lexicon files:
 
 **%{aoeInf%}** Back vowel infinitive marker
 **%{äöeInf%}** Front vowel infinitive marker
-
 
 * **%{aäPar%}**  no diphthongs
 * **%{aäDiph%}**  This is for diphthongs such as the infinitive marker after i and u stems
@@ -351,7 +329,6 @@ _%^RmVow_ vowel removal, e.g. with superlative
 **%[%<%]** - Literal <
 ```
 
-
 * QAQ1
 * QAO1
 * EH1
@@ -364,7 +341,6 @@ _%^RmVow_ vowel removal, e.g. with superlative
 * EI1
 * ZS1
 * ZD1
-
 
 These are for developing underlying morphology rules
 
@@ -433,7 +409,6 @@ Removal
 
 # Lexicon Root
 
-
 * adjectives ;
 * adpositions ;
 * adverbs ;
@@ -456,37 +431,12 @@ NEWWORDS FILES
 **PROP_NEWWORDS ;** proper nouns
 **V_NEWWORDS ;** verbs
 
-
-
-
-
-
 I INCLUDE SOME SMALL LEXICA HERE
 WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/root.lexc)</small>
+
+---
+

@@ -13,7 +13,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-o
  %{aoeInf%}:a	 Back vowel infinitive marker
  %{äöeInf%}:ä	 Front vowel infinitive marker
 
-
 *  %{aäoeöuiy%}:ä   with partitive type koivuu
 *  %{aäoeö%}:ä   newer This is for diphthongs such as the infinitive marker after i and u stems ampuo
 * %{aäuyiØ%}:ä  in participle endings anticipating PÄIVY or KOIRU type
@@ -30,9 +29,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-o
  %{ijPRC%}:j  participle
 *  %{lnrs%}:n   e.g. in perfect participles
 *  %{dtlnr%}:d  e.g. infinitive and Ind+Prs+Pl3
-
-
-
 
 this appears in the illative
 **V1:a**
@@ -70,7 +66,6 @@ These reduplicate the preceding vowel if it in turn is preceded by a consonant
 
 **%^SyllBound:0**
 
-
 **%^KS2S:0**
 
 no change
@@ -84,17 +79,11 @@ and perhaps smaller than the incoming loanword set, it is better
 to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
 %^NONE:0 This will break vowel change, e.g. sa%^NONEamelaine
 
-
 %^Pen:0   pagisou paistah in combination with WGStem to trigger
-
-
 
 %^D2Z:0	  ! The ti => zi
 
-
-
 %^E2O:0	  the e => o, e => ö
-
 
 %^Ä2I:0		  ä => i
 %^A2UÄ2I:0		  a => u, ä => i
@@ -105,50 +94,15 @@ to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
 _%^RVow:0   _ 
 _%^RmVow:0   _ vowel removal, e.g. with superlative
 
-
-
-
-
-
 Triggers dictating right context phenomena
 * _%{back%}:0 _ back harmony until harmony boundary, i.e. word boundary
 * _%{front%}:0 _ front harmony until harmony boundary, i.e. word boundary
 
-
-
-
 ### Sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Right context for gradation
 
-
 # Rules
-
-
-
-
-
-
-
-
 
 **Rule: %{aä%}:a**
 kuvitella+V+Inf: **imagine/kuvitella**
@@ -159,20 +113,6 @@ kuvitella+V+Inf: **imagine/kuvitella**
 ezitellä+V+Inf: **present/esitellä**
 * *ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
 * *ezi0tel00%>lä0*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 **Rule: %{aäoeö%}:a**
 
@@ -203,9 +143,7 @@ heittiä+V+Inf: **throw/heittää**
 
 **Rule: {aäoeöuiy%}:y**
 
-
 **Rule: e:0**
-
 
 **Rule: %{ui%}:u**
 ```
@@ -225,8 +163,6 @@ heittiä+V+Inf: **throw/heittää**
 **Rule: %{ui%}:i**
 **Rule: %{ui%}:i**
 
-
-
 **Rule: %{aäuyiØ%}:a**
 
 **Rule: %{aäuyiØ%}:u**
@@ -238,7 +174,6 @@ heittiä+V+Inf: **throw/heittää**
 **Rule: %{aäuyiØ%}:i**
 
 **Rule: %{aäuyiØ%}:0**
-
 
 **a:u before subsequent a**  Diphthong a+a => ua
 ostua+V+Inf: **buy/ostaa**
@@ -254,7 +189,6 @@ kehittiä+V+Inf: **develop/kehittää**
 
 *kehitti%>ä examples:*
 
-
 **o:u before subsequent o** Diphthong o+o => uo erota:eruou
 
 *ero%>%{oö%}%>n examples:*
@@ -268,7 +202,6 @@ kehittiä+V+Inf: **develop/kehittää**
 *jo%>vv%{aä%} examples:*
 
 *ju%>vva examples:*
-
 
 **ö:y before subsequent ö** Diphthong ö+ö, ö+%{oö%}:ö => yö
 
@@ -308,7 +241,6 @@ kehittiä+V+Inf: **develop/kehittää**
 
 ```
 
-
 **e:o** Vowel harmony suffixes Back
 ```
 
@@ -326,7 +258,6 @@ kehittiä+V+Inf: **develop/kehittää**
 **Rule: ä:y word final**
 
 **Rule: ä:ö word final**
-
 
 **Rule: a:0 in suaja:sai**
 ```
@@ -353,8 +284,6 @@ kehittiä+V+Inf: **develop/kehittää**
 *  a _ (%{back%}:)  %^RmVow:  ;  +ActPrsPrc
 ```
 
-
-
 **Rule: a:o in the plural and preterite**
 * *muama%{back%}%^A2O*
 * *muamo00*
@@ -373,17 +302,14 @@ kehittiä+V+Inf: **develop/kehittää**
 * *mečästä%{front%}%^E1%>tt%{aä%}s*
 * *mečäste00%>ttäs*
 
-
 **Rule: ä:0 pidiä:pidi**
 
 **Rule: i:0 reboi:reboloi**
 * *rodi%^RmVow%>i%>h*
 * *rod00%>i%>h*
 
-
 **%{oö%}:o** Vowel harmony suffixes Back
 **%{oö%}:ö** Vowel harmony suffixes Front
-
 
 **%{oöØ%}:0** Vowel harmony suffixes Back
 
@@ -394,8 +320,6 @@ kehittiä+V+Inf: **develop/kehittää**
 *lugi%>j%>o%>i%>s examples:*
 
 **%{oöØ%}:ö** Vowel harmony suffixes Front
-
-
 
 **%{uy%}:u** Vowel harmony suffixes Back
 * *tul%>%{lnrs%}%{uy%}h*
@@ -417,8 +341,6 @@ kehittiä+V+Inf: **develop/kehittää**
 
 * *jog%{back%}e%^WGStem%>n*
 * *jov0e0%>n*
-
-
 
 **g:l**  
 * *sulga%^WGStem%>n*
@@ -462,7 +384,6 @@ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ;
 * *tiedä%^WGStem%>n*
 * *tiijä0%>n*
 
-
 **Rule: y:v**
 
 *täydy%^WGStem examples:*
@@ -499,9 +420,7 @@ soudua:sovva
 
 **k:g** pestä: peskäh
 
-
 **rd:rr weakening**  
-
 
 **ld:ll weakening**  
 
@@ -511,7 +430,6 @@ mennä+Ind+Prs+ScPl3: mennäh
 *kanda%^WGStem%^E1%>tt%{aä%}s examples:*
 
 *kanne00%>ttas examples:*
-
 
 **rn:rr in prtprc**  
 
@@ -564,8 +482,6 @@ kuvitella+V+Inf
 * *pagis%{back%}%^Pen%^WGStem%>%{dtlnr%}%{aä%}h*
 * *pa0is000%>tah*
 
-
-
 ezitellä+V+Inf: **present/esitellä**
 * *ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
 * *ezi0tel00%>lä0*
@@ -588,7 +504,6 @@ b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 * *kuoppa%{back%}%^WGStem%^RmVow%>i%>l*
 * *kuo0p0000%>i%>l*
 
-
 ## Consonant loss
 **d:0**   pidiä:piän
 
@@ -602,9 +517,9 @@ b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 
 *bu0sa0%>l examples:*
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-olo/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

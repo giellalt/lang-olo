@@ -1,6 +1,5 @@
 # Livvi adjective inflection
 
-
 ## Temporary lexica
 
 * LEXICON Q_X 
@@ -23,15 +22,12 @@ LEXICON A_IS-N-SG-GEN genitive plural attributes
 
 LEXICON A-DEM_NÄMÄ nämä:nämä
 
-
-
 ### ONE-SYLLABLE VOWEL-FINAL STEMS ENDING IN LONG VOWEL SEGMENT
 LEXICON A_KUU kuu:kuu
 
 LEXICON A_MUA mua:maa
 
 LEXICON A_PIÄ piä:piä
-
 
 ## Ordinary inflection
 
@@ -53,15 +49,11 @@ LEXICON A_LUGU lugu:lugu
 
 LEXICON A_IDY idy:idy
 
-
-
-
 LEXICON A_HÄKKI häkki:häkki
 
 LEXICON A_ARTELI 
 
 LEXICON A_ALUS alus:aluks
-
 
 LEXICON A_KUURNIS kuurnis:kuurne
 
@@ -74,26 +66,17 @@ LEXICON A_PÄIVY päivy:päivä
 
 LEXICON A_MUARJU muarju:muarja
 
-
 LEXICON A_AKKU akku:akka
-
-
 
 LEXICON A_VALGEI valgei:valge
 
 LEXICON A_RAHMANNOI rahmannoi:rahmannoi
 
-
-
-
 LEXICON A_PAGIZII pagizii:pagizi
-
-
 
 LEXICON A_KESTÄY kestäy:kestä
 
 ### TWO-SYLLABLE VOWEL-FINAL STEMS WITH CONSONANT-FINAL PARTITIVE STEM
-
 
 ### THREE-SYLLABLE VOWEL-FINAL STEMS
 LEXICON A_PAREMBI parembi:paremb
@@ -121,7 +104,6 @@ LEXICON A_PIIRAI piirai:piira
 
 LEXICON A_RAIŠ raiš:ra
 
-
 LEXICON A_PEREH pereh:pereh
 
 LEXICON A_TULLUH tulluh:tullu
@@ -133,7 +115,6 @@ LEXICON A_ARMAS armas:arma
 LEXICON A_VARVAS varvas:varva
 
 LEXICON A_TUORES tuores:tuore
-
 
 LEXICON A_SUARI suari:suar
 
@@ -150,12 +131,9 @@ LEXICON A_JÄLGI jälgi:jälg
 front vowel
 gradation Yes
 
-
-
 ### TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
 
 LEXICON A_VAŽEN važen:važe
-
 
 LEXICON A_LÄMMIN lämmin:lämbi
 
@@ -165,15 +143,12 @@ LEXICON A_SALBOIN salboin:salboi
 
 LEXICON A_ENIN enin:eni
 
-
-
-
 These cases are symmetrically marked for number
 The next two share the same stem vowel
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/adjectives.lexc)</small>
+
+---
+

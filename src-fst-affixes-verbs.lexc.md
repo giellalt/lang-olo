@@ -2,9 +2,7 @@
 
 ## Temporary lexica
 
-
 * **LEXICON V_** is for ad-hoc incoming verbs, not in xml
-
 
 ## Auxiliary verbs
 
@@ -14,9 +12,6 @@
 
 * **LEXICON V_OLLA** olla:o
 * **LEXICON V_OLLA_01** olla:o
-
-
-
 
 ## Regular verbs
 
@@ -37,13 +32,10 @@ Back Vowel
 * **LEXICON V_KANDUA_01** kandua:kanda
 Gradation Yes
 
-
-
 * **LEXICON V_OTTUA** ottua:otta
 Back Vowel
 * **LEXICON V_OTTUA/HEITTIÄ_01** ottua:otta
 Gradation Yes
-
 
 * **LEXICON V_OTTUA-SG3** ottua:otta
 
@@ -51,7 +43,6 @@ Gradation Yes
 
 * **LEXICON V_HEITTIÄ** heittä:heittä
 Front vowel
-
 
 * **LEXICON V_HEITTIÄ-SG3** heittä:heittä
 
@@ -74,13 +65,10 @@ Back vowel
 Gradation No
 similar_to: V_PYZYÖ
 
-
 * **LEXICON V_VALUO-SG3** valuo:valu
-
 
 * **LEXICON V_PYZYÖ** pyzyö:pyzy
 Front vowel
-
 
 * **LEXICON V_PYZYÖ-SG3** pyzyö:pyzy
 
@@ -93,12 +81,10 @@ Back vowel
 Gradation No
 Ind+Prt+Sg3
 
-
 * **LEXICON V_POTKIE-SG3** potkie:potki
 
 * **LEXICON V_EČČIE** eččie:ečči
 Front vowel
-
 
 * **LEXICON V_LUGIE** lugie:luge
 Back vowel
@@ -113,13 +99,11 @@ Gradation Yes
 Gradation Yes
 Back vowel
 
-
 * **:%>e INDPRTPL3_ttih ;** 
 * **:%>e INDPRSPL3_tAh ;** 
 * **LEXICON V_IMIE** imie:ime
 Gradation No
 Front vowel
-
 
 * **LEXICON V_IMIE-SG3_01** imie:ime
 
@@ -131,8 +115,6 @@ Front vowel
 * **LEXICON V_PIDIÄ-SG3** pidiä:pidä
 * **LEXICON V_PIDIÄ-SG3_01** pidiä:pidä
 
-
-
 ### VERBS OF FINNISH TYPE 2 in dA
 
 * **LEXICON V_VOIJA** voija:voi
@@ -140,22 +122,17 @@ Front vowel
 
 * **+Inf:%>ja K ;** type 2 also suaha
 
-
-
 * **LEXICON V_ROIJA** roija:roi
 * **LEXICON V_ROIJA_01** roija:roi
 * **+Inf:%>ja K ;** type 2 also suaha
-
 
 * **LEXICON V_SUAJA** suaja:saa
 * **LEXICON V_SUAJA_01** suaja:saa
 * **+Inf:%>ja K ;** type 2 also suaha
 * **+Inf:%>ha K ;** type 2 also suaha
 
-
 * **LEXICON V_JUVVA** juvva:jo
 * **LEXICON V_JUVVA_01** juvva:jo
-
 
 * **LEXICON V_JIÄJÄ** suaja:saa jiäjä:jää
 * **LEXICON V_JIÄJÄ_01** suaja:saa jiäjä:jää
@@ -167,23 +144,10 @@ Front vowel
 
 * **LEXICON V_VIIJÄ** viijä:ve
 
-
 * **LEXICON V_NÄHTÄ** nähtä:nä
 * **LEXICON V_NÄHTÄ_01** nähtä:nä
 
-
-
-
-
-
 * **LEXICON V_KÄVVÄ** kävvä:käv
-
-
-
-
-
-
-
 
 ### Verbs of the Finnish type 3
 
@@ -194,16 +158,8 @@ Front vowel
 * **LEXICON V_JUOSTA_BACK** juosta:juoks
 * **LEXICON V_JUOSTA_01** juosta:juoks
 
-
-
 * **LEXICON V_PAISTA** paista:pagis
 * **LEXICON V_PAISTA_01** paista:pagis
-
-
-
-
-
-
 
 * **LEXICON V_PESTÄ** pestä:pes
 
@@ -216,9 +172,7 @@ Verbs of the Finnish type 3 but not identical
 
 * **LEXICON V_KUULTA-SG3** kuulta:kuul
 
-
 * **LEXICON V_VIERTÄ** viertä:vier
-
 
 Verbs of the Finnish type 3 but not identical
 gradation: yes
@@ -227,13 +181,11 @@ gradation: yes
 
 * **LEXICON V_EZITELLAE** ezitellä:ezittel
 
-
 * **LEXICON V_TYPÄTÄ** typätä:typpä
 
 * **LEXICON V_KÄITÄ** käitä:käge
 
 * **LEXICON V_SUVATA** suvata:suva
-
 
 ### Verbs of the Finnish type 4
 
@@ -269,9 +221,7 @@ gradation: yes
 
 * **LEXICON V_RUVETA-SG3** ruveta:rube
 
-
 * **LEXICON V_HYRRÄTÄ** hyrrätä:hyrrä
-
 
 gradation: no
 
@@ -287,7 +237,6 @@ gradation: no
 
 gradation: no
 
-
 * **LEXICON V_BÖVVÄTÄ** bövvätä:böygä
 
 gradation: yes
@@ -300,8 +249,6 @@ gradation: yes
 
 gradation: yes
 
-
-
 ### Verbs of the Finnish type 5
 
 * **LEXICON V_SUVAIJA** suvaija:suvai
@@ -312,20 +259,16 @@ gradation: yes
 
 * **LEXICON V_EMÄNDÖIJÄ** emändöijä:emändöi
 
-
-
 * **LEXICON V_MERKITÄ** merkitä:merki
 * **LEXICON V_MAINITA** mainita:maini
 
 * **LEXICON V_ALETA** aleta:ale (alenov)
 * **LEXICON V_ALETA_01** aleta:ale (alenov)
 
-
 * **LEXICON V_VÄHETÄ** vähetä:vähe (vähenöy)
 * **LEXICON V_VÄHETÄ_01** vähetä:vähe (vähenöy)
 
 * **LEXICON V_VÄHETÄ-SG3** vähetä:vähe (vähenöy)
-
 
 * **LEXICON V_SUATA** suata:suva (suvaiččov)
 * **LEXICON V_SUATA_01** suata:suva (suvaiččov)
@@ -338,7 +281,6 @@ gradation: yes
 
 * **LEXICON VR_PYZYÖ** valuokseh:valu
 
-
 * **LEXICON VR_PUNUO** punuokseh:puno
 * **LEXICON VR_PUNUO/XX_01** punuokseh:puno
 
@@ -347,7 +289,6 @@ gradation: yes
 * **LEXICON VR_POTKIE/EČČIE_01** imiekseh:ime
 
 * **LEXICON VR_POTKIE** potkiekseh:potki
-
 
 * **LEXICON VR_PIDIÄ** pidiäkseh:pidä
 * **LEXICON VR_PIDIÄ_01** pidiäkseh:pidä
@@ -363,14 +304,11 @@ gradation: yes
 
 * **LEXICON VR_EISTIÄ** eistiäkseh:eistä
 
-
 Reflexive verbs
 
 * **LEXICON VR_RODIEKSEH** rodiekseh:rodi
 
-
 * **LEXICON VR_ROIJA** roijakseh:roi
-
 
 * **LEXICON VR_ROITA** roita:roi 
 
@@ -378,7 +316,6 @@ Reflexive verbs
 * **LEXICON VR_MYVVÄ** myvvä:mö
 
 * **LEXICON VR_NÄHTÄ** nähtä:nä
-
 
 * **LEXICON VR_TULLA** tuliekseh:tul !this will need work 2013-10-23
 
@@ -394,169 +331,36 @@ Reflexive verbs
 
 * **LEXICON VR_EMÄNDÖIJÄ** emändöijäkseh:emändöi
 
-
 * **LEXICON VR_MAINITA** mainitakseh:maini
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 V1
 This verb type has two final vowels in the first infinitive
 
-
-
-
-
 **LEXICON V-3SYLL_KIRJUTTUA**  kirjuttua:kirjutta
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V-VV_03_Harm-Neutr** tulla:tul
 
-
-
-
-
-
-
-
 * **LEXICON V-VV_KUULLA** kuulla:kuul
-
-
 
 * **LEXICON V-VV_VIERRÄ** vierrä:vier
 
-
-
-
 * **LEXICON V-VV_KUVITELLA/EZITELLAE** kuvitella:kuvittel
-
-
-
-
-
-
-
-
 
 * LEXICON V-VV_KUVITELLA/EZITELLAE suvaija:suvai
 
-
-
-
 * LEXICON V-VV_KUVITELLA/EZITELLAE emändöijä:emändöi
-
-
-
 
 * LEXICON V-VV_KUVITELLA/EZITELLAE mainita:maini
 
-
-
 * LEXICON V-VV_KUVITELLA/EZITELLAE merkitä:merki
-
-
-
-
-
-
-
-
-
-
 
 ### REFLEXIVE CONJUGATION
 
-
-
-
-
-
-
-
-
+HOW WILL THESE WORK
 
 HOW WILL THESE WORK
 
-
-
-
-
-
-
-
-
-
-
-
 HOW WILL THESE WORK
-
-
-
-
-
-
-
-
-HOW WILL THESE WORK
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Nonfinites
 
@@ -566,138 +370,31 @@ Forthcoming
 
 ### INDICATIVE PRESENT
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 * LEXICON V-VV_KUVITELLA/EZITELLAE type 04
 
 ### INDICATIVE PRESENT REFLEXIVE
-
-
-
-
-
 
 * LEXICON V-VV_KUVITELLA/EZITELLAE 
 
 ### INDICATIVE PRETERITE
 
-
-
-
-
-
-
-
-
 ### INDICATIVE PRETERITE REFLEXIVE
-
-
-
-
-
-
-
-
 
 ## Conditional
 
-
-
-
-
-
-
-
-
-
 ### CONDITIONAL PRETERITE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **+Pot+Pl3+Rc:%>d%{aä%}%>nehes K ;** Shouldn't THIS be the right form
 
-
 ## IMPERATIVE
-
-
-
-
-
-
-
 
 ### IMPERATIVE REFLEXIVE
 
-
-
-
-
-
-
-
-
-
-
-
 ... and next chapter
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-olo/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+
