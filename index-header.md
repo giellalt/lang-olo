@@ -1,7 +1,7 @@
 # Livvi documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-olo)](https://raw.githubusercontent.com/giellalt/lang-olo/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-olo)](https://github.com/giellalt/lang-olo/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-olo)](https://github.com/giellalt/lang-olo/issues)
 [![Build status](https://github.com/giellalt/lang-olo/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-olo/actions)
 
