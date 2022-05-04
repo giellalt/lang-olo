@@ -178,82 +178,82 @@ heittiä+V+Inf: **throw/heittää**
 **a:u before subsequent a**  Diphthong a+a => ua
 ostua+V+Inf: **buy/ostaa**
 
-*osta%>%{aä%} examples:*
+* osta%>%{aä%} examples:*
 
-*ostu%>%{aä%} examples:*
+* ostu%>%{aä%} examples:*
 
 **ä:i before subsequent A2**  Diphthong ä+ä => iä
 kehittiä+V+Inf: **develop/kehittää**
 
-*kehittä%>%{aä%} examples:*
+* kehittä%>%{aä%} examples:*
 
-*kehitti%>ä examples:*
+* kehitti%>ä examples:*
 
 **o:u before subsequent o** Diphthong o+o => uo erota:eruou
 
-*ero%>%{oö%}%>n examples:*
+* ero%>%{oö%}%>n examples:*
 
-*eru0o%>n examples:*
+* eru0o%>n examples:*
 
-*runo%>%{oö%} examples:*
+* runo%>%{oö%} examples:*
 
-*runu%>o examples:*
+* runu%>o examples:*
 
-*jo%>vv%{aä%} examples:*
+* jo%>vv%{aä%} examples:*
 
-*ju%>vva examples:*
+* ju%>vva examples:*
 
 **ö:y before subsequent ö** Diphthong ö+ö, ö+%{oö%}:ö => yö
 
-*sö%>ö%>y examples:*
+* sö%>ö%>y examples:*
 
-*sy%>ö%>y examples:*
+* sy%>ö%>y examples:*
 
-*pöllö%>ö examples:*
+* pöllö%>ö examples:*
 
-*pölly%>ö examples:*
+* pölly%>ö examples:*
 
-*sö%>vvä examples:*
+* sö%>vvä examples:*
 
-*sy%>vvä examples:*
+* sy%>vvä examples:*
 
 **e:i before subsequent :e** Diphthong o+o => uo erota:eruou
 ```
 
-*valge%>e%^WGStem%>t examples:*
+* valge%>e%^WGStem%>t examples:*
 
-*valgi%>e00t examples:*
+* valgi%>e00t examples:*
 
-*hävi%>%{aäPar%}%>n examples:*
+* hävi%>%{aäPar%}%>n examples:*
 
-*hävi%>e0n examples:*
+* hävi%>e0n examples:*
 
-*tiedo%^WGStem%>n examples:*
+* tiedo%^WGStem%>n examples:*
 
-*tiijo0%>n examples:*
+* tiijo0%>n examples:*
 
 * *väge%{front%}%^WGStem>n*
 * *vä0i00%>n*
 
-*luge>%{ijPRC%} examples:*
+* luge>%{ijPRC%} examples:*
 
-*lugi%>j examples:*
+* lugi%>j examples:*
 
 ```
 
 **e:o** Vowel harmony suffixes Back
 ```
 
-*luge%^E2O%>u examples:*
+* luge%^E2O%>u examples:*
 
-*lugo%>u examples:*
+* lugo%>u examples:*
 ```
 
 **e:ö** Vowel harmony 
 
-*käske%^E2O%>y examples:*
+* käske%^E2O%>y examples:*
 
-*käskö0%>y examples:*
+* käskö0%>y examples:*
 
 **Rule: ä:y word final**
 
@@ -263,15 +263,15 @@ kehittiä+V+Inf: **develop/kehittää**
 ```
 *  a _ (%{back%}:)  %^RmVow:  ;  Vowel shortening before subsequent "i"
 
-*koira%^RmVow%>i%>en examples:*
+* koira%^RmVow%>i%>en examples:*
 
-*koir00%>i%>en examples:*
+* koir00%>i%>en examples:*
 
-*koira0%>j%>en examples:*
+* koira0%>j%>en examples:*
 
-*vahna%^RmVow%>in examples:*
+* vahna%^RmVow%>in examples:*
 
-*vahn00%>in examples:*
+* vahn00%>in examples:*
 * *otta%{back%}%^WGStem%^RmVow%>in*
 * *ot00000%>in*
 ```
@@ -290,13 +290,13 @@ kehittiä+V+Inf: **develop/kehittää**
 
 **a:e**  pidiä
 
-*kanda%^WGStem%^E1%>tt%{aäDiph%}s examples:*
+* kanda%^WGStem%^E1%>tt%{aäDiph%}s examples:*
 
-*kanne00%>ttas examples:*
+* kanne00%>ttas examples:*
 
-*kirjava%^E1%>m%^NONEb examples:*
+* kirjava%^E1%>m%^NONEb examples:*
 
-*kirjave0%>m0b examples:*
+* kirjave0%>m0b examples:*
 
 **ä:e piettih and in comparatives**  pidiä
 * *mečästä%{front%}%^E1%>tt%{aä%}s*
@@ -315,9 +315,9 @@ kehittiä+V+Inf: **develop/kehittää**
 
 **%{oöØ%}:o** Vowel harmony suffixes Back
 
-*luge%>%{ijPRC%}%>%{oöØ%}%>i%>n examples:*
+* luge%>%{ijPRC%}%>%{oöØ%}%>i%>n examples:*
 
-*lugi%>j%>o%>i%>s examples:*
+* lugi%>j%>o%>i%>s examples:*
 
 **%{oöØ%}:ö** Vowel harmony suffixes Front
 
@@ -354,13 +354,13 @@ sulgu+N+Pl+Ins **feather/sulka**
 **g:r**  
 ```
 
-*särge%^WGStem%>n examples:*
+* särge%^WGStem%>n examples:*
 
-*särre0%>n examples:*
+* särre0%>n examples:*
 
-*kergi%^WGStem%>t%{aäPar%} examples:*
+* kergi%^WGStem%>t%{aäPar%} examples:*
 
-*kerri0%>tä examples:*
+* kerri0%>tä examples:*
 ```
 
 **d:v**  
@@ -386,9 +386,9 @@ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ;
 
 **Rule: y:v**
 
-*täydy%^WGStem examples:*
+* täydy%^WGStem examples:*
 
-*tävvy0 examples:*
+* tävvy0 examples:*
 lʼöydiä:lʼövvä
 
 **Rule: u:v**
@@ -409,9 +409,9 @@ soudua:sovva
 
 **d:t in partitive**  
 
-*pagis%>d%{aä%}%^WGStemh examples:*
+* pagis%>d%{aä%}%^WGStemh examples:*
 
-*pa0is%>ta0h examples:*
+* pa0is%>ta0h examples:*
 
 **Rule: s:z**
 ```
@@ -427,9 +427,9 @@ soudua:sovva
 **nd:nn weakening** 
 mennä+Ind+Prs+ScPl3: mennäh
 
-*kanda%^WGStem%^E1%>tt%{aä%}s examples:*
+* kanda%^WGStem%^E1%>tt%{aä%}s examples:*
 
-*kanne00%>ttas examples:*
+* kanne00%>ttas examples:*
 
 **rn:rr in prtprc**  
 
@@ -486,9 +486,9 @@ ezitellä+V+Inf: **present/esitellä**
 * *ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem*
 * *ezi0tel00%>lä0*
 
-*tavoitteh%^WGStem examples:*
+* tavoitteh%^WGStem examples:*
 
-*tavoi0teh0 examples:*
+* tavoi0teh0 examples:*
 
 * *kuul%>t%{aä%}%^WGStem*
 * *kuul%>la0*
@@ -507,15 +507,15 @@ b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 ## Consonant loss
 **d:0**   pidiä:piän
 
-*pidä%^WGStem%>n examples:*
+* pidä%^WGStem%>n examples:*
 
-*pi0ä0%>n examples:*
+* pi0ä0%>n examples:*
 
 **s:0**   
 
-*bussa%^WGStem%>l examples:*
+* bussa%^WGStem%>l examples:*
 
-*bu0sa0%>l examples:*
+* bu0sa0%>l examples:*
 
 * * *
 

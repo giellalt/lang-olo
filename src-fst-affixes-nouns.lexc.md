@@ -142,7 +142,7 @@ Harmony: Back
 two forms for accusative
 two forms for elative, ablative phrases
 
-*Noun 'berry / marja' - full paradigm: Noun - muarju examples:*
+* Noun 'berry / marja' - full paradigm: Noun - muarju examples:*
 * *muarju:* `muarju+N+Sg+Nom`
 * *muarjan:* `muarju+N+Sg+Gen`
 * *muarjua:* `muarju+N+Sg+Par`
@@ -571,7 +571,7 @@ LEXICON NMN_VUOZI/VEZI vuozi:vuod
 
 LEXICON NMN_PAREMBI/ENÄMBI parembi:paremb
 
-*Adjective comparative examples:*
+* Adjective comparative examples:*
 * *tuorehembi:* `tuores+A+Comp+Sg+Nom`
 * ★*tuorehembembannu:* `tuores+A+Comp+Comp+Sg+Ess` (is not standard language)
 
@@ -730,9 +730,9 @@ LEXICON NMN_TAIGIN taigin:taigin
 
 ### Singular suffixes
 
-*luadi^WGStem^E1%>tt%{uy%}%>%{uy%} examples:*
+* luadi^WGStem^E1%>tt%{uy%}%>%{uy%} examples:*
 
-*luaji000ttu%>u examples:*
+* luaji000ttu%>u examples:*
 
 ### Plural suffixes
 
