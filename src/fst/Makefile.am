@@ -158,7 +158,7 @@ generated_files/smi-$(GLANG)-%.lexc: \
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $< $@
 else
-generated_files/mul-$(GLANG)-%.lexc:
+generated_files/smi-$(GLANG)-%.lexc:
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_C_GEN)echo "! Missing shared common data" > $@
 endif
