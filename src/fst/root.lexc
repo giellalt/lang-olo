@@ -89,10 +89,14 @@ Multichar_Symbols
  +Err/Sub     !!≈ * @CODE@
  +Use/Marg        !!≈ * **@CODE@** marginal (?)
  +Use/-Spell      !!≈ * **@CODE@** Excluded in speller
+ +Err/Hyph !!≈ * @CODE@
+ +Err/Lex !!≈ * @CODE@
+ +Err/SpaceCmp !!≈ * @CODE@
  +Use/SpellNoSugg !!≈ * **@CODE@** recognized but not suggested in speller
  +Use/Circ        !!≈ * **@CODE@** circular paths (old ^C^)
  +Use/CircN       !!≈ * **@CODE@** circular paths for the numerals (old ^N^)
  +Use/NG          !!≈ * **@CODE@** not-generate, for ped generation isme-ped.fst
++Use/GC
 
 
 +OLang/NOB
@@ -189,25 +193,27 @@ Multichar_Symbols
   +RcPrfPrc  !!≈ **@CODE@** : reflexive past participle
   +Ger       !!≈ **@CODE@** : Gerund
 
- +ConNeg +ConNegII +Neg +ImprtII
- +PrfPrcPl3
- +Sup +VGen +VAbess
+ +ConNeg +ConNegII +Neg +ImprtII    !!≈ **@CODE@**
+ +PrfPrcPl3    !!≈ **@CODE@**
+ +Sup +VGen +VAbess    !!≈ **@CODE@**
 
 ! Abbreviated words are classified with:
- +ABBR +ACR
+ +ABBR +ACR   !!≈ **@CODE@**
 +Symbol !!≈ * **@CODE@** = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
-+CLB
-+CLBfinal
-+PUNCT
-+LEFT
-+RIGHT
++CLB   !!≈ **@CODE@**
++CLBfinal   !!≈ **@CODE@**
++PUNCT   !!≈ **@CODE@**
++LEFT   !!≈ **@CODE@**
++RIGHT   !!≈ **@CODE@**
 !! The verbs are syntactically split according to transitivity:
- +TV +IV +VR
+ +TV +IV +VR   !!≈ **@CODE@**
 !! Special multiword units are analysed with:
- +Multi
+ +Multi   !!≈ **@CODE@**
+ +MWE   !!≈ **@CODE@** (both?)
+
 !! Non-dictionary words can be recognised with:
- +Guess
+ +Guess   !!≈ **@CODE@**
 
   +Gram/TAbbr    !!≈ * **@CODE@**:  Transitive abbreviation (it needs an argument)
   +Gram/NoAbbr   !!≈ * **@CODE@**:  Intransitive abbreviations that are homonymous
@@ -335,6 +341,9 @@ Multichar_Symbols
  +Sem/Veh         !!≈ * **@CODE@** Vehicle
  +Sem/Wpn         !!≈ * **@CODE@** Weapon
  +Sem/Wthr        !!≈ * **@CODE@** The Weather or the state of ground
++Sem/Build-room
++Sem/Edu_Hum
++Sem/Org_Prod-audio
 
 
 
@@ -624,6 +633,7 @@ E1   !!≈ * @CODE@
  @U.Cap.Obl@        !!≈ |  **@CODE@** | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  **@CODE@** | Allowing downcasing of derived names: deatnulasj.
 
+
 !! Flags used to identify parts of speech
 @P.POS.PRON@
 @P.POS.N@
@@ -665,6 +675,9 @@ E1   !!≈ * @CODE@
 
 !! Orthographical errors? 2021-03-13
 @R.ErrOrth.ON@ !!≈ * @CODE@
+@C.ErrOrth@ !!≈ * @CODE@
+@D.ErrOrth.ON@   !!≈ * @CODE@ earlier undeclared
+
 
 !! Pmatch 2021-03-13
 @P.Pmatch.Backtrack@
@@ -674,7 +687,6 @@ E1   !!≈ * @CODE@
 @C.DECL-NX@ !!≈ * @CODE@
 @C.DECL-CX@ !!≈ * @CODE@
 @C.NUM-TYPE@ !!≈ * **@CODE@** 
-@C.ErrOrth@ !!≈ * @CODE@
 
 !! # Lexicon Root
 
