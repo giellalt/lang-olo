@@ -3486,15 +3486,15 @@ LEXICON SG-ACC/APR/COM/GENSUF-USUALLY-WEAK
 +Sg+Ins:%>n K ;
 
 LEXICON SG-ACC/APR/COM/GENSUF
-! SGACCSUF_n ;
+ SGACCSUF_n ;
  SGAPRSUF_llUO ;
  SGCOMSUF_nke ;
  SGGENSUF_n ;
 
  SGINSSUF ;
 
-!LEXICON SGACCSUF_n
-!+Sg+Acc:%>n K ;
+LEXICON SGACCSUF_n
++Sg+Acc:%>n K ;
 
 LEXICON SGAPRSUF_llUO
 +Sg+Apr:%>ll%{uy%}%{oö%} K ;
@@ -3511,7 +3511,7 @@ LEXICON SGINSSUF
 LEXICON SGNOMSUF
 +Sg+Nom: K ;
 +Sg+Nom: R ; ! compound
-!+Sg+Acc: K ;
++Sg+Acc: K ;
 
 LEXICON SGPARSUF_dU
 +Sg+Par:%>d%{uy%} K ;
@@ -3551,11 +3551,11 @@ LEXICON PLINSSUF
 
 LEXICON PLNOMSUF-USUALLY-WEAK
 +Pl+Nom:%>t K ;
-!+Pl+Acc:%>t K ;
++Pl+Acc:%>t K ;
 
 LEXICON PLNOMSUF
 +Pl+Nom:^WGStem%>t K ;
-!+Pl+Acc:^WGStem%>t K ;
++Pl+Acc:^WGStem%>t K ;
 
 LEXICON PLPARSUF_Zero
 +Pl+Par: K ;
