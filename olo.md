@@ -2883,6 +2883,9 @@ The Usage extents are marked using following tags:
 * +Err/Sub
 * **+Use/Marg** marginal (?)
 * **+Use/-Spell** Excluded in speller
+* +Err/Hyph
+* +Err/Lex
+* +Err/SpaceCmp
 * **+Use/SpellNoSugg** recognized but not suggested in speller
 * **+Use/Circ** circular paths (old ^C^)
 * **+Use/CircN** circular paths for the numerals (old ^N^)
@@ -2960,11 +2963,26 @@ Other verb forms are
 **+RcPrfPrc** : reflexive past participle
 **+Ger** : Gerund
 
+**+ConNeg +ConNegII +Neg +ImprtII**
+**+PrfPrcPl3**
+**+Sup +VGen +VAbess**
+
+**+ABBR +ACR**
 * **+Symbol** = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
+**+CLB**
+**+CLBfinal**
+**+PUNCT**
+**+LEFT**
+**+RIGHT**
 The verbs are syntactically split according to transitivity:
+**+TV +IV +VR**
 Special multiword units are analysed with:
+**+Multi**
+**+MWE** (both?)
+
 Non-dictionary words can be recognised with:
+**+Guess**
 
 * **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
 * **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous
@@ -3229,6 +3247,8 @@ cardinal vs ordinal
 
 Orthographical errors? 2021-03-13
 * @R.ErrOrth.ON@
+* @C.ErrOrth@
+* @D.ErrOrth.ON@ earlier undeclared
 
 Pmatch 2021-03-13
 
@@ -3236,7 +3256,6 @@ Removal
 * @C.DECL-NX@
 * @C.DECL-CX@
 * **@C.NUM-TYPE@** 
-* @C.ErrOrth@
 
 # Lexicon Root
 
