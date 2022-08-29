@@ -11,6 +11,7 @@
 
 
 LOOKUP=$(echo $LOOKUP)
+HLOOKUP=$(echo $HLOOKUP)
 GTLANGS=$(echo $GTLANGS)
 
 
@@ -25,7 +26,8 @@ for lemma in $(cat $L_FILE);
 do
  for form in $(cat $P_FILE);
  do
-  echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-olo/src/generator-gt-norm.xfst
+#  echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-olo/src/generator-gt-norm.xfst
+  echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-olo/src/generator-gt-norm.hfst
  done
  rm -f $L_FILE
 done
