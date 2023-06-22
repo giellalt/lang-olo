@@ -7,6 +7,8 @@ LEXICON PROP_NEWWORDS
 test PROP_ "" ;
 !! ADD NOUNS BELOW!
 
+
+
 Abihud+N+Prop:Abihud PROP-MAL_KARJAL "" ;
 Ahas+N+Prop:Ahas PROP-MAL_KARJAL "" ;
 Aminadab+N+Prop:Aminadab PROP-MAL_KARJAL "" ;
@@ -35,12 +37,15 @@ Amos+N+Prop+Sem/Ant-Mal:Amos PROP_KARJAL ;
 Rehabeam+N+Prop+Sem/Ant-Mal:Rehabeam PROP_KARJAL ;
 Jeremii+N+Prop+Sem/Ant-Mal:Jeremi PROP_KONDII ;
 Jekonii+N+Prop+Sem/Ant-Mal:Jekoni PROP_KONDII ;
+Jerusalim+N+Prop+Sem/Plc:Jerusalim PROP_KARJAL ;
 Juulii+N+Prop:Juuli PROP_KONDII ;
 Muumipeigoi+N+Prop+Sem/Ant-Mal:Muumi#peigoi PROP_REBOI ;
 Mörgö+N+Prop:Mörgö PROP_KYNDÖ ;
 Myy+N+Prop+Sem/Ant-Fem:Myy PROP_VYÖ ;
 
 Nipsu+N+Prop:Nipsu PROP_KOIVU "" ;
+Jordanjogi+N+Prop:Jordan#jog PROP_JOGI ;
+Jefratjogi+N+Prop:Jefratjog PROP_JOGI ;
 Muikkuine+N+Prop:Muikku PROP_KARJALAINE "" ;
 Ninnineidoi+N+Prop:Ninnineidoi PROP_REBOI "" ;
 Ninnettäi+N+Prop:Ninnettäi PROP_LEIRI "" ;
@@ -56,14 +61,17 @@ Matfei+N+Prop+Sem/Ant-Mal:Matfei PROP_ARTELI "" ;
 Moisei+N+Prop+Sem/Ant-Mal:Moisei PROP_ARTELI "" ;
 Muumimami+N+Prop:Muumimami PROP_ARTELI "" ;
 Mymmeli+N+Prop:Mymmeli PROP_LEIRI "" ;
-Isakku+N+Prop:Isakka PROP-MAL_AKKU "" ;
+Isakku+N+Prop+Sem/Ant-Mal:Isakka PROP-MAL_AKKU "" ;
 Juudu+N+Prop+Sem/Ant-Mal:Juuda PROP_MUARJU "" ;
 Sealtielu+N+Prop+Sem/Ant-Mal:Sealtiela PROP_MUARJU "" ;
 Irodu+N+Prop+Sem/Ant-Mal:Iroda PROP_MUARJU "" ;
 Kaifu+N+Prop+Sem/Ant-Mal:Kaifa PROP_MUARJU "" ;
 Mari+N+Prop+Sem/Ant-Fem:Mari PROP_ARTELI ;
 Juakoi+N+Prop+Sem/Ant-Mal:Juakoi PROP_ARTELI ;
+Simeonu+N+Prop+Sem/Ant-Mal:Simeona PROP_MUARJU ;
+Saulu+N+Prop+Sem/Ant-Mal:Saula PROP_MUARJU ;
 
+Riimu+N+Prop+Sem/Plc:Riima PROP_MUARJU ;
 Kalevala-projektu+N+Prop:Kalevala-projekta PROP_MUARJU ;
 ReAnimatsija-projektu+N+Prop:ReAnimatsija-projekta PROP_MUARJU ;
 fotomečästys-projektu+N+Prop:fotomečästys-projekta PROP_MUARJU ;
