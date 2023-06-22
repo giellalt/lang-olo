@@ -141,6 +141,20 @@ LEXICON PROP_JÄLGI-PL !!≈ @CODE@
 !LEXICON PROP-PLC_JÄLGI !!≈ @CODE@ jälgi:jälg
 !+Prop+Sem/Plc:%{front%} NMN_JÄLGI ;
 
+LEXICON PROP_JOGI !!≈ @CODE@ 
+!! Gradation Yes
+!! Vowel Harmony Back
+!! Stem Vowel i/0/e
+!! Plural stem in i
+  PROP_JOGI-SG ;
+  PROP_JOGI-PL ;
+
+LEXICON PROP_JOGI-SG !!≈ @CODE@ 
++Prop:%{back%} NMN_JOGI-SG ;
+
+LEXICON PROP_JOGI-PL !!≈ @CODE@ 
++Prop:%{back%} NMN_JOGI-PL ;
+
 
 !LEXICON PROP_KIELI !!≈ @CODE@ kieli:kiel
 !!! Gradation NA
