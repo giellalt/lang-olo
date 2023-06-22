@@ -1712,6 +1712,16 @@ LEXICON PROP_JÄLGI-SG
 
 LEXICON PROP_JÄLGI-PL 
 
+LEXICON PROP_JOGI 
+Gradation Yes
+Vowel Harmony Back
+Stem Vowel i/0/e
+Plural stem in i
+
+LEXICON PROP_JOGI-SG 
+
+LEXICON PROP_JOGI-PL 
+
 LEXICON PROP_SUARI suari:suar
 Gradation NA
 Vowel Harmony Back
@@ -2801,7 +2811,7 @@ ezitellä+V+Inf: **present/esitellä**
 
 **b:v**  
 
-**Rule: b:v**
+**Rule: b:m**
 ```
 b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 ```

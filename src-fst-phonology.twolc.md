@@ -495,7 +495,7 @@ ezitellä+V+Inf: **present/esitellä**
 
 **b:v**  
 
-**Rule: b:v**
+**Rule: b:m**
 ```
 b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 ```
