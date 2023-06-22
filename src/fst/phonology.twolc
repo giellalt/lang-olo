@@ -946,8 +946,10 @@ t:l <=> l (HarmDummy:) %> _ (%{aä%}:|a|ä) %^WGStem: ;
 "b:v"
 !! **@RULENAME@**  
 b:v <=> [ #: ] Cns* Vow ( r | l | Vow ) _  [ GRC | %^TS:0 i (HarmDummy:) %^WGStem:0 %> ] ;
+ [ #: ] Cns* Vow ( r | l | Vow ) _  [ Vow: (HarmDummy:) %^Pen: %^WGStem:0 %> ] ;
+!r u b:v e {back}:0 ^WGStem:0 > t a
 
-"b:v"
+"b:m"
 !! **Rule: @RULENAME@**
 !! ```
 b:m <=> m _  [ a | i ] (HarmDummy:) %^WGStem:0 ; !!≈ @CODE@
