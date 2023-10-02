@@ -1,5 +1,6 @@
 # Livvi documentation
 
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-olo%2Fgh-pages%2Fmaturity.json)](https://giellalt.github.io/MaturityClassification.html)
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-olo%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-olo)](https://github.com/giellalt/lang-olo/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-olo)](https://github.com/giellalt/lang-olo/issues)
