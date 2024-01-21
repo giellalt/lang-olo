@@ -7,7 +7,7 @@ These Below exist in xml but lack Finnish translation
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/stems/verbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
 

@@ -621,7 +621,7 @@ These were the set types.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/abbreviations.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/abbreviations.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/abbreviations.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/abbreviations.lexc)</small>
 
 ---
 
@@ -775,7 +775,7 @@ The next two share the same stem vowel
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -786,7 +786,7 @@ LEXICON ADV-IS-ELA-WITH-PXSG3 e.g. levälleh
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
 
@@ -795,7 +795,7 @@ Livvi clitics
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/clitics.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/clitics.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/clitics.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/clitics.lexc)</small>
 
 ---
 
@@ -1543,7 +1543,7 @@ LEXICON SGNOM/PXSP3 adding -h
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -1564,7 +1564,7 @@ forms which requires great amount of care in the inflection patterns.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/numerals.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/numerals.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/numerals.lexc)</small>
 
 ---
 
@@ -1626,7 +1626,7 @@ LEXICON PRON_ENÄMBI enämbi:enämb
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
 
@@ -1837,7 +1837,7 @@ LEXICON PROP_STIPENDII kondii:kondi
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -1879,7 +1879,7 @@ LEXICON ORD_LIYGILÄINE enzimäine:ensimä
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/quantifiers.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/quantifiers.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/quantifiers.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/quantifiers.lexc)</small>
 
 ---
 
@@ -1901,7 +1901,7 @@ DECLENSION LIMITATIONS
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/rus-Cyrl-2-Lat-propernouns.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/rus-Cyrl-2-Lat-propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/rus-Cyrl-2-Lat-propernouns.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/rus-Cyrl-2-Lat-propernouns.lexc)</small>
 
 ---
 
@@ -1910,7 +1910,7 @@ DECLENSION LIMITATIONS
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -2310,7 +2310,7 @@ Forthcoming
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -2835,7 +2835,7 @@ b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-olo/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -3298,7 +3298,7 @@ WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -3310,7 +3310,7 @@ ADD ADJECTIVES BELOW!
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/stems/adjectives_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/adjectives_newwords.lexc)</small>
 
 ---
 
@@ -3322,7 +3322,7 @@ ADD ADVERBS BELOW!
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/stems/adverbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/adverbs_newwords.lexc)</small>
 
 ---
 
@@ -3384,7 +3384,7 @@ Undentified Morph
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/stems/exceptions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/exceptions.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/exceptions.lexc)</small>
 
 ---
 
@@ -3400,7 +3400,7 @@ ADD NOUNS BELOW!
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/stems/nouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/nouns_newwords.lexc)</small>
 
 ---
 
@@ -3418,7 +3418,7 @@ of cardinals and ordinals, and the non-compounding ones:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
 
@@ -3427,7 +3427,7 @@ Prefixes in the Livvi language are bound to beginning of other words.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/prefixes.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/stems/prefixes.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/prefixes.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/prefixes.lexc)</small>
 
 ---
 
@@ -3439,7 +3439,7 @@ ADD NOUNS BELOW!
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/stems/propernouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/propernouns_newwords.lexc)</small>
 
 ---
 
@@ -3456,7 +3456,7 @@ FEMALE GIVEN NAMES
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/rus-Cyrl-2-Lat-propernouns.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/stems/rus-Cyrl-2-Lat-propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/rus-Cyrl-2-Lat-propernouns.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/rus-Cyrl-2-Lat-propernouns.lexc)</small>
 
 ---
 
@@ -3469,7 +3469,7 @@ These Below exist in xml but lack Finnish translation
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/stems/verbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
 
@@ -3636,7 +3636,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-olo/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-olo/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -3656,7 +3656,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-olo/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 

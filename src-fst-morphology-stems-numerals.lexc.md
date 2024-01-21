@@ -12,7 +12,7 @@ of cardinals and ordinals, and the non-compounding ones:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
 
