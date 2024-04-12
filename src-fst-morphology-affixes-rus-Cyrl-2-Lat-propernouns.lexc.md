@@ -17,6 +17,3 @@ DECLENSION LIMITATIONS
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/rus-Cyrl-2-Lat-propernouns.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/rus-Cyrl-2-Lat-propernouns.lexc)</small>
-
----
-
