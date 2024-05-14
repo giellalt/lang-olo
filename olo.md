@@ -2938,6 +2938,22 @@ The parts-of-speech are:
 * **+Refl** reflexive
 * **+Rel** relative
 
+### These tags describe the parts of the compound.
+
+The prefix (before "/") is **Cmp**.
+
+* **+Cmp/Hyph** compounds where first part ends in -
+* **+Cmp/SgNom** compounds where first part is Sg Nom
+* **+Cmp/PlNom** compounds where first part is Pl Nom
+* **+Cmp/Attr** compounds where first part is Attr
+* **+Cmp/SgGen** compounds where first part is Sg Gen
+* **+Cmp/PlGen** compounds where first part is Pl Gen
+* **+Cmp/SplitR** compounds where first part is a split compound hmm
+* **+Cmp/Sh** compounds where first part is a short form
+* **+Cmp** - Dynamic compound. This tag should always be part
+           of a dynamic compound. It is important for
+           Apertium, and useful in other cases as well.
+
 ## Useage
 The Usage extents are marked using following tags:
 
