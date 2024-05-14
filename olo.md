@@ -2372,6 +2372,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-o
 **A B C Č D E F G H I J K L M N O P R S Š Ş T U V W Y Z Ž Ƶ Ü Ä Ö**
 **y**
 **Y**
+
 **%{aä%}:a**
 **%{aä%}:ä**
 
