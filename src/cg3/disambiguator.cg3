@@ -64,6 +64,7 @@ LIST ABBR = ABBR ;
 LIST Abbr = Abbr ABBR ;
 LIST Refl = Refl ;
 LIST PrsPrc = PrsPrc ;
+LIST Rom = Rom ;# Roman numeral
 
 LIST NUMS = "yksi" Num;
 LIST Ord = Ord ;
@@ -379,6 +380,7 @@ LIST VFIN_PrsPrc_Inf = Prt Prs Cond PrsPrc (PrfPrc Gen) (PrfPrc Par) InfA InfE I
 
 # Derivation
 # ----------
+LIST Use/Circ = Use/Circ ;
 
 LIST DA-US = DA-US ; # vaikeus, no spec tag
 LIST DV-US = DV-US ;  # muodostus, no spec tag
@@ -778,6 +780,7 @@ REMOVE:NotJok (Dial/Jok);
 
 #!! 
 REMOVE:on ("o") IF (0 ("olla"));
+REMOVE:RomanI Rom OR Abbr OR ("I" Rom) OR Use/Circ IF (0 ("i" CC)) ; #Roman numerals will need addressing, this might be too powerful
 
 #!! * __person_test__ selects finite verb if there is a Pron Pers to the left
 #SELECT:person_test VFIN IF (-1 Pers) ; # exempel
