@@ -84,7 +84,7 @@ al+Interj:al INTERJ_ "" ;
 ali+Interj:ali INTERJ_ "" ;
 däh+Interj:däh INTERJ_ "" ;
 aku+Interj:aku INTERJ_ "" ;
-!ga:ga CC_ "" ;
+!ga+CC:ga CC_ "" ;
 gai+Interj:gai INTERJ_ "" ;
 hoš+Interj:hoš INTERJ_ "" ;
 jo+Interj:jo INTERJ_ "" ;
@@ -149,12 +149,12 @@ kunnetahto+Adv:kunne#tahto ADV-INDEF-SPAT-IS-LAT "" ;
 
 !! Nouns incomplete
 
-i:i PCLE_ "ja" ;
+i+CC:i CC_ "ja" ;
 kunne+Adv:kunne PRON-INTERR_ "minne, mihin, kunne" ;
 
 
 
-mahto:mahto N_RUNO "" ;
+mahto+N:mahto N_RUNO "" ;
 !! identitiettu
 !! iänenando
 !! iänenandolippu
