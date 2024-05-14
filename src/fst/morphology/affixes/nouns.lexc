@@ -20,19 +20,19 @@ LEXICON N_
 LEXICON N_SUO !!≈ @CODE@ suo:suo
 !! Gradation: No
 !! Harmony: Back
-:%{back%} ATTESTED-NOUN-STEM ; 
+!:%{back%} ATTESTED-NOUN-STEM ; 
 :%{back%} NMN_KUU/PII ;
 
 LEXICON N_VYÖ !!≈ @CODE@ vyö:vyö
 !! Gradation: No
 !! Harmony: Front
-: ATTESTED-NOUN-STEM ; 
+!: ATTESTED-NOUN-STEM ; 
 :%{front%} NMN_VYÖ ;
 
 LEXICON N_KUU !!≈ @CODE@ kuu:kuu
 !! Gradation: No
 !! Harmony: Back
-:%{back%} ATTESTED-NOUN-STEM ; 
+!:%{back%} ATTESTED-NOUN-STEM ; 
  N_KUU-SG ;
  N_KUU-PL ;
 LEXICON N_KUU-SG
@@ -43,7 +43,7 @@ LEXICON N_KUU-PL
 LEXICON N_PII !!≈ @CODE@ pii:pii
 !! Gradation: No
 !! Harmony: front
-:%{front%} ATTESTED-NOUN-STEM ; 
+!:%{front%} ATTESTED-NOUN-STEM ; 
  N_PII-SG ;
  N_PII-PL ;
 LEXICON N_PII-SG
@@ -54,13 +54,13 @@ LEXICON N_PII-PL
 LEXICON N_MUA !!≈ @CODE@ mua:mua
 !! Gradation: No
 !! Harmony: Back
-:%{back%} ATTESTED-NOUN-STEM ; 
+!:%{back%} ATTESTED-NOUN-STEM ; 
 :%{back%} NMN_MUA ;
 
 LEXICON N_PIÄ !!≈ @CODE@ piä:piä
 !! Gradation: No
 !! Harmony: Front
-: ATTESTED-NOUN-STEM ; 
+!: ATTESTED-NOUN-STEM ; 
  N_PIÄ-SG ;
  N_PIÄ-PL ;
 LEXICON N_PIÄ-SG
@@ -74,7 +74,7 @@ LEXICON N_PAPPI !!≈ @CODE@ pappi:pappi
 !! Gradation: Yes
 !! Harmony: Back
 !! stem final i is retained
-: ATTESTED-NOUN-STEM ; 
+!: ATTESTED-NOUN-STEM ; 
 	N_PAPPI-SG ;
 	N_PAPPI-PL ;
 LEXICON N_PAPPI-SG
@@ -86,7 +86,7 @@ LEXICON N_HÄKKI !!≈ @CODE@ häkki:häkki
 !! Gradation: Yes
 !! Harmony: Front
 !! stem final i is retained
-: ATTESTED-NOUN-STEM ; 
+!: ATTESTED-NOUN-STEM ; 
 	N_HÄKKI-SG ;
 	N_HÄKKI-PL ;
 LEXICON N_HÄKKI-SG
@@ -98,7 +98,7 @@ LEXICON N_LEIRI !!≈ @CODE@ leiri:leiri
 !! Gradation NA
 !! Harmony: Front
 !! stem	final i is retained
-: ATTESTED-NOUN-STEM ; 
+!: ATTESTED-NOUN-STEM ; 
 	N_LEIRI-SG ;
 	N_LEIRI-PL ;
 LEXICON N_LEIRI-SG
@@ -111,7 +111,7 @@ LEXICON N_PADA !!≈ @CODE@ pada:pada
 !! Harmony: Back
 !! stem final a changes to u in Sg Par
 !! stem final a changes to o before i in Pl stem
-: ATTESTED-NOUN-STEM ; 
+!: ATTESTED-NOUN-STEM ; 
 	N_PADA-SG  ;
 	N_PADA-PL  ;
 LEXICON N_PADA-SG
@@ -125,7 +125,7 @@ LEXICON N_KALA !!≈ @CODE@ kala:kala
 !! Harmony: Back
 !! stem final a changes to u in Sg Par
 !! stem final a changes to o before i in Pl stem
-: ATTESTED-NOUN-STEM ; 
+!: ATTESTED-NOUN-STEM ; 
 	N_KALA-SG  ;
 	N_KALA-PL  ;
 LEXICON N_KALA-SG
@@ -140,7 +140,7 @@ LEXICON N_OZA !!≈ @CODE@ oza:oza
 !! Harmony: Back
 !! stem final a changes to u in Sg Par
 !! stem final a changes to 0 before i in Pl stem
-: ATTESTED-NOUN-STEM ; 
+!: ATTESTED-NOUN-STEM ; 
 	N_OZA-SG  ;
 	N_OZA-PL  ;
 
@@ -156,7 +156,7 @@ LEXICON N_SÄYNÄ !!≈ @CODE@ säynä:säynä
 !! stem final ä changes to i in Sg Par
 !! stem final ä changes to 0 before i in Pl stem
 
-: ATTESTED-NOUN-STEM ; 
+!: ATTESTED-NOUN-STEM ; 
 	N_SÄYNÄ-SG  ;
 	N_SÄYNÄ-PL  ;
 
@@ -186,7 +186,7 @@ LEXICON N_KOIVU !!≈ @CODE@ koivu:koivu
 !! Harmony: Back
 !! There are no changes in stem-final **u**
 !! Plural stem in **loi**
-: ATTESTED-NOUN-STEM ; 
+!: ATTESTED-NOUN-STEM ; 
         N_KOIVU-SG ;
         N_KOIVU-PL ;
 
@@ -201,7 +201,7 @@ LEXICON N_HERY !!≈ @CODE@ hery:hery
 !! Harmony: Front
 !! There are no	changes	in stem-final **y**
 !! Plural stem in **löi**
-: ATTESTED-NOUN-STEM ; 
+!: ATTESTED-NOUN-STEM ; 
         N_HERY-SG ;
         N_HERY-PL ;
 
@@ -216,7 +216,7 @@ LEXICON N_IDY !!≈ @CODE@ idy:idy
 !! Harmony: Front
 !! There are no changes in stem-final **y**
 !! Plural stem in **löi**
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
         N_IDY-SG ;
         N_IDY-PL ;
 
@@ -231,7 +231,7 @@ LEXICON N_LUGU !!≈ @CODE@ lugu:lugu
 !! Harmony: Back
 !! There are no changes in stem-final **u**
 !! Plural stem in **loi**
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
         N_LUGU-SG ;
         N_LUGU-PL ;
 
@@ -246,7 +246,7 @@ LEXICON N_RUNO !!≈ @CODE@ runo:runo
 !! Harmony: Back
 !! Stem-fianl o changes to u in Sg Par
 !! Plural stem in **loi**
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
 	 N_RUNO-SG ;
 	 N_RUNO-PL ;
 
@@ -258,7 +258,7 @@ LEXICON N_RUNO-PL
 LEXICON N_HÖRÖ !!≈ @CODE@ hörö:hörö
 !! Gradation NA
 !! Harmony: Front
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
 	 N_HÖRÖ-SG ;
 	 N_HÖRÖ-PL ;
 
@@ -270,7 +270,7 @@ LEXICON N_HÖRÖ-PL
 LEXICON N_RUADO !!≈ @CODE@ ruado:ruado
 !! Gradation Yes
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
 	 N_RUADO-SG ;
 	 N_RUADO-PL ;
 
@@ -282,7 +282,7 @@ LEXICON N_RUADO-PL
 LEXICON N_KYNDÖ !!≈ @CODE@ kyndö:kyndö
 !! Gradation Yes
 !! Harmony: Front
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
 	 N_KYNDÖ-SG ;
 	 N_KYNDÖ-PL ;
 
@@ -296,7 +296,7 @@ LEXICON N_KYNDÖ-PL
 LEXICON N_JÄLGI  !!≈ @CODE@ jälgi:jälg
 !! Gradation Yes
 !! Harmony: Front
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
  N_JÄLGI-SG ;
  N_JÄLGI-PL ;
 
@@ -308,7 +308,7 @@ LEXICON N_JÄLGI-PL
 LEXICON N_JOGI  !!≈ @CODE@ jogi:jog
 !! Gradation Yes
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
  N_JOGI-SG ;
  N_JOGI-PL ;
 
@@ -321,7 +321,7 @@ LEXICON N_JOGI-PL
 LEXICON N_MUAMO !!≈ @CODE@ muamo:muama
 !! Gradation NA
 !! Harmony: Back
-:^A2O ATTESTED-NOUN-STEM ;
+!:^A2O ATTESTED-NOUN-STEM ;
  N_MUAMO-SG ;
  N_MUAMO-PL ;
 
@@ -334,7 +334,7 @@ LEXICON N_MUAMO-PL
 LEXICON N_TUATTO !!≈ @CODE@ tuatto:tuatta
 !! Gradation Yes
 !! Harmony: Back
-:^A2O ATTESTED-NOUN-STEM ;
+!:^A2O ATTESTED-NOUN-STEM ;
  N_TUATTO-SG ;
  N_TUATTO-PL ;
 
@@ -346,7 +346,7 @@ LEXICON N_TUATTO-PL
 LEXICON N_DIÄDÖ !!≈ @CODE@ diädö:diädä
 !! Gradation No
 !! Harmony: Front
-:^A2O ATTESTED-NOUN-STEM ;
+!:^A2O ATTESTED-NOUN-STEM ;
  N_DIÄDÖ-SG ;
  N_DIÄDÖ-PL ;
 
@@ -398,7 +398,7 @@ LEXICON N_MUARJU !!≈ @CODE@ muarju:muarja
 !!€  muarjoinnu: muarju+N+Pl+Ess
 !!€  muarjoin: muarju+N+Pl+Ins
 !!€  muarjoilluo: muarju+N+Pl+Apr
-:^A2UÄ2Y ATTESTED-NOUN-STEM ;
+!:^A2UÄ2Y ATTESTED-NOUN-STEM ;
  N_MUARJU-SG ;
  N_MUARJU-PL ;
 
@@ -410,7 +410,7 @@ LEXICON N_MUARJU-PL
 LEXICON N_PIÄSTÄNDY !!≈ @CODE@ piäständy:piäständä
 !! Gradation No
 !! Harmony: Front
-:^A2UÄ2Y ATTESTED-NOUN-STEM ;
+!:^A2UÄ2Y ATTESTED-NOUN-STEM ;
  N_PIÄSTÄNDY-SG ;
  N_PIÄSTÄNDY-PL ;
 
@@ -423,7 +423,7 @@ LEXICON N_PIÄSTÄNDY-PL
 LEXICON N_SUAJU !!≈ @CODE@ suaju:suaja
 !! Gradation No
 !! Harmony: Back
-:^A2UÄ2Y ATTESTED-NOUN-STEM ;
+!:^A2UÄ2Y ATTESTED-NOUN-STEM ;
  N_SUAJU-SG ;
  N_SUAJU-PL ;
 
@@ -435,7 +435,7 @@ LEXICON N_SUAJU-PL
 LEXICON N_AKKU !!≈ @CODE@ akku:akka
 !! Gradation Yes
 !! Harmony: Back
-:^A2UÄ2Y ATTESTED-NOUN-STEM ;
+!:^A2UÄ2Y ATTESTED-NOUN-STEM ;
  N_AKKU-SG ;
  N_AKKU-PL ;
 
@@ -447,7 +447,7 @@ LEXICON N_AKKU-PL
 LEXICON N_KNIIGU !!≈ @CODE@ kniigu:kniiga
 !! Gradation No
 !! Harmony: Back
-:%{back%}^A2U ATTESTED-NOUN-STEM ;
+!:%{back%}^A2U ATTESTED-NOUN-STEM ;
  N_KNIIGU-SG ;
  N_KNIIGU-PL ;
 
@@ -459,7 +459,7 @@ LEXICON N_KNIIGU-PL
 LEXICON N_SULGU !!≈ @CODE@ sulgu:sulga
 !! Gradation Yes
 !! Harmony: Back
-:^A2U ATTESTED-NOUN-STEM ;
+!:^A2U ATTESTED-NOUN-STEM ;
  N_SULGU-SG ;
  N_SULGU-PL ;
 
@@ -474,7 +474,7 @@ LEXICON N_SULGU-PL
 LEXICON N_KOIRU !!≈ @CODE@ koiru:koira
 !! Gradation NA
 !! Harmony: Back
-:^A2U ATTESTED-NOUN-STEM ;
+!:^A2U ATTESTED-NOUN-STEM ;
  N_KOIRU-SG ;
  N_KOIRU-PL ;
 
@@ -487,7 +487,7 @@ LEXICON N_KOIRU-PL
 LEXICON N_NIMI !!≈ @CODE@ nimi:nim
 !! Gradation NA
 !! Harmony: Front
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
 	N_NIMI-SG  ;
 	N_NIMI-PL  ;
 
@@ -500,7 +500,7 @@ LEXICON N_NIMI-PL
 LEXICON N_HANGI !!≈ @CODE@ hangi:hang
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
 	N_HANGI-SG  ;
 	N_HANGI-PL  ;
 
@@ -513,7 +513,7 @@ LEXICON N_HANGI-PL
 LEXICON N_PÄIVY !!≈ @CODE@ päivy:päivä
 !! Gradation NA
 !! Harmony: Front
-:^A2U ATTESTED-NOUN-STEM ;
+!:^A2U ATTESTED-NOUN-STEM ;
 	N_PÄIVY-SG ;
 	N_PÄIVY-PL ;
 
@@ -526,7 +526,7 @@ LEXICON N_PÄIVY-PL
 LEXICON N_MEČČY !!≈ @CODE@ meččy:meččä
 !! Gradation Yes
 !! Harmony: Front
-:^A2U ATTESTED-NOUN-STEM ;
+!:^A2U ATTESTED-NOUN-STEM ;
  N_MEČČY-SG ;
  N_MEČČY-PL ;
 
@@ -539,7 +539,7 @@ LEXICON N_MEČČY-PL
 LEXICON N_IŽÄNDY !!≈ @CODE@ ižändy:ižändä
 !! Gradation No
 !! Harmony: Front
-:^A2U ATTESTED-NOUN-STEM ;
+!:^A2U ATTESTED-NOUN-STEM ;
 	N_IŽÄNDY-SG ;
 	N_IŽÄNDY-PL ;
 
@@ -552,7 +552,7 @@ LEXICON N_IŽÄNDY-PL
 LEXICON N_LATE !!≈ @CODE@ late:latte
 !! Gradation Yes
 !! Harmony: Back
-!: ATTESTED-NOUN-STEM ; Work needed
+!!: ATTESTED-NOUN-STEM ; Work needed
 	N_LATE-SG	;
 	N_LATE-PL	;
 LEXICON N_LATE-SG
@@ -578,7 +578,7 @@ LEXICON N_SIVE-PL
 LEXICON N_HARDIE !!≈ @CODE@ hardie:hardie
 !! Gradation NA
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
         N_HARDIE-SG ;
         N_HARDIE-PL ;
 
@@ -591,7 +591,7 @@ LEXICON N_HARDIE-PL
 LEXICON N_KONDII !!≈ @CODE@ kondii:kondi
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
         N_KONDII-SG ;
         N_KONDII-PL ;
 
@@ -604,7 +604,7 @@ LEXICON N_KONDII-PL
 LEXICON N_STIPENDII !!≈ @CODE@ stipendii:stipendi
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
         N_STIPENDII-SG ;
         N_STIPENDII-PL ;
 
@@ -617,7 +617,7 @@ LEXICON N_STIPENDII-PL
 LEXICON N_REBOI !!≈ @CODE@ reboi:reboi
 !! Gradation No
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
         N_REBOI-SG ;
         N_REBOI-PL ;
 LEXICON N_REBOI-SG
@@ -628,7 +628,7 @@ LEXICON N_REBOI-PL
 LEXICON N_JÄNÖI !!≈ @CODE@ jänöi:jänöi
 !! Gradation No
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
         N_JÄNÖI-SG ;
         N_JÄNÖI-PL ;
 LEXICON N_JÄNÖI-SG
@@ -639,7 +639,7 @@ LEXICON N_JÄNÖI-PL
 LEXICON N_PÖČÖI !!≈ @CODE@ pöčöi:pöččö
 !! Gradation Yes
 !! Harmony: Front
-:^WGStemi ATTESTED-NOUN-STEM ;
+!:^WGStemi ATTESTED-NOUN-STEM ;
         N_PÖČÖI-SG ;
         N_PÖČÖI-PL ;
 LEXICON N_PÖČÖI-SG
@@ -650,7 +650,7 @@ LEXICON N_PÖČÖI-PL
 LEXICON N_VALGEI !!≈ @CODE@ valgei:valge
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
         N_VALGEI-SG ;
         N_VALGEI-PL ;
 
@@ -663,7 +663,7 @@ LEXICON N_VALGEI-PL
 LEXICON N_LIBEI !!≈ @CODE@ libei:libe
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
         N_LIBEI-SG ;
         N_LIBEI-PL ;
 
@@ -676,7 +676,7 @@ LEXICON N_LIBEI-PL
 LEXICON N_OSTAI !!≈ @CODE@ ostai:osta
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
         N_OSTAI-SG ;
         N_OSTAI-PL ;
 
@@ -689,7 +689,7 @@ LEXICON N_OSTAI-PL
 LEXICON N_PEZII !!≈ @CODE@ pezii:pezi
 !! Gradation NA
 !! Harmony: Front
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
         N_PEZII-SG ;
         N_PEZII-PL ;
 
@@ -703,7 +703,7 @@ LEXICON N_PEZII-PL
 LEXICON N_KESTÄY !!≈ @CODE@ kestäy:kestä
 !! Gradation NA
 !! Harmony: Front
-:y ATTESTED-NOUN-STEM ;
+!:y ATTESTED-NOUN-STEM ;
         N_KESTÄY-SG ;
         N_KESTÄY-PL ;
 
@@ -717,7 +717,7 @@ LEXICON N_KESTÄY-PL
 LEXICON N_UKSI !!≈ @CODE@ uksi:uks
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
 	N_UKSI-SG ;
 	N_UKSI-PL ;
 LEXICON N_UKSI-SG
@@ -734,7 +734,7 @@ LEXICON N_SUARI-PL !!≈ @CODE@ suari:suar
 
 LEXICON N_SUARI/KIELI_01 !!≈ @CODE@ kieli:kiel
 !! Gradation No
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
  N_SUARI/KIELI-SG ;
  N_SUARI/KIELI-PL ;
 
@@ -759,7 +759,7 @@ LEXICON N_KIELI-PL !!≈ @CODE@ kieli:kiel
 LEXICON N_LAPSI !!≈ @CODE@ lapsi:laps lapsi:laps
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
         N_LAPSI-SG  ;
         N_LAPSI-PL  ;
 
@@ -772,7 +772,7 @@ LEXICON N_LAPSI-PL
 LEXICON N_VEZI !!≈ @CODE@ vezi:ved
 !! Gradation NA
 !! Harmony: Front
-:^D2Z%>i ATTESTED-NOUN-STEM ;
+!:^D2Z%>i ATTESTED-NOUN-STEM ;
  N_VEZI-SG ;
  N_VEZI-PL ;
 
@@ -785,7 +785,7 @@ LEXICON N_VEZI-PL
 LEXICON N_SUZI !!≈ @CODE@ suzi:su
 !! Gradation NA
 !! Harmony: Back
-:zi ATTESTED-NOUN-STEM ;
+!:zi ATTESTED-NOUN-STEM ;
  N_SUZI-SG ;
  N_SUZI-PL ;
 
@@ -798,7 +798,7 @@ LEXICON N_SUZI-PL
 LEXICON N_VUOZI !!≈ @CODE@ vuozi:vuod
 !! Gradation NA
 !! Harmony: Back
-:^D2Z%>i ATTESTED-NOUN-STEM ;
+!:^D2Z%>i ATTESTED-NOUN-STEM ;
  N_VUOZI-SG        ;
  N_VUOZI-PL        ;
 
@@ -811,7 +811,7 @@ LEXICON N_VUOZI-PL
 LEXICON N_SYGYZY !!≈ @CODE@ sygyzy:sygyzy
 !! Gradation NA
 !! Harmony: Front
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
         N_SYGYZY-SG ;
         N_SYGYZY-PL ;
 
@@ -824,7 +824,7 @@ LEXICON N_SYGYZY-PL
 LEXICON N_VASKIČČU !!≈ @CODE@ vaskičču:vaskičča
 !! Gradation Yes
 !! Harmony: Back
-:^A2U ATTESTED-NOUN-STEM ;
+!:^A2U ATTESTED-NOUN-STEM ;
         N_VASKIČČU-SG ;
         N_VASKIČČU-PL ;
 
@@ -838,7 +838,7 @@ LEXICON N_VASKIČČU-PL
 LEXICON N_KARJAL !!≈ @CODE@ karjal:karjal
 !! Gradation NA
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
 	N_KARJAL-SG ;
 	N_KARJAL-PL ;
 LEXICON N_KARJAL-SG !!≈ @CODE@ karjal:karjal
@@ -849,7 +849,7 @@ LEXICON N_KARJAL-PL !!≈ @CODE@ karjal:karjal
 LEXICON N_MADAL !!≈ @CODE@ madal:madal
 !! Gradation No
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
 	N_MADAL-SG ;
 	N_MADAL-PL ;
 LEXICON N_MADAL-SG !!≈ @CODE@ madal:madal
@@ -860,7 +860,7 @@ LEXICON N_MADAL-PL !!≈ @CODE@ madal:madal
 LEXICON N_PIIRAI !!≈ @CODE@ piirai:piira CHECK THIS
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
         N_PIIRAI-SG ;
         N_PIIRAI-PL ;
 
@@ -873,7 +873,7 @@ LEXICON N_PIIRAI-PL
 LEXICON N_VERÄI !!≈ @CODE@ veräi:verä CHECK THIS
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
         N_VERÄI-SG ;
         N_VERÄI-PL ;
 
@@ -887,7 +887,7 @@ LEXICON N_VERÄI-PL
 LEXICON N_KANDAI !!≈ @CODE@ kandai:kanda
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
         N_KANDAI-SG ;
         N_KANDAI-PL ;
 
@@ -900,7 +900,7 @@ LEXICON N_KANDAI-PL
 LEXICON  N_AVUAJU !!≈ @CODE@ 
 !! Gradation NA
 !! Harmony: Back
-!!:^A2U ATTESTED-NOUN-STEM ; Work needed
+!!!:^A2U ATTESTED-NOUN-STEM ; Work needed
 :%{back%}%>%{ijPRC%}a NMN_AVUAJU/KERIÄJY ;
 
 LEXICON  N_KERIÄJY !!≈ @CODE@ piästäjy:piästä
@@ -913,7 +913,7 @@ LEXICON  N_KERIÄJY !!≈ @CODE@ piästäjy:piästä
 LEXICON N_PAGIZII !!≈ @CODE@ pagizii:pagizi
 !! Gradation NA
 !! Harmony: Back
-:i ATTESTED-NOUN-STEM ;
+!:i ATTESTED-NOUN-STEM ;
  N_PAGIZII-SG ;
  N_PAGIZII-PL ;
 LEXICON N_PAGIZII-SG !!≈ @CODE@ 
@@ -938,7 +938,7 @@ LEXICON N_HUOLETOI-PL
 LEXICON N_SAMMAL !!≈ @CODE@ sammal:sammal
 !! Gradation No
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
  N_SAMMAL-SG ;
  N_SAMMAL-PL ;
 
@@ -975,7 +975,7 @@ LEXICON N_VANUIN !!≈ @CODE@ vanuin:vanui
 !! Stem	     consonant n/m
 !! Singular stem vowel 0/0/e
 !! Plural stem vowel i
-:n ATTESTED-NOUN-STEM ;
+!:n ATTESTED-NOUN-STEM ;
  N_VANUIN-SG ;
  N_VANUIN-PL ;
 
@@ -991,7 +991,7 @@ LEXICON N_SAMMUTIN !!≈ @CODE@ sammutin:sammutti
 !! Stem consonant n/m
 !! Singular stem vowel 0/0/e
 !! Plural stem vowel i
-:^WGStem%>n ATTESTED-NOUN-STEM ;
+!:^WGStem%>n ATTESTED-NOUN-STEM ;
  N_SAMMUTIN-SG ;
  N_SAMMUTIN-PL ;
 
@@ -1007,7 +1007,7 @@ LEXICON N_KEITIN !!≈ @CODE@ keitin:keitti
 !! Stem consonant n/m
 !! Singular stem vowel 0/0/e
 !! Plural stem vowel i
-:^WGStem%>n ATTESTED-NOUN-STEM ;
+!:^WGStem%>n ATTESTED-NOUN-STEM ;
  N_KEITIN-SG ;
  N_KEITIN-PL ;
 
@@ -1020,7 +1020,7 @@ LEXICON N_KEITIN-PL
 LEXICON N_LÄMMIN !!≈ @CODE@ lämmin:lämbi
 !! Gradation Yes
 !! Harmony: Front
-:^WGStem%>n ATTESTED-NOUN-STEM ;
+!:^WGStem%>n ATTESTED-NOUN-STEM ;
  N_LÄMMIN-SG ;
  N_LÄMMIN-PL ;
 
@@ -1033,7 +1033,7 @@ LEXICON N_LÄMMIN-PL
 LEXICON N_TAIGIN !!≈ @CODE@ taigin:taigin
 !! Gradation No
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
  N_TAIGIN-SG ;
  N_TAIGIN-PL ;
 
@@ -1046,7 +1046,7 @@ LEXICON N_TAIGIN-PL
 LEXICON N_KARJALAINE !!≈ @CODE@ karjalaine:karjala
 !! Gradation NA
 !! Harmony: Back
-:s ATTESTED-NOUN-STEM ;
++Cmp/Sh:s ATTESTED-NOUN-STEM ;
  N_KARJALAINE-SG     ;
  N_KARJALAINE-PL     ;
 
@@ -1059,7 +1059,7 @@ LEXICON N_KARJALAINE-PL
 LEXICON N_LIYGILÄINE !!≈ @CODE@ liygiläine:liygilä
 !! Gradation NA
 !! Harmony: Front
-:s ATTESTED-NOUN-STEM ;
++Cmp/Sh:s ATTESTED-NOUN-STEM ;
  N_LIYGILÄINE-SG     ;
  N_LIYGILÄINE-PL     ;
 
@@ -1072,7 +1072,7 @@ LEXICON N_LIYGILÄINE-PL
 LEXICON N_NAINE !!≈ @CODE@ naine:nai
 !! Gradation NA
 !! Harmony: Back
-:s ATTESTED-NOUN-STEM ;
++Cmp/Sh:s ATTESTED-NOUN-STEM ;
  N_NAINE-SG     ;
  N_NAINE-PL     ;
 
@@ -1084,7 +1084,7 @@ LEXICON N_NAINE-PL
 LEXICON N_KIELINE !!≈ @CODE@ kieline:kieli
 !! Gradation NA
 !! Harmony: Front
-:s ATTESTED-NOUN-STEM ;
++Cmp/Sh:s ATTESTED-NOUN-STEM ;
  N_KIELINE-SG     ;
  N_KIELINE-PL     ;
 
@@ -1096,7 +1096,7 @@ LEXICON N_KIELINE-PL
 LEXICON N_TOINE !!≈ @CODE@ toine:to
 !! Gradation NA
 !! Harmony: Back
-!:^A2U ATTESTED-NOUN-STEM ; Work needed
+!+Cmp/Sh:s ATTESTED-NOUN-STEM ; Work needed
  N_TOINE-SG     ;
  N_TOINE-PL     ;
 
@@ -1123,7 +1123,7 @@ LEXICON N_RAIŠ-PL
 LEXICON N_TOVESTEH !!≈ @CODE@ tovesteh:tovesteh
 !! Gradation No
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
 	N_TOVESTEH-SG	;
 	N_TOVESTEH-PL	;
 LEXICON N_TOVESTEH-SG
@@ -1135,7 +1135,7 @@ LEXICON N_TOVESTEH-PL
 LEXICON N_PEREH !!≈ @CODE@ pereh:pereh
 !! Gradation No
 !! Harmony: Front
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
 	N_PEREH-SG	;
 	N_PEREH-PL	;
 LEXICON N_PEREH-SG
@@ -1147,7 +1147,7 @@ LEXICON N_PEREH-PL
 LEXICON N_HUIKEH !!≈ @CODE@ huikeh:huikkeh
 !! Gradation Yes
 !! Harmony: Front
-:^WGStem ATTESTED-NOUN-STEM ;
+!:^WGStem ATTESTED-NOUN-STEM ;
 	N_HUIKEH-SG	;
 	N_HUIKEH-PL	;
 LEXICON N_HUIKEH-SG
@@ -1159,7 +1159,7 @@ LEXICON N_HUIKEH-PL
 LEXICON N_LIIKEH !!≈ @CODE@ liikeh:liikkeh
 !! Gradation Yes
 !! Harmony: Front
-:^WGStem ATTESTED-NOUN-STEM ;
+!:^WGStem ATTESTED-NOUN-STEM ;
 	N_LIIKEH-SG	;
 	N_LIIKEH-PL	;
 LEXICON N_LIIKEH-SG
@@ -1171,7 +1171,7 @@ LEXICON N_LIIKEH-PL
 LEXICON N_PENGER !!≈ @CODE@ penger:penger
 !! Gradation No
 !! Harmony: Front
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
 	N_PENGER-SG	;
 	N_PENGER-PL	;
 LEXICON N_PENGER-SG
@@ -1183,7 +1183,7 @@ LEXICON N_PENGER-PL
 LEXICON N_ARTELI !!≈ @CODE@ arteli:arteli
 !! Gradation No
 !! Harmony: Back
-:%{back%} ATTESTED-NOUN-STEM ;
+!:%{back%} ATTESTED-NOUN-STEM ;
 	N_ARTELI-SG ;
 	N_ARTELI-PL ;
 LEXICON N_ARTELI-SG
@@ -1194,7 +1194,7 @@ LEXICON N_ARTELI-PL
 LEXICON N_PUHTAHUS !!≈ @CODE@ puhtahus:puhtahu
 !! Harmony: Back
 !! Gradation NA
-:%{back%}%>s ATTESTED-NOUN-STEM ;
+!:%{back%}%>s ATTESTED-NOUN-STEM ;
 	N_PUHTAHUS-SG ;
         N_PUHTAHUS-PL ;
 LEXICON N_PUHTAHUS-SG
@@ -1205,7 +1205,7 @@ LEXICON N_PUHTAHUS-PL
 LEXICON N_VÄHYS !!≈ @CODE@ vähys:vähy
 !! Harmony: Back
 !! Gradation NA
-:%{back%}%>s ATTESTED-NOUN-STEM ;
+!:%{back%}%>s ATTESTED-NOUN-STEM ;
 	N_VÄHYS-SG ;
         N_VÄHYS-PL ;
 LEXICON N_VÄHYS-SG
@@ -1220,7 +1220,7 @@ LEXICON N_AIGOMUS
 LEXICON N_ALUS !!≈ @CODE@ alus:aluks
 !! Gradation No
 !! Harmony: Back
-:^KS2S ATTESTED-NOUN-STEM ;
+!:^KS2S ATTESTED-NOUN-STEM ;
  N_ALUS-SG ;
  N_ALUS-PL ;
 
@@ -1233,7 +1233,7 @@ LEXICON N_ALUS-PL !!≈ @CODE@ alus:aluks
 LEXICON N_ILVES !!≈ @CODE@ ilves:ilveks
 !! Gradation No
 !! Harmony: Front
-:^KS2S ATTESTED-NOUN-STEM ;
+!:^KS2S ATTESTED-NOUN-STEM ;
  N_ILVES-SG ;
  N_ILVES-PL ;
 
@@ -1246,7 +1246,7 @@ LEXICON N_ILVES-PL !!≈ @CODE@ ilves:ilveks
 LEXICON N_MIES !!≈ @CODE@ mies:mie
 !! Gradation No
 !! Harmony: Front
-:s ATTESTED-NOUN-STEM ;
+!:s ATTESTED-NOUN-STEM ;
  N_MIES-SG ;
  N_MIES-PL ;
 
@@ -1259,7 +1259,7 @@ LEXICON N_MIES-PL !!≈ @CODE@ mies:mie
 LEXICON N_KUURNIS !!≈ @CODE@ kuurnis:kuurne
 !! Gradation NA
 !! Harmony: Back
-:%>is ATTESTED-NOUN-STEM ;
+!:%>is ATTESTED-NOUN-STEM ;
 	N_KUURNIS-SG ;
         N_KUURNIS-PL ;
 LEXICON N_KUURNIS-SG
@@ -1270,7 +1270,7 @@ LEXICON N_KUURNIS-PL
 LEXICON N_SUALIŠ !!≈ @CODE@ suališ:suali
 !! Gradation NA
 !! Harmony: Back
-:š ATTESTED-NOUN-STEM ;
+!:š ATTESTED-NOUN-STEM ;
  N_SUALIŠ-SG ;
  N_SUALIŠ-PL ;
 
@@ -1283,7 +1283,7 @@ LEXICON N_SUALIŠ-PL !!≈ @CODE@ suališ:suali
 LEXICON N_OLUT !!≈ @CODE@ olut:olu
 !! Gradation No
 !! Harmony: Back
-:t ATTESTED-NOUN-STEM ;
+!:t ATTESTED-NOUN-STEM ;
  N_OLUT-SG ;
  N_OLUT-PL ;
 
@@ -1296,7 +1296,7 @@ LEXICON N_OLUT-PL
 LEXICON N_KEVÄT !!≈ @CODE@ kevät:kevä
 !! Gradation No
 !! Harmony: Front
-:t ATTESTED-NOUN-STEM ;
+!:t ATTESTED-NOUN-STEM ;
  N_KEVÄT-SG ;
  N_KEVÄT-PL ;
 
@@ -1322,7 +1322,7 @@ LEXICON N_TUHAT-PL
 LEXICON N_ARMAS !!≈ @CODE@ armas:arma
 !! Gradation NA
 !! Harmony: Back
-:s ATTESTED-NOUN-STEM ;
+!:s ATTESTED-NOUN-STEM ;
     N_ARMAS-SG        ;
     N_ARMAS-PL        ;
 LEXICON N_ARMAS-SG
@@ -1344,7 +1344,7 @@ LEXICON N_ARMAS-PL
 LEXICON N_VARVAS !!≈ @CODE@ varvas:varba
 !! Gradation NA
 !! Harmony: Back
-:^WGStem%>s ATTESTED-NOUN-STEM ;
+!:^WGStem%>s ATTESTED-NOUN-STEM ;
     N_VARVAS-SG        ;
     N_VARVAS-PL        ;
 LEXICON N_VARVAS-SG
@@ -1392,7 +1392,7 @@ LEXICON N_PESSYH-PL
 LEXICON N_BEMMEL !!≈ @CODE@ bemmel:bembel
 !! Gradation Yes
 !! Harmony: Front
-:^WGStem ATTESTED-NOUN-STEM ;
+!:^WGStem ATTESTED-NOUN-STEM ;
     N_BEMMEL-SG        ;
     N_BEMMEL-PL        ;
 LEXICON N_BEMMEL-SG
@@ -1416,7 +1416,7 @@ LEXICON N_BEMMEL-PL
 LEXICON N_SUURIM !!≈ @CODE@ suurim:suurim
 !! Gradation NA
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
         N_SUURIM-SG  ;
         N_SUURIM-PL  ;
 
@@ -1429,7 +1429,7 @@ LEXICON N_SUURIM-PL
 LEXICON N_TUATINDAM !!≈ @CODE@ tuatindam:tuatindam
 !! Gradation NA
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
         N_TUATINDAM-SG  ;
         N_TUATINDAM-PL  ;
 
@@ -1443,7 +1443,7 @@ LEXICON N_TUATINDAM-PL
 LEXICON N_TUATANDIM !!≈ @CODE@ tuatandim:tuatandim
 !! Gradation NA
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
         N_TUATANDIM-SG  ;
         N_TUATANDIM-PL  ;
 
@@ -1469,7 +1469,7 @@ LEXICON N_TUATANDIM-PL
 LEXICON N_SIEMEN !!≈ @CODE@ siemen:siemen
 !! Gradation NA
 !! Harmony: Front
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
         N_SIEMEN-SG  ;
         N_SIEMEN-PL  ;
 
@@ -1496,7 +1496,7 @@ LEXICON N_PAIMEN-PL
 LEXICON N_SALBOIN !!≈ @CODE@ salboin:salboi
 !! Gradation No
 !! Harmony: Back
-:n ATTESTED-NOUN-STEM ;
+!:n ATTESTED-NOUN-STEM ;
         N_SALBOIN-SG  ;
         N_SALBOIN-PL  ;
 
@@ -1523,7 +1523,7 @@ LEXICON N_SALBOIN-PL
 LEXICON N_UDAR !!≈ @CODE@ udar:udar
 !! Gradation No
 !! Harmony: Back
-: ATTESTED-NOUN-STEM ;
+!: ATTESTED-NOUN-STEM ;
         N_UDAR-SG  ;
         N_UDAR-PL  ;
 
@@ -1537,7 +1537,7 @@ LEXICON N_UDAR-PL
 LEXICON N_PIENAR !!≈ @CODE@ pienar:piendar
 !! Gradation Yes
 !! Harmony: Back
-:^WGStem ATTESTED-NOUN-STEM ;
+!:^WGStem ATTESTED-NOUN-STEM ;
         N_PIENAR-SG  ;
         N_PIENAR-PL  ;
 
