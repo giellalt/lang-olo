@@ -40,7 +40,7 @@ sinä+Pron:t PERS-PL2 ;
 häi+Pron:hä PERS-SG3 ;
 häi+Pron:h PERS-PL3 ;
 tämä+Pron:tä PRON_TÄMÄ ;
-se+Pron:s PRON_SE ;
+
 
 LEXICON PERS-SG1
 ! minä:min
@@ -152,28 +152,28 @@ LEXICON PERS-PL3
 !  fixed by assigning the pronoun to the appropriate
 !  continuation class. -FMT/TAP
 LEXICON PRON_
-+Pron+Sg+Nom: # ;
-+Pron+Sg+Gen: # ;
-+Pron+Sg+Com: # ;
-+Pron+Sg+Par: # ;
-+Pron+Sg+All: # ;
-+Pron+Sg+Abe: # ;
-+Pron+Sg+Ade: # ;
-+Pron+Sg+Abl: # ;
-+Pron+Sg+Ill: # ;
-+Pron+Sg+Ine: # ;
-+Pron+Sg+Apr: # ;
-+Pron+Pl+Nom: # ;
-+Pron+Pl+Gen: # ;
-+Pron+Pl+Com: # ;
-+Pron+Pl+Par: # ;
-+Pron+Pl+All: # ;
-+Pron+Pl+Abe: # ;
-+Pron+Pl+Ade: # ;
-+Pron+Pl+Abl: # ;
-+Pron+Pl+Ill: # ;
-+Pron+Pl+Ine: # ;
-+Pron+Pl+Apr: # ;
++Sg+Nom: # ;
++Sg+Gen: # ;
++Sg+Com: # ;
++Sg+Par: # ;
++Sg+All: # ;
++Sg+Abe: # ;
++Sg+Ade: # ;
++Sg+Abl: # ;
++Sg+Ill: # ;
++Sg+Ine: # ;
++Sg+Apr: # ;
++Pl+Nom: # ;
++Pl+Gen: # ;
++Pl+Com: # ;
++Pl+Par: # ;
++Pl+All: # ;
++Pl+Abe: # ;
++Pl+Ade: # ;
++Pl+Abl: # ;
++Pl+Ill: # ;
++Pl+Ine: # ;
++Pl+Apr: # ;
 
 
 
