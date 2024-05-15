@@ -54,6 +54,8 @@ PROPER NOUNS FROM OLONETS
 
 Undentified Morph
 
+numerals in Olonets-Karelian
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/exceptions.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/stems/exceptions.lexc)</small>
