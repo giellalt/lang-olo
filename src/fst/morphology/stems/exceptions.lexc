@@ -31,20 +31,21 @@ työndiä+V+Pss+PrfPrc:työtty A_KOIVU ;
 
 harvat+Pron:harvat PRON_  "harvat" ;
 joga+Pron:joga PRON_  "joka, jokainen" ;
-kahteskymmenes:kahteskymmenes NUM_  "kahdeskymmenes" ;
-kolmaskymmenes:kolma#kymmen NUM_  "kolmaskymmenes" ;
-kolmassuas:kolma#sada NUM_  "kolmassadas" ;
+!kahteskymmenes+A:kahteskymmenes NUM_  "kahdeskymmenes" ;
+!kolmaskymmenes+A:kolma#kymmen NUM_  "kolmaskymmenes" ;
+!kolmassuas+A:kolma#sada A_  "kolmassadas" ;
 kudai+Pron:kuda PRON_  "kuka , mikä; joka; mikä - mikä" ;
 kumbaine+Pron:kumba PRON_KARJALAINE  "" ;
-kaheksastostu:kaheksastos NUM_  "kahdeksastoista" ;
-monet:monet A_  "monet" ;
+kaheksastostu+A:kaheksastos A_  "kahdeksastoista" ;
 muduas+Pron:muduande PRON_ "muuan, muudan" ;
 muduan+Pron:muduande PRON_  "muuan, muudan" ;
-pilkettiä:pilkettä V_  "vilkkua, pilkottaa" ;
-tuhannes:tuhanne NUM_  "tuhannes" ;
-ulgo-:ulgo- A_  "ulko-" ;
-yhtestostu:yhtestostu NUM_  "yhdestoista" ;
+!pilkettiä+V:pilkettä V_  "vilkkua, pilkottaa" ;
+!tuhannes+A:tuhanne A_  "tuhannes" ;
+!ulgo-:ulgo- A_  "ulko-" ;
 äijäs+Pron:äijäs PRON_  "mones" ;
+yhtestostu+A+Sg+Nom:yhtestostu #  "yhdestoista" ;
+yhtestostu+A+Sg+Gen:yhtendentostu #  "yhdestoista" ;
+yhtestostu+A+Sg+Par:yhtettytostu #  "yhdestoista" ;
 
 !! Adverbs incomplete
 ei% ammui+Adv:ei% ammui ADV_  "" ;
