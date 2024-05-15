@@ -780,6 +780,7 @@ REMOVE:NotJok (Dial/Jok);
 
 #!! 
 REMOVE:on ("o") IF (0 ("olla"));
+REMOVE:ei ("e") IF (0 ("ei"));
 REMOVE:RomanI Rom OR Abbr OR ("I" Rom) OR Use/Circ IF (0 ("i" CC)) ; #Roman numerals will need addressing, this might be too powerful
 
 #!! * __person_test__ selects finite verb if there is a Pron Pers to the left
