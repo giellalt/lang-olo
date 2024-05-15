@@ -730,7 +730,7 @@ LEXICON NMN_TAIGIN taigin:taigin
 
 ### Singular suffixes
 
-* luadi^WGStem^E1%>tt%{uy%}%>%{uy%} examples:*
+* luadi%^WGStem%^E1%>tt%{uy%}%>%{uy%} examples:*
 
 * luaji000ttu%>u examples:*
 
