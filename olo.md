@@ -2347,7 +2347,7 @@ Forthcoming
 
 ### CONDITIONAL PRETERITE
 
-* **+Pot+Pl3+Rc:%>d%{aä%}%>nehes K ;** Shouldn't THIS be the right form
+* **+Rfl+Pot+Pl3:%>d%{aä%}%>nehes K ;** Shouldn't THIS be the right form
 
 ## IMPERATIVE
 
@@ -3034,6 +3034,8 @@ Verb moods are:
 * **+Prs** Potential
 
 Verb personal forms are:
+**+Rfl** : This is a work around for olo passive. Olo has a passive conjugation,
+whereas Finnish and Estonian do not.
 Other verb forms are
 **+Inf** : Infinitive
 **+Act** : active voice

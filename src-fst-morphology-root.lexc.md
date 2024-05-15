@@ -141,6 +141,8 @@ Verb moods are:
 * **+Prs** Potential
 
 Verb personal forms are:
+**+Rfl** : This is a work around for olo passive. Olo has a passive conjugation,
+whereas Finnish and Estonian do not.
 Other verb forms are
 **+Inf** : Infinitive
 **+Act** : active voice

@@ -384,7 +384,7 @@ Forthcoming
 
 ### CONDITIONAL PRETERITE
 
-* **+Pot+Pl3+Rc:%>d%{aä%}%>nehes K ;** Shouldn't THIS be the right form
+* **+Rfl+Pot+Pl3:%>d%{aä%}%>nehes K ;** Shouldn't THIS be the right form
 
 ## IMPERATIVE
 
