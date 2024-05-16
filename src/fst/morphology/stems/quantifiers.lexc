@@ -1,6 +1,7 @@
 
 LEXICON quantifiers
 
+yksi:y NUM_YKSI  "" ;
 kaksi:ka NUM_KAKSI  "kaksi" ;
 kolme:kolm NUM_KOLME  "kolme" ;
 nelli:nell NUM_NELLI  "" ;
@@ -8,11 +9,11 @@ viizi:viid NUM_VIIZI  "" ;
 kuuzi:kuud NUM_KUUZI  "" ;
 seiččie:seičče NUM_SEIČČIE  "seitsemän" ;
 kaheksa:kaheksa NUM_KAHEKSA  "" ;
-yheksä:yheksä NUM_YHEKSÄ  "" ;
+yheksä:yheksä NUM_OZA  "" ;
 kymmene:kymmen NUM_KYMMENE  "" ;
-miljounu:miljouna NUM_MILJOUNU  "miljoona" ;
-tuhat:tuha NUM_TUHAT  "" ;
 sada:sada NUM_SADA  "" ;
+tuhat:tuha NUM_TUHAT  "" ;
+miljounu:miljouna NUM_MILJOUNU  "miljoona" ;
 
 kaheksakymmen+Num:kaheksakymmen NUM_  "" ;
 kaksikymmen+Num:kaksikymmen NUM_  "" ;
@@ -40,5 +41,4 @@ viizitostu+Num:viizitostu NUM_  "" ;
 yheksäkymmen+Num:yheksäkymmen NUM_  "" ;
 yheksäsadua+Num:yheksäsada NUM_  "" ;
 yheksätostu+Num:yheksätostu NUM_  "" ;
-yksi+Num:y NUM_YKSI  "" ;
 yksitostu+Num:yksitostu NUM_  "" ;
