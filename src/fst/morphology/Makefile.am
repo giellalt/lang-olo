@@ -56,6 +56,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/nouns_newwords.lexc       \
 			stems/numerals.lexc       \
 			stems/propernouns_newwords.lexc \
+			stems/quantifiers.lexc   \
 			stems/verbs_newwords.lexc 
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
@@ -85,7 +86,6 @@ GENERATED_LEXC_SRCS=\
 			$(srcdir)/stems/pronouns.lexc      \
 			$(srcdir)/stems/propernouns.lexc   \
 			$(srcdir)/stems/propernouns-toponyms.lexc   \
-			$(srcdir)/stems/quantifiers.lexc   \
 			$(srcdir)/stems/verbs.lexc \
 			generated_files/smi-$(GLANG)-acronyms.lexc \
 			generated_files/smi-$(GLANG)-abbreviations.lexc \
@@ -128,7 +128,6 @@ GT_XML_SRCS=\
 			stems/pronouns.xml      \
 			stems/propernouns.xml   \
 			stems/propernouns-toponyms.xml   \
-			stems/quantifiers.xml   \
 			stems/verbs.xml
 
 # Define any additional lexc sources here (compiled on their own):
