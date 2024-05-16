@@ -1887,6 +1887,8 @@ Livvi quantifiers inflect for case.
 
 **LEXICON NUM_MUARJU** muarju:muarja
 
+**LEXICON NUM_MILJOUNU** muarju:muarja
+
 LEXICON NUM_YKSI yksi:y
 
 LEXICON NUM_KAKSI kaksi:ka
@@ -3457,8 +3459,6 @@ Verbs INCOMPLETE
 PROPER NOUNS FROM OLONETS
 
 Undentified Morph
-
-numerals in Olonets-Karelian
 
 * * *
 
