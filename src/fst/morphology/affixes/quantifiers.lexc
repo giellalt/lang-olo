@@ -6,15 +6,15 @@ LEXICON NUM_
 +TYÄ: # ;
 
 LEXICON NUM-STEMS
-#yksi:#y%{front%} NUM_YKSI ;
-#kaksi:#ka%{back%} NUM_KAKSI ;
-#kolme:#kolm%{back%} NUM_KOLME ;
-#nelli:#nell%{front%} NUM_NELLI ;
-#viizi:#viid%{front%} NUM_VIIZI ;
-#kuuzi:#kuud%{back%} NUM_KUUZI ;
-#seiččie:#seičče%{front%} NUM_SEIČČIE ;
-#kaheksa:#kaheksa%{back%} NUM_KAHEKSA ;
-#yheksä:#yheksä%{front%} NUM_YHEKSÄ ;
+yksi:#y%{front%} NUM_YKSI ;
+kaksi:#ka%{back%} NUM_KAKSI ;
+kolme:#kolm%{back%} NUM_KOLME ;
+nelli:#nell%{front%} NUM_NELLI ;
+viizi:#viid%{front%} NUM_VIIZI ;
+kuuzi:#kuud%{back%} NUM_KUUZI ;
+seiččie:#seičče%{front%} NUM_SEIČČIE ;
+kaheksa:#kaheksa%{back%} NUM_KAHEKSA ;
+yheksä:#yheksä%{front%} NUM_YHEKSÄ ;
 
 LEXICON NUM_OZA
 +Card:%{back%} NMN_OZA/SÄYNÄ ;
@@ -27,7 +27,20 @@ LEXICON NUM_MUARJU  !!≈ **@CODE@** muarju:muarja
 !LEXICON NUM_SÄYNÄ
 !+Card:%{front%} NMN_OZA/SÄYNÄ ;
 
+LEXICON NUM_MILJOUNU  !!≈ **@CODE@** muarju:muarja
+@U.NUM-TYPE.CARD@@U.DECL-NX.SG@:@U.NUM-TYPE.CARD@@U.DECL-NX.SG@%^A2UÄ2Y NUM-NOM ;
+ SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
+ SGPARSUF_A2 ;
++Sg: OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
+ PLNOMSUF-USUALLY-WEAK ;
+:%^A2O%>i PL-GEN/COM/APRSUF_N ; 
+:%^A2O%>i PLPARSUF_Zero ;
+:%^A2O%>i PLINSSUF ;
++Pl:%^A2O%>i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
+
+
 LEXICON NUM_SADA
+@U.NUM-TYPE.CARD@@U.DECL-NX.SG@:@U.NUM-TYPE.CARD@@U.DECL-NX.SG@ NUM-NOM ;
 @U.NUM-TYPE.CARD@@U.DECL-NX.SG@:@U.NUM-TYPE.CARD@@U.DECL-NX.SG@%{back%}%^WGStem00 NUM-USUALLY-WEAK ;
 @U.NUM-TYPE.CARD@@U.DECL-NX.SG@:@U.NUM-TYPE.CARD@@U.DECL-NX.SG@%{back%}00 NUM-USUALLY-STRONG ;
 @U.NUM-TYPE.CARD@@U.DECL-NX.PL@:@U.NUM-TYPE.CARD@@U.DECL-NX.PL@%{back%}%^WGStem0 NUM-USUALLY-WEAK ;
