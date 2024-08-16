@@ -84,6 +84,48 @@ LEXICON V_ALENDUA/ELLENDIÄ_01 !!≈ * **@CODE@** ellendiä:ellendä alendua:ale
 :%^RmVow V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;
 INF_A ;
 
+LEXICON V_LIIKUTTUA !!≈ * **@CODE@** liikuttua:liikutta
+!! Harmony: Back
+:%{back%} V_LIIKUTTUA/MENETTIÄ_01 ;
+
+LEXICON V_MENETTIÄ !!≈ * **@CODE@** menettiä:menettä
+!! Harmony: Front
+:%{front%} V_LIIKUTTUA/MENETTIÄ_01 ;
+LEXICON V_LIIKUTTUA/MENETTIÄ_01 !!≈ * **@CODE@** liikuttua:liikutta, menettiä:menettä
+!! Gradation YES
+:%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK ;
+:%^WGStem%^RmVow V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
+INF_A ;
+
++Act: INDPRSSG3 ;
++Act: INDPRTSG3 ;
++Act: CONDPRS_S  ;
+
++Act:%^WGStem INDPRTPL3_Ettih ;
++Act:%^WGStem INDPRTCONNEG_nnuh ;
++Act:%^WGStem INDPRTCONNEGPL3_Ettu ;
+
++Act:%^WGStem CONDPRSPL3_Ettas ;
++Act:%^WGStem CONDPRT_nnus ;
++Act:%^WGStem CONDPRTPL3_Etannus ;
+
++Act: POT_N ;
++Act:%^WGStem POTPL3_Etanneh ;
+
++Act:%^WGStem IMPRT_kka ;
++Act:%^WGStem IMPRTPL3_Ettahes ;
+
+:%^WGStem PSS-PRSPRC_Ettavu ;
+:%^WGStem ACT-PRFPRC_nnuH ;
+:%^WGStem PSS-PRFPRC_Ettu ;
+
+ ACT-PRSPRC_OSTAI ;
+ M-INF        ;
+ GER_jen ;
+ GER-TEMP_jes ;
+!!
+
+
 LEXICON V_KANDUA !!≈ * **@CODE@** kandua:kanda
 !! Back Vowel
 :%{back%} V_KANDUA_01 ;
@@ -237,6 +279,22 @@ LEXICON V_PYZYÖ-3 !!≈ * **@CODE@** pyzyö:pyzy
 :%{front%}  V-VV_01_FRONT_USUALLY-STRONG ;
 :%{front%}%^WGStem  V-VV_01_FRONT_USUALLY-STRONG-VOWEL-LOSS ;
 +Inf:%{front%}%>ö K ;
+
+LEXICON V_SUALISTUO !!≈ * **@CODE@** sualistuo:sualistu
+!! Back vowel
+:%{back%} V_SUALISTUO/PEZEVYÖ_01 ;
+LEXICON V_PEZEVYÖ !!≈ * **@CODE@** sualistuo:sualistu
+!! Front vowel
+:%{front%} V_SUALISTUO/PEZEVYÖ_01 ;
+LEXICON V_SUALISTUO/PEZEVYÖ_01 !!≈ * **@CODE@** valuo:valu
+!! Gradation Yes
+!! similar_to: V_PYZYÖ
+!FIXME 2024-08-16 +Der+Der/Rc+V: VR_VALUO/PEZEVYÖ ;
+:%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
+:%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
+:  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
+:%^WGStem  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;
+INF_A ;
 
 !! V1i
 LEXICON V_POTKIE !!≈ * **@CODE@** potkie:potki

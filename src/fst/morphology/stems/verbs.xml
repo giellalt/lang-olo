@@ -2382,7 +2382,7 @@
    <lg>
      <l pos="V">avvuttua</l>
      <stg>
-       <st Contlex="V_OTTUA">avvutta</st>
+       <st Contlex="V_LIIKUTTUA">avvutta</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -2822,7 +2822,7 @@
    <lg>
      <l pos="V">bavvuttua</l>
      <stg>
-       <st Contlex="V_OTTUA">bavvutta</st>
+       <st Contlex="V_LIIKUTTUA">bavvutta</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -6256,7 +6256,7 @@
    <lg>
      <l pos="V">ennustua</l>
      <stg>
-       <st Contlex="V_OTTUA">ennusta</st>
+       <st Contlex="V_LIIKUTTUA">ennusta</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -11170,7 +11170,7 @@
    <lg>
      <l pos="V">huijustuakseh</l>
      <stg>
-       <st Contlex="VR_OTTUA">huijusta</st>
+       <st Contlex="VR_LIIKUTTUA">huijusta</st>
      </stg>
    </lg>
    <mg>
@@ -13318,7 +13318,7 @@
    <lg>
      <l pos="V">hävittiä</l>
      <stg>
-       <st Contlex="V_HEITTIÄ">hävittä</st>
+       <st Contlex="V_MENETTIÄ">hävittä</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -18455,7 +18455,7 @@
    <lg>
      <l pos="V">kannattua</l>
      <stg>
-       <st Contlex="V_OTTUA">kannatta</st>
+       <st Contlex="V_LIIKUTTUA">kannatta</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -27515,7 +27515,7 @@
    <lg>
      <l pos="V">kuorittua</l>
      <stg>
-       <st Contlex="V_OTTUA">kuoritta</st>
+       <st Contlex="V_LIIKUTTUA">kuoritta</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -32631,7 +32631,7 @@
    <lg>
      <l pos="V">liikuttua</l>
      <stg>
-       <st Contlex="V_OTTUA">liikutta</st>
+       <st Contlex="V_LIIKUTTUA">liikutta</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -35337,7 +35337,7 @@
    <lg>
      <l pos="V">lunnastua</l>
      <stg>
-       <st Contlex="V_OTTUA">lunnasta</st>
+       <st Contlex="V_LIIKUTTUA">lunnasta</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -37906,7 +37906,7 @@
    <lg>
      <l pos="V">menettiä</l>
      <stg>
-       <st Contlex="V_HEITTIÄ">menettä</st>
+       <st Contlex="V_MENETTIÄ">menettä</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -39546,7 +39546,7 @@
    <lg>
      <l pos="V">muokkavuo</l>
      <stg>
-       <st Contlex="V_VALUO">muokkavu</st>
+       <st Contlex="V_SUALISTUO">muokkavu</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -42779,7 +42779,7 @@
    <lg>
      <l pos="V">nostattua</l>
      <stg>
-       <st Contlex="V_OTTUA">nostatta</st>
+       <st Contlex="V_LIIKUTTUA">nostatta</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -46163,7 +46163,7 @@
    <lg>
      <l pos="V">opastua</l>
      <stg>
-       <st Contlex="V_OTTUA">opasta</st>
+       <st Contlex="V_LIIKUTTUA">opasta</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -46198,7 +46198,7 @@
    <lg>
      <l pos="V">opastuo</l>
      <stg>
-       <st Contlex="V_VALUO">opastu</st>
+       <st Contlex="V_SUALISTUO">opastu</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -48886,7 +48886,7 @@
    <lg>
      <l pos="V">pavvuttua</l>
      <stg>
-       <st Contlex="V_OTTUA">pavvutta</st>
+       <st Contlex="V_LIIKUTTUA">pavvutta</st>
      </stg>
    </lg>
    <mg>
@@ -49842,7 +49842,7 @@
    <lg>
      <l pos="V">pezettiä</l>
      <stg>
-       <st Contlex="V_HEITTIÄ">pezettä</st>
+       <st Contlex="V_MENETTIÄ">pezettä</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -49876,23 +49876,13 @@
    <lg>
      <l pos="V">pezevyö</l>
      <stg>
-       <st Contlex="VR_VALUO">pezevy</st>
-     </stg>
-   </lg>
-   <mg> <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">peseytyä</t>
-     </tg>
-   </mg>
-</e>
-<e order="2">
-   <lg>
-     <l pos="V">pezevyö</l>
-     <stg>
-       <st Contlex="V_PYZYÖ">pezevy</st>
+       <st Contlex="V_PEZEVYÖ">pezevy</st>
      </stg>
    </lg>
    <mg>
+     <tg xml:lang="fin">
+       <t pos="V">peseytyä</t>
+     </tg>
      <tg xml:lang="rus">
        <t pos="V">вымыться</t>
        <t pos="V">мыться</t>
@@ -53349,7 +53339,7 @@
    <lg>
      <l pos="V">puhtastua</l>
      <stg>
-       <st Contlex="V_OTTUA">puhtasta</st>
+       <st Contlex="V_ALENDUA">puhtasta</st>
      </stg>
    </lg>
    <mg>
@@ -58620,7 +58610,7 @@
    <lg>
      <l pos="V">rodivuo</l>
      <stg>
-       <st Contlex="V_VALUO">rodivu</st>
+       <st Contlex="V_SUALISTUO">rodivu</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -64953,7 +64943,7 @@
    <lg>
      <l pos="V">sualistuo</l>
      <stg>
-       <st Contlex="V_VALUO">sualistu</st>
+       <st Contlex="V_SUALISTUO">sualistu</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -69195,7 +69185,7 @@
    <lg>
      <l pos="V">tiijustua</l>
      <stg>
-       <st Contlex="V_OTTUA">tiijusta</st>
+       <st Contlex="V_LIIKUTTUA">tiijusta</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -71285,7 +71275,7 @@
    <lg>
      <l pos="V">tunnustua</l>
      <stg>
-       <st Contlex="V_OTTUA">tunnusta</st>
+       <st Contlex="V_LIIKUTTUA">tunnusta</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -87298,7 +87288,7 @@
    <lg>
      <l pos="V">šuorittua</l>
      <stg>
-       <st Contlex="V_OTTUA">šuoritta</st>
+       <st Contlex="V_LIIKUTTUA">šuoritta</st>
      </stg>
    </lg>
    <mg> <defNative/>
