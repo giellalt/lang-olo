@@ -1992,6 +1992,14 @@ Harmony: Front
 * **LEXICON V_ALENDUA/ELLENDIÄ_01** ellendiä:ellendä alendua:alenda
 Gradation No
 
+* **LEXICON V_LIIKUTTUA** liikuttua:liikutta
+Harmony: Back
+
+* **LEXICON V_MENETTIÄ** menettiä:menettä
+Harmony: Front
+* **LEXICON V_LIIKUTTUA/MENETTIÄ_01** liikuttua:liikutta, menettiä:menettä
+Gradation YES
+
 * **LEXICON V_KANDUA** kandua:kanda
 Back Vowel
 * **LEXICON V_KANDUA_01** kandua:kanda
@@ -2038,6 +2046,14 @@ Front vowel
 * **LEXICON V_PYZYÖ-SG3** pyzyö:pyzy
 
 * **LEXICON V_PYZYÖ-3** pyzyö:pyzy
+
+* **LEXICON V_SUALISTUO** sualistuo:sualistu
+Back vowel
+* **LEXICON V_PEZEVYÖ** sualistuo:sualistu
+Front vowel
+* **LEXICON V_SUALISTUO/PEZEVYÖ_01** valuo:valu
+Gradation Yes
+similar_to: V_PYZYÖ
 
 V1i
 * **LEXICON V_POTKIE** potkie:potki
