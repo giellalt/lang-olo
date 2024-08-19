@@ -216,7 +216,7 @@ LEXICON V_PUNUO !!≈ * **@CODE@** punuo:puno
 !! Back vowel
 :%{back%} V_PUNUO/XX_01 ;
 LEXICON V_PUNUO/XX_01 !!≈ * **@CODE@** punuo:puno
-!! Gradation No
+!! Gradation split this 2024-08-19
 +Der+Der/Rc+V: VR_PUNUO/XX_01 ;
 :%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
@@ -1321,6 +1321,7 @@ LEXICON V-VV_01_Harm-Neutr_USUALLY-WEAK
 +Act: INDPRTPL3_Ettih ;
 +Act: INDPRTCONNEGPL3_EttU ;
 +Act: CONDPRSPL3_EttAs ;
++Act: IMPRT_kkA ; ! 2024-08-19 move from V-VV_01_Harm-Neutr_USUALLY-STRONG
 
 LEXICON V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS
 +Act: INDPRTSG1 ;
@@ -1337,7 +1338,7 @@ LEXICON V-VV_01_Harm-Neutr_USUALLY-STRONG
 +Act: CONDPRTPL3_EtAnnUs ;
 +Act: POT_N ;
 +Act: POTPL3_EtAnneh ;
-+Act: IMPRT_kkA ;
++Err/Orth+Act: IMPRT_kkA ; ! 2024-08-19 move to V-VV_01_Harm-Neutr_USUALLY-WEAK
 +Act: IMPRTPL3_EttAhes ;
  ACT-PRSPRC_PEZII ;
  PSS-PRSPRC_EttAvU ;
