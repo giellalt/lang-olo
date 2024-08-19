@@ -2026,7 +2026,7 @@ V1o
 * **LEXICON V_PUNUO** punuo:puno
 Back vowel
 * **LEXICON V_PUNUO/XX_01** punuo:puno
-Gradation No
+Gradation split this 2024-08-19
 
 * **LEXICON V_PUNUO-SG3** punuo:puno
 
