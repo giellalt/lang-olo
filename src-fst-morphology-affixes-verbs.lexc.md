@@ -318,6 +318,9 @@ gradation: yes
 * **LEXICON VR_OTTUA** ottuakseh:otta
 * **LEXICON VR_OTTUA/HEITTIÄ_01** ottuakseh:otta
 
+* **LEXICON VR_LIIKUTTUA** kirjuttuakseh:kirjutta
+* **LEXICON VR_LIIKUTTUA/XX_01** kirjuttuakseh:kirjutta
+
 * **LEXICON VR_EISTIÄ** eistiäkseh:eistä
 
 Reflexive verbs
