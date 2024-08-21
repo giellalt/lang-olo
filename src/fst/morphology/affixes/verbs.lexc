@@ -1101,6 +1101,17 @@ LEXICON VR_OTTUA/HEITTIÄ_01 !!≈ * **@CODE@** ottuakseh:otta
 :%^WGStem     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-WEAK_ ;
 INF-RC_Akseh ;
 
+LEXICON VR_LIIKUTTUA !!≈ * **@CODE@** kirjuttuakseh:kirjutta
+:%{back%} VR_LIIKUTTUA/XX_01 ;
+LEXICON VR_LIIKUTTUA/XX_01 !!≈ * **@CODE@** kirjuttuakseh:kirjutta
+:     VR_01-Harm-Neutr-LONGSTEM-USUALLY-STRONG_ ;
+:%^WGStem     VR_01-Harm-Neutr-LONGSTEM-USUALLY-WEAK ;  
+:%^WGStem%^RmVow     VR_01-Harm-Neutr-LONGSTEM-USUALLY-WEAK-VOWEL-LOSS ;  
+:%^RmVow     VR_01-Harm-Neutr-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
+:     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-STRONG_ ;
+:%^WGStem     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-WEAK_ ;
+INF-RC_Akseh ;
+
 !LEXICON VR_EISTIÄ-SG3 ! needs fixing 2016-08-17
 !VR_EISTIÄ ;
 LEXICON VR_EISTIÄ !!≈ * **@CODE@** eistiäkseh:eistä
@@ -1971,7 +1982,7 @@ LEXICON VR_01-Harm-Neutr-SHORTSTEM-USUALLY-STRONG_
 
  VR_CONDPRT_nUs ;
  VR_POT_N ;
- VR_IMPRT_kkA ;
++Err/Orth: VR_IMPRT_kkA ;! move to VR_01-Harm-Neutr-SHORTSTEM-USUALLY-WEAK_ 2024-08-21
  RCPRFPRC_nUHes ;
  INF-RC_tAkseh ;
 
@@ -1986,6 +1997,7 @@ LEXICON VR_01-Harm-Neutr-SHORTSTEM-USUALLY-WEAK_
  VR_CONDPRTPL3_EtAhUzihes ;
  VR_POTPL3_EtAnehes ;
  VR_IMPRTPL3_EttAhes ;
+ VR_IMPRT_kkA ;! move from VR_01-Harm-Neutr-SHORTSTEM-USUALLY-STONG_ 2024-08-21
 
 
 !! HOW WILL THESE WORK
