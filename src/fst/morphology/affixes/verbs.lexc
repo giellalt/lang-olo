@@ -95,8 +95,11 @@ LEXICON V_LIIKUTTUA/MENETTIÄ_01 !!≈ * **@CODE@** liikuttua:liikutta, menetti�
 !! Gradation YES
 :%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem%^RmVow V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
+:  V-VV_01_Harm-Neutr_USUALLY-STRONG ;!2024-11-04
+:%^RmVow  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;!2024-11-04
 INF_A ;
 
+!CHECK THESE 2024-11-04
 +Act: INDPRSSG3 ;
 +Act: INDPRTSG3 ;
 +Act: CONDPRS_S  ;
@@ -163,6 +166,7 @@ LEXICON V_OTTUA/HEITTIÄ_01 !!≈ * **@CODE@** ottua:otta
 +Der+Der/Rc+V: VR_OTTUA/HEITTIÄ_01 ;
 :%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem%^RmVow V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
+
 :  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
 :%^RmVow  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;
 INF_A ;
