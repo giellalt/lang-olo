@@ -2988,6 +2988,12 @@ The prefix (before "/") is **Cmp**.
            of a dynamic compound. It is important for
            Apertium, and useful in other cases as well.
 
+* **+v1** version tags
+* **+v2** version tags
+* **+v3** version tags
+* **+v4** version tags
+* **+v5** version tags
+
 ## Useage
 The Usage extents are marked using following tags:
 
@@ -2998,12 +3004,19 @@ The Usage extents are marked using following tags:
 * +Err/Hyph
 * +Err/Lex
 * +Err/SpaceCmp
+* +Err/MissingSpace
 * **+Use/SpellNoSugg** recognized but not suggested in speller
 * **+Use/Circ** circular paths (old ^C^)
 * **+Use/CircN** circular paths for the numerals (old ^N^)
 * **+Use/NG** not-generate, for ped generation isme-ped.fst
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
 * **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+* **+Use/-GC**  (?)
+
+* **+OLang/NOB** olang tags
+* **+OLang/FIN** olang tags
+* **+OLang/SWE** olang tags
+* **+OLang/UND** olang tags
 
 The nominals are inflected in the following Case and Number
 * **+Sg**  singular
@@ -3317,6 +3330,10 @@ These are for developing underlying morphology rules
 * «
 * > (escaped with square brackets, to avoid collision with > as morpheme boundary)
 * < (escaped with square brackets, to avoid collision with < as morpheme boundary)
+
+### Miscellanious tags
+
+* +Span
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
