@@ -89,11 +89,11 @@ Multichar_Symbols
                !!                 Apertium, and useful in other cases as well.
 
 
-+v1
-+v2
-+v3
-+v4
-+v5
++v1     !!≈ * **@CODE@** version tags
++v2    !!≈ * **@CODE@** version tags
++v3    !!≈ * **@CODE@** version tags
++v4    !!≈ * **@CODE@** version tags
++v5    !!≈ * **@CODE@** version tags
 
 
 !! ## Useage
@@ -106,6 +106,7 @@ Multichar_Symbols
  +Err/Hyph !!≈ * @CODE@
  +Err/Lex !!≈ * @CODE@
  +Err/SpaceCmp !!≈ * @CODE@
+ +Err/MissingSpace !!≈ * @CODE@
  +Use/SpellNoSugg !!≈ * **@CODE@** recognized but not suggested in speller
  +Use/Circ        !!≈ * **@CODE@** circular paths (old ^C^)
  +Use/CircN       !!≈ * **@CODE@** circular paths for the numerals (old ^N^)
@@ -113,12 +114,13 @@ Multichar_Symbols
 +Use/GC
  +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
  +Use/-TTS         !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
++Use/-GC      !!≈ * **@CODE@**  (?)
 
 
-+OLang/NOB
-+OLang/FIN
-+OLang/SWE
-+OLang/UND
++OLang/NOB       !!≈ * **@CODE@** olang tags
++OLang/FIN     !!≈ * **@CODE@** olang tags
++OLang/SWE     !!≈ * **@CODE@** olang tags
++OLang/UND     !!≈ * **@CODE@** olang tags
 
 
 !! The nominals are inflected in the following Case and Number
@@ -622,6 +624,12 @@ E1   !!≈ * @CODE@
  «7     !! * «
  %[%>%] !! * > (escaped with square brackets, to avoid collision with > as morpheme boundary)
  %[%<%] !! * < (escaped with square brackets, to avoid collision with < as morpheme boundary)
+
+!! ### Miscellanious tags
+
++Span !!≈ * @CODE@
+
+
 
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
