@@ -348,11 +348,13 @@ kymmene:#kymmen NUM_KYMMENE ;
 sada:#sada NUM_SADA ;
 tuhat:#tuha NUM_TUHAT ;
 NUM-STEMS ;
-
-@U.NUM-TYPE.CARD@@U.DECL-NX.SG@@U.DECL-CX.NOM@kymmendy:@U.NUM-TYPE.CARD@@U.DECL-NX.SG@@U.DECL-CX.NOM@#kymmendy000 SUBSEQUENT-NUM_OPT ;
-
 #toine:#to ORD_TOINE ;
 #enzimäine:#ensimä ORD_LIYGILÄINE ;
+@U.NUM-TYPE.CARD@@U.DECL-NX.SG@@U.DECL-CX.NOM@  kymmendy-lex ;
+
+LEXICON kymmendy-lex ! for flag alignment in previous lexicon
+0kymmendy:#kymmendy  SUBSEQUENT-NUM_OPT ;
+
 
 LEXICON NUM_ORD_END_NB
 @U.NUM-TYPE.ORD@@U.DECL-NX.SG@+Num+Ord+Sg:@U.NUM-TYPE.ORD@@U.DECL-NX.SG@ NUM_CARD/ORD_END_CX ;
