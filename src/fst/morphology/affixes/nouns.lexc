@@ -7,8 +7,8 @@
 
 
 !! ## The file proper
-LEXICON OTHER-TIME ! adhoc
-# ;
+!LEXICON OTHER-TIME ! adhoc
+!# ;
 
 LEXICON N_BOBA ! adhoc
 N_KALA ;
@@ -3516,8 +3516,8 @@ LEXICON SGNOMSUF
 LEXICON SGPARSUF_dU
 +Sg+Par:%>d%{uy%} K ;
 
-LEXICON SGPARSUF_tU
-+Sg+Par:%>t%{uy%} K ;
+!LEXICON SGPARSUF_tU
+!+Sg+Par:%>t%{uy%} K ;
 
 LEXICON SGPARSUF_ttU
 +Sg+Par:%>tt%{uy%} K ;
@@ -3566,26 +3566,26 @@ LEXICON PLPARSUF_i
 LEXICON PLPARSUF_dU
 +Pl+Par:%>d%{uy%} K ;
 
-LEXICON ILLSUF_he
-+Ill:%>he K ;
+!LEXICON ILLSUF_he
+!+Ill:%>he K ;
 
-LEXICON Noun-NB-01
-+Ade:%^WGStem%>l K ;
-!+Abl:%^WGStem%>l K ;
-+Abl:%^WGStem%>lpäi K ;
-+All:%^WGStem%>le K ;
-+Abe:%^WGStem%>tt%{aä%}h K ;
-+Abe+Err/Orth:%^WGStem%>tt%{aä%} K ;
-+Abe:%^WGStem%>t%{aä%} K ;
-!+Ela:%^WGStem%>s K ;
-+Ela+Use/NG:%^WGStem%>späi K ;
-+Ess:%^WGStem%>nn%{uy%} K ;
-+Ine:%^WGStem%>s K ;
-!+Ins:%^WGStem%>n K ; 
-+Ill:%>h K ;
-+Tra:%^WGStem%>kse K ;
-+Prl:%^WGStem%>či K ;
-+Ter:%>ss%{aä%}h K ;
+!LEXICON Noun-NB-01
+!+Ade:%^WGStem%>l K ;
+!!+Abl:%^WGStem%>l K ;
+!+Abl:%^WGStem%>lpäi K ;
+!+All:%^WGStem%>le K ;
+!+Abe:%^WGStem%>tt%{aä%}h K ;
+!+Abe+Err/Orth:%^WGStem%>tt%{aä%} K ;
+!+Abe:%^WGStem%>t%{aä%} K ;
+!!+Ela:%^WGStem%>s K ;
+!+Ela+Use/NG:%^WGStem%>späi K ;
+!+Ess:%^WGStem%>nn%{uy%} K ;
+!+Ine:%^WGStem%>s K ;
+!!+Ins:%^WGStem%>n K ; 
+!+Ill:%>h K ;
+!+Tra:%^WGStem%>kse K ;
+!+Prl:%^WGStem%>či K ;
+!+Ter:%>ss%{aä%}h K ;
 
 LEXICON OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES
  OBLIQUE-CASES-TYPICALLY-WITH-WEAK-GRADE ;

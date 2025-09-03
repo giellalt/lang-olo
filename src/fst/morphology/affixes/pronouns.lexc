@@ -8,29 +8,29 @@
 !  if the form happens to be wrong, it can be 
 !  fixed by assigning the pronoun to the appropriate
 !  continuation class. -FMT/TAP
-LEXICON PERS_
-+Pron+Pers+Sg+Nom: # ;
-+Pron+Pers+Sg+Gen: # ;
-+Pron+Pers+Sg+Com: # ;
-+Pron+Pers+Sg+Par: # ;
-+Pron+Pers+Sg+All: # ;
-+Pron+Pers+Sg+Abe: # ;
-+Pron+Pers+Sg+Ade: # ;
-+Pron+Pers+Sg+Abl: # ;
-+Pron+Pers+Sg+Ill: # ;
-+Pron+Pers+Sg+Ine: # ;
-+Pron+Pers+Sg+Apr: # ;
-+Pron+Pers+Pl+Nom: # ;
-+Pron+Pers+Pl+Gen: # ;
-+Pron+Pers+Pl+Com: # ;
-+Pron+Pers+Pl+Par: # ;
-+Pron+Pers+Pl+All: # ;
-+Pron+Pers+Pl+Abe: # ;
-+Pron+Pers+Pl+Ade: # ;
-+Pron+Pers+Pl+Abl: # ;
-+Pron+Pers+Pl+Ill: # ;
-+Pron+Pers+Pl+Ine: # ;
-+Pron+Pers+Pl+Apr: # ;
+!LEXICON PERS_
+!+Pron+Pers+Sg+Nom: # ;
+!+Pron+Pers+Sg+Gen: # ;
+!+Pron+Pers+Sg+Com: # ;
+!+Pron+Pers+Sg+Par: # ;
+!+Pron+Pers+Sg+All: # ;
+!+Pron+Pers+Sg+Abe: # ;
+!+Pron+Pers+Sg+Ade: # ;
+!+Pron+Pers+Sg+Abl: # ;
+!+Pron+Pers+Sg+Ill: # ;
+!+Pron+Pers+Sg+Ine: # ;
+!+Pron+Pers+Sg+Apr: # ;
+!+Pron+Pers+Pl+Nom: # ;
+!+Pron+Pers+Pl+Gen: # ;
+!+Pron+Pers+Pl+Com: # ;
+!+Pron+Pers+Pl+Par: # ;
+!+Pron+Pers+Pl+All: # ;
+!+Pron+Pers+Pl+Abe: # ;
+!+Pron+Pers+Pl+Ade: # ;
+!+Pron+Pers+Pl+Abl: # ;
+!+Pron+Pers+Pl+Ill: # ;
+!+Pron+Pers+Pl+Ine: # ;
+!+Pron+Pers+Pl+Apr: # ;
 
 LEXICON Pronoun-types
 minä+Pron:min PERS-SG1 ;
@@ -236,8 +236,8 @@ LEXICON PRON-DEM_NET !!≈ @CODE@ net:n
 +Dem+Dep+Pl+Ill:iih K ;
 
 !! ### INDEFINITE
-LEXICON PRON-INDEF_ !!≈ @CODE@ Still requires work
-+Indef: K ;
+!LEXICON PRON-INDEF_ !!≈ @CODE@ Still requires work
+!+Indef: K ;
 
 LEXICON PRON-INDEF_KEN !!≈ @CODE@ kentahto:ke
 +Indef+Sg+Abl:lpäi TAHTO/LIENNE ;

@@ -726,6 +726,18 @@ E1   !!≈ * @CODE@
 @U.number.eight@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.nine@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.zero@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.one@     !!≈ |  @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.two@     !!≈ |  @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.three@   !!≈ |  @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.four@    !!≈ |  @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.five@    !!≈ |  @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.six@     !!≈ |  @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.seven@   !!≈ |  @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.eight@   !!≈ |  @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.nine@    !!≈ |  @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.ten@     !!≈ |  @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.zero@    !!≈ |  @CODE@ | Flag used to give arabic numerals in smj different cases ;
+
 !! # Lexicon Root
 
 LEXICON Root
@@ -793,8 +805,8 @@ LEXICON INTERJ_
 !:%> CASESUF ;
 !:%> ORDINAL ;
 
-LEXICON ORDINAL
-+Ord+TYÄ:s K;
+!LEXICON ORDINAL
+!+Ord+TYÄ:s K;
 
 LEXICON PCLE_
 : #;
@@ -816,14 +828,14 @@ LEXICON PREP_
 : # ;
 
 
-LEXICON CASESUF
-#;
+!LEXICON CASESUF
+!#;
 
 !LEXICON DEM
 !#;
 
-LEXICON ACRONDELIMITER
-# ;
+!LEXICON ACRONDELIMITER
+!# ;
 
 LEXICON WORD-END
 # ;

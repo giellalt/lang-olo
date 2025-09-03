@@ -24,16 +24,16 @@
 ! nominatives
 
 
-LEXICON NUM_CASE
-+Gen:^WGStem%>n NUM_K ;
-+All:^WGStem%>le NUM_K ;
-+Abl:^WGStem%>lp%{aä%}i NUM_K ;
-+Ela:^WGStem%>st%{aä%} NUM_K ;
-+Ade:^WGStem%>l NUM_K ;
+!LEXICON NUM_CASE
+!+Gen:^WGStem%>n NUM_K ;
+!+All:^WGStem%>le NUM_K ;
+!+Abl:^WGStem%>lp%{aä%}i NUM_K ;
+!+Ela:^WGStem%>st%{aä%} NUM_K ;
+!+Ade:^WGStem%>l NUM_K ;
 
-LEXICON NUM_K
-K ;
-ARABICCOMPOUNDS ;
+!LEXICON NUM_K
+!K ;
+!ARABICCOMPOUNDS ;
 
 
 LEXICON ARABICCOMPOUNDS   !!≈ * **@CODE@**  ! 1-osainen
@@ -134,15 +134,15 @@ LEXICON ARABICCASEORD
       +Arab+Pl+Ela:%>nsista  # ;
       +Arab+Pl+Com:%>nnine # ;
 
-LEXICON ARABICCASECOLL
- +Arab+Pl+Nom:%>t       # ;
-! +Arab+Pl+Acc:%>sidie    # ;
-! +Arab+Pl+Gen:%>si       # ;
-! +Arab+Pl+Ill:%>sidie    # ;
-! +Arab+Pl+Ine:%>sinie    # ;
-! +Arab+Pl+Ela:%>sijstie  # ;
-! +Arab+Pl+Com:%>sigujmie # ;
-!    +Arab+Ess:%>sinie    # ;
+!LEXICON ARABICCASECOLL
+! +Arab+Pl+Nom:%>t       # ;
+!! +Arab+Pl+Acc:%>sidie    # ;
+!! +Arab+Pl+Gen:%>si       # ;
+!! +Arab+Pl+Ill:%>sidie    # ;
+!! +Arab+Pl+Ine:%>sinie    # ;
+!! +Arab+Pl+Ela:%>sijstie  # ;
+!! +Arab+Pl+Com:%>sigujmie # ;
+!!    +Arab+Ess:%>sinie    # ;
 
 LEXICON ARABICCASEORD-ERR
 ARABICCASEORD ; ! XXX look at this
