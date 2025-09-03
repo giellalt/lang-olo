@@ -656,8 +656,6 @@ These were the set types.
 
 ## Temporary lexica
 
-* LEXICON Q_X 
-
 * LEXICON A_ 
 
 ## Somewhat open issues
@@ -1597,6 +1595,14 @@ forms which requires great amount of care in the inflection patterns.
 
 * **LEXICON ARABICCASE0**  adds +Arab
 
++Arab+Pl+Acc:%>sidie    # ;
++Arab+Pl+Gen:%>si       # ;
++Arab+Pl+Ill:%>sidie    # ;
++Arab+Pl+Ine:%>sinie    # ;
++Arab+Pl+Ela:%>sijstie  # ;
++Arab+Pl+Com:%>sigujmie # ;
++Arab+Ess:%>sinie    # ;
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/numerals.lexc](https://github.com/giellalt/lang-olo/blob/main/src/fst/morphology/affixes/numerals.lexc)</small>
@@ -1628,7 +1634,6 @@ LEXICON PRON-DEM_NÄMMÄ nämmä:nämmä
 LEXICON PRON-DEM_NET net:n
 
 ### INDEFINITE
-LEXICON PRON-INDEF_ Still requires work
 
 LEXICON PRON-INDEF_KEN kentahto:ke
 
@@ -1898,8 +1903,6 @@ Livvi quantifiers inflect for case.
 
 **LEXICON NUM_MUARJU** muarju:muarja
 
-**LEXICON NUM_MILJOUNU** muarju:muarja
-
 LEXICON NUM_YKSI yksi:y
 
 LEXICON NUM_KAKSI kaksi:ka
@@ -2098,8 +2101,6 @@ Back vowel
 * **LEXICON V_IMIE** imie:ime
 Gradation No
 Front vowel
-
-* **LEXICON V_IMIE-SG3_01** imie:ime
 
 * **LEXICON V_PIDIÄ** pidiä:pidä
 Gradation Yes
@@ -2333,7 +2334,8 @@ Reflexive verbs
 V1
 This verb type has two final vowels in the first infinitive
 
-**LEXICON V-3SYLL_KIRJUTTUA**  kirjuttua:kirjutta
+V1 3-syllable stem 
+This verb type has two final vowels in the first infinitive
 
 * **LEXICON V-VV_03_Harm-Neutr** tulla:tul
 
@@ -3403,6 +3405,18 @@ Removal
 | @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+
 # Lexicon Root
 
 * adjectives ;

@@ -123,8 +123,6 @@ Back vowel
 Gradation No
 Front vowel
 
-* **LEXICON V_IMIE-SG3_01** imie:ime
-
 * **LEXICON V_PIDIÄ** pidiä:pidä
 Gradation Yes
 Front vowel
@@ -357,7 +355,8 @@ Reflexive verbs
 V1
 This verb type has two final vowels in the first infinitive
 
-**LEXICON V-3SYLL_KIRJUTTUA**  kirjuttua:kirjutta
+V1 3-syllable stem 
+This verb type has two final vowels in the first infinitive
 
 * **LEXICON V-VV_03_Harm-Neutr** tulla:tul
 

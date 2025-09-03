@@ -3,8 +3,6 @@ Livvi quantifiers inflect for case.
 
 **LEXICON NUM_MUARJU** muarju:muarja
 
-**LEXICON NUM_MILJOUNU** muarju:muarja
-
 LEXICON NUM_YKSI yksi:y
 
 LEXICON NUM_KAKSI kaksi:ka

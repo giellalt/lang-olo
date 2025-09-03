@@ -2,8 +2,6 @@
 
 ## Temporary lexica
 
-* LEXICON Q_X 
-
 * LEXICON A_ 
 
 ## Somewhat open issues

@@ -10,7 +10,6 @@ LEXICON PRON-DEM_NÄMMÄ nämmä:nämmä
 LEXICON PRON-DEM_NET net:n
 
 ### INDEFINITE
-LEXICON PRON-INDEF_ Still requires work
 
 LEXICON PRON-INDEF_KEN kentahto:ke
 
