@@ -2035,6 +2035,10 @@ Front vowel
 
 * **LEXICON V_HEITTIÄ-3** heittä:tiedä
 
+* **LEXICON V_TIEDIÄ** tiediä:ti
+Front vowel
+Gradation Yes
+
 V1o
 
 * **LEXICON V_PUNUO** punuo:puno
