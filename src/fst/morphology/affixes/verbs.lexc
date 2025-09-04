@@ -214,6 +214,29 @@ LEXICON V_HEITTIÄ-3 !!≈ * **@CODE@** heittä:tiedä
 :%{front%}%^RmVow  V-VV_01_FRONT_USUALLY-STRONG-VOWEL-LOSS ;
 +Inf:%{front%}%^Ä2I%>ä K ;
 
+LEXICON V_TIEDIÄ !!≈ * **@CODE@** tiediä:ti
+!! Front vowel
+:%{front%} V_TIEDIÄ_01 ;
+LEXICON V_TIEDIÄ_01
+!! Gradation Yes
++Der+Der/Rc+V: VR_TIEDIÄ_01 ;
+:ijä  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
+:ez V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
+
+:edä  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
+:ez  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;
+:edä INF_A ;
+
+LEXICON VR_TIEDIÄ_01
+:edä     VR_01-Harm-Neutr-LONGSTEM-USUALLY-STRONG_ ;
+:ijä     VR_01-Harm-Neutr-LONGSTEM-USUALLY-WEAK ;  
+:ij     VR_01-Harm-Neutr-LONGSTEM-USUALLY-WEAK-VOWEL-LOSS ;  
+:ed     VR_01-Harm-Neutr-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
+:edä     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-STRONG_ ;
+:ijä     VR_01-Harm-Neutr-SHORTSTEM-USUALLY-WEAK_ ;
+:edä INF-RC_Akseh ;
+
+
 !! V1o
 
 LEXICON V_PUNUO !!≈ * **@CODE@** punuo:puno
