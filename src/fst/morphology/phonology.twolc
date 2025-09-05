@@ -397,10 +397,14 @@ Rules
 "{aäoeöuiy%}:a"
 !! **Rule: @RULENAME@**
 %{aäoeöuiy%}:a <=> [a: | %{ui%}:u ] (%{back%}:) %> _ ;
+	       	   Cns (%{back%}:) a:  %> _ ;
+!!€ Puavil{back}u>{aäoeöuiy}
+!!€ Puavil0u>a
 
 "{aäoeöuiy%}:ä"
 !! **Rule: @RULENAME@**
 %{aäoeöuiy%}:ä <=> [ä:| %{ui%}:i] (%{front%}:) %> _ ;
+	       	   Cns (%{front%}:) ä:  %> _ ;
 
 "{aäoeöuiy%}:o"
 !! **Rule: @RULENAME@**
@@ -494,6 +498,8 @@ Rules
 "a:u before subsequent a"
 !! **@RULENAME@**  Diphthong a+a => ua
 a:u <=> ConsPalOrNot _ [%{back%}:  ( d:0 ) a  |d:0 a| (%{back%}:) %> [ %{aä%}: | A2:a ] ]; 
+    		       ConsPalOrNot %{back%}: _ %>  %{aäoeöuiy%}: ;
+
 !! ostua+V+Inf: **buy/ostaa**
 !!€# osta%>%{aä%}
 !!€0 ostu%>%{aä%}
@@ -505,6 +511,8 @@ a:u <=> ConsPalOrNot _ [%{back%}:  ( d:0 ) a  |d:0 a| (%{back%}:) %> [ %{aä%}: 
 !! **@RULENAME@**  Diphthong ä+ä => iä
 ä:i <=>  Cns: (ʼ)  _ [ ä | %> [ %{aä%}:ä | A2:ä ] ]; 
          Cns: (ʼ) _ (%{front%}:) [%^A2UÄ2I:0| (%>) %{aä%}: | (%>) %{aäoeö%}: |(%>) %{aäoeöuiy%}: ] ;
+       ConsPalOrNot %{front%}: _ %>  %{aäoeöuiy%}: ;
+
 !! kehittiä+V+Inf: **develop/kehittää**
 !!€# kehittä%>%{aä%}
 !!€0 kehitti%>ä
