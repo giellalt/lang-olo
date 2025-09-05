@@ -97,6 +97,7 @@ LEXICON V_LIIKUTTUA/MENETTIÄ_01 !!≈ * **@CODE@** liikuttua:liikutta, menetti�
 :%^WGStem%^RmVow V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
 :  V-VV_01_Harm-Neutr_USUALLY-STRONG ;!2024-11-04
 :%^RmVow  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;!2024-11-04
+:%^WGStem ACT-PRFPRC_nnUH ;!2025-09-05
 INF_A ;
 
 !CHECK THESE 2024-11-04
@@ -169,6 +170,7 @@ LEXICON V_OTTUA/HEITTIÄ_01 !!≈ * **@CODE@** ottua:otta
 
 :  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
 :%^RmVow  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;
+: ACT-PRFPRC_nUH ;!2025-09-05
 INF_A ;
 
 
@@ -1374,21 +1376,23 @@ LEXICON V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS
 LEXICON V-VV_01_Harm-Neutr_USUALLY-STRONG
 +Act: INDPRSSG3 ;
 !+Ind+Prt+ConNeg:%>%{lnrs%}%{uy%}h K ;
-+Act: INDPRTCONNEG_nUh ;
 +Act: CONDPRS_S  ;
-+Act: CONDPRT_nUs ;
 +Act: CONDPRTPL3_EtAnnUs ;
-+Act: POT_N ;
 +Act: POTPL3_EtAnneh ;
 +Err/Orth+Act: IMPRT_kkA ; ! 2024-08-19 move to V-VV_01_Harm-Neutr_USUALLY-WEAK
 +Act: IMPRTPL3_EttAhes ;
  ACT-PRSPRC_PEZII ;
  PSS-PRSPRC_EttAvU ;
- ACT-PRFPRC_nUH ;
  PSS-PRFPRC_EttU ;
  M-INF      ;
  GER_jen ;
  GER-TEMP_jes ;
++Act: INDPRTCONNEG_nUh ;
++Act: CONDPRT_nUs ;
++Act: POT_N ;
+ ACT-PRFPRC_nUH ;
+
+
 LEXICON V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS
 +Act: INDPRTSG3 ;
 
@@ -3231,6 +3235,10 @@ LEXICON ACT-PRFPRC_nUH
 +Act+PrfPrc:%>%{lnrs%}%{uy%}h K ;
 +Act+PrfPrc+Err/Orth:%>%{lnrs%}%{uy%}t K ;
 +Act+PrfPrc:%>%{lnrs%}%{uy%} NMN_TULLUH/PESSYH ;
++Act: INDPRTCONNEG_nUh ;
++Act: CONDPRT_nUs ;
++Act: POT_N ;
+
 LEXICON ACT-PRFPRC_nuH
 +Act+PrfPrc:%>%{lnrs%}uh K ;
 +Act+PrfPrc+Err/Orth:%>%{lnrs%}ut K ;
@@ -3240,10 +3248,21 @@ LEXICON ACT-PRFPRC_nyH
 +Act+PrfPrc+Err/Orth:%>%{lnrs%}yt K ;
 +Act+PrfPrc:%>%{lnrs%}y NMN_TULLUH/PESSYH ;
 
+LEXICON ACT-PRFPRC_nnUH
++Act+PrfPrc:%>nn%{uy%}h K ;
++Act+PrfPrc+Err/Orth:%>nn%{uy%}t K ;
++Act+PrfPrc:%>nn%{uy%} NMN_TULLUH/PESSYH ;
++Act:n INDPRTCONNEG_nUh ;
++Act:n CONDPRT_nUs ;
++Act:n POT_N ;
+
+
+
 LEXICON ACT-PRFPRC_nnuH
-+Act+PrfPrc:%^WGStem%>n%{lnrs%}uh K ;
-+Act+PrfPrc+Err/Orth:%^WGStem%>n%{lnrs%}uh K ;
-+Act+PrfPrc:%^WGStem%>n%{lnrs%}u NMN_TULLUH ;
++Act+PrfPrc:%^WGStem%>nnuh K ;
++Act+PrfPrc+Err/Orth:%^WGStem%>nnuh K ;
++Act+PrfPrc:%^WGStem%>nnu NMN_TULLUH ;
+
 LEXICON ACT-PRFPRC_nnyH
 +Act+PrfPrc:%^WGStem%>n%{lnrs%}yh K ;
 +Act+PrfPrc+Err/Orth:%^WGStem%>n%{lnrs%}yh K ;
