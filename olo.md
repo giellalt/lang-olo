@@ -2534,6 +2534,8 @@ heittiä+V+Inf: **throw/heittää**
 **Rule: %{aäoeö%}:ö**
 
 **Rule: {aäoeöuiy%}:a**
+* *Puavil{back}u>{aäoeöuiy}*
+* *Puavil0u>a*
 
 **Rule: {aäoeöuiy%}:ä**
 
@@ -2582,6 +2584,7 @@ heittiä+V+Inf: **throw/heittää**
 **Rule: %{aäuyiØ%}:0**
 
 **a:u before subsequent a**  Diphthong a+a => ua
+
 ostua+V+Inf: **buy/ostaa**
 
 * osta%>%{aä%} examples:*
@@ -2589,6 +2592,7 @@ ostua+V+Inf: **buy/ostaa**
 * ostu%>%{aä%} examples:*
 
 **ä:i before subsequent A2**  Diphthong ä+ä => iä
+
 kehittiä+V+Inf: **develop/kehittää**
 
 * kehittä%>%{aä%} examples:*
