@@ -1200,7 +1200,9 @@ SELECT:dempronandnotpronpers Dem IF (1 A OR N) (NEGATE -1 Dem LINK -1 V) (NEGATE
 #% ... niin ota vasthaan tämän lahjan minun käðestä, sillä tarkoitus oli nähðä sinun silmät ...
 
 #!! * **Imperativefromconneg** selects and removes ConNeg
-IFF:Imperativefromconneg ConNeg IF (0 Imprt)(*-1 Neg BARRIER WORD - Foc/kaan - Adv)(NEGATE -1 Foc/kaan LINK 2 S-BOUNDARY) ;
+IFF:Imperativefromconneg (Ind Prs ConNeg) OR (Imprt ConNeg) IF (0 Imprt)(*-1 Neg BARRIER WORD - Foc/kaan - Adv)(NEGATE -1 Foc/kaan LINK 2 S-BOUNDARY) ;
+# too strong
+#kuni tämä kai ei roinne, sentäh ku et uskonuh minun sanoih, <olo> # Pot ConNeg must be retained
 #% Anna se mikä oon sinun, olla sinun.
 #% Ei yksikhään niistä jokka mie olin kuttunu.
 # Jos mie nyt olen saannu hyväntahtoisuutta sinulta, niin ota vasthaan tämän lahjan minun käðestä
