@@ -74,7 +74,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">kaheksas</l>
 
@@ -107,7 +107,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">kuvves</l>
 
@@ -123,7 +123,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">kuvvestostu</l>
 
@@ -139,7 +139,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">kymmenes</l>
 
@@ -155,7 +155,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">nelläskymmenes</l>
 
@@ -171,7 +171,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">nellästostu</l>
 
@@ -187,7 +187,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">nelläs</l>
 
@@ -203,7 +203,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">sadas</l>
 
@@ -219,7 +219,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">seiččemäs</l>
 
@@ -235,23 +235,7 @@
     </mg>
   </e>
 
-  <e>
-    <lg>
-      <l pos="A">toine</l>
-
-      <stg>
-        <st Contlex="ORD_TOINE">to</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-
-    </mg>
-  </e>
-
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">viijes</l>
 
@@ -267,7 +251,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">viijestostu</l>
 
@@ -284,7 +268,7 @@
   </e>
 
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="A">yheksäs</l>
 

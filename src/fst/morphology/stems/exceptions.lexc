@@ -28,6 +28,19 @@ työndiä+V+Pss+PrfPrc:työtty A_KOIVU ;
 
 
 !! ADJECTIVES 
+!! Basic ordinals
+@U.NUM-TYPE.ORD@yhtes:@U.NUM-TYPE.ORD@#yhte%{front%} ORD_01_FRONT ;
+@U.NUM-TYPE.ORD@kahtes:@U.NUM-TYPE.ORD@#kahte%{back%} ORD_01_BACK ;
+@U.NUM-TYPE.ORD@kolmas:@U.NUM-TYPE.ORD@#kolma%{back%} ORD_01_BACK ;
+@U.NUM-TYPE.ORD@nʼelläs:@U.NUM-TYPE.ORD@#nʼelläs%{front%} ORD_01_FRONT ;
+@U.NUM-TYPE.ORD@viijes:@U.NUM-TYPE.ORD@#viije%{front%} ORD_01_FRONT ;
+@U.NUM-TYPE.ORD@kuvves:@U.NUM-TYPE.ORD@#kuvve%{back%} ORD_01_BACK ;
+@U.NUM-TYPE.ORD@seiččemäs:@U.NUM-TYPE.ORD@#seiččemä%{front%} ORD_01_FRONT ;
+@U.NUM-TYPE.ORD@kaheksas:@U.NUM-TYPE.ORD@#kaheksa%{back%} ORD_01_BACK ;
+@U.NUM-TYPE.ORD@yheksäs:@U.NUM-TYPE.ORD@#yheksä%{front%} ORD_01_FRONT ;
+@U.NUM-TYPE.ORD@kymmenes:@U.NUM-TYPE.ORD@#kymmene%{front%} ORD_01_FRONT ;
+@U.NUM-TYPE.ORD@suas:@U.NUM-TYPE.ORD@#sua%{back%} ORD_01_BACK ;
+@U.NUM-TYPE.ORD@tuhandes:@U.NUM-TYPE.ORD@#tuhande%{back%} ORD_01_BACK ;
 
 harvat+Pron:harvat PRON_  "harvat" ;
 joga+Pron:joga PRON_  "joka, jokainen" ;

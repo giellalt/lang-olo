@@ -18,8 +18,9 @@
 
 Multichar_Symbols
 
-+Ex/N	!!≈ * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 +Ex/A	!!≈ * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
++Ex/N	!!≈ * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
++Ex/Num	!!≈ * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 +Ex/V	!!≈ * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 
 
@@ -672,6 +673,11 @@ E1   !!≈ * @CODE@
 !! cardinal vs ordinal
 @U.NUM-TYPE.CARD@ !!≈ * @CODE@
 @U.NUM-TYPE.ORD@ !!≈ * @CODE@
+@R.NUM-TYPE.ORD@ !!≈ * @CODE@
+@D.NUM-TYPE.ORD@ !!≈ * @CODE@
+@U.NUM-CARD.WAS@ !!≈ * @CODE@
+@R.NUM-CARD.WAS@ !!≈ * @CODE@
+@D.NUM-CARD.WAS@ !!≈ * @CODE@
 !! ## number
 @U.DECL-NX.SG@ !!≈ * @CODE@
 @U.DECL-NX.SP@ !!≈ * @CODE@
@@ -762,6 +768,7 @@ LEXICON Root
    Symbols     ;
    Exceptions ;  !!≈ * @CODE@
    Numerals ;
+
 
 !! NEWWORDS FILES
  A_NEWWORDS ;     !!≈ **@CODE@** adjectives
