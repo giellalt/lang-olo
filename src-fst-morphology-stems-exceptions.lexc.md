@@ -3,6 +3,7 @@
 Special verbal forms
 
 ADJECTIVES 
+Basic ordinals
 
 Adverbs incomplete
 #päivy+N+Sg+Ess+Adv+Adv:#piän This should help in compound words Essive 

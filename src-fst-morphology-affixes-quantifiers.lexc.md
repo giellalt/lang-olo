@@ -6,7 +6,7 @@ Livvi quantifiers inflect for case.
 LEXICON NUM_YKSI yksi:y
 
 LEXICON NUM_KAKSI kaksi:ka
-* :hte%^WGStem ORD_01_BACK ; This cannot be final
+* @U.NUM-CARD.WAS@:@U.NUM-CARD.WAS@hte%^WGStem ORD_01_BACK ; This cannot be final
 
 LEXICON NUM_SEIČČIE seiččie:seičče
 

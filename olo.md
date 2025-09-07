@@ -1906,7 +1906,7 @@ Livvi quantifiers inflect for case.
 LEXICON NUM_YKSI yksi:y
 
 LEXICON NUM_KAKSI kaksi:ka
-* :hte%^WGStem ORD_01_BACK ; This cannot be final
+* @U.NUM-CARD.WAS@:@U.NUM-CARD.WAS@hte%^WGStem ORD_01_BACK ; This cannot be final
 
 LEXICON NUM_SEIČČIE seiččie:seičče
 
@@ -2940,8 +2940,9 @@ b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 
 ### Multichar symbols
 
-* **+Ex/N** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 * **+Ex/A** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+* **+Ex/N** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+* **+Ex/Num** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 * **+Ex/V** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 
 The morphological analyses of wordforms of Livvi are presented
@@ -3379,6 +3380,11 @@ Flags used to identify parts of speech
 cardinal vs ordinal
 * @U.NUM-TYPE.CARD@
 * @U.NUM-TYPE.ORD@
+* @R.NUM-TYPE.ORD@
+* @D.NUM-TYPE.ORD@
+* @U.NUM-CARD.WAS@
+* @R.NUM-CARD.WAS@
+* @D.NUM-CARD.WAS@
 ### number
 * @U.DECL-NX.SG@
 * @U.DECL-NX.SP@
@@ -3493,6 +3499,7 @@ ADD ADVERBS BELOW!
 Special verbal forms
 
 ADJECTIVES 
+Basic ordinals
 
 Adverbs incomplete
 ##päivy+N+Sg+Ess+Adv+Adv:#piän This should help in compound words Essive 
