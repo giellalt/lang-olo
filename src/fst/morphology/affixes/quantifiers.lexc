@@ -2,8 +2,8 @@
 !  ---------------
 !! Livvi quantifiers inflect for case.
 
-LEXICON NUM_
-+TYÄ: # ;
+!LEXICON NUM_
+!+TYÄ: # ;
 
 LEXICON NUM-STEMS
 yksi:#y%{front%} NUM_YKSI ;
@@ -190,8 +190,8 @@ LEXICON NUM_KOLME !!≈ @CODE@
 
 :a ORD_01_BACK ;
 
-LEXICON QNT_
-+TYÄ+Qnt: # ;
+!LEXICON QNT_
+!+TYÄ+Qnt: # ;
 
 LEXICON ORD_
 +TYÄ+Ord: # ;
