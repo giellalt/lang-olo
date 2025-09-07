@@ -16,10 +16,14 @@ LEXICON Numerals
 !0    NUM_ORD_ALL ;
 !0    NUM_OTHERS  ;
 
- +Use/Circ: ARABICS ;          ! for the arabic numerals        !
- +Use/Circ: ROMAN ;           ! for the roman numerals         !
- +Use/Circ: NUM-PREFIXES ;    ! for §34 etc.                   !
- +Use/Circ: ISOLATED-NUMEXP ; ! for ½ etc.                     !
+  ARABICS ;          ! for the arabic numerals        !
+! +Use/Circ: ARABICS ;          ! for the arabic numerals        !
+  ROMAN ;           ! for the roman numerals         !
+! +Use/Circ: ROMAN ;           ! for the roman numerals         !
+  NUM-PREFIXES ;    ! for §34 etc.                   !
+! +Use/Circ: NUM-PREFIXES ;    ! for §34 etc.                   !
+  ISOLATED-NUMEXP ; ! for ½ etc.                     !
+! +Use/Circ: ISOLATED-NUMEXP ; ! for ½ etc.                     !
 
 
 
