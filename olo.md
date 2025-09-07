@@ -3260,7 +3260,9 @@ source and target part-of-speech.
 * +Der/Tu
 * +Der/IA
 * **+Der/mbi** comparative
-* **+Der/Us** A>>N derivation
+* **+Der/Us** A>>N derivation (+Der/AN better?)
+* **+Der/AN** A>>N derivation
+
 * **+Der/A** Adjective derivation
 * **+Der/MWN** Modifier without Noun head
 
