@@ -1,4 +1,4 @@
-!! # The Livvi (Olonets) Karelian morphophonological/twolc rules file 
+!! # The Livvi Karelian morphophonological/twolc rules file 
 
 !! This file documents the [phonology.twolc file](http://github.com/giellalt/lang-olo/blob/main/src/fst/phonology.twolc) 
 
@@ -93,11 +93,11 @@ V3:0  !!≈ **@CODE@**
 
 !! no change
 !! The example here is for something that should not be done
-!! We have two infinite sets, Olonets-Karelian and incoming loanwords.
+!! We have two infinite sets, Livvi Karelian and incoming loanwords.
 !! The original idea was to make a rule changing all instances of 
 !! adjacent double aa to ua. For this reason a special trigger was
 !! to be inserted into the lexc stem of a word to prevent such a rule
-!! from occurring. Since the infinite Olonets-Karelian set is more predictable
+!! from occurring. Since the infinite Livvi Karelian set is more predictable
 !! and perhaps smaller than the incoming loanword set, it is better
 !! to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
 %^NONE:0 !!≈ @CODE@ This will break vowel change, e.g. sa%^NONEamelaine
