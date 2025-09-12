@@ -1,4 +1,4 @@
-The Olonets Karelian morphology and tools
+The Livvi Karelian morphology and tools
 ==========================================
 
 [![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-olo%2Fgh-pages%2Fmaturity.json)](https://giellalt.github.io/MaturityClassification.html)
@@ -16,7 +16,7 @@ Download nightly / CI/CD installation packages for testing (contains the core zh
 
 __NB!!__ Note that the nightly / CI/CD installation packages are not tested for language quality, and might contain regressions and errors.
 
-This repository contains finite state source files for the Olonets Karelian language,
+This repository contains finite state source files for the Livvi Karelian language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under GNU GPL
 licence, also detailed in the
@@ -25,7 +25,7 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-olo)
-for the Olonets Karelian language by using the [Divvun Installer](http://divvun.no)
+for the Livvi Karelian language by using the [Divvun Installer](http://divvun.no)
 (some languages are only available via the nightly channel).
 
 Download and test speller files
@@ -48,7 +48,7 @@ Documentation can be found at:
 Core dependencies
 -----------------
 
-In order to compile and use Olonets Karelian language morphology and
+In order to compile and use Livvi Karelian language morphology and
 dictionaries, you need:
 
 - an FST compiler: [HFST](https://github.com/hfst/hfst), [Foma](https://github.com/mhulden/foma) or [Xerox Xfst](https://web.stanford.edu/~laurik/fsmbook/home.html)

@@ -1,4 +1,4 @@
-! Divvun & Giellatekno - open source grammars for Livvi language
+! Divvun & Giellatekno - open source grammars for Livvi Karelian language
 ! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
@@ -12,7 +12,7 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@uit.no or feedback@divvun.no
 
-!! # The tags and root lexica of the morphological fst of Livvi
+!! # The tags and root lexica of the morphological fst of Livvi Karelian
 
 !! ## Multichar symbols
 
@@ -24,7 +24,7 @@ Multichar_Symbols
 +Ex/V	!!≈ * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 
 
-!! The morphological analyses of wordforms of Livvi are presented
+!! The morphological analyses of wordforms of Livvi Karelian are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
