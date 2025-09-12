@@ -1,5 +1,5 @@
 Pronoun inflection
-Livvi pronouns inflect for case.
+Livvi Karelian pronouns inflect for case.
 
 ### DEMONSTRATIVE PRONOUNS
 

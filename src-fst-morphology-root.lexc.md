@@ -1,5 +1,5 @@
 
-# The tags and root lexica of the morphological fst of Livvi
+# The tags and root lexica of the morphological fst of Livvi Karelian
 
 ## Multichar symbols
 
@@ -8,7 +8,7 @@
 * **+Ex/Num** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 * **+Ex/V** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 
-The morphological analyses of wordforms of Livvi are presented
+The morphological analyses of wordforms of Livvi Karelian are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 

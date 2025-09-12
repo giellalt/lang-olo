@@ -1,6 +1,6 @@
 
 
-We describe here how abbreviations are in Livvi are read out, e.g.
+We describe here how abbreviations are in Livvi Karelian are read out, e.g.
 for text-to-speech systems.
 
 For example:

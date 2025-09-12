@@ -1,6 +1,6 @@
 
 
-Disambiguator for Olonets
+Disambiguator for Livvi Karelian
 
 ## Sets
 

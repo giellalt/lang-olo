@@ -51,7 +51,7 @@ Wikipedii
 Väinämöine
 Verbs INCOMPLETE
 
-PROPER NOUNS FROM OLONETS
+PROPER NOUNS FROM LIVVI KARELIAN
 
 Undentified Morph
 

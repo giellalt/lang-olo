@@ -1,4 +1,4 @@
-# Livvi documentation
+# Livvi Karelian documentation
 
 [![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-olo%2Fgh-pages%2Fmaturity.json)](https://giellalt.github.io/MaturityClassification.html)
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-olo%2Fgh-pages%2Flemmacount.json)
@@ -6,7 +6,7 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-olo)](https://github.com/giellalt/lang-olo/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-olo/main/badge.svg)](https://github.com/giellalt/lang-olo/actions)
 
-This page documents the work on the [Livvi, or Olonets, language model](http://github.com/giellalt/lang-olo). 
+This page documents the work on the [Livvi Karelian language model](http://github.com/giellalt/lang-olo). 
 It contains some 56000 stems and the core morphology, and is in use in a morphological dictionary.
 
 
@@ -14,7 +14,7 @@ It contains some 56000 stems and the core morphology, and is in use in a morphol
 
 ## Resources
 
-* [Language technology tools for Livvi based on the present language model](https://giellatekno.uit.no/cgi/index.olo.eng.html)
+* [Language technology tools for Livvi Karelian based on the present language model](https://giellatekno.uit.no/cgi/index.olo.eng.html)
 
 # In-source documentation
 

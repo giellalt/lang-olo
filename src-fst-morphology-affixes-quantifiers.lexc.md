@@ -1,5 +1,5 @@
 Quantifier inflection
-Livvi quantifiers inflect for case.
+Livvi Karelian quantifiers inflect for case.
 
 **LEXICON NUM_MUARJU** muarju:muarja
 

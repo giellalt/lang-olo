@@ -1,4 +1,4 @@
-# Livvi adjective inflection
+# Livvi Karelian adjective inflection
 
 ## Temporary lexica
 

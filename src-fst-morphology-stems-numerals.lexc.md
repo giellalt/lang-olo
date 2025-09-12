@@ -1,5 +1,5 @@
 Numerals
-Numerals in the Livvi language are numbers.
+Numerals in the Livvi Karelian language are numbers.
 
 Numerals have been split in three sections, the compounding parts
 of cardinals and ordinals, and the non-compounding ones:

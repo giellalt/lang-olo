@@ -1,4 +1,4 @@
-# Livvi language model documentation
+# Livvi Karelian language model documentation
 
 All doc-comment documentation in one large file.
 
@@ -166,7 +166,7 @@ Correction rules
 
 
 
-Disambiguator for Olonets
+Disambiguator for Livvi Karelian
 
 ### Sets
 
@@ -652,7 +652,7 @@ These were the set types.
 
 ## src-fst-morphology-affixes-adjectives.lexc.md 
 
-## Livvi adjective inflection
+## Livvi Karelian adjective inflection
 
 ### Temporary lexica
 
@@ -807,7 +807,7 @@ The next two share the same stem vowel
 ## src-fst-morphology-affixes-adverbs.lexc.md 
 
 Adverbs 
-Olonets-Karelian adverbs compare.
+Livvi Karelian adverbs compare.
 
 LEXICON ADV-IS-ELA-WITH-PXSG3 e.g. levälleh
 
@@ -820,7 +820,7 @@ LEXICON ADV-IS-ELA-WITH-PXSG3 e.g. levälleh
 ## src-fst-morphology-affixes-clitics.lexc.md 
 
 Clitics
-Livvi clitics
+Livvi Karelian clitics
 
 * * *
 
@@ -831,7 +831,7 @@ Livvi clitics
 ## src-fst-morphology-affixes-nouns.lexc.md 
 
 ## Noun inflection
-Livvi nouns inflect in cases.
+Livvi Karelian nouns inflect in cases.
 Vowel harmony involves front and back
 Gradation does not affect all consonants, therefore
 there are three values: Yes, No and NA (not applicable)
@@ -1581,7 +1581,7 @@ LEXICON SGNOM/PXSP3 adding -h
 ## src-fst-morphology-affixes-numerals.lexc.md 
 
 
-## Olonets numerals 
+## Livvi Karelian numerals 
 
 ## Numeral inflection
 Numeral inflection is like nominal, except that numerals compound in all
@@ -1612,7 +1612,7 @@ forms which requires great amount of care in the inflection patterns.
 ## src-fst-morphology-affixes-prefixes.lexc.md 
 
 Prefixes
-Prefixes in the Livvi language are bound to beginning of other words.
+Prefixes in the Livvi Karelian language are bound to beginning of other words.
 
 * * *
 
@@ -1623,7 +1623,7 @@ Prefixes in the Livvi language are bound to beginning of other words.
 ## src-fst-morphology-affixes-pronouns.lexc.md 
 
 Pronoun inflection
-Livvi pronouns inflect for case.
+Livvi Karelian pronouns inflect for case.
 
 #### DEMONSTRATIVE PRONOUNS
 
@@ -1686,7 +1686,7 @@ LEXICON PRON_ENÄMBI enämbi:enämb
 ## src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
-The LIVVI-KARELIAN language proper nouns inflect in the same cases as regular
+The LIVVI KARELIAN language proper nouns inflect in the same cases as regular
 nouns, but sometimes with a colon (':') as separator.
 
 LEXICON PROP_ 
@@ -1899,7 +1899,7 @@ LEXICON PROP_STIPENDII kondii:kondi
 ## src-fst-morphology-affixes-quantifiers.lexc.md 
 
 Quantifier inflection
-Livvi quantifiers inflect for case.
+Livvi Karelian quantifiers inflect for case.
 
 **LEXICON NUM_MUARJU** muarju:muarja
 
@@ -2403,7 +2403,7 @@ Forthcoming
 
 ## src-fst-morphology-phonology.twolc.md 
 
-## The Livvi (Olonets) Karelian morphophonological/twolc rules file 
+## The Livvi Karelian morphophonological/twolc rules file 
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-olo/blob/main/src/fst/phonology.twolc) 
 
@@ -2476,11 +2476,11 @@ These reduplicate the preceding vowel if it in turn is preceded by a consonant
 
 no change
 The example here is for something that should not be done
-We have two infinite sets, Olonets-Karelian and incoming loanwords.
+We have two infinite sets, Livvi Karelian and incoming loanwords.
 The original idea was to make a rule changing all instances of 
 adjacent double aa to ua. For this reason a special trigger was
 to be inserted into the lexc stem of a word to prevent such a rule
-from occurring. Since the infinite Olonets-Karelian set is more predictable
+from occurring. Since the infinite Livvi Karelian set is more predictable
 and perhaps smaller than the incoming loanword set, it is better
 to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
 %^NONE:0 This will break vowel change, e.g. sa%^NONEamelaine
@@ -2936,7 +2936,7 @@ b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 ## src-fst-morphology-root.lexc.md 
 
 
-## The tags and root lexica of the morphological fst of Livvi
+## The tags and root lexica of the morphological fst of Livvi Karelian
 
 ### Multichar symbols
 
@@ -2945,7 +2945,7 @@ b:m <=> m _ [ a | i ] (HarmDummy:) %^WGStem:0 ;
 * **+Ex/Num** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 * **+Ex/V** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 
-The morphological analyses of wordforms of Livvi are presented
+The morphological analyses of wordforms of Livvi Karelian are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
@@ -3549,7 +3549,7 @@ Wikipedii
 Väinämöine
 Verbs INCOMPLETE
 
-PROPER NOUNS FROM OLONETS
+PROPER NOUNS FROM LIVVI KARELIAN
 
 Undentified Morph
 
@@ -3580,7 +3580,7 @@ ADD NOUNS BELOW!
 ## src-fst-morphology-stems-numerals.lexc.md 
 
 Numerals
-Numerals in the Livvi language are numbers.
+Numerals in the Livvi Karelian language are numbers.
 
 Numerals have been split in three sections, the compounding parts
 of cardinals and ordinals, and the non-compounding ones:
@@ -3818,7 +3818,7 @@ retracted tongue root			_q
 
 
 
-We describe here how abbreviations are in Livvi are read out, e.g.
+We describe here how abbreviations are in Livvi Karelian are read out, e.g.
 for text-to-speech systems.
 
 For example:

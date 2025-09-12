@@ -1,5 +1,5 @@
 Proper noun inflection
-The LIVVI-KARELIAN language proper nouns inflect in the same cases as regular
+The LIVVI KARELIAN language proper nouns inflect in the same cases as regular
 nouns, but sometimes with a colon (':') as separator.
 
 LEXICON PROP_ 

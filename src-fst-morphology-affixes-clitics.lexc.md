@@ -1,5 +1,5 @@
 Clitics
-Livvi clitics
+Livvi Karelian clitics
 
 * * *
 
