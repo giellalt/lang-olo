@@ -9,7 +9,7 @@
 # Only get the lemma you ask for:
 # sh devtools/adj_minip.sh '^lestadiolainen[ :+]' 
 
-LOOKUP=$(echo $LOOKUP)
+HLOOKUP=$(echo $HLOOKUP)
 GTLANGS=$(echo $GTLANGS)
 
 PATTERN=$1
@@ -22,8 +22,8 @@ for lemma in $(cat $L_FILE);
 do
  for form in $(cat $P_FILE);
  do
-   echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-olo/src/generator-gt-norm.xfst
-  # echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-olo/src/generator-gt-norm.xfst
+   echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-olo/src/fst/generator-gt-norm.hfstol
+  # echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-olo/src/fst/generator-gt-norm.xfst
  done
  rm -f $L_FILE
 done
