@@ -1,0 +1,224 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@uit.no or feedback@divvun.no
+
+! ================================== !
+!      The Livvi Karelian dates      !
+! ================================== !
+
+! pakkaskuu 1
+! tuhukuu 2
+! kevätkuu 3
+! sulakuu 4
+! oraskuu 5
+! kezäkuu 6
+! heinykuu 7
+! elokuu 8
+! syvyskuu 9
+! ligakuu 10
+! kylmykuu 11
+! talvikuu 12
+
+! 12.8.
+! kahtestostu päivy elokuudu
+! 12. elokuudu
+
+Multichar_Symbols
+
+@U.MONTH.1@ 
+@U.MONTH.2@ 
+@U.MONTH.3@ 
+@U.MONTH.4@ 
+@U.MONTH.5@ 
+@U.MONTH.6@ 
+@U.MONTH.7@ 
+@U.MONTH.8@ 
+@U.MONTH.9@ 
+@U.MONTH.10@ 
+@U.MONTH.11@ 
+@U.MONTH.12@ 
+
++Use/NG ! For substandard month names used in Oahpa
+! They will be accepted but not generated.
+
+
+
+LEXICON Root
+
+@U.MONTH.1@:pakkaskuun+Use/NG% @U.MONTH.1@ 31DAYS ;
+@U.MONTH.1@:Pakkaskuun+Use/NG% @U.MONTH.1@ 31DAYS ;
+@U.MONTH.2@:tuhukuun+Use/NG% @U.MONTH.2@ 29DAYS ;
+@U.MONTH.2@:Tuhukuun+Use/NG% @U.MONTH.2@ 29DAYS ;
+@U.MONTH.3@:kevätkuun+Use/NG% @U.MONTH.3@ 31DAYS ;
+@U.MONTH.3@:Kevätkuun+Use/NG% @U.MONTH.3@ 31DAYS ;
+@U.MONTH.4@:sulakuun+Use/NG% @U.MONTH.4@ 30DAYS ;
+@U.MONTH.4@:Sulakuun+Use/NG% @U.MONTH.4@ 30DAYS ;
+@U.MONTH.5@:oraskuun+Use/NG% @U.MONTH.5@ 31DAYS ;
+@U.MONTH.5@:Oraskuun+Use/NG% @U.MONTH.5@ 31DAYS ;
+@U.MONTH.6@:kezäkuun+Use/NG% @U.MONTH.6@ 30DAYS ;
+@U.MONTH.6@:Kezäkuun+Use/NG% @U.MONTH.6@ 30DAYS ;
+@U.MONTH.7@:heinykuun+Use/NG% @U.MONTH.7@ 31DAYS ;
+@U.MONTH.7@:Heinykuun+Use/NG% @U.MONTH.7@ 31DAYS ;
+@U.MONTH.8@:elokuun+Use/NG% @U.MONTH.8@ 31DAYS ;
+@U.MONTH.8@:Elokuun+Use/NG% @U.MONTH.8@ 31DAYS ;
+@U.MONTH.9@:syvyskuun+Use/NG% @U.MONTH.9@ 30DAYS ;
+@U.MONTH.9@:Syvyskuun+Use/NG% @U.MONTH.9@ 30DAYS ;
+@U.MONTH.10@:ligakuun+Use/NG% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.10@:Ligakuun+Use/NG% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.11@:kylmykuun+Use/NG% @U.MONTH.11@ 30DAYS ; ! bytt NG?
+@U.MONTH.11@:Kylmykuun+Use/NG% @U.MONTH.11@ 30DAYS ; ! bytt NG?
+@U.MONTH.12@:talvikuun+Use/NG% @U.MONTH.12@ 31DAYS ;
+@U.MONTH.12@:Talvikuun+Use/NG% @U.MONTH.12@ 31DAYS ;
+
+
+@U.MONTH.1@:@U.MONTH.1@ 31DAYS_FIRST ;
+@U.MONTH.2@:@U.MONTH.2@ 29DAYS_FIRST ;
+@U.MONTH.3@:@U.MONTH.3@ 31DAYS_FIRST ;
+@U.MONTH.4@:@U.MONTH.4@ 30DAYS_FIRST ;
+@U.MONTH.5@:@U.MONTH.5@ 31DAYS_FIRST ;
+@U.MONTH.6@:@U.MONTH.6@ 30DAYS_FIRST ;
+@U.MONTH.7@:@U.MONTH.7@ 31DAYS_FIRST ;
+@U.MONTH.8@:@U.MONTH.8@ 31DAYS_FIRST ;
+@U.MONTH.9@:@U.MONTH.9@ 30DAYS_FIRST ;
+@U.MONTH.10@:@U.MONTH.10@ 31DAYS_FIRST ;
+@U.MONTH.11@:@U.MONTH.11@ 30DAYS_FIRST ; ! bytt NG?
+@U.MONTH.12@:@U.MONTH.12@ 31DAYS_FIRST ;
+
+
+LEXICON 28DAYS
+
+1:enzimäine B ;
+2:toine B ;
+3:kolmas B ;
+4:nelljäs B ;
+5:viijes B ;
+6:kuvves B ;
+7:seiččemäs B ;
+8:kaheksas B ;
+9:yheksäs B ;
+1%0:kymmenes B ;
+11:yhtestostu B ;
+12:kahtestostu B ;
+13:kolmastostu B ;
+14:nelljästostu B ;
+15:viijestostu B ;
+16:kuvvestostu B ;
+17:seiččemästostu B ;
+18:kaheksastostu B ;
+19:yheksästostu B ;
+2%0:kahteskymmenes B ;
+21:kahteskymmenesenzimäine B ;
+22:kahteskymmenestoine B ;
+23:kahteskymmeneskolmas B ;
+24:kahteskymmenesnelljäs B ;
+25:kahteskymmenesviijes B ;
+26:kahteskymmeneskuvves B ;
+27:kahteskymmenesseiččemäs B ;
+28:kahteskymmeneskaheksas B ;
+
+LEXICON 29DAYS
+29:kahteskymmenesyheksäs B ;
+28DAYS ;
+
+
+LEXICON 30DAYS
+3%0:kolmaskymmenes%  B ;
+29DAYS ;
+
+LEXICON 31DAYS
+31:kolmaskymmenesenzimäine%  B ;
+30DAYS ;
+
+LEXICON B
+%.:% päivy MONTH ;
+
+LEXICON 28DAYS_FIRST
+
+1:enzimäine B_SECOND ;
+2:toine B_SECOND ;
+3:kolmas B_SECOND ;
+4:nelljäs B_SECOND ;
+5:viijes B_SECOND ;
+6:kuvves B_SECOND ;
+7:seiččemäs B_SECOND ;
+8:kaheksas B_SECOND ;
+9:yheksäs B_SECOND ;
+1%0:kymmenes B_SECOND ;
+11:yhtestostu B_SECOND ;
+12:kahtestostu B_SECOND ;
+13:kolmastostu B_SECOND ;
+14:nelljästostu B_SECOND ;
+15:viijestostu B_SECOND ;
+16:kuvvestostu B_SECOND ;
+17:seiččemästostu B_SECOND ;
+18:kaheksastostu B_SECOND ;
+19:yheksästostu B_SECOND ;
+2%0:kahteskymmenes B_SECOND ;
+21:kahteskymmenesenzimäine B_SECOND ;
+22:kahteskymmenestoine B_SECOND ;
+23:kahteskymmeneskolmas B_SECOND ;
+24:kahteskymmenesnelljäs B_SECOND ;
+25:kahteskymmenesviijes B_SECOND ;
+26:kahteskymmeneskuvves B_SECOND ;
+27:kahteskymmenesseiččemäs B_SECOND ;
+28:kahteskymmeneskaheksas B_SECOND ;
+
+LEXICON 29DAYS_FIRST
+29:kahteskymmenesyheksäs B_SECOND ;
+28DAYS_FIRST ;
+
+LEXICON 30DAYS_FIRST
+3%0:kolmaskymmenes B_SECOND ;
+29DAYS_FIRST ;
+
+LEXICON 31DAYS_FIRST
+31:kolmaskymmenesenzimäine B_SECOND ;
+30DAYS_FIRST ;
+
+LEXICON B_SECOND
+%.:% päivy%  MONTH_SECOND ;
+
+LEXICON MONTH
+
+1@U.MONTH.1@:@U.MONTH.1@ X ;
+2@U.MONTH.2@:@U.MONTH.2@ X ;
+3@U.MONTH.3@:@U.MONTH.3@ X ;
+4@U.MONTH.4@:@U.MONTH.4@ X ;
+5@U.MONTH.5@:@U.MONTH.5@ X ;
+6@U.MONTH.6@:@U.MONTH.6@ X ;
+7@U.MONTH.7@:@U.MONTH.7@ X ;
+8@U.MONTH.8@:@U.MONTH.8@ X ;
+9@U.MONTH.9@:@U.MONTH.9@ X ;
+1%0@U.MONTH.10@:@U.MONTH.10@ X ;
+11@U.MONTH.11@:@U.MONTH.11@ X ;
+12@U.MONTH.12@:@U.MONTH.12@ X ;
+
+
+LEXICON MONTH_SECOND
+1@U.MONTH.1@:pakkaskuudu@U.MONTH.1@ X ;
+2@U.MONTH.2@:tuhukuudu@U.MONTH.2@ X ;
+3@U.MONTH.3@:kevätkuudu@U.MONTH.3@ X ;
+4@U.MONTH.4@:sulakuudu@U.MONTH.4@ X ;
+5@U.MONTH.5@:oraskuudu@U.MONTH.5@ X ;
+6@U.MONTH.6@:kezäkuudu@U.MONTH.6@ X ;
+7@U.MONTH.7@:heinykuudu@U.MONTH.7@ X ;
+8@U.MONTH.8@:elokuudu@U.MONTH.8@ X ;
+9@U.MONTH.9@:syvyskuudu@U.MONTH.9@ X ;
+1%0@U.MONTH.10@:ligakuudu@U.MONTH.10@ X ;
+11@U.MONTH.11@:kylmykuudu@U.MONTH.11@ X ;
+12@U.MONTH.12@:talvikuudu@U.MONTH.12@ X ;
+
+
+LEXICON X
+%.: # ;
+! # ; ! sloppy punctuation
