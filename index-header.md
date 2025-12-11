@@ -23,6 +23,9 @@ It contains some 56000 stems and the core morphology, and is in use in a morphol
 
 # Project documentation
 
+- [Notes for December 2025 speller release](spellerrelease.html)
+
+
 ## Resources
 
 * [Language technology tools for Livvi Karelian based on the present language model](https://giellatekno.uit.no/cgi/index.olo.eng.html)
