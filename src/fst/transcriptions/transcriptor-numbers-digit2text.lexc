@@ -25,6 +25,10 @@ LEXICON Root
 !+NumNum NUMBERSECTION ;
 !+NumNum COMMASECTION ;
 
+LEXICON NUMBERSECTION
+0 CARD-NUMBERSECTION ;
+0 ORD-NUMBERSECTION ;
+
 LEXICON CARD-NUMBERSECTION
 HUNDREDSM ;		! 200M
 1:sada%  HUNDREDM ;	! 100M
@@ -182,6 +186,7 @@ LEXICON ONEST
 9:yheksä THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
+% :tuhattu THOUSAND ;
 :tuhattu THOUSAND ;
 
 LEXICON THOUSAND
@@ -504,17 +509,17 @@ LEXICON COMMA
  ENDLEX ;
  COMMASECTION ;
 
-LEXICON COMMASECTION  ! these are not spellchecked!!!
+LEXICON COMMASECTION ! FIXME 
                   ENDLEX ;
-! % komma% :,      Root ;
-! % tjuohkkis% :%. Root ;
-! % kolon% :%:     Root ;
-! % sárggis% :%-   Root ; 
- % la% :%=         Root ; 
- % gráda% :%°      Root ; 
- % paragráfa% :§   Root ; 
-! % násti% :%*     Root ; 
- % ja% :&          Root ; 
+ ,:% pilkku%       NUMBERSECTION ;  ! FIXME
+ .:% tjuohkkis%   NUMBERSECTION ;   ! FIXME
+ %::% kolon%      NUMBERSECTION ;   ! FIXME
+ -:% sárggis%    NUMBERSECTION ;    ! FIXME
+ =:% la%          NUMBERSECTION ;    ! FIXME
+ °:% gráda%       NUMBERSECTION ;    ! FIXME
+ §:% paragráfa%    NUMBERSECTION ;    ! FIXME
+ *.% násti%      NUMBERSECTION ;    ! FIXME
+ &:% ja%           NUMBERSECTION ;    ! FIXME
 
 LEXICON ENDLEX
  # ;
