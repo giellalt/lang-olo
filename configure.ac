@@ -211,8 +211,6 @@ gt_CONFIG_FILES
 ##### BEGIN: Add language-specific list of files to ######
 ########## be processed by autoconf below here: ##########
 
-AC_CONFIG_FILES([tools/tts/test/unittest.sh],
-                [chmod a+x tools/tts/test/unittest.sh])
 
 ############ END: Language-specific scripts. #############
 
