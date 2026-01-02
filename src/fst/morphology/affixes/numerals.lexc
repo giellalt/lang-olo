@@ -84,13 +84,14 @@ LEXICON dateyearcase_fullsuff
 !  ARABICCASE  ;
 
 LEXICON ARABICCASES   !!≈ * **@CODE@**  adds +Arab
- DIGITCASES ;
+
++Arab: DIGITCASES ;
 
 LEXICON ARABICCASE   !!≈ * **@CODE@**  adds +Arab
-   DIGITCASE ;
++Arab:   DIGITCASE ;
 
 LEXICON ARABICCASE0   !!≈ * **@CODE@**  adds +Arab
-   DIGITCASE0 ;
++Arab:   DIGITCASE0 ;
 
 LEXICON DIGITCASES
  DIGITCASES ;
