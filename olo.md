@@ -3821,14 +3821,12 @@ retracted tongue root			_q
 We describe here how abbreviations are in Livvi Karelian are read out, e.g.
 for text-to-speech systems.
 
-For example:
-
-* s.:syntynyt # ;  
-* os.:omaa% sukua # ;  
-* v.:vuosi # ;  
-* v.:vuonna # ;  
-* esim.:esimerkki # ; 
-* esim.:esimerkiksi # ; 
+* dmi.:da% muga% ielleh # ; 
+* ezim.:ezimerki # ; 
+* ezim.:ezimerkikse # ; 
+* os.:omua% suguu # ;  
+* v.:vuozi # ;  
+* v.:vuvvennu # ;  
 
 * * *
 
