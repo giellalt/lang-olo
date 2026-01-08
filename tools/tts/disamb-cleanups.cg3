@@ -1,0 +1,48 @@
+### A simple CG3 files to select dynamic compounds over lexicalised ones in
+### cases where one or more parts are:
+### - loan words
+### - acronyms
+
+SOFT-DELIMITERS = "<,>" ;
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";
+
+# ============= #
+# Tags and sets #
+# ============= #
+
+SETS
+
+# I define end of clause and beginning of clause in a way so that the file
+# may be read both by the CG-2 and the vislcg formalisms.
+
+LIST BOS = (>>>) (<s>);
+LIST EOS = (<<<) (</s>);
+
+# CG3 doesn´t function without >>> and <<< !
+
+# Tags declared as single-membered LISTs
+# ======================================
+
+# Include a list of all tags declared as themselves:
+INCLUDE ../../src/cg3/generated-tag-list.cg3 ;
+
+# Olang tags:
+# -----------
+
+LIST OLANG = /^OLang\/.*/r ;
+
+LIST ALGAJEN = ("algua" V Ger Manner) ;
+
+SECTION
+
+ADDCOHORT:add-aigua-to-c-time ("<aigua>" "aiga" N Sg Par)
+    AFTER (Sem/Time-clock)
+          (NEGATE 1 ALGAJEN) ;
+REMCOHORT:rem-c-from-c-time ("č") (1 Sem/Time-clock) ;
+
+# "Pido algau č 12"
+# -> "Pido algau kahtentostu aigah"
+# Alkohol’an käyttö pidäy loppiekseh č 22
+# -> kahtenkymmenen kahten aigah / kahtenkymmenen kahten čuasun aigah
+# Linnan pruazniekku ozutetah televiizoras suorannu lähetyksenny č 18.15 algajen.
+# -> "Linnan pruazniekku ozutetah televiizoras suorannu lähetyksenny kaheksatostu viizitostu algajen"

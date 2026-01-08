@@ -12,6 +12,7 @@ export default function oloTextTTS(entry: StringEntry): Command {
   x = cg3.vislcg3("disamb",         x, { model_path: "disambiguator.bin" });
   x = cg3.vislcg3("functions",      x, { model_path: "functions.bin" });
   x = cg3.vislcg3("deps",           x, { model_path: "dependency.bin" });
+  x = cg3.vislcg3("disamb-cleanup", x, { model_path: "disamb-cleanups.bin" });
   x = speech.normalize(
     "normaliser", x,
     {

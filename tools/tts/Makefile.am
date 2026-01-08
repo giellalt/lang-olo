@@ -29,7 +29,7 @@ GIELLA_TTS_REMOVE_TRANSCRIPTORS=
 
 # If there are additional, language specific files used in the GC archive,
 # specify here:
-LOCAL_TTS_ZIP_FILES=
+LOCAL_TTS_ZIP_FILES=disamb-cleanups.bin
 
 #### BEGIN: Local build targets: ####
 
