@@ -40,7 +40,7 @@ LEXICON Root
   $:dollar     # ; ! _$	dOllA:R
   €:euro       # ;
   £:pund       # ;
- %%:proseanta  # ; ! %	pR'u:s'Ent	$max3
+ %%:prosentu  # ; ! %	pR'u:s'Ent	$max3
 ! ®:dollar     # ;
 ! ©:dollar     # ;
 ! √:dollar     # ;
@@ -66,16 +66,16 @@ LEXICON Root
 ! %:(:smil # ;
 
 !! - Clause boundary symbols
-   ,:rihkku          # ;
-   .:čuokkis         # ;
+   ,:pilku          # ;
+   .:čökeh         # ;
   ..:guokte% čuoggá  # ;
  ...:golbma% čuoggá  # ;
    …:golbma% čuoggá  # ;
-  %::duppalčuokkis   # ;
-  %;:beallečuokkis   # ;
-  %!:čuorvvasmearka  # ;
+  %::kaksosčökeh   # ;
+  %;:puoličökeh   # ;
+  %!:kirrahtusmerki  # ;
 !  |:sárggissáhtso   # ;
-   ?:gažaldatmearka  # ;
+   ?:kyzymysmerki  # ;
 
 !  ¿:¿               # ;
 !  ¬:¬               # ;
@@ -96,11 +96,11 @@ LEXICON Root
 !  _:vuollesáhtso # ;
 !  =:jæbddásasjmærkka # ;
 !  ≈:≈       # ;
-   &:ja      # ;
+   &:da      # ;
   %":sitáhtamearka  # ;
    ':apostrofa      # ; ! Reset syntax colouring
-!  *:násste      # ; ! nA:sste // not sure
-   +:plussa      # ;
+!  *:tiähti      # ; ! nA:sste // not sure
+   +:pl'us      # ;
 !  ±:±           # ;
 !+/-:+/-         # ;
    `:gravismearka # ;
@@ -109,7 +109,7 @@ LEXICON Root
 !  \:snjaktjesáhtso # ;
 !  ~:bárrosáhtso # ;
 !  ‐:sáhtso # ;
-   °:gráda  # ;
+   °:asteh  # ;
 !  ^:cirkumflæksa # ; ! ^	sIRku-mflEks
 
 !! - Paired punctuation marks
