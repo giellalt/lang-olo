@@ -147,7 +147,7 @@ Genitive
 
 ## Verbs
 
-### Specific verbs	
+### Specific verbs
 
 ei negation verb
 
@@ -171,9 +171,9 @@ että
 
 jos
 
-ko	
+ko
 
-sillä	
+sillä
 
 ## Pronouns
 
@@ -229,7 +229,7 @@ Relative pronouns
 
 * **interrel** selects Interr of Rel if CS to the right
 
-* **+FMAINV**  to the remaining finite verbs which are not AUX    
+* **+FMAINV**  to the remaining finite verbs which are not AUX
 
 ## HNOUN MAPPING
 
