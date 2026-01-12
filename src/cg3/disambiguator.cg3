@@ -353,6 +353,7 @@ LIST Sem/Adr = Sem/Adr ;
 LIST Sem/ID = Sem/ID ;
 LIST Sem/Time = Sem/Time ;
 LIST Sem/Time-clock = Sem/Time-clock ;
+LIST Sem/Measr = Sem/Measr ;
 LIST Sem/Fem = Sem/Fem ;
 LIST Sem/Mal = Sem/Mal ;
 LIST Sem/Plc = Sem/Plc ;
@@ -829,6 +830,10 @@ LIST CUASUN = "č" ;
 SELECT:c-time Sem/Time-clock (-1 CUASUN);
 
 #$ Alkohol’an käyttö pidäy loppiekseh č 22
+
+SELECT:default-measure Sem/Measr (1 N) ;
+
+# Valdivonyhtivö on luadinuh 10 vuvven aigua 200 miljonan euron hävivöt.
 
 #!! ### Preposition/postposition/adverb rules
 
