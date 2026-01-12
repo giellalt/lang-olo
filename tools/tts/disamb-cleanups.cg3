@@ -33,11 +33,14 @@ LIST OLANG = /^OLang\/.*/r ;
 
 LIST ALGAJEN = ("algua" V Ger Manner) ;
 
+LIST CUASUN = ("č") ;
+
 SECTION
 
 ADDCOHORT:add-aigua-to-c-time ("<aigua>" "aiga" N Sg Par)
     AFTER (Sem/Time-clock)
-          (NEGATE 1 ALGAJEN) ;
+          (NEGATE 1 ALGAJEN)
+          (-2 CUASUN) ;
 REMCOHORT:rem-c-from-c-time ("č") (1 Sem/Time-clock) ;
 
 # "Pido algau č 12"
