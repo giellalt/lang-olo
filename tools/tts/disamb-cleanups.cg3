@@ -56,10 +56,12 @@ REMCOHORT:rem-c-from-c-time ("č") (1 Sem/Time-clock) ;
 # -> "Linnan pruazniekku ozutetah televiizoras suorannu lähetyksenny kaheksatostu viizitostu algajen"
 
 
-SUBSTITUTE:digits-agreement (Num Arab) (Num Arab Card Sg Gen) TARGET (Num Arab) IF
-                                                    (1 (N Sg Gen))
-                                                    (NEGATE 0 NUM)
-                                                    (NEGATE 0 CASE) ;
+SUBSTITUTE:digits-agreement (Num Arab) (Num Arab Card Sg Gen)
+                            TARGET (Num Arab)
+                            IF (*1 (N Sg Gen) BARRIER (*) - (A Gen) - (N Gen))
+                               (NEGATE 0 NUM)
+                               (NEGATE 0 CASE)
+                               (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
 
 # Valdivonyhtivö on luadinuh 10 vuvven aigua 200 miljonan euron hävivöt.
 # -> Valdivonyhtivö on luadinuh kymmenen vuvven aigua kahtensuan miljonan euron hävivöt.
