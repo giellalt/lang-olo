@@ -56,7 +56,7 @@ REMCOHORT:rem-c-from-c-time ("č") (1 Sem/Time-clock) ;
 # -> "Linnan pruazniekku ozutetah televiizoras suorannu lähetyksenny kaheksatostu viizitostu algajen"
 
 
-SUBSTITUTE:digits-agreement (Num Arab) (Num Arab Card Sg Gen)
+SUBSTITUTE:digits-agreement-gen (Num Arab) (Num Arab Card Sg Gen)
                             TARGET (Num Arab)
                             IF (*1 (N Sg Gen) BARRIER (*) - (A Gen) - (N Gen))
                                (NEGATE 0 NUM)
@@ -65,4 +65,24 @@ SUBSTITUTE:digits-agreement (Num Arab) (Num Arab Card Sg Gen)
 
 # Valdivonyhtivö on luadinuh 10 vuvven aigua 200 miljonan euron hävivöt.
 # -> Valdivonyhtivö on luadinuh kymmenen vuvven aigua kahtensuan miljonan euron hävivöt.
+
+SUBSTITUTE:digits-agreement-ade (Num Arab) (Num Arab Card Sg Ade)
+                            TARGET (Num Arab)
+                            IF (*1 (N Sg Ade) BARRIER (*) - (A Ade) - (N Ade))
+                               (NEGATE 0 NUM)
+                               (NEGATE 0 CASE)
+                               (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
+
+# Miäry suurenou nenga 40 prosental.
+# -> Miäry suurenou nenga nellälkymmenel prosental
+
+SUBSTITUTE:digits-agreement-ter (Num Arab) (Num Arab Card Sg Ter)
+                            TARGET (Num Arab)
+                            IF (*1 (N Sg Ter) BARRIER (*) - (A Ter) - (N Ade))
+                               (NEGATE 0 NUM)
+                               (NEGATE 0 CASE)
+                               (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
+
+# Alijiämy nouzou piäl 4 prosentassah da velgusuhteh piäl 90 prosentassah.
+# -> Alijiämy nouzou piäl nelläh prosentassah da velgusuhteh piäl yheksähkymmeneh prosentassah
 
