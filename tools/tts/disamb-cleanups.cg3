@@ -86,3 +86,9 @@ SUBSTITUTE:digits-agreement-ter (Num Arab) (Num Arab Card Sg Ter)
 # Alijiämy nouzou piäl 4 prosentassah da velgusuhteh piäl 90 prosentassah.
 # -> Alijiämy nouzou piäl nelläh prosentassah da velgusuhteh piäl yheksähkymmeneh prosentassah
 
+SUBSTITUTE:digits-ine-before-hyphen (Num Arab Sg Nom) (Num Arab Sg Ine)
+                                    TARGET (Num Arab)
+                                    IF (1 MIDDLE) ;
+SUBSTITUTE:digits-ill-after-hyphen (Num Arab Sg Nom) (Num Arab Sg Ill)
+                                    TARGET (Num Arab)
+                                    IF (-1 MIDDLE) ;
