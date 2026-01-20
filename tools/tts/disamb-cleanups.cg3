@@ -118,3 +118,7 @@ SUBSTITUTE:digits-ine-before-hyphen (Num Arab Sg Nom) (Num Arab Sg Ine)
 SUBSTITUTE:digits-ill-after-hyphen (Num Arab Sg Nom) (Num Arab Sg Ill)
                                     TARGET (Num Arab)
                                     IF (-1 MIDDLE) ;
+
+# Vuitti maguau kai 2–3 čuassuu lyhyömbiä yöundu kezäl, migu talvel.
+# -> Vuitti maguau kai kahtes kolmeh čuassuu lyhyömbiä yöundu kezäl, migu talvel.
+
