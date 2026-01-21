@@ -42,6 +42,8 @@ LIST CASE = (Nom) (Gen) (Par) (Ine) ;
 
 LIST PARTITIVE-ADV = ("läs" Adv) ("enäm" Adv) ("nenga" Adv) ;
 
+LIST NEGATION = ("ei" V Neg) ;
+
 SECTION
 
 ADDCOHORT:add-aigua-to-c-time ("<aigua>" "aiga" N Sg Par)
@@ -85,6 +87,9 @@ SUBSTITUTE:digits-agreement-ter (Num Arab) (Num Arab Card Sg Ter)
                                (NEGATE 0 CASE)
                                (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
 
+# Alijiämy nouzou piäl 4 prosentassah da velgusuhteh piäl 90 prosentassah.
+# -> Alijiämy nouzou piäl nelläh prosentassah da velgusuhteh piäl yheksähkymmeneh prosentassah
+
 SUBSTITUTE:digits-after-par-adverbs (Num Arab) (Num Arab Card Sg Par)
                                     TARGET (Num Arab)
                                     IF (-1 PARTITIVE-ADV)
@@ -92,8 +97,13 @@ SUBSTITUTE:digits-after-par-adverbs (Num Arab) (Num Arab Card Sg Par)
                                        (NEGATE 0 CASE)
                                        (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
 
-# Alijiämy nouzou piäl 4 prosentassah da velgusuhteh piäl 90 prosentassah.
-# -> Alijiämy nouzou piäl nelläh prosentassah da velgusuhteh piäl yheksähkymmeneh prosentassah
+SUBSTITUTE:digits-par-after-negs (Num Arab) (Num Arab Card Sg Par)
+                                 TARGET (Num Arab)
+                                 IF (*-1 NEGATION BARRIER CLB)
+                                    (NEGATE 0 NUM)
+                                    (NEGATE 0 CASE)
+                                    (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
+
 
 SUBSTITUTE:digits-ine-before-hyphen (Num Arab Sg Nom) (Num Arab Sg Ine)
                                     TARGET (Num Arab)
