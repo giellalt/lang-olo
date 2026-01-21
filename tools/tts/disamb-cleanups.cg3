@@ -40,6 +40,8 @@ LIST CUASUN = ("č") ;
 LIST NUM = (Sg) (Du) (Pl) ;
 LIST CASE = (Nom) (Gen) (Par) (Ine) ;
 
+LIST PARTITIVE-ADV = ("läs" Adv) ("enäm" Adv) ("nenga" Adv) ;
+
 SECTION
 
 ADDCOHORT:add-aigua-to-c-time ("<aigua>" "aiga" N Sg Par)
@@ -82,6 +84,13 @@ SUBSTITUTE:digits-agreement-ter (Num Arab) (Num Arab Card Sg Ter)
                                (NEGATE 0 NUM)
                                (NEGATE 0 CASE)
                                (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
+
+SUBSTITUTE:digits-after-par-adverbs (Num Arab) (Num Arab Card Sg Par)
+                                    TARGET (Num Arab)
+                                    IF (-1 PARTITIVE-ADV)
+                                       (NEGATE 0 NUM)
+                                       (NEGATE 0 CASE)
+                                       (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
 
 # Alijiämy nouzou piäl 4 prosentassah da velgusuhteh piäl 90 prosentassah.
 # -> Alijiämy nouzou piäl nelläh prosentassah da velgusuhteh piäl yheksähkymmeneh prosentassah
