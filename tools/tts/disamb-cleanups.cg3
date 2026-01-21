@@ -82,7 +82,7 @@ SUBSTITUTE:digits-agreement-ade (Num Arab) (Num Arab Card Sg Ade)
 
 SUBSTITUTE:digits-agreement-ter (Num Arab) (Num Arab Card Sg Ter)
                             TARGET (Num Arab)
-                            IF (*1 (N Sg Ter) BARRIER (*) - (A Ter) - (N Ade))
+                            IF (*1 (N Sg Ter) BARRIER (*) - (A Ter) - (N Ter))
                                (NEGATE 0 NUM)
                                (NEGATE 0 CASE)
                                (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
@@ -93,9 +93,14 @@ SUBSTITUTE:digits-agreement-ter (Num Arab) (Num Arab Card Sg Ter)
 SUBSTITUTE:digits-after-par-adverbs (Num Arab) (Num Arab Card Sg Par)
                                     TARGET (Num Arab)
                                     IF (-1 PARTITIVE-ADV)
+                                       (*1 (N Sg Par) BARRIER (*) - (A Ade) -
+                                                                    (N Ade))
                                        (NEGATE 0 NUM)
                                        (NEGATE 0 CASE)
                                        (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
+
+# Kyzelyh vastai enäm 3 000 teini-igähisty nuordu.
+# -> Kyzelyh vastai enäm kolmetuhattu teini-igähisty nuordu.
 
 SUBSTITUTE:digits-par-after-negs (Num Arab) (Num Arab Card Sg Par)
                                  TARGET (Num Arab)
@@ -104,6 +109,8 @@ SUBSTITUTE:digits-par-after-negs (Num Arab) (Num Arab Card Sg Par)
                                     (NEGATE 0 CASE)
                                     (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
 
+# Meil ei ole 3 kažii. -> Meil ei ole kolmie kažii.
+# Emmo voi ottua 13 kažii. -> Emmo voi ottua kolmietostu
 
 SUBSTITUTE:digits-ine-before-hyphen (Num Arab Sg Nom) (Num Arab Sg Ine)
                                     TARGET (Num Arab)
