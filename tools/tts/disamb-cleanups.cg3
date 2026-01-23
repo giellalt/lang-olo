@@ -108,9 +108,16 @@ SUBSTITUTE:digits-par-after-negs (Num Arab) (Num Arab Card Sg Par)
                                     (NEGATE 0 NUM)
                                     (NEGATE 0 CASE)
                                     (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
+SUBSTITUTE:digits-par-after-negs (A Arab Ord Attr) (A Arab Ord Sg Par)
+                                 TARGET (A Arab)
+                                 IF (*-1 NEGATION BARRIER CLB)
+                                    (NEGATE 0 NUM)
+                                    (NEGATE 0 CASE)
+                                    (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
 
 # Meil ei ole 3 kažii. -> Meil ei ole kolmie kažii.
-# Emmo voi ottua 13 kažii. -> Emmo voi ottua kolmietostu
+# Emmo voi ottua 13 kažii. -> Emmo voi ottua kolmietostu kažii.
+# Emmo voi ottua 13. kažii. -> Emmo voi ottua kolmattutostu kažii.
 
 SUBSTITUTE:digits-ine-before-hyphen (Num Arab Sg Nom) (Num Arab Sg Ine)
                                     TARGET (Num Arab)
