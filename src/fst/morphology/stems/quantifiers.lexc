@@ -2,17 +2,17 @@
 LEXICON quantifiers
 ! these single constituents will take their POS tag later 1–10, 100, 1000, 1000000
 kaksi:ka NUM_KAKSI  "kaksi" ;
-kaheksa:kaheksa NUM_OZA  "" ;
+kaheksa:kaheksa NUM_KAHEKSA  "" ;
 kolme:kolm NUM_KOLME  "kolme" ;
 kuuzi:kuud NUM_KUUZI  "" ;
 kymmene:kymmen NUM_KYMMENE  "" ;
-miljounu:miljouna NUM_MUARJU  "miljoona" ;
-nʼelli:nʼell NUM_NELLI  "" ;
+miljounu:miljouna NUM_MILJOUNU  "miljoona" ;
+nelli:nʼell NUM_NELLI  "" ;
 sada:sada NUM_SADA  "" ;
 seiččie:seičče NUM_SEIČČIE  "seitsemän" ;
 tuhat:tuha NUM_TUHAT  "" ;
 viizi:viid NUM_VIIZI  "" ;
-yheksä:yheksä NUM_OZA  "" ;
+yheksä:yheksä NUM_YHEKSÄ  "" ;
 yksi:y NUM_YKSI  "" ;
 ! end of single
 !kaheksakymmen+Num:kaheksakymmen NUM_  "" ;

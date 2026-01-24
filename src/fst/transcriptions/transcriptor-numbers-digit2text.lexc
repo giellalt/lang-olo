@@ -91,8 +91,8 @@ LEXICON TENSM
 9:yheksä   LUHKIEM ;
 
 LEXICON LUHKIEM
-%0:kymmen MILJON ;
-:kymmen   ONESM ;
+%0:kymmendy MILJON ;
+:kymmendy   ONESM ;
 
 LEXICON ONESM
 1:yksi% miljon%  OVERTHOUSANDS ;
@@ -161,14 +161,14 @@ THOUSANDS ;
 
 LEXICON TENST
 1%0:kymmene THOUSANDS ;
-2:kaksikymmen   LUHKIET ;
-3:kolmekymmen    LUHKIET ;
-4:nellikymmen LUHKIET ;
-5:viizikymmen   LUHKIET ;
-6:kuuzikymmen   LUHKIET ;
-7:seiččiekymmen LUHKIET ;
-8:kaheksakymmen LUHKIET ;
-9:yheksäkymmen   LUHKIET ;
+2:kaksikymmendy  LUHKIET ;
+3:kolmekymmendy    LUHKIET ;
+4:nellikymmendy LUHKIET ;
+5:viizikymmendy   LUHKIET ;
+6:kuuzikymmendy   LUHKIET ;
+7:seiččiekymmendy LUHKIET ;
+8:kaheksakymmendy LUHKIET ;
+9:yheksäkymmendy   LUHKIET ;
 
 LEXICON LUHKIET
 %0: THOUSANDS ;
@@ -253,7 +253,7 @@ LEXICON TENS
 LEXICON LUHKIE
 %0:kymmen COMMA ;
 %0%.:kymmenes COMMA ;
-:kymmen ONES ;
+:kymmendy ONES ;
 
 LEXICON ONES
 CARDINAL ;
