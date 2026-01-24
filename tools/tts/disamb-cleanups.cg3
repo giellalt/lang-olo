@@ -62,7 +62,7 @@ REMCOHORT:rem-c-from-c-time ("č") (1 Sem/Time-clock) ;
 
 SUBSTITUTE:digits-agreement-gen (Num Arab) (Num Arab Card Sg Gen)
                             TARGET (Num Arab)
-                            IF (*1 (N Sg Gen) BARRIER (*) - (A Gen) - (N Gen))
+                            IF (*1 (Sg Gen) BARRIER (*) - (A Gen) - (N Gen))
                                (NEGATE 0 NUM)
                                (NEGATE 0 CASE)
                                (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
@@ -72,7 +72,7 @@ SUBSTITUTE:digits-agreement-gen (Num Arab) (Num Arab Card Sg Gen)
 
 SUBSTITUTE:digits-agreement-ade (Num Arab) (Num Arab Card Sg Ade)
                             TARGET (Num Arab)
-                            IF (*1 (N Sg Ade) BARRIER (*) - (A Ade) - (N Ade))
+                            IF (*1 (Sg Ade) BARRIER (*) - (A Ade) - (N Ade))
                                (NEGATE 0 NUM)
                                (NEGATE 0 CASE)
                                (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
@@ -82,7 +82,7 @@ SUBSTITUTE:digits-agreement-ade (Num Arab) (Num Arab Card Sg Ade)
 
 SUBSTITUTE:digits-agreement-ter (Num Arab) (Num Arab Card Sg Ter)
                             TARGET (Num Arab)
-                            IF (*1 (N Sg Ter) BARRIER (*) - (A Ter) - (N Ter))
+                            IF (*1 (Sg Ter) BARRIER (*) - (A Ter) - (N Ter))
                                (NEGATE 0 NUM)
                                (NEGATE 0 CASE)
                                (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
@@ -93,8 +93,8 @@ SUBSTITUTE:digits-agreement-ter (Num Arab) (Num Arab Card Sg Ter)
 SUBSTITUTE:digits-after-par-adverbs (Num Arab) (Num Arab Card Sg Par)
                                     TARGET (Num Arab)
                                     IF (-1 PARTITIVE-ADV)
-                                       (*1 (N Sg Par) BARRIER (*) - (A Ade) -
-                                                                    (N Ade))
+                                       (*1 (Sg Par) BARRIER (*) - (A Par) -
+                                                                  (N Par))
                                        (NEGATE 0 NUM)
                                        (NEGATE 0 CASE)
                                        (NEGATE 0 Sem/Date OR Sem/Time-clock) ;

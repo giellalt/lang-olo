@@ -831,7 +831,7 @@ SELECT:c-time Sem/Time-clock (-1 CUASUN);
 
 #$ Alkohol’an käyttö pidäy loppiekseh č 22
 
-SELECT:default-measure Sem/Measr (1 N) ;
+SELECT:default-measure Sem/Measr (1 N OR A) ;
 
 # Valdivonyhtivö on luadinuh 10 vuvven aigua 200 miljonan euron hävivöt.
 
