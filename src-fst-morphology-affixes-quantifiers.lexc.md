@@ -6,6 +6,7 @@ Livvi Karelian quantifiers inflect for case.
 **LEXICON NUM_MILJOUNU** muarju:muarja
 
 LEXICON NUM_YKSI yksi:y
+* @U.NUM-CARD.WAS@:@U.NUM-CARD.WAS@hte%^WGStem ORD_01_FRONT ; This cannot be final
 
 LEXICON NUM_KAKSI kaksi:ka
 * @U.NUM-CARD.WAS@:@U.NUM-CARD.WAS@hte%^WGStem ORD_01_BACK ; This cannot be final

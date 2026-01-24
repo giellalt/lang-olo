@@ -1397,8 +1397,6 @@ gradation No
 Front Vowel
 Gradation Yes
 
-LEXICON NMN_YKSI yksi:y
-
 LEXICON NMN_VUOZI/VEZI vuozi:vuod
 
 LEXICON NMN_PAREMBI/ENÄMBI parembi:paremb
@@ -1906,6 +1904,7 @@ Livvi Karelian quantifiers inflect for case.
 **LEXICON NUM_MILJOUNU** muarju:muarja
 
 LEXICON NUM_YKSI yksi:y
+* @U.NUM-CARD.WAS@:@U.NUM-CARD.WAS@hte%^WGStem ORD_01_FRONT ; This cannot be final
 
 LEXICON NUM_KAKSI kaksi:ka
 * @U.NUM-CARD.WAS@:@U.NUM-CARD.WAS@hte%^WGStem ORD_01_BACK ; This cannot be final
@@ -3386,6 +3385,8 @@ cardinal vs ordinal
 * @U.NUM-TYPE.ORD@
 * @R.NUM-TYPE.ORD@
 * @D.NUM-TYPE.ORD@
+* @U.NUM-YKSI.YES@ Allows for yksitostu
+* @D.NUM-YKSI.YES@ disallows yksisada
 * @U.NUM-CARD.WAS@
 * @R.NUM-CARD.WAS@
 * @D.NUM-CARD.WAS@

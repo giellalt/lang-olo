@@ -565,8 +565,6 @@ gradation No
 Front Vowel
 Gradation Yes
 
-LEXICON NMN_YKSI yksi:y
-
 LEXICON NMN_VUOZI/VEZI vuozi:vuod
 
 LEXICON NMN_PAREMBI/ENÄMBI parembi:paremb

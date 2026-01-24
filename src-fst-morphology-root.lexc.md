@@ -447,6 +447,8 @@ cardinal vs ordinal
 * @U.NUM-TYPE.ORD@
 * @R.NUM-TYPE.ORD@
 * @D.NUM-TYPE.ORD@
+* @U.NUM-YKSI.YES@ Allows for yksitostu
+* @D.NUM-YKSI.YES@ disallows yksisada
 * @U.NUM-CARD.WAS@
 * @R.NUM-CARD.WAS@
 * @D.NUM-CARD.WAS@
