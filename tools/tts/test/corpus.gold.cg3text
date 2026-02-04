@@ -1,0 +1,620 @@
+"<Meil>"
+	"minä" Pron Pers Pl1 Ade <W:0.0> @HAB #1->1
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 <W:0.0> @FMV #2->0
+: 
+"<2>"
+	"2" Num Arab <W:0.0> @N< #3->3
+: 
+"<kažii>"
+	"kaži" N Sg Par <W:0.0> @<SUBJ #4->2
+"<.>"
+	"." CLB <W:0.0> #5->2
+
+
+"<Heijät>"
+	"häi" Pron Pers Pl3 Acc <W:0.0> @OBJ> #1->2
+: 
+"<nakažittih>"
+	"nakažie" V Act Ind Prt Pl3 <W:0.0> @FMV #2->0
+: 
+"<samazis>"
+	"samaine" A Pos Pl Ine <W:0.0> @>N #3->4
+: 
+"<rikoksis>"
+	"rikos" N Pl Ine <W:0.0> @<ADVL #4->2
+: 
+"<12>"
+	"12" Num Arab <W:0.0> @N< #5->4
+: 
+"<vuottu>"
+	"vuozi" N Sg Par <W:0.0> @<OBJ #6->2
+: 
+"<tagaperin>"
+	"tagaperin" Adv <W:0.0> @ADVL #7->0
+"<.>"
+	"." CLB <W:0.0> #8->2
+
+
+"<Valdivonyhtivö>"
+	"Valdivonyhtivö" ? @X #1->0
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 <W:0.0> @FAUX #2->0
+: 
+"<luadinuh>"
+	"luadie" V Act PrfPrc Sg Acc <W:0.0> @>N #3->5
+	"luadie" V Act PrfPrc Sg Nom <W:0.0> @>N #3->5
+: 
+"<10>"
+	"10" Num Arab <W:0.0> @X #4->0
+: 
+"<vuvven>"
+	"vuozi" N Sg Gen <W:0.0> @>N #5->6
+: 
+"<aigua>"
+	"aigu" N Sg Par <W:0.0> @<SUBJ #6->2
+: 
+"<200>"
+	"200" Num Arab <W:0.0> @N< #7->6
+: 
+"<miljonan>"
+	"miljon" N Sg Gen <W:0.0> @>N #8->9
+: 
+"<euron>"
+	"euro" N Sg Gen <W:0.0> @<OBJ #9->9
+: 
+"<hävivöt>"
+	"hävivöt" ? @X #10->0
+"<.>"
+	"." CLB <W:0.0> #11->2
+
+
+"<Meil>"
+	"minä" Pron Pers Pl1 Ade <W:0.0> @ADVL> #1->3
+: 
+"<ei>"
+	"ei" V Neg Sg3 <W:0.0> @FAUX #2->0
+: 
+"<ole>"
+	"olla" V Act Ind Prs ConNeg <W:0.0> @FMV #3->2
+: 
+"<3>"
+	"3" Num Arab <W:0.0> @X #4->0
+: 
+"<kažii>"
+	"kaži" N Sg Par <W:0.0> @<SUBJ #5->3
+"<.>"
+	"." CLB <W:0.0> #6->2
+
+
+"<Emmo>"
+	"ei" V Neg Pl1 <W:0.0> @FAUX #1->0
+: 
+"<voi>"
+	"voija" V Act Imprt ConNeg Sg2 <W:0.0> @IAUX #2->1
+	"voija" V Act Ind Prs ConNeg <W:0.0> @IAUX #2->1
+: 
+"<ottua>"
+	"ottua" V Inf <W:0.0> @X #3->0
+: 
+"<13>"
+	"13" Num Arab <W:0.0> @X #4->0
+: 
+"<kažii>"
+	"kaži" N Sg Par <W:0.0> @<OBJ #5->5
+"<.>"
+	"." CLB <W:0.0> #6->1
+
+
+"<Emmo>"
+	"ei" V Neg Pl1 <W:0.0> @FAUX #1->0
+: 
+"<voi>"
+	"voija" V Act Imprt ConNeg Sg2 <W:0.0> @IAUX #2->1
+	"voija" V Act Ind Prs ConNeg <W:0.0> @IAUX #2->1
+: 
+"<ottua>"
+	"ottua" V Inf <W:0.0> @X #3->0
+: 
+"<13.>"
+	"13" A Arab Ord Attr <W:0.0> @X #4->0
+: 
+"<kažii>"
+	"kaži" N Sg Par <W:0.0> @<OBJ #5->5
+"<.>"
+	"." CLB <W:0.0> #6->1
+
+
+"<Mulloi>"
+	"mulloi" Adv <W:0.0> @ADVL #1->6
+: 
+"<tuhukuul>"
+	"tuhukuu" N Sg Ade <W:0.0> @ADVL> #2->4
+: 
+"<miäry>"
+	"miäry" N Sg Nom <W:0.0> @SUBJ> #3->4
+: 
+"<oli>"
+	"olla" V Act Ind Prt Sg3 <W:0.0> @FMV #4->0
+: 
+"<enäm>"
+	"enäm" Adv <W:0.0> @ADVL #5->6
+: 
+"<8>"
+	"8" Num Arab <W:0.0> @X #6->0
+: 
+"<prosentua>"
+	"prosentu" N Sg Par <W:0.0> @<SUBJ #7->4
+"<.>"
+	"." CLB <W:0.0> #8->1
+
+
+"<Kyzelyh>"
+	"kyzely" N Sg Ill <W:0.0> @ADVL> #1->2
+: 
+"<vastai>"
+	"vastata" V Act Ind Prt Sg3 <W:0.0> @FMV #2->0
+: 
+"<enäm>"
+	"enäm" Adv <W:0.0> @ADVL #3->4
+: 
+"<3 000>"
+	"3 000" Num Arab <W:0.0> @X #4->0
+: 
+"<teini-igähisty>"
+	"teini-igähine" A Pos Sg Par <W:0.0> @X #5->0
+: 
+"<nuordu>"
+	"nuori" A Pos Pos Sg Par <W:0.0> @<OBJ #6->2
+"<.>"
+	"." CLB <W:0.0> #7->2
+
+
+"<Ruavottomua>"
+	"ruavotoi" A Der/MWN Sg Par <W:0.0> @SUBJ> #1->2
+	"ruavotoi" A Pos Sg Par <W:0.0> @SUBJ> #1->2
+: 
+"<oli>"
+	"olla" V Act Ind Prt Sg3 <W:0.0> @FMV #2->0
+: 
+"<ligakuul>"
+	"ligakuu" N Sg Ade <W:0.0> @LOC @<ADVL #3->2
+: 
+"<48 000>"
+	"48 000" Num Arab <W:0.0> @N< #4->3
+	"48 000" Num Arab Sg Nom <W:0.0> @N< #4->3
+: 
+"<enämbi>"
+	"enämbi" Adv <W:0.0> @ADVL #5->7
+	"enämbi" Pron Sg Acc <W:0.0> @<OBJ #5->7
+"<,>"
+	"," CLB <W:0.0> #6->5
+: 
+"<migu>"
+	"migu" Interj <W:0.0> @X #7->0
+: 
+"<mulloi>"
+	"mulloi" Adv <W:0.0> @ADVL #8->7
+"<.>"
+	"." CLB <W:0.0> #9->2
+
+
+"<Kyzelyn>"
+	"kyzely" N Sg Gen <W:0.0> @>P #1->2
+: 
+"<mugah>"
+	"mugah" Po <W:0.0> @ADVL #2->4
+: 
+"<läs>"
+	"läs" Adv <W:0.0> @ADVL #3->4
+: 
+"<31>"
+	"31" Num Arab <W:0.0> @X #4->0
+: 
+"<prosentua>"
+	"prosentu" N Sg Par <W:0.0> @NUM< #5->5
+: 
+"<vastuajis>"
+	"vastuajis" ? @X #6->0
+: 
+"<sanoi>"
+	"sanuo" V Act PrsPrc Sg Acc <W:0.0> @OBJ> #7->10
+	"sanuo" V Act PrsPrc Sg Nom <W:0.0> @SUBJ> #7->10
+"<,>"
+	"," CLB <W:0.0> #8->7
+: 
+"<gu>"
+	"gu" Adv <W:0.0> @ADVL #9->6
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 <W:0.0> @FAUX #10->0
+: 
+"<tilannuh>"
+	"tilata" V Act PrfPrc Sg Acc <W:0.0> @>N #11->12
+	"tilata" V Act PrfPrc Sg Nom <W:0.0> @>N #11->12
+: 
+"<tuottehii>"
+	"tuoteh" N Pl Par <W:0.0> @<SUBJ #12->10
+"<.>"
+	"." CLB <W:0.0> #13->2
+
+
+"<Puudu>"
+	"puudu" N Sg Nom <W:0.0> @HNOUN #1->0
+: 
+"<kuattih>"
+	"kuattih" ? @X #2->0
+: 
+"<läs>"
+	"läs" Adv <W:0.0> @ADVL #3->2
+: 
+"<64>"
+	"64" Num Arab <W:0.0> @X #4->0
+: 
+"<miljonua>"
+	"miljon" N Sg Par <W:0.0> @NUM< #5->5
+: 
+"<kubometrii>"
+	"kubometri" N Sg Par <W:0.0> @X #6->0
+"<.>"
+	"." CLB <W:0.0> #7->1
+
+
+"<Miäry>"
+	"miäry" N Sg Nom <W:0.0> @SUBJ> #1->2
+: 
+"<suurenou>"
+	"suureta" V Act Ind Prs Sg3 <W:0.0> @FMV #2->0
+: 
+"<nenga>"
+	"nenga" Adv <W:0.0> @ADVL #3->4
+: 
+"<40>"
+	"40" Num Arab <W:0.0> @X #4->0
+: 
+"<prosental>"
+	"prosentu" N Sg Ade <W:0.0> @NUM< #5->5
+"<.>"
+	"." CLB <W:0.0> #6->2
+
+
+"<Mulloi>"
+	"mulloi" Adv <W:0.0> @ADVL #1->2
+: 
+"<tugie>"
+	"tugi" N Sg Par <W:0.0> @X #2->0
+: 
+"<suajien>"
+	"suajien" ? @X #3->0
+: 
+"<talovuksien>"
+	"talovuksien" ? @X #4->0
+: 
+"<miäry>"
+	"miäry" N Sg Nom <W:0.0> @SUBJ> #5->6
+: 
+"<väheni>"
+	"vähetä" V Act Ind Prt Sg3 <W:0.0> @FMV #6->0
+: 
+"<5>"
+	"5" Num Arab <W:0.0> @X #7->0
+: 
+"<prosental>"
+	"prosentu" N Sg Ade <W:0.0> @NUM< #8->8
+: 
+"<iellizeh>"
+	"ielline" A Pos Sg Ill <W:0.0> @>N #9->10
+: 
+"<vuodeh>"
+	"vuozi" N Sg Ill <W:0.0> @<ADVL #10->6
+: 
+"<verraten>"
+	"verraten" Adv <W:0.0> @ADVL #11->7
+"<.>"
+	"." CLB <W:0.0> #12->1
+
+
+"<Valdivo>"
+	"valdivo" N Sg Nom <W:0.0> @SUBJ> #1->2
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 <W:0.0> @FAUX #2->0
+: 
+"<ostanuh>"
+	"ostua" V Act PrfPrc Sg Acc <W:0.0> @>N #3->5
+	"ostua" V Act PrfPrc Sg Nom <W:0.0> @>N #3->5
+: 
+"<puolistustarvikkehii>"
+	"puolistustarvikkehii" ? @X #4->0
+: 
+"<piäl>"
+	"piä" N Sg Ade <W:0.0> @<ADVL #5->1
+: 
+"<67>"
+	"67" Num Arab <W:0.0> @N< #6->5
+: 
+"<miljonal>"
+	"miljon" N Sg Ade <W:0.0> @NUM< #7->7
+: 
+"<eurol>"
+	"euro" N Sg Ade <W:0.0> @<ADVL #8->1
+"<.>"
+	"." CLB <W:0.0> #9->2
+
+
+"<Alijiämy>"
+	"Alijiämy" ? @X #1->0
+: 
+"<nouzou>"
+	"nosta" V Act Ind Prs Sg3 <W:0.0> @FMV #2->0
+: 
+"<piäl>"
+	"piä" N Sg Ade <W:0.0> @<ADVL #3->2
+: 
+"<4>"
+	"4" Num Arab <W:0.0> @N< #4->3
+: 
+"<prosentassah>"
+	"prosentu" N Sg Ter <W:0.0> @NUM< #5->5
+: 
+"<da>"
+	"da" CC <W:0.0> @CNP #6->5
+: 
+"<velgusuhteh>"
+	"velgusuhteh" ? @X #7->0
+: 
+"<piäl>"
+	"piä" N Sg Ade <W:0.0> @<ADVL #8->2
+: 
+"<90>"
+	"90" Num Arab <W:0.0> @N< #9->8
+: 
+"<prosentassah>"
+	"prosentu" N Sg Ter <W:0.0> @NUM< #10->10
+"<.>"
+	"." CLB <W:0.0> #11->2
+
+
+"<Matkuniekoin>"
+	"matkuniekku" N Pl Ins <W:0.0> @X #1->0
+: 
+"<miäry>"
+	"miäry" N Sg Acc <W:0.0> @OBJ> #2->3
+	"miäry" N Sg Nom <W:0.0> @SUBJ> #2->3
+: 
+"<voibi>"
+	"voija" V Act Ind Prs Sg3 <W:0.0> @FMV #3->0
+: 
+"<nosta>"
+	"nosta" V Inf <W:0.0> @X #4->0
+: 
+"<1,3>"
+	"1,3" Num Arab Sem/Time-clock Sg Nom <W:0.0> @X #5->0
+	"1,3" Num Arab Sg Nom <W:0.0> @X #5->0
+: 
+"<miljonassah>"
+	"miljon" N Sg Ter <W:0.0> @NUM< #6->6
+: 
+"<da>"
+	"da" CC <W:0.0> @X #7->0
+: 
+"<heijän>"
+	"häi" Pron Pers Pl3 Gen <W:0.0> @<OBJ #8->3
+: 
+"<dengankäyttö>"
+	"dengankäyttö" ? @X #9->0
+: 
+"<1,3>"
+	"1,3" Num Arab Sem/Time-clock Sg Nom <W:0.0> @X #10->0
+	"1,3" Num Arab Sg Nom <W:0.0> @X #10->0
+: 
+"<miljardah>"
+	"miljardu" N Sg Ill <W:0.0> @NUM< #11->12
+	"miljardu" N Sg Nom PxSP3 <W:0.0> @>N #11->12
+: 
+"<eurossah>"
+	"euro" N Sg Ter <W:0.0> @X #12->0
+"<.>"
+	"." CLB <W:0.0> #13->3
+
+
+"<Ruavottomusasteh>"
+	"Ruavottomusasteh" ? @X #1->0
+: 
+"<nouzi>"
+	"nosta" V Act Ind Prt Sg3 <W:0.0> @FMV #2->0
+: 
+"<10,3>"
+	"10,3" Num Arab Sem/Time-clock Sg Nom <W:0.0> @SUBJ> #3->0
+	"10,3" Num Arab Sg Nom <W:0.0> @SUBJ> #3->0
+: 
+"<prosental>"
+	"prosentu" N Sg Ade <W:0.0> @NUM< #4->4
+"<,>"
+	"," CLB <W:0.0> #5->4
+: 
+"<mi>"
+	"mi" Pron Interr Sg Nom <W:0.0> @>N #6->9
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 <W:0.0> @FMV #7->2
+: 
+"<korgevin>"
+	"korgei" A Superl Sg Acc <W:0.0> @>N #8->9
+	"korgei" A Superl Sg Nom <W:0.0> @>N #8->9
+: 
+"<miäry>"
+	"miäry" N Sg Nom <W:0.0> @>N #9->10
+: 
+"<piäl>"
+	"piä" N Sg Ade <W:0.0> @<ADVL #10->7
+: 
+"<15>"
+	"15" Num Arab <W:0.0> @N< #11->10
+: 
+"<vuodeh>"
+	"vuozi" N Sg Ill <W:0.0> @NUM< #12->12
+"<.>"
+	"." CLB <W:0.0> #13->2
+
+
+"<Kyzelys>"
+	"kyzely" N Sg Ine <W:0.0> @ADVL> #1->13
+: 
+"<15>"
+	"15" Num Arab Sg Nom <W:0.0> @N< #2->1
+	"15" Num Arab Sem/Time-clock Sg Nom <W:0.0> @N< #2->1
+	"15" Num Arab <W:0.0> @N< #2->1
+	"15" Num Arab Sem/ID <W:0.0> @N< #2->1
+"<–>"
+	"–" PUNCT MIDDLE <W:0.0> #3->4
+"<29>"
+	"29" Num Arab Sg Nom <W:0.0> @SUBJ> #4->0
+: 
+"<->"
+	"-" PUNCT MIDDLE <W:0.0> #5->6
+"<vuodehizis>"
+	"vuodehine" A Pos Pl Ine <W:0.0> @>N #6->7
+: 
+"<brihois>"
+	"briha" A Pos Pl Ine <W:0.0> @>N #7->13
+	"briha" N Pl Ine <W:0.0> @ADVL> #7->13
+: 
+"<da>"
+	"da" CC <W:0.0> @CNP #8->7
+: 
+"<miehis>"
+	"mies" N Pl Ine <W:0.0> @ADVL> #9->7
+: 
+"<läs>"
+	"läs" Adv <W:0.0> @ADVL #10->11
+: 
+"<40>"
+	"40" Num Arab <W:0.0> @X #11->0
+: 
+"<prosentua>"
+	"prosentu" N Sg Par <W:0.0> @NUM< #12->12
+: 
+"<oli>"
+	"olla" V Act Ind Prt Sg3 <W:0.0> @FMV #13->0
+: 
+"<hyväs>"
+	"hyvä" A Pos Sg Ine <W:0.0> @>N #14->15
+: 
+"<mieles>"
+	"mieli" N Sg Ine <W:0.0> @<ADVL #15->13
+: 
+"<omas>"
+	"oma" A Pos Sg Ine <W:0.0> @>N #16->17
+: 
+"<elokses>"
+	"elos" N Sg Ine <W:0.0> @<ADVL #17->13
+"<.>"
+	"." CLB <W:0.0> #18->4
+
+
+"<Vuitti>"
+	"vuitti" N Sg Nom <W:0.0> @HNOUN #1->0
+: 
+"<maguau>"
+	"maguau" ? @X #2->0
+: 
+"<kai>"
+	"kai" Adv <W:0.0> @ADVL #3->2
+	"kai" Pron Pl Nom <W:0.0> @>N #3->2
+: 
+"<2>"
+	"2" Num Arab Sg Nom <W:0.0> @HNOUN #4->1
+	"2" Num Arab Sem/Time-clock Sg Nom <W:0.0> @HNOUN #4->1
+"<–>"
+	"–" PUNCT MIDDLE <W:0.0> #5->6
+"<3>"
+	"3" Num Arab Sg Nom <W:0.0> @X #6->0
+: 
+"<čuassuu>"
+	"čuassu" N Sg Par <W:0.0> @NUM< #7->7
+: 
+"<lyhyömbiä>"
+	"lyhyömbiä" ? @X #8->0
+: 
+"<yöundu>"
+	"yöundu" ? @X #9->0
+: 
+"<kezäl>"
+	"kezä" N Sg Ade <W:0.0> @<ADVL #10->4
+"<,>"
+	"," CLB <W:0.0> #11->10
+: 
+"<migu>"
+	"migu" Interj <W:0.0> @X #12->0
+: 
+"<talvel>"
+	"talvi" N Sg Ade <W:0.0> @X #13->0
+"<.>"
+	"." CLB <W:0.0> #14->1
+
+
+"<Suurin>"
+	"suuri" A Pos Pos Pl Ins <W:0.0> @>N #1->3
+	"suuri" A Pos Superl Sg Acc <W:0.0> @>N #1->3
+	"suuri" A Pos Superl Sg Nom <W:0.0> @>N #1->3
+: 
+"<rokottamattomien>"
+	"rokottamattomien" ? @X #2->0
+: 
+"<joukko>"
+	"joukko" N Sg Nom <W:0.0> @SUBJ> #3->4
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 <W:0.0> @FMV #4->0
+: 
+"<vuozinnu>"
+	"vuozi" N Pl Ess <W:0.0> @X #5->0
+: 
+"<1970>"
+;	"1970" Num Arab Sg Nom <W:0.0> @N< #6->5
+;	"1970" Num Arab <W:0.0> @N< #6->5
+;	"1970" Num Arab Sem/ID <W:0.0> @N< #6->5
+	"1970" Num Arab Sem/Year <W:0.0> @N< #6->5
+"<->"
+	"-" PUNCT MIDDLE <W:0.0> #7->8
+"<75>"
+	"75" Num Arab Sg Nom <W:0.0> @SUBJ> #8->9
+: 
+"<roinnuot>"
+	"roija" V Act PrfPrc Pl Acc <W:0.0> @FMV #9->4
+	"roija" V Act PrfPrc Pl Nom <W:0.0> @FMV #9->4
+	"roita" V Act PrfPrc Pl Acc <W:0.0> @FMV #9->4
+	"roita" V Act PrfPrc Pl Nom <W:0.0> @FMV #9->4
+"<.>"
+	"." CLB <W:0.0> #10->4
+
+
+"<Hänen>"
+	"häi" Pron Pers Sg3 Gen <W:0.0> @>N #1->2
+: 
+"<roindupäivy>"
+	"roindupäivy" N Sg Nom <W:0.0> @SUBJ> #2->3
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 <W:0.0> @FMV #3->0
+: 
+"<24.9.>"
+	"24.9." Num Arab Sg Gen <W:0.0> @<OBJ #4->3
+
+
+"<Häi>"
+	"häi" Pron Pers Sg3 Nom <W:0.0> @SUBJ> #1->2
+: 
+"<rodiihes>"
+	"rodiekseh" V Rfl Ind Prt Sg3 <W:0.0> @FMV #2->0
+: 
+"<30.3.1993>"
+	"30.3.1993" Num Arab Sg Nom <W:0.0> @X #3->0
+	"30.3.1993" Num Arab Sem/ID <W:0.0> @X #3->0
+"<.>"
+	"." CLB <W:0.0> #4->2
+
+
