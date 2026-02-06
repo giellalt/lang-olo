@@ -155,8 +155,8 @@ ARABICCASEORD ; ! XXX look at this
 
 
 LEXICON yeartagpl
-          +Num+Sem/Year+Pl+Nom:        # ;
-          +Num+Sem/Year+Pl+Gen:        # ;
+          +Num+Arab+Sem/Year+Pl+Nom:        # ;
+          +Num+Arab+Sem/Year+Pl+Gen:        # ;
 ! +Num+Sem/Year+Err/Orth+Pl+Ine:%:dinie # ;
 
 LEXICON dateyearcase
