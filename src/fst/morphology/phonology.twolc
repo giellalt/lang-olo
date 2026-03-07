@@ -767,6 +767,7 @@ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; !!= @CODE@
 !! **@RULENAME@**  
 d:j <=> [ u a ] _ [ i ] (%{back%}:) %^WGStem: (%^E1:) %> ;
         [ i e: | a i ] _ [ o | a] (HarmDummy:) %^WGStem: (%^E1:) %> ;
+        i _ e (%{front%}:) %^WGStem: %> [ l | n | s ] ; ! viizi viijel
 !!€ maido%^WGStem%>n
 !!€ maijo0%>n
 !!€ tiedo%^WGStem%>n
@@ -824,8 +825,7 @@ s:z <=> _ (HarmDummy:) %^VOICE:0 ; !!= * @CODE@ pestä: pezen
 
 "k:g"
 !! **@RULENAME@** pestä: peskäh
-k:g <=> [ n | l |r ] (HarmDummy:) %> _ (%{ui%}:) %{aä%}: ; 
-
+k:g <=> [ n | l |r ] (HarmDummy:) %> _ (%{ui%}:) %{aä%}: ;
 
 "rd:rr weakening"
 !! **@RULENAME@**  
