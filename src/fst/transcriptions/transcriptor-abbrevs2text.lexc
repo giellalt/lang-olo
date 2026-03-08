@@ -25,46 +25,15 @@
 !! for text-to-speech systems.
 
 LEXICON Root
-! Kirjaimikko:
-A.:aa # ;
-B.:bee # ;
-C.:cee # ;
-Č.:čee # ;
-D.:dee # ;
-E.:ee # ;
-F.:ef # ;
-G.:gee # ;
-H.:hoo # ;
-I.:ii # ;
-J.:jii # ;
-K.:koo # ;
-L.:el # ;
-M.:em # ;
-N.:en # ;
-O.:oo # ;
-P.:pee # ;
-R.:er # ;
-S.:es # ;
-Š.:šee # ;
-Z.:zee # ;
-Ž.:žee # ;
-T.:tee # ;
-U.:uu # ;
-V.:vee # ;
-Y.:yy # ;
-Ä.:ää # ;
-Ö.:öö # ;
-Å.:oo # ;
-Q.:kuu # ;
-X.:eks # ;
 čl:čuajuluzikkaine # ;
 dl:dezilitru # ;
-dmi.:da% muga% ielleh # ; !!= * @CODE@
-dmm.:da% muudu% mostu # ;
+dmi:da% muga% ielleh # ;
+dmi:da% muga% ielleh # ; !!= * @CODE@
+dmm:da% muudu% mostu # ;
 ezim.:ezimerki # ; !!= * @CODE@
-ezim.:ezimerkikse # ; !!= * @CODE@
+ezim:ezimerkikse # ; !!= * @CODE@
 gr:grammu # ;
-imi.:i% muga% ielleh # ;
+imi:i% muga% ielleh # ;
 kč.:kačo # ;
 kg:kilogrammu # ;
 km:kilometri # ;
@@ -72,7 +41,7 @@ m:metri # ;
 mm:millimetri # ;
 ml:millilitru # ;
 l:litru # ;
-lmm.:libo% muudu% mostu # ;
+lmm:libo% muudu% mostu # ;
 ms.:muga% sanottu # ;
 os.:omua% suguu # ;  !!= * @CODE@
 s.:sivu # ;
