@@ -3,9 +3,9 @@
 We describe here how abbreviations are in Livvi Karelian are read out, e.g.
 for text-to-speech systems.
 
-* dmi.:da% muga% ielleh # ; 
+* dmi:da% muga% ielleh # ; 
 * ezim.:ezimerki # ; 
-* ezim.:ezimerkikse # ; 
+* ezim:ezimerkikse # ; 
 * os.:omua% suguu # ;  
 * v.:vuozi # ;  
 * v.:vuvvennu # ;  
