@@ -282,14 +282,16 @@ Rules
 
 "%{aä%}:a"
 !! **Rule: @RULENAME@**
- %{aä%}:a <=> BHarm (%>) _ ;
+! %{aä%}:a <=> BHarm (%>) _ ;
+%{aä%}:a <=> [BT|BHarm] (%>) _ ;
 !! kuvitella+V+Inf: **imagine/kuvitella**
 !!€ kuvittel%{back%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
 !!€ kuvi0tel00%>la0
 
 "%{aä%}:ä"
 !! **Rule: @RULENAME@**
- %{aä%}:ä <=> FHarm (%>) _ ;
+! %{aä%}:ä <=> FHarm (%>) _ ;
+%{aä%}:ä <=> [FT|FHarm] (%>) _ ;
 !! ezitellä+V+Inf: **present/esitellä**
 !!€ ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
 !!€ ezi0tel00%>lä0
@@ -686,7 +688,7 @@ i:0 <=> o _ (HarmDummy:)  %^ILoss: %> l [ %{oö%}: |o|ö] i ;
  %{uy%}:u <=>
   [BHarm] ( %> ) _ ;
   [BHarm] (%^WGStem:) %> (n) %{lnrs%}: _ ;
-!  [ [BT|BHarm] | :VowBack Cns:* ] ( %> ) _ ;
+  [ [BT|BHarm] | :VowBack Cns:* ] ( %> ) _ ;
 !  [ [BT|BHarm] | :VowBack Cns:* ] (%^WGStem:) %> (n) %{lnrs%}: _ ;
 !!€ tul%>%{lnrs%}%{uy%}h
 !!€ tul%>luh
@@ -696,7 +698,7 @@ i:0 <=> o _ (HarmDummy:)  %^ILoss: %> l [ %{oö%}: |o|ö] i ;
  %{uy%}:y <=>
   [ FHarm ] ( %> ) _ ;
   [ FHarm ] (%^WGStem:) %> (n) %{lnrs%}: _ ;
-!  [ [FT|FHarm] | :VowFront Cns:* ] ( %> ) _ ;
+  [ [FT|FHarm] | :VowFront Cns:* ] ( %> ) _ ;
 !  [ [FT|FHarm] | :VowFront Cns:* ] (%^WGStem:) %> (n) %{lnrs%}: _ ;
 
 !! ## Consonant change
