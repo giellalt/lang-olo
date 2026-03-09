@@ -119,12 +119,12 @@ SUBSTITUTE:digits-par-after-negs (A Arab Ord Attr) (A Arab Ord Sg Par)
 # Emmo voi ottua 13 kažii. -> Emmo voi ottua kolmietostu kažii.
 # Emmo voi ottua 13. kažii. -> Emmo voi ottua kolmattutostu kažii.
 
-SUBSTITUTE:digits-ine-before-hyphen (Num Arab Sg Nom) (Num Arab Sg Ine)
+SUBSTITUTE:digits-ine-before-hyphen (Num Arab Card Sg Nom) (Num Arab Card Sg Ine)
                                     TARGET (Num Arab)
-                                    IF (1 MIDDLE) ;
-SUBSTITUTE:digits-ill-after-hyphen (Num Arab Sg Nom) (Num Arab Sg Ill)
+                                    IF (1 MIDDLE) (2 (Num Arab)) ;
+SUBSTITUTE:digits-ill-after-hyphen (Num Arab Card Sg Nom) (Num Arab Card Sg Ill)
                                     TARGET (Num Arab)
-                                    IF (-1 MIDDLE) ;
+                                    IF (-1 MIDDLE) (-2 (Num Arab)) ;
 
 # Vuitti maguau kai 2–3 čuassuu lyhyömbiä yöundu kezäl, migu talvel.
 # -> Vuitti maguau kai kahtes kolmeh čuassuu lyhyömbiä yöundu kezäl, migu talvel.
