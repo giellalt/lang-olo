@@ -80,7 +80,7 @@ SUBSTITUTE:digits-agreement-ade (Num Arab) (Num Arab Card Sg Ade)
 # Miäry suurenou nenga 40 prosental.
 # -> Miäry suurenou nenga nellälkymmenel prosental
 
-SUBSTITUTE:digits-agreement-ter (Num Arab) (Num Arab Card Sg Ter)
+SUBSTITUTE:digits-agreement-ter (Num Arab) (Num Arab Card Sg Ill)
                             TARGET (Num Arab)
                             IF (*1 (Sg Ter) BARRIER (*) - (A Ter) - (N Ter))
                                (NEGATE 0 NUM)
