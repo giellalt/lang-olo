@@ -80,7 +80,7 @@ and perhaps smaller than the incoming loanword set, it is better
 to literally spell out adjacent vowels that are constant. 2019-09-02 JMR
 %^NONE:0 This will break vowel change, e.g. sa%^NONEamelaine
 
-%^Pen:0   pagisou paistah in combination with WGStem to trigger
+= %^NONE:0 pagisou paistah in combination with WGStem to trigger
 
 %^D2Z:0	  ! The ti => zi
 
