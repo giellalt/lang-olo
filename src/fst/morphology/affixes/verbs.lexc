@@ -667,40 +667,40 @@ LEXICON V_PAISTA !!≈ * **@CODE@** paista:pagis
 :%{back%} V_PAISTA_01 ;
 LEXICON V_PAISTA_01 !!≈ * **@CODE@** paista:pagis
 
-: V-VV_03_Harm-Neutr_VOWEL-STEM ;
-: V-VV_03_Harm-Neutr_CONSONANT-STEM ;
+!: V-VV_03_Harm-Neutr_VOWEL-STEM ;
+!: V-VV_03_Harm-Neutr_CONSONANT-STEM ;
 
-+Act:%>e INDPRSSG1 ;
-+Act:%>e INDPRSSG2 ;
-+Act:%>o INDPRSSG3_BACK ;
-+Act:%>e INDPRSPL1_BACK ;
-+Act:%>e INDPRSPL2_BACK ;
-+Act:%^Pen%^%^WGStem INDPRSPL3_tah ;
-+Act:%>e INDPRSCONNEG_WEAK ;
++Act:%^VOICE%>e INDPRSSG1 ;
++Act:%^VOICE%>e INDPRSSG2 ;
++Act:%^VOICE%>o INDPRSSG3_BACK ; ! pagizou
++Act:%^VOICE%>e INDPRSPL1_BACK ;
++Act:%^VOICE%>e INDPRSPL2_BACK ;
++Act:%^Pen%^WGStem%> INDPRSPL3_tah ; ! paistah
++Act:%^VOICE%>e INDPRSCONNEG_WEAK ;
 ! MORE WORK NEEDED 2015-11
-+Act: INDPRTSG1     ;
-+Act: INDPRTSG2     ;
-+Act: INDPRTSG3     ;
-+Act: INDPRTPL1_BACK     ;
-+Act: INDPRTPL2_BACK     ;
-+Act:%^Pen%^%^WGStem INDPRTPL3_tih     ;
-+Act: INDPRTCONNEG_nuh ;
-+Act:%^Pen%^%^WGStem INDPRTCONNEGPL3_tu ;
++Act:%^VOICE INDPRTSG1     ;
++Act:%^VOICE INDPRTSG2     ;
++Act:%^VOICE INDPRTSG3     ;
++Act:%^VOICE INDPRTPL1_BACK     ;
++Act:%^VOICE INDPRTPL2_BACK     ;
++Act:%^Pen%^WGStem%> INDPRTPL3_tih     ; ! paistih
++Act: INDPRTCONNEG_nuh ; 
++Act:%^Pen%^WGStem INDPRTCONNEGPL3_tu ; ! paistu
 
 +Act:%^VOICE CONDPRS_IS_BACK ;
-+Act:%^Pen%^%^WGStem CONDPRSPL3_tas ;
-+Act: CONDPRT_nus ;
-+Act:%^Pen%^%^WGStem CONDPRTPL3_tannus ;
++Act:%^Pen%^%^WGStem CONDPRSPL3_tas ; ! paistas
++Act: CONDPRT_nus ; ! paistanus
++Act:%^Pen%^%^WGStem CONDPRTPL3_tannus ; ! paistannus
 +Act: POT_N_BACK ;
-+Act:%^Pen%^%^WGStem POTPL3_tanneh ;
++Act:%^Pen%^%^WGStem POTPL3_tanneh ; ! paistanneh
 +Act: IMPRT_Ga ;
-+Act:%^Pen%^%^WGStem IMPRTPL3_tahes ;
++Act:%^Pen%^%^WGStem IMPRTPL3_tahes ; ! paistahes
 
 :%^VOICEi ACT-PRSPRC_OSTAI ;
-: ACT-PRFPRC_nuH ;
-:%^Pen%^%^WGStem PSS-PRSPRC_tavu ;
-:%^Pen%^%^WGStem PSS-PRFPRC_tu ;
-:%^VOICEe M-INF_BACK ;
+:%^Pen%^%^WGStem ACT-PRFPRC_nuH ; ! paissuh
+:%^Pen%^%^WGStem PSS-PRSPRC_tavu ; ! paistavu
+:%^Pen%^%^WGStem PSS-PRFPRC_tu ;  ! paistu
+:%^VOICEe M-INF_BACK ; ! pagizemas/pagizemah/pagizemal/pagizemattah...
 +Inf:%>d%{aä%}%^WGStem K ;
 +Ger+Temp:%^Pen%^%^WGStem%>te K ;
 
@@ -819,7 +819,8 @@ LEXICON V_LANGETA !!≈ * **@CODE@** langeta:lange
 
 LEXICON V_ALLATA !!≈ * **@CODE@** allata:alga
 ! gradation: yes
-:%^A2U%>a%{back%} V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+:%^A2UÄ2Y%>a%{back%} V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
+!:%^A2U%>a%{back%} V-VV_04_BACK-WITH-LENGTHENED-VOWEL-STRONG-GRADE ;
 :%{back%} V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-STRONG-GRADE ;
 :%{back%}%^WGStem V-VV_04_BACK-WITHOUT-LENGTHENED-VOWEL-WEAK-GRADE ;
 
