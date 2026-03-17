@@ -2,7 +2,7 @@ build:
   analysers: true
   spellers: true
   grammar-checkers: false
-  tts-textproc: false
+  tts-textproc: true
   hyphenators: false
 check:
   analysers: true
