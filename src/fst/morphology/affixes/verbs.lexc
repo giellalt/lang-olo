@@ -536,15 +536,15 @@ LEXICON V_NÄHTÄ !!≈ * **@CODE@** nähtä:nä
 LEXICON V_NÄHTÄ_01 !!≈ * **@CODE@** nähtä:nä
 !!	+TYÄ: V-VV_02_FRONT	 ;
 !:e V-VV_02_FRONT_USUALLY-WEAK ;
-+Act+Ind+Prs+Sg1:en K ;
-+Act+Ind+Prs+Sg2:et K ;
-+Act:e INDPRSCONNEG_WEAK ;
-+Act+Ind+Prs+Pl:emmö K ;
-+Act+Ind+Prs+Pl2:ettö K ;
-+Act:h INDPRTPL3_tih ;
++Act+Ind+Prs+Sg1:in K ;
++Act+Ind+Prs+Sg2:it K ;
++Act:i INDPRSCONNEG_WEAK ;
++Act+Ind+Prs+Pl1:immö K ;
++Act+Ind+Prs+Pl2:ittö K ;
+:h INDPRTPL3_tih ;
 +Act:h INDPRTCONNEGPL3_tU ;
 +Act:h CONDPRSPL3_tAs ;
-+Act: V-VV_02_FRONT_USUALLY-WEAK-VOWEL-LOSS ;     ! möin
+: V-VV_02_FRONT_USUALLY-WEAK-VOWEL-LOSS ;     ! möin
 
 !+Act+Ind+Prs+Sg1:in K ;
 !+Act+Ind+Prs+Sg2:it K ;
@@ -571,7 +571,7 @@ LEXICON V_NÄHTÄ_01 !!≈ * **@CODE@** nähtä:nä
 !+Act+Ind+Prs+Sg3:gi K ;
 
 +Act:h INDPRSPL3_tAh ;
-+Inf:hä K ;
++Inf:htä K ;
 
 :h GER_ten ;
 :h GER-TEMP_tes ;
