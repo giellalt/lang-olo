@@ -323,6 +323,10 @@ LEXICON PROP_KOIVU !!≈ @CODE@ koivu:koivu
 !LEXICON PROP_KOIVU_MAL !!≈ @CODE@ koivu:koivu
 !+Sem/Mal:%{back%} NMN_KOIVU/HERY ;
 
+LEXICON PROP_HERY
+:%{front%} NMN_KOIVU/HERY ;
+
+
 LEXICON PROP-PLC_KOIVU
 +Sem/Plc:%{back%} NMN_KOIVU/HERY ;
 
