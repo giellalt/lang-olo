@@ -172,7 +172,8 @@ LEXICON A_VALGEI !!≈ @CODE@ valgei:valge
 +Superl:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_RAHMANNOI !!≈ @CODE@ rahmannoi:rahmannoi
-+Pos:%{back%} NMN_RAHMANNOI        ;
++Pos:%{back%} N_REBOI-SG ;
++Pos:%{back%} N_REBOI-PL ;
 
 
 LEXICON A_HARDIE
