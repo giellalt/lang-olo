@@ -155,6 +155,9 @@ LEXICON PROP_JOGI-SG !!≈ @CODE@
 LEXICON PROP_JOGI-PL !!≈ @CODE@ 
 :%{back%} NMN_JOGI-PL ;
 
+LEXICON PROP_YLE
+:%{front%} NMN_YLE-SG ;
+
 
 !LEXICON PROP_KIELI !!≈ @CODE@ kieli:kiel
 !!! Gradation NA
