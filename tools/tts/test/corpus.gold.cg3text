@@ -5,7 +5,7 @@
 	"olla" V Act Ind Prs Sg3 <W:0.0> @FMV #2->0
 : 
 "<2>"
-	"2" Num Arab <W:0.0> @N< #3->3
+	"2" Num Arab Sem/Measr <W:0.0> @N< #3->3
 : 
 "<kažii>"
 	"kaži" N Sg Par <W:0.0> @<SUBJ #4->2
@@ -26,7 +26,7 @@
 	"rikos" N Pl Ine <W:0.0> @<ADVL #4->2
 : 
 "<12>"
-	"12" Num Arab <W:0.0> @N< #5->4
+	"12" Num Arab Sem/Measr <W:0.0> @N< #5->4
 : 
 "<vuottu>"
 	"vuozi" N Sg Par <W:0.0> @<OBJ #6->2
@@ -48,7 +48,7 @@
 	"luadie" V Act PrfPrc Sg Nom <W:0.0> @>N #3->5
 : 
 "<10>"
-	"10" Num Arab <W:0.0> @X #4->0
+	"10" Num Arab Sem/Measr <W:0.0> @X #4->0
 : 
 "<vuvven>"
 	"vuozi" N Sg Gen <W:0.0> @>N #5->6
@@ -57,7 +57,7 @@
 	"aigu" N Sg Par <W:0.0> @<SUBJ #6->2
 : 
 "<200>"
-	"200" Num Arab <W:0.0> @N< #7->6
+	"200" Num Arab Sem/Measr <W:0.0> @N< #7->6
 : 
 "<miljonan>"
 	"miljon" N Sg Gen <W:0.0> @>N #8->9
@@ -81,7 +81,7 @@
 	"olla" V Act Ind Prs ConNeg <W:0.0> @FMV #3->2
 : 
 "<3>"
-	"3" Num Arab <W:0.0> @X #4->0
+	"3" Num Arab Sem/Measr <W:0.0> @X #4->0
 : 
 "<kažii>"
 	"kaži" N Sg Par <W:0.0> @<SUBJ #5->3
@@ -100,7 +100,7 @@
 	"ottua" V Inf <W:0.0> @X #3->0
 : 
 "<13>"
-	"13" Num Arab <W:0.0> @X #4->0
+	"13" Num Arab Sem/Measr <W:0.0> @X #4->0
 : 
 "<kažii>"
 	"kaži" N Sg Par <W:0.0> @<OBJ #5->5
@@ -143,7 +143,7 @@
 	"enäm" Adv <W:0.0> @ADVL #5->6
 : 
 "<8>"
-	"8" Num Arab <W:0.0> @X #6->0
+	"8" Num Arab Sem/Measr <W:0.0> @X #6->0
 : 
 "<prosentua>"
 	"prosentu" N Sg Par <W:0.0> @<SUBJ #7->4
@@ -161,7 +161,7 @@
 	"enäm" Adv <W:0.0> @ADVL #3->4
 : 
 "<3 000>"
-	"3 000" Num Arab <W:0.0> @X #4->0
+	"3 000" Num Arab Sem/Measr <W:0.0> @X #4->0
 : 
 "<teini-igähisty>"
 	"teini-igähine" A Pos Sg Par <W:0.0> @X #5->0
@@ -183,7 +183,7 @@
 	"ligakuu" N Sg Ade <W:0.0> @LOC @<ADVL #3->2
 : 
 "<48 000>"
-	"48 000" Num Arab <W:0.0> @N< #4->3
+	"48 000" Num Arab Sem/Measr <W:0.0> @N< #4->3
 	"48 000" Num Arab Sg Nom <W:0.0> @N< #4->3
 : 
 "<enämbi>"
@@ -211,7 +211,7 @@
 	"läs" Adv <W:0.0> @ADVL #3->4
 : 
 "<31>"
-	"31" Num Arab <W:0.0> @X #4->0
+	"31" Num Arab Sem/Measr <W:0.0> @X #4->0
 : 
 "<prosentua>"
 	"prosentu" N Sg Par <W:0.0> @NUM< #5->5
@@ -251,7 +251,7 @@
 	"läs" Adv <W:0.0> @ADVL #3->2
 : 
 "<64>"
-	"64" Num Arab <W:0.0> @X #4->0
+	"64" Num Arab Sem/Measr <W:0.0> @X #4->0
 : 
 "<miljonua>"
 	"miljon" N Sg Par <W:0.0> @NUM< #5->5
@@ -272,7 +272,7 @@
 	"nenga" Adv <W:0.0> @ADVL #3->4
 : 
 "<40>"
-	"40" Num Arab <W:0.0> @X #4->0
+	"40" Num Arab Sem/Measr <W:0.0> @X #4->0
 : 
 "<prosental>"
 	"prosentu" N Sg Ade <W:0.0> @NUM< #5->5
@@ -299,7 +299,7 @@
 	"vähetä" V Act Ind Prt Sg3 <W:0.0> @FMV #6->0
 : 
 "<5>"
-	"5" Num Arab <W:0.0> @X #7->0
+	"5" Num Arab Sem/Measr <W:0.0> @X #7->0
 : 
 "<prosental>"
 	"prosentu" N Sg Ade <W:0.0> @NUM< #8->8
@@ -333,7 +333,7 @@
 	"piä" N Sg Ade <W:0.0> @<ADVL #5->1
 : 
 "<67>"
-	"67" Num Arab <W:0.0> @N< #6->5
+	"67" Num Arab Sem/Measr <W:0.0> @N< #6->5
 : 
 "<miljonal>"
 	"miljon" N Sg Ade <W:0.0> @NUM< #7->7
@@ -354,7 +354,7 @@
 	"piä" N Sg Ade <W:0.0> @<ADVL #3->2
 : 
 "<4>"
-	"4" Num Arab <W:0.0> @N< #4->3
+	"4" Num Arab Sem/Measr <W:0.0> @N< #4->3
 : 
 "<prosentassah>"
 	"prosentu" N Sg Ter <W:0.0> @NUM< #5->5
@@ -369,7 +369,7 @@
 	"piä" N Sg Ade <W:0.0> @<ADVL #8->2
 : 
 "<90>"
-	"90" Num Arab <W:0.0> @N< #9->8
+	"90" Num Arab Sem/Measr <W:0.0> @N< #9->8
 : 
 "<prosentassah>"
 	"prosentu" N Sg Ter <W:0.0> @NUM< #10->10
@@ -411,8 +411,9 @@
 	"1,3" Num Arab Sg Nom <W:0.0> @X #10->0
 : 
 "<miljardah>"
-	"miljardu" N Sg Ill <W:0.0> @NUM< #11->12
-	"miljardu" N Sg Nom PxSP3 <W:0.0> @>N #11->12
+	"miljardu" N Sg Ill <W:0.0> @NUM< #11->3
+	"miljardu" N Sg Nom PxSP3 <W:0.0> @>N #11->3
+	"miljardu" Sg Ill <W:0.0> @<ADVL #11->3
 : 
 "<eurossah>"
 	"euro" N Sg Ter <W:0.0> @X #12->0
@@ -452,7 +453,7 @@
 	"piä" N Sg Ade <W:0.0> @<ADVL #10->7
 : 
 "<15>"
-	"15" Num Arab <W:0.0> @N< #11->10
+	"15" Num Arab Sem/Measr <W:0.0> @N< #11->10
 : 
 "<vuodeh>"
 	"vuozi" N Sg Ill <W:0.0> @NUM< #12->12
@@ -465,9 +466,6 @@
 : 
 "<15>"
 	"15" Num Arab Sg Nom <W:0.0> @N< #2->1
-	"15" Num Arab Sem/Time-clock Sg Nom <W:0.0> @N< #2->1
-	"15" Num Arab <W:0.0> @N< #2->1
-	"15" Num Arab Sem/ID <W:0.0> @N< #2->1
 "<–>"
 	"–" PUNCT MIDDLE <W:0.0> #3->4
 "<29>"
@@ -492,7 +490,7 @@
 	"läs" Adv <W:0.0> @ADVL #10->11
 : 
 "<40>"
-	"40" Num Arab <W:0.0> @X #11->0
+	"40" Num Arab Sem/Measr <W:0.0> @X #11->0
 : 
 "<prosentua>"
 	"prosentu" N Sg Par <W:0.0> @NUM< #12->12
@@ -516,22 +514,20 @@
 
 
 "<Vuitti>"
-	"vuitti" N Sg Nom <W:0.0> @HNOUN #1->0
+	"vuitti" N Sg Nom <W:0.0> @SUBJ> #1->2
 : 
 "<maguau>"
-	"maguau" ? @X #2->0
+	"muata" V Act Ind Prs Sg3 <W:0.0> @FMV #2->0
 : 
 "<kai>"
-	"kai" Adv <W:0.0> @ADVL #3->2
-	"kai" Pron Pl Nom <W:0.0> @>N #3->2
+	"kai" Adv <W:0.0> @ADVL #3->4
 : 
 "<2>"
-	"2" Num Arab Sg Nom <W:0.0> @HNOUN #4->1
-	"2" Num Arab Sem/Time-clock Sg Nom <W:0.0> @HNOUN #4->1
+	"2" Num Arab Sem/Measr <W:0.0> @X #4->0
 "<–>"
 	"–" PUNCT MIDDLE <W:0.0> #5->6
 "<3>"
-	"3" Num Arab Sg Nom <W:0.0> @X #6->0
+	"3" Num Arab Sem/Measr <W:0.0> @X #6->0
 : 
 "<čuassuu>"
 	"čuassu" N Sg Par <W:0.0> @NUM< #7->7
@@ -543,7 +539,7 @@
 	"yöundu" ? @X #9->0
 : 
 "<kezäl>"
-	"kezä" N Sg Ade <W:0.0> @<ADVL #10->4
+	"kezä" N Sg Ade <W:0.0> @<ADVL #10->2
 "<,>"
 	"," CLB <W:0.0> #11->10
 : 
@@ -551,9 +547,9 @@
 	"migu" Interj <W:0.0> @X #12->0
 : 
 "<talvel>"
-	"talvi" N Sg Ade <W:0.0> @X #13->0
+	"talvi" N Sg Ade <W:0.0> @<ADVL #13->2
 "<.>"
-	"." CLB <W:0.0> #14->1
+	"." CLB <W:0.0> #14->2
 
 
 "<Suurin>"
@@ -574,10 +570,7 @@
 	"vuozi" N Pl Ess <W:0.0> @X #5->0
 : 
 "<1970>"
-;	"1970" Num Arab Sg Nom <W:0.0> @N< #6->5
-;	"1970" Num Arab <W:0.0> @N< #6->5
-;	"1970" Num Arab Sem/ID <W:0.0> @N< #6->5
-	"1970" Num Arab Sem/Year <W:0.0> @N< #6->5
+	"1970" Num Arab Sem/Year Sg Nom <W:0.0> @N< #6->5
 "<->"
 	"-" PUNCT MIDDLE <W:0.0> #7->8
 "<75>"
@@ -602,7 +595,7 @@
 	"olla" V Act Ind Prs Sg3 <W:0.0> @FMV #3->0
 : 
 "<24.9.>"
-	"24.9." Num Arab Sg Gen <W:0.0> @<OBJ #4->3
+	"24.9." Num Arab Sem/Date Sg Gen <W:0.0> @<OBJ #4->3
 
 
 "<Häi>"
@@ -612,8 +605,7 @@
 	"rodiekseh" V Rfl Ind Prt Sg3 <W:0.0> @FMV #2->0
 : 
 "<30.3.1993>"
-	"30.3.1993" Num Arab Sg Nom <W:0.0> @X #3->0
-	"30.3.1993" Num Arab Sem/ID <W:0.0> @X #3->0
+	"30.3.1993" Num Arab Sem/Date Sg Nom <W:0.0> @X #3->0
 "<.>"
 	"." CLB <W:0.0> #4->2
 
