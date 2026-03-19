@@ -10,6 +10,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-o
 
 **%{aä%}:a**
 **%{aä%}:ä**
+* **%{ä%}:ä** is for ä that doesn't diphthongise, e.g. PropN -pää
 
  %{aoeInf%}:a	 Back vowel infinitive marker
  %{äöeInf%}:ä	 Front vowel infinitive marker

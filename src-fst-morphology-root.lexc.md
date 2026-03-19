@@ -336,6 +336,7 @@ symbols in the lexicon files:
 **%{aoeInf%}** Back vowel infinitive marker
 **%{äöeInf%}** Front vowel infinitive marker
 
+* **%{ä%}**  no diphthongs
 * **%{aäPar%}**  no diphthongs
 * **%{aäDiph%}**  This is for diphthongs such as the infinitive marker after i and u stems
 * **%{aäoeöuiy%}**  with partitive type

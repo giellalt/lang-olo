@@ -2416,6 +2416,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-o
 
 **%{aä%}:a**
 **%{aä%}:ä**
+* **%{ä%}:ä** is for ä that doesn't diphthongise, e.g. PropN -pää
 
  %{aoeInf%}:a	 Back vowel infinitive marker
  %{äöeInf%}:ä	 Front vowel infinitive marker
@@ -3274,6 +3275,7 @@ symbols in the lexicon files:
 **%{aoeInf%}** Back vowel infinitive marker
 **%{äöeInf%}** Front vowel infinitive marker
 
+* **%{ä%}**  no diphthongs
 * **%{aäPar%}**  no diphthongs
 * **%{aäDiph%}**  This is for diphthongs such as the infinitive marker after i and u stems
 * **%{aäoeöuiy%}**  with partitive type
