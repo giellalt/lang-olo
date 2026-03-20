@@ -465,10 +465,14 @@
 	"kyzely" N Sg Ine <W:0.0> @ADVL> #1->13
 : 
 "<15>"
+	"15" Num Arab Sem/ID <W:0.0> @N< #2->1
+	"15" Num Arab Sem/Measr <W:0.0> @N< #2->1
+	"15" Num Arab Sem/Time-clock Sg Nom <W:0.0> @N< #2->1
 	"15" Num Arab Sg Nom <W:0.0> @N< #2->1
 "<–>"
 	"–" PUNCT MIDDLE <W:0.0> #3->4
 "<29>"
+	"29" Num Arab Sem/Time-clock Sg Nom <W:0.0> @SUBJ> #4->0
 	"29" Num Arab Sg Nom <W:0.0> @SUBJ> #4->0
 : 
 "<->"
@@ -523,7 +527,10 @@
 	"kai" Adv <W:0.0> @ADVL #3->4
 : 
 "<2>"
+	"2" Num Arab Sem/ID <W:0.0> @X #4->0
 	"2" Num Arab Sem/Measr <W:0.0> @X #4->0
+	"2" Num Arab Sem/Time-clock Sg Nom <W:0.0> @X #4->0
+	"2" Num Arab Sg Nom <W:0.0> @X #4->0
 "<–>"
 	"–" PUNCT MIDDLE <W:0.0> #5->6
 "<3>"
@@ -570,7 +577,10 @@
 	"vuozi" N Pl Ess <W:0.0> @X #5->0
 : 
 "<1970>"
+	"1970" Num Arab Sem/ID <W:0.0> @N< #6->5
+	"1970" Num Arab Sem/Measr <W:0.0> @N< #6->5
 	"1970" Num Arab Sem/Year Sg Nom <W:0.0> @N< #6->5
+	"1970" Num Arab Sg Nom <W:0.0> @N< #6->5
 "<->"
 	"-" PUNCT MIDDLE <W:0.0> #7->8
 "<75>"
@@ -606,6 +616,7 @@
 : 
 "<30.3.1993>"
 	"30.3.1993" Num Arab Sem/Date Sg Nom <W:0.0> @X #3->0
+	"30.3.1993" Num Arab Sem/ID <W:0.0> @X #3->0
 "<.>"
 	"." CLB <W:0.0> #4->2
 
