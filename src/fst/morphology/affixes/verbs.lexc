@@ -214,8 +214,9 @@ LEXICON V_ALENDUA/ELLENDIÄ_01 !!≈ * **@CODE@** ellendiä:ellendä alendua:ale
 !! Gradation No
 : V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^RmVow V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
-: V-VV_01_Harm-Neutr_USUALLY-STRONG	 ;
+: V-VV_01_Harm-Neutr_USUALLY-STRONG	 ; ! this gives incorrect alendanuh
 :%^RmVow V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;
+: ACT-PRFPRC_nnUH ;!alendannuh/ellendännyh is correct
 INF_A ;
 
 LEXICON V_LIIKUTTUA !!≈ * **@CODE@** liikuttua:liikutta
@@ -229,9 +230,9 @@ LEXICON V_LIIKUTTUA/MENETTIÄ_01 !!≈ * **@CODE@** liikuttua:liikutta, menetti�
 !! Gradation YES
 :%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem%^RmVow V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
-:  V-VV_01_Harm-Neutr_USUALLY-STRONG ;!2024-11-04
+:  V-VV_01_Harm-Neutr_USUALLY-STRONG ;!2024-11-04 this gives incorrect liikuttanuh
 :%^RmVow  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;!2024-11-04
-:%^WGStem ACT-PRFPRC_nnUH ;!2025-09-05
+:%^WGStem ACT-PRFPRC_nnUH ;!2025-09-05 liikutannuh is correct
 INF_A ;
 
 !CHECK THESE 2024-11-04
@@ -347,12 +348,12 @@ LEXICON V_PEZEVYÖ !!≈ * **@CODE@** sualistuo:sualistu
 :%{front%} V_SUALISTUO/PEZEVYÖ_01 ;
 LEXICON V_SUALISTUO/PEZEVYÖ_01 !!≈ * **@CODE@** valuo:valu
 !! Gradation Yes
-!! similar_to: V_PYZYÖ
 !FIXME 2024-08-16 +Der+Der/Rc+V: VR_VALUO/PEZEVYÖ ;
 :%^WGStem  V-VV_01_Harm-Neutr_USUALLY-WEAK ;
 :%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
-:  V-VV_01_Harm-Neutr_USUALLY-STRONG ;
+:  V-VV_01_Harm-Neutr_USUALLY-STRONG ; ! gives pezevynyh
 :%^WGStem  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;
+ACT-PRFPRC_nnuH ; ! pezevynnyh, not pezevynyh
 INF_A ;
 
 ! V1i
