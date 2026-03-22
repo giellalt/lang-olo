@@ -1995,25 +1995,9 @@ DECLENSION LIMITATIONS
 
 ### Regular verbs
 
-#### Verbs of the Finnish type 1
-
-V1a
-
-* **LEXICON V_ALENDUA** alendua:alenda
-Harmony: Back
-
-* **LEXICON V_ELLENDIÄ** ellendiä:ellendä
-Harmony: Front
-* **LEXICON V_ALENDUA/ELLENDIÄ_01** ellendiä:ellendä alendua:alenda
-Gradation No
-
-* **LEXICON V_LIIKUTTUA** liikuttua:liikutta
-Harmony: Back
-
-* **LEXICON V_MENETTIÄ** menettiä:menettä
-Harmony: Front
-* **LEXICON V_LIIKUTTUA/MENETTIÄ_01** liikuttua:liikutta, menettiä:menettä
-Gradation YES
+#### Verbs ending in a diphthong
+The verb has only a vowel stem, which may be either weak or strong.
+-ua/-iä, -ie, -UO
 
 * **LEXICON V_KANDUA** kandua:kanda
 Back Vowel
@@ -2040,7 +2024,33 @@ Front vowel
 Front vowel
 Gradation Yes
 
-V1o
+* **LEXICON V_PIDIÄ** pidiä:pidä
+Gradation Yes
+Front vowel
+* **LEXICON V_PIDIÄ_01** pidiä:pidä
+
+* **LEXICON V_PIDIÄ-SG3** pidiä:pidä
+* **LEXICON V_PIDIÄ-SG3_01** pidiä:pidä
+
+-ua/iä polysyllabic stem
+
+* **LEXICON V_ALENDUA** alendua:alenda
+Harmony: Back
+
+* **LEXICON V_ELLENDIÄ** ellendiä:ellendä
+Harmony: Front
+* **LEXICON V_ALENDUA/ELLENDIÄ_01** ellendiä:ellendä alendua:alenda
+Gradation No
+
+* **LEXICON V_LIIKUTTUA** liikuttua:liikutta
+Harmony: Back
+
+* **LEXICON V_MENETTIÄ** menettiä:menettä
+Harmony: Front
+* **LEXICON V_LIIKUTTUA/MENETTIÄ_01** liikuttua:liikutta, menettiä:menettä
+Gradation YES
+
+-UO two‑syllable stem
 
 * **LEXICON V_PUNUO** punuo:puno
 Back vowel
@@ -2050,8 +2060,6 @@ INDPRSSG1, INDPRSSG2, INDPRSPL1, INDPRSPL2, INDPRSCONNEG_WEAK, INDPRTPL3_Ettih,
 INDPRTCONNEGPL3_EttU, CONDPRSPL3_EttAs, IMPRT_kkA, PSS-PRSPRC_ttAvU
 
 * **LEXICON V_PUNUO-SG3** punuo:puno
-
-V1u
 
 * **LEXICON V_VALUO** valuo:valu
 Back vowel
@@ -2068,6 +2076,8 @@ Front vowel
 
 * **LEXICON V_PYZYÖ-3** pyzyö:pyzy
 
+-UO polysyllabic stem
+
 * **LEXICON V_SUALISTUO** sualistuo:sualistu
 Back vowel
 * **LEXICON V_PEZEVYÖ** sualistuo:sualistu
@@ -2076,7 +2086,8 @@ Front vowel
 Gradation Yes
 similar_to: V_PYZYÖ
 
-V1i
+ie
+
 * **LEXICON V_POTKIE** potkie:potki
 Back vowel
 * **LEXICON V_POTKIE/EČČIE_01** potkie:potki
@@ -2103,19 +2114,37 @@ Back vowel
 
 * **:%>e INDPRTPL3_ttih ;** 
 * **:%>e INDPRSPL3_tAh ;** 
+
 * **LEXICON V_IMIE** imie:ime
 Gradation No
 Front vowel
 
-* **LEXICON V_PIDIÄ** pidiä:pidä
-Gradation Yes
-Front vowel
-* **LEXICON V_PIDIÄ_01** pidiä:pidä
+#### Verbs ending jA/vA
+The verb has only a vowel stem, which may be either weak or strong.
 
-* **LEXICON V_PIDIÄ-SG3** pidiä:pidä
-* **LEXICON V_PIDIÄ-SG3_01** pidiä:pidä
+jA/vA monosyllabic stem
 
-#### VERBS OF FINNISH TYPE 2 in dA
+* **LEXICON V_JUVVA** juvva:jo
+* **LEXICON V_JUVVA_01** juvva:jo
+
+* **LEXICON V_MYVVÄ** myvvä:mö
+* **LEXICON V_MYVVÄ_01** myvvä:mö
+
+* **LEXICON V_KÄVVÄ** kävvä:käv
+
+* **LEXICON V_SUAJA** suaja:saa
+* **LEXICON V_SUAJA_01** suaja:saa
+* **+Inf:%>ja K ;** type 2 also suaha
+* **+Inf:%>ha K ;** type 2 also suaha
+
+* **LEXICON V_JIÄJÄ** suaja:saa jiäjä:jää
+* **LEXICON V_JIÄJÄ_01** suaja:saa jiäjä:jää
+* **+Inf:%>jä K ;** type 2 also jiähä
+* **+Inf:%>hä K ;** type 2 also jiähä
+
+* **LEXICON V_VIIJÄ** viijä:ve
+
+* **LEXICON V_PÄITÄ** päitä:päde
 
 * **LEXICON V_VOIJA** voija:voi
 * **LEXICON V_VOIJA_01** voija:voi
@@ -2126,130 +2155,7 @@ Front vowel
 * **LEXICON V_ROIJA_01** roija:roi
 * **+Inf:%>ja K ;** type 2 also suaha
 
-* **LEXICON V_SUAJA** suaja:saa
-* **LEXICON V_SUAJA_01** suaja:saa
-* **+Inf:%>ja K ;** type 2 also suaha
-* **+Inf:%>ha K ;** type 2 also suaha
-
-* **LEXICON V_JUVVA** juvva:jo
-* **LEXICON V_JUVVA_01** juvva:jo
-
-* **LEXICON V_JIÄJÄ** suaja:saa jiäjä:jää
-* **LEXICON V_JIÄJÄ_01** suaja:saa jiäjä:jää
-* **+Inf:%>jä K ;** type 2 also jiähä
-* **+Inf:%>hä K ;** type 2 also jiähä
-
-* **LEXICON V_MYVVÄ** myvvä:mö
-* **LEXICON V_MYVVÄ_01** myvvä:mö
-
-* **LEXICON V_VIIJÄ** viijä:ve
-
-* **LEXICON V_NÄHTÄ** nähtä:nä
-* **LEXICON V_NÄHTÄ_01** nähtä:nä
-
-* **LEXICON V_KÄVVÄ** kävvä:käv
-
-#### Verbs of the Finnish type 3
-
-* **LEXICON V_TULLA** tulla:tul
-
-* **LEXICON V_ULISTA** ulista:ulis
-
-* **LEXICON V_JUOSTA_BACK** juosta:juoks
-* **LEXICON V_JUOSTA_01** juosta:juoks
-
-* **LEXICON V_PAISTA** paista:pagis
-* **LEXICON V_PAISTA_01** paista:pagis
-
-* **LEXICON V_PESTÄ** pestä:pes
-
-* **LEXICON V_NOSTA** nosta:no
-* **LEXICON V_NOSTA/XX_01** nosta:no
-
-Verbs of the Finnish type 3 but not identical
-
-* **LEXICON V_KUULTA** kuulta:kuul
-
-* **LEXICON V_KUULTA-SG3** kuulta:kuul
-
-* **LEXICON V_VIERTÄ** viertä:vier
-
-Verbs of the Finnish type 3 but not identical
-gradation: yes
-
-* **LEXICON V_KUVITELLA** kuvitella:kuvittel
-
-* **LEXICON V_EZITELLAE** ezitellä:ezittel
-
-* **LEXICON V_TYPÄTÄ** typätä:typpä
-
-* **LEXICON V_KÄITÄ** käitä:käge
-
-* **LEXICON V_SUVATA** suvata:suva
-
-#### Verbs of the Finnish type 4
-
-* **LEXICON V_AVATA** avata:ava
-
-gradation: no
-
-* **LEXICON V_ARVOTA** arvota:arvo
-
-gradation: no
-
-* **LEXICON V_KABLITA** kablita:kabli
-
-gradation: no
-
-* **LEXICON V_BAUHUTA** bauhuta:bauhu
-
-* **LEXICON V_BAUHUTA-SG3** bauhuta:bauhu
-
-* **LEXICON V_LANGETA** langeta:lange
-
-gradation: no
-
-* **LEXICON V_ALLATA** allata:alga
-
-gradation: yes
-
-* **LEXICON V_KIKOTA** kikota:kikko
-
-gradation: yes
-
-* **LEXICON V_RUVETA** ruveta:rube
-
-* **LEXICON V_RUVETA-SG3** ruveta:rube
-
-* **LEXICON V_HYRRÄTÄ** hyrrätä:hyrrä
-
-gradation: no
-
-* **LEXICON V_HÄVITÄ** hävitä:hävi
-
-gradation: no
-
-* **LEXICON V_HÖYRYTÄ** höyrytä:höyry
-
-gradation: no
-
-* **LEXICON V_HÖPSÖTÄ** höpsötä:höpsö
-
-gradation: no
-
-* **LEXICON V_BÖVVÄTÄ** bövvätä:böygä
-
-gradation: yes
-
-* **LEXICON V_REVITÄ** revitä:rebi
-
-gradation: yes
-
-* **LEXICON V_PÄITÄ** päitä:päde
-
-gradation: yes
-
-#### Verbs of the Finnish type 5
+jA polysyllabic stem
 
 * **LEXICON V_SUVAIJA** suvaija:suvai
 
@@ -2259,19 +2165,104 @@ gradation: yes
 
 * **LEXICON V_EMÄNDÖIJÄ** emändöijä:emändöi
 
-* **LEXICON V_MERKITÄ** merkitä:merki
-* **LEXICON V_MAINITA** mainita:maini
+#### Verbs ending VtA (-AtA, -OtA, -UtA, -etA,-itA)
+The verb has both vowel and consonant stem.
 
-* **LEXICON V_ALETA** aleta:ale (alenov)
-* **LEXICON V_ALETA_01** aleta:ale (alenov)
+-AtA
+
+* **LEXICON V_ALLATA** allata:alga
+
+gradation: yes
+
+* **LEXICON V_AVATA** avata:ava
+
+gradation: no
+
+* **LEXICON V_BÖVVÄTÄ** bövvätä:böygä
+
+gradation: yes
+
+* **LEXICON V_HYRRÄTÄ** hyrrätä:hyrrä
+
+-etA
+
+* **LEXICON V_RUVETA** ruveta:rube
+
+* **LEXICON V_RUVETA-SG3** ruveta:rube
+
+* **LEXICON V_LANGETA** langeta:lange
+
+* **LEXICON V_ALETA** aleta:ale (alenou)
+* **LEXICON V_ALETA_01** aleta:ale (alenou)
 
 * **LEXICON V_VÄHETÄ** vähetä:vähe (vähenöy)
 * **LEXICON V_VÄHETÄ_01** vähetä:vähe (vähenöy)
 
 * **LEXICON V_VÄHETÄ-SG3** vähetä:vähe (vähenöy)
 
-* **LEXICON V_SUATA** suata:suva (suvaiččov)
-* **LEXICON V_SUATA_01** suata:suva (suvaiččov)
+-itA
+
+* **LEXICON V_KABLITA** kablita:kabli
+
+* **LEXICON V_REVITÄ** revitä:rebi
+
+* **LEXICON V_HÄVITÄ** hävitä:hävi
+
+* **LEXICON V_KÄITÄ** käitä:käge
+
+* **LEXICON V_MERKITÄ** merkitä:merki
+* **LEXICON V_MAINITA** mainita:maini
+
+-OtA
+
+* **LEXICON V_KIKOTA** kikota:kikko
+
+* **LEXICON V_HÖPSÖTÄ** höpsötä:höpsö
+
+* **LEXICON V_ARVOTA** arvota:arvo
+
+-UtA
+
+* **LEXICON V_BAUHUTA** bauhuta:bauhu
+
+* **LEXICON V_BAUHUTA-SG3** bauhuta:bauhu
+
+* **LEXICON V_HÖYRYTÄ** höyrytä:höyry
+
+#### Verbs ending nnA, llA, CtA
+The verb has both vowel and consonant stem.
+
+two-syllable stem, panna, mennä
+
+* **LEXICON V_TULLA** tulla:tul
+
+* **LEXICON V_KUULTA** kuulta:kuul
+
+* **LEXICON V_KUULTA-SG3** kuulta:kuul
+
+* **LEXICON V_PESTÄ** pestä:pes
+
+* **LEXICON V_VIERTÄ** viertä:vier
+
+* **LEXICON V_NOSTA** nosta:no
+* **LEXICON V_NOSTA/XX_01** nosta:no
+
+* **LEXICON V_JUOSTA_BACK** juosta:juoks
+* **LEXICON V_JUOSTA_01** juosta:juoks
+
+* **LEXICON V_NÄHTÄ** nähtä:nä
+* **LEXICON V_NÄHTÄ_01** nähtä:nä
+
+polysyllable stem, ommella, kävellä, ulista, pölistä
+
+* **LEXICON V_KUVITELLA** kuvitella:kuvittel
+
+* **LEXICON V_EZITELLAE** ezitellä:ezittel
+
+* **LEXICON V_ULISTA** ulista:ulis
+
+* **LEXICON V_PAISTA** paista:pagis
+* **LEXICON V_PAISTA_01** paista:pagis
 
 * **LEXICON VR_AMBUO** ambuokseh:ambu
 * **LEXICON VR_AMBUO_01** ambuokseh:ambu
