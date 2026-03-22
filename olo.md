@@ -2084,7 +2084,6 @@ Back vowel
 Front vowel
 * **LEXICON V_SUALISTUO/PEZEVYÖ_01** valuo:valu
 Gradation Yes
-similar_to: V_PYZYÖ
 
 ie
 
