@@ -6,7 +6,7 @@
 
 # settings that can be changed:
 yamls="@abs_srcdir@/yamls/*.yaml"
-fsa=@abs_builddir@/../generator-tts-gt-norm.hfstol
+fsa="@abs_builddir@/../generator-tts-gt-norm.hfstol"
 
 # ensure that we are ran from make or setup properly
 if test -z "$srcdir" ; then
