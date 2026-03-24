@@ -405,6 +405,20 @@ INF_A ;
 !€# koske%>e%^WGStem%>tt%{uy%}
 !€0 koski0e00tah
 
+LEXICON V_IMIE !!≈ * **@CODE@** imie:ime
+!! Gradation No
+!! Front vowel
+:%{front%} V_LUGIE/IMIE_01 ;
+
+!LEXICON V_IMIE-SG3 !!≈ * __@CODE@__ imie:ime
+!:%{front%} V_IMIE-SG3_01 ;
+!LEXICON V_IMIE-SG3_01 !!≈ * **@CODE@** imie:ime
+!:%^WGStem V-VV_01_USUALLY-WEAK ;
+!:%^WGStem%^RmVow V-VV_01_USUALLY-WEAK-VOWEL-LOSS ;
+!: V-VV_01_FRONT_USUALLY-STRONG ;
+!:%^RmVow  V-VV_01_FRONT_USUALLY-STRONG-VOWEL-LOSS ;
+!+Inf:%>e K ;
+
 LEXICON V_TUNDIE !!≈ * **@CODE@** tundie:tunde 
 :%{back%} V_TUNDIE_01 ;
 LEXICON V_TUNDIE_01 !!≈ * **@CODE@** tundie:tunde 
@@ -420,19 +434,15 @@ INF_A ;
 :%>e INDPRSPL3_tAh ; !!≈ * **@CODE@** 
 :%>e PSS-PRFPRC_ttU ;
 
-LEXICON V_IMIE !!≈ * **@CODE@** imie:ime
-!! Gradation No
-!! Front vowel
-:%{front%} V_LUGIE/IMIE_01 ;
+!! -ie polysyllabic stem
 
-!LEXICON V_IMIE-SG3 !!≈ * __@CODE@__ imie:ime
-!:%{front%} V_IMIE-SG3_01 ;
-!LEXICON V_IMIE-SG3_01 !!≈ * **@CODE@** imie:ime
-!:%^WGStem V-VV_01_USUALLY-WEAK ;
-!:%^WGStem%^RmVow V-VV_01_USUALLY-WEAK-VOWEL-LOSS ;
-!: V-VV_01_FRONT_USUALLY-STRONG ;
-!:%^RmVow  V-VV_01_FRONT_USUALLY-STRONG-VOWEL-LOSS ;
-!+Inf:%>e K ;
+LEXICON V_KULLEKSIE !!≈ * **@CODE@** kulleksie:kulleksi
+:%^WGStem V-VV_01_Harm-Neutr_USUALLY-WEAK ;
+:%^WGStem%^RmVow V-VV_01_Harm-Neutr_USUALLY-WEAK-VOWEL-LOSS ;
+:  V-VV_01_Harm-Neutr_USUALLY-STRONG ;!this gives incorrect nuh
+:%^RmVow  V-VV_01_Harm-Neutr_USUALLY-STRONG-VOWEL-LOSS ;
+:%^WGStem ACT-PRFPRC_nnUH ;
+INF_A ;
 
 !! ### Verbs ending jA/vA
 !! The verb has only a vowel stem, which may be either weak or strong.
