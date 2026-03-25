@@ -12,7 +12,7 @@ elif test "x$GIELLA_CORE" != "x" -a -d "$GIELLA_CORE" ; then
     giella_core=$GIELLA_CORE
 elif test "x$GTCORE" != "x" -a -d "$GTCORE" ; then
     giella_core=$GTCORE
-else	
+else
     echo "ERROR: Neither of $$GIELLA_CORE, $$GTCORE or $$GTLANGS defined, and nothing found within the parent folder."
     exit 1
 fi
@@ -21,11 +21,10 @@ fi
 # Codes for the word forms to be generated - list as many or few as needed:
 morf_codes="+N+Prop+Sg+Nom \
             +N+Prop+Sg+Gen \
+            +N+Prop+Sg+Par \
             +N+Prop+Sg+Ill \
-            +N+Prop+Sg+Com \
             +N+Prop+Pl+Nom \
-            +N+Prop+Pl+Com \
-            +N+Prop+Ess"
+            +N+Prop+Pl+Par"
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/morphology/generated_files/smi-sma-propernouns.lexc

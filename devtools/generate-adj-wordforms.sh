@@ -12,19 +12,46 @@ elif test "x$GIELLA_CORE" != "x" -a -d "$GIELLA_CORE" ; then
     giella_core=$GIELLA_CORE
 elif test "x$GTCORE" != "x" -a -d "$GTCORE" ; then
     giella_core=$GTCORE
-else	
+else
     echo "ERROR: Neither of $$GIELLA_CORE, $$GTCORE or $$GTLANGS defined, and nothing found within the parent folder."
     exit 1
 fi
 
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
-morf_codes="+A+Sg+Nom \
-            +A+Sg+Gen \
-            +A+Sg+Ill \
-            +A+Pl+Nom \
-            +A+Pl+Com \
-            +A+Attr"
+morf_codes="+A+Pos+Sg+Nom \
+            +A+Pos+Sg+Gen \
+            +A+Pos+Sg+Par \
+            +A+Pos+Sg+Tra \
+            +A+Pos+Sg+Ade \
+            +A+Pos+Sg+Ill \
+            +A+Pos+Sg+Abe \
+            +A+Pos+Sg+All \
+            +A+Pos+Pl+Gen \
+            +A+Pos+Pl+Par \
+            +A+Pos+Pl+Ill \
+            +A+Pos+Pl+Abe \
+            +A+Pos+Pl+All \
+            +A+Pos+Pl+Ess \
+            +A+Comp+Sg+Nom \
+            +A+Comp+Sg+Gen \
+            +A+Comp+Sg+Ade \
+            +A+Comp+Sg+All \
+            +A+Comp+Sg+Ess \
+            +A+Comp+Pl+Ela \
+            +A+Comp+Pl+Ill \
+            +A+Comp+Pl+Abe \
+            +A+Comp+Pl+All \
+            +A+Superl+Sg+Gen \
+            +A+Superl+Sg+Par \
+            +A+Superl+Sg+Ill \
+            +A+Superl+Sg+Abe \
+            +A+Superl+Sg+All \
+            +A+Superl+Pl+Tra \
+            +A+Superl+Pl+Abe \
+            +A+Superl+Pl+All \
+            +A+Superl+Pl+Ess \
+            "
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/morphology/stems/adjectives.lexc
