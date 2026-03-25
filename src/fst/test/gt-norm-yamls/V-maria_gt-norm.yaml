@@ -1,0 +1,420 @@
+Config:
+  hfst:
+    Gen: ../../generator-gt-norm.hfstol
+    Morph: ../../analyser-gt-norm.hfstol
+  xerox:
+    Gen: ../../generator-gt-norm.xfst
+    Morph: ../../analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verb - olla # V_OLLA
+    olla+V+Pss+PrfPrc+Sg+Nom: oldu
+    olla+V+Pss+PrfPrc+Pl+Nom: ollut
+
+# V_KANDUA
+    kandua+V+Pss+PrfPrc+Sg+Nom: kannettu
+    kandua+V+Pss+PrfPrc+Pl+Nom: kannetut
+
+# V_OTTUA
+    ottua+V+Pss+PrfPrc+Sg+Nom: otettu
+    ottua+V+Pss+PrfPrc+Pl+Nom: otettu
+
+# V_OTTUA
+    pergua+V+Act+Ind+Prs+Pl3: perretäh
+    pergua+V+Act+Ind+Prt+Pl1: perrimmö
+    pergua+V+Act+Ind+Prt+Pl2: perrittö
+    pergua+V+Act+Ind+Prs+Pl3: perretäh
+    pergua+V+Pss+PrsPrc+Sg+Nom: perrettävy
+    pergua+V+Pss+PrsPrc+Pl+Nom: perrettävät
+
+# V_HEITTIÄ
+    heittiä+V+Pss+PrfPrc+Sg+Nom: heitetty
+    heittiä+V+Pss+PrfPrc+Pl+Nom: heitetyt
+
+# V_TIEDIÄ
+    tiediä+V+Act+Ind+Prs+Pl3: tietäh
+    tiediä+V+Act+Ind+Prt+Pl3: tiettih
+    tiediä+V+Pss+PrsPrc+Sg+Nom: [tiettävy, tiijettävy]
+    tiediä+V+Pss+PrsPrc+Pl+Nom: [tiettävät, tiijettävät]
+
+# V_PIDIÄ
+    pidiä+V+Act+Ind+Prs+Sg1: pien
+    pidiä+V+Act+Ind+Prs+Sg2: piet
+    pidiä+V+Act+Ind+Prs+Pl1: piemmö
+    pidiä+V+Act+Ind+Prs+Pl2: piettö
+    pidiä+V+Act+Ind+Prs+ConNeg: pie
+    pidiä+V+Pss+PrfPrc+Sg+Nom: pietty
+    pidiä+V+Pss+PrfPrc+Pl+Nom: pietyt
+
+# V_PIDIÄ, pidäsgo eriže V_VEDIÄ?
+    vediä+V+Act+Ind+Prs+Sg1: vien
+    vediä+V+Act+Ind+Prs+Sg2: viet
+    vediä+V+Act+Ind+Prs+Pl1: viemmö
+    vediä+V+Act+Ind+Prs+Pl2: viettö
+    vediä+V+Act+Ind+Prs+Pl3: vietäh
+    vediä+V+Act+Ind+Prs+ConNeg: vie
+    vediä+V+Act+Ind+Prt+Sg1: vein
+    vediä+V+Act+Ind+Prt+Sg2: veit
+    vediä+V+Act+Ind+Prt+Pl1: veimmö
+    vediä+V+Act+Ind+Prt+Pl2: veittö
+    vediä+V+Act+Ind+Prt+Pl3: viettih
+    vediä+V+Act+Ind+Prs+Pl3: vietäh
+    vediä+V+Act+Ind+Prt+Pl3: viettih
+    vediä+V+Pss+PrfPrc+Sg+Nom: vietty
+    vediä+V+Pss+PrfPrc+Pl+Nom: vietyt
+    vediä+V+Pss+PrsPrc+Sg+Nom: viettävy
+    vediä+V+Pss+PrsPrc+Pl+Nom: viettävät
+
+# V_VIIJÄ
+    viijä+V+Pss+PrfPrc+Sg+Nom: viedy
+    viijä+V+Pss+PrfPrc+Pl+Nom: vievyt
+
+# V_MENETTIÄ
+    menettiä+V+Pss+PrfPrc+Sg+Nom: menetetty
+    menettiä+V+Pss+PrfPrc+Pl+Nom: menetetyt
+
+# V_PUNUO
+    kaččuo+V+Pss+PrfPrc+Sg+Nom: kačottu
+    kaččuo+V+Pss+PrfPrc+Pl+Nom: kačotut
+
+# V_VALUO
+    kuččuo+V+Pss+PrfPrc+Sg+Nom: kučuttu
+    kuččuo+V+Pss+PrfPrc+Pl+Nom: kučutut
+
+# V_SUALISTUO
+    azettuo+V+Pss+PrfPrc+Sg+Nom: azetuttu
+    azettuo+V+Pss+PrfPrc+Pl+Nom: azetutut
+
+# V_PEZEVYÖ
+    lykkävyö+V+Act+PrfPrc+Sg+Nom: lykkävynnyh
+    lykkävyö+V+Act+PrfPrc+Pl+Nom: lykkävynnyöt
+
+# V_EČČIE
+    hyppie+V+Pss+PrfPrc+Sg+Nom: hypitty
+    hyppie+V+Pss+PrfPrc+Pl+Nom: hypityt
+
+# V_POTKIN 
+    oppie+V+Pss+PrfPrc+Sg+Nom: opittu
+    oppie+V+Pss+PrfPrc+Pl+Nom: opitut
+
+# V_LUGIE
+    lugie+V+Act+Ind+Prs+Sg3: lugou
+    lugie+V+Act+Ind+Prs+Pl3: lugietah
+    lugie+V+Act+Ind+Prt+Sg1: luvin
+    lugie+V+Act+Ind+Prt+Sg2: luvit
+    lugie+V+Act+Ind+Prt+Pl1: luvimmo
+    lugie+V+Act+Ind+Prt+Pl2: luvitto
+    lugie+V+Act+Ind+Prt+Pl3: lugiettih
+    lugie+V+Act+Ind+Prs+Pl3: lugietah
+    lugie+V+Act+Ind+Prt+Pl3: lugiettih
+    lugie+V+Pss+PrsPrc+Sg+Nom: lugiettavu
+    lugie+V+Pss+PrsPrc+Pl+Nom: lugiettavat
+
+# V_IMIE
+    imie+V+Act+Ind+Prs+Sg3: imöy
+
+# V_TUNDIE
+    tundie+V+Act+Ind+Prs+Sg3: tundou
+    tundie+V+Act+Ind+Prs+Pl3:  tundietah
+    tundie+V+Act+Ind+Prt+Sg1: tunzin
+    tundie+V+Act+Ind+Prt+Sg2: tunzit
+    tundie+V+Act+Ind+Prt+Sg3: tunzi
+    tundie+V+Act+Ind+Prt+Pl1: tunzimmo
+    tundie+V+Act+Ind+Prt+Pl2: tunzitto
+    tundie+V+Act+Ind+Prt+Pl3: tundiettih
+    tundie+V+Act+Ind+Prt+Pl3:  tundiettih
+    tundie+V+Pss+PrsPrc+Sg+Nom: tundiettavu
+    tundie+V+Pss+PrsPrc+Pl+Nom: tundiettavat
+
+# V_JUVVA
+    juvva+V+Act+Ind+Prs+Pl3: juvvah
+    juvva+V+Pss+PrfPrc+Sg+Nom: juodu
+    juvva+V+Pss+PrfPrc+Pl+Nom: juovut
+
+# V_MYVVÄ
+    myvvä+V+Act+Ind+Prs+Pl3: myvväh
+    myvvä+V+Pss+PrfPrc+Sg+Nom: myödy
+    myvvä+V+Pss+PrfPrc+Pl+Nom: myövyt
+
+# V_KÄVVÄ
+    kävvä+V+Act+Ind+Prt+Sg1: kävyin
+    kävvä+V+Act+Ind+Prt+Sg2: kävyit
+    kävvä+V+Act+Ind+Prt+Sg3: kävyi
+    kävvä+V+Act+Ind+Prt+Pl1: kävyimmö
+    kävvä+V+Act+Ind+Prt+Pl2: kävyimmö
+    kävvä+V+Pss+PrfPrc+Sg+Nom: käydy
+    kävvä+V+Pss+PrfPrc+Pl+Nom: käyvyt
+
+# V_SUAJA
+    suaja+V+Inf: suaha
+  suaja+V+Inf: suaja
+    suaja+V+Act+Ind+Prs+Pl3: suajah
+    suaja+V+Pss+PrfPrc+Sg+Nom: suadu
+    suaja+V+Pss+PrfPrc+Pl+Nom: suavut
+
+# V_JIÄJÄ
+    jiäjä+V+Act+Ind+Prs+Pl3: jiäjäh
+    jiäjä+V+Pss+PrfPrc+Sg+Nom: jiädy
+    jiäjä+V+Pss+PrfPrc+Pl+Nom: jiävyt
+
+# V_PÄITÄ
+    päitä+V+Inf: pätä/päitä/päijä
+    päitä+V+Act+Ind+Prs+Sg1: päin
+    päitä+V+Act+Ind+Prs+Sg2: päit
+    päitä+V+Act+Ind+Prs+Sg3: pädöy
+    päitä+V+Act+Ind+Prs+Pl1: päimmö
+    päitä+V+Act+Ind+Prs+Pl2: päittö
+    päitä+V+Act+Ind+Prs+Pl3: päitäh/päijäh
+    päitä+V+Act+Ind+Prs+ConNeg: päi
+    päitä+V+Act+Ind+Prt+Sg1: päin
+    päitä+V+Act+Ind+Prt+Sg2: päit
+    päitä+V+Act+Ind+Prt+Sg3: pädi
+    päitä+V+Act+Ind+Prt+Pl1: päimmö
+    päitä+V+Act+Ind+Prt+Pl2: päittö
+    päitä+V+Der+Der/mA+V+Inf+Ill: pädemäh
+    päitä+V+Der+Der/mA+V+Inf+Ine: pädemäs
+    päitä+V+Der+Der/mA+V+Inf+Ade: pädemäl
+    päitä+V+Der+Der/mA+V+Inf+Abe: pädemättäh
+    päitä+V+Act+PrfPrc+Sg+Nom: päinnyh
+    päitä+V+Act+PrfPrc+Pl+Nom: päinnyöt
+    päitä+V+Pss+PrfPrc+Sg+Nom: päitty
+    päitä+V+Pss+PrfPrc+Pl+Nom: päityt
+    päitä+V+Pss+PrsPrc+Sg+Nom: pättävy
+    päitä+V+Pss+PrsPrc+Pl+Nom: pättävät
+
+# V_VOIJA
+    voija+V+Act+Ind+Prs+Pl3: voijah
+    voija+V+Act+Ind+Prt+Sg1: voin
+    voija+V+Act+Ind+Prt+Sg2: voit
+    voija+V+Act+Ind+Prt+Sg3: voi
+    voija+V+Act+Ind+Prt+Pl1: voimmo
+    voija+V+Act+Ind+Prt+Pl2: voitto
+    voija+V+Pss+PrfPrc+Sg+Nom: voidu
+    voija+V+Pss+PrfPrc+Pl+Nom: voivut
+
+# V_ROIJA tarkista segaparadigmu roita/roija
+
+# V_ALLATA
+    muata+V+Inf: muata
+    muata+V+Act+Ind+Prs+Pl3: muatah
+    muata+V+Act+Ind+Prt+Pl3: muattih
+    muata+V+Act+PrfPrc+Sg+Nom: muannuh
+    muata+V+Act+PrfPrc+Pl+Nom: muannuot
+    muata+V+Act+Ind+Prs+Pl3: muatah
+    muata+V+Act+Ind+Prt+Pl3: muattih
+    muata+V+Pss+PrfPrc+Sg+Nom: muattu
+    muata+V+Pss+PrfPrc+Pl+Nom: muatut
+    muata+V+Pss+PrsPrc+Sg+Nom: muattavu
+    muata+V+Pss+PrsPrc+Pl+Nom: muattavat
+
+# V_ALLATA
+    luvata+V+Inf: luvata
+    luvata+V+Act+Ind+Prs+Pl3: luvatah
+    luvata+V+Act+Ind+Prt+Pl3: luvattih
+    luvata+V+Act+PrfPrc+Sg+Nom: luvannuh
+    luvata+V+Act+PrfPrc+Pl+Nom: luvannuot
+    luvata+V+Pss+PrfPrc+Sg+Nom: luvattu
+    luvata+V+Pss+PrfPrc+Pl+Nom: luvatut
+    luvata+V+Pss+PrsPrc+Sg+Nom: luvattavu
+    luvata+V+Pss+PrsPrc+Pl+Nom: luvattavat
+
+# V_AVATA
+    avata+V+Act+Ind+Prs+Sg1: avuan
+    avata+V+Act+Ind+Prs+Sg2: avuat
+    avata+V+Act+Ind+Prs+Sg3: avuau
+    avata+V+Act+Ind+Prs+Pl1: avuammo
+    avata+V+Act+Ind+Prs+Pl2: avuatto
+    avata+V+Act+Ind+Prs+ConNeg: avua
+    avata+V+Der+Der/mA+V+Inf+Ill: avuamah
+    avata+V+Der+Der/mA+V+Inf+Ine: avuamas
+
+# V_BÖVVÄTÄ
+    hyllätä+V+Inf: hyllätä
+    hyllätä+V+Act+Ind+Prs+Sg1: hylgiän
+    hyllätä+V+Act+Ind+Prs+Sg2: hylgiät
+    hyllätä+V+Act+Ind+Prs+Sg3: hylgiäy
+    hyllätä+V+Act+Ind+Prs+Pl1: hylgiämmö
+    hyllätä+V+Act+Ind+Prs+Pl2: hylgiättö
+    hyllätä+V+Act+Ind+Prs+Pl3: hyllätäh
+    hyllätä+V+Act+Ind+Prs+ConNeg: hylgiä
+    hyllätä+V+Act+Ind+Prt+Pl3: hyllättih
+    hyllätä+V+Der+Der/mA+V+Inf+Ill: hylgiämäh
+    hyllätä+V+Act+PrfPrc+Sg+Nom: hyllännyh
+    hyllätä+V+Act+PrfPrc+Pl+Nom: hyllännyöt
+    hyllätä+V+Pss+PrfPrc+Sg+Nom: hyllätty
+    hyllätä+V+Pss+PrfPrc+Pl+Nom: hyllätyt
+    hyllätä+V+Pss+PrsPrc+Sg+Nom: hyllättävy
+    hyllätä+V+Pss+PrsPrc+Pl+Nom: hyllättävät
+
+# V_HYRRÄTÄ (V_BÖVVÄTÄ?)
+    ähkätä+V+Act+Ind+Prs+Sg1: ähkiän
+    ähkätä+V+Act+Ind+Prs+Sg2: ähkiät
+    ähkätä+V+Act+Ind+Prs+Sg3: ähkiäy
+    ähkätä+V+Act+Ind+Prs+Pl1: ähkiämmö
+    ähkätä+V+Act+Ind+Prs+Pl2: ähkiättö
+    ähkätä+V+Act+Ind+Prs+ConNeg: ähkiä
+
+# V_RUVETA
+    ruveta+V+Act+PrfPrc+Sg+Nom: ruvennuh
+    ruveta+V+Act+PrfPrc+Pl+Nom: ruvennuot
+    ruveta+V+Pss+PrfPrc+Sg+Nom: ruvettu
+    ruveta+V+Pss+PrfPrc+Pl+Nom: ruvetut
+    ruveta+V+Pss+PrsPrc+Sg+Nom: ruvettavu
+    ruveta+V+Pss+PrsPrc+Pl+Nom: ruvettavat
+
+# V_LANGETA has both ie- and ne-stems
+   halleta+V+Inf: halleta
+    halleta+V+Act+Ind+Prs+Sg1: halgien/halgenen
+    halleta+V+Act+Ind+Prs+Sg2: halgiet/halgenet
+    halleta+V+Act+Ind+Prs+Sg3: halgieu/halgenou
+    halleta+V+Act+Ind+Prs+Pl1: halgiemmo/halgenemmo
+    halleta+V+Act+Ind+Prs+Pl2: halgietto/halgenetto
+    halleta+V+Act+Ind+Prs+Pl3: halletah
+    halleta+V+Act+Ind+Prs+ConNeg: halgie/halgene
+    halleta+V+Act+Ind+Prt+Pl3: hallettih
+    halleta+V+Der+Der/mA+V+Inf+Ill: halgiemah
+
+# V_ALETA
+    hapata+V+Inf: hapata
+    hapata+V+Act+Ind+Prs+Pl3: hapatah
+    hapata+V+Act+Ind+Prt+Pl3: hapattih
+
+# V_REVITÄ
+    revitä+V+Inf: revitä
+    revitä+V+Act+Ind+Prs+Pl3: revitäh
+    revitä+V+Act+Ind+Prt+Pl3: revittih
+    revitä+V+Act+PrfPrc+Sg+Nom: revinnyh
+    revitä+V+Act+PrfPrc+Pl+Nom: revinnyöt
+    revitä+V+Pss+PrfPrc+Sg+Nom: revitty
+    revitä+V+Pss+PrfPrc+Pl+Nom: revityt
+    revitä+V+Pss+PrsPrc+Sg+Nom: revitävy
+    revitä+V+Pss+PrsPrc+Pl+Nom: revittävät
+
+# V_KÄITÄ
+    käitä+V+Inf: käitä
+    käitä+V+Act+Ind+Prs+Pl3: käitäh
+    käitä+V+Act+Ind+Prt+Sg1: kägein
+    käitä+V+Act+Ind+Prt+Sg2: kägeit
+    käitä+V+Act+Ind+Prt+Sg3: kägei
+    käitä+V+Act+Ind+Prt+Pl1: kägeimmö
+    käitä+V+Act+Ind+Prt+Pl2: kägeittö
+    käitä+V+Act+Ind+Prt+Pl3: käittih
+    käitä+V+Act+PrfPrc+Sg+Nom: käinnyh
+    käitä+V+Act+PrfPrc+Pl+Nom: käinnyöt
+    käitä+V+Pss+PrfPrc+Sg+Nom: käitty
+    käitä+V+Pss+PrfPrc+Pl+Nom: käityt
+    käitä+V+Pss+PrsPrc+Sg+Nom: käittävy
+    käitä+V+Pss+PrsPrc+Pl+Nom: käittävät
+
+# V_KIKOTA
+   kavota+V+Inf: kavota
+    kavota+V+Act+Ind+Prs+Pl3: kavotah
+    kavota+V+Act+Ind+Prt+Pl3: kavottih
+    kavota+V+Act+PrfPrc+Sg+Nom: kavonnuh
+    kavota+V+Act+PrfPrc+Pl+Nom: kavonnuot
+    kavota+V+Pss+PrfPrc+Sg+Nom: kavottu
+    kavota+V+Pss+PrfPrc+Pl+Nom: kavotut
+    kavota+V+Pss+PrsPrc+Sg+Nom: kavottavu
+    kavota+V+Pss+PrsPrc+Pl+Nom: kavottavat
+
+# V_HÖPSÖTÄ
+    höpsötä+V+Act+Ind+Prs+Sg1: höpsyön
+    höpsötä+V+Act+Ind+Prs+Sg2: höpsyöt
+    höpsötä+V+Act+Ind+Prs+Sg3: höpsyöy
+    höpsötä+V+Act+Ind+Prs+Pl1: höpsyömmö
+    höpsötä+V+Act+Ind+Prs+Pl2: höpsyöttö
+    höpsötä+V+Act+Ind+Prs+ConNeg: höpsyö
+    höpsötä+V+Der+Der/mA+V+Inf+Ill: höpsyömäh
+
+# V_ARVOTA
+    lumota+V+Act+Ind+Prs+Sg1: lumuon
+    lumota+V+Act+Ind+Prs+Sg2: luomuot
+    lumota+V+Act+Ind+Prs+Sg3: lumuou
+    lumota+V+Act+Ind+Prs+Pl1: lumuommo
+    lumota+V+Act+Ind+Prs+Pl2: lumuotto
+    lumota+V+Act+Ind+Prs+ConNeg: lumuo 
+    lumota+V+Der+Der/mA+V+Inf+Ill: lumuomah
+
+# V_BAUHUTA
+    vainuta+V+Act+Ind+Prs+Sg1: vainuon
+    vainuta+V+Act+Ind+Prs+Sg2: vainuot
+    vainuta+V+Act+Ind+Prs+Sg3: vainuou
+    vainuta+V+Act+Ind+Prs+Pl1: vainuommo
+    vainuta+V+Act+Ind+Prs+Pl2:  vainuotto
+    vainuta+V+Act+Ind+Prs+ConNeg: vainuo
+    vainuta+V+Der+Der/mA+V+Inf+Ill: vainuomah
+
+# V_TULLA
+    vuolla+V+Pss+PrfPrc+Sg+Nom: vuoldu
+    vuolla+V+Pss+PrfPrc+Pl+Nom: vuollut
+
+# V_KUULTA
+    purta+V+Pss+PrfPrc+Sg+Nom: purtu
+    purta+V+Pss+PrfPrc+Pl+Nom: purrut
+
+# V_PESTÄ
+    piästä+V+Pss+PrfPrc+Sg+Nom: piästy
+    piästä+V+Pss+PrfPrc+Pl+Nom: piästyt
+
+# V_VIERTÄ 
+
+# V_NOSTA
+    nosta+V+Act+Ind+Prs+Pl3: nostah
+    nosta+V+Pss+PrfPrc+Sg+Nom: nostu
+    nosta+V+Pss+PrfPrc+Pl+Nom: nossut
+
+# V_JUOSTA_BACK
+    juosta+V+Inf: juosta
+    juosta+V+Act+Ind+Prs+Pl3: juostah
+    juosta+V+Act+Ind+Prt+Pl3: juostih
+    juosta+V+Der+Der/mA+V+Inf+Ill: juoksemah
+    juosta+V+Act+PrfPrc+Sg+Nom: juossuh
+    juosta+V+Act+PrfPrc+Pl+Nom: juossuot
+    juosta+V+Pss+PrfPrc+Sg+Nom: juostu
+    juosta+V+Pss+PrfPrc+Pl+Nom: juossut
+    juosta+V+Pss+PrsPrc+Sg+Nom: juostavu
+    juosta+V+Pss+PrsPrc+Pl+Nom: juostavat
+
+# V_NÄHTÄ
+    nähtä+V+Act+Ind+Prt+Sg3: nägi
+    nähtä+V+Act+Ind+Prt+Pl3: nähtih
+    nähtä+V+Pss+PrfPrc+Sg+Nom: nähty
+    nähtä+V+Pss+PrfPrc+Pl+Nom: nähtyt
+
+# V_KUVITELLA
+    ommella+V+Act+Ind+Prs+Sg1: ombelen
+    ommella+V+Act+Ind+Prs+Sg2: ombelet
+    ommella+V+Act+Ind+Prs+Sg3: ombelou
+    ommella+V+Act+Ind+Prs+Pl1: ombelemmo
+    ommella+V+Act+Ind+Prs+Pl2: ombeletto
+    ommella+V+Act+Ind+Prs+ConNeg: ombele
+    ommella+V+Act+Ind+Prt+Sg1: ombelin
+    ommella+V+Act+Ind+Prt+Sg2: ombelit
+    ommella+V+Act+Ind+Prt+Sg3: ombeli
+    ommella+V+Act+Ind+Prt+Pl1: ombelimmo
+    ommella+V+Act+Ind+Prt+Pl2: ombelitto
+    ommella+V+Der+Der/mA+V+Inf+Ill: ombelemah
+    ommella+V+Pss+PrfPrc+Sg+Nom: ommeltu
+    ommella+V+Pss+PrfPrc+Pl+Nom: ommellut
+
+# V_EZITELLAE
+    liitellä+V+Act+Ind+Prs+Sg3: liittelöy
+    liitellä+V+Act+Ind+Prs+Pl1: liittelemmö
+    liitellä+V+Act+Ind+Prs+Pl3: liitelläh
+    liitellä+V+Act+Ind+Prs+Pl3: liitelläh
+    liitellä+V+Pss+PrfPrc+Sg+Nom: liitelty
+    liitellä+V+Pss+PrfPrc+Pl+Nom: liitellyt
+
+# V_ULISTA
+    muhista+V+Pss+PrfPrc+Sg+Nom: muhistu
+    muhista+V+Pss+PrfPrc+Pl+Nom: muhistut
+
+# V_PAISTA
+    paista+V+Act+PrfPrc+Sg+Nom: paissuh
+    paista+V+Act+PrfPrc+Pl+Nom: paissuot
+    paista+V+Pss+PrfPrc+Sg+Nom: paistu
+    paista+V+Pss+PrfPrc+Pl+Nom: paistut
+    paista+V+Pss+PrsPrc+Sg+Nom: paistavu
+    paista+V+Pss+PrsPrc+Pl+Nom: paistavat
