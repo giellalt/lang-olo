@@ -44,6 +44,10 @@ LIST PARTITIVE-ADV = ("läs" Adv) ("enäm" Adv) ("vähem" Adv) ; # ("nenga" Adv)
 
 LIST NEGATION = ("ei" V Neg) ;
 
+BEFORE-SECTIONS
+
+REMOVE:underdefine-digits (Num Arab Sg Nom)  (0 (Num Arab)) ;
+
 SECTION
 
 ADDCOHORT:add-aigua-to-c-time ("<aigua>" "aiga" N Sg Par)
@@ -89,6 +93,14 @@ SUBSTITUTE:digits-agreement-ter (Num Arab) (Num Arab Card Sg Ill)
 
 # Alijiämy nouzou piäl 4 prosentassah da velgusuhteh piäl 90 prosentassah.
 # -> Alijiämy nouzou piäl nelläh prosentassah da velgusuhteh piäl yheksähkymmeneh prosentassah
+
+SUBSTITUTE:digits-agreement-ill (Num Arab) (Num Arab Card Sg Ill)
+                            TARGET (Num Arab)
+                            IF (*1 (Sg Ill) BARRIER (*) - (A Ill) - (N Ill))
+                               (NEGATE 0 NUM)
+                               (NEGATE 0 CASE)
+                               (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
+
 
 SUBSTITUTE:digits-after-par-adverbs (Num Arab) (Num Arab Card Sg Par)
                                     TARGET (Num Arab)

@@ -183,6 +183,7 @@
 	"ligakuu" N Sg Ade <W:0.0> @LOC @<ADVL #3->2
 : 
 "<48 000>"
+	"48 000" Num Arab <W:0.0> @N< #4->3
 	"48 000" Num Arab Sem/Measr <W:0.0> @N< #4->3
 	"48 000" Num Arab Sg Nom <W:0.0> @N< #4->3
 : 
@@ -391,6 +392,7 @@
 	"nosta" V Inf <W:0.0> @X #4->0
 : 
 "<1,3>"
+	"1,3" Num Arab <W:0.0> @X #5->0
 	"1,3" Num Arab Sem/Time-clock Sg Nom <W:0.0> @X #5->0
 	"1,3" Num Arab Sg Nom <W:0.0> @X #5->0
 : 
@@ -407,6 +409,7 @@
 	"dengankäyttö" ? @X #9->0
 : 
 "<1,3>"
+	"1,3" Num Arab <W:0.0> @X #10->0
 	"1,3" Num Arab Sem/Time-clock Sg Nom <W:0.0> @X #10->0
 	"1,3" Num Arab Sg Nom <W:0.0> @X #10->0
 : 
@@ -465,6 +468,7 @@
 	"kyzely" N Sg Ine <W:0.0> @ADVL> #1->13
 : 
 "<15>"
+	"15" Num Arab <W:0.0> @N< #2->1
 	"15" Num Arab Sem/ID <W:0.0> @N< #2->1
 	"15" Num Arab Sem/Measr <W:0.0> @N< #2->1
 	"15" Num Arab Sem/Time-clock Sg Nom <W:0.0> @N< #2->1
@@ -527,6 +531,7 @@
 	"kai" Adv <W:0.0> @ADVL #3->4
 : 
 "<2>"
+	"2" Num Arab <W:0.0> @X #4->0
 	"2" Num Arab Sem/ID <W:0.0> @X #4->0
 	"2" Num Arab Sem/Measr <W:0.0> @X #4->0
 	"2" Num Arab Sem/Time-clock Sg Nom <W:0.0> @X #4->0
@@ -577,6 +582,7 @@
 	"vuozi" N Pl Ess <W:0.0> @X #5->0
 : 
 "<1970>"
+	"1970" Num Arab <W:0.0> @N< #6->5
 	"1970" Num Arab Sem/ID <W:0.0> @N< #6->5
 	"1970" Num Arab Sem/Measr <W:0.0> @N< #6->5
 	"1970" Num Arab Sem/Year Sg Nom <W:0.0> @N< #6->5
@@ -619,5 +625,44 @@
 	"30.3.1993" Num Arab Sem/ID <W:0.0> @X #3->0
 "<.>"
 	"." CLB <W:0.0> #4->2
+
+
+"<Niilöin>"
+	"net" Pron Dem Pl Gen <W:0.0> @>N #1->2
+: 
+"<miäry>"
+	"miäry" N Sg Nom <W:0.0> @SUBJ> #2->3
+: 
+"<kazvoi>"
+	"kazvua" V Act Ind Prt Sg3 <W:0.0> @FMV #3->0
+: 
+"<2 073 741 000>"
+	"2 073 741 000" Num Arab Sem/Measr <W:0.0> @X #4->0
+: 
+"<yksilössäh>"
+	"yksilö" N Sg Ter <W:0.0> @NUM< #5->5
+"<.>"
+	"." CLB <W:0.0> #6->3
+
+
+"<Budžiettu>"
+	"Budžiettu" ? @X #1->0
+: 
+"<kazvoi>"
+	"kazvua" V Act Ind Prt Sg3 <W:0.0> @FMV #2->0
+: 
+"<156>"
+	"156" Num Arab <W:0.0> @X #3->0
+	"156" Num Arab Sem/ID <W:0.0> @X #3->0
+	"156" Num Arab Sem/Measr <W:0.0> @X #3->0
+	"156" Num Arab Sg Nom <W:0.0> @X #3->0
+: 
+"<900>"
+	"900" Num Arab Sem/Measr <W:0.0> @X #4->0
+: 
+"<eurol>"
+	"euro" N Sg Ade <W:0.0> @NUM< #5->5
+"<.>"
+	"." CLB <W:0.0> #6->2
 
 
