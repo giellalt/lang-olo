@@ -651,18 +651,12 @@
 "<kazvoi>"
 	"kazvua" V Act Ind Prt Sg3 <W:0.0> @FMV #2->0
 : 
-"<156>"
-	"156" Num Arab <W:0.0> @X #3->0
-	"156" Num Arab Sem/ID <W:0.0> @X #3->0
-	"156" Num Arab Sem/Measr <W:0.0> @X #3->0
-	"156" Num Arab Sg Nom <W:0.0> @X #3->0
-: 
-"<900>"
-	"900" Num Arab Sem/Measr <W:0.0> @X #4->0
+"<156 900>"
+	"156 900" Num Arab Sem/ID <W:0.0> @X #3->0
 : 
 "<eurol>"
-	"euro" N Sg Ade <W:0.0> @NUM< #5->5
+	"euro" N Sg Ade <W:0.0> @NUM< #4->4
 "<.>"
-	"." CLB <W:0.0> #6->2
+	"." CLB <W:0.0> #5->2
 
 

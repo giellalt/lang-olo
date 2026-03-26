@@ -187,6 +187,8 @@ LEXICON ONEST
 
 LEXICON THOUSANDS      ! x > 1
 % :tuhattu THOUSAND ;
+ :tuhattu THOUSAND ;   ! nbsp
+ :tuhattu THOUSAND ;   ! nnbsp
 :tuhattu THOUSAND ;
 
 LEXICON THOUSAND
