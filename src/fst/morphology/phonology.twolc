@@ -770,7 +770,7 @@ d:v <=> [ ö y: | o u: ] _ [ ä: | a ] (HarmDummy:) %^WGStem:0 ; !!= @CODE@
 !! **@RULENAME@**  
 d:j <=> [ u a ] _ [ i ] (%{back%}:) %^WGStem: (%^E1:) %> ;
         [ i e: | a i ] _ [ o | a] (HarmDummy:) %^WGStem: (%^E1:) %> ;
-        i _ e (%{front%}:) %^WGStem: %> [ l | n | s ] ; ! viizi viijel
+        i _ (HarmDummy:) e %^WGStem: %> [ l | n | s ] ; ! viizi viijel
 !!€ maido%^WGStem%>n
 !!€ maijo0%>n
 !!€ tiedo%^WGStem%>n
@@ -985,7 +985,7 @@ p:0 <=> Vow _ s  (HarmDummy:) %^KS2S:0  ;
 !! ## Consonant loss
 "d:0"
 !! **@RULENAME@**   pidiä:piän
-d:0 <=>  # Cns* [ i | a: | o | ä ] _ [ ä: | a: | e: | i ] (HarmDummy:) %^WGStem:0  ;
+ d:0 <=>  # Cns* [ i | a: | o | ä ] _ [ ä: | a: | e: | i ] (HarmDummy:) %^WGStem:0  ;
 !!€# pidä%^WGStem%>n
 !!€0 pi0ä0%>n
 
