@@ -46,16 +46,20 @@ LIST NEGATION = ("ei" V Neg) ;
 
 BEFORE-SECTIONS
 
-REMOVE:underdefine-digits (Num Arab Sg Nom)  (0 (Num Arab)) ;
+REMOVE:underdefine-digits (Num Arab Sg Nom)  (0 (Num Arab)) (NEGATE 0 Sem/Date) ;
 
 SUBSTITUTE:remove-cmphyph-from-acr SUB:1 (Cmp/Hyph) (*) TARGET (ACR) ;
 
 SECTION
 
-ADDCOHORT:add-aigua-to-c-time ("<aigua>" "aiga" N Sg Par)
+ADDCOHORT:add-aigua-to-c-time ("< aigua>" "aiga" N Sg Par)
     AFTER (Sem/Time-clock)
           (NEGATE 1 ALGAJEN)
-          (-2 CUASUN) ;
+          (NEGATE 1 ("aiga"))
+          (-1 CUASUN) ;
+
+SECTION
+
 REMCOHORT:rem-c-from-c-time ("č") (1 Sem/Time-clock) ;
 
 # "Pido algau č 12"

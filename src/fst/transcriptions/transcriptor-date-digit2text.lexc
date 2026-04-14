@@ -220,5 +220,77 @@ LEXICON MONTH_SECOND
 
 
 LEXICON X
-%.: # ;
+%.: # ; ! without year
+%.:% DATEYEAR ;  ! with year
 ! # ; ! sloppy punctuation
+
+LEXICON DATEYEAR
+1:tuhat DATEYEAR_HUNDREDS ;
+2:kaksi DATEYEAR_THOUSANDS ;
+
+LEXICON DATEYEAR_THOUSANDS
+:tuhattu DATEYEAR_HUNDREDS ;
+%0%0%0: # ;                 ! 2000
+%0: DATEYEAR_TENS ;          ! 20xx
+%0: DATEYEAR_TEENS ;         ! 201x
+: DATEYEAR_HUNDREDS ;        ! 2xxx
+
+LEXICON DATEYEAR_HUNDREDS
+9:yheksä DATEYEAR_CUODI ;
+8:kaheksa DATEYEAR_CUODI ;
+7:seiččie DATEYEAR_CUODI ;
+6:kuuzi DATEYEAR_CUODI ;
+5:viizi DATEYEAR_CUODI ;
+4:nelli DATEYEAR_CUODI ;
+3:kolme DATEYEAR_CUODI ;
+2:kaksi DATEYEAR_CUODI ;
+1:yksi DATEYEAR_CUODI ;
+%0: DATEYEAR_TENS ;
+%0: DATEYEAR_TEENS ;
+%0%0: DATEYEAR_ONES ;
+
+LEXICON DATEYEAR_CUODI
+:sadua DATEYEAR_TENS_OR_END ;
+
+LEXICON DATEYEAR_TENS_OR_END
+DATEYEAR_TENS ;
+DATEYEAR_TEENS ;
+%0: DATEYEAR_ONES ;
+%0%0: # ;
+
+LEXICON DATEYEAR_TEENS
+11:yksitostu # ;
+12:kaksitostu # ;
+13:kolmetostu # ;
+14:nellitostu # ;
+15:viizitostu # ;
+16:kuuzitostu # ;
+17:seiččietostu # ;
+18:kaheksatostu # ;
+19:yheksätostu # ;
+
+LEXICON DATEYEAR_TENS
+1%0:kymmene # ;
+2:kaksikymmen DATEYEAR_ONES_OR_END ;
+3:kolmekymmen DATEYEAR_ONES_OR_END ;
+4:nellikymmen DATEYEAR_ONES_OR_END ;
+5:viizikymmen DATEYEAR_ONES_OR_END ;
+6:kuuzikymmen DATEYEAR_ONES_OR_END ;
+7:seiččiekymmen DATEYEAR_ONES_OR_END ;
+8:kaheksakymmen DATEYEAR_ONES_OR_END ;
+9:yheksäkymmen DATEYEAR_ONES_OR_END ;
+
+LEXICON DATEYEAR_ONES_OR_END
+DATEYEAR_ONES ;
+%0: # ;
+
+LEXICON DATEYEAR_ONES
+1:yksi # ;
+2:kaksi # ;
+3:kolme # ;
+4:nelli # ;
+5:viizi # ;
+6:kuuzi # ;
+7:seiččie # ;
+8:kaheksa # ;
+9:yheksä # ;
