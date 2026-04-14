@@ -48,6 +48,8 @@ BEFORE-SECTIONS
 
 REMOVE:underdefine-digits (Num Arab Sg Nom)  (0 (Num Arab)) ;
 
+SUBSTITUTE:remove-cmphyph-from-acr SUB:1 (Cmp/Hyph) (*) TARGET (ACR) ;
+
 SECTION
 
 ADDCOHORT:add-aigua-to-c-time ("<aigua>" "aiga" N Sg Par)
