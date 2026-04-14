@@ -411,7 +411,7 @@ LEXICON PROP-PLC_TVER !!≈ **@CODE@** Tver:Tver
 +Sem/Plc:%{front%} NMN_TVER ;
 
 LEXICON PROP_TAIGIN
-:   NMN_TAIGIN  ;
+:%{back%}   NMN_TAIGIN  ;
 !LEXICON PROP-MAL_TAIGIN
 !+Sem/Mal:   NMN_TAIGIN  ;
 
