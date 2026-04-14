@@ -62,26 +62,41 @@ LEXICON CUODIM
 
 LEXICON HUNDREDM
       TENSM ;
+  %   TENSM ;        ! space
       TEENSM ;
+  %   TEENSM ;       ! space
 %0:   ONESM ;
+%0% : ONESM ;        ! space
 %0%0: MILJON ;
+%0%0% : MILJON ;     ! space
 
 LEXICON TEENSM
 11:yksitostu     LOHKAIM ;
+11% :yksitostu     LOHKAIM ;
 12:kaksitostu   LOHKAIM ;
+12% :kaksitostu   LOHKAIM ;
 13:kolmetostu    LOHKAIM ;
+13% :kolmetostu    LOHKAIM ;
 14:nellitostu LOHKAIM ;
+14% :nellitostu LOHKAIM ;
 15:viizistostu   LOHKAIM ;
+15% :viizistostu   LOHKAIM ;
 16:kuuzitostu   LOHKAIM ;
+16% :kuuzitostu   LOHKAIM ;
 17:seiččietostu LOHKAIM ;
+17% :seiččietostu LOHKAIM ;
 18:kaheksatostu LOHKAIM ;
+18% :kaheksatostu LOHKAIM ;
 19:yheksätostu   LOHKAIM ;
+19% :yheksätostu   LOHKAIM ;
 
 LEXICON LOHKAIM
 MILJON ;
+% MILJON ;  ! space before millions
 
 LEXICON TENSM
 1%0:kymmene MILJON ;
+1%0% :kymmene MILJON ;  ! 10 000 000
 2:kaksi   LUHKIEM ;
 3:kolme    LUHKIEM ;
 4:nelli LUHKIEM ;
@@ -93,18 +108,29 @@ LEXICON TENSM
 
 LEXICON LUHKIEM
 %0:kymmen MILJON ;
+%0% :kymmen MILJON ;  ! space
 :kymmen   ONESM ;
+% :kymmen   ONESM ;  ! space
 
 LEXICON ONESM
 1:yksimiljon  OVERTHOUSANDS ; !1:yksi% miljon%  OVERTHOUSANDS ;
+1% :yksimiljon  OVERTHOUSANDS ;  ! 1 000 000
 2:kaksi         MILJON ;
+2% :kaksi       MILJON ;         ! 2 000 000
 3:kolme          MILJON ;
+3% :kolme        MILJON ;
 4:nelli       MILJON ;
+4% :nelli     MILJON ;
 5:viizi         MILJON ;
+5% :viizi       MILJON ;
 6:kuuzi         MILJON ;
+6% :kuuzi       MILJON ;
 7:seiččie       MILJON ;
+7% :seiččie     MILJON ;
 8:kaheksa       MILJON ;
-9:yheksä         MILJON ; 
+8% :kaheksa     MILJON ;
+9:yheksä         MILJON ;
+9% :yheksä       MILJON ;
 
 LEXICON MILJON
 : miljonua  OVERTHOUSANDS ;!:% miljonua%  OVERTHOUSANDS ;
@@ -125,6 +151,7 @@ HUNDREDST ;		! x00.000.000
 %0%0%0%0: TEENS ;
 %0%0%0%0%0: ONES ;
 %0%0%0%0%0%0: COMMA ;	!  x000000
+%0%0%0% %0%0%0: COMMA ; !  x000 000 (space)
 
 LEXICON HUNDREDST
 2:kaksi   CUODIT ;	! 200000-299999
