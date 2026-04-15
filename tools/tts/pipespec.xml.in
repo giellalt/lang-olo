@@ -26,10 +26,14 @@
       <normaliser s="Arab"   n="transcriptor-numbers-digit2text.filtered.lookup.hfstol"/>
       <normaliser s="Roman"  n="transcriptor-numbers-digit2text.filtered.lookup.hfstol"/>
       <normaliser s="Emoji"  n="transcriptor-emoji2text.filtered.lookup.hfstol"/>
-      <normaliser s="Sem/Date" n="transcriptor-date-digit2text.filtered.lookup.hfstol"/>
-      <normaliser s="Sem/Year" n="transcriptor-date-digit2text.filtered.lookup.hfstol"/>
+      <normaliser s="Sem/Date" n="transcriptor-ttsdate-digit2text.filtered.lookup.hfstol"/>
+      <normaliser s="Sem/Year" n="transcriptor-ttsdate-digit2text.filtered.lookup.hfstol"/>
       <normaliser s="Sem/Time-clock" n="transcriptor-clock-digit2text.filtered.lookup.hfstol"/>
     </normalise>
+    <phon>
+      <text2ipa n="text2phontext.hfstol"/>
+      <alttext2ipa s="ACR" n="acro2text.hfstol"/>
+    </phon>
   </pipeline>
 
   <pipeline name="@GLANG@-analyser"
