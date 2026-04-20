@@ -351,6 +351,7 @@ LIST OMS = >>> """ ":" ";" "“" ;
 
 LIST Sem/Adr = Sem/Adr ;
 LIST Sem/ID = Sem/ID ;
+LIST Sem/Date = Sem/Date ;
 LIST Sem/Time = Sem/Time ;
 LIST Sem/Time-clock = Sem/Time-clock ;
 LIST Sem/Measr = Sem/Measr ;
@@ -828,6 +829,8 @@ REMOVE:NomParNum Gen IF (0 Num + Nom)(1 Par);
 
 LIST CUASUN = "č" ;
 SELECT:c-time Sem/Time-clock (-1 CUASUN);
+
+SELECT:date-over-id Sem/Date (0 Sem/ID) ;
 
 #$ Alkohol’an käyttö pidäy loppiekseh č 22
 
