@@ -15,13 +15,9 @@ A+Grade?+Number+Case
 A+Grade?+Number+Case+Possessive
 A+Ord+Number+Case
 V+Inf
-V+PrfPrc
-V+Act+Ind+Prs+Person-Number
-V+Act+Ind+Prt+Person-Number
-V+Pss+Ind+Prs+Person-Number
-V+Pss+Ind+Prt+Person-Number
-V+Rfl+Ind+Prs+Person-Number
-V+Rfl+Ind+Prt+Person-Number
+V+Diathesis+PrfPrc+Number?+Case?
+V+Diathesis+Mood+Tense+Person-Number
+V+Imprt+Person-Number
 V+Ind+Prs+ConNeg+Sg3
 V+Ind+Prs+ConNeg+Pl1
 V+Ind+Prs+ConNeg+Pl2
@@ -30,9 +26,7 @@ V+Ind+Prt+ConNeg+Sg3
 V+Ind+Prt+ConNeg+Pl1
 V+Ind+Prt+ConNeg+Pl2
 V+Ind+Prt+ConNeg+Pl3
-V+Imprt+Person-Number
-V+Neg+Ind+Prs+Person-Number
-V+Neg+Ind+Prt+Person-Number
+V+Neg+Ind+Person-Number
 V+Neg+Imprt+Person-Number
 Num+Number+Case
 Pron+Indef+Attr?
