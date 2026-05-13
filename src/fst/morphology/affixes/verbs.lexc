@@ -714,9 +714,9 @@ LEXICON V_ALETA_01 !!≈ * **@CODE@** aleta:ale (alenou)
 +Act:n INDPRTPL1     ;
 +Act:n INDPRTPL2     ;
 +Act: INDPRTPL3_ttih     ;
-+Act+Ind+PrfPrc+Err/Orth:%>n%{lnrs%}%{uy%}t K ;
-+Act+Ind+PrfPrc:%>n%{lnrs%}uh K ;
-+Act+Ind+PrfPrcPl3:%>ttu K ;
++Act+PrfPrc+Err/Orth:%>n%{lnrs%}%{uy%}t K ;
++Act+PrfPrc:%>n%{lnrs%}uh K ;
++Act+PrfPrcPl3:%>ttu K ;
 +Act: INDPRTCONNEG_nnuh ; !!
 +Act: INDPRTCONNEGPL3_ttu ;
 +Act:n CONDPRS_IS ;
@@ -744,9 +744,9 @@ LEXICON V_VÄHETÄ_01 !!≈ * **@CODE@** vähetä:vähe (vähenöy)
 +Act:n INDPRTPL1_FRONT     ;
 +Act:n INDPRTPL2_FRONT     ;
 +Act: INDPRTPL3_ttih     ;
-+Act+Ind+PrfPrc+Err/Orth:%>n%{lnrs%}yt K ;
-+Act+Ind+PrfPrc:%>n%{lnrs%}yh K ;
-+Act+Ind+PrfPrcPl3:%>tty K ;
++Act+PrfPrc+Err/Orth:%>n%{lnrs%}yt K ;
++Act+PrfPrc:%>n%{lnrs%}yh K ;
++Act+PrfPrcPl3:%>tty K ;
 +Act: INDPRTCONNEG_nnyh ; !!
 +Act: INDPRTCONNEGPL3_tty ;
 +Act:n CONDPRS_IS_FRONT ;
