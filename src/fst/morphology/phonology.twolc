@@ -203,13 +203,15 @@ Definitions
 FT =  [ #: Cns* [ VowFront | VowNeutral | i: ] | :VowFront ] [ %> | VowFront: | ʼ | Cns: | %{aä%}:ä | %{oö%}:ö | %{uy%}:y ]* \[ # | VowBack: | :VowBack ]* ;
 ! [ #: Cns* [ VowFront | VowNeutral | i: ] | :VowFront ] [ %> | VowFront: | Cns: | %{aä%}:ä | %{oö%}:ö | %{uy%}:y ]*  ;
 
-FHarm = [ %{front%}: \[ # | %{back%}: ]* ] ;
+FHarm = [ # \[ # | %{back%}: ]*  %{front%}: \[ # | %{back%}: ]* ] ;
+!FHarm = [ %{front%}: \[ # | %{back%}: ]* ] ;
 
 ! Back Trigger 
 BT =     #: Cns* ( [ VowNeutral | i: ] [ Dummy: | %> | VowNeutral | VowBack: | :VowBack | Cns: | :Cns | ʼ ]* )  [ VowBack: | :VowBack ] \[ # | VowFront: | :VowFront ]* ;
 !    #: Cns* ( [ VowNeutral | i: ] [ Dummy: | %> | VowBack: | :VowBack | Cns: | :Cns ]* )  [ VowBack: | :VowBack ] [ Dummy: | %> | VowNeutral | i: | %{aä%}:0 | VowBack: | :VowBack | Cns: | :Cns ]* ;
 
-BHarm = [ %{back%}: \[ # | %{front%}: ]* ] ;
+BHarm = [ # \[ # | %{front%}: ]*  %{back%}: \[ # | %{front%}: ]* ] ;
+!BHarm = [ %{back%}: \[ # | %{front%}: ]* ] ;
 
 !Front Trigger with consonant
 FTCons = [FT|FHarm] [ Cns: (ʼ:) ] ;
@@ -283,16 +285,16 @@ Rules
 
 "%{aä%}:a"
 !! **Rule: @RULENAME@**
-! %{aä%}:a <=> BHarm (%>) _ ;
-%{aä%}:a <=> [BT|BHarm] (%>) _ ;
+ %{aä%}:a <=> BHarm (%>) _ ;
+!%{aä%}:a <=> [BT|BHarm] (%>) _ ;
 !! kuvitella+V+Inf: **imagine/kuvitella**
 !!€ kuvittel%{back%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
 !!€ kuvi0tel00%>la0
 
 "%{aä%}:ä"
 !! **Rule: @RULENAME@**
-! %{aä%}:ä <=> FHarm (%>) _ ;
-%{aä%}:ä <=> [FT|FHarm] (%>) _ ;
+ %{aä%}:ä <=> FHarm (%>) _ ;
+!%{aä%}:ä <=> [FT|FHarm] (%>) _ ;
 !! ezitellä+V+Inf: **present/esitellä**
 !!€ ezittel%{front%}%^WGStem%>%{lnrs%}%{aä%}%^WGStem
 !!€ ezi0tel00%>lä0
@@ -569,14 +571,16 @@ o:u <=> Cns (ʼ) _ (%{back%}:) %> [ %{oö%}: | %{aäoeö%}: |%{aäoeöuiy%}: | o
 "e:o"
 !! **@RULENAME@** Vowel harmony suffixes Back
 !! ```
- e:o <=>  [BHarm]  _ (%{back%}:) %^E2O: %> [ %{uy%}: | u ] ;
+ e:o <=>  Cns: _ %{back%}: %^E2O: %> [ %{uy%}:u | u ] ;
+! [BHarm]  _ (%{back%}:) %^E2O: %> [ %{uy%}: | u ] ;
 !!€# luge%^E2O%>u
 !!€0 lugo%>u
 !! ```
 
 "e:ö"
 !! **@RULENAME@** Vowel harmony 
- e:ö <=>  [FHarm]  _ (%{front%}:) %^E2O: %> y ;
+ e:ö <=> Cns:  _ %{front%}: %^E2O: %> [ %{uy%}:y | y ] ;
+!  [FHarm]  _ (%{front%}:) %^E2O: %> y ;
 !!€# käske%^E2O%>y
 !!€0 käskö0%>y
 
@@ -689,7 +693,8 @@ i:0 <=> o _ (HarmDummy:)  %^ILoss: %> l [ %{oö%}: |o|ö] i ;
  %{uy%}:u <=>
   [BHarm] ( %> ) _ ;
   [BHarm] (%^WGStem:) %> (n) %{lnrs%}: _ ;
-  [ [BT|BHarm] | :VowBack Cns:* ] ( %> ) _ ;
+  [ BHarm ] ( %> ) _ ;
+!  [ [BT|BHarm] | :VowBack Cns:* ] ( %> ) _ ;
 !  [ [BT|BHarm] | :VowBack Cns:* ] (%^WGStem:) %> (n) %{lnrs%}: _ ;
 !!€ tul%>%{lnrs%}%{uy%}h
 !!€ tul%>luh
@@ -699,7 +704,8 @@ i:0 <=> o _ (HarmDummy:)  %^ILoss: %> l [ %{oö%}: |o|ö] i ;
  %{uy%}:y <=>
   [ FHarm ] ( %> ) _ ;
   [ FHarm ] (%^WGStem:) %> (n) %{lnrs%}: _ ;
-  [ [FT|FHarm] | :VowFront Cns:* ] ( %> ) _ ;
+  [ FHarm ] ( %> ) _ ;
+!  [ [FT|FHarm] | :VowFront Cns:* ] ( %> ) _ ;
 !  [ [FT|FHarm] | :VowFront Cns:* ] (%^WGStem:) %> (n) %{lnrs%}: _ ;
 
 !! ## Consonant change
