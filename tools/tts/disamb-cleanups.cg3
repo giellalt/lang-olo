@@ -69,7 +69,6 @@ REMCOHORT:rem-c-from-c-time ("č") (1 Sem/Time-clock) ;
 # Linnan pruazniekku ozutetah televiizoras suorannu lähetyksenny č 18.15 algajen.
 # -> "Linnan pruazniekku ozutetah televiizoras suorannu lähetyksenny kaheksatostu viizitostu algajen"
 
-
 SUBSTITUTE:digits-agreement-gen (Num Arab) (Num Arab Card Sg Gen)
                             TARGET (Num Arab)
                             IF (*1 (Sg Gen) BARRIER (*) - (A Gen) - (N Gen))
@@ -137,12 +136,12 @@ SUBSTITUTE:digits-par-after-negs (A Arab Ord Attr) (A Arab Ord Sg Par)
 # Emmo voi ottua 13 kažii. -> Emmo voi ottua kolmietostu kažii.
 # Emmo voi ottua 13. kažii. -> Emmo voi ottua kolmattutostu kažii.
 
-SUBSTITUTE:digits-ine-before-hyphen (Num Arab Card Sg Nom) (Num Arab Card Sg Ine)
-                                    TARGET (Num Arab)
-                                    IF (1 MIDDLE) (2 (Num Arab)) ;
-SUBSTITUTE:digits-ill-after-hyphen (Num Arab Card Sg Nom) (Num Arab Card Sg Ill)
-                                    TARGET (Num Arab)
-                                    IF (-1 MIDDLE) (-2 (Num Arab)) ;
+# SUBSTITUTE:digits-ine-before-hyphen (Num Arab Card Sg Nom) (Num Arab Card Sg Ine)
+#                                    TARGET (Num Arab)
+#                                    IF (1 MIDDLE) (2 (Num Arab)) ;
+# SUBSTITUTE:digits-ill-after-hyphen (Num Arab Card Sg Nom) (Num Arab Card Sg Ill)
+#                                    TARGET (Num Arab)
+#                                    IF (-1 MIDDLE) (-2 (Num Arab)) ;
 
 # Vuitti maguau kai 2–3 čuassuu lyhyömbiä yöundu kezäl, migu talvel.
 # -> Vuitti maguau kai kahtes kolmeh čuassuu lyhyömbiä yöundu kezäl, migu talvel.

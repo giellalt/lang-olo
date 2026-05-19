@@ -19,6 +19,7 @@ export default function oloTextTTS(entry: StringEntry): Command {
       generator: "generator-tts-gt-norm.hfstol",
       analyzer:  "analyser-gt-norm.hfstol",
       normalizers: {
+        "URL":            "url2text.hfstol",
         "Sem/Time-clock": "transcriptor-clock-digit2text.filtered.lookup.hfstol",
         "Sem/Date":       "transcriptor-ttsdate-digit2text.filtered.lookup.hfstol",
         "Sem/Year":       "transcriptor-ttsdate-digit2text.filtered.lookup.hfstol",
