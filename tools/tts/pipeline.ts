@@ -48,6 +48,7 @@ export function localTTSTest_dev(entry: StringEntry): Command {
   x = cg3.vislcg3("disamb",         x,     { model_path: "@../../src/cg3/disambiguator.cg3" });
   x = cg3.vislcg3("functions",      x,     { model_path: "@../../src/cg3/functions.cg3" });
   x = cg3.vislcg3("deps",           x,     { model_path: "@../../src/cg3/dependency.cg3" });
+  x = cg3.vislcg3("disamb-cleanup", x,     { model_path: "@./disamb-cleanups.cg3" });
   x = speech.normalize(
     "normaliser", x,
     {
