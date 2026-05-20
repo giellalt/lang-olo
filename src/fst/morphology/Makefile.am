@@ -57,6 +57,17 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/numerals.lexc       \
 			stems/propernouns_newwords.lexc \
 			stems/quantifiers.lexc   \
+			stems/adjectives.lexc    \
+			stems/adpositions.lexc \
+			stems/adverbs.lexc       \
+			stems/conjunctors.lexc  \
+			stems/determiners.lexc  \
+			stems/interjections.lexc \
+			stems/nouns.lexc         \
+			stems/pronouns.lexc      \
+			stems/propernouns.lexc   \
+			stems/propernouns-toponyms.lexc   \
+			stems/verbs.lexc \
 			stems/verbs_newwords.lexc 
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
@@ -76,17 +87,6 @@ GT_LEXC_L2_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-			$(srcdir)/stems/adjectives.lexc    \
-			$(srcdir)/stems/adpositions.lexc \
-			$(srcdir)/stems/adverbs.lexc       \
-			$(srcdir)/stems/conjunctors.lexc  \
-			$(srcdir)/stems/determiners.lexc  \
-			$(srcdir)/stems/interjections.lexc \
-			$(srcdir)/stems/nouns.lexc         \
-			$(srcdir)/stems/pronouns.lexc      \
-			$(srcdir)/stems/propernouns.lexc   \
-			$(srcdir)/stems/propernouns-toponyms.lexc   \
-			$(srcdir)/stems/verbs.lexc \
 			generated_files/smi-$(GLANG)-acronyms.lexc \
 			generated_files/smi-$(GLANG)-abbreviations.lexc \
 			generated_files/smi-$(GLANG)-digits.lexc \
@@ -117,18 +117,7 @@ endif
 # add other lexical shared data handling here
 
 # Set this to the names of all source xml files, if any
-GT_XML_SRCS=\
-			stems/adjectives.xml    \
-			stems/adpositions.xml \
-			stems/adverbs.xml       \
-			stems/conjunctors.xml  \
-			stems/determiners.xml  \
-			stems/interjections.xml \
-			stems/nouns.xml         \
-			stems/pronouns.xml      \
-			stems/propernouns.xml   \
-			stems/propernouns-toponyms.xml   \
-			stems/verbs.xml
+GT_XML_SRCS=
 
 # Define any additional lexc sources here (compiled on their own):
 GT_LOCAL_SRCS=
