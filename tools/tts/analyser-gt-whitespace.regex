@@ -1,1 +1,2 @@
 [ {\n} ?* {"<} ?* {>"}  ?*  ]:[ "<firstWordOfParagraph>" ]
+[ ?*      {"<} ?* {>"}  ?* [ {\n} | {\r} ] [ {\n} | {\r} ] ]:[ "<LastCohortOfParagraph>" ]
