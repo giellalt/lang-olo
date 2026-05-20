@@ -97,28 +97,33 @@ Multichar_Symbols
 +v5    !!≈ * **@CODE@** version tags
 
 
-!! ## Useage
-!! The Usage extents are marked using following tags:
+!! ## Usage
+!! The error categories are marked using the following tags:
 
  +Err/Orth     !!≈ * @CODE@
  +Err/Sub     !!≈ * @CODE@
- +Use/Marg        !!≈ * **@CODE@** marginal (?)
- +Use/-Spell      !!≈ * **@CODE@** Excluded in speller
  +Err/Hyph !!≈ * @CODE@
  +Err/Lex !!≈ * @CODE@
  +Err/SpaceCmp !!≈ * @CODE@
  +Err/MissingSpace !!≈ * @CODE@
+
+!! The target Usage extents are marked using following tags:
+
+ +Use/Marg        !!≈ * **@CODE@** marginal (?)
+ +Use/-Spell      !!≈ * **@CODE@** Excluded in speller
  +Use/SpellNoSugg !!≈ * **@CODE@** recognized but not suggested in speller
  +Use/Circ        !!≈ * **@CODE@** circular paths (old ^C^)
  +Use/CircN       !!≈ * **@CODE@** circular paths for the numerals (old ^N^)
  +Use/NG          !!≈ * **@CODE@** not-generate, for ped generation isme-ped.fst
-+Use/GC
- +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
- +Use/-TTS         !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
-+Use/-GC      !!≈ * **@CODE@**  (?)
+ +Use/TTS         !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+ +Use/-TTS        !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+ +Use/GC          !!≈ * **@CODE@** - **only** use this path in the grammar checker
+ +Use/-GC         !!≈ * **@CODE@** - **never** use this path in the grammar checker
 
+!! ## Originating language
+!! Loan words with exceptional pronunciation have their source/pronunciation language taggged as follows:
 
-+OLang/NOB       !!≈ * **@CODE@** olang tags
++OLang/NOB     !!≈ * **@CODE@** olang tags
 +OLang/FIN     !!≈ * **@CODE@** olang tags
 +OLang/SWE     !!≈ * **@CODE@** olang tags
 +OLang/UND     !!≈ * **@CODE@** olang tags
