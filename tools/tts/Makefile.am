@@ -29,7 +29,8 @@ GIELLA_TTS_REMOVE_TRANSCRIPTORS=transcriptor-date-digit2text
 
 # If there are additional, language specific files used in the GC archive,
 # specify here:
-LOCAL_TTS_ZIP_FILES=disamb-cleanups.bin
+LOCAL_TTS_ZIP_FILES=disamb-cleanups.bin \
+					url2text.hfstol
 
 #### BEGIN: Local build targets: ####
 
