@@ -119,6 +119,7 @@ Multichar_Symbols
  +Use/-TTS        !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
  +Use/GC          !!≈ * **@CODE@** - **only** use this path in the grammar checker
  +Use/-GC         !!≈ * **@CODE@** - **never** use this path in the grammar checker
+ +Use/MT          !!≈ * **@CODE@** - **only** use this path in machine translator contexts
 
 !! ## Originating language
 !! Loan words with exceptional pronunciation have their source/pronunciation language taggged as follows:
