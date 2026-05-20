@@ -11,15 +11,15 @@ Tests:
     kolme+Num+Card+Sg+Par: kolmie
     kolmetostu+Num+Card+Sg+Par: kolmietostu
     kolmastostu+A+Ord+Sg+Par: kolmattutostu
-    kaheksan+Num+Card+Sg+Par: kaheksua
-    kolmietuhattu+Num+Card+Sg+Par: kolmietuhattu
+    kaheksa+Num+Card+Sg+Par: kaheksua
+    kolmetuhattu+Num+Card+Sg+Par: kolmietuhattu
     "nellikymmendy kaheksa tuhattu+Num+Card+Sg+Par": "nelliäkymmendy kaheksua tuhattu"
     "kolmekymmendy yksi+Num+Card+Sg+Par": "kolmiekymmendy yhty"
     "kuuzikymmendy nelli+Num+Card+Sg+Par": "kuuttukymmendy nelliä"
-    nellikymmendy+Num+Card+Sg+Ade: nellälkymmenel
+    nellikymmen+Num+Card+Sg+Ade: nellälkymmenel
     viizi+Num+Card+Sg+Ade: viijel
-    nelli+Num+Card+Sg+Ter: nelläh
-    yheksäkymmendy+Num+Card+Sg+Ill: yheksähkymmeneh
+    nelli+Num+Card+Sg+Ill: nelläh
+    yheksäkymmen+Num+Card+Sg+Ill: yheksähkymmeneh
     yksi+Num+Card+Sg+Ill: yhteh
     kolme+Num+Card+Sg+Ill: kolmeh
     kymmene+Num+Card+Sg+Ade: kymmenel
@@ -27,7 +27,7 @@ Tests:
     viizitostu+Num+Card+Sg+Ill: viidehtostu
     viijestostu+A+Ord+Sg+Nom: viijestostu
     "kaksikymmendy yheksä+Num+Card+Sg+Ill": "kahtehkymmeneh yheksäh"
-    nellikymmendy+Num+Card+Sg+Par: nelliäkymmendy
+    nellikymmen+Num+Card+Sg+Par: nelliäkymmendy
     kaksi+Num+Card+Sg+Ine: kahtes
     "tuhat yheksäsadua seiččiekymmen+Num+Card+Sg+Nom": "tuhat yheksäsadua seiččiekymmen"
     "seiččiekymmen viizi+Num+Card+Sg+Nom": "seiččiekymmen viizi"
