@@ -44,6 +44,9 @@ LIST PARTITIVE-ADV = ("läs" Adv) ("enäm" Adv) ("vähem" Adv) ; # ("nenga" Adv)
 
 LIST NEGATION = ("ei" V Neg) ;
 
+LIST <LastCohortOfParagraph> = <LastCohortOfParagraph> ;
+LIST <firstWordOfParagraph> = <firstWordOfParagraph> ;
+
 BEFORE-SECTIONS
 
 REMOVE:underdefine-digits (Num Arab Sg Nom)  (0 (Num Arab)) (NEGATE 0 Sem/Date) ;
@@ -51,6 +54,11 @@ REMOVE:underdefine-digits (Num Arab Sg Nom)  (0 (Num Arab)) (NEGATE 0 Sem/Date) 
 SUBSTITUTE:remove-cmphyph-from-acr SUB:1 (Cmp/Hyph) (*) TARGET (ACR) ;
 
 SECTION
+
+SPLITCOHORT:add-paragraph-clb (
+"<$1>"v "$1"v ?
+"<.>" "." CLB
+) ("<(.+)>"r) IF (0 <LastCohortOfParagraph>) (NEGATE 0 CLB) (1 <firstWordOfParagraph>) ;
 
 ADDCOHORT:add-aigua-to-c-time ("< aigua>" "aiga" N Sg Par)
     AFTER (Sem/Time-clock)
