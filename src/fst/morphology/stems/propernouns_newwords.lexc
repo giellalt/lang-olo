@@ -103,8 +103,8 @@ Turkanmua+N+Prop+Sem/Plc:Turkanmua PROP_MUA "" ;
 Sroičanpäivy+N+Prop:Sroičanpäivä PROP_PÄIVY "" ;
 Äijypäivy+N+Prop:Äijypäivä PROP_PÄIVY "" ;
 
-Hurualistoliitto+N+Prop+Sem/Org:Hurualistoliitto # ;
-Vihandat+N+Prop+Sem/Org:Vihandat # ;
-Perussuomelazet+N+Prop+Sem/Org:Perussuomelazet # ;
-Kristillisdemokruatat+N+Prop+Sem/Org:Kristillisdemokruatat # ;
-Liike+N+Prop+Sem/Org:Liike # ;
+Hurualistoliitto+N+Prop+Sem/Org:Hurualistoliitto PROP_RUADO ;
+Vihandat+N+Prop+Sem/Org:Vihanda PROP_MUARJU-PL ;
+Perussuomelazet+N+Prop+Sem/Org:Perussuomela PROP_KARJALAINE-PL ;
+Kristillisdemokruatat+N+Prop+Sem/Org:Kristillisdemokruatta PROP_AKKU-PL ;
+Liike+N+Prop+Sem/Org:Liikkeh N_LIIKEH ; ! PROP_LIIKEH
