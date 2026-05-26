@@ -24,7 +24,7 @@ LIST OLANG = /^OLang\/.*/r ;
 LIST ALGAJEN = ("algua" V Ger Manner) ;
 LIST CUASUN = ("č") ;
 LIST NUM = (Sg) (Du) (Pl) ;
-LIST CASE = (Gen) (Par) (Ine) (Ade) (Ill) ;
+LIST CASE = (Gen) (Par) (Ine) (Ade) (All) (Ill) (Tra) (Ess) ;
 LIST PARTITIVE-ADV = ("läs" Adv) ("enäm" Adv) ("vähem" Adv) ; # ("nenga" Adv) ;
 LIST NEGATION = ("ei" V Neg) ;
 LIST <LastCohortOfParagraph> = <LastCohortOfParagraph> ;
@@ -59,12 +59,12 @@ REMCOHORT:rem-c-from-c-time ("č") (1 Sem/Time-clock) ;
 # Linnan pruazniekku ozutetah televiizoras suorannu lähetyksenny č 18.15 algajen.
 # -> "Linnan pruazniekku ozutetah televiizoras suorannu lähetyksenny kaheksatostu viizitostu algajen"
 
-# Replace dash with "viivu" when first number is 1-9 and second is ≥10
-# (to avoid confusion with compound numerals in speech)
-# 3-10 (kolmen viivu kymmenen) vuvven aloh, BUT 2-3 (kahten kolmen) päivän
+# Replace dash with "viivu" when ambiguous with compound numberals in speech
+# first number is 1-9 and second is 10 or 100 or 1000
+# 3-10 (kolmen viivu kymmenen) vuvven aloh (not kolmenkymmenen), BUT 2-3 (kahten kolmen) päivän
 REMCOHORT:rem-dash-viivu MIDDLE
-    IF (-1 ("<[1-9]>"r) + Num)
-       (1 ("<[0-9][0-9]+>"r) + Num) ;
+   IF (-1 ("<[1-9]>"r) + Num)
+      (1 ("<10>"r) OR ("<100>"r) OR ("<1000>"r)) ;
 
 ADDCOHORT:add-viivu ("< viivu >" "viivu" N Sg Nom) AFTER ("<[1-9]>"r) + Num
     IF (1 ("<[0-9][0-9]+>"r) + Num) ;
@@ -117,6 +117,33 @@ SUBSTITUTE:digits-after-par-adverbs (Num Arab) (Num Arab Card Sg Par)
                                        (NEGATE 0 NUM)
                                        (NEGATE 0 CASE)
                                        (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
+# 2-3 päiväs -> kahtes-kolmes päiväs
+SUBSTITUTE:digits-agreement-ine (Num Arab) (Num Arab Card Sg Ine)
+                           TARGET (Num Arab)
+                           IF (*1 (Sg Ine) BARRIER (*) - (A Ine) - (N Ine) - ("viivu") - (Num) - MIDDLE)
+                               (NEGATE 0 CASE)
+                               (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
+
+# 2-3 päiväle -> kahtele-kolmele päiväle
+SUBSTITUTE:digits-agreement-all (Num Arab) (Num Arab Card Sg All)
+                           TARGET (Num Arab)
+                           IF (*1 (Sg All) BARRIER (*) - (A All) - (N All) - ("viivu") - (Num) - MIDDLE)
+                               (NEGATE 0 CASE)
+                               (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
+
+# 2-3 päivänny -> kahtennu-kolmennu päivänny
+SUBSTITUTE:digits-agreement-ess (Num Arab) (Num Arab Card Sg Ess)
+                           TARGET (Num Arab)
+                           IF (*1 (Sg Ess) BARRIER (*) - (A Ess) - (N Ess) - ("viivu") - (Num) - MIDDLE)
+                               (NEGATE 0 CASE)
+                               (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
+
+# 2-3 vuvvekse -> kahtekse-kolmekse vuvvekse
+SUBSTITUTE:digits-agreement-tra (Num Arab) (Num Arab Card Sg Tra)
+                           TARGET (Num Arab)
+                           IF (*1 (Sg Tra) BARRIER (*) - (A Tra) - (N Tra) - ("viivu") - (Num) - MIDDLE)
+                               (NEGATE 0 CASE)
+                               (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
 
 # Kyzelyh vastai enäm 3 000 teini-igähisty nuordu.
 # -> Kyzelyh vastai enäm kolmietuhattu teini-igähisty nuordu.
@@ -156,6 +183,83 @@ SUBSTITUTE:digits-range-gen2 (Num Arab) (Num Arab Card Sg Gen)
                             TARGET (Num Arab)
                             IF (1 MIDDLE)
                                (2 (Num Arab Card Sg Gen))
+                               (NEGATE 0 CASE) ;
+# Inessiivi: 2-3 päiväs -> kahtes-kolmes päiväs
+SUBSTITUTE:digits-range-ine (Num Arab) (Num Arab Card Sg Ine)
+                            TARGET (Num Arab)
+                            IF (1 ("viivu"))
+                               (2 (Num Arab Card Sg Ine))
+                               (NEGATE 0 CASE) ;
+
+SUBSTITUTE:digits-range-ine2 (Num Arab) (Num Arab Card Sg Ine)
+                            TARGET (Num Arab)
+                            IF (1 MIDDLE)
+                               (2 (Num Arab Card Sg Ine))
+                               (NEGATE 0 CASE) ;
+
+# Illatiivi: 2-3 päiväh -> kahteh-kolmeh päiväh
+SUBSTITUTE:digits-range-ill (Num Arab) (Num Arab Card Sg Ill)
+                            TARGET (Num Arab)
+                            IF (1 ("viivu"))
+                               (2 (Num Arab Card Sg Ill))
+                               (NEGATE 0 CASE) ;
+
+SUBSTITUTE:digits-range-ill2 (Num Arab) (Num Arab Card Sg Ill)
+                            TARGET (Num Arab)
+                            IF (1 MIDDLE)
+                               (2 (Num Arab Card Sg Ill))
+                               (NEGATE 0 CASE) ;
+
+# Adessiivi: 2-3 päiväl -> kahtel-kolmel päiväl
+SUBSTITUTE:digits-range-ade (Num Arab) (Num Arab Card Sg Ade)
+                            TARGET (Num Arab)
+                            IF (1 ("viivu"))
+                               (2 (Num Arab Card Sg Ade))
+                               (NEGATE 0 CASE) ;
+
+SUBSTITUTE:digits-range-ade2 (Num Arab) (Num Arab Card Sg Ade)
+                            TARGET (Num Arab)
+                            IF (1 MIDDLE)
+                               (2 (Num Arab Card Sg Ade))
+                               (NEGATE 0 CASE) ;
+
+# Allatiivi: 2-3 päiväle -> kahtele-kolmele päiväle
+SUBSTITUTE:digits-range-all (Num Arab) (Num Arab Card Sg All)
+                            TARGET (Num Arab)
+                            IF (1 ("viivu"))
+                               (2 (Num Arab Card Sg All))
+                               (NEGATE 0 CASE) ;
+
+SUBSTITUTE:digits-range-all2 (Num Arab) (Num Arab Card Sg All)
+                            TARGET (Num Arab)
+                            IF (1 MIDDLE)
+                               (2 (Num Arab Card Sg All))
+                               (NEGATE 0 CASE) ;
+
+# Essiivi: 2-3 päivänny -> kahtennu-kolmennu päivänny
+SUBSTITUTE:digits-range-ess (Num Arab) (Num Arab Card Sg Ess)
+                            TARGET (Num Arab)
+                            IF (1 ("viivu"))
+                               (2 (Num Arab Card Sg Ess))
+                               (NEGATE 0 CASE) ;
+
+SUBSTITUTE:digits-range-ess2 (Num Arab) (Num Arab Card Sg Ess)
+                            TARGET (Num Arab)
+                            IF (1 MIDDLE)
+                               (2 (Num Arab Card Sg Ess))
+                               (NEGATE 0 CASE) ;
+
+# Translatiivi: 2-3 vuvvekse -> kahtekse-kolmekse vuvvekse
+SUBSTITUTE:digits-range-tra (Num Arab) (Num Arab Card Sg Tra)
+                            TARGET (Num Arab)
+                            IF (1 ("viivu"))
+                               (2 (Num Arab Card Sg Tra))
+                               (NEGATE 0 CASE) ;
+
+SUBSTITUTE:digits-range-tra2 (Num Arab) (Num Arab Card Sg Tra)
+                            TARGET (Num Arab)
+                            IF (1 MIDDLE)
+                               (2 (Num Arab Card Sg Tra))
                                (NEGATE 0 CASE) ;
 
 # 2-3 (kahten-kolmen) vuvven peräs
