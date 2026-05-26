@@ -12,45 +12,27 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";
 
 SETS
 
-# I define end of clause and beginning of clause in a way so that the file
-# may be read both by the CG-2 and the vislcg formalisms.
-
 LIST BOS = (>>>) (<s>);
 LIST EOS = (<<<) (</s>);
 
-# CG3 doesn´t function without >>> and <<< !
-
-# Tags declared as single-membered LISTs
-# ======================================
-
-# Include a list of all tags declared as themselves:
 INCLUDE ../../src/cg3/generated-tag-list.cg3 ;
-
-# Olang tags:
-# -----------
 
 LIST OLANG = /^OLang\/.*/r ;
 
 # stuff used in tts
 
 LIST ALGAJEN = ("algua" V Ger Manner) ;
-
 LIST CUASUN = ("č") ;
-
 LIST NUM = (Sg) (Du) (Pl) ;
-LIST CASE = (Nom) (Gen) (Par) (Ine) ;
-
+LIST CASE = (Gen) (Par) (Ine) (Ade) (Ill) ;
 LIST PARTITIVE-ADV = ("läs" Adv) ("enäm" Adv) ("vähem" Adv) ; # ("nenga" Adv) ;
-
 LIST NEGATION = ("ei" V Neg) ;
-
 LIST <LastCohortOfParagraph> = <LastCohortOfParagraph> ;
 LIST <firstWordOfParagraph> = <firstWordOfParagraph> ;
 
 BEFORE-SECTIONS
 
 REMOVE:underdefine-digits (Num Arab Sg Nom)  (0 (Num Arab)) (NEGATE 0 Sem/Date) ;
-
 SUBSTITUTE:remove-cmphyph-from-acr SUB:1 (Cmp/Hyph) (*) TARGET (ACR) ;
 
 SECTION
@@ -72,15 +54,28 @@ REMCOHORT:rem-c-from-c-time ("č") (1 Sem/Time-clock) ;
 
 # "Pido algau č 12"
 # -> "Pido algau kahtentostu aigah"
-# Alkohol’an käyttö pidäy loppiekseh č 22
+# Alkohol'an käyttö pidäy loppiekseh č 22
 # -> kahtenkymmenen kahten aigah / kahtenkymmenen kahten čuasun aigah
 # Linnan pruazniekku ozutetah televiizoras suorannu lähetyksenny č 18.15 algajen.
 # -> "Linnan pruazniekku ozutetah televiizoras suorannu lähetyksenny kaheksatostu viizitostu algajen"
 
+# Replace dash with "viivu" when first number is 1-9 and second is ≥10
+# (to avoid confusion with compound numerals in speech)
+# 3-10 (kolmen viivu kymmenen) vuvven aloh, BUT 2-3 (kahten kolmen) päivän
+REMCOHORT:rem-dash-viivu MIDDLE
+    IF (-1 ("<[1-9]>"r) + Num)
+       (1 ("<[0-9][0-9]+>"r) + Num) ;
+
+ADDCOHORT:add-viivu ("< viivu >" "viivu" N Sg Nom) AFTER ("<[1-9]>"r) + Num
+    IF (1 ("<[0-9][0-9]+>"r) + Num) ;
+
+# Strip Sg Nom from mwesplit numbers so agreement rules can work
+SUBSTITUTE:strip-sgnom-from-split-digits (Num Arab Sg Nom) (Num Arab)
+                                         TARGET (Num Arab Sg Nom) ;
+
 SUBSTITUTE:digits-agreement-gen (Num Arab) (Num Arab Card Sg Gen)
-                            TARGET (Num Arab)
-                            IF (*1 (Sg Gen) BARRIER (*) - (A Gen) - (N Gen))
-                               (NEGATE 0 NUM)
+                           TARGET (Num Arab)
+                           IF (*1 (Sg Gen) BARRIER (*) - (A Gen) - (N Gen) - ("viivu") - (Num) - MIDDLE)
                                (NEGATE 0 CASE)
                                (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
 
@@ -113,7 +108,6 @@ SUBSTITUTE:digits-agreement-ill (Num Arab) (Num Arab Card Sg Ill)
                                (NEGATE 0 NUM)
                                (NEGATE 0 CASE)
                                (NEGATE 0 Sem/Date OR Sem/Time-clock) ;
-
 
 SUBSTITUTE:digits-after-par-adverbs (Num Arab) (Num Arab Card Sg Par)
                                     TARGET (Num Arab)
@@ -151,6 +145,19 @@ SUBSTITUTE:digits-par-after-negs (A Arab Ord Attr) (A Arab Ord Sg Par)
 #                                    TARGET (Num Arab)
 #                                    IF (-1 MIDDLE) (-2 (Num Arab)) ;
 
-# Vuitti maguau kai 2–3 čuassuu lyhyömbiä yöundu kezäl, migu talvel.
-# -> Vuitti maguau kai kahtes kolmeh čuassuu lyhyömbiä yöundu kezäl, migu talvel.
+# First number in dash-range gets same case as second number
+SUBSTITUTE:digits-range-gen (Num Arab) (Num Arab Card Sg Gen)
+                            TARGET (Num Arab)
+                            IF (1 ("viivu"))
+                               (2 (Num Arab Card Sg Gen))
+                               (NEGATE 0 CASE) ;
 
+SUBSTITUTE:digits-range-gen2 (Num Arab) (Num Arab Card Sg Gen)
+                            TARGET (Num Arab)
+                            IF (1 MIDDLE)
+                               (2 (Num Arab Card Sg Gen))
+                               (NEGATE 0 CASE) ;
+
+# 2-3 (kahten-kolmen) vuvven peräs
+# Vuitti maguau kai 2–3 čuassuu lyhyömbiä yöundu kezäl, migu talvel.
+# -> Vuitti maguau kai kaksi kolme čuassuu lyhyömbiä yöundu kezäl, migu talvel.
