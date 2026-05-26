@@ -16,12 +16,21 @@ TRAB ;
 
 
 LEXICON ITRAB
- e.Kr+Adv:e.Kr  ab-dot-adv-itrab  ;
-  eKr+Adv:eKr   ab-dot-adv-itrab  ;
- j.Kr+Adv:j.Kr  ab-dot-adv-itrab  ;
-  jKr+Adv:jKr   ab-dot-adv-itrab  ;
-  prees+N:prees ab-dot-noun-itrab ;
-     ry+N:ry    ab-dot-noun-itrab ;
+! e.Kr+Adv:e.Kr  ab-dot-adv-itrab  ;
+!  eKr+Adv:eKr   ab-dot-adv-itrab  ;
+! j.Kr+Adv:j.Kr  ab-dot-adv-itrab  ;
+!  jKr+Adv:jKr   ab-dot-adv-itrab  ;
+   preez+N:preez ab-dot-noun-itrab ;
+   ry+N:ry    ab-dot-noun-itrab ;
+   kok+N:kok   ab-dot-noun-itrab ;
+   kesk+N:kesk  ab-dot-noun-itrab ;
+   vas+N:vas   ab-dot-noun-itrab ;
+   vihr+N:vihr  ab-dot-noun-itrab ;
+   ps+N:ps    ab-dot-noun-itrab ;
+   kd+N:kd    ab-dot-noun-itrab ;
+   liik+N:liik  ab-dot-noun-itrab ;
+
+
 
 
 ! =============================================== !
@@ -37,7 +46,21 @@ LEXICON ITRAB
 
 LEXICON TRNUMAB
 
-nro+N:nro ab-noun-trnumab ;
+nr+N:nr ab-noun-trnumab ;
+kg+N:kg    ab-noun-trnumab ; ! kilogrammu
+gr+N:gr    ab-noun-trnumab ; ! grammu
+km+N:km    ab-noun-trnumab ; ! kilometru
+m+N:m      ab-noun-trnumab ; ! metru
+cm+N:cm    ab-noun-trnumab ; ! santimetru
+dl+N:dl    ab-noun-trnumab ; ! dezilitru
+ml+N:ml    ab-noun-trnumab ; ! millilitru
+l+N:l      ab-noun-trnumab ; ! litru
+čl+N:čl    ab-noun-trnumab ; ! čuajuluzikku
+sl+N:sl    ab-noun-trnumab ;
+s+N:s     ab-noun-trnumab ;
+
+
+
 
 
 ! =============================================== !
@@ -49,6 +72,14 @@ LEXICON TRAB
 ! dot% noStb.db
 ! Abbreviations that never induce sentence boundaries
 
-esim+A:esim ab-dot-adj-trab ;
+ezim+Adv:ezim  ab-dot-adv-trab ;
+dmi+Adv:dmi   ab-dot-adv-trab ;
+lmm+Adv:lmm   ab-dot-adv-trab ;
+dmm+Adv:dmm   ab-dot-adv-trab ;
+imi+Adv:imi   ab-dot-adv-trab ;
+ts+Adv:ts    ab-dot-adv-trab ;
+kč+Adv:kč    ab-dot-adv-trab ;
+vrd+Adv:vrd   ab-dot-adv-trab ;
+ms+Adv:ms    ab-dot-adv-trab ;
 
 

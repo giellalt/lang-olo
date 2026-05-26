@@ -161,3 +161,11 @@ SUBSTITUTE:digits-range-gen2 (Num Arab) (Num Arab Card Sg Gen)
 # 2-3 (kahten-kolmen) vuvven peräs
 # Vuitti maguau kai 2–3 čuassuu lyhyömbiä yöundu kezäl, migu talvel.
 # -> Vuitti maguau kai kaksi kolme čuassuu lyhyömbiä yöundu kezäl, migu talvel.
+
+# Replace parentheses around abbreviations
+ADDCOHORT:add-comma-before-abbr ("<, >" "," PUNCT) BEFORE (LEFT) IF (1 ABBR) ;
+REMCOHORT:rem-left-before-abbr (LEFT) (1 ABBR) ;
+REMCOHORT:rem-right-after-abbr (RIGHT) (-1 ABBR) ;
+
+
+
