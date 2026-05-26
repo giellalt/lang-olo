@@ -33,7 +33,7 @@ LIST <firstWordOfParagraph> = <firstWordOfParagraph> ;
 BEFORE-SECTIONS
 
 REMOVE:underdefine-digits (Num Arab Sg Nom)  (0 (Num Arab)) (NEGATE 0 Sem/Date) ;
-SUBSTITUTE:remove-cmphyph-from-acr SUB:1 (Cmp/Hyph) (*) TARGET (ACR) ;
+#SUBSTITUTE:remove-cmphyph-from-acr SUB:1 (Cmp/Hyph) (*) TARGET (ACR) ;
 
 SECTION
 
