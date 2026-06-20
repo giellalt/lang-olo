@@ -68,6 +68,7 @@ endif # CAN_FOMA
 #################################################
 #### Add language-specific build rules here: ####
 
+
 # Hfst - add weights to compounds if using tropical-semiring fst format:
 if WITH_OFST_TROPICAL
 .generated/generator-raw-gt-desc.hfst: .generated/generator-raw-gt-desc.tmp.hfst
@@ -76,12 +77,15 @@ if WITH_OFST_TROPICAL
 		> $@
 endif
 
+
 # We need to add processing of language-specific tags in the analyser:
 .generated/analyser-gt-desc.%: .generated/analyser-gt-desc.tmp.% \
 					filters/remove-derivation-position-tags.% \
-					filters/remove-norm-comp-tags.%
+					filters/remove-norm-comp-tags.% \
+					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-			    @\"filters/remove-derivation-position-tags.$*\" \
+			    @\"filters/remove-usage-tags.$*\" \
+			.o. @\"filters/remove-derivation-position-tags.$*\" \
 			.o. @\"filters/remove-norm-comp-tags.$*\" \
 			.o. @\"$<\"                                         \
 			;\n\
@@ -92,9 +96,11 @@ endif
 # We need to add processing of language-specific tags in the analyser:
 .generated/analyser-dict-gt-desc.%: .generated/analyser-dict-gt-desc.tmp.% \
 					filters/remove-derivation-position-tags.% \
-					filters/remove-norm-comp-tags.%
+					filters/remove-norm-comp-tags.% \
+					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-			    @\"filters/remove-derivation-position-tags.$*\" \
+			    @\"filters/remove-usage-tags.$*\" \
+			.o. @\"filters/remove-derivation-position-tags.$*\" \
 			.o. @\"filters/remove-norm-comp-tags.$*\" \
 			.o. @\"$<\"                                         \
 			;\n\
@@ -106,8 +112,11 @@ endif
 .generated/analyser-dict-gt-desc-mobile.%: .generated/analyser-dict-gt-desc-mobile.tmp.% \
 					filters/remove-derivation-position-tags.% \
 					filters/remove-norm-comp-tags.%
+					filters/remove-norm-comp-tags.% \
+					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-			    @\"filters/remove-derivation-position-tags.$*\" \
+			    @\"filters/remove-usage-tags.$*\" \
+			.o. @\"filters/remove-derivation-position-tags.$*\" \
 			.o. @\"filters/remove-norm-comp-tags.$*\" \
 			.o. @\"$<\"                                         \
 			;\n\
@@ -122,9 +131,11 @@ endif
 					filters/insert-default_left_compounding-tags.% \
 					filters/split-CmpN-tags.% \
 					filters/convert_to_flags-CmpNP-tags.% \
-					filters/split-CmpNP-tags.%
+					filters/split-CmpNP-tags.% \
+					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-			    @\"filters/remove-derivation-position-tags.$*\"        \
+			    @\"filters/remove-usage-tags.$*\" \
+			.o. @\"filters/remove-derivation-position-tags.$*\"        \
 			.o. @\"filters/split-CmpN-tags.$*\"                      \
 			.o. @\"filters/insert-default_left_compounding-tags.$*\" \
 			.o. @\"filters/insert-default-compounding-tags.$*\"      \
@@ -142,9 +153,11 @@ endif
 # a simpler, less restrictive normative fst when building with Xerox:
 .generated/analyser-gt-norm.xfst: .generated/analyser-gt-norm.tmp.xfst \
 					filters/remove-norm-comp-tags.xfst \
-					filters/remove-derivation-position-tags.xfst 
+					filters/remove-derivation-position-tags.xfst \
+					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-			    @\"filters/remove-norm-comp-tags.xfst\" \
+			    @\"filters/remove-usage-tags.xfst\" \
+			.o. @\"filters/remove-norm-comp-tags.xfst\" \
 			.o. @\"filters/remove-derivation-position-tags.xfst\" \
 			.o. @\"$<\"                                         \
 			;\n\
@@ -159,9 +172,11 @@ endif
 				filters/remove-derivation-position-tags.hfst   \
 				filters/remove-norm-comp-tags.hfst \
 				filters/remove-orig_lang-tags.hfst             \
-				filters/rename-POS_before_Der-tags.hfst        
+				filters/rename-POS_before_Der-tags.hfst	\
+				filters/remove-usage-tags.hfst
 	$(AM_V_HXFST)$(PRINTF) "read regex \
-		    @\"filters/remove-derivation-position-tags.hfst\" \
+		    @\"filters/remove-usage-tags.hfst\" \
+		.o. @\"filters/remove-derivation-position-tags.hfst\" \
 		.o. @\"filters/remove-norm-comp-tags.hfst\" \
 		.o. @\"filters/remove-orig_lang-tags.hfst\"           \
 		.o. @\"filters/rename-POS_before_Der-tags.hfst\"      \
@@ -181,9 +196,11 @@ endif
 					filters/remove-norm-comp-tags.% \
 					filters/remove-dialect-tags.%             \
 					filters/remove-homonymy-tags.%            \
-					filters/rename-POS_before_Der-tags.%
+					filters/rename-POS_before_Der-tags.% \
+					filters/remove-usage-tags.% 
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-			    @\"filters/remove-dialect-tags.$*\"            \
+			    @\"filters/remove-usage-tags.$*\" \
+			.o. @\"filters/remove-dialect-tags.$*\"            \
 			.o. @\"filters/remove-homonymy-tags.$*\"           \
 			.o. @\"filters/remove-orig_lang-tags.$*\"          \
 			.o. @\"filters/remove-derivation-position-tags.$*\" \
@@ -203,9 +220,11 @@ define giella_generators
 					 filters/remove-norm-comp-tags.$(1) \
 					 filters/make-optional-coll-tags.$(1)             \
 					 filters/make-optional-lang_hom-tags.$(1)         \
-					 filters/rename_optional-POS_before_Der-tags.$(1) 
+					 filters/rename_optional-POS_before_Der-tags.$(1) \
+					 filters/remove-usage-tags.$(1)
 	$$(AM_V_XFST_TOOL)$$(PRINTF) "read regex \
-			    @\"filters/make-optional-coll-tags.$(1)\"             \
+			    @\"filters/remove-usage-tags.$(1)\" \
+			.o. @\"filters/make-optional-coll-tags.$(1)\"             \
 			.o. @\"filters/make-optional-lang_hom-tags.$(1)\"         \
 			.o. @\"filters/rename_optional-POS_before_Der-tags.$(1)\" \
 			.o. @\"filters/remove-derivation-position-tags.$(1)\"     \
@@ -233,8 +252,6 @@ $(foreach fst,hfst xfst foma,$(eval $(call giella_generators,$(fst))))
 		 $(INVERT_XFST)$(INVERT_FOMA)\
 		 save stack $@\n\
 		 quit\n" | $(XFST_TOOL)
-
-
 
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
