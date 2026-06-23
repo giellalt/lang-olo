@@ -149,21 +149,6 @@ endif
 		 save stack $@\n\
 		 quit\n" | $(XFST_TOOL)
 
-# The operation 'twosided flag-diacritics" crashes Xerox badly, so we do with
-# a simpler, less restrictive normative fst when building with Xerox:
-.generated/analyser-gt-norm.xfst: .generated/analyser-gt-norm.tmp.xfst \
-					filters/remove-norm-comp-tags.xfst \
-					filters/remove-derivation-position-tags.xfst \
-					filters/remove-usage-tags.%
-	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-			    @\"filters/remove-usage-tags.xfst\" \
-			.o. @\"filters/remove-norm-comp-tags.xfst\" \
-			.o. @\"filters/remove-derivation-position-tags.xfst\" \
-			.o. @\"$<\"                                         \
-			;\n\
-		 save stack $@\n\
-		 quit\n" | $(XFST) $(VERBOSITY)
-
 
 # We need special treatment of the disamb fst going to further pmatch processing
 # mainly due to the target pattern, thus listed here. The rule body and the
@@ -235,7 +220,7 @@ define giella_generators
 		 save stack $$@\n\
 		 quit\n" | $$(XFST_TOOL)
 endef
-$(foreach fst,hfst xfst foma,$(eval $(call giella_generators,$(fst))))
+$(foreach fst,hfst foma,$(eval $(call giella_generators,$(fst))))
 
 
 # Dict-fst local modifications and language-specific changes:
