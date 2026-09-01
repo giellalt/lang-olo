@@ -1,0 +1,21 @@
+---
+layout: default
+title: Automatic test logs
+generated: true
+---
+
+<h1>Log files for automatic testing</h1>
+
+<p>
+  GiellaLT language repos run automatic lemma tests on every build. Detailed
+  results for the latest build of <code>{{ site.github.repository_nwo }}</code>
+  are shown below. They are published per build and loaded live — they are not
+  committed to the repository.
+</p>
+
+<div id="testlogs"
+     data-src="https://github.com/{{ site.github.repository_nwo }}/releases/download/docs-latest/testlogs.json">
+  <p class="testlogs-note">Loading latest test results…</p>
+</div>
+
+<script src="{{ '/assets/js/testlogs.js' | relative_url }}" defer></script>
