@@ -13,9 +13,4 @@ generated: true
   committed to the repository.
 </p>
 
-<div id="testlogs"
-     data-src="https://raw.githubusercontent.com/{{ site.github.repository_nwo }}/generated/docs-data/testlogs.json">
-  <p class="testlogs-note">Loading latest test results…</p>
-</div>
-
-<script src="{{ '/assets/js/testlogs.js' | relative_url }}" defer></script>
+{% include testlogs.html %}
